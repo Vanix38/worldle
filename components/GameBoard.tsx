@@ -43,6 +43,18 @@ export function GameBoard({ universeId }: GameBoardProps) {
 
   return (
     <div className="space-y-6">
+      {/* Barre de recherche : élément principal en haut */}
+      <div className="w-full">
+        <CharacterSearch
+          universeId={universeId}
+          onSubmit={submitGuess}
+          disabled={won}
+          guessedIds={guessedIds}
+          className="w-full"
+          size="lg"
+        />
+      </div>
+
       <div className="flex justify-end">
         <button
           type="button"
@@ -96,27 +108,6 @@ export function GameBoard({ universeId }: GameBoardProps) {
             </tr>
           </thead>
           <tbody>
-            {/* Ligne du champ à remplir */}
-            <tr className="border-b border-gray-700 bg-gray-800/50">
-              <td className="px-4 py-2 align-middle">
-                <CharacterSearch
-                  universeId={universeId}
-                  onSubmit={submitGuess}
-                  disabled={won}
-                  guessedIds={guessedIds}
-                  className="w-full min-w-[180px]"
-                />
-              </td>
-              {schema.map((entry) => (
-                <td
-                  key={entry.key}
-                  className="px-3 py-2 text-sm text-gray-500"
-                >
-                  —
-                </td>
-              ))}
-            </tr>
-            {/* Lignes des tentatives */}
             {guessRows.map((row) => (
               <tr
                 key={row.character.id}

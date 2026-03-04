@@ -12,6 +12,8 @@ interface CharacterSearchProps {
   disabled?: boolean;
   guessedIds: string[];
   className?: string;
+  /** Taille du champ : "sm" par défaut, "lg" pour une barre en haut de page */
+  size?: "sm" | "lg";
 }
 
 export function CharacterSearch({
@@ -20,6 +22,7 @@ export function CharacterSearch({
   disabled,
   guessedIds,
   className = "",
+  size = "sm",
 }: CharacterSearchProps) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Character[]>([]);
@@ -87,7 +90,11 @@ export function CharacterSearch({
         onBlur={() => setTimeout(() => setOpen(false), 150)}
         placeholder="Rechercher un personnage..."
         disabled={disabled}
-        className="w-full rounded border border-gray-600 bg-gray-800 px-3 py-2 text-white placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:opacity-50"
+        className={
+          size === "lg"
+            ? "w-full rounded-xl border-2 border-gray-600 bg-gray-800/90 px-5 py-4 text-lg text-white placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 disabled:opacity-50"
+            : "w-full rounded border border-gray-600 bg-gray-800 px-3 py-2 text-white placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:opacity-50"
+        }
         autoComplete="off"
         aria-label="Rechercher un personnage"
         aria-expanded={open}
@@ -100,7 +107,7 @@ export function CharacterSearch({
           ref={listRef}
           id="character-listbox"
           role="listbox"
-          className="absolute top-full left-0 right-0 z-10 mt-1 max-h-56 overflow-auto rounded-lg border border-gray-600 bg-gray-800 py-1 shadow-xl"
+          className={`absolute top-full left-0 right-0 z-10 mt-2 overflow-auto rounded-xl border border-gray-600 bg-gray-800 py-1 shadow-xl ${size === "lg" ? "max-h-72" : "max-h-56"}`}
           aria-label="Suggestions de personnages"
         >
           {results.map((char, i) => (
@@ -112,11 +119,11 @@ export function CharacterSearch({
               aria-selected={i === selectedIndex}
               onClick={() => handleSelect(char)}
               onMouseEnter={() => setSelectedIndex(i)}
-              className={`flex w-full items-center gap-3 px-4 py-2 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none ${
-                i === selectedIndex ? "bg-gray-700" : ""
-              }`}
+              className={`flex w-full items-center gap-3 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none ${
+                size === "lg" ? "px-5 py-3 text-base" : "px-4 py-2"
+              } ${i === selectedIndex ? "bg-gray-700" : ""}`}
             >
-              <CharacterAvatar character={char} size="sm" />
+              <CharacterAvatar character={char} size={size === "lg" ? "md" : "sm"} />
               <span>{char.name}</span>
             </button>
           ))}

@@ -40,7 +40,7 @@ export function CharacterAvatar({
   if (failed) {
     return (
       <div
-        className={`${sizeClass} flex shrink-0 items-center justify-center rounded-full bg-gray-600 font-semibold text-gray-200 ${className}`}
+        className={`${sizeClass} flex shrink-0 items-center justify-center rounded-md bg-gray-600 font-semibold text-gray-200 ${className}`}
         aria-hidden
       >
         {getInitials(character.name)}
@@ -49,12 +49,17 @@ export function CharacterAvatar({
   }
 
   return (
-    <img
-      src={imageUrl}
-      alt=""
-      className={`${sizeClass} shrink-0 rounded-full object-cover ${className}`}
-      loading="lazy"
-      onError={() => setFailed(true)}
-    />
+    <div
+      className={`${sizeClass} shrink-0 overflow-hidden rounded-md ${className}`}
+      aria-hidden
+    >
+      <img
+        src={imageUrl}
+        alt=""
+        className="h-full w-full object-cover object-top scale-125"
+        loading="lazy"
+        onError={() => setFailed(true)}
+      />
+    </div>
   );
 }
