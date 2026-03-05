@@ -1,0 +1,48 @@
+{
+  "title": "Yoshimoto",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Yoshimoto",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "E3C980",
+    "textcolor": "FFFFFF",
+    "nom": "Yoshimoto",
+    "image": "{{Manga-Anime",
+    "nomj": "ヨシモト",
+    "nomr": "''Yoshimoto''",
+    "nomf": "Yoshimoto",
+    "première": "[[Chapitre 157]]; [[Épisode 94]]{{Qref|nom=apparition|tome=18|chapitre=157|episode=94|texte=Yoshimoto apparaît.}}",
+    "occupation": "Propriétaire d'un restaurant",
+    "lieuvie": "[[Nanohana]]",
+    "voj": "Masaya Takatsuka"
+  },
+  "intro": "'''M. Yoshimoto''' (ヨシモト さん, ''Yoshimoto-san'') est le propriétaire du restaurant '''[[Spice Bean]]''' situé à [[Alabasta]].{{Qref|databook = blue deep|page = 74|texte=Le nom de Yoshimoto est révélé.}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "C'est un grand homme d'âge moyen. Il est chauve et porte une toque. Il porte une robe bleue, avec un bord violet qui a des ronds jaunes en motif. Sous sa robe, il a une chemise jaune avec un bord orange.\n{{Galerie2|position=center|width=120|height=120\n|Yoshimoto Portrait.png|Yoshimoto Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Il faisait toujours de son mieux pour sourire pendant que [[Monkey D. Luffy]] mangeait ce qu'il venait de lui servir. Après que Luffy ait envoyé dans le décor [[Portgas D. Ace]] et [[Smoker]], il est vu en train de dire à Luffy de courir, pensant que Ace et Smoker allait le tuer."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Alabasta}}\n{{Cuisiniers Navibox}}\n[[en:Yoshimoto]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Cuisiniers]]\n[[Catégorie:Personnages d'Alabasta]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Cuisiniers",
+    "Personnages d'Alabasta"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = E3C980\n| textcolor         = FFFFFF\n| nom               = Yoshimoto\n| image             = {{Manga-Anime\n| [[Fichier:Yoshimoto Anime Infobox.png|270px]]\n| [[Fichier:Yoshimoto Manga Infobox.png|270px]]}}\n| nomj              = ヨシモト\n| nomr              = ''Yoshimoto''\n| nomf              = Yoshimoto\n| première          = [[Chapitre 157]]; [[Épisode 94]]{{Qref|nom=apparition|tome=18|chapitre=157|episode=94|texte=Yoshimoto apparaît.}}\n| occupation        = Propriétaire d'un restaurant\n| lieuvie           = [[Nanohana]]\n| voj               = Masaya Takatsuka\n}}\n'''M. Yoshimoto''' (ヨシモト さん, ''Yoshimoto-san'') est le propriétaire du restaurant '''[[Spice Bean]]''' situé à [[Alabasta]].{{Qref|databook = blue deep|page = 74|texte=Le nom de Yoshimoto est révélé.}}\n\n==Apparence==\nC'est un grand homme d'âge moyen. Il est chauve et porte une toque. Il porte une robe bleue, avec un bord violet qui a des ronds jaunes en motif. Sous sa robe, il a une chemise jaune avec un bord orange.\n{{Galerie2|position=center|width=120|height=120\n|Yoshimoto Portrait.png|Yoshimoto Portrait\n}}\n\n==Histoire==\nIl faisait toujours de son mieux pour sourire pendant que [[Monkey D. Luffy]] mangeait ce qu'il venait de lui servir. Après que Luffy ait envoyé dans le décor [[Portgas D. Ace]] et [[Smoker]], il est vu en train de dire à Luffy de courir, pensant que Ace et Smoker allait le tuer.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{Alabasta}}\n{{Cuisiniers Navibox}}\n[[en:Yoshimoto]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Cuisiniers]]\n[[Catégorie:Personnages d'Alabasta]]"
+}

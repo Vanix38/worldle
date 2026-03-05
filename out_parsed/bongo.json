@@ -1,0 +1,77 @@
+{
+  "title": "Bongo",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Bongo",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nomimage": "Bongo",
+    "nomj": "凡ゴウ",
+    "nomr": "Bongō",
+    "nomf": "Inconnu",
+    "première": "[[Chapitre 928]] ; [[Épisode 921]]{{Qref|nom=Apparition|chapitre=928|episode=921|texte=Bongo fait sa première apparition.}}",
+    "affiliation": "[[Pays de Wa]]",
+    "statut": "Vivant",
+    "lieuvie": "Capitale fleurie <small>(anciennement)</small> <br>Village d'Ebisu{{Qref|nom=c940|chapitre=940|texte=Bingo, Bungo et Bongo sont vus au village d'Ebisu.}}",
+    "occupation": "Vendeur de bois{{Qref|nom=c940}} <br>Pilleur de tombes <small>(anciennement)</small>{{Qref|nom=c953|chapitre=953|page=14|episode=|texte=[[Kawamatsu]] repousse les pilleurs de tombes sous le nom de Gyukimaru, accompagné d'[[Onimaru]].}}",
+    "voj": "Hiromu Miyazaki",
+    "vof": "",
+    "nom": "Bongo}"
+  },
+  "intro": "'''Bongo''' était un commerçant de la Capitale Fleurie du [[Pays des Wa]], avant d'être exilé au village d'Ebisu.{{Qref|nom=Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Bongo est un homme large avec des cheveux gris noués en chignon, comme la plupart des habitants de [[Pays des Wa|Wano]]. Il porte un kimono clair à pois avec une cape noire par dessus.\n{{Galerie2|position=center|width=120|height=120\n|Bongo Portrait.png|Bongo Portrait\n|Bongo avant la pauvreté.png|Bongo avant de perdre sa richesse\n|Bongo il y a 13 ans.png|Bongo il y a 13 ans\n|Bongo Anime Concept Art.png|Concept Art de Bongo pour l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Bongo est un vendeur de bois qui a profité du fait que Bungo brûle de nombreuses maisons sans remords, soudoyant des personnages importants pour éviter d'être capturé. Bongo, [[Bingo]] et lui travaillaient ensemble pour gagner le plus d'argent possible.{{Qref|nom=c940}}\n\nIl était tombé amoureux de [[Komurasaki]], et a tout fait pour récupérer assez d'argent pour l'acheter, allant jusqu'à vendre sa maison et sa famille. Sa passion dévorante lui a donné une confiance aveugle envers Komurasaki.\n\nAprès avoir réalisé que Komurasaki l'avait ruiné, il est devenu désespéré et a même tenté de tuer la courtisane pour se venger, sans même se soucier du fait qu'il puisse être tué.{{Qref|nom=Apparition}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "C'est un homme qui n'est pas doté d'une force physique considérable. Il était auparavant doté d'une grande fortune."
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Il manie un couteau lors de son attaque contre Komurasaki, mais il n'a pas eu une seule chance contre un garde qui la protège.{{Qref|nom=Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Il y a 13, [[Bingo]], [[Bungo]] et Bongo on essayé de volé des katanas aux \"tombes éternelles\" mais ils ont été repoussés par [[Kawamatsu]] et [[Onimaru]].{{Qref|nom=c953}}\n\nQuand ils vivaient dans la capitale fleurie, [[Bungo]] brûlait des maisons, ce qui donnait l'opportunité à Bongo de leur vendre du bois à un bon prix, pendant que [[Bingo]] leur vendait ses conseils de prêtre. Ils donnaient des pots-de-vin à des personnages importants pour éviter d'être emprisonnés.{{Qref|nom=c940}}\n\nIl a été courtisé par [[Komurasaki]], qui lui a fait croire qu'elle était tombée amoureuse de lui, mais que sa vie appartenait au Shogun. Pour acheter sa liberté, Bungo a alors commencé à économiser et vendre ses propriétés, allant jusqu'à vendre sa famille avec, pour donner toute sa fortune à Komurasaki en qui il avait pleinement confiance. Après avoir donné la dernière partie qu'il manquait, il s'est rendu compte qu'elle lui avait tout pris sans rien lui laisser."
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\nBingo, Bongo et Bungo ont décidé de se venger et de tuer Komurasaki alors que sa procession se rendait jusqu'au château du Shogun [[Kurozumi Orochi]]. Ils ont été arrêtés par un garde du corps qui les a empêché d'atteindre Komurasaki. Ils ont été alors arrêtés par des gardes de la [[Pays des Wa#Capitale des fleurs|Capitale Fleurie]] et exilés, car ceux qui n'ont pas d'argent n'ont pas de droit de résidence dans la capitale.{{Qref|nom=Apparition}} Ils se sont retrouvés au village d'Ebisu, où [[Tonoyasu]] les a accueillis.{{Qref|nom=c940}}"
+    },
+    {
+      "level": 2,
+      "title": "Batailles principales",
+      "content": "*Bongo contre un garde de [[Komurasaki]] = Défaite"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n{{Voleurs}}\n[[ca:Bongo]]\n[[en:Bongo]]\n[[pt:Bongo]]\n[[Catégorie:Humains]]\n[[Catégorie:Commerçants]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Voleurs]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Commerçants",
+    "Personnages Masculins",
+    "Personnages de Wa",
+    "Voleurs"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor       = F8674F\n| textcolor       = 006442\n| nomimage          = Bongo\n| nomj            = 凡ゴウ\n| nomr            = Bongō\n| nomf            = Inconnu\n| première        = [[Chapitre 928]] ; [[Épisode 921]]{{Qref|nom=Apparition|chapitre=928|episode=921|texte=Bongo fait sa première apparition.}}\n| affiliation     = [[Pays de Wa]]\n| statut          = Vivant\n| lieuvie         = Capitale fleurie <small>(anciennement)</small> <br>Village d'Ebisu{{Qref|nom=c940|chapitre=940|texte=Bingo, Bungo et Bongo sont vus au village d'Ebisu.}}\n| occupation      = Vendeur de bois{{Qref|nom=c940}} <br>Pilleur de tombes <small>(anciennement)</small>{{Qref|nom=c953|chapitre=953|page=14|episode=|texte=[[Kawamatsu]] repousse les pilleurs de tombes sous le nom de Gyukimaru, accompagné d'[[Onimaru]].}}\n| voj             = Hiromu Miyazaki\n| vof             = \n|nom=Bongo}}\n'''Bongo''' était un commerçant de la Capitale Fleurie du [[Pays des Wa]], avant d'être exilé au village d'Ebisu.{{Qref|nom=Apparition}}\n\n==Apparence==\nBongo est un homme large avec des cheveux gris noués en chignon, comme la plupart des habitants de [[Pays des Wa|Wano]]. Il porte un kimono clair à pois avec une cape noire par dessus.\n{{Galerie2|position=center|width=120|height=120\n|Bongo Portrait.png|Bongo Portrait\n|Bongo avant la pauvreté.png|Bongo avant de perdre sa richesse\n|Bongo il y a 13 ans.png|Bongo il y a 13 ans\n|Bongo Anime Concept Art.png|Concept Art de Bongo pour l'anime\n}}\n==Personnalité==\nBongo est un vendeur de bois qui a profité du fait que Bungo brûle de nombreuses maisons sans remords, soudoyant des personnages importants pour éviter d'être capturé. Bongo, [[Bingo]] et lui travaillaient ensemble pour gagner le plus d'argent possible.{{Qref|nom=c940}}\n\nIl était tombé amoureux de [[Komurasaki]], et a tout fait pour récupérer assez d'argent pour l'acheter, allant jusqu'à vendre sa maison et sa famille. Sa passion dévorante lui a donné une confiance aveugle envers Komurasaki.\n\nAprès avoir réalisé que Komurasaki l'avait ruiné, il est devenu désespéré et a même tenté de tuer la courtisane pour se venger, sans même se soucier du fait qu'il puisse être tué.{{Qref|nom=Apparition}}\n\n==Aptitudes et compétences==\nC'est un homme qui n'est pas doté d'une force physique considérable. Il était auparavant doté d'une grande fortune.\n\n===Armes===\nIl manie un couteau lors de son attaque contre Komurasaki, mais il n'a pas eu une seule chance contre un garde qui la protège.{{Qref|nom=Apparition}}\n\n==Histoire==\n===Passé===\nIl y a 13, [[Bingo]], [[Bungo]] et Bongo on essayé de volé des katanas aux \"tombes éternelles\" mais ils ont été repoussés par [[Kawamatsu]] et [[Onimaru]].{{Qref|nom=c953}}\n\nQuand ils vivaient dans la capitale fleurie, [[Bungo]] brûlait des maisons, ce qui donnait l'opportunité à Bongo de leur vendre du bois à un bon prix, pendant que [[Bingo]] leur vendait ses conseils de prêtre. Ils donnaient des pots-de-vin à des personnages importants pour éviter d'être emprisonnés.{{Qref|nom=c940}}\n\nIl a été courtisé par [[Komurasaki]], qui lui a fait croire qu'elle était tombée amoureuse de lui, mais que sa vie appartenait au Shogun. Pour acheter sa liberté, Bungo a alors commencé à économiser et vendre ses propriétés, allant jusqu'à vendre sa famille avec, pour donner toute sa fortune à Komurasaki en qui il avait pleinement confiance. Après avoir donné la dernière partie qu'il manquait, il s'est rendu compte qu'elle lui avait tout pris sans rien lui laisser.\n\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\nBingo, Bongo et Bungo ont décidé de se venger et de tuer Komurasaki alors que sa procession se rendait jusqu'au château du Shogun [[Kurozumi Orochi]]. Ils ont été arrêtés par un garde du corps qui les a empêché d'atteindre Komurasaki. Ils ont été alors arrêtés par des gardes de la [[Pays des Wa#Capitale des fleurs|Capitale Fleurie]] et exilés, car ceux qui n'ont pas d'argent n'ont pas de droit de résidence dans la capitale.{{Qref|nom=Apparition}} Ils se sont retrouvés au village d'Ebisu, où [[Tonoyasu]] les a accueillis.{{Qref|nom=c940}}\n\n==Batailles principales==\n*Bongo contre un garde de [[Komurasaki]] = Défaite\n\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{PaysDeWa}}\n{{Voleurs}}\n[[ca:Bongo]]\n[[en:Bongo]]\n[[pt:Bongo]]\n[[Catégorie:Humains]]\n[[Catégorie:Commerçants]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Voleurs]]"
+}

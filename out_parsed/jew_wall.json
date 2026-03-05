@@ -1,0 +1,46 @@
+{
+  "title": "Jew Wall",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Jew_Wall",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "808080",
+    "textcolor": "FFFFFF",
+    "nom": "Jew Wall",
+    "image": "[[Fichier:Image Non Disponible.png|290px]]",
+    "nomj": "ジュー＝ウォール",
+    "nomr": "''Jū Wōru''",
+    "nomf": "Jew Wahl{{Qref|nom=blue|databook=blue|page=78|texte=Fiche sur Jew Wahl.}}",
+    "première": "[[Chapitre 222]] ;[[Épisode 146]]{{Qref|nom=c222|chapitre=222|episode=146|texte=Jew Wall est mentionné comme l'auteur d'un rapport sur [[Mock Town]].}}",
+    "occupation": "Explorateur"
+  },
+  "intro": "'''Jew Wall''' (ジュー＝ウォール, ''Jū Wōru'') est un explorateur{{Qref|nom=blue}} qui est passé par [[Mock Town]], qui est référée comme un \"Lieu de Perdition\" dans son [[Journaux de Bord|journal de bord]].{{Qref|nom=c222}}",
+  "sections": [
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Il y a longtemps, Jew Wall a rédigé un rapport sur la ville de [[Mock Town]], dans lequel il l'appelle la \"Ville des Moqueries\".{{Qref|nom=c222}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*La prononciation de \"Jew Wall\" ressemble à \"jewel\", soit ''bijou'' en anglais."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Histoire Navibox}}\n{{Jaya Navibox}}\n{{Explorateurs}}\n[[en:Jew Wall]]\n[[it:Jue Wall]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Explorateurs]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Explorateurs",
+    "Personnages Uniquement Mentionnés"
+  ],
+  "raw_wikitext": "{{Char_box\n| backcolor     = 808080\n| textcolor     = FFFFFF\n| nom           = Jew Wall\n| image         = [[Fichier:Image Non Disponible.png|290px]]\n| nomj          = ジュー＝ウォール\n| nomr          = ''Jū Wōru''\n| nomf          = Jew Wahl{{Qref|nom=blue|databook=blue|page=78|texte=Fiche sur Jew Wahl.}}\n| première      = [[Chapitre 222]] ;[[Épisode 146]]{{Qref|nom=c222|chapitre=222|episode=146|texte=Jew Wall est mentionné comme l'auteur d'un rapport sur [[Mock Town]].}}\n| occupation    = Explorateur\n}}\n'''Jew Wall''' (ジュー＝ウォール, ''Jū Wōru'') est un explorateur{{Qref|nom=blue}} qui est passé par [[Mock Town]], qui est référée comme un \"Lieu de Perdition\" dans son [[Journaux de Bord|journal de bord]].{{Qref|nom=c222}}\n\n==Histoire==\n===Passé===\nIl y a longtemps, Jew Wall a rédigé un rapport sur la ville de [[Mock Town]], dans lequel il l'appelle la \"Ville des Moqueries\".{{Qref|nom=c222}}\n\n==Futilités==\n*La prononciation de \"Jew Wall\" ressemble à \"jewel\", soit ''bijou'' en anglais.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Histoire Navibox}}\n{{Jaya Navibox}}\n{{Explorateurs}}\n[[en:Jew Wall]]\n[[it:Jue Wall]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Explorateurs]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+}

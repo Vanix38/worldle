@@ -1,0 +1,97 @@
+{
+  "title": "Speed Jill",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Speed_Jill",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "800080",
+    "textcolor": "FFFFFF",
+    "nom": "Speed Jill",
+    "nomimage": "Speed Jill",
+    "nomj": "スピード・ジル",
+    "nomr": "''Supīdo Jiru''",
+    "nomf": "Speed Jill",
+    "première": "[[Chapitre 553]] ; [[Épisode 461]]",
+    "affiliation": "[[L'Équipage de Barbe Blanche]]",
+    "origine": "[[East Blue]]{{Qref|nom=Vivre|databook=vivre|page = 0608|texte=}}",
+    "occupation": "[[Commandant (pirate)|Commandant]] de la 14<sup>ème</sup> Division <br>[[Pirate]]",
+    "voj": "[http://fr.wikipedia.org/wiki/Y%C5%ABsuke_Numata Yūsuke Numata]",
+    "vof": "Inconnue",
+    "naissance": "6 Avril{{Qref|nom = blue deep|databook = blue deep|page = 95-96|texte=}}",
+    "taille": "2m36{{Qref|nom = blue deep}}",
+    "prime": "Inconnue"
+  },
+  "intro": "'''Speed Jill''' (スピード・ジル, ''Supīdo Jiru''),{{Qref|sbs = 58|texte = Le nom des commandants de Barbe Blanche est donné.}} est le commandant de la 14ᵉ flotte de [[Barbe Blanche]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Speed Jill a un visage enfantin. Il s'habille d'une façon étrange qui ressemble à celle des chevaliers du Moyen Âge. Il est vêtu de blanc et rouge écarlate et n'oublie pas de nous faire remarquer qu'il est [[Commandant]] de la 14ᵉ flotte, puisqu'il porte l'emblème de [[Barbe Blanche]] sur son chapeau, sur sa tunique, et sur son bouclier.\n\n{{Galerie2\n|Speed Jill Portrait.png|Portrait de Speed Jill\n|Speed Jill Anime Concept Art.png|Concept Art de Speed Jill pour l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Speed Jill peut être quelqu'un de gentil et détendu, mais lorsqu'il combat, il n'a aucune pitié pour l'ennemi."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "En tant que commandant de la 14ᵉ flotte, Speed Jill a autorité sur les subordonnés de rang inférieur.\n\nDans l'animé, fidèle à son nom, il est démontré que ses mouvements sont extrêmement rapides. Une preuve de cela, est lorsque l'amiral [[Kizaru]] a lancé un faisceau laser pour que sa division et lui ne puisse se rapprocher d'[[Little Oars Jr.]], il a été vu l'esquiver en sautant en arrière, en commentant \"la vitesse de la lumière\" de Kizaru. En outre, la combinaison de sa force et de son agilité est stupéfiante, comme on le voit quand il se précipite pour combattre les Marines, en une fraction de seconde, une partie d'entre eux a facilement été éliminé."
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Speed Jill utilise une lance qui produit des explosions et un bouclier du type du Moyen Âge pour se battre."
+    },
+    {
+      "level": 3,
+      "title": "Arc Marine Ford",
+      "content": "{{Main|Arc Marine Ford}}\n[[Fichier:Speed jiru au début de la guerre.jpg|thumb|150px|Speed Jill au début de la guerre]]\nIl est d'abord vu, avec les autres pirates de [[Barbe Blanche]], dans la baie de [[Marine Ford]], prêt à sauver [[Ace]]. Il était parmi les commandants qui ont protégé [[Luffy]] lorsque celui-ci a été attaqué par l'[[amiral]] [[Kizaru]]. Il a attaqué la Plaza avec ses camarades et a été choqué d'entendre la volonté de Barbe Blanche de se sacrifier pour ses fils. Quand Ace a prononcé ses derniers mots, il a été aperçu en train de pleurer."
+    },
+    {
+      "level": 3,
+      "title": "Arc Post-Marine Ford",
+      "content": "{{Main|Arc Post-Marine Ford}}\nIl a été vu, en même temps que le reste de l'équipage et celui de [[Shanks]], assistant aux funérailles de [[Barbe Blanche]] et d'Ace sur une île inconnue quelque part dans le [[Nouveau Monde]]."
+    },
+    {
+      "level": 3,
+      "title": "Informations Post-Ellipse",
+      "content": "Durant l'[[Arc Zou]], on apprend que les anciens pirates de Barbe Blanche ont subi une défaite importante contre les pirates de Barbe Noire lors d'une guerre nommée \"[[Guerre de la Vengeance]]\". Par ailleurs, cette guerre aurait, en grande partie, contribué à établir la position d'Empereur de Barbe Noire, prenant ainsi la succession du défunt Barbe Blanche, à ce rang.\n\nAprès cette défaite qualifiée d'écrasante par Robin, Speed Jill sera porté disparu à l'instar de tous les anciens commandants des pirates de Barbe Blanche.<ref>''One Piece Manga et Anime'' - [[Tome 82]], [[Chapitre 820]], [[Épisode 773]] - Les Chapeaux de Paille et les Minks apprennent à Luffy le résultat de la Guerre de la Vengeance.</ref>"
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "{{Batailles\n| backcolor         = #800080\n| textcolor         = #FFFFFF\n|Batailles = *L'Équipage de Barbe Blanche et ses Alliés vs Marine et [[Pirates/Sept grands corsaire|sept grands corsaires]] = Défaite\n*Speed Jill vs Officiers de la Marine = Victoire\n*Commandants de Barbe Blanche, [[Crocodile]], [[Andre]] vs [[Akainu]] = Interrompu\n*L'Équipage des Anciens Pirates de Barbe Blanche vs [[L'Équipage de Barbe Noire]] = Défaite (non vue)}}"
+    },
+    {
+      "level": 3,
+      "title": "= Jouable =",
+      "content": "* [[One Piece Treasure Cruise]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "* Le chapeau que porte Speed ressemble à un [https://fr.wikipedia.org/wiki/Fez_(coiffure) Fez], un couvre-chef masculin en feutre, souvent rouge, en forme de cône tronqué, orné d'un gland noir fixé sur le dessus."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Barbe Blanche}}\n{{Utilisateurs d'Arme d'Hast}}\n{{Combattants qui utilisent des Armes}}\n[[en:Speed Jiru]]\n[[ru:Спид Дзиру]]\n[[es:Speed Jiru]]\n[[it:Speed Jil]]\n[[de:Speed Jill]]\n[[ca:Speed Jiru]]\n[[Catégorie:Équipage de Barbe Blanche]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Commandants Pirates]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages de Marineford]]\n[[Catégorie:Personnages d'East Blue]]\n[[Catégorie:Utilisateurs de Bouclier]]\n[[Catégorie:Utilisateurs de Lance de Joute]]"
+    }
+  ],
+  "categories": [
+    "Équipage de Barbe Blanche",
+    "Personnages Masculins",
+    "Commandants Pirates",
+    "Humains",
+    "Personnages de Marineford",
+    "Personnages d'East Blue",
+    "Utilisateurs de Bouclier",
+    "Utilisateurs de Lance de Joute"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 800080\n| textcolor         = FFFFFF\n| nom               = Speed Jill\n| nomimage          = Speed Jill\n| nomj              = スピード・ジル\n| nomr              = ''Supīdo Jiru''\n| nomf              = Speed Jill\n| première          = [[Chapitre 553]] ; [[Épisode 461]]\n| affiliation       = [[L'Équipage de Barbe Blanche]]\n| origine           = [[East Blue]]{{Qref|nom=Vivre|databook=vivre|page = 0608|texte=}}\n| occupation        = [[Commandant (pirate)|Commandant]] de la 14<sup>ème</sup> Division <br>[[Pirate]]\n| voj               = [http://fr.wikipedia.org/wiki/Y%C5%ABsuke_Numata Yūsuke Numata]\n| vof               = Inconnue\n| naissance         = 6 Avril{{Qref|nom = blue deep|databook = blue deep|page = 95-96|texte=}}\n| taille            = 2m36{{Qref|nom = blue deep}}\n| prime             = Inconnue\n}}\n'''Speed Jill''' (スピード・ジル, ''Supīdo Jiru''),{{Qref|sbs = 58|texte = Le nom des commandants de Barbe Blanche est donné.}} est le commandant de la 14ᵉ flotte de [[Barbe Blanche]].\n\n==Apparence==\nSpeed Jill a un visage enfantin. Il s'habille d'une façon étrange qui ressemble à celle des chevaliers du Moyen Âge. Il est vêtu de blanc et rouge écarlate et n'oublie pas de nous faire remarquer qu'il est [[Commandant]] de la 14ᵉ flotte, puisqu'il porte l'emblème de [[Barbe Blanche]] sur son chapeau, sur sa tunique, et sur son bouclier.\n\n{{Galerie2\n|Speed Jill Portrait.png|Portrait de Speed Jill\n|Speed Jill Anime Concept Art.png|Concept Art de Speed Jill pour l'anime\n}}\n\n==Personnalité==\nSpeed Jill peut être quelqu'un de gentil et détendu, mais lorsqu'il combat, il n'a aucune pitié pour l'ennemi. \n\n==Aptitudes et Compétences==\nEn tant que commandant de la 14ᵉ flotte, Speed Jill a autorité sur les subordonnés de rang inférieur.\n\nDans l'animé, fidèle à son nom, il est démontré que ses mouvements sont extrêmement rapides. Une preuve de cela, est lorsque l'amiral [[Kizaru]] a lancé un faisceau laser pour que sa division et lui ne puisse se rapprocher d'[[Little Oars Jr.]], il a été vu l'esquiver en sautant en arrière, en commentant \"la vitesse de la lumière\" de Kizaru. En outre, la combinaison de sa force et de son agilité est stupéfiante, comme on le voit quand il se précipite pour combattre les Marines, en une fraction de seconde, une partie d'entre eux a facilement été éliminé.\n\n===Armes===\nSpeed Jill utilise une lance qui produit des explosions et un bouclier du type du Moyen Âge pour se battre.\n\n==Histoire==\n===Arc Marine Ford===\n{{Main|Arc Marine Ford}}\n[[Fichier:Speed jiru au début de la guerre.jpg|thumb|150px|Speed Jill au début de la guerre]]\nIl est d'abord vu, avec les autres pirates de [[Barbe Blanche]], dans la baie de [[Marine Ford]], prêt à sauver [[Ace]]. Il était parmi les commandants qui ont protégé [[Luffy]] lorsque celui-ci a été attaqué par l'[[amiral]] [[Kizaru]]. Il a attaqué la Plaza avec ses camarades et a été choqué d'entendre la volonté de Barbe Blanche de se sacrifier pour ses fils. Quand Ace a prononcé ses derniers mots, il a été aperçu en train de pleurer.\n\n===Arc Post-Marine Ford===\n{{Main|Arc Post-Marine Ford}}\nIl a été vu, en même temps que le reste de l'équipage et celui de [[Shanks]], assistant aux funérailles de [[Barbe Blanche]] et d'Ace sur une île inconnue quelque part dans le [[Nouveau Monde]].\n\n=== Informations Post-Ellipse ===\nDurant l'[[Arc Zou]], on apprend que les anciens pirates de Barbe Blanche ont subi une défaite importante contre les pirates de Barbe Noire lors d'une guerre nommée \"[[Guerre de la Vengeance]]\". Par ailleurs, cette guerre aurait, en grande partie, contribué à établir la position d'Empereur de Barbe Noire, prenant ainsi la succession du défunt Barbe Blanche, à ce rang.\n\nAprès cette défaite qualifiée d'écrasante par Robin, Speed Jill sera porté disparu à l'instar de tous les anciens commandants des pirates de Barbe Blanche.<ref>''One Piece Manga et Anime'' - [[Tome 82]], [[Chapitre 820]], [[Épisode 773]] - Les Chapeaux de Paille et les Minks apprennent à Luffy le résultat de la Guerre de la Vengeance.</ref>\n\n==Batailles Principales==\n{{Batailles\n| backcolor         = #800080\n| textcolor         = #FFFFFF\n|Batailles = *L'Équipage de Barbe Blanche et ses Alliés vs Marine et [[Pirates/Sept grands corsaire|sept grands corsaires]] = Défaite\n*Speed Jill vs Officiers de la Marine = Victoire\n*Commandants de Barbe Blanche, [[Crocodile]], [[Andre]] vs [[Akainu]] = Interrompu\n*L'Équipage des Anciens Pirates de Barbe Blanche vs [[L'Équipage de Barbe Noire]] = Défaite (non vue)}}\n\n== Marchandise ==\n=== Jeux vidéo ===\n==== Jouable ====\n* [[One Piece Treasure Cruise]]\n\n== Futilités ==\n* Le chapeau que porte Speed ressemble à un [https://fr.wikipedia.org/wiki/Fez_(coiffure) Fez], un couvre-chef masculin en feutre, souvent rouge, en forme de cône tronqué, orné d'un gland noir fixé sur le dessus. \n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Barbe Blanche}}\n{{Utilisateurs d'Arme d'Hast}}\n{{Combattants qui utilisent des Armes}}\n[[en:Speed Jiru]]\n[[ru:Спид Дзиру]]\n[[es:Speed Jiru]]\n[[it:Speed Jil]]\n[[de:Speed Jill]]\n[[ca:Speed Jiru]]\n[[Catégorie:Équipage de Barbe Blanche]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Commandants Pirates]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages de Marineford]]\n[[Catégorie:Personnages d'East Blue]]\n[[Catégorie:Utilisateurs de Bouclier]]\n[[Catégorie:Utilisateurs de Lance de Joute]]"
+}

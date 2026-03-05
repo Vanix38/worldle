@@ -1,0 +1,58 @@
+{
+  "title": "Uraya Mashikatta",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Uraya_Mashikatta",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "FFFFFF",
+    "nom": "Uraya Mashikatta",
+    "image": "{{Manga-Anime",
+    "nomj": "ウラヤ・マシカッタ",
+    "nomr": "Uraya Mashikatta",
+    "nomf": "",
+    "première": "[[Chapitre 956]] ; [[Épisode 957]]{{Qref|nom=c956|chapitre=956|episode=957|texte=Uraya Mashikatta apparait pour la première fois}}",
+    "affiliation": "",
+    "occupation": "Pirate",
+    "statut": "Vivant",
+    "voj": ""
+  },
+  "intro": "Uraya Mashikatta{{Qref|nom=vivre|databook=vivre|page=1414|texte=Diverses informations sur Mashikatta sont données.}} est un pirate.{{Qref|nom=c956}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Uraya Mashikatta est un homme mince aux cheveux longs et châtain clair, au grand nez proéminent et à la mâchoire acérée. Il porte un chapeau bleu et un manteau cramoisi.{{Qref|nom=c956}}\n{{Galerie2|position=center|width=120|height=120\n|Uraya Mashikatta Portrait.png|Visage de Uraya Mashikatta\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On sait peu de choses sur la personnalité de Mashikatta, mais il s'est montré hostile au système des Sept Grands Corsaires, applaudissant son abolition.{{Qref|nom=c956}}\n\nIl semble aimer boire, on le voit assis par terre dans une ruelle ivre ; dans l'anime, il est entouré d'au moins six bouteilles.{{Qref|episode=957}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Pays des Wa|Arc Wano Kuni]]",
+      "content": "Mashikatta était assis dans une ruelle, en train de boire, lorsque l'abolition du système des [[Sept Grands Corsaires]] a été annoncée. En entendant la nouvelle, il a ri, insultant les anciens [[Sept Grands Corsaires]],{{Qref|nom=c956}} et il célébra en buvant encore plus jusqu'à s'évanouir ivre.{{Qref|nom=vivre}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Son nom est un jeu de mots sur l'expression japonaise urayamashikatta (羨ましかった?, « J'étais envieux »), ce qui implique que son hostilité envers les seigneurs de guerre vient de l'envie."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "[[en:Uraya Mashikatta]]\n[[Catégorie:Pirates]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]"
+    }
+  ],
+  "categories": [
+    "Pirates",
+    "Personnages Masculins",
+    "Humains"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = FFFFFF\n| nom               = Uraya Mashikatta\n| image             = {{Manga-Anime\n|[[Fichier:Uraya Mashikatta Anime Infobox.png|270px]]\n|[[Fichier:Uraya Mashikatta Manga Infobox.png|270px]]\n}}\n| nomj              =ウラヤ・マシカッタ \n| nomr              =Uraya Mashikatta \n| nomf              = \n| première          = [[Chapitre 956]] ; [[Épisode 957]]{{Qref|nom=c956|chapitre=956|episode=957|texte=Uraya Mashikatta apparait pour la première fois}}\n| affiliation       = \n| occupation        = Pirate\n| statut            = Vivant\n| voj               = \n}}\n\nUraya Mashikatta{{Qref|nom=vivre|databook=vivre|page=1414|texte=Diverses informations sur Mashikatta sont données.}} est un pirate.{{Qref|nom=c956}}\n\n==Apparence==\nUraya Mashikatta est un homme mince aux cheveux longs et châtain clair, au grand nez proéminent et à la mâchoire acérée. Il porte un chapeau bleu et un manteau cramoisi.{{Qref|nom=c956}}\n{{Galerie2|position=center|width=120|height=120\n|Uraya Mashikatta Portrait.png|Visage de Uraya Mashikatta\n}}\n==Personnalité==\nOn sait peu de choses sur la personnalité de Mashikatta, mais il s'est montré hostile au système des Sept Grands Corsaires, applaudissant son abolition.{{Qref|nom=c956}}\n\nIl semble aimer boire, on le voit assis par terre dans une ruelle ivre ; dans l'anime, il est entouré d'au moins six bouteilles.{{Qref|episode=957}}\n\n==Histoire==\n===[[Arc Pays des Wa|Arc Wano Kuni]]===\nMashikatta était assis dans une ruelle, en train de boire, lorsque l'abolition du système des [[Sept Grands Corsaires]] a été annoncée. En entendant la nouvelle, il a ri, insultant les anciens [[Sept Grands Corsaires]],{{Qref|nom=c956}} et il célébra en buvant encore plus jusqu'à s'évanouir ivre.{{Qref|nom=vivre}}\n\n==Futilité==\n*Son nom est un jeu de mots sur l'expression japonaise urayamashikatta (羨ましかった?, « J'étais envieux »), ce qui implique que son hostilité envers les seigneurs de guerre vient de l'envie.\n\n==Références==\n<references />\n\n==Navigation du Site==\n[[en:Uraya Mashikatta]]\n[[Catégorie:Pirates]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]"
+}

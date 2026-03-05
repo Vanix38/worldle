@@ -1,0 +1,65 @@
+{
+  "title": "Furrari",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Furrari",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "D4AF37",
+    "textcolor": "848482",
+    "nom": "Furrari",
+    "nomimage": "Furrari",
+    "nomj": "フラーリ",
+    "nomr": "''Furāri''",
+    "nomf": "",
+    "première": "[[Chapitre 906]]; [[Épisode 884]]{{Qref|nom=c906|tome = |chapitre = 906|page =7|episode = 884|texte = Furrari apparaît et veut que son fils fasse connaissance avec Shirahoshi.}}",
+    "affiliation": "[[Lev Ely]]{{Qref|nom=c908|tome = |chapitre = 908|page = 12-13|episode = 889|texte = Furrari prend part à la [[Levely]].}}",
+    "lieuvie": "[[Royaume de Botte]] (ナガグツ王国, ''Nagagutsu Ōkoku''){{Qref|nom=vivre|databook=vivre card|page=1210|texte=Furrari est nommé.}}",
+    "statut": "Vivant",
+    "occupation": "[[Roi]]",
+    "voj": "Volcano Ōta"
+  },
+  "intro": "''Furrari'''{{Qref|nom=vivre}} est le roi du '''[[Royaume de Botte]]''' (ナガグツ王国, ''Nagagutsu Ōkoku''). Il est l'un des 50 monarques qui participent à la [[Lev Ely|Rêverie]].{{Qref|nom=c908}} Il est le père de [[Tritobu]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Furrari est un homme d'âge mûr et trapu avec un visage large, des pommettes hautes, une grosse moustache épaisse et un nez large, avec des yeux relativement petits. Ses cheveux sont ondulés et de couleur blond pâle. Il a un menton proéminent.\n\nIl porte un costume sombre avec une chemise légère en dessous, des bijoux autour du cou et une broche en forme de soleil sur le côté gauche du col de son costume. Il porte également un chapeau en forme de fedora avec sa couronne ressemblant à un petit château doré de forme carrée. Il semble souvent fumer un cigare.\n\nLors de ses différentes apparitions, son apparence change. Lorsque la Levely commence, il a un costume beige avec une cravate, ses cheveux sont désormais bleus pâles, et sa moustache est devenue noire. On voit une cicatrice sur son menton et son chapeau est un fedora simple.{{Qref|nom=e889|episode = 889|texte = Furrari est vu au commencement de la Levely avec les cheveux bleus pâles et une cicatrice.}}\n\nPendant le flashback de [[Monkey D. Garp]], on voit Furrari avec le chapeau qu'il porte dans le manga, mais noir au lieu de doré avec un bandeau vert à pois. il ne porte plus de cravate mais un haut violet avec un collier rouge.{{Qref|nom=e957|episode = 957|texte = Furrari est vu pendant la Levely sans cicatrice et avec un haut violet.}}\n\n{{Galerie2\n|Furrari Portrait.png|Furrari Portrait\n|Furrari Épisode 889.png|Furrari dans l'[[Épisode 889]]\n|Furrari Épisode 957.png|Furrari dans l'[[Épisode 957]]\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Il a été offensé lorsque Shirahoshi a rejeté un mariage arrangé avec son fils. Il pourrait également être argumentatif en discutant avec véhémence avec Ramen."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "En tant que Roi d'un pays rattaché au [[Gouvernement Mondial]], il possède toute autorité sur les citoyens de son pays, et il est l'un des rares dirigeants qui participent à la [[Lev Ely|Rêverie]], ce qui lui donne un rôle actif dans les décisions prises au niveau mondial.{{Qref|nom=c908}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Rêverie]]",
+      "content": "Furrari est arrivé à [[Mary Geoise]] et est présent lorsque la Rêverie débute officiellement.{{Qref|nom=c908}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Comme [[Jeep]], le nom de Furrari est possiblement basé sur une  marque automobile : le constructeur italien [[wikipedia:fr:Ferrari (entreprise)|Ferrari]]."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Royauté}}\n[[en:Furrari]]\n[[it:Furrari]]\n[[pl:Furrari]]\n[[ca:Furrari]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Rois]]\n[[Catégorie:Participants de la Rêverie]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Rois",
+    "Participants de la Rêverie"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = D4AF37\n| textcolor         = 848482\n| nom               = Furrari\n| nomimage          = Furrari\n| nomj              = フラーリ\n| nomr              = ''Furāri''\n| nomf              = \n| première          = [[Chapitre 906]]; [[Épisode 884]]{{Qref|nom=c906|tome = |chapitre = 906|page =7|episode = 884|texte = Furrari apparaît et veut que son fils fasse connaissance avec Shirahoshi.}}\n| affiliation       = [[Lev Ely]]{{Qref|nom=c908|tome = |chapitre = 908|page = 12-13|episode = 889|texte = Furrari prend part à la [[Levely]].}}\n| lieuvie           = [[Royaume de Botte]] (ナガグツ王国, ''Nagagutsu Ōkoku''){{Qref|nom=vivre|databook=vivre card|page=1210|texte=Furrari est nommé.}}\n| statut            = Vivant\n| occupation        = [[Roi]]\n| voj               = Volcano Ōta\n}}'''Furrari'''{{Qref|nom=vivre}} est le roi du '''[[Royaume de Botte]]''' (ナガグツ王国, ''Nagagutsu Ōkoku''). Il est l'un des 50 monarques qui participent à la [[Lev Ely|Rêverie]].{{Qref|nom=c908}} Il est le père de [[Tritobu]].\n\n==Apparence==\nFurrari est un homme d'âge mûr et trapu avec un visage large, des pommettes hautes, une grosse moustache épaisse et un nez large, avec des yeux relativement petits. Ses cheveux sont ondulés et de couleur blond pâle. Il a un menton proéminent.\n\nIl porte un costume sombre avec une chemise légère en dessous, des bijoux autour du cou et une broche en forme de soleil sur le côté gauche du col de son costume. Il porte également un chapeau en forme de fedora avec sa couronne ressemblant à un petit château doré de forme carrée. Il semble souvent fumer un cigare.\n\nLors de ses différentes apparitions, son apparence change. Lorsque la Levely commence, il a un costume beige avec une cravate, ses cheveux sont désormais bleus pâles, et sa moustache est devenue noire. On voit une cicatrice sur son menton et son chapeau est un fedora simple.{{Qref|nom=e889|episode = 889|texte = Furrari est vu au commencement de la Levely avec les cheveux bleus pâles et une cicatrice.}}\n\nPendant le flashback de [[Monkey D. Garp]], on voit Furrari avec le chapeau qu'il porte dans le manga, mais noir au lieu de doré avec un bandeau vert à pois. il ne porte plus de cravate mais un haut violet avec un collier rouge.{{Qref|nom=e957|episode = 957|texte = Furrari est vu pendant la Levely sans cicatrice et avec un haut violet.}}\n\n{{Galerie2\n|Furrari Portrait.png|Furrari Portrait\n|Furrari Épisode 889.png|Furrari dans l'[[Épisode 889]]\n|Furrari Épisode 957.png|Furrari dans l'[[Épisode 957]]\n}}\n\n==Personnalité==\nIl a été offensé lorsque Shirahoshi a rejeté un mariage arrangé avec son fils. Il pourrait également être argumentatif en discutant avec véhémence avec Ramen.\n\n==Aptitudes et compétences==\nEn tant que Roi d'un pays rattaché au [[Gouvernement Mondial]], il possède toute autorité sur les citoyens de son pays, et il est l'un des rares dirigeants qui participent à la [[Lev Ely|Rêverie]], ce qui lui donne un rôle actif dans les décisions prises au niveau mondial.{{Qref|nom=c908}}\n\n==Histoire==\n===[[Arc Rêverie]]===\nFurrari est arrivé à [[Mary Geoise]] et est présent lorsque la Rêverie débute officiellement.{{Qref|nom=c908}}\n\n== Futilités ==\n*Comme [[Jeep]], le nom de Furrari est possiblement basé sur une  marque automobile : le constructeur italien [[wikipedia:fr:Ferrari (entreprise)|Ferrari]].\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Royauté}}\n[[en:Furrari]]\n[[it:Furrari]]\n[[pl:Furrari]]\n[[ca:Furrari]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Rois]]\n[[Catégorie:Participants de la Rêverie]]"
+}

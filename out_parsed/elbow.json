@@ -1,0 +1,54 @@
+{
+  "title": "Elbow",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Elbow",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "nom": "Elbow",
+    "backcolor": "8B0000",
+    "textcolor": "D2B48C",
+    "nomimage": "Elbow",
+    "nomj": "エルボー",
+    "nomr": "''Erubō''",
+    "nomf": "Elbow",
+    "première": "[[Chapitre 1154]] {{Qref|nom=c1154|chapitre=1154|episode=|texte=Elbow est mentionné.}}",
+    "statut": "Vivant"
+  },
+  "intro": "'''Elbow''' est un individu qui résidait sur Erbaf il y a plus de 56 ans et qui a formé Hajrudin pour devenir guerrier.{{Qref|nom=c1154}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "On ne sait rien des traits de Elbow car le personnage n'a pas encore fait son apparition."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Elbow est probablement un guerrier qualifié car il est capable d'entraîner les autres.{{Qref|nom=c1154}}"
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Plus de 56 ans avant aujourd'hui, Elbow devait suivre un entraînement de guerrier avec Hajrudin dans le Village de l'Ouest.{{Qref|nom=c1154}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Elbow en anglais signifie « coude ».\n*Hajrudin avait déjà été vu s'entraîner avec un géant nommé Raideen. On ignore s'il a changé de mentor ou si Raideen et Elbow ont entraîné Hajrudin simultanément.\n*Comme beaucoup d'autres personnages d'Erbaf, son nom fait probablement référence au catch professionnel, et plus précisément à la position du [https://en.wikipedia.org/wiki/Collar-and-elbow_position col et du coude], ainsi qu'aux coups de coude courants dans ce sport en général."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Erbaf}}\n[[en:Elbow]]\n\n[[Catégorie:Personnages d'Erbaf]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+    }
+  ],
+  "categories": [
+    "Personnages d'Erbaf",
+    "Personnages Uniquement Mentionnés"
+  ],
+  "raw_wikitext": "{{Underlinked|date=janvier 2026}}\n{{Char box\n|nom=Elbow\n|backcolor=8B0000\n|textcolor=D2B48C\n| nomimage          =Elbow\n|nomj= エルボー\n|nomr= ''Erubō''\n|nomf= Elbow\n|première=[[Chapitre 1154]] {{Qref|nom=c1154|chapitre=1154|episode=|texte=Elbow est mentionné.}}\n|statut= Vivant\n}}\n\n'''Elbow''' est un individu qui résidait sur Erbaf il y a plus de 56 ans et qui a formé Hajrudin pour devenir guerrier.{{Qref|nom=c1154}}\n\n==Apparence==\nOn ne sait rien des traits de Elbow car le personnage n'a pas encore fait son apparition.\n\n==Aptitudes et Compétences==\nElbow est probablement un guerrier qualifié car il est capable d'entraîner les autres.{{Qref|nom=c1154}}\n\n== Histoire ==\n===Passé===\nPlus de 56 ans avant aujourd'hui, Elbow devait suivre un entraînement de guerrier avec Hajrudin dans le Village de l'Ouest.{{Qref|nom=c1154}}\n\n==Futilités==\n*Elbow en anglais signifie « coude ».\n*Hajrudin avait déjà été vu s'entraîner avec un géant nommé Raideen. On ignore s'il a changé de mentor ou si Raideen et Elbow ont entraîné Hajrudin simultanément.\n*Comme beaucoup d'autres personnages d'Erbaf, son nom fait probablement référence au catch professionnel, et plus précisément à la position du [https://en.wikipedia.org/wiki/Collar-and-elbow_position col et du coude], ainsi qu'aux coups de coude courants dans ce sport en général.\n\n== Références ==\n<references />\n\n== Navigation du Site ==\n{{Erbaf}}\n[[en:Elbow]]\n\n[[Catégorie:Personnages d'Erbaf]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+}

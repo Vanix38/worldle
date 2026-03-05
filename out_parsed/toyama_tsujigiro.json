@@ -1,0 +1,80 @@
+{
+  "title": "Toyama Tsujigiro",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Toyama_Tsujigiro",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nom": "Toyama Tsujigiro",
+    "image": "{{Manga-Anime",
+    "nomj": "遠山辻ギロー",
+    "nomr": "''Toyama Tsujigiro''",
+    "nomf": "",
+    "première": "[[Chapitre 909]] ; [[Épisode 892]]{{Qref|nom=Apparition|tome=90|chapitre=909|episode=892|texte=Toyama Tsujigiro apparaît.}}",
+    "affiliation": "[[Pays des Wa]]{{Qref|nom=Apparition}}",
+    "occupation": "Magistrat{{Qref|nom=Apparition}}",
+    "statut": "Inconnu",
+    "voj": "Shigeo Kiyama"
+  },
+  "intro": "'''Toyama Tsujigiro'''{{Qref|nom=Nom|databook=vivre card|page=1251|texte=Toyama Tsujigiro est nommé.}} est un magistrat du [[Pays des Wa]] qui habite dans la [[Capitale des Fleurs]]. C'est un meurtrier qui tue des étrangers dans la nuit.{{Qref|nom=Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Tsujigiri est un homme de taille moyenne avec des sourcils épais et des cheveux noirs attachés en chignon. Il porte un kimono bleu foncé, un hakama bleu clair et un gilet bleu clair.\n{{Galerie2|position=center\n|Toyama Tsujigiro Portrait.png|Toyama Tsujigiro Portrait\n|Toyama Tsujigiro Anime Concept Art.png|Concept d'Anime de Toyama Tsujigiro\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Tsujigiro est un individu cruel qui a assassiné des personnes au hasard pour assouvir sa soif de sang. Il est assez rusé et impitoyable pour accuser un homme innocent d'être l'auteur et le condamner au seppuku. Il semble s'intéresser aux épées de haute qualité comme le Meito Shusui, car il bavait même légèrement en tenant l'épée en sa possession. Tsujigiro était assez perspicace pour reconnaître que Zoro ne pouvait pas être le voleur de [[Shusui]] en raison de son jeune âge, et croyait plutôt qu'il l'avait pris au vrai voleur."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "En tant que magistrat, il commande un grand nombre de samouraïs et a juridiction sur la capitale des fleurs."
+    },
+    {
+      "level": 3,
+      "title": "Furtif",
+      "content": "Tsujigiro était très furtif car il est secrètement un slasher de rue infâme qui a longtemps échappé à la capture."
+    },
+    {
+      "level": 3,
+      "title": "Maniement de l'épée",
+      "content": "Il a une certaine habileté avec une épée car il a tué plusieurs personnes avec une seule. Dans l'anime, on le voit pratiquer son escrime sur un mannequin de paille et le couper proprement en deux."
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "À un moment donné, Tsujigiri est devenu un slasher qui a assassiné de nombreuses personnes la nuit. Il avait fait trois victimes en un mois, Zorojuro se promenant de nuit, a été pris par les samouraï du magistrat comme l'auteur de ce crime."
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\nAprès avoir tué au moins trois personnes en un mois, il accuse Zorojuro d'avoir commis ces meurtres et le condamne à commettre un seppuku, ordonnant à [[Giro Chintaro]] d'être son second et de le décapiter, tout en l'accusant d'avoir volé le trésor national du [[Pays des Wa]], [[Shusui]]. Le ronin, cependant, comprend qu'il est le vrai coupable et ainsi il se libère et le blesse gravement."
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Les magistrats ([https://fr.wikipedia.org/wiki/Bugy%C5%8D bugyō]) étaient des fonctionnaires samouraïs du Japon féodal. Toyama Tsujigiro occupe le poste de magistrat.\n*Son nom fait référence à [https://fr.wikipedia.org/wiki/T%C5%8Dyama_Kagemoto Tōyama Kagemoto], un magistrat qui a vécu à l'époque d'Edo au Japon. Le nom \"Tsujigiro\" semble être un jeu de tsujigiri.\n*Ses crimes sont appelés [https://fr.wikipedia.org/wiki/Tsujigiri tsujigiri], qui est un terme japonais pour une pratique où un samouraï teste l'efficacité d'une épée en l'utilisant contre des adversaires humains."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n[[en:Toyama Tsujigiro]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Responsable du Gouvernement de Wano]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Personnages de Wa",
+    "Humains",
+    "Antagonistes Saga Pays des Wa",
+    "Responsable du Gouvernement de Wano"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F8674F\n| textcolor         = 006442\n| nom               = Toyama Tsujigiro\n| image             = {{Manga-Anime\n|[[Fichier:Toyama Tsujigiro Anime Infobox.png|270px]]\n|[[Fichier:Toyama Tsujigiro Manga Infobox.png|270px]]\n}}\n| nomj              = 遠山辻ギロー\n| nomr              = ''Toyama Tsujigiro''\n| nomf              = \n| première          = [[Chapitre 909]] ; [[Épisode 892]]{{Qref|nom=Apparition|tome=90|chapitre=909|episode=892|texte=Toyama Tsujigiro apparaît.}}\n| affiliation       = [[Pays des Wa]]{{Qref|nom=Apparition}}\n| occupation        = Magistrat{{Qref|nom=Apparition}}\n| statut            = Inconnu\n| voj               = Shigeo Kiyama\n}}\n'''Toyama Tsujigiro'''{{Qref|nom=Nom|databook=vivre card|page=1251|texte=Toyama Tsujigiro est nommé.}} est un magistrat du [[Pays des Wa]] qui habite dans la [[Capitale des Fleurs]]. C'est un meurtrier qui tue des étrangers dans la nuit.{{Qref|nom=Apparition}}\n\n==Apparence==\nTsujigiri est un homme de taille moyenne avec des sourcils épais et des cheveux noirs attachés en chignon. Il porte un kimono bleu foncé, un hakama bleu clair et un gilet bleu clair.\n{{Galerie2|position=center\n|Toyama Tsujigiro Portrait.png|Toyama Tsujigiro Portrait\n|Toyama Tsujigiro Anime Concept Art.png|Concept d'Anime de Toyama Tsujigiro\n}}\n==Personnalité==\nTsujigiro est un individu cruel qui a assassiné des personnes au hasard pour assouvir sa soif de sang. Il est assez rusé et impitoyable pour accuser un homme innocent d'être l'auteur et le condamner au seppuku. Il semble s'intéresser aux épées de haute qualité comme le Meito Shusui, car il bavait même légèrement en tenant l'épée en sa possession. Tsujigiro était assez perspicace pour reconnaître que Zoro ne pouvait pas être le voleur de [[Shusui]] en raison de son jeune âge, et croyait plutôt qu'il l'avait pris au vrai voleur.\n\n==Aptitudes et Compétences==\nEn tant que magistrat, il commande un grand nombre de samouraïs et a juridiction sur la capitale des fleurs.\n\n===Furtif===\nTsujigiro était très furtif car il est secrètement un slasher de rue infâme qui a longtemps échappé à la capture.\n\n===Maniement de l'épée===\nIl a une certaine habileté avec une épée car il a tué plusieurs personnes avec une seule. Dans l'anime, on le voit pratiquer son escrime sur un mannequin de paille et le couper proprement en deux.\n\n==Histoire==\n===Passé===\nÀ un moment donné, Tsujigiri est devenu un slasher qui a assassiné de nombreuses personnes la nuit. Il avait fait trois victimes en un mois, Zorojuro se promenant de nuit, a été pris par les samouraï du magistrat comme l'auteur de ce crime.\n\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\nAprès avoir tué au moins trois personnes en un mois, il accuse Zorojuro d'avoir commis ces meurtres et le condamne à commettre un seppuku, ordonnant à [[Giro Chintaro]] d'être son second et de le décapiter, tout en l'accusant d'avoir volé le trésor national du [[Pays des Wa]], [[Shusui]]. Le ronin, cependant, comprend qu'il est le vrai coupable et ainsi il se libère et le blesse gravement.\n\n==Différences Manga et Anime==\n\n==Enjeux Traductions et Doublages==\n\n==Futilités==\n*Les magistrats ([https://fr.wikipedia.org/wiki/Bugy%C5%8D bugyō]) étaient des fonctionnaires samouraïs du Japon féodal. Toyama Tsujigiro occupe le poste de magistrat.\n*Son nom fait référence à [https://fr.wikipedia.org/wiki/T%C5%8Dyama_Kagemoto Tōyama Kagemoto], un magistrat qui a vécu à l'époque d'Edo au Japon. Le nom \"Tsujigiro\" semble être un jeu de tsujigiri.\n*Ses crimes sont appelés [https://fr.wikipedia.org/wiki/Tsujigiri tsujigiri], qui est un terme japonais pour une pratique où un samouraï teste l'efficacité d'une épée en l'utilisant contre des adversaires humains.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{PaysDeWa}}\n[[en:Toyama Tsujigiro]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Responsable du Gouvernement de Wano]]"
+}

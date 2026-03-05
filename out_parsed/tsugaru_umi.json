@@ -1,0 +1,73 @@
+{
+  "title": "Tsugaru Umi",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Tsugaru_Umi",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nom": "Tsugaru Umi",
+    "image": "{{Manga-Anime",
+    "nomj": "津軽うみ",
+    "nomr": "''Tsugaru Umi''",
+    "nomf": "",
+    "première": "[[Chapitre 909]] ; [[Épisode 892]]{{Qref|nom=Apparition|tome=90|chapitre=909|episode=892|texte=Tsugaru Umi apparaît.}}",
+    "affiliation": "[[Pays des Wa]]{{Qref|nom=Apparition}}",
+    "occupation": "Maître-Geisha{{Qref|nom=Apparition}}",
+    "statut": "Vivante",
+    "lieuvie": "[[Pays des Wa]] ([[Capitale des Fleurs]])",
+    "voj": "Noriko Uemura"
+  },
+  "intro": "''Tsugaru Umi''{{Qref|nom=Nom|databook=vivre card|page=1249|texte=Tsugaru Umi est nommé.}} est une femme qui entraîne [[Nico Robin]] a performer en tant que que geisha. Elle habite dans la [[Capitale des Fleurs]] du [[Pays des Wa]].{{Qref|nom=Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Tsugaru Umi est une très petite femme âgée. Elle a les cheveux blonds attachés dans un style Shimada avec une longue épingle à cheveux. Elle porte un kimono sombre avec un léger motif quadrillé.\n{{Galerie2|position=center\n|Tsugaru Umi Anime Concept Art.png|Concept Art de Tsugaru Umi\n|Tsugaru Umi Portrait.png|Tsugaru Umi Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Il y a déjà 20 ans, le soir où Kozuki Oden et ses partisans sont allés se battre contre Kaidou et sa bande de pirates et lors de l'exécution, Tsugaru jouait Umi avec d'autres geishas shamisen."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Umi connaît bien les formes d'art pratiquées par les geishas et a pu apprendre à Robin à performer suffisamment bien pour être convoqué par le Shogun dans un laps de temps assez court.\n\nElle est douée pour jouer du shamisen, qu'elle utilise pour des performances et des leçons."
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Il y a déjà 20 ans, le soir où Kozuki Oden et ses partisans sont allés se battre contre Kaidou et sa bande de pirates et lors de l'exécution, Tsugaru jouait Umi avec d'autres geishas shamisen. {{Qref|nom=c970|tome=96|chapitre=970|episode=971|texte=Tsugaru Umi il y a 20 ans.}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\nLorsque les premiers Pirates du Chapeau de Paille ont infiltré Wa no Kuni, Tsugaru a pris Umi Nico Robin alias O-Robi sous son aile et l'a formée comme geisha afin qu'elle puisse assister au banquet du Shogun Kurozumi Orochi. {{Qref|nom=Apparition}}\n\nElle a ensuite retrouvé Nico Robin alors qu'elle dînait avec Franky et Usopp au stand de soba de Sanji et a parlé au groupe de l'Oiran Komurasaki et du défilé. Elle a également rapporté à Robin qu'elle avait réussi et qu'elle avait été invitée au banquet du Shogun. Robin l'a ensuite suivie pour se préparer à l'occasion. {{Qref|nom=c927|tome=92|chapitre=927|episode = 920|texte=Tsugaru Umi dit à Robin qu'elle a été invitée au Shogun.}}\n\nLe jour du Festival du Feu, Tsugaru célébra Umi dans la Capitale des Fleurs.{{Qref|nom=c1016|tome=101|chapitre=1016|episode = |texte=Tsugaru Umi le jour du Festival du Feu.}} Alors que le festival tirait à sa fin et que les lanternes célestes étaient relâchées, elle a joué son shamisen. {{Qref|nom=c1050|tome=|chapitre=1050|episode = |texte=La fête du feu touche à sa fin.}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "* Son nom peut venir de [https://fr.wikipedia.org/wiki/Tsugaru_shamisen Tsugaru-jamisen], un genre de musique shamisen qui vient de la péninsule de Tsugaru.\n*Umi (海) signifie simplement \"mer\"."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n{{Danseurs}}\n{{Musiciens}}\n[[en:Tsugaru Umi]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Musiciens]]\n[[Catégorie:Geishas]]\n[[Catégorie:Danseurs]]\n[[Catégorie:Professeurs]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Personnages de Wa",
+    "Humains",
+    "Musiciens",
+    "Geishas",
+    "Danseurs",
+    "Professeurs"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F8674F\n| textcolor         = 006442\n| nom               = Tsugaru Umi\n| image             = {{Manga-Anime\n|[[Fichier:Tsugaru Umi Anime Infobox.png|270px]]\n|[[Fichier:Tsugaru Umi Manga Infobox.png|270px]]\n}}\n| nomj              = 津軽うみ\n| nomr              = ''Tsugaru Umi''\n| nomf              = \n| première          = [[Chapitre 909]] ; [[Épisode 892]]{{Qref|nom=Apparition|tome=90|chapitre=909|episode=892|texte=Tsugaru Umi apparaît.}}\n| affiliation       = [[Pays des Wa]]{{Qref|nom=Apparition}}\n| occupation        = Maître-Geisha{{Qref|nom=Apparition}}\n| statut            = Vivante\n| lieuvie           = [[Pays des Wa]] ([[Capitale des Fleurs]])\n| voj   = Noriko Uemura\n}}\n\n''Tsugaru Umi''{{Qref|nom=Nom|databook=vivre card|page=1249|texte=Tsugaru Umi est nommé.}} est une femme qui entraîne [[Nico Robin]] a performer en tant que que geisha. Elle habite dans la [[Capitale des Fleurs]] du [[Pays des Wa]].{{Qref|nom=Apparition}} \n\n==Apparence==\nTsugaru Umi est une très petite femme âgée. Elle a les cheveux blonds attachés dans un style Shimada avec une longue épingle à cheveux. Elle porte un kimono sombre avec un léger motif quadrillé.\n{{Galerie2|position=center\n|Tsugaru Umi Anime Concept Art.png|Concept Art de Tsugaru Umi\n|Tsugaru Umi Portrait.png|Tsugaru Umi Portrait\n}}\n\n==Personnalité==\nIl y a déjà 20 ans, le soir où Kozuki Oden et ses partisans sont allés se battre contre Kaidou et sa bande de pirates et lors de l'exécution, Tsugaru jouait Umi avec d'autres geishas shamisen. \n\n==Aptitudes et Compétences==\nUmi connaît bien les formes d'art pratiquées par les geishas et a pu apprendre à Robin à performer suffisamment bien pour être convoqué par le Shogun dans un laps de temps assez court.\n\nElle est douée pour jouer du shamisen, qu'elle utilise pour des performances et des leçons.\n\n==Histoire==\n===Passé===\nIl y a déjà 20 ans, le soir où Kozuki Oden et ses partisans sont allés se battre contre Kaidou et sa bande de pirates et lors de l'exécution, Tsugaru jouait Umi avec d'autres geishas shamisen. {{Qref|nom=c970|tome=96|chapitre=970|episode=971|texte=Tsugaru Umi il y a 20 ans.}}\n\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\nLorsque les premiers Pirates du Chapeau de Paille ont infiltré Wa no Kuni, Tsugaru a pris Umi Nico Robin alias O-Robi sous son aile et l'a formée comme geisha afin qu'elle puisse assister au banquet du Shogun Kurozumi Orochi. {{Qref|nom=Apparition}}\n\nElle a ensuite retrouvé Nico Robin alors qu'elle dînait avec Franky et Usopp au stand de soba de Sanji et a parlé au groupe de l'Oiran Komurasaki et du défilé. Elle a également rapporté à Robin qu'elle avait réussi et qu'elle avait été invitée au banquet du Shogun. Robin l'a ensuite suivie pour se préparer à l'occasion. {{Qref|nom=c927|tome=92|chapitre=927|episode = 920|texte=Tsugaru Umi dit à Robin qu'elle a été invitée au Shogun.}}\n\nLe jour du Festival du Feu, Tsugaru célébra Umi dans la Capitale des Fleurs.{{Qref|nom=c1016|tome=101|chapitre=1016|episode = |texte=Tsugaru Umi le jour du Festival du Feu.}} Alors que le festival tirait à sa fin et que les lanternes célestes étaient relâchées, elle a joué son shamisen. {{Qref|nom=c1050|tome=|chapitre=1050|episode = |texte=La fête du feu touche à sa fin.}}\n\n==Futilité==\n* Son nom peut venir de [https://fr.wikipedia.org/wiki/Tsugaru_shamisen Tsugaru-jamisen], un genre de musique shamisen qui vient de la péninsule de Tsugaru.\n*Umi (海) signifie simplement \"mer\".\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{PaysDeWa}}\n{{Danseurs}}\n{{Musiciens}}\n[[en:Tsugaru Umi]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Musiciens]]\n[[Catégorie:Geishas]]\n[[Catégorie:Danseurs]]\n[[Catégorie:Professeurs]]"
+}

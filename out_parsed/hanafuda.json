@@ -1,0 +1,88 @@
+{
+  "title": "Hanafuda",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Hanafuda",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "32127A",
+    "textcolor": "997A8D",
+    "nom": "Hanafuda",
+    "image": "[[Fichier:Hanafuda_Manga_Infobox.png|270px]]",
+    "nomj": "花札",
+    "nomr": "''Hanafuda''",
+    "nomf": "",
+    "première": "[[SBS Tome 109]]{{Qref|nom=sbs109|sbs=109|texte=Hanafuda est mentionnée par Oda.}} [[Épisode 1134]] (mentionné){{Qref|nom=e1134|episode=1134|texte=Hanafuda est désigné par son nom}}",
+    "épithète": "\"Roi des lézards\" (トカゲの王, ''Tokage no ō''){{Qref|nom=sbs109}}",
+    "taille": "5m14{{Qref|nom=sbs109}}",
+    "affiliation": "[[Pirates/Sept grands corsaires|Sept grands corsaires]] <small>(anciennement)</small>{{Qref|nom=sbs109}} <br> [[Équipage des cent bêtes]] <small>(allié)</small> {{Qref|nom=sbs111}}",
+    "occupation": "Pirate{{Qref|nom=sbs109}}",
+    "lieuvie": "",
+    "statut": "Décédé {{Qref|nom=sbs111|sbs=111|texte=Les antécédents et la famille de Hanafuda sont révélés.}}"
+  },
+  "intro": "'''Hanafuda''', également connu sous l'[[Épithètes|épithète]] de \"'''Roi des lézards'''\", est un ancien [[Pirates/Sept grands corsaires|grand corsaire]] qui a été vaincu par [[Portgas D. Ace]] il y a quatre ans.{{Qref|nom=sbs109}}{{Qref|nom=c1100|chapitre=1100|episode=|texte=Ace aurait vaincu l'un des sept grands corsaires}}\n\nIl était également le père d'[[Ulti]] et de [[Page One]].{{Qref|nom=sbs100|sbs=100|texte=Les antécédents d'Ulti et de Page One sont révélés.}}{{Qref|nom=sbs111}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Hanafuda est un homme grand et musclé, dépassant les cinq mètres. Il semble avoir des cheveux clairs et touffus, émergeant en partie d'un chapeau à visière sombre qui couvre une grande partie de son visage. Il est vêtu d'une longue veste sombre (atteignant les genoux) avec la poitrine exposée, quelques boutons et des épaulettes extrêmement prononcées en forme de coudes relevés. Il porte des gants métalliques sur les deux mains semblables à la main robotique d'Eustass Kidd. Il a un baudrier qui traverse sa poitrine en diagonale, un pantalon clair aux motifs rectangulaires inégaux avec une large ceinture métallique sur une ceinture en fourrure, ainsi que de hautes bottes sombres.{{Qref|nom=sbs109}}\n{{Galerie2|position=center|width=120|height=120\n|Hanafuda Portrait.png|Hanafuda Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Hanafuda avait pour passe-temps de collecter des fruits du démon de type [[Zoan Antique]] pour des raisons inconnues.{{Qref|nom=sbs109}}\n\nC'était un homme captivé par les individus forts alors qu'il formait un partenariat avec Kaido après l'avoir affronté, et pour leur gial partagé, croyant que l'Empereur serait le prochain roi des pirates.{{Qref|nom=sbs111}}\n\nCette admiration pour Kaido était suffisamment forte pour qu'il lui confie ses propres enfants.{{Qref|nom=sbs100}}"
+    },
+    {
+      "level": 3,
+      "title": "Famille",
+      "content": "Ulti et Page One étaient les enfants de Hanafuda.{{Qref|nom=sbs111}} En raison de sa grande confiance en Kaido, il a laissé ses enfants aux soins de son allié pendant qu'il continuait à chercher des fruits du démon.{{Qref|nom=sbs111}}"
+    },
+    {
+      "level": 3,
+      "title": "Kaido",
+      "content": "Hanafuda et [[Kaido]] se sont affrontés dans le passé. Suite à cet affrontement, Hanafuda a gagné un profond respect pour Kaido en raison de sa force et de sa détermination, supposant qu'il deviendrait le prochain roi des pirates. De ce fait, lui et Kaido devinrent de grands alliés, Hanafuda fournissant à son compère ses Zoans Antiques pour renforcer l'[[équipage des cent bêtes]].{{Qref|nom=sbs111}}\n\nHanafuda avait tellement confiance en Kaido qu'il lui a laissé ses enfants Page One et Ulti, et ce dernier a continué à veiller sur eux après sa mort.{{Qref|nom=sbs111}}{{Qref|nom=sbs100}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Avant de devenir membre des [[Pirates/Sept grands corsaires|sept grands corsaires]], Hanafuda était très puissant, capable d'affronter Kaido avant de sceller une alliance avec lui.{{Qref|nom=sbs111}}\n\nEn tant qu'ancien membre des Sept Grands Corsaires, Hanafuda est probablement très puissant. Cependant, il a été vaincu par [[Portgas D. Ace]]. On dit qu'il collectait des fruits du Démon de type [[Zoan Antique]] comme passe-temps, mais on ne sait pas s'il était lui-même un utilisateur de fruits du démon.{{Qref|nom=sbs109}}"
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Hanafuda brandit un grand [https://en.wikipedia.org/wiki/Kusarigama kusarigama]. Au lieu du poids de fer standard, son arme est attachée à une boule de métal à pointes.{{Qref|nom=sbs109}}"
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Il y a vingt-deux ans, Hanafuda a eu une fille nommée Ulti et deux ans plus tard, il a eu un fils qu'il a appelé Page One.{{Qref|nom=sbs100}}\n\nÀ un moment donné, il a rencontré et s'est confronté à Kaido, mais a décidé de former un partenariat avec l'équipage du Yonko, car ils partageaient le même objectif, collecter les Zoans Antiques.{{Qref|nom=sbs111}}\n\nIl y a un certain temps, il y a au moins quatre ans, Hanafuda a rejoint les rangs des Capitaines Corsaires. Il y a quatre ans, il a été vaincu par Portgas D. Ace, ce qui lui a valu d'être exclu des Sept Grands Corsaires.{{Qref|nom=sbs109}}{{Qref|nom=c1100}}\n\nAprès son expulsion des [[Pirates/Sept grands corsaires|sept grands corsaires]], Hanafuda a été tué par des pirates qui lui en voulaient avant qu'il ne puisse retrouver Ulti et Page One.{{Qref|nom=sbs111}}"
+    },
+    {
+      "level": 3,
+      "title": "Héritage",
+      "content": "Les fruits de Zoan antiques que Hanafuda avait collectés pour Kaido étaient utilisés pour renforcer les subordonnés de ce dernier les plus puissants, à savoir ses trois Calamités et les Tobiroppo. Ces derniers comprenaient ses enfants Ulti et Page One, qui possédaient, eux aussi, des pouvoirs de Zoan antique.{{Qref|nom=sbs100}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Son passe-temps est de collectionner des fruits du démon antiques, et ses projets derrière cela sont encore inconnus jusqu'à présent.\n*Le [https://fr.wikipedia.org/wiki/Hanafuda Hanafuda] est un type de cartes à jouer japonaises. L'équipage des cent bêtes suit également un thème de cartes à jouer et possèdent de nombreux fruits du démon de type Zoan Antique, que Hanafuda a collectés. On ne sait pas s’il existe un lien entre les deux."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{SBS}}\n{{Grandscorsaires}}\n{{EquipageKaido}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Hanafuda]]\n[[ru:Ханафуда]]\n[[Catégorie:Personnages de SBS]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Anciens Grands Corsaires]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Utilisateurs de Faux]]"
+    }
+  ],
+  "categories": [
+    "Personnages de SBS",
+    "Personnages Masculins",
+    "Anciens Grands Corsaires",
+    "Humains",
+    "Personnages Décédés",
+    "Utilisateurs de Faux"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 32127A\n| textcolor         = 997A8D\n| nom               = Hanafuda\n| image             = [[Fichier:Hanafuda_Manga_Infobox.png|270px]]\n| nomj              = 花札\n| nomr              = ''Hanafuda''\n| nomf              = \n| première          = [[SBS Tome 109]]{{Qref|nom=sbs109|sbs=109|texte=Hanafuda est mentionnée par Oda.}} [[Épisode 1134]] (mentionné){{Qref|nom=e1134|episode=1134|texte=Hanafuda est désigné par son nom}}\n| épithète          = \"Roi des lézards\" (トカゲの王, ''Tokage no ō''){{Qref|nom=sbs109}}\n| taille            = 5m14{{Qref|nom=sbs109}}\n| affiliation       = [[Pirates/Sept grands corsaires|Sept grands corsaires]] <small>(anciennement)</small>{{Qref|nom=sbs109}} <br> [[Équipage des cent bêtes]] <small>(allié)</small> {{Qref|nom=sbs111}} \n| occupation        = Pirate{{Qref|nom=sbs109}}\n| lieuvie           = \n| statut            = Décédé {{Qref|nom=sbs111|sbs=111|texte=Les antécédents et la famille de Hanafuda sont révélés.}}\n}}\n'''Hanafuda''', également connu sous l'[[Épithètes|épithète]] de \"'''Roi des lézards'''\", est un ancien [[Pirates/Sept grands corsaires|grand corsaire]] qui a été vaincu par [[Portgas D. Ace]] il y a quatre ans.{{Qref|nom=sbs109}}{{Qref|nom=c1100|chapitre=1100|episode=|texte=Ace aurait vaincu l'un des sept grands corsaires}}\n\nIl était également le père d'[[Ulti]] et de [[Page One]].{{Qref|nom=sbs100|sbs=100|texte=Les antécédents d'Ulti et de Page One sont révélés.}}{{Qref|nom=sbs111}}\n\n==Apparence==\nHanafuda est un homme grand et musclé, dépassant les cinq mètres. Il semble avoir des cheveux clairs et touffus, émergeant en partie d'un chapeau à visière sombre qui couvre une grande partie de son visage. Il est vêtu d'une longue veste sombre (atteignant les genoux) avec la poitrine exposée, quelques boutons et des épaulettes extrêmement prononcées en forme de coudes relevés. Il porte des gants métalliques sur les deux mains semblables à la main robotique d'Eustass Kidd. Il a un baudrier qui traverse sa poitrine en diagonale, un pantalon clair aux motifs rectangulaires inégaux avec une large ceinture métallique sur une ceinture en fourrure, ainsi que de hautes bottes sombres.{{Qref|nom=sbs109}}\n{{Galerie2|position=center|width=120|height=120\n|Hanafuda Portrait.png|Hanafuda Portrait\n}}\n\n==Personnalité==\nHanafuda avait pour passe-temps de collecter des fruits du démon de type [[Zoan Antique]] pour des raisons inconnues.{{Qref|nom=sbs109}}\n\nC'était un homme captivé par les individus forts alors qu'il formait un partenariat avec Kaido après l'avoir affronté, et pour leur gial partagé, croyant que l'Empereur serait le prochain roi des pirates.{{Qref|nom=sbs111}}\n\nCette admiration pour Kaido était suffisamment forte pour qu'il lui confie ses propres enfants.{{Qref|nom=sbs100}}\n\n==Relations==\n===Famille===\nUlti et Page One étaient les enfants de Hanafuda.{{Qref|nom=sbs111}} En raison de sa grande confiance en Kaido, il a laissé ses enfants aux soins de son allié pendant qu'il continuait à chercher des fruits du démon.{{Qref|nom=sbs111}}\n\n===Kaido===\nHanafuda et [[Kaido]] se sont affrontés dans le passé. Suite à cet affrontement, Hanafuda a gagné un profond respect pour Kaido en raison de sa force et de sa détermination, supposant qu'il deviendrait le prochain roi des pirates. De ce fait, lui et Kaido devinrent de grands alliés, Hanafuda fournissant à son compère ses Zoans Antiques pour renforcer l'[[équipage des cent bêtes]].{{Qref|nom=sbs111}}\n\nHanafuda avait tellement confiance en Kaido qu'il lui a laissé ses enfants Page One et Ulti, et ce dernier a continué à veiller sur eux après sa mort.{{Qref|nom=sbs111}}{{Qref|nom=sbs100}}\n\n==Aptitudes et compétences==\nAvant de devenir membre des [[Pirates/Sept grands corsaires|sept grands corsaires]], Hanafuda était très puissant, capable d'affronter Kaido avant de sceller une alliance avec lui.{{Qref|nom=sbs111}}\n\nEn tant qu'ancien membre des Sept Grands Corsaires, Hanafuda est probablement très puissant. Cependant, il a été vaincu par [[Portgas D. Ace]]. On dit qu'il collectait des fruits du Démon de type [[Zoan Antique]] comme passe-temps, mais on ne sait pas s'il était lui-même un utilisateur de fruits du démon.{{Qref|nom=sbs109}}\n\n===Armes===\nHanafuda brandit un grand [https://en.wikipedia.org/wiki/Kusarigama kusarigama]. Au lieu du poids de fer standard, son arme est attachée à une boule de métal à pointes.{{Qref|nom=sbs109}}\n\n==Histoire==\nIl y a vingt-deux ans, Hanafuda a eu une fille nommée Ulti et deux ans plus tard, il a eu un fils qu'il a appelé Page One.{{Qref|nom=sbs100}}\n\nÀ un moment donné, il a rencontré et s'est confronté à Kaido, mais a décidé de former un partenariat avec l'équipage du Yonko, car ils partageaient le même objectif, collecter les Zoans Antiques.{{Qref|nom=sbs111}}\n\nIl y a un certain temps, il y a au moins quatre ans, Hanafuda a rejoint les rangs des Capitaines Corsaires. Il y a quatre ans, il a été vaincu par Portgas D. Ace, ce qui lui a valu d'être exclu des Sept Grands Corsaires.{{Qref|nom=sbs109}}{{Qref|nom=c1100}}\n\nAprès son expulsion des [[Pirates/Sept grands corsaires|sept grands corsaires]], Hanafuda a été tué par des pirates qui lui en voulaient avant qu'il ne puisse retrouver Ulti et Page One.{{Qref|nom=sbs111}} \n\n===Héritage===\nLes fruits de Zoan antiques que Hanafuda avait collectés pour Kaido étaient utilisés pour renforcer les subordonnés de ce dernier les plus puissants, à savoir ses trois Calamités et les Tobiroppo. Ces derniers comprenaient ses enfants Ulti et Page One, qui possédaient, eux aussi, des pouvoirs de Zoan antique.{{Qref|nom=sbs100}} \n\n==Futilités==\n*Son passe-temps est de collectionner des fruits du démon antiques, et ses projets derrière cela sont encore inconnus jusqu'à présent.\n*Le [https://fr.wikipedia.org/wiki/Hanafuda Hanafuda] est un type de cartes à jouer japonaises. L'équipage des cent bêtes suit également un thème de cartes à jouer et possèdent de nombreux fruits du démon de type Zoan Antique, que Hanafuda a collectés. On ne sait pas s’il existe un lien entre les deux.\n\n==Références==\n<references />\n\n==Navigation du site==\n{{SBS}}\n{{Grandscorsaires}}\n{{EquipageKaido}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Hanafuda]]\n[[ru:Ханафуда]]\n[[Catégorie:Personnages de SBS]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Anciens Grands Corsaires]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Utilisateurs de Faux]]"
+}

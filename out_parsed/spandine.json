@@ -1,0 +1,118 @@
+{
+  "title": "Spandine",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Spandine",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "FFFFFF",
+    "nom": "Spandine",
+    "image": "[[Fichier:Spandine Manga Infobox.png|300px]]",
+    "nomj": "スパンダイン",
+    "nomr": "''Supandain''",
+    "nomf": "Spandine",
+    "première": "[[Chapitre 392]] ; [[Épisode 275]]",
+    "affiliation": "[[CP9]] <small>(anciennement)</small>",
+    "occupation": "Chef du [[CP9]] <small>(anciennement)</small>",
+    "voj": "Masaya Onosaka",
+    "origine": "[[Grand Line]]{{Qref|nom=Vivre}}",
+    "naissance": "19 Janvier {{Qref|databook=blue deep|page=94|texte=Sa date d'anniversaire est révélée.}}",
+    "âge": "64 ans (avant l'ellipse)<br>66 ans (après l'ellipse){{Qref|nom=Vivre|databook=vivre|page = 0428|texte=Des infos sur Spandine sont dévoilées.}}",
+    "taille": "2.75 m{{Qref|nom=Vivre}}",
+    "groupe sanguin": "XF (AB){{Qref|nom=Vivre}}",
+    "vof": "[https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Souterelle Frédéric Souterelle]|statut=Vivant}"
+  },
+  "intro": "'''Spandine''' est le père de [[Spandam]] et fut le chef du [[CP9]], il y a 20 ans. Il dirigeait \"l'enquête\" sur [[Ohara]] et est responsable du déclenchement du [[Buster Call]] sur cette île.\n\nIl était l'antagoniste principal du flash-back d'Ohara par [[Robin]] à [[Enies Lobby]], agissant pour le compte du conseil des cinq doyens.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "22 ans plus tôt, lors de l'[[Incident d'Ohara]], il était vêtu d'un costume noir et d'une chemise blanche. Il avait une légère barbe et ses cheveux étaient soigneusement peignés.\n\nAvant l'ellipse, ses cheveux sont devenus gris/blanc, mais sa barbe est restée noire. Son visage a pris des rides à cause de l'âge. Dans l'ensemble, il a un air de famille avec son fils [[Spandam]]."
+    },
+    {
+      "level": 3,
+      "title": "Galerie",
+      "content": "{{Galerie2|position=center|captionalign=center|height=150|width=150\n|Spandine Portrait.png|Visage de Spandine.\n|Spandine sur Ohara.png|Spandine à 44 ans.\n|Concept Art Spandine Anime.png|Concept Art de Spandine dans l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Il pense que tout ce qu'il fait est bien et est extrêmement fidèle au [[conseil des cinq doyens]]. Spandine se croyait spécial, et presque invincible, parce qu'il était un agent du gouvernement. Il se voyait comme un héros, mais a agi comme un enfant gâté. C'est une personne très autoritaire et méchante. Il a ri quand le temps est venu de libérer le [[Buster Call]] sur [[Ohara]], et a pensé que l'activation de celui-ci lui ferait obtenir une promotion.<br />\n\nIl convient de noter qu'il se souciait de ses subordonnés et a examiné ce qui était le mieux pour eux (contrairement à son fils), comme lorsqu'il a été choqué que le Buster Call soit déclenché avant leur descente. Il leur a ordonné de quitter l'île, tout en affirmant que leur vie était plus importante que celle de la prisonnière ([[Nico Olvia]]). Spandine est particulièrement lâche puisque lorsque Nico Olvia lui a tiré dessus, il a cru mourir alors que la balle n'avait fait que traverser sa manche."
+    },
+    {
+      "level": 3,
+      "title": "= '''Spandam''' =",
+      "content": "Il paraît n'aimer que son fils. C'est le seul pour qui il montre des sentiments."
+    },
+    {
+      "level": 3,
+      "title": "= '''Le personnel du CP9''' =",
+      "content": "Il commandait tous les agents qui étaient affectés à son unité à l'époque où il en était le chef."
+    },
+    {
+      "level": 3,
+      "title": "= '''Les cinq doyens (le Gouvernement mondial)''' =",
+      "content": "Ils ont eu suffisamment confiance en lui pour le laisser mener sa mission sur [[Ohara]]. Il a fait toutes les démarches à suivre de façon très légale (surtout à leurs yeux). D'abord, il a collecté les preuves, ensuite déclenché le Buster call pour éliminer les scientifiques et a prévenu l'amiral-en-chef de l'époque pour maximiser l'arrestation de Nico Robin, la seule survivante. Il a tué le professeur [[Clover]] en respectant un ordre émanant de ses supérieurs."
+    },
+    {
+      "level": 3,
+      "title": "= '''Les scientifiques et les habitants d'Ohara''' =",
+      "content": "Il les a exterminés jusqu'à l'avant-dernier (seule une petite-fille a pu s'enfuir et échapper à l'annihilation des habitants de l'île par les Marines et les agents du gouvernement mondial, Nico Robin). Sa mission était de trouver des indices compromettants sur les agissement des archéologues (les recherches sur les [[Ponéglyphes]]) qu'il a finalement trouvé en fouillant partout avec ses hommes."
+    },
+    {
+      "level": 3,
+      "title": "= '''Le groupe de [[Lucci]]''' =",
+      "content": "Il n'apprécie pas non plus cette bande, car ils ont menacé la vie de son fils, et ce, à cause du fait que Spandam ait triché sur les responsabilités des personnes présentent lors de la défaite de l'île judiciaire d'Enies Lobby."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Spandine ne semble pas avoir une puissance comparable à celle d'un CP9. Lorsque [[Nico Olvia]] tira dans sa manche, il s'est cru déjà vaincu et pensait qu'il allait mourir. Il ne se bat pas, il ordonne à ses subordonnés de se battre à sa place."
+    },
+    {
+      "level": 3,
+      "title": "[[Incident d'Ohara]]",
+      "content": "Lors de l'incident d'Ohara, il y a 20 ans, Spandine, agent du Gouvernement mondial et dirigeant du CP9, a reçu l'ordre des cinq doyens de collecter des preuves contre les archéologues d'Ohara, soupçonnés de déchiffrer les Ponéglyphes, ce qui était strictement interdit. Dans un premier temps, Spandine envoya ses hommes pour rassembler des indices permettant de confirmer que les chercheurs d'Ohara s'intéressaient aux textes antiques et au Siècle Oublié. Cette collecte de preuves visait à justifier l'intervention militaire à venir.\n\nParallèlement, il a reçu pour mission de capturer Nico Olvia, archéologue recherchée, ainsi que de retrouver le déserteur de la Marine, Haguar D. Sauro. Spandine et ses hommes finirent par localiser Nico Olvia sur Ohara, ce qui facilita sa capture, même si Olvia résista, pensant que sa fin était proche. Ses hommes procédèrent ensuite à une fouille brutale de la bibliothèque, allant jusqu'à détruire une partie de l'édifice pour accéder aux archives cachées au sous-sol. Cette destruction permit à Spandine de découvrir un Ponéglyphe, scellant ainsi la culpabilité des archéologues aux yeux du Gouvernement Mondial.\n\nLes preuves réunies et l'implication des archéologues étant désormais avérées, Spandine appela les renforts de la Marine, ce qui mena à l'extermination de l'île par le Buster Call, un acte de destruction totale, qui visait à effacer toute trace des recherches sur les Ponéglyphes et à dissuader toute future tentative de percer les secrets du Siècle Oublié.<br />\n[[Fichier:CP9 arrive à Ohara.png|thumb|250px|Spandine et ses hommes débarquant à Ohara, il y a 20 ans]]\nAvec de telles preuves contre les archéologues, tous les scientifiques furent arrêtés. Suite à une demande du Professeur [[Clover]], Spandine le mit en communication avec le Conseil de cinq Étoiles. Comme celui-ci en savait trop sur le siècle oublié, les membres des cinq Etoiles demandèrent à Spandine de l'abattre (chose qu'il fit sans état d'âme). Suite à cet acte, le directeur du CP9 activa l'[[Escargophone|escargophone doré]], signal d'appel du [[Buster Call]]. Par contre, il n'avait pas du tout prévu que le bombardement débuterait sans attendre son départ de l'île.<br />\n\nAlors qu'il se trouvait sur son navire, Spandine découvrit que Haguar D. Sauro, le vice-amiral qui avait trahi la [[Marine]], se trouvait lui aussi sur Ohara. Lorsque le géant s'attaqua à son navire, il fut sauvé par le vice-amiral [[Aokiji]]. Quelques jours plus tard, après la destruction de l'île, il fit son rapport à l'Amiral [[Sengoku]]. Une jeune archéologue de huit ans, [[Nico Robin]] avait réussi à s'enfuir de l'île. Il fallait donc absolument la retrouver, morte ou vive.\n\n[[Fichier:Spandine parle aux journalistes.png|thumb|250px|Spandine livre un faux rapport aux médias]]\nSuite à l'[[Incident d'Ohara]], Spandine a convoqué plusieurs journalistes et a donné une interview accusant [[Nico Robin]] d'être responsable du naufrage de six navires de la Marine.{{Qref|nom=c1133|chapitre=1133|episode=|texte=}}"
+    },
+    {
+      "level": 3,
+      "title": "Rapport indépendant du CP9",
+      "content": "Spandine apparaît dans le [[Chapitre 527]], dans la mini-aventure du CP9, où il a rencontré son fils à l'hôpital. Il doit alors trouver le CP9, qui en ont après Spandam, pour avoir tenté de les accuser à sa place, d'avoir accidentellement activé le Buster Call et d'avoir mis leurs têtes à prix."
+    },
+    {
+      "level": 3,
+      "title": "Pendant l'ellipse",
+      "content": "Au cours de l'ellipse, Spandine a réussi à faire promouvoir son fils au poste de chef du [[CP0]]. Suite à cela, il a travaillé avec d'anciens prisonniers du niveau 6 d'[[Impel Down]] et certains groupes de la pègre, pour une sorte de complot de prise de contrôle. Le complot a été déjoué par les anciens membres du CP9, qui s'entraînaient après leur expulsion de l'organisation. Cela l'a laissé réduit à un lit de malade, perdant toute son autorité, et son fils est devenu le subalterne de [[Rob Lucci]].{{Qref|nom=sb109|sbs=109}}"
+    },
+    {
+      "level": 3,
+      "title": "= Non-Jouable =",
+      "content": "* [[One Piece Treasure Cruise]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Spandine est originaire de [[Grand Line]].{{Qref|nom = Vivre}}\n*Il partage la même voix japonaise que son fils [[Spandam]]\n* Lui comme son fils ont échoué à tuer ou capturer Nico Robin.\n*Son plat préféré est le sashimi de limande à queue jaune.{{Qref|nom = Vivre}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Gouvernement Mondial Navibox}}\n{{Événements}}\n\n[[ca:Spandine]]\n[[en:Spandine]]\n[[es:Spandine]]\n[[it:Spandine]]\n[[zh:斯帕達因]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:CP9]]\n[[Catégorie:Personnages introduits dans un flashback]]\n[[Catégorie:Personnages introduits dans une Mini-Aventure]]\n[[Catégorie:Personnages d'Ohara]]\n[[Catégorie:Antagonistes de Flashback‎]]\n[[Catégorie:Personnages de Grand Line]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "CP9",
+    "Personnages introduits dans un flashback",
+    "Personnages introduits dans une Mini-Aventure",
+    "Personnages d'Ohara",
+    "Antagonistes de Flashback‎",
+    "Personnages de Grand Line"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = FFFFFF\n| nom               = Spandine\n| image             = [[Fichier:Spandine Manga Infobox.png|300px]]\n| nomj              = スパンダイン \n| nomr              = ''Supandain''\n| nomf              = Spandine\n| première          = [[Chapitre 392]] ; [[Épisode 275]]\n| affiliation       = [[CP9]] <small>(anciennement)</small>\n| occupation        = Chef du [[CP9]] <small>(anciennement)</small>\n| voj               = Masaya Onosaka\n| origine           = [[Grand Line]]{{Qref|nom=Vivre}}\n| naissance         = 19 Janvier {{Qref|databook=blue deep|page=94|texte=Sa date d'anniversaire est révélée.}}\n| âge               = 64 ans (avant l'ellipse)<br>66 ans (après l'ellipse){{Qref|nom=Vivre|databook=vivre|page = 0428|texte=Des infos sur Spandine sont dévoilées.}}\n| taille            = 2.75 m{{Qref|nom=Vivre}}\n|groupe sanguin     = XF (AB){{Qref|nom=Vivre}}\n|vof = [https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Souterelle Frédéric Souterelle]|statut=Vivant}}\n'''Spandine''' est le père de [[Spandam]] et fut le chef du [[CP9]], il y a 20 ans. Il dirigeait \"l'enquête\" sur [[Ohara]] et est responsable du déclenchement du [[Buster Call]] sur cette île.\n\nIl était l'antagoniste principal du flash-back d'Ohara par [[Robin]] à [[Enies Lobby]], agissant pour le compte du conseil des cinq doyens.\n\n==Apparence==\n22 ans plus tôt, lors de l'[[Incident d'Ohara]], il était vêtu d'un costume noir et d'une chemise blanche. Il avait une légère barbe et ses cheveux étaient soigneusement peignés.\n\nAvant l'ellipse, ses cheveux sont devenus gris/blanc, mais sa barbe est restée noire. Son visage a pris des rides à cause de l'âge. Dans l'ensemble, il a un air de famille avec son fils [[Spandam]].\n\n===Galerie===\n{{Galerie2|position=center|captionalign=center|height=150|width=150\n|Spandine Portrait.png|Visage de Spandine.\n|Spandine sur Ohara.png|Spandine à 44 ans.\n|Concept Art Spandine Anime.png|Concept Art de Spandine dans l'anime\n}}\n\n==Personnalité==\nIl pense que tout ce qu'il fait est bien et est extrêmement fidèle au [[conseil des cinq doyens]]. Spandine se croyait spécial, et presque invincible, parce qu'il était un agent du gouvernement. Il se voyait comme un héros, mais a agi comme un enfant gâté. C'est une personne très autoritaire et méchante. Il a ri quand le temps est venu de libérer le [[Buster Call]] sur [[Ohara]], et a pensé que l'activation de celui-ci lui ferait obtenir une promotion.<br />\n\nIl convient de noter qu'il se souciait de ses subordonnés et a examiné ce qui était le mieux pour eux (contrairement à son fils), comme lorsqu'il a été choqué que le Buster Call soit déclenché avant leur descente. Il leur a ordonné de quitter l'île, tout en affirmant que leur vie était plus importante que celle de la prisonnière ([[Nico Olvia]]). Spandine est particulièrement lâche puisque lorsque Nico Olvia lui a tiré dessus, il a cru mourir alors que la balle n'avait fait que traverser sa manche. \n\n==Relations==\n===Alliés===\n==== '''Spandam''' ====\nIl paraît n'aimer que son fils. C'est le seul pour qui il montre des sentiments.\n\n==== '''Le personnel du CP9''' ====\nIl commandait tous les agents qui étaient affectés à son unité à l'époque où il en était le chef.\n\n==== '''Les cinq doyens (le Gouvernement mondial)''' ====\nIls ont eu suffisamment confiance en lui pour le laisser mener sa mission sur [[Ohara]]. Il a fait toutes les démarches à suivre de façon très légale (surtout à leurs yeux). D'abord, il a collecté les preuves, ensuite déclenché le Buster call pour éliminer les scientifiques et a prévenu l'amiral-en-chef de l'époque pour maximiser l'arrestation de Nico Robin, la seule survivante. Il a tué le professeur [[Clover]] en respectant un ordre émanant de ses supérieurs.\n\n===Ennemis===\n==== '''Les scientifiques et les habitants d'Ohara''' ====\nIl les a exterminés jusqu'à l'avant-dernier (seule une petite-fille a pu s'enfuir et échapper à l'annihilation des habitants de l'île par les Marines et les agents du gouvernement mondial, Nico Robin). Sa mission était de trouver des indices compromettants sur les agissement des archéologues (les recherches sur les [[Ponéglyphes]]) qu'il a finalement trouvé en fouillant partout avec ses hommes.\n\n==== '''Le groupe de [[Lucci]]''' ====\nIl n'apprécie pas non plus cette bande, car ils ont menacé la vie de son fils, et ce, à cause du fait que Spandam ait triché sur les responsabilités des personnes présentent lors de la défaite de l'île judiciaire d'Enies Lobby.\n\n==Aptitudes et Compétences==\nSpandine ne semble pas avoir une puissance comparable à celle d'un CP9. Lorsque [[Nico Olvia]] tira dans sa manche, il s'est cru déjà vaincu et pensait qu'il allait mourir. Il ne se bat pas, il ordonne à ses subordonnés de se battre à sa place.\n\n==Histoire==\n===[[Incident d'Ohara]]===\nLors de l'incident d'Ohara, il y a 20 ans, Spandine, agent du Gouvernement mondial et dirigeant du CP9, a reçu l'ordre des cinq doyens de collecter des preuves contre les archéologues d'Ohara, soupçonnés de déchiffrer les Ponéglyphes, ce qui était strictement interdit. Dans un premier temps, Spandine envoya ses hommes pour rassembler des indices permettant de confirmer que les chercheurs d'Ohara s'intéressaient aux textes antiques et au Siècle Oublié. Cette collecte de preuves visait à justifier l'intervention militaire à venir.\n\nParallèlement, il a reçu pour mission de capturer Nico Olvia, archéologue recherchée, ainsi que de retrouver le déserteur de la Marine, Haguar D. Sauro. Spandine et ses hommes finirent par localiser Nico Olvia sur Ohara, ce qui facilita sa capture, même si Olvia résista, pensant que sa fin était proche. Ses hommes procédèrent ensuite à une fouille brutale de la bibliothèque, allant jusqu'à détruire une partie de l'édifice pour accéder aux archives cachées au sous-sol. Cette destruction permit à Spandine de découvrir un Ponéglyphe, scellant ainsi la culpabilité des archéologues aux yeux du Gouvernement Mondial.\n\nLes preuves réunies et l'implication des archéologues étant désormais avérées, Spandine appela les renforts de la Marine, ce qui mena à l'extermination de l'île par le Buster Call, un acte de destruction totale, qui visait à effacer toute trace des recherches sur les Ponéglyphes et à dissuader toute future tentative de percer les secrets du Siècle Oublié.<br />\n[[Fichier:CP9 arrive à Ohara.png|thumb|250px|Spandine et ses hommes débarquant à Ohara, il y a 20 ans]]\nAvec de telles preuves contre les archéologues, tous les scientifiques furent arrêtés. Suite à une demande du Professeur [[Clover]], Spandine le mit en communication avec le Conseil de cinq Étoiles. Comme celui-ci en savait trop sur le siècle oublié, les membres des cinq Etoiles demandèrent à Spandine de l'abattre (chose qu'il fit sans état d'âme). Suite à cet acte, le directeur du CP9 activa l'[[Escargophone|escargophone doré]], signal d'appel du [[Buster Call]]. Par contre, il n'avait pas du tout prévu que le bombardement débuterait sans attendre son départ de l'île.<br />\n\nAlors qu'il se trouvait sur son navire, Spandine découvrit que Haguar D. Sauro, le vice-amiral qui avait trahi la [[Marine]], se trouvait lui aussi sur Ohara. Lorsque le géant s'attaqua à son navire, il fut sauvé par le vice-amiral [[Aokiji]]. Quelques jours plus tard, après la destruction de l'île, il fit son rapport à l'Amiral [[Sengoku]]. Une jeune archéologue de huit ans, [[Nico Robin]] avait réussi à s'enfuir de l'île. Il fallait donc absolument la retrouver, morte ou vive.\n\n[[Fichier:Spandine parle aux journalistes.png|thumb|250px|Spandine livre un faux rapport aux médias]]\nSuite à l'[[Incident d'Ohara]], Spandine a convoqué plusieurs journalistes et a donné une interview accusant [[Nico Robin]] d'être responsable du naufrage de six navires de la Marine.{{Qref|nom=c1133|chapitre=1133|episode=|texte=}} \n\n===Rapport indépendant du CP9===\nSpandine apparaît dans le [[Chapitre 527]], dans la mini-aventure du CP9, où il a rencontré son fils à l'hôpital. Il doit alors trouver le CP9, qui en ont après Spandam, pour avoir tenté de les accuser à sa place, d'avoir accidentellement activé le Buster Call et d'avoir mis leurs têtes à prix.\n\n===Pendant l'ellipse===\nAu cours de l'ellipse, Spandine a réussi à faire promouvoir son fils au poste de chef du [[CP0]]. Suite à cela, il a travaillé avec d'anciens prisonniers du niveau 6 d'[[Impel Down]] et certains groupes de la pègre, pour une sorte de complot de prise de contrôle. Le complot a été déjoué par les anciens membres du CP9, qui s'entraînaient après leur expulsion de l'organisation. Cela l'a laissé réduit à un lit de malade, perdant toute son autorité, et son fils est devenu le subalterne de [[Rob Lucci]].{{Qref|nom=sb109|sbs=109}}\n\n== Marchandises ==\n===Jeux Vidéo===\n==== Non-Jouable ====\n* [[One Piece Treasure Cruise]]\n\n==Futilités==\n*Spandine est originaire de [[Grand Line]].{{Qref|nom = Vivre}}\n*Il partage la même voix japonaise que son fils [[Spandam]]\n* Lui comme son fils ont échoué à tuer ou capturer Nico Robin.\n*Son plat préféré est le sashimi de limande à queue jaune.{{Qref|nom = Vivre}}\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{Gouvernement Mondial Navibox}}\n{{Événements}}\n\n[[ca:Spandine]]\n[[en:Spandine]]\n[[es:Spandine]]\n[[it:Spandine]]\n[[zh:斯帕達因]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:CP9]]\n[[Catégorie:Personnages introduits dans un flashback]]\n[[Catégorie:Personnages introduits dans une Mini-Aventure]]\n[[Catégorie:Personnages d'Ohara]]\n[[Catégorie:Antagonistes de Flashback‎]]\n[[Catégorie:Personnages de Grand Line]]"
+}

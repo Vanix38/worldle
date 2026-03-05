@@ -1,0 +1,77 @@
+{
+  "title": "Kuni",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Kuni",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nom": "Kuni",
+    "image": "",
+    "nomj": "クニさん",
+    "nomr": "''Kuni-san''",
+    "nomf": "Kuni",
+    "première": "[[Chapitre 926]]{{Qref|nom=Apparition Manga|chapitre=926|page=9|texte=Kuni est vu dans l'ombre.}} ; [[Épisode 919]]{{Qref|nom=Apparition Anime|episode=919|texte=Kuni fait sa première apparition.}}",
+    "affiliation": "[[Pays de Wa]] <br>[[Famille Kyoshiro]]",
+    "occupation": "Gangster",
+    "statut": "Vivant",
+    "voj": "[[wikipedia:en:Takashi Matsuyama (actor)|Takashi Matsuyama]]",
+    "nomimage": "Kuni}"
+  },
+  "intro": "'''Kuni''' (クニさん, Kuni-san) est un gangster du [[Pays des Wa]], rattaché à la [[Famille Kyoshiro]]. Il est accompagné de [[Suke]] et [[Kaku (Wano)|Kaku]].{{Qref|nom=Apparition|chapitre=927|episode=919|texte=Kuni est introduit.}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Kuni est un homme de taille moyenne, avec un visage long et fin. Il a des cheveux noués en chignon, et porte un kimono en carreaux. Il a un manteau clair avec des caractères écrit sur les épaules. Il porte un katana à la hanche.\n{{Galerie2|position=center|width=120|height=120\n|Kuni Portrait.png|Portrait de Kuni\n|Kuni Anime Concept Art.png|Concept Art de Kuni pour l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Kuni est un gangster cruel qui n'hésite pas à renverser les stands de ceux qui ne paient pas la protection de la [[Famille Kyoshiro]]."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Il est employé par la [[Famille Kyoshiro]] pour intimider les vendeurs qui ne paient pas de protection à la famille. Il est intimidant et est supposé doué au combat. Il n'est cependant pas suffisamment fort pour tenir tête à [[Sanji]] qui l'a battu en une attaque.{{Qref|nom=Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Il porte un katana à la hanche mais on ne l'a pas vu l'utiliser."
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\n[[Sanji]] a ouvert un stand de soba dans la capitale de Wano. Kuni, accompagné de [[Suke]] et [[Kaku (Wano)|Kaku]], est venu lui dire qu'il devait payer une taxe de protection pour garder son stand dans la rue, car elle appartenait au territoire de la [[Famille Kyoshiro]]. Sanji a refusé de payer la taxe et Kuni a alors détruit le stand de soba d'un coup de pied, effrayant les gens de la file d'attente et les faisant fuir. Le stand étant détruit et la nourriture gâchée, Sanji lui a dit qu'il lui ferait manger le soba par terre, et Kuni a répondu en demandant à Suke et Kaku d'attaquer. Sanji a frappé Kuni d'un coup de pied au visage, l'envoyant au sol. Il a ensuite forcé Kuni à manger le soba sur le sol.{{Qref|nom=Apparition}}{{Qref|nom=e920|episode=920|texte=Sanji et Franky se battent avec la Famille Kyoshiro.}}\n\nIl réapparaît un peu plus tard lorsque Zoro affronte Kyoshiro, après la mort de Yasuie.{{Qref|nom=c945|chapitre=945|page=2|episode=|texte=[[Kaku (Wano)|Kaku]], Kuni et [[Suke]] sont étonnés de voir que [[Zoro]] tient tête à [[Kyoshiro]].}}"
+    },
+    {
+      "level": 2,
+      "title": "Batailles principales",
+      "content": "Kuni vs [[Sanji]] = Défaite"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Les noms de Kuni et de ses deux acolytes font référence à [https://en.wikipedia.org/wiki/Mito_K%C5%8Dmon Mito Kōmon], un drama d'époque japonais qui raconte l'histoire de [https://fr.wikipedia.org/wiki/Tokugawa_Mitsukuni Tokugawa Mitsukuni] et de ses deux vassaux samouraï \"Suke-san\" et \"Kaku-san\". Le nom de Kuni est dérivé de Mitsukuni."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n{{Pègre}}\n[[en:Kuni]]\n[[ca:Kuni]]\n[[pt-br:Kuni]]\n[[ru:Куни]]\n[[pl:Kuni]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Famille Kyoshiro]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Personnages de Wa",
+    "Antagonistes Saga Pays des Wa",
+    "Famille Kyoshiro",
+    "Subordonnés de la Famille Kurozumi"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F8674F\n| textcolor         = 006442\n| nom               = Kuni\n| image             = \n| nomj              = クニさん\n| nomr              = ''Kuni-san''\n| nomf              = Kuni\n| première          = [[Chapitre 926]]{{Qref|nom=Apparition Manga|chapitre=926|page=9|texte=Kuni est vu dans l'ombre.}} ; [[Épisode 919]]{{Qref|nom=Apparition Anime|episode=919|texte=Kuni fait sa première apparition.}}\n| affiliation       = [[Pays de Wa]] <br>[[Famille Kyoshiro]]\n| occupation        = Gangster\n| statut            = Vivant \n| voj               = [[wikipedia:en:Takashi Matsuyama (actor)|Takashi Matsuyama]]\n|nomimage=Kuni}}\n'''Kuni''' (クニさん, Kuni-san) est un gangster du [[Pays des Wa]], rattaché à la [[Famille Kyoshiro]]. Il est accompagné de [[Suke]] et [[Kaku (Wano)|Kaku]].{{Qref|nom=Apparition|chapitre=927|episode=919|texte=Kuni est introduit.}}\n\n==Apparence==\nKuni est un homme de taille moyenne, avec un visage long et fin. Il a des cheveux noués en chignon, et porte un kimono en carreaux. Il a un manteau clair avec des caractères écrit sur les épaules. Il porte un katana à la hanche.\n{{Galerie2|position=center|width=120|height=120\n|Kuni Portrait.png|Portrait de Kuni\n|Kuni Anime Concept Art.png|Concept Art de Kuni pour l'anime\n}}\n==Personnalité==\nKuni est un gangster cruel qui n'hésite pas à renverser les stands de ceux qui ne paient pas la protection de la [[Famille Kyoshiro]].\n\n==Aptitudes et compétences==\nIl est employé par la [[Famille Kyoshiro]] pour intimider les vendeurs qui ne paient pas de protection à la famille. Il est intimidant et est supposé doué au combat. Il n'est cependant pas suffisamment fort pour tenir tête à [[Sanji]] qui l'a battu en une attaque.{{Qref|nom=Apparition}}\n\n===Armes===\nIl porte un katana à la hanche mais on ne l'a pas vu l'utiliser.\n\n==Histoire==\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\n[[Sanji]] a ouvert un stand de soba dans la capitale de Wano. Kuni, accompagné de [[Suke]] et [[Kaku (Wano)|Kaku]], est venu lui dire qu'il devait payer une taxe de protection pour garder son stand dans la rue, car elle appartenait au territoire de la [[Famille Kyoshiro]]. Sanji a refusé de payer la taxe et Kuni a alors détruit le stand de soba d'un coup de pied, effrayant les gens de la file d'attente et les faisant fuir. Le stand étant détruit et la nourriture gâchée, Sanji lui a dit qu'il lui ferait manger le soba par terre, et Kuni a répondu en demandant à Suke et Kaku d'attaquer. Sanji a frappé Kuni d'un coup de pied au visage, l'envoyant au sol. Il a ensuite forcé Kuni à manger le soba sur le sol.{{Qref|nom=Apparition}}{{Qref|nom=e920|episode=920|texte=Sanji et Franky se battent avec la Famille Kyoshiro.}}\n\nIl réapparaît un peu plus tard lorsque Zoro affronte Kyoshiro, après la mort de Yasuie.{{Qref|nom=c945|chapitre=945|page=2|episode=|texte=[[Kaku (Wano)|Kaku]], Kuni et [[Suke]] sont étonnés de voir que [[Zoro]] tient tête à [[Kyoshiro]].}}\n\n==Batailles principales==\nKuni vs [[Sanji]] = Défaite\n\n==Futilités==\n*Les noms de Kuni et de ses deux acolytes font référence à [https://en.wikipedia.org/wiki/Mito_K%C5%8Dmon Mito Kōmon], un drama d'époque japonais qui raconte l'histoire de [https://fr.wikipedia.org/wiki/Tokugawa_Mitsukuni Tokugawa Mitsukuni] et de ses deux vassaux samouraï \"Suke-san\" et \"Kaku-san\". Le nom de Kuni est dérivé de Mitsukuni.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{PaysDeWa}}\n{{Pègre}}\n[[en:Kuni]]\n[[ca:Kuni]]\n[[pt-br:Kuni]]\n[[ru:Куни]]\n[[pl:Kuni]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Famille Kyoshiro]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Piper",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Piper",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "8B0000",
+    "textcolor": "D2B48C",
+    "image": "[[Fichier:Piper Manga Infobox.png]]",
+    "nom": "Piper",
+    "nomj": "パイパー",
+    "nomr": "''Paipā''",
+    "nomf": "",
+    "première": "[[Chapitre 1130]] {{Qref|nom=c1130|tome=|chapitre=1130|episode=|texte=Piper apparait pour la première fois}}",
+    "statut": "Vivant"
+  },
+  "intro": "'''Piper''' est un hibou géant appartenant à Gerd.{{Qref|nom=c1130}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Piper est un hibou massif, de la taille de la partie supérieure du corps de sa maîtresse. Ses plumes alternent entre le clair et le foncé, avec des plumes tourbillonnantes autour de ses yeux.{{Qref|nom=c1130}}\n{{Galerie2\n|Piper Portrait.png|Piper Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "En tant qu'animal de compagnie de Gerd, Piper lui est très fidèle. Il semble également doté d'un haut degré d'intelligence, ayant été témoin de quelque chose et en ayant ensuite fait rapport à sa maîtresse, répondant même lorsqu'on lui pose des questions à ce sujet.{{Qref|nom=c1130}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "En raison de sa grande taille et de son intelligence, Piper est capable de reconnaissance et peut informer sa maîtresse de tout ce dont il est témoin.{{Qref|nom=c1130}}\n\nPlus tard, ce dernier s'échappe par le pont suspendu tandis que Gerd, Piper et Goldberg le poursuivent, le cuisinier emmenant le Thousand Sunny avec lui."
+    },
+    {
+      "level": 3,
+      "title": "Arc Erbaf",
+      "content": "Piper a vu Muginn ramener le Thousand Sunny à la maison de Road. Il a rapidement fait son rapport à sa maîtresse, Gerd, ce qui a amené Goldberg à les rejoindre alors qu'ils allaient intercepter les pirates du Chapeau de Paille.{{Qref|nom=c1130}}\n\nPeu de temps après, ce dernier s'échappe par le pont suspendu tandis que [[Gerd]], Piper et [[Goldberg]] le poursuivent, le cuisinier emmenant le [[Thousand Sunny]] avec lui.{{Qref|nom=c1131|tome=|chapitre=1131|episode=|texte=}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Conformément au thème du lutteur professionnel de certains personnages d'Erbaf, Piper peut avoir été nommé d'après le lutteur Roddy Piper."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Erbaf}}\n[[en:Piper]]\n[[Catégorie:Animaux]]\n[[Catégorie:Personnages d'Erbaf]]"
+    }
+  ],
+  "categories": [
+    "Animaux",
+    "Personnages d'Erbaf"
+  ],
+  "raw_wikitext": "{{Spoil}}\n{{Char box\n| backcolor         = 8B0000\n| textcolor         = D2B48C\n|image           =[[Fichier:Piper Manga Infobox.png]]\n|nom            = Piper\n|nomj           = パイパー\n|nomr           = ''Paipā''\n|nomf           = \n|première       = [[Chapitre 1130]] {{Qref|nom=c1130|tome=|chapitre=1130|episode=|texte=Piper apparait pour la première fois}}\n|statut         = Vivant\n}}\n\n'''Piper''' est un hibou géant appartenant à Gerd.{{Qref|nom=c1130}}\n\n== Apparence ==\nPiper est un hibou massif, de la taille de la partie supérieure du corps de sa maîtresse. Ses plumes alternent entre le clair et le foncé, avec des plumes tourbillonnantes autour de ses yeux.{{Qref|nom=c1130}}\n{{Galerie2\n|Piper Portrait.png|Piper Portrait\n}}\n\n==Personnalité==\nEn tant qu'animal de compagnie de Gerd, Piper lui est très fidèle. Il semble également doté d'un haut degré d'intelligence, ayant été témoin de quelque chose et en ayant ensuite fait rapport à sa maîtresse, répondant même lorsqu'on lui pose des questions à ce sujet.{{Qref|nom=c1130}}\n\n==Aptitudes et Compétences==\nEn raison de sa grande taille et de son intelligence, Piper est capable de reconnaissance et peut informer sa maîtresse de tout ce dont il est témoin.{{Qref|nom=c1130}}\n\nPlus tard, ce dernier s'échappe par le pont suspendu tandis que Gerd, Piper et Goldberg le poursuivent, le cuisinier emmenant le Thousand Sunny avec lui.\n\n==Histoire==\n===Arc Erbaf===\nPiper a vu Muginn ramener le Thousand Sunny à la maison de Road. Il a rapidement fait son rapport à sa maîtresse, Gerd, ce qui a amené Goldberg à les rejoindre alors qu'ils allaient intercepter les pirates du Chapeau de Paille.{{Qref|nom=c1130}}\n\nPeu de temps après, ce dernier s'échappe par le pont suspendu tandis que [[Gerd]], Piper et [[Goldberg]] le poursuivent, le cuisinier emmenant le [[Thousand Sunny]] avec lui.{{Qref|nom=c1131|tome=|chapitre=1131|episode=|texte=}}\n\n==Futilité==\n*Conformément au thème du lutteur professionnel de certains personnages d'Erbaf, Piper peut avoir été nommé d'après le lutteur Roddy Piper.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{Erbaf}}\n[[en:Piper]]\n[[Catégorie:Animaux]]\n[[Catégorie:Personnages d'Erbaf]]"
+}

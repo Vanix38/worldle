@@ -1,0 +1,77 @@
+{
+  "title": "Chicory",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Chicory",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "D4FF00",
+    "textcolor": "808000",
+    "nom": "Chicory",
+    "image": "{{Manga-Anime",
+    "nomj": "チコリ",
+    "nomr": "''Chikori''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 738]]; [[Épisode 672]] {{Qref|nom=c738|chapitre=738|page=14|episode=672|texte=Chicory apparaît.}}",
+    "affiliation": "[[Royaume de Tontatta]]",
+    "lieuvie": "[[Green Bit]]",
+    "statut": "Vivante"
+  },
+  "intro": "''Chicory''' (チコリ, ''Chikori'') est une [[Nains|naine]] du [[Royaume de Tontatta]] qui est apparue sur [[Green Bit]] et une membre de l'armée des nains.{{Qref|nom=Magazine|texte=[[One Piece Magazine Vol. 2]] (p. 119) - Chicory est nommée.}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Chicory est une [[nains|nain]]e avec des cheveux colorés et brillants. Elle porte un chapeau avec une fleur couvrant la majeur partie supérieure de son crâne, une robe claire avec des rayures foncées en bas, et une paire de talons noirs.\n{{Galerie2|position=center|width=120|height=120\n|Chicory Portrait.png|Chicory Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On ne sait rien de sa personnalité, mais elle doit être naïve, comme les autres nains. Elle est suffisamment courageuse pour aller aider ses compagnons nains à délivrer les nains esclaves de [[Don Quichotte Doflamingo|Doflamingo]].{{Qref|nom=c738}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Sa petite taille lui permet d'être discret pour attaquer son adversaire par surprise. Elle est également très rapide et possède une grande force physique, comme tous les autres nains. Elle et les autres nains ne sont cependant pas assez forts pour battre [[Trébol]] et [[Sugar]].{{Qref|nom=c740|chapitre=740|page=19|episode=674|texte=Les nains sont battus par [[Trébol]] et [[Sugar]].}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Dressrosa",
+      "content": "Chicory fait partie des membres de l'[[Opération SOP]] qui tentent de faire s'évanouir [[Sugar]].{{Qref|nom=c738}} Lorsque [[Nico Robin]] attire ailleurs [[Trébol]], les nains affrontent Sugar, qui [[Hobi Hobi no Mi|transforme une partie en jouets]]. Ayant oublié que les jouets étaient leurs compagnons, Chicory et les autres nains sont alors confus de la tournure des événements.{{Qref|nom=c738}}\n\nPeu après, Trébol revient et arrive à les battre sans difficulté avec son [[Beta Beta no Mi|pouvoir]]. Il allume ensuite la colle pour la faire exploser, blessant ainsi les nains dans l'explosion.{{Qref|nom=c739|chapitre=739|page=5-6}} Les nains placent alors leurs derniers espoirs en [[Usopp|Usoland]], pleurant en l'appelant au secours.{{Qref|nom=c741|chapitre=741}}  Usopp arrive peu après à leur rescousse, malgré sa peur, et les nains regardent leur dernier espoir se faire battre rapidement et Sugar lui donner la boule extrêmement pimentée qui lui était destinée. Usopp se met alors à hurler de douleur, à la surprise des nains, de Trébol et de Sugar qui s'évanouit.{{Qref|nom=c742|chapitre=742|page=18-19}} Chicory regarde ainsi avec stupéfaction Sugar s'évanouir.{{Qref|nom=c743|chapitre=743|page=2|texte=Chicory regarde Sugar s'évanouir.}}"
+    },
+    {
+      "level": 2,
+      "title": "Batailles principales",
+      "content": "*L'armée de Green Bit vs. [[Sugar]] et [[Trébol]] = Défaite"
+    },
+    {
+      "level": 2,
+      "title": "Différences Manga et Anime",
+      "content": "Dans la scène de l'anime qui adapte le [[Chapitre 738]] où elle apparaît, elle est remplacée par [[Cotton]] dans le groupe à côté de [[Léo]] et [[Bomba]] lorsque Sugar transforme leurs amis en jouets.{{Qref|nom=e671|episode=671|texte=Chicory est remplacée par Cotton.}}"
+    },
+    {
+      "level": 2,
+      "title": "Autres One Piece",
+      "content": "*Dans One Piece Magazine Vol.2, il y a un prototype du personnage. {{Qref|nom=Magazine}}\n{{Galerie2|width=130\n|Chicory Concept Art.png|Concept de Chicory dans le manga\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Chicory, comme [[Eikon]], est nommée non pas dans le [[SBS Tome 73]] mais dans le [[One Piece Magazine Vol. 2]] à la place.{{Qref|nom=Magazine}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{FlotteChapeauDePaille}}\n{{Nains}}\n{{Dressrosa}}\n[[ca:Chicory]]\n[[en:Chicory]]\n[[it:Chicory]]\n[[Catégorie:Nains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Green Bit]]"
+    }
+  ],
+  "categories": [
+    "Nains",
+    "Personnages Féminins",
+    "Personnages de Green Bit"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = D4FF00\n| textcolor         = 808000\n| nom               = Chicory\n| image             = {{Manga-Anime\n|[[Fichier:Chicory Anime Infobox.png|250px]]\n|[[Fichier:Chicory Manga Infobox.png|270px]]}}\n| nomj              = チコリ\n| nomr              = ''Chikori''\n| nomf              = N/A\n| première          = [[Chapitre 738]]; [[Épisode 672]] {{Qref|nom=c738|chapitre=738|page=14|episode=672|texte=Chicory apparaît.}}\n| affiliation       = [[Royaume de Tontatta]]\n| lieuvie           = [[Green Bit]]\n| statut            = Vivante\n}}'''Chicory''' (チコリ, ''Chikori'') est une [[Nains|naine]] du [[Royaume de Tontatta]] qui est apparue sur [[Green Bit]] et une membre de l'armée des nains.{{Qref|nom=Magazine|texte=[[One Piece Magazine Vol. 2]] (p. 119) - Chicory est nommée.}}\n\n==Apparence==\nChicory est une [[nains|nain]]e avec des cheveux colorés et brillants. Elle porte un chapeau avec une fleur couvrant la majeur partie supérieure de son crâne, une robe claire avec des rayures foncées en bas, et une paire de talons noirs.\n{{Galerie2|position=center|width=120|height=120\n|Chicory Portrait.png|Chicory Portrait\n}}\n\n==Personnalité==\nOn ne sait rien de sa personnalité, mais elle doit être naïve, comme les autres nains. Elle est suffisamment courageuse pour aller aider ses compagnons nains à délivrer les nains esclaves de [[Don Quichotte Doflamingo|Doflamingo]].{{Qref|nom=c738}}\n\n==Aptitudes et compétences==\nSa petite taille lui permet d'être discret pour attaquer son adversaire par surprise. Elle est également très rapide et possède une grande force physique, comme tous les autres nains. Elle et les autres nains ne sont cependant pas assez forts pour battre [[Trébol]] et [[Sugar]].{{Qref|nom=c740|chapitre=740|page=19|episode=674|texte=Les nains sont battus par [[Trébol]] et [[Sugar]].}}\n\n==Histoire==\n===Arc Dressrosa===\nChicory fait partie des membres de l'[[Opération SOP]] qui tentent de faire s'évanouir [[Sugar]].{{Qref|nom=c738}} Lorsque [[Nico Robin]] attire ailleurs [[Trébol]], les nains affrontent Sugar, qui [[Hobi Hobi no Mi|transforme une partie en jouets]]. Ayant oublié que les jouets étaient leurs compagnons, Chicory et les autres nains sont alors confus de la tournure des événements.{{Qref|nom=c738}}\n\nPeu après, Trébol revient et arrive à les battre sans difficulté avec son [[Beta Beta no Mi|pouvoir]]. Il allume ensuite la colle pour la faire exploser, blessant ainsi les nains dans l'explosion.{{Qref|nom=c739|chapitre=739|page=5-6}} Les nains placent alors leurs derniers espoirs en [[Usopp|Usoland]], pleurant en l'appelant au secours.{{Qref|nom=c741|chapitre=741}}  Usopp arrive peu après à leur rescousse, malgré sa peur, et les nains regardent leur dernier espoir se faire battre rapidement et Sugar lui donner la boule extrêmement pimentée qui lui était destinée. Usopp se met alors à hurler de douleur, à la surprise des nains, de Trébol et de Sugar qui s'évanouit.{{Qref|nom=c742|chapitre=742|page=18-19}} Chicory regarde ainsi avec stupéfaction Sugar s'évanouir.{{Qref|nom=c743|chapitre=743|page=2|texte=Chicory regarde Sugar s'évanouir.}}\n\n==Batailles principales==\n*L'armée de Green Bit vs. [[Sugar]] et [[Trébol]] = Défaite\n\n==Différences Manga et Anime==\nDans la scène de l'anime qui adapte le [[Chapitre 738]] où elle apparaît, elle est remplacée par [[Cotton]] dans le groupe à côté de [[Léo]] et [[Bomba]] lorsque Sugar transforme leurs amis en jouets.{{Qref|nom=e671|episode=671|texte=Chicory est remplacée par Cotton.}}\n\n==Autres One Piece==\n*Dans One Piece Magazine Vol.2, il y a un prototype du personnage. {{Qref|nom=Magazine}}\n{{Galerie2|width=130\n|Chicory Concept Art.png|Concept de Chicory dans le manga\n}}\n\n==Futilités==\n*Chicory, comme [[Eikon]], est nommée non pas dans le [[SBS Tome 73]] mais dans le [[One Piece Magazine Vol. 2]] à la place.{{Qref|nom=Magazine}}\n\n==Références==\n<references/>\n\n==Navigation du site==\n{{FlotteChapeauDePaille}}\n{{Nains}}\n{{Dressrosa}}\n[[ca:Chicory]]\n[[en:Chicory]]\n[[it:Chicory]]\n[[Catégorie:Nains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Green Bit]]"
+}

@@ -1,0 +1,33 @@
+{
+  "description": "One Piece – correspondance numéro de chapitre (max inclus) → nom d’arc. Réutilisable pour le site (affichage, filtres).",
+  "arcs": [
+    { "chapterMax": 7, "arc": "Romance Dawn" },
+    { "chapterMax": 21, "arc": "Orange Town" },
+    { "chapterMax": 41, "arc": "Syrup Village" },
+    { "chapterMax": 68, "arc": "Baratie" },
+    { "chapterMax": 95, "arc": "Arlong Park" },
+    { "chapterMax": 100, "arc": "Logue Town" },
+    { "chapterMax": 105, "arc": "Reverse Mountain" },
+    { "chapterMax": 114, "arc": "Whisky Peak" },
+    { "chapterMax": 129, "arc": "Little Garden" },
+    { "chapterMax": 154, "arc": "Drum Island" },
+    { "chapterMax": 217, "arc": "Alabasta" },
+    { "chapterMax": 236, "arc": "Jaya" },
+    { "chapterMax": 302, "arc": "Skypiea" },
+    { "chapterMax": 321, "arc": "Long Ring Long Land" },
+    { "chapterMax": 374, "arc": "Water Seven" },
+    { "chapterMax": 430, "arc": "Enies Lobby" },
+    { "chapterMax": 489, "arc": "Thriller Bark" },
+    { "chapterMax": 513, "arc": "Archipel Sabaody" },
+    { "chapterMax": 523, "arc": "Amazon Lily" },
+    { "chapterMax": 574, "arc": "Impel Down" },
+    { "chapterMax": 597, "arc": "Marineford" },
+    { "chapterMax": 653, "arc": "Fishman Island" },
+    { "chapterMax": 699, "arc": "Punk Hazard" },
+    { "chapterMax": 801, "arc": "Dressrosa" },
+    { "chapterMax": 824, "arc": "Zou" },
+    { "chapterMax": 902, "arc": "Whole Cake" },
+    { "chapterMax": 1057, "arc": "Wano Kuni" },
+    { "chapterMax": 9999, "arc": "Egghead" }
+  ]
+}

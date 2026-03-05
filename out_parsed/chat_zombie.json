@@ -1,0 +1,53 @@
+{
+  "title": "Chat Zombie",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Chat_Zombie",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "0067A5",
+    "nom": "Chat Zombie",
+    "image": "[[Fichier:Chat Zombie infobox.png|270px]]",
+    "nomj": "ゾンビチャット",
+    "nomr": "N/A",
+    "nomf": "Chat Zombie",
+    "première": "[[Épisode 341]]",
+    "affiliation": "[[Thriller Bark]]",
+    "occupation": "Zombie",
+    "numzombie": "193"
+  },
+  "intro": "Le '''Chat Zombie''' est un zombie sauvage sous les ordres de [[Perona]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Il est cousu et porte ce qui semble être une casquette de pilote. Son large sourire inquiétant le fait ressembler au Chat des aventures d'Alice au pays des merveilles. Il a le numéro 193 sur son arrière-train.\n{{Galerie2|position=center|captionalign=center\n|Zombie 193 Portrait.png|Chat Zombie Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Etant un zombie il est fidèle a ses maîtres [[Gecko Moria]] et [[Perona]]."
+    },
+    {
+      "level": 3,
+      "title": "Arc de Thriller Bark",
+      "content": "{{Main|Arc Thriller Bark}}\nIl a d'abord été vu gambader avec un certain nombre d'autres créatures de la forêt. Il a été vu plus tard dans un couloir du manoir quand [[Usopp]] et [[Chopper]] surveillait l'entrée de la salle de bain quand [[Nami]] prenait un bain. \nComme tous les zombies son ombre a quitté son corps lors du \"Shadow Asgard\" de leur maître, [[Gecko Moria]]."
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "* Le Chat Zombie avec son large sourire inquiétant peut ressembler au [https://fr.wikipedia.org/wiki/Chat_du_Cheshire Chat du Cheshire] d’<em>Alice au pays des merveilles</em>."
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Animaux Navibox}}\n{{ThrillerBark}} \n[[en:Zombie#Cheshire Cat]]\n[[Catégorie:Zombies]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Animaux]]"
+    }
+  ],
+  "categories": [
+    "Zombies",
+    "Personnages Masculins",
+    "Personnages Décédés",
+    "Animaux"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = 0067A5\n| nom               = Chat Zombie\n| image             = [[Fichier:Chat Zombie infobox.png|270px]]\n| nomj              = ゾンビチャット\n| nomr              = N/A\n| nomf              = Chat Zombie\n| première          = [[Épisode 341]]\n| affiliation       = [[Thriller Bark]]\n| occupation        = Zombie\n| numzombie         = 193\n}}\nLe '''Chat Zombie''' est un zombie sauvage sous les ordres de [[Perona]].\n\n==Apparence==\nIl est cousu et porte ce qui semble être une casquette de pilote. Son large sourire inquiétant le fait ressembler au Chat des aventures d'Alice au pays des merveilles. Il a le numéro 193 sur son arrière-train.\n{{Galerie2|position=center|captionalign=center\n|Zombie 193 Portrait.png|Chat Zombie Portrait\n}}\n\n==Personnalité==\nEtant un zombie il est fidèle a ses maîtres [[Gecko Moria]] et [[Perona]].\n\n==Histoire==\n===Arc de Thriller Bark===\n{{Main|Arc Thriller Bark}}\nIl a d'abord été vu gambader avec un certain nombre d'autres créatures de la forêt. Il a été vu plus tard dans un couloir du manoir quand [[Usopp]] et [[Chopper]] surveillait l'entrée de la salle de bain quand [[Nami]] prenait un bain. \nComme tous les zombies son ombre a quitté son corps lors du \"Shadow Asgard\" de leur maître, [[Gecko Moria]].\n\n== Futilités ==\n* Le Chat Zombie avec son large sourire inquiétant peut ressembler au [https://fr.wikipedia.org/wiki/Chat_du_Cheshire Chat du Cheshire] d’<em>Alice au pays des merveilles</em>.\n\n==Navigation du Site==\n{{Animaux Navibox}}\n{{ThrillerBark}} \n[[en:Zombie#Cheshire Cat]]\n[[Catégorie:Zombies]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Animaux]]"
+}

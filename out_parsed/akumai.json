@@ -1,0 +1,89 @@
+{
+  "title": "Akumai",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Akumai",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "9370DB",
+    "textcolor": "F5F5DC",
+    "nom": "Akumai",
+    "nomimage": "Akumai",
+    "nomj": "アクマイ",
+    "nomr": "''Akumai''",
+    "nomf": "Akumai<ref>''One Piece Manga'' - [[One Piece Blue : Grand Data File]] page 63 - Son nom est donné.</ref>",
+    "première": "[[Chapitre 129]] ; [[Épisode 78]]<ref name=r1>''One Piece Manga et Anime'' - [[Tome 15]], [[Chapitre 129]], [[Épisode 78]]</ref>",
+    "affiliation": "[[Baroque Works]]",
+    "occupation": "[[Billions]]",
+    "naissance": "27 Décembre {{Qref|nom=vivre|databook=vivre|page=0153|texte=la date d'anniversaire d'Akumai est donnée.}}",
+    "voj": "Inconnue",
+    "vof": "Inconnue"
+  },
+  "intro": "''Akumai''' (アクマイ) est un agent [[Billions]] qui suit [[Mr 2]] partout. Il a été capturé par [[Hina]], lorsque son capitaine et son équipage se sont sacrifiés pour sauver [[Monkey D. Luffy|Luffy]] et ses [[L'Équipage du Chapeau de Paille|amis]].<ref name=r2 />",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Akumai a une coupe de cheveux qui ressemble au logo du [[Baroque Works]] de couleur noire. Il porte un t-shirt rayé gris et noir ainsi qu'une écharpe blanche autour du cou, un foulard autour de la taille dans lequel il range son sabre.<ref name=r1 /> Lorsque son capitaine prétend être [[Cobra]], il est déguisé en garde royal. Quand [[Hina]] tente d'arrêter les pirates, il est déguisé en [[Chopper]].<ref name=r2 />"
+    },
+    {
+      "level": 3,
+      "title": "Galerie",
+      "content": "{{Galerie2\n|Akumai Portrait.png|Akumai Portrait\n|Akumai Déguisement Garde.png|Akumai déguisé en garde d'Alabasta\n|Akumai Déguisement Chopper.png|Akumai déguisé en [[Tony Tony Chopper]]\n|Akumai Anime Concept Art.png|Concept Art d'Akumai pour l'anime\n|Apparence Initial d'Akumai.png|Apparence Initial d'Akumai\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Il est très peureux. Comme Bentham, il aime se déguiser et danser le ballet."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Comme le reste de l'équipage, Akumai est capable de danser. On ne sait cependant pas s'il utilise la danse, lors de ses combats, comme son capitaine."
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Akumai est vu se battre avec un sabre."
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Alabasta]]",
+      "content": "Il est toujours vu avec [[Mr 2]]. Lors du départ des Chapeaux de paille, il est capturé par Hina avec le reste de son équipage. Son sort actuel est inconnu.<ref name=r2>''One Piece Manga et Anime'' - [[Tome 23]], [[Chapitre 215]], [[Épisode 129]]</ref>"
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "* Akumai et [[Billions]] vs [[Mr 1]] = Défaite\n* Akumai, [[Mr 2]] et [[Billions]] vs [[Hina]] et la [[Marine]] = Défaite"
+    },
+    {
+      "level": 2,
+      "title": "Articles Relatifs",
+      "content": "* [[Mr 2]]\n* [[Travelo Punch]]\n* [[Billions]]\n* [[Baroque Works]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "* Akuma (悪魔, trad. « Démon, monstre, diable ») est un esprit maléfique du folklore japonais. Il n'a aucune forme qui lui est propre et il est le résidu d'une âme humaine tourmentée."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{BaroqueWorks}}\n[[ca:Akumai]]\n[[de:Akumai]]\n[[en:Akumai]]\n[[es:Akumai]]\n[[it:Akumai]]\n[[pt:Akumai]]\n[[Catégorie:Billions]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Alliés du Chapeau de Paille]]\n[[Catégorie:Humains]]\n[[Catégorie:Épéistes]]\n[[Catégorie:Supporters du Chapeau de Paille]]\n[[Catégorie:Personnages d'Alabasta]]\n[[Catégorie:Antagonistes Saga Alabasta]]"
+    }
+  ],
+  "categories": [
+    "Billions",
+    "Personnages Masculins",
+    "Alliés du Chapeau de Paille",
+    "Humains",
+    "Épéistes",
+    "Supporters du Chapeau de Paille",
+    "Personnages d'Alabasta",
+    "Antagonistes Saga Alabasta"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 9370DB\n| textcolor         = F5F5DC\n| nom               = Akumai\n| nomimage          = Akumai\n| nomj              = アクマイ\n| nomr              = ''Akumai''\n| nomf              = Akumai<ref>''One Piece Manga'' - [[One Piece Blue : Grand Data File]] page 63 - Son nom est donné.</ref>\n| première          = [[Chapitre 129]] ; [[Épisode 78]]<ref name=r1>''One Piece Manga et Anime'' - [[Tome 15]], [[Chapitre 129]], [[Épisode 78]]</ref>\n| affiliation       = [[Baroque Works]]\n| occupation        = [[Billions]]\n| naissance         = 27 Décembre {{Qref|nom=vivre|databook=vivre|page=0153|texte=la date d'anniversaire d'Akumai est donnée.}}\n| voj               = Inconnue\n| vof               = Inconnue\n}}'''Akumai''' (アクマイ) est un agent [[Billions]] qui suit [[Mr 2]] partout. Il a été capturé par [[Hina]], lorsque son capitaine et son équipage se sont sacrifiés pour sauver [[Monkey D. Luffy|Luffy]] et ses [[L'Équipage du Chapeau de Paille|amis]].<ref name=r2 />\n\n==Apparence==\nAkumai a une coupe de cheveux qui ressemble au logo du [[Baroque Works]] de couleur noire. Il porte un t-shirt rayé gris et noir ainsi qu'une écharpe blanche autour du cou, un foulard autour de la taille dans lequel il range son sabre.<ref name=r1 /> Lorsque son capitaine prétend être [[Cobra]], il est déguisé en garde royal. Quand [[Hina]] tente d'arrêter les pirates, il est déguisé en [[Chopper]].<ref name=r2 />\n\n===Galerie===\n{{Galerie2\n|Akumai Portrait.png|Akumai Portrait\n|Akumai Déguisement Garde.png|Akumai déguisé en garde d'Alabasta\n|Akumai Déguisement Chopper.png|Akumai déguisé en [[Tony Tony Chopper]]\n|Akumai Anime Concept Art.png|Concept Art d'Akumai pour l'anime\n|Apparence Initial d'Akumai.png|Apparence Initial d'Akumai\n}}\n\n==Personnalité==\nIl est très peureux. Comme Bentham, il aime se déguiser et danser le ballet.\n\n==Aptitudes et Compétences==\nComme le reste de l'équipage, Akumai est capable de danser. On ne sait cependant pas s'il utilise la danse, lors de ses combats, comme son capitaine.\n\n===Armes===\nAkumai est vu se battre avec un sabre.\n\n==Histoire==\n===[[Arc Alabasta]]===\nIl est toujours vu avec [[Mr 2]]. Lors du départ des Chapeaux de paille, il est capturé par Hina avec le reste de son équipage. Son sort actuel est inconnu.<ref name=r2>''One Piece Manga et Anime'' - [[Tome 23]], [[Chapitre 215]], [[Épisode 129]]</ref>\n\n==Batailles Principales==\n* Akumai et [[Billions]] vs [[Mr 1]] = Défaite\n* Akumai, [[Mr 2]] et [[Billions]] vs [[Hina]] et la [[Marine]] = Défaite\n\n==Articles Relatifs==\n* [[Mr 2]]\n* [[Travelo Punch]]\n* [[Billions]]\n* [[Baroque Works]]\n\n==Futilité==\n* Akuma (悪魔, trad. « Démon, monstre, diable ») est un esprit maléfique du folklore japonais. Il n'a aucune forme qui lui est propre et il est le résidu d'une âme humaine tourmentée.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{BaroqueWorks}}\n[[ca:Akumai]]\n[[de:Akumai]]\n[[en:Akumai]]\n[[es:Akumai]]\n[[it:Akumai]]\n[[pt:Akumai]]\n[[Catégorie:Billions]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Alliés du Chapeau de Paille]]\n[[Catégorie:Humains]]\n[[Catégorie:Épéistes]]\n[[Catégorie:Supporters du Chapeau de Paille]]\n[[Catégorie:Personnages d'Alabasta]]\n[[Catégorie:Antagonistes Saga Alabasta]]"
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Hanger",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Hanger",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "5B92E5",
+    "textcolor": "002FA7",
+    "nom": "Hanger",
+    "image": "{{Manga-Anime",
+    "nomj": "ハンガー",
+    "nomr": "''Hangā''",
+    "nomf": "Hanger",
+    "première": "[[Chapitre 97]] ; [[Épisode 48]]{{Qref|chapitre = 97|episode = 48}}",
+    "origine": "[[East Blue]]{{Qref|nom=vivre|databook=vivre|page=0117|texte=Des infos sur Hanger sont dévoilées.}}",
+    "lieuvie": "[[Logue Town]]",
+    "occupation": "Commerçant",
+    "naissance": "23 septembre{{Qref|nom=vivre}}"
+  },
+  "intro": "'''Hanger''' (ハンガー, ''Hangā'') est le vendeur du magasin où [[Nami]] avait fait ses emplettes à [[Loguetown]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "M. Hanger est un homme de taille normale, qui a des cheveux bleu marine, avec une partie de sa coiffure qui ressemble à un cintre. Il a un grand front et des sourcils épais. Il a long nez rond, et une moustache bleu marine qui rebique. Il est vêtu d'un gilet violet à rayures verticales, avec une chemise rose à manches longues en dessous, et d'une cravate vert clair. Il porte également un pantalon noir.\n{{Galerie2|position=center|width=120|height=120\n|Hanger Portrait.png|Hanger Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "C'est un homme enthousiaste qui se réjouit de voir des clients visiter sa boutique. Il a ensuite été surpris et déçu, quand Nami est sortie de la boutique sans rien acheter, après avoir essayé tous les vêtements du magasin."
+    },
+    {
+      "level": 3,
+      "title": "Arc de Loguetown",
+      "content": "{{Main|Arc Loguetown}}\nAprès avoir laissé [[Nami]] essayer tous les vêtements de son magasin, elle a quitté son magasin, en déclarant qu'elle n'était intéressée par quoi que ce soit. Hanger a ensuite déprimé, en raison de la décision de la jeune fille."
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*\"Hanger\" signifie \"cintre\" en anglais, en référence à sa coiffure en forme de cintre."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{CitoyensEastBlue}}\n\n[[en:Hanger]]\n[[es:Hanger]]\n[[it:Hanger]]\n[[ca:Hanger]]\n[[ru:Хангер]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages de Loguetown]]\n[[Catégorie:Commerçants]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Personnages de Loguetown",
+    "Commerçants"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 5B92E5\n| textcolor         = 002FA7\n| nom               = Hanger\n| image             = {{Manga-Anime\n| [[Fichier:Hanger_Anime_Infobox.png|270px]]\n| [[Fichier:Hanger Manga Infobox.png|270px]]\n}}\n| nomj              = ハンガー\n| nomr              = ''Hangā''\n| nomf              = Hanger\n| première          = [[Chapitre 97]] ; [[Épisode 48]]{{Qref|chapitre = 97|episode = 48}}\n| origine           = [[East Blue]]{{Qref|nom=vivre|databook=vivre|page=0117|texte=Des infos sur Hanger sont dévoilées.}}\n| lieuvie           = [[Logue Town]]\n| occupation        = Commerçant\n| naissance         = 23 septembre{{Qref|nom=vivre}}\n}}\n'''Hanger''' (ハンガー, ''Hangā'') est le vendeur du magasin où [[Nami]] avait fait ses emplettes à [[Loguetown]].\n\n==Apparence==\nM. Hanger est un homme de taille normale, qui a des cheveux bleu marine, avec une partie de sa coiffure qui ressemble à un cintre. Il a un grand front et des sourcils épais. Il a long nez rond, et une moustache bleu marine qui rebique. Il est vêtu d'un gilet violet à rayures verticales, avec une chemise rose à manches longues en dessous, et d'une cravate vert clair. Il porte également un pantalon noir.\n{{Galerie2|position=center|width=120|height=120\n|Hanger Portrait.png|Hanger Portrait\n}}\n==Personnalité==\nC'est un homme enthousiaste qui se réjouit de voir des clients visiter sa boutique. Il a ensuite été surpris et déçu, quand Nami est sortie de la boutique sans rien acheter, après avoir essayé tous les vêtements du magasin.\n\n==Histoire==\n===Arc de Loguetown===\n{{Main|Arc Loguetown}}\nAprès avoir laissé [[Nami]] essayer tous les vêtements de son magasin, elle a quitté son magasin, en déclarant qu'elle n'était intéressée par quoi que ce soit. Hanger a ensuite déprimé, en raison de la décision de la jeune fille.\n\n==Futilité==\n*\"Hanger\" signifie \"cintre\" en anglais, en référence à sa coiffure en forme de cintre.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{CitoyensEastBlue}}\n\n[[en:Hanger]]\n[[es:Hanger]]\n[[it:Hanger]]\n[[ca:Hanger]]\n[[ru:Хангер]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages de Loguetown]]\n[[Catégorie:Commerçants]]"
+}

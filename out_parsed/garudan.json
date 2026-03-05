@@ -1,0 +1,71 @@
+{
+  "title": "Garudan",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Garudan",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nomimage": "Garudan",
+    "nomj": "がる弾",
+    "nomr": "''Garudan''",
+    "nomf": "",
+    "première": "[[Chapitre 951]]; [[Épisode 951]]{{Qref|nom=c951|tome=94|chapitre=951|episode=994|texte=Garudan fait ses débuts avec le Mimawarigumi.}}",
+    "affiliation": "[[Mimawarigumi]] (anciennement); [[Pays de Wa]];{{Qref|nom=c986|tome=98|chapitre=958|episode=995|texte=}}; [[L'Équipage aux Cent Bêtes]]",
+    "occupation": "[[Samouraï]], [[pirate]]",
+    "statut": "Vivant",
+    "voj": "",
+    "vof": ""
+  },
+  "intro": "'''Garudan''' {{Qref|nom=vivre|databook=vivre|page=1023|texte=Diverses informations sur Garudan sont données.}}est un samouraï et un membre de l'ancien [[Mimawarigumi]], un pirate dans les rangs des Pirates aux Cents Bêtes.{{Qref|nom=c951}}{{Qref|nom=c986}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Garudan est un homme de taille moyenne avec de longs cheveux brun rougeâtre. Son visage est constamment couvert par un masque de lapin. Il porte un kimono noir avec des motifs en forme de corde orange, ainsi qu'une cape blanche. {{Qref|nom=c951}}{{Galerie2|position=center|width=120|height=120\n|Garudan Portrait.png|Garudan Portrait\n|Garudan Anime Concept Art.png|L'art conceptuel de Garudan tiré de l'Anime.\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On sait peu de choses sur la personnalité de Garudan. Il était vraisemblablement fidèle à Kurozumi Orochi jusqu'à la mort apparente de ce dernier, mais n'avait aucun problème à faire défection chez les Pirates aux Cents Bêtes par la suite, malgré ce que prévoyait le code d'honneur des samouraïs. Il a servi loyalement à L'Équipage aux Cent Bêtes en attaquant Hyogoro.{{Qref|nom=c1006}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "En tant que membre du Mimawarigumi, Garudan est vraisemblablement un samouraï et un combattant compétent. Cependant, ses capacités sont dérisoires par rapport à Hyogoro, qui l'a facilement frappé ainsi que plusieurs de ses camarades avec une seule attaque.{{Qref|nom=c1006|tome=100|chapitre=1006|episode=1022|texte=}}"
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Garudan brandissait un katana, mais celui-ci fut brisé en deux par Hyogoro.{{Qref|nom=c1006}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano",
+      "content": "Après que les Pirates du Chapeau de Paille aient déclenché des violences dans les rues de la capitale des fleurs lors de l'exécution de Shimotsuki Yasuie, les Mimawarigumi ont été envoyés pour patrouiller dans la ville.{{Qref|nom=c951}}\n\nUne semaine plus tard, les Mimawarigumi accompagnèrent Orochi à Onigashima pour célébrer le Festival du Feu. Cependant, Orochi serait tué par Kaidou dans le cadre du plan de Kaidou visant à reprendre Wano. L'Empereur donna aux subordonnés d'Orochi le choix entre promettre fidélité ou combattre ; Hotei a immédiatement promis le soutien des Mimawarigumi sans dissident.{{Qref|nom=c986}}\n\nLes festivités ont été interrompues par l'invasion de l'Alliance Ninja-Pirate-Mink-Samurai. Le Mimawarigumi affrontait Hyogoro, un ancien patron yakuza qui avait retrouvé ses anciennes forces. Garudan, Hotei et plusieurs de ses compagnons l'ont chargé, mais Hyogoro les a rapidement tous abattus d'un seul coup.{{Qref|nom=c1006}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Son nom est dérivé de Solar System Squadron Guldan (太陽系戦隊 ガルダン, Taiyō-kei Sentai Garudan), une gamme de kits de modèles lancée au printemps 1981 par Arii. Il s'agit essentiellement d'une imitation des kits de modèles Gundam populaires. Garudan partage ce thème de dénomination avec Gangaru, un autre membre de Mimawarigumi."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{PaysDeWa}}\n{{EquipageKaido}}\n[[en:Garudan]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Samourais]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Équipage aux Cent Bêtes]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Samourais",
+    "Antagonistes Saga Pays des Wa",
+    "Équipage aux Cent Bêtes",
+    "Subordonnés de la Famille Kurozumi"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F8674F\n| textcolor         = 006442\n| nomimage          = Garudan\n| nomj              = がる弾\n| nomr              = ''Garudan''\n| nomf              = \n| première          = [[Chapitre 951]]; [[Épisode 951]]{{Qref|nom=c951|tome=94|chapitre=951|episode=994|texte=Garudan fait ses débuts avec le Mimawarigumi.}}\n| affiliation       = [[Mimawarigumi]] (anciennement); [[Pays de Wa]];{{Qref|nom=c986|tome=98|chapitre=958|episode=995|texte=}}; [[L'Équipage aux Cent Bêtes]]\n| occupation        =  [[Samouraï]], [[pirate]]\n| statut            = Vivant\n| voj               = \n| vof               = \n}}\n\n'''Garudan''' {{Qref|nom=vivre|databook=vivre|page=1023|texte=Diverses informations sur Garudan sont données.}}est un samouraï et un membre de l'ancien [[Mimawarigumi]], un pirate dans les rangs des Pirates aux Cents Bêtes.{{Qref|nom=c951}}{{Qref|nom=c986}}\n\n==Apparence==\nGarudan est un homme de taille moyenne avec de longs cheveux brun rougeâtre. Son visage est constamment couvert par un masque de lapin. Il porte un kimono noir avec des motifs en forme de corde orange, ainsi qu'une cape blanche. {{Qref|nom=c951}}{{Galerie2|position=center|width=120|height=120\n|Garudan Portrait.png|Garudan Portrait\n|Garudan Anime Concept Art.png|L'art conceptuel de Garudan tiré de l'Anime.\n}}\n==Personnalité==\nOn sait peu de choses sur la personnalité de Garudan. Il était vraisemblablement fidèle à Kurozumi Orochi jusqu'à la mort apparente de ce dernier, mais n'avait aucun problème à faire défection chez les Pirates aux Cents Bêtes par la suite, malgré ce que prévoyait le code d'honneur des samouraïs. Il a servi loyalement à L'Équipage aux Cent Bêtes en attaquant Hyogoro.{{Qref|nom=c1006}}\n\n==Aptitudes et compétences==\nEn tant que membre du Mimawarigumi, Garudan est vraisemblablement un samouraï et un combattant compétent. Cependant, ses capacités sont dérisoires par rapport à Hyogoro, qui l'a facilement frappé ainsi que plusieurs de ses camarades avec une seule attaque.{{Qref|nom=c1006|tome=100|chapitre=1006|episode=1022|texte=}}\n\n===Armes===\nGarudan brandissait un katana, mais celui-ci fut brisé en deux par Hyogoro.{{Qref|nom=c1006}}\n\n==Histoire==\n===Arc Wano===\nAprès que les Pirates du Chapeau de Paille aient déclenché des violences dans les rues de la capitale des fleurs lors de l'exécution de Shimotsuki Yasuie, les Mimawarigumi ont été envoyés pour patrouiller dans la ville.{{Qref|nom=c951}}\n\nUne semaine plus tard, les Mimawarigumi accompagnèrent Orochi à Onigashima pour célébrer le Festival du Feu. Cependant, Orochi serait tué par Kaidou dans le cadre du plan de Kaidou visant à reprendre Wano. L'Empereur donna aux subordonnés d'Orochi le choix entre promettre fidélité ou combattre ; Hotei a immédiatement promis le soutien des Mimawarigumi sans dissident.{{Qref|nom=c986}}\n\nLes festivités ont été interrompues par l'invasion de l'Alliance Ninja-Pirate-Mink-Samurai. Le Mimawarigumi affrontait Hyogoro, un ancien patron yakuza qui avait retrouvé ses anciennes forces. Garudan, Hotei et plusieurs de ses compagnons l'ont chargé, mais Hyogoro les a rapidement tous abattus d'un seul coup.{{Qref|nom=c1006}}\n\n==Futilité==\n*Son nom est dérivé de Solar System Squadron Guldan (太陽系戦隊 ガルダン, Taiyō-kei Sentai Garudan), une gamme de kits de modèles lancée au printemps 1981 par Arii. Il s'agit essentiellement d'une imitation des kits de modèles Gundam populaires. Garudan partage ce thème de dénomination avec Gangaru, un autre membre de Mimawarigumi.\n\n==Références==\n<references />\n\n==Navigation du site==\n{{PaysDeWa}}\n{{EquipageKaido}}\n[[en:Garudan]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Samourais]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Équipage aux Cent Bêtes]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+}

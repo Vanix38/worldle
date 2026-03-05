@@ -1,0 +1,67 @@
+{
+  "title": "Zanki",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Zanki",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "556B2F",
+    "textcolor": "ffd800",
+    "nomimage": "Zanki",
+    "nomj": "{{Furigana|三鬼|ザンキ}}",
+    "nomr": "''Zanki''",
+    "nomf": "Zanki",
+    "première": "[[Chapitre 991]] ; [[Épisode 1055]]{{Qref|nom = c991|chapitre = 991|page = 8|episode =1055|texte = Zanki apparaît dans le flashback d'Apoo.}}",
+    "affiliation": "[[Punk Hazard]] <small>(anciennement)</small>{{Qref|nom = Origine|chapitre = 989|episode =|texte = Big Mom dévoile ce que sont vraiment les [[Numbers]]}}<br>[[L'Équipage aux Cent Bêtes]]{{Qref|nom = c954|chapitre = 954|page = 14-15|episode = 955|texte = Les [[Numbers]] sont introduits.}}<br>[[Numbers]]{{Qref|nom = c1030|chapitre = 1030|episode = |texte = Zanki apparaît.}}",
+    "occupation": "[[Pirate]]{{Qref|nom = c1030}}",
+    "statut": "Vivant",
+    "voj": "Kōji Takeda",
+    "nom": "Zanki}"
+  },
+  "intro": "'''Zanki''' est un membre des [[Numbers]] de [[l'Équipage aux Cent Bêtes]], représentant le nombre \"3\".{{Qref|nom = c1030}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Dans le cadre des Numbers, Zanki possède un corps bleu extrêmement grand, encore plus grand qu'un géant normal. Il porte un casque kabuto sombre et a deux cornes pointues sur la tête et des dents pointues. De plus, il a une barbiche sombre et touffue et des joues rouges. Zanki porte une sorte de shimenawa autour du cou, le reste du haut du corps étant autrement découvert. Une ceinture sombre est portée autour de sa taille, dans laquelle son katana est rentré, et une robe légère sur ses jambes. Il porte également des sandales Geta. Le kanji \"参\" (Eng. trois) est également tatoué sur sa hanche droite.\n{{Galerie2|position=center|width=120|height=120\n|Zanki Portrait.png|Zanki Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Comme les autres Numbers, Zanki possède un [[Style de rire|rire unique]] qui lui est propre : \"Zakikikiki\".{{Qref|nom = c1030}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Les capacités de Zanki n'ont pas été démontrées, mais étant donné sa nature de [[Géantification|Géant Antique]] artificiel, il est probablement extrêmement puissant.{{Qref|nom=c1030}}"
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Dans le passé, Zanki faisait partie d'une expérience sur [[Punk Hazard]] qui tentait de recréer artificiellement les [[Géants#Tribu des Géants Antiques|Géants Antiques]]. L'expérience a été considérée comme un échec, et Zanki et ses collègues sujets de test ont finalement été achetés par [[Kaidou]], devenant connus sous le nom de \"[[Numbers]]\" et résidant à [[Onigashima]].{{Qref|nom=Origine}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Pays Wano",
+      "content": "Cinq jours avant le [[Festival du Feu]], les Numbers sont arrivés à [[Hakumai]] via le port de Mogura et se sont dirigés vers Onigashima avec [[Scratchmen Apoo]].{{Qref|nom=c954}}\n\nZanki et ses camarades Numbers [[Inbi]] et [[Fuga]] sont ensuite vus mangeant et buvant ensemble dans une chambre du [[Île Onigashima/Dôme en forme de crâne|Dôe en forme de crâne]], et ne participant pas à la guerre qui a éclaté entre [[l'Équipage aux Cent Bêtes]] et l'[[Alliance des Ninjas-Pirates-Minks-Samouraïs]]. Ils ont finalement été rejoints dans la pièce par [[Apoo]] et [[X Drake]], qui se sont mis à discuter d'une éventuelle alliance.{{Qref|nom = c1030}} [[Inbi]] et Zanki regardent les événements sans agir lorsque [[Yamato]] arrive dans la pièce, alors que Fuga la prend en chasse.{{Qref|nom = c1031|chapitre=1031|episode=}} Peux de temps après, on voit Zanki ce faire battre par Maha du CPO, après qu'Apoo et Inbi l'ai abandonné,"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Le nom de Zanki contient le kanji pour \"trois\" (三, ''zan'' et le kanji pour \"démon\" (鬼, ''oni'')."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "{{Scroll Box|<references />}}"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{EquipageKaido}}\n{{PaysDeWa}}\n{{Géants}}\n[[Catégorie:Numbers]]\n[[Catégorie:Personnages Masculins]]\n[[es:Zanki]]\n[[en:Zanki]]\n[[it:Zanki]]\n[[ca:Zanki]]"
+    }
+  ],
+  "categories": [
+    "Numbers",
+    "Personnages Masculins"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 556B2F\n| textcolor         = ffd800\n| nomimage          = Zanki\n| nomj              = {{Furigana|三鬼|ザンキ}}\n| nomr              = ''Zanki''\n| nomf              = Zanki\n| première          = [[Chapitre 991]] ; [[Épisode 1055]]{{Qref|nom = c991|chapitre = 991|page = 8|episode =1055|texte = Zanki apparaît dans le flashback d'Apoo.}}\n| affiliation       = [[Punk Hazard]] <small>(anciennement)</small>{{Qref|nom = Origine|chapitre = 989|episode =|texte = Big Mom dévoile ce que sont vraiment les [[Numbers]]}}<br>[[L'Équipage aux Cent Bêtes]]{{Qref|nom = c954|chapitre = 954|page = 14-15|episode = 955|texte = Les [[Numbers]] sont introduits.}}<br>[[Numbers]]{{Qref|nom = c1030|chapitre = 1030|episode = |texte = Zanki apparaît.}}\n| occupation        = [[Pirate]]{{Qref|nom = c1030}}\n| statut            = Vivant\n| voj               = Kōji Takeda\n|nom=Zanki}}\n\n\n'''Zanki''' est un membre des [[Numbers]] de [[l'Équipage aux Cent Bêtes]], représentant le nombre \"3\".{{Qref|nom = c1030}}\n\n==Apparence==\nDans le cadre des Numbers, Zanki possède un corps bleu extrêmement grand, encore plus grand qu'un géant normal. Il porte un casque kabuto sombre et a deux cornes pointues sur la tête et des dents pointues. De plus, il a une barbiche sombre et touffue et des joues rouges. Zanki porte une sorte de shimenawa autour du cou, le reste du haut du corps étant autrement découvert. Une ceinture sombre est portée autour de sa taille, dans laquelle son katana est rentré, et une robe légère sur ses jambes. Il porte également des sandales Geta. Le kanji \"参\" (Eng. trois) est également tatoué sur sa hanche droite.\n{{Galerie2|position=center|width=120|height=120\n|Zanki Portrait.png|Zanki Portrait\n}}\n==Personnalité==\nComme les autres Numbers, Zanki possède un [[Style de rire|rire unique]] qui lui est propre : \"Zakikikiki\".{{Qref|nom = c1030}}\n\n==Aptitudes et compétences==\nLes capacités de Zanki n'ont pas été démontrées, mais étant donné sa nature de [[Géantification|Géant Antique]] artificiel, il est probablement extrêmement puissant.{{Qref|nom=c1030}}\n\n==Histoire==\n===Passé===\nDans le passé, Zanki faisait partie d'une expérience sur [[Punk Hazard]] qui tentait de recréer artificiellement les [[Géants#Tribu des Géants Antiques|Géants Antiques]]. L'expérience a été considérée comme un échec, et Zanki et ses collègues sujets de test ont finalement été achetés par [[Kaidou]], devenant connus sous le nom de \"[[Numbers]]\" et résidant à [[Onigashima]].{{Qref|nom=Origine}}\n\n===Arc Pays Wano===\nCinq jours avant le [[Festival du Feu]], les Numbers sont arrivés à [[Hakumai]] via le port de Mogura et se sont dirigés vers Onigashima avec [[Scratchmen Apoo]].{{Qref|nom=c954}}\n\nZanki et ses camarades Numbers [[Inbi]] et [[Fuga]] sont ensuite vus mangeant et buvant ensemble dans une chambre du [[Île Onigashima/Dôme en forme de crâne|Dôe en forme de crâne]], et ne participant pas à la guerre qui a éclaté entre [[l'Équipage aux Cent Bêtes]] et l'[[Alliance des Ninjas-Pirates-Minks-Samouraïs]]. Ils ont finalement été rejoints dans la pièce par [[Apoo]] et [[X Drake]], qui se sont mis à discuter d'une éventuelle alliance.{{Qref|nom = c1030}} [[Inbi]] et Zanki regardent les événements sans agir lorsque [[Yamato]] arrive dans la pièce, alors que Fuga la prend en chasse.{{Qref|nom = c1031|chapitre=1031|episode=}} Peux de temps après, on voit Zanki ce faire battre par Maha du CPO, après qu'Apoo et Inbi l'ai abandonné,\n\n==Futilités==\n*Le nom de Zanki contient le kanji pour \"trois\" (三, ''zan'' et le kanji pour \"démon\" (鬼, ''oni'').\n\n==Références==\n{{Scroll Box|<references />}}\n\n==Navigation du Site==\n{{EquipageKaido}}\n{{PaysDeWa}}\n{{Géants}}\n[[Catégorie:Numbers]]\n[[Catégorie:Personnages Masculins]]\n[[es:Zanki]]\n[[en:Zanki]]\n[[it:Zanki]]\n[[ca:Zanki]]"
+}

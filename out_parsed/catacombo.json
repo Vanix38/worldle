@@ -1,0 +1,80 @@
+{
+  "title": "Catacombo",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Catacombo",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F0F8FF",
+    "textcolor": "2A52BE",
+    "nom": "Catacombo",
+    "image": "{{Manga-Anime",
+    "nomj": "カタコンボ",
+    "nomr": "''Katakonbo''",
+    "nomf": "Catacombo",
+    "première": "[[Chapitre 602]]<ref name=Q1 /> , [[Épisode 522]]<ref name=Q1 />",
+    "affiliation": "[[Marines]] <ref name=Q1 />  (GR 66) (Non-Canon) {{Qref|nom=One Piece Novel : Histoires des Chapeau de Paille|texte=Catacombo se révèle être responsable de la base marine de Grove 66.}}",
+    "occupation": "[[Sous-Amiral]]",
+    "statut": "Vivant",
+    "voj": "Koji Haramaki"
+  },
+  "intro": "'''Catacombo'''<ref name=\"Q1\">''[[Databooks One Piece/Blue Deep : Characters World]]'' - Page 216 - Le nom ainsi que le garde de Catacombo sont révélés.</ref> (カタコンボ, ''Katakonbo'') est un [[Sous-Amiral]] de la Marine. C'est lui qui dirigera les Marines pour capturer les pirates au [[L'Équipage du Chapeau de Paille|Chapeau de Paille]] sur l'[[Archipel Sabaody]] après l’ellipse.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "[[Fichier:Catacombo Portrait.png|thumb|left|120px|Visage de Catabombo]]\nPortant une petite moustache, Catacombo est un homme d'âge moyen, une peau bronzé avec des cheveux noirs. Il a une barbe mal rasée et une petite cicatrice sur son œil droit. Il arbore un manteau et un chapeau de Marin. Son costume est clair, il porte dessous une chemise bleu-marine avec une cravate mauve.\n{{-}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Comme tous les Marines, il se bat pour la justice, mais, comme la plupart des hommes, ses principes sont partis en fumée devant la beauté de [[Boa Hancock]]."
+    },
+    {
+      "level": 3,
+      "title": "Galerie",
+      "content": "{{Galerie2|position=center\n|Catacombo voit Hancock.png|La réaction de Catacombo face à l'impératrice pirate Boa Hancock\n|Catacombo_jeune_Marine.png|Catacombo jeune\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétence",
+      "content": "En tant que [[Sous-Amiral]] de la [[Marine]], Catacombo a probablement une haute capacité de combat et doit certainement maîtriser le [[Fluide|haki]]."
+    },
+    {
+      "level": 3,
+      "title": "Arc Retour à Sabaody",
+      "content": "{{Main|Arc Retour à Sabaody}}Catacombo a d'abord été vu attaquant les Chapeaux de Paille après leurs retrouvailles à l'[[Archipel Sabaody]]. Lui et les Marines ont été arrêtés par Boa Hancock, qui a bloqué le chemin du navire de la Marine avec son navire, afin qu'elle puisse protéger [[Luffy]] et l'aider à partir en toute sécurité.<ref>One Piece Manga et Anime — [[Tome 61]] [[Chapitre 602]] et [[Épisode 522]].</ref>"
+    },
+    {
+      "level": 3,
+      "title": "Arc Rêverie",
+      "content": "Catacombo apparaît dans le QG [[Quartiers Généraux de la Marine/New Marine Ford|New Marine Ford]] dans lequel la tension est palpable suite à la conversation interceptée entre [[Big Mom]] et [[Kaidou]], et suite à l'hypothèse selon laquelle les deux Empereurs pourraient à nouveau collaborer ensemble.<ref>''One Piece Manga'' et ''Anime'' - [[Chapitre 907]] - [[Épisode 887]].</ref>"
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "* Catacombo vs Les Chapeaux de Paille = Fuite\n* Catacombo vs [[Hancock|Boa Hancock]] = Défaite"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "[[Fichier:OPFL Catacombo Replacement Concept Art.png|thumb|left|120px|Art conceptuel du remplacement de Catacombo dans One Piece Fan Letter.]]\n*Son nom pourrait être une combinaison des mots « catacombe » et « combo ».\n*Bien qu'il ait finalement été entièrement supprimé de One Piece Fan Letter, Catacombo devait initialement être remplacé par un Marine « de type scientifique ».<ref>One Piece Magazine Numéro supplémentaire : Focus On One Piece Fan Letter - (p. 68)</ref>"
+    },
+    {
+      "level": 2,
+      "title": "Référence",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Marines}}[[en:Catacombo]]\n[[ca:Catacombo]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages de l'Archipel Sabaody]]\n[[Catégorie:Antagonistes Saga Île des Hommes-Poissons‎]]\n[[Catégorie:Sous-Amiraux de la Marine]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Personnages de l'Archipel Sabaody",
+    "Antagonistes Saga Île des Hommes-Poissons‎",
+    "Sous-Amiraux de la Marine"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F0F8FF\n| textcolor         = 2A52BE\n| nom               = Catacombo\n| image             = {{Manga-Anime\n|[[Fichier:Catacombo_Anime_Infobox.png|270px]]\n|[[Fichier:Catacombo Manga Infobox.png|270px]]\n}}\n| nomj              = カタコンボ\n| nomr              = ''Katakonbo''\n| nomf              = Catacombo\n| première          = [[Chapitre 602]]<ref name=Q1 /> , [[Épisode 522]]<ref name=Q1 /> \n| affiliation       = [[Marines]] <ref name=Q1 />  (GR 66) (Non-Canon) {{Qref|nom=One Piece Novel : Histoires des Chapeau de Paille|texte=Catacombo se révèle être responsable de la base marine de Grove 66.}}\n| occupation        = [[Sous-Amiral]]\n| statut            = Vivant\n| voj               = Koji Haramaki\n}}\n'''Catacombo'''<ref name=\"Q1\">''[[Databooks One Piece/Blue Deep : Characters World]]'' - Page 216 - Le nom ainsi que le garde de Catacombo sont révélés.</ref> (カタコンボ, ''Katakonbo'') est un [[Sous-Amiral]] de la Marine. C'est lui qui dirigera les Marines pour capturer les pirates au [[L'Équipage du Chapeau de Paille|Chapeau de Paille]] sur l'[[Archipel Sabaody]] après l’ellipse.\n\n==Apparence==\n[[Fichier:Catacombo Portrait.png|thumb|left|120px|Visage de Catabombo]]\nPortant une petite moustache, Catacombo est un homme d'âge moyen, une peau bronzé avec des cheveux noirs. Il a une barbe mal rasée et une petite cicatrice sur son œil droit. Il arbore un manteau et un chapeau de Marin. Son costume est clair, il porte dessous une chemise bleu-marine avec une cravate mauve.\n{{-}}\n==Personnalité==\nComme tous les Marines, il se bat pour la justice, mais, comme la plupart des hommes, ses principes sont partis en fumée devant la beauté de [[Boa Hancock]].\n\n===Galerie===\n{{Galerie2|position=center\n|Catacombo voit Hancock.png|La réaction de Catacombo face à l'impératrice pirate Boa Hancock\n|Catacombo_jeune_Marine.png|Catacombo jeune\n}}\n\n==Aptitudes et Compétence==\nEn tant que [[Sous-Amiral]] de la [[Marine]], Catacombo a probablement une haute capacité de combat et doit certainement maîtriser le [[Fluide|haki]].\n\n==Histoire==\n===Arc Retour à Sabaody===\n{{Main|Arc Retour à Sabaody}}Catacombo a d'abord été vu attaquant les Chapeaux de Paille après leurs retrouvailles à l'[[Archipel Sabaody]]. Lui et les Marines ont été arrêtés par Boa Hancock, qui a bloqué le chemin du navire de la Marine avec son navire, afin qu'elle puisse protéger [[Luffy]] et l'aider à partir en toute sécurité.<ref>One Piece Manga et Anime — [[Tome 61]] [[Chapitre 602]] et [[Épisode 522]].</ref>\n\n===Arc Rêverie===\nCatacombo apparaît dans le QG [[Quartiers Généraux de la Marine/New Marine Ford|New Marine Ford]] dans lequel la tension est palpable suite à la conversation interceptée entre [[Big Mom]] et [[Kaidou]], et suite à l'hypothèse selon laquelle les deux Empereurs pourraient à nouveau collaborer ensemble.<ref>''One Piece Manga'' et ''Anime'' - [[Chapitre 907]] - [[Épisode 887]].</ref>\n\n==Batailles Principales==\n* Catacombo vs Les Chapeaux de Paille = Fuite\n* Catacombo vs [[Hancock|Boa Hancock]] = Défaite\n\n==Futilités==\n[[Fichier:OPFL Catacombo Replacement Concept Art.png|thumb|left|120px|Art conceptuel du remplacement de Catacombo dans One Piece Fan Letter.]]\n*Son nom pourrait être une combinaison des mots « catacombe » et « combo ».\n*Bien qu'il ait finalement été entièrement supprimé de One Piece Fan Letter, Catacombo devait initialement être remplacé par un Marine « de type scientifique ».<ref>One Piece Magazine Numéro supplémentaire : Focus On One Piece Fan Letter - (p. 68)</ref>\n\n==Référence==\n<references />\n\n==Navigation du Site==\n{{Marines}}[[en:Catacombo]]\n[[ca:Catacombo]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages de l'Archipel Sabaody]]\n[[Catégorie:Antagonistes Saga Île des Hommes-Poissons‎]]\n[[Catégorie:Sous-Amiraux de la Marine]]"
+}

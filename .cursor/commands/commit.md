@@ -1,0 +1,1 @@
+Lance le build, corrige les erreurs et commit le résultat.

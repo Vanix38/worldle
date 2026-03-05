@@ -1,0 +1,81 @@
+{
+  "title": "Daikon",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Daikon",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "D4FF00",
+    "textcolor": "808000",
+    "nom": "Daikon",
+    "image": "{{Manga-Anime",
+    "nomj": "ダイコン",
+    "nomr": "''Daikon''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 732]]",
+    "affiliation": "[[Royaume de Tontatta]]",
+    "occupation": "Équipe de reconnaissance{{Qref|nom=sbs73|sbs=73|texte=Oda donne les noms et la hiérarchie des nains Tontatta.}}, [[Pirates]]",
+    "voj": "Masaya Takatsuka",
+    "statut": "Vivant"
+  },
+  "intro": "'''Daikon''' (ダイコン ''Daikon'') est un [[Nains|nain]] du [[Royaume de Tontatta]] qui est apparu sur [[Green Bit]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Daikon est un [[nains|nain]] qui porte une tenue rappelant celle d'un bouffon (notamment la capuche). Il porte un haut rouge à boutons jaunes, un pantalon kaki et des souliers noirs. Il porte également une lance.\n{{Galerie2|position=center|captionalign=center\n|Daikon Portrait.png|Portrait de Daikon\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On ne sait rien de sa personnalité, mais on pourrait penser qu'il est très naïf comme tous les autres nains. Il est aussi courageux lorsqu'il décide de se sacrifier pour permettre à ses compagnons d'avancer."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Sa petite taille lui permet d'être discret pour attaquer son adversaire par surprise. Il est également très rapide, comme tous les autres nains."
+    },
+    {
+      "level": 3,
+      "title": "Arme",
+      "content": "Il possède une lance, mais on ignore tout de ses compétences avec cette arme."
+    },
+    {
+      "level": 3,
+      "title": "Arc Dressrosa",
+      "content": "Il apparaît pour la première fois au camp de base de l'armée Riku, situé en dessous du [[Le Champ de Fleurs|Champ de Fleurs]]. Il est très étonné d'apprendre que [[Franky]] et [[Zoro]] sont des amis de [[Usopp|Ussoland]], le fameux descendant de [[Montblanc Norland]] (c'est en réalité une supercherie de [[Usopp]] pour s'allier avec les nains).\n\n[[Fichier:Sacrifice pour fuite.jpg|thumb|250px|left|Daikon se sacrifie pour permettre au [[Kyros|Soldat Fureur Éclair]], [[Rampo]] et [[Kabu]] de fuir]]\nPuis, il porte avec d'autres nains [[Usopp]] et [[Robin]] dans le passage secret pour rejoindre l'usine. Il explique avec d'autres nains pendant le trajet que leur but est de libérer leurs camarades nains et de vaincre [[Sugar]] pour que les jouets de [[Dressrosa]] redeviennent humains.\n\nIl ira ensuite avec Kabu, l'escadron des scarabées rhinocéros Jaunes, et [[Le Soldat Fureur Éclair]] vers l'ascenseur menant au palais royal. \n\nLorsqu'il est intercepté par [[Lao G]], il décide de l'affronter avec [[Baxcon]] et [[Nubon]], pour permettre au [[Kyros|Le Soldat Fureur Éclair]], [[Kabu]] et [[Rampo]] d'atteindre le [[Palais Royal]]. On ne connaît pour le moment pas l'issue du combat, même si d'après le [[Kyros|Le Soldat Fureur Éclair]], ils sont en très mauvaise posture."
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "{{Batailles\n| backcolor         = #D4FF00\n| textcolor         = #808000\n|Batailles =<br>\n*Daikon, [[Kabu]], [[Rampo]], [[Baxcon]], [[Nubon]] et [[Kyros|Le Soldat Fureur Éclair]] vs [[Lao G]] = Interrompu, fuite du [[Kyros|Soldat Fureur Éclair]], [[Rampo]] et [[Kabu]] mais avantage à [[Lao G]]\n*Daikon, [[Baxcon]] et [[Nubon]] vs [[Lao G]] = Issue inconnue, mais avantage à [[Lao G]]\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Autres One Piece",
+      "content": "*Dans One Piece Magazine Vol.2, il y a un prototype du personnage.<ref>[[One Piece Magazine Vol. 2]]</ref>\n{{Galerie2|width=130|position=center|captionalign=center\n|Daicon Concept Art.png|Concept de Daikon\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "* Son nom veut dire radis blanc en japonais\n* Son nom vient de l'aliment appelé [https://fr.wikipedia.org/wiki/Radis_blanc Daikon]."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "{{Scroll box|<references />}}"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{FlotteChapeauDePaille}}\n{{Nains}}\n{{Dressrosa}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Daikon]]\n[[it:Daikon]]\n[[es:Daikon]] \n[[ca:Daikon]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Nains]]\n[[Catégorie:Personnages de Green Bit]]\n[[Catégorie:Alliés du Chapeau de Paille]]\n[[Catégorie:Pirates]]\n[[Catégorie:Utilisateurs de Lance de Joute]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Nains",
+    "Personnages de Green Bit",
+    "Alliés du Chapeau de Paille",
+    "Pirates",
+    "Utilisateurs de Lance de Joute"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = D4FF00\n| textcolor         = 808000\n| nom               = Daikon\n| image             = {{Manga-Anime\n|[[Fichier:Daikon Anime Infobox.png|270px]]\n|[[Fichier:Daikon Manga Infobox.png|80px]]\n]}}\n| nomj              = ダイコン\n| nomr              = ''Daikon''\n| nomf              = N/A\n| première          = [[Chapitre 732]]\n| affiliation       = [[Royaume de Tontatta]]\n| occupation        = Équipe de reconnaissance{{Qref|nom=sbs73|sbs=73|texte=Oda donne les noms et la hiérarchie des nains Tontatta.}}, [[Pirates]]\n| voj               = Masaya Takatsuka\n| statut            = Vivant\n}}\n'''Daikon''' (ダイコン ''Daikon'') est un [[Nains|nain]] du [[Royaume de Tontatta]] qui est apparu sur [[Green Bit]].\n\n==Apparence==\nDaikon est un [[nains|nain]] qui porte une tenue rappelant celle d'un bouffon (notamment la capuche). Il porte un haut rouge à boutons jaunes, un pantalon kaki et des souliers noirs. Il porte également une lance.\n{{Galerie2|position=center|captionalign=center\n|Daikon Portrait.png|Portrait de Daikon\n}}\n\n==Personnalité==\nOn ne sait rien de sa personnalité, mais on pourrait penser qu'il est très naïf comme tous les autres nains. Il est aussi courageux lorsqu'il décide de se sacrifier pour permettre à ses compagnons d'avancer.\n\n==Aptitudes et Compétences==\nSa petite taille lui permet d'être discret pour attaquer son adversaire par surprise. Il est également très rapide, comme tous les autres nains.\n\n===Arme===\nIl possède une lance, mais on ignore tout de ses compétences avec cette arme.\n\n==Histoire==\n===Arc Dressrosa===\nIl apparaît pour la première fois au camp de base de l'armée Riku, situé en dessous du [[Le Champ de Fleurs|Champ de Fleurs]]. Il est très étonné d'apprendre que [[Franky]] et [[Zoro]] sont des amis de [[Usopp|Ussoland]], le fameux descendant de [[Montblanc Norland]] (c'est en réalité une supercherie de [[Usopp]] pour s'allier avec les nains).\n\n[[Fichier:Sacrifice pour fuite.jpg|thumb|250px|left|Daikon se sacrifie pour permettre au [[Kyros|Soldat Fureur Éclair]], [[Rampo]] et [[Kabu]] de fuir]]\nPuis, il porte avec d'autres nains [[Usopp]] et [[Robin]] dans le passage secret pour rejoindre l'usine. Il explique avec d'autres nains pendant le trajet que leur but est de libérer leurs camarades nains et de vaincre [[Sugar]] pour que les jouets de [[Dressrosa]] redeviennent humains.\n\nIl ira ensuite avec Kabu, l'escadron des scarabées rhinocéros Jaunes, et [[Le Soldat Fureur Éclair]] vers l'ascenseur menant au palais royal. \n\nLorsqu'il est intercepté par [[Lao G]], il décide de l'affronter avec [[Baxcon]] et [[Nubon]], pour permettre au [[Kyros|Le Soldat Fureur Éclair]], [[Kabu]] et [[Rampo]] d'atteindre le [[Palais Royal]]. On ne connaît pour le moment pas l'issue du combat, même si d'après le [[Kyros|Le Soldat Fureur Éclair]], ils sont en très mauvaise posture.\n\n==Batailles Principales==\n{{Batailles\n| backcolor         = #D4FF00\n| textcolor         = #808000\n|Batailles =<br>\n*Daikon, [[Kabu]], [[Rampo]], [[Baxcon]], [[Nubon]] et [[Kyros|Le Soldat Fureur Éclair]] vs [[Lao G]] = Interrompu, fuite du [[Kyros|Soldat Fureur Éclair]], [[Rampo]] et [[Kabu]] mais avantage à [[Lao G]]\n*Daikon, [[Baxcon]] et [[Nubon]] vs [[Lao G]] = Issue inconnue, mais avantage à [[Lao G]]\n}}\n\n==Autres One Piece==\n*Dans One Piece Magazine Vol.2, il y a un prototype du personnage.<ref>[[One Piece Magazine Vol. 2]]</ref>\n{{Galerie2|width=130|position=center|captionalign=center\n|Daicon Concept Art.png|Concept de Daikon\n}}\n\n== Futilités ==\n* Son nom veut dire radis blanc en japonais\n* Son nom vient de l'aliment appelé [https://fr.wikipedia.org/wiki/Radis_blanc Daikon].\n\n==Références==\n{{Scroll box|<references />}}\n\n==Navigation du site==\n{{FlotteChapeauDePaille}}\n{{Nains}}\n{{Dressrosa}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Daikon]]\n[[it:Daikon]]\n[[es:Daikon]] \n[[ca:Daikon]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Nains]]\n[[Catégorie:Personnages de Green Bit]]\n[[Catégorie:Alliés du Chapeau de Paille]]\n[[Catégorie:Pirates]]\n[[Catégorie:Utilisateurs de Lance de Joute]]"
+}

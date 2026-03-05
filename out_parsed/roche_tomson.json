@@ -1,0 +1,62 @@
+{
+  "title": "Roche Tomson",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Roche_Tomson",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "203A52",
+    "textcolor": "FFFFFF",
+    "nom": "Roche Tomson",
+    "image": "[[Fichier:Roche Tomson et George Black Portrait.png|270px]]",
+    "nomj": "ロシュ·トムソン",
+    "nomr": "''Roshu Tomuson''",
+    "nomf": "Roche Tomson",
+    "première": "[[Chapitre 536]] ; [[Épisode 436]]{{Qref|nom=Q1|chapitre=536|episode=437|texte=Son nom est montré sur la liste de [[Bon Clay]].}} <small>(mentionné)</small>",
+    "affiliation": "[[Impel Down]]",
+    "occupation": "Prisonnier",
+    "prime": "Au moins <s>{{B}}100.000.000</s>{{Qref|chapitre=526|episode=426|texte=[[Jean Goen]] parle des prisonniers du niveau 5.}}"
+  },
+  "intro": "''Roche Tomson''' a été répertorié comme un prisonnier du niveau 5 d'[[Impel Down]] quand [[Bon Clay]] (déguisé en [[Hannyabal]]) lisait la liste des prisonniers disparus.\n\nOn ne sait rien à propos de lui ni même s'il est encore en vie ou pas.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "On ne sait rien de son apparence mais étant un prisonnier il devait porter l'uniforme de prisonnier."
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Sa personnalité nous est actuellement inconnue."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Étant un prisonnier du Niveau 5 il devait être puissant et suffisamment dangereux pour le classer parmi les criminels les plus dangereux."
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Son nom a été vu par Bon Clay quand il a cherché le nom de Emporio Ivankov<ref name=\"Q1\" />. Son nom n'étant pas rayé, on peut supposer qu'il était encore disparu lorsque les événements d'Impel Down sont arrivés."
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "* Il serait probablement inspiré de [https://en.wikipedia.org/wiki/Philip_Roche_(pirate) Philip Roche], un pirate irlandais actif dans les mers du nord de l'Europe."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Impel Down}}\n[[en:Roche Tomson]]\n[[de:Roche Tomson]]\n[[it:Roche Tomson]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Prisonniers d'Impel Down]]\n[[Catégorie:Pirates]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Prisonniers d'Impel Down",
+    "Pirates"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 203A52\n| textcolor         = FFFFFF\n| nom               = Roche Tomson\n| image             = [[Fichier:Roche Tomson et George Black Portrait.png|270px]]\n| nomj              = ロシュ·トムソン\n| nomr              = ''Roshu Tomuson''\n| nomf              = Roche Tomson\n| première          = [[Chapitre 536]] ; [[Épisode 436]]{{Qref|nom=Q1|chapitre=536|episode=437|texte=Son nom est montré sur la liste de [[Bon Clay]].}} <small>(mentionné)</small>\n| affiliation       = [[Impel Down]]\n| occupation        = Prisonnier\n| prime             = Au moins <s>{{B}}100.000.000</s>{{Qref|chapitre=526|episode=426|texte=[[Jean Goen]] parle des prisonniers du niveau 5.}}\n}}'''Roche Tomson''' a été répertorié comme un prisonnier du niveau 5 d'[[Impel Down]] quand [[Bon Clay]] (déguisé en [[Hannyabal]]) lisait la liste des prisonniers disparus.\n\nOn ne sait rien à propos de lui ni même s'il est encore en vie ou pas.\n\n==Apparence==\nOn ne sait rien de son apparence mais étant un prisonnier il devait porter l'uniforme de prisonnier.\n\n==Personnalité==\nSa personnalité nous est actuellement inconnue.\n\n==Aptitudes et Compétences==\nÉtant un prisonnier du Niveau 5 il devait être puissant et suffisamment dangereux pour le classer parmi les criminels les plus dangereux.\n\n==Histoire==\nSon nom a été vu par Bon Clay quand il a cherché le nom de Emporio Ivankov<ref name=\"Q1\" />. Son nom n'étant pas rayé, on peut supposer qu'il était encore disparu lorsque les événements d'Impel Down sont arrivés.\n\n== Futilité ==\n* Il serait probablement inspiré de [https://en.wikipedia.org/wiki/Philip_Roche_(pirate) Philip Roche], un pirate irlandais actif dans les mers du nord de l'Europe.\n\n==Références==\n<references />\n==Navigation du Site==\n{{Impel Down}}\n[[en:Roche Tomson]]\n[[de:Roche Tomson]]\n[[it:Roche Tomson]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Prisonniers d'Impel Down]]\n[[Catégorie:Pirates]]"
+}

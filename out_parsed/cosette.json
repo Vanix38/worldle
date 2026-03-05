@@ -1,0 +1,68 @@
+{
+  "title": "Cosette",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Cosette",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "ffd800",
+    "nom": "Cosette",
+    "image": "{{Manga-Anime",
+    "nomj": "コゼット",
+    "nomr": "''Kozetto''",
+    "nomf": "Cosette",
+    "première": "[[Chapitre 839]] ; [[Épisode 800]] <ref name=\"A\">''One Piece Manga et Anime'' - [[Tome 84]], [[Chapitre 839]], [[Épisode 800]] - Cosette apparaît pour la première fois.</ref>",
+    "naissance": "2 Mai<ref>https://one-piece.com/news/detail/20171102_6345</ref>",
+    "voj": "[https://fr.wikipedia.org/wiki/Masami_Suzuki Masami Suzuki]",
+    "vof": "Mélanie Dermont",
+    "affiliation": "[[Germa 66]]<br />[[Famille Vinsmoke]]",
+    "occupation": "[[Cuisinier|Cuisinière]]<ref name=\"A\" />",
+    "Statut": "Vivant"
+  },
+  "intro": "'''Cosette''' est la chef cuisinière du [[Royaume de Germa]].<ref name=\"A\" />",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Cosette est une jeune femme avec des cheveux blonds coiffés en une queue de cheval et une frange. Elle a des taches de rousseur et des grands yeux beiges. Elle porte un haut rouge à boutons jaunes et une jupe claire.<ref name=\"A\" />\n\n{{Galerie2|position=center\n|Cosette Anime Concept Art.png|Concept de Cosette dans l'anime\n|Cosette Portrait.png|Cosette Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Cosette est très soumise à la [[Famille Vinsmoke]], faisant tout ce qu'elle lui ordonne même si cela a pour conséquence de la blesser. Elle est très gênée et heureuse lorsque quelqu'un complimente sa cuisine.<ref name=\"A\" />"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Étant chef cuisinière, elle est très capable en cuisine, cuisine que [[Sanji]] complimente. Elle a également de l'autorité sur les autres chefs en cuisine puisqu'elle est leur supérieure.\n\nElle n'est pas physiquement forte parce qu'elle a été facilement battue par [[Vinsmoke Niji]].<ref name=\"A\" />"
+    },
+    {
+      "level": 3,
+      "title": "Arc Tougato",
+      "content": "{{Main|Arc Whole Cake Island}}\nComme Sanji exige que Niji finisse son assiette, Cosette est appelée à la table, celui-ci se plaignant que son plat a été ruiné par l'attitude de Sanji. La jeune femme s'excuse, et il lui lance son assiette à la figure. Cependant, Sanji arrête l'assiette. Sanji ramasse alors la nourriture sous les supplications de Cosette, et mange la nourriture, ce qui choque la cuisinière.\n\n[[Fichier:Cosette Blessée.png|200px|thumb|left|Cosette blessée]]\nIl complimente ensuite sa cuisine, ce qui la fait pleurer de joie. Écœuré par les agissements de son frère, Niji tente de lui donner un coup de pied, mais il est interrompu par [[Vinsmoke Judge|Judge]]. Il s'arrête net, mais la force du coup arrêté envoie Cosette par terre.\n\nPlus tard, alors que Judge parle avec Sanji, Cosette est sévèrement battue par Niji, et laissée inconsciente. Elle est trouvée par Sanji, qui demande à quelqu'un d'appeler un médecin.<ref name=\"B\">''One Piece Manga et Anime'' - [[Tome 84]], [[Chapitre 840]], [[Épisode 802]]</ref>"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Cosette est le nom d'une servante maltraitée dans [https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables Les Misérables]. Ce nom est devenu synonyme d'enfant maltraité, exploité par des adultes, notamment pour les tâches domestiques."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Cuisiniers Navibox}}\n{{NorthBlue}}\n[[en:Cosette]]\n[[es:Cosette]]\n[[ca:Cosette]]\n[[it:Cosette]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Cuisiniers]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages du Royaume de Germa]]\n[[Catégorie:Personnages de North Blue]]\n[[Catégorie:Serviteurs]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Cuisiniers",
+    "Humains",
+    "Personnages du Royaume de Germa",
+    "Personnages de North Blue",
+    "Serviteurs"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = ffd800\n| nom               = Cosette\n| image = {{Manga-Anime\n|[[Fichier:Cosette Anime Infobox.png|270px]]\n|[[Fichier:Cosette Manga Infobox.png|270px]]\n}}\n| nomj              = コゼット\n| nomr              = ''Kozetto''\n| nomf              = Cosette\n| première          = [[Chapitre 839]] ; [[Épisode 800]] <ref name=\"A\">''One Piece Manga et Anime'' - [[Tome 84]], [[Chapitre 839]], [[Épisode 800]] - Cosette apparaît pour la première fois.</ref>\n|naissance = 2 Mai<ref>https://one-piece.com/news/detail/20171102_6345</ref>\n| voj               = [https://fr.wikipedia.org/wiki/Masami_Suzuki Masami Suzuki]\n| vof               = Mélanie Dermont\n| affiliation       = [[Germa 66]]<br />[[Famille Vinsmoke]]\n| occupation        = [[Cuisinier|Cuisinière]]<ref name=\"A\" />\n| Statut            = Vivant\n}}\n'''Cosette''' est la chef cuisinière du [[Royaume de Germa]].<ref name=\"A\" />\n\n==Apparence==\nCosette est une jeune femme avec des cheveux blonds coiffés en une queue de cheval et une frange. Elle a des taches de rousseur et des grands yeux beiges. Elle porte un haut rouge à boutons jaunes et une jupe claire.<ref name=\"A\" />\n\n{{Galerie2|position=center\n|Cosette Anime Concept Art.png|Concept de Cosette dans l'anime\n|Cosette Portrait.png|Cosette Portrait\n}}\n\n==Personnalité==\nCosette est très soumise à la [[Famille Vinsmoke]], faisant tout ce qu'elle lui ordonne même si cela a pour conséquence de la blesser. Elle est très gênée et heureuse lorsque quelqu'un complimente sa cuisine.<ref name=\"A\" />\n\n==Aptitudes et Compétences==\nÉtant chef cuisinière, elle est très capable en cuisine, cuisine que [[Sanji]] complimente. Elle a également de l'autorité sur les autres chefs en cuisine puisqu'elle est leur supérieure.\n\nElle n'est pas physiquement forte parce qu'elle a été facilement battue par [[Vinsmoke Niji]].<ref name=\"A\" />\n\n==Histoire==\n===Arc Tougato===\n{{Main|Arc Whole Cake Island}}\nComme Sanji exige que Niji finisse son assiette, Cosette est appelée à la table, celui-ci se plaignant que son plat a été ruiné par l'attitude de Sanji. La jeune femme s'excuse, et il lui lance son assiette à la figure. Cependant, Sanji arrête l'assiette. Sanji ramasse alors la nourriture sous les supplications de Cosette, et mange la nourriture, ce qui choque la cuisinière.\n\n[[Fichier:Cosette Blessée.png|200px|thumb|left|Cosette blessée]]\nIl complimente ensuite sa cuisine, ce qui la fait pleurer de joie. Écœuré par les agissements de son frère, Niji tente de lui donner un coup de pied, mais il est interrompu par [[Vinsmoke Judge|Judge]]. Il s'arrête net, mais la force du coup arrêté envoie Cosette par terre.\n\nPlus tard, alors que Judge parle avec Sanji, Cosette est sévèrement battue par Niji, et laissée inconsciente. Elle est trouvée par Sanji, qui demande à quelqu'un d'appeler un médecin.<ref name=\"B\">''One Piece Manga et Anime'' - [[Tome 84]], [[Chapitre 840]], [[Épisode 802]]</ref>\n\n==Futilités==\n*Cosette est le nom d'une servante maltraitée dans [https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables Les Misérables]. Ce nom est devenu synonyme d'enfant maltraité, exploité par des adultes, notamment pour les tâches domestiques.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{Cuisiniers Navibox}}\n{{NorthBlue}}\n[[en:Cosette]]\n[[es:Cosette]]\n[[ca:Cosette]]\n[[it:Cosette]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Cuisiniers]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages du Royaume de Germa]]\n[[Catégorie:Personnages de North Blue]]\n[[Catégorie:Serviteurs]]"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Roxanne",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Roxanne",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "#92C9F3",
+    "textcolor": "#FFFFFF",
+    "nom": "Roxanne",
+    "image": "[[Fichier:Roxanne Manga Infobox.png|270px]]",
+    "nomj": "ロクサーヌ",
+    "nomr": "''Rokusānu''",
+    "nomf": "Roxanne",
+    "première": "[[Chapitre 46]]<ref name=r1>''One Piece Manga'' - [[Tome 6]], [[Chapitre 46]] - Première apparition de Roxanne.</ref>",
+    "statut": "Vivante",
+    "naissance": "23 Janvier <ref>[[Databooks One Piece/Vivre Card - One Piece Visual Dictionary|Vivre Card : Sa date de naissance est révélée]]</ref>}"
+  },
+  "intro": "'''Roxanne''' (ロクサーヌ, ''Rokusānu'') était une cliente du [[Baratie]] avec qui [[Sanji]] parlait. Elle apparaît seulement dans le [[manga]].<ref name=r1 />",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Bien qu'elle soit à peine visible, on peut distinguer que c'est une jeune femme vêtue d'une jupe et d'un chemisier.<ref name=r1 />\n{{Galerie2|position=center|width=120|height=120\n|Roxanne Portrait.png|Roxanne Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On ne connait rien de sa personnalité, hormis le fait qu'elle aime manger au [[Baratie]].<ref name=r1 />"
+    },
+    {
+      "level": 3,
+      "title": "Arc Baratie",
+      "content": "{{Main|Arc Baratie}}\nElle a été vue au Baratie où Sanji la salua puis commença à flirter avec elle.<ref name=r1 />"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Baratie}}\n\n[[en:Roxanne]]\n[[it:Roxanne]]\n[[ca:Roxanne]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages du Baratie]]\n[[Catégorie:Personnages d'East Blue]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Féminins",
+    "Personnages du Baratie",
+    "Personnages d'East Blue"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor    = #92C9F3\n| textcolor    = #FFFFFF\n| nom          = Roxanne\n| image        = [[Fichier:Roxanne Manga Infobox.png|270px]]\n| nomj         = ロクサーヌ\n| nomr         = ''Rokusānu''\n| nomf         = Roxanne\n| première     = [[Chapitre 46]]<ref name=r1>''One Piece Manga'' - [[Tome 6]], [[Chapitre 46]] - Première apparition de Roxanne.</ref>\n| statut       = Vivante\n| naissance    = 23 Janvier <ref>[[Databooks One Piece/Vivre Card - One Piece Visual Dictionary|Vivre Card : Sa date de naissance est révélée]]</ref>}}\n'''Roxanne''' (ロクサーヌ, ''Rokusānu'') était une cliente du [[Baratie]] avec qui [[Sanji]] parlait. Elle apparaît seulement dans le [[manga]].<ref name=r1 />\n\n==Apparence==\nBien qu'elle soit à peine visible, on peut distinguer que c'est une jeune femme vêtue d'une jupe et d'un chemisier.<ref name=r1 />\n{{Galerie2|position=center|width=120|height=120\n|Roxanne Portrait.png|Roxanne Portrait\n}}\n\n==Personnalité==\nOn ne connait rien de sa personnalité, hormis le fait qu'elle aime manger au [[Baratie]].<ref name=r1 />\n\n==Histoire==\n===Arc Baratie===\n{{Main|Arc Baratie}}\nElle a été vue au Baratie où Sanji la salua puis commença à flirter avec elle.<ref name=r1 />\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Baratie}}\n\n[[en:Roxanne]]\n[[it:Roxanne]]\n[[ca:Roxanne]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages du Baratie]]\n[[Catégorie:Personnages d'East Blue]]"
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Concelot",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Concelot",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "738873",
+    "textcolor": "FFFFFF",
+    "nom": "Concelot",
+    "nomimage": "Concelot",
+    "nomj": "コンスロット",
+    "nomr": "''Konsurotto''",
+    "nomf": "Concelot",
+    "première": "[[Chapitre 809]] ; [[Épisode 758]]{{Qref|nom=c809|tome=81|chapitre=809|episode=758|texte=Concelot apparaît.}}",
+    "occupation": "Mousquetaire du duc [[Inuarashi]], membre de l'[[Escouade de Mousquetaires]], Épéiste",
+    "origine": "[[Zou]], [[Principauté de Mokomo]]{{Qref|nom=Vivre}}",
+    "épithète": "",
+    "voj": "Toshiya Chiba",
+    "statut": "Vivant",
+    "vof": "",
+    "naissance": "2 Novembre{{Qref|nom=Vivre|databook=vivre|page=0970|texte=Des infos sur Concelot, comme son nom et sa taille, sont dévoilées.}}",
+    "âge": "29 ans{{Qref|nom=Vivre}}",
+    "taille": "2m04{{Qref|nom=Vivre}}",
+    "groupe sanguin": "F (B){{Qref|nom=Vivre}}"
+  },
+  "intro": "'''Concelot'''{{Qref|nom = Vivre}}{{Qref|chapitre = 959|page = 6|texte = Le nom de Concelot est romanisé.}} est un Mink-renard et l'un des trois [[Escouade de Mousquetaires|mousquetaires d'Inuarashi]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Du fait que Concelot soit un Mink de renard, ses caractéristiques externes animales sont prédominantes sur celles de l'homme. Il représente un renard humanisé marchant debout. En tant que membre des Mousquetaires d'Inuarashi, il porte une tenue similaire à celle des autres combattants Siciliens et Giovanni. Cela comprend une cape violette, une chemise pastel, un chapeau noir avec une plume rose, des gants noirs, des bottes foncées et un pantalon foncé, qui est retenu par une ceinture en cuir noir. Une ceinture sombre court le long de sa poitrine. Il porte toujours deux rapières sur lui.\n{{Galerie2|position=center|width=120|height=120\n|Concelot Portrait.png|Concelot Portrait\n|Concelot Anime Concept Art.png|Concept Art de Concelot pour l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Comme les autres Minks du Duché de Mokomo, Concelot est fidèle à la famille Kozuki. Il est également très reconnaissant, car il a voulu accompagner l'équipe de récupération de Sanji."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "[[Fichier:Concelot en forme Sulong.png|180px|thumb|left|Concelot active sa forme Sulong]]\nEn tant que l'un des trois mousquetaires du duc Inuarashi, Concelot a autorité sur le reste des mousquetaires.\n\nComme tous les Minks, Concelot est un guerrier né à l'état naturel, il peut utiliser l'[[Electro]]{{Qref|nom = c808|tome = 81|chapitre = 808|episode = 757|texte = [[Monjii]] indique que tous les Minks peuvent utiliser Electro.}} et activer sa forme [[Sulong]]. En tant que mousquetaire, Concelot est un guerrier très puissant, même parmi les Minks.{{Qref|nom = |tome = 81|chapitre = 808|page = 9|episode = 757|texte = [[Monjii]] indique que les Mousquetaires sont plus forts que les autres Minks.}}"
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Concelot manie de petites rapières jumelles, à travers lesquelles il peut canaliser l'Electro.{{Qref|nom = c810}}"
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Lorsque l'Équipage aux Cent Bêtes, dirigé par Jack, envahit Zo à la recherche de Raizo, Concelot et le reste de la troupe de mousquetaires d'Inuarashi se sont battu contre eux. À la tombée de la nuit, lui et les mousquetaires se sont retiré pour permettre à Nekomamushi et aux gardiens de reprendre la suite de la bataille.{{Qref|chapitre = 809|episode = 759|tome = 81|texte = Les Gardiens viennent prendre le relais de l'Escouade de Mousquetaires.}}\n\nLa bataille contre les Pirates de Kaidou dura cinq jours. Le cinquième jour de combat, Jack a perdu patience et a libéré le gaz Koro de César Clown, ce qui a empoisonné ses adversaires et l'a considérablement affaiblie. Le lendemain, celui-ci a quitté Zo, après avoir entendu parler de la défaite et de la capture de [[Don Quichotte Doflamingo]]{{Qref|tome = 81|chapitre = 810|episode = 759|texte = [[Wanda]] et [[Inuarashi]] racontent la fin de la bataille contre Jack.}} Les Minks ont ensuite été sauvés lorsque Sanji et son groupe ont débarqué.{{Qref|nom = c811|tome = 81|chapitre = 811|episode = 761|texte = Sanji et son groupe arrivent sur Zou et sauvent les Minks.}}"
+    },
+    {
+      "level": 3,
+      "title": "= Arc Zo =",
+      "content": "{{Main|Arc Zo}}\nAvec les autres mousquetaires, dont Sicilian et Giovanni, Concelot a défendu sa patrie contre les pirates de Kaidou.{{Qref|nom = c809}} Pendant la journée, ils se battaient, la nuit, ils se reposaient et laissaient les Minks nocturnes prendre la relève. Alors qu'Inuarashi affrontait le chef, Jack, les Mousquetaires ont combattu les Gifters des Pirates aux Cent Bêtes et ont réussi à les tenir à distance avec leurs attaques Electro. Après cinq jours, tandis que les Minks prenaient inexorablement le dessus, Jack a libéré le gaz toxique « koro » sur Zou.{{Qref|nom = c810|tome = 81|chapitre = 810|episode =758|texte = Jack recourt au gaz toxique \"koro\".}} Le poison a tellement affaibli les combattants, que les pirates les ont finalement vaincus. Les guerriers les plus forts ont été crucifiés. Seuls, les Chapeaux de Paille ont pu chasser les hommes de main de Jack hors de l'île, peu après le départ de celui-ci de Zo, et après avoir appris la nouvelle de la capture de Don Quichotte Doflamingo. Ils utilisèrent les pouvoirs du démon de César pour neutraliser le poison et libérer ainsi les Minks de leurs tourments.{{Qref|nom = c811}}\n\nMais un jour après l'arrivée de Luffy, la sirène retenti. Les Minks et les Chapeaux de Paille sont informés que des samouraïs ont pénétré sur l'île. Des samouraïs comme le Raizo, celui qui les avait tant fait souffrir des mains de Jack et de son équipage. Les Chapeaux de Paille et de nombreux Minks se sont précipités vers la capitale, mais lorsque les samouraïs se sont fait connaitre, les choses se sont calmées. Il s'avère que les Minks combattants savaient très bien que Raizo était sur l'île, mais l'ont protégé en refusant de le livrer à Jack. Toutes les personnes présentes étaient très heureuses de voir les samouraïs, en particulier le seigneur Momonosuke, tout comme Concelot. Comme tous ses congénaires, celui-ci s'inclina devant le samouraï.{{Qref|nom = c822|tome = 82|chapitre = 822|episode =776|texte = L'arrivée du samouraï sur Zou.}}\n\nAprès le retour de la flotte de Jack et celle-ci ayant été envoyée par le fond, par l'éléphant géant Zunesh, d'un seul coup de trompe, les mousquetaires d'Inuarashi ont demandé à rejoindre l'équipe de sauvetage de Sanji. Mais Nekomamushi leur a ordonné de rester sur Zou pour le moment.{{Qref|nom = c959|tome = 95|chapitre = 959|episode = 959|texte = Concelot veut rejoindre l'équipe de secours de Sanji, mais reste sur Zou pour le moment.}}"
+    },
+    {
+      "level": 3,
+      "title": "= Arc Wano Kuni =",
+      "content": "{{Main|Arc Wano Kuni}}\nConcelot et les autres mousquetaires ont voyagé avec [[Inuarashi]] jusqu'à Wano, et sur place, ils ont trouvé [[Tama]]{{Qref|nom = c924|chapitre = 924|page = 10|episode = 918}}blessée.\n\nDeux jours avant le raid sur l'[[Île Onigashima]], les mousquetaires discutent avec [[Wanda]], [[Nami]], [[Nico Robin|Robin]] et [[Carrot]] dans le Village d'Amigasa sur le fait que les conditions climatiques peuvent modifier leurs chances de victoire.{{Qref|nom = c959}}\n\nLe jour du [[Festival du Feu]], Concelot est présent sur le [[Thousand Sunny]] lorsque les Chapeaux de Paille sauvent les [[Neuf Fourreaux Rouges|Fourreaux Rouges]] de l'[[L'Équipage aux Cent Bêtes|Équipage aux Cent Bêtes]].{{Qref|nom = c975|chapitre = 975|page = |episode = }}\n\nPlus tard, les [[Minks]] et les [[Fourreaux Rouges]] se retrouvent face à [[Kaidou]], [[Jack]] ainsi que leurs subordonnés. Concelot active alors sa forme [[Sulong]], à l'instar des autres Minks.{{Qref|nom = c988|chapitre = 988|episode = 997|texte = Concelot active sa forme Sulong face à Kaidou et Jack.}}"
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "{{Batailles|backcolor=#738873|textcolor=#FFFFFF\n|Batailles = \n*Concelot et la Tribu des Minks vs Jack et ses hommes = Défaite suite à l'utilisation du gaz [[Koro]].}}"
+    },
+    {
+      "level": 2,
+      "title": "Autre One Piece",
+      "content": "*Dans One Piece Green, il y a un prototype du personnage. {{Qref|nom = Vivre}}\n{{Galerie2|width=130\n|Concelot Concept Art.png|Concept de Concelot\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Le nom de Concelot semble être un jeu de mot sur \"konkon\", le cri du renard en japonais, et [[wikipedia:fr:Lancelot du Lac|Lancelot]], l'un des chevaliers de la Table ronde.\n*Son plat préféré est la viande de serpent.{{Qref|nom = Vivre}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "{{Scroll Box|<references />}}"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{NaviZou}}\n{{Épéistes}}\n{{Garde Royale}}\n[[it:Koncelot]]\n[[ca:Koncelot]]\n[[es:Koncelot]]\n[[en:Concelot]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Zou]]\n[[Catégorie:Gardes Royaux]]\n[[Catégorie:Minkmens]]\n[[Catégorie:Épéistes]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Personnages de Zou",
+    "Gardes Royaux",
+    "Minkmens",
+    "Épéistes"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 738873\n| textcolor         = FFFFFF\n| nom               = Concelot\n| nomimage          = Concelot\n| nomj              = コンスロット\n| nomr              = ''Konsurotto''\n| nomf              = Concelot\n| première          = [[Chapitre 809]] ; [[Épisode 758]]{{Qref|nom=c809|tome=81|chapitre=809|episode=758|texte=Concelot apparaît.}}\n|occupation         = Mousquetaire du duc [[Inuarashi]], membre de l'[[Escouade de Mousquetaires]], Épéiste\n| origine           = [[Zou]], [[Principauté de Mokomo]]{{Qref|nom=Vivre}}\n| épithète          = \n| voj               = Toshiya Chiba\n| statut            = Vivant\n| vof               = \n| naissance         = 2 Novembre{{Qref|nom=Vivre|databook=vivre|page=0970|texte=Des infos sur Concelot, comme son nom et sa taille, sont dévoilées.}}\n| âge               = 29 ans{{Qref|nom=Vivre}}\n| taille            = 2m04{{Qref|nom=Vivre}}\n| groupe sanguin    = F (B){{Qref|nom=Vivre}}\n}}\n'''Concelot'''{{Qref|nom = Vivre}}{{Qref|chapitre = 959|page = 6|texte = Le nom de Concelot est romanisé.}} est un Mink-renard et l'un des trois [[Escouade de Mousquetaires|mousquetaires d'Inuarashi]].\n\n== Apparence ==\nDu fait que Concelot soit un Mink de renard, ses caractéristiques externes animales sont prédominantes sur celles de l'homme. Il représente un renard humanisé marchant debout. En tant que membre des Mousquetaires d'Inuarashi, il porte une tenue similaire à celle des autres combattants Siciliens et Giovanni. Cela comprend une cape violette, une chemise pastel, un chapeau noir avec une plume rose, des gants noirs, des bottes foncées et un pantalon foncé, qui est retenu par une ceinture en cuir noir. Une ceinture sombre court le long de sa poitrine. Il porte toujours deux rapières sur lui.\n{{Galerie2|position=center|width=120|height=120\n|Concelot Portrait.png|Concelot Portrait\n|Concelot Anime Concept Art.png|Concept Art de Concelot pour l'anime\n}}\n\n==Personnalité==\nComme les autres Minks du Duché de Mokomo, Concelot est fidèle à la famille Kozuki. Il est également très reconnaissant, car il a voulu accompagner l'équipe de récupération de Sanji.\n\n==Aptitudes et compétences==\n[[Fichier:Concelot en forme Sulong.png|180px|thumb|left|Concelot active sa forme Sulong]]\nEn tant que l'un des trois mousquetaires du duc Inuarashi, Concelot a autorité sur le reste des mousquetaires.\n\nComme tous les Minks, Concelot est un guerrier né à l'état naturel, il peut utiliser l'[[Electro]]{{Qref|nom = c808|tome = 81|chapitre = 808|episode = 757|texte = [[Monjii]] indique que tous les Minks peuvent utiliser Electro.}} et activer sa forme [[Sulong]]. En tant que mousquetaire, Concelot est un guerrier très puissant, même parmi les Minks.{{Qref|nom = |tome = 81|chapitre = 808|page = 9|episode = 757|texte = [[Monjii]] indique que les Mousquetaires sont plus forts que les autres Minks.}}\n\n=== Armes ===\nConcelot manie de petites rapières jumelles, à travers lesquelles il peut canaliser l'Electro.{{Qref|nom = c810}}\n\n==Histoire==\n\n=== Passé ===\nLorsque l'Équipage aux Cent Bêtes, dirigé par Jack, envahit Zo à la recherche de Raizo, Concelot et le reste de la troupe de mousquetaires d'Inuarashi se sont battu contre eux. À la tombée de la nuit, lui et les mousquetaires se sont retiré pour permettre à Nekomamushi et aux gardiens de reprendre la suite de la bataille.{{Qref|chapitre = 809|episode = 759|tome = 81|texte = Les Gardiens viennent prendre le relais de l'Escouade de Mousquetaires.}}\n\nLa bataille contre les Pirates de Kaidou dura cinq jours. Le cinquième jour de combat, Jack a perdu patience et a libéré le gaz Koro de César Clown, ce qui a empoisonné ses adversaires et l'a considérablement affaiblie. Le lendemain, celui-ci a quitté Zo, après avoir entendu parler de la défaite et de la capture de [[Don Quichotte Doflamingo]]{{Qref|tome = 81|chapitre = 810|episode = 759|texte = [[Wanda]] et [[Inuarashi]] racontent la fin de la bataille contre Jack.}} Les Minks ont ensuite été sauvés lorsque Sanji et son groupe ont débarqué.{{Qref|nom = c811|tome = 81|chapitre = 811|episode = 761|texte = Sanji et son groupe arrivent sur Zou et sauvent les Minks.}}\n\n=== Saga des 4 Empereurs ===\n\n==== Arc Zo ====\n{{Main|Arc Zo}}\nAvec les autres mousquetaires, dont Sicilian et Giovanni, Concelot a défendu sa patrie contre les pirates de Kaidou.{{Qref|nom = c809}} Pendant la journée, ils se battaient, la nuit, ils se reposaient et laissaient les Minks nocturnes prendre la relève. Alors qu'Inuarashi affrontait le chef, Jack, les Mousquetaires ont combattu les Gifters des Pirates aux Cent Bêtes et ont réussi à les tenir à distance avec leurs attaques Electro. Après cinq jours, tandis que les Minks prenaient inexorablement le dessus, Jack a libéré le gaz toxique « koro » sur Zou.{{Qref|nom = c810|tome = 81|chapitre = 810|episode =758|texte = Jack recourt au gaz toxique \"koro\".}} Le poison a tellement affaibli les combattants, que les pirates les ont finalement vaincus. Les guerriers les plus forts ont été crucifiés. Seuls, les Chapeaux de Paille ont pu chasser les hommes de main de Jack hors de l'île, peu après le départ de celui-ci de Zo, et après avoir appris la nouvelle de la capture de Don Quichotte Doflamingo. Ils utilisèrent les pouvoirs du démon de César pour neutraliser le poison et libérer ainsi les Minks de leurs tourments.{{Qref|nom = c811}}\n\nMais un jour après l'arrivée de Luffy, la sirène retenti. Les Minks et les Chapeaux de Paille sont informés que des samouraïs ont pénétré sur l'île. Des samouraïs comme le Raizo, celui qui les avait tant fait souffrir des mains de Jack et de son équipage. Les Chapeaux de Paille et de nombreux Minks se sont précipités vers la capitale, mais lorsque les samouraïs se sont fait connaitre, les choses se sont calmées. Il s'avère que les Minks combattants savaient très bien que Raizo était sur l'île, mais l'ont protégé en refusant de le livrer à Jack. Toutes les personnes présentes étaient très heureuses de voir les samouraïs, en particulier le seigneur Momonosuke, tout comme Concelot. Comme tous ses congénaires, celui-ci s'inclina devant le samouraï.{{Qref|nom = c822|tome = 82|chapitre = 822|episode =776|texte = L'arrivée du samouraï sur Zou.}}\n\nAprès le retour de la flotte de Jack et celle-ci ayant été envoyée par le fond, par l'éléphant géant Zunesh, d'un seul coup de trompe, les mousquetaires d'Inuarashi ont demandé à rejoindre l'équipe de sauvetage de Sanji. Mais Nekomamushi leur a ordonné de rester sur Zou pour le moment.{{Qref|nom = c959|tome = 95|chapitre = 959|episode = 959|texte = Concelot veut rejoindre l'équipe de secours de Sanji, mais reste sur Zou pour le moment.}}\n\n==== Arc Wano Kuni ====\n{{Main|Arc Wano Kuni}}\nConcelot et les autres mousquetaires ont voyagé avec [[Inuarashi]] jusqu'à Wano, et sur place, ils ont trouvé [[Tama]]{{Qref|nom = c924|chapitre = 924|page = 10|episode = 918}}blessée.\n\nDeux jours avant le raid sur l'[[Île Onigashima]], les mousquetaires discutent avec [[Wanda]], [[Nami]], [[Nico Robin|Robin]] et [[Carrot]] dans le Village d'Amigasa sur le fait que les conditions climatiques peuvent modifier leurs chances de victoire.{{Qref|nom = c959}}\n\nLe jour du [[Festival du Feu]], Concelot est présent sur le [[Thousand Sunny]] lorsque les Chapeaux de Paille sauvent les [[Neuf Fourreaux Rouges|Fourreaux Rouges]] de l'[[L'Équipage aux Cent Bêtes|Équipage aux Cent Bêtes]].{{Qref|nom = c975|chapitre = 975|page = |episode = }}\n\nPlus tard, les [[Minks]] et les [[Fourreaux Rouges]] se retrouvent face à [[Kaidou]], [[Jack]] ainsi que leurs subordonnés. Concelot active alors sa forme [[Sulong]], à l'instar des autres Minks.{{Qref|nom = c988|chapitre = 988|episode = 997|texte = Concelot active sa forme Sulong face à Kaidou et Jack.}}\n\n==Batailles Principales==\n{{Batailles|backcolor=#738873|textcolor=#FFFFFF\n|Batailles = \n*Concelot et la Tribu des Minks vs Jack et ses hommes = Défaite suite à l'utilisation du gaz [[Koro]].}}\n\n==Autre One Piece==\n*Dans One Piece Green, il y a un prototype du personnage. {{Qref|nom = Vivre}}\n{{Galerie2|width=130\n|Concelot Concept Art.png|Concept de Concelot\n}}\n\n==Futilités==\n*Le nom de Concelot semble être un jeu de mot sur \"konkon\", le cri du renard en japonais, et [[wikipedia:fr:Lancelot du Lac|Lancelot]], l'un des chevaliers de la Table ronde.\n*Son plat préféré est la viande de serpent.{{Qref|nom = Vivre}}\n\n==Références==\n{{Scroll Box|<references />}}\n\n==Navigation du site==\n{{NaviZou}}\n{{Épéistes}}\n{{Garde Royale}}\n[[it:Koncelot]]\n[[ca:Koncelot]]\n[[es:Koncelot]]\n[[en:Concelot]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Zou]]\n[[Catégorie:Gardes Royaux]]\n[[Catégorie:Minkmens]]\n[[Catégorie:Épéistes]]"
+}

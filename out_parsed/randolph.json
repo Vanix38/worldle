@@ -1,0 +1,122 @@
+{
+  "title": "Randolph",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Randolph",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "dd8281",
+    "textcolor": "FFFFFF",
+    "nomimage": "Randolph",
+    "nomj": "ランドルフ",
+    "nomr": "''Randorufu''",
+    "nomf": "Randolph",
+    "première": "[[Chapitre 827]] ; [[Épisode 786]]{{Qref|nom=prem|chap=827|page=15|ep=786|texte=Randolph est aperçu partiellement.}}",
+    "affiliation": "[[L'Équipage de Big Mom]]{{Qref|nom=prem}}",
+    "occupation": "[[Pirates|Pirate]]{{Qref|nom=prem}}",
+    "épithète": "{{Nihongo|Combattant sur Grue|{{Furigana|鶴騎|クレインライダー}}|Kurein Raidā}}{{Qref|nom=r1|chap=832|page=4-7|ep=792|texte=Première apparition complète de Randolph.}}",
+    "Statut": "Vivant",
+    "voj": "[[wikipedia:fr:Kappei Yamaguchi|Kappei Yamaguchi]]",
+    "vof": "[[w:c:fr.wikidoublage:Christophe Hespel|Christophe Hespel]]"
+  },
+  "intro": "'''Randolph''' [[Épithètes|alias]] '''Combattant sur Grue'''{{Qref|nom=r1}} est un lapin [[Homies|Homie]] et [[Pirates|pirate]] de [[l'Équipage de Big Mom]].<ref name=\"prem\" />",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Randolph est un lapin de taille moyenne, bien que ses membres soient inhabituellement longs. Il a des petits yeux noirs avec un regard perçant, un museau avec des moustaches et de longues oreilles. il porte une chemise bleue aux coutures dorées ainsi qu'un chapeau de cavalier comportant une plume rouge, une cape noire, des gants noirs et des bottes de la même couleur.<ref name=\"prem\" />"
+    },
+    {
+      "level": 3,
+      "title": "Galerie",
+      "content": "{{Galerie2|width=150|position=center|captionalign=center\n|Randolph Portrait.png|Visage de Randolph\n|Randolph_vaincu.png|Randolph et sa grue vaincus\n|Randolph Anime Concept Art.png|Concept Art de Randolph pour l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Il a une attitude très calme et sérieuse. Il prend ses missions très au sérieux afin de protéger [[The Seducing Woods]]. Il n'a aucun scrupule à tuer les opposants et les intrus. Il est également sans pitié, découpant les arbres [[Homies]] sans la moindre compassion. Randolph est très fidèle à [[Big Mom]] mais semble ne pas vouloir assumer ses fautes et se montre lâche envers ses supérieurs, comme lorsqu'il accuse sa grue afin d'éviter la colère de Cracker, étant intimidé par celui-ci."
+    },
+    {
+      "level": 3,
+      "title": "=Charlotte Linlin=",
+      "content": "Il est loyal envers [[Charlotte Linlin|Big Mom]], puisqu'il protège [[The Seducing Woods]] et n'a aucun scrupule à éliminer les adversaires et les intrus. Il accomplit ses missions avec le plus grand sérieux envers son Capitaine."
+    },
+    {
+      "level": 3,
+      "title": "=Charlotte Cracker=",
+      "content": "C'est l'un de ses supérieurs, il doit donc le respecter. Il le craint, est très intimidé par celui-ci et n'hésite pas à porter la faute sur sa grue afin d'éviter sa colère."
+    },
+    {
+      "level": 3,
+      "title": "= Sa grue =",
+      "content": "Il est souvent accompagné de sa grue avec laquelle il se bat. Cependant, il n'hésite pas à porter les fautes sur sa grue afin d'éviter la colère de ses supérieurs comme Cracker."
+    },
+    {
+      "level": 3,
+      "title": "=Charlotte Brûlée=",
+      "content": "Il la respecte énormément et utilise le suffixe \"sama\" pour s'adresser à elle. Il obéit au moindre de ses ordres et tentera de sauver celle-ci quand elle sera en difficulté."
+    },
+    {
+      "level": 3,
+      "title": "=L'Équipage du Chapeau de Paille=",
+      "content": "Ce sont ses ennemis. Il tentera de les tuer à maintes reprises dans The Seducing Woods.<ref name=\"r1\" />"
+    },
+    {
+      "level": 3,
+      "title": "=Carrot=",
+      "content": "Ils se sont affrontés. D'après celle-ci, il est très puissant. Elle vaincra sa grue. Carrot finira par le vaincre lui et sa grue."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "Il se déplace sur une grue [[Homies|Homie]] très rapide, ce qui lui permet d'attaquer rapidement et de prendre les ennemis par surprise et est à l'origine de son surnom. Il est très agile. [[Carrot]] dit qu'il est très fort, bien qu'elle ait affirmé qu'il n'était pas un [[Mink]].<ref name=\"r1\" /> Sa force est remarquable car il est capable de tenir tête à Carrot pourtant très puissante et d'éliminer plusieurs personnes armées dans le but d'acquérir des fruits.<ref name=\"chap835\">''One Piece Manga et Anime'' - [[Tome 83]], [[Chapitre 835]], [[Épisode 796]] - On apprend que Randolph est un Homie.</ref>"
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Il possède une lance à double face avec deux pointes aiguisées qu'il peut utiliser en combat rapproché ou comme un projectile. Il est capable de couper plusieurs arbres avec un seul coup de lance. Il peut lancer sa lance avec une précision et une rapidité remarquable."
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Randolph est à l'origine un lapin tout à fait ordinaire. Il a, un jour, absorbé un morceau d'âme d'un habitant et est devenu un lapin à l'attitude humaine.<ref name=\"chap835\" /> Il a par la suite rejoint l'Équipage de Big Mom."
+    },
+    {
+      "level": 3,
+      "title": "Arc Whole Cake Island",
+      "content": "{{Main|Arc Whole Cake Island}}\nRandolph se trouve sur une île inconnue chevauchant sa grue, il tient un [[escargophone]]. Il collecte des fruits pour le gâteau de mariage entre [[Charlotte Pudding]] et [[Vinsmoke Sanji]]. Il n'a pas hésité à massacrer tous les soldats pour acquérir les fruits en question.<ref name=\"prem\" />\n\nDans [[The Seducing Woods]], il prend par surprise [[Nami]] et tente de la tuer en utilisant sa lance, mais celle-ci est sauvée par [[Carrot]]. Néanmoins, il découpe plusieurs arbres.<ref name=\"r1\" /> Il envoie un regard perçant à la [[Mink]]. Il poursuit le groupe de Nami toujours sur le dos de sa grue. Carrot dit qu'il est très puissant mais que ce n'est pas un Mink. Il tourne sa lance et se prépare à se battre. Carrot lui donne un coup de pied qu'il contre facilement et elle note qu'il n'est pas capable d'utiliser l'[[Electro]]. Elle parvient à vaincre la grue sur laquelle il se déplace. Il envoie sa lance sur eux mais ils parviennent à l'esquiver.<ref name=\"r1\" />\n\n[[Fichier:Carrot vs Randolph.png|210px|thumb|Randolph vs Carrot]]\nIl est vu dans la forêt lorsque [[Charlotte Brûlée]] apprend au groupe de Nami qu'ils ont reçu pour mission de laisser les Chapeaux de Paille vagabonder, mais sous aucun prétexte les laisser rejoindre [[Sanji]]. On apprend peu après que c'est un [[Homies|Homie]] animé grâce au pouvoir de [[Big Mom]].<ref name=\"chap835\" /> Il revient à la charge dans les airs sur le dos de sa grue et tourne à nouveau sa lance et se prépare à attaquer [[Luffy]] et Nami, mais [[Charlotte Cracker]] lui dit de s'arrêter, et il atterrit dans le sol. Il blâme le lapin pour l'avoir interrompu. Randolph qui est intimidé, rejette la faute sur sa grue qui l'aurait forcé, mais cette dernière le traite de menteur.<ref>''One Piece Manga et Anime'' - [[Tome 83]], [[Chapitre 836]], [[Épisode 797]] - Randolph se fait disputer par [[Charlotte Cracker]].</ref>\n\nRandolph se tenait à l'écart avec sa grue lorsque Cracker et Luffy se battaient et ils ont assisté plus tard à la défaite de Brûlée vaincue par Nami. Il a été désappointé par la situation. Il ne peut s'attaquer à Nami, étant tenu à distance par une carte de vie contenant l'âme de Big Mom. Nami profite de leur sensibilité à la carte de vie de Big Mom pour retourner les [[Homies]] contre la Famille Charlotte. Le lendemain, Brûlée perd patience et décide de faire entrer dans le Mirror World, Randolph, sa grue et Noble Croco afin de l'aider à retrouver les deux intrus.<ref>''One Piece Anime'' - [[Épisode 807]]</ref> Ils parviennent à les capturer  quelques temps plus tard et, toujours dans le monde des miroirs, Brûlée les emmène dans sa maison. Randolph avec sa grue assiste à la préparation de la soupe en compagnie d'autres Homies dans laquelle la Mink va être plongée afin de la manger tout en tenant Chopper captif.<ref>''One Piece Manga'' - [[Tome 84]], [[Chapitre 847]] - Randolph est revu dans la maison de Brûlée.</ref>\n\n[[Fichier:Electrical Luna.png|thumb|left|210px|Randolph et ses camarades défaits par Carrot]]\nPlus tard, il continue d'assister à la scène, puis il décide de couper la corde sous les ordres de Brûlée. Alors que le lapin s'apprête à agir, [[Carrot]] surgit des combles et tir la corde qui fait chuter le Homie. Brûlée s'énerve et la Mink verse le chaudron sur elle et d'autres Homies. La fille de Big Mom défait Randolph et ses camarades tentent de la sauver mais Carrot utilise \"'''Electro'''\" sur l'eau, ce qui électrocute violemment Randolph, sa grue et ses compagnons. Il est défait et tombe inconscient dans un piteux état.<ref>''One Piece Manga'' — [[Tome 85]], [[Chapitre 849]]</ref>\n{{-}}"
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "{{Batailles\n|backcolor=#DD8281\n|textcolor=#FFFFFF\n|Batailles=<br>\n*Randolph vs Armée d'un certain pays = Victoire écrasante.\n*Randolph vs [[Nami]] = Sauvée de justesse par Carrot.\n*Randolph vs [[Carrot]] = Fuite de Carrot mais sa grue est vaincue.\n*Randolph, [[Charlotte Brûlée]], [[Diesel]], [[Noble Croco]] et les douze autres hommes de Brûlée vs. Carrot et [[Chopper]] = Défaite.\n}}"
+    },
+    {
+      "level": 3,
+      "title": "= Jouable =",
+      "content": "* [[One Piece Treasure Cruise]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Son surnom signifie en anglais \"Chevaucheur de grue\" ou \"conducteur de grue\" en raison de sa monture.\n*Bien que Randolph ressemble beaucoup à un Mink, Carrot a déduit qu'il n'en était pas un, puisqu'il ne peut pas utiliser l'[[Electro]], la principale technique de combat de la [[Tribu des Minks]].\n*Il est possible que l'existence de Randolph se fonde sur le Lapin Blanc ou le Lièvre de Mars d'\"''[[wikipedia:fr:Les Aventures d'Alice au pays des merveilles|Alice Au Pays des Merveilles]]''\" de Lewis Caroll, ce qui correspond au thème de [[L'Équipage de Big Mom]].\n*Le motif \"Crane rider\" peut venir de Pak Wan-fai, l’héroïne principale du roman Wuxia et du film \"The Magic Crane\" écrit par Wolong Sheng, qui monte également une grande grue."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{Equipage BigMom}}\n{{NaviTotland}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Randolph]]\n[[ca:Randolph]]\n[[ru:Рэндальф]]\n[[it:Randolph]]\n[[Catégorie:Animaux]]\n[[Catégorie:Équipage de Big Mom]]\n[[Catégorie:Homies]]\n[[Catégorie:Personnages de l'Île Whole Cake Island]]\n[[Catégorie:Antagonistes Saga Whole Cake Island]]\n[[Catégorie:Utilisateurs de Lance]]"
+    }
+  ],
+  "categories": [
+    "Animaux",
+    "Équipage de Big Mom",
+    "Homies",
+    "Personnages de l'Île Whole Cake Island",
+    "Antagonistes Saga Whole Cake Island",
+    "Utilisateurs de Lance"
+  ],
+  "raw_wikitext": ":''Si vous cherchez le personnage de l'épisode spécial, veuillez vous rendre [[Randolph (Non-Canon)|ici]].''\n{{Char box\n|backcolor     = dd8281\n|textcolor     = FFFFFF\n|nomimage      = Randolph\n|nomj          = ランドルフ\n|nomr          = ''Randorufu''\n|nomf          = Randolph\n|première      = [[Chapitre 827]] ; [[Épisode 786]]{{Qref|nom=prem|chap=827|page=15|ep=786|texte=Randolph est aperçu partiellement.}}\n|affiliation   = [[L'Équipage de Big Mom]]{{Qref|nom=prem}}\n|occupation    = [[Pirates|Pirate]]{{Qref|nom=prem}}\n|épithète      = {{Nihongo|Combattant sur Grue|{{Furigana|鶴騎|クレインライダー}}|Kurein Raidā}}{{Qref|nom=r1|chap=832|page=4-7|ep=792|texte=Première apparition complète de Randolph.}}\n|Statut        = Vivant\n|voj           = [[wikipedia:fr:Kappei Yamaguchi|Kappei Yamaguchi]]\n|vof           = [[w:c:fr.wikidoublage:Christophe Hespel|Christophe Hespel]]\n}}\n'''Randolph''' [[Épithètes|alias]] '''Combattant sur Grue'''{{Qref|nom=r1}} est un lapin [[Homies|Homie]] et [[Pirates|pirate]] de [[l'Équipage de Big Mom]].<ref name=\"prem\" />\n\n==Apparence==\nRandolph est un lapin de taille moyenne, bien que ses membres soient inhabituellement longs. Il a des petits yeux noirs avec un regard perçant, un museau avec des moustaches et de longues oreilles. il porte une chemise bleue aux coutures dorées ainsi qu'un chapeau de cavalier comportant une plume rouge, une cape noire, des gants noirs et des bottes de la même couleur.<ref name=\"prem\" />\n\n===Galerie===\n{{Galerie2|width=150|position=center|captionalign=center\n|Randolph Portrait.png|Visage de Randolph\n|Randolph_vaincu.png|Randolph et sa grue vaincus\n|Randolph Anime Concept Art.png|Concept Art de Randolph pour l'anime\n}}\n\n==Personnalité==\nIl a une attitude très calme et sérieuse. Il prend ses missions très au sérieux afin de protéger [[The Seducing Woods]]. Il n'a aucun scrupule à tuer les opposants et les intrus. Il est également sans pitié, découpant les arbres [[Homies]] sans la moindre compassion. Randolph est très fidèle à [[Big Mom]] mais semble ne pas vouloir assumer ses fautes et se montre lâche envers ses supérieurs, comme lorsqu'il accuse sa grue afin d'éviter la colère de Cracker, étant intimidé par celui-ci.\n\n==Relations==\n===Équipage de Big Mom===\n====Charlotte Linlin====\nIl est loyal envers [[Charlotte Linlin|Big Mom]], puisqu'il protège [[The Seducing Woods]] et n'a aucun scrupule à éliminer les adversaires et les intrus. Il accomplit ses missions avec le plus grand sérieux envers son Capitaine.\n\n====Charlotte Cracker====\nC'est l'un de ses supérieurs, il doit donc le respecter. Il le craint, est très intimidé par celui-ci et n'hésite pas à porter la faute sur sa grue afin d'éviter sa colère.\n\n==== Sa grue ====\nIl est souvent accompagné de sa grue avec laquelle il se bat. Cependant, il n'hésite pas à porter les fautes sur sa grue afin d'éviter la colère de ses supérieurs comme Cracker.\n\n====Charlotte Brûlée====\nIl la respecte énormément et utilise le suffixe \"sama\" pour s'adresser à elle. Il obéit au moindre de ses ordres et tentera de sauver celle-ci quand elle sera en difficulté.\n\n===Ennemis===\n====L'Équipage du Chapeau de Paille====\nCe sont ses ennemis. Il tentera de les tuer à maintes reprises dans The Seducing Woods.<ref name=\"r1\" />\n\n====Carrot====\nIls se sont affrontés. D'après celle-ci, il est très puissant. Elle vaincra sa grue. Carrot finira par le vaincre lui et sa grue.\n\n==Aptitudes et Compétences==\nIl se déplace sur une grue [[Homies|Homie]] très rapide, ce qui lui permet d'attaquer rapidement et de prendre les ennemis par surprise et est à l'origine de son surnom. Il est très agile. [[Carrot]] dit qu'il est très fort, bien qu'elle ait affirmé qu'il n'était pas un [[Mink]].<ref name=\"r1\" /> Sa force est remarquable car il est capable de tenir tête à Carrot pourtant très puissante et d'éliminer plusieurs personnes armées dans le but d'acquérir des fruits.<ref name=\"chap835\">''One Piece Manga et Anime'' - [[Tome 83]], [[Chapitre 835]], [[Épisode 796]] - On apprend que Randolph est un Homie.</ref>\n\n=== Armes ===\nIl possède une lance à double face avec deux pointes aiguisées qu'il peut utiliser en combat rapproché ou comme un projectile. Il est capable de couper plusieurs arbres avec un seul coup de lance. Il peut lancer sa lance avec une précision et une rapidité remarquable.\n\n==Histoire==\n===Passé===\nRandolph est à l'origine un lapin tout à fait ordinaire. Il a, un jour, absorbé un morceau d'âme d'un habitant et est devenu un lapin à l'attitude humaine.<ref name=\"chap835\" /> Il a par la suite rejoint l'Équipage de Big Mom.\n\n===Arc Whole Cake Island===\n{{Main|Arc Whole Cake Island}}\nRandolph se trouve sur une île inconnue chevauchant sa grue, il tient un [[escargophone]]. Il collecte des fruits pour le gâteau de mariage entre [[Charlotte Pudding]] et [[Vinsmoke Sanji]]. Il n'a pas hésité à massacrer tous les soldats pour acquérir les fruits en question.<ref name=\"prem\" />\n\nDans [[The Seducing Woods]], il prend par surprise [[Nami]] et tente de la tuer en utilisant sa lance, mais celle-ci est sauvée par [[Carrot]]. Néanmoins, il découpe plusieurs arbres.<ref name=\"r1\" /> Il envoie un regard perçant à la [[Mink]]. Il poursuit le groupe de Nami toujours sur le dos de sa grue. Carrot dit qu'il est très puissant mais que ce n'est pas un Mink. Il tourne sa lance et se prépare à se battre. Carrot lui donne un coup de pied qu'il contre facilement et elle note qu'il n'est pas capable d'utiliser l'[[Electro]]. Elle parvient à vaincre la grue sur laquelle il se déplace. Il envoie sa lance sur eux mais ils parviennent à l'esquiver.<ref name=\"r1\" />\n\n[[Fichier:Carrot vs Randolph.png|210px|thumb|Randolph vs Carrot]]\nIl est vu dans la forêt lorsque [[Charlotte Brûlée]] apprend au groupe de Nami qu'ils ont reçu pour mission de laisser les Chapeaux de Paille vagabonder, mais sous aucun prétexte les laisser rejoindre [[Sanji]]. On apprend peu après que c'est un [[Homies|Homie]] animé grâce au pouvoir de [[Big Mom]].<ref name=\"chap835\" /> Il revient à la charge dans les airs sur le dos de sa grue et tourne à nouveau sa lance et se prépare à attaquer [[Luffy]] et Nami, mais [[Charlotte Cracker]] lui dit de s'arrêter, et il atterrit dans le sol. Il blâme le lapin pour l'avoir interrompu. Randolph qui est intimidé, rejette la faute sur sa grue qui l'aurait forcé, mais cette dernière le traite de menteur.<ref>''One Piece Manga et Anime'' - [[Tome 83]], [[Chapitre 836]], [[Épisode 797]] - Randolph se fait disputer par [[Charlotte Cracker]].</ref>\n\nRandolph se tenait à l'écart avec sa grue lorsque Cracker et Luffy se battaient et ils ont assisté plus tard à la défaite de Brûlée vaincue par Nami. Il a été désappointé par la situation. Il ne peut s'attaquer à Nami, étant tenu à distance par une carte de vie contenant l'âme de Big Mom. Nami profite de leur sensibilité à la carte de vie de Big Mom pour retourner les [[Homies]] contre la Famille Charlotte. Le lendemain, Brûlée perd patience et décide de faire entrer dans le Mirror World, Randolph, sa grue et Noble Croco afin de l'aider à retrouver les deux intrus.<ref>''One Piece Anime'' - [[Épisode 807]]</ref> Ils parviennent à les capturer  quelques temps plus tard et, toujours dans le monde des miroirs, Brûlée les emmène dans sa maison. Randolph avec sa grue assiste à la préparation de la soupe en compagnie d'autres Homies dans laquelle la Mink va être plongée afin de la manger tout en tenant Chopper captif.<ref>''One Piece Manga'' - [[Tome 84]], [[Chapitre 847]] - Randolph est revu dans la maison de Brûlée.</ref>\n\n[[Fichier:Electrical Luna.png|thumb|left|210px|Randolph et ses camarades défaits par Carrot]]\nPlus tard, il continue d'assister à la scène, puis il décide de couper la corde sous les ordres de Brûlée. Alors que le lapin s'apprête à agir, [[Carrot]] surgit des combles et tir la corde qui fait chuter le Homie. Brûlée s'énerve et la Mink verse le chaudron sur elle et d'autres Homies. La fille de Big Mom défait Randolph et ses camarades tentent de la sauver mais Carrot utilise \"'''Electro'''\" sur l'eau, ce qui électrocute violemment Randolph, sa grue et ses compagnons. Il est défait et tombe inconscient dans un piteux état.<ref>''One Piece Manga'' — [[Tome 85]], [[Chapitre 849]]</ref>\n{{-}}\n\n==Batailles Principales==\n{{Batailles\n|backcolor=#DD8281\n|textcolor=#FFFFFF\n|Batailles=<br>\n*Randolph vs Armée d'un certain pays = Victoire écrasante.\n*Randolph vs [[Nami]] = Sauvée de justesse par Carrot.\n*Randolph vs [[Carrot]] = Fuite de Carrot mais sa grue est vaincue.\n*Randolph, [[Charlotte Brûlée]], [[Diesel]], [[Noble Croco]] et les douze autres hommes de Brûlée vs. Carrot et [[Chopper]] = Défaite.\n}}\n\n== Marchandise ==\n=== Jeux vidéo ===\n==== Jouable ====\n* [[One Piece Treasure Cruise]]\n\n==Futilités==\n*Son surnom signifie en anglais \"Chevaucheur de grue\" ou \"conducteur de grue\" en raison de sa monture.\n*Bien que Randolph ressemble beaucoup à un Mink, Carrot a déduit qu'il n'en était pas un, puisqu'il ne peut pas utiliser l'[[Electro]], la principale technique de combat de la [[Tribu des Minks]].\n*Il est possible que l'existence de Randolph se fonde sur le Lapin Blanc ou le Lièvre de Mars d'\"''[[wikipedia:fr:Les Aventures d'Alice au pays des merveilles|Alice Au Pays des Merveilles]]''\" de Lewis Caroll, ce qui correspond au thème de [[L'Équipage de Big Mom]].\n*Le motif \"Crane rider\" peut venir de Pak Wan-fai, l’héroïne principale du roman Wuxia et du film \"The Magic Crane\" écrit par Wolong Sheng, qui monte également une grande grue.\n\n==Références==\n<references />\n\n==Navigation du site==\n{{Equipage BigMom}}\n{{NaviTotland}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Randolph]]\n[[ca:Randolph]]\n[[ru:Рэндальф]]\n[[it:Randolph]]\n[[Catégorie:Animaux]]\n[[Catégorie:Équipage de Big Mom]]\n[[Catégorie:Homies]]\n[[Catégorie:Personnages de l'Île Whole Cake Island]]\n[[Catégorie:Antagonistes Saga Whole Cake Island]]\n[[Catégorie:Utilisateurs de Lance]]"
+}

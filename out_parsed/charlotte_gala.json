@@ -1,0 +1,64 @@
+{
+  "title": "Charlotte Gala",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Charlotte_Gala",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "dd8281",
+    "textcolor": "FFFFFF",
+    "image": "[[Fichier:Charlotte Gala Manga Infobox.png|270px]]",
+    "nomj": "シャーロット・ガラ",
+    "nomr": "''Shārotto Gara''",
+    "nomf": "Charlotte Gala",
+    "première": "[[One Piece Magazine Vol. 5]]{{Qref|nom=Magazine Vol. 5}}",
+    "naissance": "29 Septembre{{Qref|sbs=90|texte=La date de naissance d'Opéra, son jumeau, est donnée.}}{{Qref|nom=SBS90 Site|texte=[https://one-piece.com/special/sbs/detail/9.html one-piece.com]}}",
+    "âge": "46 ans{{Qref|nom=Magazine Vol. 5|magazine = 5|texte = L'âge de Gala est révélé ainsi que son apparence et sa position dans la famille.}}",
+    "affiliation": "[[Famille Charlotte]]{{Qref|nom=sbs85|sbs=85|texte=Gala est présenté.}}",
+    "statut": "Vivant"
+  },
+  "intro": "'''Charlotte Gala''' est le 9ᵉ fils et 14ᵉ enfant de la [[Famille Charlotte]].{{Qref|nom=Magazine Vol. 5}} Il est le plus jeune des quintuplés de la Famille Charlotte, ses frères étant, [[Opéra]], [[Counter]], [[Cadenza]] et [[Cabaletta]].{{Qref|nom=sbs85}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Comme ses frères jumeaux, Gala est un homme imposant. Il a une barbe sombre, ainsi que des cheveux dressés sur la tête en quatre mèches. Il porte une veste et un pantalon noirs, ainsi qu'une ceinture et des bracelets cloutés sur ces bras.{{Qref|nom=Magazine Vol. 5}}\n\n{{Galerie2|position=center|captionalign=center\n|Charlotte Gala Portrait.png|Charlotte Gala Portrait\n|Charlotte Gala Anime Concept Art.png|Concept Art de Gala pour l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "N'étant jamais apparu dans le manga, on ne sait rien de la personnalité de Gala."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "N'étant jamais apparu dans le manga, on ne sait rien des aptitudes et des compétences de Gala."
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Gala est né d'un quintuplé de [[Big Mom]] avec [[Charlotte Opera]], [[Charlotte Counter|Counter]], [[Charlotte Cadenza|Cadenza]] et [[Charlotte Cabalette|Cabalette]].{{Qref|nom=sbs85}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "[[Fichier:Faux Charlotte Gala.png|thumb|Le personnage identifié à tort comme Gala]]\n*Le site officiel de One Piece au Japon a donné à Gala l'apparence d'un des combattants de l'Armée enragée, via un portrait parmi les dates d'anniversaire. Son image a par la suite été retirée,{{Qref|nom=SBS90 Site}} et le [[One Piece Magazine Vol. 5]] l'a identifié quelques mois après.{{Qref|nom=Magazine Vol. 5}}\n*Gala est un type de [[Wikipedia:fr:Gala (pomme)|pomme]] et de [[Wikipedia:Gala potato|pomme de terre]], et le mot grec pour \"lait\". Tous correspondent aux noms thématiques de la [[Famille Charlotte]] autour de la nourriture.\n**Son nom peut également faire référence aux galas, qui sont des événements présentant généralement des performances artistiques. Ce nom ne correspond pas au thème culinaire de la famille Charlotte, mais au thème musical venant de l'amour de [[Charlotte Linlin|sa mère]] pour la musique et le chant. Tous les membres de la multiple naissance dont Gala est issu suivent ce thème musical.\n*Le nombre de mèches de cheveux correspond à la position dans les quintuplés : [[Opéra]] en a zéro, [[Counter]] une, [[Cadenza]] deux, [[Cabalette]] trois, et Gala quatre.\n*Gala est actuellement le seul enfant de la [[Famille Charlotte]] qui ne soit jamais apparu dans le manga ou l'animé."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{NaviTotland}}\n{{Famille Charlotte Navibox}}\n[[ru:Шарлотта Гала]]\n[[ca:Charlotte Gala]]\n[[it:Charlotte Gala]]\n[[en:Charlotte Gala]]\n[[es:Charlotte Gala]]\n[[pl:Charlotte Gala]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Famille Charlotte]]\n[[Catégorie:Personnages de SBS]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Famille Charlotte",
+    "Personnages de SBS",
+    "Personnages Uniquement Mentionnés"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor          = dd8281\n| textcolor          = FFFFFF\n| image              = [[Fichier:Charlotte Gala Manga Infobox.png|270px]]\n| nomj               = シャーロット・ガラ\n| nomr               = ''Shārotto Gara''\n| nomf               = Charlotte Gala\n| première           = [[One Piece Magazine Vol. 5]]{{Qref|nom=Magazine Vol. 5}}\n| naissance          = 29 Septembre{{Qref|sbs=90|texte=La date de naissance d'Opéra, son jumeau, est donnée.}}{{Qref|nom=SBS90 Site|texte=[https://one-piece.com/special/sbs/detail/9.html one-piece.com]}}\n| âge                = 46 ans{{Qref|nom=Magazine Vol. 5|magazine = 5|texte = L'âge de Gala est révélé ainsi que son apparence et sa position dans la famille.}}\n| affiliation        = [[Famille Charlotte]]{{Qref|nom=sbs85|sbs=85|texte=Gala est présenté.}}\n| statut             = Vivant\n}}\n'''Charlotte Gala''' est le 9ᵉ fils et 14ᵉ enfant de la [[Famille Charlotte]].{{Qref|nom=Magazine Vol. 5}} Il est le plus jeune des quintuplés de la Famille Charlotte, ses frères étant, [[Opéra]], [[Counter]], [[Cadenza]] et [[Cabaletta]].{{Qref|nom=sbs85}}\n\n==Apparence==\nComme ses frères jumeaux, Gala est un homme imposant. Il a une barbe sombre, ainsi que des cheveux dressés sur la tête en quatre mèches. Il porte une veste et un pantalon noirs, ainsi qu'une ceinture et des bracelets cloutés sur ces bras.{{Qref|nom=Magazine Vol. 5}}\n\n{{Galerie2|position=center|captionalign=center\n|Charlotte Gala Portrait.png|Charlotte Gala Portrait\n|Charlotte Gala Anime Concept Art.png|Concept Art de Gala pour l'anime\n}}\n\n==Personnalité==\nN'étant jamais apparu dans le manga, on ne sait rien de la personnalité de Gala.\n\n==Aptitudes et compétences==\nN'étant jamais apparu dans le manga, on ne sait rien des aptitudes et des compétences de Gala.\n\n==Histoire==\nGala est né d'un quintuplé de [[Big Mom]] avec [[Charlotte Opera]], [[Charlotte Counter|Counter]], [[Charlotte Cadenza|Cadenza]] et [[Charlotte Cabalette|Cabalette]].{{Qref|nom=sbs85}}\n\n==Futilités==\n[[Fichier:Faux Charlotte Gala.png|thumb|Le personnage identifié à tort comme Gala]]\n*Le site officiel de One Piece au Japon a donné à Gala l'apparence d'un des combattants de l'Armée enragée, via un portrait parmi les dates d'anniversaire. Son image a par la suite été retirée,{{Qref|nom=SBS90 Site}} et le [[One Piece Magazine Vol. 5]] l'a identifié quelques mois après.{{Qref|nom=Magazine Vol. 5}}\n*Gala est un type de [[Wikipedia:fr:Gala (pomme)|pomme]] et de [[Wikipedia:Gala potato|pomme de terre]], et le mot grec pour \"lait\". Tous correspondent aux noms thématiques de la [[Famille Charlotte]] autour de la nourriture.\n**Son nom peut également faire référence aux galas, qui sont des événements présentant généralement des performances artistiques. Ce nom ne correspond pas au thème culinaire de la famille Charlotte, mais au thème musical venant de l'amour de [[Charlotte Linlin|sa mère]] pour la musique et le chant. Tous les membres de la multiple naissance dont Gala est issu suivent ce thème musical.\n*Le nombre de mèches de cheveux correspond à la position dans les quintuplés : [[Opéra]] en a zéro, [[Counter]] une, [[Cadenza]] deux, [[Cabalette]] trois, et Gala quatre.\n*Gala est actuellement le seul enfant de la [[Famille Charlotte]] qui ne soit jamais apparu dans le manga ou l'animé.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{NaviTotland}}\n{{Famille Charlotte Navibox}}\n[[ru:Шарлотта Гала]]\n[[ca:Charlotte Gala]]\n[[it:Charlotte Gala]]\n[[en:Charlotte Gala]]\n[[es:Charlotte Gala]]\n[[pl:Charlotte Gala]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Famille Charlotte]]\n[[Catégorie:Personnages de SBS]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+}

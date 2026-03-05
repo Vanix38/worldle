@@ -1,0 +1,62 @@
+{
+  "title": "Vegapants",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Vegapants",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "738873",
+    "textcolor": "FFFFFF",
+    "nom": "Vegapants",
+    "nomimage": "Vegapants",
+    "nomj": "ベガパンツ",
+    "nomr": "''Begapantsu''",
+    "nomf": "",
+    "première": "[[SBS Tome 112]]{{Qref|nom=sbs112|sbs=112|texte=Vegapants est nommé.}}",
+    "lieuvie": "[[Île de Pants Hazard]] {{Qref|nom=sbs112}}",
+    "statut": "Vivant"
+  },
+  "intro": "'''Vegapants''' est un personnage humoristique inventé par un fan de SBS et accepté avec humour par Oda. Vegapants est le cousin de Vegapunk (fils du frère cadet de son père) et réside sur l'[[Île de Pants Hazard]].{{Qref|nom=sbs112}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Vegapants ressemble beaucoup à son cousin Vegapunk, avec la même langue allongée et la même forme de tête. Ses cheveux noirs et bouclés sont coiffés en deux couettes ; comme c'est souvent le cas chez les habitants de Pants Hazard, il porte un sous-vêtement féminin orné d'un motif en forme de cœur. Il porte également des lunettes rondes et une veste à deux poches poitrine.{{Qref|nom=sbs112}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On dit de Vegapants qu'il a une personnalité sérieuse et brillante, mais son isolement du reste du monde tempère cette personnalité. Il suit la coutume de Pants Hazard de porter des sous-vêtements féminins sur la tête.{{Qref|nom=sbs112}}"
+    },
+    {
+      "level": 3,
+      "title": "Vegapunk",
+      "content": "Il est également le cousin de [[Vegapunk]].{{Qref|nom=sbs112}}"
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Vegapants est né il y a un certain temps, du petit frère du père de Vegapunk. Il semble avoir résidé sur Pants Hazard toute sa vie.{{Qref|nom=sbs112}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Son nom est un jeu de mots entre le nom de Vegapunk et le mot anglais « pants », qui signifie sous-vêtements, ou dans certains cas, pantalons."
+    },
+    {
+      "level": 2,
+      "title": "Référence",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{SBS}}\n[[en:Vegapants]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de SBS]]\n[[Catégorie:Personnages de Grand Line]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Personnages de SBS",
+    "Personnages de Grand Line"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 738873\n| textcolor         = FFFFFF\n| nom               = Vegapants\n| nomimage          = Vegapants\n| nomj              = ベガパンツ\n| nomr              = ''Begapantsu''\n| nomf              = \n| première          = [[SBS Tome 112]]{{Qref|nom=sbs112|sbs=112|texte=Vegapants est nommé.}}\n| lieuvie           = [[Île de Pants Hazard]] {{Qref|nom=sbs112}}\n| statut            = Vivant\n}}\n'''Vegapants''' est un personnage humoristique inventé par un fan de SBS et accepté avec humour par Oda. Vegapants est le cousin de Vegapunk (fils du frère cadet de son père) et réside sur l'[[Île de Pants Hazard]].{{Qref|nom=sbs112}}\n\n==Apparence==\nVegapants ressemble beaucoup à son cousin Vegapunk, avec la même langue allongée et la même forme de tête. Ses cheveux noirs et bouclés sont coiffés en deux couettes ; comme c'est souvent le cas chez les habitants de Pants Hazard, il porte un sous-vêtement féminin orné d'un motif en forme de cœur. Il porte également des lunettes rondes et une veste à deux poches poitrine.{{Qref|nom=sbs112}}\n\n==Personnalité==\nOn dit de Vegapants qu'il a une personnalité sérieuse et brillante, mais son isolement du reste du monde tempère cette personnalité. Il suit la coutume de Pants Hazard de porter des sous-vêtements féminins sur la tête.{{Qref|nom=sbs112}}\n\n==Relations==\n===Vegapunk===\nIl est également le cousin de [[Vegapunk]].{{Qref|nom=sbs112}}\n\n==Histoire==\nVegapants est né il y a un certain temps, du petit frère du père de Vegapunk. Il semble avoir résidé sur Pants Hazard toute sa vie.{{Qref|nom=sbs112}}\n\n==Futilité==\n*Son nom est un jeu de mots entre le nom de Vegapunk et le mot anglais « pants », qui signifie sous-vêtements, ou dans certains cas, pantalons.\n\n==Référence==\n<references />\n\n==Navigation du site==\n{{SBS}}\n[[en:Vegapants]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de SBS]]\n[[Catégorie:Personnages de Grand Line]]"
+}

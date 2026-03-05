@@ -1,0 +1,79 @@
+{
+  "title": "Biblo",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Biblo",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "8B0000",
+    "textcolor": "D2B48C",
+    "image": "[[Fichier:Biblo Manga Infobox.png]]",
+    "nom": "Biblo",
+    "nomj": "ビブロ",
+    "nomr": "''Biburo''",
+    "nomf": "Biblo",
+    "première": "[[Chapitre 1134]]{{Qref|nom=début|chapitre=1134|page=14-15|episode=|texte=Biblo apparait pour la première fois}}",
+    "occupation": "Bibliothécaire en chef{{Qref|nom=c1135|chap=1135|page=2-3|ep=|texte=Biblo est nommé.}}",
+    "affiliation": "[[Erbaf#Bibliothèque du Hibou|Bibliothèque du Hibou]]",
+    "origine": "[[Erbaf]]",
+    "âge": "Plusieurs siècles {{Qref|nom=c1135}}",
+    "statut": "Vivant",
+    "dfnom": "[[Iku Iku no Mi]]",
+    "dfnomf": "Fruit de la formation",
+    "signifiant": "Élever",
+    "dftype": "[[Paramecia]]"
+  },
+  "intro": "'''Biblo''' est un hibou géant qui est le bibliothécaire en chef de la [[Bibliothèque du Hibou]], supervisant tout à l'intérieur et étant chargé d'agrandir les petits livres avec son fruit du démon.{{Qref|nom=c1135}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Biblo est un hibou géant aux yeux fatigués et avec des lunettes. La majeure partie de son plumage est noire, seuls sa face et ses oreilles sont blancs et sa poitrine est composée de motifs alternés.{{Qref|nom=début}}\n{{Galerie2\n|Biblo Portrait.png|Biblo Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Il montre un grand intérêt pour les livres et a tendance à les agrandir pour faciliter la lecture aux géants.{{Qref|nom=c1135}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "En tant que bibliothécaire en chef de la Bibliothèque du Hibou, Biblo supervise tout ce qui s'y passe.{{Qref|nom=c1135}}"
+    },
+    {
+      "level": 3,
+      "title": "Fruit du Démon",
+      "content": "Biblo a mangé l'[[Iku Iku no Mi]], un Fruit du Démon de type Paramecia qui lui permet de gigantiser les objets inorganiques qui pénètrent sur son territoire.{{Qref|nom=c1135}}"
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "Selon [[Haguar D. Sauro]], Biblo vit depuis des siècles.{{Qref|nom=c1135}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Erbaf",
+      "content": "Biblo surveillait la bibliothèque du hibou pendant que [[Haguar D. Sauro|Sauro]] faisait visiter les environs à Robin, Chopper et Lilith. Sa capacité Fruit du Démon se déclencha lorsque Robin entra, agrandissant le livre d'archéologie dans ses mains.{{Qref|nom=début}} Il les observa alors qu'ils exploraient ensuite la bibliothèque.{{Qref|nom=c1135}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*\"Biblia\" est le mot grec et latin pour les livres et le mot \"bibliothèque\" dans les langues romanes en tient compte dans son étymologie (la plupart l'orthographient ''biblioteca'', tandis qu'e, français, on dit ''bibliothèque'').\n**La deuxième moitié de son nom pourrait provenir de \"fuk'''uro'''\", le mot japonais pour hibou.\n*Biblo est le premier animal canon dans la série à avoir mangé un Fruit du Démon qui n'est pas un [[Fruits du Démon/Zoan|Zoan]].\n**Non-canoniquement, le premier animal avec un Paramecia est [[Noko]]."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Erbaf}}\n{{Fruits}}\n[[en:Biblo]]\n[[it:Bibelot]]\n[[ru:Библо]]\n[[Catégorie:Animaux]]\n[[Catégorie:Personnages d'Erbaf]]\n[[Catégorie:Utilisateurs de Paramecia]]\n[[Catégorie:Animaux Utilisateurs des Fruits du Démon]]"
+    }
+  ],
+  "categories": [
+    "Animaux",
+    "Personnages d'Erbaf",
+    "Utilisateurs de Paramecia",
+    "Animaux Utilisateurs des Fruits du Démon"
+  ],
+  "raw_wikitext": "{{Spoil}}\n{{Char box\n| backcolor     = 8B0000\n| textcolor     = D2B48C\n| image         = [[Fichier:Biblo Manga Infobox.png]]\n|nom            = Biblo\n|nomj           = ビブロ\n|nomr           = ''Biburo''\n|nomf           = Biblo\n|première       = [[Chapitre 1134]]{{Qref|nom=début|chapitre=1134|page=14-15|episode=|texte=Biblo apparait pour la première fois}}\n|occupation     = Bibliothécaire en chef{{Qref|nom=c1135|chap=1135|page=2-3|ep=|texte=Biblo est nommé.}}\n|affiliation    = [[Erbaf#Bibliothèque du Hibou|Bibliothèque du Hibou]]\n|origine        = [[Erbaf]]\n|âge            = Plusieurs siècles {{Qref|nom=c1135}}\n|statut         = Vivant\n| dfnom         = [[Iku Iku no Mi]]\n| dfnomf        = Fruit de la formation\n| signifiant    = Élever\n| dftype        = [[Paramecia]]\n}}\n'''Biblo''' est un hibou géant qui est le bibliothécaire en chef de la [[Bibliothèque du Hibou]], supervisant tout à l'intérieur et étant chargé d'agrandir les petits livres avec son fruit du démon.{{Qref|nom=c1135}}\n\n== Apparence ==\nBiblo est un hibou géant aux yeux fatigués et avec des lunettes. La majeure partie de son plumage est noire, seuls sa face et ses oreilles sont blancs et sa poitrine est composée de motifs alternés.{{Qref|nom=début}}\n{{Galerie2\n|Biblo Portrait.png|Biblo Portrait\n}}\n\n==Personnalité==\nIl montre un grand intérêt pour les livres et a tendance à les agrandir pour faciliter la lecture aux géants.{{Qref|nom=c1135}}\n\n==Aptitudes et Compétences==\nEn tant que bibliothécaire en chef de la Bibliothèque du Hibou, Biblo supervise tout ce qui s'y passe.{{Qref|nom=c1135}}\n\n===Fruit du Démon===\nBiblo a mangé l'[[Iku Iku no Mi]], un Fruit du Démon de type Paramecia qui lui permet de gigantiser les objets inorganiques qui pénètrent sur son territoire.{{Qref|nom=c1135}}\n\n==Histoire==\n===Passé===\nSelon [[Haguar D. Sauro]], Biblo vit depuis des siècles.{{Qref|nom=c1135}}\n\n===Arc Erbaf===\nBiblo surveillait la bibliothèque du hibou pendant que [[Haguar D. Sauro|Sauro]] faisait visiter les environs à Robin, Chopper et Lilith. Sa capacité Fruit du Démon se déclencha lorsque Robin entra, agrandissant le livre d'archéologie dans ses mains.{{Qref|nom=début}} Il les observa alors qu'ils exploraient ensuite la bibliothèque.{{Qref|nom=c1135}}\n\n==Futilité==\n*\"Biblia\" est le mot grec et latin pour les livres et le mot \"bibliothèque\" dans les langues romanes en tient compte dans son étymologie (la plupart l'orthographient ''biblioteca'', tandis qu'e, français, on dit ''bibliothèque'').\n**La deuxième moitié de son nom pourrait provenir de \"fuk'''uro'''\", le mot japonais pour hibou.\n*Biblo est le premier animal canon dans la série à avoir mangé un Fruit du Démon qui n'est pas un [[Fruits du Démon/Zoan|Zoan]].\n**Non-canoniquement, le premier animal avec un Paramecia est [[Noko]].\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{Erbaf}}\n{{Fruits}}\n[[en:Biblo]]\n[[it:Bibelot]]\n[[ru:Библо]]\n[[Catégorie:Animaux]]\n[[Catégorie:Personnages d'Erbaf]]\n[[Catégorie:Utilisateurs de Paramecia]]\n[[Catégorie:Animaux Utilisateurs des Fruits du Démon]]"
+}

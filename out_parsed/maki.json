@@ -1,0 +1,60 @@
+{
+  "title": "Maki",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Maki",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "696969",
+    "nom": "Maki",
+    "image": "{{Manga-Anime",
+    "nomj": "マキ",
+    "nomr": "''Maki''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 925]]; [[Épisode 917]]{{Qref|nom = Apparition|chapitre = 925|episode = 917|texte = Maki fait sa première apparition.}}",
+    "affiliation": "[[L'Équipage de Barbe Noire]]{{Qref|nom = Apparition}}",
+    "statut": "Vivante"
+  },
+  "intro": "'''Maki''' (マキ, ''Maki'') est une pirate de [[l'Équipage de Barbe Noire]].{{Qref|nom = vivre|databook = vivre|page= 1306|texte = Maki est présentée.}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Maki est une jeune femme aux cheveux bleus mi-longs. Elle porte un chapeau de cow-boy surmonté d'un panache vert clair, un débardeur rose, une mini jupe et des talons noirs.{{Qref|nom = Apparition}} Dans l'animé, sa jupe est blanche mais est coloriée en noir dans le manga.\n{{Galerie2|position=center|width=120|height=120\n|Maki Portrait.png|Maki Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Maki semble aimer se blottir contre son capitaine, [[Marshall D. Teach]].{{Qref|nom = Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\nMaki est vue sur un canapé avec [[Kikipatsu]], [[Tori]] et [[Marshall D. Teach]] alors que celui-ci discute avec [[Gecko Moria]].{{Qref|nom = Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "=Non-Jouable=",
+      "content": "*[[One Piece : Treasure Cruise]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Mis côte-à-côte, son nom et celui de [[Tori]] forment ''Torimaki''(取り巻き), dont la signification pourrait se rapporter à \"qui suivent les puissants\"."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{BarbeNoire}}\n[[en:Maki]]\n[[it:Maki]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Équipage de Barbe Noire]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Équipage de Barbe Noire"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = 696969\n| nom               = Maki\n| image             = {{Manga-Anime\n|[[Fichier:Maki Anime Infobox.png|270px]]\n|[[Fichier:Maki Manga Infobox.png|270px]]\n}}\n| nomj              = マキ\n| nomr              = ''Maki''\n| nomf              = N/A\n| première          = [[Chapitre 925]]; [[Épisode 917]]{{Qref|nom = Apparition|chapitre = 925|episode = 917|texte = Maki fait sa première apparition.}}\n| affiliation       = [[L'Équipage de Barbe Noire]]{{Qref|nom = Apparition}}\n| statut            = Vivante\n}}\n'''Maki''' (マキ, ''Maki'') est une pirate de [[l'Équipage de Barbe Noire]].{{Qref|nom = vivre|databook = vivre|page= 1306|texte = Maki est présentée.}}\n\n== Apparence ==\nMaki est une jeune femme aux cheveux bleus mi-longs. Elle porte un chapeau de cow-boy surmonté d'un panache vert clair, un débardeur rose, une mini jupe et des talons noirs.{{Qref|nom = Apparition}} Dans l'animé, sa jupe est blanche mais est coloriée en noir dans le manga.\n{{Galerie2|position=center|width=120|height=120\n|Maki Portrait.png|Maki Portrait\n}}\n== Personnalité ==\nMaki semble aimer se blottir contre son capitaine, [[Marshall D. Teach]].{{Qref|nom = Apparition}}\n\n== Histoire ==\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\nMaki est vue sur un canapé avec [[Kikipatsu]], [[Tori]] et [[Marshall D. Teach]] alors que celui-ci discute avec [[Gecko Moria]].{{Qref|nom = Apparition}}\n\n==Marchandises==\n===Jeux Vidéos===\n====Non-Jouable====\n*[[One Piece : Treasure Cruise]]\n\n== Futilités ==\n*Mis côte-à-côte, son nom et celui de [[Tori]] forment ''Torimaki''(取り巻き), dont la signification pourrait se rapporter à \"qui suivent les puissants\".\n\n== Références ==\n<references />\n\n== Navigation du Site ==\n{{BarbeNoire}}\n[[en:Maki]]\n[[it:Maki]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Équipage de Barbe Noire]]"
+}

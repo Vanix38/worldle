@@ -1,0 +1,75 @@
+{
+  "title": "Nubon",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Nubon",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "D4FF00",
+    "textcolor": "808000",
+    "nom": "Nubon",
+    "image": "{{Manga-Anime",
+    "nomj": "ヌーボン",
+    "nomr": "''Nūbon''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 711]], [[Épisode 641]]<ref name=debut>''One Piece Manga et Anime'' - [[Tome 71]], [[Chapitre 711]], [[Épisode 641]] - Nubon fait sa première apparition.</ref>",
+    "affiliation": "[[Royaume de Tontatta]]",
+    "voj": "Eiji Takemoto",
+    "statut": "Vivant}"
+  },
+  "intro": "'''Nubon'''<ref>[[SBS Tome 73]] (p. 182) - Les noms ainsi que la hiérarchie propre aux nains sont dévoilés</ref> (ヌーボン, ''Nūbon'') est un [[Nains|nain]] du [[Royaume de Tontatta]] qui participe à l'[[Opération SOP]].<ref name=debut />",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Nubon est très petit comme tous les autres nains. Il semble avoir les cheveux ébouriffés bruns et porte un chapeau bleu ainsi qu'un pull à bretelles. Ses lèvres sont semblables à celles d'[[Usopp]]. Il porte une petite moustache et un énorme nez rose.<ref name=debut />\n{{Galerie2|position=center|width=120|height=120\n|Nubon Portrait.png|Nubon Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On ne sait rien de sa personnalité, mais on peut penser qu'il est très naïf comme tous les autres nains."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Sa petite taille lui permet d'être discret pour attaquer son adversaire par surprise. Il est également très rapide, comme tous les autres nains."
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Il possède une lance, mais on ignore tout de ses compétences avec cette arme.<ref name=debut />"
+    },
+    {
+      "level": 3,
+      "title": "Arc Dressrosa",
+      "content": "{{Main|Arc Dressrosa}}\n\nIl apparaît pour la première fois au camp de base de l'armée Riku, situé en dessous du [[Le Champ de Fleurs|Champ de Fleurs]]. Il est très étonné d'apprendre que [[Franky]] et [[Roronoa Zoro|Zoro]] sont des amis de [[Usopp|Ussoland]], le fameux descendant de [[Montblanc Norland]] (c'est en réalité une supercherie de [[Usopp]] pour s'allier avec les nains).\n\nPuis, il porte avec d'autres nains [[Usopp]] et [[Nico Robin|Robin]] dans le passage secret pour rejoindre l'usine. Il explique avec d'autres nains pendant le trajet que leur but est de libérer leurs camarades nains et de vaincre [[Sugar]] pour que les jouets de [[Dressrosa]] redeviennent humains.\n\nIl ira ensuite avec [[Kabu]], l'escadron des scarabées rhinocéros Jaunes, et [[Kyros|Le Soldat Fureur Éclair]] vers l'ascenseur menant au palais royal. Lorsqu'il est intercepté par [[Lao G]], il décide de l'affronter avec [[Baxcon]] et [[Daikon]], pour permettre au Le Soldat Fureur Éclair, [[Kabu]] et [[Rampo]] d'atteindre le [[Palais Royal]]. On ne connaît pour le moment pas l'issue du combat, même si d'après le Soldat Fureur Éclair, ils sont en très mauvaise posture."
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "{{Batailles\n| backcolor         = #D4FF00\n| textcolor         = #808000\n|Batailles = *Nubon, [[Kabu]], [[Rampo]], [[Daikon]], [[Baxcon]] et [[Kyros|Le Soldat Fureur Éclair]] vs [[Lao G]] = Interrompu, fuite du [[Kyros|Soldat Fureur Éclair]], [[Rampo]] et [[Kabu]] mais avantage à Lao G\n*Nubon, [[Daikon]] et [[Baxcon]] vs Lao G = Issue inconnue, mais avantage à Lao G}}"
+    },
+    {
+      "level": 2,
+      "title": "Autres One Piece",
+      "content": "*Dans One Piece Magazine Vol.2, il y a un prototype du personnage.<ref>[[One Piece Magazine Vol. 2]]</ref>\n{{Galerie2|width=130\n|Nubon Concept Art.png|Concept de Nubon\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{FlotteChapeauDePaille}}\n{{Nains}}\n{{Dressrosa}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Nubon]]\n[[ca:Nubon]]\n[[it:Nubon]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Nains]]\n[[Catégorie:Personnages de Green Bit]]\n[[Catégorie:Alliés du Chapeau de Paille]]\n[[Catégorie:Pirates]]\n[[Catégorie:Utilisateurs de Lance de Joute]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Nains",
+    "Personnages de Green Bit",
+    "Alliés du Chapeau de Paille",
+    "Pirates",
+    "Utilisateurs de Lance de Joute"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = D4FF00\n| textcolor         = 808000\n| nom               = Nubon\n| image             = {{Manga-Anime\n| [[Fichier:Nubon Anime Infobox.png|270px]]\n| [[Fichier:Nubon Manga Infobox.png|270px]]}}\n| nomj              = ヌーボン\n| nomr              = ''Nūbon''\n| nomf              = N/A\n| première          = [[Chapitre 711]], [[Épisode 641]]<ref name=debut>''One Piece Manga et Anime'' - [[Tome 71]], [[Chapitre 711]], [[Épisode 641]] - Nubon fait sa première apparition.</ref>\n| affiliation       = [[Royaume de Tontatta]]\n| voj               = Eiji Takemoto\n| statut            = Vivant}}\n\n'''Nubon'''<ref>[[SBS Tome 73]] (p. 182) - Les noms ainsi que la hiérarchie propre aux nains sont dévoilés</ref> (ヌーボン, ''Nūbon'') est un [[Nains|nain]] du [[Royaume de Tontatta]] qui participe à l'[[Opération SOP]].<ref name=debut />\n\n==Apparence==\nNubon est très petit comme tous les autres nains. Il semble avoir les cheveux ébouriffés bruns et porte un chapeau bleu ainsi qu'un pull à bretelles. Ses lèvres sont semblables à celles d'[[Usopp]]. Il porte une petite moustache et un énorme nez rose.<ref name=debut />\n{{Galerie2|position=center|width=120|height=120\n|Nubon Portrait.png|Nubon Portrait\n}}\n==Personnalité==\nOn ne sait rien de sa personnalité, mais on peut penser qu'il est très naïf comme tous les autres nains.\n\n==Aptitudes et compétences==\nSa petite taille lui permet d'être discret pour attaquer son adversaire par surprise. Il est également très rapide, comme tous les autres nains.\n===Armes===\nIl possède une lance, mais on ignore tout de ses compétences avec cette arme.<ref name=debut />\n\n==Histoire==\n===Arc Dressrosa===\n{{Main|Arc Dressrosa}}\n\nIl apparaît pour la première fois au camp de base de l'armée Riku, situé en dessous du [[Le Champ de Fleurs|Champ de Fleurs]]. Il est très étonné d'apprendre que [[Franky]] et [[Roronoa Zoro|Zoro]] sont des amis de [[Usopp|Ussoland]], le fameux descendant de [[Montblanc Norland]] (c'est en réalité une supercherie de [[Usopp]] pour s'allier avec les nains).\n\nPuis, il porte avec d'autres nains [[Usopp]] et [[Nico Robin|Robin]] dans le passage secret pour rejoindre l'usine. Il explique avec d'autres nains pendant le trajet que leur but est de libérer leurs camarades nains et de vaincre [[Sugar]] pour que les jouets de [[Dressrosa]] redeviennent humains.\n\nIl ira ensuite avec [[Kabu]], l'escadron des scarabées rhinocéros Jaunes, et [[Kyros|Le Soldat Fureur Éclair]] vers l'ascenseur menant au palais royal. Lorsqu'il est intercepté par [[Lao G]], il décide de l'affronter avec [[Baxcon]] et [[Daikon]], pour permettre au Le Soldat Fureur Éclair, [[Kabu]] et [[Rampo]] d'atteindre le [[Palais Royal]]. On ne connaît pour le moment pas l'issue du combat, même si d'après le Soldat Fureur Éclair, ils sont en très mauvaise posture.\n\n==Batailles Principales==\n{{Batailles\n| backcolor         = #D4FF00\n| textcolor         = #808000\n|Batailles = *Nubon, [[Kabu]], [[Rampo]], [[Daikon]], [[Baxcon]] et [[Kyros|Le Soldat Fureur Éclair]] vs [[Lao G]] = Interrompu, fuite du [[Kyros|Soldat Fureur Éclair]], [[Rampo]] et [[Kabu]] mais avantage à Lao G\n*Nubon, [[Daikon]] et [[Baxcon]] vs Lao G = Issue inconnue, mais avantage à Lao G}}\n\n==Autres One Piece==\n*Dans One Piece Magazine Vol.2, il y a un prototype du personnage.<ref>[[One Piece Magazine Vol. 2]]</ref>\n{{Galerie2|width=130\n|Nubon Concept Art.png|Concept de Nubon\n}}\n\n==Références==\n<references/>\n\n==Navigation du site==\n{{FlotteChapeauDePaille}}\n{{Nains}}\n{{Dressrosa}}\n{{Utilisateurs d'Arme d'Hast}}\n[[en:Nubon]]\n[[ca:Nubon]]\n[[it:Nubon]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Nains]]\n[[Catégorie:Personnages de Green Bit]]\n[[Catégorie:Alliés du Chapeau de Paille]]\n[[Catégorie:Pirates]]\n[[Catégorie:Utilisateurs de Lance de Joute]]"
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Lemoncheese",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Lemoncheese",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "D4AF37",
+    "textcolor": "848482",
+    "nom": "Lemoncheese",
+    "nomimage": "Lemoncheese",
+    "nomj": "レモンチーズ",
+    "nomr": "''Remonchīzu''",
+    "nomf": "",
+    "première": "[[Chapitre 906]]; [[Épisode 884]]{{Qref|nom=c906|tome = |chapitre = 906|page = 6|episode = 884|texte = Lemoncheese apparaît.}}",
+    "affiliation": "[[Lev Ely]]{{Qref|nom=c908|tome = |chapitre = 908|page=11-13|episode = 889|texte = Lemoncheese est présente à la Rêverie.}}",
+    "lieuvie": "Royaume Bestland (ベストランド王国, ''Besutorando Ōkoku''){{Qref|nom=vivre|databook=vivre card|page=1207|texte=Des infos sur Lemoncheese sont données.}}",
+    "statut": "Vivante",
+    "occupation": "[[Reine]]",
+    "voj": "[[wikipedia:Kimiko Saitō|Kimiko Saitō]]"
+  },
+  "intro": "'''Lemoncheese'''{{Qref|nom=e889|episode = 889|texte = Lemoncheese est nommée dans le générique de fin.}}{{Qref|nom=vivre}} est l'un des 50 monarques qui participent à la Rêverie. Elle est la dirigeante du '''Royaume Bestland''' (ベストランド王国, ''Besutorando Ōkoku''), un royaume affilié au [[Gouvernement Mondial]].{{Qref|nom=c908}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Lemoncheese est une femme avec un nez pointu, des lèvres roses et des sourcils pointus. Elle a les cheveux châtains clairs en chignon avec une mèche qui lui tombe en spirale sur la joue gauche.\n\nElle porte un haut violet avec un manteau vert avec des motifs à fleurs clairs.\n\nDans sa première apparition dans l'[[Épisode 884]], elle est brune, ses lèvres sont plus sombres et son manteau est de couleur violette.{{Qref|episode = 884|texte = Lemoncheese a des couleurs différentes lors de sa première apparition.}}\n\n{{Galerie2\n|Lemoncheese Portrait.png|Lemoncheese Portrait\n|Lemoncheese Épisode 884.png|Lemoncheese dans l'[[Épisode 884]]\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Lemoncheese est une reine active qui participe à la [[Lev Ely|Rêverie]], elle semble amie avec [[Neptune]].{{Qref|nom=c906}} Le reste de sa personnalité est inconnue."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "En tant que reine d'un pays rattaché au [[Gouvernement Mondial]], elle possède toute autorité sur les citoyens de son pays, et elle est l'un des rares dirigeants qui participent à la [[Lev Ely|Rêverie]], ce qui lui donne un rôle actif dans les décisions prises au niveau mondial.{{Qref|nom=c908}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Rêverie]]",
+      "content": "Lemoncheese est arrivée à [[Mary Geoise]] avec ses enfants, et a discuté avec [[Neptune]] avant que la [[Lev Ely|Rêverie]] commence.{{Qref|nom=c906}} Elle est présente lorsque la Rêverie débute officiellement, discutant avec [[Seki]] de [[Wano]].{{Qref|nom=c908}}"
+    },
+    {
+      "level": 2,
+      "title": "Différences Manga-Anime",
+      "content": "D'autres rois ont rejoint Seki et Lemoncheese afin de discuter plus précisément de [[Wano]], et il est mentionné que [[Seki]] et elle ont discuté ensemble du Royaume de Seki lors de la Rêverie précédente.{{Qref|nom=e889}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Lemoncheese est l'un des noms anglais de la [[wikipedia:fr:Crème de fruit|Crème de fruit]], une garniture pour desserts au citron, ce qui correspond au thème des dirigeants de la [[Levely]] avec des noms liés à la nourriture.\n*Son nom est révélé dans le générique de fin de l'[[Épisode 889]].{{Qref|nom=e889}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Royauté}}\n[[en:Lemoncheese]]\n[[it:Lemoncheese]]\n[[pl:Lemoncheese]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Participants de la Rêverie]]\n[[Catégorie:Reines]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Féminins",
+    "Participants de la Rêverie",
+    "Reines"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = D4AF37\n| textcolor         = 848482\n| nom               = Lemoncheese\n| nomimage          = Lemoncheese\n| nomj              = レモンチーズ\n| nomr              = ''Remonchīzu''\n| nomf              = \n| première          = [[Chapitre 906]]; [[Épisode 884]]{{Qref|nom=c906|tome = |chapitre = 906|page = 6|episode = 884|texte = Lemoncheese apparaît.}}\n| affiliation       = [[Lev Ely]]{{Qref|nom=c908|tome = |chapitre = 908|page=11-13|episode = 889|texte = Lemoncheese est présente à la Rêverie.}}\n| lieuvie           = Royaume Bestland (ベストランド王国, ''Besutorando Ōkoku''){{Qref|nom=vivre|databook=vivre card|page=1207|texte=Des infos sur Lemoncheese sont données.}}\n| statut            = Vivante\n| occupation        = [[Reine]]\n| voj               = [[wikipedia:Kimiko Saitō|Kimiko Saitō]]\n}}\n'''Lemoncheese'''{{Qref|nom=e889|episode = 889|texte = Lemoncheese est nommée dans le générique de fin.}}{{Qref|nom=vivre}} est l'un des 50 monarques qui participent à la Rêverie. Elle est la dirigeante du '''Royaume Bestland''' (ベストランド王国, ''Besutorando Ōkoku''), un royaume affilié au [[Gouvernement Mondial]].{{Qref|nom=c908}}\n\n==Apparence==\nLemoncheese est une femme avec un nez pointu, des lèvres roses et des sourcils pointus. Elle a les cheveux châtains clairs en chignon avec une mèche qui lui tombe en spirale sur la joue gauche.\n\nElle porte un haut violet avec un manteau vert avec des motifs à fleurs clairs.\n\nDans sa première apparition dans l'[[Épisode 884]], elle est brune, ses lèvres sont plus sombres et son manteau est de couleur violette.{{Qref|episode = 884|texte = Lemoncheese a des couleurs différentes lors de sa première apparition.}}\n\n{{Galerie2\n|Lemoncheese Portrait.png|Lemoncheese Portrait\n|Lemoncheese Épisode 884.png|Lemoncheese dans l'[[Épisode 884]]\n}}\n\n==Personnalité==\nLemoncheese est une reine active qui participe à la [[Lev Ely|Rêverie]], elle semble amie avec [[Neptune]].{{Qref|nom=c906}} Le reste de sa personnalité est inconnue.\n\n==Aptitudes et compétences==\nEn tant que reine d'un pays rattaché au [[Gouvernement Mondial]], elle possède toute autorité sur les citoyens de son pays, et elle est l'un des rares dirigeants qui participent à la [[Lev Ely|Rêverie]], ce qui lui donne un rôle actif dans les décisions prises au niveau mondial.{{Qref|nom=c908}}\n\n==Histoire==\n===[[Arc Rêverie]]===\nLemoncheese est arrivée à [[Mary Geoise]] avec ses enfants, et a discuté avec [[Neptune]] avant que la [[Lev Ely|Rêverie]] commence.{{Qref|nom=c906}} Elle est présente lorsque la Rêverie débute officiellement, discutant avec [[Seki]] de [[Wano]].{{Qref|nom=c908}}\n\n==Différences Manga-Anime==\nD'autres rois ont rejoint Seki et Lemoncheese afin de discuter plus précisément de [[Wano]], et il est mentionné que [[Seki]] et elle ont discuté ensemble du Royaume de Seki lors de la Rêverie précédente.{{Qref|nom=e889}}\n\n== Futilités ==\n*Lemoncheese est l'un des noms anglais de la [[wikipedia:fr:Crème de fruit|Crème de fruit]], une garniture pour desserts au citron, ce qui correspond au thème des dirigeants de la [[Levely]] avec des noms liés à la nourriture.\n*Son nom est révélé dans le générique de fin de l'[[Épisode 889]].{{Qref|nom=e889}}\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Royauté}}\n[[en:Lemoncheese]]\n[[it:Lemoncheese]]\n[[pl:Lemoncheese]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Participants de la Rêverie]]\n[[Catégorie:Reines]]"
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Nanday",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Nanday",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "9270DB",
+    "textcolor": "FFFFFF",
+    "nom": "Nanday",
+    "nomimage": "Nanday",
+    "nomj": "ナンデー",
+    "nomr": "\"Nandē\"",
+    "nomf": "",
+    "première": "[[Chapitre 632]]{{Qref|nom=c632|miniaventure=632|texte=Whiskey Peak - Une famille de chasseurs de primes.}} ; [[Chapitre 1118]] ; [[Épisode 1151]]{{Qref|nom=c1118|chapitre=1118|page=|episode=1151|texte=Nanday apparait}}",
+    "statut": "Vivant"
+  },
+  "intro": "'''Nanday'''{{Qref|nom=vivre|databook=vivre|page=0771|texte=Diverses informations sur Nanday sont données.}} est le fils de [[Mr 9]] et de [[Miss Monday]].{{Qref|nom=c632}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Nanday est un petit bébé aux cheveux noirs en bataille. Il porte une combinaison bleu clair et une couronne dorée sur la tête.{{Qref|nom=c632}}\n{{galerie2\n|Nanday Portrait.png|Nanday Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Nanday semble être un bébé joyeux."
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Nanday est né sur [[Whiskey Peak]] de Mr 9 et de Miss Monday, au cours des deux dernières années."
+    },
+    {
+      "level": 3,
+      "title": "Les Quais du Monde",
+      "content": "Pendant que sa mère lisait les nouvelles sur le retour des pirates de Chapeau de paille, Nanday était jonglé de manière ludique par son père.{{Qref|nom=c632}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Île d'Egg Head]]",
+      "content": "Pendant que les habitants de Whisky Peak regardaient l'émission de Vegapunk, Nanday était assis dans les bras de Mr 9, inconscient de l'expression inquiète de son père.{{Qref|nom = c1118}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*\"Nandē ?\" est la façon japonaise de demander \"quel jour sommes-nous ?\"\n*Son nom est une combinaison des noms de code de ses parents : ナイン (Nain) + マンデー (Mandē)."
+    },
+    {
+      "level": 2,
+      "title": "Référence",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Whiskey Peak}}\n[[en:Nanday]]\n[[Catégorie:Enfants]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Whiskey Peak]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages introduits dans une Mini-Aventure]]"
+    }
+  ],
+  "categories": [
+    "Enfants",
+    "Personnages Masculins",
+    "Personnages de Whiskey Peak",
+    "Humains",
+    "Personnages introduits dans une Mini-Aventure"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor     = 9270DB\n| textcolor     = FFFFFF\n| nom           = Nanday\n| nomimage      = Nanday \n| nomj          = ナンデー\n| nomr          = \"Nandē\"\n| nomf          = \n| première      = [[Chapitre 632]]{{Qref|nom=c632|miniaventure=632|texte=Whiskey Peak - Une famille de chasseurs de primes.}} ; [[Chapitre 1118]] ; [[Épisode 1151]]{{Qref|nom=c1118|chapitre=1118|page=|episode=1151|texte=Nanday apparait}}\n| statut        = Vivant\n}}\n\n'''Nanday'''{{Qref|nom=vivre|databook=vivre|page=0771|texte=Diverses informations sur Nanday sont données.}} est le fils de [[Mr 9]] et de [[Miss Monday]].{{Qref|nom=c632}}\n\n==Apparence==\nNanday est un petit bébé aux cheveux noirs en bataille. Il porte une combinaison bleu clair et une couronne dorée sur la tête.{{Qref|nom=c632}}\n{{galerie2\n|Nanday Portrait.png|Nanday Portrait\n}}\n\n==Personnalité==\nNanday semble être un bébé joyeux.\n\n==Histoire==\nNanday est né sur [[Whiskey Peak]] de Mr 9 et de Miss Monday, au cours des deux dernières années.\n\n===Les Quais du Monde===\nPendant que sa mère lisait les nouvelles sur le retour des pirates de Chapeau de paille, Nanday était jonglé de manière ludique par son père.{{Qref|nom=c632}}\n\n=== [[Arc Île d'Egg Head]] ===\nPendant que les habitants de Whisky Peak regardaient l'émission de Vegapunk, Nanday était assis dans les bras de Mr 9, inconscient de l'expression inquiète de son père.{{Qref|nom = c1118}}\n\n==Futilités==\n*\"Nandē ?\" est la façon japonaise de demander \"quel jour sommes-nous ?\"\n*Son nom est une combinaison des noms de code de ses parents : ナイン (Nain) + マンデー (Mandē).\n\n==Référence==\n<references />\n\n==Navigation du Site==\n{{Whiskey Peak}}\n[[en:Nanday]]\n[[Catégorie:Enfants]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Whiskey Peak]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages introduits dans une Mini-Aventure]]"
+}

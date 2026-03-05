@@ -1,0 +1,49 @@
+{
+  "title": "Shion",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Shion",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "4CBB17",
+    "textcolor": "4B5320",
+    "nom": "Shion",
+    "image": "[[Fichier:Image Non Disponible.png|270px]]",
+    "nomj": "シオン",
+    "nomr": "''Shion''",
+    "nomf": "Shion",
+    "première": "[[Chapitre 515]]; [[Épisode 409]]",
+    "origine": "[[Calm Belt]] ([[Amazon Lily]])",
+    "lieuvie": "[[Amazon Lily]]",
+    "affiliation": "[[Kujas]]",
+    "occupation": "Guerrière"
+  },
+  "intro": "''Shion''' (シオン, ''Shion'') est une membre de la tribu [[Kuja]]. On ne l'a jamais vue, mais son nom apparaît sur la liste des matchs dans les combats d'arène. Ses chances de gagner étaient de 1 : 5.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "On en sait peu sur les capacités de Shion, mais, puisque ses chances de gagner étaient de 1 : 5, on peut supposer qu'elle est plus faible que son adversaire, [[Kiku]]."
+    },
+    {
+      "level": 3,
+      "title": "Arc Amazon Lily",
+      "content": "{{Main|Arc Amazon Lily}}\nAu cours de l'[[Arc Amazon Lily]], le nom de Shion a été vu sur la liste des matchs dans les combats d'arène. Elle était inscrite contre [[Kiku]]."
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Shion est un nom féminin très populaire au Japon. Il est inspiré d'une fleur se nommant \"[https://fr.wikipedia.org/wiki/Aster_(genre) Aster]\""
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Guerrière Kuja}}\n[[en:Shion]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Kujas]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Humains",
+    "Kujas",
+    "Personnages Uniquement Mentionnés"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 4CBB17\n| textcolor         = 4B5320\n| nom               = Shion\n| image             = [[Fichier:Image Non Disponible.png|270px]]\n| nomj              = シオン\n| nomr              = ''Shion''\n| nomf              = Shion\n| première          = [[Chapitre 515]]; [[Épisode 409]] \n| origine           = [[Calm Belt]] ([[Amazon Lily]])\n| lieuvie           = [[Amazon Lily]]\n| affiliation       = [[Kujas]]\n| occupation        = Guerrière\n}}'''Shion''' (シオン, ''Shion'') est une membre de la tribu [[Kuja]]. On ne l'a jamais vue, mais son nom apparaît sur la liste des matchs dans les combats d'arène. Ses chances de gagner étaient de 1 : 5.\n\n==Aptitudes et Compétences==\nOn en sait peu sur les capacités de Shion, mais, puisque ses chances de gagner étaient de 1 : 5, on peut supposer qu'elle est plus faible que son adversaire, [[Kiku]].\n\n==Histoire==\n===Arc Amazon Lily===\n{{Main|Arc Amazon Lily}}\nAu cours de l'[[Arc Amazon Lily]], le nom de Shion a été vu sur la liste des matchs dans les combats d'arène. Elle était inscrite contre [[Kiku]].\n\n==Futilités==\n*Shion est un nom féminin très populaire au Japon. Il est inspiré d'une fleur se nommant \"[https://fr.wikipedia.org/wiki/Aster_(genre) Aster]\"\n\n==Navigation du Site==\n{{Guerrière Kuja}}\n[[en:Shion]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Kujas]]\n[[Catégorie:Personnages Uniquement Mentionnés]]"
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Asahija",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Asahija",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F0F8FF",
+    "textcolor": "2A52BE",
+    "nom": "Asahija",
+    "image": "{{Manga-Anime",
+    "nomj": "アサヒジャー",
+    "nomr": "''Asahijā''",
+    "nomf": "Vlaljour{{Qref|nom = blue deep|databook = blue deep|page = 214|texte = Son nom est révélé.}}",
+    "première": "[[Chapitre 483]]; [[Épisode 375]]{{Qref|nom = c483|chapitre = 483|episode = 375}}",
+    "affiliation": "[[Marine]]",
+    "occupation": "[[Sergent]]",
+    "Statut": "Vivant",
+    "voj": "Keiji Hirai",
+    "vof": "[https://wikidoublage.fandom.com/fr/wiki/Yann_Pichon Yann Pichon]}"
+  },
+  "intro": "'''Asahija'''{{Qref|nom = blue deep}} (アサヒジャー, ''Asahijā'') est un marin stationné sur [[Grand Line]] dont l'ombre avait été volée par [[Gecko Moria]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "[[Fichier:Asahija Portrait.png|thumb|left|120px|Portrait d'Asahija]]Asahija possède l'apparence d'un soldat normal. Il porte l'uniforme de [[Marine]] standard avec une casquette de la marine, attestant son appartenance à cette dernière.Il a les cheveux bruns et un petit bouc"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Asahija pleura de joie lorsqu'il constata que son ombre lui était revenue soudainement alors qu'elle lui avait été dérobée par [[Gecko Moria]]. On peut supposer que ce dernier est plutôt émotif (ce qui est normal car avoir retrouvé son ombre n'est pas une chose banale)."
+    },
+    {
+      "level": 3,
+      "title": "Arc Thriller Bark",
+      "content": "{{Main|Arc Thriller Bark}}\nAsahija a d'abord été vu après que les [[Chapeau de Paille|Chapeaux de Paille]] aient vaincus [[Gecko Moria]] et que toutes les ombres volées soient retournées à leurs propriétaires légitimes, sur les mers différentes où ils se trouvaient.{{Qref|nom = c483}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "* \"Asahi\" Signifie \"Lever de soleil\", ce qui est probablement une référence à son comportement suite au retour de son ombre. Son nom français, \"Vlaljour\" fait également référence à cela."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{ThrillerBark}}\n{{Marines}}\n[[en:Asahija]]\n[[es:Asahija]]\n[[it:Eccoilsole]]\n[[ca:Asahija]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Officiers Premier Maître de la Marine]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Officiers Premier Maître de la Marine"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F0F8FF\n| textcolor         = 2A52BE\n| nom               = Asahija\n| image             = {{Manga-Anime\n|[[Fichier:Asahija Anime Infobox.png|270px]]\n|[[Fichier:Asahija Manga Infobox.png|270px]]\n}}\n| nomj              = アサヒジャー \n| nomr              = ''Asahijā''\n| nomf              = Vlaljour{{Qref|nom = blue deep|databook = blue deep|page = 214|texte = Son nom est révélé.}}\n| première          = [[Chapitre 483]]; [[Épisode 375]]{{Qref|nom = c483|chapitre = 483|episode = 375}}\n| affiliation       = [[Marine]]\n| occupation        = [[Sergent]]\n| Statut            = Vivant\n| voj               = Keiji Hirai\n| vof               = [https://wikidoublage.fandom.com/fr/wiki/Yann_Pichon Yann Pichon]}}\n'''Asahija'''{{Qref|nom = blue deep}} (アサヒジャー, ''Asahijā'') est un marin stationné sur [[Grand Line]] dont l'ombre avait été volée par [[Gecko Moria]].\n\n==Apparence==\n[[Fichier:Asahija Portrait.png|thumb|left|120px|Portrait d'Asahija]]Asahija possède l'apparence d'un soldat normal. Il porte l'uniforme de [[Marine]] standard avec une casquette de la marine, attestant son appartenance à cette dernière.Il a les cheveux bruns et un petit bouc\n\n\n==Personnalité==\nAsahija pleura de joie lorsqu'il constata que son ombre lui était revenue soudainement alors qu'elle lui avait été dérobée par [[Gecko Moria]]. On peut supposer que ce dernier est plutôt émotif (ce qui est normal car avoir retrouvé son ombre n'est pas une chose banale).\n\n==Histoire==\n\n===Arc Thriller Bark===\n{{Main|Arc Thriller Bark}}\nAsahija a d'abord été vu après que les [[Chapeau de Paille|Chapeaux de Paille]] aient vaincus [[Gecko Moria]] et que toutes les ombres volées soient retournées à leurs propriétaires légitimes, sur les mers différentes où ils se trouvaient.{{Qref|nom = c483}}\n\n== Futilités ==\n* \"Asahi\" Signifie \"Lever de soleil\", ce qui est probablement une référence à son comportement suite au retour de son ombre. Son nom français, \"Vlaljour\" fait également référence à cela.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{ThrillerBark}}\n{{Marines}}\n[[en:Asahija]]\n[[es:Asahija]]\n[[it:Eccoilsole]]\n[[ca:Asahija]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Officiers Premier Maître de la Marine]]"
+}

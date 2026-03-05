@@ -1,0 +1,63 @@
+{
+  "title": "Kotetsu",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Kotetsu",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "image": "[[Fichier:Image Non Disponible.png|270px]]",
+    "nomj": "古徹",
+    "nomr": "''Kotetsu''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 912]], [[Épisode 897]]<small>(mention)</small>{{Qref|nom=mention|chapitre=912|episode=897|texte=Tenguyama Hitetsu mentionne son ancêtre.}}",
+    "affiliation": "[[Pays de Wa]]",
+    "occupation": "Forgeron",
+    "statut": "Décédé"
+  },
+  "intro": ":''Si vous cherchez le personnage du [[Film 6]], veuillez vous rendre [[Kotetsu (Hors-Série)|ici]].''\n'''Kotetsu''' (古徹, ''Kotetsu'') est un forgeron de renom du [[Pays des Wa]]. Il est l'ancêtre de [[Tenguyama Hitetsu]]. Il a forgé notamment l'épée maudite [[Nidai Kitetsu]].{{Qref|nom = mention}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "L'apparence de Kotetsu reste inconnue."
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "La personnalité de Kotetsu reste inconnue."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Kotetsu était un formidable forgeron. Il a fabriqué le célèbre [[Nidai Kitetsu]] qui est assez puissant pour faire partie des 21 sabres [[Ô Wazamono]]. Par des moyens inconnus, il a également été capable de lancer des malédictions sur ses sabres que certains individus peuvent même ressentir."
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}Il a uniquement été mentionné par Hitetsu comme étant son ancêtre et le forgeron du Nidai Kitetsu.{{Qref|nom = mention}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "* Kotetsu pourrait être inspiré de [https://fr.wikipedia.org/wiki/Kotetsu_Nagasone Kotetsu Nagasone], un célèbre forgeron de l'époque d'Edo né à Sawayama sous le nom d'Okisato Nagasone.\n* La réputation d’être un forgeron maudit pourrait venir de [https://fr.wikipedia.org/wiki/Muramasa_Sengo Muramasa Sengo], un forgeron de sabres japonais, très célèbre bien que particulièrement obscur."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n{{Armes}}\n[[en:Kotetsu]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Personnages Uniquement Mentionnés]]\n[[Catégorie:Forgeron]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Personnages de Wa",
+    "Personnages Décédés",
+    "Personnages Uniquement Mentionnés",
+    "Forgeron"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor = F8674F\n| textcolor = 006442\n| image = [[Fichier:Image Non Disponible.png|270px]]\n| nomj = 古徹\n| nomr = ''Kotetsu''\n| nomf = N/A\n| première = [[Chapitre 912]], [[Épisode 897]]<small>(mention)</small>{{Qref|nom=mention|chapitre=912|episode=897|texte=Tenguyama Hitetsu mentionne son ancêtre.}}\n| affiliation = [[Pays de Wa]]\n| occupation = Forgeron\n| statut = Décédé\n}}\n:''Si vous cherchez le personnage du [[Film 6]], veuillez vous rendre [[Kotetsu (Hors-Série)|ici]].''\n'''Kotetsu''' (古徹, ''Kotetsu'') est un forgeron de renom du [[Pays des Wa]]. Il est l'ancêtre de [[Tenguyama Hitetsu]]. Il a forgé notamment l'épée maudite [[Nidai Kitetsu]].{{Qref|nom = mention}}\n\n==Apparence==\nL'apparence de Kotetsu reste inconnue.\n\n==Personnalité==\nLa personnalité de Kotetsu reste inconnue.\n\n==Aptitudes et compétences==\nKotetsu était un formidable forgeron. Il a fabriqué le célèbre [[Nidai Kitetsu]] qui est assez puissant pour faire partie des 21 sabres [[Ô Wazamono]]. Par des moyens inconnus, il a également été capable de lancer des malédictions sur ses sabres que certains individus peuvent même ressentir.\n\n==Histoire==\n=== Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}Il a uniquement été mentionné par Hitetsu comme étant son ancêtre et le forgeron du Nidai Kitetsu.{{Qref|nom = mention}}\n\n==Futilités==\n* Kotetsu pourrait être inspiré de [https://fr.wikipedia.org/wiki/Kotetsu_Nagasone Kotetsu Nagasone], un célèbre forgeron de l'époque d'Edo né à Sawayama sous le nom d'Okisato Nagasone.\n* La réputation d’être un forgeron maudit pourrait venir de [https://fr.wikipedia.org/wiki/Muramasa_Sengo Muramasa Sengo], un forgeron de sabres japonais, très célèbre bien que particulièrement obscur.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{PaysDeWa}}\n{{Armes}}\n[[en:Kotetsu]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Personnages Uniquement Mentionnés]]\n[[Catégorie:Forgeron]]"
+}

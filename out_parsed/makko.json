@@ -1,0 +1,48 @@
+{
+  "title": "Makko",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Makko",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F0F8FF",
+    "textcolor": "2A52BE",
+    "nom": "Makko",
+    "image": "[[Fichier:Makko Manga Infobox.png|270px]]",
+    "nomj": "マッコー",
+    "nomr": "''Makkō''",
+    "nomf": "Makko",
+    "première": "[[Chapitre 216]]{{Qref|nom=Apparition|tome=23|chapitre=216|episode=|texte=Makko apparaît.}}",
+    "affiliation": "[[Marine]]",
+    "occupation": "[[Sous-Lieutenant]]"
+  },
+  "intro": "'''Makko'''{{Qref|nom=blue|databook=blue|texte=Le nom de Makko et son grade sont donnés.}} (マッコー, ''Makko Shōi'') est un [[Sous-Lieutenant]], membre de l'escouade de la mort d'[[Hina]] qui se trouvait sur l'un des navires qui ont attaqué les Pirates du Chapeau de Paille alors qu'ils fuyaient [[Alabasta]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "C'est un homme de taille moyenne, au crâne rasé, avec une cicatrice sur le côté droit de son front. Il arbore un manteau de la marine et une chemise.\n{{Galerie2|position=center|width=120|height=120\n|Makko Portrait.png|Makko Portrait\n|Makko jeune Marine.png|Makko jeune Marine\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Il a été vu dans le manga uniquement, dans lequel il a déploré le manque de progrès que ses troupes avaient fait contre les chapeaux de paille."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Marines}}\n\n[[en: Makko]]\n[[ca: Makko]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages d'Alabasta]]\n[[Catégorie:Antagonistes Saga Alabasta]]\n[[Catégorie:Sous-Lieutenants de la Marine]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Personnages d'Alabasta",
+    "Antagonistes Saga Alabasta",
+    "Sous-Lieutenants de la Marine"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F0F8FF\n| textcolor         = 2A52BE\n| nom               = Makko\n| image             = [[Fichier:Makko Manga Infobox.png|270px]]\n| nomj              = マッコー\n| nomr              = ''Makkō''\n| nomf              = Makko\n| première          = [[Chapitre 216]]{{Qref|nom=Apparition|tome=23|chapitre=216|episode=|texte=Makko apparaît.}}\n| affiliation       = [[Marine]]\n| occupation        = [[Sous-Lieutenant]]\n}}\n'''Makko'''{{Qref|nom=blue|databook=blue|texte=Le nom de Makko et son grade sont donnés.}} (マッコー, ''Makko Shōi'') est un [[Sous-Lieutenant]], membre de l'escouade de la mort d'[[Hina]] qui se trouvait sur l'un des navires qui ont attaqué les Pirates du Chapeau de Paille alors qu'ils fuyaient [[Alabasta]].\n\n==Apparence==\nC'est un homme de taille moyenne, au crâne rasé, avec une cicatrice sur le côté droit de son front. Il arbore un manteau de la marine et une chemise.\n{{Galerie2|position=center|width=120|height=120\n|Makko Portrait.png|Makko Portrait\n|Makko jeune Marine.png|Makko jeune Marine\n}}\n==Histoire==\nIl a été vu dans le manga uniquement, dans lequel il a déploré le manque de progrès que ses troupes avaient fait contre les chapeaux de paille.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Marines}}\n\n[[en: Makko]]\n[[ca: Makko]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages d'Alabasta]]\n[[Catégorie:Antagonistes Saga Alabasta]]\n[[Catégorie:Sous-Lieutenants de la Marine]]"
+}

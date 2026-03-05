@@ -1,0 +1,68 @@
+{
+  "title": "Josh",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Josh",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F0F8FF",
+    "textcolor": "2A52BE",
+    "nom": "Josh",
+    "nomimage": "Josh",
+    "nomj": "ジョシュ",
+    "nomr": "''Joshu''",
+    "nomf": "Josh",
+    "première": "[[Chapitre 1065]] ; [[Épisode 1095]]{{Qref|nom=Apparition|chapitre=1065|episode=1095|texte = Josh apparaît.}}",
+    "affiliation": "[[Edison]]{{Qref|nom = Apparition}}",
+    "occupation": "Assistant{{Qref|nom=sbs106|sbs=106}}",
+    "statut": "Vivant",
+    "voj": "Hinako Takahashi"
+  },
+  "intro": "'''Josh'''{{Qref|nom=sbs106}} est un chat et l'assistant d'[[Edison]] sur [[Egghead]].{{Qref|nom = Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Josh est un chat à fourrure blanche et bipède. Il porte une chemise violette à manches longues avec un col jaune et trois bandes horizontales orange, un short orange et des chaussures techniques bleu sarcelle.{{Qref|nom = Apparition}}\n{{Galerie2\n|Josh Portrait.png|Josh Portrait\n|Josh Schéma de Couleurs.png|Couleur de Josh}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Josh est un assistant obéissant et aime aider les gens.{{Qref|nom=sbs106}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Bien qu'il soit un chat, Josh est capable de marcher sur deux pattes et d'utiliser un stylo et du papier pour prendre des notes.{{Qref|nom=sbs106}}"
+    },
+    {
+      "level": 3,
+      "title": "=[[Arc Île d'Egg Head]]=",
+      "content": "Josh a suivi Edison pour élaborer des plans pour une nouvelle invention, car le scientifique a eu une idée soudaine après avoir vu les pirates du Chapeau de Paille combattre S-Shark.{{Qref|nom = Apparition}}"
+    },
+    {
+      "level": 2,
+      "title": "Traduction et de doublage",
+      "content": "Dans la version VIZ du chapitre 1065, une ligne a été ajoutée dans laquelle Edison appelait Joshu \"Assis-Tabby\". Dans la version japonaise, Edison dit \"猫 の 手 も 借 り た い\" (''neko no te mo karitai ?'' , Littéralement \"vouloir emprunter même la patte d'un chat\"), un idiome faisant référence au fait qu'il n'y a pas assez de temps dans une journée."
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Josh est dérivé du mot japonais 助手 (joshu), qui signifie « assistant »."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Egg Head}}\n[[en:Joshu]]\n[[Catégorie:Animaux]]\n[[Catégorie:Personnages de l'Île d'Egg Head]]\n[[Catégorie:SSG]]"
+    }
+  ],
+  "categories": [
+    "Animaux",
+    "Personnages de l'Île d'Egg Head",
+    "SSG"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F0F8FF\n| textcolor         = 2A52BE\n| nom               = Josh\n| nomimage          = Josh\n| nomj              = ジョシュ\n| nomr              = ''Joshu''\n| nomf              = Josh\n| première          = [[Chapitre 1065]] ; [[Épisode 1095]]{{Qref|nom=Apparition|chapitre=1065|episode=1095|texte = Josh apparaît.}}\n| affiliation       = [[Edison]]{{Qref|nom = Apparition}}\n| occupation        = Assistant{{Qref|nom=sbs106|sbs=106}}\n| statut            = Vivant\n| voj               = Hinako Takahashi\n}}\n\n'''Josh'''{{Qref|nom=sbs106}} est un chat et l'assistant d'[[Edison]] sur [[Egghead]].{{Qref|nom = Apparition}}\n\n==Apparence==\nJosh est un chat à fourrure blanche et bipède. Il porte une chemise violette à manches longues avec un col jaune et trois bandes horizontales orange, un short orange et des chaussures techniques bleu sarcelle.{{Qref|nom = Apparition}}\n{{Galerie2\n|Josh Portrait.png|Josh Portrait\n|Josh Schéma de Couleurs.png|Couleur de Josh}}\n\n==Personnalité==\nJosh est un assistant obéissant et aime aider les gens.{{Qref|nom=sbs106}}\n\n==Aptitudes et compétences==\nBien qu'il soit un chat, Josh est capable de marcher sur deux pattes et d'utiliser un stylo et du papier pour prendre des notes.{{Qref|nom=sbs106}}\n\n==Histoire==\n====[[Arc Île d'Egg Head]]====\nJosh a suivi Edison pour élaborer des plans pour une nouvelle invention, car le scientifique a eu une idée soudaine après avoir vu les pirates du Chapeau de Paille combattre S-Shark.{{Qref|nom = Apparition}}\n\n==Traduction et de doublage==\nDans la version VIZ du chapitre 1065, une ligne a été ajoutée dans laquelle Edison appelait Joshu \"Assis-Tabby\". Dans la version japonaise, Edison dit \"猫 の 手 も 借 り た い\" (''neko no te mo karitai ?'' , Littéralement \"vouloir emprunter même la patte d'un chat\"), un idiome faisant référence au fait qu'il n'y a pas assez de temps dans une journée.\n\n==Futilités==\n*Josh est dérivé du mot japonais 助手 (joshu), qui signifie « assistant ».\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{Egg Head}}\n[[en:Joshu]]\n[[Catégorie:Animaux]]\n[[Catégorie:Personnages de l'Île d'Egg Head]]\n[[Catégorie:SSG]]"
+}

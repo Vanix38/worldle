@@ -1,0 +1,52 @@
+{
+  "title": "Tera",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Tera",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "5B92E5",
+    "textcolor": "002FA7",
+    "image": "[[Fichier:Tera Portrait.png|270px]]",
+    "nom": "Tera",
+    "nomj": "テラ",
+    "nomr": "''Tera''",
+    "nomf": "Tera",
+    "première": "[[SBS Tome 105]]{{Qref|nom=sbs105|sbs=105|texte=Tera est mentionnée par Oda.}}",
+    "statut": "Décédée"
+  },
+  "intro": "'''Tera''' était la fille d'un bandit d'East Blue.{{Qref|nom=sbs105}} Elle est la mère de [[Roronoa Zoro]] ainsi que l'épouse de [[Roronoa Arashi]].{{Qref|nom=sbs105}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "D'après sa silhouette, Tera avait les cheveux longs portés en queue de cheval et des cils proéminents.{{Qref|nom=sbs105}}"
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Tera était la fille d'un bandit d'East Blue. À un moment donné, elle a épousé un homme du village de Shimotsuki nommé [[Roronoa Arashi]], et ils ont eu un fils nommé Roronoa Zoro. Tera est décédée plus tard de maladie.{{Qref|nom=sbs105}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Tera (テラ) signifie terre.\n*Tera (寺) signifie \"temple\" en japonais.\n*Les noms des membres de la famille de Zoro, sont liés aux jeux d’argent utilisant des dés :{{Qref|nom=sbs105}}\n**Son nom pourrait être dérivé de terasen (寺銭), une taxe retenue par la maison/casino lors des jeux de hasard. Cela signifie que son nom s'inscrit dans le schéma lié au jeu de la famille de Zoro.{{Qref|nom=sbs105}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{CitoyensEastBlue}}\n{{Village de Shimotsuki}}\n{{SBS}}\n[[en:Tera]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages du Village de Shimotsuki]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Personnages de SBS]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Humains",
+    "Personnages du Village de Shimotsuki",
+    "Personnages Décédés",
+    "Personnages de SBS"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor     = 5B92E5\n| textcolor     = 002FA7\n| image         = [[Fichier:Tera Portrait.png|270px]]\n| nom           = Tera\n| nomj          = テラ\n| nomr          = ''Tera''\n| nomf          = Tera\n| première      = [[SBS Tome 105]]{{Qref|nom=sbs105|sbs=105|texte=Tera est mentionnée par Oda.}}\n| statut        = Décédée\n}}\n'''Tera''' était la fille d'un bandit d'East Blue.{{Qref|nom=sbs105}} Elle est la mère de [[Roronoa Zoro]] ainsi que l'épouse de [[Roronoa Arashi]].{{Qref|nom=sbs105}}\n\n== Apparence ==\nD'après sa silhouette, Tera avait les cheveux longs portés en queue de cheval et des cils proéminents.{{Qref|nom=sbs105}}\n\n== Histoire ==\nTera était la fille d'un bandit d'East Blue. À un moment donné, elle a épousé un homme du village de Shimotsuki nommé [[Roronoa Arashi]], et ils ont eu un fils nommé Roronoa Zoro. Tera est décédée plus tard de maladie.{{Qref|nom=sbs105}}\n\n==Futilité==\n*Tera (テラ) signifie terre.\n*Tera (寺) signifie \"temple\" en japonais.\n*Les noms des membres de la famille de Zoro, sont liés aux jeux d’argent utilisant des dés :{{Qref|nom=sbs105}}\n**Son nom pourrait être dérivé de terasen (寺銭), une taxe retenue par la maison/casino lors des jeux de hasard. Cela signifie que son nom s'inscrit dans le schéma lié au jeu de la famille de Zoro.{{Qref|nom=sbs105}}\n\n\n==Références==\n<references /> \n\n== Navigation du site==\n{{CitoyensEastBlue}}\n{{Village de Shimotsuki}}\n{{SBS}}\n[[en:Tera]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages du Village de Shimotsuki]]\n[[Catégorie:Personnages Décédés]]\n[[Catégorie:Personnages de SBS]]"
+}

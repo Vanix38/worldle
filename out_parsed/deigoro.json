@@ -1,0 +1,52 @@
+{
+  "title": "Deigoro",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Deigoro",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "image": "{{Manga-Anime",
+    "nomj": "番でい五郎",
+    "nomr": "''Deigorō''",
+    "nomf": "",
+    "première": "[[Chapitre 958]] [[Épisode 959]]{{Qref|nom=apparition|chapitre=958|episode = 959|texte=Deigoro fait sa première apparition.}}",
+    "lieuvie": "[[Pays de Wa]]",
+    "statut": "Vivant",
+    "voj": "",
+    "vof": ""
+  },
+  "intro": "'''Deigoro'''{{Qref|nom=vivre|databook=vivre|page=1483|texte=Diverses informations sur Deigoro sont données.}} est un homme vivant dans la [[Capitale des Fleurs]] du [[Pays des Wa]].{{Qref|nom=apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Deigoro est un homme d'âge moyen aux cheveux courts et foncés attachés en chignon. Il a des sourcils épais, un grand nez et une barbe de trois jours autour de la bouche.{{Qref|nom=apparition}}\n\nPendant les célébrations du Festival du Feu, il portait une tenue de couleur claire avec des rayures.\n{{Galerie2|position=center\n|Deigoro Portrait.png|Deigoro Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On sait peu de choses sur la personnalité de Deigoro, mais il était ravi de célébrer le Festival du Feu et encourageait les autres à être joyeux pendant les célébrations.{{Qref|nom=apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano",
+      "content": "{{Main|Arc Wano Kuni}}\nLorsque le festival du feu a commencé, Deigoro a crié de joie, encourageant les autres à boire et à être joyeux.{{Qref|nom=apparition}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n[[en:Deigoro]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Personnages de Wa"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor     = F8674F\n| textcolor     = 006442\n| image         = {{Manga-Anime\n| [[Fichier:Deigoro Anime Infobox.png|270px]]\n| [[Fichier:Deigoro Manga Infobox.png|270px]]\n}}\n| nomj          = 番でい五郎\n| nomr          = ''Deigorō''\n| nomf          = \n| première      = [[Chapitre 958]] [[Épisode 959]]{{Qref|nom=apparition|chapitre=958|episode = 959|texte=Deigoro fait sa première apparition.}}\n| lieuvie       = [[Pays de Wa]]\n| statut        = Vivant\n| voj           = \n| vof           = \n}}\n\n'''Deigoro'''{{Qref|nom=vivre|databook=vivre|page=1483|texte=Diverses informations sur Deigoro sont données.}} est un homme vivant dans la [[Capitale des Fleurs]] du [[Pays des Wa]].{{Qref|nom=apparition}}\n\n==Apparence==\nDeigoro est un homme d'âge moyen aux cheveux courts et foncés attachés en chignon. Il a des sourcils épais, un grand nez et une barbe de trois jours autour de la bouche.{{Qref|nom=apparition}}\n\nPendant les célébrations du Festival du Feu, il portait une tenue de couleur claire avec des rayures.\n{{Galerie2|position=center\n|Deigoro Portrait.png|Deigoro Portrait\n}}\n\n==Personnalité==\nOn sait peu de choses sur la personnalité de Deigoro, mais il était ravi de célébrer le Festival du Feu et encourageait les autres à être joyeux pendant les célébrations.{{Qref|nom=apparition}}\n\n==Histoire==\n===Arc Wano===\n{{Main|Arc Wano Kuni}}\nLorsque le festival du feu a commencé, Deigoro a crié de joie, encourageant les autres à boire et à être joyeux.{{Qref|nom=apparition}}\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{PaysDeWa}}\n[[en:Deigoro]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]"
+}

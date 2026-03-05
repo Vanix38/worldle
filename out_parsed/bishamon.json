@@ -1,0 +1,82 @@
+{
+  "title": "Bishamon",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Bishamon",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "image": "",
+    "nomj": "ビシャ門",
+    "nomr": "''Bishamon''",
+    "nomf": "Bishamon",
+    "première": "[[Chapitre 931]] ; [[Épisode 925]]{{Qref|nom=Apparition|chapitre=931|episode=925|texte=Première apparition de Bishamon.}}",
+    "affiliation": "[[Orochi Oniwabanshu]]{{Qref|nom=Apparition}}",
+    "origine": "[[Pays des Wa]]{{Qref|nom=vivre}}",
+    "occupation": "Membre des [[Orochi Oniwabanshu]] <br>[[Samouraï|Ninja]]",
+    "statut": "Vivant",
+    "voj": "Ikuto Kanemasa",
+    "vof": "",
+    "taille": "1m82{{Qref|nom=sbs97|sbs=97|texte=Le nom, la taille et la technique spéciale des membres de l'Orochi Oniwabanshu sont donnés.}}",
+    "âge": "28 ans{{Qref|nom=vivre|databook=vivre|page=1347|texte=Diverses informations sur Bishamon sont données.}}",
+    "naissance": "1 Août{{Qref|nom=vivre}}",
+    "groupe sanguin": "XF {{Qref|nom=vivre}}",
+    "signe astrologique": "Lion {{Qref|nom=vivre}}",
+    "nom": "Bishamon|nomimage=Bishamon}"
+  },
+  "intro": "'''Bishamon'''{{Qref|nom=sbs97}}{{Qref|nom=e926|episode=926|texte=Bishamon est nommé dans les crédits de l'épisode.}} est un ninja, membre des [[Orochi Oniwabanshu]], une unité [[Ninja]] au service du Shogun [[Kurozumi Orochi]].{{Qref|nom = Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Bishamon est un homme de taille moyenne, plutôt gras, qui possède un costume sombre. Il porte un casque clair et sombre à l'intérieur. Il a une double moustache et des sourcils en virgule.\n{{Galerie2|position=center|width=120|height=120\n|Bishamon Portrait.png|Bishamon Portrait\n|Bishamon Anime Concept Art.png|Concept Art de Bishamon dans l'anime\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Bishamon est vu la plupart du temps calme et confiant.{{Qref|nom=Apparition}} Il est cependant surpris de la disparition du [[Hana Hana no Mi|clone]] de Robin.{{Qref|nom=c932|chapitre=932|page=3-5|episode=926|texte=L'Orochi Oniwabanshu attaque Robin, qui se volatilise.}}"
+    },
+    {
+      "level": 3,
+      "title": "= [[O-Niwaban]] =",
+      "content": "Il fait partie cette unité ninja dirigée par [[Fukurokuju]]."
+    },
+    {
+      "level": 3,
+      "title": "= [[Robin]] =",
+      "content": "Lui et les autres O-Niwaban ont tenté de la capturer, mais elle s'est enfuie à plusieurs reprises et les a également attaqués."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "C'est un membre des [[O-Niwaban]], c'est donc un Ninja très compétent, capable de s'approcher de Robin, pourtant prudente, sans se faire repérer.{{Qref|nom=Apparition}} Sa technique de prédilection est \"La dissimulation aquatique\" (水滴, ''Suiteki'').{{Qref|nom=sbs97}} Il est capable de se tenir \"debout\" à 90 degrés sur le côté d'une barrière, sans artifice visible.{{Qref|nom=c933|chapitre=933|episode=928}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Wano Kuni]]",
+      "content": "{{Main|Arc Wano Kuni}}\nLes [[Orochi Oniwabanshu]] surprennent [[Nico Robin]] en train de fouiller dans une pièce secrète du château de [[Kurozumi Orochi]]. Fukurokuju entre alors dans la pièce et lui donne une chance de s'expliquer.{{Qref|nom = Apparition}}\n\n[[Fukurokuju]] lui demande qui elle est. Si O-Robi est sincère, il ne la torturera pas et la tuera sans souffrances, mais il se rend compte que Robin lui ment et ordonne à l'unité des O-Niwaban de la saisir. Celle-ci ayant réussi à s'échapper, il se demande où elle est. Il ordonne aux O-Niwaban de la chercher, mais sans interrompre le banquet du shogun Orochi.{{Qref|nom=c932}} Les ninjas la retrouvent au banquet, et l'encerclent. Lorsque Brook arrive sur les lieux de la réception en pleine perturbation, Bishamon est repoussé par les attaques de celle-ci.{{Qref|nom=c933}} Lorsqu'il aperçoit Brook, il prend peur et s'enfuit comme les autres ninjas, avant de se rendre compte avec [[Daikoku]] et [[Chome]] que ce dernier ne les attaque pas. Il se retourne alors et le squelette décide d'arrêter la poursuite.{{Qref|episode=928}}\n\nQuand les Chapeaux de Paille assistent à la mort de [[Shimotsuki Yasuie|Yasuie]], les membres de l'[[Orochi Oniwabanshu]] arrivent et entament un combat contre eux.{{Qref|nom = c945|chapitre=945|page=7|episode=}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*'''[[Wikipedia:Vaiśravaṇa|Bishamonten]]''' (毘沙門天), ou '''Vaiśravaṇa''', est le nom d'une des [[wikipedia:fr:Sept Divinités du Bonheur|Sept Divinités du Bonheur]] dans la mythologie japonaise, la divinité des guerriers et dieu protecteur de la loi bouddhique et de la prospérité, ce qui suit le thème des divinités des membres des O-Niwaban. Il est également l'un des [[wikipedia:fr:Quatre Rois célestes|Quatre Rois célestes]] du bouddhisme.\n*La nourriture préférée de Bishamon est le Suiton.{{Qref|nom=vivre}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Samouraï}}\n{{PaysDeWa}}\n{{Épéistes}}\n[[en:Bishamon]]\n[[it:Bishamon]]\n[[pl:Bishamon]]\n[[pt:Bishamon]]\n[[ca:Bishamon]]\n[[Catégorie:Ninjas]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+    }
+  ],
+  "categories": [
+    "Ninjas",
+    "Personnages Masculins",
+    "Personnages de Wa",
+    "Antagonistes Saga Pays des Wa",
+    "Subordonnés de la Famille Kurozumi"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F8674F\n| textcolor         = 006442\n| image             = \n| nomj              = ビシャ門\n| nomr              = ''Bishamon''\n| nomf              = Bishamon\n| première          = [[Chapitre 931]] ; [[Épisode 925]]{{Qref|nom=Apparition|chapitre=931|episode=925|texte=Première apparition de Bishamon.}}\n| affiliation       = [[Orochi Oniwabanshu]]{{Qref|nom=Apparition}}\n| origine           = [[Pays des Wa]]{{Qref|nom=vivre}}\n| occupation        = Membre des [[Orochi Oniwabanshu]] <br>[[Samouraï|Ninja]]\n| statut            = Vivant\n| voj               = Ikuto Kanemasa\n| vof               = \n| taille            = 1m82{{Qref|nom=sbs97|sbs=97|texte=Le nom, la taille et la technique spéciale des membres de l'Orochi Oniwabanshu sont donnés.}}\n| âge               = 28 ans{{Qref|nom=vivre|databook=vivre|page=1347|texte=Diverses informations sur Bishamon sont données.}}\n| naissance         = 1 Août{{Qref|nom=vivre}}\n| groupe sanguin    = XF {{Qref|nom=vivre}}\n| signe astrologique= Lion {{Qref|nom=vivre}}\n|nom=Bishamon|nomimage=Bishamon}}\n'''Bishamon'''{{Qref|nom=sbs97}}{{Qref|nom=e926|episode=926|texte=Bishamon est nommé dans les crédits de l'épisode.}} est un ninja, membre des [[Orochi Oniwabanshu]], une unité [[Ninja]] au service du Shogun [[Kurozumi Orochi]].{{Qref|nom = Apparition}}\n\n== Apparence ==\nBishamon est un homme de taille moyenne, plutôt gras, qui possède un costume sombre. Il porte un casque clair et sombre à l'intérieur. Il a une double moustache et des sourcils en virgule.\n{{Galerie2|position=center|width=120|height=120\n|Bishamon Portrait.png|Bishamon Portrait\n|Bishamon Anime Concept Art.png|Concept Art de Bishamon dans l'anime\n}}\n== Personnalité ==\nBishamon est vu la plupart du temps calme et confiant.{{Qref|nom=Apparition}} Il est cependant surpris de la disparition du [[Hana Hana no Mi|clone]] de Robin.{{Qref|nom=c932|chapitre=932|page=3-5|episode=926|texte=L'Orochi Oniwabanshu attaque Robin, qui se volatilise.}}\n\n== Relations ==\n\n=== Alliés ===\n\n==== [[O-Niwaban]] ====\nIl fait partie cette unité ninja dirigée par [[Fukurokuju]].\n\n=== Ennemis===\n\n==== [[Robin]] ====\nLui et les autres O-Niwaban ont tenté de la capturer, mais elle s'est enfuie à plusieurs reprises et les a également attaqués.\n\n==Aptitudes et compétences==\nC'est un membre des [[O-Niwaban]], c'est donc un Ninja très compétent, capable de s'approcher de Robin, pourtant prudente, sans se faire repérer.{{Qref|nom=Apparition}} Sa technique de prédilection est \"La dissimulation aquatique\" (水滴, ''Suiteki'').{{Qref|nom=sbs97}} Il est capable de se tenir \"debout\" à 90 degrés sur le côté d'une barrière, sans artifice visible.{{Qref|nom=c933|chapitre=933|episode=928}}\n\n==Histoire==\n===[[Arc Wano Kuni]]===\n{{Main|Arc Wano Kuni}}\nLes [[Orochi Oniwabanshu]] surprennent [[Nico Robin]] en train de fouiller dans une pièce secrète du château de [[Kurozumi Orochi]]. Fukurokuju entre alors dans la pièce et lui donne une chance de s'expliquer.{{Qref|nom = Apparition}}\n\n[[Fukurokuju]] lui demande qui elle est. Si O-Robi est sincère, il ne la torturera pas et la tuera sans souffrances, mais il se rend compte que Robin lui ment et ordonne à l'unité des O-Niwaban de la saisir. Celle-ci ayant réussi à s'échapper, il se demande où elle est. Il ordonne aux O-Niwaban de la chercher, mais sans interrompre le banquet du shogun Orochi.{{Qref|nom=c932}} Les ninjas la retrouvent au banquet, et l'encerclent. Lorsque Brook arrive sur les lieux de la réception en pleine perturbation, Bishamon est repoussé par les attaques de celle-ci.{{Qref|nom=c933}} Lorsqu'il aperçoit Brook, il prend peur et s'enfuit comme les autres ninjas, avant de se rendre compte avec [[Daikoku]] et [[Chome]] que ce dernier ne les attaque pas. Il se retourne alors et le squelette décide d'arrêter la poursuite.{{Qref|episode=928}}\n\nQuand les Chapeaux de Paille assistent à la mort de [[Shimotsuki Yasuie|Yasuie]], les membres de l'[[Orochi Oniwabanshu]] arrivent et entament un combat contre eux.{{Qref|nom = c945|chapitre=945|page=7|episode=}}\n\n==Futilités==\n*'''[[Wikipedia:Vaiśravaṇa|Bishamonten]]''' (毘沙門天), ou '''Vaiśravaṇa''', est le nom d'une des [[wikipedia:fr:Sept Divinités du Bonheur|Sept Divinités du Bonheur]] dans la mythologie japonaise, la divinité des guerriers et dieu protecteur de la loi bouddhique et de la prospérité, ce qui suit le thème des divinités des membres des O-Niwaban. Il est également l'un des [[wikipedia:fr:Quatre Rois célestes|Quatre Rois célestes]] du bouddhisme.\n*La nourriture préférée de Bishamon est le Suiton.{{Qref|nom=vivre}}\n\n==Références==\n<references />\n\n== Navigation du Site ==\n{{Samouraï}}\n{{PaysDeWa}}\n{{Épéistes}}\n[[en:Bishamon]]\n[[it:Bishamon]]\n[[pl:Bishamon]]\n[[pt:Bishamon]]\n[[ca:Bishamon]]\n[[Catégorie:Ninjas]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+}

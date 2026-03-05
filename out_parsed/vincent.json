@@ -1,0 +1,58 @@
+{
+  "title": "Vincent",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Vincent",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "D4AF37",
+    "textcolor": "848482",
+    "nom": "Vincent",
+    "nomimage": "Vincent",
+    "nomj": "ヴァンサン",
+    "nomr": "''Vansan''",
+    "nomf": "",
+    "première": "[[Chapitre 956]]; [[Épisode 957]]{{Qref|nom=c956|tome = |chapitre = 956|episode = 957|texte = Vincent apparaît pour la première fois.}}",
+    "affiliation": "Royaume Sankan",
+    "statut": "Vivant",
+    "occupation": "[[Prince]]",
+    "voj": ""
+  },
+  "intro": "'''Vincent''' est le prince du [[Royaume Sankan]].{{Qref|nom=vivre|databook=vivre|page=1415|texte=Diverses informations sur Vincent sont données.}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Vincent est un homme aux cheveux blonds ondulés, longs jusqu'aux épaules. Il porte une couronne, symbole de son statut royal.{{Qref|nom=c956}}\n{{Galerie2|position=center|width=120|height=120\n|Vincent Portrait.png|Vincent Portrait\n|Vincent Corps Complet.png|Vincent Corps Complet\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Vincent apprécie l'équilibre des trois grandes puissances et craint l'incertitude qui accompagne la dissolution des [[Pirates/Sept Grands Corsaires|Sept Grands Corsaires]]{{Qref|nom=c956}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et Compétences",
+      "content": "En tant que prince, Vincent exerce une autorité considérable au sein de son royaume.{{Qref|nom=c956}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Wano]]",
+      "content": "Alors qu'il travaillait dans son bureau, Vincent fut informé de la dissolution des [[Pirates/Sept Grands Corsaires|Sept Grands Corsaires]]. Il douta de la décision, se demandant si c'était une bonne idée de dissoudre l'une des [[Trois Grands Pouvoirs|Trois Grandes Puissances]].{{Qref|nom=c956}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Royauté}}\n[[En:Vincent]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Princes]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Masculins",
+    "Princes"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = D4AF37\n| textcolor         = 848482\n| nom               = Vincent\n| nomimage          = Vincent\n| nomj              = ヴァンサン\n| nomr              = ''Vansan''\n| nomf              = \n| première          = [[Chapitre 956]]; [[Épisode 957]]{{Qref|nom=c956|tome = |chapitre = 956|episode = 957|texte = Vincent apparaît pour la première fois.}}\n| affiliation       = Royaume Sankan\n| statut            = Vivant\n| occupation        = [[Prince]]\n| voj               = \n}}\n'''Vincent''' est le prince du [[Royaume Sankan]].{{Qref|nom=vivre|databook=vivre|page=1415|texte=Diverses informations sur Vincent sont données.}}\n\n==Apparence==\nVincent est un homme aux cheveux blonds ondulés, longs jusqu'aux épaules. Il porte une couronne, symbole de son statut royal.{{Qref|nom=c956}}\n{{Galerie2|position=center|width=120|height=120\n|Vincent Portrait.png|Vincent Portrait\n|Vincent Corps Complet.png|Vincent Corps Complet\n}}\n\n==Personnalité==\nVincent apprécie l'équilibre des trois grandes puissances et craint l'incertitude qui accompagne la dissolution des [[Pirates/Sept Grands Corsaires|Sept Grands Corsaires]]{{Qref|nom=c956}}\n\n==Aptitudes et Compétences==\nEn tant que prince, Vincent exerce une autorité considérable au sein de son royaume.{{Qref|nom=c956}}\n\n==Histoire==\n===[[Arc Wano]]===\nAlors qu'il travaillait dans son bureau, Vincent fut informé de la dissolution des [[Pirates/Sept Grands Corsaires|Sept Grands Corsaires]]. Il douta de la décision, se demandant si c'était une bonne idée de dissoudre l'une des [[Trois Grands Pouvoirs|Trois Grandes Puissances]].{{Qref|nom=c956}}\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Royauté}}\n[[En:Vincent]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Princes]]"
+}

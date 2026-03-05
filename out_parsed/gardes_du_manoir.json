@@ -1,0 +1,75 @@
+{
+  "title": "Gardes du Manoir",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Gardes_du_Manoir",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "FFFFFF",
+    "nom": "Gardes du Manoir",
+    "image": "{{Manga-Anime",
+    "nomj": "門 番",
+    "nomr": "Monban",
+    "nomf": "Gardes{{Qref|nom=blue|databook=blue|page=43|texte = Les Gardes du Manoir sont nommés.}}",
+    "première": "[[Chapitre 24]] ; [[Épisode 9]]",
+    "affiliation": "Gardes de [[Kaya]] <br> Compagnie Tassel {{Qref|nom=blue}}",
+    "occupation": "Gardiens",
+    "naissance": "1<sup>er</sup> Juillet (celui de droite){{Qref|nom=vivre|databook=vivre|page=0064|texte=Diverses informations sur les gardes sont données.}}",
+    "voj": "Yasuhiko Tokuyama <br> Takehiko Watanabe"
+  },
+  "intro": "Les '''Gardes du Manoir'''{{Qref|nom=blue}} sont des employés de la société Tessle (テローズ株式会社), embauchés par [[Kuro|Klahadoll]] pour agir en tant que gardes de sécurité afin d'assurer la sécurité du manoir de Kaya.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "La garde du manoir est composée de deux hommes. Celui sur la gauche porte un costume noir, une chemise blanche et une cravate verte. Il est plutôt maigre et a une moustache et une barbe. Il a les cheveux bruns.\n\nLa garde sur la droite porte un costume noir, une chemise blanche et une cravate rouge. Il n'est pas maigre comme son partenaire, et est rasé de près. Il a les cheveux noirs plaqués en arrière.\n{{Galerie2|position=center|width=120|height=120\n|Garde du Manoir 1 Portrait.png|Gardes du Manoir Portrait\n|Garde du Manoir 2 Portrait.png|Gardes du Manoir Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Ils sont très sérieux au sujet de leur travail et veulent sincèrement protéger leur maîtresse Kaya dans la mesure où ils risqueraient leur vie pour elle. Cependant, ils ont tendance à négliger leurs devoirs, car ils prennent beaucoup de pauses<ref name=Q2>''One Piece Manga & Anime'' - [[Tome 3]], [[Chapitre 24]], [[Épisode 9]] - [[Kuro|Krapador]] se plaint que les gardiens sont encore parti déjeuner.</ref>."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Vu qu'ils ont été choisis comme gardiens du manoir de [[Kaya]], ils sont au moins capables de repousser les fauteurs de troubles et les simples intrus, biens que leur force réelle, demeure inconnue."
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "À un moment de leur vie, ils ont été recrutés comme gardes de la demeure de Kaya."
+    },
+    {
+      "level": 3,
+      "title": "Arc Village Sirop",
+      "content": "{{Main|Arc Village Sirop}}[[Kuro|Krapadore]] se plaint que les gardes soient encore en pause déjeuner, négligeant ainsi leurs fonctions, même si leur négligence a permis à [[Usopp]] de se glisser dans la maison<ref name=Q2 />. Ils sont en fait partis en vacances avec tous les autres employés de la maison de Kaya (en dehors de Krapadore et [[Merry]]). Ils ne savaient donc pas que [[Kuro]] était en fait le capitaine de [[L'Équipage du Chat Noir]] et n'ont ainsi pas put intervenir, lorsque Merry a été attaqué par celui-ci<ref>''One Piece Manga & Anime' – [[Tome 4]], [[Chapitre 31]], [[Épisode 13]] -.  Le serviteur affirme alors que tous les employés du manoir (dont les gardiens) sont partis en vacances.</ref>. Nous ne savons pas s'ils sont toujours là et s'ils ont gardé leur poste."
+    },
+    {
+      "level": 3,
+      "title": "=Apparition non-jouable=",
+      "content": "*[[One Piece: Yume no Luffy Kaizokudan Tanjou|One Piece : Yume no Luffy Kaizokudan Tanjou]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Les deux gardes partagent la même date de naissance. {{Qref|nom=vivre}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{CitoyensEastBlue}}\n{{Archipel des Gekko}}\n{{Utilisateurs d'Armes à Feu}}\n[[en:Mansion's Guards]]\n[[ca:Guàrdies de la Mansió de la Kaya]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Gardes du Corps]]\n[[Catégorie:Personnages du Village de Sirop]]\n[[Catégorie:Groupes Antagonistes]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Humains",
+    "Gardes du Corps",
+    "Personnages du Village de Sirop",
+    "Groupes Antagonistes"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = FFFFFF\n| nom               = Gardes du Manoir\n| image             = {{Manga-Anime\n|[[Fichier:Gardes du Manoir Anime Infobox.png|270px]]\n|[[Fichier:Gardes du Manoir (Manga) Infobox.png|270px]]}}\n| nomj              = 門 番\n| nomr              = Monban\n| nomf              = Gardes{{Qref|nom=blue|databook=blue|page=43|texte = Les Gardes du Manoir sont nommés.}}\n| première          = [[Chapitre 24]] ; [[Épisode 9]]\n| affiliation       = Gardes de [[Kaya]] <br> Compagnie Tassel {{Qref|nom=blue}}\n| occupation        = Gardiens\n| naissance         = 1<sup>er</sup> Juillet (celui de droite){{Qref|nom=vivre|databook=vivre|page=0064|texte=Diverses informations sur les gardes sont données.}}\n| voj               =  Yasuhiko Tokuyama <br> Takehiko Watanabe\n}}\nLes '''Gardes du Manoir'''{{Qref|nom=blue}} sont des employés de la société Tessle (テローズ株式会社), embauchés par [[Kuro|Klahadoll]] pour agir en tant que gardes de sécurité afin d'assurer la sécurité du manoir de Kaya.\n\n==Apparence==\nLa garde du manoir est composée de deux hommes. Celui sur la gauche porte un costume noir, une chemise blanche et une cravate verte. Il est plutôt maigre et a une moustache et une barbe. Il a les cheveux bruns.\n\nLa garde sur la droite porte un costume noir, une chemise blanche et une cravate rouge. Il n'est pas maigre comme son partenaire, et est rasé de près. Il a les cheveux noirs plaqués en arrière.\n{{Galerie2|position=center|width=120|height=120\n|Garde du Manoir 1 Portrait.png|Gardes du Manoir Portrait\n|Garde du Manoir 2 Portrait.png|Gardes du Manoir Portrait\n}}\n==Personnalité==\nIls sont très sérieux au sujet de leur travail et veulent sincèrement protéger leur maîtresse Kaya dans la mesure où ils risqueraient leur vie pour elle. Cependant, ils ont tendance à négliger leurs devoirs, car ils prennent beaucoup de pauses<ref name=Q2>''One Piece Manga & Anime'' - [[Tome 3]], [[Chapitre 24]], [[Épisode 9]] - [[Kuro|Krapador]] se plaint que les gardiens sont encore parti déjeuner.</ref>.\n\n==Aptitudes et compétences==\nVu qu'ils ont été choisis comme gardiens du manoir de [[Kaya]], ils sont au moins capables de repousser les fauteurs de troubles et les simples intrus, biens que leur force réelle, demeure inconnue.\n\n==Histoire==\n===Passé===\nÀ un moment de leur vie, ils ont été recrutés comme gardes de la demeure de Kaya.\n\n===Arc Village Sirop===\n{{Main|Arc Village Sirop}}[[Kuro|Krapadore]] se plaint que les gardes soient encore en pause déjeuner, négligeant ainsi leurs fonctions, même si leur négligence a permis à [[Usopp]] de se glisser dans la maison<ref name=Q2 />. Ils sont en fait partis en vacances avec tous les autres employés de la maison de Kaya (en dehors de Krapadore et [[Merry]]). Ils ne savaient donc pas que [[Kuro]] était en fait le capitaine de [[L'Équipage du Chat Noir]] et n'ont ainsi pas put intervenir, lorsque Merry a été attaqué par celui-ci<ref>''One Piece Manga & Anime' – [[Tome 4]], [[Chapitre 31]], [[Épisode 13]] -.  Le serviteur affirme alors que tous les employés du manoir (dont les gardiens) sont partis en vacances.</ref>. Nous ne savons pas s'ils sont toujours là et s'ils ont gardé leur poste.\n\n==Marchandise==\n===Jeux Vidéos===\n====Apparition non-jouable====\n*[[One Piece: Yume no Luffy Kaizokudan Tanjou|One Piece : Yume no Luffy Kaizokudan Tanjou]]\n\n==Futilité==\n*Les deux gardes partagent la même date de naissance. {{Qref|nom=vivre}}\n==Références==\n<references/>\n==Navigation du Site==\n{{CitoyensEastBlue}}\n{{Archipel des Gekko}}\n{{Utilisateurs d'Armes à Feu}}\n[[en:Mansion's Guards]]\n[[ca:Guàrdies de la Mansió de la Kaya]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Humains]]\n[[Catégorie:Gardes du Corps]]\n[[Catégorie:Personnages du Village de Sirop]]\n[[Catégorie:Groupes Antagonistes]]"
+}

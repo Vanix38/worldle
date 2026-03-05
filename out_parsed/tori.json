@@ -1,0 +1,60 @@
+{
+  "title": "Tori",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Tori",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "000000",
+    "textcolor": "696969",
+    "nom": "Tori",
+    "image": "{{Manga-Anime",
+    "nomj": "トリ",
+    "nomr": "''Tori''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 925]]; [[Épisode 917]]{{Qref|nom = Apparition|chapitre = 925|episode = 917|texte = Tori fait sa première apparition.}}",
+    "affiliation": "[[L'Équipage de Barbe Noire]]{{Qref|nom = Apparition}}",
+    "statut": "Vivante"
+  },
+  "intro": "'''Tori''' (トリ, ''Tori'') est une pirate de [[l'Équipage de Barbe Noire]].{{Qref|nom = vivre|databook = vivre|page=1307|texte = Maki est présentée.}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Tori est une jeune femme aux longs cheveux blancs. Elle porte une robe blanche ainsi qu'un bonnet rouge avec des lunettes de soleil dessus.{{Qref|nom = Apparition}}\n{{Galerie2|position=center|width=120|height=120\n|Tori Portrait.png|Tori Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Tori semble aimer boire, ayant été vue tenant deux bouteilles à la main.{{Qref|nom = Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\nTori est vue sur un canapé avec [[Kikipatsu]], [[Maki]] et [[Marshall D. Teach]] alors que celui-ci discute avec [[Gecko Moria]].{{Qref|nom = Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "=Non-Jouable=",
+      "content": "*[[One Piece : Treasure Cruise]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Mis côte-à-côte, son nom et celui de [[Maki]] forment ''Torimaki'' (取り巻き), dont la signification pourrait se rapporter à \"qui suivent les puissants\"."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{BarbeNoire}}\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Équipage de Barbe Noire]]\n[[en:Tori]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Équipage de Barbe Noire"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 000000\n| textcolor         = 696969\n| nom               = Tori\n| image             = {{Manga-Anime\n|[[Fichier:Tori Anime Infobox.png|270px]]\n|[[Fichier:Tori Manga Infobox.png|270px]]\n}}\n| nomj              = トリ\n| nomr              = ''Tori''\n| nomf              = N/A\n| première          = [[Chapitre 925]]; [[Épisode 917]]{{Qref|nom = Apparition|chapitre = 925|episode = 917|texte = Tori fait sa première apparition.}}\n| affiliation       = [[L'Équipage de Barbe Noire]]{{Qref|nom = Apparition}}\n| statut            = Vivante\n}}\n'''Tori''' (トリ, ''Tori'') est une pirate de [[l'Équipage de Barbe Noire]].{{Qref|nom = vivre|databook = vivre|page=1307|texte = Maki est présentée.}}\n\n== Apparence ==\nTori est une jeune femme aux longs cheveux blancs. Elle porte une robe blanche ainsi qu'un bonnet rouge avec des lunettes de soleil dessus.{{Qref|nom = Apparition}}\n{{Galerie2|position=center|width=120|height=120\n|Tori Portrait.png|Tori Portrait\n}}\n== Personnalité ==\nTori semble aimer boire, ayant été vue tenant deux bouteilles à la main.{{Qref|nom = Apparition}}\n\n== Histoire ==\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\nTori est vue sur un canapé avec [[Kikipatsu]], [[Maki]] et [[Marshall D. Teach]] alors que celui-ci discute avec [[Gecko Moria]].{{Qref|nom = Apparition}}\n\n==Marchandises==\n===Jeux Vidéos===\n====Non-Jouable====\n*[[One Piece : Treasure Cruise]]\n\n== Futilités ==\n*Mis côte-à-côte, son nom et celui de [[Maki]] forment ''Torimaki'' (取り巻き), dont la signification pourrait se rapporter à \"qui suivent les puissants\".\n\n== Références ==\n<references />\n\n== Navigation du Site ==\n{{BarbeNoire}}\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Équipage de Barbe Noire]]\n[[en:Tori]]"
+}

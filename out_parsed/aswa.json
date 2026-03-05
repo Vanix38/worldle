@@ -1,0 +1,55 @@
+{
+  "title": "Aswa",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Aswa",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F0DC82",
+    "textcolor": "DAA520",
+    "nom": "Aswa",
+    "nomimage": "Aswa",
+    "nomj": "アスワ",
+    "nomr": "''Asuwa''",
+    "nomf": "Asuwa{{Qref|nom=Nom|databook=blue|texte=Son nom est révélé.}}",
+    "première": "[[Chapitre 163]] ; [[Épisode 100]]",
+    "lieuvie": "[[Alabasta]]",
+    "occupation": "Civil",
+    "voj": "N/A",
+    "vof": "N/A",
+    "Statut": "Inconnu"
+  },
+  "intro": "''Aswa'''{{Qref|nom = Nom}} (アスワ - ''Asuwa'') est la mère de [[Kohza]] et la femme de [[Toto]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Elle porte une capuche blanche autour de sa tête et a une robe brun clair avec des taches pourpres vers le bas. Elle a les cheveux bruns et porte des lunettes carrées.\n{{Galerie2|position=center|width=120|height=120\n|Aswa Portrait.png|Aswa Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Elle est très gentille et est vu souriante."
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Elle apparaît seulement lors du flashback de [[Vivi]], en criant à [[Kohza]] de venir manger. On ne sait pas ce qui lui est arrivé dans l'histoire actuelle, car elle n'apparaît pas avec [[Toto]] à [[Yuba]], ne semble pas appuyer [[Kohza]], et ne fait aucune apparition pour l'Arc [[Alabasta]]."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Alabasta}}\n[[en:Aswa]]\n[[it:Asuwa]]\n[[es:Aswa]]\n[[pt:Aswa]]\n[[ru:Асва]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages d'Alabasta]]\n[[Catégorie:Personnages introduits dans un flashback]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Humains",
+    "Personnages d'Alabasta",
+    "Personnages introduits dans un flashback"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F0DC82\n| textcolor         = DAA520\n| nom               = Aswa\n| nomimage          = Aswa\n| nomj              = アスワ \n| nomr              = ''Asuwa''\n| nomf              = Asuwa{{Qref|nom=Nom|databook=blue|texte=Son nom est révélé.}}\n| première          = [[Chapitre 163]] ; [[Épisode 100]]\n| lieuvie           = [[Alabasta]] \n| occupation        = Civil\n| voj               = N/A\n| vof               = N/A\n| Statut            = Inconnu\n}}'''Aswa'''{{Qref|nom = Nom}} (アスワ - ''Asuwa'') est la mère de [[Kohza]] et la femme de [[Toto]].\n\n== Apparence ==\nElle porte une capuche blanche autour de sa tête et a une robe brun clair avec des taches pourpres vers le bas. Elle a les cheveux bruns et porte des lunettes carrées.\n{{Galerie2|position=center|width=120|height=120\n|Aswa Portrait.png|Aswa Portrait\n}}\n== Personnalité ==\nElle est très gentille et est vu souriante.\n\n== Histoire ==\nElle apparaît seulement lors du flashback de [[Vivi]], en criant à [[Kohza]] de venir manger. On ne sait pas ce qui lui est arrivé dans l'histoire actuelle, car elle n'apparaît pas avec [[Toto]] à [[Yuba]], ne semble pas appuyer [[Kohza]], et ne fait aucune apparition pour l'Arc [[Alabasta]].\n\n== Références ==\n<references />\n\n== Navigation du Site ==\n{{Alabasta}}\n[[en:Aswa]]\n[[it:Asuwa]]\n[[es:Aswa]]\n[[pt:Aswa]]\n[[ru:Асва]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages d'Alabasta]]\n[[Catégorie:Personnages introduits dans un flashback]]"
+}

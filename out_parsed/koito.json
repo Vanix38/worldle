@@ -1,0 +1,56 @@
+{
+  "title": "Koito",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Koito",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nomimage": "Koito",
+    "nomj": "小糸",
+    "nomr": "''Koito''",
+    "nomf": "Koito",
+    "première": "[[Chapitre 930]] [[Épisode 923]]{{Qref|nom=apparition|chapitre=930|episode = 923|texte=Koito fait sa première apparition.}}",
+    "lieuvie": "[[Pays des Wa]] (Village d'Ebisu)",
+    "statut": "Vivante}"
+  },
+  "intro": "'''Koito'''{{Qref|nom=vivre|databook=vivre|page=1344|texte=Diverses informations sur Koito sont données.}} est une petite fille du village d'Ebisu sur Wano Kuni.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Koito est une jeune petite fille aux cheveux bruns qu'elle a attachés en chignon à l'arrière de la tête avec deux queues de cheval. Elle a une dent cassée et porte un kimono de couleur claire avec un motif à rayures déjà rapiécé plusieurs fois, ainsi qu'un obi rouge clair à pois.\n{{Galerie2|position=center|width=120|height=120\n|Koito Portrait.png|Koito Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Malgré sa vie de pauvreté, marquée par la faim et la soif, Koito est très amicale et joyeuse. Elle a donc tendu à Zoro une tasse d'eau propre, même si les habitants d'Ebisu eux-mêmes n'en ont pas assez. Manger un Fruit du Démon Smile raté l'a vidée de ses émotions de tristesse et de colère, c'est pourquoi on la voit toujours rire."
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\nLorsque Shimotsuki Yasuie alias Tonoyasu a emmené Zoro à Ebisu, Koito s'est approché de Zoro et lui a tendu une tasse d'eau. Elle lui a assuré que c'était de l'eau propre, ce que Zoro a accepté."
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "* Elle partage son nom avec la rivière Koito du monde réel à Futtsu et Kimitsu, dans la préfecture de Chiba, au Japon."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n[[en:Koito]]\n[[es:Koito]]\n[[it:Koito]]  \n[[ca:Koito]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Enfants]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Personnages de Wa",
+    "Humains",
+    "Enfants"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor     = F8674F\n| textcolor     = 006442\n| nomimage          = Koito\n| nomj          = 小糸\n| nomr          = ''Koito''\n| nomf          = Koito\n| première      = [[Chapitre 930]] [[Épisode 923]]{{Qref|nom=apparition|chapitre=930|episode = 923|texte=Koito fait sa première apparition.}}\n| lieuvie       = [[Pays des Wa]] (Village d'Ebisu)\n| statut        = Vivante}}\n\n'''Koito'''{{Qref|nom=vivre|databook=vivre|page=1344|texte=Diverses informations sur Koito sont données.}} est une petite fille du village d'Ebisu sur Wano Kuni.\n\n==Apparence==\nKoito est une jeune petite fille aux cheveux bruns qu'elle a attachés en chignon à l'arrière de la tête avec deux queues de cheval. Elle a une dent cassée et porte un kimono de couleur claire avec un motif à rayures déjà rapiécé plusieurs fois, ainsi qu'un obi rouge clair à pois.\n{{Galerie2|position=center|width=120|height=120\n|Koito Portrait.png|Koito Portrait\n}}\n==Personnalité==\nMalgré sa vie de pauvreté, marquée par la faim et la soif, Koito est très amicale et joyeuse. Elle a donc tendu à Zoro une tasse d'eau propre, même si les habitants d'Ebisu eux-mêmes n'en ont pas assez. Manger un Fruit du Démon Smile raté l'a vidée de ses émotions de tristesse et de colère, c'est pourquoi on la voit toujours rire.\n\n==Hisoire==\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\nLorsque Shimotsuki Yasuie alias Tonoyasu a emmené Zoro à Ebisu, Koito s'est approché de Zoro et lui a tendu une tasse d'eau. Elle lui a assuré que c'était de l'eau propre, ce que Zoro a accepté.\n\n==Futilité==\n* Elle partage son nom avec la rivière Koito du monde réel à Futtsu et Kimitsu, dans la préfecture de Chiba, au Japon.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{PaysDeWa}}\n[[en:Koito]]\n[[es:Koito]]\n[[it:Koito]]  \n[[ca:Koito]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Enfants]]"
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Chiken",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Chiken",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "915C83",
+    "textcolor": "23238E",
+    "nom": "Chiken",
+    "nomimage": "Chiken",
+    "nomj": "チキン",
+    "nomr": "''Chikin''",
+    "nomf": "Chiken",
+    "première": "[[Chapitre 1]], [[Épisode 505]]<ref>''One Piece Manga et Anime'' - [[Tome 1]], [[Chapitre 1]], [[Épisode 505]] - Chiken fait sa première apparition.</ref>",
+    "lieuvie": "[[Village de Fuchsia]]",
+    "naissance": "8 Février{{Qref|nom=vivre|databook=vivre|page=0025|texte=L'anniversaire sur Chiken est donnée.}}",
+    "occupation": "Poissonnière"
+  },
+  "intro": "'''Chiken'''{{Qref|databook = blue}} (チキン, ''Chikin'') est l'épouse de [[Gyoru]], le poissonnier du village de [[Fuschia]]. Elle s'occupe du magasin en gardant toujours le sourire.",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Chiken est une femme de taille normale, avec des cheveux bruns et bouclés foncés et un visage rond. Elle est un peu enrobée. Elle est vêtue une veste de couleur foncée et une chemise avec les manches retroussées. Dans l'animé, elle porte un tablier brun rougeâtre par-dessus un tee-shirt blanc.\n{{Galerie2|position=center|width=120|height=120\n|Chiken Portrait.png|Chiken Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Elle a été vue prenant soin du magasin, d'un air heureux, et faisant un signe de la main pour le départ de [[Luffy]]. On la voit la plupart du temps souriante et heureuse. Elle semble être une personne attentionnée et optimiste."
+    },
+    {
+      "level": 2,
+      "title": "Histoire",
+      "content": "Quand [[Luffy]] était enfant, elle travaillait dans le magasin dans lequel il venait acheter son poisson. Elle n'a pas été revue jusqu'à l'[[Épisode 505]] quand elle lui fait ses adieux d'un signe de la main, dans un flash-back de Luffy."
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Le nom de sa poissonnerie, \"UO\", signifie \"poisson\" en japonais.\n*Son nom signifie \"poulet\" en japonais (en réalité, le mot japonais provient de l'anglais, \"chicken\", qui signifie la même chose)."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{IleDawn}}\n{{CitoyensEastBlue}}\n[[ca:Chiken]]\n[[de:Chiken]]\n[[en:Chicken]]\n[[it:Chiken]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages du Village de Fuchsia]]\n[[Catégorie:Commerçants]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Humains",
+    "Personnages du Village de Fuchsia",
+    "Commerçants"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 915C83\n| textcolor         = 23238E\n| nom               = Chiken\n| nomimage          = Chiken\n| nomj              = チキン\n| nomr              = ''Chikin''\n| nomf              = Chiken\n| première          = [[Chapitre 1]], [[Épisode 505]]<ref>''One Piece Manga et Anime'' - [[Tome 1]], [[Chapitre 1]], [[Épisode 505]] - Chiken fait sa première apparition.</ref>\n| lieuvie           = [[Village de Fuchsia]]\n| naissance         = 8 Février{{Qref|nom=vivre|databook=vivre|page=0025|texte=L'anniversaire sur Chiken est donnée.}}\n| occupation        = Poissonnière\n}}\n'''Chiken'''{{Qref|databook = blue}} (チキン, ''Chikin'') est l'épouse de [[Gyoru]], le poissonnier du village de [[Fuschia]]. Elle s'occupe du magasin en gardant toujours le sourire.\n\n==Apparence==\nChiken est une femme de taille normale, avec des cheveux bruns et bouclés foncés et un visage rond. Elle est un peu enrobée. Elle est vêtue une veste de couleur foncée et une chemise avec les manches retroussées. Dans l'animé, elle porte un tablier brun rougeâtre par-dessus un tee-shirt blanc.\n{{Galerie2|position=center|width=120|height=120\n|Chiken Portrait.png|Chiken Portrait\n}}\n\n==Personnalité==\nElle a été vue prenant soin du magasin, d'un air heureux, et faisant un signe de la main pour le départ de [[Luffy]]. On la voit la plupart du temps souriante et heureuse. Elle semble être une personne attentionnée et optimiste.\n\n==Histoire==\nQuand [[Luffy]] était enfant, elle travaillait dans le magasin dans lequel il venait acheter son poisson. Elle n'a pas été revue jusqu'à l'[[Épisode 505]] quand elle lui fait ses adieux d'un signe de la main, dans un flash-back de Luffy.\n\n==Futilité==\n*Le nom de sa poissonnerie, \"UO\", signifie \"poisson\" en japonais.\n*Son nom signifie \"poulet\" en japonais (en réalité, le mot japonais provient de l'anglais, \"chicken\", qui signifie la même chose).\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{IleDawn}}\n{{CitoyensEastBlue}}\n[[ca:Chiken]]\n[[de:Chiken]]\n[[en:Chicken]]\n[[it:Chiken]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages du Village de Fuchsia]]\n[[Catégorie:Commerçants]]"
+}

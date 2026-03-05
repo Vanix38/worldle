@@ -1,0 +1,59 @@
+{
+  "title": "Oide",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Oide",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "A4A4A4",
+    "textcolor": "F5A9F2",
+    "nom": "Oide",
+    "image": "{{Manga-Anime",
+    "nomj": "オイデー",
+    "nomr": "''Oidē''",
+    "nomf": "",
+    "première": "[[Chapitre 909]]; [[Épisode 890]]{{Qref|nom=apparition|chapitre=909|episode=890|texte=Oide apparaît.}}",
+    "lieuvie": "[[Sphinx (Île)|Sphinx]]",
+    "occupation": "Citoyenne",
+    "statut": "Vivant",
+    "voj": "Haruka Terui"
+  },
+  "intro": ":''Si vous cherchez le personnage de Wano, veuillez vous rendre [[Tama|ici]].''\n'''Oide''' (オイデー, ''Oidē''){{Qref|nom=vivre|databook = vivre card|page=1246|texte=Oide est nommée.}} est une citoyenne de [[Sphinx (Île)|Sphinx]], et la propriétaire de [[Tama (Sphinx)|Tama]].{{Qref|nom=apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Oide est une petite fille aux joues rouges et aux nattes. Elle porte une robe courte à manches longues et un chapeau rond en laine avec des points sur le bord.\n{{Galerie2\n|Oide Portrait.png|Oide Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Oide est une fille joyeuse qui aime son animal de compagnie, Tama. En raison de son jeune âge, Oide ne semble pas connaître les [[Fruits du Démon]], car elle qualifie les effets du [[Tori Tori no Mi, modèle Phoenix]] de [[Marco]] de \"magie\".{{Qref|nom=apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Wano Kuni]]",
+      "content": "Oide habite sur l'île natale d'[[Edward Newgate]], [[Sphinx (Île)|Sphinx]], où elle vit avec [[Tama (Sphinx)|Tama]], son Sphinx de compagnie. Il s'est blessé et [[Marco]] utilisa ses pouvoirs pour le soigner, bien qu'il lui recommanda une période de rétablissement, et Oide remercie le médecin.{{Qref|nom=apparition}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Son nom est un jeu de mots sur oide (おいで), qui signifie « venir » en allemand."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Sphinx Navibox}}\n[[en:Oide]]\n[[it:Oide]]\n[[Catégorie:Humains]]\n[[Catégorie:Enfants]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages du Nouveau Monde]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Enfants",
+    "Personnages Féminins",
+    "Personnages du Nouveau Monde"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = A4A4A4\n| textcolor         = F5A9F2\n| nom               = Oide\n| image             = {{Manga-Anime\n|[[Fichier:Oide Anime Infobox.png|270px]]\n|[[Fichier:Oide Manga Infobox.png|270px]]}}\n| nomj              = オイデー\n| nomr              = ''Oidē''\n| nomf              = \n| première          = [[Chapitre 909]]; [[Épisode 890]]{{Qref|nom=apparition|chapitre=909|episode=890|texte=Oide apparaît.}}\n| lieuvie           = [[Sphinx (Île)|Sphinx]]\n| occupation        = Citoyenne\n| statut            = Vivant\n| voj               = Haruka Terui\n\n}}\n:''Si vous cherchez le personnage de Wano, veuillez vous rendre [[Tama|ici]].''\n'''Oide''' (オイデー, ''Oidē''){{Qref|nom=vivre|databook = vivre card|page=1246|texte=Oide est nommée.}} est une citoyenne de [[Sphinx (Île)|Sphinx]], et la propriétaire de [[Tama (Sphinx)|Tama]].{{Qref|nom=apparition}}\n\n==Apparence==\nOide est une petite fille aux joues rouges et aux nattes. Elle porte une robe courte à manches longues et un chapeau rond en laine avec des points sur le bord.\n{{Galerie2\n|Oide Portrait.png|Oide Portrait\n}}\n==Personnalité==\nOide est une fille joyeuse qui aime son animal de compagnie, Tama. En raison de son jeune âge, Oide ne semble pas connaître les [[Fruits du Démon]], car elle qualifie les effets du [[Tori Tori no Mi, modèle Phoenix]] de [[Marco]] de \"magie\".{{Qref|nom=apparition}}\n\n==Aptitudes et compétences==\n\n==Histoire==\n===[[Arc Wano Kuni]]===\nOide habite sur l'île natale d'[[Edward Newgate]], [[Sphinx (Île)|Sphinx]], où elle vit avec [[Tama (Sphinx)|Tama]], son Sphinx de compagnie. Il s'est blessé et [[Marco]] utilisa ses pouvoirs pour le soigner, bien qu'il lui recommanda une période de rétablissement, et Oide remercie le médecin.{{Qref|nom=apparition}}\n\n==Futilités==\n*Son nom est un jeu de mots sur oide (おいで), qui signifie « venir » en allemand.\n\n==Références==\n<references/>\n\n==Navigation du Site==\n{{Sphinx Navibox}}\n[[en:Oide]]\n[[it:Oide]]\n[[Catégorie:Humains]]\n[[Catégorie:Enfants]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages du Nouveau Monde]]"
+}

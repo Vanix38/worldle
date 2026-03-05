@@ -1,0 +1,59 @@
+{
+  "title": "Saki",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Saki",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nom": "Saki",
+    "image": "[[Fichier:Saki Anime Infobox.png|270px]]",
+    "nomj": "お咲",
+    "nomr": "''O-Saki''",
+    "nomf": "Saki",
+    "première": "[[Chapitre 940]] <small>(mentionnée)</small>{{Qref|nom=Apparition|chapitre=940|texte=Tonoyasu parle à Saki.}}; [[Épisode 937]]{{Qref|nom = e937|episode = 937|texte = Saki fait sa première apparition}}",
+    "affiliation": "[[Pays de Wa]]; [[Capitale des Fleurs#Village d.27Ebisu|Village d'Ebisu]]",
+    "occupation": "",
+    "lieuvie": "[[Capitale des Fleurs#Village d.27Ebisu|Village d'Ebisu]]{{Qref|nom=Apparition}}",
+    "statut": "Vivante"
+  },
+  "intro": ":''Pour la pirate prise en otage par l'[[équipage de Simon]], voir [[Saki (Non-Canon)]].''\n\n'''Saki'''(お咲 ''O-Saki'') est une résidente du village d'Ebisu au [[pays des Wa]].{{Qref|nom = Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Saki est une grande femme à la peau claire avec des cheveux violets coiffés en trois pointes. Elle porte un kimono bleu clair dont certaines parties ont été recousues et une ceinture orange.{{Qref|nom = e937}}\n{{Galerie2\n|Saki Portrait.png|Saki Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Elle semble amicale envers [[Tonoyasu]]{{Qref|nom = Apparition}}, comme tous les habitants du village d'ebisu, elle ne peut exprimer aucun sentiment excepté la joie.{{Qref|chapitre = 943|episode = 941|texte = Il est révélé que tous les habitants du Village d'Ebisu ont consommé des SMILE.}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano Kuni",
+      "content": "{{Main|Arc Wano Kuni}}\n[[Tonoyasu]] s'est baladé dans le village d'Ebisu pour voir comme se portaient les habitants, et a demandé à Saki comment son fils allait.{{Qref|nom = Apparition}}"
+    },
+    {
+      "level": 2,
+      "title": "Différences Manga et Anime",
+      "content": "Saki est uniquement citée dans dans le manga. Elle apparaît cependant dans l'animé, tenant son bébé dans le bras et le donnant à [[Tonoyasu]] pour qu'il le tienne."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n[[en:Saki]]\n[[it:Saki]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Utilisateurs de Smile ratés]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Féminins",
+    "Personnages de Wa",
+    "Utilisateurs de Smile ratés"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor       = F8674F\n| textcolor       = 006442\n| nom             = Saki\n| image           = [[Fichier:Saki Anime Infobox.png|270px]]\n| nomj            = お咲 \n| nomr            = ''O-Saki'' \n| nomf            = Saki\n| première        = [[Chapitre 940]] <small>(mentionnée)</small>{{Qref|nom=Apparition|chapitre=940|texte=Tonoyasu parle à Saki.}}; [[Épisode 937]]{{Qref|nom = e937|episode = 937|texte = Saki fait sa première apparition}}\n| affiliation     = [[Pays de Wa]]; [[Capitale des Fleurs#Village d.27Ebisu|Village d'Ebisu]]\n| occupation      = \n| lieuvie         = [[Capitale des Fleurs#Village d.27Ebisu|Village d'Ebisu]]{{Qref|nom=Apparition}}\n| statut          = Vivante\n}}\n\n:''Pour la pirate prise en otage par l'[[équipage de Simon]], voir [[Saki (Non-Canon)]].''\n\n'''Saki'''(お咲 ''O-Saki'') est une résidente du village d'Ebisu au [[pays des Wa]].{{Qref|nom = Apparition}}\n\n==Apparence==\nSaki est une grande femme à la peau claire avec des cheveux violets coiffés en trois pointes. Elle porte un kimono bleu clair dont certaines parties ont été recousues et une ceinture orange.{{Qref|nom = e937}}\n{{Galerie2\n|Saki Portrait.png|Saki Portrait\n}}\n==Personnalité==\nElle semble amicale envers [[Tonoyasu]]{{Qref|nom = Apparition}}, comme tous les habitants du village d'ebisu, elle ne peut exprimer aucun sentiment excepté la joie.{{Qref|chapitre = 943|episode = 941|texte = Il est révélé que tous les habitants du Village d'Ebisu ont consommé des SMILE.}}\n\n==Histoire==\n===Arc Wano Kuni===\n{{Main|Arc Wano Kuni}}\n[[Tonoyasu]] s'est baladé dans le village d'Ebisu pour voir comme se portaient les habitants, et a demandé à Saki comment son fils allait.{{Qref|nom = Apparition}}\n\n==Différences Manga et Anime==\nSaki est uniquement citée dans dans le manga. Elle apparaît cependant dans l'animé, tenant son bébé dans le bras et le donnant à [[Tonoyasu]] pour qu'il le tienne.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{PaysDeWa}}\n[[en:Saki]]\n[[it:Saki]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Utilisateurs de Smile ratés]]"
+}

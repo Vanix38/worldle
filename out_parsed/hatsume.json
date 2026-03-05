@@ -1,0 +1,72 @@
+{
+  "title": "Hatsume",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Hatsume",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nomimage": "Hatsume",
+    "nomj": "初芽",
+    "nomr": "''Hatsume''",
+    "nomf": "",
+    "première": "[[Chapitre 951]] ; [[Épisode 951]]{{Qref|nom=c951|tome=94|chapitre=951|episode=994|texte=Hatsume fait ses débuts avec le Mimawarigumi.}}",
+    "affiliation": "[[Mimawarigumi]] <small>(anciennement)</small> <br>[[Pays de Wa]]{{Qref|nom=c986|tome=98|chapitre=958|episode=995|texte=}} <br>[[L'Équipage aux Cent Bêtes]]",
+    "occupation": "[[Samouraï]] <br>[[Pirate]]",
+    "statut": "Vivante",
+    "voj": "",
+    "vof": "",
+    "nom": "Hatsume}"
+  },
+  "intro": "'''Hatsume''' {{Qref|nom=vivre|databook=vivre|page=1391|texte=Diverses informations sur Hatsume sont données.}}est un samouraï et un membre de l'ancien [[Mimawarigumi]], un pirate dans les rangs des Pirates aux Cents Bêtes.{{Qref|nom=c951}}{{Qref|nom=c986}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Hatsume est une petite femme aux longs cheveux blonds attachés en deux queues de cheval à fleurs rouges. Elle porte un masque rouge sur le visage, ainsi qu'un kimono rouge avec des motifs de fleurs et de feuilles et une cape blanche.{{Qref|nom=c951}}\n\n{{Galerie2|position=center|width=120|height=120\n|Hatsume Anime Concept Art.png|Concept Art de Hatsume pour l'anime\n|Hatsume Portrait.png|Hatsume Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On sait peu de choses sur la personnalité d'Hatsume. Elle était vraisemblablement fidèle à Kurozumi Orochi jusqu'à la mort apparente de ce dernier, mais n'avait aucun problème à faire défection chez les Pirates aux Cents Bêtes par la suite, malgré ce que prévoyait le code d'honneur des samouraïs. Elle a été montrée avec une expression maussade suite à cet événement.{{Qref|nom=c986}}"
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "En tant que membre du Mimawarigumi, Hatsume est vraisemblablement un samouraï et un combattant compétent, bien que peu de ses capacités aient été vues."
+    },
+    {
+      "level": 3,
+      "title": "Armes",
+      "content": "Hatsume brandit un katana doté d'une garde circulaire. On lui a montré qu'elle le brandissait uniquement avec sa main droite.{{Qref|nom=c994|tome=100|chapitre=994|episode=1006|texte=}}"
+    },
+    {
+      "level": 3,
+      "title": "Arc Wano",
+      "content": "Après que les Pirates du Chapeau de Paille aient déclenché des violences dans les rues de la capitale des fleurs lors de l'exécution de Shimotsuki Yasuie, les Mimawarigumi ont été envoyés pour patrouiller dans la ville.{{Qref|nom=c951}}\n\nUne semaine plus tard, les Mimawarigumi accompagnèrent Orochi à Onigashima pour célébrer le Festival du Feu. Cependant, Orochi serait tué par Kaidou dans le cadre du plan de Kaidou visant à reprendre Wano. L'Empereur donna aux subordonnés d'Orochi le choix entre promettre fidélité ou combattre ; Hotei a immédiatement promis le soutien des Mimawarigumi sans dissident.{{Qref|nom=c986}}\n\nLes festivités ont été interrompues par l'invasion de l'Alliance Ninja-Pirate-Mink-Samurai. Le Mimawarigumi affrontait Hyogoro, un ancien patron yakuza qui avait retrouvé ses anciennes forces. Garudan, Hotei et plusieurs de ses compagnons l'ont chargé, mais Hyogoro les a rapidement tous abattus d'un seul coup.{{Qref|nom=c1006|tome=100|chapitre=1006|episode=1022|texte=}}{{Qref|nom=c1007|tome=100|chapitre=1007|episode=1023|texte=}}"
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "*Elle porte le nom de [https://en.wikipedia.org/wiki/Hatsume_no_Tsubone Hatsume no Tsubone], une kunoichi fictive du roman historique Sekigahara de Ryōtarō Shiba."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{PaysDeWa}}\n{{EquipageKaido}}\n[[en:Hatsume]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Samourais]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Équipage aux Cent Bêtes]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+    }
+  ],
+  "categories": [
+    "Humains",
+    "Personnages Féminins",
+    "Samourais",
+    "Antagonistes Saga Pays des Wa",
+    "Équipage aux Cent Bêtes",
+    "Subordonnés de la Famille Kurozumi"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = F8674F\n| textcolor         = 006442\n| nomimage          = Hatsume\n| nomj              = 初芽\n| nomr              = ''Hatsume''\n| nomf              = \n| première          = [[Chapitre 951]] ; [[Épisode 951]]{{Qref|nom=c951|tome=94|chapitre=951|episode=994|texte=Hatsume fait ses débuts avec le Mimawarigumi.}}\n| affiliation       = [[Mimawarigumi]] <small>(anciennement)</small> <br>[[Pays de Wa]]{{Qref|nom=c986|tome=98|chapitre=958|episode=995|texte=}} <br>[[L'Équipage aux Cent Bêtes]]\n| occupation        = [[Samouraï]] <br>[[Pirate]]\n| statut            = Vivante\n| voj               = \n| vof               = \n|nom=Hatsume}}\n\n'''Hatsume''' {{Qref|nom=vivre|databook=vivre|page=1391|texte=Diverses informations sur Hatsume sont données.}}est un samouraï et un membre de l'ancien [[Mimawarigumi]], un pirate dans les rangs des Pirates aux Cents Bêtes.{{Qref|nom=c951}}{{Qref|nom=c986}}\n\n==Apparence==\nHatsume est une petite femme aux longs cheveux blonds attachés en deux queues de cheval à fleurs rouges. Elle porte un masque rouge sur le visage, ainsi qu'un kimono rouge avec des motifs de fleurs et de feuilles et une cape blanche.{{Qref|nom=c951}}\n\n{{Galerie2|position=center|width=120|height=120\n|Hatsume Anime Concept Art.png|Concept Art de Hatsume pour l'anime\n|Hatsume Portrait.png|Hatsume Portrait\n}}\n\n==Personnalité==\nOn sait peu de choses sur la personnalité d'Hatsume. Elle était vraisemblablement fidèle à Kurozumi Orochi jusqu'à la mort apparente de ce dernier, mais n'avait aucun problème à faire défection chez les Pirates aux Cents Bêtes par la suite, malgré ce que prévoyait le code d'honneur des samouraïs. Elle a été montrée avec une expression maussade suite à cet événement.{{Qref|nom=c986}}\n\n==Aptitudes et compétences==\nEn tant que membre du Mimawarigumi, Hatsume est vraisemblablement un samouraï et un combattant compétent, bien que peu de ses capacités aient été vues.\n\n===Armes===\nHatsume brandit un katana doté d'une garde circulaire. On lui a montré qu'elle le brandissait uniquement avec sa main droite.{{Qref|nom=c994|tome=100|chapitre=994|episode=1006|texte=}}\n\n==Histoire==\n===Arc Wano===\nAprès que les Pirates du Chapeau de Paille aient déclenché des violences dans les rues de la capitale des fleurs lors de l'exécution de Shimotsuki Yasuie, les Mimawarigumi ont été envoyés pour patrouiller dans la ville.{{Qref|nom=c951}}\n\nUne semaine plus tard, les Mimawarigumi accompagnèrent Orochi à Onigashima pour célébrer le Festival du Feu. Cependant, Orochi serait tué par Kaidou dans le cadre du plan de Kaidou visant à reprendre Wano. L'Empereur donna aux subordonnés d'Orochi le choix entre promettre fidélité ou combattre ; Hotei a immédiatement promis le soutien des Mimawarigumi sans dissident.{{Qref|nom=c986}}\n\nLes festivités ont été interrompues par l'invasion de l'Alliance Ninja-Pirate-Mink-Samurai. Le Mimawarigumi affrontait Hyogoro, un ancien patron yakuza qui avait retrouvé ses anciennes forces. Garudan, Hotei et plusieurs de ses compagnons l'ont chargé, mais Hyogoro les a rapidement tous abattus d'un seul coup.{{Qref|nom=c1006|tome=100|chapitre=1006|episode=1022|texte=}}{{Qref|nom=c1007|tome=100|chapitre=1007|episode=1023|texte=}}\n\n==Futilité==\n*Elle porte le nom de [https://en.wikipedia.org/wiki/Hatsume_no_Tsubone Hatsume no Tsubone], une kunoichi fictive du roman historique Sekigahara de Ryōtarō Shiba.\n\n==Références==\n<references />\n\n==Navigation du site==\n{{PaysDeWa}}\n{{EquipageKaido}}\n[[en:Hatsume]]\n[[Catégorie:Humains]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Samourais]]\n[[Catégorie:Antagonistes Saga Pays des Wa]]\n[[Catégorie:Équipage aux Cent Bêtes]]\n[[Catégorie:Subordonnés de la Famille Kurozumi]]"
+}

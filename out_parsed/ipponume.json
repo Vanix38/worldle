@@ -1,0 +1,74 @@
+{
+  "title": "Ipponume",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Ipponume",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "007FFF",
+    "textcolor": "FFFFFF",
+    "nom": "Ippon Ume",
+    "nomimage": "Ippon Ume",
+    "nomj": "いっぽんウメ",
+    "nomr": "Ippon'ume",
+    "nomf": "Ippon Ume",
+    "première": "[[Chapitre 97]] ; [[Épisode 49]]{{Qref|nom=Apparition|tome=11|chapitre=97|episode=49|texte=Ippon-Matsu apparaît.}}",
+    "lieuvie": "[[Loguetown]]",
+    "occupation": "Vendeuse de [[Sabres]]",
+    "naissance": "1<sup>er</sup> décembre{{Qref|nom=Vivre|databook=vivre|excard=0119|texte=L'âge et le nom d'Ipponume sont révélés.}}",
+    "voj": "",
+    "vof": "[[w:c:fr.wikidoublage:Ioanna Gkizas|Ioanna Gkizas]]",
+    "statut": "Vivante"
+  },
+  "intro": "'''Ippon Ume'''{{Qref|nom=Vivre}} (いっぽんウメ, ''Ippon'ume'') est la propriétaire d'une boutique de vente d'armes à [[Loguetown]] avec son mari [[Ippon Matsu]].{{Qref|nom=Apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Ippon Ume est une grande femme avec des cheveux courts orangés. Elle a un bonnet mauve et un haut de couleur clair.{{Qref|nom=Apparition}}\n\nAprès l'ellipse, elle porte maintenant un bonnet sombre avec des fleurs sur la tête. Elle a un polo clair, une veste sombre et une jupe claire.{{Qref|nom=c630|tome=11|chapitre=630|texte=Ippon-Matsu et Ipponume reçoivent des nouvelles de Luffy et son équipage.}}"
+    },
+    {
+      "level": 3,
+      "title": "Galerie",
+      "content": "{{Galerie2|Ipponume Portrait.png|Portrait de Ipponume|Ipponume Anime Concept Art.png|Concept Art de Ipponume pour l'anime}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité et relations",
+      "content": "Elle est assez honnête, ayant crié contre [[Ippon Matsu]] pour qu'il se débarrasse du [[Sandai Kitetsu]] dont la malédiction lui faisait peur."
+    },
+    {
+      "level": 3,
+      "title": "[[Ippon Matsu]]",
+      "content": "Ippon Matsu semble l'aimer, l'appelant par des mots doux et n'hésitant pas à nettoyer leur salle de bain. Ils paraissent avoir une bonne relation ensemble."
+    },
+    {
+      "level": 3,
+      "title": "[[Arc Loguetown]]",
+      "content": "Lorsque [[Zoro]] et [[Tashigi]] sont arrivés dans la boutique de son mari, Ippon Matsu a refusé de vendre à Zoro le [[Sandai Kitetsu]], ne souhaitant pas apporter le malheur sur lui. Ipponume lui a alors frappé l'arrière du crâne et a tenté de le persuader de se débarrasser de cette épée, que ni elle ni son mari n'aimaient. Lorsque Zoro a pris le Sandai Kitetsu, celui-ci lui a alors offert le [[Yubashiri]] et sa femme l'a ensuite critiqué, car c'étaient des épées de valeur. Elle lui a ensuite ordonné de nettoyer la salle de bain.{{Qref|nom=Apparition}}"
+    },
+    {
+      "level": 3,
+      "title": "Deux ans plus tard",
+      "content": "Deux ans plus tard, Ippon Matsu est vu nettoyant sa salle de bain. Sur un mur se trouve un poster agrandi de [[Zoro]], dont il parle fièrement à sa femme.{{Qref|nom=c630}}"
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du site",
+      "content": "{{CitoyensEastBlue}}\n[[en:Ipponume]]\n[[it:Ipponume]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Commerçants]]\n[[Catégorie:Personnages de Loguetown]]\n[[Catégorie:Supporters du Chapeau de Paille]]\n[[Catégorie:Personnages d'East Blue]]\n[[Catégorie:Personnages introduits dans une Mini-Aventure]]"
+    }
+  ],
+  "categories": [
+    "Personnages Féminins",
+    "Humains",
+    "Commerçants",
+    "Personnages de Loguetown",
+    "Supporters du Chapeau de Paille",
+    "Personnages d'East Blue",
+    "Personnages introduits dans une Mini-Aventure"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = 007FFF\n| textcolor         = FFFFFF\n| nom               = Ippon Ume\n| nomimage          = Ippon Ume\n| nomj              = いっぽんウメ\n| nomr              = Ippon'ume\n| nomf              = Ippon Ume\n| première          = [[Chapitre 97]] ; [[Épisode 49]]{{Qref|nom=Apparition|tome=11|chapitre=97|episode=49|texte=Ippon-Matsu apparaît.}}\n| lieuvie           = [[Loguetown]]\n| occupation        = Vendeuse de [[Sabres]]\n| naissance         = 1<sup>er</sup> décembre{{Qref|nom=Vivre|databook=vivre|excard=0119|texte=L'âge et le nom d'Ipponume sont révélés.}}\n| voj               = \n| vof               = [[w:c:fr.wikidoublage:Ioanna Gkizas|Ioanna Gkizas]]\n| statut            = Vivante\n}}\n'''Ippon Ume'''{{Qref|nom=Vivre}} (いっぽんウメ, ''Ippon'ume'') est la propriétaire d'une boutique de vente d'armes à [[Loguetown]] avec son mari [[Ippon Matsu]].{{Qref|nom=Apparition}}\n\n==Apparence==\nIppon Ume est une grande femme avec des cheveux courts orangés. Elle a un bonnet mauve et un haut de couleur clair.{{Qref|nom=Apparition}}\n\nAprès l'ellipse, elle porte maintenant un bonnet sombre avec des fleurs sur la tête. Elle a un polo clair, une veste sombre et une jupe claire.{{Qref|nom=c630|tome=11|chapitre=630|texte=Ippon-Matsu et Ipponume reçoivent des nouvelles de Luffy et son équipage.}}\n\n===Galerie===\n{{Galerie2|Ipponume Portrait.png|Portrait de Ipponume|Ipponume Anime Concept Art.png|Concept Art de Ipponume pour l'anime}}\n\n==Personnalité et relations==\nElle est assez honnête, ayant crié contre [[Ippon Matsu]] pour qu'il se débarrasse du [[Sandai Kitetsu]] dont la malédiction lui faisait peur.\n\n===[[Ippon Matsu]]===\nIppon Matsu semble l'aimer, l'appelant par des mots doux et n'hésitant pas à nettoyer leur salle de bain. Ils paraissent avoir une bonne relation ensemble.\n\n== Histoire==\n===[[Arc Loguetown]]===\nLorsque [[Zoro]] et [[Tashigi]] sont arrivés dans la boutique de son mari, Ippon Matsu a refusé de vendre à Zoro le [[Sandai Kitetsu]], ne souhaitant pas apporter le malheur sur lui. Ipponume lui a alors frappé l'arrière du crâne et a tenté de le persuader de se débarrasser de cette épée, que ni elle ni son mari n'aimaient. Lorsque Zoro a pris le Sandai Kitetsu, celui-ci lui a alors offert le [[Yubashiri]] et sa femme l'a ensuite critiqué, car c'étaient des épées de valeur. Elle lui a ensuite ordonné de nettoyer la salle de bain.{{Qref|nom=Apparition}}\n\n===Deux ans plus tard===\nDeux ans plus tard, Ippon Matsu est vu nettoyant sa salle de bain. Sur un mur se trouve un poster agrandi de [[Zoro]], dont il parle fièrement à sa femme.{{Qref|nom=c630}}\n\n==Références==\n<references />\n\n==Navigation du site==\n{{CitoyensEastBlue}}\n[[en:Ipponume]]\n[[it:Ipponume]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Commerçants]]\n[[Catégorie:Personnages de Loguetown]]\n[[Catégorie:Supporters du Chapeau de Paille]]\n[[Catégorie:Personnages d'East Blue]]\n[[Catégorie:Personnages introduits dans une Mini-Aventure]]"
+}

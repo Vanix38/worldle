@@ -1,0 +1,85 @@
+{
+  "title": "Emma",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Emma",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "B7410E",
+    "textcolor": "080909",
+    "nom": "",
+    "image": "{{Manga-Anime",
+    "nomj": "エマ",
+    "nomr": "''Ema''",
+    "nomf": "Emma",
+    "première": "[[Chapitre 1071]]; [[Épisode 1112]]{{Qref|nom=c1071|chapitre=1071|page=|episode=1112|texte=Emma apparaît.}}",
+    "affiliation": "[[L'Équipage de Kid]]",
+    "occupation": "[[Pirate]]",
+    "statut": "Vivante",
+    "voj": "Eriko Kadokura",
+    "vof": "}"
+  },
+  "intro": "'''Emma'''{{Qref|nom = sbs102|sbs = 102|texte = Les noms de plusieurs membres de [[l'Équipage de Kid]] sont donnés.}} est une pirate, membre de [[l'Équipage de Kid]].",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "C'est une femme mince aux cheveux clairs coiffés en crête avec deux longues mèches de chaque côté de son visage et une frange descendant jusqu'aux yeux. Elle porte une veste de motard avec de nombreuses poches, une chemise à col roulé de couleur claire, une minijupe et des talons.\n{{Galerie2|position=center|width=120|height=120\n|Emma Portrait.png|Emma Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "On ne sait pas grand-chose sur la personnalité d'Emma."
+    },
+    {
+      "level": 2,
+      "title": "Aptitudes et compétences",
+      "content": "Faisant partie de l'équipage dirigé par un membre de la pire génération, elle est probablement forte."
+    },
+    {
+      "level": 3,
+      "title": "Passé",
+      "content": "À un certain moment, Emma a rejoint [[l'Équipage de Kid]]."
+    },
+    {
+      "level": 3,
+      "title": "Arc Dressrosa",
+      "content": "Suite à l'alliance avec les Pirates On-Air et les Pirates de Hawkins, célébrez avec tous les composants. Cependant, les célébrations sont interrompues lorsque Kaidou s'écrase sur l'île et capture les Pirates de Kid, les emmenant au pays de Wa, où Emma est forcée de se soumettre aux ordres de Kurozumi Orochi.{{Qref|nom=c954|tome=95|chapitre=954|episode=955|texte=Hawkins le révèle à Law.}}"
+    },
+    {
+      "level": 3,
+      "title": "= [[Arc Pays des Wa]] =",
+      "content": "Le soir du festival du feu, il monte à bord du Victoria Punk avec lequel il atteint le port de Tokage, où il retrouve les alliés désireux de vaincre Kaidou puis de débarquer sur Onigashima.\n\nUne semaine après la bataille qui les a vus victorieux, les réparations des navires et du général Franky sont terminées au port de Tokage. Bepo, Killer et Bubblegum sont étonnés par ce dernier, mais Kidd leur conseille de ne pas baisser leur garde jusqu'à leur départ; Killer ajoute que la nouvelle de ce qui s'est passé se répandra bientôt dans le monde entier et que les combattants impliqués remplaceront les empereurs comme cibles. Alors qu'ils spéculent sur ce qui pourrait se passer à l'extérieur, Apoo les rejoint avec le dernier journal, annonçant les nouveaux empereurs et les nouvelles primes. Après avoir lu, son équipage applaudit, mais Kidd s'éloigne du port, alors Apoo demande où il est parti et Killer suppose qu'il se dirige vers la capitale des fleurs. Les pirates décident donc de le suivre puisqu'une fête se déroule dans la ville, à laquelle ils participent alors.\n\nQuelques jours plus tard, l'équipage retourne au port de Tokage pour préparer le départ et charger le navire. Ce dernier quitte alors le pays de Wa en descendant la cascade."
+    },
+    {
+      "level": 3,
+      "title": "= Arc Egg Head =",
+      "content": "Le Victoria Punk arrive à destination d'Elbaf.{{Qref|nom = c1071}}\n\nLà, cependant, un combat s'ensuivit contre les Pirates du Roux, Shanks éliminant à lui seul Kid et Killer. Ensuite, les pirates de Kid ont été coulés dans la mer par [[Dorry]] et [[Brogy]] et ainsi détruits.{{Qref|nom=c1079|chapitre=1079|episode=|texte =}}"
+    },
+    {
+      "level": 2,
+      "title": "Batailles Principales",
+      "content": "* L'Équipage de Kid vs [[L'Équipage aux Cent Bêtes]]"
+    },
+    {
+      "level": 2,
+      "title": "Futilités",
+      "content": "*Elle est la seule membre des Pirates de Kidd à ne pas apparaître dans le manga, uniquement dans un prototype du SBS 102, puis fait ses débuts dans le manga au chapitre 1071."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references/>"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{Équipage Kid Navibox}}\n[[ca:Emma]]\n[[en:Emma]]\n[[es:Emma]]\n[[it:Emma]]\n[[Catégorie:Équipage de Kid]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Pirates]]"
+    }
+  ],
+  "categories": [
+    "Équipage de Kid",
+    "Personnages Féminins",
+    "Humains",
+    "Pirates"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor         = B7410E\n| textcolor         = 080909\n| nom               = \n| image = {{Manga-Anime\n|[[Fichier:Emma Anime Infobox.png|270px]]\n|[[Fichier:Emma Manga Infobox.png|270px]]}}\n| nomj              = エマ\n| nomr              = ''Ema''\n| nomf              = Emma\n| première          = [[Chapitre 1071]]; [[Épisode 1112]]{{Qref|nom=c1071|chapitre=1071|page=|episode=1112|texte=Emma apparaît.}}\n| affiliation       = [[L'Équipage de Kid]]\n| occupation        = [[Pirate]]\n| statut            = Vivante\n| voj               = Eriko Kadokura\n| vof               = }}\n'''Emma'''{{Qref|nom = sbs102|sbs = 102|texte = Les noms de plusieurs membres de [[l'Équipage de Kid]] sont donnés.}} est une pirate, membre de [[l'Équipage de Kid]]. \n\n== Apparence ==\nC'est une femme mince aux cheveux clairs coiffés en crête avec deux longues mèches de chaque côté de son visage et une frange descendant jusqu'aux yeux. Elle porte une veste de motard avec de nombreuses poches, une chemise à col roulé de couleur claire, une minijupe et des talons.\n{{Galerie2|position=center|width=120|height=120\n|Emma Portrait.png|Emma Portrait\n}}\n\n== Personnalité ==\nOn ne sait pas grand-chose sur la personnalité d'Emma.\n\n== Aptitudes et compétences ==\nFaisant partie de l'équipage dirigé par un membre de la pire génération, elle est probablement forte.\n\n== Histoire ==\n===Passé===\nÀ un certain moment, Emma a rejoint [[l'Équipage de Kid]].\n\n=== Arc Dressrosa ===\nSuite à l'alliance avec les Pirates On-Air et les Pirates de Hawkins, célébrez avec tous les composants. Cependant, les célébrations sont interrompues lorsque Kaidou s'écrase sur l'île et capture les Pirates de Kid, les emmenant au pays de Wa, où Emma est forcée de se soumettre aux ordres de Kurozumi Orochi.{{Qref|nom=c954|tome=95|chapitre=954|episode=955|texte=Hawkins le révèle à Law.}}\n\n==== [[Arc Pays des Wa]] ====\nLe soir du festival du feu, il monte à bord du Victoria Punk avec lequel il atteint le port de Tokage, où il retrouve les alliés désireux de vaincre Kaidou puis de débarquer sur Onigashima.\n\nUne semaine après la bataille qui les a vus victorieux, les réparations des navires et du général Franky sont terminées au port de Tokage. Bepo, Killer et Bubblegum sont étonnés par ce dernier, mais Kidd leur conseille de ne pas baisser leur garde jusqu'à leur départ; Killer ajoute que la nouvelle de ce qui s'est passé se répandra bientôt dans le monde entier et que les combattants impliqués remplaceront les empereurs comme cibles. Alors qu'ils spéculent sur ce qui pourrait se passer à l'extérieur, Apoo les rejoint avec le dernier journal, annonçant les nouveaux empereurs et les nouvelles primes. Après avoir lu, son équipage applaudit, mais Kidd s'éloigne du port, alors Apoo demande où il est parti et Killer suppose qu'il se dirige vers la capitale des fleurs. Les pirates décident donc de le suivre puisqu'une fête se déroule dans la ville, à laquelle ils participent alors.\n\nQuelques jours plus tard, l'équipage retourne au port de Tokage pour préparer le départ et charger le navire. Ce dernier quitte alors le pays de Wa en descendant la cascade.\n\n\n==== Arc Egg Head ====\nLe Victoria Punk arrive à destination d'Elbaf.{{Qref|nom = c1071}}\n\nLà, cependant, un combat s'ensuivit contre les Pirates du Roux, Shanks éliminant à lui seul Kid et Killer. Ensuite, les pirates de Kid ont été coulés dans la mer par [[Dorry]] et [[Brogy]] et ainsi détruits.{{Qref|nom=c1079|chapitre=1079|episode=|texte =}}\n\n== Batailles Principales ==\n* L'Équipage de Kid vs [[L'Équipage aux Cent Bêtes]]\n\n== Futilités ==\n*Elle est la seule membre des Pirates de Kidd à ne pas apparaître dans le manga, uniquement dans un prototype du SBS 102, puis fait ses débuts dans le manga au chapitre 1071.\n\n== Références ==\n<references/>\n\n==Navigation du Site==\n{{Équipage Kid Navibox}}\n[[ca:Emma]]\n[[en:Emma]]\n[[es:Emma]]\n[[it:Emma]]\n[[Catégorie:Équipage de Kid]]\n[[Catégorie:Personnages Féminins]]\n[[Catégorie:Humains]]\n[[Catégorie:Pirates]]"
+}

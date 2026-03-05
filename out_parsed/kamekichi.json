@@ -1,0 +1,58 @@
+{
+  "title": "Kamekichi",
+  "source_page_url": "https://onepiece.fandom.com/fr/wiki/Kamekichi",
+  "api_endpoint": "https://onepiece.fandom.com/fr/api.php",
+  "infobox": {
+    "backcolor": "F8674F",
+    "textcolor": "006442",
+    "nomimage": "Kamekichi",
+    "nomj": "カメ吉",
+    "nomr": "''Kamekichi''",
+    "nomf": "N/A",
+    "première": "[[Chapitre 926]], [[Épisode 918]] {{Qref|nom=apparition|chapitre=926|episode = 918|texte=Kamekichi fait sa première apparition.}}",
+    "affiliation": "[[Pays de Wa]]",
+    "occupation": "Livreur de Journaux",
+    "statut": "Vivant",
+    "voj": "Shinichi Yamada"
+  },
+  "intro": "'''Kamekichi'''{{Qref|nom=Nom|databook=vivre card|page=1310|texte=Kamekichi est nommé.}} est un livreur de journaux de la [[Capitale des Fleurs]] qui rapporte le reportage sur [[Killer|Kamazo l'Assassin]] et [[Denjiro|Ushimitsu Kozo]].{{Qref|nom=apparition}}",
+  "sections": [
+    {
+      "level": 2,
+      "title": "Apparence",
+      "content": "Kamekichi est un jeune homme aux cheveux noirs qu'il ramène en une courte queue de cheval. Il porte un kimono léger.\n{{Galerie2|position=center|width=120|height=120\n|Kamekichi Portrait.png|Kamekichi Portrait\n}}"
+    },
+    {
+      "level": 2,
+      "title": "Personnalité",
+      "content": "Kamekichi est extrêmement enthousiaste et passionné par son travail. Il a même annoncé les dernières nouvelles en chantant et a suscité la curiosité en posant des questions aux auditeurs, rendant les nouvelles encore plus mystérieuses et dignes d'être lues."
+    },
+    {
+      "level": 3,
+      "title": "Arc Pays des Wa",
+      "content": "{{Main|Arc Pays des Wa}}\nAlors qu'Usopp et quelques pirates de l'Équipage du Heart diffusaient le message secret de la rébellion, Kamekichi vendait des journaux dans la capitale des fleurs et chantait les gros titres à la foule, ce qui incitait les gens à se tourner vers lui. Entre autres choses, il a rapporté que des fantômes avaient de nouveau été aperçus dans le cimetière nord et que le garçon Ushimitsu avait encore frappé."
+    },
+    {
+      "level": 2,
+      "title": "Futilité",
+      "content": "* Une partie du nom de Kamekichi signifie tortue (カメ, ''kame''), faisant probablement référence à sa coupe de cheveux rond."
+    },
+    {
+      "level": 2,
+      "title": "Références",
+      "content": "<references />"
+    },
+    {
+      "level": 2,
+      "title": "Navigation du Site",
+      "content": "{{PaysDeWa}}\n{{Journalistes Navibox}}\n[[en:Kamekichi]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Reporters]]"
+    }
+  ],
+  "categories": [
+    "Personnages Masculins",
+    "Personnages de Wa",
+    "Humains",
+    "Reporters"
+  ],
+  "raw_wikitext": "{{Char box\n| backcolor       = F8674F\n| textcolor       = 006442\n| nomimage          = Kamekichi\n| nomj            = カメ吉\n| nomr            = ''Kamekichi''\n| nomf            = N/A\n| première        = [[Chapitre 926]], [[Épisode 918]] {{Qref|nom=apparition|chapitre=926|episode = 918|texte=Kamekichi fait sa première apparition.}}\n| affiliation     = [[Pays de Wa]]\n| occupation      = Livreur de Journaux\n| statut          = Vivant\n| voj             = Shinichi Yamada\n}}\n'''Kamekichi'''{{Qref|nom=Nom|databook=vivre card|page=1310|texte=Kamekichi est nommé.}} est un livreur de journaux de la [[Capitale des Fleurs]] qui rapporte le reportage sur [[Killer|Kamazo l'Assassin]] et [[Denjiro|Ushimitsu Kozo]].{{Qref|nom=apparition}}\n\n==Apparence==\nKamekichi est un jeune homme aux cheveux noirs qu'il ramène en une courte queue de cheval. Il porte un kimono léger.\n{{Galerie2|position=center|width=120|height=120\n|Kamekichi Portrait.png|Kamekichi Portrait\n}}\n\n==Personnalité==\nKamekichi est extrêmement enthousiaste et passionné par son travail. Il a même annoncé les dernières nouvelles en chantant et a suscité la curiosité en posant des questions aux auditeurs, rendant les nouvelles encore plus mystérieuses et dignes d'être lues.\n\n==Histoire==\n===Arc Pays des Wa===\n{{Main|Arc Pays des Wa}}\nAlors qu'Usopp et quelques pirates de l'Équipage du Heart diffusaient le message secret de la rébellion, Kamekichi vendait des journaux dans la capitale des fleurs et chantait les gros titres à la foule, ce qui incitait les gens à se tourner vers lui. Entre autres choses, il a rapporté que des fantômes avaient de nouveau été aperçus dans le cimetière nord et que le garçon Ushimitsu avait encore frappé.\n\n==Différences Manga et Anime==\n\n==Futilité==\n* Une partie du nom de Kamekichi signifie tortue (カメ, ''kame''), faisant probablement référence à sa coupe de cheveux rond.\n\n==Références==\n<references />\n\n==Navigation du Site==\n{{PaysDeWa}}\n{{Journalistes Navibox}}\n[[en:Kamekichi]]\n[[Catégorie:Personnages Masculins]]\n[[Catégorie:Personnages de Wa]]\n[[Catégorie:Humains]]\n[[Catégorie:Reporters]]"
+}
