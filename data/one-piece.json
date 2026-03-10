@@ -1,6 +1,86 @@
 {
   "id": "one-piece",
   "name": "One Piece",
+  "fieldMapping": {
+    "gender": {
+      "header": "Genre",
+      "fonction": "Classique"
+    },
+    "age": {
+      "header": "Âge",
+      "fonction": "ComparaisonChiffre"
+    },
+    "bounty": {
+      "header": "Prime",
+      "fonction": "ComparaisonChiffre"
+    },
+    "arc": {
+      "header": "Première Apparition",
+      "fonction": "Comparaison",
+      "order": [
+        "Romance Dawn",
+        "Orange Town",
+        "Syrup Village",
+        "Baratie",
+        "Arlong Park",
+        "Logue Town",
+        "Reverse Mountain",
+        "Whisky Peak",
+        "Little Garden",
+        "Drum Island",
+        "Alabasta",
+        "Jaya",
+        "Skypiea",
+        "Long Ring Long Land",
+        "Water Seven",
+        "Enies Lobby",
+        "Thriller Bark",
+        "Archipel Sabaody",
+        "Amazon Lily",
+        "Impel Down",
+        "Marineford",
+        "Fishman Island",
+        "Punk Hazard",
+        "Dressrosa",
+        "Zou",
+        "Whole Cake",
+        "Wano Kuni",
+        "Egghead"
+      ]
+    },
+    "devilFruitType": {
+      "header": "Type de fruit du démon",
+      "fonction": "Classique"
+    },
+    "affiliation": {
+      "header": "Affiliation",
+      "fonction": "Classique"
+    },
+    "sub_affiliation": {
+      "header": "Sous Affiliation",
+      "fonction": "Recherche"
+    },
+    "aliases": {
+      "header": "Alias",
+      "fonction": "Recherche"
+    },
+    "origin": {
+      "header": "Origine",
+      "fonction": "Classique"
+    },
+    "haki": {
+      "header": "Haki(s) maîtrisé(s)",
+      "fonction": "Classique"
+    },
+    "size": {
+      "header": "Taille",
+      "fonction": "ComparaisonChiffre"
+    },
+    "race": {
+      "header": "Race",
+      "fonction": "Classique"
+    }
+  },
   "characters": [
     {
       "id": "absalom",
@@ -20,9 +100,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/56/Absalom_Anime_Infobox.png?cb=20180717112351&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m95",
+      "size": 195,
       "race": "Humain"
     },
     {
@@ -39,9 +118,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/13/Aisa_Anime_Post_Ellipse_Infobox.png?cb=20251207164336&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m40",
+      "size": 140,
       "race": "Humain"
     },
     {
@@ -58,9 +136,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Aladdin_Anime_Infobox.png?cb=20170528062748&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "6.27 m",
+      "size": 627,
       "race": "Sirène"
     },
     {
@@ -84,9 +161,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c0/Alber_Anime_Infobox.png?cb=20231024110105&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "6m13",
+      "size": 613,
       "race": "Lunarien"
     },
     {
@@ -106,9 +182,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/15/Alvida_Anime_Post_Ellipse_Infobox.png?cb=20200407161839&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m98",
+      "size": 198,
       "race": "Humain"
     },
     {
@@ -127,9 +202,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/04/Amazon_Manga_Post_Ellipse_Infobox.png/revision/latest?cb=20130509141839&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m20",
+      "size": 120,
       "race": "Humain"
     },
     {
@@ -149,9 +223,8 @@
       "devilFruitType": "",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e5/Baskerville_Anime_Infobox.png?cb=20140402142653&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "5m12",
+      "size": 512,
       "race": "Humain"
     },
     {
@@ -171,9 +244,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/01/Arlong_Anime_Infobox.png?cb=20170728131132&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "2m63",
+      "size": 263,
       "race": "Homme-Poisson"
     },
     {
@@ -195,9 +267,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/13/Avalo_Pizarro_Anime_Post_Ellipse_Infobox.png?cb=20200702065613&path-prefix=fr",
       "origin": "North Blue",
-      "size": "5m05",
+      "size": 505,
       "race": "Humain"
     },
     {
@@ -217,9 +288,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/da/Babe_Anime_Infobox.png?cb=20230206211206&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m18",
+      "size": 218,
       "race": "Humain"
     },
     {
@@ -237,9 +307,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Baby_5_Anime_Infobox.png?cb=20171019142817&path-prefix=fr",
       "origin": "North Blue",
-      "size": "1m81",
+      "size": 181,
       "race": "Humain"
     },
     {
@@ -268,9 +337,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Baggy_Anime_Post_Ellipse_Infobox.png?cb=20160808190200&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m92",
+      "size": 192,
       "race": "Humain"
     },
     {
@@ -296,9 +364,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/ff/Bartholomew_Kuma_Anime_Post_Ellipse_Infobox.png?cb=20190611051838&path-prefix=fr",
       "origin": "South Blue (Royaume de Sorbet)",
-      "size": "6m89",
+      "size": 689,
       "race": "Buccaneer"
     },
     {
@@ -318,9 +385,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Bartolomeo_Anime_Infobox.png?cb=20150308143535&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m20",
+      "size": 220,
       "race": "Humain"
     },
     {
@@ -344,9 +410,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/76/Basil_Hawkins_Anime_Post_Ellipse_Infobox.png?cb=20190811203444&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m10",
+      "size": 210,
       "race": "Humain"
     },
     {
@@ -368,9 +433,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Bastille_Anime_Post_Ellipse_Infobox.png?cb=20200507113940&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2.91 m",
+      "size": 291,
       "race": "Humain"
     },
     {
@@ -394,9 +458,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ae/Bellamy_Anime_Post_Ellipse_Infobox.png?cb=20170707160139&path-prefix=fr",
       "origin": "North Blue}",
-      "size": "2,40m",
+      "size": 240,
       "race": "Humain"
     },
     {
@@ -414,9 +477,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Belo_Betty_Anime_Infobox.png?cb=20250602225840&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m96",
+      "size": 196,
       "race": "Humain"
     },
     {
@@ -442,9 +504,8 @@
       "haki": [
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Bentham_Anime_Infobox.png?cb=20160829200113&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m38",
+      "size": 238,
       "race": "Humain"
     },
     {
@@ -464,9 +525,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/72/Bepo_Anime_Post_Ellipse_Infobox.png?cb=20210927133519&path-prefix=fr",
       "origin": "Zou (Principauté de Mokomo)",
-      "size": "2m40",
+      "size": 240,
       "race": "Minks"
     },
     {
@@ -485,9 +545,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Bishamon_Anime_Infobox.png?cb=20231210140231&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "1m82",
+      "size": 182,
       "race": "Humain"
     },
     {
@@ -508,9 +567,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Black_Maria_Anime_Infobox.png?cb=20210822140548&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "8m20",
+      "size": 820,
       "race": "Géant"
     },
     {
@@ -527,9 +585,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Blue_Gilly_Anime_Infobox.png?cb=20171102142956&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m14",
+      "size": 314,
       "race": "Longues-Jambes"
     },
     {
@@ -544,9 +601,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/ff/Bluejam_Anime_Infobox.png?cb=20161009205448&path-prefix=fr",
       "origin": "Royaume de Goa",
-      "size": "2m61",
+      "size": 261,
       "race": "Humain"
     },
     {
@@ -568,9 +624,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Blueno_Anime_Post_Ellipse_Infobox.png?cb=20240915064852&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m58",
+      "size": 258,
       "race": "Humain"
     },
     {
@@ -596,9 +651,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/27/Boa_Hancock_Anime_Post_Ellipse_Infobox.png?cb=20200407173612&path-prefix=fr",
       "origin": "Calm Belt (Amazon Lily)",
-      "size": "1m91",
+      "size": 191,
       "race": "Homme-Poisson"
     },
     {
@@ -618,9 +672,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1a/Boa_Marigold_Anime_Post_Ellipse_Infobox.png?cb=20180912155559&path-prefix=fr",
       "origin": "Calm Belt (Amazon Lily)",
-      "size": "4m32",
+      "size": 432,
       "race": "Humain"
     },
     {
@@ -640,9 +693,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5c/Boa_Sandersonia_Anime_Post_Ellipse_Infobox.png?cb=20131030150511&path-prefix=fr",
       "origin": "Calm Belt (Amazon Lily)",
-      "size": "4m53",
+      "size": 453,
       "race": "Humain"
     },
     {
@@ -665,9 +717,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Borsalino_Anime_Post_Ellipse_Infobox.png?cb=20250812073916&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m02",
+      "size": 302,
       "race": "Humain"
     },
     {
@@ -682,9 +733,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/53/Braham_Portrait.png/revision/latest/scale-to-width-down/120?cb=20230702171757&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m79",
+      "size": 179,
       "race": "Humain"
     },
     {
@@ -701,9 +751,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Brannew_Anime_Post_Ellipse_Infobox.png?cb=20210118100643&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m90",
+      "size": 190,
       "race": "Humain"
     },
     {
@@ -721,9 +770,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Brogy_Anime_Infobox.png?cb=20250824171258&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "21m30",
+      "size": 2130,
       "race": "Géant"
     },
     {
@@ -744,9 +792,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Brook_Anime_Post_Ellipse_Infobox.png?cb=20180717131245&path-prefix=fr",
       "origin": "West Blue",
-      "size": "2m77",
+      "size": 277,
       "race": "Humain"
     },
     {
@@ -764,9 +811,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Buchi_Anime_Infobox.png?cb=20141004173632&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m16",
+      "size": 216,
       "race": "Humain"
     },
     {
@@ -781,9 +827,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/08/Buddle_Anime_Post_Ellipse_Infobox.png?cb=20251102165025&path-prefix=fr",
       "origin": "Archipel des Orgao",
-      "size": "1m72",
+      "size": 172,
       "race": "Humain"
     },
     {
@@ -798,9 +843,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ab/Buffalo_Anime_Infobox.png?cb=20131116112510&path-prefix=fr",
       "origin": "North Blue",
-      "size": "6m96",
+      "size": 696,
       "race": "Humain"
     },
     {
@@ -810,16 +854,17 @@
         "Cabaji l'Acrobate"
       ],
       "affiliation": "Cross Guild",
-      "sub_affiliation": ["Équipage du Clown"],
+      "sub_affiliation": [
+        "Équipage du Clown"
+      ],
       "age": 32,
       "arc": "Orange Town",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Cabaji_Anime_Post_Ellipse_Infobox.png?cb=20200407161739&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m08",
+      "size": 208,
       "race": "Humain"
     },
     {
@@ -831,16 +876,19 @@
         "Fire Tank"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Équipage du Fire Tank","Supernova","Génération Terrible"],
+      "sub_affiliation": [
+        "Équipage du Fire Tank",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 40,
       "arc": "Archipel Sabaody",
       "bounty": 350000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8a/Capone_Bege_Anime_Post_Ellipse_Infobox.png?cb=20160911170408&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m66",
+      "size": 166,
       "race": "Humain"
     },
     {
@@ -860,9 +908,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Caramel_Anime_Infobox.png?cb=20220706140118&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m85",
+      "size": 185,
       "race": "Humain"
     },
     {
@@ -883,9 +930,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/76/Caribou_Anime_Infobox.png?cb=20180731122126&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m28",
+      "size": 228,
       "race": "Humain"
     },
     {
@@ -896,16 +942,17 @@
         "Oiseau Royal"
       ],
       "affiliation": "Tribu des Minks",
-      "sub_affiliation": ["Unité des mousquetaires"],
+      "sub_affiliation": [
+        "Unité des mousquetaires"
+      ],
       "age": 15,
       "arc": "Zou",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Carrot_Anime_Infobox.png?cb=20170430123630&path-prefix=fr",
       "origin": "Zou (Principauté de Mokomo)",
-      "size": "1m61",
+      "size": 161,
       "race": "Mink"
     },
     {
@@ -915,16 +962,17 @@
         "La Chasseresse de Nouvelle Lune"
       ],
       "affiliation": "Équipage de Barbe Noire",
-      "sub_affiliation": ["Impel Down"],
+      "sub_affiliation": [
+        "Impel Down"
+      ],
       "age": 34,
       "arc": "Marineford",
       "bounty": 100000000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Catarina_Devon_Anime_Post_Ellipse_Infobox.png?cb=20200114121351&path-prefix=fr",
       "origin": "South Blue",
-      "size": "3m61",
+      "size": 361,
       "race": "Humain"
     },
     {
@@ -936,7 +984,9 @@
         "Hakuba"
       ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
-      "sub_affiliation": ["Équipage de Cavendish"],
+      "sub_affiliation": [
+        "Équipage de Cavendish"
+      ],
       "age": 26,
       "arc": "Dressrosa",
       "bounty": 330000000,
@@ -946,9 +996,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Cavendish_Anime_Infobox.png?cb=20180513130500&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m08",
+      "size": 208,
       "race": "Humain"
     },
     {
@@ -959,16 +1008,17 @@
         "Gangster Gastino"
       ],
       "affiliation": "Don Quichotte Family",
-      "sub_affiliation": ["Mads"],
+      "sub_affiliation": [
+        "Mads"
+      ],
       "age": 55,
       "arc": "Punk Hazard",
       "bounty": 300000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/53/C%C3%A9sar_Clown_Anime_Infobox.png?cb=20180509120637&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m09",
+      "size": 309,
       "race": "Humain"
     },
     {
@@ -985,9 +1035,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Chadros_Higelyges_Anime_Post_Ellipse_Infobox.png?cb=20171020195926&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "6m91",
+      "size": 691,
       "race": "Humain"
     },
     {
@@ -995,16 +1044,17 @@
       "name": "Charlotte Brûlée",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 43,
       "arc": "Whole Cake",
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Charlotte_Br%C3%BBl%C3%A9e_Anime_Infobox.png?cb=20170611175554&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "3m50",
+      "size": 350,
       "race": "Minks"
     },
     {
@@ -1012,16 +1062,18 @@
       "name": "Charlotte Chiffon",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte", "Équipage du Fire Tank"],
+      "sub_affiliation": [
+        "Famille Charlotte",
+        "Équipage du Fire Tank"
+      ],
       "age": 26,
       "arc": "Whole Cake",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Charlotte_Chiffon_Anime_Infobox.png?cb=20170409220402&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m15",
+      "size": 215,
       "race": "Humain"
     },
     {
@@ -1032,7 +1084,9 @@
         "Le Chevalier Biscuit"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 45,
       "arc": "Whole Cake",
       "bounty": 860000000,
@@ -1042,9 +1096,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/64/Charlotte_Cracker_Anime_Infobox.png?cb=20170730111229&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "3m07",
+      "size": 307,
       "race": "Géant"
     },
     {
@@ -1052,7 +1105,9 @@
       "name": "Charlotte Daifuku",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 48,
       "arc": "Whole Cake",
       "bounty": 300000000,
@@ -1062,9 +1117,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Charlotte_Daifuku_Anime_Infobox.png?cb=20181118171851&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "4m89",
+      "size": 489,
       "race": "Humain"
     },
     {
@@ -1072,16 +1126,17 @@
       "name": "Charlotte Flampe",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 15,
       "arc": "Whole Cake",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/91/Charlotte_Flampe_Anime_Infobox.png?cb=20181011150053&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "1m70",
+      "size": 170,
       "race": "Humain"
     },
     {
@@ -1089,7 +1144,9 @@
       "name": "Charlotte Katakuri",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 48,
       "arc": "Whole Cake",
       "bounty": 1057000000,
@@ -1100,9 +1157,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Charlotte_Katakuri_Anime_Infobox.png?cb=20210420130426&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "5m09",
+      "size": 509,
       "race": "Humain"
     },
     {
@@ -1110,16 +1166,17 @@
       "name": "Charlotte Laura",
       "aliases": [],
       "affiliation": "Équipage du Rolling Association des Victimes de Thriller Bark",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 24,
       "arc": "Thriller Bark",
       "bounty": 24000000,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Charlotte_Laura_Manga_Post_Ellipse_Infobox.png?cb=20140913130533&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "2m15",
+      "size": 215,
       "race": "Humain"
     },
     {
@@ -1129,7 +1186,11 @@
         "Big Mom"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte","Quatre Empereurs","Équipage des Rocks"],
+      "sub_affiliation": [
+        "Famille Charlotte",
+        "Quatre Empereurs",
+        "Équipage des Rocks"
+      ],
       "age": 68,
       "arc": "Fishman Island",
       "bounty": 4388000000,
@@ -1140,9 +1201,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Linlin_Anime_Infobox.png?cb=20180605114805&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "8m80",
+      "size": 880,
       "race": "Humain"
     },
     {
@@ -1150,16 +1210,17 @@
       "name": "Charlotte Mont d'Or",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 38,
       "arc": "Whole Cake",
       "bounty": 120000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/85/Charlotte_Mont_d%27Or_Anime_Infobox.png?cb=20180325142212&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "2m60",
+      "size": 260,
       "race": "Humain"
     },
     {
@@ -1167,7 +1228,9 @@
       "name": "Charlotte Oven",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 48,
       "arc": "Whole Cake",
       "bounty": 300000000,
@@ -1177,9 +1240,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Charlotte_Oven_Anime_Infobox.png?cb=20180325142731&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "4m92",
+      "size": 492,
       "race": "Humain"
     },
     {
@@ -1187,7 +1249,9 @@
       "name": "Charlotte Perospero",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 50,
       "arc": "Whole Cake",
       "bounty": 700000000,
@@ -1197,9 +1261,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Charlotte_Perospero_Anime_Infobox.png?cb=20170702131315&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "3m33",
+      "size": 333,
       "race": "Humain"
     },
     {
@@ -1207,16 +1270,17 @@
       "name": "Charlotte Praline",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 29,
       "arc": "Whole Cake",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/11/Charlotte_Praline_Anime_Infobox.png?cb=20190205163927&path-prefix=fr",
       "origin": "Whole Cake",
-      "size": "8m00",
+      "size": 800,
       "race": "Sirène"
     },
     {
@@ -1224,7 +1288,9 @@
       "name": "Charlotte Smoothie",
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": ["Famille Charlotte"],
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
       "age": 35,
       "arc": "Whole Cake",
       "bounty": 932000000,
@@ -1234,9 +1300,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Charlotte_Smoothie_Anime_Infobox.png?cb=20180423115154&path-prefix=fr",
       "origin": "Grand Line ",
-      "size": "4m64",
+      "size": 464,
       "race": "Longues-Jambes"
     },
     {
@@ -1251,9 +1316,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3c/Chef_des_Shandiass_Manga_Post_Ellipse_Infobox.png?cb=20201126112800&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m79",
+      "size": 179,
       "race": "Skypieien"
     },
     {
@@ -1268,9 +1332,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/66/Chess_Anime_Infobox.png?cb=20141225224017&path-prefix=fr",
       "origin": "Drum Island",
-      "size": "1m94",
+      "size": 194,
       "race": "Humain"
     },
     {
@@ -1285,9 +1348,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Chimney_Manga_Post_Ellipse_Infobox.png?cb=20130627212211&path-prefix=fr",
       "origin": "Water Seven",
-      "size": "1m15",
+      "size": 115,
       "race": "Humain"
     },
     {
@@ -1298,8 +1360,10 @@
         "Don Chinjao"
       ],
       "affiliation": "Gang du Pays des Fleurs (Famille Chinjao)",
-      "sub_affiliation": ["Flotte de Happou",
-        "Marine des huit trésors"],
+      "sub_affiliation": [
+        "Flotte de Happou",
+        "Marine des huit trésors"
+      ],
       "age": 78,
       "arc": "Dressrosa",
       "bounty": 542000000,
@@ -1310,9 +1374,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b0/Chinjao_Anime_Infobox.png?cb=20180509084220&path-prefix=fr",
       "origin": "Pays des Fleurs",
-      "size": "5m20",
+      "size": 520,
       "race": "Humain"
     },
     {
@@ -1327,9 +1390,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Chocolat_Anime_Infobox.png?cb=20130301121238&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m81",
+      "size": 181,
       "race": "Humain"
     },
     {
@@ -1348,9 +1410,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Chome_Anime_Infobox.png?cb=20200327124250&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "1m50",
+      "size": 150,
       "race": "Humain"
     },
     {
@@ -1365,9 +1426,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e5/Chouchou_Anime_Post_Ellipse_Infobox.png?cb=20251102165204&path-prefix=fr",
       "origin": "Orange Town",
-      "size": "40cm",
+      "size": 40,
       "race": "Chien"
     },
     {
@@ -1382,9 +1442,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/67/Cocoa_Anime_Infobox.png/revision/latest?cb=20140410195537&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m38",
+      "size": 138,
       "race": "Humain"
     },
     {
@@ -1399,9 +1458,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/84/Conis_Anime_Post_Ellipse_Infobox.png?cb=20251207164611&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m76",
+      "size": 176,
       "race": "Skypieien"
     },
     {
@@ -1418,9 +1476,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/9a/Coribou_Anime_Infobox.png?cb=20130629114951&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m50",
+      "size": 250,
       "race": "Humain"
     },
     {
@@ -1431,16 +1488,17 @@
         "Sir Crocodile"
       ],
       "affiliation": "Cross Guild",
-      "sub_affiliation": ["Sept Grands Corsaires"],
+      "sub_affiliation": [
+        "Sept Grands Corsaires"
+      ],
       "age": 44,
       "arc": "Little Garden",
       "bounty": 1965000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/fd/Crocodile_Anime_Infobox.png?cb=20160619214728&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m53",
+      "size": 253,
       "race": "Humain"
     },
     {
@@ -1457,9 +1515,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/34/Crocus_Anime_Infobox.png?cb=20150320220419&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m03",
+      "size": 203,
       "race": "Humain"
     },
     {
@@ -1474,9 +1531,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/84/Dadan_Manga_Post_Ellipse_Infobox.png?cb=20141006163825&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m21",
+      "size": 221,
       "race": "Humain"
     },
     {
@@ -1495,9 +1551,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/43/Daikoku_Anime_Infobox.png?cb=20200329192455&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "4m36",
+      "size": 436,
       "race": "Humain"
     },
     {
@@ -1505,16 +1560,17 @@
       "name": "Dalton",
       "aliases": [],
       "affiliation": "Drum Island",
-      "sub_affiliation": ["Royaume des Cerisiers"],
+      "sub_affiliation": [
+        "Royaume des Cerisiers"
+      ],
       "age": 33,
       "arc": "Drum Island",
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Dalton_Anime_Post_Ellipse_Infobox.png?cb=20200702070123&path-prefix=fr",
       "origin": "Drum Island",
-      "size": "2m18",
+      "size": 218,
       "race": "Humain"
     },
     {
@@ -1529,9 +1585,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0c/Daruma_Anime_Infobox.png?cb=20150328142314&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "1m22",
+      "size": 122,
       "race": "Homme-Poisson"
     },
     {
@@ -1549,9 +1604,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Demalo_Black_Anime_Infobox.png?cb=20150819103112&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m45",
+      "size": 245,
       "race": "Humain"
     },
     {
@@ -1566,9 +1620,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a8/Den_Anime_Infobox.png?cb=20180920115542&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "4m35",
+      "size": 435,
       "race": "Homme-Poisson"
     },
     {
@@ -1590,9 +1643,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Denjiro_Anime_Infobox.png?cb=20210621153258&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m06",
+      "size": 306,
       "race": "Humain"
     },
     {
@@ -1612,9 +1664,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/72/Diamante_Anime_Infobox.png?cb=20180530161320&path-prefix=fr",
       "origin": "North Blue",
-      "size": "5m25",
+      "size": 525,
       "race": "Humain"
     },
     {
@@ -1631,9 +1682,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5c/Doc_Q_Anime_Post_Ellipse_Infobox.png?cb=20240811151705&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m42",
+      "size": 342,
       "race": "Humain"
     },
     {
@@ -1643,7 +1693,9 @@
         "Joker"
       ],
       "affiliation": "Don Quichotte Family",
-      "sub_affiliation": ["Équipage des Cent Bêtes"],
+      "sub_affiliation": [
+        "Équipage des Cent Bêtes"
+      ],
       "age": 39,
       "arc": "Punk Hazard",
       "bounty": 340000000,
@@ -1653,9 +1705,8 @@
         "Armement",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3b/Don_Quichotte_Doflamingo_Anime_Post_Ellipse_Infobox.png?cb=20200328163330&path-prefix=fr",
       "origin": "Mary Geoise",
-      "size": "3m05",
+      "size": 305,
       "race": "Humain"
     },
     {
@@ -1666,16 +1717,17 @@
         "Cora"
       ],
       "affiliation": "Don Quichotte Family",
-      "sub_affiliation": ["Marines"],
+      "sub_affiliation": [
+        "Marines"
+      ],
       "age": 26,
       "arc": "Dressrosa",
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/76/Don_Quichotte_Rossinante_Anime_Infobox.png?cb=20150802221057&path-prefix=fr",
       "origin": "Mary Geoise",
-      "size": "2m93",
+      "size": 293,
       "race": "Humain"
     },
     {
@@ -1693,9 +1745,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Dorry_Anime_Infobox.png?cb=20250824182055&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "22m60",
+      "size": 2260,
       "race": "Géant"
     },
     {
@@ -1710,9 +1761,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/60/Dosun_Anime_Infobox.png?cb=20120821213729&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "4m18",
+      "size": 418,
       "race": "Homme-Poisson"
     },
     {
@@ -1727,9 +1777,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8a/Drip_Anime_Infobox.png?cb=20130301105123&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m08",
+      "size": 208,
       "race": "Humain"
     },
     {
@@ -1747,9 +1796,8 @@
       "devilFruitType": "Zoan Classique",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Drophy_Anime_Infobox.png?cb=20241201203358&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m56",
+      "size": 156,
       "race": "Humain"
     },
     {
@@ -1760,7 +1808,9 @@
         "Empereur"
       ],
       "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": ["Quatre Empereurs"],
+      "sub_affiliation": [
+        "Quatre Empereurs"
+      ],
       "age": 72,
       "arc": "Jaya",
       "bounty": 5046000000,
@@ -1771,9 +1821,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Edward_Newgate_Anime_Infobox.png?cb=20220928183616&path-prefix=fr",
       "origin": "Sphinx",
-      "size": "6m66",
+      "size": 666,
       "race": "Humain"
     },
     {
@@ -1794,9 +1843,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/be/Edward_Weevil_Anime_Infobox.png?cb=20160807135757&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "6m80",
+      "size": 680,
       "race": "Humain"
     },
     {
@@ -1807,17 +1855,20 @@
         "Iva"
       ],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": ["Kedétrav","Impel Down","New comer Land",
-        "Newkama Land"],
+      "sub_affiliation": [
+        "Kedétrav",
+        "Impel Down",
+        "New comer Land",
+        "Newkama Land"
+      ],
       "age": 51,
       "arc": "Impel Down",
       "bounty": 100000000,
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/de/Emporio_Ivankov_Anime_Infobox.png?cb=20160809125050&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "4m49",
+      "size": 449,
       "race": "Humain"
     },
     {
@@ -1835,9 +1886,8 @@
       "devilFruitType": "Logia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Enel_Anime_Infobox.png?cb=20180912082926&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "2m66",
+      "size": 266,
       "race": "Skypieien"
     },
     {
@@ -1847,7 +1897,10 @@
         "Captain Kid"
       ],
       "affiliation": "Équipage de Kid",
-      "sub_affiliation": ["Supernova","Génération Terrible"],
+      "sub_affiliation": [
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 21,
       "arc": "Archipel Sabaody",
       "bounty": 3000000000,
@@ -1858,9 +1911,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0d/Eustass_Kid_Anime_Post_Ellipse_Infobox.png?cb=20211104195636&path-prefix=fr",
       "origin": "South Blue",
-      "size": "2m05",
+      "size": 205,
       "race": "Humain"
     },
     {
@@ -1878,9 +1930,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Fisher_Tiger_Anime_Infobox.png?cb=20130510164926&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "5m20",
+      "size": 520,
       "race": "Homme-Poisson"
     },
     {
@@ -1898,9 +1949,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/24/Foxy_Anime_Post_Ellipse_Infobox.png?cb=20251102172218&path-prefix=fr",
       "origin": "South Blue",
-      "size": "1m80",
+      "size": 180,
       "race": "Humain"
     },
     {
@@ -1919,9 +1969,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/fe/Franky_Anime_Post_Ellipse_Infobox.png?cb=20190313140252&path-prefix=fr",
       "origin": "South Blue",
-      "size": "2m40",
+      "size": 240,
       "race": "Humain"
     },
     {
@@ -1942,9 +1991,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/50/Fujin_Anime_Infobox.png?cb=20200331145809&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "2m00",
+      "size": 200,
       "race": "Humain"
     },
     {
@@ -1959,9 +2007,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/29/Fukaboshi_Anime_Infobox.png?cb=20180601160026&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "6m04",
+      "size": 604,
       "race": "Homme-Poisson"
     },
     {
@@ -1981,9 +2028,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/ff/Fukuro_Anime_Post_Ellipse_Infobox.png?cb=20240901064816&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m31",
+      "size": 331,
       "race": "Humain"
     },
     {
@@ -1998,9 +2044,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6f/Fukurokuju_Anime_Infobox.png?cb=20200327111750&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "2m21",
+      "size": 221,
       "race": "Humain"
     },
     {
@@ -2017,9 +2062,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c4/Fullbody_Anime_Post_Ellipse_Infobox.png?cb=20200224101036&path-prefix=fr",
       "origin": "North Blue",
-      "size": "1m84",
+      "size": 184,
       "race": "Humain"
     },
     {
@@ -2038,9 +2082,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/11/Galdino_Anime_Post_Ellipse_Infobox.png?cb=20200407161957&path-prefix=fr",
       "origin": "South Blue",
-      "size": "1m79",
+      "size": 179,
       "race": "Humain"
     },
     {
@@ -2057,9 +2100,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Gan_Forr_Manga_Post_Ellipse_Infobox.png?cb=20180531094411&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m80",
+      "size": 180,
       "race": "Dieu"
     },
     {
@@ -2077,9 +2119,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Gecko_Moria_Anime_Post_Ellipse_Infobox.png?cb=20200114172633&path-prefix=fr",
       "origin": "West Blue",
-      "size": "6m92",
+      "size": 692,
       "race": "Humain"
     },
     {
@@ -2098,9 +2139,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/43/Gedatsu_Anime_Infobox.png?cb=20180304094356&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "2m20",
+      "size": 220,
       "race": "Humain"
     },
     {
@@ -2118,9 +2158,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/14/Gem_Anime_Infobox.png?cb=20130505121725&path-prefix=fr",
       "origin": "South Blue",
-      "size": "1m97",
+      "size": 197,
       "race": "Humain"
     },
     {
@@ -2137,9 +2176,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/83/Gerd_Anime_Infobox.png?cb=20190521090449&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "17m",
+      "size": 1700,
       "race": "Géant"
     },
     {
@@ -2154,9 +2192,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Gladius_Anime_Infobox.png?cb=20141207192654&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m60",
+      "size": 260,
       "race": "Humain"
     },
     {
@@ -2178,9 +2215,8 @@
         "Observation",
         "des rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/24/Gol_D._Roger_Anime_Infobox.png?cb=20161001224202&path-prefix=fr",
       "origin": "Logue Town",
-      "size": "2m74",
+      "size": 274,
       "race": "Humain"
     },
     {
@@ -2195,9 +2231,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Gotti_Anime_Infobox.png?cb=20170409132840&path-prefix=fr",
       "origin": "West Blue",
-      "size": "3m75",
+      "size": 375,
       "race": "Humain"
     },
     {
@@ -2212,9 +2247,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/43/Hack_Anime_Infobox.png?cb=20230310213308&path-prefix=fr",
       "origin": "Île des Hommes-Poissons",
-      "size": "2m80",
+      "size": 280,
       "race": "Homme-Poisson"
     },
     {
@@ -2231,9 +2265,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/47/Haguar_D._Sauro_Manga_Infobox.png?cb=20250309152247&path-prefix=fr",
       "origin": "South Blue",
-      "size": "19m50",
+      "size": 1950,
       "race": "Humain"
     },
     {
@@ -2251,9 +2284,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Hajrudin_Anime_Infobox.png?cb=20140511125909&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "22m",
+      "size": 2200,
       "race": "Géant"
     },
     {
@@ -2268,9 +2300,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1c/Hannyabal_Manga_Post_Ellipse_Infobox.png?cb=20230921080743&path-prefix=fr",
       "origin": "South Blue",
-      "size": "3m09",
+      "size": 309,
       "race": "Humain"
     },
     {
@@ -2285,9 +2316,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/40/Hanzo_Anime_Infobox.png?cb=20220213151247&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "5m44",
+      "size": 544,
       "race": "Humain"
     },
     {
@@ -2302,9 +2332,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/af/Haredas_Anime_Post_Ellipse_Infobox.png?cb=20251214165441&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "2m53",
+      "size": 253,
       "race": "Homme-Poisson"
     },
     {
@@ -2319,9 +2348,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8a/Hatcha_Anime_Infobox.png?cb=20210816190449&path-prefix=fr",
       "origin": "Punk Hazard",
-      "size": "36m75",
+      "size": 3675,
       "race": "Géant"
     },
     {
@@ -2338,9 +2366,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/ee/Hiluluk_Anime_Infobox.png?cb=20190527092218&path-prefix=fr",
       "origin": "Drum Island",
-      "size": "2m13",
+      "size": 213,
       "race": "Humain"
     },
     {
@@ -2358,9 +2385,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Hina_Anime_Post_Ellipse_Infobox.png?cb=20201227123556&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m81",
+      "size": 181,
       "race": "Humain"
     },
     {
@@ -2377,9 +2403,8 @@
       "haki": [
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Hody_Jones_Anime_Infobox.png?cb=20230610165645&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "3m31",
+      "size": 331,
       "race": "Homme-Poisson"
     },
     {
@@ -2394,9 +2419,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Hogback_Anime_Infobox.png?cb=20180430141120&path-prefix=fr",
       "origin": "West Blue",
-      "size": "2m33",
+      "size": 233,
       "race": "Humain"
     },
     {
@@ -2413,9 +2437,8 @@
       "devilFruitType": "SMILE",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/17/Holdem_Anime_Infobox.png?cb=20190909073822&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m12",
+      "size": 312,
       "race": "Humain"
     },
     {
@@ -2430,9 +2453,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a7/Hyouzou_Anime_Infobox.png?cb=20180316091430&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "3m27",
+      "size": 327,
       "race": "Homme-Poisson"
     },
     {
@@ -2447,9 +2469,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/12/Icaros_Mucchi_Anime_Infobox.png?cb=20250715160832&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "4m99",
+      "size": 499,
       "race": "Homme-Poisson"
     },
     {
@@ -2466,9 +2487,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/30/Ideo_Anime_Infobox.png?cb=20140525094229&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m25",
+      "size": 225,
       "race": "Humain"
     },
     {
@@ -2485,9 +2505,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Inazuma_Anime_Infobox.png?cb=20160620150430&path-prefix=fr",
       "origin": "South Blue",
-      "size": "2m28",
+      "size": 228,
       "race": "Humain"
     },
     {
@@ -2508,9 +2527,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/9f/Inuarashi_Anime_Infobox.png?cb=20180927122913&path-prefix=fr",
       "origin": "Zou (Principauté de Mokomo)",
-      "size": "5m11",
+      "size": 511,
       "race": "Homme-Poisson"
     },
     {
@@ -2531,9 +2549,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png?cb=20150224193835&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m70",
+      "size": 270,
       "race": "Humain"
     },
     {
@@ -2551,9 +2568,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/83/Izou_Anime_Post_Ellipse_Infobox.png?cb=20210602072135&path-prefix=fr",
       "origin": "Wano Kuni (Ringo)",
-      "size": "1m92",
+      "size": 192,
       "race": "Humain"
     },
     {
@@ -2571,9 +2587,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/04/Jabra_Anime_Post_Ellipse_Infobox.png?cb=20240915065723&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m12",
+      "size": 212,
       "race": "Humain"
     },
     {
@@ -2593,9 +2608,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3f/Jack_Anime_Infobox.png?cb=20180927130635&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "8m30",
+      "size": 830,
       "race": "Homme-Poisson"
     },
     {
@@ -2612,9 +2626,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Jerry_Anime_Infobox.png?cb=20150301233313&path-prefix=fr",
       "origin": "South Blue (Île Karaté)",
-      "size": "6m76",
+      "size": 676,
       "race": "Humain"
     },
     {
@@ -2635,9 +2648,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Jesus_Burgess_Anime_Post_Ellipse_Infobox.png?cb=20240811150037&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m55",
+      "size": 355,
       "race": "Humain"
     },
     {
@@ -2658,9 +2670,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Jewelry_Bonney_Anime_Post_Ellipse_Infobox.png?cb=20190610021900&path-prefix=fr",
       "origin": "South Blue",
-      "size": "1m74",
+      "size": 174,
       "race": "Humain"
     },
     {
@@ -2675,9 +2686,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Jigoku_Benten_Anime_Infobox.png?cb=20201020184308&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "2m25",
+      "size": 225,
       "race": "Humain"
     },
     {
@@ -2697,9 +2707,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png?cb=20210707224930&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "3m01",
+      "size": 301,
       "race": "Humain"
     },
     {
@@ -2714,9 +2723,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/ff/Johnny_Manga_Post_Ellipse_Infobox.png/revision/latest?cb=20230507205214&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m86",
+      "size": 186,
       "race": "Humain"
     },
     {
@@ -2731,9 +2739,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Jora_Anime_Infobox.png?cb=20140511092634&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m21",
+      "size": 221,
       "race": "Humain"
     },
     {
@@ -2753,9 +2760,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f6/Joz_Anime_Infobox.png?cb=20130511123117&path-prefix=fr",
       "origin": "West Blue",
-      "size": "5m03",
+      "size": 503,
       "race": "Humain"
     },
     {
@@ -2779,9 +2785,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Kaidou_Anime_Infobox.png?cb=20220508195016&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "7m10",
+      "size": 710,
       "race": "Minks"
     },
     {
@@ -2801,9 +2806,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/81/Kaku_Anime_Post_Ellipse_Infobox.png?cb=20230211194202&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m93",
+      "size": 193,
       "race": "Humain"
     },
     {
@@ -2822,9 +2826,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kalgara_Anime_Infobox.png?cb=20170719065600&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m22",
+      "size": 222,
       "race": "Humain"
     },
     {
@@ -2842,9 +2845,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/2a/Kalifa_Anime_Post_Ellipse_Infobox.png?cb=20240915065551&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m85",
+      "size": 185,
       "race": "Humain"
     },
     {
@@ -2859,9 +2861,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/83/Kamakiri_Manga_Post_Ellipse_Infobox.png/revision/latest?cb=20130421130640&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "2m14",
+      "size": 214,
       "race": "Humain"
     },
     {
@@ -2881,9 +2882,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/9a/Karasu_Anime_Infobox.png?cb=20190414153526&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m65",
+      "size": 265,
       "race": "Humain"
     },
     {
@@ -2900,9 +2900,8 @@
       "devilFruitType": "",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/76/Karoo_Anime_Post_Ellipse_Infobox.png?cb=20180819183004&path-prefix=fr",
       "origin": "Royaume d'Alabasta",
-      "size": "1m50",
+      "size": 150,
       "race": "Humain"
     },
     {
@@ -2917,9 +2916,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/27/Kazekage_Anime_Infobox.png?cb=20200915092316&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "1m92",
+      "size": 192,
       "race": "Humain"
     },
     {
@@ -2941,9 +2939,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/be/Killer_Anime_Post_Ellipse_Infobox.png?cb=20230228201458&path-prefix=fr",
       "origin": "South Blue",
-      "size": "1m95",
+      "size": 195,
       "race": "Humain"
     },
     {
@@ -2963,9 +2960,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/49/Kinemon_Anime_Infobox.png?cb=20181218151505&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "2m95",
+      "size": 295,
       "race": "Humain"
     },
     {
@@ -2985,9 +2981,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/50/Koby_Anime_Post_Ellipse_Infobox.png?cb=20200206123548&path-prefix=fr",
       "origin": "East Blue (Royaume de Satsuruzo)",
-      "size": "1m67",
+      "size": 167,
       "race": "Humain"
     },
     {
@@ -3002,9 +2997,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Kokoro_Manga_Post_Ellipse_Infobox.png?cb=20230704085340&path-prefix=fr",
       "origin": "Île des Hommes-Poissons",
-      "size": "1m68",
+      "size": 168,
       "race": "Sirène"
     },
     {
@@ -3019,9 +3013,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5c/Koza_Anime_Post_Ellipse_Infobox.png?cb=20251109171426&path-prefix=fr",
       "origin": "Royaume d'Alabasta",
-      "size": "1m77",
+      "size": 177,
       "race": "Humain"
     },
     {
@@ -3038,9 +3031,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Kozuki_Hiyori_Anime_Infobox.png?cb=20200812073146&path-prefix=fr",
       "origin": "Grand Line (Moby Dick)",
-      "size": "1m70",
+      "size": 170,
       "race": "Humain"
     },
     {
@@ -3055,9 +3047,8 @@
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/50/Kozuki_Momonosuke_Anime_Infobox.png?cb=20231001113155&path-prefix=fr",
       "origin": "Grand Line (sur le Moby Dick)",
-      "size": "1m10",
+      "size": 110,
       "race": "Humain"
     },
     {
@@ -3075,9 +3066,8 @@
         "Armement",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/62/Kozuki_Oden_Anime_Infobox.png?cb=20230614201746&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m82",
+      "size": 382,
       "race": "Humain"
     },
     {
@@ -3097,9 +3087,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/28/Kumadori_Anime_Post_Ellipse_Infobox.png?cb=20240901071151&path-prefix=fr",
       "origin": "South Blue",
-      "size": "3m18",
+      "size": 318,
       "race": "Humain"
     },
     {
@@ -3118,9 +3107,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/40/Kureha_Anime_Post_Ellipse_Infobox.png?cb=20171118204038&path-prefix=fr",
       "origin": "Grand Line (Drum Island)",
-      "size": "1m88",
+      "size": 188,
       "race": "Humain"
     },
     {
@@ -3135,9 +3123,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3c/Kuromarimo_Anime_Infobox.png?cb=20130608162705&path-prefix=fr",
       "origin": "Royaume de Drum",
-      "size": "1m86",
+      "size": 186,
       "race": "Humain"
     },
     {
@@ -3154,9 +3141,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/17/Kuroobi_Anime_Infobox.png?cb=20181112152252&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "2m52",
+      "size": 252,
       "race": "Homme-Poisson"
     },
     {
@@ -3174,9 +3160,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kurozumi_Kanjuro_Anime_Infobox.png?cb=20150506162520&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m47",
+      "size": 347,
       "race": "Humain"
     },
     {
@@ -3193,9 +3178,8 @@
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/49/Kurozumi_Orochi_Anime_Infobox.png?cb=20200405132120&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m50",
+      "size": 350,
       "race": "Humain"
     },
     {
@@ -3216,9 +3200,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/85/Kuzan_Anime_Post_Ellipse_Infobox.png?cb=20240811022912&path-prefix=fr",
       "origin": "South Blue (Royaume Vespa)",
-      "size": "2m98",
+      "size": 298,
       "race": "Humain"
     },
     {
@@ -3235,9 +3218,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c4/Kyros_Anime_Infobox.png?cb=20150401161738&path-prefix=fr",
       "origin": "Dressrosa",
-      "size": "2m98",
+      "size": 298,
       "race": "Humain"
     },
     {
@@ -3252,9 +3234,8 @@
       "devilFruitType": "",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/88/Laboon_Anime_Infobox.png?cb=20130531190516&path-prefix=fr",
       "origin": "West Blue",
-      "size": "400m",
+      "size": 40000,
       "race": "Homme-Poisson"
     },
     {
@@ -3269,9 +3250,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Laffitte_Anime_Post_Ellipse_Infobox.png?cb=20180314133006&path-prefix=fr",
       "origin": "West Blue",
-      "size": "3m40",
+      "size": 340,
       "race": "Humain"
     },
     {
@@ -3286,9 +3266,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/fa/Laki_Manga_Post_Ellipse_Infobox.png/revision/latest?cb=20171026134148&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m79",
+      "size": 179,
       "race": "Humain"
     },
     {
@@ -3303,9 +3282,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/52/Lao_G_Anime_Infobox.png?cb=20141207194309&path-prefix=fr",
       "origin": "North Blue",
-      "size": "1m57",
+      "size": 157,
       "race": "Humain"
     },
     {
@@ -3320,9 +3298,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c8/L%C3%A9o_Anime_Infobox.png?cb=20170531170509&path-prefix=fr",
       "origin": "Green Bit",
-      "size": "23cm",
+      "size": 23,
       "race": "Humain"
     },
     {
@@ -3337,9 +3314,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Little_Oars_Jr._Anime_Infobox.png?cb=20181206205017&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "60m",
+      "size": 6000,
       "race": "Humain"
     },
     {
@@ -3354,9 +3330,8 @@
       "devilFruitType": "",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c8/Longs-Cils_Manga_Post_Ellipse_Infobox.png?cb=20180402132607&path-prefix=fr",
       "origin": "Grand Line (Royaume d'Alabasta)",
-      "size": "1m90",
+      "size": 190,
       "race": "Humain"
     },
     {
@@ -3374,9 +3349,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Lucky_Roux_Anime_Post_Ellipse_Infobox.png?cb=20240623184438&path-prefix=fr",
       "origin": "South Blue",
-      "size": "2m41",
+      "size": 241,
       "race": "Humain"
     },
     {
@@ -3391,9 +3365,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Machvise_Anime_Infobox.png?cb=20130929135838&path-prefix=fr",
       "origin": "North Blue",
-      "size": "4m40",
+      "size": 440,
       "race": "Humain"
     },
     {
@@ -3408,9 +3381,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/09/Magellan_Anime_Post_Ellipse_Infobox.png?cb=20251102163349&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "4m91",
+      "size": 491,
       "race": "Humain"
     },
     {
@@ -3425,9 +3397,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/82/Manboshi_Anime_Infobox.png?cb=20190617160223&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "4m73",
+      "size": 473,
       "race": "Homme-Poisson"
     },
     {
@@ -3442,9 +3413,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/9a/Manjaro_Anime_Infobox.png?cb=20120125123202&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m02",
+      "size": 202,
       "race": "Humain"
     },
     {
@@ -3464,9 +3434,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marco_Anime_Post_Ellipse_Infobox.png?cb=20221010072213&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m03",
+      "size": 203,
       "race": "Humain"
     },
     {
@@ -3483,9 +3452,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/cc/Marguerite_Anime_Infobox.png?cb=20130630120326&path-prefix=fr",
       "origin": "Calm Belt (Amazon Lily)",
-      "size": "1m78",
+      "size": 178,
       "race": "Humain"
     },
     {
@@ -3500,9 +3468,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Marianne_Anime_Post_Ellipse_Infobox.png?cb=20251109170059&path-prefix=fr",
       "origin": "North Blue",
-      "size": "1m45",
+      "size": 145,
       "race": "Humain"
     },
     {
@@ -3524,9 +3491,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0c/Marshall_D._Teach_Anime_Post_Ellipse_Infobox.png?cb=20241123200257&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m44",
+      "size": 344,
       "race": "Humain"
     },
     {
@@ -3541,9 +3507,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/db/Masira_Anime_Post_Ellipse_Infobox.png?cb=20251116190033&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m45",
+      "size": 345,
       "race": "Humain"
     },
     {
@@ -3558,9 +3523,8 @@
       "devilFruitType": "",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/39/Meuh-Meuh_Anime_Infobox.png?cb=20200426161932&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "36m",
+      "size": 3600,
       "race": "Humain"
     },
     {
@@ -3578,9 +3542,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Mikita_Anime_Infobox.png?cb=20130505120252&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m77",
+      "size": 177,
       "race": "Humain"
     },
     {
@@ -3598,9 +3561,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/df/Momonga_Anime_Post_Ellipse_Infobox.png?cb=20130519183506&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m51",
+      "size": 251,
       "race": "Humain"
     },
     {
@@ -3615,9 +3577,8 @@
       "devilFruitType": "Logia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/98/Monet_Anime_Infobox.png?cb=20180309184700&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m27",
+      "size": 227,
       "race": "Humain"
     },
     {
@@ -3634,9 +3595,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Monkey_D._Dragon_Anime_Post_Ellipse_Infobox.png?cb=20230902171236&path-prefix=fr",
       "origin": "East Blue (Royaume de Goa)",
-      "size": "2m56",
+      "size": 256,
       "race": "Humain"
     },
     {
@@ -3657,9 +3617,8 @@
         "Observation",
         "des rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Monkey_D._Garp_Anime_Infobox.png?cb=20130330142235&path-prefix=fr",
       "origin": "East Blue (Royaume de Goa)",
-      "size": "2m87",
+      "size": 287,
       "race": "Humain"
     },
     {
@@ -3688,9 +3647,8 @@
         "Observation",
         "des rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7f/Monkey_D._Luffy_Anime_Post_Ellipse_Infobox.png?cb=20170617172443&path-prefix=fr",
       "origin": "East Blue (Royaume de Goa)",
-      "size": "1m74",
+      "size": 174,
       "race": "Humain"
     },
     {
@@ -3707,9 +3665,8 @@
       "haki": [
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/87/Morgans_Anime_Infobox.png?cb=20241204135935&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m05",
+      "size": 305,
       "race": "Humain"
     },
     {
@@ -3724,9 +3681,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/79/Morge_Anime_Post_Ellipse_Infobox.png?cb=20200407162224&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m97",
+      "size": 197,
       "race": "Humain"
     },
     {
@@ -3741,9 +3697,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Mounblutain_Anime_Infobox.png?cb=20130301124051&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m94",
+      "size": 294,
       "race": "Humain"
     },
     {
@@ -3761,9 +3716,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/27/Nami_Anime_Post_Ellipse_Infobox.png?cb=20181021130911&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m70",
+      "size": 170,
       "race": "Humain"
     },
     {
@@ -3778,9 +3732,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/ee/Nefertari_Cobra_Anime_Post_Ellipse_Infobox.png?cb=20170219155916&path-prefix=fr",
       "origin": "Royaume d'Alabasta",
-      "size": "1m82",
+      "size": 182,
       "race": "Humain"
     },
     {
@@ -3795,9 +3748,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/df/Nefertari_Vivi_Anime_Post_Ellipse_Infobox.png?cb=20180227170458&path-prefix=fr",
       "origin": "Royaume d'Alabasta",
-      "size": "1m69",
+      "size": 169,
       "race": "Humain"
     },
     {
@@ -3817,9 +3769,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Nekomamushi_Anime_Infobox.png?cb=20170331140126&path-prefix=fr",
       "origin": "Zou (Principauté de Mokomo)",
-      "size": "5m22",
+      "size": 522,
       "race": "Cyborg"
     },
     {
@@ -3834,9 +3785,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/40/Neptune_Anime_Infobox.png?cb=20160721122729&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "12m20",
+      "size": 1220,
       "race": "Homme-Poisson"
     },
     {
@@ -3851,9 +3801,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Nero_Anime_Infobox.png?cb=20170712090857&path-prefix=fr",
       "origin": "West Blue",
-      "size": "2m02",
+      "size": 202,
       "race": "Humain"
     },
     {
@@ -3871,9 +3820,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Nezumi_Anime_Infobox.png?cb=20190101164602&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m82",
+      "size": 182,
       "race": "Humain"
     },
     {
@@ -3888,9 +3836,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/fc/Nico_Olvia_Anime_Infobox.png?cb=20180131211109&path-prefix=fr",
       "origin": "West Blue (Ohara)",
-      "size": "1m86",
+      "size": 186,
       "race": "Humain"
     },
     {
@@ -3909,9 +3856,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4d/Nico_Robin_Anime_Post_Ellipse_Infobox.png?cb=20160507112552&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m88",
+      "size": 188,
       "race": "Humain"
     },
     {
@@ -3926,9 +3872,8 @@
       "devilFruitType": "",
       "gender": "Indéterminé",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3b/Nora_Gitsune_Anime_Infobox.png?cb=20200407165314&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m03",
+      "size": 103,
       "race": "Humain"
     },
     {
@@ -3943,9 +3888,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Octo_Anime_Post_Ellipse_Infobox.png?cb=20180209083818&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "2m20",
+      "size": 220,
       "race": "Homme-Poisson"
     },
     {
@@ -3962,9 +3906,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Ohm_Anime_Infobox.png?cb=20180406150759&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "1m89",
+      "size": 189,
       "race": "Géant"
     },
     {
@@ -3981,9 +3924,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c3/Oimo_Anime_Infobox.png?cb=20250826111948&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "16m",
+      "size": 1600,
       "race": "Géant"
     },
     {
@@ -3998,9 +3940,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1b/Orlumbus_Anime_Infobox.png?cb=20180427222439&path-prefix=fr",
       "origin": "Grand Line (Royaume de Standing)",
-      "size": "4m80",
+      "size": 480,
       "race": "Humain"
     },
     {
@@ -4017,9 +3958,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c7/Otohime_Anime_Infobox.png?cb=20150101160236&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "2m24",
+      "size": 224,
       "race": "Sirène"
     },
     {
@@ -4034,9 +3974,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/55/Oars_Anime_Infobox.png?cb=20180625080630&path-prefix=fr",
       "origin": "North Blue",
-      "size": "67m",
+      "size": 6700,
       "race": "Géant"
     },
     {
@@ -4051,9 +3990,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5d/Pagaya_Anime_Infobox.png?cb=20141124113314&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m79",
+      "size": 179,
       "race": "Humain"
     },
     {
@@ -4073,9 +4011,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/46/Page_One_Anime_Infobox.png?cb=20211129084156&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m71",
+      "size": 171,
       "race": "Humain"
     },
     {
@@ -4093,9 +4030,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c8/Pedro_Anime_Infobox.png?cb=20170423083904&path-prefix=fr",
       "origin": "Zou (Principauté de Mokomo)",
-      "size": "2m33",
+      "size": 233,
       "race": "Homme-Poisson"
     },
     {
@@ -4110,9 +4046,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/20/Peeply_Lulu_Anime_Post_Ellipse_Infobox.png?cb=20251102162816&path-prefix=fr",
       "origin": "Water Seven",
-      "size": "2m06",
+      "size": 206,
       "race": "Humain"
     },
     {
@@ -4130,9 +4065,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/6f/Perona_Anime_Post_Ellipse_Infobox.png?cb=20250617124306&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m60",
+      "size": 160,
       "race": "Humain"
     },
     {
@@ -4150,9 +4084,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a4/Pica_Anime_Infobox.png?cb=20161024194222&path-prefix=fr",
       "origin": "North Blue",
-      "size": "4m70",
+      "size": 470,
       "race": "Humain"
     },
     {
@@ -4167,9 +4100,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/25/Porchemy_Anime_Infobox.png?cb=20170719181907&path-prefix=fr",
       "origin": "East Blue (Royaume de Goa)",
-      "size": "3m20",
+      "size": 320,
       "race": "Humain"
     },
     {
@@ -4190,9 +4122,8 @@
         "Observation",
         "des rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Portgas_D._Ace_Anime_Infobox.png?cb=20181117155352&path-prefix=fr",
       "origin": "South Blue (Baterilla)",
-      "size": "1m85",
+      "size": 185,
       "race": "Humain"
     },
     {
@@ -4207,9 +4138,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4e/Pound_Anime_Infobox.png?cb=20170716071757&path-prefix=fr",
       "origin": "Grand Line (Nouveau Monde)",
-      "size": "7m31",
+      "size": 731,
       "race": "Humain"
     },
     {
@@ -4228,9 +4158,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/da/Raijin_Anime_Infobox.png?cb=20200331145802&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "2m00",
+      "size": 200,
       "race": "Humain"
     },
     {
@@ -4250,9 +4179,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/23/Raizo_Anime_Infobox.png?cb=20161218155359&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m11",
+      "size": 311,
       "race": "Humain"
     },
     {
@@ -4269,9 +4197,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f6/Rebecca_Anime_Infobox.png?cb=20190520162712&path-prefix=fr",
       "origin": "Dressrosa",
-      "size": "1m71",
+      "size": 171,
       "race": "Humain"
     },
     {
@@ -4286,9 +4213,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/48/Riku_Doldo_III_Anime_Infobox.png?cb=20180214084334&path-prefix=fr",
       "origin": "Dressrosa",
-      "size": "2m61",
+      "size": 261,
       "race": "Humain"
     },
     {
@@ -4306,9 +4232,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Rob_Lucci_Anime_Post_Ellipse_Infobox.png?cb=20190527082639&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m12",
+      "size": 212,
       "race": "Humain"
     },
     {
@@ -4331,9 +4256,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/22/Roronoa_Zoro_Anime_Post_Ellipse_Infobox.png?cb=20140926142818&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m81",
+      "size": 181,
       "race": "Humain"
     },
     {
@@ -4348,9 +4272,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Ryuboshi_Anime_Infobox.png?cb=20130831155707&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "5m44",
+      "size": 544,
       "race": "Homme-Poisson"
     },
     {
@@ -4371,9 +4294,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Sabo_Anime_Infobox.png?cb=20240918071455&path-prefix=fr",
       "origin": "East Blue (Royaume de Goa)",
-      "size": "1m87",
+      "size": 187,
       "race": "Humain"
     },
     {
@@ -4388,9 +4310,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Sadi_Manga_Post_Ellipse_Infobox.png?cb=20180724164624&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m83",
+      "size": 183,
       "race": "Humain"
     },
     {
@@ -4408,9 +4329,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/db/Sai_Anime_Infobox.png?cb=20230105083856&path-prefix=fr",
       "origin": "West Blue (Pays des Fleurs)",
-      "size": "2m42",
+      "size": 242,
       "race": "Humain"
     },
     {
@@ -4425,9 +4345,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/57/Saint_Rosward_Charlos_Anime_Post_Ellipse_Infobox.png?cb=20230130105344&path-prefix=fr",
       "origin": "Mary Geoise",
-      "size": "2m30",
+      "size": 230,
       "race": "Humain"
     },
     {
@@ -4442,9 +4361,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Sainte_Rosward_Sharlia_Anime_Post_Ellipse_Infobox.png?cb=20251102220735&path-prefix=fr",
       "origin": "Mary Geoise",
-      "size": "1m78",
+      "size": 178,
       "race": "Humain"
     },
     {
@@ -4465,9 +4383,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/93/Sakazuki_Anime_Post_Ellipse_Infobox.png?cb=20160410144800&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m06",
+      "size": 306,
       "race": "Humain"
     },
     {
@@ -4482,9 +4399,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Saldeath_Manga_Post_Ellipse_Infobox.png?cb=20130630124534&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m18",
+      "size": 218,
       "race": "Humain"
     },
     {
@@ -4499,9 +4415,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e5/Sanjuan_Wolf_Anime_Post_Ellipse_Infobox.png?cb=20241006074527&path-prefix=fr",
       "origin": "West Blue",
-      "size": "180m",
+      "size": 18000,
       "race": "Géant"
     },
     {
@@ -4520,9 +4435,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Sarutobi_Anime_Infobox.png?cb=20230508131949&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "3m78",
+      "size": 378,
       "race": "Humain"
     },
     {
@@ -4543,9 +4457,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sasaki_Anime_Infobox.png?cb=20210801185951&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m18",
+      "size": 318,
       "race": "Homme-Poisson"
     },
     {
@@ -4562,9 +4475,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/11/Satori_Anime_Infobox.png?cb=20180912084426&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "1m79",
+      "size": 179,
       "race": "Géant"
     },
     {
@@ -4579,9 +4491,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/97/Yeti_Cool_Brothers_Anime_Infobox.png?cb=20130428221539&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "42m50",
+      "size": 4250,
       "race": "Humain"
     },
     {
@@ -4601,9 +4512,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a6/Scratchmen_Apoo_Anime_Post_Ellipse_Infobox.png?cb=20210808125541&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m56",
+      "size": 256,
       "race": "Humain"
     },
     {
@@ -4622,9 +4532,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/df/Sengoku_Anime_Post_Ellipse_Infobox.png?cb=20160812103723&path-prefix=fr",
       "origin": "South Blue",
-      "size": "2m78",
+      "size": 278,
       "race": "Humain"
     },
     {
@@ -4639,9 +4548,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e3/Se%C3%B1or_Pink_Anime_Infobox.png?cb=20180716144307&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m44",
+      "size": 244,
       "race": "Humain"
     },
     {
@@ -4659,9 +4567,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Sentomaru_Anime_Post_Ellipse_Infobox.png?cb=20141005234901&path-prefix=fr",
       "origin": "Grand Line Mont Kintoki",
-      "size": "2m79",
+      "size": 279,
       "race": "Humain"
     },
     {
@@ -4676,9 +4583,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Shakuyaku_Anime_Post_Ellipse_Infobox.png?cb=20231217091225&path-prefix=fr",
       "origin": "Amazon Lily",
-      "size": "1m86",
+      "size": 186,
       "race": "Humain"
     },
     {
@@ -4693,9 +4599,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/77/Sham_Anime_Infobox.png?cb=20180430145100&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m01",
+      "size": 201,
       "race": "Humain"
     },
     {
@@ -4717,9 +4622,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/66/Shanks_Anime_Infobox.png?cb=20240829193446&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m99",
+      "size": 199,
       "race": "Humain"
     },
     {
@@ -4734,9 +4638,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/81/Sheepshead_Anime_Infobox.png?cb=20160925165442&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m93",
+      "size": 293,
       "race": "Humain"
     },
     {
@@ -4751,9 +4654,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b6/K%C3%B4shir%C3%B4_Anime_Post_Ellipse_Infobox.png?cb=20251109164816&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m84",
+      "size": 184,
       "race": "Humain"
     },
     {
@@ -4768,9 +4670,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/47/Kuina_Anime_Infobox.png?cb=20200525200022&path-prefix=fr",
       "origin": "Village de Shimotsuki",
-      "size": "1m50",
+      "size": 150,
       "race": "Humain"
     },
     {
@@ -4787,9 +4688,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3f/Shinobu_Anime_Infobox.png?cb=20231112114533&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "1m80",
+      "size": 180,
       "race": "Humain"
     },
     {
@@ -4808,9 +4708,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/47/Shura_Anime_Infobox.png?cb=20140914163958&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "2m20",
+      "size": 220,
       "race": "Humain"
     },
     {
@@ -4827,9 +4726,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/61/Shyarly_Anime_Infobox.png?cb=20150806183820&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "5m20",
+      "size": 520,
       "race": "Sirène"
     },
     {
@@ -4844,9 +4742,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e4/Smack_Anime_Infobox.png?cb=20180626205712&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "2m57",
+      "size": 257,
       "race": "Homme-Poisson"
     },
     {
@@ -4866,9 +4763,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d5/Smoker_Anime_Post_Ellipse_Infobox.png?cb=20180726130348&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m09",
+      "size": 209,
       "race": "Humain"
     },
     {
@@ -4883,9 +4779,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/9f/Spandam_Anime_Post_Ellipse_Infobox.png?cb=20180903142046&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m92",
+      "size": 192,
       "race": "Humain"
     },
     {
@@ -4900,9 +4795,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Spandine_Manga_Infobox.png?cb=20180215095319&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m75",
+      "size": 275,
       "race": "Humain"
     },
     {
@@ -4919,9 +4813,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Speed_Anime_Infobox.png?cb=20200424172432&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "2m98",
+      "size": 298,
       "race": "Humain"
     },
     {
@@ -4938,9 +4831,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Squard_Anime_Infobox.png?cb=20171022144427&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "2m28",
+      "size": 228,
       "race": "Humain"
     },
     {
@@ -4957,9 +4849,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/34/Streusen_Anime_Infobox.png?cb=20180424124423&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m40",
+      "size": 140,
       "race": "Humain"
     },
     {
@@ -4979,9 +4870,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/ee/Stussy_Anime_Infobox.png?cb=20240512123108&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m79",
+      "size": 179,
       "race": "Humain"
     },
     {
@@ -4998,9 +4888,8 @@
       "haki": [
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Sugar_Anime_Infobox.png?cb=20170429174819&path-prefix=fr",
       "origin": "North Blue",
-      "size": "1m10",
+      "size": 110,
       "race": "Humain"
     },
     {
@@ -5017,9 +4906,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/4e/Suleyman_Anime_Infobox.png?cb=20141012171651&path-prefix=fr",
       "origin": "South Blue",
-      "size": "2m40",
+      "size": 240,
       "race": "Humain"
     },
     {
@@ -5034,9 +4922,8 @@
       "devilFruitType": "",
       "gender": "",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/85/Surume_Anime_Infobox.png?cb=20130501054139&path-prefix=fr",
       "origin": "North Blue (Pôle Nord)",
-      "size": "50m (hauteur)",
+      "size": 5000,
       "race": "Homme-Poisson"
     },
     {
@@ -5056,9 +4943,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/49/Tamago_Anime_Infobox.png?cb=20171127161557&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "3m01",
+      "size": 301,
       "race": "Homme-Poisson"
     },
     {
@@ -5076,9 +4962,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Tashigi_Anime_Post_Ellipse_Infobox.png?cb=20240811145047&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m70",
+      "size": 170,
       "race": "Humain"
     },
     {
@@ -5093,9 +4978,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Tilestone_Manga_Post_Ellipse_Infobox.png?cb=20210803182011&path-prefix=fr",
       "origin": "Water Seven",
-      "size": "2m55",
+      "size": 255,
       "race": "Humain"
     },
     {
@@ -5110,9 +4994,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Tom_Anime_Infobox.png?cb=20230622183222&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "2m96",
+      "size": 296,
       "race": "Homme-Poisson"
     },
     {
@@ -5127,9 +5010,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/2a/Tonjit_Post_Ellipse_Manga_Infobox.png?cb=20180127162800&path-prefix=fr",
       "origin": "Grand Line (Long Ring Long Land)",
-      "size": "1m18",
+      "size": 118,
       "race": "Humain"
     },
     {
@@ -5149,9 +5031,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/4/47/Trafalgar_D._Water_Law_Anime_Post_Ellipse_Infobox.png?cb=20161204131008&path-prefix=fr",
       "origin": "North Blue",
-      "size": "1m91",
+      "size": 191,
       "race": "Humain"
     },
     {
@@ -5169,9 +5050,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Tr%C3%A9bol_Anime_Infobox.png?cb=20221119194154&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m49",
+      "size": 349,
       "race": "Humain"
     },
     {
@@ -5191,9 +5071,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/52/Tsuru_Anime_Post_Ellipse_Infobox.png?cb=20180427133052&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m04",
+      "size": 204,
       "race": "Humain"
     },
     {
@@ -5210,9 +5089,8 @@
       "haki": [
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/84/Turco_Anime_Infobox.png?cb=20230508143126&path-prefix=fr",
       "origin": "East Blue",
-      "size": "2m56",
+      "size": 256,
       "race": "Humain"
     },
     {
@@ -5232,9 +5110,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/dc/Ulti_Anime_Infobox.png?cb=20210808213327&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m73",
+      "size": 173,
       "race": "Humain"
     },
     {
@@ -5251,9 +5128,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Urouge_Anime_Post_Ellipse_Infobox.png?cb=20160503185832&path-prefix=fr",
       "origin": "Îles Célestes",
-      "size": "3m88",
+      "size": 388,
       "race": "Humain"
     },
     {
@@ -5270,9 +5146,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Van_Augur_Anime_Post_Ellipse_Infobox.png?cb=20240811145838&path-prefix=fr",
       "origin": "East Blue",
-      "size": "3m40",
+      "size": 340,
       "race": "Humain"
     },
     {
@@ -5287,9 +5162,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Vander_Decken_IX_Anime_Infobox.png?cb=20131109152444&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "3m52",
+      "size": 352,
       "race": "Homme-Poisson"
     },
     {
@@ -5306,9 +5180,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/09/Vasco_Shot_Anime_Post_Ellipse_Infobox.png?cb=20240728022601&path-prefix=fr",
       "origin": "South Blue",
-      "size": "5m73",
+      "size": 573,
       "race": "Humain"
     },
     {
@@ -5325,9 +5198,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b9/Vegapunk_Anime_Infobox.png?cb=20240324031505&path-prefix=fr",
       "origin": "Grand Line (Baldimore)",
-      "size": "3m14",
+      "size": 314,
       "race": "Humain"
     },
     {
@@ -5346,9 +5218,8 @@
       "haki": [
         "Armement"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/cf/Vergo_Anime_Infobox.png?cb=20220223094139&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m47",
+      "size": 247,
       "race": "Humain"
     },
     {
@@ -5363,9 +5234,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/5f/Victoria_Cindry_Anime_Infobox.png?cb=20180130153841&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m88",
+      "size": 188,
       "race": "Zombie"
     },
     {
@@ -5382,9 +5252,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Vinsmoke_Ichiji_Anime_Infobox.png?cb=20180429212408&path-prefix=fr",
       "origin": "North Blue (Royaume de Germa)",
-      "size": "1m86",
+      "size": 186,
       "race": "Humain"
     },
     {
@@ -5401,9 +5270,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/d/d6/Vinsmoke_Niji_Anime_Infobox.png?cb=20170807115952&path-prefix=fr",
       "origin": "North Blue (Royaume de Germa)",
-      "size": "1m85",
+      "size": 185,
       "race": "Humain"
     },
     {
@@ -5420,9 +5288,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Vinsmoke_Reiju_Anime_Infobox.png?cb=20170423122127&path-prefix=fr",
       "origin": "North Blue (Royaume de Germa)",
-      "size": "1m73",
+      "size": 173,
       "race": "Humain"
     },
     {
@@ -5439,9 +5306,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e7/Vinsmoke_Yonji_Anime_Infobox.png?cb=20180315213842&path-prefix=fr",
       "origin": "North Blue (Royaume de Germa)",
-      "size": "1m94",
+      "size": 194,
       "race": "Humain"
     },
     {
@@ -5458,9 +5324,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1a/Riku_Viola_Anime_Infobox.png?cb=20140413080429&path-prefix=fr",
       "origin": "Dressrosa",
-      "size": "1m78",
+      "size": 178,
       "race": "Humain"
     },
     {
@@ -5480,9 +5345,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/78/Vista_Anime_Infobox.png?cb=20180131210955&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m28",
+      "size": 328,
       "race": "Humain"
     },
     {
@@ -5499,9 +5363,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/0/09/Vito_Anime_Infobox.png?cb=20161106153627&path-prefix=fr",
       "origin": "West Blue",
-      "size": "2m42",
+      "size": 242,
       "race": "Humain"
     },
     {
@@ -5518,9 +5381,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/98/Wadatsumi_Anime_Infobox.png?cb=20160930221701&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "80m",
+      "size": 8000,
       "race": "Homme-Poisson"
     },
     {
@@ -5535,9 +5397,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/75/Wanda_Anime_Infobox.png?cb=20160904000125&path-prefix=fr",
       "origin": "Zou (Principauté de Mokomo)",
-      "size": "1m81",
+      "size": 181,
       "race": "Minks"
     },
     {
@@ -5552,9 +5413,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/56/Wanze_Anime_Infobox.png?cb=20170719192858&path-prefix=fr",
       "origin": "West Blue",
-      "size": "1m73",
+      "size": 173,
       "race": "Humain"
     },
     {
@@ -5569,9 +5429,8 @@
       "devilFruitType": "",
       "gender": "",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/52/Wapol_Anime_Post_Ellipse_Infobox.png?cb=20210713221318&path-prefix=fr",
       "origin": "Drum Island",
-      "size": "2m07 ",
+      "size": 207,
       "race": "Humain"
     },
     {
@@ -5591,9 +5450,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/9/94/Who%27s-Who_Anime_Infobox.png?cb=20211201215120&path-prefix=fr",
       "origin": "North Blue",
-      "size": "3m36",
+      "size": 336,
       "race": "Humain"
     },
     {
@@ -5610,9 +5468,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/8/8d/Wiper_Manga_Post_Ellipse_Infobox.png?cb=20170719192638&path-prefix=fr",
       "origin": "Skypiea",
-      "size": "1m83",
+      "size": 183,
       "race": "Humain"
     },
     {
@@ -5633,9 +5490,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c6/X_Drake_Anime_Post_Ellipse_Infobox.png?cb=20200210124828&path-prefix=fr",
       "origin": "North Blue",
-      "size": "2m33",
+      "size": 233,
       "race": "Humain"
     },
     {
@@ -5652,9 +5508,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/18/Yama_Anime_Infobox.png/revision/latest?cb=20130423123835&path-prefix=fr",
       "origin": "Îles Célestes (Bilca)",
-      "size": "3m66",
+      "size": 366,
       "race": "Humain"
     },
     {
@@ -5676,9 +5531,8 @@
         "Observation",
         "des Rois"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/bd/Yamato_Anime_Infobox.png?cb=20260128155251&path-prefix=fr",
       "origin": "Origine inconnue",
-      "size": "2m63",
+      "size": 263,
       "race": "Homme-Poisson"
     },
     {
@@ -5695,9 +5549,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/50/Yarle_Anime_Infobox.png?cb=20180506120210&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "20m50",
+      "size": 2050,
       "race": "Géant"
     },
     {
@@ -5717,9 +5570,8 @@
         "Armement",
         "Observation"
       ],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/5/52/Yasopp_Anime_Post_Ellipse_Infobox.png?cb=20240623120854&path-prefix=fr",
       "origin": "East Blue (Archipel des Gekko)",
-      "size": "1m83",
+      "size": 183,
       "race": "Humain"
     },
     {
@@ -5738,9 +5590,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Yazaemon_Anime_Infobox.png?cb=20200916074350&path-prefix=fr",
       "origin": "Wano Kuni",
-      "size": "1m80",
+      "size": 180,
       "race": "Humain"
     },
     {
@@ -5757,9 +5608,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Yorle_Anime_Infobox.png?cb=20180506120634&path-prefix=fr",
       "origin": "Erbaf",
-      "size": "21m50",
+      "size": 2150,
       "race": "Géant"
     },
     {
@@ -5774,9 +5624,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/1e/Yosaku_Manga_Post_Ellipse_Infobox.png?cb=20150809210655&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m85",
+      "size": 185,
       "race": "Humain"
     },
     {
@@ -5794,9 +5643,8 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/6/60/Zala_Anime_Infobox.png?cb=20130422182336&path-prefix=fr",
       "origin": "Grand Line",
-      "size": "1m87",
+      "size": 187,
       "race": "Humain"
     },
     {
@@ -5811,9 +5659,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/e/e3/Zambai_Manga_Post_Ellipse_Infobox.png?cb=20180729162418&path-prefix=fr",
       "origin": "Water Seven",
-      "size": "2m37",
+      "size": 237,
       "race": "Humain"
     },
     {
@@ -5830,9 +5677,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Zeff_Anime_Post_Ellipse_Infobox.png?cb=20250803105308&path-prefix=fr",
       "origin": "East Blue",
-      "size": "1m89",
+      "size": 189,
       "race": "Humain"
     },
     {
@@ -5849,9 +5695,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/1/12/Zeo_Anime_Infobox.png?cb=20230508114351&path-prefix=fr",
       "origin": "Fishman Island",
-      "size": "3m25",
+      "size": 325,
       "race": "Homme-Poisson"
     }
   ]

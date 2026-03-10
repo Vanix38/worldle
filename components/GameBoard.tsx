@@ -108,7 +108,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
             </tr>
           </thead>
           <tbody>
-            {guessRows.map((row) => (
+            {[...guessRows].reverse().map((row) => (
               <tr
                 key={row.character.id}
                 className="border-b border-gray-700 bg-gray-800/30 hover:bg-gray-800/50"

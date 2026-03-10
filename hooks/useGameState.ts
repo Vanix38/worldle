@@ -3,9 +3,8 @@
 import { useState, useCallback, useEffect } from "react";
 import type { GameState, Character } from "@/types/game";
 import type { UniverseId } from "@/types/game";
-import { createNewGame, getCharacterById, getCharacterByName } from "@/lib/game";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { getFeedback } from "@/lib/compare";
-import { getSchema } from "@/lib/schemas";
 import type { AttributeFeedback } from "@/types/game";
 
 const STORAGE_KEY = "worlddle-game";
@@ -30,12 +29,27 @@ function saveState(state: GameState): void {
   } catch {}
 }
 
+function getCharacterById(characters: Character[], id: string): Character | undefined {
+  return characters.find((c) => c.id === id);
+}
+
+function createNewGame(universeId: UniverseId, characters: Character[]): GameState {
+  const target = characters[Math.floor(Math.random() * characters.length)];
+  return {
+    universeId,
+    targetId: target.id,
+    guesses: [],
+    won: false,
+  };
+}
+
 export interface GuessRowData {
   character: Character;
   feedback: AttributeFeedback[];
 }
 
 export function useGameState(universeId: UniverseId) {
+  const { characters, schema } = useUniverseData();
   const [state, setState] = useState<GameState | null>(null);
 
   useEffect(() => {
@@ -43,21 +57,20 @@ export function useGameState(universeId: UniverseId) {
     if (saved) {
       setState(saved);
     } else {
-      setState(createNewGame(universeId));
+      setState(createNewGame(universeId, characters));
     }
-  }, [universeId]);
+  }, [universeId]); // eslint-disable-line react-hooks/exhaustive-deps -- only reset when universe changes
 
   useEffect(() => {
     if (state) saveState(state);
   }, [state]);
 
-  const target = state ? getCharacterById(universeId, state.targetId) : undefined;
-  const schema = getSchema(universeId);
+  const target = state ? getCharacterById(characters, state.targetId) : undefined;
 
   const guessRows: GuessRowData[] = [];
   if (state && target && schema.length) {
     for (const charId of state.guesses) {
-      const character = getCharacterById(universeId, charId);
+      const character = getCharacterById(characters, charId);
       if (character) {
         guessRows.push({
           character,
@@ -82,8 +95,8 @@ export function useGameState(universeId: UniverseId) {
   );
 
   const startNewGame = useCallback(() => {
-    setState(createNewGame(universeId));
-  }, [universeId]);
+    setState(createNewGame(universeId, characters));
+  }, [universeId, characters]);
 
   return {
     state,

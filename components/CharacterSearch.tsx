@@ -3,8 +3,43 @@
 import { useState, useRef, useEffect } from "react";
 import type { Character } from "@/types/game";
 import type { UniverseId } from "@/types/game";
-import { searchCharacters } from "@/lib/game";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { CharacterAvatar } from "./CharacterAvatar";
+
+function getSearchableStrings(character: Character, searchFieldKeys: string[]): string[] {
+  const parts: string[] = [];
+  for (const key of searchFieldKeys) {
+    const val = character[key];
+    if (val === undefined || val === null) continue;
+    if (Array.isArray(val)) {
+      val.forEach((v) => parts.push(String(v).toLowerCase()));
+    } else {
+      parts.push(String(val).toLowerCase());
+    }
+  }
+  return parts;
+}
+
+function searchCharacters(
+  characters: Character[],
+  query: string,
+  searchFieldKeys: string[]
+): Character[] {
+  const normalized = query.trim().toLowerCase();
+  if (!normalized) return [];
+  return characters
+    .filter((c) => {
+      const nameMatch = c.name.toLowerCase().includes(normalized);
+      const aliasMatch = (c.aliases ?? []).some((a) =>
+        String(a).toLowerCase().includes(normalized)
+      );
+      const searchFieldsMatch =
+        searchFieldKeys.length > 0 &&
+        getSearchableStrings(c, searchFieldKeys).some((s) => s.includes(normalized));
+      return nameMatch || aliasMatch || searchFieldsMatch;
+    })
+    .slice(0, 8);
+}
 
 interface CharacterSearchProps {
   universeId: UniverseId;
@@ -24,6 +59,7 @@ export function CharacterSearch({
   className = "",
   size = "sm",
 }: CharacterSearchProps) {
+  const { characters, searchFieldKeys } = useUniverseData();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Character[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -37,13 +73,13 @@ export function CharacterSearch({
       setOpen(false);
       return;
     }
-    const list = searchCharacters(universeId, query).filter(
+    const list = searchCharacters(characters, query, searchFieldKeys).filter(
       (c) => !guessedIds.includes(c.id)
     );
     setResults(list);
     setSelectedIndex(0);
     setOpen(list.length > 0);
-  }, [query, universeId, guessedIds]);
+  }, [query, characters, guessedIds, searchFieldKeys]);
 
   useEffect(() => {
     if (!open || !listRef.current) return;

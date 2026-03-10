@@ -2,21 +2,9 @@
 
 import { useState } from "react";
 import type { Character } from "@/types/game";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
 
-interface CharacterAvatarProps {
-  character: Character;
-  size?: "sm" | "md";
-  className?: string;
-}
-
-const DICEBEAR_BASE = "https://api.dicebear.com/9.x/initials/svg";
-
-function getAvatarUrl(character: Character, pixelSize: number): string {
-  const custom = character.imageUrl && String(character.imageUrl).trim();
-  if (custom) return custom;
-  const seed = encodeURIComponent(character.name);
-  return `${DICEBEAR_BASE}?seed=${seed}&size=${pixelSize}`;
-}
+const EXTENSIONS = ["webp", "png", "jpg"] as const;
 
 function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/);
@@ -26,16 +14,33 @@ function getInitials(name: string): string {
   return name.slice(0, 2).toUpperCase();
 }
 
+interface CharacterAvatarProps {
+  character: Character;
+  size?: "sm" | "md";
+  className?: string;
+}
+
 export function CharacterAvatar({
   character,
   size = "sm",
   className = "",
 }: CharacterAvatarProps) {
-  const sizeClass = size === "sm" ? "h-8 w-8 text-xs" : "h-10 w-10 text-sm";
-  const pixelSize = size === "sm" ? 32 : 40;
-  const imageUrl = getAvatarUrl(character, pixelSize);
-
+  const { universeId } = useUniverseData();
+  const [extensionIndex, setExtensionIndex] = useState(0);
   const [failed, setFailed] = useState(false);
+
+  const ext = EXTENSIONS[extensionIndex];
+  const src = `/universes/${universeId}/characters/${character.id}.${ext}`;
+
+  const sizeClass = size === "sm" ? "h-8 w-8 text-xs" : "h-10 w-10 text-sm";
+
+  const handleError = () => {
+    if (extensionIndex < EXTENSIONS.length - 1) {
+      setExtensionIndex((i) => i + 1);
+    } else {
+      setFailed(true);
+    }
+  };
 
   if (failed) {
     return (
@@ -54,11 +59,11 @@ export function CharacterAvatar({
       aria-hidden
     >
       <img
-        src={imageUrl}
+        src={src}
         alt=""
         className="h-full w-full object-cover object-top scale-125"
         loading="lazy"
-        onError={() => setFailed(true)}
+        onError={handleError}
       />
     </div>
   );

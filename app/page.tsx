@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { UNIVERSES } from "@/lib/universes";
+import { getUniverses } from "@/lib/universes-data";
 
 export default function Home() {
+  const universes = getUniverses();
   return (
     <main className="mx-auto max-w-xl px-4 py-12">
       <header className="mb-10 text-center">
@@ -12,7 +13,7 @@ export default function Home() {
       </header>
 
       <ul className="space-y-2">
-        {UNIVERSES.map((u) => (
+        {universes.map((u) => (
           <li key={u.id}>
             <Link
               href={`/game/${u.id}`}

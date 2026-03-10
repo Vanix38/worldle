@@ -1,23 +1,106 @@
-import type { AttributeSchemaEntry } from "@/types/game";
+import type {
+  AttributeSchemaEntry,
+  AttributeType,
+  Character,
+  FieldMappingEntry,
+  UniverseData,
+} from "@/types/game";
 
-export const ONE_PIECE_SCHEMA: AttributeSchemaEntry[] = [
-  { key: "gender", label: "Genre", type: "categorical" },
-  { key: "age", label: "Âge", type: "numeric", ordered: true },
-  { key: "bounty", label: "Prime", type: "numeric", ordered: true },
-  { key: "arc", label: "1er arc d'apparition", type: "categorical" },
-  { key: "devilFruitType", label: "Type de fruit du démon", type: "categorical" },
-  { key: "affiliation", label: "Affiliation (équipage/Marine/Cypher Pol etc)", type: "categorical" },
-  { key: "origin", label: "Origine", type: "categorical" },
-  { key: "haki", label: "Haki(s) maîtrisé(s)", type: "multivalue" },
-];
+const RESERVED_KEYS = new Set(["id", "name", "imageUrl", "aliases"]);
 
-export function getSchema(universeId: string): AttributeSchemaEntry[] {
-  if (universeId === "one-piece") return ONE_PIECE_SCHEMA;
-  return [];
+function inferType(value: unknown): AttributeType {
+  if (Array.isArray(value)) return "multivalue";
+  if (typeof value === "number" && !Number.isNaN(value)) return "numeric";
+  return "categorical";
+}
+
+function formatLabel(key: string): string {
+  return key
+    .replace(/([A-Z])/g, " $1")
+    .replace(/^./, (s) => s.toUpperCase())
+    .trim();
+}
+
+function schemaEntryFromFieldMapping(
+  key: string,
+  entry: FieldMappingEntry
+): AttributeSchemaEntry | null {
+  if (entry.fonction === "Recherche") return null;
+  let type: AttributeType = "categorical";
+  let ordered = false;
+  let order: string[] | undefined;
+  switch (entry.fonction) {
+    case "Classique":
+      type = "categorical";
+      break;
+    case "Comparaison":
+      type = "categorical";
+      order = entry.order;
+      ordered = Boolean(order && order.length > 0);
+      break;
+    case "ComparaisonDate":
+      type = "date";
+      ordered = true;
+      break;
+    case "ComparaisonChiffre":
+      type = "numeric";
+      ordered = true;
+      break;
+    default:
+      type = "categorical";
+  }
+  return {
+    key,
+    label: entry.header,
+    type,
+    ordered,
+    ...(order && order.length > 0 && { order }),
+  };
+}
+
+/**
+ * Build schema from fieldMapping (only non-Recherche fields), or fallback to inference.
+ */
+export function getSchemaFromUniverseData(universeData: UniverseData): AttributeSchemaEntry[] {
+  if (universeData.fieldMapping && Object.keys(universeData.fieldMapping).length > 0) {
+    const entries: AttributeSchemaEntry[] = [];
+    for (const [key, mappingEntry] of Object.entries(universeData.fieldMapping)) {
+      const entry = schemaEntryFromFieldMapping(key, mappingEntry);
+      if (entry) entries.push(entry);
+    }
+    if (entries.length > 0) return entries;
+  }
+  if (universeData.schema && universeData.schema.length > 0) {
+    return universeData.schema;
+  }
+  const first = universeData.characters[0];
+  if (!first) return [];
+  const result: AttributeSchemaEntry[] = [];
+  for (const key of Object.keys(first)) {
+    if (RESERVED_KEYS.has(key)) continue;
+    const value = first[key];
+    const type = inferType(value);
+    result.push({
+      key,
+      label: formatLabel(key),
+      type,
+      ordered: type === "numeric",
+    });
+  }
+  return result;
+}
+
+/** Keys with fonction Recherche (used for search only). */
+export function getSearchFieldKeys(universeData: UniverseData): string[] {
+  if (!universeData.fieldMapping) return [];
+  return Object.entries(universeData.fieldMapping)
+    .filter(([, e]) => e.fonction === "Recherche")
+    .map(([key]) => key);
 }
 
 /** Attribute key to reveal as first hint after N wrong guesses (Phase 2). */
-export function getHintAttribute(universeId: string): string | null {
+export function getHintAttribute(universeId: string, schema?: AttributeSchemaEntry[]): string | null {
   if (universeId === "one-piece") return "arc";
+  if (schema && schema.length > 0) return schema[0].key;
   return null;
 }

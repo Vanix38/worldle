@@ -18,7 +18,7 @@ export interface Character {
 }
 
 /** Schema entry for one attribute: type and label. */
-export type AttributeType = "categorical" | "numeric" | "multivalue";
+export type AttributeType = "categorical" | "numeric" | "multivalue" | "date";
 
 export interface AttributeSchemaEntry {
   key: string;
@@ -26,9 +26,41 @@ export interface AttributeSchemaEntry {
   type: AttributeType;
   /** For numeric: treat as ordered and show higher/lower. */
   ordered?: boolean;
+  /** For Comparaison: ordered list for before/after arrow. */
+  order?: string[];
 }
 
-export type UniverseId = "one-piece";
+/** Field behaviour from universe fieldMapping. */
+export type FieldMappingFonction =
+  | "Classique"
+  | "Recherche"
+  | "Comparaison"
+  | "ComparaisonDate"
+  | "ComparaisonChiffre";
+
+export interface FieldMappingEntry {
+  header: string;
+  fonction: FieldMappingFonction;
+  /** For Comparaison: ordered list (first = avant, last = après). */
+  order?: string[];
+}
+
+export type FieldMapping = Record<string, FieldMappingEntry>;
+
+export type UniverseId = string;
+
+export interface UniverseData {
+  id: string;
+  name: string;
+  characters: Character[];
+  /** Mapping: field key -> header + fonction (Classique, Recherche, Comparaison, ComparaisonDate, ComparaisonChiffre). */
+  fieldMapping?: FieldMapping;
+  /** Set by server when public/universes/[id]/background.webp|.png|.jpg exists */
+  backgroundImage?: string;
+  /** Set by server when font file(s) exist in public/universes/[id]/ */
+  font?: { url: string; family: string; format: string };
+  schema?: AttributeSchemaEntry[];
+}
 
 export interface GameState {
   universeId: UniverseId;

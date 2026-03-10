@@ -1,7 +1,8 @@
 "use client";
 
 import type { Character } from "@/types/game";
-import { getSchema, getHintAttribute } from "@/lib/schemas";
+import { getHintAttribute } from "@/lib/schemas";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
 
 interface GameHintProps {
   universeId: string;
@@ -17,10 +18,10 @@ export function GameHint({
   wrongGuessCount,
   threshold = 3,
 }: GameHintProps) {
-  const hintKey = getHintAttribute(universeId);
+  const { schema } = useUniverseData();
+  const hintKey = getHintAttribute(universeId, schema);
   if (!hintKey || wrongGuessCount < threshold) return null;
 
-  const schema = getSchema(universeId);
   const entry = schema.find((e) => e.key === hintKey);
   const value = target[hintKey];
   const displayValue =
