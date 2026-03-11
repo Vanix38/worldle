@@ -5,7 +5,7 @@ import path from "path";
 const DATA_DIR = path.join(process.cwd(), "data");
 const PUBLIC_UNIVERSES_DIR = path.join(process.cwd(), "public", "universes");
 
-const BACKGROUND_EXTENSIONS = ["webp", "png", "jpg"] as const;
+const IMAGE_EXTENSIONS = ["webp", "png", "jpg", "svg"] as const;
 
 const FONT_EXTENSIONS: { ext: string; format: string }[] = [
   { ext: "woff2", format: "woff2" },
@@ -14,14 +14,53 @@ const FONT_EXTENSIONS: { ext: string; format: string }[] = [
   { ext: "otf", format: "opentype" },
 ];
 
+function detectImageInDir(dir: string, baseName: string, universeId: string): string | undefined {
+  const extensions = ["webp", "png", "jpg", "svg", "ico"] as const;
+  for (const ext of extensions) {
+    const filePath = path.join(dir, `${baseName}.${ext}`);
+    if (fs.existsSync(filePath)) return `/universes/${universeId}/${baseName}.${ext}`;
+  }
+  return undefined;
+}
+
 function detectBackgroundImage(universeId: string): string | undefined {
   try {
     const dir = path.join(PUBLIC_UNIVERSES_DIR, universeId);
     if (!fs.existsSync(dir)) return undefined;
-    for (const ext of BACKGROUND_EXTENSIONS) {
-      const filePath = path.join(dir, `background.${ext}`);
-      if (fs.existsSync(filePath)) return `/universes/${universeId}/background.${ext}`;
-    }
+    return detectImageInDir(dir, "background", universeId);
+  } catch {
+    // ignore
+  }
+  return undefined;
+}
+
+function detectIcon(universeId: string): string | undefined {
+  try {
+    const dir = path.join(PUBLIC_UNIVERSES_DIR, universeId);
+    if (!fs.existsSync(dir)) return undefined;
+    return detectImageInDir(dir, "icon", universeId);
+  } catch {
+    // ignore
+  }
+  return undefined;
+}
+
+function detectBanner(universeId: string): string | undefined {
+  try {
+    const dir = path.join(PUBLIC_UNIVERSES_DIR, universeId);
+    if (!fs.existsSync(dir)) return undefined;
+    return detectImageInDir(dir, "banner", universeId);
+  } catch {
+    // ignore
+  }
+  return undefined;
+}
+
+function detectLogo(universeId: string): string | undefined {
+  try {
+    const dir = path.join(PUBLIC_UNIVERSES_DIR, universeId);
+    if (!fs.existsSync(dir)) return undefined;
+    return detectImageInDir(dir, "logo", universeId);
   } catch {
     // ignore
   }
@@ -60,13 +99,23 @@ function isValidUniverseJson(obj: unknown): obj is { id: string; name: string; c
   );
 }
 
+export interface UniverseListItem {
+  id: string;
+  name: string;
+  icon?: string;
+  banner?: string;
+  logo?: string;
+  font?: { url: string; family: string; format: string };
+}
+
 /**
  * Returns list of universes from JSON files in data/ that have id, name, and characters.
+ * Includes icon, banner, and font when present in public/universes/{id}/.
  * Only call from server (Node) / generateStaticParams / Server Components.
  */
-export function getUniverses(): { id: string; name: string }[] {
+export function getUniverses(): UniverseListItem[] {
   if (typeof window !== "undefined") return [];
-  const result: { id: string; name: string }[] = [];
+  const result: UniverseListItem[] = [];
   try {
     const files = fs.readdirSync(DATA_DIR);
     for (const file of files) {
@@ -78,7 +127,19 @@ export function getUniverses(): { id: string; name: string }[] {
         const raw = fs.readFileSync(filePath, "utf-8");
         const data = JSON.parse(raw) as unknown;
         if (isValidUniverseJson(data)) {
-          result.push({ id: data.id, name: data.name });
+          const item: UniverseListItem = {
+            id: data.id,
+            name: data.name,
+          };
+          const icon = detectIcon(data.id);
+          if (icon) item.icon = icon;
+          const banner = detectBanner(data.id);
+          if (banner) item.banner = banner;
+          const logo = detectLogo(data.id);
+          if (logo) item.logo = logo;
+          const font = detectFont(data.id);
+          if (font) item.font = font;
+          result.push(item);
         }
       } catch {
         // skip invalid or non-universe JSON

@@ -1,3 +1,0 @@
-# Dépendances pour les scripts de scraping (installer avec: pip install -r scripts/requirements-scrape.txt)
-requests>=2.28.0
-beautifulsoup4>=4.11.0
