@@ -156,7 +156,7 @@
         "King",
         "King l'Incendie"
       ],
-      "affiliation": "Équipage aux cent bêtes",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
         "Calamités",
         "Superstars"
@@ -257,7 +257,7 @@
       ],
       "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [
-        "Équipage des Pirates du soleil"
+        "Équipage des Pirates du Soleil"
       ],
       "age": 39,
       "arc": "Arlong Park",
@@ -385,7 +385,7 @@
         "Cyborg",
         "Tyran"
       ],
-      "affiliation": "Révolutionnaires",
+      "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
         "Sept Grands Corsaires",
         "Père de Bonney",
@@ -465,7 +465,7 @@
       "aliases": [
         "Le Trancheur de Requins"
       ],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [
         "Vice-Amiral"
       ],
@@ -517,7 +517,7 @@
       "id": "belo-betty",
       "name": "Belo Betty",
       "aliases": [],
-      "affiliation": "Révolutionnaires",
+      "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [],
       "age": 32,
       "arc": "Wano Kuni",
@@ -788,7 +788,7 @@
         "Kizaru",
         "Kizaru le Singe Jaune"
       ],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [
         "Amiral"
       ],
@@ -831,7 +831,7 @@
       "id": "brannew",
       "name": "Brannew",
       "aliases": [],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [
         "Contre-Amiral"
       ],
@@ -1482,7 +1482,7 @@
       "id": "chef-des-Shandiass",
       "name": "Chef des Shandiass",
       "aliases": [],
-      "affiliation": "Shandiass",
+      "affiliation": "Shandias",
       "sub_affiliation": [],
       "age": 63,
       "arc": "Skypiea",
@@ -1958,6 +1958,7 @@
       ],
       "affiliation": "Don Quichotte Family",
       "sub_affiliation": [
+        "Marine",
         "Marines"
       ],
       "age": 26,
@@ -2406,12 +2407,12 @@
     },
     {
       "id": "gecko-moria",
-      "name": "Equipage de Gecko Moria",
+      "name": "Équipage de Gecko Moria",
       "aliases": [
         "Lion paresseux",
         "Seigneur de guerre"
       ],
-      "affiliation": "Équipage des Pirates Gecko",
+      "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [],
       "age": 48,
       "arc": "Thriller Bark",
@@ -2762,7 +2763,7 @@
       "id": "hogback",
       "name": "Hogback",
       "aliases": [],
-      "affiliation": "Equipage de Gecko Moria",
+      "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Thriller Bark",
@@ -3114,7 +3115,7 @@
       "id": "johnny",
       "name": "Johnny",
       "aliases": [],
-      "affiliation": "Chasseurs de Primes (avec Yosaku)",
+      "affiliation": "Chasseurs de Primes",
       "sub_affiliation": [],
       "age": 23,
       "arc": "Baratie",
@@ -3230,7 +3231,7 @@
       "aliases": [
         "Le Démon de Shandora"
       ],
-      "affiliation": "Shandiass",
+      "affiliation": "Shandias",
       "sub_affiliation": [],
       "age": 39,
       "arc": "Skypiea",
@@ -3449,7 +3450,7 @@
       "id": "koza",
       "name": "Koza",
       "aliases": [],
-      "affiliation": "Alabasta (Les Sablonneux",
+      "affiliation": "Alabasta",
       "sub_affiliation": [],
       "age": 20,
       "arc": "Alabasta",
@@ -3577,7 +3578,7 @@
       "id": "kuromarimo",
       "name": "Kuromarimo",
       "aliases": [],
-      "affiliation": "L’Équipage de Wapol (dissous)",
+      "affiliation": "L’Équipage de Wapol",
       "sub_affiliation": [],
       "age": 28,
       "arc": "Drum Island",
@@ -3744,7 +3745,7 @@
       "id": "laki",
       "name": "Laki",
       "aliases": [],
-      "affiliation": "Shandiass",
+      "affiliation": "Shandias",
       "sub_affiliation": [],
       "age": 22,
       "arc": "Skypiea",
@@ -6584,11 +6585,541 @@
       "gender": "Masculin",
       "haki": [],
       "origin": "Fishman Island",
-      "size": 325,
+      "size": "3m25",
       "race": "Homme-Poisson",
       "indice1": "Nouvel Équipage des Hommes-Poissons",
       "indice2": "Homme-Poisson",
       "indice3": "Fishman Island"
+    },
+    {
+      "id": "hotori-et-kotori",
+      "name": "Hotori et Kotori",
+      "aliases": [],
+      "affiliation": "Clan d'Ener",
+      "sub_affiliation": [],
+      "age": 25,
+      "arc": "Jaya",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Îles Célestes (Bilca)",
+      "size": "1m79",
+      "race": "Oni"
+    },
+    {
+      "id": "mansherry",
+      "name": "Mansherry",
+      "aliases": [],
+      "affiliation": "Royaume de Tontatta",
+      "sub_affiliation": [],
+      "age": 25,
+      "arc": "Marine Ford",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Green Bit",
+      "size": "20cm",
+      "race": "Nain"
+    },
+    {
+      "id": "mozu-et-kiwi",
+      "name": "Mozu et Kiwi",
+      "aliases": [],
+      "affiliation": "Franky Family",
+      "sub_affiliation": [],
+      "age": 22,
+      "arc": "Long Ring Long Land",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Grand Line (Bas-fonds de Water Seven)",
+      "size": "1m87",
+      "race": "Humain"
+    },
+    {
+      "id": "shirahoshi",
+      "name": "Shirahoshi",
+      "aliases": [],
+      "affiliation": "Famille de Neptune",
+      "sub_affiliation": [
+        "Royaume Ryugu"
+      ],
+      "age": 16,
+      "arc": "Île des Hommes-Poissons",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Île des Hommes-Poissons (Royaume Ryugu)",
+      "size": "11m87",
+      "race": "Sirène"
+    },
+    {
+      "id": "vinsmoke-sanji",
+      "name": "Sanji",
+      "aliases": [
+        "Sanji aux Pieds Noirs",
+        "Vinsmoke Sanji"
+      ],
+      "affiliation": "Équipage du Chapeau de Paille",
+      "sub_affiliation": [],
+      "age": 21,
+      "arc": "Baratie",
+      "bounty": 1032000000,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "imageUrl": "",
+      "origin": "North Blue",
+      "size": "1m80",
+      "race": "Humain"
+    },
+    {
+      "id": "iceburg",
+      "name": "Iceburg",
+      "aliases": [
+        "Icebarg"
+      ],
+      "affiliation": "Galley-La Company",
+      "sub_affiliation": [],
+      "age": 40,
+      "arc": "Water Seven",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Water Seven",
+      "size": "1m99",
+      "race": "Humain"
+    },
+    {
+      "id": "tony-tony-chopper",
+      "name": "Tony Tony Chopper",
+      "aliases": [],
+      "affiliation": "Équipage du Chapeau de Paille",
+      "sub_affiliation": [],
+      "age": 17,
+      "arc": "Royaume de Drum",
+      "bounty": 1000,
+      "devilFruitType": "Zoan",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Île de Drum",
+      "size": "90cm",
+      "race": "Renne"
+    },
+    {
+      "id": "usopp",
+      "name": "Usopp",
+      "aliases": [
+        "Sogeking",
+        "God Usopp",
+        "Capitaine Usopp"
+      ],
+      "affiliation": "Équipage du Chapeau de Paille",
+      "sub_affiliation": [],
+      "age": 19,
+      "arc": "Romance Dawn",
+      "bounty": 500000000,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Observation"
+      ],
+      "imageUrl": "",
+      "origin": "East Blue",
+      "size": "1m76",
+      "race": "Humain"
+    },
+    {
+      "id": "dracule-mihawk",
+      "name": "Dracule Mihawk",
+      "aliases": [
+        "Œil de Faucon",
+        "Plus grand escrimeur du monde"
+      ],
+      "affiliation": "Cross Guild",
+      "sub_affiliation": [
+        "Shichibukai"
+      ],
+      "age": 41,
+      "arc": "Baratie",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "imageUrl": "",
+      "origin": "Grand Line",
+      "size": "1m98",
+      "race": "Humain"
+    },
+    {
+      "id": "going-merry",
+      "name": "Going Merry",
+      "aliases": [
+        "Merry"
+      ],
+      "affiliation": "Équipage du Chapeau de Paille",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Romance Dawn",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Water Seven",
+      "size": "13m",
+      "race": "Navire"
+    },
+    {
+      "id": "silvers-rayleigh",
+      "name": "Silvers Rayleigh",
+      "aliases": [
+        "Roi des Ténèbres",
+        "Bras droit du Roi des Pirates"
+      ],
+      "affiliation": "Ancien Équipage de Roger",
+      "sub_affiliation": [],
+      "age": 78,
+      "arc": "Archipel de Sabaody",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "imageUrl": "",
+      "origin": "Grand Line",
+      "size": "1m88",
+      "race": "Humain"
+    },
+    {
+      "id": "woop-slap",
+      "name": "Woop Slap",
+      "aliases": [],
+      "affiliation": "Village de Foosha",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Romance Dawn",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "East Blue",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "charlotte-pudding",
+      "name": "Charlotte Pudding",
+      "aliases": [
+        "Pudding"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
+      "age": 16,
+      "arc": "Whole Cake Island",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Whole Cake Island",
+      "size": "1m66",
+      "race": "Humain"
+    },
+    {
+      "id": "kikunojo",
+      "name": "Kikunojo",
+      "aliases": [
+        "Kiku"
+      ],
+      "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+      "sub_affiliation": [
+        "Neuf Écarlates"
+      ],
+      "age": 0,
+      "arc": "Pays des Wa",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Pays des Wa",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "pell",
+      "name": "Pell",
+      "aliases": [
+        "Pell le Faucon"
+      ],
+      "affiliation": "Royaume d'Alabasta",
+      "sub_affiliation": [
+        "Garde royale"
+      ],
+      "age": 35,
+      "arc": "Arabasta",
+      "bounty": 0,
+      "devilFruitType": "Zoan",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Arabasta",
+      "size": "1m89",
+      "race": "Humain"
+    },
+    {
+      "id": "kurozumi-tama",
+      "name": "Kurozumi Tama",
+      "aliases": [
+        "Otama",
+        "Tama"
+      ],
+      "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+      "sub_affiliation": [],
+      "age": 8,
+      "arc": "Pays des Wa",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Pays des Wa",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "ben-beckmann",
+      "name": "Ben Beckmann",
+      "aliases": [],
+      "affiliation": "Équipage du Roux",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Romance Dawn",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "North Blue",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "koala",
+      "name": "Koala",
+      "aliases": [],
+      "affiliation": "Armée Révolutionnaire",
+      "sub_affiliation": [],
+      "age": 23,
+      "arc": "Île des Hommes-Poissons",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Inconnu",
+      "size": "1m60",
+      "race": "Humain"
+    },
+    {
+      "id": "gaimon",
+      "name": "Gaimon",
+      "aliases": [],
+      "affiliation": "Aucune",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Romance Dawn",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "East Blue",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "thousand-sunny",
+      "name": "Thousand Sunny",
+      "aliases": [
+        "Sunny"
+      ],
+      "affiliation": "Équipage du Chapeau de Paille",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Post-Enies Lobby",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Water Seven",
+      "size": "39m",
+      "race": "Navire"
+    },
+    {
+      "id": "rockstar",
+      "name": "Rockstar",
+      "aliases": [],
+      "affiliation": "Équipage du Roux",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Jaya",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Inconnu",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "paulie",
+      "name": "Paulie",
+      "aliases": [],
+      "affiliation": "Galley-La Company",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Water Seven",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Water Seven",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "namur",
+      "name": "Namur",
+      "aliases": [],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Marine Ford",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Île des Hommes-Poissons",
+      "size": "",
+      "race": "Homme-Poisson"
+    },
+    {
+      "id": "bellemere",
+      "name": "Bellemère",
+      "aliases": [],
+      "affiliation": "Marine",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Arlong Park",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "East Blue",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "gin",
+      "name": "Gin",
+      "aliases": [],
+      "affiliation": "Équipage de Don Krieg",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Baratie",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "East Blue",
+      "size": "",
+      "race": "Humain"
+    },
+    {
+      "id": "dugong",
+      "name": "Dugong",
+      "aliases": [],
+      "affiliation": "Île de Kumacy",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Arabasta",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Grand Line",
+      "size": "",
+      "race": "Animal"
+    },
+    {
+      "id": "kawamatsu",
+      "name": "Kawamatsu",
+      "aliases": [
+        "Kawamatsu le Kappa"
+      ],
+      "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+      "sub_affiliation": [
+        "Neuf Écarlates"
+      ],
+      "age": 0,
+      "arc": "Pays des Wa",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Île des Hommes-Poissons",
+      "size": "",
+      "race": "Homme-Poisson"
+    },
+    {
+      "id": "pandaman",
+      "name": "Pandaman",
+      "aliases": [],
+      "affiliation": "Aucune",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Romance Dawn",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "imageUrl": "",
+      "origin": "Inconnu",
+      "size": "",
+      "race": "Humain"
     }
   ]
 }
