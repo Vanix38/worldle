@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { stripAccents } from "@/lib/utils";
 import type { UniverseData } from "@/types/game";
 import { UniverseDataProvider } from "@/contexts/UniverseDataContext";
 import { GameBoard } from "@/components/GameBoard";
@@ -43,19 +44,19 @@ export function GamePageClient({ universeId, universeData }: GamePageClientProps
           </>
         )}
 
-        <div className="mx-auto max-w-4xl px-3 py-4 sm:px-4 sm:py-6">
-          <div className="mb-4 flex items-center justify-between gap-2">
+        <div className="mx-auto px-2 py-4 sm:px-4 sm:py-6 md:px-6">
+          <header className="mb-4 flex items-center justify-between gap-2">
             <Link
               href="/"
-              className="text-sm font-medium text-gray-400 hover:text-white"
+              className="min-h-[2.75rem] min-w-[2.75rem] text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
             >
               ← Accueil
             </Link>
-            <h1 className="text-lg font-bold text-white sm:text-xl">
-              {universeData.name}
+            <h1 className="truncate text-lg font-bold text-white sm:text-xl">
+              {stripAccents(universeData.name)}
             </h1>
-            <div className="w-14" />
-          </div>
+            <div className="min-w-[2.75rem] sm:min-w-14" aria-hidden />
+          </header>
 
           <GameBoard universeId={universeId} />
         </div>

@@ -5,6 +5,7 @@ import type { Character } from "@/types/game";
 import type { UniverseId } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { CharacterAvatar } from "./CharacterAvatar";
+import { stripAccents } from "@/lib/utils";
 
 function getSearchableStrings(character: Character, searchFieldKeys: string[]): string[] {
   const parts: string[] = [];
@@ -128,8 +129,8 @@ export function CharacterSearch({
         disabled={disabled}
         className={
           size === "lg"
-            ? "w-full rounded-xl border-2 border-gray-600 bg-gray-800/90 px-5 py-4 text-lg text-white placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900 disabled:opacity-50"
-            : "w-full rounded border border-gray-600 bg-gray-800 px-3 py-2 text-white placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:opacity-50"
+            ? "min-h-[44px] w-full rounded-xl border-2 border-gray-600 bg-gray-800/90 px-5 py-4 text-lg text-white placeholder-gray-400 focus:border-ocean-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 disabled:opacity-50"
+            : "min-h-[44px] w-full rounded-lg border border-gray-600 bg-gray-800 px-3 py-3 text-base text-white placeholder-gray-400 focus:border-ocean-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800 disabled:opacity-50 sm:py-2"
         }
         autoComplete="off"
         aria-label="Rechercher un personnage"
@@ -155,12 +156,12 @@ export function CharacterSearch({
               aria-selected={i === selectedIndex}
               onClick={() => handleSelect(char)}
               onMouseEnter={() => setSelectedIndex(i)}
-              className={`flex w-full items-center gap-3 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none ${
-                size === "lg" ? "px-5 py-3 text-base" : "px-4 py-2"
+              className={`flex min-h-[44px] w-full items-center gap-3 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-inset ${
+                size === "lg" ? "px-5 py-3 text-base" : "px-4 py-3"
               } ${i === selectedIndex ? "bg-gray-700" : ""}`}
             >
               <CharacterAvatar character={char} size={size === "lg" ? "md" : "sm"} />
-              <span>{char.name}</span>
+              <span>{stripAccents(char.name)}</span>
             </button>
           ))}
         </div>

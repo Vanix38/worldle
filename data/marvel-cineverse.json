@@ -51,7 +51,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Robert Downey Jr."
+      "acteur": "Robert Downey Jr.",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Robert Downey Jr."
     },
     {
       "id": "steve-rogers",
@@ -69,7 +72,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Chris Evans"
+      "acteur": "Chris Evans",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Chris Evans"
     },
     {
       "id": "thor-odinson",
@@ -85,7 +91,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Chris Hemsworth"
+      "acteur": "Chris Hemsworth",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Chris Hemsworth"
     },
     {
       "id": "bruce-banner",
@@ -102,7 +111,10 @@
       "firstAppearance": "The Incredible Hulk",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Mark Ruffalo"
+      "acteur": "Mark Ruffalo",
+      "indice1": "MCU",
+      "indice2": "The Incredible Hulk",
+      "indice3": "Mark Ruffalo"
     },
     {
       "id": "natasha-romanoff",
@@ -119,7 +131,10 @@
       "firstAppearance": "Iron Man 2",
       "firstAppearanceDate": "2010",
       "univers": 616,
-      "acteur": "Scarlett Johansson"
+      "acteur": "Scarlett Johansson",
+      "indice1": "MCU",
+      "indice2": "Iron Man 2",
+      "indice3": "Scarlett Johansson"
     },
     {
       "id": "clint-barton",
@@ -136,7 +151,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Jeremy Renner"
+      "acteur": "Jeremy Renner",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Jeremy Renner"
     },
     {
       "id": "peter-parker",
@@ -153,7 +171,10 @@
       "firstAppearance": "Captain America: Civil War",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Tom Holland"
+      "acteur": "Tom Holland",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "Tom Holland"
     },
     {
       "id": "wanda-maximoff",
@@ -170,7 +191,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Elizabeth Olsen"
+      "acteur": "Elizabeth Olsen",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Elizabeth Olsen"
     },
     {
       "id": "stephen-strange",
@@ -187,7 +211,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Benedict Cumberbatch"
+      "acteur": "Benedict Cumberbatch",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Benedict Cumberbatch"
     },
     {
       "id": "t-challa",
@@ -204,7 +231,10 @@
       "firstAppearance": "Captain America: Civil War",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Chadwick Boseman"
+      "acteur": "Chadwick Boseman",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "Chadwick Boseman"
     },
     {
       "id": "carol-danvers",
@@ -221,7 +251,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Brie Larson"
+      "acteur": "Brie Larson",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Brie Larson"
     },
     {
       "id": "loki",
@@ -238,7 +271,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Tom Hiddleston"
+      "acteur": "Tom Hiddleston",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Tom Hiddleston"
     },
     {
       "id": "thanos",
@@ -254,7 +290,10 @@
       "firstAppearance": "The Avengers",
       "firstAppearanceDate": "2012",
       "univers": 616,
-      "acteur": "Josh Brolin"
+      "acteur": "Josh Brolin",
+      "indice1": "MCU",
+      "indice2": "The Avengers",
+      "indice3": "Josh Brolin"
     },
     {
       "id": "nick-fury",
@@ -271,7 +310,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Samuel L. Jackson"
+      "acteur": "Samuel L. Jackson",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Samuel L. Jackson"
     },
     {
       "id": "vision",
@@ -287,7 +329,10 @@
       "firstAppearance": "Avengers: Age of Ultron",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Paul Bettany"
+      "acteur": "Paul Bettany",
+      "indice1": "MCU",
+      "indice2": "Avengers: Age of Ultron",
+      "indice3": "Paul Bettany"
     },
     {
       "id": "white-vision",
@@ -304,7 +349,10 @@
       "firstAppearance": "WandaVision",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Paul Bettany"
+      "acteur": "Paul Bettany",
+      "indice1": "MCU",
+      "indice2": "WandaVision",
+      "indice3": "Paul Bettany"
     },
     {
       "id": "sam-wilson",
@@ -321,7 +369,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Anthony Mackie"
+      "acteur": "Anthony Mackie",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Anthony Mackie"
     },
     {
       "id": "bucky-barnes",
@@ -338,7 +389,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Sebastian Stan"
+      "acteur": "Sebastian Stan",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Sebastian Stan"
     },
     {
       "id": "peter-quill",
@@ -355,7 +409,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Chris Pratt"
+      "acteur": "Chris Pratt",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Chris Pratt"
     },
     {
       "id": "gamora",
@@ -371,7 +428,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Zoe Saldaña"
+      "acteur": "Zoe Saldaña",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Zoe Saldaña"
     },
     {
       "id": "drax",
@@ -387,7 +447,10 @@
       "species": "Alien",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Dave Bautista"
+      "acteur": "Dave Bautista",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Dave Bautista"
     },
     {
       "id": "rocket-raccoon",
@@ -405,7 +468,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Sean Gunn (on-set actor)"
+      "acteur": "Sean Gunn (on-set actor)",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Sean Gunn (on-set actor)"
     },
     {
       "id": "groot",
@@ -421,7 +487,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Vin Diesel"
+      "acteur": "Vin Diesel",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Vin Diesel"
     },
     {
       "id": "nebula",
@@ -437,7 +506,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Karen Gillan"
+      "acteur": "Karen Gillan",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Karen Gillan"
     },
     {
       "id": "scott-lang",
@@ -454,7 +526,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Paul Rudd"
+      "acteur": "Paul Rudd",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Paul Rudd"
     },
     {
       "id": "hope-van-dyne",
@@ -471,7 +546,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Evangeline Lilly"
+      "acteur": "Evangeline Lilly",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Evangeline Lilly"
     },
     {
       "id": "shang-chi",
@@ -488,7 +566,10 @@
       "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Simu Liu"
+      "acteur": "Simu Liu",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Simu Liu"
     },
     {
       "id": "yelena-belova",
@@ -505,7 +586,10 @@
       "firstAppearance": "Black Widow",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Florence Pugh"
+      "acteur": "Florence Pugh",
+      "indice1": "MCU",
+      "indice2": "Black Widow",
+      "indice3": "Florence Pugh"
     },
     {
       "id": "kate-bishop",
@@ -523,7 +607,10 @@
       "firstAppearance": "Hawkeye",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Hailee Steinfeld"
+      "acteur": "Hailee Steinfeld",
+      "indice1": "MCU",
+      "indice2": "Hawkeye",
+      "indice3": "Hailee Steinfeld"
     },
     {
       "id": "matt-murdock",
@@ -540,7 +627,10 @@
       "firstAppearance": "Daredevil",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Charlie Cox"
+      "acteur": "Charlie Cox",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil",
+      "indice3": "Charlie Cox"
     },
     {
       "id": "wilson-fisk",
@@ -557,7 +647,10 @@
       "firstAppearance": "Daredevil",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Vincent D'Onofrio"
+      "acteur": "Vincent D'Onofrio",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil",
+      "indice3": "Vincent D'Onofrio"
     },
     {
       "id": "frank-castle",
@@ -575,7 +668,10 @@
       "firstAppearance": "Daredevil",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Jon Bernthal"
+      "acteur": "Jon Bernthal",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil",
+      "indice3": "Jon Bernthal"
     },
     {
       "id": "eddie-brock",
@@ -592,7 +688,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Tom Hardy"
+      "acteur": "Tom Hardy",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: No Way Home",
+      "indice3": "Tom Hardy"
     },
     {
       "id": "cletus-kasady",
@@ -609,7 +708,10 @@
       "firstAppearance": "Venom: Let There Be Carnage",
       "firstAppearanceDate": "2021",
       "univers": 8311,
-      "acteur": "Woody Harrelson"
+      "acteur": "Woody Harrelson",
+      "indice1": "SSU",
+      "indice2": "Venom: Let There Be Carnage",
+      "indice3": "Woody Harrelson"
     },
     {
       "id": "michael-morbius",
@@ -626,7 +728,10 @@
       "firstAppearance": "Morbius",
       "firstAppearanceDate": "2022",
       "univers": 8311,
-      "acteur": "Jared Leto"
+      "acteur": "Jared Leto",
+      "indice1": "SSU",
+      "indice2": "Morbius",
+      "indice3": "Jared Leto"
     },
     {
       "id": "sergei-kravinoff",
@@ -643,7 +748,10 @@
       "firstAppearance": "raven le Chasseur",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Aaron Taylor-Johnson"
+      "acteur": "Aaron Taylor-Johnson",
+      "indice1": "SSU",
+      "indice2": "raven le Chasseur",
+      "indice3": "Aaron Taylor-Johnson"
     },
     {
       "id": "patrick-mulligan",
@@ -660,7 +768,10 @@
       "firstAppearance": "Venom: Let There Be Carnage",
       "firstAppearanceDate": "2021",
       "univers": 8311,
-      "acteur": "Stephen Graham"
+      "acteur": "Stephen Graham",
+      "indice1": "SSU",
+      "indice2": "Venom: Let There Be Carnage",
+      "indice3": "Stephen Graham"
     },
     {
       "id": "logan",
@@ -677,7 +788,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Hugh Jackman"
+      "acteur": "Hugh Jackman",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Hugh Jackman"
     },
     {
       "id": "jean-grey",
@@ -694,7 +808,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Famke Janssen"
+      "acteur": "Famke Janssen",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Famke Janssen"
     },
     {
       "id": "ororo-munroe",
@@ -712,7 +829,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 616,
-      "acteur": "Halle Berry"
+      "acteur": "Halle Berry",
+      "indice1": "MCU",
+      "indice2": "X-Men",
+      "indice3": "Halle Berry"
     },
     {
       "id": "wade-wilson",
@@ -729,7 +849,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Ryan Reynolds"
+      "acteur": "Ryan Reynolds",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Ryan Reynolds"
     },
     {
       "id": "hank-mccoy",
@@ -746,7 +869,10 @@
       "firstAppearance": "The Marvels",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Kelsey Grammer"
+      "acteur": "Kelsey Grammer",
+      "indice1": "MCU",
+      "indice2": "The Marvels",
+      "indice3": "Kelsey Grammer"
     },
     {
       "id": "rogue",
@@ -764,7 +890,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 616,
-      "acteur": "Anna Paquin"
+      "acteur": "Anna Paquin",
+      "indice1": "MCU",
+      "indice2": "X-Men",
+      "indice3": "Anna Paquin"
     },
     {
       "id": "bobby-drake",
@@ -782,7 +911,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 616,
-      "acteur": "Shawn Ashmore"
+      "acteur": "Shawn Ashmore",
+      "indice1": "MCU",
+      "indice2": "X-Men",
+      "indice3": "Shawn Ashmore"
     },
     {
       "id": "kitty-pryde",
@@ -799,7 +931,10 @@
       "firstAppearance": "X-Men: The Last Stand",
       "firstAppearanceDate": "2006",
       "univers": 616,
-      "acteur": "Elliot Page"
+      "acteur": "Elliot Page",
+      "indice1": "MCU",
+      "indice2": "X-Men: The Last Stand",
+      "indice3": "Elliot Page"
     },
     {
       "id": "piotr-rasputin",
@@ -816,7 +951,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Stefan Kapičić"
+      "acteur": "Stefan Kapičić",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Stefan Kapičić"
     },
     {
       "id": "yukio",
@@ -832,7 +970,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Shioli Kutsuna"
+      "acteur": "Shioli Kutsuna",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Shioli Kutsuna"
     },
     {
       "id": "negasonic-teenage-warhead",
@@ -849,7 +990,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Brianna Hildebrand"
+      "acteur": "Brianna Hildebrand",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Brianna Hildebrand"
     },
     {
       "id": "vanessa-carlysle",
@@ -866,7 +1010,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Morena Baccarin"
+      "acteur": "Morena Baccarin",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Morena Baccarin"
     },
     {
       "id": "victor-creed",
@@ -883,7 +1030,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Tyler Mane"
+      "acteur": "Tyler Mane",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Tyler Mane"
     },
     {
       "id": "william-stryker",
@@ -899,7 +1049,10 @@
       "affiliation": "X-Men",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Scott Adkins"
+      "acteur": "Scott Adkins",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Scott Adkins"
     },
     {
       "id": "pietro-maximoff",
@@ -915,7 +1068,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Aaron Taylor-Johnson"
+      "acteur": "Aaron Taylor-Johnson",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Aaron Taylor-Johnson"
     },
     {
       "id": "warren-worthington-iii",
@@ -933,7 +1089,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 616,
-      "acteur": "Camila Rodriguez"
+      "acteur": "Camila Rodriguez",
+      "indice1": "MCU",
+      "indice2": "X-Men",
+      "indice3": "Camila Rodriguez"
     },
     {
       "id": "mortimer-toynbee",
@@ -949,7 +1108,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Daniel Medina Ramos"
+      "acteur": "Daniel Medina Ramos",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Daniel Medina Ramos"
     },
     {
       "id": "cain-marko",
@@ -966,7 +1128,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Aaron W. Reed"
+      "acteur": "Aaron W. Reed",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Aaron W. Reed"
     },
     {
       "id": "james-rhodes",
@@ -983,7 +1148,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Terrence Howard"
+      "acteur": "Terrence Howard",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Terrence Howard"
     },
     {
       "id": "pepper-potts",
@@ -1000,7 +1168,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Gwyneth Paltrow"
+      "acteur": "Gwyneth Paltrow",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Gwyneth Paltrow"
     },
     {
       "id": "happy-hogan",
@@ -1017,7 +1188,10 @@
       "affiliation": "Stark Industries",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Jon Favreau"
+      "acteur": "Jon Favreau",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Jon Favreau"
     },
     {
       "id": "ned-leeds",
@@ -1034,7 +1208,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Jacob Batalon"
+      "acteur": "Jacob Batalon",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Jacob Batalon"
     },
     {
       "id": "michelle-jones",
@@ -1051,7 +1228,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Zendaya"
+      "acteur": "Zendaya",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Zendaya"
     },
     {
       "id": "may-parker",
@@ -1069,7 +1249,10 @@
       "affiliation": "USA",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Marisa Tomei"
+      "acteur": "Marisa Tomei",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "Marisa Tomei"
     },
     {
       "id": "brunnhilde",
@@ -1086,7 +1269,10 @@
       "firstAppearance": "Thor: Ragnarok",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Tessa Thompson"
+      "acteur": "Tessa Thompson",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Tessa Thompson"
     },
     {
       "id": "korg",
@@ -1102,7 +1288,10 @@
       "firstAppearance": "Thor: Ragnarok",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Taika Waititi"
+      "acteur": "Taika Waititi",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Taika Waititi"
     },
     {
       "id": "miek",
@@ -1118,7 +1307,10 @@
       "firstAppearance": "Thor: Ragnarok",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Stephen Murdoch (on-set actor)"
+      "acteur": "Stephen Murdoch (on-set actor)",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Stephen Murdoch (on-set actor)"
     },
     {
       "id": "okoye",
@@ -1134,7 +1326,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Danai Gurira"
+      "acteur": "Danai Gurira",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Danai Gurira"
     },
     {
       "id": "shuri",
@@ -1150,7 +1345,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Letitia Wright"
+      "acteur": "Letitia Wright",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Letitia Wright"
     },
     {
       "id": "m-baku",
@@ -1166,7 +1364,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Winston Duke"
+      "acteur": "Winston Duke",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Winston Duke"
     },
     {
       "id": "nakia",
@@ -1182,7 +1383,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Lupita Nyong'o"
+      "acteur": "Lupita Nyong'o",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Lupita Nyong'o"
     },
     {
       "id": "erik-stevens",
@@ -1200,7 +1404,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Michael B. Jordan"
+      "acteur": "Michael B. Jordan",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Michael B. Jordan"
     },
     {
       "id": "ultron",
@@ -1216,7 +1423,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "James Spader (voice & motion capture)"
+      "acteur": "James Spader (voice & motion capture)",
+      "indice1": "MCU",
+      "indice2": "Avengers: Age of Ultron",
+      "indice3": "James Spader (voice & motion capture)"
     },
     {
       "id": "hela",
@@ -1233,7 +1443,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Cate Blanchett"
+      "acteur": "Cate Blanchett",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Cate Blanchett"
     },
     {
       "id": "grandmaster",
@@ -1250,7 +1463,10 @@
       "affiliation": "Sakaar",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Jeff Goldblum"
+      "acteur": "Jeff Goldblum",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Jeff Goldblum"
     },
     {
       "id": "ego",
@@ -1266,7 +1482,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Kurt Russell"
+      "acteur": "Kurt Russell",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 2",
+      "indice3": "Kurt Russell"
     },
     {
       "id": "yondu-udonta",
@@ -1282,7 +1501,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Michael Rooker"
+      "acteur": "Michael Rooker",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Michael Rooker"
     },
     {
       "id": "taneleer-tivan",
@@ -1298,7 +1520,10 @@
       "firstAppearance": "Thor: The Dark World",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Benicio del Toro"
+      "acteur": "Benicio del Toro",
+      "indice1": "MCU",
+      "indice2": "Thor: The Dark World",
+      "indice3": "Benicio del Toro"
     },
     {
       "id": "irani-rael",
@@ -1314,7 +1539,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Glenn Close"
+      "acteur": "Glenn Close",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Glenn Close"
     },
     {
       "id": "korath",
@@ -1330,7 +1558,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Djimon Hounsou"
+      "acteur": "Djimon Hounsou",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Djimon Hounsou"
     },
     {
       "id": "ronan-the-accuser",
@@ -1347,7 +1578,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Lee Pace"
+      "acteur": "Lee Pace",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Lee Pace"
     },
     {
       "id": "aldrich-killian",
@@ -1363,7 +1597,10 @@
       "firstAppearance": "Iron Man 3",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Guy Pearce"
+      "acteur": "Guy Pearce",
+      "indice1": "MCU",
+      "indice2": "Iron Man 3",
+      "indice3": "Guy Pearce"
     },
     {
       "id": "ivan-vanko",
@@ -1380,7 +1617,10 @@
       "firstAppearance": "Iron Man 2",
       "firstAppearanceDate": "2010",
       "univers": 616,
-      "acteur": "Mickey Rourke"
+      "acteur": "Mickey Rourke",
+      "indice1": "MCU",
+      "indice2": "Iron Man 2",
+      "indice3": "Mickey Rourke"
     },
     {
       "id": "obadiah-stane",
@@ -1397,7 +1637,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Jeff Bridges"
+      "acteur": "Jeff Bridges",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Jeff Bridges"
     },
     {
       "id": "phil-coulson",
@@ -1414,7 +1657,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Clark Gregg"
+      "acteur": "Clark Gregg",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Clark Gregg"
     },
     {
       "id": "ho-yinsen",
@@ -1431,7 +1677,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Shaun Toub"
+      "acteur": "Shaun Toub",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Shaun Toub"
     },
     {
       "id": "betty-ross",
@@ -1448,7 +1697,10 @@
       "firstAppearance": "The Incredible Hulk",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Liv Tyler"
+      "acteur": "Liv Tyler",
+      "indice1": "MCU",
+      "indice2": "The Incredible Hulk",
+      "indice3": "Liv Tyler"
     },
     {
       "id": "thaddeus-ross",
@@ -1465,7 +1717,10 @@
       "firstAppearance": "The Incredible Hulk",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "William Hurt"
+      "acteur": "William Hurt",
+      "indice1": "MCU",
+      "indice2": "The Incredible Hulk",
+      "indice3": "William Hurt"
     },
     {
       "id": "emil-blonsky",
@@ -1482,7 +1737,10 @@
       "firstAppearance": "The Incredible Hulk",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Tim Roth"
+      "acteur": "Tim Roth",
+      "indice1": "MCU",
+      "indice2": "The Incredible Hulk",
+      "indice3": "Tim Roth"
     },
     {
       "id": "justin-hammer",
@@ -1498,7 +1756,10 @@
       "firstAppearance": "Iron Man 2",
       "firstAppearanceDate": "2010",
       "univers": 616,
-      "acteur": "Sam Rockwell"
+      "acteur": "Sam Rockwell",
+      "indice1": "MCU",
+      "indice2": "Iron Man 2",
+      "indice3": "Sam Rockwell"
     },
     {
       "id": "odin",
@@ -1515,7 +1776,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Anthony Hopkins"
+      "acteur": "Anthony Hopkins",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Anthony Hopkins"
     },
     {
       "id": "frigga",
@@ -1531,7 +1795,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Rene Russo"
+      "acteur": "Rene Russo",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Rene Russo"
     },
     {
       "id": "heimdall",
@@ -1547,7 +1814,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Idris Elba"
+      "acteur": "Idris Elba",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Idris Elba"
     },
     {
       "id": "erik-selvig",
@@ -1563,7 +1833,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Stellan Skarsgård"
+      "acteur": "Stellan Skarsgård",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Stellan Skarsgård"
     },
     {
       "id": "jane-foster",
@@ -1580,7 +1853,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Natalie Portman"
+      "acteur": "Natalie Portman",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Natalie Portman"
     },
     {
       "id": "darcy-lewis",
@@ -1596,7 +1872,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Kat Dennings"
+      "acteur": "Kat Dennings",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Kat Dennings"
     },
     {
       "id": "sif",
@@ -1612,7 +1891,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Jaimie Alexander"
+      "acteur": "Jaimie Alexander",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Jaimie Alexander"
     },
     {
       "id": "volstagg",
@@ -1628,7 +1910,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Ray Stevenson"
+      "acteur": "Ray Stevenson",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Ray Stevenson"
     },
     {
       "id": "fandral",
@@ -1644,7 +1929,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Josh Dallas"
+      "acteur": "Josh Dallas",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Josh Dallas"
     },
     {
       "id": "hogun",
@@ -1660,7 +1948,10 @@
       "firstAppearance": "Thor",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Tadanobu Asano"
+      "acteur": "Tadanobu Asano",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Tadanobu Asano"
     },
     {
       "id": "laufey",
@@ -1676,7 +1967,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Colm Feore"
+      "acteur": "Colm Feore",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Colm Feore"
     },
     {
       "id": "peggy-carter",
@@ -1693,7 +1987,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Hayley Atwell"
+      "acteur": "Hayley Atwell",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Hayley Atwell"
     },
     {
       "id": "howard-stark",
@@ -1710,7 +2007,10 @@
       "affiliation": "Stark Industries",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Gerard Sanders"
+      "acteur": "Gerard Sanders",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Gerard Sanders"
     },
     {
       "id": "johann-schmidt",
@@ -1727,7 +2027,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Hugo Weaving"
+      "acteur": "Hugo Weaving",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Hugo Weaving"
     },
     {
       "id": "jim-morita",
@@ -1744,7 +2047,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Kenneth Choi"
+      "acteur": "Kenneth Choi",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Kenneth Choi"
     },
     {
       "id": "jacques-dernier",
@@ -1760,7 +2066,10 @@
       "affiliation": "French Resistance",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Bruno Ricci"
+      "acteur": "Bruno Ricci",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Bruno Ricci"
     },
     {
       "id": "gabe-jones",
@@ -1777,7 +2086,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Derek Luke"
+      "acteur": "Derek Luke",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Derek Luke"
     },
     {
       "id": "dum-dum-dugan",
@@ -1794,7 +2106,10 @@
       "affiliation": "USA",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Neal McDonough"
+      "acteur": "Neal McDonough",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Neal McDonough"
     },
     {
       "id": "maria-hill",
@@ -1810,7 +2125,10 @@
       "firstAppearance": "The Avengers",
       "firstAppearanceDate": "2012",
       "univers": 616,
-      "acteur": "Cobie Smulders"
+      "acteur": "Cobie Smulders",
+      "indice1": "MCU",
+      "indice2": "The Avengers",
+      "indice3": "Cobie Smulders"
     },
     {
       "id": "alexander-pierce",
@@ -1827,7 +2145,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Robert Redford"
+      "acteur": "Robert Redford",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Robert Redford"
     },
     {
       "id": "arnim-zola",
@@ -1843,7 +2164,10 @@
       "firstAppearance": "Captain America: The First Avenger",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Toby Jones"
+      "acteur": "Toby Jones",
+      "indice1": "MCU",
+      "indice2": "Captain America: The First Avenger",
+      "indice3": "Toby Jones"
     },
     {
       "id": "baron-wolfgang-von-strucker",
@@ -1859,7 +2183,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Thomas Kretschmann"
+      "acteur": "Thomas Kretschmann",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Thomas Kretschmann"
     },
     {
       "id": "baron-helmut-zemo",
@@ -1875,7 +2202,10 @@
       "firstAppearance": "Captain America: Civil War",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Daniel Brühl"
+      "acteur": "Daniel Brühl",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "Daniel Brühl"
     },
     {
       "id": "dormammu",
@@ -1891,7 +2221,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Benedict Cumberbatch"
+      "acteur": "Benedict Cumberbatch",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Benedict Cumberbatch"
     },
     {
       "id": "wong",
@@ -1907,7 +2240,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Benedict Wong"
+      "acteur": "Benedict Wong",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Benedict Wong"
     },
     {
       "id": "mordo",
@@ -1925,7 +2261,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Chiwetel Ejiofor"
+      "acteur": "Chiwetel Ejiofor",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Chiwetel Ejiofor"
     },
     {
       "id": "christine-palmer",
@@ -1941,7 +2280,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Rachel McAdams"
+      "acteur": "Rachel McAdams",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Rachel McAdams"
     },
     {
       "id": "kaecilius",
@@ -1957,7 +2299,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Mads Mikkelsen"
+      "acteur": "Mads Mikkelsen",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Mads Mikkelsen"
     },
     {
       "id": "yon-rogg",
@@ -1973,7 +2318,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Jude Law"
+      "acteur": "Jude Law",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Jude Law"
     },
     {
       "id": "talos",
@@ -1989,7 +2337,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Ben Mendelsohn (original form & disguised)"
+      "acteur": "Ben Mendelsohn (original form & disguised)",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Ben Mendelsohn (original form & disguised)"
     },
     {
       "id": "soren",
@@ -2005,7 +2356,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Sharon Blynn"
+      "acteur": "Sharon Blynn",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Sharon Blynn"
     },
     {
       "id": "maria-rambeau",
@@ -2022,7 +2376,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Lashana Lynch"
+      "acteur": "Lashana Lynch",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Lashana Lynch"
     },
     {
       "id": "monica-rambeau",
@@ -2038,7 +2395,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Teyonah Parris"
+      "acteur": "Teyonah Parris",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Teyonah Parris"
     },
     {
       "id": "jimmy-woo",
@@ -2055,7 +2415,10 @@
       "firstAppearance": "Ant-Man and the Wasp",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Randall Park"
+      "acteur": "Randall Park",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp",
+      "indice3": "Randall Park"
     },
     {
       "id": "ghost",
@@ -2072,7 +2435,10 @@
       "firstAppearance": "Ant-Man and the Wasp",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Hannah John-Kamen"
+      "acteur": "Hannah John-Kamen",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp",
+      "indice3": "Hannah John-Kamen"
     },
     {
       "id": "sonny-burch",
@@ -2088,7 +2454,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Walton Goggins"
+      "acteur": "Walton Goggins",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp",
+      "indice3": "Walton Goggins"
     },
     {
       "id": "bill-foster",
@@ -2105,7 +2474,10 @@
       "firstAppearance": "Ant-Man and the Wasp",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Laurence Fishburne"
+      "acteur": "Laurence Fishburne",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp",
+      "indice3": "Laurence Fishburne"
     },
     {
       "id": "jack-duquesne",
@@ -2122,7 +2494,10 @@
       "firstAppearance": "Hawkeye (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Tony Dalton"
+      "acteur": "Tony Dalton",
+      "indice1": "MCU",
+      "indice2": "Hawkeye (TV series)",
+      "indice3": "Tony Dalton"
     },
     {
       "id": "maya-lopez",
@@ -2138,7 +2513,10 @@
       "firstAppearance": "Hawkeye (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Alaqua Cox"
+      "acteur": "Alaqua Cox",
+      "indice1": "MCU",
+      "indice2": "Hawkeye (TV series)",
+      "indice3": "Alaqua Cox"
     },
     {
       "id": "bullseye",
@@ -2155,7 +2533,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Wilson Bethel"
+      "acteur": "Wilson Bethel",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Wilson Bethel"
     },
     {
       "id": "elektra",
@@ -2172,7 +2553,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Élodie Yung"
+      "acteur": "Élodie Yung",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Élodie Yung"
     },
     {
       "id": "stick",
@@ -2188,7 +2572,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Scott Glenn"
+      "acteur": "Scott Glenn",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Scott Glenn"
     },
     {
       "id": "foggy-nelson",
@@ -2205,7 +2592,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Elden Henson"
+      "acteur": "Elden Henson",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Elden Henson"
     },
     {
       "id": "karen-page",
@@ -2221,7 +2611,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Deborah Ann Woll"
+      "acteur": "Deborah Ann Woll",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Deborah Ann Woll"
     },
     {
       "id": "anne-weying",
@@ -2238,7 +2631,10 @@
       "firstAppearance": "Venom",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Michelle Williams"
+      "acteur": "Michelle Williams",
+      "indice1": "SSU",
+      "indice2": "Venom",
+      "indice3": "Michelle Williams"
     },
     {
       "id": "heather-rand",
@@ -2254,7 +2650,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Victoria Haynes"
+      "acteur": "Victoria Haynes",
+      "indice1": "MCU",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "Victoria Haynes"
     },
     {
       "id": "felicia-hardy",
@@ -2271,7 +2670,10 @@
       "firstAppearance": "The Amazing Spider-Man 2",
       "firstAppearanceDate": "2014",
       "univers": 120703,
-      "acteur": "Felicity Jones"
+      "acteur": "Felicity Jones",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man 2",
+      "indice3": "Felicity Jones"
     },
     {
       "id": "adrian-toomes",
@@ -2288,7 +2690,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Michael Keaton"
+      "acteur": "Michael Keaton",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Michael Keaton"
     },
     {
       "id": "quentin-beck",
@@ -2305,7 +2710,10 @@
       "firstAppearance": "Spider-Man: Far From Home",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Jake Gyllenhaal"
+      "acteur": "Jake Gyllenhaal",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Far From Home",
+      "indice3": "Jake Gyllenhaal"
     },
     {
       "id": "norman-osborn",
@@ -2322,7 +2730,10 @@
       "firstAppearance": "Spider-Man: No Way Home",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Willem Dafoe"
+      "acteur": "Willem Dafoe",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: No Way Home",
+      "indice3": "Willem Dafoe"
     },
     {
       "id": "max-dillon",
@@ -2340,7 +2751,10 @@
       "firstAppearance": "Spider-Man: No Way Home",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Jamie Foxx"
+      "acteur": "Jamie Foxx",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: No Way Home",
+      "indice3": "Jamie Foxx"
     },
     {
       "id": "flint-marko",
@@ -2356,7 +2770,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Thomas Haden Church"
+      "acteur": "Thomas Haden Church",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: No Way Home",
+      "indice3": "Thomas Haden Church"
     },
     {
       "id": "curt-connors",
@@ -2374,7 +2791,10 @@
       "firstAppearance": "Spider-Man: No Way Home",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Rhys Ifans"
+      "acteur": "Rhys Ifans",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: No Way Home",
+      "indice3": "Rhys Ifans"
     },
     {
       "id": "aleksei-sytsevich",
@@ -2392,7 +2812,10 @@
       "firstAppearance": "The Amazing Spider-Man 2",
       "firstAppearanceDate": "2014",
       "univers": 120703,
-      "acteur": "Paul Giamatti"
+      "acteur": "Paul Giamatti",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man 2",
+      "indice3": "Paul Giamatti"
     },
     {
       "id": "mac-gargan",
@@ -2409,7 +2832,10 @@
       "affiliation": "Le Vautour",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Michael Mando"
+      "acteur": "Michael Mando",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Michael Mando"
     },
     {
       "id": "adrian-toomes-jr",
@@ -2425,7 +2851,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Michael Keaton"
+      "acteur": "Michael Keaton",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Michael Keaton"
     },
     {
       "id": "flash-thompson",
@@ -2442,7 +2871,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Tony Revolori"
+      "acteur": "Tony Revolori",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Tony Revolori"
     },
     {
       "id": "betty-brant",
@@ -2459,7 +2891,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Angourie Rice"
+      "acteur": "Angourie Rice",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Angourie Rice"
     },
     {
       "id": "j-jonah-jameson",
@@ -2477,7 +2912,10 @@
       "firstAppearance": "Spider-Man: Far From Home",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "J.K. Simmons"
+      "acteur": "J.K. Simmons",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Far From Home",
+      "indice3": "J.K. Simmons"
     },
     {
       "id": "maya-hansen",
@@ -2493,7 +2931,10 @@
       "firstAppearance": "Iron Man 3",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Rebecca Hall"
+      "acteur": "Rebecca Hall",
+      "indice1": "MCU",
+      "indice2": "Iron Man 3",
+      "indice3": "Rebecca Hall"
     },
     {
       "id": "trevor-slattery",
@@ -2509,7 +2950,10 @@
       "firstAppearance": "Iron Man 3",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Ben Kingsley"
+      "acteur": "Ben Kingsley",
+      "indice1": "MCU",
+      "indice2": "Iron Man 3",
+      "indice3": "Ben Kingsley"
     },
     {
       "id": "harley-keener",
@@ -2525,7 +2969,10 @@
       "affiliation": "Stark Industries",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Ty Simpkins"
+      "acteur": "Ty Simpkins",
+      "indice1": "MCU",
+      "indice2": "Iron Man 3",
+      "indice3": "Ty Simpkins"
     },
     {
       "id": "Hommekith",
@@ -2541,7 +2988,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Christopher Eccleston"
+      "acteur": "Christopher Eccleston",
+      "indice1": "MCU",
+      "indice2": "Thor: The Dark World",
+      "indice3": "Christopher Eccleston"
     },
     {
       "id": "algrim",
@@ -2558,7 +3008,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Adewale Akinnuoye-Agbaje"
+      "acteur": "Adewale Akinnuoye-Agbaje",
+      "indice1": "MCU",
+      "indice2": "Thor: The Dark World",
+      "indice3": "Adewale Akinnuoye-Agbaje"
     },
     {
       "id": "brock-rumlow",
@@ -2574,7 +3027,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Frank Grillo"
+      "acteur": "Frank Grillo",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Frank Grillo"
     },
     {
       "id": "georges-batroc",
@@ -2590,7 +3046,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Georges St-Pierre"
+      "acteur": "Georges St-Pierre",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Georges St-Pierre"
     },
     {
       "id": "jasper-sitwell",
@@ -2606,7 +3065,10 @@
       "affiliation": "Hydra",
       "firstAppearanceDate": "2011",
       "univers": 616,
-      "acteur": "Maximiliano Hernández"
+      "acteur": "Maximiliano Hernández",
+      "indice1": "MCU",
+      "indice2": "Thor",
+      "indice3": "Maximiliano Hernández"
     },
     {
       "id": "sharon-carter",
@@ -2623,7 +3085,10 @@
       "firstAppearance": "Captain America: The Winter Soldier",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Emily VanCamp"
+      "acteur": "Emily VanCamp",
+      "indice1": "MCU",
+      "indice2": "Captain America: The Winter Soldier",
+      "indice3": "Emily VanCamp"
     },
     {
       "id": "kraglin",
@@ -2639,7 +3104,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Sean Gunn"
+      "acteur": "Sean Gunn",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Sean Gunn"
     },
     {
       "id": "meredith-quill",
@@ -2655,7 +3123,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Laura Haddock"
+      "acteur": "Laura Haddock",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Laura Haddock"
     },
     {
       "id": "helen-cho",
@@ -2672,7 +3143,10 @@
       "firstAppearance": "Avengers: Age of Ultron",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Claudia Kim"
+      "acteur": "Claudia Kim",
+      "indice1": "MCU",
+      "indice2": "Avengers: Age of Ultron",
+      "indice3": "Claudia Kim"
     },
     {
       "id": "laura-barton",
@@ -2688,7 +3162,10 @@
       "firstAppearance": "Avengers: Age of Ultron",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Linda Cardellini"
+      "acteur": "Linda Cardellini",
+      "indice1": "MCU",
+      "indice2": "Avengers: Age of Ultron",
+      "indice3": "Linda Cardellini"
     },
     {
       "id": "ulysses-klaue",
@@ -2704,7 +3181,10 @@
       "firstAppearance": "Avengers: Age of Ultron",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Andy Serkis"
+      "acteur": "Andy Serkis",
+      "indice1": "MCU",
+      "indice2": "Avengers: Age of Ultron",
+      "indice3": "Andy Serkis"
     },
     {
       "id": "hank-pym",
@@ -2721,7 +3201,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Michael Douglas"
+      "acteur": "Michael Douglas",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Michael Douglas"
     },
     {
       "id": "darren-cross",
@@ -2738,7 +3221,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Corey Stoll"
+      "acteur": "Corey Stoll",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Corey Stoll"
     },
     {
       "id": "cassie-lang",
@@ -2755,7 +3241,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Abby Ryder Fortson"
+      "acteur": "Abby Ryder Fortson",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Abby Ryder Fortson"
     },
     {
       "id": "luis",
@@ -2771,7 +3260,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Michael Peña"
+      "acteur": "Michael Peña",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Michael Peña"
     },
     {
       "id": "everett-ross",
@@ -2788,7 +3280,10 @@
       "firstAppearance": "Captain America: Civil War",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Martin Freeman"
+      "acteur": "Martin Freeman",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "Martin Freeman"
     },
     {
       "id": "t-chaka",
@@ -2804,7 +3299,10 @@
       "firstAppearance": "Captain America: Civil War",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "John Kani"
+      "acteur": "John Kani",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "John Kani"
     },
     {
       "id": "ancient-one",
@@ -2820,7 +3318,10 @@
       "firstAppearance": "Doctor Strange",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Tilda Swinton"
+      "acteur": "Tilda Swinton",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange",
+      "indice3": "Tilda Swinton"
     },
     {
       "id": "ayesha",
@@ -2836,7 +3337,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Elizabeth Debicki"
+      "acteur": "Elizabeth Debicki",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 2",
+      "indice3": "Elizabeth Debicki"
     },
     {
       "id": "mantis",
@@ -2852,7 +3356,10 @@
       "firstAppearance": "Guardians of the Galaxy Vol. 2",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Pom Klementieff"
+      "acteur": "Pom Klementieff",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 2",
+      "indice3": "Pom Klementieff"
     },
     {
       "id": "taserface",
@@ -2868,7 +3375,10 @@
       "firstAppearance": "Guardians of the Galaxy Vol. 2",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Chris Sullivan"
+      "acteur": "Chris Sullivan",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 2",
+      "indice3": "Chris Sullivan"
     },
     {
       "id": "stakar-ogord",
@@ -2884,7 +3394,10 @@
       "species": "Humain",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Sylvester Stallone"
+      "acteur": "Sylvester Stallone",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 2",
+      "indice3": "Sylvester Stallone"
     },
     {
       "id": "liz-allan",
@@ -2902,7 +3415,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Laura Harrier"
+      "acteur": "Laura Harrier",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Laura Harrier"
     },
     {
       "id": "phineas-mason",
@@ -2919,7 +3435,10 @@
       "firstAppearance": "Spider-Man: Homecoming",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Michael Chernus"
+      "acteur": "Michael Chernus",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: Homecoming",
+      "indice3": "Michael Chernus"
     },
     {
       "id": "skurge",
@@ -2935,7 +3454,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Karl Urban"
+      "acteur": "Karl Urban",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Karl Urban"
     },
     {
       "id": "surtur",
@@ -2951,7 +3473,10 @@
       "affiliation": "Asgard",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Taika Waititi"
+      "acteur": "Taika Waititi",
+      "indice1": "MCU",
+      "indice2": "Thor: Ragnarok",
+      "indice3": "Taika Waititi"
     },
     {
       "id": "ramonda",
@@ -2967,7 +3492,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Angela Bassett"
+      "acteur": "Angela Bassett",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Angela Bassett"
     },
     {
       "id": "w-kabi",
@@ -2983,7 +3511,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Daniel Kaluuya"
+      "acteur": "Daniel Kaluuya",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Daniel Kaluuya"
     },
     {
       "id": "zuri",
@@ -2999,7 +3530,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Forest Whitaker"
+      "acteur": "Forest Whitaker",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Forest Whitaker"
     },
     {
       "id": "ebony-maw",
@@ -3015,7 +3549,10 @@
       "species": "Alien",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Tom Vaughan-Lawlor"
+      "acteur": "Tom Vaughan-Lawlor",
+      "indice1": "MCU",
+      "indice2": "Avengers: Infinity War",
+      "indice3": "Tom Vaughan-Lawlor"
     },
     {
       "id": "cull-obsidian",
@@ -3031,7 +3568,10 @@
       "species": "Alien; later turned into a Cyborg",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Terry Notary"
+      "acteur": "Terry Notary",
+      "indice1": "MCU",
+      "indice2": "Avengers: Infinity War",
+      "indice3": "Terry Notary"
     },
     {
       "id": "proxima-midnight",
@@ -3047,7 +3587,10 @@
       "species": "Alien",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Carrie Coon"
+      "acteur": "Carrie Coon",
+      "indice1": "MCU",
+      "indice2": "Avengers: Infinity War",
+      "indice3": "Carrie Coon"
     },
     {
       "id": "corvus-glaive",
@@ -3063,7 +3606,10 @@
       "species": "Alien",
       "firstAppearanceDate": "2018",
       "univers": 616,
-      "acteur": "Michael Shaw"
+      "acteur": "Michael Shaw",
+      "indice1": "MCU",
+      "indice2": "Avengers: Infinity War",
+      "indice3": "Michael Shaw"
     },
     {
       "id": "janet-van-dyne",
@@ -3080,7 +3626,10 @@
       "firstAppearance": "Ant-Man",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Michelle Pfeiffer"
+      "acteur": "Michelle Pfeiffer",
+      "indice1": "MCU",
+      "indice2": "Ant-Man",
+      "indice3": "Michelle Pfeiffer"
     },
     {
       "id": "minn-erva",
@@ -3096,7 +3645,10 @@
       "firstAppearance": "Captain Marvel",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Gemma Chan"
+      "acteur": "Gemma Chan",
+      "indice1": "MCU",
+      "indice2": "Captain Marvel",
+      "indice3": "Gemma Chan"
     },
     {
       "id": "morgan-stark",
@@ -3113,7 +3665,10 @@
       "affiliation": "Tony Stark",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Lexi Rabe"
+      "acteur": "Lexi Rabe",
+      "indice1": "MCU",
+      "indice2": "Avengers: Endgame",
+      "indice3": "Lexi Rabe"
     },
     {
       "id": "william-ginter-riva",
@@ -3129,7 +3684,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Peter Billingsley"
+      "acteur": "Peter Billingsley",
+      "indice1": "MCU",
+      "indice2": "Iron Man",
+      "indice3": "Peter Billingsley"
     },
     {
       "id": "alexei-shostakov",
@@ -3146,7 +3704,10 @@
       "firstAppearance": "Black Widow",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "David Harbour"
+      "acteur": "David Harbour",
+      "indice1": "MCU",
+      "indice2": "Black Widow",
+      "indice3": "David Harbour"
     },
     {
       "id": "melina-vostokoff",
@@ -3163,7 +3724,10 @@
       "firstAppearance": "Black Widow",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Rachel Weisz"
+      "acteur": "Rachel Weisz",
+      "indice1": "MCU",
+      "indice2": "Black Widow",
+      "indice3": "Rachel Weisz"
     },
     {
       "id": "dreykov",
@@ -3180,7 +3744,10 @@
       "firstAppearance": "The Avengers",
       "firstAppearanceDate": "2012",
       "univers": 616,
-      "acteur": "Ray Winstone"
+      "acteur": "Ray Winstone",
+      "indice1": "MCU",
+      "indice2": "The Avengers",
+      "indice3": "Ray Winstone"
     },
     {
       "id": "antonia-dreykov",
@@ -3197,7 +3764,10 @@
       "firstAppearance": "The Avengers",
       "firstAppearanceDate": "2012",
       "univers": 616,
-      "acteur": "Olga Kurylenko"
+      "acteur": "Olga Kurylenko",
+      "indice1": "MCU",
+      "indice2": "The Avengers",
+      "indice3": "Olga Kurylenko"
     },
     {
       "id": "wenwu",
@@ -3214,7 +3784,10 @@
       "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Tony Leung Chiu-wai"
+      "acteur": "Tony Leung Chiu-wai",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Tony Leung Chiu-wai"
     },
     {
       "id": "xialing",
@@ -3231,7 +3804,10 @@
       "affiliation": "Dix Anneaux",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Meng'er Zhang"
+      "acteur": "Meng'er Zhang",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Meng'er Zhang"
     },
     {
       "id": "katy-chen",
@@ -3249,7 +3825,10 @@
       "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Awkwafina"
+      "acteur": "Awkwafina",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Awkwafina"
     },
     {
       "id": "razor-fist",
@@ -3266,7 +3845,10 @@
       "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Florian Munteanu"
+      "acteur": "Florian Munteanu",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Florian Munteanu"
     },
     {
       "id": "death-dealer",
@@ -3283,7 +3865,10 @@
       "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Andy Le"
+      "acteur": "Andy Le",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Andy Le"
     },
     {
       "id": "ying-nan",
@@ -3300,7 +3885,10 @@
       "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Michelle Yeoh"
+      "acteur": "Michelle Yeoh",
+      "indice1": "MCU",
+      "indice2": "Shang-Chi and the Legend of the Ten Rings",
+      "indice3": "Michelle Yeoh"
     },
     {
       "id": "ikaris",
@@ -3316,7 +3904,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Richard Madden"
+      "acteur": "Richard Madden",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Richard Madden"
     },
     {
       "id": "sersi",
@@ -3332,7 +3923,10 @@
       "firstAppearance": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Gemma Chan"
+      "acteur": "Gemma Chan",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Gemma Chan"
     },
     {
       "id": "thena",
@@ -3348,7 +3942,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Angelina Jolie"
+      "acteur": "Angelina Jolie",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Angelina Jolie"
     },
     {
       "id": "ajak",
@@ -3364,7 +3961,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Salma Hayek"
+      "acteur": "Salma Hayek",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Salma Hayek"
     },
     {
       "id": "kingo",
@@ -3380,7 +3980,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Kumail Nanjiani"
+      "acteur": "Kumail Nanjiani",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Kumail Nanjiani"
     },
     {
       "id": "sprite",
@@ -3396,7 +3999,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Lia McHugh"
+      "acteur": "Lia McHugh",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Lia McHugh"
     },
     {
       "id": "phastos",
@@ -3412,7 +4018,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Brian Tyree Henry"
+      "acteur": "Brian Tyree Henry",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Brian Tyree Henry"
     },
     {
       "id": "makkari",
@@ -3428,7 +4037,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Lauren Ridloff"
+      "acteur": "Lauren Ridloff",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Lauren Ridloff"
     },
     {
       "id": "druig",
@@ -3444,7 +4056,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Barry Keoghan"
+      "acteur": "Barry Keoghan",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Barry Keoghan"
     },
     {
       "id": "gilgamesh",
@@ -3460,7 +4075,10 @@
       "affiliation": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Don Lee"
+      "acteur": "Don Lee",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Don Lee"
     },
     {
       "id": "kro",
@@ -3476,7 +4094,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Arie Dekker"
+      "acteur": "Arie Dekker",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Arie Dekker"
     },
     {
       "id": "dane-whitman",
@@ -3492,7 +4113,10 @@
       "firstAppearance": "Eternals",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Kit Harington"
+      "acteur": "Kit Harington",
+      "indice1": "MCU",
+      "indice2": "Eternals",
+      "indice3": "Kit Harington"
     },
     {
       "id": "otto-octavius",
@@ -3509,7 +4133,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Alfred Molina"
+      "acteur": "Alfred Molina",
+      "indice1": "MCU",
+      "indice2": "Spider-Man: No Way Home",
+      "indice3": "Alfred Molina"
     },
     {
       "id": "america-chavez",
@@ -3526,7 +4153,10 @@
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Xochitl Gomez"
+      "acteur": "Xochitl Gomez",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Xochitl Gomez"
     },
     {
       "id": "rintrah",
@@ -3542,7 +4172,10 @@
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Adam Hugill"
+      "acteur": "Adam Hugill",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Adam Hugill"
     },
     {
       "id": "black-bolt",
@@ -3559,7 +4192,10 @@
       "firstAppearance": "Inhumans (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Anson Mount"
+      "acteur": "Anson Mount",
+      "indice1": "MCU",
+      "indice2": "Inhumans (TV series)",
+      "indice3": "Anson Mount"
     },
     {
       "id": "reed-richards",
@@ -3576,7 +4212,10 @@
       "affiliation": "RT",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Pedro Pascal"
+      "acteur": "Pedro Pascal",
+      "indice1": "MCU",
+      "indice2": "The Fantastic Four: First Steps",
+      "indice3": "Pedro Pascal"
     },
     {
       "id": "riri-williams",
@@ -3593,7 +4232,10 @@
       "firstAppearance": "Black Panther: Wakanda Forever",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Dominique Thorne"
+      "acteur": "Dominique Thorne",
+      "indice1": "MCU",
+      "indice2": "Black Panther: Wakanda Forever",
+      "indice3": "Dominique Thorne"
     },
     {
       "id": "namor",
@@ -3610,7 +4252,10 @@
       "affiliation": "Talokan",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Tenoch Huerta"
+      "acteur": "Tenoch Huerta",
+      "indice1": "MCU",
+      "indice2": "Black Panther: Wakanda Forever",
+      "indice3": "Tenoch Huerta"
     },
     {
       "id": "attuma",
@@ -3626,7 +4271,10 @@
       "firstAppearance": "Black Panther: Wakanda Forever",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Alex Livinalli"
+      "acteur": "Alex Livinalli",
+      "indice1": "MCU",
+      "indice2": "Black Panther: Wakanda Forever",
+      "indice3": "Alex Livinalli"
     },
     {
       "id": "namora",
@@ -3642,7 +4290,10 @@
       "firstAppearance": "Black Panther: Wakanda Forever",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Mabel Cadena"
+      "acteur": "Mabel Cadena",
+      "indice1": "MCU",
+      "indice2": "Black Panther: Wakanda Forever",
+      "indice3": "Mabel Cadena"
     },
     {
       "id": "valentina-allegra-de-fontaine",
@@ -3658,7 +4309,10 @@
       "affiliation": "O.X.E.",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Julia Louis-Dreyfus"
+      "acteur": "Julia Louis-Dreyfus",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Julia Louis-Dreyfus"
     },
     {
       "id": "ayo",
@@ -3674,7 +4328,10 @@
       "firstAppearance": "Captain America: Civil War",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Florence Kasumba"
+      "acteur": "Florence Kasumba",
+      "indice1": "MCU",
+      "indice2": "Captain America: Civil War",
+      "indice3": "Florence Kasumba"
     },
     {
       "id": "agatha-harkness",
@@ -3690,7 +4347,10 @@
       "firstAppearance": "WandaVision",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Kathryn Hahn"
+      "acteur": "Kathryn Hahn",
+      "indice1": "MCU",
+      "indice2": "WandaVision",
+      "indice3": "Kathryn Hahn"
     },
     {
       "id": "tyler-hayward",
@@ -3706,7 +4366,10 @@
       "firstAppearance": "WandaVision",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Josh Stamberg"
+      "acteur": "Josh Stamberg",
+      "indice1": "MCU",
+      "indice2": "WandaVision",
+      "indice3": "Josh Stamberg"
     },
     {
       "id": "john-walker",
@@ -3723,7 +4386,10 @@
       "firstAppearance": "The Falcon and The Winter Soldier",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Wyatt Russell"
+      "acteur": "Wyatt Russell",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Wyatt Russell"
     },
     {
       "id": "karli-morgenthau",
@@ -3739,7 +4405,10 @@
       "firstAppearance": "The Falcon and The Winter Soldier",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Erin Kellyman"
+      "acteur": "Erin Kellyman",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Erin Kellyman"
     },
     {
       "id": "isaiah-bradley",
@@ -3755,7 +4424,10 @@
       "firstAppearance": "The Falcon and The Winter Soldier",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Carl Lumbly"
+      "acteur": "Carl Lumbly",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Carl Lumbly"
     },
     {
       "id": "eli-bradley",
@@ -3772,7 +4444,10 @@
       "firstAppearance": "The Falcon and The Winter Soldier",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Elijah Richardson"
+      "acteur": "Elijah Richardson",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Elijah Richardson"
     },
     {
       "id": "lemar-hoskins",
@@ -3788,7 +4463,10 @@
       "firstAppearance": "The Falcon and The Winter Soldier",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Clé Bennett"
+      "acteur": "Clé Bennett",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Clé Bennett"
     },
     {
       "id": "sarah-wilson",
@@ -3804,7 +4482,10 @@
       "firstAppearance": "The Falcon and The Winter Soldier",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Adepero Oduye"
+      "acteur": "Adepero Oduye",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Adepero Oduye"
     },
     {
       "id": "joaquin-torres",
@@ -3821,7 +4502,10 @@
       "affiliation": "USA",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Danny Ramirez"
+      "acteur": "Danny Ramirez",
+      "indice1": "MCU",
+      "indice2": "The Falcon and The Winter Soldier",
+      "indice3": "Danny Ramirez"
     },
     {
       "id": "sylvie",
@@ -3838,7 +4522,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Sophia Di Martino"
+      "acteur": "Sophia Di Martino",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Sophia Di Martino"
     },
     {
       "id": "mobius-m-mobius",
@@ -3855,7 +4542,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Owen Wilson"
+      "acteur": "Owen Wilson",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Owen Wilson"
     },
     {
       "id": "ravonna-renslayer",
@@ -3872,7 +4562,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Gugu Mbatha-Raw"
+      "acteur": "Gugu Mbatha-Raw",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Gugu Mbatha-Raw"
     },
     {
       "id": "he-who-remains",
@@ -3889,7 +4582,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Jonathan Majors"
+      "acteur": "Jonathan Majors",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Jonathan Majors"
     },
     {
       "id": "hunter-b-15",
@@ -3906,7 +4602,10 @@
       "affiliation": "Tribunal des Variations Anachroniques (TVA)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Wunmi Mosaku"
+      "acteur": "Wunmi Mosaku",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Wunmi Mosaku"
     },
     {
       "id": "the-watcher",
@@ -3923,7 +4622,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Jeffrey Wright"
+      "acteur": "Jeffrey Wright",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Jeffrey Wright"
     },
     {
       "id": "eleanor-bishop",
@@ -3939,7 +4641,10 @@
       "firstAppearance": "Hawkeye (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Vera Farmiga"
+      "acteur": "Vera Farmiga",
+      "indice1": "MCU",
+      "indice2": "Hawkeye (TV series)",
+      "indice3": "Vera Farmiga"
     },
     {
       "id": "kazi",
@@ -3955,7 +4660,10 @@
       "firstAppearance": "Hawkeye",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Fra Fee"
+      "acteur": "Fra Fee",
+      "indice1": "MCU",
+      "indice2": "Hawkeye",
+      "indice3": "Fra Fee"
     },
     {
       "id": "marc-spector",
@@ -3972,7 +4680,10 @@
       "firstAppearance": "Moon Knight (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Oscar Isaac"
+      "acteur": "Oscar Isaac",
+      "indice1": "MCU",
+      "indice2": "Moon Knight (TV series)",
+      "indice3": "Oscar Isaac"
     },
     {
       "id": "layla-el-faouly",
@@ -3989,7 +4700,10 @@
       "firstAppearance": "Moon Knight (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "May Calamawy"
+      "acteur": "May Calamawy",
+      "indice1": "MCU",
+      "indice2": "Moon Knight (TV series)",
+      "indice3": "May Calamawy"
     },
     {
       "id": "arthur-harrow",
@@ -4005,7 +4719,10 @@
       "firstAppearance": "Moon Knight (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Ethan Hawke"
+      "acteur": "Ethan Hawke",
+      "indice1": "MCU",
+      "indice2": "Moon Knight (TV series)",
+      "indice3": "Ethan Hawke"
     },
     {
       "id": "khonshu",
@@ -4022,7 +4739,10 @@
       "firstAppearance": "Moon Knight (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Karim El-Hakim (on-set actor)"
+      "acteur": "Karim El-Hakim (on-set actor)",
+      "indice1": "MCU",
+      "indice2": "Moon Knight (TV series)",
+      "indice3": "Karim El-Hakim (on-set actor)"
     },
     {
       "id": "kamala-khan",
@@ -4039,7 +4759,10 @@
       "firstAppearance": "Ms. Marvel (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Iman Vellani"
+      "acteur": "Iman Vellani",
+      "indice1": "MCU",
+      "indice2": "Ms. Marvel (TV series)",
+      "indice3": "Iman Vellani"
     },
     {
       "id": "bruno-carrelli",
@@ -4055,7 +4778,10 @@
       "firstAppearance": "Ms. Marvel (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Matt Lintz"
+      "acteur": "Matt Lintz",
+      "indice1": "MCU",
+      "indice2": "Ms. Marvel (TV series)",
+      "indice3": "Matt Lintz"
     },
     {
       "id": "nakia-bahadir",
@@ -4071,7 +4797,10 @@
       "firstAppearance": "Ms. Marvel (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Yasmeen Fletcher"
+      "acteur": "Yasmeen Fletcher",
+      "indice1": "MCU",
+      "indice2": "Ms. Marvel (TV series)",
+      "indice3": "Yasmeen Fletcher"
     },
     {
       "id": "kamran",
@@ -4087,7 +4816,10 @@
       "firstAppearance": "Ms. Marvel (TV series)",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Rish Shah"
+      "acteur": "Rish Shah",
+      "indice1": "MCU",
+      "indice2": "Ms. Marvel (TV series)",
+      "indice3": "Rish Shah"
     },
     {
       "id": "jennifer-walters",
@@ -4104,7 +4836,10 @@
       "firstAppearance": "She-Hulk: Attorney at Law",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Tatiana Maslany"
+      "acteur": "Tatiana Maslany",
+      "indice1": "MCU",
+      "indice2": "She-Hulk: Attorney at Law",
+      "indice3": "Tatiana Maslany"
     },
     {
       "id": "titania",
@@ -4121,7 +4856,10 @@
       "firstAppearance": "She-Hulk: Attorney at Law",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Jameela Jamil"
+      "acteur": "Jameela Jamil",
+      "indice1": "MCU",
+      "indice2": "She-Hulk: Attorney at Law",
+      "indice3": "Jameela Jamil"
     },
     {
       "id": "kang",
@@ -4137,7 +4875,10 @@
       "firstAppearance": "Ant-Man and the Wasp: Quantumania",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Jonathan Majors"
+      "acteur": "Jonathan Majors",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp: Quantumania",
+      "indice3": "Jonathan Majors"
     },
     {
       "id": "jentorra",
@@ -4153,7 +4894,10 @@
       "species": "Unknown",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Katy M. O'Brian"
+      "acteur": "Katy M. O'Brian",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp: Quantumania",
+      "indice3": "Katy M. O'Brian"
     },
     {
       "id": "adam-warlock",
@@ -4170,7 +4914,10 @@
       "firstAppearance": "Guardians of the Galaxy Vol. 3",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Will Poulter"
+      "acteur": "Will Poulter",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 3",
+      "indice3": "Will Poulter"
     },
     {
       "id": "high-evolutionary",
@@ -4186,7 +4933,10 @@
       "firstAppearance": "Guardians of the Galaxy Vol. 3",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Chukwudi Iwuji"
+      "acteur": "Chukwudi Iwuji",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 3",
+      "indice3": "Chukwudi Iwuji"
     },
     {
       "id": "lylla",
@@ -4203,7 +4953,10 @@
       "firstAppearance": "Guardians of the Galaxy Vol. 3",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Linda Cardellini"
+      "acteur": "Linda Cardellini",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 3",
+      "indice3": "Linda Cardellini"
     },
     {
       "id": "cosmo",
@@ -4219,7 +4972,10 @@
       "firstAppearance": "Guardians of the Galaxy",
       "firstAppearanceDate": "2014",
       "univers": 616,
-      "acteur": "Fred the Dog"
+      "acteur": "Fred the Dog",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy",
+      "indice3": "Fred the Dog"
     },
     {
       "id": "phyla-vell",
@@ -4235,7 +4991,10 @@
       "firstAppearance": "Guardians of the Galaxy Vol. 3",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Kai Zen"
+      "acteur": "Kai Zen",
+      "indice1": "MCU",
+      "indice2": "Guardians of the Galaxy Vol. 3",
+      "indice3": "Kai Zen"
     },
     {
       "id": "dar-benn",
@@ -4251,7 +5010,10 @@
       "firstAppearance": "The Marvels",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Zawe Ashton"
+      "acteur": "Zawe Ashton",
+      "indice1": "MCU",
+      "indice2": "The Marvels",
+      "indice3": "Zawe Ashton"
     },
     {
       "id": "prince-yan",
@@ -4267,7 +5029,10 @@
       "firstAppearance": "The Marvels",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Park Seo-joon"
+      "acteur": "Park Seo-joon",
+      "indice1": "MCU",
+      "indice2": "The Marvels",
+      "indice3": "Park Seo-joon"
     },
     {
       "id": "giah",
@@ -4283,7 +5048,10 @@
       "firstAppearance": "Secret Invasion",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Emilia Clarke"
+      "acteur": "Emilia Clarke",
+      "indice1": "MCU",
+      "indice2": "Secret Invasion",
+      "indice3": "Emilia Clarke"
     },
     {
       "id": "dopinder",
@@ -4300,7 +5068,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Karan Soni"
+      "acteur": "Karan Soni",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Karan Soni"
     },
     {
       "id": "blind-al",
@@ -4317,7 +5088,10 @@
       "affiliation": "X-Men",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Leslie Uggams"
+      "acteur": "Leslie Uggams",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Leslie Uggams"
     },
     {
       "id": "weasel",
@@ -4333,7 +5107,10 @@
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Charlie Norton"
+      "acteur": "Charlie Norton",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Charlie Norton"
     },
     {
       "id": "colossus",
@@ -4350,7 +5127,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Stefan Kapičić"
+      "acteur": "Stefan Kapičić",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Stefan Kapičić"
     },
     {
       "id": "cassandra-nova",
@@ -4367,7 +5147,10 @@
       "firstAppearance": "Deadpool & Wolverine",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Emma Corrin"
+      "acteur": "Emma Corrin",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Emma Corrin"
     },
     {
       "id": "paradox",
@@ -4383,7 +5166,10 @@
       "affiliation": "Tribunal des Variations Anachroniques (TVA)",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Matthew Macfadyen"
+      "acteur": "Matthew Macfadyen",
+      "indice1": "MCU",
+      "indice2": "Deadpool & Wolverine",
+      "indice3": "Matthew Macfadyen"
     },
     {
       "id": "samuel-sterns",
@@ -4399,7 +5185,10 @@
       "firstAppearance": "The Incredible Hulk",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Tim Blake Nelson"
+      "acteur": "Tim Blake Nelson",
+      "indice1": "MCU",
+      "indice2": "The Incredible Hulk",
+      "indice3": "Tim Blake Nelson"
     },
     {
       "id": "sentry",
@@ -4416,7 +5205,10 @@
       "firstAppearance": "Thunderbolts*",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Lewis Pullman"
+      "acteur": "Lewis Pullman",
+      "indice1": "MCU",
+      "indice2": "Thunderbolts*",
+      "indice3": "Lewis Pullman"
     },
     {
       "id": "ouroboros",
@@ -4433,7 +5225,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Ke Huy Quan"
+      "acteur": "Ke Huy Quan",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Ke Huy Quan"
     },
     {
       "id": "victor-timely",
@@ -4450,7 +5245,10 @@
       "firstAppearance": "Ant-Man and the Wasp: Quantumania",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Jonathan Majors"
+      "acteur": "Jonathan Majors",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp: Quantumania",
+      "indice3": "Jonathan Majors"
     },
     {
       "id": "general-dox",
@@ -4466,7 +5264,10 @@
       "firstAppearance": "Loki",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Kate Dickie"
+      "acteur": "Kate Dickie",
+      "indice1": "MCU",
+      "indice2": "Loki",
+      "indice3": "Kate Dickie"
     },
     {
       "id": "brad-wolfe",
@@ -4483,7 +5284,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 616,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Unknown"
     },
     {
       "id": "kahhori",
@@ -4499,7 +5303,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2023",
       "univers": 616,
-      "acteur": "Devery Jacobs"
+      "acteur": "Devery Jacobs",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Devery Jacobs"
     },
     {
       "id": "chula",
@@ -4516,7 +5323,10 @@
       "firstAppearance": "Echo (TV series)",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Tantoo Cardinal"
+      "acteur": "Tantoo Cardinal",
+      "indice1": "MCU",
+      "indice2": "Echo (TV series)",
+      "indice3": "Tantoo Cardinal"
     },
     {
       "id": "rio-vidal",
@@ -4533,7 +5343,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Aubrey Plaza"
+      "acteur": "Aubrey Plaza",
+      "indice1": "MCU",
+      "indice2": "Agatha All Along",
+      "indice3": "Aubrey Plaza"
     },
     {
       "id": "billy-kaplan",
@@ -4550,7 +5363,10 @@
       "firstAppearance": "Agatha All Along",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Joe Locke"
+      "acteur": "Joe Locke",
+      "indice1": "MCU",
+      "indice2": "Agatha All Along",
+      "indice3": "Joe Locke"
     },
     {
       "id": "lilia-calderu",
@@ -4566,7 +5382,10 @@
       "firstAppearance": "Agatha All Along",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Patti LuPone"
+      "acteur": "Patti LuPone",
+      "indice1": "MCU",
+      "indice2": "Agatha All Along",
+      "indice3": "Patti LuPone"
     },
     {
       "id": "jennifer-kale",
@@ -4582,7 +5401,10 @@
       "firstAppearance": "Agatha All Along",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Sasheer Zamata"
+      "acteur": "Sasheer Zamata",
+      "indice1": "MCU",
+      "indice2": "Agatha All Along",
+      "indice3": "Sasheer Zamata"
     },
     {
       "id": "nicholas-scratch",
@@ -4598,7 +5420,10 @@
       "firstAppearance": "Agatha All Along",
       "firstAppearanceDate": "2024",
       "univers": 616,
-      "acteur": "Abel Lysenko"
+      "acteur": "Abel Lysenko",
+      "indice1": "MCU",
+      "indice2": "Agatha All Along",
+      "indice3": "Abel Lysenko"
     },
     {
       "id": "harry-osborn",
@@ -4615,7 +5440,10 @@
       "firstAppearance": "Your Friendly Neighborhood Spider-Man",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Zeno Robinson"
+      "acteur": "Zeno Robinson",
+      "indice1": "MCU",
+      "indice2": "Your Friendly Neighborhood Spider-Man",
+      "indice3": "Zeno Robinson"
     },
     {
       "id": "deathlok",
@@ -4632,7 +5460,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "J. August Richards"
+      "acteur": "J. August Richards",
+      "indice1": "MCU",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "J. August Richards"
     },
     {
       "id": "sue-storm",
@@ -4649,7 +5480,10 @@
       "affiliation": "ANSA",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Vanessa Kirby"
+      "acteur": "Vanessa Kirby",
+      "indice1": "MCU",
+      "indice2": "The Fantastic Four: First Steps",
+      "indice3": "Vanessa Kirby"
     },
     {
       "id": "johnny-storm",
@@ -4666,7 +5500,10 @@
       "firstAppearance": "The Fantastic Four: First Steps",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Joseph Quinn"
+      "acteur": "Joseph Quinn",
+      "indice1": "MCU",
+      "indice2": "The Fantastic Four: First Steps",
+      "indice3": "Joseph Quinn"
     },
     {
       "id": "ben-grimm",
@@ -4683,7 +5520,10 @@
       "firstAppearance": "The Fantastic Four: First Steps",
       "firstAppearanceDate": "2025",
       "univers": 616,
-      "acteur": "Ebon Moss-Bachrach"
+      "acteur": "Ebon Moss-Bachrach",
+      "indice1": "MCU",
+      "indice2": "The Fantastic Four: First Steps",
+      "indice3": "Ebon Moss-Bachrach"
     },
     {
       "id": "jessica-jones",
@@ -4700,7 +5540,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Krysten Ritter"
+      "acteur": "Krysten Ritter",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Krysten Ritter"
     },
     {
       "id": "danny-rand",
@@ -4717,7 +5560,10 @@
       "firstAppearance": "Jessica Jones (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Finn Jones"
+      "acteur": "Finn Jones",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Jessica Jones (TV series)",
+      "indice3": "Finn Jones"
     },
     {
       "id": "luke-cage",
@@ -4735,7 +5581,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Mike Colter"
+      "acteur": "Mike Colter",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Mike Colter"
     },
     {
       "id": "ben-urich",
@@ -4752,7 +5601,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Vondie Curtis-Hall"
+      "acteur": "Vondie Curtis-Hall",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Vondie Curtis-Hall"
     },
     {
       "id": "vanessa-fisk",
@@ -4770,7 +5622,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Ayelet Zurer"
+      "acteur": "Ayelet Zurer",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Ayelet Zurer"
     },
     {
       "id": "wesley",
@@ -4787,7 +5642,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Toby Leonard Moore"
+      "acteur": "Toby Leonard Moore",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Toby Leonard Moore"
     },
     {
       "id": "leland-owlsley",
@@ -4803,7 +5661,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Bob Gunton"
+      "acteur": "Bob Gunton",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Bob Gunton"
     },
     {
       "id": "madame-gao",
@@ -4820,7 +5681,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Wai Ching Ho"
+      "acteur": "Wai Ching Ho",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Wai Ching Ho"
     },
     {
       "id": "nobu",
@@ -4836,7 +5700,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Peter Shinkoda"
+      "acteur": "Peter Shinkoda",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Peter Shinkoda"
     },
     {
       "id": "melvin-potter",
@@ -4852,7 +5719,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Matt Gerald"
+      "acteur": "Matt Gerald",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Matt Gerald"
     },
     {
       "id": "sister-maggie",
@@ -4869,7 +5739,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Joanne Whalley"
+      "acteur": "Joanne Whalley",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Joanne Whalley"
     },
     {
       "id": "ray-nadeem",
@@ -4886,7 +5759,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Jay Ali"
+      "acteur": "Jay Ali",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Jay Ali"
     },
     {
       "id": "kilgrave",
@@ -4903,7 +5779,10 @@
       "firstAppearance": "Jessica Jones (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "David Tennant"
+      "acteur": "David Tennant",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Jessica Jones (TV series)",
+      "indice3": "David Tennant"
     },
     {
       "id": "trish-walker",
@@ -4920,7 +5799,10 @@
       "firstAppearance": "Jessica Jones (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Rachael Taylor"
+      "acteur": "Rachael Taylor",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Jessica Jones (TV series)",
+      "indice3": "Rachael Taylor"
     },
     {
       "id": "malcolm-ducasse",
@@ -4937,7 +5819,10 @@
       "firstAppearance": "Jessica Jones (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Eka Darville"
+      "acteur": "Eka Darville",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Jessica Jones (TV series)",
+      "indice3": "Eka Darville"
     },
     {
       "id": "jeri-hogarth",
@@ -4954,7 +5839,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Carrie-Anne Moss"
+      "acteur": "Carrie-Anne Moss",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Carrie-Anne Moss"
     },
     {
       "id": "colleen-wing",
@@ -4971,7 +5859,10 @@
       "firstAppearance": "Luke Cage (TV series)",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Jessica Henwick"
+      "acteur": "Jessica Henwick",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Luke Cage (TV series)",
+      "indice3": "Jessica Henwick"
     },
     {
       "id": "ward-meachum",
@@ -4987,7 +5878,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Tom Pelphrey"
+      "acteur": "Tom Pelphrey",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "Tom Pelphrey"
     },
     {
       "id": "joy-meachum",
@@ -5003,7 +5897,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Jessica Stroup"
+      "acteur": "Jessica Stroup",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "Jessica Stroup"
     },
     {
       "id": "harold-meachum",
@@ -5019,7 +5916,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "David Wenham"
+      "acteur": "David Wenham",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "David Wenham"
     },
     {
       "id": "davos",
@@ -5035,7 +5935,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Sacha Dhawan"
+      "acteur": "Sacha Dhawan",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "Sacha Dhawan"
     },
     {
       "id": "mary-walker",
@@ -5052,7 +5955,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Alice Eve"
+      "acteur": "Alice Eve",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "Alice Eve"
     },
     {
       "id": "misty-knight",
@@ -5069,7 +5975,10 @@
       "firstAppearance": "Luke Cage (TV series)",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Simone Missick"
+      "acteur": "Simone Missick",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Luke Cage (TV series)",
+      "indice3": "Simone Missick"
     },
     {
       "id": "cornell-stokes",
@@ -5086,7 +5995,10 @@
       "firstAppearance": "Luke Cage (TV series)",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Mahershala Ali"
+      "acteur": "Mahershala Ali",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Luke Cage (TV series)",
+      "indice3": "Mahershala Ali"
     },
     {
       "id": "mariah-dillard",
@@ -5105,7 +6017,10 @@
       "firstAppearance": "Luke Cage (TV series)",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Alfre Woodard"
+      "acteur": "Alfre Woodard",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Luke Cage (TV series)",
+      "indice3": "Alfre Woodard"
     },
     {
       "id": "shades",
@@ -5122,7 +6037,10 @@
       "firstAppearance": "Luke Cage (TV series)",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Theo Rossi"
+      "acteur": "Theo Rossi",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Luke Cage (TV series)",
+      "indice3": "Theo Rossi"
     },
     {
       "id": "claire-temple",
@@ -5138,7 +6056,10 @@
       "firstAppearance": "Daredevil (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Rosario Dawson"
+      "acteur": "Rosario Dawson",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Daredevil (TV series)",
+      "indice3": "Rosario Dawson"
     },
     {
       "id": "bushmaster",
@@ -5155,7 +6076,10 @@
       "firstAppearance": "Luke Cage (TV series)",
       "firstAppearanceDate": "2016",
       "univers": 616,
-      "acteur": "Mustafa Shakir"
+      "acteur": "Mustafa Shakir",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Luke Cage (TV series)",
+      "indice3": "Mustafa Shakir"
     },
     {
       "id": "willis-stryker",
@@ -5172,7 +6096,10 @@
       "firstAppearance": "Jessica Jones (TV series)",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Erik LaRay Harvey"
+      "acteur": "Erik LaRay Harvey",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Jessica Jones (TV series)",
+      "indice3": "Erik LaRay Harvey"
     },
     {
       "id": "alexandra",
@@ -5188,7 +6115,10 @@
       "firstAppearance": "Iron Fist (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Sigourney Weaver"
+      "acteur": "Sigourney Weaver",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "Iron Fist (TV series)",
+      "indice3": "Sigourney Weaver"
     },
     {
       "id": "david-lieberman",
@@ -5206,7 +6136,10 @@
       "firstAppearance": "The Punisher (TV series)",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Ebon Moss-Bachrach"
+      "acteur": "Ebon Moss-Bachrach",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "The Punisher (TV series)",
+      "indice3": "Ebon Moss-Bachrach"
     },
     {
       "id": "curtis-hoyle",
@@ -5222,7 +6155,10 @@
       "firstAppearance": "The Punisher",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Jason R. Moore"
+      "acteur": "Jason R. Moore",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "The Punisher",
+      "indice3": "Jason R. Moore"
     },
     {
       "id": "dinah-madani",
@@ -5238,7 +6174,10 @@
       "firstAppearance": "The Punisher",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Amber Rose Revah"
+      "acteur": "Amber Rose Revah",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "The Punisher",
+      "indice3": "Amber Rose Revah"
     },
     {
       "id": "billy-russo",
@@ -5255,7 +6194,10 @@
       "firstAppearance": "The Punisher",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Ben Barnes"
+      "acteur": "Ben Barnes",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "The Punisher",
+      "indice3": "Ben Barnes"
     },
     {
       "id": "john-pilgrim",
@@ -5272,7 +6214,10 @@
       "firstAppearance": "The Punisher",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Josh Stewart"
+      "acteur": "Josh Stewart",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "The Punisher",
+      "indice3": "Josh Stewart"
     },
     {
       "id": "amy-bendix",
@@ -5289,7 +6234,10 @@
       "firstAppearance": "The Punisher",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Giorgia Whigham"
+      "acteur": "Giorgia Whigham",
+      "indice1": "Defenders (Netflix)",
+      "indice2": "The Punisher",
+      "indice3": "Giorgia Whigham"
     },
     {
       "id": "eddie-brock-ssu",
@@ -5306,7 +6254,10 @@
       "firstAppearance": "Venom",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Tom Hardy"
+      "acteur": "Tom Hardy",
+      "indice1": "SSU",
+      "indice2": "Venom",
+      "indice3": "Tom Hardy"
     },
     {
       "id": "venom-ssu",
@@ -5324,7 +6275,10 @@
       "firstAppearance": "Venom",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Tom Hardy"
+      "acteur": "Tom Hardy",
+      "indice1": "SSU",
+      "indice2": "Venom",
+      "indice3": "Tom Hardy"
     },
     {
       "id": "cletus-kasady-ssu",
@@ -5340,7 +6294,10 @@
       "firstAppearance": "Venom",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Woody Harrelson"
+      "acteur": "Woody Harrelson",
+      "indice1": "SSU",
+      "indice2": "Venom",
+      "indice3": "Woody Harrelson"
     },
     {
       "id": "carnage-ssu",
@@ -5357,7 +6314,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2021",
       "univers": 8311,
-      "acteur": "Woody Harrelson (voice)"
+      "acteur": "Woody Harrelson (voice)",
+      "indice1": "SSU",
+      "indice2": "Venom: Let There Be Carnage",
+      "indice3": "Woody Harrelson (voice)"
     },
     {
       "id": "anne-weying-ssu",
@@ -5374,7 +6334,10 @@
       "firstAppearance": "Venom",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Michelle Williams"
+      "acteur": "Michelle Williams",
+      "indice1": "SSU",
+      "indice2": "Venom",
+      "indice3": "Michelle Williams"
     },
     {
       "id": "morbius-ssu",
@@ -5391,7 +6354,10 @@
       "firstAppearance": "Morbius",
       "firstAppearanceDate": "2022",
       "univers": 8311,
-      "acteur": "Jared Leto"
+      "acteur": "Jared Leto",
+      "indice1": "SSU",
+      "indice2": "Morbius",
+      "indice3": "Jared Leto"
     },
     {
       "id": "milo-ssu",
@@ -5407,7 +6373,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2022",
       "univers": 8311,
-      "acteur": "Matt Smith"
+      "acteur": "Matt Smith",
+      "indice1": "SSU",
+      "indice2": "Morbius",
+      "indice3": "Matt Smith"
     },
     {
       "id": "madame-web-ssu",
@@ -5424,7 +6393,10 @@
       "firstAppearance": "Madame Web",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Dakota Johnson"
+      "acteur": "Dakota Johnson",
+      "indice1": "SSU",
+      "indice2": "Madame Web",
+      "indice3": "Dakota Johnson"
     },
     {
       "id": "julia-cornwall-ssu",
@@ -5441,7 +6413,10 @@
       "firstAppearance": "Madame Web",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Sydney Sweeney"
+      "acteur": "Sydney Sweeney",
+      "indice1": "SSU",
+      "indice2": "Madame Web",
+      "indice3": "Sydney Sweeney"
     },
     {
       "id": "mattie-franklin-ssu",
@@ -5458,7 +6433,10 @@
       "firstAppearance": "Madame Web",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Celeste O'Connor"
+      "acteur": "Celeste O'Connor",
+      "indice1": "SSU",
+      "indice2": "Madame Web",
+      "indice3": "Celeste O'Connor"
     },
     {
       "id": "anya-corazon-ssu",
@@ -5475,7 +6453,10 @@
       "firstAppearance": "Madame Web",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Isabela Merced"
+      "acteur": "Isabela Merced",
+      "indice1": "SSU",
+      "indice2": "Madame Web",
+      "indice3": "Isabela Merced"
     },
     {
       "id": "kraven-ssu",
@@ -5491,7 +6472,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Aaron Taylor-Johnson"
+      "acteur": "Aaron Taylor-Johnson",
+      "indice1": "SSU",
+      "indice2": "raven le Chasseur",
+      "indice3": "Aaron Taylor-Johnson"
     },
     {
       "id": "chameleon-ssu",
@@ -5507,7 +6491,10 @@
       "firstAppearance": "raven le Chasseur",
       "firstAppearanceDate": "2024",
       "univers": 8311,
-      "acteur": "Fred Hechinger"
+      "acteur": "Fred Hechinger",
+      "indice1": "SSU",
+      "indice2": "raven le Chasseur",
+      "indice3": "Fred Hechinger"
     },
     {
       "id": "riot-ssu",
@@ -5523,7 +6510,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Riz Ahmed"
+      "acteur": "Riz Ahmed",
+      "indice1": "SSU",
+      "indice2": "Venom",
+      "indice3": "Riz Ahmed"
     },
     {
       "id": "shriek-ssu",
@@ -5540,7 +6530,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2021",
       "univers": 8311,
-      "acteur": "Naomie Harris"
+      "acteur": "Naomie Harris",
+      "indice1": "SSU",
+      "indice2": "Venom: Let There Be Carnage",
+      "indice3": "Naomie Harris"
     },
     {
       "id": "peter-parker-raimi",
@@ -5561,7 +6554,10 @@
       "firstAppearance": "Spider-Man",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "Tobey Maguire"
+      "acteur": "Tobey Maguire",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "Tobey Maguire"
     },
     {
       "id": "mary-jane-raimi",
@@ -5581,7 +6577,10 @@
       "firstAppearance": "Spider-Man",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "Kirsten Dunst"
+      "acteur": "Kirsten Dunst",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "Kirsten Dunst"
     },
     {
       "id": "harry-osborn-raimi",
@@ -5601,7 +6600,10 @@
       "firstAppearance": "Spider-Man",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "James Franco"
+      "acteur": "James Franco",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "James Franco"
     },
     {
       "id": "norman-osborn-raimi",
@@ -5620,7 +6622,10 @@
       "firstAppearance": "Spider-Man",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "Willem Dafoe"
+      "acteur": "Willem Dafoe",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "Willem Dafoe"
     },
     {
       "id": "doc-ock-raimi",
@@ -5645,7 +6650,10 @@
       "firstAppearance": "Spider-Man 2",
       "firstAppearanceDate": "2004",
       "univers": 96283,
-      "acteur": "Alfred Molina"
+      "acteur": "Alfred Molina",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man 2",
+      "indice3": "Alfred Molina"
     },
     {
       "id": "sandman-raimi",
@@ -5662,7 +6670,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2007",
       "univers": 96283,
-      "acteur": "Thomas Haden Church"
+      "acteur": "Thomas Haden Church",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man 3",
+      "indice3": "Thomas Haden Church"
     },
     {
       "id": "eddie-brock-raimi",
@@ -5687,7 +6698,10 @@
       "firstAppearance": "Spider-Man",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "R.C. Everbeck"
+      "acteur": "R.C. Everbeck",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "R.C. Everbeck"
     },
     {
       "id": "venom-raimi",
@@ -5708,7 +6722,10 @@
       "firstAppearance": "Spider-Man 3",
       "firstAppearanceDate": "2007",
       "univers": 96283,
-      "acteur": "Topher Grace"
+      "acteur": "Topher Grace",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man 3",
+      "indice3": "Topher Grace"
     },
     {
       "id": "j-jonah-jameson-raimi",
@@ -5727,7 +6744,10 @@
       "firstAppearance": "Spider-Man",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "J.K. Simmons"
+      "acteur": "J.K. Simmons",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "J.K. Simmons"
     },
     {
       "id": "aunt-may-raimi",
@@ -5745,7 +6765,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2002",
       "univers": 96283,
-      "acteur": "Rosemary Harris"
+      "acteur": "Rosemary Harris",
+      "indice1": "Raimi-Verse",
+      "indice2": "Spider-Man",
+      "indice3": "Rosemary Harris"
     },
     {
       "id": "peter-parker-webb",
@@ -5772,7 +6795,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2012",
       "univers": 120703,
-      "acteur": "Andrew Garfield"
+      "acteur": "Andrew Garfield",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man",
+      "indice3": "Andrew Garfield"
     },
     {
       "id": "gwen-stacy-webb",
@@ -5790,7 +6816,10 @@
       "firstAppearance": "The Amazing Spider-Man",
       "firstAppearanceDate": "2012",
       "univers": 120703,
-      "acteur": "Emma Stone"
+      "acteur": "Emma Stone",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man",
+      "indice3": "Emma Stone"
     },
     {
       "id": "electro-webb",
@@ -5809,7 +6838,10 @@
       "firstAppearance": "The Amazing Spider-Man 2",
       "firstAppearanceDate": "2014",
       "univers": 120703,
-      "acteur": "Jamie Foxx"
+      "acteur": "Jamie Foxx",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man 2",
+      "indice3": "Jamie Foxx"
     },
     {
       "id": "lizard-webb",
@@ -5828,7 +6860,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2012",
       "univers": 120703,
-      "acteur": "Rhys Ifans"
+      "acteur": "Rhys Ifans",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man",
+      "indice3": "Rhys Ifans"
     },
     {
       "id": "harry-osborn-webb",
@@ -5846,7 +6881,10 @@
       "species": "Humain",
       "firstAppearanceDate": "2014",
       "univers": 120703,
-      "acteur": "Dane DeHaan"
+      "acteur": "Dane DeHaan",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man 2",
+      "indice3": "Dane DeHaan"
     },
     {
       "id": "green-goblin-webb",
@@ -5864,7 +6902,10 @@
       "species": "Humain",
       "firstAppearanceDate": "2014",
       "univers": 120703,
-      "acteur": "Dane DeHaan"
+      "acteur": "Dane DeHaan",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man 2",
+      "indice3": "Dane DeHaan"
     },
     {
       "id": "rhino-webb",
@@ -5881,7 +6922,10 @@
       "firstAppearance": "The Amazing Spider-Man 2",
       "firstAppearanceDate": "2014",
       "univers": 120703,
-      "acteur": "Paul Giamatti"
+      "acteur": "Paul Giamatti",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man 2",
+      "indice3": "Paul Giamatti"
     },
     {
       "id": "denis-carradine-webb",
@@ -5897,7 +6941,10 @@
       "firstAppearance": "The Amazing Spider-Man",
       "firstAppearanceDate": "2012",
       "univers": 120703,
-      "acteur": "Leif Gantvoort"
+      "acteur": "Leif Gantvoort",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man",
+      "indice3": "Leif Gantvoort"
     },
     {
       "id": "captain-stacy-webb",
@@ -5914,7 +6961,10 @@
       "firstAppearance": "The Amazing Spider-Man: The Movie",
       "firstAppearanceDate": "2012",
       "univers": 120703,
-      "acteur": "James Cromwell"
+      "acteur": "James Cromwell",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man: The Movie",
+      "indice3": "James Cromwell"
     },
     {
       "id": "richard-parker-webb",
@@ -5932,7 +6982,10 @@
       "affiliation": "Indépendante",
       "firstAppearanceDate": "2012",
       "univers": 120703,
-      "acteur": "Campbell Scott"
+      "acteur": "Campbell Scott",
+      "indice1": "Webb-Verse",
+      "indice2": "The Amazing Spider-Man",
+      "indice3": "Campbell Scott"
     },
     {
       "id": "wolverine-fox",
@@ -5962,7 +7015,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Hugh Jackman"
+      "acteur": "Hugh Jackman",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Hugh Jackman"
     },
     {
       "id": "logan-fox",
@@ -5991,7 +7047,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Hugh Jackman"
+      "acteur": "Hugh Jackman",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Hugh Jackman"
     },
     {
       "id": "professor-x-fox",
@@ -6012,7 +7071,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Patrick Stewart (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men Origins: Wolverine, The Wolverine, X-Men: Days of Future Past)"
+      "acteur": "Patrick Stewart (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men Origins: Wolverine, The Wolverine, X-Men: Days of Future Past)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Patrick Stewart (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men Origins: Wolverine, The Wolverine, X-Men: Days of Future Past)"
     },
     {
       "id": "magneto-fox",
@@ -6031,7 +7093,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Ian McKellen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)"
+      "acteur": "Ian McKellen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Ian McKellen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)"
     },
     {
       "id": "mystique-fox",
@@ -6070,7 +7135,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Rebecca Romijn (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class)"
+      "acteur": "Rebecca Romijn (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Rebecca Romijn (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class)"
     },
     {
       "id": "jean-grey-fox",
@@ -6089,7 +7157,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Famke Janssen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)"
+      "acteur": "Famke Janssen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Famke Janssen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)"
     },
     {
       "id": "cyclops-fox",
@@ -6106,7 +7177,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "James Marsden (X-Men, X2: X-Men United, X-Men: The Last Stand)"
+      "acteur": "James Marsden (X-Men, X2: X-Men United, X-Men: The Last Stand)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "James Marsden (X-Men, X2: X-Men United, X-Men: The Last Stand)"
     },
     {
       "id": "storm-fox",
@@ -6124,7 +7198,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Halle Berry"
+      "acteur": "Halle Berry",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Halle Berry"
     },
     {
       "id": "beast-fox",
@@ -6147,7 +7224,10 @@
       "firstAppearance": "X2: X-Men United",
       "firstAppearanceDate": "2003",
       "univers": 10005,
-      "acteur": "Steve Bacic (X2: X-Men United)"
+      "acteur": "Steve Bacic (X2: X-Men United)",
+      "indice1": "Fox X-Men",
+      "indice2": "X2: X-Men United",
+      "indice3": "Steve Bacic (X2: X-Men United)"
     },
     {
       "id": "rogue-fox",
@@ -6165,7 +7245,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Anna Paquin"
+      "acteur": "Anna Paquin",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Anna Paquin"
     },
     {
       "id": "iceman-fox",
@@ -6184,7 +7267,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Shawn Ashmore"
+      "acteur": "Shawn Ashmore",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Shawn Ashmore"
     },
     {
       "id": "kitty-pryde-fox",
@@ -6201,7 +7287,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Sumela Kay (X-Men)"
+      "acteur": "Sumela Kay (X-Men)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Sumela Kay (X-Men)"
     },
     {
       "id": "nightcrawler-fox",
@@ -6224,7 +7313,10 @@
       "firstAppearance": "X2: X-Men United",
       "firstAppearanceDate": "2003",
       "univers": 10005,
-      "acteur": "Alan Cumming"
+      "acteur": "Alan Cumming",
+      "indice1": "Fox X-Men",
+      "indice2": "X2: X-Men United",
+      "indice3": "Alan Cumming"
     },
     {
       "id": "colossus-fox",
@@ -6244,7 +7336,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Unknown (X-Men)"
+      "acteur": "Unknown (X-Men)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Unknown (X-Men)"
     },
     {
       "id": "sabretooth-fox",
@@ -6263,7 +7358,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Tyler Mane (X-Men and Deadpool & Wolverine)"
+      "acteur": "Tyler Mane (X-Men and Deadpool & Wolverine)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Tyler Mane (X-Men and Deadpool & Wolverine)"
     },
     {
       "id": "toad-fox",
@@ -6280,7 +7378,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Ray Park (X-Men)"
+      "acteur": "Ray Park (X-Men)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Ray Park (X-Men)"
     },
     {
       "id": "pyro-fox",
@@ -6297,7 +7398,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Alexander Burton (X-Men)"
+      "acteur": "Alexander Burton (X-Men)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Alexander Burton (X-Men)"
     },
     {
       "id": "juggernaut-fox",
@@ -6315,7 +7419,10 @@
       "firstAppearance": "X-Men: The Last Stand",
       "firstAppearanceDate": "2006",
       "univers": 10005,
-      "acteur": "Vinnie Jones"
+      "acteur": "Vinnie Jones",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: The Last Stand",
+      "indice3": "Vinnie Jones"
     },
     {
       "id": "deadpool-fox",
@@ -6357,7 +7464,10 @@
       "affiliation": "Sister Margaret's School for Wayward Children",
       "firstAppearance": "Deadpool",
       "firstAppearanceDate": "2016",
-      "univers": 10005
+      "univers": 10005,
+      "indice1": "Fox X-Men",
+      "indice2": "Deadpool",
+      "indice3": "Ryan Reynolds"
     },
     {
       "id": "cable-fox",
@@ -6382,7 +7492,10 @@
       "firstAppearance": "Deadpool 2",
       "firstAppearanceDate": "2018",
       "univers": 10005,
-      "acteur": "Josh Brolin"
+      "acteur": "Josh Brolin",
+      "indice1": "Fox X-Men",
+      "indice2": "Deadpool 2",
+      "indice3": "Josh Brolin"
     },
     {
       "id": "negasonic-fox",
@@ -6410,7 +7523,10 @@
       "firstAppearance": "Deadpool",
       "firstAppearanceDate": "2016",
       "univers": 10005,
-      "acteur": "Brianna Hildebrand"
+      "acteur": "Brianna Hildebrand",
+      "indice1": "Fox X-Men",
+      "indice2": "Deadpool",
+      "indice3": "Brianna Hildebrand"
     },
     {
       "id": "dopinder-fox",
@@ -6430,7 +7546,10 @@
       "firstAppearance": "Deadpool",
       "firstAppearanceDate": "2016",
       "univers": 10005,
-      "acteur": "Karan Soni"
+      "acteur": "Karan Soni",
+      "indice1": "Fox X-Men",
+      "indice2": "Deadpool",
+      "indice3": "Karan Soni"
     },
     {
       "id": "apocalypse-fox",
@@ -6456,7 +7575,10 @@
       "firstAppearance": "X-Men: Days of Future Past",
       "firstAppearanceDate": "2014",
       "univers": 10005,
-      "acteur": "Brendan Pedder (younger self; X-Men: Days of Future Past)"
+      "acteur": "Brendan Pedder (younger self; X-Men: Days of Future Past)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: Days of Future Past",
+      "indice3": "Brendan Pedder (younger self; X-Men: Days of Future Past)"
     },
     {
       "id": "emma-frost-fox",
@@ -6472,7 +7594,10 @@
       "firstAppearance": "X-Men: First Class",
       "firstAppearanceDate": "2011",
       "univers": 10005,
-      "acteur": "January Jones"
+      "acteur": "January Jones",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: First Class",
+      "indice3": "January Jones"
     },
     {
       "id": "psylocke-fox",
@@ -6488,7 +7613,10 @@
       ],
       "firstAppearanceDate": "2006",
       "univers": 10005,
-      "acteur": "Mei Melançon"
+      "acteur": "Mei Melançon",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: The Last Stand",
+      "indice3": "Mei Melançon"
     },
     {
       "id": "angel-fox",
@@ -6506,7 +7634,10 @@
       "firstAppearance": "X-Men: The Last Stand",
       "firstAppearanceDate": "2006",
       "univers": 10005,
-      "acteur": "Cayden Boyd (child; X-Men: The Last Stand)"
+      "acteur": "Cayden Boyd (child; X-Men: The Last Stand)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: The Last Stand",
+      "indice3": "Cayden Boyd (child; X-Men: The Last Stand)"
     },
     {
       "id": "havok-fox",
@@ -6524,7 +7655,10 @@
       "firstAppearance": "X-Men: First Class",
       "firstAppearanceDate": "2011",
       "univers": 10005,
-      "acteur": "Lucas Till"
+      "acteur": "Lucas Till",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: First Class",
+      "indice3": "Lucas Till"
     },
     {
       "id": "moira-mactaggert-fox",
@@ -6541,7 +7675,10 @@
       "firstAppearance": "X-Men: The Last Stand",
       "firstAppearanceDate": "2006",
       "univers": 10005,
-      "acteur": "Olivia Williams (X-Men: The Last Stand)"
+      "acteur": "Olivia Williams (X-Men: The Last Stand)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: The Last Stand",
+      "indice3": "Olivia Williams (X-Men: The Last Stand)"
     },
     {
       "id": "raven-darkholme-fox",
@@ -6580,7 +7717,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Rebecca Romijn (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class)"
+      "acteur": "Rebecca Romijn (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Rebecca Romijn (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class)"
     },
     {
       "id": "stryker-fox",
@@ -6599,7 +7739,10 @@
       "firstAppearance": "X2: X-Men United",
       "firstAppearanceDate": "2003",
       "univers": 10005,
-      "acteur": "Brian Cox (X2: X-Men United, X-Men: Days of Future Past; latter via archive footage from X2)"
+      "acteur": "Brian Cox (X2: X-Men United, X-Men: Days of Future Past; latter via archive footage from X2)",
+      "indice1": "Fox X-Men",
+      "indice2": "X2: X-Men United",
+      "indice3": "Brian Cox (X2: X-Men United, X-Men: Days of Future Past; latter via archive footage from X2)"
     },
     {
       "id": "laura-kinney-fox",
@@ -6616,7 +7759,10 @@
       "firstAppearance": "Logan",
       "firstAppearanceDate": "2017",
       "univers": 10005,
-      "acteur": "Dafne Keen"
+      "acteur": "Dafne Keen",
+      "indice1": "Fox X-Men",
+      "indice2": "Logan",
+      "indice3": "Dafne Keen"
     },
     {
       "id": "charles-xavier-young-fox",
@@ -6637,7 +7783,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Patrick Stewart (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men Origins: Wolverine, The Wolverine, X-Men: Days of Future Past)"
+      "acteur": "Patrick Stewart (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men Origins: Wolverine, The Wolverine, X-Men: Days of Future Past)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Patrick Stewart (X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men Origins: Wolverine, The Wolverine, X-Men: Days of Future Past)"
     },
     {
       "id": "erik-lensherr-young-fox",
@@ -6656,7 +7805,10 @@
       "firstAppearance": "X-Men",
       "firstAppearanceDate": "2000",
       "univers": 10005,
-      "acteur": "Ian McKellen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)"
+      "acteur": "Ian McKellen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men",
+      "indice3": "Ian McKellen (X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past)"
     },
     {
       "id": "scarlet-witch-fox",
@@ -6672,7 +7824,10 @@
       "firstAppearance": "X-Men: Days of Future Past",
       "firstAppearanceDate": "2014",
       "univers": 10005,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: Days of Future Past",
+      "indice3": "Unknown"
     },
     {
       "id": "quicksilver-fox",
@@ -6689,7 +7844,10 @@
       "firstAppearance": "X-Men: Days of Future Past",
       "firstAppearanceDate": "2014",
       "univers": 10005,
-      "acteur": "Evan Peters"
+      "acteur": "Evan Peters",
+      "indice1": "Fox X-Men",
+      "indice2": "X-Men: Days of Future Past",
+      "indice3": "Evan Peters"
     },
     {
       "id": "reed-richards-fox",
@@ -6706,7 +7864,10 @@
       "firstAppearance": "4 Fantastiques",
       "firstAppearanceDate": "2005",
       "univers": 121698,
-      "acteur": "Ioan Gruffudd"
+      "acteur": "Ioan Gruffudd",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques",
+      "indice3": "Ioan Gruffudd"
     },
     {
       "id": "sue-storm-fox",
@@ -6725,7 +7886,10 @@
       "firstAppearance": "4 Fantastiques",
       "firstAppearanceDate": "2005",
       "univers": 121698,
-      "acteur": "Jessica Alba"
+      "acteur": "Jessica Alba",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques",
+      "indice3": "Jessica Alba"
     },
     {
       "id": "johnny-storm-fox",
@@ -6744,7 +7908,10 @@
       "firstAppearance": "4 Fantastiques",
       "firstAppearanceDate": "2005",
       "univers": 121698,
-      "acteur": "Chris Evans"
+      "acteur": "Chris Evans",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques",
+      "indice3": "Chris Evans"
     },
     {
       "id": "ben-grimm-fox",
@@ -6762,7 +7929,10 @@
       "firstAppearance": "4 Fantastiques",
       "firstAppearanceDate": "2005",
       "univers": 121698,
-      "acteur": "Michael Chiklis"
+      "acteur": "Michael Chiklis",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques",
+      "indice3": "Michael Chiklis"
     },
     {
       "id": "Docteur-doom-fox",
@@ -6780,7 +7950,10 @@
       "firstAppearance": "4 Fantastiques",
       "firstAppearanceDate": "2005",
       "univers": 121698,
-      "acteur": "Julian McMahon"
+      "acteur": "Julian McMahon",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques",
+      "indice3": "Julian McMahon"
     },
     {
       "id": "silver-surfer-fox",
@@ -6797,7 +7970,10 @@
       "firstAppearance": "4 Fantastiques: Rise of the Silver Surfer",
       "firstAppearanceDate": "2007",
       "univers": 121698,
-      "acteur": "Julia Garner"
+      "acteur": "Julia Garner",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques: Rise of the Silver Surfer",
+      "indice3": "Julia Garner"
     },
     {
       "id": "galactus-fox",
@@ -6813,7 +7989,10 @@
       "firstAppearance": "4 Fantastiques: Rise of the Silver Surfer",
       "firstAppearanceDate": "2007",
       "univers": 121698,
-      "acteur": "Ralph Ineson"
+      "acteur": "Ralph Ineson",
+      "indice1": "Fox Fantastiques",
+      "indice2": "4 Fantastiques: Rise of the Silver Surfer",
+      "indice3": "Ralph Ineson"
     },
     {
       "id": "daisy-johnson-aos",
@@ -6830,7 +8009,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Chloe Bennet"
+      "acteur": "Chloe Bennet",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Chloe Bennet"
     },
     {
       "id": "melinda-may-aos",
@@ -6846,7 +8028,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Ming-Na Wen"
+      "acteur": "Ming-Na Wen",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Ming-Na Wen"
     },
     {
       "id": "leo-fitz-aos",
@@ -6862,7 +8047,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Iain De Caestecker"
+      "acteur": "Iain De Caestecker",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Iain De Caestecker"
     },
     {
       "id": "jemma-simmons-aos",
@@ -6878,7 +8066,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Elizabeth Henstridge"
+      "acteur": "Elizabeth Henstridge",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Elizabeth Henstridge"
     },
     {
       "id": "grant-ward-aos",
@@ -6894,7 +8085,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Brett Dalton"
+      "acteur": "Brett Dalton",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Brett Dalton"
     },
     {
       "id": "yo-yo-rodriguez-aos",
@@ -6912,7 +8106,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Natalia Cordova-Buckley"
+      "acteur": "Natalia Cordova-Buckley",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Natalia Cordova-Buckley"
     },
     {
       "id": "mack-aos",
@@ -6928,7 +8125,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Henry Simmons"
+      "acteur": "Henry Simmons",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Henry Simmons"
     },
     {
       "id": "robbie-reyes-aos",
@@ -6946,7 +8146,10 @@
       "firstAppearance": "Agents of S.H.I.E.L.D.",
       "firstAppearanceDate": "2013",
       "univers": 616,
-      "acteur": "Gabriel Luna"
+      "acteur": "Gabriel Luna",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agents of S.H.I.E.L.D.",
+      "indice3": "Gabriel Luna"
     },
     {
       "id": "peggy-carter-aos",
@@ -6963,7 +8166,10 @@
       "firstAppearance": "Agent Carter",
       "firstAppearanceDate": "2015",
       "univers": 616,
-      "acteur": "Hayley Atwell"
+      "acteur": "Hayley Atwell",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Agent Carter",
+      "indice3": "Hayley Atwell"
     },
     {
       "id": "howard-stark-aos",
@@ -6980,7 +8186,10 @@
       "firstAppearance": "Iron Man",
       "firstAppearanceDate": "2008",
       "univers": 616,
-      "acteur": "Gerard Sanders"
+      "acteur": "Gerard Sanders",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Iron Man",
+      "indice3": "Gerard Sanders"
     },
     {
       "id": "black-bolt-aos",
@@ -6997,7 +8206,10 @@
       "firstAppearance": "Inhumans",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Anson Mount"
+      "acteur": "Anson Mount",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Inhumans",
+      "indice3": "Anson Mount"
     },
     {
       "id": "medusa-aos",
@@ -7013,7 +8225,10 @@
       "firstAppearance": "Inhumans",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Serinda Swan"
+      "acteur": "Serinda Swan",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Inhumans",
+      "indice3": "Serinda Swan"
     },
     {
       "id": "maximus-aos",
@@ -7030,7 +8245,10 @@
       "firstAppearance": "Inhumans",
       "firstAppearanceDate": "2017",
       "univers": 616,
-      "acteur": "Iwan Rheon"
+      "acteur": "Iwan Rheon",
+      "indice1": "Agents of S.H.I.E.L.D.",
+      "indice2": "Inhumans",
+      "indice3": "Iwan Rheon"
     },
     {
       "id": "miles-morales-spiderverse",
@@ -7047,7 +8265,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Shameik Moore"
+      "acteur": "Shameik Moore",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Shameik Moore"
     },
     {
       "id": "gwen-stacy-spiderverse",
@@ -7064,7 +8285,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Hailee Steinfeld"
+      "acteur": "Hailee Steinfeld",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Hailee Steinfeld"
     },
     {
       "id": "peter-b-parker-spiderverse",
@@ -7081,7 +8305,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Jake Johnson"
+      "acteur": "Jake Johnson",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Jake Johnson"
     },
     {
       "id": "spider-pig-spiderverse",
@@ -7097,7 +8324,10 @@
       "firstAppearance": "Spider-Ham: Caught in a Ham",
       "firstAppearanceDate": "2019",
       "univers": 8311,
-      "acteur": "John Mulaney"
+      "acteur": "John Mulaney",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Ham: Caught in a Ham",
+      "indice3": "John Mulaney"
     },
     {
       "id": "spider-noir-spiderverse",
@@ -7115,7 +8345,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Unknown"
     },
     {
       "id": "peni-parker-spiderverse",
@@ -7132,7 +8365,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Kimiko Glenn"
+      "acteur": "Kimiko Glenn",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Kimiko Glenn"
     },
     {
       "id": "miguel-ohara-spiderverse",
@@ -7149,7 +8385,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "}}"
+      "acteur": "}}",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "}}"
     },
     {
       "id": "spot-spiderverse",
@@ -7170,7 +8409,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Jason Schwartzman"
+      "acteur": "Jason Schwartzman",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Jason Schwartzman"
     },
     {
       "id": "kingpin-spiderverse",
@@ -7187,7 +8429,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Liev Schreiber"
+      "acteur": "Liev Schreiber",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Liev Schreiber"
     },
     {
       "id": "aaron-davis-spiderverse",
@@ -7204,7 +8449,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Mahershala Ali"
+      "acteur": "Mahershala Ali",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Mahershala Ali"
     },
     {
       "id": "rio-morales-spiderverse",
@@ -7220,7 +8468,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Luna Lauren Velez"
+      "acteur": "Luna Lauren Velez",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Luna Lauren Velez"
     },
     {
       "id": "jefferson-morales-spiderverse",
@@ -7236,7 +8487,10 @@
       "firstAppearance": "Spider-Man: Into the Spider-Verse",
       "firstAppearanceDate": "2018",
       "univers": 8311,
-      "acteur": "Brian Tyree Henry"
+      "acteur": "Brian Tyree Henry",
+      "indice1": "Spider-Verse",
+      "indice2": "Spider-Man: Into the Spider-Verse",
+      "indice3": "Brian Tyree Henry"
     },
     {
       "id": "blade-ind",
@@ -7253,7 +8507,10 @@
       "firstAppearance": "Blade",
       "firstAppearanceDate": "1998",
       "univers": 26320,
-      "acteur": "Wesley Snipes"
+      "acteur": "Wesley Snipes",
+      "indice1": "Blade (Original)",
+      "indice2": "Blade",
+      "indice3": "Wesley Snipes"
     },
     {
       "id": "whistler-ind",
@@ -7270,7 +8527,10 @@
       "firstAppearance": "Blade",
       "firstAppearanceDate": "1998",
       "univers": 26320,
-      "acteur": "Kris Kristofferson"
+      "acteur": "Kris Kristofferson",
+      "indice1": "Blade (Original)",
+      "indice2": "Blade",
+      "indice3": "Kris Kristofferson"
     },
     {
       "id": "hulk-2003-ind",
@@ -7288,7 +8548,10 @@
       "firstAppearance": "Hulk",
       "firstAppearanceDate": "2003",
       "univers": 26320,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "Indépendants",
+      "indice2": "Hulk",
+      "indice3": "Unknown"
     },
     {
       "id": "daredevil-2003-ind",
@@ -7306,7 +8569,10 @@
       "firstAppearance": "Daredevil",
       "firstAppearanceDate": "2015",
       "univers": 26320,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "Indépendants",
+      "indice2": "Daredevil",
+      "indice3": "Unknown"
     },
     {
       "id": "elektra-2005-ind",
@@ -7324,7 +8590,10 @@
       "firstAppearance": "Elektra",
       "firstAppearanceDate": "2005",
       "univers": 701306,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "Indépendants",
+      "indice2": "Elektra",
+      "indice3": "Unknown"
     },
     {
       "id": "johnny-blaze-ind",
@@ -7342,7 +8611,10 @@
       "firstAppearance": "Ghost Rider",
       "firstAppearanceDate": "2007",
       "univers": 26320,
-      "acteur": "Unknown"
+      "acteur": "Unknown",
+      "indice1": "Indépendants",
+      "indice2": "Ghost Rider",
+      "indice3": "Unknown"
     },
     {
       "id": "punisher-2004-ind",
@@ -7360,7 +8632,10 @@
       "firstAppearance": "The Punisher",
       "firstAppearanceDate": "2004",
       "univers": 26320,
-      "acteur": "Thomas Jane"
+      "acteur": "Thomas Jane",
+      "indice1": "Indépendants",
+      "indice2": "The Punisher",
+      "indice3": "Thomas Jane"
     },
     {
       "id": "howard-the-duck-ind",
@@ -7376,7 +8651,10 @@
       "firstAppearance": "Howard the Duck",
       "firstAppearanceDate": "1986",
       "univers": 26320,
-      "acteur": "Chip Zien"
+      "acteur": "Chip Zien",
+      "indice1": "Indépendants",
+      "indice2": "Howard the Duck",
+      "indice3": "Chip Zien"
     },
     {
       "id": "man-thing-ind",
@@ -7393,7 +8671,10 @@
       "firstAppearance": "Man-Thing",
       "firstAppearanceDate": "2005",
       "univers": 26320,
-      "acteur": "Conan Stevens"
+      "acteur": "Conan Stevens",
+      "indice1": "Indépendants",
+      "indice2": "Man-Thing",
+      "indice3": "Conan Stevens"
     },
     {
       "id": "sylvie-mcu",
@@ -7410,7 +8691,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Sophia Di Martino"
+      "acteur": "Sophia Di Martino",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Sophia Di Martino"
     },
     {
       "id": "president-loki-mcu",
@@ -7427,7 +8711,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Tom Hiddleston"
+      "acteur": "Tom Hiddleston",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Tom Hiddleston"
     },
     {
       "id": "classic-loki-mcu",
@@ -7445,7 +8732,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Richard E. Grant"
+      "acteur": "Richard E. Grant",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Richard E. Grant"
     },
     {
       "id": "kid-loki-mcu",
@@ -7463,7 +8753,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Jack Veal"
+      "acteur": "Jack Veal",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Jack Veal"
     },
     {
       "id": "alligator-loki-mcu",
@@ -7481,7 +8774,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Wally (visual reference)"
+      "acteur": "Wally (visual reference)",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Wally (visual reference)"
     },
     {
       "id": "boastful-loki-mcu",
@@ -7499,7 +8795,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "DeObia Oparei"
+      "acteur": "DeObia Oparei",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "DeObia Oparei"
     },
     {
       "id": "he-who-remains-mcu",
@@ -7516,7 +8815,10 @@
       "firstAppearance": "Ant-Man and the Wasp: Quantumania",
       "firstAppearanceDate": "2023",
       "univers": 0,
-      "acteur": "Jonathan Majors"
+      "acteur": "Jonathan Majors",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp: Quantumania",
+      "indice3": "Jonathan Majors"
     },
     {
       "id": "kang-the-conqueror-mcu",
@@ -7532,7 +8834,10 @@
       "firstAppearance": "Ant-Man and the Wasp: Quantumania",
       "firstAppearanceDate": "2023",
       "univers": 0,
-      "acteur": "Jonathan Majors"
+      "acteur": "Jonathan Majors",
+      "indice1": "MCU",
+      "indice2": "Ant-Man and the Wasp: Quantumania",
+      "indice3": "Jonathan Majors"
     },
     {
       "id": "victor-timely-mcu",
@@ -7549,7 +8854,10 @@
       "firstAppearance": "Loki (TV series)",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Nasri Thompson"
+      "acteur": "Nasri Thompson",
+      "indice1": "MCU",
+      "indice2": "Loki (TV series)",
+      "indice3": "Nasri Thompson"
     },
     {
       "id": "gamora-2014-mcu",
@@ -7566,7 +8874,10 @@
       "affiliation": "Ravageurs",
       "firstAppearanceDate": "2019",
       "univers": 616,
-      "acteur": "Zoe Saldaña"
+      "acteur": "Zoe Saldaña",
+      "indice1": "MCU",
+      "indice2": "Avengers: Endgame",
+      "indice3": "Zoe Saldaña"
     },
     {
       "id": "captain-carter-mcu",
@@ -7583,7 +8894,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Hayley Atwell"
+      "acteur": "Hayley Atwell",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Hayley Atwell"
     },
     {
       "id": "strange-supreme-mcu",
@@ -7600,7 +8914,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Benedict Cumberbatch"
+      "acteur": "Benedict Cumberbatch",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Benedict Cumberbatch"
     },
     {
       "id": "baron-mordo-838-mcu",
@@ -7618,7 +8935,10 @@
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Chiwetel Ejiofor"
+      "acteur": "Chiwetel Ejiofor",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Chiwetel Ejiofor"
     },
     {
       "id": "reed-richards-838-mcu",
@@ -7636,7 +8956,10 @@
       "affiliation": "Illuminati",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "John Krasinski"
+      "acteur": "John Krasinski",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "John Krasinski"
     },
     {
       "id": "black-bolt-838-mcu",
@@ -7654,7 +8977,10 @@
       "affiliation": "Illuminati",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Anson Mount"
+      "acteur": "Anson Mount",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Anson Mount"
     },
     {
       "id": "charles-xavier-838-mcu",
@@ -7672,7 +8998,10 @@
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Patrick Stewart"
+      "acteur": "Patrick Stewart",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Patrick Stewart"
     },
     {
       "id": "maria-rambeau-838-mcu",
@@ -7690,7 +9019,10 @@
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "firstAppearanceDate": "2022",
       "univers": 616,
-      "acteur": "Lashana Lynch"
+      "acteur": "Lashana Lynch",
+      "indice1": "MCU",
+      "indice2": "Doctor Strange in the Multiverse of Madness",
+      "indice3": "Lashana Lynch"
     },
     {
       "id": "party-thor-mcu",
@@ -7708,7 +9040,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Chris Hemsworth"
+      "acteur": "Chris Hemsworth",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Chris Hemsworth"
     },
     {
       "id": "tchalla-star-lord-mcu",
@@ -7725,7 +9060,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Chadwick Boseman"
+      "acteur": "Chadwick Boseman",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Chadwick Boseman"
     },
     {
       "id": "zombie-strange-mcu",
@@ -7743,7 +9081,10 @@
       "firstAppearance": "What If...?",
       "firstAppearanceDate": "2021",
       "univers": 0,
-      "acteur": "Benedict Cumberbatch"
+      "acteur": "Benedict Cumberbatch",
+      "indice1": "MCU",
+      "indice2": "What If...?",
+      "indice3": "Benedict Cumberbatch"
     },
     {
       "id": "killmonger-king-mcu",
@@ -7761,7 +9102,10 @@
       "firstAppearance": "Black Panther",
       "firstAppearanceDate": "2018",
       "univers": 0,
-      "acteur": "Michael B. Jordan"
+      "acteur": "Michael B. Jordan",
+      "indice1": "MCU",
+      "indice2": "Black Panther",
+      "indice3": "Michael B. Jordan"
     }
   ]
 }

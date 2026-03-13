@@ -102,7 +102,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 195,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Troisième",
+      "indice2": "Suke Suke no Mi",
+      "indice3": "Thriller Bark"
     },
     {
       "id": "aisa",
@@ -120,7 +123,10 @@
       ],
       "origin": "Skypiea",
       "size": 140,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Shandias",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "aladdin",
@@ -138,7 +144,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 627,
-      "race": "Sirène"
+      "race": "Sirène",
+      "indice1": "Équipage de Big Mom",
+      "indice2": "Sirène",
+      "indice3": "Équipage de Big Mom"
     },
     {
       "id": "alber",
@@ -163,7 +172,10 @@
       ],
       "origin": "Grand Line",
       "size": 613,
-      "race": "Lunarien"
+      "race": "Lunarien",
+      "indice1": "Second",
+      "indice2": "Ryu Ryu no Mi modèle Ptéranodon",
+      "indice3": "Calamités"
     },
     {
       "id": "alvida",
@@ -184,7 +196,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 198,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Alliance Baggy et Alvida",
+      "indice2": "Sube Sube no Mi",
+      "indice3": "Alliance Baggy et Alvida"
     },
     {
       "id": "amazon",
@@ -204,7 +219,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 120,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Wago Muland",
+      "indice2": "Humain",
+      "indice3": "Wago Muland"
     },
     {
       "id": "baskerville",
@@ -225,7 +243,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 512,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Enies Lobby",
+      "indice2": "Humain",
+      "indice3": "Enies Lobby"
     },
     {
       "id": "arlong",
@@ -246,7 +267,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 263,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Capitaine",
+      "indice2": "Homme-Poisson",
+      "indice3": "Équipage des Pirates du soleil"
     },
     {
       "id": "avalo-pizarro",
@@ -269,7 +293,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 505,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Impel Down",
+      "indice2": "Shima Shima no Mi",
+      "indice3": "Impel Down"
     },
     {
       "id": "babe",
@@ -290,7 +317,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 218,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Spiders Café",
+      "indice2": "Humain",
+      "indice3": "Spiders Café"
     },
     {
       "id": "baby-5",
@@ -309,7 +339,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 181,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Flotte de Happou",
+      "indice2": "Buki Buki no Mi",
+      "indice3": "Flotte de Happou"
     },
     {
       "id": "baggy",
@@ -339,7 +372,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 192,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Quatre Empereurs",
+      "indice2": "Bara Bara no Mi",
+      "indice3": "Quatre Empereurs"
     },
     {
       "id": "bartholomew-kuma",
@@ -366,7 +402,10 @@
       ],
       "origin": "South Blue (Royaume de Sorbet)",
       "size": 689,
-      "race": "Buccaneer"
+      "race": "Buccaneer",
+      "indice1": "Sept Grands Corsaires",
+      "indice2": "Nikyu Nikyu no Mi",
+      "indice3": "Sept Grands Corsaires"
     },
     {
       "id": "bartolomeo",
@@ -387,7 +426,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 220,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Bartolomeo",
+      "indice2": "Bari Bari no Mi",
+      "indice3": "Équipage de Bartolomeo"
     },
     {
       "id": "basil-hawkins",
@@ -412,7 +454,10 @@
       ],
       "origin": "North Blue",
       "size": 210,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Supernova",
+      "indice2": "Wara Wara no Mi",
+      "indice3": "Supernova"
     },
     {
       "id": "bastille",
@@ -435,7 +480,10 @@
       ],
       "origin": "Grand Line",
       "size": 291,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Vice-Amiral",
+      "indice2": "Humain",
+      "indice3": "Vice-Amiral"
     },
     {
       "id": "bellamy",
@@ -460,7 +508,10 @@
       ],
       "origin": "North Blue}",
       "size": 240,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Bellamy",
+      "indice2": "Bane Bane no Mi",
+      "indice3": "Équipage de Bellamy"
     },
     {
       "id": "belo-betty",
@@ -479,7 +530,10 @@
       ],
       "origin": "East Blue",
       "size": 196,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Révolutionnaires",
+      "indice2": "Kobu Kobu no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "bentham",
@@ -506,7 +560,10 @@
       ],
       "origin": "East Blue",
       "size": 238,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Impel Down",
+      "indice2": "Mane Mane no Mi",
+      "indice3": "Impel Down"
     },
     {
       "id": "bepo",
@@ -527,7 +584,10 @@
       "haki": [],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 240,
-      "race": "Minks"
+      "race": "Minks",
+      "indice1": "Second",
+      "indice2": "Minks",
+      "indice3": "Tribu des Minks"
     },
     {
       "id": "bishamon",
@@ -547,7 +607,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 182,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "black-maria",
@@ -569,7 +632,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 820,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Tobiroppo",
+      "indice2": "Kumo Kumo no Mi modèle Rosamygale grauvogeli",
+      "indice3": "Tobiroppo"
     },
     {
       "id": "blue-gilly",
@@ -587,7 +653,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 314,
-      "race": "Longues-Jambes"
+      "race": "Longues-Jambes",
+      "indice1": "Équipage d'Ideo",
+      "indice2": "Longues-Jambes",
+      "indice3": "Équipage d'Ideo"
     },
     {
       "id": "bluejam",
@@ -603,7 +672,10 @@
       "haki": [],
       "origin": "Royaume de Goa",
       "size": 261,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Humain",
+      "indice3": "Royaume de Goa"
     },
     {
       "id": "blueno",
@@ -626,7 +698,10 @@
       ],
       "origin": "North Blue",
       "size": 258,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS9",
+      "indice2": "Doa Doa no Mi",
+      "indice3": "CP-AIGIS9"
     },
     {
       "id": "boa-hancock",
@@ -653,7 +728,10 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 191,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Amazon Lily",
+      "indice2": "Mero Mero no Mi",
+      "indice3": "Amazon Lily"
     },
     {
       "id": "boa-marigold",
@@ -674,7 +752,10 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 432,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amazon Lily",
+      "indice2": "Hebi Hebi no Mi modèle Cobra Royal",
+      "indice3": "Amazon Lily"
     },
     {
       "id": "boa-sandersonia",
@@ -695,7 +776,10 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 453,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amazon Lily",
+      "indice2": "Hebi Hebi no Mi modèle Anaconda",
+      "indice3": "Amazon Lily"
     },
     {
       "id": "borsalino",
@@ -719,7 +803,10 @@
       ],
       "origin": "North Blue",
       "size": 302,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amiral",
+      "indice2": "Pika Pika no Mi",
+      "indice3": "Amiral"
     },
     {
       "id": "braham",
@@ -735,7 +822,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 179,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Shandias",
+      "indice2": "Humain",
+      "indice3": "Skypiea"
     },
     {
       "id": "brannew",
@@ -753,7 +843,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 190,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Contre-Amiral",
+      "indice2": "Humain",
+      "indice3": "Contre-Amiral"
     },
     {
       "id": "brogy",
@@ -772,7 +865,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 2130,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Capitaine",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "brook",
@@ -794,7 +890,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 277,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Rumbar",
+      "indice2": "Yomi Yomi no Mi",
+      "indice3": "Équipage de Rumbar"
     },
     {
       "id": "buchi",
@@ -813,7 +912,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 216,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chat Noir",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "buddle",
@@ -829,7 +931,10 @@
       "haki": [],
       "origin": "Archipel des Orgao",
       "size": 172,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orange Town",
+      "indice2": "Humain",
+      "indice3": "Archipel des Orgao"
     },
     {
       "id": "buffalo",
@@ -845,7 +950,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 696,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Guru Guru no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "cabaji",
@@ -865,7 +973,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 208,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Clown",
+      "indice2": "Humain",
+      "indice3": "Équipage du Clown"
     },
     {
       "id": "capone-bege",
@@ -889,7 +1000,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 166,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Fire Tank",
+      "indice2": "Shiro Shiro no Mi",
+      "indice3": "Équipage du Fire Tank"
     },
     {
       "id": "caramel",
@@ -910,7 +1024,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 185,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Soru Soru no Mi",
+      "indice3": "West Blue"
     },
     {
       "id": "caribou",
@@ -932,7 +1049,10 @@
       ],
       "origin": "North Blue",
       "size": 228,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Numa Numa no Mi",
+      "indice3": "Armement"
     },
     {
       "id": "carrot",
@@ -953,7 +1073,10 @@
       "haki": [],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 161,
-      "race": "Mink"
+      "race": "Mink",
+      "indice1": "Unité des mousquetaires",
+      "indice2": "Mink",
+      "indice3": "Unité des mousquetaires"
     },
     {
       "id": "catarina-devon",
@@ -973,7 +1096,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 361,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Impel Down",
+      "indice2": "Inu Inu no Mi modèle Kyubi no Kitsune",
+      "indice3": "Impel Down"
     },
     {
       "id": "cavendish",
@@ -998,7 +1124,10 @@
       ],
       "origin": "Grand Line",
       "size": 208,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Cavendish",
+      "indice2": "Humain",
+      "indice3": "Équipage de Cavendish"
     },
     {
       "id": "cesar-clown",
@@ -1019,7 +1148,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 309,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Mads",
+      "indice2": "Gasu Gasu no Mi",
+      "indice3": "Mads"
     },
     {
       "id": "chadros-higelyges",
@@ -1037,7 +1169,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 691,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Brune",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "charlotte-brulee",
@@ -1055,7 +1190,10 @@
       "haki": [],
       "origin": "Grand Line ",
       "size": 350,
-      "race": "Minks"
+      "race": "Minks",
+      "indice1": "Famille Charlotte",
+      "indice2": "Mira Mira no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-chiffon",
@@ -1074,7 +1212,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 215,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Humain",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-cracker",
@@ -1098,7 +1239,10 @@
       ],
       "origin": "Grand Line ",
       "size": 307,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Troisième",
+      "indice2": "Bisu Bisu no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-daifuku",
@@ -1119,7 +1263,10 @@
       ],
       "origin": "Grand Line ",
       "size": 489,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Hoya Hoya no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-flampe",
@@ -1137,7 +1284,10 @@
       "haki": [],
       "origin": "Grand Line ",
       "size": 170,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Humain",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-katakuri",
@@ -1159,7 +1309,10 @@
       ],
       "origin": "Grand Line ",
       "size": 509,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Second",
+      "indice2": "Mochi Mochi no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-laura",
@@ -1177,7 +1330,10 @@
       "haki": [],
       "origin": "Grand Line ",
       "size": 215,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Humain",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-linlin",
@@ -1203,7 +1359,10 @@
       ],
       "origin": "Grand Line",
       "size": 880,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Soru Soru no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-mont-d-or",
@@ -1221,7 +1380,10 @@
       "haki": [],
       "origin": "Grand Line ",
       "size": 260,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Buku Buku no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-oven",
@@ -1242,7 +1404,10 @@
       ],
       "origin": "Grand Line ",
       "size": 492,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Netsu Netsu no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-perospero",
@@ -1263,7 +1428,10 @@
       ],
       "origin": "Grand Line ",
       "size": 333,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Charlotte",
+      "indice2": "Pero Pero no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-praline",
@@ -1281,7 +1449,10 @@
       "haki": [],
       "origin": "Whole Cake",
       "size": 800,
-      "race": "Sirène"
+      "race": "Sirène",
+      "indice1": "Famille Charlotte",
+      "indice2": "Sirène",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "charlotte-smoothie",
@@ -1302,7 +1473,10 @@
       ],
       "origin": "Grand Line ",
       "size": 464,
-      "race": "Longues-Jambes"
+      "race": "Longues-Jambes",
+      "indice1": "Famille Charlotte",
+      "indice2": "Shibo Shibo no Mi",
+      "indice3": "Famille Charlotte"
     },
     {
       "id": "chef-des-Shandiass",
@@ -1318,7 +1492,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 179,
-      "race": "Skypieien"
+      "race": "Skypieien",
+      "indice1": "Shandiass",
+      "indice2": "Skypieien",
+      "indice3": "Skypiea"
     },
     {
       "id": "chess",
@@ -1334,7 +1511,10 @@
       "haki": [],
       "origin": "Drum Island",
       "size": 194,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Wapol",
+      "indice2": "Humain",
+      "indice3": "Drum Island"
     },
     {
       "id": "chimney",
@@ -1350,7 +1530,10 @@
       "haki": [],
       "origin": "Water Seven",
       "size": 115,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gare de Shift",
+      "indice2": "Humain",
+      "indice3": "Water Seven"
     },
     {
       "id": "chinjao",
@@ -1376,7 +1559,10 @@
       ],
       "origin": "Pays des Fleurs",
       "size": 520,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Flotte de Happou",
+      "indice2": "Humain",
+      "indice3": "Flotte de Happou"
     },
     {
       "id": "chocolat",
@@ -1392,7 +1578,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 181,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "chome",
@@ -1412,7 +1601,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 150,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "chouchou",
@@ -1428,7 +1620,10 @@
       "haki": [],
       "origin": "Orange Town",
       "size": 40,
-      "race": "Chien"
+      "race": "Chien",
+      "indice1": "Orange Town",
+      "indice2": "Chien",
+      "indice3": "Orange Town"
     },
     {
       "id": "cocoa",
@@ -1444,7 +1639,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 138,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "conis",
@@ -1460,7 +1658,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 176,
-      "race": "Skypieien"
+      "race": "Skypieien",
+      "indice1": "Skypiea",
+      "indice2": "Skypieien",
+      "indice3": "Skypiea"
     },
     {
       "id": "coribou",
@@ -1478,7 +1679,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 250,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Caribou",
+      "indice2": "Humain",
+      "indice3": "North Blue"
     },
     {
       "id": "crocodile",
@@ -1499,7 +1703,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 253,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Sept Grands Corsaires",
+      "indice2": "Suna Suna no Mi",
+      "indice3": "Sept Grands Corsaires"
     },
     {
       "id": "crocus",
@@ -1517,7 +1724,10 @@
       ],
       "origin": "Grand Line",
       "size": 203,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Roger",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "curly-dadan",
@@ -1533,7 +1743,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 221,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Bandits",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "daikoku",
@@ -1553,7 +1766,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 436,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "dalton",
@@ -1571,7 +1787,10 @@
       "haki": [],
       "origin": "Drum Island",
       "size": 218,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Royaume des Cerisiers",
+      "indice2": "Ushi Ushi no Mi modèle Bison",
+      "indice3": "Royaume des Cerisiers"
     },
     {
       "id": "daruma",
@@ -1587,7 +1806,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 122,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Nouvel Équipage des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "demalo-black",
@@ -1606,7 +1828,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 245,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "den",
@@ -1622,7 +1847,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 435,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Civil",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "denjiro",
@@ -1645,7 +1873,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 306,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "diamante",
@@ -1666,7 +1897,10 @@
       ],
       "origin": "North Blue",
       "size": 525,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Hira Hira no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "doc-q",
@@ -1684,7 +1918,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 342,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Noire",
+      "indice2": "Shiku Shiku no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "don-quichotte-doflamingo",
@@ -1707,7 +1944,10 @@
       ],
       "origin": "Mary Geoise",
       "size": 305,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage des Cent Bêtes",
+      "indice2": "Ito Ito no Mi",
+      "indice3": "Équipage des Cent Bêtes"
     },
     {
       "id": "don-quichotte-rossinante",
@@ -1728,7 +1968,10 @@
       "haki": [],
       "origin": "Mary Geoise",
       "size": 293,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Lieutenant Colonel",
+      "indice2": "Nagi Nagi no Mi",
+      "indice3": "Marines"
     },
     {
       "id": "dorry",
@@ -1747,7 +1990,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 2260,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Capitaine",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "dosun",
@@ -1763,7 +2009,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 418,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Nouvel Équipage des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "drip",
@@ -1779,7 +2028,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 208,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "drophy",
@@ -1798,7 +2050,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 156,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Baroque Works",
+      "indice2": "Mogu Mogu no Mi",
+      "indice3": "Grand Line"
     },
     {
       "id": "edward-newgate",
@@ -1823,7 +2078,10 @@
       ],
       "origin": "Sphinx",
       "size": 666,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Gura Gura no Mi",
+      "indice3": "Quatre Empereurs"
     },
     {
       "id": "edward-weevil",
@@ -1845,7 +2103,10 @@
       ],
       "origin": "Grand Line",
       "size": 680,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Grand corsaire",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "emporio-ivankov",
@@ -1869,7 +2130,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 449,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Kedétrav",
+      "indice2": "Horu Horu no Mi",
+      "indice3": "Kedétrav"
     },
     {
       "id": "enel",
@@ -1888,7 +2152,10 @@
       "haki": [],
       "origin": "Îles Célestes (Bilca)",
       "size": 266,
-      "race": "Skypieien"
+      "race": "Skypieien",
+      "indice1": "Skypiea",
+      "indice2": "Goro Goro no Mi",
+      "indice3": "Îles Célestes (Bilca)"
     },
     {
       "id": "eustass-kid",
@@ -1913,7 +2180,10 @@
       ],
       "origin": "South Blue",
       "size": 205,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Jiki Jiki no Mi",
+      "indice3": "Supernova"
     },
     {
       "id": "fisher-tiger",
@@ -1932,7 +2202,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 520,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Capitaine",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "foxy",
@@ -1951,7 +2224,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 180,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Noro Noro no Mi",
+      "indice3": "South Blue"
     },
     {
       "id": "franky",
@@ -1971,7 +2247,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 240,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "South Blue"
     },
     {
       "id": "fujin",
@@ -1993,7 +2272,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 200,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "fukaboshi",
@@ -2009,7 +2291,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 604,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Famille royale de l'île des hommes-poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "fukuro",
@@ -2030,7 +2315,10 @@
       ],
       "origin": "Grand Line",
       "size": 331,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "fukurokuju",
@@ -2046,7 +2334,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 221,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Humain",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "fullbody",
@@ -2064,7 +2355,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 184,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Lieutenant Commandant",
+      "indice2": "Humain",
+      "indice3": "North Blue"
     },
     {
       "id": "galdino",
@@ -2084,7 +2378,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 179,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Cross Guild",
+      "indice2": "Doru Doru no Mi",
+      "indice3": "South Blue"
     },
     {
       "id": "gan-forr",
@@ -2102,7 +2399,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 180,
-      "race": "Dieu"
+      "race": "Dieu",
+      "indice1": "Skypiea",
+      "indice2": "Dieu",
+      "indice3": "Skypiea"
     },
     {
       "id": "gecko-moria",
@@ -2121,7 +2421,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 692,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage des Pirates Gecko",
+      "indice2": "Paramecia",
+      "indice3": "West Blue"
     },
     {
       "id": "gedatsu",
@@ -2141,7 +2444,10 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 220,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Clan d'Ener",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "gem",
@@ -2160,7 +2466,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 197,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Baroque Works",
+      "indice2": "Bomu Bomu no Mi",
+      "indice3": "South Blue"
     },
     {
       "id": "gerd",
@@ -2178,7 +2487,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 1700,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "gladius",
@@ -2194,7 +2506,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 260,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Pamu Pamu no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "gol-d-roger",
@@ -2217,7 +2532,10 @@
       ],
       "origin": "Logue Town",
       "size": 274,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation, des rois"
     },
     {
       "id": "gotti",
@@ -2233,7 +2551,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 375,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Fire Tank",
+      "indice2": "Humain",
+      "indice3": "West Blue"
     },
     {
       "id": "hack",
@@ -2249,7 +2570,10 @@
       "haki": [],
       "origin": "Île des Hommes-Poissons",
       "size": 280,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Armée Révolutionnaire",
+      "indice2": "Homme-Poisson",
+      "indice3": "Île des Hommes-Poissons"
     },
     {
       "id": "haguar-d-sauro",
@@ -2267,7 +2591,10 @@
       ],
       "origin": "South Blue",
       "size": 1950,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Marine",
+      "indice2": "Humain",
+      "indice3": "Armement"
     },
     {
       "id": "hajrudin",
@@ -2286,7 +2613,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 2200,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Les Pirates d'Expédition",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "hannyabal",
@@ -2302,7 +2632,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 309,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Humain",
+      "indice3": "South Blue"
     },
     {
       "id": "hanzo",
@@ -2318,7 +2651,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 544,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "O-Niwaban",
+      "indice2": "Humain",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "haredas",
@@ -2334,7 +2670,10 @@
       "haki": [],
       "origin": "Îles Célestes (Bilca)",
       "size": 253,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Weatheria",
+      "indice2": "Homme-Poisson",
+      "indice3": "Îles Célestes (Bilca)"
     },
     {
       "id": "hatcha",
@@ -2350,7 +2689,10 @@
       "haki": [],
       "origin": "Punk Hazard",
       "size": 3675,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Géant",
+      "indice3": "Punk Hazard"
     },
     {
       "id": "hiluluk",
@@ -2368,7 +2710,10 @@
       "haki": [],
       "origin": "Drum Island",
       "size": 213,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Royaume des Cerisiers",
+      "indice2": "Humain",
+      "indice3": "Drum Island"
     },
     {
       "id": "hina",
@@ -2387,7 +2732,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 181,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Sous-Amiral",
+      "indice2": "Ori Ori no Mi",
+      "indice3": "West Blue"
     },
     {
       "id": "hody-jones",
@@ -2405,7 +2753,10 @@
       ],
       "origin": "Fishman Island",
       "size": 331,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Nouvel Équipage des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "des Rois"
     },
     {
       "id": "hogback",
@@ -2421,7 +2772,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 233,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Equipage de Gecko Moria",
+      "indice2": "Humain",
+      "indice3": "West Blue"
     },
     {
       "id": "holdem",
@@ -2439,7 +2793,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 312,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "SMILE",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "hyouzou",
@@ -2455,7 +2812,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 327,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Nouvel Équipage des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "icaros-mucchi",
@@ -2471,7 +2831,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 499,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Nouvel Équipage des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "ideo",
@@ -2489,7 +2852,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 225,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "inazuma",
@@ -2507,7 +2873,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 228,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Armée Révolutionnaire",
+      "indice2": "Choki Choki no Mi",
+      "indice3": "South Blue"
     },
     {
       "id": "inuarashi",
@@ -2529,7 +2898,10 @@
       ],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 511,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Principauté de Mokomo",
+      "indice2": "Homme-Poisson",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "issho",
@@ -2551,7 +2923,10 @@
       ],
       "origin": "Grand Line",
       "size": 270,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amiral",
+      "indice2": "Zushi Zushi no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "izou",
@@ -2570,7 +2945,10 @@
       ],
       "origin": "Wano Kuni (Ringo)",
       "size": 192,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Blanche",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "jabra",
@@ -2589,7 +2967,10 @@
       ],
       "origin": "North Blue",
       "size": 212,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Inu Inu no Mi modèle Loup",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "jack",
@@ -2610,7 +2991,10 @@
       ],
       "origin": "Grand Line",
       "size": 830,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Zo Zo no Mi modèle Mammouth",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "jerry",
@@ -2628,7 +3012,10 @@
       "haki": [],
       "origin": "South Blue (Île Karaté)",
       "size": 676,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP6",
+      "indice2": "Humain",
+      "indice3": "South Blue (Île Karaté)"
     },
     {
       "id": "jesus-burgess",
@@ -2650,7 +3037,10 @@
       ],
       "origin": "Grand Line",
       "size": 355,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Noire",
+      "indice2": "Riki Riki no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "jewelry-bonney",
@@ -2672,7 +3062,10 @@
       ],
       "origin": "South Blue",
       "size": 174,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Toshi Toshi no Mi",
+      "indice3": "Armement"
     },
     {
       "id": "jigoku-benten",
@@ -2688,7 +3081,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 225,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "O-Niwaban",
+      "indice2": "Humain",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "jinbe",
@@ -2709,7 +3105,10 @@
       ],
       "origin": "Fishman Island",
       "size": 301,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "johnny",
@@ -2725,7 +3124,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 186,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Chasseurs de Primes (avec Yosaku)",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "jora",
@@ -2741,7 +3143,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 221,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Ato Ato no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "joz",
@@ -2762,7 +3167,10 @@
       ],
       "origin": "West Blue",
       "size": 503,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Troisième",
+      "indice2": "Kira Kira no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kaidou",
@@ -2787,7 +3195,10 @@
       ],
       "origin": "Grand Line",
       "size": 710,
-      "race": "Minks"
+      "race": "Minks",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Uo Uo no Mi modèle Seiryu",
+      "indice3": "Armement, Observation, des Rois"
     },
     {
       "id": "kaku",
@@ -2808,7 +3219,10 @@
       ],
       "origin": "East Blue",
       "size": 193,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Ushi Ushi no Mi modèle Girafe",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kalgara",
@@ -2828,7 +3242,10 @@
       ],
       "origin": "Grand Line",
       "size": 222,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Shandiass",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "kalifa",
@@ -2847,7 +3264,10 @@
       ],
       "origin": "Grand Line",
       "size": 185,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Awa Awa no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kamakiri",
@@ -2863,7 +3283,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 214,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Shandias",
+      "indice2": "Humain",
+      "indice3": "Skypiea"
     },
     {
       "id": "karasu",
@@ -2884,7 +3307,10 @@
       ],
       "origin": "North Blue",
       "size": 265,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Armée Révolutionnaire",
+      "indice2": "Susu Susu no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "karoo",
@@ -2902,7 +3328,10 @@
       "haki": [],
       "origin": "Royaume d'Alabasta",
       "size": 150,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "Royaume d'Alabasta"
     },
     {
       "id": "kazekage",
@@ -2918,7 +3347,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 192,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "O-Niwaban",
+      "indice2": "Humain",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "killer",
@@ -2941,7 +3373,10 @@
       ],
       "origin": "South Blue",
       "size": 195,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Second",
+      "indice2": "SMILE",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kinemon",
@@ -2962,7 +3397,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 295,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Fuku Fuku no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "koby",
@@ -2983,7 +3421,10 @@
       ],
       "origin": "East Blue (Royaume de Satsuruzo)",
       "size": 167,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Colonel",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kokoro",
@@ -2999,7 +3440,10 @@
       "haki": [],
       "origin": "Île des Hommes-Poissons",
       "size": 168,
-      "race": "Sirène"
+      "race": "Sirène",
+      "indice1": "Tom's Workers",
+      "indice2": "Sirène",
+      "indice3": "Île des Hommes-Poissons"
     },
     {
       "id": "koza",
@@ -3015,7 +3459,10 @@
       "haki": [],
       "origin": "Royaume d'Alabasta",
       "size": 177,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Alabasta (Les Sablonneux",
+      "indice2": "Humain",
+      "indice3": "Royaume d'Alabasta"
     },
     {
       "id": "kozuki-hiyori",
@@ -3033,7 +3480,10 @@
       "haki": [],
       "origin": "Grand Line (Moby Dick)",
       "size": 170,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Humain",
+      "indice3": "Grand Line (Moby Dick)"
     },
     {
       "id": "kozuki-momonosuke",
@@ -3049,7 +3499,10 @@
       "haki": [],
       "origin": "Grand Line (sur le Moby Dick)",
       "size": 110,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Smile du Uo Uo no Mi",
+      "indice3": "Grand Line (sur le Moby Dick)"
     },
     {
       "id": "kozuki-oden",
@@ -3068,7 +3521,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 382,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Humain",
+      "indice3": "Armement, des Rois"
     },
     {
       "id": "kumadori",
@@ -3089,7 +3545,10 @@
       ],
       "origin": "South Blue",
       "size": 318,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kureha",
@@ -3109,7 +3568,10 @@
       "haki": [],
       "origin": "Grand Line (Drum Island)",
       "size": 188,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Royaume des Cerisiers",
+      "indice2": "Humain",
+      "indice3": "Grand Line (Drum Island)"
     },
     {
       "id": "kuromarimo",
@@ -3125,7 +3587,10 @@
       "haki": [],
       "origin": "Royaume de Drum",
       "size": 186,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "L’Équipage de Wapol (dissous)",
+      "indice2": "Humain",
+      "indice3": "Royaume de Drum"
     },
     {
       "id": "kuroobi",
@@ -3143,7 +3608,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 252,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage d'Arlong",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "kurozumi-kanjuro",
@@ -3162,7 +3630,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 347,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kurozumi",
+      "indice2": "Fude Fude no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kurozumi-orochi",
@@ -3180,7 +3651,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 350,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Zoan Mythique",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "kuzan",
@@ -3202,7 +3676,10 @@
       ],
       "origin": "South Blue (Royaume Vespa)",
       "size": 298,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amiral",
+      "indice2": "Hie Hie no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "kyros",
@@ -3220,7 +3697,10 @@
       ],
       "origin": "Dressrosa",
       "size": 298,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Colisée Corrida",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "laboon",
@@ -3236,7 +3716,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 40000,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage du Rumbar",
+      "indice2": "Homme-Poisson",
+      "indice3": "West Blue"
     },
     {
       "id": "laffitte",
@@ -3252,7 +3735,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 340,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Noire",
+      "indice2": "Humain",
+      "indice3": "West Blue"
     },
     {
       "id": "laki",
@@ -3268,7 +3754,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 179,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Shandiass",
+      "indice2": "Humain",
+      "indice3": "Skypiea"
     },
     {
       "id": "lao-g",
@@ -3284,7 +3773,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 157,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Humain",
+      "indice3": "North Blue"
     },
     {
       "id": "leo",
@@ -3300,7 +3792,10 @@
       "haki": [],
       "origin": "Green Bit",
       "size": 23,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Allié de Équipage du Chapeau de Paille",
+      "indice2": "Nui Nui no Mi",
+      "indice3": "Green Bit"
     },
     {
       "id": "little-oars-jr",
@@ -3316,7 +3811,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 6000,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Blanche",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "longs-cils",
@@ -3332,7 +3830,10 @@
       "haki": [],
       "origin": "Grand Line (Royaume d'Alabasta)",
       "size": 190,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Escadron des Super Colverts",
+      "indice2": "Humain",
+      "indice3": "Grand Line (Royaume d'Alabasta)"
     },
     {
       "id": "lucky-roux",
@@ -3351,7 +3852,10 @@
       ],
       "origin": "South Blue",
       "size": 241,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Roux",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "machvise",
@@ -3367,7 +3871,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 440,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Ton Ton no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "magellan",
@@ -3383,7 +3890,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 491,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Doku Doku no Mi",
+      "indice3": "Grand Line"
     },
     {
       "id": "manboshi",
@@ -3399,7 +3909,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 473,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Île des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "manjaro",
@@ -3415,7 +3928,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 202,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "marco",
@@ -3436,7 +3952,10 @@
       ],
       "origin": "Grand Line",
       "size": 203,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Second",
+      "indice2": "Tori Tori no Mi modèle Phoenix",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "marguerite",
@@ -3454,7 +3973,10 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 178,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Kujas",
+      "indice2": "Humain",
+      "indice3": "Armement"
     },
     {
       "id": "marianne",
@@ -3470,7 +3992,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 145,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Baroque Works",
+      "indice2": "Humain",
+      "indice3": "North Blue"
     },
     {
       "id": "marshall-d-teach",
@@ -3493,7 +4018,10 @@
       ],
       "origin": "Grand Line",
       "size": 344,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Gura Gura no Mi / Yami Yami no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "masira",
@@ -3509,7 +4037,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 345,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Ligue des Primates",
+      "indice2": "Humain",
+      "indice3": "North Blue"
     },
     {
       "id": "meuh-meuh",
@@ -3525,7 +4056,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 3600,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage d'Arlong",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "mikita",
@@ -3544,7 +4078,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 177,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Baroque Works",
+      "indice2": "Kilo Kilo no Mi",
+      "indice3": "West Blue"
     },
     {
       "id": "momonga",
@@ -3563,7 +4100,10 @@
       ],
       "origin": "Grand Line",
       "size": 251,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Vice-Amiral",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "monet",
@@ -3579,7 +4119,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 227,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Yuki Yuki no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "monkey-d-dragon",
@@ -3597,7 +4140,10 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 256,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Marine",
+      "indice2": "Humain",
+      "indice3": "East Blue (Royaume de Goa)"
     },
     {
       "id": "monkey-d-garp",
@@ -3619,7 +4165,10 @@
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 287,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Vice-Amiral",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation, des rois"
     },
     {
       "id": "monkey-d-luffy",
@@ -3649,7 +4198,10 @@
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 174,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Gomu Gomu no Mi",
+      "indice3": "Armement, Observation, des rois"
     },
     {
       "id": "morgans",
@@ -3667,7 +4219,10 @@
       ],
       "origin": "Grand Line",
       "size": 305,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Pègre",
+      "indice2": "Tori Tori no Mi modèle Albatros",
+      "indice3": "des Rois"
     },
     {
       "id": "morge",
@@ -3683,7 +4238,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 197,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Clown",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "mounblutain",
@@ -3699,7 +4257,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 294,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "nami",
@@ -3718,7 +4279,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 170,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "nefertari-cobra",
@@ -3734,7 +4298,10 @@
       "haki": [],
       "origin": "Royaume d'Alabasta",
       "size": 182,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Nefertari",
+      "indice2": "Humain",
+      "indice3": "Royaume d'Alabasta"
     },
     {
       "id": "nefertari-vivi",
@@ -3750,7 +4317,10 @@
       "haki": [],
       "origin": "Royaume d'Alabasta",
       "size": 169,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "Royaume d'Alabasta"
     },
     {
       "id": "nekomamushi",
@@ -3771,7 +4341,10 @@
       ],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 522,
-      "race": "Cyborg"
+      "race": "Cyborg",
+      "indice1": "Principauté de Mokomo",
+      "indice2": "Cyborg",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "neptune",
@@ -3787,7 +4360,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 1220,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Famille royale du royaume Ryugu",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "nero",
@@ -3803,7 +4379,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 202,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP9",
+      "indice2": "Humain",
+      "indice3": "West Blue"
     },
     {
       "id": "nezumi",
@@ -3822,7 +4401,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 182,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Colonel",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "nico-olvia",
@@ -3838,7 +4420,10 @@
       "haki": [],
       "origin": "West Blue (Ohara)",
       "size": 186,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Ohara",
+      "indice2": "Humain",
+      "indice3": "West Blue (Ohara)"
     },
     {
       "id": "nico-robin",
@@ -3858,7 +4443,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 188,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chapeau de Paille",
+      "indice2": "Hana Hana no Mi",
+      "indice3": "West Blue"
     },
     {
       "id": "nora-gitsune",
@@ -3874,7 +4462,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 103,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "octo",
@@ -3890,7 +4481,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 220,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage d'Arlong",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "ohm",
@@ -3908,7 +4502,10 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 189,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Clan d'Ener",
+      "indice2": "Géant",
+      "indice3": "Observation"
     },
     {
       "id": "oimo",
@@ -3926,7 +4523,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 1600,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Équipage des Géants",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "orlumbus",
@@ -3942,7 +4542,10 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Standing)",
       "size": 480,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Grande Flotte du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "Grand Line (Royaume de Standing)"
     },
     {
       "id": "otohime",
@@ -3960,7 +4563,10 @@
       ],
       "origin": "Fishman Island",
       "size": 224,
-      "race": "Sirène"
+      "race": "Sirène",
+      "indice1": "Famille Royale",
+      "indice2": "Sirène",
+      "indice3": "Observation"
     },
     {
       "id": "oars",
@@ -3976,7 +4582,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 6700,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Thriller Bark",
+      "indice2": "Géant",
+      "indice3": "North Blue"
     },
     {
       "id": "pagaya",
@@ -3992,7 +4601,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 179,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Skypiea",
+      "indice2": "Humain",
+      "indice3": "Skypiea"
     },
     {
       "id": "page-one",
@@ -4013,7 +4625,10 @@
       ],
       "origin": "Grand Line",
       "size": 171,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Ryu Ryu no Mi modèle Spinosaure",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "pedro",
@@ -4032,7 +4647,10 @@
       ],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 233,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Pirates de Nox",
+      "indice2": "Homme-Poisson",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "peeply-lulu",
@@ -4048,7 +4666,10 @@
       "haki": [],
       "origin": "Water Seven",
       "size": 206,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Galley-La Company",
+      "indice2": "Humain",
+      "indice3": "Water Seven"
     },
     {
       "id": "perona",
@@ -4067,7 +4688,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 160,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Second",
+      "indice2": "Horo Horo no Mi",
+      "indice3": "West Blue"
     },
     {
       "id": "pica",
@@ -4086,7 +4710,10 @@
       ],
       "origin": "North Blue",
       "size": 470,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Ishi Ishi no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "porchemy",
@@ -4102,7 +4729,10 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 320,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Bluejam",
+      "indice2": "Humain",
+      "indice3": "East Blue (Royaume de Goa)"
     },
     {
       "id": "portgas-d-ace",
@@ -4124,7 +4754,10 @@
       ],
       "origin": "South Blue (Baterilla)",
       "size": 185,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Blanche",
+      "indice2": "Mera Mera no Mi",
+      "indice3": "Armement, Observation, des rois"
     },
     {
       "id": "pound",
@@ -4140,7 +4773,10 @@
       "haki": [],
       "origin": "Grand Line (Nouveau Monde)",
       "size": 731,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Big Mom",
+      "indice2": "Humain",
+      "indice3": "Grand Line (Nouveau Monde)"
     },
     {
       "id": "raijin",
@@ -4160,7 +4796,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 200,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "raizo",
@@ -4181,7 +4820,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 311,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Maki Maki no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "rebecca",
@@ -4199,7 +4841,10 @@
       ],
       "origin": "Dressrosa",
       "size": 171,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Riku",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "riku-doldo-iii",
@@ -4215,7 +4860,10 @@
       "haki": [],
       "origin": "Dressrosa",
       "size": 261,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Colisée Corrida",
+      "indice2": "Humain",
+      "indice3": "Dressrosa"
     },
     {
       "id": "rob-lucci",
@@ -4234,7 +4882,10 @@
       ],
       "origin": "Grand Line",
       "size": 212,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP0",
+      "indice2": "Neko Neko no Mi modèle Léopard",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "roronoa-zoro",
@@ -4258,7 +4909,10 @@
       ],
       "origin": "East Blue",
       "size": 181,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Second",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation, des Rois"
     },
     {
       "id": "ryuboshi",
@@ -4274,7 +4928,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 544,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Famille royale du royaume Ryugu",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "sabo",
@@ -4296,7 +4953,10 @@
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 187,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage ASL",
+      "indice2": "Mera Mera no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "sadi",
@@ -4312,7 +4972,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 183,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Impel Down",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "sai",
@@ -4331,7 +4994,10 @@
       ],
       "origin": "West Blue (Pays des Fleurs)",
       "size": 242,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Flotte de Happou",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "saint-rosward-charlos",
@@ -4347,7 +5013,10 @@
       "haki": [],
       "origin": "Mary Geoise",
       "size": 230,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Humain",
+      "indice3": "Mary Geoise"
     },
     {
       "id": "sainte-rosward-sharlia",
@@ -4363,7 +5032,10 @@
       "haki": [],
       "origin": "Mary Geoise",
       "size": 178,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Humain",
+      "indice3": "Mary Geoise"
     },
     {
       "id": "sakazuki",
@@ -4385,7 +5057,10 @@
       ],
       "origin": "North Blue",
       "size": 306,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amiral en chef",
+      "indice2": "Magu Magu no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "saldeath",
@@ -4401,7 +5076,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 218,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Impel Down",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "sanjuan-wolf",
@@ -4417,7 +5095,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 18000,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Équipage de Barbe Noire",
+      "indice2": "Deka Deka no Mi",
+      "indice3": "West Blue"
     },
     {
       "id": "sarutobi",
@@ -4437,7 +5118,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 378,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "sasaki",
@@ -4459,7 +5143,10 @@
       ],
       "origin": "Grand Line",
       "size": 318,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Ryu Ryu no Mi modèle Tricératops",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "satori",
@@ -4477,7 +5164,10 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 179,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Clan d'Ener",
+      "indice2": "Géant",
+      "indice3": "Observation"
     },
     {
       "id": "yeti-cool-brothers",
@@ -4493,7 +5183,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 4250,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "César Clown",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "scratchmen-apoo",
@@ -4514,7 +5207,10 @@
       ],
       "origin": "Grand Line",
       "size": 256,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Oto Oto no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "sengoku",
@@ -4534,7 +5230,10 @@
       ],
       "origin": "South Blue",
       "size": 278,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Amiral en chef",
+      "indice2": "Hito Hito no Mi modèle Daibutsu",
+      "indice3": "Armement, Observation, des Rois"
     },
     {
       "id": "senor-pink",
@@ -4550,7 +5249,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 244,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Sui Sui no Mi",
+      "indice3": "North Blue"
     },
     {
       "id": "sentomaru",
@@ -4569,7 +5271,10 @@
       ],
       "origin": "Grand Line Mont Kintoki",
       "size": 279,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Marine",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "shakuyaku",
@@ -4585,7 +5290,10 @@
       "haki": [],
       "origin": "Amazon Lily",
       "size": 186,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage des Pirates Kuja",
+      "indice2": "Humain",
+      "indice3": "Amazon Lily"
     },
     {
       "id": "sham",
@@ -4601,7 +5309,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 201,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Chat Noir",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "shanks",
@@ -4624,7 +5335,10 @@
       ],
       "origin": "West Blue",
       "size": 199,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation, des Rois"
     },
     {
       "id": "sheep-s-head",
@@ -4640,7 +5354,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 293,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "shimotsuki-koshiro",
@@ -4656,7 +5373,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 184,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Shimotsuki",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "shimotsuki-kuina",
@@ -4672,7 +5392,10 @@
       "haki": [],
       "origin": "Village de Shimotsuki",
       "size": 150,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Shimotsuki",
+      "indice2": "Humain",
+      "indice3": "Village de Shimotsuki"
     },
     {
       "id": "shinobu",
@@ -4690,7 +5413,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 180,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Famille Kozuki",
+      "indice2": "Juku Juku no Mi",
+      "indice3": "Wano Kuni"
     },
     {
       "id": "shura",
@@ -4710,7 +5436,10 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 220,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Clan d'Ener",
+      "indice2": "Humain",
+      "indice3": "Observation"
     },
     {
       "id": "shyarly",
@@ -4728,7 +5457,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 520,
-      "race": "Sirène"
+      "race": "Sirène",
+      "indice1": "Mermaid Café",
+      "indice2": "Sirène",
+      "indice3": "Fishman Island"
     },
     {
       "id": "smack",
@@ -4744,7 +5476,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 257,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage d'Arlong",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "smoker",
@@ -4765,7 +5500,10 @@
       ],
       "origin": "Grand Line",
       "size": 209,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Vice-Amiral",
+      "indice2": "Moku Moku no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "spandam",
@@ -4781,7 +5519,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 192,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "spandine",
@@ -4797,7 +5538,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 275,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP9",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "speed",
@@ -4815,7 +5559,10 @@
       ],
       "origin": "Wano Kuni",
       "size": 298,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "SMILE",
+      "indice3": "Armement"
     },
     {
       "id": "squard",
@@ -4833,7 +5580,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 228,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Blanche",
+      "indice2": "Humain",
+      "indice3": "Grand Line"
     },
     {
       "id": "streusen",
@@ -4851,7 +5601,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 140,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Big Mom",
+      "indice2": "Kuku Kuku no Mi",
+      "indice3": "Grand Line"
     },
     {
       "id": "stussy",
@@ -4872,7 +5625,10 @@
       ],
       "origin": "Grand Line",
       "size": 179,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP-AIGIS0",
+      "indice2": "Batto Batto no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "sugar",
@@ -4890,7 +5646,10 @@
       ],
       "origin": "North Blue",
       "size": 110,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Hobi Hobi no Mi",
+      "indice3": "Observation"
     },
     {
       "id": "suleiman",
@@ -4908,7 +5667,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 240,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage des Magnifiques Pirates",
+      "indice2": "Humain",
+      "indice3": "South Blue"
     },
     {
       "id": "surume",
@@ -4924,7 +5686,10 @@
       "haki": [],
       "origin": "North Blue (Pôle Nord)",
       "size": 5000,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Allié de Équipage du Chapeau de Paille",
+      "indice2": "Homme-Poisson",
+      "indice3": "North Blue (Pôle Nord)"
     },
     {
       "id": "tamago",
@@ -4945,7 +5710,10 @@
       ],
       "origin": "Grand Line",
       "size": 301,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage de Big Mom",
+      "indice2": "Tama Tama no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "tashigi",
@@ -4964,7 +5732,10 @@
       ],
       "origin": "East Blue",
       "size": 170,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Colonel",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "tilestone",
@@ -4980,7 +5751,10 @@
       "haki": [],
       "origin": "Water Seven",
       "size": 255,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Galley-La Company",
+      "indice2": "Humain",
+      "indice3": "Water Seven"
     },
     {
       "id": "tom",
@@ -4996,7 +5770,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 296,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Tom's Workers",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "tonjit",
@@ -5012,7 +5789,10 @@
       "haki": [],
       "origin": "Grand Line (Long Ring Long Land)",
       "size": 118,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Davy Back Fight",
+      "indice2": "Humain",
+      "indice3": "Grand Line (Long Ring Long Land)"
     },
     {
       "id": "trafalgar-d-water-law",
@@ -5033,7 +5813,10 @@
       ],
       "origin": "North Blue",
       "size": 191,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Ope Ope no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "trebol",
@@ -5052,7 +5835,10 @@
       ],
       "origin": "North Blue",
       "size": 349,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Beta Beta no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "tsuru",
@@ -5073,7 +5859,10 @@
       ],
       "origin": "North Blue",
       "size": 204,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Vice-Amiral",
+      "indice2": "Woshu Woshu no Mi",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "turco",
@@ -5091,7 +5880,10 @@
       ],
       "origin": "East Blue",
       "size": 256,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Faux Équipage du Chapeau de Paille",
+      "indice2": "Humain",
+      "indice3": "des Rois"
     },
     {
       "id": "ulti",
@@ -5112,7 +5904,10 @@
       ],
       "origin": "Grand Line",
       "size": 173,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Ryu Ryu no Mi modèle Pachycéphalosaure",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "urouge",
@@ -5130,7 +5925,10 @@
       "haki": [],
       "origin": "Îles Célestes",
       "size": 388,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage des Moines Dépravés",
+      "indice2": "Fruit d'Urouge",
+      "indice3": "Îles Célestes"
     },
     {
       "id": "van-augur",
@@ -5148,7 +5946,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 340,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Noire",
+      "indice2": "Wapu Wapu no Mi",
+      "indice3": "East Blue"
     },
     {
       "id": "vander-decken-ix",
@@ -5164,7 +5965,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 352,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage des Pirates Volants",
+      "indice2": "Mato Mato no Mi",
+      "indice3": "Fishman Island"
     },
     {
       "id": "vasco-shot",
@@ -5182,7 +5986,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 573,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Noire",
+      "indice2": "Gabu Gabu no Mi",
+      "indice3": "South Blue"
     },
     {
       "id": "vegapunk",
@@ -5200,7 +6007,10 @@
       "haki": [],
       "origin": "Grand Line (Baldimore)",
       "size": 314,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Nomi Nomi no Mi",
+      "indice3": "Grand Line (Baldimore)"
     },
     {
       "id": "vergo",
@@ -5220,7 +6030,10 @@
       ],
       "origin": "North Blue",
       "size": 247,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Vice-Amiral",
+      "indice2": "Humain",
+      "indice3": "Armement"
     },
     {
       "id": "victoria-cindry",
@@ -5236,7 +6049,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 188,
-      "race": "Zombie"
+      "race": "Zombie",
+      "indice1": "Hogback",
+      "indice2": "Zombie",
+      "indice3": "West Blue"
     },
     {
       "id": "vinsmoke-ichiji",
@@ -5254,7 +6070,10 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 186,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Germa 66",
+      "indice2": "Humain",
+      "indice3": "North Blue (Royaume de Germa)"
     },
     {
       "id": "vinsmoke-niji",
@@ -5272,7 +6091,10 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 185,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Germa 66",
+      "indice2": "Humain",
+      "indice3": "North Blue (Royaume de Germa)"
     },
     {
       "id": "vinsmoke-reiju",
@@ -5290,7 +6112,10 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 173,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Germa 66",
+      "indice2": "Humain",
+      "indice3": "North Blue (Royaume de Germa)"
     },
     {
       "id": "vinsmoke-yonji",
@@ -5308,7 +6133,10 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 194,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Germa 66",
+      "indice2": "Humain",
+      "indice3": "North Blue (Royaume de Germa)"
     },
     {
       "id": "riku-viola",
@@ -5326,7 +6154,10 @@
       "haki": [],
       "origin": "Dressrosa",
       "size": 178,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Don Quichotte Family",
+      "indice2": "Giro Giro no Mi",
+      "indice3": "Dressrosa"
     },
     {
       "id": "vista",
@@ -5347,7 +6178,10 @@
       ],
       "origin": "North Blue",
       "size": 328,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de Barbe Blanche",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "vito",
@@ -5365,7 +6199,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 242,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Fire Tank",
+      "indice2": "Humain",
+      "indice3": "West Blue"
     },
     {
       "id": "wadatsumi",
@@ -5383,7 +6220,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 8000,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Équipage des Pirates du Soleil",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     },
     {
       "id": "wanda",
@@ -5399,7 +6239,10 @@
       "haki": [],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 181,
-      "race": "Minks"
+      "race": "Minks",
+      "indice1": "Principauté de Mokomo",
+      "indice2": "Minks",
+      "indice3": "Zou (Principauté de Mokomo)"
     },
     {
       "id": "wanze",
@@ -5415,7 +6258,10 @@
       "haki": [],
       "origin": "West Blue",
       "size": 173,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "CP7",
+      "indice2": "Humain",
+      "indice3": "West Blue"
     },
     {
       "id": "wapol",
@@ -5431,7 +6277,10 @@
       "haki": [],
       "origin": "Drum Island",
       "size": 207,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Capitaine",
+      "indice2": "Baku Baku no Mi",
+      "indice3": "Drum Island"
     },
     {
       "id": "who-s-who",
@@ -5452,7 +6301,10 @@
       ],
       "origin": "North Blue",
       "size": 336,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage aux Cent Bêtes",
+      "indice2": "Neko Neko no Mi modèle Tigre à dents de sabre",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "wiper",
@@ -5470,7 +6322,10 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 183,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Shandias",
+      "indice2": "Humain",
+      "indice3": "Skypiea"
     },
     {
       "id": "x-drake",
@@ -5492,7 +6347,10 @@
       ],
       "origin": "North Blue",
       "size": 233,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage de X. Barrels",
+      "indice2": "Ryu Ryu no Mi modèle Allosaure",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "yama",
@@ -5510,7 +6368,10 @@
       "haki": [],
       "origin": "Îles Célestes (Bilca)",
       "size": 366,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Clan d'Ener",
+      "indice2": "Humain",
+      "indice3": "Îles Célestes (Bilca)"
     },
     {
       "id": "yamato",
@@ -5533,7 +6394,10 @@
       ],
       "origin": "Origine inconnue",
       "size": 263,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+      "indice2": "Zoan Mythique",
+      "indice3": "Armement, Observation, des Rois"
     },
     {
       "id": "yarle",
@@ -5551,7 +6415,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 2050,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Équipage des Géants",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "yasopp",
@@ -5572,7 +6439,10 @@
       ],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 183,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Équipage du Roux",
+      "indice2": "Humain",
+      "indice3": "Armement, Observation"
     },
     {
       "id": "yazaemon",
@@ -5592,7 +6462,10 @@
       "haki": [],
       "origin": "Wano Kuni",
       "size": 180,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Orochi Oniwabanshu",
+      "indice2": "Humain",
+      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "yorle",
@@ -5610,7 +6483,10 @@
       "haki": [],
       "origin": "Erbaf",
       "size": 2150,
-      "race": "Géant"
+      "race": "Géant",
+      "indice1": "Équipage des Géants",
+      "indice2": "Géant",
+      "indice3": "Erbaf"
     },
     {
       "id": "yosaku",
@@ -5626,7 +6502,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 185,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Johnny",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "zala",
@@ -5645,7 +6524,10 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 187,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Baroque Works",
+      "indice2": "Toge Toge no Mi",
+      "indice3": "Grand Line"
     },
     {
       "id": "zambai",
@@ -5661,7 +6543,10 @@
       "haki": [],
       "origin": "Water Seven",
       "size": 237,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Galley-La Company",
+      "indice2": "Humain",
+      "indice3": "Water Seven"
     },
     {
       "id": "zeff",
@@ -5679,7 +6564,10 @@
       "haki": [],
       "origin": "East Blue",
       "size": 189,
-      "race": "Humain"
+      "race": "Humain",
+      "indice1": "Baratie",
+      "indice2": "Humain",
+      "indice3": "East Blue"
     },
     {
       "id": "zeo",
@@ -5697,7 +6585,10 @@
       "haki": [],
       "origin": "Fishman Island",
       "size": 325,
-      "race": "Homme-Poisson"
+      "race": "Homme-Poisson",
+      "indice1": "Nouvel Équipage des Hommes-Poissons",
+      "indice2": "Homme-Poisson",
+      "indice3": "Fishman Island"
     }
   ]
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { useGameState } from "@/hooks/useGameState";
 import type { UniverseId } from "@/types/game";
 import { CharacterSearch } from "./CharacterSearch";
@@ -8,6 +9,21 @@ import { AttributeCell } from "./AttributeCell";
 import { ShareResult } from "./ShareResult";
 import { GameHint } from "./GameHint";
 import { CharacterAvatar } from "./CharacterAvatar";
+import { stripAccents } from "@/lib/utils";
+import { Button } from "@/components/ui/Button";
+
+const tableVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.05, delayChildren: 0.02 },
+  },
+};
+
+const rowVariants = {
+  hidden: { opacity: 0, y: -8 },
+  show: { opacity: 1, y: 0 },
+};
 
 const HINT_THRESHOLD = 3;
 
@@ -56,14 +72,9 @@ export function GameBoard({ universeId }: GameBoardProps) {
       </div>
 
       <div className="flex justify-end">
-        <button
-          type="button"
-          onClick={startNewGame}
-          className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-gray-900"
-          aria-label="Nouvelle partie"
-        >
+        <Button variant="primary" size="md" onClick={startNewGame} aria-label="Nouvelle partie">
           Nouvelle partie
-        </button>
+        </Button>
       </div>
 
       {hintUnlocked && target && (
@@ -75,49 +86,55 @@ export function GameBoard({ universeId }: GameBoardProps) {
             threshold={HINT_THRESHOLD}
           />
         ) : (
-          <button
-            type="button"
+          <Button
+            variant="warning"
+            size="lg"
+            className="w-full"
             onClick={() => setHintRevealed(true)}
-            className="w-full rounded-lg border border-amber-600/50 bg-amber-950/20 px-4 py-3 text-sm font-medium text-amber-200 transition hover:bg-amber-950/40 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 focus:ring-offset-gray-900"
             aria-label="Révéler l'indice"
           >
             Indice disponible — cliquer pour révéler
-          </button>
+          </Button>
         )
       )}
 
       <div className="overflow-x-auto rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
         <table
-          className="w-full min-w-[600px] border-collapse text-left"
+          className="w-max min-w-full border-collapse text-left"
           role="grid"
           aria-label="Tentatives et feedback par catégorie"
         >
           <thead>
-            <tr className="border-b border-gray-600 bg-gray-800/80">
-              <th className="px-4 py-3 text-sm font-semibold text-gray-300">
-                Personnage
+            <tr className="min-h-12 border-b border-gray-600 bg-gray-800/80">
+              <th className="border border-gray-600 px-4 py-3 font-semibold uppercase leading-tight text-gray-300">
+                <span className="block break-words text-[clamp(0.5rem,2vmin+0.4rem,0.9rem)]">
+                  Personnage
+                </span>
               </th>
               {schema.map((entry) => (
                 <th
                   key={entry.key}
-                  className="whitespace-nowrap px-3 py-3 text-sm font-semibold text-gray-300"
+                  className="border border-gray-600 px-3 py-3 font-semibold uppercase leading-tight text-gray-300"
                 >
-                  {entry.label}
+                  <span className="block break-words text-[clamp(0.5rem,2vmin+0.4rem,0.9rem)]">
+                    {stripAccents(entry.label)}
+                  </span>
                 </th>
               ))}
             </tr>
           </thead>
-          <tbody>
+          <motion.tbody variants={tableVariants} initial="hidden" animate="show">
             {[...guessRows].reverse().map((row) => (
-              <tr
+              <motion.tr
                 key={row.character.id}
+                variants={rowVariants}
                 className="border-b border-gray-700 bg-gray-800/30 hover:bg-gray-800/50"
               >
                 <td className="px-4 py-2 align-middle">
                   <div className="flex items-center gap-2">
                     <CharacterAvatar character={row.character} size="sm" />
                     <span className="font-medium text-white">
-                      {row.character.name}
+                      {stripAccents(row.character.name)}
                     </span>
                   </div>
                 </td>
@@ -130,15 +147,11 @@ export function GameBoard({ universeId }: GameBoardProps) {
                     />
                   </td>
                 ))}
-              </tr>
+              </motion.tr>
             ))}
-          </tbody>
+          </motion.tbody>
         </table>
       </div>
-
-      <p className="text-center text-xs text-gray-500">
-        Vert = identique · Orange = partiel / plus haut ou plus bas · Rouge = différent
-      </p>
 
       {won && target && (
         <ShareResult

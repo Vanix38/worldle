@@ -2,14 +2,38 @@
   "id": "marvel-rivals",
   "name": "Marvel Rivals",
   "fieldMapping": {
-    "gender": { "header": "Genre", "fonction": "Classique" },
-    "affiliation": { "header": "Affiliation", "fonction": "Classique" },
-    "role": { "header": "Rôle", "fonction": "Classique" },
-    "race": { "header": "Race", "fonction": "Classique" },
-    "origin": { "header": "Origine", "fonction": "Classique" },
-    "powerSource": { "header": "Source des pouvoirs", "fonction": "Classique" },
-    "releaseDate": { "header": "Date de sortie", "fonction": "ComparaisonDate" },
-    "aliases": { "header": "Alias", "fonction": "Recherche" }
+    "gender": {
+      "header": "Genre",
+      "fonction": "Classique"
+    },
+    "affiliation": {
+      "header": "Affiliation",
+      "fonction": "Classique"
+    },
+    "role": {
+      "header": "Rôle",
+      "fonction": "Classique"
+    },
+    "race": {
+      "header": "Race",
+      "fonction": "Classique"
+    },
+    "origin": {
+      "header": "Origine",
+      "fonction": "Classique"
+    },
+    "powerSource": {
+      "header": "Source des pouvoirs",
+      "fonction": "Classique"
+    },
+    "releaseDate": {
+      "header": "Date de sortie",
+      "fonction": "ComparaisonDate"
+    },
+    "aliases": {
+      "header": "Alias",
+      "fonction": "Recherche"
+    }
   },
   "characters": [
     {
@@ -22,91 +46,131 @@
       "race": "Etre Synthétique",
       "origin": "Terre",
       "powerSource": "Cosmique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Gardiens de la Galaxie",
+      "indice2": "Stratège",
+      "indice3": "Cosmique"
     },
     {
       "id": "black-panther",
       "name": "Black Panther",
-      "aliases": ["T'Challa"],
+      "aliases": [
+        "T'Challa"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "Wakanda",
       "powerSource": "Artéfact",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Artéfact"
     },
     {
       "id": "black-widow",
       "name": "Black Widow",
-      "aliases": ["Natasha Romanoff"],
+      "aliases": [
+        "Natasha Romanoff"
+      ],
       "gender": "Féminin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "Russie",
       "powerSource": "Entraînement",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Entraînement"
     },
     {
       "id": "captain-america",
       "name": "Captain America",
-      "aliases": ["Steve Rogers", "Cap"],
+      "aliases": [
+        "Steve Rogers",
+        "Cap"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Avant-garde",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Sérum",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Avant-garde",
+      "indice3": "Sérum"
     },
     {
       "id": "cloak-and-dagger",
       "name": "Cloak and Dagger",
-      "aliases": ["Tyrone Johnson", "Tandy Bowen"],
+      "aliases": [
+        "Tyrone Johnson",
+        "Tandy Bowen"
+      ],
       "gender": "Non-binaire / Duo",
       "affiliation": "Indépendants",
       "role": "Stratège",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Stratège",
+      "indice3": "Mutation"
     },
     {
       "id": "doctor-strange",
       "name": "Doctor Strange",
-      "aliases": ["Stephen Strange"],
+      "aliases": [
+        "Stephen Strange"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Avant-garde",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Magie",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Avant-garde",
+      "indice3": "Magie"
     },
     {
       "id": "groot",
       "name": "Groot",
-      "aliases": ["I am Groot"],
+      "aliases": [
+        "I am Groot"
+      ],
       "gender": "Masculin",
       "affiliation": "Gardiens de la Galaxie",
       "role": "Avant-garde",
       "race": "Flora Colossus",
       "origin": "Planet X",
       "powerSource": "Naturel",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Gardiens de la Galaxie",
+      "indice2": "Avant-garde",
+      "indice3": "Naturel"
     },
     {
       "id": "hawkeye",
       "name": "Hawkeye",
-      "aliases": ["Clint Barton"],
+      "aliases": [
+        "Clint Barton"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Entraînement",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Entraînement"
     },
     {
       "id": "hela",
@@ -118,43 +182,61 @@
       "race": "Asgardienne",
       "origin": "Asgard",
       "powerSource": "Divin",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Asgardiens",
+      "indice2": "Duelliste",
+      "indice3": "Divin"
     },
     {
       "id": "hulk",
       "name": "Hulk",
-      "aliases": ["Bruce Banner"],
+      "aliases": [
+        "Bruce Banner"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Avant-garde",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Radiation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Avant-garde",
+      "indice3": "Radiation"
     },
     {
       "id": "iron-fist",
       "name": "Iron Fist",
-      "aliases": ["Danny Rand"],
+      "aliases": [
+        "Danny Rand"
+      ],
       "gender": "Masculin",
       "affiliation": "Defenders",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "K'un-Lun",
       "powerSource": "Artéfact",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Defenders",
+      "indice2": "Duelliste",
+      "indice3": "Artéfact"
     },
     {
       "id": "iron-man",
       "name": "Iron Man",
-      "aliases": ["Tony Stark"],
+      "aliases": [
+        "Tony Stark"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Technologie",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Technologie"
     },
     {
       "id": "jeff-the-land-shark",
@@ -166,7 +248,10 @@
       "race": "Requin terrestre",
       "origin": "Terre",
       "powerSource": "Naturel",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Stratège",
+      "indice3": "Naturel"
     },
     {
       "id": "loki",
@@ -177,7 +262,10 @@
       "race": "Dieu de l'illusion / Géant de givre",
       "origin": "Jotunheim",
       "powerSource": "Divin",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Asgardiens",
+      "indice2": "Stratège",
+      "indice3": "Divin"
     },
     {
       "id": "luna-snow",
@@ -189,31 +277,44 @@
       "race": "Humain",
       "origin": "Corée du Sud",
       "powerSource": "Inhumain",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Stratège",
+      "indice3": "Inhumain"
     },
     {
       "id": "magik",
       "name": "Magik",
-      "aliases": ["Illyana Rasputin"],
+      "aliases": [
+        "Illyana Rasputin"
+      ],
       "gender": "Féminin",
       "affiliation": "X-Men",
       "role": "Duelliste",
       "race": "Mutant",
       "origin": "Russie",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "X-Men",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "magneto",
       "name": "Magneto",
-      "aliases": ["Erik Lehnsherr"],
+      "aliases": [
+        "Erik Lehnsherr"
+      ],
       "gender": "Masculin",
       "affiliation": "X-Men",
       "role": "Avant-garde",
       "race": "Mutant",
       "origin": "Allemagne",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "X-Men",
+      "indice2": "Avant-garde",
+      "indice3": "Mutation"
     },
     {
       "id": "mantis",
@@ -225,31 +326,44 @@
       "race": "Humain",
       "origin": "Vietnam",
       "powerSource": "Génétique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Gardiens de la Galaxie",
+      "indice2": "Stratège",
+      "indice3": "Génétique"
     },
     {
       "id": "moon-knight",
       "name": "Moon Knight",
-      "aliases": ["Marc Spector"],
+      "aliases": [
+        "Marc Spector"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Divin",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Divin"
     },
     {
       "id": "namor",
       "name": "Namor",
-      "aliases": ["Sub-Mariner"],
+      "aliases": [
+        "Sub-Mariner"
+      ],
       "gender": "Masculin",
       "affiliation": "Indépendants",
       "role": "Duelliste",
       "race": "Atlante / Mutant",
       "origin": "Atlantis",
       "powerSource": "Naturel",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Duelliste",
+      "indice3": "Naturel"
     },
     {
       "id": "peni-parker",
@@ -261,91 +375,130 @@
       "race": "Humain",
       "origin": "Terre",
       "powerSource": "Technologie",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Avant-garde",
+      "indice3": "Technologie"
     },
     {
       "id": "psylocke",
       "name": "Psylocke",
-      "aliases": ["Betsy Braddock"],
+      "aliases": [
+        "Betsy Braddock"
+      ],
       "gender": "Féminin",
       "affiliation": "X-Men",
       "role": "Duelliste",
       "race": "Mutant",
       "origin": "Royaume-Uni",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "X-Men",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "punisher",
       "name": "The Punisher",
-      "aliases": ["Frank Castle"],
+      "aliases": [
+        "Frank Castle"
+      ],
       "gender": "Masculin",
       "affiliation": "Indépendants",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Entraînement",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Duelliste",
+      "indice3": "Entraînement"
     },
     {
       "id": "rocket-raccoon",
       "name": "Rocket Raccoon",
-      "aliases": ["Rocket"],
+      "aliases": [
+        "Rocket"
+      ],
       "gender": "Masculin",
       "affiliation": "Gardiens de la Galaxie",
       "role": "Stratège",
       "race": "Ratons laveur",
       "origin": "Contre-Terre",
       "powerSource": "Génétique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Gardiens de la Galaxie",
+      "indice2": "Stratège",
+      "indice3": "Génétique"
     },
     {
       "id": "scarlet-witch",
       "name": "Scarlet Witch",
-      "aliases": ["Wanda Maximoff", "Wanda"],
+      "aliases": [
+        "Wanda Maximoff",
+        "Wanda"
+      ],
       "gender": "Féminin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Mutant",
       "origin": "Sokovie",
       "powerSource": "Magie",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Magie"
     },
     {
       "id": "spider-man",
       "name": "Spider-Man",
-      "aliases": ["Peter Parker"],
+      "aliases": [
+        "Peter Parker"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "squirrel-girl",
       "name": "Squirrel Girl",
-      "aliases": ["Doreen Green"],
+      "aliases": [
+        "Doreen Green"
+      ],
       "gender": "Féminin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Mutant",
       "origin": "États-Unis",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "star-lord",
       "name": "Star-Lord",
-      "aliases": ["Peter Quill"],
+      "aliases": [
+        "Peter Quill"
+      ],
       "gender": "Masculin",
       "affiliation": "Gardiens de la Galaxie",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Technologie",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Gardiens de la Galaxie",
+      "indice2": "Duelliste",
+      "indice3": "Technologie"
     },
     {
       "id": "storm",
@@ -356,7 +509,10 @@
       "race": "Mutant",
       "origin": "Kenya",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "X-Men",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "thor",
@@ -368,103 +524,148 @@
       "race": "Asgardien",
       "origin": "Asgard",
       "powerSource": "Divin",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Avant-garde",
+      "indice3": "Divin"
     },
     {
       "id": "venom",
       "name": "Venom",
-      "aliases": ["Eddie Brock"],
+      "aliases": [
+        "Eddie Brock"
+      ],
       "gender": "Masculin",
       "affiliation": "Indépendants",
       "role": "Avant-garde",
       "race": "Symbiote / Humain",
       "origin": "Terre",
       "powerSource": "Symbiote",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Indépendants",
+      "indice2": "Avant-garde",
+      "indice3": "Symbiote"
     },
     {
       "id": "winter-soldier",
       "name": "Winter Soldier",
-      "aliases": ["Bucky Barnes", "Bucky"],
+      "aliases": [
+        "Bucky Barnes",
+        "Bucky"
+      ],
       "gender": "Masculin",
       "affiliation": "Avengers",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Technologie",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Avengers",
+      "indice2": "Duelliste",
+      "indice3": "Technologie"
     },
     {
       "id": "wolverine",
       "name": "Wolverine",
-      "aliases": ["Logan"],
+      "aliases": [
+        "Logan"
+      ],
       "gender": "Masculin",
       "affiliation": "X-Men",
       "role": "Duelliste",
       "race": "Mutant",
       "origin": "Canada",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "X-Men",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "mister-fantastic",
       "name": "Mister Fantastic",
-      "aliases": ["Reed Richards"],
+      "aliases": [
+        "Reed Richards"
+      ],
       "gender": "Masculin",
       "affiliation": "Fantastic Four",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Fantastic Four",
+      "indice2": "Duelliste",
+      "indice3": "Rayonnement cosmique"
     },
     {
       "id": "invisible-woman",
       "name": "Invisible Woman",
-      "aliases": ["Susan Storm", "Sue Storm"],
+      "aliases": [
+        "Susan Storm",
+        "Sue Storm"
+      ],
       "gender": "Féminin",
       "affiliation": "Fantastic Four",
       "role": "Stratège",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Fantastic Four",
+      "indice2": "Stratège",
+      "indice3": "Rayonnement cosmique"
     },
     {
       "id": "human-torch",
       "name": "Human Torch",
-      "aliases": ["Johnny Storm"],
+      "aliases": [
+        "Johnny Storm"
+      ],
       "gender": "Masculin",
       "affiliation": "Fantastic Four",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Fantastic Four",
+      "indice2": "Duelliste",
+      "indice3": "Rayonnement cosmique"
     },
     {
       "id": "the-thing",
       "name": "The Thing",
-      "aliases": ["Ben Grimm"],
+      "aliases": [
+        "Ben Grimm"
+      ],
       "gender": "Masculin",
       "affiliation": "Fantastic Four",
       "role": "Avant-garde",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "Fantastic Four",
+      "indice2": "Avant-garde",
+      "indice3": "Rayonnement cosmique"
     },
     {
       "id": "emma-frost",
       "name": "Emma Frost",
-      "aliases": ["White Queen"],
+      "aliases": [
+        "White Queen"
+      ],
       "gender": "Féminin",
       "affiliation": "X-Men",
       "role": "Avant-garde",
       "race": "Mutant",
       "origin": "États-Unis",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2024"
+      "releaseDate": "Décembre 2024",
+      "indice1": "X-Men",
+      "indice2": "Avant-garde",
+      "indice3": "Mutation"
     },
     {
       "id": "ultron",
@@ -476,31 +677,44 @@
       "race": "Androïde / IA",
       "origin": "Terre",
       "powerSource": "Technologie",
-      "releaseDate": "Mai 2025"
+      "releaseDate": "Mai 2025",
+      "indice1": "Villains",
+      "indice2": "Stratège",
+      "indice3": "Technologie"
     },
     {
       "id": "phoenix",
       "name": "Phoenix",
-      "aliases": ["Jean Grey"],
+      "aliases": [
+        "Jean Grey"
+      ],
       "gender": "Féminin",
       "affiliation": "X-Men",
       "role": "Duelliste",
       "race": "Mutant",
       "origin": "États-Unis",
       "powerSource": "Cosmique",
-      "releaseDate": "Juillet 2025"
+      "releaseDate": "Juillet 2025",
+      "indice1": "X-Men",
+      "indice2": "Duelliste",
+      "indice3": "Cosmique"
     },
     {
       "id": "blade",
       "name": "Blade",
-      "aliases": ["Eric Brooks"],
+      "aliases": [
+        "Eric Brooks"
+      ],
       "gender": "Masculin",
       "affiliation": "Indépendants",
       "role": "Duelliste",
       "race": "Dhampir",
       "origin": "Royaume-Uni",
       "powerSource": "Génétique",
-      "releaseDate": "Août 2025"
+      "releaseDate": "Août 2025",
+      "indice1": "Indépendants",
+      "indice2": "Duelliste",
+      "indice3": "Génétique"
     },
     {
       "id": "angela",
@@ -512,31 +726,44 @@
       "race": "Asgardienne",
       "origin": "Asgard",
       "powerSource": "Divin",
-      "releaseDate": "Septembre 2025"
+      "releaseDate": "Septembre 2025",
+      "indice1": "Asgardiens",
+      "indice2": "Avant-garde",
+      "indice3": "Divin"
     },
     {
       "id": "daredevil",
       "name": "Daredevil",
-      "aliases": ["Matt Murdock"],
+      "aliases": [
+        "Matt Murdock"
+      ],
       "gender": "Masculin",
       "affiliation": "Defenders",
       "role": "Duelliste",
       "race": "Humain",
       "origin": "États-Unis",
       "powerSource": "Mutation",
-      "releaseDate": "Octobre 2025"
+      "releaseDate": "Octobre 2025",
+      "indice1": "Defenders",
+      "indice2": "Duelliste",
+      "indice3": "Mutation"
     },
     {
       "id": "gambit",
       "name": "Gambit",
-      "aliases": ["Remy LeBeau"],
+      "aliases": [
+        "Remy LeBeau"
+      ],
       "gender": "Masculin",
       "affiliation": "X-Men",
       "role": "Stratège",
       "race": "Mutant",
       "origin": "Louisiane",
       "powerSource": "Mutation",
-      "releaseDate": "Novembre 2025"
+      "releaseDate": "Novembre 2025",
+      "indice1": "X-Men",
+      "indice2": "Stratège",
+      "indice3": "Mutation"
     },
     {
       "id": "rogue",
@@ -548,19 +775,27 @@
       "race": "Mutant",
       "origin": "États-Unis",
       "powerSource": "Mutation",
-      "releaseDate": "Décembre 2025"
+      "releaseDate": "Décembre 2025",
+      "indice1": "X-Men",
+      "indice2": "Avant-garde",
+      "indice3": "Mutation"
     },
     {
       "id": "deadpool",
       "name": "Deadpool",
-      "aliases": ["Wade Wilson"],
+      "aliases": [
+        "Wade Wilson"
+      ],
       "gender": "Masculin",
       "affiliation": "Indépendants",
       "role": "Multi-Role",
       "race": "Humain",
       "origin": "Canada",
       "powerSource": "Mutation",
-      "releaseDate": "Janvier 2026"
+      "releaseDate": "Janvier 2026",
+      "indice1": "Indépendants",
+      "indice2": "Multi-Role",
+      "indice3": "Mutation"
     },
     {
       "id": "elsa-bloodstone",
@@ -572,7 +807,10 @@
       "race": "Humain",
       "origin": "Royaume-Uni",
       "powerSource": "Génétique",
-      "releaseDate": "Février 2026"
+      "releaseDate": "Février 2026",
+      "indice1": "Indépendants",
+      "indice2": "Duelliste",
+      "indice3": "Génétique"
     }
   ]
 }

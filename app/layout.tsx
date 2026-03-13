@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description: "Jeu de devinette de personnages par univers (One Piece, Naruto, LoL, DBD, YouTubeurs FR). Joue à l'infini.",
 };
 
+import { GameLayout } from "@/components/layout/GameLayout";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -14,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className="min-h-screen bg-gray-900 text-gray-100 antialiased">
-        {children}
+        <GameLayout>{children}</GameLayout>
       </body>
     </html>
   );

@@ -5,6 +5,20 @@
 :root {
   --background: #111827;
   --foreground: #f3f4f6;
+  --ocean-500: #0ea5e9;
+  --ocean-600: #0284c7;
+  --gold-500: #f59e0b;
+  --crimson-500: #ef4444;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 body {

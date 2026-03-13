@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Character } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
+import { stripAccents } from "@/lib/utils";
 
 const EXTENSIONS = ["webp", "png", "jpg"] as const;
 
@@ -33,7 +34,7 @@ export function CharacterAvatar({
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const src = `${basePath}/universes/${universeId}/characters/${character.id}.${ext}`.replace(/^\/+/, "/");
 
-  const sizeClass = size === "sm" ? "h-8 w-8 text-xs" : "h-10 w-10 text-sm";
+  const sizeClass = size === "sm" ? "h-10 min-h-10 min-w-10 w-10 text-xs" : "h-11 min-h-11 min-w-11 w-11 text-sm";
 
   const handleError = () => {
     if (extensionIndex < EXTENSIONS.length - 1) {
@@ -49,7 +50,7 @@ export function CharacterAvatar({
         className={`${sizeClass} flex shrink-0 items-center justify-center rounded-md bg-gray-600 font-semibold text-gray-200 ${className}`}
         aria-hidden
       >
-        {getInitials(character.name)}
+        {stripAccents(getInitials(character.name))}
       </div>
     );
   }

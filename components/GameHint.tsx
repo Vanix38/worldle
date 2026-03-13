@@ -3,6 +3,7 @@
 import type { Character } from "@/types/game";
 import { getHintAttribute } from "@/lib/schemas";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
+import { stripAccents } from "@/lib/utils";
 
 interface GameHintProps {
   universeId: string;
@@ -31,13 +32,13 @@ export function GameHint({
 
   return (
     <div
-      className="rounded-lg border border-amber-600/50 bg-amber-950/30 px-4 py-3 text-sm text-amber-200"
+      className="rounded-lg border border-gold-600/50 bg-amber-950/30 px-4 py-3 text-sm text-amber-200"
       role="status"
       aria-live="polite"
       aria-label={`Indice après ${wrongGuessCount} tentatives`}
     >
       <span className="font-medium">Indice :</span>{" "}
-      {entry ? `${entry.label} = ${displayValue}` : displayValue}
+      {entry ? `${stripAccents(entry.label)} = ${stripAccents(displayValue)}` : stripAccents(displayValue)}
     </div>
   );
 }

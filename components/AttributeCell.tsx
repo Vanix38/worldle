@@ -1,6 +1,7 @@
 "use client";
 
 import type { FeedbackStatus } from "@/types/game";
+import { stripAccents } from "@/lib/utils";
 
 interface AttributeCellProps {
   label: string;
@@ -10,10 +11,10 @@ interface AttributeCellProps {
 
 const statusClasses: Record<FeedbackStatus, string> = {
   exact: "bg-green-700 text-white border-green-800",
-  partial: "bg-amber-600 text-white border-amber-700",
-  none: "bg-red-700 text-white border-red-800",
-  higher: "bg-amber-600 text-white border-amber-700",
-  lower: "bg-amber-600 text-white border-amber-700",
+  partial: "bg-gold-600 text-white border-gold-600",
+  none: "bg-crimson-500 text-white border-crimson-600",
+  higher: "bg-gold-600 text-white border-gold-600",
+  lower: "bg-gold-600 text-white border-gold-600",
 };
 
 const statusSymbol: Record<FeedbackStatus, string> = {
@@ -31,12 +32,11 @@ export function AttributeCell({ label, value, status }: AttributeCellProps) {
   return (
     <div
       className={`rounded border px-2 py-1.5 text-sm font-medium ${className}`}
-      title={label}
-      role="img"
+      title={`${label}: ${value}`}
       aria-label={`${label}: ${value} (${status})`}
     >
       <span className="mr-1 opacity-90" aria-hidden>{symbol}</span>
-      {String(value)}
+      {stripAccents(String(value))}
     </div>
   );
 }
