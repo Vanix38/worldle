@@ -7,6 +7,15 @@ const PUBLIC_UNIVERSES_DIR = path.join(process.cwd(), "public", "universes");
 
 const IMAGE_EXTENSIONS = ["webp", "png", "jpg", "svg"] as const;
 
+function getBasePath(): string {
+  return (typeof process !== "undefined" && process.env?.NEXT_PUBLIC_BASE_PATH) || "";
+}
+
+function assetPath(relative: string): string {
+  const base = getBasePath();
+  return base ? `${base}${relative.startsWith("/") ? relative : `/${relative}`}` : relative;
+}
+
 const FONT_EXTENSIONS: { ext: string; format: string }[] = [
   { ext: "woff2", format: "woff2" },
   { ext: "woff", format: "woff" },
@@ -18,7 +27,7 @@ function detectImageInDir(dir: string, baseName: string, universeId: string): st
   const extensions = ["webp", "png", "jpg", "svg", "ico"] as const;
   for (const ext of extensions) {
     const filePath = path.join(dir, `${baseName}.${ext}`);
-    if (fs.existsSync(filePath)) return `/universes/${universeId}/${baseName}.${ext}`;
+    if (fs.existsSync(filePath)) return assetPath(`/universes/${universeId}/${baseName}.${ext}`);
   }
   return undefined;
 }
@@ -77,7 +86,7 @@ function detectFont(universeId: string): UniverseData["font"] | undefined {
       const found = files.find((f) => f.toLowerCase().endsWith(`.${ext}`));
       if (found) {
         return {
-          url: `/universes/${universeId}/${found}`,
+          url: assetPath(`/universes/${universeId}/${found}`),
           family,
           format,
         };

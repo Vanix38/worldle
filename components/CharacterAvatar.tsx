@@ -30,7 +30,8 @@ export function CharacterAvatar({
   const [failed, setFailed] = useState(false);
 
   const ext = EXTENSIONS[extensionIndex];
-  const src = `/universes/${universeId}/characters/${character.id}.${ext}`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const src = `${basePath}/universes/${universeId}/characters/${character.id}.${ext}`.replace(/^\/+/, "/");
 
   const sizeClass = size === "sm" ? "h-8 w-8 text-xs" : "h-10 w-10 text-sm";
 
