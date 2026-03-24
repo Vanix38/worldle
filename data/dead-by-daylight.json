@@ -1,0 +1,1294 @@
+{
+  "id": "dead-by-daylight",
+  "name": "Dead by Daylight",
+  "fieldMapping": {
+    "gender": {
+      "header": "Genre",
+      "fonction": "Classique"
+    },
+    "role": {
+      "header": "Rôle",
+      "fonction": "Classique"
+    },
+    "licence": {
+      "header": "Licence",
+      "fonction": "Classique"
+    },
+    "releaseDate": {
+      "header": "Date de sortie",
+      "fonction": "ComparaisonDate"
+    },
+    "aliases": {
+      "header": "Alias",
+      "fonction": "Recherche"
+    }
+  },
+  "characters": [
+    {
+      "id": "dwight-fairfield",
+      "name": "Dwight Fairfield",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "meg-thomas",
+      "name": "Meg Thomas",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "claudette-morel",
+      "name": "Claudette Morel",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "jake-park",
+      "name": "Jake Park",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "nea-karlsson",
+      "name": "Nea Karlsson",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "18 août 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "laurie-strode",
+      "name": "Laurie Strode",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Halloween",
+      "releaseDate": "25 octobre 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "ace-visconti",
+      "name": "Ace Visconti",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "8 décembre 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "william-bill-overbeck",
+      "name": "William 'Bill' Overbeck",
+      "aliases": [
+        "Bill"
+      ],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Left 4 Dead",
+      "releaseDate": "8 mars 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "feng-min",
+      "name": "Feng Min",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "11 mai 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "david-king",
+      "name": "David King",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "27 juillet 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "quentin-smith",
+      "name": "Quentin Smith",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "A Nightmare on Elm Street",
+      "releaseDate": "26 octobre 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "david-tapp",
+      "name": "David Tapp",
+      "aliases": [
+        "Tapp"
+      ],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Saw",
+      "releaseDate": "23 janvier 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "kate-denson",
+      "name": "Kate Denson",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "12 juin 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "adam-francis",
+      "name": "Adam Francis",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "18 septembre 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "jeff-johansen",
+      "name": "Jeff Johansen",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "11 décembre 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "jane-romero",
+      "name": "Jane Romero",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "19 mars 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "ash-williams",
+      "name": "Ash Williams",
+      "aliases": [
+        "Ashley Joanna Williams"
+      ],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Evil Dead",
+      "releaseDate": "2 avril 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "nancy-wheeler",
+      "name": "Nancy Wheeler",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Stranger Things",
+      "releaseDate": "17 septembre 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "steve-harrington",
+      "name": "Steve Harrington",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Stranger Things",
+      "releaseDate": "17 septembre 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "yui-kimura",
+      "name": "Yui Kimura",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "3 décembre 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "zarina-kassir",
+      "name": "Zarina Kassir",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "10 mars 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "cheryl-mason",
+      "name": "Cheryl Mason",
+      "aliases": [
+        "Heather Mason"
+      ],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Silent Hill",
+      "releaseDate": "16 juin 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "felix-richter",
+      "name": "Felix Richter",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "8 septembre 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "elodie-rakoto",
+      "name": "Élodie Rakoto",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "1er décembre 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "yun-jin-lee",
+      "name": "Yun-Jin Lee",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "30 mars 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "jill-valentine",
+      "name": "Jill Valentine",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Resident Evil",
+      "releaseDate": "15 juin 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "leon-s-kennedy",
+      "name": "Leon S. Kennedy",
+      "aliases": [
+        "Leon Kennedy"
+      ],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Resident Evil",
+      "releaseDate": "15 juin 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "mikaela-reid",
+      "name": "Mikaela Reid",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "19 octobre 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "jonah-vasquez",
+      "name": "Jonah Vasquez",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "30 novembre 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "yoichi-asakawa",
+      "name": "Yoichi Asakawa",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Ring",
+      "releaseDate": "8 mars 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "haddie-kaur",
+      "name": "Haddie Kaur",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "7 juin 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "ada-wong",
+      "name": "Ada Wong",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Resident Evil",
+      "releaseDate": "30 septembre 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "rebecca-chambers",
+      "name": "Rebecca Chambers",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Resident Evil",
+      "releaseDate": "30 septembre 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "vittorio-toscano",
+      "name": "Vittorio Toscano",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "22 novembre 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "thalita-lyra",
+      "name": "Thalita Lyra",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "7 mars 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "renato-lyra",
+      "name": "Renato Lyra",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "7 mars 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "gabriel-soma",
+      "name": "Gabriel Soma",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "13 juin 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "nicolas-cage",
+      "name": "Nicolas Cage",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Vraie vie",
+      "releaseDate": "25 juillet 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "ellen-ripley",
+      "name": "Ellen Ripley",
+      "aliases": [
+        "Ripley"
+      ],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Alien",
+      "releaseDate": "29 août 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "alan-wake",
+      "name": "Alan Wake",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Alan Wake",
+      "releaseDate": "30 janvier 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "sable-ward",
+      "name": "Sable Ward",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "12 mars 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-troupe",
+      "name": "La Troupe",
+      "aliases": [
+        "Aestri Yazar",
+        "Baermar Uraz"
+      ],
+      "gender": "Mixte",
+      "role": "Survivant",
+      "licence": "Donjons et Dragons",
+      "releaseDate": "3 juin 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "lara-croft",
+      "name": "Lara Croft",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Tomb Raider",
+      "releaseDate": "16 juillet 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "trevor-belmont",
+      "name": "Trevor Belmont",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Castlevania",
+      "releaseDate": "27 août 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "taurie-cain",
+      "name": "Taurie Cain",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "28 novembre 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "orela-rose",
+      "name": "Orela Rose",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "6 mai 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "rick-grimes",
+      "name": "Rick Grimes",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "The Walking Dead",
+      "releaseDate": "29 juillet 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "michonne-grimes",
+      "name": "Michonne Grimes",
+      "aliases": [
+        "Michonne"
+      ],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "The Walking Dead",
+      "releaseDate": "29 juillet 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "vee-boonyasak",
+      "name": "Vee Boonyasak",
+      "aliases": [],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Personnage Original",
+      "releaseDate": "23 septembre 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "dustin-henderson",
+      "name": "Dustin Henderson",
+      "aliases": [],
+      "gender": "Homme",
+      "role": "Survivant",
+      "licence": "Stranger Things",
+      "releaseDate": "27 janvier 2026",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "onze",
+      "name": "Onze",
+      "aliases": [
+        "Eleven",
+        "011",
+        "Jane Hopper"
+      ],
+      "gender": "Femme",
+      "role": "Survivant",
+      "licence": "Stranger Things",
+      "releaseDate": "27 janvier 2026",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-piegeur",
+      "name": "Le Piégeur",
+      "aliases": [
+        "Evan MacMillan",
+        "The Trapper"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-spectre",
+      "name": "Le Spectre",
+      "aliases": [
+        "Philip Ojomo",
+        "The Wraith"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-montagnard",
+      "name": "Le Montagnard",
+      "aliases": [
+        "Max Thompson Jr.",
+        "The Hillbilly"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "16 juin 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-infirmiere",
+      "name": "L'Infirmière",
+      "aliases": [
+        "Sally Smithson",
+        "The Nurse"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "18 août 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-silhouette",
+      "name": "La Silhouette",
+      "aliases": [
+        "Michael Myers",
+        "The Shape"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Halloween",
+      "releaseDate": "25 octobre 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-harpie",
+      "name": "La Harpie",
+      "aliases": [
+        "Lisa Sherwood",
+        "The Hag"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "8 décembre 2016",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-docteur",
+      "name": "Le Docteur",
+      "aliases": [
+        "Herman Carter",
+        "The Doctor"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "11 mai 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-chasseuse",
+      "name": "La Chasseuse",
+      "aliases": [
+        "Anna",
+        "The Huntress"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "27 juillet 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-cannibale",
+      "name": "Le Cannibale",
+      "aliases": [
+        "Bubba Sawyer",
+        "Leatherface",
+        "The Cannibal"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Massacre à la tronçonneuse",
+      "releaseDate": "14 septembre 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-cauchemar",
+      "name": "Le Cauchemar",
+      "aliases": [
+        "Freddy Krueger",
+        "The Nightmare"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "A Nightmare on Elm Street",
+      "releaseDate": "26 octobre 2017",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-cochon",
+      "name": "Le Cochon",
+      "aliases": [
+        "Amanda Young",
+        "The Pig"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Saw",
+      "releaseDate": "23 janvier 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-clown",
+      "name": "Le Clown",
+      "aliases": [
+        "Jeffrey Hawk",
+        "The Clown"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "12 juin 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-esprit",
+      "name": "L'Esprit",
+      "aliases": [
+        "Rin Yamaoka",
+        "The Spirit"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "18 septembre 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-legion",
+      "name": "La Légion",
+      "aliases": [
+        "Frank Morrison",
+        "Julie",
+        "Susie",
+        "Joey",
+        "The Legion"
+      ],
+      "gender": "Mixte",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "11 décembre 2018",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-epidemie",
+      "name": "L'Épidémie",
+      "aliases": [
+        "Adiris",
+        "The Plague"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "19 mars 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "ghostface",
+      "name": "Ghostface",
+      "aliases": [
+        "Danny Johnson",
+        "Ghost Face"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Scream",
+      "releaseDate": "18 juin 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-demogorgon",
+      "name": "Le Démogorgon",
+      "aliases": [
+        "The Demogorgon"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Stranger Things",
+      "releaseDate": "17 septembre 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-oni",
+      "name": "L'Oni",
+      "aliases": [
+        "Kazan Yamaoka",
+        "The Oni"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "3 décembre 2019",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-lance-mort",
+      "name": "Le Lance-Mort",
+      "aliases": [
+        "Caleb Quinn",
+        "The Deathslinger"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "10 mars 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-bourreau",
+      "name": "Le Bourreau",
+      "aliases": [
+        "Pyramid Head",
+        "The Executioner"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Silent Hill",
+      "releaseDate": "16 juin 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-fleau",
+      "name": "Le Fléau",
+      "aliases": [
+        "Talbot Grimes",
+        "The Blight"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "8 septembre 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "les-jumeaux",
+      "name": "Les Jumeaux",
+      "aliases": [
+        "Charlotte Deshayes",
+        "Victor Deshayes",
+        "The Twins"
+      ],
+      "gender": "Mixte",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "1er décembre 2020",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-farceur",
+      "name": "Le Farceur",
+      "aliases": [
+        "Ji-Woon Hak",
+        "The Trickster"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "30 mars 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-nemesis",
+      "name": "Le Némésis",
+      "aliases": [
+        "Nemesis T-Type",
+        "The Nemesis"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Resident Evil",
+      "releaseDate": "15 juin 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-cenobite",
+      "name": "Le Cénobite",
+      "aliases": [
+        "Pinhead",
+        "Elliot Spencer",
+        "The Cenobite"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Hellraiser",
+      "releaseDate": "7 septembre 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-artiste",
+      "name": "L'Artiste",
+      "aliases": [
+        "Carmina Mora",
+        "The Artist"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "30 novembre 2021",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-onryo",
+      "name": "L'Onryō",
+      "aliases": [
+        "Sadako Yamamura",
+        "The Onryō"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Ring",
+      "releaseDate": "8 mars 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-dragage",
+      "name": "Le Dragage",
+      "aliases": [
+        "The Dredge"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "7 juin 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-mastermind",
+      "name": "Le Mastermind",
+      "aliases": [
+        "Albert Wesker",
+        "The Mastermind"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Resident Evil",
+      "releaseDate": "30 août 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-chevalier",
+      "name": "Le Chevalier",
+      "aliases": [
+        "Tarhos Kovács",
+        "The Knight"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "22 novembre 2022",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-marchande-de-cranes",
+      "name": "La Marchande de Crânes",
+      "aliases": [
+        "Adriana Imai",
+        "The Skull Merchant"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "7 mars 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-singularite",
+      "name": "La Singularité",
+      "aliases": [
+        "The Singularity"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "13 juin 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-xenomorphe",
+      "name": "Le Xénomorphe",
+      "aliases": [
+        "The Xenomorph"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Alien",
+      "releaseDate": "29 août 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-brave-gars",
+      "name": "Le Brave Gars",
+      "aliases": [
+        "Chucky",
+        "Charles Lee Ray",
+        "The Good Guy"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Chucky",
+      "releaseDate": "28 novembre 2023",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-inconnu",
+      "name": "L'Inconnu",
+      "aliases": [
+        "The Unknown"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "12 mars 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-liche",
+      "name": "La Liche",
+      "aliases": [
+        "Vecna",
+        "The Lich"
+      ],
+      "gender": "Non défini",
+      "role": "Tueur",
+      "licence": "Donjons et Dragons",
+      "releaseDate": "3 juin 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-seigneur-des-tenebres",
+      "name": "Le Seigneur des Ténèbres",
+      "aliases": [
+        "Dracula",
+        "The Dark Lord"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Castlevania",
+      "releaseDate": "27 août 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-maitresse-des-molosses",
+      "name": "La Maîtresse des Molosses",
+      "aliases": [
+        "The Houndmaster"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "28 novembre 2024",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "la-goule",
+      "name": "La Goule",
+      "aliases": [
+        "Ken Kaneki",
+        "The Ghoul"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Tokyo Ghoul",
+      "releaseDate": "2 avril 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "l-animatronique",
+      "name": "L'Animatronique",
+      "aliases": [
+        "Springtrap",
+        "William Afton",
+        "The Animatronic"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Five Nights at Freddy's",
+      "releaseDate": "17 juin 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-krasue",
+      "name": "Le Krasue",
+      "aliases": [
+        "The Krasue"
+      ],
+      "gender": "Femme",
+      "role": "Tueur",
+      "licence": "Personnage Original",
+      "releaseDate": "23 septembre 2025",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    },
+    {
+      "id": "le-premier",
+      "name": "Le Premier",
+      "aliases": [
+        "Vecna",
+        "Henry Creel",
+        "001",
+        "The First"
+      ],
+      "gender": "Homme",
+      "role": "Tueur",
+      "licence": "Stranger Things",
+      "releaseDate": "27 janvier 2026",
+      "indice1": "",
+      "indice2": "",
+      "indice3": ""
+    }
+  ]
+}
