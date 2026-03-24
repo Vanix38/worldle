@@ -1,0 +1,184 @@
+# Extract des affiliations – data/one-piece.json
+# Généré à partir de tous les personnages du fichier
+
+================================================================================
+AFFILIATIONS (principales) – valeurs uniques
+================================================================================
+
+Alabasta
+Alliance des Ninjas-Pirates-Minks-Samouraïs
+Allié de Équipage du Chapeau de Paille
+Ancien Équipage de Roger
+Armée Révolutionnaire
+Aucune
+Bandits
+Baratie
+Baroque Works
+CP-AIGIS0
+CP0
+CP6
+CP7
+CP9
+Chasseurs de Primes
+Civil
+Clan d'Ener
+Colisée Corrida
+Cross Guild
+César Clown
+Davy Back Fight
+Don Quichotte Family
+Drum Island
+Drum Island L’Équipage de Wapol Royaume maléfique de Black Drum
+Escadron des Super Colverts
+Famille Kozuki
+Famille Kurozumi
+Famille Nefertari
+Famille Riku
+Famille Royale
+Famille Shimotsuki
+Famille de Neptune
+Famille royale de l'île des hommes-poissons
+Famille royale du royaume Ryugu
+Faux Équipage du Chapeau de Paille
+Flotte de Happou
+Franky Family
+Galley-La Company
+Gang du Pays des Fleurs (Famille Chinjao)
+Gare de Shift
+Germa 66
+Gouvernement Mondial
+Grand corsaire
+Grande Flotte du Chapeau de Paille
+Hogback
+Impel Down
+Johnny
+Kujas
+Les Pirates d'Expédition
+Ligue des Primates
+L’Équipage de Wapol
+Marine
+Marine ; L’Escadre des Harpons Noirs
+Mermaid Café
+Nouvel Équipage des Hommes-Poissons
+O-Niwaban
+Ohara
+Orange Town
+Pirates Kujas
+Pirates de Nox
+Principauté de Mokomo
+Pègre
+Royaume d'Alabasta
+Royaume de Tontatta
+Royaume des Cerisiers
+Shandias
+Skypiea
+Thriller Bark
+Tom's Workers
+Tribu des Minks
+Unité ninja d'Orochi
+Village de Foosha
+Weatheria
+Équipage ASL
+Équipage aux Cent Bêtes
+Équipage d'Arlong
+Équipage d'Ideo
+Équipage de Barbe Blanche
+Équipage de Barbe Brune
+Équipage de Barbe Noire
+Équipage de Big Mom
+Équipage de Bluejam
+Équipage de Bonney
+Équipage de Caribou
+Équipage de Don Krieg
+Équipage de Foxy
+Équipage de Gecko Moria
+Équipage de Kid
+Équipage de Rocks
+Équipage de Roger
+Équipage de Wapol
+Équipage de X. Barrels
+Équipage des Géants
+Équipage des Magnifiques Pirates
+Équipage des Moines Dépravés
+Équipage des Pirates Kuja
+Équipage des Pirates Volants
+Équipage des Pirates du Soleil
+Équipage du Chapeau de Paille
+Équipage du Chat Noir
+Équipage du Clown
+Équipage du Fire Tank
+Équipage du Heart
+Équipage du Rolling Association des Victimes de Thriller Bark
+Équipage du Roux
+Équipage du Rumbar
+Île de Kumacy
+Île des Hommes-Poissons
+
+
+================================================================================
+SUB_AFFILIATIONS – valeurs uniques (toutes sous-affiliations confondues)
+================================================================================
+
+Alliance Baggy et Alvida
+Alliance des Ninjas-Pirates-Minks-Samouraïs
+Amazon Lily
+Amiral
+Armée Révolutionnaire
+CP-AIGIS9
+CP9
+Calamités
+Cipher Pol
+Contre-Amiral
+Enies Lobby
+Famille Charlotte
+Flotte de Happou
+Garde royale
+Génération Terrible
+Impel Down
+Kedétrav
+L'île des pirates
+La ruche
+Les Pirates d'Expédition
+Mads
+Marine
+Marine des huit trésors
+Marines
+Neuf Écarlates
+New comer Land
+Newkama Land
+Ninja
+Orochi Oniwabanshu
+Père de Bonney
+Quatre Empereurs
+Quatre Mystérieux
+Royaume Ryugu
+Royaume des Cerisiers
+Samouraï
+Sept Grands Corsaires
+Shichibukai
+Spiders Café
+Supernova
+Superstars
+Thriller Bark
+Tobi Roppo
+Tobiroppo
+Tribu des Minks
+Unité des mousquetaires
+Vice-Amiral
+Wago Muland
+Zo
+Zombies
+Zou
+Équipage d'Alvida
+Équipage d'Ideo
+Équipage de Bartolomeo
+Équipage de Bellamy
+Équipage de Big Mom
+Équipage de Cavendish
+Équipage de Roger
+Équipage de Rumbar
+Équipage des Cent Bêtes
+Équipage des Pirates du Soleil
+Équipage des Rocks
+Équipage du Clown
+Équipage du Fire Tank

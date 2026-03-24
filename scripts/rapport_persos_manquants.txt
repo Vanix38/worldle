@@ -1,0 +1,321 @@
+=== PERSONNAGES À POUVOIR AJOUTER (tous les champs requis présents) ===
+
+  hotori_et_kotori
+    nom: Hotori et Kotori
+    affiliation: Clan d'Ener
+    age: 25
+    arc: Jaya
+    genre: Masculin
+    origine: Îles Célestes (Bilca)
+    taille: 1m79
+    race: Oni
+
+  mansherry
+    nom: Mansherry
+    affiliation: Royaume de Tontatta
+    age: 25
+    arc: Marine Ford
+    genre: Féminin
+    origine: Green Bit
+    taille: 20cm
+    race: Nain
+
+  mozu_et_kiwi
+    nom: Mozu et Kiwi
+    affiliation: Franky Family
+    age: 22
+    arc: Long Ring Long Land
+    genre: Féminin
+    origine: Grand Line (Bas-fonds de Water Seven)
+    taille: 1m87 (toutes les deux)
+    race: Humain
+
+  shirahoshi
+    nom: Shirahoshi
+    affiliation: Famille de Neptune Royaume Ryugu
+    age: 16
+    arc: Impel Down
+    genre: Féminin
+    origine: Île des Hommes-Poissons (Royaume Ryugu)
+    taille: 11m87
+    race: Sirène
+
+Total: 4 personnages peuvent être ajoutés.
+
+=== PERSONNAGES PRESQUE COMPLETS (1 ou 2 champs manquants – à compléter) ===
+  ashura_doji (Ashura Doji) -> manque: origine
+  bobby_funk (Bobby Funk) -> manque: affiliation
+  byron (Byron) -> manque: origine
+  camie (Camie) -> manque: origine
+  carne (Carne) -> manque: origine
+  carotte (Carotte) -> manque: origine
+  chaka (Chaka) -> manque: affiliation
+  charlotte_angel (Charlotte Angel) -> manque: taille
+  charlotte_broyee (Charlotte Broyée) -> manque: taille
+  charlotte_cinnamon (Charlotte Cinnamon) -> manque: taille
+  charlotte_citron (Charlotte Citron) -> manque: taille
+  charlotte_custard (Charlotte Custard) -> manque: taille
+  charlotte_prim (Charlotte Prim) -> manque: taille
+  charlotte_pudding (Charlotte Pudding) -> manque: origine
+  chef_des_shandias (Chef des Shandias) -> manque: race
+  conney (Conney) -> manque: origine
+  dellinger (Dellinger) -> manque: taille
+  dracule_mihawk (Dracule Mihawk) -> manque: origine
+  duval (Duval) -> manque: origine
+  elizabello_ii (Elizabello II) -> manque: affiliation
+  fugetsu_omusubi (Fugetsu Omusubi) -> manque: origine
+  gaimon (Gaimon) -> manque: affiliation
+  gin (Gin) -> manque: origine
+  ginney (Ginney) -> manque: origine
+  guernika (Guernika) -> manque: origine
+  hattori (Hattori) -> manque: origine
+  hermep (Helmeppo) -> manque: origine
+  hibari (Hibari) -> manque: origine
+  higuma (Higuma) -> manque: affiliation
+  hyogoro (Hyogoro) -> manque: origine
+  igaram (Igaram) -> manque: affiliation
+  jango (Jango) -> manque: origine
+  jigoro (Jigoro) -> manque: affiliation
+  kawamatsu (Kawamatsu) -> manque: affiliation
+  kaya (Kaya) -> manque: origine
+  kelly_funk (Kelly Funk) -> manque: affiliation
+  king_baum (King Baum) -> manque: age
+  koala (Koala) -> manque: origine
+  kozuki_sukiyaki (Kozuki Sukiyaki) -> manque: origine
+  kozuki_toki (Kozuki Toki) -> manque: origine
+  krieg (Krieg) -> manque: origine
+  kujaku (Kujaku) -> manque: origine
+  kuro (Kuro) -> manque: origine
+  kurozumi_higurashi (Kurozumi Higurashi) -> manque: origine
+  kurozumi_semimaru (Kurozumi Semimaru) -> manque: origine
+  kurozumi_tama (Kurozumi Tama}) -> manque: origine
+  makino (Makino) -> manque: affiliation
+  ministre_de_la_droite (Ministre de la Droite) -> manque: affiliation
+  ministre_de_la_gauche (Ministre de la Gauche) -> manque: affiliation
+  mocha (Mocha) -> manque: affiliation
+  morgan (Morgan) -> manque: origine
+  morley (Morley) -> manque: origine
+  nojiko (Nojiko) -> manque: affiliation
+  nola (Nola) -> manque: origine
+  oignon (Oignon) -> manque: origine
+  pandaman (Pandaman) -> manque: race
+  pascia (Pascia) -> manque: taille
+  patty (Patty) -> manque: origine
+  pearl (Pearl) -> manque: origine
+  pekoms (Pekoms) -> manque: origine
+  pell (Pell) -> manque: affiliation
+  penguin (Penguin) -> manque: taille
+  piment (Piment) -> manque: origine
+  prince_gles (Prince Gles) -> manque: origine
+  road (Road) -> manque: origine
+  s-bear (S-Bear) -> manque: origine
+  s-hawk (S-Hawk) -> manque: origine
+  s-shark (S-Shark) -> manque: origine
+  s-snake (S-Snake) -> manque: origine
+  saint_don_quichotte_mjosgard (Saint Don Quichotte Mjosgard) -> manque: origine
+  saint_rosward_rosward (Saint Rosward Rosward) -> manque: origine
+  sarquiss (Sarquiss) -> manque: origine
+  shachi (Shachi) -> manque: taille
+  shiki (Shiki) -> manque: taille
+  shimotsuki_kozaburo (Shimotsuki Kozaburo) -> manque: origine
+  shimotsuki_ryuma (Shimotsuki Ryuma) -> manque: affiliation
+  shimotsuki_ushimaru (Shimotsuki Ushimaru) -> manque: origine
+  shimotsuki_yasuie (Shimotsuki Yasuie}) -> manque: origine
+  silvers_rayleigh (Silvers Rayleigh) -> manque: origine
+  smiley (Smiley) -> manque: origine
+  speed_jill (Speed Jill) -> manque: age
+  sterry (Sterry) -> manque: affiliation
+  toko (Toko) -> manque: origine
+  uta (Uta) -> manque: origine
+  uzuki_tempura (Uzuki Tempura) -> manque: origine
+  zeus (Zeus) -> manque: age
+  alpha (Alpha) -> manque: origine, taille
+  aphelandra (Aphelandra) -> manque: age, taille
+  aruyutayan_v (Aruyutayan V) -> manque: age, taille
+  atmos (Atmos) -> manque: age, taille
+  bacura (Bacura) -> manque: age, taille
+  ban_dedessinee (Ban Dedessinée) -> manque: age, taille
+  banchi (Banchi) -> manque: age, taille
+  banra (Banra) -> manque: origine, taille
+  basilic (Basilic) -> manque: age, taille
+  belladonna (Belladonna) -> manque: age, taille
+  biblo (Biblo) -> manque: taille, race
+  blamenco (Blamenco) -> manque: age, taille
+  blenheim (Blenheim) -> manque: age, taille
+  blue_fan (Blue Fan) -> manque: age, taille
+  bluegrass (Bluegrass) -> manque: origine, taille
+  capone_pets (Capone Pets) -> manque: origine, taille
+  chabo (Chabo) -> manque: age, taille
+  charlotte_agar-agar (Charlotte Agar-agar) -> manque: origine, taille
+  charlotte_amande (Charlotte Amande) -> manque: origine, taille
+  charlotte_ananas (Charlotte Ananas) -> manque: origine, taille
+  charlotte_anglais (Charlotte Anglais) -> manque: origine, taille
+  charlotte_basans (Charlotte Basans) -> manque: origine, taille
+  charlotte_bavarois (Charlotte Bavarois) -> manque: origine, taille
+  charlotte_brownie (Charlotte Brownie) -> manque: origine, taille
+  charlotte_cabaletta (Charlotte Cabaletta) -> manque: origine, taille
+  charlotte_cadenza (Charlotte Cadenza) -> manque: origine, taille
+  charlotte_chiboust (Charlotte Chiboust) -> manque: origine, taille
+  charlotte_compo (Charlotte Compo) -> manque: origine, taille
+  charlotte_compote (Charlotte Compote) -> manque: origine, taille
+  charlotte_corn_starch (Charlotte Corn Starch) -> manque: origine, taille
+  charlotte_counter (Charlotte Counter) -> manque: origine, taille
+  charlotte_dacquoise (Charlotte Dacquoise) -> manque: origine, taille
+  charlotte_dechat (Charlotte Dechat) -> manque: origine, taille
+  charlotte_decuples (Charlotte Décuplés) -> manque: origine, taille
+  charlotte_dolce (Charlotte Dolce) -> manque: origine, taille
+  charlotte_dosmarche (Charlotte Dosmarché) -> manque: origine, taille
+  charlotte_dragee (Charlotte Dragée) -> manque: origine, taille
+  charlotte_effilee (Charlotte Effilée) -> manque: origine, taille
+  charlotte_gala (Charlotte Gala) -> manque: origine, taille
+  charlotte_galette (Charlotte Galette) -> manque: origine, taille
+  charlotte_gaufrette (Charlotte Gaufrette) -> manque: origine, taille
+  charlotte_hachee (Charlotte Hachée) -> manque: origine, taille
+  charlotte_high_fat (Charlotte High Fat) -> manque: origine, taille
+  charlotte_joconde (Charlotte Joconde) -> manque: origine, taille
+  charlotte_joscarpone (Charlotte Joscarpone) -> manque: origine, taille
+  charlotte_laurique (Laurique|nomimage=Charlotte Laurique}) -> manque: origine, taille
+  charlotte_mapple (Charlotte Mapple) -> manque: origine, taille
+  charlotte_marble (Charlotte Marble) -> manque: origine, taille
+  charlotte_marnier (Charlotte Marnier) -> manque: origine, taille
+  charlotte_mascarpone (Charlotte Mascarpone) -> manque: origine, taille
+  charlotte_mash (Charlotte Mash) -> manque: origine, taille
+  charlotte_melisee (Charlotte Mélisée) -> manque: origine, taille
+  charlotte_mobile (Charlotte Mobile) -> manque: origine, taille
+  charlotte_mondee (Charlotte Mondée) -> manque: origine, taille
+  charlotte_mont-blanc (Charlotte Mont-blanc) -> manque: origine, taille
+  charlotte_moscato (Charlotte Moscato) -> manque: origine, taille
+  charlotte_mozart (Charlotte Mozart) -> manque: origine, taille
+  charlotte_mucre (Charlotte Mucre) -> manque: origine, taille
+  charlotte_noisette (Charlotte Noisette) -> manque: origine, taille
+  charlotte_normande (Charlotte Normande) -> manque: origine, taille
+  charlotte_nougat (Charlotte Nougat) -> manque: origine, taille
+  charlotte_nusstorte (Charlotte Nusstorte) -> manque: origine, taille
+  charlotte_opera (Charlotte Opéra) -> manque: origine, taille
+  charlotte_panna (Charlotte Panna) -> manque: origine, taille
+  charlotte_poire (Charlotte Poire) -> manque: origine, taille
+  charlotte_raisin (Charlotte Raisin) -> manque: origine, taille
+  charlotte_saint-marc (Charlotte Saint-Marc) -> manque: origine, taille
+  charlotte_snack (Charlotte Snack) -> manque: origine, taille
+  charlotte_sucrage (Charlotte Sucrage) -> manque: origine, taille
+  charlotte_tablette (Charlotte Tablette) -> manque: origine, taille
+  charlotte_uiro (Charlotte Uiro) -> manque: origine, taille
+  charlotte_yu_yuan (Charlotte Yu Yuan) -> manque: origine, taille
+  charlotte_zuccotto (Charlotte Zuccotto) -> manque: origine, taille
+  chiya (Chiya) -> manque: age, taille
+  concelot (Concelot) -> manque: affiliation, race
+  cosmos (Cosmos) -> manque: age, taille
+  curiel (Curiel) -> manque: age, taille
+  daigin (Daigin) -> manque: age, taille
+  daisy (Daisy) -> manque: age, taille
+  dogra (Dogra) -> manque: age, taille
+  domino (Domino) -> manque: age, taille
+  enfant_de_makino (Enfant de Makino) -> manque: affiliation, taille
+  enishida (Enishida) -> manque: age, taille
+  epoida (Epoida) -> manque: origine, taille
+  fossa (Fossa) -> manque: age, taille
+  fuga (Fuga}) -> manque: age, origine
+  giovanni (Giovanni) -> manque: affiliation, race
+  goldberg (Goldberg) -> manque: affiliation, origine
+  hakugan (Hakugan}) -> manque: age, taille
+  hanafuda (Hanafuda) -> manque: age, origine
+  harald (Harald) -> manque: origine, taille
+  hareji (Hareji) -> manque: origine, taille
+  haruta (Haruta) -> manque: age, taille
+  heat (Heat) -> manque: age, taille
+  heppoko_peppoko_et_poppoko (Heppoko, Peppoko et Poppoko) -> manque: age, taille
+  hoe (Hoe) -> manque: age, origine
+  hoichael (Hoichael) -> manque: origine, taille
+  ideaman (Ideaman) -> manque: age, taille
+  jenfetro (Jenfétro) -> manque: age, origine
+  john_giant (John Giant) -> manque: origine, taille
+  kaneshiro (Kaneshiro) -> manque: age, taille
+  karma (Karma) -> manque: origine, taille
+  kiku_kuja (Kiku) -> manque: age, taille
+  kikyo (Kikyo) -> manque: age, taille
+  kingdew (Kingdew) -> manque: age, taille
+  kyo (Kyo) -> manque: origine, taille
+  kyuin (Kyuin) -> manque: origine, taille
+  lindbergh (Lindbergh) -> manque: origine, race
+  lines (Lines) -> manque: age, taille
+  magra (Magra) -> manque: age, taille
+  mashikaku_marine (Mashikaku) -> manque: age, taille
+  megalo (Megalo) -> manque: age, origine
+  michael (Michael) -> manque: origine, taille
+  minatomo_east_blue (Minatomo) -> manque: origine, taille
+  miss_friday (Miss Friday) -> manque: age, taille
+  miss_monday (Miss Monday) -> manque: age, taille
+  motobaro (Motobaro) -> manque: origine, taille
+  mr_11 (Mr 11) -> manque: age, taille
+  mr_13 (Mr 13) -> manque: age, taille
+  mr_9 (Mr. 9) -> manque: age, taille
+  mukkashimi_tower (Mukkashimi Tower) -> manque: origine, taille
+  namur (Namur) -> manque: age, taille
+  nefertari_d._lillie (Nefertari D. Lillie) -> manque: age, taille
+  negikuma_maria (Negikuma Maria) -> manque: origine, taille
+  nerine (Nerine) -> manque: age, taille
+  nugire_yainu (Nugire Yainu) -> manque: age, taille
+  ochoku (Ochoku) -> manque: origine, taille
+  onimaru (Onimaru) -> manque: origine, race
+  pisaro (Pisaro) -> manque: age, taille
+  pudding_pudding (Pudding Pudding) -> manque: age, taille
+  raideen (Raideen) -> manque: origine, taille
+  ran (Ran) -> manque: age, taille
+  rindo (Rindo) -> manque: age, taille
+  ripley (Ripley) -> manque: origine, taille
+  rocks_d._xebec (Rocks D. Xebec) -> manque: age, taille
+  saint_jaygarcia_saturn (Saint Jaygarcia Saturn) -> manque: origine, taille
+  sainte_manmeyer_gunko (Sainte Manmeyer Gunko) -> manque: origine, taille
+  scarlett (Scarlett) -> manque: origine, taille
+  shion (Shion) -> manque: age, taille
+  shioyaki (Shioyaki) -> manque: age, taille
+  shishilian (Shishilian) -> manque: affiliation, race
+  sicily (Sicily) -> manque: age, taille
+  sphinx (Sphinx) -> manque: age, origine
+  stansen (Stansen) -> manque: affiliation, origine
+  sweet_pea (Sweet Pea) -> manque: age, taille
+  take (Take) -> manque: age, taille
+  thatch (Thatch) -> manque: age, taille
+  tomato_gang (Tomato Gang) -> manque: origine, taille
+  tonjil (Tonjil) -> manque: age, taille
+  tonsfer (Tonsfer) -> manque: age, taille
+  tsuru_pays_des_wa (Tsuru) -> manque: affiliation, origine
+  whitey_bay (Whitey Bay) -> manque: origine, taille
+  wicca (Wicca) -> manque: origine, taille
+  wire (Wire) -> manque: age, taille
+  yaneno_chinode (Yaneno Chinode) -> manque: origine, taille
+  zunesh (Zunesh) -> manque: affiliation, race
+
+  ... total « presque complets » : 242
+
+=== EXEMPLES DE PERSONNAGES MANQUANT BEAUCOUP DE CHAMPS (premiers 25) ===
+  a.o -> manque: age, origine, taille
+  abdullah -> manque: affiliation, age, arc (première), origine, taille, race
+  acilia -> manque: age, origine, taille
+  adele -> manque: age, origine, taille
+  aegir -> manque: affiliation, age, origine, taille
+  agathe_toulive -> manque: age, origine, taille
+  ageha_woman -> manque: age, origine, taille
+  agent_chocolat -> manque: age, origine, taille
+  aggie_68 -> manque: age, origine, taille
+  agotogi -> manque: age, origine, taille
+  agsilly -> manque: age, origine, taille
+  aguio -> manque: age, origine, taille, race
+  ahho_desunen_ix -> manque: age, origine, taille
+  ahho_zurako -> manque: affiliation, age, origine, taille
+  ahiru -> manque: age, origine, taille
+  akehende -> manque: age, origine, taille
+  akudai_kanzaburo -> manque: age, origine, taille
+  akumai -> manque: age, origine, taille
+  al_hed -> manque: age, origine, taille, race
+  albion -> manque: age, origine, taille
+  ally -> manque: affiliation, age, origine, taille
+  alpagaman -> manque: age, origine, taille
+  amadob -> manque: age, origine, taille
+  an_zengaiina -> manque: age, origine, taille
+  andre -> manque: age, origine, taille
+
+Total dans out_parsed mais pas dans one-piece: 1195
+  -> 4 avec tous les champs requis (ajoutables tels quels)
+  -> 242 avec 1 ou 2 champs manquants (à compléter)
+  -> 949 avec 3+ champs manquants
