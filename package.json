@@ -7,13 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "extract-fruits": "node html/extract-fruits-demon.js"
+    "extract-fruits": "node html/extract-fruits-demon.js",
+    "migrate-marvel-names": "node scripts/migrate-marvel-names.js"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",
     "next": "^16",
     "react": "^19",
-    "react-dom": "^19"
+    "react-dom": "^19",
+    "react-icons": "^5.6.0"
   },
   "devDependencies": {
     "@types/node": "^22",

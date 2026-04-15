@@ -1,0 +1,2553 @@
+{
+  "summary": {
+    "totalCharacters": 431,
+    "sameNameGroups": 28,
+    "duplicatePairs": 162
+  },
+  "sameName": [
+    {
+      "reason": "same_name",
+      "normalizedName": "bruce banner",
+      "characters": [
+        {
+          "id": "bruce-banner",
+          "name": "Bruce Banner"
+        },
+        {
+          "id": "hulk-2003-ind",
+          "name": "Bruce Banner"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "peter parker",
+      "characters": [
+        {
+          "id": "peter-parker",
+          "name": "Peter Parker"
+        },
+        {
+          "id": "peter-b-parker-spiderverse",
+          "name": "Peter Parker"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "wanda maximoff",
+      "characters": [
+        {
+          "id": "wanda-maximoff",
+          "name": "Wanda Maximoff"
+        },
+        {
+          "id": "scarlet-witch-fox",
+          "name": "Wanda Maximoff"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "stephen strange",
+      "characters": [
+        {
+          "id": "stephen-strange",
+          "name": "Stephen Strange"
+        },
+        {
+          "id": "strange-supreme-mcu",
+          "name": "Stephen Strange"
+        },
+        {
+          "id": "zombie-strange-mcu",
+          "name": "Stephen Strange"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "wilson fisk",
+      "characters": [
+        {
+          "id": "wilson-fisk",
+          "name": "Wilson Fisk"
+        },
+        {
+          "id": "kingpin-spiderverse",
+          "name": "Wilson Fisk"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "frank castle",
+      "characters": [
+        {
+          "id": "frank-castle",
+          "name": "Frank Castle"
+        },
+        {
+          "id": "punisher-2004-ind",
+          "name": "Frank Castle"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "jean grey",
+      "characters": [
+        {
+          "id": "jean-grey",
+          "name": "Jean Grey"
+        },
+        {
+          "id": "jean-grey-fox",
+          "name": "Jean Grey"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "ororo munroe",
+      "characters": [
+        {
+          "id": "ororo-munroe",
+          "name": "Ororo Munroe"
+        },
+        {
+          "id": "storm-fox",
+          "name": "Ororo Munroe"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "wade wilson",
+      "characters": [
+        {
+          "id": "wade-wilson",
+          "name": "Wade Wilson"
+        },
+        {
+          "id": "deadpool-fox",
+          "name": "Wade Wilson"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "hank mccoy",
+      "characters": [
+        {
+          "id": "hank-mccoy",
+          "name": "Hank McCoy"
+        },
+        {
+          "id": "beast-fox",
+          "name": "Hank McCoy"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "kitty pryde",
+      "characters": [
+        {
+          "id": "kitty-pryde",
+          "name": "Kitty Pryde"
+        },
+        {
+          "id": "kitty-pryde-fox",
+          "name": "Kitty Pryde"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "victor creed",
+      "characters": [
+        {
+          "id": "victor-creed",
+          "name": "Victor Creed"
+        },
+        {
+          "id": "sabretooth-fox",
+          "name": "Victor Creed"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "william stryker",
+      "characters": [
+        {
+          "id": "william-stryker",
+          "name": "William Stryker"
+        },
+        {
+          "id": "stryker-fox",
+          "name": "William Stryker"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "pietro maximoff",
+      "characters": [
+        {
+          "id": "pietro-maximoff",
+          "name": "Pietro Maximoff"
+        },
+        {
+          "id": "quicksilver-fox",
+          "name": "Pietro Maximoff"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "warren worthington iii",
+      "characters": [
+        {
+          "id": "warren-worthington-iii",
+          "name": "Warren Worthington III"
+        },
+        {
+          "id": "angel-fox",
+          "name": "Warren Worthington III"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "mortimer toynbee",
+      "characters": [
+        {
+          "id": "mortimer-toynbee",
+          "name": "Mortimer Toynbee"
+        },
+        {
+          "id": "toad-fox",
+          "name": "Mortimer Toynbee"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "cain marko",
+      "characters": [
+        {
+          "id": "cain-marko",
+          "name": "Cain Marko"
+        },
+        {
+          "id": "juggernaut-fox",
+          "name": "Cain Marko"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "peggy carter",
+      "characters": [
+        {
+          "id": "peggy-carter",
+          "name": "Peggy Carter"
+        },
+        {
+          "id": "captain-carter-mcu",
+          "name": "Peggy Carter"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "max dillon",
+      "characters": [
+        {
+          "id": "max-dillon",
+          "name": "Max Dillon"
+        },
+        {
+          "id": "electro-webb",
+          "name": "Max Dillon"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "flint marko",
+      "characters": [
+        {
+          "id": "flint-marko",
+          "name": "Flint Marko"
+        },
+        {
+          "id": "sandman-raimi",
+          "name": "Flint Marko"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "reed richards",
+      "characters": [
+        {
+          "id": "reed-richards",
+          "name": "Reed Richards"
+        },
+        {
+          "id": "reed-richards-fox",
+          "name": "Reed Richards"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "dopinder",
+      "characters": [
+        {
+          "id": "dopinder",
+          "name": "Dopinder"
+        },
+        {
+          "id": "dopinder-fox",
+          "name": "Dopinder"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "piotr rasputin",
+      "characters": [
+        {
+          "id": "colossus",
+          "name": "Piotr Rasputin"
+        },
+        {
+          "id": "colossus-fox",
+          "name": "Piotr Rasputin"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "victor timely",
+      "characters": [
+        {
+          "id": "victor-timely",
+          "name": "Victor Timely"
+        },
+        {
+          "id": "he-who-remains-mcu",
+          "name": "Victor Timely"
+        },
+        {
+          "id": "victor-timely-mcu",
+          "name": "Victor Timely"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "johnny storm",
+      "characters": [
+        {
+          "id": "johnny-storm",
+          "name": "Johnny Storm"
+        },
+        {
+          "id": "johnny-storm-fox",
+          "name": "Johnny Storm"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "ben grimm",
+      "characters": [
+        {
+          "id": "ben-grimm",
+          "name": "Ben Grimm"
+        },
+        {
+          "id": "ben-grimm-fox",
+          "name": "Ben Grimm"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "gwen stacy",
+      "characters": [
+        {
+          "id": "gwen-stacy-webb",
+          "name": "Gwen Stacy"
+        },
+        {
+          "id": "gwen-stacy-spiderverse",
+          "name": "Gwen Stacy"
+        }
+      ]
+    },
+    {
+      "reason": "same_name",
+      "normalizedName": "ted sallis",
+      "characters": [
+        {
+          "id": "man-thing-ind",
+          "name": "Ted Sallis"
+        },
+        {
+          "id": "man-thing-mcu",
+          "name": "Ted Sallis"
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": {
+        "id": "alligator-loki-mcu",
+        "name": "Loki Alligator"
+      },
+      "b": {
+        "id": "boastful-loki-mcu",
+        "name": "Loki Prétentieux"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "ben-grimm",
+        "name": "Ben Grimm"
+      },
+      "b": {
+        "id": "ben-grimm-fox",
+        "name": "Ben Grimm"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "bruce-banner",
+        "name": "Bruce Banner"
+      },
+      "b": {
+        "id": "hulk-2003-ind",
+        "name": "Bruce Banner"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "cain-marko",
+        "name": "Cain Marko"
+      },
+      "b": {
+        "id": "juggernaut-fox",
+        "name": "Cain Marko"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "carol-danvers",
+        "name": "Carol Danvers"
+      },
+      "b": {
+        "id": "maria-rambeau",
+        "name": "Maria Rambeau"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "carol-danvers",
+        "name": "Carol Danvers"
+      },
+      "b": {
+        "id": "maria-rambeau-838-mcu",
+        "name": "Maria Rambeau (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "carol-danvers",
+        "name": "Carol Danvers"
+      },
+      "b": {
+        "id": "monica-rambeau",
+        "name": "Monica Rambeau"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "charles-xavier-young-fox",
+        "name": "Charles Xavier (jeune)"
+      },
+      "b": {
+        "id": "charles-xavier-838-mcu",
+        "name": "Charles Xavier (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "classic-loki-mcu",
+        "name": "Loki Classique"
+      },
+      "b": {
+        "id": "alligator-loki-mcu",
+        "name": "Loki Alligator"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "classic-loki-mcu",
+        "name": "Loki Classique"
+      },
+      "b": {
+        "id": "boastful-loki-mcu",
+        "name": "Loki Prétentieux"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "clint-barton",
+        "name": "Clinton Barton"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "clint-barton",
+        "name": "Clinton Barton"
+      },
+      "b": {
+        "id": "kate-bishop",
+        "name": "Kate Bishop"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "colossus",
+        "name": "Piotr Rasputin"
+      },
+      "b": {
+        "id": "colossus-fox",
+        "name": "Piotr Rasputin"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "curt-connors",
+        "name": "Curt Connors"
+      },
+      "b": {
+        "id": "lizard-webb",
+        "name": "Curtis Connors"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "danny-rand",
+        "name": "Danny Rand"
+      },
+      "b": {
+        "id": "colleen-wing",
+        "name": "Colleen Wing"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "b": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "b": {
+        "id": "negasonic-fox",
+        "name": "Ellie Phimister"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "b": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "doc-ock-raimi",
+        "name": "Otto Octavius (Terre-96283)"
+      },
+      "b": {
+        "id": "j-jonah-jameson-raimi",
+        "name": "J. Jonah Jameson (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "doc-ock-raimi",
+        "name": "Otto Octavius (Terre-96283)"
+      },
+      "b": {
+        "id": "zombie-strange-mcu",
+        "name": "Stephen Strange"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "dopinder",
+        "name": "Dopinder"
+      },
+      "b": {
+        "id": "dopinder-fox",
+        "name": "Dopinder"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "b": {
+        "id": "venom-raimi",
+        "name": "Venom (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "eddie-brock-ssu",
+        "name": "Eddie Brock"
+      },
+      "b": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "elektra",
+        "name": "Elektra Natchios"
+      },
+      "b": {
+        "id": "elektra-2005-ind",
+        "name": "Elektra Natchios (Terre-701306)"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "flint-marko",
+        "name": "Flint Marko"
+      },
+      "b": {
+        "id": "sandman-raimi",
+        "name": "Flint Marko"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "frank-castle",
+        "name": "Frank Castle"
+      },
+      "b": {
+        "id": "punisher-2004-ind",
+        "name": "Frank Castle"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "gamora",
+        "name": "Gamora"
+      },
+      "b": {
+        "id": "gamora-2014-mcu",
+        "name": "Gamora (2014)"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "gwen-stacy-webb",
+        "name": "Gwen Stacy"
+      },
+      "b": {
+        "id": "gwen-stacy-spiderverse",
+        "name": "Gwen Stacy"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "hank-mccoy",
+        "name": "Hank McCoy"
+      },
+      "b": {
+        "id": "beast-fox",
+        "name": "Hank McCoy"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "harry-osborn",
+        "name": "Harry Osborn"
+      },
+      "b": {
+        "id": "harry-osborn-raimi",
+        "name": "Harry Osborn (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "harry-osborn",
+        "name": "Harry Osborn"
+      },
+      "b": {
+        "id": "harry-osborn-webb",
+        "name": "Harry Osborn (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "harry-osborn",
+        "name": "Harry Osborn"
+      },
+      "b": {
+        "id": "norman-osborn-raimi",
+        "name": "Norman Osborn (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "harry-osborn-raimi",
+        "name": "Harry Osborn (Terre-96283)"
+      },
+      "b": {
+        "id": "harry-osborn-webb",
+        "name": "Harry Osborn (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "harry-osborn-raimi",
+        "name": "Harry Osborn (Terre-96283)"
+      },
+      "b": {
+        "id": "norman-osborn-raimi",
+        "name": "Norman Osborn (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "he-who-remains",
+        "name": "Celui Qui Demeure"
+      },
+      "b": {
+        "id": "he-who-remains-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "he-who-remains",
+        "name": "Celui Qui Demeure"
+      },
+      "b": {
+        "id": "kang",
+        "name": "Kang"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "he-who-remains",
+        "name": "Celui Qui Demeure"
+      },
+      "b": {
+        "id": "kang-the-conqueror-mcu",
+        "name": "Kang le Conquérant"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "he-who-remains",
+        "name": "Celui Qui Demeure"
+      },
+      "b": {
+        "id": "victor-timely",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "he-who-remains",
+        "name": "Celui Qui Demeure"
+      },
+      "b": {
+        "id": "victor-timely-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "he-who-remains-mcu",
+        "name": "Victor Timely"
+      },
+      "b": {
+        "id": "victor-timely-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "hope-van-dyne",
+        "name": "Hope van Dyne"
+      },
+      "b": {
+        "id": "janet-van-dyne",
+        "name": "Janet van Dyne"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "j-jonah-jameson",
+        "name": "J. Jonah Jameson"
+      },
+      "b": {
+        "id": "j-jonah-jameson-raimi",
+        "name": "J. Jonah Jameson (Terre-96283)"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "j-jonah-jameson",
+        "name": "J. Jonah Jameson"
+      },
+      "b": {
+        "id": "stryker-fox",
+        "name": "William Stryker"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "jean-grey",
+        "name": "Jean Grey"
+      },
+      "b": {
+        "id": "jean-grey-fox",
+        "name": "Jean Grey"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "jean-grey",
+        "name": "Jean Grey"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "johnny-storm",
+        "name": "Johnny Storm"
+      },
+      "b": {
+        "id": "johnny-storm-fox",
+        "name": "Johnny Storm"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "julia-cornwall-ssu",
+        "name": "Julia Cornwall"
+      },
+      "b": {
+        "id": "gwen-stacy-spiderverse",
+        "name": "Gwen Stacy"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "julia-cornwall-ssu",
+        "name": "Julia Cornwall"
+      },
+      "b": {
+        "id": "gwen-stacy-webb",
+        "name": "Gwen Stacy"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "kang",
+        "name": "Kang"
+      },
+      "b": {
+        "id": "he-who-remains-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "kang",
+        "name": "Kang"
+      },
+      "b": {
+        "id": "kang-the-conqueror-mcu",
+        "name": "Kang le Conquérant"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "kang",
+        "name": "Kang"
+      },
+      "b": {
+        "id": "victor-timely",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "kang",
+        "name": "Kang"
+      },
+      "b": {
+        "id": "victor-timely-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "kate-bishop",
+        "name": "Kate Bishop"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "kitty-pryde",
+        "name": "Kitty Pryde"
+      },
+      "b": {
+        "id": "kitty-pryde-fox",
+        "name": "Kitty Pryde"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "logan",
+        "name": "Logan"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "logan",
+        "name": "Logan"
+      },
+      "b": {
+        "id": "wolverine-fox",
+        "name": "Logan (Terre-10005)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "loki",
+        "name": "Loki"
+      },
+      "b": {
+        "id": "alligator-loki-mcu",
+        "name": "Loki Alligator"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "loki",
+        "name": "Loki"
+      },
+      "b": {
+        "id": "boastful-loki-mcu",
+        "name": "Loki Prétentieux"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "loki",
+        "name": "Loki"
+      },
+      "b": {
+        "id": "classic-loki-mcu",
+        "name": "Loki Classique"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "loki",
+        "name": "Loki"
+      },
+      "b": {
+        "id": "president-loki-mcu",
+        "name": "President Loki"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "magneto-fox",
+        "name": "Erik Lehnsherr (Terre-10005)"
+      },
+      "b": {
+        "id": "erik-lensherr-young-fox",
+        "name": "Erik Lensherr (jeune)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "magneto-fox",
+        "name": "Erik Lehnsherr (Terre-10005)"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "man-thing-ind",
+        "name": "Ted Sallis"
+      },
+      "b": {
+        "id": "man-thing-mcu",
+        "name": "Ted Sallis"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "maria-rambeau",
+        "name": "Maria Rambeau"
+      },
+      "b": {
+        "id": "maria-rambeau-838-mcu",
+        "name": "Maria Rambeau (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "maria-rambeau",
+        "name": "Maria Rambeau"
+      },
+      "b": {
+        "id": "monica-rambeau",
+        "name": "Monica Rambeau"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mary-jane-raimi",
+        "name": "Mary Jane Watson"
+      },
+      "b": {
+        "id": "angel-fox",
+        "name": "Warren Worthington III"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "matt-murdock",
+        "name": "Matt Murdock (Terre-616)"
+      },
+      "b": {
+        "id": "daredevil-2003-ind",
+        "name": "Matt Murdock"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "max-dillon",
+        "name": "Max Dillon"
+      },
+      "b": {
+        "id": "electro-webb",
+        "name": "Max Dillon"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "may-parker",
+        "name": "May Parker"
+      },
+      "b": {
+        "id": "aunt-may-raimi",
+        "name": "May Parker (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "b": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "monica-rambeau",
+        "name": "Monica Rambeau"
+      },
+      "b": {
+        "id": "maria-rambeau-838-mcu",
+        "name": "Maria Rambeau (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mordo",
+        "name": "Mordo"
+      },
+      "b": {
+        "id": "baron-mordo-838-mcu",
+        "name": "Karl Mordo"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "mortimer-toynbee",
+        "name": "Mortimer Toynbee"
+      },
+      "b": {
+        "id": "toad-fox",
+        "name": "Mortimer Toynbee"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "charles-xavier-838-mcu",
+        "name": "Charles Xavier (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "charles-xavier-young-fox",
+        "name": "Charles Xavier (jeune)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "erik-lensherr-young-fox",
+        "name": "Erik Lensherr (jeune)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "iceman-fox",
+        "name": "Robert Drake"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "jean-grey-fox",
+        "name": "Jean Grey"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "psylocke-fox",
+        "name": "Psylocke"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "rogue-fox",
+        "name": "Marie D'Ancanto"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "storm-fox",
+        "name": "Ororo Munroe"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "b": {
+        "id": "stryker-fox",
+        "name": "William Stryker"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "negasonic-teenage-warhead",
+        "name": "Eloise Olivia Phimister"
+      },
+      "b": {
+        "id": "negasonic-fox",
+        "name": "Ellie Phimister"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "norman-osborn",
+        "name": "Norman Osborn"
+      },
+      "b": {
+        "id": "harry-osborn",
+        "name": "Harry Osborn"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "norman-osborn",
+        "name": "Norman Osborn"
+      },
+      "b": {
+        "id": "harry-osborn-raimi",
+        "name": "Harry Osborn (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "norman-osborn",
+        "name": "Norman Osborn"
+      },
+      "b": {
+        "id": "harry-osborn-webb",
+        "name": "Harry Osborn (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "norman-osborn",
+        "name": "Norman Osborn"
+      },
+      "b": {
+        "id": "norman-osborn-raimi",
+        "name": "Norman Osborn (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "norman-osborn-raimi",
+        "name": "Norman Osborn (Terre-96283)"
+      },
+      "b": {
+        "id": "harry-osborn-webb",
+        "name": "Harry Osborn (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "ororo-munroe",
+        "name": "Ororo Munroe"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "ororo-munroe",
+        "name": "Ororo Munroe"
+      },
+      "b": {
+        "id": "storm-fox",
+        "name": "Ororo Munroe"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "otto-octavius",
+        "name": "Otto Octavius"
+      },
+      "b": {
+        "id": "doc-ock-raimi",
+        "name": "Otto Octavius (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peggy-carter",
+        "name": "Peggy Carter"
+      },
+      "b": {
+        "id": "captain-carter-mcu",
+        "name": "Peggy Carter"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker",
+        "name": "Peter Parker"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-raimi",
+        "name": "Spider-Man (Terre-96283)"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "b": {
+        "id": "colossus-fox",
+        "name": "Piotr Rasputin"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "b": {
+        "id": "miles-morales-spiderverse",
+        "name": "Miles Morales"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "b": {
+        "id": "peter-b-parker-spiderverse",
+        "name": "Peter Parker"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-parker-webb",
+        "name": "Peter Parker (Terre-120703)"
+      },
+      "b": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "peter-quill",
+        "name": "Peter Quill"
+      },
+      "b": {
+        "id": "tchalla-star-lord-mcu",
+        "name": "T'Challa (Star-Lord)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "pietro-maximoff",
+        "name": "Pietro Maximoff"
+      },
+      "b": {
+        "id": "quicksilver-fox",
+        "name": "Pietro Maximoff"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "president-loki-mcu",
+        "name": "President Loki"
+      },
+      "b": {
+        "id": "alligator-loki-mcu",
+        "name": "Loki Alligator"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "president-loki-mcu",
+        "name": "President Loki"
+      },
+      "b": {
+        "id": "boastful-loki-mcu",
+        "name": "Loki Prétentieux"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "president-loki-mcu",
+        "name": "President Loki"
+      },
+      "b": {
+        "id": "classic-loki-mcu",
+        "name": "Loki Classique"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "professor-x-fox",
+        "name": "Charles Xavier (Terre-10005)"
+      },
+      "b": {
+        "id": "charles-xavier-838-mcu",
+        "name": "Charles Xavier (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "professor-x-fox",
+        "name": "Charles Xavier (Terre-10005)"
+      },
+      "b": {
+        "id": "charles-xavier-young-fox",
+        "name": "Charles Xavier (jeune)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "professor-x-fox",
+        "name": "Charles Xavier (Terre-10005)"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "reed-richards",
+        "name": "Reed Richards"
+      },
+      "b": {
+        "id": "reed-richards-838-mcu",
+        "name": "Reed Richards (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "reed-richards",
+        "name": "Reed Richards"
+      },
+      "b": {
+        "id": "reed-richards-fox",
+        "name": "Reed Richards"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "reed-richards-fox",
+        "name": "Reed Richards"
+      },
+      "b": {
+        "id": "reed-richards-838-mcu",
+        "name": "Reed Richards (Terre-838)"
+      },
+      "reasons": [
+        "shared_alias",
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "rogue",
+        "name": "Anna Marie"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "rogue",
+        "name": "Anna Marie"
+      },
+      "b": {
+        "id": "rogue-fox",
+        "name": "Marie D'Ancanto"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "silver-surfer-fox",
+        "name": "Norrin Radd"
+      },
+      "b": {
+        "id": "silver-surfer-mcu",
+        "name": "Shalla-Bal"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "spider-noir-spiderverse",
+        "name": "Spider-Noir"
+      },
+      "b": {
+        "id": "miguel-ohara-spiderverse",
+        "name": "Miguel O'Hara"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "stephen-strange",
+        "name": "Stephen Strange"
+      },
+      "b": {
+        "id": "doc-ock-raimi",
+        "name": "Otto Octavius (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "stephen-strange",
+        "name": "Stephen Strange"
+      },
+      "b": {
+        "id": "strange-supreme-mcu",
+        "name": "Stephen Strange"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "stephen-strange",
+        "name": "Stephen Strange"
+      },
+      "b": {
+        "id": "zombie-strange-mcu",
+        "name": "Stephen Strange"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "steve-rogers",
+        "name": "Steve Rogers"
+      },
+      "b": {
+        "id": "sam-wilson",
+        "name": "Sam Wilson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "strange-supreme-mcu",
+        "name": "Stephen Strange"
+      },
+      "b": {
+        "id": "zombie-strange-mcu",
+        "name": "Stephen Strange"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "sue-storm",
+        "name": "Sue Storm"
+      },
+      "b": {
+        "id": "sue-storm-fox",
+        "name": "Susan Storm"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "t-challa",
+        "name": "T'Challa"
+      },
+      "b": {
+        "id": "tchalla-star-lord-mcu",
+        "name": "T'Challa (Star-Lord)"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "thanos",
+        "name": "Thanos"
+      },
+      "b": {
+        "id": "cable",
+        "name": "Cable"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "thor-odinson",
+        "name": "Thor"
+      },
+      "b": {
+        "id": "party-thor-mcu",
+        "name": "Thor Odinson"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "venom-ssu",
+        "name": "Venom (Terre-8311)"
+      },
+      "b": {
+        "id": "eddie-brock-raimi",
+        "name": "Eddie Brock (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "venom-ssu",
+        "name": "Venom (Terre-8311)"
+      },
+      "b": {
+        "id": "venom-raimi",
+        "name": "Venom (Terre-96283)"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "victor-creed",
+        "name": "Victor Creed"
+      },
+      "b": {
+        "id": "sabretooth-fox",
+        "name": "Victor Creed"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "victor-timely",
+        "name": "Victor Timely"
+      },
+      "b": {
+        "id": "he-who-remains-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "victor-timely",
+        "name": "Victor Timely"
+      },
+      "b": {
+        "id": "victor-timely-mcu",
+        "name": "Victor Timely"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "wade-wilson",
+        "name": "Wade Wilson"
+      },
+      "b": {
+        "id": "deadpool-fox",
+        "name": "Wade Wilson"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "wanda-maximoff",
+        "name": "Wanda Maximoff"
+      },
+      "b": {
+        "id": "scarlet-witch-fox",
+        "name": "Wanda Maximoff"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "warren-worthington-iii",
+        "name": "Warren Worthington III"
+      },
+      "b": {
+        "id": "angel-fox",
+        "name": "Warren Worthington III"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "warren-worthington-iii",
+        "name": "Warren Worthington III"
+      },
+      "b": {
+        "id": "mary-jane-raimi",
+        "name": "Mary Jane Watson"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "william-stryker",
+        "name": "William Stryker"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "name_in_other_aliases"
+      ]
+    },
+    {
+      "a": {
+        "id": "william-stryker",
+        "name": "William Stryker"
+      },
+      "b": {
+        "id": "stryker-fox",
+        "name": "William Stryker"
+      },
+      "reasons": [
+        "same_name"
+      ]
+    },
+    {
+      "a": {
+        "id": "wilson-fisk",
+        "name": "Wilson Fisk"
+      },
+      "b": {
+        "id": "kingpin-spiderverse",
+        "name": "Wilson Fisk"
+      },
+      "reasons": [
+        "same_name",
+        "shared_alias"
+      ]
+    },
+    {
+      "a": {
+        "id": "wolverine-fox",
+        "name": "Logan (Terre-10005)"
+      },
+      "b": {
+        "id": "mystique-fox",
+        "name": "Raven Darkhölme"
+      },
+      "reasons": [
+        "shared_alias"
+      ]
+    }
+  ]
+}

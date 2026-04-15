@@ -64,6 +64,30 @@
       "header": "Alias",
       "fonction": "Recherche"
     },
+    "indice1": {
+      "header": "Indice 1",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Rang & rôle",
+        "icon": "FaAnchor"
+      }
+    },
+    "indice2": {
+      "header": "Indice 2",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Fruit du démon / type",
+        "icon": "FaAppleAlt"
+      }
+    },
+    "indice3": {
+      "header": "Indice 3",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Haki & origine",
+        "icon": "FaEye"
+      }
+    },
     "origin": {
       "header": "Origine",
       "fonction": "Classique"

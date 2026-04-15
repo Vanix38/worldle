@@ -664,9 +664,13 @@ function isSousLieutenant(char) {
 function deriveIndices(char, universeId, devilFruitsMap = null) {
   if (universeId === "marvel-cineverse") {
     return {
-      indice1: val(char.world || char.affiliation) || "Personnage du MCU",
+      indice1:
+        val(char.acteur) ||
+        val(char.indice1) ||
+        val(char.world || char.affiliation) ||
+        "Personnage du MCU",
       indice2: val(char.firstAppearance || char.species) || val(char.affiliation),
-      indice3: val(char.acteur) || val(char.firstAppearance),
+      indice3: val(char.firstAppearance),
     };
   }
   if (universeId === "marvel-rivals") {

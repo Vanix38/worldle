@@ -21,6 +21,30 @@
     "aliases": {
       "header": "Alias",
       "fonction": "Recherche"
+    },
+    "indice1": {
+      "header": "Indice 1",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Rôle (survivant / tueur)",
+        "icon": "FaUserSecret"
+      }
+    },
+    "indice2": {
+      "header": "Indice 2",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Licence d'origine",
+        "icon": "FaCopyright"
+      }
+    },
+    "indice3": {
+      "header": "Indice 3",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Date de sortie (piste)",
+        "icon": "FaCalendarAlt"
+      }
     }
   },
   "characters": [

@@ -1,8 +1,8 @@
 "use client";
 
 import { createContext, useContext, useMemo } from "react";
-import type { AttributeSchemaEntry, Character, UniverseData } from "@/types/game";
-import { getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
+import type { AttributeSchemaEntry, Character, HintTierDef, UniverseData } from "@/types/game";
+import { getHintTiers, getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
 
 export interface UniverseDataContextValue {
   universeId: string;
@@ -11,6 +11,8 @@ export interface UniverseDataContextValue {
   schema: AttributeSchemaEntry[];
   /** Field keys with fonction Recherche (searchable but not displayed in table). */
   searchFieldKeys: string[];
+  /** Hint tiers (fieldMapping entries with `hint`), in JSON key order. */
+  hintTiers: HintTierDef[];
 }
 
 const UniverseDataContext = createContext<UniverseDataContextValue | null>(null);
@@ -25,12 +27,14 @@ export function UniverseDataProvider({
   const value = useMemo<UniverseDataContextValue>(() => {
     const schema = getSchemaFromUniverseData(universeData);
     const searchFieldKeys = getSearchFieldKeys(universeData);
+    const hintTiers = getHintTiers(universeData);
     return {
       universeId: universeData.id,
       universeName: universeData.name,
       characters: universeData.characters,
       schema,
       searchFieldKeys,
+      hintTiers,
     };
   }, [universeData]);
 

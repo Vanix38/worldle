@@ -1,16 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useCallback, useState } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { useGameState } from "@/hooks/useGameState";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
 import type { UniverseId } from "@/types/game";
 import { CharacterSearch } from "./CharacterSearch";
 import { AttributeCell } from "./AttributeCell";
 import { ShareResult } from "./ShareResult";
-import { GameHint } from "./GameHint";
+import { GameHintsBar } from "./GameHintsBar";
 import { CharacterAvatar } from "./CharacterAvatar";
 import { stripAccents } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
+import { Modal } from "@/components/ui/Modal";
 
 const tableVariants = {
   hidden: { opacity: 0 },
@@ -25,13 +28,12 @@ const rowVariants = {
   show: { opacity: 1, y: 0 },
 };
 
-const HINT_THRESHOLD = 3;
-
 interface GameBoardProps {
   universeId: UniverseId;
 }
 
 export function GameBoard({ universeId }: GameBoardProps) {
+  const { hintTiers } = useUniverseData();
   const {
     state,
     target,
@@ -40,11 +42,16 @@ export function GameBoard({ universeId }: GameBoardProps) {
     submitGuess,
     startNewGame,
   } = useGameState(universeId);
-  const [hintRevealed, setHintRevealed] = useState(false);
 
-  useEffect(() => {
-    if (guessRows.length === 0) setHintRevealed(false);
-  }, [guessRows.length]);
+  const [newGameModalOpen, setNewGameModalOpen] = useState(false);
+
+  const openNewGameModal = useCallback(() => setNewGameModalOpen(true), []);
+  const closeNewGameModal = useCallback(() => setNewGameModalOpen(false), []);
+
+  const confirmNewGame = useCallback(() => {
+    startNewGame();
+    setNewGameModalOpen(false);
+  }, [startNewGame]);
 
   if (!state) {
     return (
@@ -54,12 +61,37 @@ export function GameBoard({ universeId }: GameBoardProps) {
 
   const won = state.won;
   const guessedIds = state.guesses;
-
-  const hintUnlocked = !won && guessRows.length >= HINT_THRESHOLD;
+  const showHintsBar = Boolean(target && !won && hintTiers.length > 0);
 
   return (
     <div className="space-y-6">
-      {/* Barre de recherche : élément principal en haut */}
+      <div
+        className={`flex flex-wrap items-start gap-3 ${showHintsBar ? "justify-between" : "justify-end"}`}
+      >
+        {showHintsBar && target ? (
+          <div className="min-w-0 flex-1">
+            <GameHintsBar target={target} guessCount={guessRows.length} />
+          </div>
+        ) : null}
+        <div className="flex w-full max-w-[13.5rem] shrink-0 flex-col gap-2 self-end sm:w-[13.5rem]">
+          <Link
+            href={`/game/${universeId}/hard`}
+            className="inline-flex min-h-[2.75rem] w-full items-center justify-center rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+          >
+            Mode difficile
+          </Link>
+          <Button
+            variant="primary"
+            size="md"
+            className="w-full"
+            onClick={openNewGameModal}
+            aria-label="Nouvelle partie"
+          >
+            Nouvelle partie
+          </Button>
+        </div>
+      </div>
+
       <div className="w-full">
         <CharacterSearch
           universeId={universeId}
@@ -71,32 +103,24 @@ export function GameBoard({ universeId }: GameBoardProps) {
         />
       </div>
 
-      <div className="flex justify-end">
-        <Button variant="primary" size="md" onClick={startNewGame} aria-label="Nouvelle partie">
-          Nouvelle partie
-        </Button>
-      </div>
-
-      {hintUnlocked && target && (
-        hintRevealed ? (
-          <GameHint
-            universeId={universeId}
-            target={target}
-            wrongGuessCount={guessRows.length}
-            threshold={HINT_THRESHOLD}
-          />
-        ) : (
-          <Button
-            variant="warning"
-            size="lg"
-            className="w-full"
-            onClick={() => setHintRevealed(true)}
-            aria-label="Révéler l'indice"
-          >
-            Indice disponible — cliquer pour révéler
+      <Modal
+        isOpen={newGameModalOpen}
+        onClose={closeNewGameModal}
+        title="Nouvelle partie ?"
+        closeLabel="Fermer la boîte de dialogue"
+      >
+        <p className="mb-6 text-sm leading-relaxed">
+          Commencer une nouvelle partie ? La progression actuelle sera perdue.
+        </p>
+        <div className="flex flex-wrap justify-end gap-2">
+          <Button variant="secondary" size="md" type="button" onClick={closeNewGameModal}>
+            Annuler
           </Button>
-        )
-      )}
+          <Button variant="primary" size="md" type="button" onClick={confirmNewGame}>
+            Commencer
+          </Button>
+        </div>
+      </Modal>
 
       <div className="overflow-x-auto rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
         <table
@@ -157,7 +181,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
         <ShareResult
           characterName={target.name}
           guessCount={guessRows.length}
-          onNewGame={startNewGame}
+          onNewGame={openNewGameModal}
         />
       )}
     </div>

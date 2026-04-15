@@ -45,17 +45,19 @@ export function GamePageClient({ universeId, universeData }: GamePageClientProps
         )}
 
         <div className="mx-auto px-2 py-4 sm:px-4 sm:py-6 md:px-6">
-          <header className="mb-4 flex items-center justify-between gap-2">
-            <Link
-              href="/"
-              className="min-h-[2.75rem] min-w-[2.75rem] text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
-            >
-              ← Accueil
-            </Link>
-            <h1 className="truncate text-lg font-bold text-white sm:text-xl">
+          <header className="mb-4 flex items-center gap-2">
+            <div className="flex min-w-0 flex-1 justify-start">
+              <Link
+                href="/"
+                className="min-h-[2.75rem] min-w-[2.75rem] text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+              >
+                ← Accueil
+              </Link>
+            </div>
+            <h1 className="min-w-0 flex-1 truncate text-center text-lg font-bold text-white sm:text-xl">
               {stripAccents(universeData.name)}
             </h1>
-            <div className="min-w-[2.75rem] sm:min-w-14" aria-hidden />
+            <div className="flex min-w-0 flex-1 justify-end" aria-hidden />
           </header>
 
           <GameBoard universeId={universeId} />

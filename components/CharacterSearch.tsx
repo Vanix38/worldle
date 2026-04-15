@@ -21,6 +21,15 @@ function getSearchableStrings(character: Character, searchFieldKeys: string[]): 
   return parts;
 }
 
+/** First alias to show under the name in search results (skip if empty or same as name). */
+function getFirstDisplayAlias(char: Character): string | undefined {
+  const raw = char.aliases?.[0];
+  if (raw === undefined || raw === null) return undefined;
+  const a = String(raw).trim();
+  if (!a || a.toLowerCase() === char.name.toLowerCase()) return undefined;
+  return a;
+}
+
 function searchCharacters(
   characters: Character[],
   query: string,
@@ -147,23 +156,33 @@ export function CharacterSearch({
           className={`absolute top-full left-0 right-0 z-10 mt-2 overflow-auto rounded-xl border border-gray-600 bg-gray-800 py-1 shadow-xl ${size === "lg" ? "max-h-72" : "max-h-56"}`}
           aria-label="Suggestions de personnages"
         >
-          {results.map((char, i) => (
-            <button
-              key={char.id}
-              id={`character-option-${char.id}`}
-              type="button"
-              role="option"
-              aria-selected={i === selectedIndex}
-              onClick={() => handleSelect(char)}
-              onMouseEnter={() => setSelectedIndex(i)}
-              className={`flex min-h-[44px] w-full items-center gap-3 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-inset ${
-                size === "lg" ? "px-5 py-3 text-base" : "px-4 py-3"
-              } ${i === selectedIndex ? "bg-gray-700" : ""}`}
-            >
-              <CharacterAvatar character={char} size={size === "lg" ? "md" : "sm"} />
-              <span>{stripAccents(char.name)}</span>
-            </button>
-          ))}
+          {results.map((char, i) => {
+            const firstAlias = getFirstDisplayAlias(char);
+            return (
+              <button
+                key={char.id}
+                id={`character-option-${char.id}`}
+                type="button"
+                role="option"
+                aria-selected={i === selectedIndex}
+                onClick={() => handleSelect(char)}
+                onMouseEnter={() => setSelectedIndex(i)}
+                className={`flex min-h-[44px] w-full items-center gap-3 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-inset ${
+                  size === "lg" ? "px-5 py-3 text-base" : "px-4 py-3"
+                } ${i === selectedIndex ? "bg-gray-700" : ""}`}
+              >
+                <CharacterAvatar character={char} size={size === "lg" ? "md" : "sm"} />
+                <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+                  <span className="truncate">{stripAccents(char.name)}</span>
+                  {firstAlias ? (
+                    <span className="truncate text-sm text-gray-400">
+                      {stripAccents(firstAlias)}
+                    </span>
+                  ) : null}
+                </div>
+              </button>
+            );
+          })}
         </div>
       )}
     </div>

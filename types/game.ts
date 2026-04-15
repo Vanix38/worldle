@@ -36,13 +36,31 @@ export type FieldMappingFonction =
   | "Recherche"
   | "Comparaison"
   | "ComparaisonDate"
-  | "ComparaisonChiffre";
+  | "ComparaisonChiffre"
+  /** Hint-only field: value on character, not shown in comparison grid. */
+  | "Indice";
+
+export interface FieldMappingHintMeta {
+  /** Label shown next to the hint icon (e.g. "Acteur/Doubleur"). */
+  prompt: string;
+  /** react-icons export name (e.g. "FaMicrophoneLines"). */
+  icon: string;
+}
 
 export interface FieldMappingEntry {
   header: string;
   fonction: FieldMappingFonction;
   /** For Comparaison: ordered list (first = avant, last = après). */
   order?: string[];
+  /** If set, this field is a hint tier (order = key order in fieldMapping). */
+  hint?: FieldMappingHintMeta;
+}
+
+/** One unlockable hint tier derived from fieldMapping. */
+export interface HintTierDef {
+  fieldKey: string;
+  prompt: string;
+  icon: string;
 }
 
 export type FieldMapping = Record<string, FieldMappingEntry>;

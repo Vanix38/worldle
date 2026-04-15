@@ -1,8 +1,8 @@
 import type {
   AttributeSchemaEntry,
   AttributeType,
-  Character,
   FieldMappingEntry,
+  HintTierDef,
   UniverseData,
 } from "@/types/game";
 
@@ -25,7 +25,7 @@ function schemaEntryFromFieldMapping(
   key: string,
   entry: FieldMappingEntry
 ): AttributeSchemaEntry | null {
-  if (entry.fonction === "Recherche") return null;
+  if (entry.fonction === "Recherche" || entry.fonction === "Indice") return null;
   let type: AttributeType = "categorical";
   let ordered = false;
   let order: string[] | undefined;
@@ -98,9 +98,21 @@ export function getSearchFieldKeys(universeData: UniverseData): string[] {
     .map(([key]) => key);
 }
 
-/** Attribute key to reveal as first hint after N wrong guesses (Phase 2). */
-export function getHintAttribute(universeId: string, schema?: AttributeSchemaEntry[]): string | null {
-  if (universeId === "one-piece") return "arc";
-  if (schema && schema.length > 0) return schema[0].key;
-  return null;
+/**
+ * Hint tiers in fieldMapping key order (only entries with `hint` set).
+ */
+export function getHintTiers(universeData: UniverseData): HintTierDef[] {
+  const fm = universeData.fieldMapping;
+  if (!fm) return [];
+  const out: HintTierDef[] = [];
+  for (const [fieldKey, entry] of Object.entries(fm)) {
+    if (entry.hint?.prompt && entry.hint?.icon) {
+      out.push({
+        fieldKey,
+        prompt: entry.hint.prompt,
+        icon: entry.hint.icon,
+      });
+    }
+  }
+  return out;
 }

@@ -33,6 +33,30 @@
     "aliases": {
       "header": "Alias",
       "fonction": "Recherche"
+    },
+    "indice1": {
+      "header": "Indice 1",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Équipe & origine",
+        "icon": "FaUsers"
+      }
+    },
+    "indice2": {
+      "header": "Indice 2",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Rôle & race",
+        "icon": "FaBolt"
+      }
+    },
+    "indice3": {
+      "header": "Indice 3",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Source de pouvoir",
+        "icon": "FaMagic"
+      }
     }
   },
   "characters": [

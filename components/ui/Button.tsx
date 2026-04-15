@@ -2,7 +2,7 @@
 
 import { forwardRef } from "react";
 
-type ButtonVariant = "primary" | "secondary" | "ghost" | "success" | "warning";
+type ButtonVariant = "primary" | "secondary" | "ghost" | "success" | "warning" | "danger";
 type ButtonSize = "sm" | "md" | "lg";
 
 const variantClasses: Record<ButtonVariant, string> = {
@@ -16,6 +16,8 @@ const variantClasses: Record<ButtonVariant, string> = {
     "bg-green-600 text-white hover:bg-green-500 focus-visible:ring-green-400 disabled:opacity-50 disabled:hover:bg-green-600",
   warning:
     "bg-amber-600/80 text-white hover:bg-amber-600 focus-visible:ring-amber-500",
+  danger:
+    "bg-red-600 text-white hover:bg-red-500 focus-visible:ring-red-500 disabled:opacity-50 disabled:hover:bg-red-600",
 };
 
 const sizeClasses: Record<ButtonSize, string> = {
