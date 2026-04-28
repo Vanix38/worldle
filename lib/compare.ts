@@ -1,4 +1,5 @@
 import type { Character, AttributeFeedback, FeedbackStatus, AttributeSchemaEntry } from "@/types/game";
+import { rankInOrderedList } from "@/lib/orderLabelEquivalence";
 
 const FRENCH_MONTHS: Record<string, number> = {
   janvier: 1, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
@@ -19,6 +20,17 @@ function parseDateOrder(val: unknown): number {
 }
 
 function compareCategorical(guessVal: unknown, targetVal: unknown): FeedbackStatus {
+  if (Array.isArray(guessVal) || Array.isArray(targetVal)) {
+    const gSet = parseMultivalue(guessVal);
+    const tSet = parseMultivalue(targetVal);
+    if (gSet.size === 0 && tSet.size === 0) return "exact";
+    if (gSet.size === 0 || tSet.size === 0) return "none";
+    if (gSet.size !== tSet.size) return "none";
+    for (const x of gSet) {
+      if (!tSet.has(x)) return "none";
+    }
+    return "exact";
+  }
   const g = String(guessVal ?? "").trim();
   const t = String(targetVal ?? "").trim();
   if (g === t) return "exact";
@@ -28,12 +40,13 @@ function compareCategorical(guessVal: unknown, targetVal: unknown): FeedbackStat
 function compareWithOrder(
   guessVal: unknown,
   targetVal: unknown,
-  order: string[]
+  order: string[],
+  pairs?: readonly (readonly [string, string])[],
 ): FeedbackStatus {
   const g = String(guessVal ?? "").trim();
   const t = String(targetVal ?? "").trim();
-  const gi = order.indexOf(g);
-  const ti = order.indexOf(t);
+  const gi = rankInOrderedList(g, order, pairs);
+  const ti = rankInOrderedList(t, order, pairs);
   if (gi === -1 || ti === -1) return g === t ? "exact" : "none";
   if (gi === ti) return "exact";
   return gi < ti ? "higher" : "lower";
@@ -102,7 +115,7 @@ export function getFeedback(
     } else if (entry.type === "date") {
       status = compareDate(guessVal, targetVal);
     } else if (entry.type === "categorical" && entry.order && entry.order.length > 0) {
-      status = compareWithOrder(guessVal, targetVal, entry.order);
+      status = compareWithOrder(guessVal, targetVal, entry.order, entry.orderLabelEquivalence);
     } else if (entry.type === "numeric" && entry.ordered) {
       status = compareNumeric(guessVal, targetVal);
     } else {
@@ -114,7 +127,12 @@ export function getFeedback(
       const set = parseMultivalue(guessVal);
       displayValue = set.size > 0 ? Array.from(set).join(", ") : "Aucun";
     } else {
-      const raw = guessVal !== undefined && guessVal !== "" ? String(guessVal).trim() : "";
+      let raw = "";
+      if (Array.isArray(guessVal)) {
+        raw = guessVal.map((x) => String(x).trim()).filter(Boolean).join(", ");
+      } else if (guessVal !== undefined && guessVal !== "") {
+        raw = String(guessVal).trim();
+      }
       displayValue = raw || "—";
     }
 

@@ -28,6 +28,8 @@ export interface AttributeSchemaEntry {
   ordered?: boolean;
   /** For Comparaison: ordered list for before/after arrow. */
   order?: string[];
+  /** Optional synonym pairs (e.g. FR/EN labels) for same rank in ordered comparison. */
+  orderLabelEquivalence?: [string, string][];
 }
 
 /** Field behaviour from universe fieldMapping. */
@@ -52,6 +54,8 @@ export interface FieldMappingEntry {
   fonction: FieldMappingFonction;
   /** For Comparaison: ordered list (first = avant, last = après). */
   order?: string[];
+  /** Synonym pairs for ordered comparison / indice3 sorting (same chronological rank). */
+  orderLabelEquivalence?: [string, string][];
   /** If set, this field is a hint tier (order = key order in fieldMapping). */
   hint?: FieldMappingHintMeta;
 }

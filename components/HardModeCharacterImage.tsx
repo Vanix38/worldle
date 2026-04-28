@@ -5,7 +5,7 @@ import type { Character } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { stripAccents } from "@/lib/utils";
 
-const EXTENSIONS = ["webp", "png", "jpg"] as const;
+const EXTENSIONS = ["webp", "png", "jpg", "jpeg"] as const;
 
 function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/);

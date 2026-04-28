@@ -49,12 +49,14 @@ function schemaEntryFromFieldMapping(
     default:
       type = "categorical";
   }
+  const pairs = entry.orderLabelEquivalence;
   return {
     key,
     label: entry.header,
     type,
     ordered,
     ...(order && order.length > 0 && { order }),
+    ...(pairs && pairs.length > 0 && { orderLabelEquivalence: pairs }),
   };
 }
 
