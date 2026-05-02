@@ -347,6 +347,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
                       >
                         <AttributeCell
                           label={item.label}
+                          fieldKey={item.key}
                           value={item.value}
                           status={item.status}
                         />
