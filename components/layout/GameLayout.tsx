@@ -2,9 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { FaColumns } from "react-icons/fa";
 import { Button } from "@/components/ui/Button";
 import { RulesModal } from "@/components/RulesModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
+import { ColumnsModal } from "@/components/ColumnsModal";
 import { PageTransition } from "./PageTransition";
 import { stripAccents } from "@/lib/utils";
 
@@ -14,6 +17,14 @@ interface GameLayoutProps {
 
 export function GameLayout({ children }: GameLayoutProps) {
   const [rulesOpen, setRulesOpen] = useState(false);
+  const [columnsOpen, setColumnsOpen] = useState(false);
+  const pathname = usePathname();
+  const gameUniverseMatch = pathname.match(/^\/game\/([^/]+)/);
+  const columnsUniverseId = gameUniverseMatch?.[1] ?? null;
+
+  useEffect(() => {
+    if (!columnsUniverseId) setColumnsOpen(false);
+  }, [columnsUniverseId]);
 
   return (
     <>
@@ -35,14 +46,28 @@ export function GameLayout({ children }: GameLayoutProps) {
           >
             Worlddle
           </Link>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => setRulesOpen(true)}
-            aria-label={stripAccents("Comment jouer ?")}
-          >
-            {stripAccents("Règles")}
-          </Button>
+          <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+            {columnsUniverseId ? (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setColumnsOpen(true)}
+                className="inline-flex items-center gap-1.5"
+                aria-label={stripAccents("Description des colonnes de l'univers")}
+              >
+                <FaColumns className="h-4 w-4 opacity-90" aria-hidden />
+                {stripAccents("Colonnes")}
+              </Button>
+            ) : null}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setRulesOpen(true)}
+              aria-label={stripAccents("Comment jouer ?")}
+            >
+              {stripAccents("Règles")}
+            </Button>
+          </div>
         </nav>
       </header>
 
@@ -57,6 +82,11 @@ export function GameLayout({ children }: GameLayoutProps) {
       </footer>
 
       <RulesModal isOpen={rulesOpen} onClose={() => setRulesOpen(false)} />
+      <ColumnsModal
+        universeId={columnsUniverseId}
+        isOpen={columnsOpen}
+        onClose={() => setColumnsOpen(false)}
+      />
       <OnboardingModal />
     </>
   );

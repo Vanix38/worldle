@@ -2,49 +2,35 @@
   "id": "marvel-cineverse",
   "name": "Marvel Cinéverse",
   "fieldMapping": {
+    "univers": {
+      "header": "Franchise",
+      "fonction": "Classique",
+      "description": "Franchise ou label de l’œuvre. Valeurs possibles dans les données : Blade (Original), Fox Fantastiques, Fox X-Men, Indépendants, MCU, Raimi-Verse, Spider-Verse, SSU, Webb-Verse."
+    },
+    "earth": {
+      "header": "Terre",
+      "fonction": "Classique",
+      "description": "Numéro de Terre ou filière du multivers (ex. 616)."
+    },
     "status": {
       "header": "Statut",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "État du personnage dans le MCU au moment de la dernière œuvre prise en compte. Valeurs possibles : Décédé, En Vie, En détention, Inconnu."
     },
     "species": {
       "header": "Espèce",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Espèce ou type (humain, Asgardien, Kree, etc.)."
     },
     "gender": {
       "header": "Genre",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Genre du personnage. Valeurs possibles : Femme, Homme."
     },
     "affiliation": {
       "header": "Affiliation",
-      "fonction": "Classique"
-    },
-    "role": {
-      "header": "Rôle",
-      "fonction": "Classique"
-    },
-    "indice1": {
-      "header": "Acteur",
-      "fonction": "Indice",
-      "hint": {
-        "prompt": "Acteur/Doubleur",
-        "icon": "FaMicrophone"
-      }
-    },
-    "indice2": {
-      "header": "Année de sortie",
-      "fonction": "Indice",
-      "hint": {
-        "prompt": "Ann�e (premi�re apparition � l�\"�cran)",
-        "icon": "FaCalendarAlt"
-      }
-    },
-    "indice3": {
-      "header": "Indice 3",
-      "fonction": "Indice",
-      "hint": {
-        "prompt": "Films et Å“uvres",
-        "icon": "FaFilm"
-      }
+      "fonction": "Classique",
+      "description": "Organisation ou équipe principale (Avengers, Wakanda, etc.)."
     },
     "firstAppearance": {
       "header": "Première apparition",
@@ -154,19 +140,45 @@
         "Avengers : Doomsday",
         "Ton Ami du Quartier Spider-Man",
         "Spider-Man : Brand New Day"
-      ]
+      ],
+      "description": "Première œuvre du MCU où le personnage apparaît ; la colonne compare l'ordre chronologique des œuvres."
+    },
+    "role": {
+      "header": "Rôle",
+      "fonction": "Classique",
+      "description": "Rôle narratif dans le MCU. Valeurs possibles dans les données : Allié, Amoral, Antagoniste, Anti-héros, Civil, Héros, Justicier, Mentor, Réformé, Traétre, Traître, Vilain."
+    },
+    "indice1": {
+      "header": "Acteur",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Acteur/Doubleur",
+        "icon": "FaMicrophone"
+      },
+      "description": "Indice sur l'acteur ou la doubleuse, débloqué après plusieurs tentatives."
+    },
+    "indice2": {
+      "header": "Année de sortie",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Ann�e (premi�re apparition � l�\"�cran)",
+        "icon": "FaCalendarAlt"
+      },
+      "description": "Indice sur l'année de première apparition à l'écran, débloqué après plusieurs tentatives."
+    },
+    "indice3": {
+      "header": "Indice 3",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Films et Å“uvres",
+        "icon": "FaFilm"
+      },
+      "description": "Indice sur les films et séries où le personnage apparaît, débloqué après plusieurs tentatives."
     },
     "aliases": {
       "header": "Alias",
-      "fonction": "Recherche"
-    },
-    "earth": {
-      "header": "Terre",
-      "fonction": "Classique"
-    },
-    "univers": {
-      "header": "Franchise",
-      "fonction": "Classique"
+      "fonction": "Recherche",
+      "description": "Alias et noms alternatifs utilisés pour la recherche (non affichés dans la grille)."
     }
   },
   "characters": [

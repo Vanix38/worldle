@@ -52,6 +52,8 @@ export interface FieldMappingHintMeta {
 export interface FieldMappingEntry {
   header: string;
   fonction: FieldMappingFonction;
+  /** Texte d’aide affiché dans la modale « Colonnes ». */
+  description?: string;
   /** For Comparaison: ordered list (first = avant, last = après). */
   order?: string[];
   /** Synonym pairs for ordered comparison / indice3 sorting (same chronological rank). */
@@ -68,6 +70,15 @@ export interface HintTierDef {
 }
 
 export type FieldMapping = Record<string, FieldMappingEntry>;
+
+/** Ligne renvoyée par GET /api/universe/[id]/columns (modale Colonnes). */
+export interface ColumnDocRow {
+  key: string;
+  header: string;
+  description: string | null;
+  fonction: FieldMappingFonction;
+  hintPrompt?: string;
+}
 
 export type UniverseId = string;
 

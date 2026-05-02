@@ -1,0 +1,231 @@
+"use client";
+
+import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { FaFire, FaRedo } from "react-icons/fa";
+import { useGameState } from "@/hooks/useGameState";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
+import type { UniverseId } from "@/types/game";
+import { CharacterSearch } from "./CharacterSearch";
+import { AttributeCell } from "./AttributeCell";
+import { ShareResult } from "./ShareResult";
+import { GameHintsBar } from "./GameHintsBar";
+import { CharacterAvatar } from "./CharacterAvatar";
+import { stripAccents } from "@/lib/utils";
+import { Button } from "@/components/ui/Button";
+import { Modal } from "@/components/ui/Modal";
+
+/** Décale l’apparition de chaque cellule dans une ligne nouvellement ajoutée. */
+const guessRowVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.2,
+      delayChildren: 0.12,
+    },
+  },
+};
+
+const guessCellVariants = {
+  hidden: { opacity: 0, y: 10 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+interface GameBoardProps {
+  universeId: UniverseId;
+}
+
+export function GameBoard({ universeId }: GameBoardProps) {
+  const { hintTiers } = useUniverseData();
+  const {
+    state,
+    target,
+    guessRows,
+    schema,
+    submitGuess,
+    startNewGame,
+  } = useGameState(universeId);
+
+  const [newGameModalOpen, setNewGameModalOpen] = useState(false);
+  const [victoryModalDismissed, setVictoryModalDismissed] = useState(false);
+
+  const openNewGameModal = useCallback(() => setNewGameModalOpen(true), []);
+  const closeNewGameModal = useCallback(() => setNewGameModalOpen(false), []);
+
+  const confirmNewGame = useCallback(() => {
+    startNewGame();
+    setNewGameModalOpen(false);
+  }, [startNewGame]);
+
+  const won = state?.won ?? false;
+  useEffect(() => {
+    if (won) setVictoryModalDismissed(false);
+  }, [won]);
+
+  if (!state) {
+    return (
+      <div className="flex justify-center py-12 text-gray-400">
+        {stripAccents("Chargement...")}
+      </div>
+    );
+  }
+
+  const guessedIds = state.guesses;
+  const showHintsBar = Boolean(target && !won && hintTiers.length > 0);
+  const victoryModalOpen = Boolean(won && target && !victoryModalDismissed);
+
+  return (
+    <div className="space-y-6">
+      <div
+        className={`flex flex-col-reverse gap-3 sm:flex-row sm:flex-wrap sm:items-start ${showHintsBar ? "sm:justify-between" : "sm:justify-end"}`}
+      >
+        {showHintsBar && target ? (
+          <div className="w-full min-w-0 sm:flex-1">
+            <GameHintsBar target={target} guessCount={guessRows.length} />
+          </div>
+        ) : null}
+        <div className="flex w-full max-w-none shrink-0 flex-row gap-2 self-stretch sm:w-[13.5rem] sm:max-w-[13.5rem] sm:flex-col sm:self-end">
+          <Link
+            href={`/game/${universeId}/hard`}
+            className="inline-flex min-h-[2.75rem] min-w-0 flex-1 items-center justify-center gap-2 rounded-lg bg-red-600 px-3 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:w-full sm:flex-none"
+          >
+            <FaFire className="h-4 w-4 shrink-0" aria-hidden />
+            {stripAccents("Mode difficile")}
+          </Link>
+          <Button
+            variant="primary"
+            size="md"
+            className="min-w-0 flex-1 sm:w-full sm:flex-none"
+            onClick={openNewGameModal}
+            aria-label={stripAccents("Nouvelle partie")}
+          >
+            <span className="flex items-center justify-center gap-2">
+              <FaRedo className="h-4 w-4 shrink-0" aria-hidden />
+              {stripAccents("Nouvelle partie")}
+            </span>
+          </Button>
+        </div>
+      </div>
+
+      <div className="w-full">
+        <CharacterSearch
+          universeId={universeId}
+          onSubmit={submitGuess}
+          disabled={won}
+          guessedIds={guessedIds}
+          className="w-full"
+          size="lg"
+        />
+      </div>
+
+      <Modal
+        isOpen={victoryModalOpen}
+        onClose={() => setVictoryModalDismissed(true)}
+        title={stripAccents("Bravo !")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
+      >
+        {target ? (
+          <ShareResult
+            characterName={target.name}
+            guessCount={guessRows.length}
+            onNewGame={() => {
+              setVictoryModalDismissed(true);
+              openNewGameModal();
+            }}
+          />
+        ) : null}
+      </Modal>
+
+      <Modal
+        isOpen={newGameModalOpen}
+        onClose={closeNewGameModal}
+        title={stripAccents("Nouvelle partie ?")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
+      >
+        <p className="mb-6 text-sm leading-relaxed">
+          {stripAccents(
+            "Commencer une nouvelle partie ? La progression actuelle sera perdue."
+          )}
+        </p>
+        <div className="flex flex-wrap justify-end gap-2">
+          <Button variant="secondary" size="md" type="button" onClick={closeNewGameModal}>
+            {stripAccents("Annuler")}
+          </Button>
+          <Button variant="primary" size="md" type="button" onClick={confirmNewGame}>
+            {stripAccents("Commencer")}
+          </Button>
+        </div>
+      </Modal>
+
+      <div className="overflow-x-auto rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
+        <table
+          className="w-max min-w-full border-collapse text-left"
+          role="grid"
+          aria-label={stripAccents("Tentatives et feedback par catégorie")}
+        >
+          <thead>
+            <tr className="min-h-12 border-b border-gray-600 bg-gray-800/80">
+              <th className="border border-gray-600 px-4 py-3 font-semibold uppercase leading-tight text-gray-300">
+                <span className="block break-words text-[clamp(0.5rem,2vmin+0.4rem,0.9rem)]">
+                  {stripAccents("Personnage")}
+                </span>
+              </th>
+              {schema.map((entry) => (
+                <th
+                  key={entry.key}
+                  className="border border-gray-600 px-3 py-3 font-semibold uppercase leading-tight text-gray-300"
+                >
+                  <span className="block break-words text-[clamp(0.5rem,2vmin+0.4rem,0.9rem)]">
+                    {stripAccents(entry.label)}
+                  </span>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {[...guessRows].reverse().map((row) => (
+              <motion.tr
+                key={row.character.id}
+                variants={guessRowVariants}
+                initial="hidden"
+                animate="visible"
+                className="border-b border-gray-700 bg-gray-800/30 hover:bg-gray-800/50"
+              >
+                <motion.td
+                  variants={guessCellVariants}
+                  className="px-4 py-2 align-middle"
+                >
+                  <div className="flex items-center gap-2">
+                    <CharacterAvatar character={row.character} size="sm" />
+                    <span className="font-medium text-white">
+                      {stripAccents(row.character.name)}
+                    </span>
+                  </div>
+                </motion.td>
+                {row.feedback.map((item) => (
+                  <motion.td
+                    key={item.key}
+                    variants={guessCellVariants}
+                    className="px-3 py-2"
+                  >
+                    <AttributeCell
+                      label={item.label}
+                      value={item.value}
+                      status={item.status}
+                    />
+                  </motion.td>
+                ))}
+              </motion.tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  );
+}

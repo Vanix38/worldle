@@ -4,15 +4,18 @@
   "fieldMapping": {
     "gender": {
       "header": "Genre",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Genre du personnage. Valeurs possibles : Féminin, Indéterminé, Masculin."
     },
     "age": {
       "header": "Âge",
-      "fonction": "ComparaisonChiffre"
+      "fonction": "ComparaisonChiffre",
+      "description": "Âge en années ; la grille indique si l'âge est plus haut ou plus bas."
     },
     "bounty": {
       "header": "Prime",
-      "fonction": "ComparaisonChiffre"
+      "fonction": "ComparaisonChiffre",
+      "description": "Prime en berries ; comparaison numérique plus haut / plus bas."
     },
     "arc": {
       "header": "Première Apparition",
@@ -46,23 +49,28 @@
         "Whole Cake",
         "Wano Kuni",
         "Egghead"
-      ]
+      ],
+      "description": "Arc narratif de la première apparition du personnage dans le manga ou l'anime ; ordre chronologique des arcs."
     },
     "devilFruitType": {
       "header": "Type de fruit du démon",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Type de fruit du démon. Valeurs possibles dans les données : Logia, Paramecia, SMILE, Zoan, Zoan Antique, Zoan Classique, Zoan Mythique ; cas rarissime « Logia, Paramecia » ; champ vide si pas de fruit."
     },
     "affiliation": {
       "header": "Affiliation",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Équipage ou organisation principale."
     },
     "sub_affiliation": {
       "header": "Sous Affiliation",
-      "fonction": "Recherche"
+      "fonction": "Recherche",
+      "description": "Sous-affiliations ou sous-groupes (recherche uniquement)."
     },
     "aliases": {
       "header": "Alias",
-      "fonction": "Recherche"
+      "fonction": "Recherche",
+      "description": "Alias pour la recherche (non affichés dans la grille)."
     },
     "indice1": {
       "header": "Indice 1",
@@ -70,7 +78,8 @@
       "hint": {
         "prompt": "Rang & rôle",
         "icon": "FaAnchor"
-      }
+      },
+      "description": "Indice sur le rang et le rôle dans le monde de One Piece, débloqué après plusieurs tentatives."
     },
     "indice2": {
       "header": "Indice 2",
@@ -78,7 +87,8 @@
       "hint": {
         "prompt": "Fruit du démon / type",
         "icon": "FaAppleAlt"
-      }
+      },
+      "description": "Indice sur le fruit du démon ou son type, débloqué après plusieurs tentatives."
     },
     "indice3": {
       "header": "Indice 3",
@@ -86,23 +96,28 @@
       "hint": {
         "prompt": "Haki & origine",
         "icon": "FaEye"
-      }
+      },
+      "description": "Indice sur le haki et l'origine, débloqué après plusieurs tentatives."
     },
     "origin": {
       "header": "Origine",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Lieu ou mer d'origine (Grand Line, East Blue, etc.)."
     },
     "haki": {
       "header": "Haki(s) maîtrisé(s)",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Types de haki maîtrisés (tableau : un personnage peut en avoir plusieurs). Valeurs possibles : Observation, Armement, Conquérant, des Rois (orthographe « des rois » selon les fiches)."
     },
     "size": {
       "header": "Taille",
-      "fonction": "ComparaisonChiffre"
+      "fonction": "ComparaisonChiffre",
+      "description": "Taille en centimètres ; comparaison numérique."
     },
     "race": {
       "header": "Race",
-      "fonction": "Classique"
+      "fonction": "Classique",
+      "description": "Race ou peuple (humain, homme-poisson, géant, etc.)."
     }
   },
   "characters": [
