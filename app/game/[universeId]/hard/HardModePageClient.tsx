@@ -50,11 +50,11 @@ export function HardModePageClient({ universeId, universeData }: HardModePageCli
                 href="/"
                 className="min-h-[2.75rem] min-w-[2.75rem] text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
               >
-                ← Accueil
+                {stripAccents("← Accueil")}
               </Link>
             </div>
             <h1 className="min-w-0 flex-1 truncate text-center text-base font-bold text-white sm:text-lg md:text-xl">
-              Mode difficile — {stripAccents(universeData.name)}
+              {stripAccents(`Mode difficile — ${universeData.name}`)}
             </h1>
             <div className="flex min-w-0 flex-1 justify-end" aria-hidden />
           </header>

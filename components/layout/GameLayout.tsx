@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { RulesModal } from "@/components/RulesModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
 import { PageTransition } from "./PageTransition";
+import { stripAccents } from "@/lib/utils";
 
 interface GameLayoutProps {
   children: React.ReactNode;
@@ -38,9 +39,9 @@ export function GameLayout({ children }: GameLayoutProps) {
             variant="ghost"
             size="sm"
             onClick={() => setRulesOpen(true)}
-            aria-label="Comment jouer ?"
+            aria-label={stripAccents("Comment jouer ?")}
           >
-            Règles
+            {stripAccents("Règles")}
           </Button>
         </nav>
       </header>
@@ -51,7 +52,7 @@ export function GameLayout({ children }: GameLayoutProps) {
 
       <footer className="border-t border-gray-700 bg-gray-900/80 py-4">
         <div className="mx-auto max-w-5xl px-4 text-center text-sm text-gray-500 sm:px-6">
-          Worlddle – Devine le personnage
+          {stripAccents("Worlddle – Devine le personnage")}
         </div>
       </footer>
 

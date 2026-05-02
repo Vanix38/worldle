@@ -7,6 +7,7 @@ import { useHardModeState } from "@/hooks/useHardModeState";
 import { HardModeSection } from "@/components/HardModeSection";
 import { Button } from "@/components/ui/Button";
 import { Modal } from "@/components/ui/Modal";
+import { stripAccents } from "@/lib/utils";
 
 type HardModeConfirmIntent = "start" | "newSeries" | null;
 
@@ -35,16 +36,20 @@ export function HardModeToolbarWithSection({ universeId }: HardModeToolbarWithSe
 
   const confirmModalTitle =
     confirmIntent === "newSeries"
-      ? "Nouvelle série ?"
+      ? stripAccents("Nouvelle série ?")
       : confirmIntent === "start"
-        ? "Démarrer le mode difficile ?"
+        ? stripAccents("Démarrer le mode difficile ?")
         : "";
 
   const confirmModalBody =
     confirmIntent === "newSeries"
-      ? "Recommencer une série efface la série actuelle et tire un nouveau personnage. La liste des trouvés sera réinitialisée."
+      ? stripAccents(
+          "Recommencer une série efface la série actuelle et tire un nouveau personnage. La liste des trouvés sera réinitialisée."
+        )
       : confirmIntent === "start"
-        ? "Lancer une session mode difficile ? Tu devras deviner des personnages à partir de leur image, sans suggestions."
+        ? stripAccents(
+            "Lancer une session mode difficile ? Tu devras deviner des personnages à partir de leur image, sans suggestions."
+          )
         : "";
 
   return (
@@ -64,7 +69,7 @@ export function HardModeToolbarWithSection({ universeId }: HardModeToolbarWithSe
             className="w-full"
             onClick={() => hardMode.resetSession()}
           >
-            Réinitialiser la série
+            {stripAccents("Réinitialiser la série")}
           </Button>
         ) : null}
       </div>
@@ -73,7 +78,7 @@ export function HardModeToolbarWithSection({ universeId }: HardModeToolbarWithSe
         isOpen={confirmIntent !== null}
         onClose={closeConfirmModal}
         title={confirmModalTitle}
-        closeLabel="Fermer la boîte de dialogue"
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
       >
         <p className="mb-6 text-sm leading-relaxed">{confirmModalBody}</p>
         <div className="flex flex-wrap justify-end gap-2">
@@ -81,7 +86,9 @@ export function HardModeToolbarWithSection({ universeId }: HardModeToolbarWithSe
             Annuler
           </Button>
           <Button variant="primary" size="md" type="button" onClick={confirmModalAction}>
-            {confirmIntent === "newSeries" ? "Nouvelle série" : "Commencer"}
+            {confirmIntent === "newSeries"
+              ? stripAccents("Nouvelle série")
+              : stripAccents("Commencer")}
           </Button>
         </div>
       </Modal>

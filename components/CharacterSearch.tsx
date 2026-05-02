@@ -21,8 +21,8 @@ function getSearchableStrings(character: Character, searchFieldKeys: string[]): 
   return parts;
 }
 
-/** First alias to show under the name in search results (skip if empty or same as name). */
-function getFirstDisplayAlias(char: Character): string | undefined {
+/** First alias to show under the name (skip if empty or same as name). */
+export function getFirstDisplayAlias(char: Character): string | undefined {
   const raw = char.aliases?.[0];
   if (raw === undefined || raw === null) return undefined;
   const a = String(raw).trim();
@@ -134,7 +134,7 @@ export function CharacterSearch({
         onKeyDown={handleKeyDown}
         onFocus={() => query.trim() && results.length > 0 && setOpen(true)}
         onBlur={() => setTimeout(() => setOpen(false), 150)}
-        placeholder="Rechercher un personnage..."
+        placeholder={stripAccents("Rechercher un personnage...")}
         disabled={disabled}
         className={
           size === "lg"
@@ -142,7 +142,7 @@ export function CharacterSearch({
             : "min-h-[44px] w-full rounded-lg border border-gray-600 bg-gray-800 px-3 py-3 text-base text-white placeholder-gray-400 focus:border-ocean-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800 disabled:opacity-50 sm:py-2"
         }
         autoComplete="off"
-        aria-label="Rechercher un personnage"
+        aria-label={stripAccents("Rechercher un personnage")}
         aria-expanded={open}
         aria-autocomplete="list"
         aria-controls={open ? "character-listbox" : undefined}
@@ -154,7 +154,7 @@ export function CharacterSearch({
           id="character-listbox"
           role="listbox"
           className={`absolute top-full left-0 right-0 z-10 mt-2 overflow-auto rounded-xl border border-gray-600 bg-gray-800 py-1 shadow-xl ${size === "lg" ? "max-h-72" : "max-h-56"}`}
-          aria-label="Suggestions de personnages"
+          aria-label={stripAccents("Suggestions de personnages")}
         >
           {results.map((char, i) => {
             const firstAlias = getFirstDisplayAlias(char);

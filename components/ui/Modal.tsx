@@ -9,6 +9,8 @@ interface ModalProps {
   title: string;
   children: React.ReactNode;
   closeLabel?: string;
+  /** Classes du contenu sous le titre (défaut : texte secondaire). */
+  contentClassName?: string;
 }
 
 export function Modal({
@@ -17,6 +19,7 @@ export function Modal({
   title,
   children,
   closeLabel = "Fermer",
+  contentClassName = "text-gray-300",
 }: ModalProps) {
   const previousActiveRef = useRef<HTMLElement | null>(null);
 
@@ -44,7 +47,7 @@ export function Modal({
     <AnimatePresence>
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4"
           role="dialog"
           aria-modal="true"
           aria-labelledby="modal-title"
@@ -81,7 +84,7 @@ export function Modal({
                 <span className="text-2xl leading-none">&times;</span>
               </button>
             </div>
-            <div className="text-gray-300">{children}</div>
+            <div className={contentClassName}>{children}</div>
           </motion.div>
         </div>
       )}

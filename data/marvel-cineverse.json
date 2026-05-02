@@ -194,7 +194,7 @@
       "name": "Steve Rogers",
       "status": "En Vie",
       "aliases": [
-        "Captain America (Steve Rogers)",
+        "Captain America",
         "Steven Grant Rogers"
       ],
       "species": "Humain",
@@ -213,7 +213,7 @@
       "name": "Thor",
       "status": "En Vie",
       "aliases": [
-        "Thor Odinson (MCU principal, Terre-616)"
+        "Thor Odinson"
       ],
       "species": "Asgardian",
       "gender": "Homme",
@@ -314,7 +314,7 @@
       "name": "Wanda Maximoff",
       "status": "Décédé",
       "aliases": [
-        "Scarlet Witch (MCU / Terre-616)"
+        "Scarlet Witch"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -461,7 +461,7 @@
       "name": "White Vision",
       "status": "En Vie",
       "aliases": [
-        "Vision (reconstruit)",
+        "Vision",
         "Vision (rebuilt)"
       ],
       "species": "Robot",
@@ -521,7 +521,7 @@
       "name": "Peter Quill",
       "status": "En Vie",
       "aliases": [
-        "Star-Lord (Peter Quill / MCU)",
+        "Star-Lord",
         "Peter Jason Quill"
       ],
       "species": "Humain",
@@ -645,7 +645,7 @@
       "name": "Hope van Dyne",
       "status": "En Vie",
       "aliases": [
-        "Wasp (Hope van Dyne)",
+        "Wasp",
         "La Guêpe (Hope van Dyne)"
       ],
       "species": "Humain",
@@ -664,7 +664,7 @@
       "name": "Shang-Chi",
       "status": "En Vie",
       "aliases": [
-        "Xu Shang-Chi (å¾å°šæ°£)"
+        "Xu Shang-Chi"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -701,7 +701,7 @@
       "id": "kate_bishop-mcu-616",
       "name": "Kate Bishop",
       "aliases": [
-        "Hawkeye (Kate Bishop)",
+        "Hawkeye",
         "Katherine Elizabeth Bishop"
       ],
       "status": "En Vie",
@@ -721,7 +721,7 @@
       "name": "Matt Murdock (Terre-616)",
       "status": "En Vie",
       "aliases": [
-        "Daredevil (Netflix / MCU, Terre-616)",
+        "Daredevil",
         "Matthew Michael Murdock"
       ],
       "species": "Humain",
@@ -819,7 +819,7 @@
       "name": "Wade Wilson (Origines)",
       "status": "Décédé",
       "aliases": [
-        "Wade Winston Wilson (X-Men Origins : Wolverine)",
+        "Wade Winston Wilson",
         "Mercenaire"
       ],
       "species": "Mutant",
@@ -860,7 +860,7 @@
       "id": "anna_marie-mcu-616",
       "name": "Anna Marie",
       "aliases": [
-        "Rogue (MCU / Terre-616)",
+        "Rogue",
         "Malicia (MCU)"
       ],
       "status": "En Vie",
@@ -924,7 +924,7 @@
       "name": "Vanessa Carlysle",
       "status": "En Vie",
       "aliases": [
-        "Vanessa Geraldine Carlysle (MCU / Deadpool)"
+        "Vanessa Geraldine Carlysle"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -1491,7 +1491,7 @@
       "name": "Ho Yinsen",
       "status": "Décédé",
       "aliases": [
-        "Ho Yinsen (Ù‡Ùˆ ÛŒÛŒÙ†Ø³Ù†)"
+        "Ho Yinsen"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -2268,7 +2268,7 @@
       "name": "Elektra Natchios",
       "status": "Inconnu",
       "aliases": [
-        "Elektra (Daredevil Netflix)",
+        "Elektra",
         "Elektra Natchios (adoptive name)"
       ],
       "species": "Humain",
@@ -2634,7 +2634,7 @@
       "name": "Algrim",
       "status": "Décédé",
       "aliases": [
-        "Algrim (�\u001elgrim)"
+        "Algrim"
       ],
       "species": "Dark Elf",
       "gender": "Homme",
@@ -2750,7 +2750,7 @@
       "name": "Helen Cho",
       "status": "En Vie",
       "aliases": [
-        "Helen Cho (ì¡°í—¬ë Œ)"
+        "Helen Cho"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -3178,7 +3178,7 @@
       "name": "Janet van Dyne",
       "status": "En Vie",
       "aliases": [
-        "Wasp (Janet van Dyne)",
+        "Wasp",
         "La Guêpe (Janet van Dyne)"
       ],
       "species": "Humain",
@@ -3249,7 +3249,7 @@
       "name": "Alexei Shostakov",
       "status": "En Vie",
       "aliases": [
-        "Alexei Andreovitch Shostakov (ÐÐ»ÐµÐºÑÐµÐ¹ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡ Ð¨Ð¾ÑÑ‚Ð°ÐºÐ¾Ð²)"
+        "Alexei Andreovitch Shostakov"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -3267,7 +3267,7 @@
       "name": "Melina Vostokoff",
       "status": "En Vie",
       "aliases": [
-        "Melina Vostokoff (ÐœÐµÐ»Ð¸Ð½Ð° Ð’Ð¾ÑÑ‚Ð¾ÐºÐ¾Ð²)"
+        "Melina Vostokoff"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -3285,7 +3285,7 @@
       "name": "Dreykov",
       "status": "Décédé",
       "aliases": [
-        "Dreykov (Ð”Ñ€ÐµÐ¹ÐºÐ¾Ð²)"
+        "Dreykov"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -3303,7 +3303,7 @@
       "name": "Antonia Dreykov",
       "status": "Décédé",
       "aliases": [
-        "Antonia Dreykov (ÐÐ½Ñ‚Ð¾Ð½Ð¸Ñ Ð”Ñ€ÐµÐ¹ÐºÐ¾Ð²Ð°)"
+        "Antonia Dreykov"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -3321,7 +3321,7 @@
       "name": "Wenwu",
       "status": "Décédé",
       "aliases": [
-        "Xu Wenwu (å¾æ–‡æ­¦)"
+        "Xu Wenwu"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -3339,7 +3339,7 @@
       "name": "Xialing",
       "status": "En Vie",
       "aliases": [
-        "Xu Xialing (å¾å¤éˆ)"
+        "Xu Xialing"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -3357,7 +3357,7 @@
       "name": "Katy Chen",
       "status": "En Vie",
       "aliases": [
-        "Chen Ruiwen (é™³ç‘žæ–‡)"
+        "Chen Ruiwen"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -3412,7 +3412,7 @@
       "name": "Ying Nan",
       "status": "En Vie",
       "aliases": [
-        "Ying Nan (æ‡‰å—)"
+        "Ying Nan"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -3669,7 +3669,7 @@
       "name": "Rintrah",
       "status": "En Vie",
       "aliases": [
-        "Rintrah (Maître des arts mystiques)"
+        "Rintrah"
       ],
       "species": "R'Vaalian",
       "gender": "Homme",
@@ -4162,7 +4162,7 @@
       "name": "Khonshu",
       "status": "En Vie",
       "aliases": [
-        "Khonshu (á¸«nsw)"
+        "Khonshu"
       ],
       "species": "Ennead",
       "gender": "Homme",
@@ -4289,7 +4289,7 @@
       "name": "Kang",
       "status": "Décédé",
       "aliases": [
-        "Kang le Conquérant (Quantumania)",
+        "Kang le Conquérant",
         "Kang the Conqueror (Quantumania)",
         "Nathaniel Richards (Quantumania)"
       ],
@@ -4309,7 +4309,7 @@
       "name": "Jentorra",
       "status": "En Vie",
       "aliases": [
-        "Cheffe des combattants de la liberté (Royaume quantique)"
+        "Cheffe des combattants de la liberté"
       ],
       "gender": "Femme",
       "affiliation": "Monde quantique",
@@ -4361,7 +4361,7 @@
       "name": "Lylla",
       "status": "Décédé",
       "aliases": [
-        "89Q12 (subject name)"
+        "89Q12"
       ],
       "species": "Loutre",
       "gender": "Femme",
@@ -4500,7 +4500,7 @@
       "name": "Weasel",
       "status": "En Vie",
       "aliases": [
-        "The Weasel (Kamar-Taj)"
+        "The Weasel"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -5191,7 +5191,7 @@
       "name": "Colleen Wing",
       "status": "En Vie",
       "aliases": [
-        "Iron Fist (Colleen Wing)",
+        "Iron Fist",
         "Daughter of the Dragon"
       ],
       "species": "Humain",
@@ -5547,7 +5547,7 @@
       "name": "Eddie Brock (Terre-688)",
       "status": "En Vie",
       "aliases": [
-        "Eddie Brock (SSU)",
+        "Eddie Brock",
         "Venom"
       ],
       "species": "Humain",
@@ -5565,7 +5565,7 @@
       "id": "venom-ssu-688",
       "name": "Venom (Terre-688)",
       "aliases": [
-        "Venom (Symbiote SSU)",
+        "Venom",
         "Venom (Terre-688)"
       ],
       "status": "En Vie",
@@ -5683,7 +5683,7 @@
       "name": "Julia Cornwall",
       "status": "En Vie",
       "aliases": [
-        "Spider-Woman (Madame Web)",
+        "Spider-Woman",
         "Spider-Woman (Julia Cornwall)"
       ],
       "species": "Humain",
@@ -5834,7 +5834,7 @@
       "name": "Harry Osborn (Terre-96283)",
       "status": "Décédé",
       "aliases": [
-        "Harry Osborn (Terre-96283)",
+        "Harry Osborn",
         "New Goblin",
         "Little Goblin Jr",
         "Harold Theopolis Osborn (Terre-96283)",
@@ -5857,7 +5857,7 @@
       "name": "Eddie Brock (Terre-96283)",
       "status": "Décédé",
       "aliases": [
-        "Eddie Brock (Spider-Man 3)",
+        "Eddie Brock",
         "Venom",
         "Bruckner",
         "Bernstein",
@@ -5882,7 +5882,7 @@
       "name": "Venom (Terre-96283)",
       "status": "Décédé",
       "aliases": [
-        "Venom (Spider-Man 3)",
+        "Venom",
         "Venom (Symbiote Raimi)",
         "Specimen",
         "The Black",
@@ -5904,7 +5904,7 @@
       "name": "May Parker (Terre-96283)",
       "status": "En Vie",
       "aliases": [
-        "Aunt May (Terre-96283 / Raimi)",
+        "Aunt May",
         "May Parker (Terre-96283 / Raimi)",
         "Tante May (Terre-96283 / Raimi)"
       ],
@@ -5967,7 +5967,7 @@
       "name": "Harry Osborn (Terre-120703)",
       "status": "En détention",
       "aliases": [
-        "Green Goblin (Webb)",
+        "Green Goblin",
         "Harold Theopolis Osborn (Terre-120703)",
         "Le Bouffon Vert (Webb)"
       ],
@@ -6086,7 +6086,7 @@
       "name": "Charles Xavier (Terre-10005)",
       "status": "Décédé",
       "aliases": [
-        "Professor X (Fox, adulte)",
+        "Professor X",
         "The Professor (Fox)",
         "Wheels (Fox)",
         "Chuck (Fox)",
@@ -6108,7 +6108,7 @@
       "name": "Erik Lehnsherr (Terre-10005)",
       "status": "Décédé",
       "aliases": [
-        "Magneto (Fox, adulte / Ian McKellen)",
+        "Magneto",
         "Erik Magnus Lehnsherr (Fox, adulte)",
         "Frankenstein's Monster (Magneto Fox, adulte)"
       ],
@@ -6149,7 +6149,7 @@
       "name": "Jean Grey",
       "status": "Décédé",
       "aliases": [
-        "Dr. Jean Grey (Fox)",
+        "Dr. Jean Grey",
         "Phoenix (Fox)",
         "Jean Elaine Grey (Terre-10005)"
       ],
@@ -6169,7 +6169,7 @@
       "name": "Scott Summers",
       "status": "Décédé",
       "aliases": [
-        "Cyclope (Terre-10005)",
+        "Cyclope",
         "Cyclops (Terre-10005)",
         "Scott Summers (Fox)"
       ],
@@ -6189,7 +6189,7 @@
       "name": "Ororo Munroe",
       "status": "Décédé",
       "aliases": [
-        "Storm (Fox, Terre-10005)"
+        "Storm"
       ],
       "species": "Mutant",
       "gender": "Femme",
@@ -6207,7 +6207,7 @@
       "name": "Hank McCoy (Fox, adulte)",
       "status": "Décédé",
       "aliases": [
-        "Dr. Hank McCoy (X-Men 2)",
+        "Dr. Hank McCoy",
         "Beast (trilogie X-Men)",
         "Le Fauve",
         "Bigfoot",
@@ -6231,7 +6231,7 @@
       "name": "Marie D'Ancanto",
       "status": "Décédé",
       "aliases": [
-        "Rogue (Fox / Terre-10005)"
+        "Rogue"
       ],
       "species": "Mutant",
       "gender": "Femme",
@@ -6429,7 +6429,7 @@
       "name": "Cable",
       "status": "En Vie",
       "aliases": [
-        "Thanos (blague familiale / Deadpool 2)",
+        "Thanos",
         "Grumpy Old Fucker with a Winter Soldier Arm",
         "Vicious Super Soldier from the Future",
         "John Connor",
@@ -6513,7 +6513,7 @@
       "name": "Warren Worthington III",
       "status": "Décédé",
       "aliases": [
-        "Angel (Fox, mutation X-Men)"
+        "Angel"
       ],
       "species": "Mutant",
       "gender": "Homme",
@@ -6587,7 +6587,7 @@
       "name": "Laura",
       "status": "En Vie",
       "aliases": [
-        "X23-23 (Logan / Fox)"
+        "X23-23"
       ],
       "species": "Mutant",
       "gender": "Femme",
@@ -6674,7 +6674,7 @@
       "name": "James Howlett",
       "status": "En Vie",
       "aliases": [
-        "Logan (Fox, nouvelle ancre Deadpool & Wolverine)",
+        "Logan",
         "Wolverine (Fox, nouvelle ancre DP&W)"
       ],
       "species": "Mutant",
@@ -6693,7 +6693,7 @@
       "name": "Maria Rambeau (Binary)",
       "status": "En Vie",
       "aliases": [
-        "Maria Rambeau (Terre-10005)",
+        "Maria Rambeau",
         "Binary",
         "Captain Marvel (Terre-10005)"
       ],
@@ -6768,7 +6768,7 @@
       "name": "En Sabah Nur (Terre-RTN414)",
       "status": "Décédé",
       "aliases": [
-        "Apocalypse (Terre-RTN414)",
+        "Apocalypse",
         "En Sabah Nur (X-Men : Apocalypse)"
       ],
       "species": "Mutant",
@@ -6787,7 +6787,7 @@
       "name": "Hank McCoy (Terre-RTN414)",
       "status": "Décédé",
       "aliases": [
-        "Beast (Logan / Terre-RTN414)",
+        "Beast",
         "Dr. Hank McCoy (Logan)"
       ],
       "species": "Mutant",
@@ -6806,7 +6806,7 @@
       "name": "Jean Grey (Terre-RTN414)",
       "status": "Décédé",
       "aliases": [
-        "Dr. Jean Grey (Logan / RTN414)",
+        "Dr. Jean Grey",
         "Phoenix (Terre-RTN414)",
         "Jean Elaine Grey (Terre-RTN414)"
       ],
@@ -6826,7 +6826,7 @@
       "name": "Laura Kinney (Terre-RTN414)",
       "status": "En Vie",
       "aliases": [
-        "X-23 (Terre-RTN414)",
+        "X-23",
         "Laura (Terre-RTN414 / Logan)",
         "X23-23 (Terre-RTN414)"
       ],
@@ -6846,7 +6846,7 @@
       "name": "Ororo Munroe (Terre-RTN414)",
       "status": "Décédé",
       "aliases": [
-        "Storm (Terre-RTN414 / Logan)",
+        "Storm",
         "Tornade (Terre-RTN414)"
       ],
       "species": "Mutant",
@@ -6865,7 +6865,7 @@
       "name": "Scott Summers (Terre-RTN414)",
       "status": "Décédé",
       "aliases": [
-        "Cyclope (Terre-RTN414)",
+        "Cyclope",
         "Cyclops (Terre-RTN414)",
         "Scott Summers (Terre-RTN414)"
       ],
@@ -6885,7 +6885,7 @@
       "name": "Vanessa Carlysle (Terre-RTN414)",
       "status": "Décédé",
       "aliases": [
-        "Vanessa Geraldine Carlysle (Terre-RTN414 / Logan)"
+        "Vanessa Geraldine Carlysle"
       ],
       "species": "Humain",
       "gender": "Femme",
@@ -6921,7 +6921,7 @@
       "name": "Charles Xavier (Fox, jeune)",
       "status": "Décédé",
       "aliases": [
-        "Professor X (Fox, jeune)",
+        "Professor X",
         "Charles Francis Xavier (First Class)"
       ],
       "species": "Mutant",
@@ -6940,7 +6940,7 @@
       "name": "Erik Lensherr (jeune)",
       "status": "Décédé",
       "aliases": [
-        "Magneto (Fox, jeune / First Class)",
+        "Magneto",
         "Frankenstein's Monster (Magneto Fox, jeune)",
         "Erik Magnus Lehnsherr (Fox, jeune)"
       ],
@@ -7084,7 +7084,7 @@
       "id": "norrin_radd-fox_fantastiques-121698",
       "name": "Norrin Radd",
       "aliases": [
-        "Surfer d'Argent (Fox, Norrin Radd / 2007)"
+        "Surfer d'Argent"
       ],
       "status": "En Vie",
       "species": "Alien",
@@ -7119,7 +7119,7 @@
       "name": "Miles Morales",
       "status": "En Vie",
       "aliases": [
-        "Spider-Man (Miles Morales / Spider-Verse)"
+        "Spider-Man"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -7158,7 +7158,7 @@
       "name": "Peter B. Parker",
       "status": "En Vie",
       "aliases": [
-        "Spider-Man (Peter B. Parker / Spider-Verse)",
+        "Spider-Man",
         "Peter Benjamin Parker",
         "Peter Parker",
         "Friendly Neighborhood Spider-Man",
@@ -7202,7 +7202,7 @@
       "name": "Spider-Noir",
       "status": "En Vie",
       "aliases": [
-        "Spider-Man (Spider-Noir / Spider-Verse)"
+        "Spider-Man"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -7407,7 +7407,7 @@
       "id": "matt_murdock-independants-26320",
       "name": "Matt Murdock",
       "aliases": [
-        "Daredevil (film 2003, Ben Affleck)",
+        "Daredevil",
         "Le Démon de Hell's Kitchen (film 2003)"
       ],
       "status": "En Vie",
@@ -7426,7 +7426,7 @@
       "id": "elektra_natchios-independants-701306",
       "name": "Elektra Natchios (Terre-701306)",
       "aliases": [
-        "Elektra (film 2005)",
+        "Elektra",
         "Elektra Natchios (Terre-701306)"
       ],
       "status": "En Vie",
@@ -7522,7 +7522,7 @@
       "name": "President Loki",
       "status": "En Vie",
       "aliases": [
-        "President Loki (variante TVA)"
+        "President Loki"
       ],
       "species": "Frost Giant",
       "gender": "Homme",
@@ -7615,7 +7615,7 @@
       "name": "Kang le Conquérant",
       "status": "Décédé",
       "aliases": [
-        "Kang the Conqueror (Conseil des Kangs)",
+        "Kang the Conqueror",
         "Kang le Conquérant (variante TVA)"
       ],
       "species": "Humain",
@@ -7634,7 +7634,7 @@
       "name": "Victor Timely (variante)",
       "status": "En Vie",
       "aliases": [
-        "Victor Timely (Loki, variante TVA)"
+        "Victor Timely"
       ],
       "species": "Humain",
       "gender": "Homme",
@@ -7693,7 +7693,7 @@
       "name": "Karl Mordo",
       "status": "En Vie",
       "aliases": [
-        "Baron Mordo (Terre-838 / Multiverse of Madness)",
+        "Baron Mordo",
         "Karl Mordo (Terre-838 / Illuminati)"
       ],
       "species": "Humain",
@@ -7754,7 +7754,7 @@
       "name": "Captain Britain (Terre-838)",
       "status": "Décédé",
       "aliases": [
-        "Margaret Carter (Terre-838)",
+        "Margaret Carter",
         "Peggy Carter (Terre-838 / Illuminati)",
         "Captain Carter (Terre-838)",
         "Margaret Elizabeth Carter (Terre-838)"
@@ -7775,7 +7775,7 @@
       "name": "Charles Xavier (Terre-838)",
       "status": "Décédé",
       "aliases": [
-        "Professor X (Terre-838 / Illuminati)",
+        "Professor X",
         "Charles Francis Xavier (Terre-838)"
       ],
       "species": "Mutant",
@@ -7794,7 +7794,7 @@
       "name": "Maria Rambeau (Terre-838)",
       "status": "Décédé",
       "aliases": [
-        "Captain Marvel (Terre-838)"
+        "Captain Marvel"
       ],
       "species": [
         "Humain",
@@ -7833,7 +7833,7 @@
       "id": "t_challa-mcu-21818",
       "name": "T'Challa (Terre-21818)",
       "aliases": [
-        "Star-Lord (T'Challa / What If...?)",
+        "Star-Lord",
         "T'Challa (variante What If...?, Star-Lord)"
       ],
       "status": "En Vie",
@@ -7874,7 +7874,7 @@
       "name": "Stephen Strange (Terre-838)",
       "status": "Décédé",
       "aliases": [
-        "Doctor Strange (Terre-838)",
+        "Doctor Strange",
         "Docteur Strange (Terre-838)",
         "Sorcier Supreme (Terre-838)",
         "Strange (Illuminati)"

@@ -13,7 +13,7 @@ export default function Home() {
           Worlddle
         </h1>
         <p className="mt-3 text-base text-gray-400 sm:text-lg">
-          Choisis un univers et devine le personnage.
+          {stripAccents("Choisis un univers et devine le personnage.")}
         </p>
       </header>
 
@@ -32,7 +32,7 @@ export default function Home() {
                   }),
                   ...(!u.banner && { backgroundColor: "rgba(17, 24, 39, 0.95)" }),
                 }}
-                aria-label={`Jouer à ${stripAccents(u.name)}`}
+                aria-label={stripAccents(`Jouer à ${u.name}`)}
               >
                 {u.logo ? (
                   <span className="relative z-10 flex items-center justify-center">

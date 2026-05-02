@@ -51,7 +51,7 @@ export function GamePageClient({ universeId, universeData }: GamePageClientProps
                 href="/"
                 className="min-h-[2.75rem] min-w-[2.75rem] text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
               >
-                ← Accueil
+                {stripAccents("← Accueil")}
               </Link>
             </div>
             <h1 className="min-w-0 flex-1 truncate text-center text-lg font-bold text-white sm:text-xl">

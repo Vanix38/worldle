@@ -1,12 +1,20 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type RefObject,
+} from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
+import { FaFire, FaRedo } from "react-icons/fa";
 import { useGameState } from "@/hooks/useGameState";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import type { UniverseId } from "@/types/game";
-import { CharacterSearch } from "./CharacterSearch";
+import { CharacterSearch, getFirstDisplayAlias } from "./CharacterSearch";
 import { AttributeCell } from "./AttributeCell";
 import { ShareResult } from "./ShareResult";
 import { GameHintsBar } from "./GameHintsBar";
@@ -15,18 +23,82 @@ import { stripAccents } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { Modal } from "@/components/ui/Modal";
 
-const tableVariants = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: { staggerChildren: 0.05, delayChildren: 0.02 },
+/** Décale l’apparition de chaque cellule dans une ligne nouvellement ajoutée. */
+const guessRowVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.2,
+      delayChildren: 0.12,
+    },
   },
 };
 
-const rowVariants = {
-  hidden: { opacity: 0, y: -8 },
-  show: { opacity: 1, y: 0 },
+const guessCellVariants: Variants = {
+  hidden: { opacity: 0, y: 10 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] },
+  },
 };
+
+/** Séquence clavier classique (↑↑↓↓←→←→BA), sans Start. */
+const KONAMI_SEQUENCE = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a",
+] as const;
+
+function konamiNormalizeKey(e: KeyboardEvent): string | null {
+  const t = e.target as HTMLElement | null;
+  if (!t) return null;
+  const tag = t.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || t.isContentEditable) {
+    return null;
+  }
+  const k = e.key;
+  if (k === "ArrowUp" || k === "ArrowDown" || k === "ArrowLeft" || k === "ArrowRight") {
+    return k;
+  }
+  if (k.length === 1 && /[a-zA-Z]/.test(k)) return k.toLowerCase();
+  return null;
+}
+
+function useScrollOverflowFade(scrollRef: RefObject<HTMLDivElement | null>) {
+  const [showRightFade, setShowRightFade] = useState(false);
+
+  const update = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const overflow = el.scrollWidth > el.clientWidth + 2;
+    const gapEnd = el.scrollWidth - el.clientWidth - el.scrollLeft;
+    const notAtEnd = gapEnd > 4;
+    setShowRightFade(overflow && notAtEnd);
+  }, [scrollRef]);
+
+  useLayoutEffect(() => {
+    update();
+  }, [update]);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [scrollRef, update]);
+
+  return { showRightFade, update };
+}
 
 interface GameBoardProps {
   universeId: UniverseId;
@@ -44,6 +116,11 @@ export function GameBoard({ universeId }: GameBoardProps) {
   } = useGameState(universeId);
 
   const [newGameModalOpen, setNewGameModalOpen] = useState(false);
+  const [victoryModalDismissed, setVictoryModalDismissed] = useState(false);
+  const [konamiModalOpen, setKonamiModalOpen] = useState(false);
+  const konamiProgressRef = useRef(0);
+  const tableScrollRef = useRef<HTMLDivElement>(null);
+  const { showRightFade, update: updateScrollFade } = useScrollOverflowFade(tableScrollRef);
 
   const openNewGameModal = useCallback(() => setNewGameModalOpen(true), []);
   const closeNewGameModal = useCallback(() => setNewGameModalOpen(false), []);
@@ -53,41 +130,87 @@ export function GameBoard({ universeId }: GameBoardProps) {
     setNewGameModalOpen(false);
   }, [startNewGame]);
 
+  const won = state?.won ?? false;
+  useEffect(() => {
+    if (won) setVictoryModalDismissed(false);
+  }, [won]);
+
+  useEffect(() => {
+    konamiProgressRef.current = 0;
+  }, [target?.id]);
+
+  useEffect(() => {
+    if (!target) return;
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      const k = konamiNormalizeKey(e);
+      if (k === null) return;
+
+      const seq = KONAMI_SEQUENCE;
+      let i = konamiProgressRef.current;
+
+      if (k === seq[i]) {
+        i += 1;
+        if (i >= seq.length) {
+          konamiProgressRef.current = 0;
+          setKonamiModalOpen(true);
+        } else {
+          konamiProgressRef.current = i;
+        }
+      } else {
+        konamiProgressRef.current = k === seq[0] ? 1 : 0;
+      }
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [target]);
+
+  useLayoutEffect(() => {
+    updateScrollFade();
+  }, [guessRows.length, schema.length, updateScrollFade]);
+
   if (!state) {
     return (
-      <div className="flex justify-center py-12 text-gray-400">Chargement...</div>
+      <div className="flex justify-center py-12 text-gray-400">
+        {stripAccents("Chargement...")}
+      </div>
     );
   }
 
-  const won = state.won;
   const guessedIds = state.guesses;
   const showHintsBar = Boolean(target && !won && hintTiers.length > 0);
+  const victoryModalOpen = Boolean(won && target && !victoryModalDismissed);
 
   return (
     <div className="space-y-6">
       <div
-        className={`flex flex-wrap items-start gap-3 ${showHintsBar ? "justify-between" : "justify-end"}`}
+        className={`flex flex-col-reverse gap-3 sm:flex-row sm:flex-wrap sm:items-start ${showHintsBar ? "sm:justify-between" : "sm:justify-end"}`}
       >
         {showHintsBar && target ? (
-          <div className="min-w-0 flex-1">
+          <div className="w-full min-w-0 sm:flex-1">
             <GameHintsBar target={target} guessCount={guessRows.length} />
           </div>
         ) : null}
-        <div className="flex w-full max-w-[13.5rem] shrink-0 flex-col gap-2 self-end sm:w-[13.5rem]">
+        <div className="flex w-full max-w-none shrink-0 flex-row gap-2 self-stretch sm:w-[13.5rem] sm:max-w-[13.5rem] sm:flex-col sm:self-end">
           <Link
             href={`/game/${universeId}/hard`}
-            className="inline-flex min-h-[2.75rem] w-full items-center justify-center rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+            className="inline-flex min-h-[2.75rem] min-w-0 flex-1 items-center justify-center gap-2 rounded-lg bg-red-600 px-3 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:w-full sm:flex-none"
           >
-            Mode difficile
+            <FaFire className="h-4 w-4 shrink-0" aria-hidden />
+            {stripAccents("Mode difficile")}
           </Link>
           <Button
             variant="primary"
             size="md"
-            className="w-full"
+            className="min-w-0 flex-1 sm:w-full sm:flex-none"
             onClick={openNewGameModal}
-            aria-label="Nouvelle partie"
+            aria-label={stripAccents("Nouvelle partie")}
           >
-            Nouvelle partie
+            <span className="flex items-center justify-center gap-2">
+              <FaRedo className="h-4 w-4 shrink-0" aria-hidden />
+              {stripAccents("Nouvelle partie")}
+            </span>
           </Button>
         </div>
       </div>
@@ -104,86 +227,142 @@ export function GameBoard({ universeId }: GameBoardProps) {
       </div>
 
       <Modal
+        isOpen={victoryModalOpen}
+        onClose={() => setVictoryModalDismissed(true)}
+        title={stripAccents("Bravo !")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
+        contentClassName="text-gray-100"
+      >
+        {target ? (
+          <ShareResult
+            character={target}
+            guessCount={guessRows.length}
+            onNewGame={() => {
+              setVictoryModalDismissed(true);
+              openNewGameModal();
+            }}
+          />
+        ) : null}
+      </Modal>
+
+      <Modal
+        isOpen={konamiModalOpen}
+        onClose={() => setKonamiModalOpen(false)}
+        title={stripAccents("Konami")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
+      >
+        <p className="text-sm leading-relaxed text-gray-300">
+          {stripAccents("Personnage à trouver :")}{" "}
+          {target ? (
+            <strong className="text-lg text-white">{stripAccents(target.name)}</strong>
+          ) : null}
+        </p>
+      </Modal>
+
+      <Modal
         isOpen={newGameModalOpen}
         onClose={closeNewGameModal}
-        title="Nouvelle partie ?"
-        closeLabel="Fermer la boîte de dialogue"
+        title={stripAccents("Nouvelle partie ?")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
       >
         <p className="mb-6 text-sm leading-relaxed">
-          Commencer une nouvelle partie ? La progression actuelle sera perdue.
+          {stripAccents(
+            "Commencer une nouvelle partie ? La progression actuelle sera perdue."
+          )}
         </p>
         <div className="flex flex-wrap justify-end gap-2">
           <Button variant="secondary" size="md" type="button" onClick={closeNewGameModal}>
-            Annuler
+            {stripAccents("Annuler")}
           </Button>
           <Button variant="primary" size="md" type="button" onClick={confirmNewGame}>
-            Commencer
+            {stripAccents("Commencer")}
           </Button>
         </div>
       </Modal>
 
-      <div className="overflow-x-auto rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
-        <table
-          className="w-max min-w-full border-collapse text-left"
-          role="grid"
-          aria-label="Tentatives et feedback par catégorie"
+      <div className="relative overflow-hidden rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
+        <div
+          ref={tableScrollRef}
+          onScroll={updateScrollFade}
+          className="overflow-x-auto"
         >
-          <thead>
-            <tr className="min-h-12 border-b border-gray-600 bg-gray-800/80">
-              <th className="border border-gray-600 px-4 py-3 font-semibold uppercase leading-tight text-gray-300">
-                <span className="block break-words text-[clamp(0.5rem,2vmin+0.4rem,0.9rem)]">
-                  Personnage
-                </span>
-              </th>
-              {schema.map((entry) => (
-                <th
-                  key={entry.key}
-                  className="border border-gray-600 px-3 py-3 font-semibold uppercase leading-tight text-gray-300"
-                >
-                  <span className="block break-words text-[clamp(0.5rem,2vmin+0.4rem,0.9rem)]">
-                    {stripAccents(entry.label)}
+          <table
+            className="w-max min-w-full border-collapse text-left"
+            role="grid"
+            aria-label={stripAccents("Tentatives et feedback par catégorie")}
+          >
+            <thead>
+              <tr className="min-h-12 border-b border-gray-600 bg-gray-800/80">
+                <th className="border border-gray-600 px-2 py-2 font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3">
+                  <span className="block break-words text-[clamp(0.5rem,2vmin+0.35rem,0.85rem)]">
+                    {stripAccents("Personnage")}
                   </span>
                 </th>
-              ))}
-            </tr>
-          </thead>
-          <motion.tbody variants={tableVariants} initial="hidden" animate="show">
-            {[...guessRows].reverse().map((row) => (
-              <motion.tr
-                key={row.character.id}
-                variants={rowVariants}
-                className="border-b border-gray-700 bg-gray-800/30 hover:bg-gray-800/50"
-              >
-                <td className="px-4 py-2 align-middle">
-                  <div className="flex items-center gap-2">
-                    <CharacterAvatar character={row.character} size="sm" />
-                    <span className="font-medium text-white">
-                      {stripAccents(row.character.name)}
+                {schema.map((entry) => (
+                  <th
+                    key={entry.key}
+                    className="border border-gray-600 px-2 py-2 font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3"
+                  >
+                    <span className="block break-words text-[clamp(0.5rem,2vmin+0.35rem,0.85rem)]">
+                      {stripAccents(entry.label)}
                     </span>
-                  </div>
-                </td>
-                {row.feedback.map((item) => (
-                  <td key={item.key} className="px-3 py-2">
-                    <AttributeCell
-                      label={item.label}
-                      value={item.value}
-                      status={item.status}
-                    />
-                  </td>
+                  </th>
                 ))}
-              </motion.tr>
-            ))}
-          </motion.tbody>
-        </table>
-      </div>
-
-      {won && target && (
-        <ShareResult
-          characterName={target.name}
-          guessCount={guessRows.length}
-          onNewGame={openNewGameModal}
+              </tr>
+            </thead>
+            <tbody>
+              {[...guessRows].reverse().map((row) => {
+                const firstAlias = getFirstDisplayAlias(row.character);
+                return (
+                  <motion.tr
+                    key={row.character.id}
+                    variants={guessRowVariants}
+                    initial="hidden"
+                    animate="visible"
+                    className="border-b border-gray-700 bg-gray-800/30 hover:bg-gray-800/50"
+                  >
+                    <motion.td
+                      variants={guessCellVariants}
+                      className="border border-gray-600 px-2 py-1.5 align-middle md:px-3 md:py-2 lg:px-4 lg:py-2"
+                    >
+                      <div className="flex min-w-0 max-w-[14rem] items-center gap-2 sm:max-w-xs">
+                        <CharacterAvatar character={row.character} size="sm" />
+                        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
+                          <span className="truncate text-sm font-medium text-white">
+                            {stripAccents(row.character.name)}
+                          </span>
+                          {firstAlias ? (
+                            <span className="truncate text-sm text-gray-400">
+                              {stripAccents(firstAlias)}
+                            </span>
+                          ) : null}
+                        </div>
+                      </div>
+                    </motion.td>
+                    {row.feedback.map((item) => (
+                      <motion.td
+                        key={item.key}
+                        variants={guessCellVariants}
+                        className="border border-gray-600 px-2 py-1.5 md:px-3 md:py-2 lg:px-4 lg:py-2"
+                      >
+                        <AttributeCell
+                          label={item.label}
+                          value={item.value}
+                          status={item.status}
+                        />
+                      </motion.td>
+                    ))}
+                  </motion.tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        <div
+          className={`pointer-events-none absolute inset-y-0 right-0 z-30 w-10 bg-gradient-to-l from-gray-900 via-gray-900/85 to-transparent transition-opacity duration-200 sm:w-12 md:w-14 ${showRightFade ? "opacity-100" : "opacity-0"}`}
+          aria-hidden
         />
-      )}
+      </div>
     </div>
   );
 }

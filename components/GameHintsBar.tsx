@@ -28,12 +28,12 @@ export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
     <div
       className="rounded-lg border border-amber-700/40 bg-amber-950/20 px-3 py-3"
       role="region"
-      aria-label="Indices"
+      aria-label={stripAccents("Indices")}
     >
       <p className="mb-2 text-xs font-medium uppercase tracking-wide text-amber-500/90">
-        Indices (un palier tous les {HINT_INTERVAL} tentatives)
+        {stripAccents(`Indices (un palier tous les ${HINT_INTERVAL} tentatives)`)}
       </p>
-      <ul className="flex flex-wrap gap-2">
+      <ul className="flex w-full flex-row flex-wrap gap-2 max-sm:items-stretch sm:items-start sm:justify-start">
         {hintTiers.map((tier, index) => {
           const unlocked = guessCount >= (index + 1) * HINT_INTERVAL;
           const isOpen = Boolean(expanded[tier.fieldKey]);
@@ -44,7 +44,10 @@ export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
               : "—";
 
           return (
-            <li key={tier.fieldKey} className="flex min-w-[8rem] flex-col gap-1">
+            <li
+              key={tier.fieldKey}
+              className="flex min-w-0 max-w-full flex-1 flex-col gap-1 max-sm:min-w-[2.5rem] sm:w-auto sm:min-w-[8rem] sm:flex-none"
+            >
               <button
                 type="button"
                 disabled={!unlocked}
@@ -56,8 +59,10 @@ export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
                   }))
                 }
                 aria-expanded={unlocked ? isOpen : undefined}
-                aria-label={`Indice : ${tier.prompt}, ${!unlocked ? "verrouillé" : isOpen ? "affiché" : "masqué"}`}
-                className={`flex items-center gap-2 rounded-md border px-2 py-2 text-left text-sm transition-colors ${
+                aria-label={stripAccents(
+                  `Indice : ${tier.prompt}, ${!unlocked ? "verrouillé" : isOpen ? "affiché" : "masqué"}`
+                )}
+                className={`flex w-full items-center justify-center gap-2 rounded-md border px-2 py-2 text-left text-sm transition-colors max-sm:min-h-[3rem] max-sm:px-3 max-sm:py-3 sm:w-auto sm:justify-start sm:px-2 sm:py-2 ${
                   unlocked
                     ? isOpen
                       ? "border-amber-500/60 bg-amber-900/40 text-amber-100"
@@ -65,12 +70,17 @@ export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
                     : "cursor-not-allowed border-gray-700 bg-gray-900/50 text-gray-500"
                 }`}
               >
-                <HintIcon name={tier.icon} className="h-5 w-5 shrink-0 opacity-90" />
-                <span className="font-medium leading-tight">{stripAccents(tier.prompt)}</span>
+                <HintIcon
+                  name={tier.icon}
+                  className="h-8 w-8 shrink-0 opacity-90 sm:h-5 sm:w-5"
+                />
+                <span className="hidden font-medium leading-tight sm:inline">
+                  {stripAccents(tier.prompt)}
+                </span>
               </button>
               {unlocked && isOpen && (
                 <div
-                  className="rounded border border-amber-600/30 bg-gray-900/60 px-2 py-1.5 text-sm text-amber-100"
+                  className="rounded border border-amber-600/30 bg-gray-900/60 px-2 py-1.5 text-center text-sm text-amber-100"
                   role="status"
                   aria-live="polite"
                 >

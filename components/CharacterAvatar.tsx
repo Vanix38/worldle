@@ -17,7 +17,7 @@ function getInitials(name: string): string {
 
 interface CharacterAvatarProps {
   character: Character;
-  size?: "sm" | "md";
+  size?: "sm" | "md" | "lg";
   className?: string;
 }
 
@@ -34,7 +34,12 @@ export function CharacterAvatar({
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const src = `${basePath}/universes/${universeId}/characters/${character.id}.${ext}`.replace(/^\/+/, "/");
 
-  const sizeClass = size === "sm" ? "h-10 min-h-10 min-w-10 w-10 text-xs" : "h-11 min-h-11 min-w-11 w-11 text-sm";
+  const sizeClass =
+    size === "sm"
+      ? "h-10 min-h-10 min-w-10 w-10 text-xs"
+      : size === "lg"
+        ? "h-36 min-h-36 min-w-36 w-36 text-lg sm:h-44 sm:min-h-44 sm:min-w-44 sm:w-44"
+        : "h-11 min-h-11 min-w-11 w-11 text-sm";
 
   const handleError = () => {
     if (extensionIndex < EXTENSIONS.length - 1) {

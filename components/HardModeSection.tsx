@@ -89,14 +89,19 @@ export function HardModeSection({
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
         <h2 className="text-base font-semibold text-white">Mode difficile</h2>
         <p className="text-sm text-gray-400">
-          {foundIds.length} / {characters.length} trouvé{foundIds.length !== 1 ? "s" : ""}
-          {remainingCount > 0 ? ` · ${remainingCount} restant${remainingCount > 1 ? "s" : ""}` : null}
+          {foundIds.length} / {characters.length}{" "}
+          {stripAccents(`trouvé${foundIds.length !== 1 ? "s" : ""}`)}
+          {remainingCount > 0
+            ? stripAccents(` · ${remainingCount} restant${remainingCount > 1 ? "s" : ""}`)
+            : null}
         </p>
       </div>
 
       {allFound && (
         <div className="mb-4 rounded-lg border border-green-600/40 bg-green-950/30 px-3 py-3 text-center text-sm text-green-200">
-          <p className="mb-2 font-medium">Tous les personnages ont été trouvés.</p>
+          <p className="mb-2 font-medium">
+            {stripAccents("Tous les personnages ont été trouvés.")}
+          </p>
           <Button
             type="button"
             variant="primary"
@@ -107,7 +112,7 @@ export function HardModeSection({
                 : resetAndStartNewSeries()
             }
           >
-            Nouvelle série
+            {stripAccents("Nouvelle série")}
           </Button>
         </div>
       )}
@@ -115,7 +120,7 @@ export function HardModeSection({
       {!allFound && !sessionActive && onRequestStartWithConfirm && (
         <div className="mb-4">
           <Button type="button" variant="primary" size="md" onClick={onRequestStartWithConfirm}>
-            Démarrer
+            {stripAccents("Démarrer")}
           </Button>
         </div>
       )}
@@ -123,7 +128,7 @@ export function HardModeSection({
       {foundCharacters.length > 0 && (
         <div className="mb-4">
           <p className="mb-2 text-xs font-medium uppercase tracking-wide text-gray-500">
-            Trouvés (ordre)
+            {stripAccents("Trouvés (ordre)")}
           </p>
           <ul className="flex flex-wrap gap-3">
             {foundCharacters.map((c) => (
@@ -143,7 +148,7 @@ export function HardModeSection({
           <HardModeCharacterImage character={current} className="mx-auto" />
           <form onSubmit={handleSubmit} className="space-y-2">
             <label htmlFor="hard-mode-guess" className="sr-only">
-              Nom du personnage
+              {stripAccents("Nom du personnage")}
             </label>
             <input
               id="hard-mode-guess"
@@ -156,12 +161,12 @@ export function HardModeSection({
               autoComplete="off"
               autoCorrect="off"
               spellCheck={false}
-              placeholder="Nom ou alias (sans aide)"
+              placeholder={stripAccents("Nom ou alias (sans aide)")}
               className="w-full rounded-lg border border-gray-600 bg-gray-800 px-4 py-3 text-white placeholder:text-gray-500 focus:border-ocean-500 focus:outline-none focus:ring-1 focus:ring-ocean-500"
             />
             {feedback === "wrong" && (
               <p className="text-sm text-red-400" role="status">
-                Ce n&apos;est pas assez proche. Réessaie ou passe au suivant.
+                {stripAccents("Ce n'est pas assez proche. Réessaie ou passe au suivant.")}
               </p>
             )}
             <div className="flex flex-wrap gap-2">
@@ -199,7 +204,9 @@ export function HardModeSection({
       {!allFound && sessionActive && !challengeOpen && currentId && (
         <div className="space-y-3">
           <p className="text-sm text-gray-400">
-            Défi en pause. Clique sur « Continuer » pour afficher à nouveau l&apos;image et la saisie.
+            {stripAccents(
+              "Défi en pause. Clique sur « Continuer » pour afficher à nouveau l'image et la saisie."
+            )}
           </p>
           <Button type="button" variant="primary" size="md" onClick={() => openChallenge()}>
             Continuer

@@ -32,8 +32,8 @@ export function AttributeCell({ label, value, status }: AttributeCellProps) {
   return (
     <div
       className={`rounded border px-2 py-1.5 text-sm font-medium ${className}`}
-      title={`${label}: ${value}`}
-      aria-label={`${label}: ${value} (${status})`}
+      title={stripAccents(`${label}: ${value}`)}
+      aria-label={stripAccents(`${label}: ${value} (${status})`)}
     >
       <span className="mr-1 opacity-90" aria-hidden>{symbol}</span>
       {stripAccents(String(value))}
