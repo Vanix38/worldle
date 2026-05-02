@@ -5,7 +5,7 @@
     "univers": {
       "header": "Franchise",
       "fonction": "Classique",
-      "description": "Franchise ou label de l’œuvre. Valeurs possibles dans les données : Blade (Original), Fox Fantastiques, Fox X-Men, Indépendants, MCU, Raimi-Verse, Spider-Verse, SSU, Webb-Verse."
+      "description": "Franchise ou label de l’œuvre. Valeurs possibles dans les données : Fox Fantastiques, Fox X-Men, Indépendants, MCU, Raimi-Verse, Spider-Verse, SSU, Webb-Verse."
     },
     "earth": {
       "header": "Terre",
@@ -15,7 +15,7 @@
     "status": {
       "header": "Statut",
       "fonction": "Classique",
-      "description": "État du personnage dans le MCU au moment de la dernière œuvre prise en compte. Valeurs possibles : Décédé, En Vie, En détention, Inconnu."
+      "description": "État du personnage dans le MCU au moment de la dernière œuvre prise en compte. Valeurs possibles : Décédé, En Vie, Inconnu."
     },
     "species": {
       "header": "Espèce",
@@ -1537,7 +1537,7 @@
     {
       "id": "thaddeus_ross-mcu-616",
       "name": "Thaddeus Ross",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Thaddeus E. Ross",
         "William Hurt (interprète, premiers films)"
@@ -1574,7 +1574,7 @@
     {
       "id": "justin_hammer-mcu-616",
       "name": "Justin Hammer",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
@@ -1972,7 +1972,7 @@
       "id": "baron_helmut_zemo-mcu-616",
       "name": "Baron Helmut Zemo",
       "aliases": [],
-      "status": "En détention",
+      "status": "En Vie",
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "Indépendant(e)",
@@ -2190,7 +2190,7 @@
     {
       "id": "sonny_burch-mcu-616",
       "name": "Sonny Burch",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
@@ -2224,7 +2224,7 @@
     {
       "id": "jack_duquesne-mcu-616",
       "name": "Jack Duquesne",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Jacques Duquesne"
       ],
@@ -2381,7 +2381,7 @@
     {
       "id": "adrian_toomes-mcu-616",
       "name": "Adrian Toomes",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Vulture",
         "Le Vautour"
@@ -2500,7 +2500,7 @@
     {
       "id": "mac_gargan-mcu-616",
       "name": "Mac Gargan",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "MacDonald Gargan"
       ],
@@ -3842,7 +3842,7 @@
     {
       "id": "tyler_hayward-mcu-616",
       "name": "Tyler Hayward",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
@@ -4088,7 +4088,7 @@
     {
       "id": "eleanor_bishop-mcu-616",
       "name": "Eleanor Bishop",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
@@ -4566,7 +4566,7 @@
     {
       "id": "paradox-mcu-616",
       "name": "Paradox",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Mr. Paradox"
       ],
@@ -4584,7 +4584,7 @@
     {
       "id": "samuel_sterns-mcu-616",
       "name": "Samuel Sterns",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "The Leader",
         "Le Leader"
@@ -5074,7 +5074,7 @@
     {
       "id": "melvin_potter-mcu-616",
       "name": "Melvin Potter",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
@@ -5145,7 +5145,7 @@
     {
       "id": "trish_walker-mcu-616",
       "name": "Trish Walker",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Patricia Walker",
         "Patsy Walker",
@@ -5268,7 +5268,7 @@
     {
       "id": "davos-mcu-616",
       "name": "Davos",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Serpent d'acier"
       ],
@@ -5362,7 +5362,7 @@
     {
       "id": "hernan_alvarez-mcu-616",
       "name": "Hernan Alvarez",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Shades",
         "Hernán Enrique Salazar Álvarez"
@@ -5415,7 +5415,7 @@
     {
       "id": "willis_stryker-mcu-616",
       "name": "Willis Stryker",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Willis Harold Stryker",
         "Diamondback"
@@ -5977,7 +5977,7 @@
     {
       "id": "harry_osborn-webb_verse-120703",
       "name": "Harry Osborn (Terre-120703)",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Green Goblin",
         "Harold Theopolis Osborn (Terre-120703)",
@@ -7287,7 +7287,7 @@
     {
       "id": "wilson_fisk-spider_verse-1610",
       "name": "Wilson Fisk (Terre-1610)",
-      "status": "En détention",
+      "status": "En Vie",
       "aliases": [
         "Wilson Fisk",
         "Kingpin",
@@ -7375,7 +7375,7 @@
       "indice3": "Blade, Blade II, Blade : Trinity, Deadpool & Wolverine",
       "role": "Anti-héros",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "abraham_whistler-blade_original-26320",
@@ -7393,7 +7393,7 @@
       "indice3": "Blade, Blade II, Blade : Trinity",
       "role": "Mentor",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "bruce_banner-independants-26320",
@@ -7937,7 +7937,7 @@
       "indice3": "Blade",
       "role": "Vilain",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "jared_nomak-blade_original-26320",
@@ -7956,7 +7956,7 @@
       "indice3": "Blade, Blade II",
       "role": "Vilain",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "drake-blade_original-26320",
@@ -7974,7 +7974,7 @@
       "indice3": "Blade, Blade II, Blade : Trinity",
       "role": "Vilain",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "hannibal_king-blade_original-26320",
@@ -7993,7 +7993,7 @@
       "indice3": "Blade : Trinity",
       "role": "Héros",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "abigail_whistler-blade_original-26320",
@@ -8009,7 +8009,7 @@
       "indice3": "Blade : Trinity",
       "role": "Héros",
       "earth": 26320,
-      "univers": "Blade (Original)"
+      "univers": "Indépendants"
     },
     {
       "id": "shalla_bal-mcu-828",

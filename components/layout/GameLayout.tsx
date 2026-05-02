@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaColumns } from "react-icons/fa";
+import { FaClipboardList, FaColumns, FaImage, FaUserCircle } from "react-icons/fa";
 import { Button } from "@/components/ui/Button";
 import { RulesModal } from "@/components/RulesModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
@@ -19,8 +19,13 @@ export function GameLayout({ children }: GameLayoutProps) {
   const [rulesOpen, setRulesOpen] = useState(false);
   const [columnsOpen, setColumnsOpen] = useState(false);
   const pathname = usePathname();
-  const gameUniverseMatch = pathname.match(/^\/game\/([^/]+)/);
+  const basePath = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/^\/+|\/+$/g, "");
+  const prefix = basePath ? `/${basePath}` : "";
+  const pathSansBase =
+    prefix && pathname.startsWith(prefix) ? pathname.slice(prefix.length) || "/" : pathname;
+  const gameUniverseMatch = pathSansBase.match(/^\/game\/([^/]+)/);
   const columnsUniverseId = gameUniverseMatch?.[1] ?? null;
+  const onAlternateMode = /^\/game\/[^/]+\/(hard|blur|sheet)$/.test(pathSansBase);
 
   useEffect(() => {
     if (!columnsUniverseId) setColumnsOpen(false);
@@ -37,15 +42,57 @@ export function GameLayout({ children }: GameLayoutProps) {
 
       <header className="sticky top-0 z-40 border-b border-gray-700 bg-gray-900/95 backdrop-blur">
         <nav
-          className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6"
+          className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-3 sm:gap-3 sm:px-6"
           aria-label="Navigation principale"
         >
           <Link
             href="/"
-            className="text-xl font-bold text-white transition hover:text-ocean-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
+            className="shrink-0 text-xl font-bold text-white transition hover:text-ocean-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
           >
             Worlddle
           </Link>
+
+          {columnsUniverseId ? (
+            <div
+              className="min-w-0 flex-1 overflow-x-auto py-0.5 [scrollbar-width:thin]"
+              aria-label={stripAccents("Modes de jeu")}
+            >
+              <div className="flex w-max flex-nowrap items-center gap-1.5 sm:gap-2">
+                {onAlternateMode ? (
+                  <Link
+                    href={`/game/${columnsUniverseId}`}
+                    className="inline-flex min-h-[2.25rem] shrink-0 items-center justify-center whitespace-nowrap rounded-lg bg-green-600 px-2 py-1.5 text-xs font-medium text-white transition-colors hover:bg-green-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:px-2.5 sm:text-sm"
+                  >
+                    {stripAccents("Grille")}
+                  </Link>
+                ) : null}
+                <Link
+                  href={`/game/${columnsUniverseId}/hard`}
+                  className="inline-flex min-h-[2.25rem] shrink-0 items-center justify-center gap-1 whitespace-nowrap rounded-lg bg-amber-600 px-2 py-1.5 text-xs font-medium text-white transition-colors hover:bg-amber-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:gap-1.5 sm:px-2.5 sm:text-sm"
+                >
+                  <FaUserCircle className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" aria-hidden />
+                  {stripAccents("Portrait")}
+                </Link>
+                <Link
+                  href={`/game/${columnsUniverseId}/blur`}
+                  className="inline-flex min-h-[2.25rem] shrink-0 items-center justify-center gap-1 whitespace-nowrap rounded-lg bg-violet-600 px-2 py-1.5 text-xs font-medium text-white transition-colors hover:bg-violet-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:gap-1.5 sm:px-2.5 sm:text-sm"
+                >
+                  <FaImage className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" aria-hidden />
+                  {stripAccents("Défloutage")}
+                </Link>
+                <Link
+                  href={`/game/${columnsUniverseId}/sheet`}
+                  className="inline-flex min-h-[2.25rem] shrink-0 items-center justify-center gap-1 whitespace-nowrap rounded-lg bg-sky-600 px-2 py-1.5 text-xs font-medium text-white transition-colors hover:bg-sky-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:gap-1.5 sm:px-2.5 sm:text-sm"
+                >
+                  <FaClipboardList className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" aria-hidden />
+                  {stripAccents("Fiche")}
+                </Link>
+              </div>
+            </div>
+          ) : (
+            <div className="min-w-0 flex-1" aria-hidden />
+          )}
+
           <div className="flex shrink-0 items-center gap-1 sm:gap-2">
             {columnsUniverseId ? (
               <Button

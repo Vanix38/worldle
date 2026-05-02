@@ -8,9 +8,8 @@ import {
   useState,
   type RefObject,
 } from "react";
-import Link from "next/link";
 import { motion, type Variants } from "framer-motion";
-import { FaFire, FaRedo } from "react-icons/fa";
+import { FaRedo } from "react-icons/fa";
 import { useGameState } from "@/hooks/useGameState";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import type { UniverseId } from "@/types/game";
@@ -192,27 +191,18 @@ export function GameBoard({ universeId }: GameBoardProps) {
             <GameHintsBar target={target} guessCount={guessRows.length} />
           </div>
         ) : null}
-        <div className="flex w-full max-w-none shrink-0 flex-row gap-2 self-stretch sm:w-[13.5rem] sm:max-w-[13.5rem] sm:flex-col sm:self-end">
-          <Link
-            href={`/game/${universeId}/hard`}
-            className="inline-flex min-h-[2.75rem] min-w-0 flex-1 items-center justify-center gap-2 rounded-lg bg-red-600 px-3 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:w-full sm:flex-none"
-          >
-            <FaFire className="h-4 w-4 shrink-0" aria-hidden />
-            {stripAccents("Mode difficile")}
-          </Link>
-          <Button
-            variant="primary"
-            size="md"
-            className="min-w-0 flex-1 sm:w-full sm:flex-none"
-            onClick={openNewGameModal}
-            aria-label={stripAccents("Nouvelle partie")}
-          >
-            <span className="flex items-center justify-center gap-2">
-              <FaRedo className="h-4 w-4 shrink-0" aria-hidden />
-              {stripAccents("Nouvelle partie")}
-            </span>
-          </Button>
-        </div>
+        <Button
+          variant="primary"
+          size="md"
+          className="min-h-[2.75rem] w-full shrink-0 sm:w-[13.5rem] sm:max-w-[13.5rem] sm:self-end"
+          onClick={openNewGameModal}
+          aria-label={stripAccents("Nouvelle partie")}
+        >
+          <span className="flex items-center justify-center gap-2">
+            <FaRedo className="h-4 w-4 shrink-0" aria-hidden />
+            {stripAccents("Nouvelle partie")}
+          </span>
+        </Button>
       </div>
 
       <div className="w-full">

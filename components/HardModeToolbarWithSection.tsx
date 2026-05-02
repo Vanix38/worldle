@@ -38,7 +38,7 @@ export function HardModeToolbarWithSection({ universeId }: HardModeToolbarWithSe
     confirmIntent === "newSeries"
       ? stripAccents("Nouvelle série ?")
       : confirmIntent === "start"
-        ? stripAccents("Démarrer le mode difficile ?")
+        ? stripAccents("Démarrer le portrait mystère ?")
         : "";
 
   const confirmModalBody =
@@ -48,7 +48,7 @@ export function HardModeToolbarWithSection({ universeId }: HardModeToolbarWithSe
         )
       : confirmIntent === "start"
         ? stripAccents(
-            "Lancer une session mode difficile ? Tu devras deviner des personnages à partir de leur image, sans suggestions."
+            "Lancer une série portrait mystère ? Devine chaque personnage à partir de son image seule, sans grille ni suggestions."
           )
         : "";
 

@@ -54,7 +54,7 @@ export function HardModePageClient({ universeId, universeData }: HardModePageCli
               </Link>
             </div>
             <h1 className="min-w-0 flex-1 truncate text-center text-base font-bold text-white sm:text-lg md:text-xl">
-              {stripAccents(`Mode difficile — ${universeData.name}`)}
+              {stripAccents(`Portrait mystère — ${universeData.name}`)}
             </h1>
             <div className="flex min-w-0 flex-1 justify-end" aria-hidden />
           </header>
