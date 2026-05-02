@@ -158,7 +158,6 @@
   },
   "mappedJsonKeys": [
     "gender",
-    "species",
     "bloodType",
     "age",
     "height",
@@ -175,7 +174,6 @@
   ],
   "wikiSourceFields": {
     "Genre": "gender",
-    "Espèce": "species",
     "Groupe Sanguin": "bloodType",
     "Âge": "age",
     "Taille": "height",

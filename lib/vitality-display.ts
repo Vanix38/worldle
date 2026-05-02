@@ -74,6 +74,7 @@ const UNKNOWN = new Set(
     "na",
     "?",
     "undetermined",
+    "incapacite",
   ].map(normalizeVitality),
 );
 

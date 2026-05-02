@@ -9,12 +9,13 @@
  *   --no-prune : garder tous les champs mappés.
  *   --min-rate 0.10 : seuil de prévalence (0–1).
  *   --reprune : relit data/naruto.json (--out), réapplique seulement le pruning + fieldPrevalence (pas d’API).
+ *   --backfill-status-clan : requête wiki (infobox Statut + Clan) pour chaque perso ; met à jour uniquement status/clan + fieldMapping/fieldPrevalence pour ces clés (aucun prune, autres champs inchangés).
  */
 
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { ninjaRankLastOnly } from "./naruto-ninja-rank-last.mjs";
+import { ninjaRankLastOnly, canonicalNinjaRank } from "./naruto-ninja-rank-last.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -30,6 +31,10 @@ const NARUTO_ARC_ROWS = JSON.parse(
 ).arcs;
 /** Ordre chronologique des arcs pour Comparaison ; « Inconnu » si pas de numéro de chapitre parsé. */
 const NARUTO_ARC_ORDER = ["Inconnu", ...NARUTO_ARC_ROWS.map((a) => a.label)];
+
+const NARUTO_NINJA_RANK_META = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "data", "naruto-ninja-ranks-order.json"), "utf8"),
+);
 
 function extractChapterNumber(text) {
   const m = String(text || "").match(/Chapitre\s+(\d+)/i);
@@ -53,10 +58,16 @@ const FIELD_MAPPING = {
     fonction: "Classique",
     description: "Homme ou Femme (les mentions Masculin/Féminin du wiki sont normalisées). « Variable » conservé si la fiche l’indique.",
   },
-  species: {
-    header: "Espèce",
+  status: {
+    header: "Statut",
     fonction: "Classique",
-    description: "Espèce (Humaine, etc.).",
+    description:
+      "Vivant ou Mort quand l’infobox le permet ; autres libellés wiki (ex. Incapacité) conservés (icône « ? » dans la grille).",
+  },
+  clan: {
+    header: "Clan",
+    fonction: "Classique",
+    description: "Clan(s) listés dans l’infobox (liens wiki agrégés).",
   },
   age: {
     header: "Âge",
@@ -70,8 +81,11 @@ const FIELD_MAPPING = {
   },
   ninjaRank: {
     header: "Rang ninja",
-    fonction: "Classique",
-    description: "Rang ninja (Genin, Chûnin, Anbu, Rang S, etc.).",
+    fonction: "Comparaison",
+    order: NARUTO_NINJA_RANK_META.order,
+    orderLabelEquivalence: NARUTO_NINJA_RANK_META.orderLabelEquivalence,
+    description:
+      "Hiérarchie indicative (académie → Kage). ↑ = rang plus bas dans cette échelle ; ↓ = rang plus élevé. Réglages : data/naruto-ninja-ranks-order.json.",
   },
   chakraNatures: {
     header: "Natures du chakra",
@@ -105,8 +119,8 @@ const FIELD_MAPPING = {
   indice1: {
     header: "Indice 1",
     fonction: "Indice",
-    hint: { prompt: "Classification & espèce", icon: "FaCertificate" },
-    description: "Indice lié à la classification.",
+    hint: { prompt: "Classification & rang ninja", icon: "FaCertificate" },
+    description: "Indice dérivé de la classification et du rang ninja.",
   },
   indice2: {
     header: "Indice 2",
@@ -136,10 +150,12 @@ function parseArgs(argv) {
     noPrune: false,
     minRate: 0.1,
     reprune: false,
+    backfillStatusClan: false,
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--discover") out.discover = true;
+    else if (a === "--backfill-status-clan") out.backfillStatusClan = true;
     else if (a === "--resume") out.resume = true;
     else if (a === "--dry-run") out.dryRun = true;
     else if (a === "--reprune") out.reprune = true;
@@ -354,6 +370,21 @@ function normalizeGenderDisplay(raw) {
   return s;
 }
 
+/** Infobox « Statut » → affichage jeu (cœur / crâne / ?). */
+function normalizeNarutoStatus(raw) {
+  const links = extractLinkTexts(raw || "");
+  const plain = stripPartieLabels(cleanWikiText(raw || ""));
+  const candidate = (links.join(", ") || plain).trim();
+  if (!candidate) return "";
+  const ascii = candidate
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase();
+  if (/\b(deced|mort)\b/.test(ascii) || /\bdisparu/.test(ascii) || /\btue\b/.test(ascii)) return "Mort";
+  if (/\b(vivant|alive)\b/.test(ascii) || /\ben vie\b/.test(ascii)) return "Vivant";
+  return candidate;
+}
+
 /** Personnages centrés sur Boruto / épilogue next-gen — hors scope « Naruto classique + Shippuden ». */
 function isBorutoFranchiseCharacter(params) {
   const dm = params["Début manga"] || "";
@@ -384,9 +415,13 @@ function buildCharacter(title, params) {
   ];
 
   const gender = normalizeGenderDisplay(stripPartieLabels(cleanWikiText(params["Genre"] || "")));
-  const species = stripPartieLabels(cleanWikiText(params["Espèce"] || ""));
-  const ninjaRank = stripPartieLabels(
-    ninjaRankLastOnly(cleanWikiText(params["Rang Ninja"] || "")),
+  const status = normalizeNarutoStatus(params["Statut"] || "");
+  const clanTexts = extractLinkTexts(params["Clan"] || "");
+  const clan = stripPartieLabels(
+    clanTexts.length ? clanTexts.join(", ") : cleanWikiText(params["Clan"] || ""),
+  );
+  const ninjaRank = canonicalNinjaRank(
+    stripPartieLabels(ninjaRankLastOnly(cleanWikiText(params["Rang Ninja"] || ""))),
   );
   const debutRaw = params["Début manga"] || "";
   const chNum = extractChapterNumber(debutRaw) ?? extractChapterNumber(cleanWikiText(debutRaw));
@@ -399,7 +434,7 @@ function buildCharacter(title, params) {
 
   const aliases = extractAliases(params["Autres noms"] || "").map((a) => stripPartieLabels(a)).filter(Boolean);
 
-  const indice1 = classification || species || ninjaRank || "—";
+  const indice1 = classification || ninjaRank || "—";
   const indice2 = chakraNatures || kekkeiGenkai || "—";
   const indice3Parts = [
     ...new Set(
@@ -413,7 +448,8 @@ function buildCharacter(title, params) {
     name: stripPartieLabels(title),
     aliases,
     gender,
-    species,
+    ...(status ? { status } : {}),
+    ...(clan ? { clan } : {}),
     affiliation,
     ninjaRank,
     chakraNatures,
@@ -454,7 +490,8 @@ async function discover() {
     keysPerPage: perPage,
     mappedJsonKeys: [
       "gender",
-      "species",
+      "status",
+      "clan",
       "age",
       "affiliation",
       "ninjaRank",
@@ -469,7 +506,8 @@ async function discover() {
     ],
     wikiSourceFields: {
       Genre: "gender",
-      Espèce: "species",
+      Statut: "status",
+      Clan: "clan",
       Âge: "age",
       Affiliation: "affiliation",
       Équipe: "indice3 (avec autres affiliations)",
@@ -715,6 +753,80 @@ async function scrape(opts) {
   );
 }
 
+async function backfillStatusClan(opts) {
+  const raw = fs.readFileSync(opts.outPath, "utf8");
+  const data = JSON.parse(raw);
+  const characters = data.characters;
+  if (!Array.isArray(characters)) {
+    console.error("Invalid JSON: missing characters[]");
+    process.exit(1);
+  }
+  console.log("Backfill Statut/Clan — carte catégorie → titres wiki…");
+  const titles = await fetchCategoryTitles(Infinity, opts.delay);
+  const idToTitle = new Map();
+  for (const t of titles) idToTitle.set(titleToId(t), t);
+
+  let okRows = 0;
+  let noTitle = 0;
+  for (let i = 0; i < characters.length; i++) {
+    const c = characters[i];
+    const title = idToTitle.get(c.id);
+    if (!title) {
+      noTitle++;
+      continue;
+    }
+    try {
+      const { wikitext, error } = await fetchWikitext(title);
+      await sleep(opts.delay);
+      if (error) {
+        console.warn("[backfill]", title, error);
+        continue;
+      }
+      const inner = extractInfoboxInner(wikitext);
+      if (!inner) continue;
+      const params = parseInfoboxParams(inner);
+      const status = normalizeNarutoStatus(params["Statut"] || "");
+      const clanTexts = extractLinkTexts(params["Clan"] || "");
+      const clan = stripPartieLabels(
+        clanTexts.length ? clanTexts.join(", ") : cleanWikiText(params["Clan"] || ""),
+      );
+      let touched = false;
+      if (status) {
+        c.status = status;
+        touched = true;
+      }
+      if (clan) {
+        c.clan = clan;
+        touched = true;
+      }
+      if (touched) okRows++;
+    } catch (e) {
+      console.warn("[backfill]", c.id, e.message);
+    }
+    if ((i + 1) % 50 === 0) console.log("Backfill", i + 1, "/", characters.length);
+  }
+  console.log("Fiches mises à jour (statut et/ou clan):", okRows, "| sans titre wiki:", noTitle);
+
+  const mergedFm = { ...(data.fieldMapping || {}) };
+  mergedFm.status = FIELD_MAPPING.status;
+  mergedFm.clan = FIELD_MAPPING.clan;
+
+  const fmKeys = Object.keys(mergedFm);
+  const fieldPrevalence = Object.fromEntries(
+    Object.entries(presenceRates(characters, fmKeys)).sort((a, b) => b[1] - a[1]),
+  );
+
+  const out = {
+    id: data.id || "naruto",
+    name: data.name || "Naruto",
+    fieldMapping: mergedFm,
+    fieldPrevalence,
+    characters,
+  };
+  fs.writeFileSync(opts.outPath, JSON.stringify(out, null, 2) + "\n", "utf8");
+  console.log("Wrote", opts.outPath, "(prune désactivé ; autres champs préservés)");
+}
+
 function repruneOnly(opts) {
   const raw = fs.readFileSync(opts.outPath, "utf8");
   const data = JSON.parse(raw);
@@ -725,6 +837,9 @@ function repruneOnly(opts) {
   }
   const fmKeysFull = Object.keys(FIELD_MAPPING);
   const fullFm = { ...FIELD_MAPPING };
+  for (const [k, v] of Object.entries(data.fieldMapping || {})) {
+    if (!(k in fullFm)) fullFm[k] = v;
+  }
 
   let fieldMappingOut = fullFm;
   let charactersOut = characters;
@@ -766,6 +881,11 @@ if (opts.discover) {
     console.error(e);
     process.exit(1);
   }
+} else if (opts.backfillStatusClan) {
+  backfillStatusClan(opts).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
 } else {
   scrape(opts).catch((e) => {
     console.error(e);
