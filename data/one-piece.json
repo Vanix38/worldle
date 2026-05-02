@@ -15,7 +15,7 @@
     "bounty": {
       "header": "Prime",
       "fonction": "ComparaisonChiffre",
-      "description": "Prime en berries ; comparaison numérique plus haut / plus bas."
+      "description": "Prime berries pirates ou Cross Guild Marines : 100 k (grades très bas), 1 M (enseigne à commandant), 100 M (capitaine/commodore), 300 M (contre-amiral), 500 M (vice-amiral), 3 Mds amiral, 5 Mds amiral en chef ; exceptions canon (ex. Koby 500 M, Garp 3 Mds)."
     },
     "arc": {
       "header": "Première Apparition",
@@ -510,7 +510,7 @@
       ],
       "age": 36,
       "arc": "Impel Down",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -876,7 +876,7 @@
       ],
       "age": 54,
       "arc": "Logue Town",
-      "bounty": 0,
+      "bounty": 300000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
@@ -2389,7 +2389,7 @@
       "sub_affiliation": [],
       "age": 26,
       "arc": "Baratie",
-      "bounty": 0,
+      "bounty": 1000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
@@ -2623,7 +2623,7 @@
       "sub_affiliation": [],
       "age": 105,
       "arc": "Ohara",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -2766,7 +2766,7 @@
       "sub_affiliation": [],
       "age": 32,
       "arc": "Alabasta",
-      "bounty": 0,
+      "bounty": 300000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
@@ -2954,7 +2954,7 @@
       "sub_affiliation": [],
       "age": 54,
       "arc": "Dressrosa",
-      "bounty": 0,
+      "bounty": 3000000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [
@@ -3452,7 +3452,7 @@
       "sub_affiliation": [],
       "age": 16,
       "arc": "Romance Dawn",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -4131,7 +4131,7 @@
       "sub_affiliation": [],
       "age": 46,
       "arc": "Enies Lobby",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -4170,7 +4170,7 @@
       "aliases": [
         "Chef révolutionnaire"
       ],
-      "affiliation": "Marine",
+      "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [],
       "age": 53,
       "arc": "Logue Town",
@@ -4181,7 +4181,7 @@
       "origin": "East Blue (Royaume de Goa)",
       "size": 256,
       "race": "Humain",
-      "indice1": "Marine",
+      "indice1": "Armée Révolutionnaire",
       "indice2": "Humain",
       "indice3": "East Blue (Royaume de Goa)"
     },
@@ -4195,7 +4195,7 @@
       "sub_affiliation": [],
       "age": 76,
       "arc": "Début, Marineford",
-      "bounty": 0,
+      "bounty": 3000000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -4435,7 +4435,7 @@
       "sub_affiliation": [],
       "age": 34,
       "arc": "Arlong Park",
-      "bounty": 0,
+      "bounty": 100000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
@@ -5088,7 +5088,7 @@
       "sub_affiliation": [],
       "age": 53,
       "arc": "Enies Lobby",
-      "bounty": 0,
+      "bounty": 5000000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
       "haki": [
@@ -5260,7 +5260,7 @@
       "sub_affiliation": [],
       "age": 77,
       "arc": "Marineford, Dressrosa",
-      "bounty": 0,
+      "bounty": 5000000000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [
@@ -5302,7 +5302,7 @@
       "sub_affiliation": [],
       "age": 32,
       "arc": "Archipel Sabaody",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -5531,7 +5531,7 @@
       "sub_affiliation": [],
       "age": 34,
       "arc": "Logue Town",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
       "haki": [
@@ -5763,7 +5763,7 @@
       "sub_affiliation": [],
       "age": 21,
       "arc": "Logue Town",
-      "bounty": 0,
+      "bounty": 100000000,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [
@@ -5890,7 +5890,7 @@
       "sub_affiliation": [],
       "age": 74,
       "arc": "Jaya",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [
@@ -6062,7 +6062,7 @@
       "sub_affiliation": [],
       "age": 41,
       "arc": "Punk Hazard",
-      "bounty": 0,
+      "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
@@ -7079,7 +7079,7 @@
       "sub_affiliation": [],
       "age": 0,
       "arc": "Arlong Park",
-      "bounty": 0,
+      "bounty": 100000,
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [],

@@ -133,7 +133,9 @@ export function getFeedback(
       } else if (guessVal !== undefined && guessVal !== "") {
         raw = String(guessVal).trim();
       }
-      displayValue = raw || "—";
+      displayValue =
+        raw ||
+        (entry.key === "devilFruitType" ? "Aucun" : "—");
     }
 
     return {

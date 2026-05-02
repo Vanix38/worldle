@@ -57,7 +57,7 @@ const DEAD = new Set(
   ].map(normalizeVitality),
 );
 
-/** Statuts non vivant/mort mais à afficher avec « ? ». */
+/** Statuts non vivant/mort mais à afficher avec « ? ». (Pas « — » / « - » : placeholders cellule vide dans la grille.) */
 const UNKNOWN = new Set(
   [
     "inconnu",
@@ -73,8 +73,6 @@ const UNKNOWN = new Set(
     "n/a",
     "na",
     "?",
-    "-",
-    "—",
     "undetermined",
   ].map(normalizeVitality),
 );

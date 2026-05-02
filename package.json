@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "extract-fruits": "node html/extract-fruits-demon.js",
-    "migrate-marvel-names": "node scripts/migrate-marvel-names.js"
+    "migrate-marvel-names": "node scripts/migrate-marvel-names.js",
+    "scrape-naruto": "node scripts/scrape-naruto-fandom.mjs",
+    "download-naruto-images": "node scripts/download-naruto-character-images.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",
