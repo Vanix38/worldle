@@ -7,15 +7,15 @@
       "fonction": "Classique",
       "description": "Genre du héros ou de l'anti-héros. Valeurs possibles : Féminin, Masculin, Non applicable, Non-binaire / Duo."
     },
-    "affiliation": {
-      "header": "Affiliation",
-      "fonction": "Classique",
-      "description": "Équipe ou faction principale (Avengers, X-Men, etc.)."
-    },
     "role": {
       "header": "Rôle",
       "fonction": "Classique",
       "description": "Rôle de combat dans Marvel Rivals. Valeurs possibles : Avant-garde, Duelliste, Multi-Role, Stratège."
+    },
+    "affiliation": {
+      "header": "Affiliation",
+      "fonction": "Classique",
+      "description": "Équipe ou faction principale (Avengers, X-Men, etc.)."
     },
     "race": {
       "header": "Race",

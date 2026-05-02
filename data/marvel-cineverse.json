@@ -27,6 +27,11 @@
       "fonction": "Classique",
       "description": "Genre du personnage. Valeurs possibles : Femme, Homme."
     },
+    "role": {
+      "header": "Rôle",
+      "fonction": "Classique",
+      "description": "Rôle narratif dans le MCU. Valeurs possibles dans les données : Allié, Amoral, Antagoniste, Anti-héros, Civil, Héros, Justicier, Mentor, Réformé, Traétre, Traître, Vilain."
+    },
     "affiliation": {
       "header": "Affiliation",
       "fonction": "Classique",
@@ -142,11 +147,6 @@
         "Spider-Man : Brand New Day"
       ],
       "description": "Première œuvre du MCU où le personnage apparaît ; la colonne compare l'ordre chronologique des œuvres."
-    },
-    "role": {
-      "header": "Rôle",
-      "fonction": "Classique",
-      "description": "Rôle narratif dans le MCU. Valeurs possibles dans les données : Allié, Amoral, Antagoniste, Anti-héros, Civil, Héros, Justicier, Mentor, Réformé, Traétre, Traître, Vilain."
     },
     "indice1": {
       "header": "Acteur",
