@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useState, useEffect } from "react";
+import { useCallback, useState, useEffect, useMemo } from "react";
 import { stripAccents } from "@/lib/utils";
-import type { UniverseData } from "@/types/game";
-import { UniverseDataProvider } from "@/contexts/UniverseDataContext";
+import type { Character, UniverseData } from "@/types/game";
+import { UniverseDataProvider, useUniverseData } from "@/contexts/UniverseDataContext";
 import { useBlurGuessState } from "@/hooks/useBlurGuessState";
 import { BlurCharacterImage } from "@/components/BlurCharacterImage";
 import { CharacterSearch } from "@/components/CharacterSearch";
@@ -18,6 +18,7 @@ interface BlurModePageClientProps {
 }
 
 function BlurModeContent({ universeId }: { universeId: string }) {
+  const { characters } = useUniverseData();
   const { state, target, blurPx, submitGuess, startNewGame } = useBlurGuessState(universeId);
   const [newGameModalOpen, setNewGameModalOpen] = useState(false);
   const [victoryDismissed, setVictoryDismissed] = useState(false);
@@ -35,6 +36,14 @@ function BlurModeContent({ universeId }: { universeId: string }) {
   }, [startNewGame]);
 
   const guessedIds = state?.guesses ?? [];
+  const attemptedInOrder = useMemo((): Character[] => {
+    const out: Character[] = [];
+    for (const id of guessedIds) {
+      const c = characters.find((x) => x.id === id);
+      if (c) out.push(c);
+    }
+    return out;
+  }, [guessedIds, characters]);
   const victoryModalOpen = Boolean(won && target && !victoryDismissed);
   const wrongCount = state && !state.won ? state.guesses.length : state?.won ? state.guesses.length - 1 : 0;
   const blurDescription =
@@ -88,8 +97,27 @@ function BlurModeContent({ universeId }: { universeId: string }) {
           guessedIds={guessedIds}
           className="w-full"
           size="lg"
+          hideSuggestionAvatars
         />
       </div>
+
+      {attemptedInOrder.length > 0 ? (
+        <section
+          className="rounded-xl border border-gray-600 bg-gray-900/60 px-3 py-3 sm:px-4"
+          aria-label={stripAccents("Personnages déjà essayés")}
+        >
+          <p className="mb-2 text-xs font-medium uppercase tracking-wide text-gray-500">
+            {stripAccents("Déjà essayés")}
+          </p>
+          <ol className="list-inside list-decimal space-y-1 text-sm text-gray-200">
+            {attemptedInOrder.map((c, i) => (
+              <li key={`${c.id}-${i}`} className="pl-1 marker:text-gray-500">
+                {stripAccents(c.name)}
+              </li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
 
       <Modal
         isOpen={victoryModalOpen}

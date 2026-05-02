@@ -59,6 +59,8 @@ interface CharacterSearchProps {
   className?: string;
   /** Taille du champ : "sm" par défaut, "lg" pour une barre en haut de page */
   size?: "sm" | "lg";
+  /** Masquer les portraits dans la liste de suggestions (ex. mode défloutage). */
+  hideSuggestionAvatars?: boolean;
 }
 
 export function CharacterSearch({
@@ -68,6 +70,7 @@ export function CharacterSearch({
   guessedIds,
   className = "",
   size = "sm",
+  hideSuggestionAvatars = false,
 }: CharacterSearchProps) {
   const { characters, searchFieldKeys } = useUniverseData();
   const [query, setQuery] = useState("");
@@ -167,11 +170,13 @@ export function CharacterSearch({
                 aria-selected={i === selectedIndex}
                 onClick={() => handleSelect(char)}
                 onMouseEnter={() => setSelectedIndex(i)}
-                className={`flex min-h-[44px] w-full items-center gap-3 text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-inset ${
-                  size === "lg" ? "px-5 py-3 text-base" : "px-4 py-3"
-                } ${i === selectedIndex ? "bg-gray-700" : ""}`}
+                className={`flex min-h-[44px] w-full items-center text-left text-white hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-inset ${
+                  hideSuggestionAvatars ? "gap-0" : "gap-3"
+                } ${size === "lg" ? "px-5 py-3 text-base" : "px-4 py-3"} ${i === selectedIndex ? "bg-gray-700" : ""}`}
               >
-                <CharacterAvatar character={char} size={size === "lg" ? "md" : "sm"} />
+                {!hideSuggestionAvatars ? (
+                  <CharacterAvatar character={char} size={size === "lg" ? "md" : "sm"} />
+                ) : null}
                 <div className="flex min-w-0 flex-1 flex-col gap-0.5">
                   <span className="truncate">{stripAccents(char.name)}</span>
                   {firstAlias ? (
