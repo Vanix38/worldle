@@ -33,6 +33,9 @@ function schemaEntryFromFieldMapping(
     case "Classique":
       type = "categorical";
       break;
+    case "Multivalue":
+      type = "multivalue";
+      break;
     case "Comparaison":
       type = "categorical";
       order = entry.order;
@@ -96,7 +99,7 @@ export function getSchemaFromUniverseData(universeData: UniverseData): Attribute
 export function getSearchFieldKeys(universeData: UniverseData): string[] {
   if (!universeData.fieldMapping) return [];
   return Object.entries(universeData.fieldMapping)
-    .filter(([, e]) => e.fonction === "Recherche")
+    .filter(([, e]) => e.fonction === "Recherche" || e.includeInSearch)
     .map(([key]) => key);
 }
 

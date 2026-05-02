@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true">
+  <g transform="translate(4.5,4.5)">
+    <polygon style="fill:#ccc;stroke:#464646;stroke-width:3"
+      points="115.4,83 83,115.4 37,115.4 4.6,83 4.6,37 37,4.6 83,4.6 115.4,37"/>
+  </g>
+  <text x="60" y="82" fill="#464646" font-size="72px" text-anchor="middle">陰</text>
+</svg>

@@ -14,6 +14,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { ninjaRankLastOnly } from "./naruto-ninja-rank-last.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -24,50 +25,48 @@ const CATEGORY = "Catégorie:Personnages";
 
 const DISCOVER_PAGES = ["Naruto_Uzumaki", "Sasuke_Uchiwa", "Orochimaru"];
 
+const NARUTO_ARC_ROWS = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "data", "naruto-chapitres-arcs.json"), "utf8"),
+).arcs;
+/** Ordre chronologique des arcs pour Comparaison ; « Inconnu » si pas de numéro de chapitre parsé. */
+const NARUTO_ARC_ORDER = ["Inconnu", ...NARUTO_ARC_ROWS.map((a) => a.label)];
+
+function extractChapterNumber(text) {
+  const m = String(text || "").match(/Chapitre\s+(\d+)/i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+function chapterToArcLabel(ch) {
+  if (typeof ch !== "number" || Number.isNaN(ch)) return null;
+  for (const row of NARUTO_ARC_ROWS) {
+    if (ch >= row.from && ch <= row.to) return row.label;
+  }
+  return null;
+}
+
 /** Toujours garder ces clés dans fieldMapping et sur les persos (jeu / recherche). */
-const ALWAYS_FIELD_KEYS = new Set([
-  "aliases",
-  "sub_affiliation",
-  "indice1",
-  "indice2",
-  "indice3",
-]);
+const ALWAYS_FIELD_KEYS = new Set(["aliases", "indice1", "indice2", "indice3"]);
 
 const FIELD_MAPPING = {
   gender: {
     header: "Genre",
     fonction: "Classique",
-    description: "Genre indiqué sur la fiche (peut être « Variable » pour certains personnages).",
+    description: "Homme ou Femme (les mentions Masculin/Féminin du wiki sont normalisées). « Variable » conservé si la fiche l’indique.",
   },
   species: {
     header: "Espèce",
     fonction: "Classique",
     description: "Espèce (Humaine, etc.).",
   },
-  bloodType: {
-    header: "Groupe sanguin",
-    fonction: "Classique",
-    description: "Groupe sanguin A/B/AB/O.",
-  },
   age: {
-    header: "Âge (Partie II)",
+    header: "Âge",
     fonction: "ComparaisonChiffre",
-    description: "Âge en années, privilégié à partir de la mention « Partie II » dans l’infobox ; sinon première valeur « X ans » trouvée.",
-  },
-  height: {
-    header: "Taille (Partie II, cm)",
-    fonction: "ComparaisonChiffre",
-    description: "Taille en centimètres (Partie II si présent, sinon première valeur en cm).",
+    description: "Âge en années déduit de l’infobox (priorité à la tranche Shippuden si plusieurs valeurs).",
   },
   affiliation: {
     header: "Affiliation principale",
     fonction: "Classique",
     description: "Premier lieu ou organisation listée dans Affiliation (liens wiki nettoyés).",
-  },
-  sub_affiliation: {
-    header: "Autres affiliations & équipes",
-    fonction: "Recherche",
-    description: "Affiliations secondaires et équipes (recherche uniquement).",
   },
   ninjaRank: {
     header: "Rang ninja",
@@ -76,8 +75,9 @@ const FIELD_MAPPING = {
   },
   chakraNatures: {
     header: "Natures du chakra",
-    fonction: "Classique",
-    description: "Natures listées (texte unique, tri alphabétique des éléments).",
+    fonction: "Multivalue",
+    description:
+      "Nature(s) du chakra (liste séparée par des virgules). Orange si au moins une nature est partagée avec la cible.",
   },
   kekkeiGenkai: {
     header: "Kekkei Genkai",
@@ -86,13 +86,16 @@ const FIELD_MAPPING = {
   },
   classification: {
     header: "Classification",
-    fonction: "Classique",
-    description: "Classifications (ex. Sannin, Rang S, nukenin…).",
+    fonction: "Multivalue",
+    description:
+      "Classifications (virgules). Orange si au moins une entrée est commune avec la cible.",
   },
-  debutManga: {
-    header: "Début manga",
-    fonction: "Classique",
-    description: "Référence de première apparition manga nettoyée.",
+  arc: {
+    header: "Première apparition",
+    fonction: "Comparaison",
+    order: NARUTO_ARC_ORDER,
+    description:
+      "Arc du manga au premier chapitre d’apparition (ordre chronologique). ↑ = plus tôt ; ↓ = plus tard. Bornes : data/naruto-chapitres-arcs.json.",
   },
   aliases: {
     header: "Alias",
@@ -115,7 +118,9 @@ const FIELD_MAPPING = {
     header: "Indice 3",
     fonction: "Indice",
     hint: { prompt: "Équipes & affiliation", icon: "FaUsers" },
-    description: "Indice sur équipes et affiliation.",
+    includeInSearch: true,
+    description:
+      "Affiliation principale, affiliations secondaires et équipes (virgules). Aussi utilisé pour l’autocomplete.",
   },
 };
 
@@ -307,17 +312,6 @@ function parseAgeBlock(s) {
   return mOne ? parseInt(mOne[1], 10) : undefined;
 }
 
-function parseHeightBlock(s) {
-  if (!s) return undefined;
-  const plain = stripRefs(s).replace(/<br\s*\/?>/gi, "\n");
-  const mII = plain.match(/Partie\s+II\s*[^:]*:\s*([\d.,]+)\s*cm/i);
-  if (mII) return parseFloat(mII[1].replace(",", "."));
-  const mG = plain.match(/Gaiden\s*[^:]*:\s*([\d.,]+)\s*cm/i);
-  if (mG) return parseFloat(mG[1].replace(",", "."));
-  const mAny = plain.match(/([\d.,]+)\s*cm/i);
-  return mAny ? parseFloat(mAny[1].replace(",", ".")) : undefined;
-}
-
 function titleToId(title) {
   return title
     .normalize("NFD")
@@ -325,6 +319,39 @@ function titleToId(title) {
     .replace(/[^a-zA-Z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
     .toLowerCase();
+}
+
+/** Retire « Partie I / II » (avec ou sans espace avant « : », ou &nbsp;) et « (Partie I|II) » ; coupe un suffixe wiki parasite après « | ». */
+function stripPartieLabels(s) {
+  if (!s || typeof s !== "string") return s;
+  let t = s.replace(/\u00a0/g, " ");
+  t = t.replace(/\bPartie\s+I\s*(?::|&nbsp;\s*:)\s*/gi, "");
+  t = t.replace(/\bPartie\s+II\s*(?::|&nbsp;\s*:)\s*/gi, "");
+  t = t.replace(/\s*\(\s*Partie\s+I\s*\)\s*/gi, " ");
+  t = t.replace(/\s*\(\s*Partie\s+II\s*\)\s*/gi, " ");
+  const pipe = t.indexOf("|");
+  if (pipe !== -1) t = t.slice(0, pipe);
+  t = t.replace(/\s+/g, " ").trim();
+  return t;
+}
+
+/** Genre affiché : uniquement Homme / Femme (ou Variable). */
+function normalizeGenderDisplay(raw) {
+  const s = String(raw || "").trim();
+  if (!s) return s;
+  if (/\bvariable\b/i.test(s)) return "Variable";
+  const female = /\b(femme|femelle|féminin|feminin)\b/i.test(s);
+  const male = /\b(homme|mâle|male|masculin)\b/i.test(s);
+  if (female && !male) return "Femme";
+  if (male && !female) return "Homme";
+  if (female && male) {
+    const fi = s.search(/\b(femme|femelle|féminin|feminin)\b/i);
+    const mi = s.search(/\b(homme|mâle|male|masculin)\b/i);
+    return fi >= 0 && (mi < 0 || fi < mi) ? "Femme" : "Homme";
+  }
+  if (/féminin|feminin|femme|femelle/i.test(s)) return "Femme";
+  if (/masculin|mâle|homme/i.test(s)) return "Homme";
+  return s;
 }
 
 /** Personnages centrés sur Boruto / épilogue next-gen — hors scope « Naruto classique + Shippuden ». */
@@ -351,50 +378,55 @@ function buildCharacter(title, params) {
   const kekList = extractLinkTexts(params["Kekkei Genkai"] || "").sort((a, b) => a.localeCompare(b, "fr"));
   const classList = extractLinkTexts(params["Classification"] || "").sort((a, b) => a.localeCompare(b, "fr"));
 
-  const affiliation = affTexts[0] || cleanWikiText(params["Affiliation"] || "");
-  const subUnique = [...new Set([...affTexts.slice(1), ...teams])];
+  const affiliation = stripPartieLabels(affTexts[0] || cleanWikiText(params["Affiliation"] || ""));
+  const subUnique = [
+    ...new Set([...affTexts.slice(1), ...teams].map((x) => stripPartieLabels(x)).filter(Boolean)),
+  ];
 
-  const gender = cleanWikiText(params["Genre"] || "");
-  const species = cleanWikiText(params["Espèce"] || "");
-  const bloodType = cleanWikiText(params["Groupe Sanguin"] || "");
-  const ninjaRank = cleanWikiText(params["Rang Ninja"] || "");
-  const debutManga = cleanWikiText(params["Début manga"] || "");
-  const chakraNatures = chakraList.join(", ");
-  const kekkeiGenkai = kekList.join(", ");
-  const classification = classList.join(", ");
+  const gender = normalizeGenderDisplay(stripPartieLabels(cleanWikiText(params["Genre"] || "")));
+  const species = stripPartieLabels(cleanWikiText(params["Espèce"] || ""));
+  const ninjaRank = stripPartieLabels(
+    ninjaRankLastOnly(cleanWikiText(params["Rang Ninja"] || "")),
+  );
+  const debutRaw = params["Début manga"] || "";
+  const chNum = extractChapterNumber(debutRaw) ?? extractChapterNumber(cleanWikiText(debutRaw));
+  const arc = chapterToArcLabel(chNum) ?? "Inconnu";
+  const chakraNatures = stripPartieLabels(chakraList.join(", "));
+  const kekkeiGenkai = stripPartieLabels(kekList.join(", "));
+  const classification = stripPartieLabels(classList.join(", "));
 
   const age = parseAgeBlock(params["Âge"] || "");
-  const height = parseHeightBlock(params["Taille"] || "");
 
-  const aliases = extractAliases(params["Autres noms"] || "");
+  const aliases = extractAliases(params["Autres noms"] || "").map((a) => stripPartieLabels(a)).filter(Boolean);
 
   const indice1 = classification || species || ninjaRank || "—";
   const indice2 = chakraNatures || kekkeiGenkai || "—";
-  const indice3 = (teams.length ? teams.join(", ") : "") || affiliation || "—";
+  const indice3Parts = [
+    ...new Set(
+      [affiliation, ...subUnique].map((x) => stripPartieLabels(x)).filter(Boolean),
+    ),
+  ];
+  const indice3 = stripPartieLabels(indice3Parts.join(", ") || "—");
 
   const char = {
     id,
-    name: title,
+    name: stripPartieLabels(title),
     aliases,
     gender,
     species,
-    bloodType,
     affiliation,
-    sub_affiliation: subUnique,
     ninjaRank,
     chakraNatures,
     kekkeiGenkai,
     classification,
-    debutManga,
+    arc,
     age,
-    height,
     indice1,
     indice2,
     indice3,
   };
 
   if (age === undefined) delete char.age;
-  if (height === undefined) delete char.height;
 
   return char;
 }
@@ -423,16 +455,13 @@ async function discover() {
     mappedJsonKeys: [
       "gender",
       "species",
-      "bloodType",
       "age",
-      "height",
       "affiliation",
-      "sub_affiliation",
       "ninjaRank",
       "chakraNatures",
       "kekkeiGenkai",
       "classification",
-      "debutManga",
+      "arc",
       "aliases",
       "indice1",
       "indice2",
@@ -441,16 +470,14 @@ async function discover() {
     wikiSourceFields: {
       Genre: "gender",
       Espèce: "species",
-      "Groupe Sanguin": "bloodType",
       Âge: "age",
-      Taille: "height",
       Affiliation: "affiliation",
-      Équipe: "sub_affiliation (avec autres affiliations)",
+      Équipe: "indice3 (avec autres affiliations)",
       "Rang Ninja": "ninjaRank",
       "Nature de Chakra": "chakraNatures",
       "Kekkei Genkai": "kekkeiGenkai",
       Classification: "classification",
-      "Début manga": "debutManga",
+      "Début manga": "arc (via numéro de chapitre)",
       "Autres noms": "aliases",
     },
   };
@@ -537,7 +564,6 @@ function pruneByPrevalence(characters, fieldMapping, minRate) {
       if (ch[k] !== undefined) o[k] = ch[k];
     }
     if (keep.has("aliases") && !Array.isArray(o.aliases)) o.aliases = [];
-    if (keep.has("sub_affiliation") && !Array.isArray(o.sub_affiliation)) o.sub_affiliation = [];
     return o;
   });
   const keepKeys = new Set(Object.keys(newFm));

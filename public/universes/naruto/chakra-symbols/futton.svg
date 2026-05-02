@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="241.7 108.8 125 125" aria-hidden="true">
+  <defs>
+    <radialGradient id="grboil" gradientUnits="objectBoundingBox">
+      <stop style="stop-color:#ddf;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#aad;stop-opacity:1" offset="0.5"/>
+      <stop style="stop-color:#558;stop-opacity:1" offset="1"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(241.7,113.8)">
+    <polygon style="fill:url(#grboil);stroke:#464646;stroke-width:3"
+      points="115.4,83 83,115.4 37,115.4 4.6,83 4.6,37 37,4.6 83,4.6 115.4,37"/>
+  </g>
+  <text xml:space="preserve" x="301.7" y="198.8" fill="#464646" font-size="80px" text-anchor="middle">?</text>
+</svg>

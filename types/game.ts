@@ -35,6 +35,8 @@ export interface AttributeSchemaEntry {
 /** Field behaviour from universe fieldMapping. */
 export type FieldMappingFonction =
   | "Classique"
+  /** Plusieurs valeurs (ex. natures séparées par des virgules) : orange si au moins une valeur en commun. */
+  | "Multivalue"
   | "Recherche"
   | "Comparaison"
   | "ComparaisonDate"
@@ -60,6 +62,8 @@ export interface FieldMappingEntry {
   orderLabelEquivalence?: [string, string][];
   /** If set, this field is a hint tier (order = key order in fieldMapping). */
   hint?: FieldMappingHintMeta;
+  /** Include this field in character autocomplete (e.g. Indice Naruto ↔ ancien sub_affiliation). */
+  includeInSearch?: boolean;
 }
 
 /** One unlockable hint tier derived from fieldMapping. */

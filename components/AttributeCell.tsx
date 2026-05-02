@@ -4,6 +4,11 @@ import { FaHeart, FaMars, FaQuestion, FaSkull, FaVenus } from "react-icons/fa";
 import type { FeedbackStatus } from "@/types/game";
 import { resolveGenderDisplay } from "@/lib/gender-display";
 import { resolveVitalityDisplay } from "@/lib/vitality-display";
+import {
+  NarutoChakraMixedDisplay,
+  shouldUseNarutoChakraDisplay,
+} from "@/lib/naruto-chakra-display";
+import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { stripAccents } from "@/lib/utils";
 
 interface AttributeCellProps {
@@ -31,13 +36,21 @@ const statusSymbol: Record<FeedbackStatus, string> = {
 };
 
 export function AttributeCell({ label, fieldKey, value, status }: AttributeCellProps) {
+  const { universeId } = useUniverseData();
   const className = statusClasses[status];
   const symbol = statusSymbol[status];
   const vitality = resolveVitalityDisplay(value, fieldKey);
   const gender = vitality === null ? resolveGenderDisplay(value, fieldKey) : null;
 
+  const chakraNode =
+    typeof value === "string" && shouldUseNarutoChakraDisplay(universeId, fieldKey) ? (
+      <NarutoChakraMixedDisplay value={value} iconClassName="h-6 w-6 shrink-0 rounded-sm object-contain sm:h-7 sm:w-7" />
+    ) : null;
+
   const valueNode =
-    vitality === "alive" ? (
+    chakraNode !== null ? (
+      chakraNode
+    ) : vitality === "alive" ? (
       <FaHeart className="inline-block h-4 w-4 shrink-0 text-red-100" aria-hidden />
     ) : vitality === "dead" ? (
       <FaSkull className="inline-block h-4 w-4 shrink-0 text-gray-100" aria-hidden />

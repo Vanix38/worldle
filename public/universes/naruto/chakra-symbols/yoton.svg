@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="72.8 341.3 125 125" aria-hidden="true">
+  <defs>
+    <radialGradient id="grlava" gradientUnits="objectBoundingBox">
+      <stop style="stop-color:#f50;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#d00;stop-opacity:1" offset="0.7"/>
+      <stop style="stop-color:#800;stop-opacity:1" offset="1"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(72.8,346.3)">
+    <polygon style="fill:url(#grlava);stroke:#464646;stroke-width:3"
+      points="115.4,83 83,115.4 37,115.4 4.6,83 4.6,37 37,4.6 83,4.6 115.4,37"/>
+  </g>
+  <text xml:space="preserve" x="132.8" y="431.3" fill="#464646" font-size="80px" text-anchor="middle">?</text>
+</svg>

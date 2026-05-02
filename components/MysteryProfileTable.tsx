@@ -3,6 +3,10 @@
 import { FaHeart, FaMars, FaQuestion, FaSkull, FaVenus } from "react-icons/fa";
 import type { Character } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
+import {
+  NarutoChakraMixedDisplay,
+  shouldUseNarutoChakraDisplay,
+} from "@/lib/naruto-chakra-display";
 import { resolveGenderDisplay } from "@/lib/gender-display";
 import { resolveVitalityDisplay } from "@/lib/vitality-display";
 import { stripAccents } from "@/lib/utils";
@@ -24,6 +28,7 @@ interface MysteryProfileRowProps {
 }
 
 function MysteryProfileRow({ fieldKey, label, character }: MysteryProfileRowProps) {
+  const { universeId } = useUniverseData();
   const raw = character[fieldKey];
   const vitality = typeof raw === "string" || typeof raw === "number" ? resolveVitalityDisplay(raw, fieldKey) : null;
   const gender =
@@ -31,8 +36,16 @@ function MysteryProfileRow({ fieldKey, label, character }: MysteryProfileRowProp
       ? resolveGenderDisplay(raw, fieldKey)
       : null;
 
+  const chakraStr = typeof raw === "string" ? raw.trim() : "";
+  const chakraNode =
+    shouldUseNarutoChakraDisplay(universeId, fieldKey) && typeof raw === "string" ? (
+      <NarutoChakraMixedDisplay value={chakraStr || "—"} />
+    ) : null;
+
   const valueNode =
-    vitality === "alive" ? (
+    chakraNode !== null ? (
+      chakraNode
+    ) : vitality === "alive" ? (
       <FaHeart className="inline-block h-4 w-4 shrink-0 text-red-300" aria-hidden />
     ) : vitality === "dead" ? (
       <FaSkull className="inline-block h-4 w-4 shrink-0 text-gray-300" aria-hidden />
