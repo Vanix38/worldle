@@ -9,10 +9,10 @@ import {
   type RefObject,
 } from "react";
 import { motion, type Variants } from "framer-motion";
-import { FaRedo } from "react-icons/fa";
+import { FaFlag, FaRedo } from "react-icons/fa";
 import { useGameState } from "@/hooks/useGameState";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
-import type { UniverseId } from "@/types/game";
+import type { Character, UniverseId } from "@/types/game";
 import { CharacterSearch, getFirstDisplayAlias } from "./CharacterSearch";
 import { AttributeCell } from "./AttributeCell";
 import { ShareResult } from "./ShareResult";
@@ -115,6 +115,9 @@ export function GameBoard({ universeId }: GameBoardProps) {
   } = useGameState(universeId);
 
   const [newGameModalOpen, setNewGameModalOpen] = useState(false);
+  const [abandonModalOpen, setAbandonModalOpen] = useState(false);
+  /** Personnage mystère de la partie qu’on vient d’abandonner (affiché après la nouvelle partie). */
+  const [abandonedReveal, setAbandonedReveal] = useState<Character | null>(null);
   const [victoryModalDismissed, setVictoryModalDismissed] = useState(false);
   const [konamiModalOpen, setKonamiModalOpen] = useState(false);
   const konamiProgressRef = useRef(0);
@@ -123,11 +126,24 @@ export function GameBoard({ universeId }: GameBoardProps) {
 
   const openNewGameModal = useCallback(() => setNewGameModalOpen(true), []);
   const closeNewGameModal = useCallback(() => setNewGameModalOpen(false), []);
+  const openAbandonModal = useCallback(() => setAbandonModalOpen(true), []);
+  const closeAbandonModal = useCallback(() => setAbandonModalOpen(false), []);
 
   const confirmNewGame = useCallback(() => {
     startNewGame();
     setNewGameModalOpen(false);
   }, [startNewGame]);
+
+  const confirmAbandon = useCallback(() => {
+    if (!target) {
+      setAbandonModalOpen(false);
+      return;
+    }
+    const previousTarget = target;
+    startNewGame();
+    setAbandonModalOpen(false);
+    setAbandonedReveal(previousTarget);
+  }, [startNewGame, target]);
 
   const won = state?.won ?? false;
   useEffect(() => {
@@ -191,18 +207,35 @@ export function GameBoard({ universeId }: GameBoardProps) {
             <GameHintsBar target={target} guessCount={guessRows.length} />
           </div>
         ) : null}
-        <Button
-          variant="primary"
-          size="md"
-          className="min-h-[2.75rem] w-full shrink-0 sm:w-[13.5rem] sm:max-w-[13.5rem] sm:self-end"
-          onClick={openNewGameModal}
-          aria-label={stripAccents("Nouvelle partie")}
-        >
-          <span className="flex items-center justify-center gap-2">
-            <FaRedo className="h-4 w-4 shrink-0" aria-hidden />
-            {stripAccents("Nouvelle partie")}
-          </span>
-        </Button>
+        <div className="flex w-full shrink-0 flex-col gap-2 sm:w-[13.5rem] sm:max-w-[13.5rem] sm:self-end">
+          {target && !won ? (
+            <Button
+              variant="secondary"
+              size="md"
+              className="min-h-[2.75rem] w-full"
+              type="button"
+              onClick={openAbandonModal}
+              aria-label={stripAccents("Abandonner la partie")}
+            >
+              <span className="flex items-center justify-center gap-2">
+                <FaFlag className="h-4 w-4 shrink-0" aria-hidden />
+                {stripAccents("Abandonner")}
+              </span>
+            </Button>
+          ) : null}
+          <Button
+            variant="primary"
+            size="md"
+            className="min-h-[2.75rem] w-full"
+            onClick={openNewGameModal}
+            aria-label={stripAccents("Nouvelle partie")}
+          >
+            <span className="flex items-center justify-center gap-2">
+              <FaRedo className="h-4 w-4 shrink-0" aria-hidden />
+              {stripAccents("Nouvelle partie")}
+            </span>
+          </Button>
+        </div>
       </div>
 
       <div className="w-full">
@@ -247,6 +280,51 @@ export function GameBoard({ universeId }: GameBoardProps) {
             <strong className="text-lg text-white">{stripAccents(target.name)}</strong>
           ) : null}
         </p>
+      </Modal>
+
+      <Modal
+        isOpen={abandonModalOpen}
+        onClose={closeAbandonModal}
+        title={stripAccents("Abandonner ?")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
+      >
+        <p className="mb-6 text-sm leading-relaxed text-gray-300">
+          {stripAccents(
+            "Abandonner cette partie ? La progression actuelle sera perdue et une nouvelle partie commencera."
+          )}
+        </p>
+        <div className="flex flex-wrap justify-end gap-2">
+          <Button variant="secondary" size="md" type="button" onClick={closeAbandonModal}>
+            {stripAccents("Annuler")}
+          </Button>
+          <Button variant="danger" size="md" type="button" onClick={confirmAbandon}>
+            {stripAccents("Abandonner")}
+          </Button>
+        </div>
+      </Modal>
+
+      <Modal
+        isOpen={abandonedReveal !== null}
+        onClose={() => setAbandonedReveal(null)}
+        title={stripAccents("Partie abandonnée")}
+        closeLabel={stripAccents("Fermer la boîte de dialogue")}
+      >
+        {abandonedReveal ? (
+          <>
+            <p className="mb-3 text-sm leading-relaxed text-gray-300">
+              {stripAccents("Tu devais trouver :")}
+            </p>
+            <div className="mb-6 flex items-center gap-3 rounded-lg border border-gray-600 bg-gray-800/60 px-3 py-2">
+              <CharacterAvatar character={abandonedReveal} size="md" />
+              <strong className="text-lg text-white">{stripAccents(abandonedReveal.name)}</strong>
+            </div>
+            <div className="flex flex-wrap justify-end">
+              <Button variant="primary" size="md" type="button" onClick={() => setAbandonedReveal(null)}>
+                {stripAccents("OK")}
+              </Button>
+            </div>
+          </>
+        ) : null}
       </Modal>
 
       <Modal

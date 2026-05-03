@@ -39,3 +39,6 @@ venv/
 
 # Tri visuel local (Naruto score 7)
 public/universes/naruto/review-score-7/
+
+# Tri visuel local (Marvel Cinéverse)
+public/universes/marvel-cineverse/review-substantive-*/
