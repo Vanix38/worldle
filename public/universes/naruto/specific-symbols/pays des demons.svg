@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg5131"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 34">
+  <defs
+     id="defs5133">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective5139" />
+    <inkscape:perspective
+       id="perspective5894"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="83.034187"
+       fy="82.343224"
+       fx="-1021.5062"
+       cy="82.343224"
+       cx="-1021.5062"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3578"
+       xlink:href="#linearGradientUnknown"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-32.142854"
+     inkscape:cy="115.71431"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="22"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5136">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-407.14285,-548.0765)">
+    <g
+       id="Demon Country"
+       transform="translate(207.14285,-1104.2857)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient3578);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         id="Demon Country Icon"
+         sodipodi:cx="-1021.5062"
+         sodipodi:cy="82.343224"
+         sodipodi:rx="79.633545"
+         sodipodi:ry="67.963112"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         transform="matrix(0.60013489,0,0,0.70318836,863.04153,1644.4594)" />
+      <path
+         d="m 268.25431,1714.4311 3.92242,-2.112 c 2.41373,3.4195 4.32465,7.0402 5.73276,10.862 l -4.52587,2.1121 -1.20689,-3.0172 -13.57759,3.6207 c -0.20119,1.408 -0.70407,1.7097 -1.50862,0.9051 l -1.81034,-6.0345 3.01724,-0.3017 2.41379,-11.1638 5.73276,1.5086 c 0.80454,0.8047 0.50282,1.3075 -0.90517,1.5087 l -2.71552,7.5431 7.84483,-1.2069 z m -19.61206,-6.9396 -6.93966,0 0,5.1293 c -3e-5,12.8736 -7.74427,21.1207 -23.23276,24.7414 l -3.01724,-6.0345 c 13.47699,-2.615 20.21549,-9.1523 20.21552,-19.6121 l 0,-4.2241 -4.82759,0 0,3.9224 -6.03448,0 0,-35.6035 18.10345,0 3.31896,-8.4482 7.24138,1.2069 c 0.80456,0.8046 0.50283,1.3075 -0.90517,1.5086 l -3.01724,5.7327 25.94827,0 0,33.1897 -6.03448,0 0,-1.5086 -14.78448,0 0,20.2155 c -4e-5,1.6092 0.70398,2.4138 2.11207,2.4138 l 18.40517,0 c 1.20683,0 2.01143,-0.704 2.41379,-2.1121 l 1.2069,-4.2241 5.73276,2.4138 c -0.60352,2.8161 -1.20697,4.8276 -1.81035,6.0345 -1.20696,2.4137 -3.21846,3.6206 -6.03448,3.6207 l -22.62931,0 c -3.62073,-10e-5 -5.43107,-1.7098 -5.43103,-5.1294 z m 4.52586,-18.1035 16.2931,0 0,-8.75 -16.2931,0 z m -22.32759,13.2759 16.2931,0 0,-8.4483 -16.2931,0 z m 0,-13.2759 16.2931,0 0,-8.75 -16.2931,0 z m 22.32759,13.2759 16.2931,0 0,-8.4483 -16.2931,0 z"
+         id="Demon Country Kanji"
+         style="font-size:77.24137878px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

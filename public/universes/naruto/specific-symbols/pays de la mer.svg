@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3409"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 18">
+  <defs
+     id="defs3411">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3417" />
+    <inkscape:perspective
+       id="perspective3427"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="83.034187"
+       fy="82.343224"
+       fx="-1021.5062"
+       cy="82.343224"
+       cx="-1021.5062"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3510"
+       xlink:href="#linearGradientUnknown"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="22.142856"
+     inkscape:cy="-169.99999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="154"
+     inkscape:window-y="154"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3414">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-352.85714,-262.3622)">
+    <g
+       id="Sea Country"
+       transform="translate(352.85714,-1090)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient3510);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         id="Sea Country Icon"
+         sodipodi:cx="-1021.5062"
+         sodipodi:cy="82.343224"
+         sodipodi:rx="79.633545"
+         sodipodi:ry="67.963112"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         transform="matrix(0.60013489,0,0,0.70318836,663.04153,1344.4594)" />
+      <path
+         d="m 76.9697,1388.5743 0,16.9697 7.87879,0 0,5.7576 -7.87879,0 -0.60606,11.5152 6.36364,0 0,5.7575 -6.66667,0 -0.60606,4.5455 c -0.4041,2.8283 -1.91925,4.2424 -4.54545,4.2424 l -8.18182,0 -1.21212,-5.7576 6.66667,0 c 0.80802,0 1.31307,-0.404 1.51515,-1.2121 l 0.30303,-1.8182 -27.57576,0 -0.60606,4.5455 -6.06061,0 2.42424,-21.8182 -7.27272,0 0,-5.7576 7.57575,0 0.9091,-14.8485 c -1.61619,1.8183 -3.23235,3.4344 -4.84849,4.8485 l -4.54545,-5.1515 c 6.86866,-5.8585 11.81815,-13.5353 14.84848,-23.0303 l 6.36364,2.1212 c 1.01006,0.4041 0.70703,0.9092 -0.90909,1.5152 l -2.12122,5.1515 34.24243,0 0,5.7576 -36.9697,0 c -1.41417,2.6263 -3.03033,4.8485 -4.84848,6.6666 z m -16.36363,22.7273 -0.90909,11.5152 10.60606,0 0.60606,-11.5152 z m -15.15152,-16.9697 -0.90909,11.2121 10.30303,0 0.30303,-11.2121 z m 15.45455,11.2121 10,0 0,-11.2121 -9.69697,0 z m -6.36364,5.7576 -10.30303,0 -0.90909,11.5152 10.30303,0 z m -39.39394,19.697 c 4.44444,-6.0606 7.97979,-13.2323 10.60606,-21.5152 l 5.15152,3.9394 c -1.41416,6.4647 -4.34345,13.4344 -8.78788,20.9091 0.20201,2.0202 -0.30304,2.5253 -1.51515,1.5152 z m 11.21212,-28.7879 c -3.23233,-2.8283 -6.86869,-5.3535 -10.90909,-7.5758 l 4.24243,-5.7575 c 4.24241,2.0202 7.87877,4.4444 10.90909,7.2727 z m 3.03031,-18.1818 c -3.43436,-3.0303 -7.17173,-5.7575 -11.21213,-8.1818 l 4.84849,-5.7576 c 5.05049,2.8283 8.88887,5.4546 11.51515,7.8788 z"
+         id="Sea Country Kanji"
+         style="font-size:77.57575989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

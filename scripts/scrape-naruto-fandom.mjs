@@ -12,13 +12,14 @@
  *   --backfill-status-clan : requête wiki (infobox Statut + Clan) pour chaque perso ; met à jour uniquement status/clan + fieldMapping/fieldPrevalence pour ces clés (aucun prune, autres champs inchangés).
  *   --backfill-profession : idem pour Profession uniquement.
  *   --backfill-affiliation-sub : réinfère affiliation (1er lien) et indice3 (affiliation + autres lignes + équipes, hors ~~Anime/Film seulement~~).
- *   --backfill-kekkei-indice2 : infobox Kekkei Genkai → indice2 uniquement (pas de colonne dédiée).
+ *   --backfill-kekkei-indice2 : infobox Kekkei Genkai → kekkeiGenkai, Traits Uniques → indice2.
+ *   Après un scrape complet : node scripts/extract-naruto-jutsu-usage.mjs --patch-naruto — remplit indice1 (jutsu wiki présents chez ≥5 persos du jeu).
  */
 
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { ninjaRankLastOnly, canonicalNinjaRank } from "./naruto-ninja-rank-last.mjs";
+import { lastWikiPeriodBlock, ninjaRankLastOnly, canonicalNinjaRank } from "./naruto-ninja-rank-last.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -53,7 +54,7 @@ function chapterToArcLabel(ch) {
 }
 
 /** Toujours garder ces clés dans fieldMapping et sur les persos (jeu / recherche). */
-const ALWAYS_FIELD_KEYS = new Set(["aliases", "indice1", "indice2", "indice3"]);
+const ALWAYS_FIELD_KEYS = new Set(["aliases", "indice1", "indice2", "indice3", "kekkeiGenkai"]);
 
 const FIELD_MAPPING = {
   status: {
@@ -77,6 +78,12 @@ const FIELD_MAPPING = {
     fonction: "Classique",
     description: "Premier lien du champ Affiliation de l’infobox (liens wiki nettoyés).",
   },
+  kekkeiGenkai: {
+    header: "Kekkei genkai",
+    fonction: "Multivalue",
+    description:
+      "Champ infobox Kekkei genkai (liens wiki, virgules). Orange si au moins une entrée est commune avec la cible.",
+  },
   clan: {
     header: "Clan",
     fonction: "Classique",
@@ -90,16 +97,11 @@ const FIELD_MAPPING = {
     description:
       "Hiérarchie indicative (académie → Kage). ↑ = rang plus bas dans cette échelle ; ↓ = rang plus élevé. Réglages : data/naruto-ninja-ranks-order.json.",
   },
-  classification: {
-    header: "Classification",
-    fonction: "Multivalue",
-    description:
-      "Classifications (virgules). Orange si au moins une entrée est commune avec la cible.",
-  },
   profession: {
     header: "Profession",
     fonction: "Classique",
-    description: "Métier / rôle(s) indiqués dans l’infobox (liens wiki nettoyés).",
+    description:
+      "Métier / rôle(s) dans l’infobox : uniquement le dernier bloc chronologique (Partie II, Épilogue, Nouvelle Ère…), comme pour le rang ninja.",
   },
   chakraNatures: {
     header: "Natures du chakra",
@@ -108,28 +110,33 @@ const FIELD_MAPPING = {
       "Nature(s) du chakra (liste séparée par des virgules). Orange si au moins une nature est partagée avec la cible.",
   },
   arc: {
-    header: "Première apparition",
+    header: "Arc",
     fonction: "Comparaison",
     order: NARUTO_ARC_ORDER,
     description:
       "Arc du manga au premier chapitre d’apparition (ordre chronologique). ↑ = plus tôt ; ↓ = plus tard. Bornes : data/naruto-chapitres-arcs.json.",
   },
-  aliases: {
-    header: "Alias",
-    fonction: "Recherche",
-    description: "Autres noms et surnoms (recherche uniquement).",
+  classification: {
+    header: "Classification",
+    fonction: "Multivalue",
+    description:
+      "Classifications (virgules). Orange si au moins une entrée est commune avec la cible.",
   },
   indice1: {
     header: "Indice 1",
     fonction: "Indice",
-    hint: { prompt: "Classification & rang ninja", icon: "FaCertificate" },
-    description: "Indice dérivé de la classification et du rang ninja.",
+    hint: {
+      prompt: "Jutsu maîtrisés (courants)",
+      icon: "FaScroll",
+    },
+    description:
+      "Jutsu infobox : d’abord ceux maîtrisés par ≥ cinq persos du jeu ; sinon tous les jutsu liés sur la fiche (y compris rares). Vide si pas de champ Jutsu. Rempli par extract-naruto-jutsu-usage.mjs --patch-naruto.",
   },
   indice2: {
     header: "Indice 2",
     fonction: "Indice",
-    hint: { prompt: "Kekkei genkai", icon: "FaBolt" },
-    description: "Kekkei genkai (infobox), « — » si aucun.",
+    hint: { prompt: "Traits uniques", icon: "FaStar" },
+    description: "Champ infobox « Traits uniques » (liens), « — » si absent.",
   },
   indice3: {
     header: "Indice 3",
@@ -138,6 +145,11 @@ const FIELD_MAPPING = {
     includeInSearch: true,
     description:
       "Affiliation principale + autres lignes Affiliation + Équipe (hors ~~Anime/Film seulement~~), en une liste virgules ; autocomplete.",
+  },
+  aliases: {
+    header: "Alias",
+    fonction: "Recherche",
+    description: "Autres noms et surnoms (recherche uniquement).",
   },
 };
 
@@ -320,6 +332,35 @@ function extractLinkTexts(s) {
   return [...new Set(texts.filter(Boolean))];
 }
 
+/** Comme extractLinkTexts mais conserve l’ordre d’apparition (pour Profession après dernier bloc période). */
+function extractLinkTextsOrdered(s) {
+  if (!s) return [];
+  const texts = [];
+  const re = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g;
+  let m;
+  while ((m = re.exec(s))) {
+    const raw = m[1].trim();
+    let disp = (m[2] ?? m[1]).trim();
+    if (disp.startsWith("link=")) disp = disp.slice(5).trim();
+    if (/^Fichier:/i.test(raw) || /^File:/i.test(raw)) continue;
+    if (/\.(svg|png|jpg|jpeg|gif|webp)$/i.test(disp)) continue;
+    if (/symbole\.svg/i.test(raw)) continue;
+    if (/wikipedia:/i.test(raw)) continue;
+    if (/^\d+px$/i.test(disp)) continue;
+    const t = disp.replace(/''+/g, "").trim();
+    if (t) texts.push(t);
+  }
+  return texts;
+}
+
+function professionFromInfoboxProfessionField(rawProfession) {
+  const tail = lastWikiPeriodBlock(String(rawProfession ?? ""));
+  const profTexts = extractLinkTextsOrdered(tail);
+  return stripPartieLabels(
+    profTexts.length ? profTexts.join(", ") : cleanWikiText(tail),
+  );
+}
+
 function extractAliases(raw) {
   if (!raw) return [];
   const set = new Set(extractLinkTexts(raw));
@@ -484,9 +525,8 @@ function buildCharacter(title, params) {
   const { affiliation, extras } = deriveAffiliationSubFromParams(params);
   const chakraList = extractLinkTexts(params["Nature de Chakra"] || "").sort((a, b) => a.localeCompare(b, "fr"));
   const kekList = extractLinkTexts(params["Kekkei Genkai"] || "").sort((a, b) => a.localeCompare(b, "fr"));
+  const traitsList = extractLinkTexts(params["Traits Uniques"] || "").sort((a, b) => a.localeCompare(b, "fr"));
   const classList = extractLinkTexts(params["Classification"] || "").sort((a, b) => a.localeCompare(b, "fr"));
-  const profTexts = extractLinkTexts(params["Profession"] || "");
-
   const gender = normalizeGenderDisplay(stripPartieLabels(cleanWikiText(params["Genre"] || "")));
   const status = normalizeNarutoStatus(params["Statut"] || "");
   const clanTexts = extractLinkTexts(params["Clan"] || "");
@@ -501,17 +541,17 @@ function buildCharacter(title, params) {
   const arc = chapterToArcLabel(chNum) ?? "Inconnu";
   const chakraNatures = stripPartieLabels(chakraList.join(", "));
   const kekkeiGenkai = stripPartieLabels(kekList.join(", "));
+  const traitsUniques = stripPartieLabels(traitsList.join(", "));
   const classification = stripPartieLabels(classList.join(", "));
-  const profession = stripPartieLabels(
-    profTexts.length ? profTexts.join(", ") : cleanWikiText(params["Profession"] || ""),
-  );
+  const profession = professionFromInfoboxProfessionField(params["Profession"] || "");
 
   const age = parseAgeBlock(params["Âge"] || "");
 
   const aliases = extractAliases(params["Autres noms"] || "").map((a) => stripPartieLabels(a)).filter(Boolean);
 
-  const indice1 = classification || ninjaRank || "—";
-  const indice2 = kekkeiGenkai || "—";
+  /** Rempli ensuite par extract-naruto-jutsu-usage.mjs --patch-naruto (seuil jutsu ≥5 persos). */
+  const indice1 = "—";
+  const indice2 = traitsUniques || "—";
   const indice3Parts = [
     ...new Set(
       [affiliation, ...extras].map((x) => stripPartieLabels(x)).filter(Boolean),
@@ -529,6 +569,7 @@ function buildCharacter(title, params) {
     affiliation,
     ninjaRank,
     chakraNatures,
+    kekkeiGenkai,
     classification,
     profession: profession || "",
     arc,
@@ -574,6 +615,7 @@ async function discover() {
       "classification",
       "profession",
       "chakraNatures",
+      "kekkeiGenkai",
       "arc",
       "aliases",
       "indice1",
@@ -589,7 +631,8 @@ async function discover() {
       Équipe: "indice3",
       "Rang Ninja": "ninjaRank",
       "Nature de Chakra": "chakraNatures",
-      "Kekkei Genkai": "indice2",
+      "Kekkei Genkai": "kekkeiGenkai",
+      "Traits Uniques": "indice2",
       Classification: "classification",
       Profession: "profession",
       "Début manga": "arc (via numéro de chapitre)",
@@ -931,10 +974,7 @@ async function backfillProfession(opts) {
       const inner = extractInfoboxInner(wikitext);
       if (!inner) continue;
       const params = parseInfoboxParams(inner);
-      const profTexts = extractLinkTexts(params["Profession"] || "");
-      const profession = stripPartieLabels(
-        profTexts.length ? profTexts.join(", ") : cleanWikiText(params["Profession"] || ""),
-      );
+      const profession = professionFromInfoboxProfessionField(params["Profession"] || "");
       c.profession = profession || "";
       if (profession) okRows++;
     } catch (e) {
@@ -1045,12 +1085,13 @@ async function backfillKekkeiIndice2(opts) {
     console.error("Invalid JSON: missing characters[]");
     process.exit(1);
   }
-  console.log("Backfill Kekkei genkai + indice2 — carte catégorie → titres wiki…");
+  console.log("Backfill Kekkei genkai + Traits Uniques (indice2) — carte catégorie → titres wiki…");
   const titles = await fetchCategoryTitles(Infinity, opts.delay);
   const idToTitle = new Map();
   for (const t of titles) idToTitle.set(titleToId(t), t);
 
-  let okRows = 0;
+  let okKekkei = 0;
+  let okTraits = 0;
   let noTitle = 0;
   for (let i = 0; i < characters.length; i++) {
     const c = characters[i];
@@ -1063,7 +1104,7 @@ async function backfillKekkeiIndice2(opts) {
       const { wikitext, error } = await fetchWikitext(title);
       await sleep(opts.delay);
       if (error) {
-        console.warn("[backfill kekkei]", title, error);
+        console.warn("[backfill kekkei / traits]", title, error);
         continue;
       }
       const inner = extractInfoboxInner(wikitext);
@@ -1071,18 +1112,28 @@ async function backfillKekkeiIndice2(opts) {
       const params = parseInfoboxParams(inner);
       const kekList = extractLinkTexts(params["Kekkei Genkai"] || "").sort((a, b) => a.localeCompare(b, "fr"));
       const kekkeiGenkai = stripPartieLabels(kekList.join(", "));
-      delete c.kekkeiGenkai;
-      c.indice2 = kekkeiGenkai || "—";
-      if (kekkeiGenkai) okRows++;
+      const traitsList = extractLinkTexts(params["Traits Uniques"] || "").sort((a, b) => a.localeCompare(b, "fr"));
+      const traitsUniques = stripPartieLabels(traitsList.join(", "));
+      c.kekkeiGenkai = kekkeiGenkai || "";
+      c.indice2 = traitsUniques || "—";
+      if (kekkeiGenkai) okKekkei++;
+      if (traitsUniques) okTraits++;
     } catch (e) {
-      console.warn("[backfill kekkei]", c.id, e.message);
+      console.warn("[backfill kekkei / traits]", c.id, e.message);
     }
-    if ((i + 1) % 50 === 0) console.log("Backfill kekkei", i + 1, "/", characters.length);
+    if ((i + 1) % 50 === 0) console.log("Backfill kekkei / traits", i + 1, "/", characters.length);
   }
-  console.log("Persos avec kekkei genkai renseigné:", okRows, "| sans titre wiki:", noTitle);
+  console.log(
+    "Persos avec kekkei renseigné:",
+    okKekkei,
+    "| avec traits uniques (indice2):",
+    okTraits,
+    "| sans titre wiki:",
+    noTitle,
+  );
 
   const mergedFm = { ...(data.fieldMapping || {}) };
-  delete mergedFm.kekkeiGenkai;
+  mergedFm.kekkeiGenkai = FIELD_MAPPING.kekkeiGenkai;
   mergedFm.indice2 = FIELD_MAPPING.indice2;
 
   const fmKeys = Object.keys(mergedFm);

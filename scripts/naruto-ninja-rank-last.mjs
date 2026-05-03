@@ -1,5 +1,6 @@
 /**
- * Ne garde que le dernier rang chronologique (dernier bloc « … : rang » sur la fiche wiki FR).
+ * Ne garde que le dernier bloc chronologique (Partie I/II, Épilogue, Gaiden, Nouvelle Ère…).
+ * Réutilisable pour Profession, Rang ninja, etc.
  */
 export function ninjaRankLastOnly(raw) {
   let s = String(raw ?? "").trim();
@@ -27,6 +28,9 @@ export function ninjaRankLastOnly(raw) {
   return stripped || s;
 }
 
+/** Alias explicite pour Profession / autres champs infobox à plusieurs périodes. */
+export const lastWikiPeriodBlock = ninjaRankLastOnly;
+
 /**
  * Normalise les libellés wiki vers les entrées de data/naruto-ninja-ranks-order.json.
  */
@@ -47,7 +51,8 @@ export function canonicalNinjaRank(raw) {
   if (/etudiant/.test(n) && /academ/.test(n)) return "Étudiant à l'Académie";
   if (n === "genin") return "Genin";
   if (n === "chunin" || n === "chuunin") return "Chûnin";
-  if (/tokubetsu/.test(n) && /jonin|jounin/.test(n)) return "Tokubetsu Jônin";
+  /** Tokubetsu Jônin → Jônin (pas de rang intermédiaire distinct dans le jeu). */
+  if (/tokubetsu/.test(n) && /jonin|jounin/.test(n)) return "Jônin";
   if (n === "jonin" || n === "jounin") return "Jônin";
   if (n === "nukenin") return "Nukenin";
   if (n === "anbu") return "Anbu";

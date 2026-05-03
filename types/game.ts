@@ -24,6 +24,8 @@ export interface AttributeSchemaEntry {
   key: string;
   label: string;
   type: AttributeType;
+  /** Repris du fieldMapping pour les classes de largeur de colonne. */
+  columnWidth?: FieldColumnWidth;
   /** For numeric: treat as ordered and show higher/lower. */
   ordered?: boolean;
   /** For Comparaison: ordered list for before/after arrow. */
@@ -31,6 +33,9 @@ export interface AttributeSchemaEntry {
   /** Optional synonym pairs (e.g. FR/EN labels) for same rank in ordered comparison. */
   orderLabelEquivalence?: [string, string][];
 }
+
+/** Largeur visuelle de colonne dans la grille de jeu (`table-fixed`). */
+export type FieldColumnWidth = "small" | "medium" | "large";
 
 /** Field behaviour from universe fieldMapping. */
 export type FieldMappingFonction =
@@ -54,6 +59,8 @@ export interface FieldMappingHintMeta {
 export interface FieldMappingEntry {
   header: string;
   fonction: FieldMappingFonction;
+  /** Largeur de colonne dans le tableau (défaut : medium si absent). */
+  columnWidth?: FieldColumnWidth;
   /** Texte d’aide affiché dans la modale « Colonnes ». */
   description?: string;
   /** For Comparaison: ordered list (first = avant, last = après). */
@@ -82,9 +89,18 @@ export interface ColumnDocRow {
   description: string | null;
   fonction: FieldMappingFonction;
   hintPrompt?: string;
+  columnWidth?: FieldColumnWidth;
 }
 
 export type UniverseId = string;
+
+/** Fichier dans public/universes/{id}/specific-symbols/ — le stem remplace le mot correspondant dans les cellules. */
+export interface SpecificSymbolEntry {
+  stem: string;
+  filename: string;
+  /** URL absolue avec basePath pour <img src>. */
+  url: string;
+}
 
 export interface UniverseData {
   id: string;
@@ -97,6 +113,8 @@ export interface UniverseData {
   /** Set by server when font file(s) exist in public/universes/[id]/ */
   font?: { url: string; family: string; format: string };
   schema?: AttributeSchemaEntry[];
+  /** Set by server: images dans specific-symbols/ par stem de fichier = mot remplacé dans le tableau. */
+  specificSymbols?: SpecificSymbolEntry[];
 }
 
 export interface GameState {

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Símbolo Clã Funato.svg">
+  <title
+     id="title10">Símbolo do clã Funato</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="60.076146"
+     inkscape:cy="47.61067"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1360"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Símbolo do clã Funato</dc:title>
+        <dc:date>30/01/2022</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lukas Pessoa Dantas</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>Episódio 233 de Boruto: Naruto Next Generations</dc:source>
+        <dc:description>Instagram: @luke.dantas.fotografia</dc:description>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Lukas Pessoa Dantas na Wiki Naruto</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke-width:0.0811615"
+       d="m 8.8032617,18.257746 c -0.13536,-0.04196 -0.82929,-0.391793 -1.54207,-0.777398 l -7.22074003,-3.944087 0.44639,0.05201 c 0.54390003,0.06337 6.15670003,1.055758 6.91473003,1.222583 1.21029,0.266355 1.61753,0.09721 3.0264603,-1.257002 3.18993,-3.066071 5.23954,-4.9118991 5.73035,-5.1606101 0.49597,-0.251325 0.99004,-0.323946 1.4187,-0.208522 0.18081,0.04869 0.91088,0.403453 1.62239,0.788368 3.39413,1.8361901 4.54449,2.4571551 5.58421,3.0143651 l 1.6342,0.928469 -0.44639,-0.05201 c -0.54389,-0.06337 -6.15669,-1.055757 -6.91473,-1.222583 -1.21029,-0.266354 -1.61753,-0.09721 -3.02645,1.257002 -3.21971,3.094687 -5.23871,4.911474 -5.741,5.166004 -0.4494303,0.227746 -1.1015503,0.31262 -1.4860503,0.193411 z m 8.2308803,-0.06053 c 0.15108,-0.277735 1.04457,-1.254517 1.55788,-1.703115 1.15865,-1.012577 2.63836,-1.778311 3.29369,-1.704445 0.67634,0.07623 2.01313,0.825676 3.00474,1.684546 0.44839,0.388371 1.56761,1.608637 1.56788,1.709438 7e-5,0.02601 -0.44727,-0.176665 -0.9941,-0.450396 -2.04707,-1.02473 -3.13003,-1.392864 -3.8513,-1.309183 -0.86178,0.09998 -3.14098,1.015636 -4.16713,1.674115 -0.43195,0.277177 -0.5201,0.298386 -0.41166,0.09904 z M 4.1367617,11.567021 C 3.3412517,11.273819 2.3712917,10.673823 1.5678917,9.9779669 1.1194917,9.5895969 2.7166667e-4,8.3693299 1.6666665e-6,8.2685289 -6.8333333e-5,8.2425189 0.44728167,8.4451949 0.99410167,8.7189259 3.0411817,9.7436559 4.1241417,10.111789 4.8454117,10.028108 c 0.86837,-0.1007471 3.14197,-1.0162711 4.1834,-1.6845551 0.21557,-0.138332 0.41006,-0.233402 0.4322,-0.211264 0.0664,0.06646 -0.6078,0.874249 -1.26057,1.510237 -0.74719,0.7279821 -1.79148,1.4391201 -2.61948,1.7838171 -0.66333,0.276148 -0.99025,0.307992 -1.4442,0.140678 z"
+       id="path26"
+       sodipodi:nodetypes="cccsscsscccsssscssssscsssscscsscscs" />
+  </g>
+</svg>

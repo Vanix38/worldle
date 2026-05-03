@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg5171"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 38">
+  <defs
+     id="defs5173">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective5179" />
+    <inkscape:perspective
+       id="perspective5189"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="83.034187"
+       fy="82.343224"
+       fx="-1021.5062"
+       cy="82.343224"
+       cx="-1021.5062"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3504"
+       xlink:href="#linearGradientUnknown"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="33.571426"
+     inkscape:cy="58.571424"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="110"
+     inkscape:window-y="110"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5176">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-341.42857,-490.93361)">
+    <g
+       id="Claw Country"
+       transform="translate(141.42857,-861.42859)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient3504);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         id="Claw Country Icon"
+         sodipodi:cx="-1021.5062"
+         sodipodi:cy="82.343224"
+         sodipodi:rx="79.633545"
+         sodipodi:ry="67.963112"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         transform="matrix(0.60013489,0,0,0.70318836,863.04153,1344.4594)" />
+      <path
+         d="m 231.48889,1376.3844 c 18.87403,-2.2815 32.77031,-4.874 41.68889,-7.7778 l 5.28889,6.2222 c 0.20733,1.4519 -0.726,1.6593 -2.8,0.6222 -1.45192,0.4149 -3.11118,0.726 -4.97778,0.9334 l 0,20.2222 c -6e-5,12.8593 4.7703,23.9556 14.31111,33.2889 l -5.28889,6.2222 c -10.16302,-10.163 -15.2445,-23.0222 -15.24444,-38.5778 l 0,-20.2222 c -3.52598,0.6223 -7.36302,1.2445 -11.51112,1.8667 l 0,56.6222 -6.22222,0 0,-55.6889 c -4.7704,0.6223 -9.64447,1.1408 -14.62222,1.5556 l 0,28 c -2e-5,10.1629 -3.73335,18.9777 -11.2,26.4444 L 215,1431.451 c 7.25924,-6.8444 10.88887,-14.7259 10.88889,-23.6444 l 0,-33.9111 5.6,2.4889 z"
+         id="Claw Country Kanji"
+         style="font-size:79.64444733px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

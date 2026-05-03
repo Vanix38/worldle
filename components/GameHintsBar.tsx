@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import type { Character } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { HintIcon } from "@/lib/hint-icons";
-import { NarutoChakraMixedDisplay } from "@/lib/naruto-chakra-display";
 import { stripAccents } from "@/lib/utils";
 
 /** Guesses required between each hint tier (1st at 5, 2nd at 10, …). */
@@ -16,7 +15,7 @@ interface GameHintsBarProps {
 }
 
 export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
-  const { hintTiers, universeId } = useUniverseData();
+  const { hintTiers } = useUniverseData();
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
@@ -85,11 +84,7 @@ export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
                   role="status"
                   aria-live="polite"
                 >
-                  {universeId === "naruto" && tier.fieldKey === "indice2" ? (
-                    <NarutoChakraMixedDisplay value={display} iconClassName="mx-auto h-8 w-8 shrink-0 rounded-sm object-contain" />
-                  ) : (
-                    stripAccents(display)
-                  )}
+                  {stripAccents(display)}
                 </div>
               )}
             </li>

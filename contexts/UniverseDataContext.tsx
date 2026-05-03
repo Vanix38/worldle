@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useMemo } from "react";
-import type { AttributeSchemaEntry, Character, HintTierDef, UniverseData } from "@/types/game";
+import type { AttributeSchemaEntry, Character, HintTierDef, SpecificSymbolEntry, UniverseData } from "@/types/game";
 import { getHintTiers, getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
 
 export interface UniverseDataContextValue {
@@ -13,6 +13,8 @@ export interface UniverseDataContextValue {
   searchFieldKeys: string[];
   /** Hint tiers (fieldMapping entries with `hint`), in JSON key order. */
   hintTiers: HintTierDef[];
+  /** Remplacements pictos (public/universes/{id}/specific-symbols/). */
+  specificSymbols: SpecificSymbolEntry[];
 }
 
 const UniverseDataContext = createContext<UniverseDataContextValue | null>(null);
@@ -35,6 +37,7 @@ export function UniverseDataProvider({
       schema,
       searchFieldKeys,
       hintTiers,
+      specificSymbols: universeData.specificSymbols ?? [],
     };
   }, [universeData]);
 

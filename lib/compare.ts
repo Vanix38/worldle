@@ -93,7 +93,9 @@ function compareMultivalue(guessVal: unknown, targetVal: unknown): FeedbackStatu
   if (gSet.size === 0 && tSet.size === 0) return "exact";
   if (gSet.size === 0 || tSet.size === 0) return "none";
   const intersection = Array.from(gSet).filter((x) => tSet.has(x));
+  /** Sets égaux (tous les bons, aucun en trop ni en manque côté paires comparées). */
   if (intersection.length === gSet.size && intersection.length === tSet.size) return "exact";
+  /** Au moins une valeur commune : orange ; tout bon uniquement → vert (exact). */
   if (intersection.length > 0) return "partial";
   return "none";
 }

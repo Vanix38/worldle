@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3809"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 18">
+  <defs
+     id="defs3811">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3817" />
+    <inkscape:perspective
+       id="perspective3827"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradientUnknown"
+       id="radialGradient3465"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       cx="-1021.5062"
+       cy="82.343224"
+       fx="-1021.5062"
+       fy="82.343224"
+       r="83.034187" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         offset="0"
+         id="stopUnknown0"
+         style="stop-color:#afafaf;stop-opacity:0;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0.39215687;"
+         id="stop6169"
+         offset="0.5" />
+      <stop
+         offset="1"
+         id="stopUnknown1"
+         style="stop-color:#afafaf;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="319.28572"
+     inkscape:cy="55.714284"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="22"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3814">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.714284,-488.07647)">
+    <g
+       transform="translate(-344.28569,-664.28573)"
+       id="Woods Country">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient3465);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         id="Woods Country Icon"
+         sodipodi:cx="-1021.5062"
+         sodipodi:cy="82.343224"
+         sodipodi:rx="79.633545"
+         sodipodi:ry="67.963112"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         transform="matrix(0.60013489,0,0,0.70318836,1063.0415,1144.4594)" />
+      <path
+         d="m 480.88241,1222.3622 c -6.47065,-6.0785 -11.17652,-12.2549 -14.11764,-18.5294 l 0,31.4705 -5.88236,0 0,-30.8823 c -2.74514,6.0784 -7.45102,12.451 -14.11764,19.1176 l -4.70589,-5.2941 c 10.19605,-9.8039 16.47055,-19.5098 18.82353,-29.1176 l -11.17647,0 0,-5.5883 11.17647,0 0,-14.4117 5.58824,0 c 1.56857,0.1961 1.66661,0.7843 0.29412,1.7647 l 0,12.647 14.41176,0 0,5.5883 -14.41176,0 c 3.13719,10.3922 9.21562,19.3137 18.23529,26.7647 z m -36.47058,-10.5883 c -1.96082,-2.1568 -4.70591,-4.5097 -8.2353,-7.0588 l 0,30.8824 -5.88235,0 0,-29.7059 c -1.9608,5.6863 -5.29413,10.9804 -10,15.8823 l -5.29412,-4.7058 c 7.84313,-8.2353 12.94116,-17.549 15.29412,-27.9412 l -12.35294,0 0,-5.5883 12.35294,0 0,-14.4117 5.58823,0 c 1.5686,0.1961 1.66664,0.7843 0.29412,1.7647 l 0,12.647 10.88235,0 0,5.5883 -10.88235,0 0,8.8235 c 5.09801,2.1569 9.11762,4.6079 12.05882,7.3529 z"
+         id="Woods Country Kanji"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

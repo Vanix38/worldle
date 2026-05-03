@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3756"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Land of Whirlpools Symbol.svg">
+  <defs
+     id="defs3758">
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradientUnknown-8"
+       id="radialGradient3467-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       cx="-1021.5062"
+       cy="82.343224"
+       fx="-1021.5062"
+       fy="82.343224"
+       r="83.034187" />
+    <linearGradient
+       id="linearGradientUnknown-8">
+      <stop
+         offset="0"
+         id="stopUnknown0-2"
+         style="stop-color:#afafaf;stop-opacity:0;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0.39215687;"
+         id="stop6169-4"
+         offset="0.5" />
+      <stop
+         offset="1"
+         id="stopUnknown1-5"
+         style="stop-color:#afafaf;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.78"
+     inkscape:cx="50.000005"
+     inkscape:cy="50.000004"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg3756"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="940"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
+  <path
+     sodipodi:type="arc"
+     style="fill:url(#radialGradient3467-8);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+     id="Whirlpool Country Icon-5"
+     sodipodi:cx="-1021.5062"
+     sodipodi:cy="82.343224"
+     sodipodi:rx="79.633545"
+     sodipodi:ry="67.963112"
+     d="m -941.87268,82.343224 a 79.633545,67.963112 0 1 1 -159.26712,0 79.633545,67.963112 0 1 1 159.26712,0 z"
+     transform="matrix(0.60013489,0,0,0.70318836,663.04153,-7.9028)" />
+  <path
+     d="m 25.1706,53.7062 5.85903,4.3172 c -2.17429,7.2709 -5.23655,15.518 -8.63436,22.8194 0.18346,1.8719 -0.27908,2.5645 -1.85022,1.2335 L 14.99439,77.4507 C 20.36117,67.7986 23.82014,60.3649 25.1706,53.7062 z M 32.57149,41.9881 28.2543,47.5388 C 24.9335,44.4614 20.8736,41.4051 17.15298,39.5212 l 3.70044,-5.5507 c 3.19641,1.4823 6.52738,3.1902 11.71807,8.0176 z m 4.31718,-18.1938 -3.70044,5.859 c -3.76478,-3.2745 -7.57988,-5.4921 -11.4097,-7.4008 l 3.39207,-5.8591 c 4.04311,1.7541 8.00074,3.9528 11.71807,7.4009 z m 12.3357,31.1561 0,22.1875 5.25,0 0,-4.625 16.9375,0 0,-17.5625 -22.1875,0 z m 5.25,4.9375 11.71875,0 0,7.6875 -11.71875,0 0,-7.6875 z m -11.125,-42.25 0,26.5 -7.6875,0 0,39.4687 6.15625,0 0,-34.5312 37,0 0,26.8437 c 0.0353,0.7386 -0.27311,1.1996 -1.21875,1.2188 l -4.9375,0 1.21875,5.875 6.1875,0 c 3.27956,-0.01 4.9335,-1.6525 4.9375,-4.9375 l 0,-33.9375 -8.03125,0 0,-26.5 -33.625,0 z m 5.25,4.9375 23.125,0 0,7.375 -15.09375,0 0,14.1875 -8.03125,0 0,-21.5625 z m 13.28125,12.3125 9.84375,0 0,9.25 -9.84375,0 0,-9.25 z"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     id="Whirlpool Country Kanji-1" />
+</svg>

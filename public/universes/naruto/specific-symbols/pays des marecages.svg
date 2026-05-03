@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3359"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 13">
+  <defs
+     id="defs3361">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3367" />
+    <inkscape:perspective
+       id="perspective3642"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="83.034187"
+       fy="82.343224"
+       fx="-1021.5062"
+       cy="82.343224"
+       cx="-1021.5062"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3502"
+       xlink:href="#linearGradientUnknown"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-9.2857149"
+     inkscape:cy="241.42857"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="44"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3364">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-384.28571,-673.79076)">
+    <g
+       id="Swamp Country"
+       transform="translate(84.285741,-778.57144)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient3502);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         id="Swamp Country Icon"
+         sodipodi:cx="-1021.5062"
+         sodipodi:cy="82.343224"
+         sodipodi:rx="79.633545"
+         sodipodi:ry="67.963112"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         transform="matrix(0.60013489,0,0,0.70318836,963.0415,1444.4594)" />
+      <path
+         d="m 333.47222,1510.9502 c -2.16051,7.5617 -5.6173,15.1234 -10.37037,22.6852 0.64814,2.5925 -1e-5,3.1327 -1.94444,1.6203 l -5.83333,-4.537 c 3.67283,-4.7531 7.77776,-12.7469 12.31481,-23.9815 z m -15.23148,-23.3334 c 4.10493,1.0803 8.53394,3.2408 13.28704,6.4815 l -3.56481,6.4815 c -4.32101,-2.8086 -8.53396,-4.9691 -12.63889,-6.4815 z m 12.63889,-6.8055 c -4.321,-3.4568 -8.31791,-5.8333 -11.99074,-7.1296 l 3.24074,-6.1575 c 4.10492,1.5125 8.20986,3.889 12.31482,7.1297 z m 53.7963,-12.963 -1.94445,23.6574 c -0.43217,5.1852 -2.70069,7.7778 -6.80555,7.7778 l -11.01852,0 0,-6.1574 8.42592,0 c 1.51228,0 2.37648,-0.9722 2.5926,-2.9167 l 1.62037,-16.2037 -16.20371,0 c 0.216,14.0433 -7.45374,24.3056 -23.00925,30.7871 l -2.91667,-7.1297 c 12.74687,-4.3209 19.12032,-12.2067 19.12037,-23.6574 l -14.58333,0 0,-6.1574 z M 350,1510.302 l 0,18.1482 25.92593,0 0,-18.1482 z m 25.92593,23.3334 -25.92593,0 0,3.5648 -6.48148,0 0,-32.0834 38.88889,0 0,31.1111 -6.48148,0 z"
+         id="Swamp Country Kanji"
+         style="font-size:82.96295929px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

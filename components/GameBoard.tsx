@@ -4,6 +4,7 @@ import {
   useCallback,
   useEffect,
   useLayoutEffect,
+  useMemo,
   useRef,
   useState,
   type RefObject,
@@ -12,7 +13,8 @@ import { motion, type Variants } from "framer-motion";
 import { FaFlag, FaRedo } from "react-icons/fa";
 import { useGameState } from "@/hooks/useGameState";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
-import type { Character, UniverseId } from "@/types/game";
+import { fieldColumnWidthClass } from "@/lib/field-column-width";
+import type { Character, FieldColumnWidth, UniverseId } from "@/types/game";
 import { CharacterSearch, getFirstDisplayAlias } from "./CharacterSearch";
 import { AttributeCell } from "./AttributeCell";
 import { ShareResult } from "./ShareResult";
@@ -121,6 +123,14 @@ export function GameBoard({ universeId }: GameBoardProps) {
   const [victoryModalDismissed, setVictoryModalDismissed] = useState(false);
   const [konamiModalOpen, setKonamiModalOpen] = useState(false);
   const konamiProgressRef = useRef(0);
+
+  const columnWidthByKey = useMemo(() => {
+    const m = new Map<string, FieldColumnWidth | undefined>();
+    for (const e of schema) {
+      m.set(e.key, e.columnWidth);
+    }
+    return m;
+  }, [schema]);
   const tableScrollRef = useRef<HTMLDivElement>(null);
   const { showRightFade, update: updateScrollFade } = useScrollOverflowFade(tableScrollRef);
 
@@ -198,7 +208,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
   const victoryModalOpen = Boolean(won && target && !victoryModalDismissed);
 
   return (
-    <div className="space-y-6">
+    <div className="min-w-0 max-w-full space-y-6">
       <div
         className={`flex flex-col-reverse gap-3 sm:flex-row sm:flex-wrap sm:items-start ${showHintsBar ? "sm:justify-between" : "sm:justify-end"}`}
       >
@@ -348,20 +358,20 @@ export function GameBoard({ universeId }: GameBoardProps) {
         </div>
       </Modal>
 
-      <div className="relative overflow-hidden rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
+      <div className="relative max-w-full overflow-hidden rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
         <div
           ref={tableScrollRef}
           onScroll={updateScrollFade}
-          className="overflow-x-auto"
+          className="overflow-x-auto lg:overflow-x-hidden"
         >
           <table
-            className="w-max min-w-full border-collapse text-left"
+            className="w-full min-w-0 table-fixed border-collapse text-center"
             role="grid"
             aria-label={stripAccents("Tentatives et feedback par catégorie")}
           >
             <thead>
               <tr className="min-h-12 border-b border-gray-600 bg-gray-800/80">
-                <th className="border border-gray-600 px-2 py-2 font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3">
+                <th className="w-44 min-w-[8rem] max-w-[32%] border border-gray-600 px-2 py-2 text-left align-top font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3">
                   <span className="block break-words text-[clamp(0.5rem,2vmin+0.35rem,0.85rem)]">
                     {stripAccents("Personnage")}
                   </span>
@@ -369,7 +379,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
                 {schema.map((entry) => (
                   <th
                     key={entry.key}
-                    className="border border-gray-600 px-2 py-2 font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3"
+                    className={`min-w-0 border border-gray-600 px-2 py-2 text-center align-top font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3 ${fieldColumnWidthClass(columnWidthByKey.get(entry.key))}`}
                   >
                     <span className="block break-words text-[clamp(0.5rem,2vmin+0.35rem,0.85rem)]">
                       {stripAccents(entry.label)}
@@ -391,16 +401,16 @@ export function GameBoard({ universeId }: GameBoardProps) {
                   >
                     <motion.td
                       variants={guessCellVariants}
-                      className="border border-gray-600 px-2 py-1.5 align-middle md:px-3 md:py-2 lg:px-4 lg:py-2"
+                      className="w-44 min-w-[8rem] max-w-[32%] border border-gray-600 px-2 py-1.5 text-left align-top md:px-3 md:py-2 lg:px-4 lg:py-2"
                     >
-                      <div className="flex min-w-0 max-w-[14rem] items-center gap-2 sm:max-w-xs">
+                      <div className="flex min-h-11 min-w-0 items-start justify-start gap-2">
                         <CharacterAvatar character={row.character} size="sm" />
-                        <div className="flex min-w-0 flex-1 flex-col gap-0.5">
-                          <span className="truncate text-sm font-medium text-white">
+                        <div className="flex min-w-0 flex-1 flex-col items-start gap-0.5 text-left">
+                          <span className="break-words text-sm font-medium text-white">
                             {stripAccents(row.character.name)}
                           </span>
                           {firstAlias ? (
-                            <span className="truncate text-sm text-gray-400">
+                            <span className="break-words text-sm text-gray-400">
                               {stripAccents(firstAlias)}
                             </span>
                           ) : null}
@@ -411,7 +421,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
                       <motion.td
                         key={item.key}
                         variants={guessCellVariants}
-                        className="border border-gray-600 px-2 py-1.5 md:px-3 md:py-2 lg:px-4 lg:py-2"
+                        className={`min-w-0 border border-gray-600 px-2 py-1.5 text-center align-top break-words md:px-3 md:py-2 lg:px-4 lg:py-2 ${fieldColumnWidthClass(columnWidthByKey.get(item.key))}`}
                       >
                         <AttributeCell
                           label={item.label}

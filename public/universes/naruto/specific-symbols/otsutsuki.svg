@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Símbolo del Clan Ootsutsuki (NW).svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.8533333"
+     inkscape:cx="120.19182"
+     inkscape:cy="237.36328"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg8"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     id="base"
+     cx="150"
+     cy="150"
+     r="145"
+     style="fill:none;stroke:black;stroke-width:10px" />
+  <circle
+     style="fill:none;stroke:black;stroke-width:7.5px"
+     r="40"
+     cy="150"
+     cx="150"
+     id="centro" />
+  <g
+     id="g10">
+    <g
+       id="g837"
+       transform="rotate(45,150,150)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path829"
+         d="M 119.02872,119.02872 145,5 h 10 l 25.97128,114.02872 c -27.17386,-14.93661 -45.22711,-8.2846 -61.94256,0 z"
+         style="fill:black;stroke:none;stroke-width:1px"
+         transform="rotate(45,150,150)"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:none;stroke:black;stroke-width:5"
+         d="M 120,95 150,8 180,95"
+         id="path845"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g857"
+         transform="rotate(22.5,150,150)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path855"
+           d="m 134.10448,65.033992 15.65989,-31.453195 15.0353,33.131523"
+           style="fill:none;stroke:black;stroke-width:2.5"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:none;stroke:black;stroke-width:2.5"
+           d="M 149.76437,33.580797 150,4.5730228"
+           id="path859"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g857"
+         id="use871"
+         transform="rotate(-45,150,150)"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g837"
+       id="use839"
+       transform="rotate(90,150,150)"
+       width="100%"
+       height="100%" />
+    <use
+       height="100%"
+       width="100%"
+       transform="rotate(180,150,150)"
+       id="use841"
+       xlink:href="#g837"
+       y="0"
+       x="0" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g837"
+       id="use843"
+       transform="rotate(-90,150,150)"
+       width="100%"
+       height="100%" />
+  </g>
+</svg>

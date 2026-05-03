@@ -4,7 +4,6 @@
     "Étudiant à l'Académie",
     "Genin",
     "Chûnin",
-    "Tokubetsu Jônin",
     "Jônin",
     "Nukenin",
     "Anbu",
@@ -16,7 +15,8 @@
   "orderLabelEquivalence": [
     ["Étudiante à l'Académie", "Étudiant à l'Académie"],
     ["Étudiant à l'académie", "Étudiant à l'Académie"],
-    ["Tokubetsu jônin", "Tokubetsu Jônin"],
+    ["Tokubetsu Jônin", "Jônin"],
+    ["Tokubetsu jônin", "Jônin"],
     ["Jonin", "Jônin"],
     ["Chunin", "Chûnin"],
     ["Raikage", "Kage"],

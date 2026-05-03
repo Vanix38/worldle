@@ -60,6 +60,7 @@ function schemaEntryFromFieldMapping(
     ordered,
     ...(order && order.length > 0 && { order }),
     ...(pairs && pairs.length > 0 && { orderLabelEquivalence: pairs }),
+    ...(entry.columnWidth ? { columnWidth: entry.columnWidth } : {}),
   };
 }
 

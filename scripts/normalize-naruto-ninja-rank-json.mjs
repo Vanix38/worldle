@@ -27,10 +27,5 @@ for (const c of j.characters) {
   if (next !== c.ninjaRank) n++;
   c.ninjaRank = next;
 }
-for (const c of j.characters) {
-  const cls = String(c.classification ?? "").trim();
-  const nr = String(c.ninjaRank ?? "").trim();
-  c.indice1 = cls || nr || "—";
-}
 fs.writeFileSync(fp, JSON.stringify(j, null, 2) + "\n");
-console.log("ninjaRank:", n, "/", j.characters.length, "| indice1 recalculé");
+console.log("ninjaRank:", n, "/", j.characters.length);

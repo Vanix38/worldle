@@ -40,5 +40,8 @@ venv/
 # Tri visuel local (Naruto score 7)
 public/universes/naruto/review-score-7/
 
+# Tri profession Naruto (copie locale portraits)
+public/universes/naruto/sans-profession-a-trier/
+
 # Tri visuel local (Marvel Cinéverse)
 public/universes/marvel-cineverse/review-substantive-*/

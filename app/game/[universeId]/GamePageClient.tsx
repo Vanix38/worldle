@@ -44,7 +44,7 @@ export function GamePageClient({ universeId, universeData }: GamePageClientProps
           </>
         )}
 
-        <div className="mx-auto px-2 py-4 sm:px-4 sm:py-6 md:px-6">
+        <div className="mx-auto min-w-0 max-w-full px-2 py-4 sm:px-4 sm:py-6 md:px-6">
           <header className="mb-4 flex items-center gap-2">
             <div className="flex min-w-0 flex-1 justify-start">
               <Link

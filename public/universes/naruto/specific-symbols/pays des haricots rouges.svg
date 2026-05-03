@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg5091"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Land of Bean Jam Symbol.svg">
+  <defs
+     id="defs5093">
+    <linearGradient
+       id="linearGradientUnknown-7">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0-4"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169-0"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1-9"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradientUnknown-7"
+       id="radialGradient2869"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       cx="-1021.5062"
+       cy="82.343224"
+       fx="-1021.5062"
+       fy="82.343224"
+       r="83.034187" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-66.300352"
+     inkscape:cy="17.142857"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg5091"
+     showgrid="false"
+     inkscape:window-width="630"
+     inkscape:window-height="483"
+     inkscape:window-x="-11"
+     inkscape:window-y="153"
+     inkscape:window-maximized="0" />
+  <path
+     transform="matrix(0.60013489,0,0,0.70318836,663.04153,-7.9028)"
+     d="m -941.87268,82.343224 a 79.633545,67.963112 0 1 1 -159.26712,0 79.633545,67.963112 0 1 1 159.26712,0 z"
+     sodipodi:ry="67.963112"
+     sodipodi:rx="79.633545"
+     sodipodi:cy="82.343224"
+     sodipodi:cx="-1021.5062"
+     id="Bean Jam Country Icon"
+     style="fill:url(#radialGradient2869);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+     sodipodi:type="arc" />
+  <path
+     style="font-size:75.61181641px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic"
+     id="Bean Jam Country Kanji"
+     d="m 45.22506,35.8228 -3.5443,-4.135 0,4.135 -17.42616,0 c -1.96907,2.5598 -4.03658,4.8242 -6.20253,6.7932 L 15.39384,37.0042 C 21.301,31.8847 26.02674,24.8946 29.57105,16.0338 l 5.90718,0.886 c 0.7876,0.7877 0.49224,1.28 -0.88608,1.4768 l -0.29536,0.5907 c 6.10406,3.9382 11.02669,7.9748 14.76794,12.1097 z M 84.21241,23.1224 c 0.78755,0.9845 0.39374,1.5753 -1.18144,1.7721 l -2.95358,12.7004 c -1.1815,4.9227 -4.33199,7.384 -9.45148,7.384 l -5.90717,0 -0.88608,-5.6118 5.61181,0 c 2.95353,0 4.72568,-1.2799 5.31646,-3.8397 l 1.77215,-7.9747 -16.54008,0 C 57.82699,35.0352 54.08578,41.5331 48.76937,47.0464 L 45.22506,42.3207 C 51.91982,35.0352 55.75948,26.2729 56.74405,16.0338 l 6.49789,0.5907 c 0.78757,0.7877 0.49222,1.2799 -0.88607,1.4768 l -0.88608,3.8396 16.54008,0 0.59072,-1.7721 z m -52.27849,0.2953 c -1.37835,3.1506 -2.85515,5.7103 -4.43038,7.6793 l 13.5865,0 c -2.16599,-2.1659 -5.21802,-4.7256 -9.15612,-7.6793 z m -5.31645,56.1182 0,4.4303 -5.0211,0 0,-44.5991 22.44726,0 0,21.8565 -17.42616,0 0,4.4304 17.42616,0 0,4.7258 -17.42616,0 0,4.4303 18.60759,0 0,4.7258 z m 12.40506,-35.4431 -12.40506,0 0,4.4304 12.40506,0 z m -12.40506,12.4051 12.40506,0 0,-4.4304 -12.40506,0 z m 56.4135,-7.9747 0,34.2616 -5.0211,0 0,-2.9536 -23.92405,0 0,3.5443 -5.02109,0 0,-35.1476 5.02109,1.7721 8.86076,-2.9536 3.24895,5.0211 c 0.19685,0.9846 -0.39387,1.1815 -1.77215,0.5907 l -10.33756,1.4768 0,7.384 9.74684,0 0,4.7257 -9.74684,0 0,8.8608 23.92405,0 0,-8.8608 -10.04219,0 0,-4.7257 10.04219,0 0,-8.2701 -10.04219,0 0,-4.7257 z" />
+</svg>

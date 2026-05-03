@@ -27,6 +27,7 @@ export async function GET(
       description: entry.description?.trim() || null,
       fonction: entry.fonction,
       ...(entry.hint?.prompt ? { hintPrompt: entry.hint.prompt } : {}),
+      ...(entry.columnWidth ? { columnWidth: entry.columnWidth } : {}),
     });
   }
 

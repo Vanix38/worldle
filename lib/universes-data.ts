@@ -1,4 +1,4 @@
-import type { Character, FieldMapping, UniverseData } from "@/types/game";
+import type { Character, FieldMapping, SpecificSymbolEntry, UniverseData } from "@/types/game";
 import fs from "fs";
 import path from "path";
 
@@ -6,6 +6,58 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const PUBLIC_UNIVERSES_DIR = path.join(process.cwd(), "public", "universes");
 
 const IMAGE_EXTENSIONS = ["webp", "png", "jpg", "svg"] as const;
+
+const SPECIFIC_SYMBOL_EXTENSIONS = [".svg", ".webp", ".png", ".gif", ".jpg", ".jpeg"] as const;
+
+function extPriority(ext: string): number {
+  const i = SPECIFIC_SYMBOL_EXTENSIONS.indexOf(ext.toLowerCase() as (typeof SPECIFIC_SYMBOL_EXTENSIONS)[number]);
+  return i === -1 ? 99 : i;
+}
+
+/**
+ * Liste les fichiers image dans public/universes/{id}/specific-symbols/
+ * (nom du fichier sans extension = mot à remplacer, insensible aux accents / espaces → tirets).
+ */
+export function readSpecificSymbols(universeId: string): SpecificSymbolEntry[] {
+  try {
+    const dir = path.join(PUBLIC_UNIVERSES_DIR, universeId, "specific-symbols");
+    if (!fs.existsSync(dir) || !fs.statSync(dir).isDirectory()) return [];
+    const allowedExt = new Set<string>(SPECIFIC_SYMBOL_EXTENSIONS);
+    const files = fs.readdirSync(dir).filter((f) => {
+      if (f.startsWith(".") || f.toLowerCase() === "manifest.json") return false;
+      const ext = path.extname(f).toLowerCase();
+      return allowedExt.has(ext);
+    });
+    const mapped = files.map((filename) => {
+      const ext = path.extname(filename).toLowerCase();
+      /** Aligné sur `normalizeComparable` dans specific-symbols-display (espaces → tirets). */
+      const stem = path
+        .basename(filename, ext)
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, "-");
+      return { stem, filename, ext };
+    });
+    mapped.sort((a, b) => {
+      if (a.stem !== b.stem) return a.stem.localeCompare(b.stem, "fr");
+      return extPriority(a.ext) - extPriority(b.ext);
+    });
+    const seen = new Set<string>();
+    const out: SpecificSymbolEntry[] = [];
+    for (const m of mapped) {
+      if (!m.stem || seen.has(m.stem)) continue;
+      seen.add(m.stem);
+      out.push({
+        stem: m.stem,
+        filename: m.filename,
+        url: assetPath(`/universes/${universeId}/specific-symbols/${m.filename}`),
+      });
+    }
+    return out;
+  } catch {
+    return [];
+  }
+}
 
 function getBasePath(): string {
   return (typeof process !== "undefined" && process.env?.NEXT_PUBLIC_BASE_PATH) || "";
@@ -176,6 +228,7 @@ export function getUniverseData(universeId: string): UniverseData | null {
     const o = data as Record<string, unknown>;
     const backgroundImage = detectBackgroundImage(data.id);
     const font = detectFont(data.id);
+    const specificSymbols = readSpecificSymbols(data.id);
     const fieldMapping =
       o.fieldMapping && typeof o.fieldMapping === "object" && !Array.isArray(o.fieldMapping)
         ? (o.fieldMapping as FieldMapping)
@@ -188,6 +241,7 @@ export function getUniverseData(universeId: string): UniverseData | null {
       ...(backgroundImage && { backgroundImage }),
       ...(font && { font }),
       schema: Array.isArray(o.schema) ? (o.schema as UniverseData["schema"]) : undefined,
+      ...(specificSymbols.length > 0 && { specificSymbols }),
     };
   } catch {
     return null;

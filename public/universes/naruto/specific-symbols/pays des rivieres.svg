@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3723"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Land of Rivers Symbol.svg">
+  <defs
+     id="defs3725">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3731" />
+    <inkscape:perspective
+       id="perspective3711"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradientUnknown"
+       id="radialGradient3463"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       cx="-1021.5062"
+       cy="82.343224"
+       fx="-1021.5062"
+       fy="82.343224"
+       r="83.034187" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         offset="0"
+         id="stopUnknown0"
+         style="stop-color:#afafaf;stop-opacity:0;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0.39215687;"
+         id="stop6169"
+         offset="0.5" />
+      <stop
+         offset="1"
+         id="stopUnknown1"
+         style="stop-color:#afafaf;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective2846"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2860"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.93626257"
+     inkscape:cx="123.78394"
+     inkscape:cy="160.60147"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="930"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
+  <metadata
+     id="metadata3728">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-527.14285,-628.07647)">
+    <path
+       transform="matrix(0.60013489,0,0,0.70318836,1190.1844,620.17367)"
+       d="m -941.87268,82.343224 a 79.633545,67.963112 0 1 1 -159.26712,0 79.633545,67.963112 0 1 1 159.26712,0 z"
+       sodipodi:ry="67.963112"
+       sodipodi:rx="79.633545"
+       sodipodi:cy="82.343224"
+       sodipodi:cx="-1021.5062"
+       id="River Country Icon"
+       style="fill:url(#radialGradient3463);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+       sodipodi:type="arc" />
+    <path
+       style="fill:#000000;fill-opacity:1"
+       d="m 602.98794,643.07649 c 2.4224,0.0512 4.85349,-0.0753 7.2721,0.10582 2.31824,0.31409 2.39149,1.21225 0.47705,2.62752 l -0.0651,67.19824 -7.68408,0.0684 0,-70 z m -60.79473,64.95813 1.69507,-1.71306 c 4.54539,-4.59365 6.96833,-9.99103 8.04437,-17.91971 0.0971,-0.71564 0.25605,-1.65601 0.29262,-4.76531 l 0.0197,-39.78451 3.90128,0.003 c 3.54843,0.003 3.94998,0.025 4.43973,0.24731 1.24179,0.47853 0.86789,1.31994 -0.60718,2.38311 l -0.0215,37.77357 c -0.0777,4.84471 -0.34415,5.68838 -0.7502,8.09287 -0.91597,5.42398 -2.75628,10.35817 -5.37255,14.40477 -1.49594,2.31376 -4.8615,6.18767 -5.3757,6.18767 l -6.26558,-4.90955 z m 35.22418,-60.17912 7.60402,-10e-4 c 1.10669,0.28277 2.79372,0.69431 0.14463,2.71881 l 0,54.10611 -7.74865,0 0,-56.82351 0,10e-6 z"
+       id="path2866"
+       sodipodi:nodetypes="ccccccccsccccccssccccccccc" />
+  </g>
+</svg>

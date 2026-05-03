@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3399"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 17">
+  <defs
+     id="defs3401">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3407" />
+    <inkscape:perspective
+       id="perspective3470"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="83.034187"
+       fy="82.343224"
+       fx="-1021.5062"
+       cy="82.343224"
+       cx="-1021.5062"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3512"
+       xlink:href="#linearGradientUnknown"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="42.142856"
+     inkscape:cy="-27.142856"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="132"
+     inkscape:window-y="132"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3404">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-332.85714,-405.21933)">
+    <g
+       id="Vegetable Country"
+       transform="translate(232.85714,-947.14287)">
+      <path
+         transform="matrix(0.60013489,0,0,0.70318836,763.04153,1344.4594)"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         sodipodi:ry="67.963112"
+         sodipodi:rx="79.633545"
+         sodipodi:cy="82.343224"
+         sodipodi:cx="-1021.5062"
+         id="Vegetable Country Icon"
+         style="fill:url(#radialGradient3512);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         sodipodi:type="arc" />
+      <path
+         d="m 153.20961,1404.8077 c 1.63023,0.2038 1.73212,0.8151 0.30568,1.834 l 0,3.3625 29.65065,0 0,5.8079 -25.67686,0 c 7.33619,6.1135 16.50649,10.1892 27.51092,12.227 l -2.44541,6.7249 c -12.22714,-2.853 -21.90689,-7.9476 -29.0393,-15.2838 l 0,17.7292 -6.11354,0 0,-16.2008 c -7.74384,7.54 -17.62739,12.4308 -29.65066,14.6724 L 115,1428.9562 c 12.43084,-2.0379 22.21249,-6.4192 29.34498,-13.1441 l -26.89956,0 0,-5.8079 29.95633,0 0,-5.1965 0.61135,0 c -0.81517,-2.853 -2.03788,-5.6041 -3.66812,-8.2534 l 6.72489,-2.751 c 1.83402,2.2417 3.15862,5.0947 3.9738,8.559 l -5.80786,2.4454 3.9738,0 z m -30.87336,-16.5066 c 25.47303,-0.8151 42.7947,-1.834 51.96506,-3.0567 l 3.36245,5.1965 c 0.4075,1.0189 -0.30575,1.2227 -2.13974,0.6113 -12.6347,1.2228 -29.95637,2.0379 -51.96507,2.4454 z m 8.86463,6.4193 c 2.2416,2.2416 3.97377,5.4003 5.1965,9.4759 l -7.03057,2.7511 c -1.22272,-3.6682 -2.7511,-6.8268 -4.58515,-9.4761 z m 32.70742,9.4759 c 2.64914,-3.6682 5.19645,-7.4382 7.64192,-11.31 l 6.41921,3.6681 c 0.61129,0.4076 0.10183,0.8152 -1.52838,1.2227 -2.24169,3.2606 -4.58521,6.4193 -7.03057,9.476 z m -28.12227,-30.262 0,-6.4192 5.80786,0 c 1.63024,0.2039 1.73213,0.8152 0.30568,1.8341 l 0,4.5851 16.20087,0 0,-6.4192 5.80786,0 c 1.63022,0.2039 1.73211,0.8152 0.30567,1.8341 l 0,4.5851 18.95197,0 0,5.8079 -18.95197,0 0,2.7511 -6.11353,0 0,-2.7511 -16.20087,0 0,4.2795 -6.11354,0 0,-4.2795 -18.34061,0 0,-5.8079 z"
+         id="Vegetable Country Kanji"
+         style="font-size:78.25327301px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3276"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 8">
+  <defs
+     id="defs3278">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3284" />
+    <inkscape:perspective
+       id="perspective3294"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="83.034187"
+       fy="82.343224"
+       fx="-1021.5062"
+       cy="82.343224"
+       cx="-1021.5062"
+       gradientTransform="matrix(1,0,0,0.85945027,0,11.573318)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3488"
+       xlink:href="#linearGradientUnknown"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradientUnknown">
+      <stop
+         style="stop-color:#afafaf;stop-opacity:0;"
+         id="stopUnknown0"
+         offset="0" />
+      <stop
+         offset="0.5"
+         id="stop6169"
+         style="stop-color:#afafaf;stop-opacity:0.39215687;" />
+      <stop
+         style="stop-color:#afafaf;stop-opacity:1;"
+         id="stopUnknown1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="293.57143"
+     inkscape:cy="44.285714"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="566"
+     inkscape:window-height="488"
+     inkscape:window-x="132"
+     inkscape:window-y="132"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3281">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-81.428574,-476.6479)">
+    <g
+       id="Bear Country"
+       transform="translate(-318.5714,-775.7143)">
+      <path
+         transform="matrix(0.60013489,0,0,0.70318836,1063.0415,1244.4594)"
+         d="m -941.87268,82.343224 c 0,37.534986 -35.65315,67.963116 -79.63352,67.963116 -43.9804,0 -79.6336,-30.42813 -79.6336,-67.963116 0,-37.534991 35.6532,-67.963112 79.6336,-67.963112 43.98037,0 79.63352,30.428121 79.63352,67.963112 z"
+         sodipodi:ry="67.963112"
+         sodipodi:rx="79.633545"
+         sodipodi:cy="82.343224"
+         sodipodi:cx="-1021.5062"
+         id="Bear Country Icon"
+         style="fill:url(#radialGradient3488);fill-opacity:1;stroke:#000000;stroke-width:6.8012886;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:55.5000029"
+         sodipodi:type="arc" />
+      <path
+         d="m 471.78109,1314.5295 c 2.20309,10e-5 3.4048,-1.9027 3.60515,-5.7081 l 6.00859,1.8026 c -0.80122,5.8083 -3.30479,8.7124 -7.51073,8.7124 l -14.72103,0 c -3.80548,0 -5.7082,-1.9027 -5.70816,-5.7081 l 0,-17.4249 4.80687,0 c 1.60224,0.2003 1.70238,0.8011 0.30043,1.8025 l 0,4.8069 c 6.60939,-0.8011 12.41768,-1.9027 17.42489,-3.3047 l 3.00429,5.4077 c 0.20022,1.0015 -0.40064,1.2018 -1.80257,0.6009 -5.80836,1.0014 -12.01722,1.8026 -18.62661,2.4034 l 0,5.1073 c -5e-5,1.0014 0.60081,1.5022 1.80257,1.5021 z m -36.95279,-43.2618 c -1.00145,2.2032 -2.60374,5.2075 -4.80687,9.0129 l 12.3176,-0.9013 -4.20601,-3.9055 4.20601,-3.3048 c 4.80683,4.0058 8.31184,8.1117 10.51502,12.3176 l -4.80686,3.3048 -2.40344,-4.2061 -26.7382,2.4035 c -0.60086,1.0014 -1.10158,1.2017 -1.50214,0.6008 l -0.90129,-6.6094 7.51073,0 c 2.6037,-5.2074 4.30613,-9.4134 5.1073,-12.618 l 6.60944,2.4034 c 0.60083,0.8012 0.3004,1.3019 -0.90129,1.5021 z m 23.43348,-2.7038 c 1.60224,0.2003 1.70238,0.8012 0.30043,1.8026 l 0,6.309 c 5.0071,-0.8011 10.11439,-2.0028 15.32189,-3.6052 l 3.60515,5.1073 c 0.20022,1.0015 -0.40064,1.2018 -1.80258,0.6009 -9.21322,1.6023 -14.92136,2.5036 -17.12446,2.7038 l 0,6.0086 c -5e-5,1.0015 0.50067,1.5022 1.50214,1.5022 l 11.11588,0 c 2.40338,0 3.80538,-2.103 4.20601,-6.309 l 5.70816,2.4034 c -1.20179,5.8083 -3.80551,8.7125 -7.81116,8.7124 l -14.12017,0 c -3.80548,10e-5 -5.7082,-1.9026 -5.70816,-5.7081 l 0,-19.5279 4.80687,0 z m -17.42489,28.5408 0,-3.9056 -13.51932,0 0,3.9056 z m -4.80687,18.0257 3.60515,0 c 0.80111,0 1.20169,-0.4005 1.20172,-1.2017 l 0,-3.3047 -13.51932,0 0,9.9141 -5.10729,0 0,-32.1459 23.7339,0 0,28.2404 c -3e-5,2.804 -1.40203,4.206 -4.20601,4.206 l -4.80686,0 z m 4.80687,-9.3133 0,-3.9056 -13.51932,0 0,3.9056 z m -11.71674,20.4292 c -1.20174,3.4049 -3.30474,7.1101 -6.30902,11.1159 l -6.30901,-3.3048 c 3.20457,-4.206 5.40772,-8.0114 6.60944,-11.4163 l 6.90987,2.103 c 0.60084,0.4006 0.30041,0.9013 -0.90128,1.5022 z m 28.24034,-3.6052 c 2.00281,2.804 3.90553,6.5093 5.70816,11.1159 l -7.2103,2.103 c -1.80262,-4.4063 -3.50505,-8.1116 -5.1073,-11.1159 z m -14.4206,0.3005 c 1.20168,4.0057 1.90268,8.0114 2.103,12.0171 l -7.51073,0.9013 c -0.20031,-4.0057 -0.70102,-7.9113 -1.50214,-11.7167 z m 29.74249,-0.3005 c 4.00566,3.2046 7.6108,7.0101 10.81545,11.4163 l -6.60944,3.3048 c -3.40493,-4.6066 -6.70965,-8.412 -9.91416,-11.4163 z"
+         id="Bear Country Kanji"
+         style="font-size:76.90987396px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:MS PGothic;-inkscape-font-specification:MS PGothic" />
+    </g>
+  </g>
+</svg>

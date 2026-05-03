@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Blaze.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientBlaze">
+      <stop
+         offset="0"
+         id="stopBlaze0"
+         style="stop-color:#ad0000;stop-opacity:1" />
+      <stop
+         id="stopBlaze1"
+         offset="1"
+         style="stop-color:#140000;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="50"
+       fy="50"
+       fx="50"
+       cy="50"
+       cx="50"
+       id="radialGradientBlaze"
+       xlink:href="#linearGradientBlaze"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="930"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="50"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="5.0699554"
+     inkscape:cx="43.710949"
+     inkscape:cy="37.377172"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg3347"
+     inkscape:snap-center="true"
+     inkscape:object-paths="false"
+     inkscape:object-nodes="true" />
+  <path
+     style="fill:url(#radialGradientBlaze);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.8301888,31.132074 L 12.264152,21.698111 L 12.264152,12.264149 L 21.698114,12.264149 L 31.132076,2.8301862 L 68.867926,2.8301862 L 78.301889,12.264149 L 87.735852,12.264149 L 87.735852,21.698111 L 97.169814,31.132074 L 97.169814,68.867924 L 87.735852,78.301886 L 87.735852,87.735849 L 78.301889,87.735849 L 68.867926,97.169811 L 31.132076,97.169811 L 21.698114,87.735849 L 12.264152,87.735849 L 12.264152,78.301886 L 2.8301888,68.867924 L 2.8301888,31.132074 z"
+     id="Blaze icon"
+     sodipodi:nodetypes="ccccccccccccccccccccc" />
+  <path
+     transform="scale(1.032491,0.9685314)"
+     style="font-size:66.20105743px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     d="M 49.978164,22.920035 C 51.357317,23.092486 51.357317,23.609681 49.978164,24.471622 L 49.978164,32.488157 C 52.908903,41.10812 61.270226,46.624869 75.062159,49.038421 L 73.769169,54.986172 C 60.149636,51.710623 51.615914,46.366272 48.167979,38.953104 C 45.58197,47.228264 37.306846,52.486415 23.342583,54.727574 L 21.790995,49.038421 C 37.134448,48.004057 44.806177,41.452917 44.806207,29.384982 L 44.806207,22.402839 L 49.978164,22.920035 z M 74.803561,80.587362 C 63.252807,78.518576 54.374289,73.174225 48.167979,64.554294 C 45.237173,73.174225 36.87585,78.604775 23.083985,80.84596 L 21.015202,74.898209 C 36.87585,73.69142 44.806177,66.967882 44.806207,54.727574 L 44.806207,48.779823 L 50.753958,49.555617 C 51.960711,50.072838 51.874512,50.676232 50.49536,51.365802 C 50.150528,53.951802 49.89193,56.537778 49.719567,59.123738 C 55.063883,67.571277 63.770003,72.570831 75.837952,74.122415 L 74.803561,80.587362 z M 57.218905,36.108527 C 61.011628,32.832996 63.511405,29.471227 64.718244,26.02321 L 70.407397,29.64358 C 70.924537,30.333219 70.493541,30.764215 69.114408,30.936569 C 67.562768,33.52259 65.235389,36.367164 62.132265,39.470299 L 57.218905,36.108527 z M 37.306868,30.419374 C 36.789651,34.039785 35.324264,37.401554 32.910704,40.504691 L 27.221551,37.918712 C 29.635117,34.815578 31.100503,31.540008 31.617715,28.091993 L 37.306868,30.419374 z M 57.477503,62.485511 C 60.235835,59.55475 62.477015,56.623977 64.201048,53.693183 L 69.373005,57.313553 C 69.890146,57.830766 69.372951,58.347962 67.821418,58.86514 C 66.26978,60.933938 64.200999,63.347516 61.615069,66.105881 L 57.477503,62.485511 z M 37.565466,57.572151 C 37.220647,60.158145 35.669061,63.519914 32.910704,67.657468 L 27.480149,64.554294 C 29.893714,61.278735 31.4453,58.089364 32.134911,54.986172 L 37.565466,57.572151 z"
+     id="Blaze kanji" />
+</svg>
