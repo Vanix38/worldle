@@ -7,15 +7,19 @@ import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { CharacterAvatar } from "./CharacterAvatar";
 import { stripAccents } from "@/lib/utils";
 
+function normalizeSearch(s: string): string {
+  return stripAccents(s.trim().toLowerCase()).replace(/\s+/g, " ");
+}
+
 function getSearchableStrings(character: Character, searchFieldKeys: string[]): string[] {
   const parts: string[] = [];
   for (const key of searchFieldKeys) {
     const val = character[key];
     if (val === undefined || val === null) continue;
     if (Array.isArray(val)) {
-      val.forEach((v) => parts.push(String(v).toLowerCase()));
+      val.forEach((v) => parts.push(normalizeSearch(String(v))));
     } else {
-      parts.push(String(val).toLowerCase());
+      parts.push(normalizeSearch(String(val)));
     }
   }
   return parts;
@@ -35,14 +39,12 @@ function searchCharacters(
   query: string,
   searchFieldKeys: string[]
 ): Character[] {
-  const normalized = query.trim().toLowerCase();
+  const normalized = normalizeSearch(query);
   if (!normalized) return [];
   return characters
     .filter((c) => {
-      const nameMatch = c.name.toLowerCase().includes(normalized);
-      const aliasMatch = (c.aliases ?? []).some((a) =>
-        String(a).toLowerCase().includes(normalized)
-      );
+      const nameMatch = normalizeSearch(c.name).includes(normalized);
+      const aliasMatch = (c.aliases ?? []).some((a) => normalizeSearch(String(a)).includes(normalized));
       const searchFieldsMatch =
         searchFieldKeys.length > 0 &&
         getSearchableStrings(c, searchFieldKeys).some((s) => s.includes(normalized));

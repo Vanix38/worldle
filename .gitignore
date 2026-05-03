@@ -36,3 +36,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Tri visuel local (Naruto score 7)
+public/universes/naruto/review-score-7/

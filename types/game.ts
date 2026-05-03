@@ -62,7 +62,7 @@ export interface FieldMappingEntry {
   orderLabelEquivalence?: [string, string][];
   /** If set, this field is a hint tier (order = key order in fieldMapping). */
   hint?: FieldMappingHintMeta;
-  /** Include this field in character autocomplete (e.g. Indice Naruto ↔ ancien sub_affiliation). */
+  /** Include this field in character autocomplete (e.g. indice3 Naruto agrège équipes / affiliations). */
   includeInSearch?: boolean;
 }
 

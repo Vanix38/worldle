@@ -10,6 +10,9 @@
  *   --min-rate 0.10 : seuil de prévalence (0–1).
  *   --reprune : relit data/naruto.json (--out), réapplique seulement le pruning + fieldPrevalence (pas d’API).
  *   --backfill-status-clan : requête wiki (infobox Statut + Clan) pour chaque perso ; met à jour uniquement status/clan + fieldMapping/fieldPrevalence pour ces clés (aucun prune, autres champs inchangés).
+ *   --backfill-profession : idem pour Profession uniquement.
+ *   --backfill-affiliation-sub : réinfère affiliation (1er lien) et indice3 (affiliation + autres lignes + équipes, hors ~~Anime/Film seulement~~).
+ *   --backfill-kekkei-indice2 : infobox Kekkei Genkai → indice2 uniquement (pas de colonne dédiée).
  */
 
 import fs from "fs";
@@ -53,21 +56,16 @@ function chapterToArcLabel(ch) {
 const ALWAYS_FIELD_KEYS = new Set(["aliases", "indice1", "indice2", "indice3"]);
 
 const FIELD_MAPPING = {
-  gender: {
-    header: "Genre",
-    fonction: "Classique",
-    description: "Homme ou Femme (les mentions Masculin/Féminin du wiki sont normalisées). « Variable » conservé si la fiche l’indique.",
-  },
   status: {
     header: "Statut",
     fonction: "Classique",
     description:
       "Vivant ou Mort quand l’infobox le permet ; autres libellés wiki (ex. Incapacité) conservés (icône « ? » dans la grille).",
   },
-  clan: {
-    header: "Clan",
+  gender: {
+    header: "Genre",
     fonction: "Classique",
-    description: "Clan(s) listés dans l’infobox (liens wiki agrégés).",
+    description: "Homme ou Femme (les mentions Masculin/Féminin du wiki sont normalisées). « Variable » conservé si la fiche l’indique.",
   },
   age: {
     header: "Âge",
@@ -77,7 +75,12 @@ const FIELD_MAPPING = {
   affiliation: {
     header: "Affiliation principale",
     fonction: "Classique",
-    description: "Premier lieu ou organisation listée dans Affiliation (liens wiki nettoyés).",
+    description: "Premier lien du champ Affiliation de l’infobox (liens wiki nettoyés).",
+  },
+  clan: {
+    header: "Clan",
+    fonction: "Classique",
+    description: "Clan(s) listés dans l’infobox (liens wiki agrégés).",
   },
   ninjaRank: {
     header: "Rang ninja",
@@ -87,22 +90,22 @@ const FIELD_MAPPING = {
     description:
       "Hiérarchie indicative (académie → Kage). ↑ = rang plus bas dans cette échelle ; ↓ = rang plus élevé. Réglages : data/naruto-ninja-ranks-order.json.",
   },
-  chakraNatures: {
-    header: "Natures du chakra",
-    fonction: "Multivalue",
-    description:
-      "Nature(s) du chakra (liste séparée par des virgules). Orange si au moins une nature est partagée avec la cible.",
-  },
-  kekkeiGenkai: {
-    header: "Kekkei Genkai",
-    fonction: "Classique",
-    description: "Kekkei Genkai listés sur la fiche.",
-  },
   classification: {
     header: "Classification",
     fonction: "Multivalue",
     description:
       "Classifications (virgules). Orange si au moins une entrée est commune avec la cible.",
+  },
+  profession: {
+    header: "Profession",
+    fonction: "Classique",
+    description: "Métier / rôle(s) indiqués dans l’infobox (liens wiki nettoyés).",
+  },
+  chakraNatures: {
+    header: "Natures du chakra",
+    fonction: "Multivalue",
+    description:
+      "Nature(s) du chakra (liste séparée par des virgules). Orange si au moins une nature est partagée avec la cible.",
   },
   arc: {
     header: "Première apparition",
@@ -125,8 +128,8 @@ const FIELD_MAPPING = {
   indice2: {
     header: "Indice 2",
     fonction: "Indice",
-    hint: { prompt: "Chakra & kekkei", icon: "FaBolt" },
-    description: "Indice sur les natures de chakra et kekkei genkai.",
+    hint: { prompt: "Kekkei genkai", icon: "FaBolt" },
+    description: "Kekkei genkai (infobox), « — » si aucun.",
   },
   indice3: {
     header: "Indice 3",
@@ -134,9 +137,21 @@ const FIELD_MAPPING = {
     hint: { prompt: "Équipes & affiliation", icon: "FaUsers" },
     includeInSearch: true,
     description:
-      "Affiliation principale, affiliations secondaires et équipes (virgules). Aussi utilisé pour l’autocomplete.",
+      "Affiliation principale + autres lignes Affiliation + Équipe (hors ~~Anime/Film seulement~~), en une liste virgules ; autocomplete.",
   },
 };
+
+/** Toutes les clés du FIELD_MAPPING sont présentes sur le perso ; chaîne vide si absent du wiki (aliases = tableau ; âge inchangé si absent). */
+function ensureNarutoCharacterDefaults(char) {
+  for (const k of Object.keys(FIELD_MAPPING)) {
+    if (k === "aliases") {
+      if (!Array.isArray(char.aliases)) char.aliases = [];
+      continue;
+    }
+    if (k === "age") continue;
+    if (char[k] === undefined) char[k] = "";
+  }
+}
 
 function parseArgs(argv) {
   const out = {
@@ -151,11 +166,17 @@ function parseArgs(argv) {
     minRate: 0.1,
     reprune: false,
     backfillStatusClan: false,
+    backfillProfession: false,
+    backfillAffiliationSub: false,
+    backfillKekkeiIndice2: false,
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--discover") out.discover = true;
     else if (a === "--backfill-status-clan") out.backfillStatusClan = true;
+    else if (a === "--backfill-profession") out.backfillProfession = true;
+    else if (a === "--backfill-affiliation-sub") out.backfillAffiliationSub = true;
+    else if (a === "--backfill-kekkei-indice2") out.backfillKekkeiIndice2 = true;
     else if (a === "--resume") out.resume = true;
     else if (a === "--dry-run") out.dryRun = true;
     else if (a === "--reprune") out.reprune = true;
@@ -351,6 +372,63 @@ function stripPartieLabels(s) {
   return t;
 }
 
+/** Découpe une valeur d’infobox en segments (sauts de ligne ou balises br). */
+function splitWikiInfoboxList(raw) {
+  if (!raw) return [];
+  let t = stripRefs(String(raw));
+  t = t.replace(/\r\n/g, "\n").replace(/<br\s*\/?>/gi, "\n");
+  return t
+    .split(/\n+/)
+    .map((x) => x.trim())
+    .filter(Boolean);
+}
+
+/** Segment marqué comme hors manga (anime seul / film seul). */
+function isAnimeOrFilmOnlySegment(segment) {
+  if (!segment || typeof segment !== "string") return false;
+  const s = segment.replace(/\u00a0/g, " ");
+  if (/\~\~\s*Anime\s+seulement/i.test(s)) return true;
+  if (/\~\~\s*Films?\s+seulement/i.test(s)) return true;
+  return false;
+}
+
+/**
+ * Affiliation = premier lien du champ Affiliation.
+ * extras = autres liens Affiliation + Équipe (segments ~~Anime/Film seulement~~ exclus) — sert à construire indice3 uniquement.
+ */
+function deriveAffiliationSubFromParams(params) {
+  const rawAff = params["Affiliation"] || "";
+  const segments = splitWikiInfoboxList(rawAff);
+  const ordered = [];
+  for (const seg of segments) {
+    const excl = isAnimeOrFilmOnlySegment(seg);
+    for (const txt of extractLinkTexts(seg)) {
+      ordered.push({ text: txt, segmentExcluded: excl });
+    }
+  }
+  const principalRaw = ordered[0]?.text;
+  const affiliation = stripPartieLabels(
+    principalRaw || cleanWikiText(rawAff),
+  );
+
+  const subParts = [];
+  for (let i = 1; i < ordered.length; i++) {
+    if (!ordered[i].segmentExcluded) {
+      const x = stripPartieLabels(ordered[i].text);
+      if (x) subParts.push(x);
+    }
+  }
+  for (const seg of splitWikiInfoboxList(params["Équipe"] || "")) {
+    if (isAnimeOrFilmOnlySegment(seg)) continue;
+    for (const txt of extractLinkTexts(seg)) {
+      const x = stripPartieLabels(txt);
+      if (x) subParts.push(x);
+    }
+  }
+  const extras = [...new Set(subParts)].filter((x) => x && x !== affiliation);
+  return { affiliation, extras };
+}
+
 /** Genre affiché : uniquement Homme / Femme (ou Variable). */
 function normalizeGenderDisplay(raw) {
   const s = String(raw || "").trim();
@@ -403,16 +481,11 @@ function isBorutoFranchiseCharacter(params) {
 
 function buildCharacter(title, params) {
   const id = titleToId(title);
-  const affTexts = extractLinkTexts(params["Affiliation"] || "");
-  const teams = extractLinkTexts(params["Équipe"] || "");
+  const { affiliation, extras } = deriveAffiliationSubFromParams(params);
   const chakraList = extractLinkTexts(params["Nature de Chakra"] || "").sort((a, b) => a.localeCompare(b, "fr"));
   const kekList = extractLinkTexts(params["Kekkei Genkai"] || "").sort((a, b) => a.localeCompare(b, "fr"));
   const classList = extractLinkTexts(params["Classification"] || "").sort((a, b) => a.localeCompare(b, "fr"));
-
-  const affiliation = stripPartieLabels(affTexts[0] || cleanWikiText(params["Affiliation"] || ""));
-  const subUnique = [
-    ...new Set([...affTexts.slice(1), ...teams].map((x) => stripPartieLabels(x)).filter(Boolean)),
-  ];
+  const profTexts = extractLinkTexts(params["Profession"] || "");
 
   const gender = normalizeGenderDisplay(stripPartieLabels(cleanWikiText(params["Genre"] || "")));
   const status = normalizeNarutoStatus(params["Statut"] || "");
@@ -429,16 +502,19 @@ function buildCharacter(title, params) {
   const chakraNatures = stripPartieLabels(chakraList.join(", "));
   const kekkeiGenkai = stripPartieLabels(kekList.join(", "));
   const classification = stripPartieLabels(classList.join(", "));
+  const profession = stripPartieLabels(
+    profTexts.length ? profTexts.join(", ") : cleanWikiText(params["Profession"] || ""),
+  );
 
   const age = parseAgeBlock(params["Âge"] || "");
 
   const aliases = extractAliases(params["Autres noms"] || "").map((a) => stripPartieLabels(a)).filter(Boolean);
 
   const indice1 = classification || ninjaRank || "—";
-  const indice2 = chakraNatures || kekkeiGenkai || "—";
+  const indice2 = kekkeiGenkai || "—";
   const indice3Parts = [
     ...new Set(
-      [affiliation, ...subUnique].map((x) => stripPartieLabels(x)).filter(Boolean),
+      [affiliation, ...extras].map((x) => stripPartieLabels(x)).filter(Boolean),
     ),
   ];
   const indice3 = stripPartieLabels(indice3Parts.join(", ") || "—");
@@ -448,21 +524,21 @@ function buildCharacter(title, params) {
     name: stripPartieLabels(title),
     aliases,
     gender,
-    ...(status ? { status } : {}),
-    ...(clan ? { clan } : {}),
+    status: status || "",
+    clan: clan || "",
     affiliation,
     ninjaRank,
     chakraNatures,
-    kekkeiGenkai,
     classification,
+    profession: profession || "",
     arc,
-    age,
     indice1,
     indice2,
     indice3,
   };
 
-  if (age === undefined) delete char.age;
+  if (age !== undefined) char.age = age;
+  ensureNarutoCharacterDefaults(char);
 
   return char;
 }
@@ -489,15 +565,15 @@ async function discover() {
     unionKeysSorted: [...union].sort((a, b) => a.localeCompare(b, "fr")),
     keysPerPage: perPage,
     mappedJsonKeys: [
-      "gender",
       "status",
-      "clan",
+      "gender",
       "age",
       "affiliation",
+      "clan",
       "ninjaRank",
-      "chakraNatures",
-      "kekkeiGenkai",
       "classification",
+      "profession",
+      "chakraNatures",
       "arc",
       "aliases",
       "indice1",
@@ -509,12 +585,13 @@ async function discover() {
       Statut: "status",
       Clan: "clan",
       Âge: "age",
-      Affiliation: "affiliation",
-      Équipe: "indice3 (avec autres affiliations)",
+      Affiliation: "affiliation (1er lien) ; autres lignes → indice3",
+      Équipe: "indice3",
       "Rang Ninja": "ninjaRank",
       "Nature de Chakra": "chakraNatures",
-      "Kekkei Genkai": "kekkeiGenkai",
+      "Kekkei Genkai": "indice2",
       Classification: "classification",
+      Profession: "profession",
       "Début manga": "arc (via numéro de chapitre)",
       "Autres noms": "aliases",
     },
@@ -790,16 +867,9 @@ async function backfillStatusClan(opts) {
       const clan = stripPartieLabels(
         clanTexts.length ? clanTexts.join(", ") : cleanWikiText(params["Clan"] || ""),
       );
-      let touched = false;
-      if (status) {
-        c.status = status;
-        touched = true;
-      }
-      if (clan) {
-        c.clan = clan;
-        touched = true;
-      }
-      if (touched) okRows++;
+      c.status = status || "";
+      c.clan = clan || "";
+      okRows++;
     } catch (e) {
       console.warn("[backfill]", c.id, e.message);
     }
@@ -815,6 +885,212 @@ async function backfillStatusClan(opts) {
   const fieldPrevalence = Object.fromEntries(
     Object.entries(presenceRates(characters, fmKeys)).sort((a, b) => b[1] - a[1]),
   );
+
+  for (const c of characters) ensureNarutoCharacterDefaults(c);
+
+  const out = {
+    id: data.id || "naruto",
+    name: data.name || "Naruto",
+    fieldMapping: mergedFm,
+    fieldPrevalence,
+    characters,
+  };
+  fs.writeFileSync(opts.outPath, JSON.stringify(out, null, 2) + "\n", "utf8");
+  console.log("Wrote", opts.outPath, "(prune désactivé ; autres champs préservés)");
+}
+
+async function backfillProfession(opts) {
+  const raw = fs.readFileSync(opts.outPath, "utf8");
+  const data = JSON.parse(raw);
+  const characters = data.characters;
+  if (!Array.isArray(characters)) {
+    console.error("Invalid JSON: missing characters[]");
+    process.exit(1);
+  }
+  console.log("Backfill Profession — carte catégorie → titres wiki…");
+  const titles = await fetchCategoryTitles(Infinity, opts.delay);
+  const idToTitle = new Map();
+  for (const t of titles) idToTitle.set(titleToId(t), t);
+
+  let okRows = 0;
+  let noTitle = 0;
+  for (let i = 0; i < characters.length; i++) {
+    const c = characters[i];
+    const title = idToTitle.get(c.id);
+    if (!title) {
+      noTitle++;
+      continue;
+    }
+    try {
+      const { wikitext, error } = await fetchWikitext(title);
+      await sleep(opts.delay);
+      if (error) {
+        console.warn("[backfill profession]", title, error);
+        continue;
+      }
+      const inner = extractInfoboxInner(wikitext);
+      if (!inner) continue;
+      const params = parseInfoboxParams(inner);
+      const profTexts = extractLinkTexts(params["Profession"] || "");
+      const profession = stripPartieLabels(
+        profTexts.length ? profTexts.join(", ") : cleanWikiText(params["Profession"] || ""),
+      );
+      c.profession = profession || "";
+      if (profession) okRows++;
+    } catch (e) {
+      console.warn("[backfill profession]", c.id, e.message);
+    }
+    if ((i + 1) % 50 === 0) console.log("Backfill profession", i + 1, "/", characters.length);
+  }
+  console.log("Fiches mises à jour (profession):", okRows, "| sans titre wiki:", noTitle);
+
+  const mergedFm = { ...(data.fieldMapping || {}) };
+  mergedFm.profession = FIELD_MAPPING.profession;
+
+  const fmKeys = Object.keys(mergedFm);
+  const fieldPrevalence = Object.fromEntries(
+    Object.entries(presenceRates(characters, fmKeys)).sort((a, b) => b[1] - a[1]),
+  );
+
+  for (const c of characters) ensureNarutoCharacterDefaults(c);
+
+  const out = {
+    id: data.id || "naruto",
+    name: data.name || "Naruto",
+    fieldMapping: mergedFm,
+    fieldPrevalence,
+    characters,
+  };
+  fs.writeFileSync(opts.outPath, JSON.stringify(out, null, 2) + "\n", "utf8");
+  console.log("Wrote", opts.outPath, "(prune désactivé ; autres champs préservés)");
+}
+
+async function backfillAffiliationSub(opts) {
+  const raw = fs.readFileSync(opts.outPath, "utf8");
+  const data = JSON.parse(raw);
+  const characters = data.characters;
+  if (!Array.isArray(characters)) {
+    console.error("Invalid JSON: missing characters[]");
+    process.exit(1);
+  }
+  console.log("Backfill affiliation + indice3 — carte catégorie → titres wiki…");
+  const titles = await fetchCategoryTitles(Infinity, opts.delay);
+  const idToTitle = new Map();
+  for (const t of titles) idToTitle.set(titleToId(t), t);
+
+  let okRows = 0;
+  let noTitle = 0;
+  for (let i = 0; i < characters.length; i++) {
+    const c = characters[i];
+    const title = idToTitle.get(c.id);
+    if (!title) {
+      noTitle++;
+      continue;
+    }
+    try {
+      const { wikitext, error } = await fetchWikitext(title);
+      await sleep(opts.delay);
+      if (error) {
+        console.warn("[backfill affiliation]", title, error);
+        continue;
+      }
+      const inner = extractInfoboxInner(wikitext);
+      if (!inner) continue;
+      const params = parseInfoboxParams(inner);
+      const { affiliation, extras } = deriveAffiliationSubFromParams(params);
+      c.affiliation = affiliation;
+      delete c.sub_affiliation;
+      const indice3Parts = [
+        ...new Set(
+          [affiliation, ...extras].map((x) => stripPartieLabels(x)).filter(Boolean),
+        ),
+      ];
+      c.indice3 = stripPartieLabels(indice3Parts.join(", ") || "—");
+      okRows++;
+    } catch (e) {
+      console.warn("[backfill affiliation]", c.id, e.message);
+    }
+    if ((i + 1) % 50 === 0) console.log("Backfill affiliation", i + 1, "/", characters.length);
+  }
+  console.log("Fiches mises à jour (affiliation + indice3):", okRows, "| sans titre wiki:", noTitle);
+
+  const mergedFm = { ...(data.fieldMapping || {}) };
+  mergedFm.affiliation = FIELD_MAPPING.affiliation;
+  mergedFm.indice3 = FIELD_MAPPING.indice3;
+  delete mergedFm.sub_affiliation;
+
+  const fmKeys = Object.keys(mergedFm);
+  const fieldPrevalence = Object.fromEntries(
+    Object.entries(presenceRates(characters, fmKeys)).sort((a, b) => b[1] - a[1]),
+  );
+
+  for (const c of characters) ensureNarutoCharacterDefaults(c);
+
+  const out = {
+    id: data.id || "naruto",
+    name: data.name || "Naruto",
+    fieldMapping: mergedFm,
+    fieldPrevalence,
+    characters,
+  };
+  fs.writeFileSync(opts.outPath, JSON.stringify(out, null, 2) + "\n", "utf8");
+  console.log("Wrote", opts.outPath, "(prune désactivé ; autres champs préservés)");
+}
+
+async function backfillKekkeiIndice2(opts) {
+  const raw = fs.readFileSync(opts.outPath, "utf8");
+  const data = JSON.parse(raw);
+  const characters = data.characters;
+  if (!Array.isArray(characters)) {
+    console.error("Invalid JSON: missing characters[]");
+    process.exit(1);
+  }
+  console.log("Backfill Kekkei genkai + indice2 — carte catégorie → titres wiki…");
+  const titles = await fetchCategoryTitles(Infinity, opts.delay);
+  const idToTitle = new Map();
+  for (const t of titles) idToTitle.set(titleToId(t), t);
+
+  let okRows = 0;
+  let noTitle = 0;
+  for (let i = 0; i < characters.length; i++) {
+    const c = characters[i];
+    const title = idToTitle.get(c.id);
+    if (!title) {
+      noTitle++;
+      continue;
+    }
+    try {
+      const { wikitext, error } = await fetchWikitext(title);
+      await sleep(opts.delay);
+      if (error) {
+        console.warn("[backfill kekkei]", title, error);
+        continue;
+      }
+      const inner = extractInfoboxInner(wikitext);
+      if (!inner) continue;
+      const params = parseInfoboxParams(inner);
+      const kekList = extractLinkTexts(params["Kekkei Genkai"] || "").sort((a, b) => a.localeCompare(b, "fr"));
+      const kekkeiGenkai = stripPartieLabels(kekList.join(", "));
+      delete c.kekkeiGenkai;
+      c.indice2 = kekkeiGenkai || "—";
+      if (kekkeiGenkai) okRows++;
+    } catch (e) {
+      console.warn("[backfill kekkei]", c.id, e.message);
+    }
+    if ((i + 1) % 50 === 0) console.log("Backfill kekkei", i + 1, "/", characters.length);
+  }
+  console.log("Persos avec kekkei genkai renseigné:", okRows, "| sans titre wiki:", noTitle);
+
+  const mergedFm = { ...(data.fieldMapping || {}) };
+  delete mergedFm.kekkeiGenkai;
+  mergedFm.indice2 = FIELD_MAPPING.indice2;
+
+  const fmKeys = Object.keys(mergedFm);
+  const fieldPrevalence = Object.fromEntries(
+    Object.entries(presenceRates(characters, fmKeys)).sort((a, b) => b[1] - a[1]),
+  );
+
+  for (const c of characters) ensureNarutoCharacterDefaults(c);
 
   const out = {
     id: data.id || "naruto",
@@ -883,6 +1159,21 @@ if (opts.discover) {
   }
 } else if (opts.backfillStatusClan) {
   backfillStatusClan(opts).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+} else if (opts.backfillProfession) {
+  backfillProfession(opts).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+} else if (opts.backfillAffiliationSub) {
+  backfillAffiliationSub(opts).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+} else if (opts.backfillKekkeiIndice2) {
+  backfillKekkeiIndice2(opts).catch((e) => {
     console.error(e);
     process.exit(1);
   });

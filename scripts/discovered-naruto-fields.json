@@ -164,7 +164,6 @@
     "affiliation",
     "ninjaRank",
     "chakraNatures",
-    "kekkeiGenkai",
     "classification",
     "debutManga",
     "aliases",
@@ -181,7 +180,7 @@
     "Équipe": "indice3 (avec autres affiliations)",
     "Rang Ninja": "ninjaRank",
     "Nature de Chakra": "chakraNatures",
-    "Kekkei Genkai": "kekkeiGenkai",
+    "Kekkei Genkai": "indice2",
     "Classification": "classification",
     "Début manga": "debutManga",
     "Autres noms": "aliases"

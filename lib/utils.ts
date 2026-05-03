@@ -1,14 +1,15 @@
 import type { Character } from "@/types/game";
 
 /**
- * Removes diacritics on e/E and a/A only (custom universe fonts often lack those glyphs).
+ * Retire les diacritiques (FR : û ô é è à ç, etc.) + æ/œ → ae/oe.
+ * Custom fonts : affichage sans accents ; recherche / filtre insensible aux variantes.
  */
 export function stripAccents(str: string): string {
   return str
-    .replace(/\u00E6/g, "ae")
-    .replace(/\u0153/g, "oe")
+    .replace(/\u00E6/gi, "ae")
+    .replace(/\u0153/gi, "oe")
     .normalize("NFD")
-    .replace(/([eEaA])(?:[\u0300-\u036f]+)/g, "$1")
+    .replace(/[\u0300-\u036f]/g, "")
     .normalize("NFC");
 }
 
