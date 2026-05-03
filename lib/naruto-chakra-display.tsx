@@ -1,6 +1,9 @@
 import { stripAccents } from "@/lib/utils";
 
-/** Libellés exacts des données Naruto → fichier sous public/universes/naruto/chakra-symbols */
+/**
+ * Libellés Naruto (données) → slug = nom du fichier `public/universes/naruto/chakra-symbols/<slug>.svg`.
+ * Pictogrammes issus du diagramme « Chakra » Naruto (Commons, Ju gatsu mikka, CC BY-SA 3.0).
+ */
 export const NARUTO_CHAKRA_SLUG_BY_LABEL: Record<string, string> = {
   Katon: "katon",
   Fûton: "futon",
