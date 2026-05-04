@@ -30,7 +30,7 @@
     "role": {
       "header": "Rôle",
       "fonction": "Classique",
-      "description": "Rôle narratif dans le MCU. Valeurs possibles dans les données : Allié, Amoral, Antagoniste, Anti-héros, Civil, Héros, Justicier, Mentor, Réformé, Traétre, Traître, Vilain."
+      "description": "Rôle narratif dans le MCU. Valeurs possibles dans les données : Allié, Amoral, Antagoniste, Anti-héros, Civil, Héros, Justicier, Mentor, Réformé, Traître, Vilain."
     },
     "affiliation": {
       "header": "Affiliation",
@@ -73,13 +73,13 @@
         "Agent Carter",
         "Iron Man 3",
         "Wolverine : Le combat de l'immortel",
-        "Thor : Le Monde des T�n�bres",
+        "Thor : Le Monde des Ténèbres",
         "Captain America : Le Soldat de l'Hiver",
         "Les Gardiens de la Galaxie",
         "The Amazing Spider-Man 2",
         "X-Men : Days of Future Past",
         "Ant-Man",
-        "Avengers : L'��re d'Ultron",
+        "Avengers : L'ère d'Ultron",
         "Daredevil (Série) 2015",
         "Jessica Jones (Série)",
         "Captain America : Civil War",
@@ -161,7 +161,7 @@
       "header": "Année de sortie",
       "fonction": "Indice",
       "hint": {
-        "prompt": "Ann�e (premi�re apparition � l�\"�cran)",
+        "prompt": "Année (première apparition à l'écran)",
         "icon": "FaCalendarAlt"
       },
       "description": "Indice sur l'année de première apparition à l'écran, débloqué après plusieurs tentatives."
@@ -170,7 +170,7 @@
       "header": "Indice 3",
       "fonction": "Indice",
       "hint": {
-        "prompt": "Films et Å“uvres",
+        "prompt": "Films et œuvres",
         "icon": "FaFilm"
       },
       "description": "Indice sur les films et séries où le personnage apparaît, débloqué après plusieurs tentatives."
@@ -196,7 +196,7 @@
       "firstAppearance": "Iron Man",
       "indice1": "Robert Downey Jr.",
       "indice2": "2008",
-      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
+      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -215,7 +215,7 @@
       "firstAppearance": "Captain America : First Avenger",
       "indice1": "Chris Evans",
       "indice2": "2011",
-      "indice3": "Captain America : First Avenger, Avengers, Thor : Le Monde des T�n�bres, Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Marvel Studios : Legends",
+      "indice3": "Captain America : First Avenger, Avengers, Thor : Le Monde des Ténèbres, Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Marvel Studios : Legends",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -233,7 +233,7 @@
       "firstAppearance": "Thor",
       "indice1": "Chris Hemsworth",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -252,7 +252,7 @@
       "firstAppearance": "Avengers",
       "indice1": "Mark Ruffalo",
       "indice2": "2012",
-      "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
+      "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -271,7 +271,7 @@
       "firstAppearance": "Iron Man 2",
       "indice1": "Scarlett Johansson",
       "indice2": "2010",
-      "indice3": "Iron Man 2, Avengers, Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Black Widow",
+      "indice3": "Iron Man 2, Avengers, Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Black Widow",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -290,7 +290,7 @@
       "firstAppearance": "Thor",
       "indice1": "Jeremy Renner",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (S�rie)",
+      "indice3": "Thor, Avengers, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (Série)",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -334,7 +334,7 @@
       "firstAppearance": "Captain America : Le Soldat de l'Hiver",
       "indice1": "Elizabeth Olsen",
       "indice2": "2014",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (S�rie), Doctor Strange in the Multiverse of Madness",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (Série), Doctor Strange in the Multiverse of Madness",
       "role": "Anti-héros",
       "earth": 616,
       "univers": "MCU"
@@ -413,7 +413,7 @@
       "affiliation": "Fin des temps",
       "indice1": "Tom Hiddleston",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Réformé",
       "earth": 616,
       "univers": "MCU"
@@ -429,7 +429,7 @@
       "firstAppearance": "Avengers",
       "indice1": "Josh Brolin",
       "indice2": "2012",
-      "indice3": "Avengers, Les Gardiens de la Galaxie, Avengers : L'��re d'Ultron, Avengers : Infinity War, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Avengers, Les Gardiens de la Galaxie, Avengers : L'ère d'Ultron, Avengers : Infinity War, Avengers : Endgame, What If...? (Série)",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -447,7 +447,7 @@
       "firstAppearance": "Iron Man",
       "indice1": "Samuel L. Jackson",
       "indice2": "2008",
-      "indice3": "Iron Man, Iron Man 2, Captain America : First Avenger, Thor, Avengers, Agents of S.H.I.E.L.D. (S�rie), Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Spider-Man : Far From Home, Secret Invasion (S�rie), The Marvels, Marvel SNAP (vid�o promotionnelle)",
+      "indice3": "Iron Man, Iron Man 2, Captain America : First Avenger, Thor, Avengers, Agents of S.H.I.E.L.D. (Série), Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Spider-Man : Far From Home, Secret Invasion (Série), The Marvels, Marvel SNAP (vidéo promotionnelle)",
       "role": "Mentor",
       "earth": 616,
       "univers": "MCU"
@@ -460,10 +460,10 @@
       "species": "Robot",
       "gender": "Homme",
       "affiliation": "Indépendant(e)",
-      "firstAppearance": "Avengers : L'��re d'Ultron",
+      "firstAppearance": "Avengers : L'ère d'Ultron",
       "indice1": "Paul Bettany",
       "indice2": "2015",
-      "indice3": "Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, WandaVision (S�rie), Marvel Studios : Legends",
+      "indice3": "Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, WandaVision (Série), Marvel Studios : Legends",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -482,7 +482,7 @@
       "firstAppearance": "WandaVision (Série)",
       "indice1": "Paul Bettany",
       "indice2": "2021",
-      "indice3": "Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, WandaVision (S�rie), Marvel Studios : Legends",
+      "indice3": "Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, WandaVision (Série), Marvel Studios : Legends",
       "role": "Anti-héros",
       "earth": 616,
       "univers": "MCU"
@@ -504,7 +504,7 @@
       "firstAppearance": "Captain America : Le Soldat de l'Hiver",
       "indice1": "Anthony Mackie",
       "indice2": "2014",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (S�rie), Marvel Studios : Legends",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Série), Marvel Studios : Legends",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -723,7 +723,7 @@
       "firstAppearance": "Hawkeye (Série)",
       "indice1": "Hailee Steinfeld",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (S�rie)",
+      "indice3": "Thor, Avengers, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (Série)",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -869,25 +869,6 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "anna_marie-mcu-616",
-      "name": "Anna Marie",
-      "aliases": [
-        "Rogue",
-        "Malicia (MCU)"
-      ],
-      "status": "En Vie",
-      "species": "Mutant",
-      "gender": "Femme",
-      "affiliation": "X-Men",
-      "firstAppearance": "Deadpool & Wolverine",
-      "indice1": "Anna Paquin",
-      "indice2": "2024",
-      "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, Deadpool & Wolverine",
-      "role": "Héros",
-      "earth": 616,
-      "univers": "MCU"
-    },
-    {
       "id": "yukio-mcu-616",
       "name": "Yukio",
       "status": "En Vie",
@@ -982,7 +963,7 @@
       "firstAppearance": "Captain America : Le Soldat de l'Hiver",
       "indice1": "Aaron Taylor-Johnson",
       "indice2": "2014",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron",
       "role": "Réformé",
       "earth": 616,
       "univers": "MCU"
@@ -1038,7 +1019,7 @@
       "firstAppearance": "Iron Man",
       "indice1": "Terrence Howard",
       "indice2": "2008",
-      "indice3": "Iron Man, Iron Man 2, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
+      "indice3": "Iron Man, Iron Man 2, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -1281,11 +1262,11 @@
       "aliases": [],
       "species": "Robot",
       "gender": "Homme",
-      "firstAppearance": "Avengers : L'��re d'Ultron",
+      "firstAppearance": "Avengers : L'ère d'Ultron",
       "affiliation": "Indépendant(e)",
       "indice1": "James Spader",
       "indice2": "2015",
-      "indice3": "Avengers : L'��re d'Ultron, What If...? (S�rie), Doctor Strange in the Multiverse of Madness",
+      "indice3": "Avengers : L'ère d'Ultron, What If...? (Série), Doctor Strange in the Multiverse of Madness",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -1322,7 +1303,7 @@
       "affiliation": "Sakaar",
       "indice1": "Jeff Goldblum",
       "indice2": "2017",
-      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (Série)",
       "role": "Antagoniste",
       "earth": 616,
       "univers": "MCU"
@@ -1367,10 +1348,10 @@
       "species": "Elder of the Universe",
       "gender": "Homme",
       "affiliation": "Doyens de l'univers",
-      "firstAppearance": "Thor : Le Monde des T�n�bres",
+      "firstAppearance": "Thor : Le Monde des Ténèbres",
       "indice1": "Benicio del Toro",
       "indice2": "2013",
-      "indice3": "Thor : Le Monde des T�n�bres, Les Gardiens de la Galaxie, Avengers : Infinity War",
+      "indice3": "Thor : Le Monde des Ténèbres, Les Gardiens de la Galaxie, Avengers : Infinity War",
       "role": "Antagoniste",
       "earth": 616,
       "univers": "MCU"
@@ -1455,7 +1436,7 @@
       "firstAppearance": "Iron Man 2",
       "indice1": "Mickey Rourke",
       "indice2": "2010",
-      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (Série)",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -1473,7 +1454,7 @@
       "firstAppearance": "Iron Man",
       "indice1": "Jeff Bridges",
       "indice2": "2008",
-      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (Série)",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -1511,7 +1492,7 @@
       "firstAppearance": "Iron Man",
       "indice1": "Shaun Toub",
       "indice2": "2008",
-      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (Série)",
       "role": "Civil",
       "earth": 616,
       "univers": "MCU"
@@ -1544,7 +1525,7 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "L'Incroyable Hulk",
       "indice1": "Harrison Ford",
       "indice2": "2008",
@@ -1562,11 +1543,11 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "L'Incroyable Hulk",
       "indice1": "Tim Roth",
       "indice2": "2008",
-      "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
+      "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Anti-héros",
       "earth": 616,
       "univers": "MCU"
@@ -1600,7 +1581,7 @@
       "affiliation": "Asgard",
       "indice1": "Anthony Hopkins",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Mentor",
       "earth": 616,
       "univers": "MCU"
@@ -1616,7 +1597,7 @@
       "firstAppearance": "Thor",
       "indice1": "Rene Russo",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Mentor",
       "earth": 616,
       "univers": "MCU"
@@ -1632,7 +1613,7 @@
       "affiliation": "Asgard",
       "indice1": "Idris Elba",
       "indice2": "2011",
-      "indice3": "Thor, Thor : Le Monde des T�n�bres, Thor : Love and Thunder, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Série)",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -1648,7 +1629,7 @@
       "firstAppearance": "Thor",
       "indice1": "Stellan Skarsgård",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Thor : Ragnarok",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Thor : Ragnarok",
       "role": "Civil",
       "earth": 616,
       "univers": "MCU"
@@ -1666,7 +1647,7 @@
       "firstAppearance": "Thor",
       "indice1": "Natalie Portman",
       "indice2": "2011",
-      "indice3": "Thor, Thor : Le Monde des T�n�bres, Thor : Love and Thunder, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Série)",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -1698,7 +1679,7 @@
       "affiliation": "Nouvelle Asgard",
       "indice1": "Jaimie Alexander",
       "indice2": "2011",
-      "indice3": "Thor, Thor : Le Monde des T�n�bres, Thor : Love and Thunder, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Série)",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -1714,7 +1695,7 @@
       "firstAppearance": "Thor",
       "indice1": "Ray Stevenson",
       "indice2": "2011",
-      "indice3": "Thor, Thor : Le Monde des T�n�bres, Thor : Love and Thunder, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Série)",
       "role": "Allié",
       "earth": 616,
       "univers": "MCU"
@@ -1730,7 +1711,7 @@
       "firstAppearance": "Thor",
       "indice1": "Josh Dallas",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Allié",
       "earth": 616,
       "univers": "MCU"
@@ -1746,7 +1727,7 @@
       "firstAppearance": "Thor",
       "indice1": "Tadanobu Asano",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Allié",
       "earth": 616,
       "univers": "MCU"
@@ -1762,7 +1743,7 @@
       "affiliation": "Jotunheim",
       "indice1": "Colm Feore",
       "indice2": "2011",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -1781,7 +1762,7 @@
       "firstAppearance": "Captain America : First Avenger",
       "indice1": "Hayley Atwell",
       "indice2": "2011",
-      "indice3": "Captain America : First Avenger, Agent Carter, Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Avengers : Endgame",
+      "indice3": "Captain America : First Avenger, Agent Carter, Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Avengers : Endgame",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -1799,7 +1780,7 @@
       "affiliation": "Stark Industries",
       "indice1": "Gerard Sanders",
       "indice2": "2008",
-      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
+      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
       "role": "Mentor",
       "earth": 616,
       "univers": "MCU"
@@ -1963,7 +1944,7 @@
       "firstAppearance": "Captain America : Le Soldat de l'Hiver",
       "indice1": "Thomas Kretschmann",
       "indice2": "2014",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (S�rie), Doctor Strange in the Multiverse of Madness",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (Série), Doctor Strange in the Multiverse of Madness",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -2111,7 +2092,7 @@
       "firstAppearance": "Captain Marvel",
       "indice1": "Sharon Blynn",
       "indice2": "2019",
-      "indice3": "Iron Man, Iron Man 2, Captain America : First Avenger, Thor, Avengers, Agents of S.H.I.E.L.D. (S�rie), Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Spider-Man : Far From Home, Secret Invasion (S�rie), The Marvels, Marvel SNAP (vid�o promotionnelle)",
+      "indice3": "Iron Man, Iron Man 2, Captain America : First Avenger, Thor, Avengers, Agents of S.H.I.E.L.D. (Série), Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Spider-Man : Far From Home, Secret Invasion (Série), The Marvels, Marvel SNAP (vidéo promotionnelle)",
       "role": "Réformé",
       "earth": 616,
       "univers": "MCU"
@@ -2123,7 +2104,7 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "Captain Marvel",
       "indice1": "Lashana Lynch",
       "indice2": "2019",
@@ -2160,7 +2141,7 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "Ant-Man et la Guêpe",
       "indice1": "Randall Park",
       "indice2": "2018",
@@ -2216,7 +2197,7 @@
       "firstAppearance": "Ant-Man et la Guêpe",
       "indice1": "Laurence Fishburne",
       "indice2": "2018",
-      "indice3": "Thor, Thor : Le Monde des T�n�bres, Thor : Love and Thunder, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Série)",
       "role": "Allié",
       "earth": 616,
       "univers": "MCU"
@@ -2287,7 +2268,7 @@
       "gender": "Femme",
       "affiliation": "La Main",
       "firstAppearance": "Daredevil (Série) 2015",
-      "indice1": "�0lodie Yung",
+      "indice1": "Élodie Yung",
       "indice2": "2015",
       "indice3": "Daredevil (Série) 2015, Daredevil (Série) 2016, The Defenders",
       "role": "Vilain",
@@ -2602,7 +2583,7 @@
       "firstAppearance": "Iron Man 3",
       "indice1": "Ben Kingsley",
       "indice2": "2013",
-      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
+      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
       "role": "Civil",
       "earth": 616,
       "univers": "MCU"
@@ -2632,11 +2613,11 @@
       ],
       "species": "Dark Elf",
       "gender": "Homme",
-      "firstAppearance": "Thor : Le Monde des T�n�bres",
+      "firstAppearance": "Thor : Le Monde des Ténèbres",
       "affiliation": "Svartalfheim",
       "indice1": "Christopher Eccleston",
       "indice2": "2013",
-      "indice3": "Thor : Le Monde des T�n�bres",
+      "indice3": "Thor : Le Monde des Ténèbres",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -2650,11 +2631,11 @@
       ],
       "species": "Dark Elf",
       "gender": "Homme",
-      "firstAppearance": "Thor : Le Monde des T�n�bres",
+      "firstAppearance": "Thor : Le Monde des Ténèbres",
       "affiliation": "Svartalfheim",
       "indice1": "Adewale Akinnuoye-Agbaje",
       "indice2": "2013",
-      "indice3": "Thor, Thor : Le Monde des T�n�bres, Thor : Love and Thunder, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Série)",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -2767,7 +2748,7 @@
       "species": "Humain",
       "gender": "Femme",
       "affiliation": "U-GIN",
-      "firstAppearance": "Avengers : L'��re d'Ultron",
+      "firstAppearance": "Avengers : L'ère d'Ultron",
       "indice1": "Claudia Kim",
       "indice2": "2015",
       "indice3": "Avengers",
@@ -2783,10 +2764,10 @@
       "species": "Humain",
       "gender": "Femme",
       "affiliation": "Civil",
-      "firstAppearance": "Avengers : L'��re d'Ultron",
+      "firstAppearance": "Avengers : L'ère d'Ultron",
       "indice1": "Linda Cardellini",
       "indice2": "2015",
-      "indice3": "Thor, Avengers, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (S�rie)",
+      "indice3": "Thor, Avengers, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (Série)",
       "role": "Civil",
       "earth": 616,
       "univers": "MCU"
@@ -2799,10 +2780,10 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "Intelligencia",
-      "firstAppearance": "Avengers : L'��re d'Ultron",
+      "firstAppearance": "Avengers : L'ère d'Ultron",
       "indice1": "Andy Serkis",
       "indice2": "2015",
-      "indice3": "Avengers : L'��re d'Ultron, Black Panther",
+      "indice3": "Avengers : L'ère d'Ultron, Black Panther",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -3068,7 +3049,7 @@
       "affiliation": "Muspelheim",
       "indice1": "Taika Waititi",
       "indice2": "2017",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Amoral",
       "earth": 616,
       "univers": "MCU"
@@ -3164,7 +3145,7 @@
       "species": "Alien",
       "indice1": "Carrie Coon",
       "indice2": "2018",
-      "indice3": "Avengers, Les Gardiens de la Galaxie, Avengers : L'��re d'Ultron, Avengers : Infinity War, Avengers : Endgame, What If...? (S�rie)",
+      "indice3": "Avengers, Les Gardiens de la Galaxie, Avengers : L'ère d'Ultron, Avengers : Infinity War, Avengers : Endgame, What If...? (Série)",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -3180,7 +3161,7 @@
       "species": "Alien",
       "indice1": "Michael Shaw",
       "indice2": "2018",
-      "indice3": "Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, WandaVision (S�rie), Marvel Studios : Legends",
+      "indice3": "Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, WandaVision (Série), Marvel Studios : Legends",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -3251,7 +3232,7 @@
       "firstAppearance": "Iron Man",
       "indice1": "Peter Billingsley",
       "indice2": "2008",
-      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
+      "indice3": "Iron Man, L'Incroyable Hulk, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Marvel Studios : Legends",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -3445,7 +3426,7 @@
       "species": "Eternal",
       "gender": "Homme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Richard Madden",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3460,7 +3441,7 @@
       "aliases": [],
       "species": "Eternal",
       "gender": "Femme",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "firstAppearance": "Eternals",
       "indice1": "Gemma Chan",
       "indice2": "2021",
@@ -3477,7 +3458,7 @@
       "species": "Eternal",
       "gender": "Femme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Angelina Jolie",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3493,7 +3474,7 @@
       "species": "Eternal",
       "gender": "Femme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Salma Hayek",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3509,7 +3490,7 @@
       "species": "Eternal",
       "gender": "Homme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Kumail Nanjiani",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3525,7 +3506,7 @@
       "species": "Eternal",
       "gender": "Femme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Lia McHugh",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3541,7 +3522,7 @@
       "species": "Eternal",
       "gender": "Homme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Brian Tyree Henry",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3557,7 +3538,7 @@
       "species": "Eternal",
       "gender": "Femme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Lauren Ridloff",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3573,7 +3554,7 @@
       "species": "Eternal",
       "gender": "Homme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Barry Keoghan",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3589,7 +3570,7 @@
       "species": "Eternal",
       "gender": "Homme",
       "firstAppearance": "Eternals",
-      "affiliation": "�0ternels",
+      "affiliation": "Éternels",
       "indice1": "Don Lee",
       "indice2": "2021",
       "indice3": "Eternals",
@@ -3850,7 +3831,7 @@
       "firstAppearance": "WandaVision (Série)",
       "indice1": "Josh Stamberg",
       "indice2": "2021",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (S�rie)",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (Série)",
       "role": "Antagoniste",
       "earth": 616,
       "univers": "MCU"
@@ -3897,11 +3878,11 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "Falcon et le Soldat de l'Hiver (Série)",
       "indice1": "Carl Lumbly",
       "indice2": "2021",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (S�rie), Marvel Studios : Legends",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Série), Marvel Studios : Legends",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -3915,11 +3896,11 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "Falcon et le Soldat de l'Hiver (Série)",
       "indice1": "Elijah Richardson",
       "indice2": "2021",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (S�rie), Marvel Studios : Legends",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Série), Marvel Studios : Legends",
       "role": "Civil",
       "earth": 616,
       "univers": "MCU"
@@ -3951,7 +3932,7 @@
       "firstAppearance": "Falcon et le Soldat de l'Hiver (Série)",
       "indice1": "Adepero Oduye",
       "indice2": "2021",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (S�rie), Marvel Studios : Legends",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Série), Marvel Studios : Legends",
       "role": "Civil",
       "earth": 616,
       "univers": "MCU"
@@ -3964,10 +3945,10 @@
       "species": "Humain",
       "gender": "Homme",
       "firstAppearance": "Falcon et le Soldat de l'Hiver (Série)",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "indice1": "Danny Ramirez",
       "indice2": "2021",
-      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (S�rie), Marvel Studios : Legends",
+      "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Série), Marvel Studios : Legends",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -4005,7 +3986,7 @@
       "firstAppearance": "Loki (Série)",
       "indice1": "Owen Wilson",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Allié",
       "earth": 616,
       "univers": "MCU"
@@ -4273,7 +4254,7 @@
       "firstAppearance": "She-Hulk (Série)",
       "indice1": "Tatiana Maslany",
       "indice2": "2022",
-      "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'��re d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
+      "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "earth": 616,
       "univers": "MCU"
@@ -4354,7 +4335,7 @@
     },
     {
       "id": "le_ma_tre_de_l_volution-mcu-616",
-      "name": "Le Ma�tre de l'�volution",
+      "name": "Le Maître de l'évolution",
       "status": "En Vie",
       "aliases": [],
       "species": "Humain",
@@ -4813,7 +4794,7 @@
       "univers": "MCU"
     },
     {
-      "id": "harry_osborn-mcu-616",
+      "id": "harry_osborn-mcu-86445",
       "name": "Harry Osborn (MCU)",
       "status": "En Vie",
       "aliases": [
@@ -4828,7 +4809,7 @@
       "indice2": "2025",
       "indice3": "Ton Ami du Quartier Spider-Man",
       "role": "Allié",
-      "earth": 616,
+      "earth": 86445,
       "univers": "MCU"
     },
     {
@@ -5089,7 +5070,7 @@
     },
     {
       "id": "sa_ur_maggie-mcu-616",
-      "name": "SÅ“ur Maggie",
+      "name": "Sœur Maggie",
       "status": "En Vie",
       "aliases": [
         "Sister Maggie",
@@ -5492,7 +5473,7 @@
       ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "Le Punisher (Série)",
       "indice1": "Amber Rose Revah",
       "indice2": "2017",
@@ -6566,7 +6547,7 @@
       ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "�0tats-Unis",
+      "affiliation": "États-Unis",
       "firstAppearance": "X-Men : L'Affrontement final",
       "indice1": "Olivia Williams",
       "indice2": "2006",
@@ -7119,7 +7100,7 @@
       "gender": "Homme",
       "affiliation": "Galactus",
       "firstAppearance": "Les 4 Fantastiques et le Surfer d'Argent",
-      "indice1": "Pas d'interpr�te humaine � l'�cran (effets num�riques)",
+      "indice1": "Pas d'interprète humaine à l'écran (effets numériques)",
       "indice2": "2007",
       "indice3": "Les 4 Fantastiques et le Surfer d'Argent",
       "role": "Amoral",
@@ -7357,7 +7338,7 @@
       "univers": "Spider-Verse"
     },
     {
-      "id": "eric_brooks-blade_original-26320",
+      "id": "eric_brooks-independants-26320",
       "name": "Eric Brooks",
       "aliases": [
         "Blade"
@@ -7378,7 +7359,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "abraham_whistler-blade_original-26320",
+      "id": "abraham_whistler-independants-26320",
       "name": "Abraham Whistler",
       "aliases": [
         "Whistler"
@@ -7472,7 +7453,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "frank_castle-independants-26320",
+      "id": "frank_castle-independants-58732",
       "name": "Frank Castle (Le Punisher, 2004)",
       "aliases": [
         "Frank Castle",
@@ -7488,25 +7469,7 @@
       "indice2": "2004",
       "indice3": "Le Punisher",
       "role": "Justicier",
-      "earth": 26320,
-      "univers": "Indépendants"
-    },
-    {
-      "id": "howard_le_canard-independants-26320",
-      "name": "Howard le Canard",
-      "aliases": [
-        "Howard the Duck"
-      ],
-      "status": "En Vie",
-      "species": "Howard Duck",
-      "gender": "Homme",
-      "affiliation": "Indépendant(e)",
-      "firstAppearance": "Howard the Duck",
-      "indice1": "Chip Zien",
-      "indice2": "1986",
-      "indice3": "Howard the Duck, Les Gardiens de la Galaxie, Avengers : Endgame",
-      "role": "Allié",
-      "earth": 26320,
+      "earth": 58732,
       "univers": "Indépendants"
     },
     {
@@ -7542,7 +7505,7 @@
       "firstAppearance": "Loki (Série)",
       "indice1": "Tom Hiddleston",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Vilain",
       "earth": 0,
       "univers": "MCU"
@@ -7579,7 +7542,7 @@
       "firstAppearance": "Loki (Série)",
       "indice1": "Jack Veal",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Allié",
       "earth": 0,
       "univers": "MCU"
@@ -7598,7 +7561,7 @@
       "firstAppearance": "Loki (Série)",
       "indice1": "Wally",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Allié",
       "earth": 0,
       "univers": "MCU"
@@ -7617,7 +7580,7 @@
       "firstAppearance": "Loki (Série)",
       "indice1": "DeObia Oparei",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (S�rie)",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Série)",
       "role": "Traétre",
       "earth": 0,
       "univers": "MCU"
@@ -7674,7 +7637,7 @@
       "firstAppearance": "What If...? (Série)",
       "indice1": "Hayley Atwell",
       "indice2": "2021",
-      "indice3": "Captain America : First Avenger, Agent Carter, Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'��re d'Ultron, Avengers : Endgame",
+      "indice3": "Captain America : First Avenger, Agent Carter, Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Avengers : Endgame",
       "role": "Héros",
       "earth": 82111,
       "univers": "MCU"
@@ -7836,7 +7799,7 @@
       "firstAppearance": "What If...? (Série)",
       "indice1": "Chris Hemsworth",
       "indice2": "2021",
-      "indice3": "Thor, Avengers, Thor : Le Monde des T�n�bres, Avengers : L'��re d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
+      "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Doctor Strange, Thor : Ragnarok, Thor : Love and Thunder, Avengers : Infinity War, Avengers : Endgame",
       "role": "Héros",
       "earth": 72124,
       "univers": "MCU"
@@ -7924,7 +7887,7 @@
       "univers": "MCU"
     },
     {
-      "id": "deacon_frost-blade_original-26320",
+      "id": "deacon_frost-independants-26320",
       "name": "Deacon Frost",
       "aliases": [],
       "status": "Décédé",
@@ -7940,7 +7903,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "jared_nomak-blade_original-26320",
+      "id": "jared_nomak-independants-26320",
       "name": "Jared Nomak",
       "aliases": [],
       "status": "Décédé",
@@ -7959,7 +7922,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "drake-blade_original-26320",
+      "id": "drake-independants-26320",
       "name": "Drake",
       "aliases": [
         "Dracula"
@@ -7977,7 +7940,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "hannibal_king-blade_original-26320",
+      "id": "hannibal_king-independants-26320",
       "name": "Hannibal King",
       "aliases": [],
       "status": "En Vie",
@@ -7996,7 +7959,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "abigail_whistler-blade_original-26320",
+      "id": "abigail_whistler-independants-26320",
       "name": "Abigail Whistler",
       "aliases": [],
       "status": "En Vie",

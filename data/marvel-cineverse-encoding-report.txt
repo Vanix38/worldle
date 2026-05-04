@@ -1,0 +1,14 @@
+File: d:\worlddle\data\marvel-cineverse.json
+Total U+FFFD code units in all string values: 0
+
+Pattern match counts (may overlap):
+  U+FFFD (replacement char): 0
+  L'..re d'Ultron (ère corrompue): 51
+  T..nbres (Ténèbres): 28
+  (S..rie) série: 300
+  vid..o promotionnelle: 3
+  États-Unis corrompu: 0
+  Mojibake Å" (œ): 0
+
+Sample paths/snippets containing U+FFFD (max 25):
+

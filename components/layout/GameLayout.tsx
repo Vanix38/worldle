@@ -138,7 +138,10 @@ export function GameLayout({ children }: GameLayoutProps) {
         </nav>
       </header>
 
-      <main id="main-content" className="min-h-[calc(100vh-8rem)] min-w-0 max-w-full overflow-x-hidden">
+      <main
+        id="main-content"
+        className="min-h-[calc(100vh-8rem)] min-w-0 max-w-full overflow-x-auto lg:overflow-x-hidden"
+      >
         <PageTransition>{children}</PageTransition>
       </main>
 

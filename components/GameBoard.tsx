@@ -358,20 +358,20 @@ export function GameBoard({ universeId }: GameBoardProps) {
         </div>
       </Modal>
 
-      <div className="relative max-w-full overflow-hidden rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl">
+      <div className="relative max-w-full overflow-x-auto overflow-y-visible rounded-lg border border-gray-600 bg-gray-900/80 shadow-xl lg:overflow-hidden">
         <div
           ref={tableScrollRef}
           onScroll={updateScrollFade}
           className="overflow-x-auto lg:overflow-x-hidden"
         >
           <table
-            className="w-full min-w-0 table-fixed border-collapse text-center"
+            className="w-max min-w-full table-auto border-collapse text-center lg:w-full lg:min-w-0 lg:table-fixed"
             role="grid"
             aria-label={stripAccents("Tentatives et feedback par catégorie")}
           >
             <thead>
               <tr className="min-h-12 border-b border-gray-600 bg-gray-800/80">
-                <th className="w-44 min-w-[8rem] max-w-[32%] border border-gray-600 px-2 py-2 text-left align-top font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:px-4 lg:py-3">
+                <th className="w-44 min-w-[8rem] max-w-none border border-gray-600 px-2 py-2 text-left align-top font-semibold uppercase leading-tight text-gray-300 md:px-3 md:py-2.5 lg:max-w-[32%] lg:px-4 lg:py-3">
                   <span className="block break-words text-[clamp(0.5rem,2vmin+0.35rem,0.85rem)]">
                     {stripAccents("Personnage")}
                   </span>
@@ -401,7 +401,7 @@ export function GameBoard({ universeId }: GameBoardProps) {
                   >
                     <motion.td
                       variants={guessCellVariants}
-                      className="w-44 min-w-[8rem] max-w-[32%] border border-gray-600 px-2 py-1.5 text-left align-top md:px-3 md:py-2 lg:px-4 lg:py-2"
+                      className="w-44 min-w-[8rem] max-w-none border border-gray-600 px-2 py-1.5 text-left align-top md:px-3 md:py-2 lg:max-w-[32%] lg:px-4 lg:py-2"
                     >
                       <div className="flex min-h-11 min-w-0 items-start justify-start gap-2">
                         <CharacterAvatar character={row.character} size="sm" />
