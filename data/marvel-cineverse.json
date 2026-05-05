@@ -7585,25 +7585,6 @@
       "univers": "MCU"
     },
     {
-      "id": "kang_le_conquerant-mcu-0",
-      "name": "Kang le Conquérant",
-      "status": "Décédé",
-      "aliases": [
-        "Kang the Conqueror",
-        "Kang le Conquérant (variante TVA)"
-      ],
-      "species": "Humain",
-      "gender": "Homme",
-      "affiliation": "Conseil des Kangs",
-      "firstAppearance": "Ant-Man et la Guêpe : Quantumania",
-      "indice1": "Jonathan Majors",
-      "indice2": "2023",
-      "indice3": "Ant-Man, Captain America : Civil War, Ant-Man et la Guêpe, Avengers : Infinity War, Avengers : Endgame",
-      "role": "Vilain",
-      "earth": 0,
-      "univers": "MCU"
-    },
-    {
       "id": "victor_timely-mcu-0",
       "name": "Victor Timely (variante)",
       "status": "En Vie",
