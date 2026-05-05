@@ -869,7 +869,7 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "yukio-mcu-616",
+      "id": "yukio-fox_x_men-10005",
       "name": "Yukio",
       "status": "En Vie",
       "aliases": [],
@@ -881,11 +881,11 @@
       "indice2": "2018",
       "indice3": "Deadpool 2, Deadpool & Wolverine",
       "role": "Héros",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 10005,
+      "univers": "Fox X-Men"
     },
     {
-      "id": "eloise_olivia_phimister-mcu-616",
+      "id": "eloise_olivia_phimister-fox_x_men-10005",
       "name": "Eloise Olivia Phimister",
       "status": "En Vie",
       "aliases": [
@@ -909,11 +909,11 @@
       "indice2": "2016",
       "indice3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Héros",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 10005,
+      "univers": "Fox X-Men"
     },
     {
-      "id": "vanessa_carlysle-mcu-616",
+      "id": "vanessa_carlysle-fox_x_men-10005",
       "name": "Vanessa Carlysle",
       "status": "En Vie",
       "aliases": [
@@ -927,11 +927,11 @@
       "indice2": "2016",
       "indice3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Civil",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 10005,
+      "univers": "Fox X-Men"
     },
     {
-      "id": "victor_creed-mcu-616",
+      "id": "victor_creed-fox_x_men-10005",
       "name": "Victor Creed",
       "status": "Décédé",
       "aliases": [
@@ -947,8 +947,8 @@
       "indice2": "2000",
       "indice3": "X-Men, Deadpool & Wolverine",
       "role": "Vilain",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 10005,
+      "univers": "Fox X-Men"
     },
     {
       "id": "pietro_maximoff-mcu-616",
@@ -2397,7 +2397,7 @@
       "univers": "MCU"
     },
     {
-      "id": "norman_osborn-mcu-616",
+      "id": "norman_osborn-raimi_verse-96283",
       "name": "Norman Osborn",
       "status": "En Vie",
       "aliases": [
@@ -2413,13 +2413,13 @@
       "firstAppearance": "Spider-Man",
       "indice1": "Willem Dafoe",
       "indice2": "2002",
-      "indice3": "Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Spider-Man : Far From Home, Spider-Man : No Way Home",
+      "indice3": "Spider-Man, Spider-Man 2, Spider-Man 3, Spider-Man : No Way Home",
       "role": "Vilain",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 96283,
+      "univers": "Raimi-Verse"
     },
     {
-      "id": "max_dillon-mcu-616",
+      "id": "max_dillon-webb_verse-120703",
       "name": "Max Dillon",
       "status": "En Vie",
       "aliases": [
@@ -2436,11 +2436,31 @@
       "indice2": "2014",
       "indice3": "The Amazing Spider-Man 2, Spider-Man : No Way Home",
       "role": "Vilain",
-      "earth": 616,
+      "earth": 120703,
+      "univers": "Webb-Verse"
+    },
+    {
+      "id": "max_dillon-mcu-86445",
+      "name": "Max Dillon",
+      "status": "En Vie",
+      "aliases": [
+        "Maxwell Dillon",
+        "Electro",
+        "Candidat W.E.B."
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Oscorp",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man",
+      "indice1": "—",
+      "indice2": "2025",
+      "indice3": "Ton Ami du Quartier Spider-Man",
+      "role": "Civil",
+      "earth": 86445,
       "univers": "MCU"
     },
     {
-      "id": "flint_marko-mcu-616",
+      "id": "flint_marko-raimi_verse-96283",
       "name": "Flint Marko",
       "status": "En Vie",
       "aliases": [
@@ -2455,11 +2475,11 @@
       "indice2": "2007",
       "indice3": "Spider-Man 3, Spider-Man : No Way Home",
       "role": "Anti-héros",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 96283,
+      "univers": "Raimi-Verse"
     },
     {
-      "id": "curt_connors-mcu-616",
+      "id": "curt_connors-webb_verse-120703",
       "name": "Curt Connors",
       "status": "En Vie",
       "aliases": [
@@ -2473,10 +2493,10 @@
       "firstAppearance": "The Amazing Spider-Man",
       "indice1": "Rhys Ifans",
       "indice2": "2012",
-      "indice3": "Spider-Man : Homecoming, Spider-Man : Far From Home, Spider-Man : No Way Home, Spider-Man : Brand New Day",
+      "indice3": "The Amazing Spider-Man, Spider-Man : No Way Home",
       "role": "Anti-héros",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 120703,
+      "univers": "Webb-Verse"
     },
     {
       "id": "mac_gargan-mcu-616",
@@ -3614,18 +3634,16 @@
       "univers": "MCU"
     },
     {
-      "id": "otto_octavius-mcu-616",
+      "id": "otto_octavius-raimi_verse-96283",
       "name": "Otto Octavius",
       "status": "En Vie",
       "aliases": [
         "Doctor Octopus",
         "Otto Gunther Octavius",
         "Doc Ock",
-        "Sir (Doc Ock, No Way Home)",
         "Hack",
         "Monster",
         "Science Squid",
-        "Doctor Strange (blague No Way Home)",
         "Otto Octavius (Terre-96283)"
       ],
       "species": "Humain",
@@ -3636,8 +3654,8 @@
       "indice2": "2004",
       "indice3": "Spider-Man 2, Spider-Man : No Way Home",
       "role": "Anti-héros",
-      "earth": 616,
-      "univers": "MCU"
+      "earth": 96283,
+      "univers": "Raimi-Verse"
     },
     {
       "id": "america_chavez-mcu-616",
@@ -4507,7 +4525,7 @@
       "univers": "MCU"
     },
     {
-      "id": "piotr_rasputin-mcu-616",
+      "id": "piotr_rasputin-mcu-10005",
       "name": "Piotr Rasputin",
       "status": "En Vie",
       "aliases": [
@@ -4523,7 +4541,7 @@
       "indice2": "2024",
       "indice3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Héros",
-      "earth": 616,
+      "earth": 10005,
       "univers": "MCU"
     },
     {
@@ -4810,24 +4828,6 @@
       "indice3": "Ton Ami du Quartier Spider-Man",
       "role": "Allié",
       "earth": 86445,
-      "univers": "MCU"
-    },
-    {
-      "id": "michael_peterson-mcu-616",
-      "name": "Michael Peterson",
-      "status": "En Vie",
-      "aliases": [
-        "Deathlok"
-      ],
-      "species": "Humain",
-      "gender": "Homme",
-      "affiliation": "S.H.I.E.L.D.",
-      "firstAppearance": "Agents of S.H.I.E.L.D. (Série)",
-      "indice1": "J. August Richards",
-      "indice2": "2013",
-      "indice3": "Agents of S.H.I.E.L.D. (Série)",
-      "role": "Héros",
-      "earth": 616,
       "univers": "MCU"
     },
     {
@@ -6049,7 +6049,7 @@
     {
       "id": "logan-fox_x_men-10005",
       "name": "Logan (Terre-10005)",
-      "status": "Décédé",
+      "status": "En Vie",
       "aliases": [
         "Wolverine",
         "Logan",
@@ -6068,9 +6068,31 @@
       "firstAppearance": "X-Men",
       "indice1": "Hugh Jackman",
       "indice2": "2000",
-      "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, X-Men : Le Commencement, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past, X-Men : Apocalypse, Logan",
+      "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, X-Men : Le Commencement, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Héros",
       "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "logan-fox_x_men-17315",
+      "name": "Logan (Terre-17315)",
+      "status": "Décédé",
+      "aliases": [
+        "Wolverine",
+        "Logan",
+        "James Howlett",
+        "Weapon X",
+        "Old Man Logan"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Logan",
+      "indice1": "Hugh Jackman",
+      "indice2": "2017",
+      "indice3": "Logan",
+      "role": "Héros",
+      "earth": 17315,
       "univers": "Fox X-Men"
     },
     {
@@ -6417,7 +6439,7 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "cable-fox_x_men-10005",
+      "id": "cable-fox_x_men-41633",
       "name": "Cable",
       "status": "En Vie",
       "aliases": [
@@ -6439,7 +6461,7 @@
       "indice2": "2018",
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Anti-héros",
-      "earth": 10005,
+      "earth": 41633,
       "univers": "Fox X-Men"
     },
     {
@@ -6575,22 +6597,24 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "laura-fox_x_men-10005",
-      "name": "Laura",
+      "id": "laura_kinney-mcu-10005",
+      "name": "Laura Kinney (MCU)",
       "status": "En Vie",
       "aliases": [
+        "X-23",
+        "Laura",
         "X23-23"
       ],
       "species": "Mutant",
       "gender": "Femme",
       "affiliation": "Indépendant(e)",
-      "firstAppearance": "Logan",
+      "firstAppearance": "Deadpool & Wolverine",
       "indice1": "Dafne Keen",
-      "indice2": "2017",
-      "indice3": "Logan, Deadpool & Wolverine",
+      "indice2": "2024",
+      "indice3": "Deadpool & Wolverine",
       "role": "Héros",
       "earth": 10005,
-      "univers": "Fox X-Men"
+      "univers": "MCU"
     },
     {
       "id": "sean_cassidy-fox_x_men-10005",
@@ -6628,7 +6652,7 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "dogpool-fox_x_men-10005",
+      "id": "dogpool-mcu-10005",
       "name": "Dogpool",
       "status": "En Vie",
       "aliases": [],
@@ -6641,7 +6665,7 @@
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Allié",
       "earth": 10005,
-      "univers": "Fox X-Men"
+      "univers": "MCU"
     },
     {
       "id": "neena_thurman-fox_x_men-10005",
@@ -6662,12 +6686,13 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "james_howlett-fox_x_men-10005",
-      "name": "James Howlett",
+      "id": "logan-mcu-10005",
+      "name": "Logan (MCU)",
       "status": "En Vie",
       "aliases": [
         "Wolverine",
-        "Logan"        
+        "Logan",
+        "James Howlett"
       ],
       "species": "Mutant",
       "gender": "Homme",
@@ -6678,7 +6703,7 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Héros",
       "earth": 10005,
-      "univers": "Fox X-Men"
+      "univers": "MCU"
     },
     {
       "id": "maria_rambeau-mcu-10005",
@@ -6737,175 +6762,23 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "donald_pierce-fox_x_men-rtn414",
-      "name": "Donald Pierce (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Chef des Reavers",
-        "Cyborg"
-      ],
-      "species": "Humain",
-      "gender": "Homme",
-      "affiliation": "Alkali-Transigen",
-      "firstAppearance": "Logan",
-      "indice1": "Boyd Holbrook",
-      "indice2": "2017",
-      "indice3": "Logan",
-      "role": "Vilain",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "en_sabah_nur-fox_x_men-rtn414",
-      "name": "En Sabah Nur (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Apocalypse",
-        "En Sabah Nur (X-Men : Apocalypse)"
-      ],
-      "species": "Mutant",
-      "gender": "Homme",
-      "affiliation": "Cavaliers d'Apocalypse (X-Men)",
-      "firstAppearance": "X-Men : Apocalypse",
-      "indice1": "Oscar Isaac",
-      "indice2": "2016",
-      "indice3": "X-Men : Days of Future Past, X-Men : Apocalypse",
-      "role": "Vilain",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "hank_mccoy-fox_x_men-rtn414",
-      "name": "Hank McCoy (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Beast",
-        "Dr. Hank McCoy (Logan)"
-      ],
-      "species": "Mutant",
-      "gender": "Homme",
-      "affiliation": "X-Men",
-      "firstAppearance": "X-Men : Le Commencement",
-      "indice1": "Nicholas Hoult",
-      "indice2": "2011",
-      "indice3": "X-Men",
-      "role": "Héros",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "jean_grey-fox_x_men-rtn414",
-      "name": "Jean Grey (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Dr. Jean Grey",
-        "Phoenix (Terre-RTN414)",
-        "Jean Elaine Grey (Terre-RTN414)"
-      ],
-      "species": "Mutant",
-      "gender": "Femme",
-      "affiliation": "X-Men",
-      "firstAppearance": "X-Men",
-      "indice1": "Famke Janssen",
-      "indice2": "2000",
-      "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past",
-      "role": "Héros",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "laura_kinney-fox_x_men-rtn414",
-      "name": "Laura Kinney (Terre-RTN414)",
+      "id": "laura_kinney-fox_x_men-17315",
+      "name": "Laura Kinney (Terre-17315)",
       "status": "En Vie",
       "aliases": [
         "X-23",
-        "Laura (Terre-RTN414 / Logan)",
-        "X23-23 (Terre-RTN414)"
+        "Laura (Logan)",
+        "X23-23"
       ],
       "species": "Mutant",
       "gender": "Femme",
-      "affiliation": "Alkali-Transigen",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Logan",
       "indice1": "Dafne Keen",
       "indice2": "2017",
       "indice3": "Logan",
-      "role": "Vilain",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "ororo_munroe-fox_x_men-rtn414",
-      "name": "Ororo Munroe (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Storm",
-        "Tornade (Terre-RTN414)"
-      ],
-      "species": "Mutant",
-      "gender": "Femme",
-      "affiliation": "X-Men",
-      "firstAppearance": "X-Men",
-      "indice1": "Halle Berry",
-      "indice2": "2000",
-      "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
       "role": "Héros",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "scott_summers-fox_x_men-rtn414",
-      "name": "Scott Summers (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Cyclope",
-        "Cyclops (Terre-RTN414)",
-        "Scott Summers (Terre-RTN414)"
-      ],
-      "species": "Mutant",
-      "gender": "Homme",
-      "affiliation": "X-Men",
-      "firstAppearance": "X-Men",
-      "indice1": "James Marsden",
-      "indice2": "2000",
-      "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
-      "role": "Héros",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "vanessa_carlysle-fox_x_men-rtn414",
-      "name": "Vanessa Carlysle (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Vanessa Geraldine Carlysle"
-      ],
-      "species": "Humain",
-      "gender": "Femme",
-      "affiliation": "Civil",
-      "firstAppearance": "Deadpool",
-      "indice1": "Morena Baccarin",
-      "indice2": "2016",
-      "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
-      "role": "Allié",
-      "earth": "RTN414",
-      "univers": "Fox X-Men"
-    },
-    {
-      "id": "zander_rice-fox_x_men-rtn414",
-      "name": "Zander Rice (Terre-RTN414)",
-      "status": "Décédé",
-      "aliases": [
-        "Alkali-Transigen"
-      ],
-      "species": "Humain",
-      "gender": "Homme",
-      "affiliation": "Alkali-Transigen",
-      "firstAppearance": "Logan",
-      "indice1": "Richard E. Grant",
-      "indice2": "2017",
-      "indice3": "X-Men",
-      "role": "Vilain",
-      "earth": "RTN414",
+      "earth": 17315,
       "univers": "Fox X-Men"
     },
     {
@@ -7376,7 +7249,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "bruce_banner-independants-26320",
+      "id": "bruce_banner-independants-400083",
       "name": "Bruce Banner (Hulk, 2003)",
       "aliases": [
         "Bruce Banner",
@@ -7392,11 +7265,11 @@
       "indice2": "2003",
       "indice3": "Hulk",
       "role": "Anti-héros",
-      "earth": 26320,
+      "earth": 400083,
       "univers": "Indépendants"
     },
     {
-      "id": "matt_murdock-independants-26320",
+      "id": "matt_murdock-independants-701306",
       "name": "Matt Murdock",
       "aliases": [
         "Daredevil",
@@ -7411,7 +7284,7 @@
       "indice2": "2003",
       "indice3": "Daredevil, Elektra",
       "role": "Justicier",
-      "earth": 26320,
+      "earth": 701306,
       "univers": "Indépendants"
     },
     {
@@ -7434,7 +7307,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "johnny_blaze-independants-26320",
+      "id": "johnny_blaze-independants-121347",
       "name": "Johnny Blaze",
       "aliases": [
         "Ghost Rider"
@@ -7448,7 +7321,7 @@
       "indice2": "2007",
       "indice3": "Ghost Rider",
       "role": "Anti-héros",
-      "earth": 26320,
+      "earth": 121347,
       "univers": "Indépendants"
     },
     {
@@ -7472,7 +7345,7 @@
       "univers": "Indépendants"
     },
     {
-      "id": "ted_sallis-independants-26320",
+      "id": "ted_sallis-independants-58460",
       "name": "Ted Sallis (Homme-Chose, 2005)",
       "aliases": [
         "Ted Sallis",
@@ -7488,7 +7361,7 @@
       "indice2": "2005",
       "indice3": "Homme-Chose, Werewolf by Night (Série)",
       "role": "Allié",
-      "earth": 26320,
+      "earth": 58460,
       "univers": "Indépendants"
     },
     {

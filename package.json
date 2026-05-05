@@ -10,6 +10,8 @@
     "extract-fruits": "node html/extract-fruits-demon.js",
     "migrate-marvel-names": "node scripts/migrate-marvel-names.js",
     "scrape-naruto": "node scripts/scrape-naruto-fandom.mjs",
+    "extract-marvel-film-realities": "node scripts/extract-marvel-film-realities.mjs",
+    "extract-marvel-wiki-characters-by-earth": "node scripts/extract-marvel-wiki-characters-by-earth.mjs",
     "download-naruto-images": "node scripts/download-naruto-character-images.mjs"
   },
   "dependencies": {
