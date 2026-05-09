@@ -41,7 +41,6 @@
       "header": "Première apparition",
       "fonction": "Comparaison",
       "order": [
-        "Howard the Duck",
         "Blade",
         "X-Men",
         "Blade II",
@@ -272,9 +271,9 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "Les Avengers",
-      "firstAppearance": "Avengers",
-      "indice1": "Mark Ruffalo",
-      "indice2": "2012",
+      "firstAppearance": "L'Incroyable Hulk",
+      "indice1": "Edward Norton, Mark Ruffalo",
+      "indice2": "2008",
       "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "earth": 616,
@@ -453,6 +452,25 @@
       "indice1": "Josh Brolin",
       "indice2": "2012",
       "indice3": "Avengers, Les Gardiens de la Galaxie, Avengers : L'ère d'Ultron, Avengers : Infinity War, Avengers : Endgame, What If...? (Saison 1)",
+      "role": "Vilain",
+      "earth": 616,
+      "univers": "MCU"
+    },
+    {
+      "id": "the_other-mcu-616",
+      "name": "The Other",
+      "status": "Décédé",
+      "aliases": [
+        "L'Autre",
+        "Serviteur de Thanos"
+      ],
+      "species": "Alien",
+      "gender": "Homme",
+      "affiliation": "Thanos",
+      "firstAppearance": "Avengers",
+      "indice1": "Alexis Denisof",
+      "indice2": "2012",
+      "indice3": "Avengers, Les Gardiens de la Galaxie",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -855,7 +873,8 @@
       "status": "Décédé",
       "aliases": [
         "Wade Winston Wilson",
-        "Mercenaire"
+        "Mercenaire",
+        "Weapon XI"
       ],
       "species": "Mutant",
       "gender": "Homme",
@@ -865,6 +884,102 @@
       "indice2": "2009",
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Anti-héros",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "kayla_silverfox-fox_x_men-10005",
+      "name": "Kayla Silverfox",
+      "status": "En Vie",
+      "aliases": [
+        "Silver Fox",
+        "Kayla"
+      ],
+      "species": "Mutant",
+      "gender": "Femme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-Men Origins : Wolverine",
+      "indice1": "Lynn Collins",
+      "indice2": "2009",
+      "indice3": "X-Men Origins : Wolverine",
+      "role": "Héros",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "victor_creed-young-fox_x_men-10005",
+      "name": "Victor Creed (Fox, Origines)",
+      "status": "En Vie",
+      "aliases": [
+        "Sabretooth",
+        "Dent de sabre",
+        "Victor Creed (jeune)"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-Men Origins : Wolverine",
+      "indice1": "Liev Schreiber",
+      "indice2": "2009",
+      "indice3": "X-Men Origins : Wolverine",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "john_wraith-fox_x_men-10005",
+      "name": "John Wraith",
+      "status": "Décédé",
+      "aliases": [
+        "Kestrel",
+        "Wraith"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-Men Origins : Wolverine",
+      "indice1": "will.i.am",
+      "indice2": "2009",
+      "indice3": "X-Men Origins : Wolverine",
+      "role": "Allié",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "remy_lebeau-fox_x_men-10005",
+      "name": "Remy LeBeau",
+      "status": "En Vie",
+      "aliases": [
+        "Gambit",
+        "Le Diacre"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-Men Origins : Wolverine",
+      "indice1": "Taylor Kitsch",
+      "indice2": "2009",
+      "indice3": "X-Men Origins : Wolverine",
+      "role": "Allié",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "scott_summers-young-fox_x_men-10005",
+      "name": "Scott Summers (Fox, Origines)",
+      "status": "Décédé",
+      "aliases": [
+        "Cyclope",
+        "Scott Summers (jeune)"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-Men Origins : Wolverine",
+      "indice1": "Tim Pocock",
+      "indice2": "2009",
+      "indice3": "X-Men Origins : Wolverine",
+      "role": "Héros",
       "earth": 10005,
       "univers": "Fox X-Men"
     },
@@ -954,10 +1069,11 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "victor_creed-fox_x_men-10005",
-      "name": "Victor Creed",
+      "id": "victor_creed-adult-fox_x_men-10005",
+      "name": "Victor Creed (Fox, adulte)",
       "status": "Décédé",
       "aliases": [
+        "Victor Creed",
         "Sabretooth",
         "Dent de sabre",
         "Subject 1033"
@@ -1443,6 +1559,25 @@
       "indice1": "Jeff Bridges",
       "indice2": "2008",
       "indice3": "Iron Man, Iron Man 2, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, What If...? (Saison 1)",
+      "role": "Vilain",
+      "earth": 616,
+      "univers": "MCU"
+    },
+    {
+      "id": "raza-mcu-616",
+      "name": "Raza",
+      "status": "Décédé",
+      "aliases": [
+        "Raza",
+        "Commandant Raza"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Les Dix Anneaux",
+      "firstAppearance": "Iron Man",
+      "indice1": "Faran Tahir",
+      "indice2": "2008",
+      "indice3": "Iron Man",
       "role": "Vilain",
       "earth": 616,
       "univers": "MCU"
@@ -3198,6 +3333,26 @@
       "indice2": "2004",
       "indice3": "Spider-Man 2, Spider-Man : No Way Home",
       "role": "Anti-héros",
+      "earth": 96283,
+      "univers": "Raimi-Verse"
+    },
+    {
+      "id": "curt_connors-raimi_verse-96283",
+      "name": "Curt Connors (Terre-96283)",
+      "status": "En Vie",
+      "aliases": [
+        "Dr. Curt Connors",
+        "Curtis Connors",
+        "Professeur Connors (Raimi)"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Université Columbia",
+      "firstAppearance": "Spider-Man 2",
+      "indice1": "Dylan Baker",
+      "indice2": "2004",
+      "indice3": "Spider-Man 2, Spider-Man 3",
+      "role": "Mentor",
       "earth": 96283,
       "univers": "Raimi-Verse"
     },
@@ -5146,6 +5301,25 @@
       "univers": "Raimi-Verse"
     },
     {
+      "id": "gwen_stacy-raimi_verse-96283",
+      "name": "Gwen Stacy (Terre-96283)",
+      "status": "En Vie",
+      "aliases": [
+        "Gwen Stacy",
+        "Gwendolyne Stacy"
+      ],
+      "species": "Humain",
+      "gender": "Femme",
+      "affiliation": "Civil",
+      "firstAppearance": "Spider-Man 3",
+      "indice1": "Bryce Dallas Howard",
+      "indice2": "2007",
+      "indice3": "Spider-Man 3",
+      "role": "Civil",
+      "earth": 96283,
+      "univers": "Raimi-Verse"
+    },
+    {
       "id": "may_parker-raimi_verse-96283",
       "name": "May Parker (Terre-96283)",
       "status": "En Vie",
@@ -5162,6 +5336,26 @@
       "indice2": "2002",
       "indice3": "Spider-Man, Spider-Man 2, Spider-Man 3",
       "role": "Civil",
+      "earth": 96283,
+      "univers": "Raimi-Verse"
+    },
+    {
+      "id": "ben_parker-raimi_verse-96283",
+      "name": "Ben Parker (Terre-96283)",
+      "status": "Décédé",
+      "aliases": [
+        "Uncle Ben",
+        "Benjamin Parker",
+        "Ben Parker (Raimi)"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Civil",
+      "firstAppearance": "Spider-Man",
+      "indice1": "Cliff Robertson",
+      "indice2": "2002",
+      "indice3": "Spider-Man, Spider-Man 2, Spider-Man 3",
+      "role": "Mentor",
       "earth": 96283,
       "univers": "Raimi-Verse"
     },
@@ -5185,6 +5379,46 @@
       "indice2": "2012",
       "indice3": "The Amazing Spider-Man, The Amazing Spider-Man 2, Spider-Man : No Way Home",
       "role": "Héros",
+      "earth": 120703,
+      "univers": "Webb-Verse"
+    },
+    {
+      "id": "may_parker-webb_verse-120703",
+      "name": "May Parker (Terre-120703)",
+      "status": "En Vie",
+      "aliases": [
+        "Tante May",
+        "May Parker (Webb-Verse)",
+        "May Reilly Parker"
+      ],
+      "species": "Humain",
+      "gender": "Femme",
+      "affiliation": "Civil",
+      "firstAppearance": "The Amazing Spider-Man",
+      "indice1": "Sally Field",
+      "indice2": "2012",
+      "indice3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+      "role": "Civil",
+      "earth": 120703,
+      "univers": "Webb-Verse"
+    },
+    {
+      "id": "ben_parker-webb_verse-120703",
+      "name": "Ben Parker (Terre-120703)",
+      "status": "Décédé",
+      "aliases": [
+        "Oncle Ben",
+        "Benjamin Parker",
+        "Ben Parker (Webb-Verse)"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Civil",
+      "firstAppearance": "The Amazing Spider-Man",
+      "indice1": "Martin Sheen",
+      "indice2": "2012",
+      "indice3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+      "role": "Mentor",
       "earth": 120703,
       "univers": "Webb-Verse"
     },
@@ -5416,10 +5650,11 @@
       "univers": "Fox X-Men"
     },
     {
-      "id": "scott_summers-fox_x_men-10005",
-      "name": "Scott Summers",
+      "id": "scott_summers-adult-fox_x_men-10005",
+      "name": "Scott Summers (Fox, adulte)",
       "status": "Décédé",
       "aliases": [
+        "Scott Summers",
         "Cyclope",
         "Cyclops (Terre-10005)",
         "Scott Summers (Fox)"
@@ -5726,6 +5961,77 @@
       "univers": "Fox X-Men"
     },
     {
+      "id": "sebastian_shaw-fox_x_men-10005",
+      "name": "Sebastian Shaw",
+      "status": "Décédé",
+      "aliases": [
+        "Dr. Klaus Schmidt",
+        "Black King"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : Le Commencement",
+      "indice1": "Kevin Bacon",
+      "indice2": "2011",
+      "indice3": "X-Men : Le Commencement",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "azazel-fox_x_men-10005",
+      "name": "Azazel",
+      "status": "Décédé",
+      "aliases": [],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : Le Commencement",
+      "indice1": "Jason Flemyng",
+      "indice2": "2011",
+      "indice3": "X-Men : Le Commencement",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "janos_quested-fox_x_men-10005",
+      "name": "Janos Quested",
+      "status": "En Vie",
+      "aliases": [
+        "Riptide"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : Le Commencement",
+      "indice1": "Álex González",
+      "indice2": "2011",
+      "indice3": "X-Men : Le Commencement",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "angel_salvadore-fox_x_men-10005",
+      "name": "Angel Salvadore",
+      "status": "Décédé",
+      "aliases": [
+        "Tempest"
+      ],
+      "species": "Mutant",
+      "gender": "Femme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : Le Commencement",
+      "indice1": "Zoë Kravitz",
+      "indice2": "2011",
+      "indice3": "X-Men : Le Commencement",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
       "id": "psylocke-fox_x_men-10005",
       "name": "Psylocke",
       "status": "Décédé",
@@ -5756,6 +6062,77 @@
       "indice2": "2006",
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "callisto-fox_x_men-10005",
+      "name": "Callisto",
+      "status": "Décédé",
+      "aliases": [],
+      "species": "Mutant",
+      "gender": "Femme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : L'Affrontement final",
+      "indice1": "Dania Ramirez",
+      "indice2": "2006",
+      "indice3": "X-Men : L'Affrontement final",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "james_madrox-fox_x_men-10005",
+      "name": "James Madrox",
+      "status": "En Vie",
+      "aliases": [
+        "Multiple Man",
+        "Jamie Madrox"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : L'Affrontement final",
+      "indice1": "Eric Dane",
+      "indice2": "2006",
+      "indice3": "X-Men : L'Affrontement final",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "arclight-fox_x_men-10005",
+      "name": "Arclight",
+      "status": "Décédé",
+      "aliases": [
+        "Philippa Sontag"
+      ],
+      "species": "Mutant",
+      "gender": "Femme",
+      "affiliation": "Confrérie des mutants",
+      "firstAppearance": "X-Men : L'Affrontement final",
+      "indice1": "Omahyra Mota",
+      "indice2": "2006",
+      "indice3": "X-Men : L'Affrontement final",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "leech-fox_x_men-10005",
+      "name": "Leech",
+      "status": "En Vie",
+      "aliases": [
+        "Jimmy"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "X-Men",
+      "firstAppearance": "X-Men : L'Affrontement final",
+      "indice1": "Cameron Bright",
+      "indice2": "2006",
+      "indice3": "X-Men : L'Affrontement final",
+      "role": "Allié",
       "earth": 10005,
       "univers": "Fox X-Men"
     },
@@ -5794,6 +6171,44 @@
       "indice2": "2003",
       "indice3": "X-men 2, X-Men Origins : Wolverine, X-Men : Days of Future Past",
       "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "yuriko_oyama-fox_x_men-10005",
+      "name": "Yuriko Oyama",
+      "status": "Décédé",
+      "aliases": [
+        "Lady Deathstrike",
+        "Deathstrike"
+      ],
+      "species": "Mutant",
+      "gender": "Femme",
+      "affiliation": "Programme Weapon X",
+      "firstAppearance": "X-men 2",
+      "indice1": "Kelly Hu",
+      "indice2": "2003",
+      "indice3": "X-men 2",
+      "role": "Vilain",
+      "earth": 10005,
+      "univers": "Fox X-Men"
+    },
+    {
+      "id": "jason_stryker-fox_x_men-10005",
+      "name": "Jason Stryker",
+      "status": "Décédé",
+      "aliases": [
+        "Jason 143",
+        "Mutant 143"
+      ],
+      "species": "Mutant",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-men 2",
+      "indice1": "Michael Reid MacKay",
+      "indice2": "2003",
+      "indice3": "X-men 2",
+      "role": "Civil",
       "earth": 10005,
       "univers": "Fox X-Men"
     },
@@ -6147,6 +6562,25 @@
       "univers": "Fox Fantastiques"
     },
     {
+      "id": "alicia_masters-fox_fantastiques-121698",
+      "name": "Alicia Masters (Fox, 2005)",
+      "status": "En Vie",
+      "aliases": [
+        "Alicia Masters",
+        "Alicia Reiss Masters"
+      ],
+      "species": "Humain",
+      "gender": "Femme",
+      "affiliation": "Civil",
+      "firstAppearance": "4 Fantastiques",
+      "indice1": "Kerry Washington",
+      "indice2": "2005",
+      "indice3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
+      "role": "Civil",
+      "earth": 121698,
+      "univers": "Fox Fantastiques"
+    },
+    {
       "id": "miles_morales-spider_verse-8311",
       "name": "Miles Morales",
       "status": "En Vie",
@@ -6418,6 +6852,45 @@
       "univers": "Indépendants"
     },
     {
+      "id": "betty_ross-independants-400083",
+      "name": "Betty Ross (Terre-400083)",
+      "status": "En Vie",
+      "aliases": [
+        "Elizabeth Ross",
+        "Betty Ross (Hulk, 2003)"
+      ],
+      "species": "Humain",
+      "gender": "Femme",
+      "affiliation": "Civil",
+      "firstAppearance": "Hulk",
+      "indice1": "Jennifer Connelly",
+      "indice2": "2003",
+      "indice3": "Hulk",
+      "role": "Civil",
+      "earth": 400083,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "thaddeus_ross-independants-400083",
+      "name": "Thaddeus Ross (Terre-400083)",
+      "status": "En Vie",
+      "aliases": [
+        "Thunderbolt Ross",
+        "Général Ross",
+        "Thaddeus E. Ross"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "États-Unis",
+      "firstAppearance": "Hulk",
+      "indice1": "Sam Elliott",
+      "indice2": "2003",
+      "indice3": "Hulk",
+      "role": "Antagoniste",
+      "earth": 400083,
+      "univers": "Indépendants"
+    },
+    {
       "id": "matt_murdock-independants-701306",
       "name": "Matt Murdock",
       "aliases": [
@@ -6437,6 +6910,101 @@
       "univers": "Indépendants"
     },
     {
+      "id": "wilson_fisk-independants-701306",
+      "name": "Wilson Fisk (Terre-701306)",
+      "status": "En Vie",
+      "aliases": [
+        "Kingpin",
+        "Le Caïd",
+        "Wilson Grant Fisk"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Crime organisé",
+      "firstAppearance": "Daredevil",
+      "indice1": "Michael Clarke Duncan",
+      "indice2": "2003",
+      "indice3": "Daredevil",
+      "role": "Vilain",
+      "earth": 701306,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "bullseye-independants-701306",
+      "name": "Bullseye (Terre-701306)",
+      "status": "En Vie",
+      "aliases": [
+        "Bullseye",
+        "Lester (comics)"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Daredevil",
+      "indice1": "Colin Farrell",
+      "indice2": "2003",
+      "indice3": "Daredevil",
+      "role": "Vilain",
+      "earth": 701306,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "foggy_nelson-independants-701306",
+      "name": "Foggy Nelson (Terre-701306)",
+      "status": "En Vie",
+      "aliases": [
+        "Franklin Nelson",
+        "Foggy Nelson (film 2003)"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Avocat",
+      "firstAppearance": "Daredevil",
+      "indice1": "Jon Favreau",
+      "indice2": "2003",
+      "indice3": "Daredevil",
+      "role": "Allié",
+      "earth": 701306,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "stick-independants-701306",
+      "name": "Stick (Terre-701306)",
+      "status": "En Vie",
+      "aliases": [
+        "Stick",
+        "Maître Stick (films Fox)"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Ordre du Chaste",
+      "firstAppearance": "Elektra",
+      "indice1": "Terence Stamp",
+      "indice2": "2005",
+      "indice3": "Elektra",
+      "role": "Mentor",
+      "earth": 701306,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "kirigi-independants-701306",
+      "name": "Kirigi (Terre-701306)",
+      "status": "Décédé",
+      "aliases": [
+        "Kirigi"
+      ],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "La Main",
+      "firstAppearance": "Elektra",
+      "indice1": "Will Yun Lee",
+      "indice2": "2005",
+      "indice3": "Elektra",
+      "role": "Vilain",
+      "earth": 701306,
+      "univers": "Indépendants"
+    },
+    {
       "id": "elektra_natchios-independants-701306",
       "name": "Elektra Natchios (Terre-701306)",
       "aliases": [
@@ -6447,9 +7015,9 @@
       "species": "Humain",
       "gender": "Femme",
       "affiliation": "Indépendant(e)",
-      "firstAppearance": "Elektra",
+      "firstAppearance": "Daredevil",
       "indice1": "Jennifer Garner",
-      "indice2": "2005",
+      "indice2": "2003",
       "indice3": "Daredevil, Elektra",
       "role": "Anti-héros",
       "earth": 701306,
@@ -6474,6 +7042,166 @@
       "univers": "Indépendants"
     },
     {
+      "id": "blackheart-independants-121347",
+      "name": "Blackheart",
+      "aliases": [],
+      "status": "Décédé",
+      "species": "Démon",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Ghost Rider",
+      "indice1": "Wes Bentley",
+      "indice2": "2007",
+      "indice3": "Ghost Rider",
+      "role": "Vilain",
+      "earth": 121347,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "mephistopheles-independants-121347",
+      "name": "Méphistophélès",
+      "aliases": [
+        "Mephistopheles",
+        "Le diable (Ghost Rider, 2007)"
+      ],
+      "status": "En Vie",
+      "species": "Démon",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Ghost Rider",
+      "indice1": "Peter Fonda",
+      "indice2": "2007",
+      "indice3": "Ghost Rider",
+      "role": "Vilain",
+      "earth": 121347,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "carter_slade-independants-121347",
+      "name": "Carter Slade",
+      "aliases": [
+        "Ghost Rider (Carter Slade)",
+        "Phantom Rider"
+      ],
+      "status": "Décédé",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Ghost Rider",
+      "indice1": "Sam Elliott",
+      "indice2": "2007",
+      "indice3": "Ghost Rider",
+      "role": "Mentor",
+      "earth": 121347,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "mack-independants-121347",
+      "name": "Mack",
+      "aliases": [],
+      "status": "En Vie",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Ghost Rider",
+      "indice1": "Donal Logue",
+      "indice2": "2007",
+      "indice3": "Ghost Rider",
+      "role": "Allié",
+      "earth": 121347,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "frank_castle-independants-47281",
+      "name": "Frank Castle (Punisher: War Zone)",
+      "aliases": [
+        "Frank Castle",
+        "Punisher",
+        "Le Punisher"
+      ],
+      "status": "En Vie",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Punisher: War Zone",
+      "indice1": "Ray Stevenson",
+      "indice2": "2008",
+      "indice3": "Punisher: War Zone",
+      "role": "Justicier",
+      "earth": 47281,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "billy_russotti-independants-47281",
+      "name": "Billy Russotti / Jigsaw",
+      "aliases": [
+        "Billy Russoti",
+        "Jigsaw",
+        "The Beaut"
+      ],
+      "status": "Décédé",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Organisation criminelle",
+      "firstAppearance": "Punisher: War Zone",
+      "indice1": "Dominic West",
+      "indice2": "2008",
+      "indice3": "Punisher: War Zone",
+      "role": "Vilain",
+      "earth": 47281,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "james_russotti-independants-47281",
+      "name": "James Russotti / Loony Bin Jim",
+      "aliases": [
+        "James Russoti",
+        "Loony Bin Jim",
+        "LBJ"
+      ],
+      "status": "Décédé",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Organisation criminelle",
+      "firstAppearance": "Punisher: War Zone",
+      "indice1": "Doug Hutchison",
+      "indice2": "2008",
+      "indice3": "Punisher: War Zone",
+      "role": "Vilain",
+      "earth": 47281,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "paul_budiansky-independants-47281",
+      "name": "Paul Budiansky",
+      "status": "En Vie",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "FBI",
+      "firstAppearance": "Punisher: War Zone",
+      "indice1": "Colin Salmon",
+      "indice2": "2008",
+      "indice3": "Punisher: War Zone",
+      "role": "Allié",
+      "earth": 47281,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "martin_soap-independants-47281",
+      "name": "Martin Soap",
+      "status": "En Vie",
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "NYPD",
+      "firstAppearance": "Punisher: War Zone",
+      "indice1": "Dash Mihok",
+      "indice2": "2008",
+      "indice3": "Punisher: War Zone",
+      "role": "Allié",
+      "earth": 47281,
+      "univers": "Indépendants"
+    },
+    {
       "id": "frank_castle-independants-58732",
       "name": "Frank Castle (Le Punisher, 2004)",
       "aliases": [
@@ -6490,6 +7218,38 @@
       "indice2": "2004",
       "indice3": "Le Punisher",
       "role": "Justicier",
+      "earth": 58732,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "howard_saint-independants-58732",
+      "name": "Howard Saint",
+      "status": "Décédé",
+      "aliases": [],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Organisation criminelle Saint",
+      "firstAppearance": "Le Punisher",
+      "indice1": "John Travolta",
+      "indice2": "2004",
+      "indice3": "Le Punisher",
+      "role": "Vilain",
+      "earth": 58732,
+      "univers": "Indépendants"
+    },
+    {
+      "id": "quentin_glass-independants-58732",
+      "name": "Quentin Glass",
+      "status": "Décédé",
+      "aliases": [],
+      "species": "Humain",
+      "gender": "Homme",
+      "affiliation": "Organisation criminelle Saint",
+      "firstAppearance": "Le Punisher",
+      "indice1": "Will Patton",
+      "indice2": "2004",
+      "indice3": "Le Punisher",
+      "role": "Vilain",
       "earth": 58732,
       "univers": "Indépendants"
     },
