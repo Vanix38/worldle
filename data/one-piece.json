@@ -241,29 +241,6 @@
       "indice3": "Alliance Baggy et Alvida"
     },
     {
-      "id": "amazon",
-      "name": "Amazon",
-      "aliases": [
-        "Gardienne des Portes de Skypiea"
-      ],
-      "affiliation": "Skypiea",
-      "sub_affiliation": [
-        "Wago Muland"
-      ],
-      "age": 77,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Skypiea",
-      "size": 120,
-      "race": "Humain",
-      "indice1": "Wago Muland",
-      "indice2": "Humain",
-      "indice3": "Wago Muland"
-    },
-    {
       "id": "baskerville",
       "name": "Baskerville",
       "aliases": [
@@ -629,29 +606,6 @@
       "indice3": "Tribu des Minks"
     },
     {
-      "id": "bishamon",
-      "name": "Bishamon",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 28,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 182,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
-    },
-    {
       "id": "black-maria",
       "name": "Black Maria",
       "aliases": [],
@@ -848,25 +802,6 @@
       "indice3": "Amiral"
     },
     {
-      "id": "braham",
-      "name": "Braham",
-      "aliases": [],
-      "affiliation": "Shandias",
-      "sub_affiliation": [],
-      "age": 22,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Skypiea",
-      "size": 179,
-      "race": "Humain",
-      "indice1": "Shandias",
-      "indice2": "Humain",
-      "indice3": "Skypiea"
-    },
-    {
       "id": "brannew",
       "name": "Brannew",
       "aliases": [],
@@ -957,25 +892,6 @@
       "indice3": "East Blue"
     },
     {
-      "id": "buddle",
-      "name": "Buddle",
-      "aliases": [],
-      "affiliation": "Orange Town",
-      "sub_affiliation": [],
-      "age": 73,
-      "arc": "Orange Town",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Archipel des Orgao",
-      "size": 172,
-      "race": "Humain",
-      "indice1": "Orange Town",
-      "indice2": "Humain",
-      "indice3": "Archipel des Orgao"
-    },
-    {
       "id": "buffalo",
       "name": "Buffalo",
       "aliases": [],
@@ -1043,30 +959,6 @@
       "indice1": "Équipage du Fire Tank",
       "indice2": "Shiro Shiro no Mi",
       "indice3": "Équipage du Fire Tank"
-    },
-    {
-      "id": "caramel",
-      "name": "Caramel",
-      "aliases": [
-        "Mother Caramel",
-        "Sœur Caramel",
-        "Holy Mother",
-        "Yamamba la sorcière des montagnes"
-      ],
-      "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
-      "age": 80,
-      "arc": "Whole Cake",
-      "bounty": 0,
-      "devilFruitType": "Paramecia",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "West Blue",
-      "size": 185,
-      "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Soru Soru no Mi",
-      "indice3": "West Blue"
     },
     {
       "id": "caribou",
@@ -1518,25 +1410,6 @@
       "indice3": "Famille Charlotte"
     },
     {
-      "id": "chef-des-Shandiass",
-      "name": "Chef des Shandiass",
-      "aliases": [],
-      "affiliation": "Shandias",
-      "sub_affiliation": [],
-      "age": 63,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Skypiea",
-      "size": 179,
-      "race": "Skypieien",
-      "indice1": "Shandiass",
-      "indice2": "Skypieien",
-      "indice3": "Skypiea"
-    },
-    {
       "id": "chess",
       "name": "Chess",
       "aliases": [],
@@ -1604,48 +1477,6 @@
       "indice3": "Flotte de Happou"
     },
     {
-      "id": "chocolat",
-      "name": "Chocolat",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 24,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 181,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue"
-    },
-    {
-      "id": "chome",
-      "name": "Chome",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 14,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 150,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
-    },
-    {
       "id": "chouchou",
       "name": "Chouchou",
       "aliases": [],
@@ -1663,25 +1494,6 @@
       "indice1": "Orange Town",
       "indice2": "Chien",
       "indice3": "Orange Town"
-    },
-    {
-      "id": "cocoa",
-      "name": "Cocoa",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 25,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 138,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue"
     },
     {
       "id": "conis",
@@ -1788,29 +1600,6 @@
       "indice3": "East Blue"
     },
     {
-      "id": "daikoku",
-      "name": "Daikoku",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 42,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 436,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
-    },
-    {
       "id": "dalton",
       "name": "Dalton",
       "aliases": [],
@@ -1830,25 +1619,6 @@
       "indice1": "Royaume des Cerisiers",
       "indice2": "Ushi Ushi no Mi modèle Bison",
       "indice3": "Royaume des Cerisiers"
-    },
-    {
-      "id": "daruma",
-      "name": "Daruma",
-      "aliases": [],
-      "affiliation": "Nouvel Équipage des Hommes-Poissons",
-      "sub_affiliation": [],
-      "age": 30,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Fishman Island",
-      "size": 122,
-      "race": "Homme-Poisson",
-      "indice1": "Nouvel Équipage des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island"
     },
     {
       "id": "demalo-black",
@@ -2034,44 +1804,6 @@
       "indice1": "Capitaine",
       "indice2": "Géant",
       "indice3": "Erbaf"
-    },
-    {
-      "id": "dosun",
-      "name": "Dosun",
-      "aliases": [],
-      "affiliation": "Nouvel Équipage des Hommes-Poissons",
-      "sub_affiliation": [],
-      "age": 30,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Fishman Island",
-      "size": 418,
-      "race": "Homme-Poisson",
-      "indice1": "Nouvel Équipage des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island"
-    },
-    {
-      "id": "drip",
-      "name": "Drip",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 22,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 208,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue"
     },
     {
       "id": "drophy",
@@ -2291,31 +2023,6 @@
       "indice1": "Équipage du Chapeau de Paille",
       "indice2": "Humain",
       "indice3": "South Blue"
-    },
-    {
-      "id": "fujin",
-      "name": "Fujin",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 45,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "Armement"
-      ],
-      "origin": "Wano Kuni",
-      "size": 200,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "fukaboshi",
@@ -2678,25 +2385,6 @@
       "indice3": "South Blue"
     },
     {
-      "id": "hanzo",
-      "name": "Hanzo",
-      "aliases": [],
-      "affiliation": "O-Niwaban",
-      "sub_affiliation": [],
-      "age": 42,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 544,
-      "race": "Humain",
-      "indice1": "O-Niwaban",
-      "indice2": "Humain",
-      "indice3": "Wano Kuni"
-    },
-    {
       "id": "haredas",
       "name": "Haredas",
       "aliases": [],
@@ -2714,25 +2402,6 @@
       "indice1": "Weatheria",
       "indice2": "Homme-Poisson",
       "indice3": "Îles Célestes (Bilca)"
-    },
-    {
-      "id": "hatcha",
-      "name": "Hatcha",
-      "aliases": [],
-      "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
-      "age": 188,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Punk Hazard",
-      "size": 3675,
-      "race": "Géant",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Géant",
-      "indice3": "Punk Hazard"
     },
     {
       "id": "hiluluk",
@@ -2837,44 +2506,6 @@
       "indice1": "Équipage aux Cent Bêtes",
       "indice2": "SMILE",
       "indice3": "Wano Kuni"
-    },
-    {
-      "id": "hyouzou",
-      "name": "Hyouzou",
-      "aliases": [],
-      "affiliation": "Nouvel Équipage des Hommes-Poissons",
-      "sub_affiliation": [],
-      "age": 39,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Fishman Island",
-      "size": 327,
-      "race": "Homme-Poisson",
-      "indice1": "Nouvel Équipage des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island"
-    },
-    {
-      "id": "icaros-mucchi",
-      "name": "Icaros Mucchi",
-      "aliases": [],
-      "affiliation": "Nouvel Équipage des Hommes-Poissons",
-      "sub_affiliation": [],
-      "age": 30,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Fishman Island",
-      "size": 499,
-      "race": "Homme-Poisson",
-      "indice1": "Nouvel Équipage des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island"
     },
     {
       "id": "ideo",
@@ -3037,27 +2668,6 @@
       "indice3": "Armement, Observation"
     },
     {
-      "id": "jerry",
-      "name": "Jerry",
-      "aliases": [
-        "Le boxeur"
-      ],
-      "affiliation": "CP6",
-      "sub_affiliation": [],
-      "age": 44,
-      "arc": "Water Seven",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "South Blue (Île Karaté)",
-      "size": 676,
-      "race": "Humain",
-      "indice1": "CP6",
-      "indice2": "Humain",
-      "indice3": "South Blue (Île Karaté)"
-    },
-    {
       "id": "jesus-burgess",
       "name": "Jesus Burgess",
       "aliases": [
@@ -3106,25 +2716,6 @@
       "indice1": "Capitaine",
       "indice2": "Toshi Toshi no Mi",
       "indice3": "Armement"
-    },
-    {
-      "id": "jigoku-benten",
-      "name": "Jigoku Benten",
-      "aliases": [],
-      "affiliation": "O-Niwaban",
-      "sub_affiliation": [],
-      "age": 21,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 225,
-      "race": "Humain",
-      "indice1": "O-Niwaban",
-      "indice2": "Humain",
-      "indice3": "Wano Kuni"
     },
     {
       "id": "jinbe",
@@ -3310,25 +2901,6 @@
       "indice3": "Armement, Observation"
     },
     {
-      "id": "kamakiri",
-      "name": "Kamakiri",
-      "aliases": [],
-      "affiliation": "Shandias",
-      "sub_affiliation": [],
-      "age": 22,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Skypiea",
-      "size": 214,
-      "race": "Humain",
-      "indice1": "Shandias",
-      "indice2": "Humain",
-      "indice3": "Skypiea"
-    },
-    {
       "id": "karasu",
       "name": "Karasu",
       "aliases": [
@@ -3372,25 +2944,6 @@
       "indice1": "Équipage du Chapeau de Paille",
       "indice2": "Humain",
       "indice3": "Royaume d'Alabasta"
-    },
-    {
-      "id": "kazekage",
-      "name": "Kazekage",
-      "aliases": [],
-      "affiliation": "O-Niwaban",
-      "sub_affiliation": [],
-      "age": 43,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 192,
-      "race": "Humain",
-      "indice1": "O-Niwaban",
-      "indice2": "Humain",
-      "indice3": "Wano Kuni"
     },
     {
       "id": "killer",
@@ -3781,25 +3334,6 @@
       "indice3": "West Blue"
     },
     {
-      "id": "laki",
-      "name": "Laki",
-      "aliases": [],
-      "affiliation": "Shandias",
-      "sub_affiliation": [],
-      "age": 22,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Skypiea",
-      "size": 179,
-      "race": "Humain",
-      "indice1": "Shandiass",
-      "indice2": "Humain",
-      "indice3": "Skypiea"
-    },
-    {
       "id": "lao-g",
       "name": "Lao G",
       "aliases": [],
@@ -3855,25 +3389,6 @@
       "indice1": "Équipage de Barbe Blanche",
       "indice2": "Humain",
       "indice3": "Grand Line"
-    },
-    {
-      "id": "longs-cils",
-      "name": "Longs-Cils",
-      "aliases": [],
-      "affiliation": "Escadron des Super Colverts",
-      "sub_affiliation": [],
-      "age": 15,
-      "arc": "Alabasta",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Indéterminé",
-      "haki": [],
-      "origin": "Grand Line (Royaume d'Alabasta)",
-      "size": 190,
-      "race": "Humain",
-      "indice1": "Escadron des Super Colverts",
-      "indice2": "Humain",
-      "indice3": "Grand Line (Royaume d'Alabasta)"
     },
     {
       "id": "lucky-roux",
@@ -3953,25 +3468,6 @@
       "indice1": "Île des Hommes-Poissons",
       "indice2": "Homme-Poisson",
       "indice3": "Fishman Island"
-    },
-    {
-      "id": "manjaro",
-      "name": "Manjaro",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 23,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 202,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue"
     },
     {
       "id": "marco",
@@ -4284,25 +3780,6 @@
       "indice3": "East Blue"
     },
     {
-      "id": "mounblutain",
-      "name": "Mounblutain",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 28,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 294,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue"
-    },
-    {
       "id": "nami",
       "name": "Nami",
       "aliases": [
@@ -4487,25 +3964,6 @@
       "indice1": "Équipage du Chapeau de Paille",
       "indice2": "Hana Hana no Mi",
       "indice3": "West Blue"
-    },
-    {
-      "id": "nora-gitsune",
-      "name": "Nora Gitsune",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 11,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Indéterminé",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 103,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue"
     },
     {
       "id": "octo",
@@ -4800,48 +4258,6 @@
       "indice3": "Armement, Observation, des rois"
     },
     {
-      "id": "pound",
-      "name": "Pound",
-      "aliases": [],
-      "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": [],
-      "age": 48,
-      "arc": "Whole Cake",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Nouveau Monde)",
-      "size": 731,
-      "race": "Humain",
-      "indice1": "Équipage de Big Mom",
-      "indice2": "Humain",
-      "indice3": "Grand Line (Nouveau Monde)"
-    },
-    {
-      "id": "raijin",
-      "name": "Raijin",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 45,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 200,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
-    },
-    {
       "id": "raizo",
       "name": "Raizo",
       "aliases": [
@@ -4999,25 +4415,6 @@
       "indice3": "Armement, Observation"
     },
     {
-      "id": "sadi",
-      "name": "Sadi",
-      "aliases": [],
-      "affiliation": "Impel Down",
-      "sub_affiliation": [],
-      "age": 21,
-      "arc": "Impel Down",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": 183,
-      "race": "Humain",
-      "indice1": "Impel Down",
-      "indice2": "Humain",
-      "indice3": "Grand Line"
-    },
-    {
       "id": "sai",
       "name": "Sai",
       "aliases": [],
@@ -5103,25 +4500,6 @@
       "indice3": "Armement, Observation"
     },
     {
-      "id": "saldeath",
-      "name": "Saldeath",
-      "aliases": [],
-      "affiliation": "Impel Down",
-      "sub_affiliation": [],
-      "age": 16,
-      "arc": "Impel Down",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": 218,
-      "race": "Humain",
-      "indice1": "Impel Down",
-      "indice2": "Humain",
-      "indice3": "Grand Line"
-    },
-    {
       "id": "sanjuan-wolf",
       "name": "Sanjuan Wolf",
       "aliases": [],
@@ -5139,29 +4517,6 @@
       "indice1": "Équipage de Barbe Noire",
       "indice2": "Deka Deka no Mi",
       "indice3": "West Blue"
-    },
-    {
-      "id": "sarutobi",
-      "name": "Sarutobi",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 45,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 378,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "sasaki",
@@ -5565,25 +4920,6 @@
       "indice3": "Grand Line"
     },
     {
-      "id": "spandine",
-      "name": "Spandine",
-      "aliases": [],
-      "affiliation": "CP9",
-      "sub_affiliation": [],
-      "age": 64,
-      "arc": "Enies Lobby",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": 275,
-      "race": "Humain",
-      "indice1": "CP9",
-      "indice2": "Humain",
-      "indice3": "Grand Line"
-    },
-    {
       "id": "speed",
       "name": "Speed",
       "aliases": [],
@@ -5713,25 +5049,6 @@
       "indice3": "South Blue"
     },
     {
-      "id": "surume",
-      "name": "Surume",
-      "aliases": [],
-      "affiliation": "Allié de Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 120,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "",
-      "haki": [],
-      "origin": "North Blue (Pôle Nord)",
-      "size": 5000,
-      "race": "Homme-Poisson",
-      "indice1": "Allié de Équipage du Chapeau de Paille",
-      "indice2": "Homme-Poisson",
-      "indice3": "North Blue (Pôle Nord)"
-    },
-    {
       "id": "tamago",
       "name": "Tamago",
       "aliases": [
@@ -5816,25 +5133,6 @@
       "indice3": "Fishman Island"
     },
     {
-      "id": "tonjit",
-      "name": "Tonjit",
-      "aliases": [],
-      "affiliation": "Davy Back Fight",
-      "sub_affiliation": [],
-      "age": 61,
-      "arc": "Long Ring Long Land",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Long Ring Long Land)",
-      "size": 118,
-      "race": "Humain",
-      "indice1": "Davy Back Fight",
-      "indice2": "Humain",
-      "indice3": "Grand Line (Long Ring Long Land)"
-    },
-    {
       "id": "trafalgar-d-water-law",
       "name": "Trafalgar D. Water Law",
       "aliases": [
@@ -5903,27 +5201,6 @@
       "indice1": "Vice-Amiral",
       "indice2": "Woshu Woshu no Mi",
       "indice3": "Armement, Observation"
-    },
-    {
-      "id": "turco",
-      "name": "Turco",
-      "aliases": [],
-      "affiliation": "Faux Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 43,
-      "arc": "Fishman Island",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "des Rois"
-      ],
-      "origin": "East Blue",
-      "size": 256,
-      "race": "Humain",
-      "indice1": "Faux Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "des Rois"
     },
     {
       "id": "ulti",
@@ -6074,25 +5351,6 @@
       "indice1": "Vice-Amiral",
       "indice2": "Humain",
       "indice3": "Armement"
-    },
-    {
-      "id": "victoria-cindry",
-      "name": "Victoria Cindry",
-      "aliases": [],
-      "affiliation": "Hogback",
-      "sub_affiliation": [],
-      "age": 24,
-      "arc": "Thriller Bark",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "West Blue",
-      "size": 188,
-      "race": "Zombie",
-      "indice1": "Hogback",
-      "indice2": "Zombie",
-      "indice3": "West Blue"
     },
     {
       "id": "vinsmoke-ichiji",
@@ -6393,27 +5651,6 @@
       "indice3": "Armement, Observation"
     },
     {
-      "id": "yama",
-      "name": "Yama",
-      "aliases": [
-        "Yama-san"
-      ],
-      "affiliation": "Clan d'Ener",
-      "sub_affiliation": [],
-      "age": 43,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Îles Célestes (Bilca)",
-      "size": 366,
-      "race": "Humain",
-      "indice1": "Clan d'Ener",
-      "indice2": "Humain",
-      "indice3": "Îles Célestes (Bilca)"
-    },
-    {
       "id": "yamato",
       "name": "Yamato",
       "aliases": [
@@ -6483,29 +5720,6 @@
       "indice1": "Équipage du Roux",
       "indice2": "Humain",
       "indice3": "Armement, Observation"
-    },
-    {
-      "id": "yazaemon",
-      "name": "Yazaemon",
-      "aliases": [],
-      "affiliation": "Unité ninja d'Orochi",
-      "sub_affiliation": [
-        "Orochi Oniwabanshu",
-        "Samouraï",
-        "Ninja"
-      ],
-      "age": 24,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Wano Kuni",
-      "size": 180,
-      "race": "Humain",
-      "indice1": "Orochi Oniwabanshu",
-      "indice2": "Humain",
-      "indice3": "Orochi Oniwabanshu"
     },
     {
       "id": "yorle",
@@ -6629,23 +5843,6 @@
       "indice1": "Nouvel Équipage des Hommes-Poissons",
       "indice2": "Homme-Poisson",
       "indice3": "Fishman Island"
-    },
-    {
-      "id": "hotori-et-kotori",
-      "name": "Hotori et Kotori",
-      "aliases": [],
-      "affiliation": "Clan d'Ener",
-      "sub_affiliation": [],
-      "age": 25,
-      "arc": "Jaya",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "imageUrl": "",
-      "origin": "Îles Célestes (Bilca)",
-      "size": "1m79",
-      "race": "Oni"
     },
     {
       "id": "mansherry",
@@ -6808,25 +6005,6 @@
       "race": "Humain"
     },
     {
-      "id": "going-merry",
-      "name": "Going Merry",
-      "aliases": [
-        "Merry"
-      ],
-      "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Romance Dawn",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Indéterminé",
-      "haki": [],
-      "imageUrl": "",
-      "origin": "Water Seven",
-      "size": "13m",
-      "race": "Navire"
-    },
-    {
       "id": "silvers-rayleigh",
       "name": "Silvers Rayleigh",
       "aliases": [
@@ -6848,23 +6026,6 @@
       "imageUrl": "",
       "origin": "Grand Line",
       "size": "1m88",
-      "race": "Humain"
-    },
-    {
-      "id": "woop-slap",
-      "name": "Woop Slap",
-      "aliases": [],
-      "affiliation": "Village de Foosha",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Romance Dawn",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "imageUrl": "",
-      "origin": "East Blue",
-      "size": "",
       "race": "Humain"
     },
     {
@@ -7002,42 +6163,6 @@
       "race": "Humain"
     },
     {
-      "id": "thousand-sunny",
-      "name": "Thousand Sunny",
-      "aliases": [
-        "Sunny"
-      ],
-      "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Post-Enies Lobby",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Indéterminé",
-      "haki": [],
-      "imageUrl": "",
-      "origin": "Water Seven",
-      "size": "39m",
-      "race": "Navire"
-    },
-    {
-      "id": "rockstar",
-      "name": "Rockstar",
-      "aliases": [],
-      "affiliation": "Équipage du Roux",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Jaya",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "imageUrl": "",
-      "origin": "Inconnu",
-      "size": "",
-      "race": "Humain"
-    },
-    {
       "id": "paulie",
       "name": "Paulie",
       "aliases": [],
@@ -7053,23 +6178,6 @@
       "origin": "Water Seven",
       "size": "",
       "race": "Humain"
-    },
-    {
-      "id": "namur",
-      "name": "Namur",
-      "aliases": [],
-      "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Marine Ford",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "imageUrl": "",
-      "origin": "Île des Hommes-Poissons",
-      "size": "",
-      "race": "Homme-Poisson"
     },
     {
       "id": "bellemere",
