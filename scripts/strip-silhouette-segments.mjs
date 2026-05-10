@@ -1,6 +1,7 @@
 /**
- * Supprime les segments « première apparition » avec (silhouette) et ce qui les précède
- * (Chapter…; Episode… ou Chapitre… seul), dans toutes les cellules du CSV.
+ * Supprime les blocs Chapter/Chapitre + Episode dont la parenthèse contient
+ * silhouette, mentionné / mentionnée, ou mentioned (même logique : si un autre
+ * Episode suit dans le même chapitre, ne retirer que l’épisode annoté).
  *
  * Usage: node scripts/strip-silhouette-segments.mjs
  */
@@ -10,8 +11,11 @@ import { fileURLToPath } from "url";
 
 const CSV = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "one-piece-wiki-fixed.csv");
 
-/** Contenu entre parenthèses contenant « silhouette » (insensible à la casse). */
-const SIL_PAREN = String.raw`\([^)]*\bsilhouette\b[^)]*\)`;
+/** Parenthèses à retirer : (…silhouette…), (…mentionné…), (…mentionnée…), (…mentioned…), etc. */
+const PAREN_ANNOT =
+  /\([^)]*(?:\bsilhouette\b|\bmentioned\b|mentionn[eé]e?)[^)]*\)/giu;
+
+const HAS_ANNOT = /silhouette|mentioned|mentionn/i;
 
 function parseLine(line) {
   const o = [];
@@ -44,28 +48,62 @@ function csvEscapeField(v) {
   return s;
 }
 
-function stripSilhouetteSegments(raw) {
-  let s = String(raw ?? "");
-  let prev;
-  const patterns = [
-    new RegExp(String.raw`Chapter\s+\d+\s*;\s*Episode\s+\d+\s*${SIL_PAREN}\s*;?\s*`, "gi"),
-    new RegExp(String.raw`Chapitre\s+\d+\s*;\s*Épisode\s+\d+\s*${SIL_PAREN}\s*;?\s*`, "gi"),
-    new RegExp(String.raw`Chapitre\s+\d+\s*;\s*Episode\s+\d+\s*${SIL_PAREN}\s*;?\s*`, "gi"),
-    new RegExp(String.raw`Episode\s+\d+\s*${SIL_PAREN}\s*;?\s*`, "gi"),
-    new RegExp(String.raw`Épisode\s+\d+\s*${SIL_PAREN}\s*;?\s*`, "gi"),
-    new RegExp(String.raw`Chapter\s+\d+\s*${SIL_PAREN}\s*;?\s*`, "gi"),
-    new RegExp(String.raw`Chapitre\s+\d+\s*${SIL_PAREN}\s*`, "gi"),
-  ];
-  do {
-    prev = s;
-    for (const re of patterns) {
-      s = s.replace(re, "");
-    }
-    s = s.replace(/;\s*;/g, "; ");
-    s = s.replace(/^\s*;\s*|\s*;\s*$/g, "");
-    s = s.replace(/\s{2,}/g, " ");
-  } while (s !== prev);
+function consumeAfterAnnotParen(s, closeEnd) {
+  let end = closeEnd;
+  while (end < s.length && /\s/.test(s[end])) end++;
+  if (s[end] === ";") end++;
+  while (end < s.length && /\s/.test(s[end])) end++;
+  return end;
+}
 
+function stripAppearanceAnnotations(raw) {
+  let s = String(raw ?? "").normalize("NFC");
+  if (!HAS_ANNOT.test(s)) return s;
+
+  let changed = true;
+  while (changed) {
+    changed = false;
+    const m = PAREN_ANNOT.exec(s);
+    if (!m) break;
+
+    const openParen = m.index;
+    const closeEnd = m.index + m[0].length;
+    const beforeOpen = s.slice(0, openParen);
+
+    const epTail = /(?:Episode|Épisode)\s+\d+\s*$/i.exec(beforeOpen);
+
+    if (!epTail) {
+      const chOnly = /(?:Chapter|Chapitre)\s+\d+\s*$/i.exec(beforeOpen);
+      const start = chOnly ? beforeOpen.length - chOnly[0].length : openParen;
+      const end = consumeAfterAnnotParen(s, closeEnd);
+      s = s.slice(0, start) + s.slice(end);
+      changed = true;
+      PAREN_ANNOT.lastIndex = 0;
+      continue;
+    }
+
+    const epStart = beforeOpen.length - epTail[0].length;
+    const beforeEp = s.slice(0, epStart);
+    const chHead = /(?:Chapter|Chapitre)\s+\d+\s*;\s*$/i.exec(beforeEp);
+
+    const end = consumeAfterAnnotParen(s, closeEnd);
+    const rest = s.slice(end);
+    const sameChapterNext = /^(Episode|Épisode)\s/i.test(rest);
+
+    if (chHead && sameChapterNext) {
+      const start = epStart;
+      s = s.slice(0, start) + s.slice(end);
+    } else {
+      const start = chHead ? beforeEp.length - chHead[0].length : epStart;
+      s = s.slice(0, start) + s.slice(end);
+    }
+    changed = true;
+    PAREN_ANNOT.lastIndex = 0;
+  }
+
+  s = s.replace(/;\s*;/g, "; ");
+  s = s.replace(/^\s*;\s*|\s*;\s*$/g, "");
+  s = s.replace(/\s{2,}/g, " ");
   return s.trim();
 }
 
@@ -79,36 +117,21 @@ const outLines = [headers.map((h) => csvEscapeField(h)).join(";")];
 for (let L = 1; L < lines.length; L++) {
   const row = parseLine(lines[L]);
   while (row.length < headers.length) row.push("");
-  let rowTouched = false;
   for (let i = 0; i < headers.length; i++) {
     const before = row[i] ?? "";
-    const after = stripSilhouetteSegments(before);
+    const after = stripAppearanceAnnotations(before);
     if (before !== after) {
-      rowTouched = true;
       cellsChanged++;
       row[i] = after;
     }
-  }
-  if (rowTouched) {
-    /* noop — stats above */
   }
   const obj = {};
   headers.forEach((h, i) => (obj[h] = row[i] ?? ""));
   outLines.push(headers.map((h) => csvEscapeField(obj[h])).join(";"));
 }
 
-const tmp = CSV + ".tmp";
-const body = outLines.join("\n") + "\n";
-fs.writeFileSync(tmp, body, "utf8");
-try {
-  fs.renameSync(tmp, CSV);
-} catch (e) {
-  if (e.code === "EPERM" || e.code === "EBUSY") {
-    const alt = CSV.replace(/\.csv$/i, "-stripped.csv");
-    fs.renameSync(tmp, alt);
-    console.error("CSV verrouillé — résultat:", alt);
-  } else {
-    throw e;
-  }
-}
-console.log("Segments (silhouette) retirés | cellules modifiées:", cellsChanged);
+fs.writeFileSync(CSV, outLines.join("\n") + "\n", "utf8");
+console.log(
+  "Segments (silhouette / mentionné / mentioned) retirés | cellules modifiées:",
+  cellsChanged,
+);
