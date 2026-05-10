@@ -1,20 +1,8 @@
 Fichier: d:\worldle\data\one-piece-wiki-fixed.csv
-Segments uniques entre parenthèses: 542
+Segments uniques entre parenthèses: 424
 
-99	avant l'ellipse
-98	après l'ellipse
-54	après ellipse
-29	B
-28	O
-26	au début
-26	avant ellipse
-23	A
 19	Royaume Ryugu
-16	AB
-12	Jeune
 11	silhouette
-6	Après l'ellipse
-6	Avant l'ellipse
 6	Bilca
 6	mentionné
 5	Amazon Lily
@@ -23,138 +11,66 @@ Segments uniques entre parenthèses: 542
 5	Royaume de Goa
 5	sur un navire
 5	temporary
-4	751+ + Film 14
-4	à sa mort
 4	actual
-4	And
+4	après ellipse
 4	Archipel Totto Land
-4	Bas
 4	cover
 4	dissous
-4	Kerville
 4	promoted
 4	Royaume de Germa
 4	Skypiea
-3	145
 3	3,000,000,000
-3	après l’ellipse
-3	avant l’ellipse
 3	couverture
 3	début
-3	jeune
 3	lors du décès
 3	Mary Geoise
 3	résigné
 3	temporairement
-2	1086
-2	151
-2	392-511
-2	4
 2	allié
 2	ancienne édition
 2	Ancienne édition
 2	anime
+2	après l'ellipse
 2	Arlong Park
 2	Artificial
+2	au début
+2	avant l'ellipse
 2	biologiquement
 2	Chapitre 1
 2	Chocolate Town
 2	dans un port inconnu
 2	enfant
-2	Épisode 571
-2	Épisode 786+
 2	Fluffy Town
 2	Gare de Shift
 2	manga
-2	OAV
 2	Pirate
-2	RH-
-2	s
 2	satellite
-2	toutes les deux
 2	コラソン, Korason
 1	“怪僧” ウルージ, Kai Sō Urūji
 1	"鉄人"フランキー, Saibōgu Furankī
-1	1-195
-1	1-52
 1	10'0"
 1	10'4"
-1	1029+
-1	1086+Film 14
 1	11'2"
-1	1123-
 1	12ème
-1	144-750 + Films 4-13 + ÉS2-4
-1	146-689
-1	151+
-1	196-662 + Films 1-12 + ES 1-4
-1	196-750 + Films 1-13 + ES 1-4
-1	207+
-1	230 - 273 + ES 3
-1	233-1122
-1	233-750 + Films 9-13 + ES 2-4
-1	279
-1	291-512 + ES 4
 1	30 ans auparavant
-1	337-750 + Films 10-13+ES2-4
-1	389-489 + Film 12 + ES 4
-1	392-689
 1	3つ首のバスカビル, Mitsu-Kubi no Basukabiru
-1	4-629 + ES 4
-1	401
-1	410-517
-1	420-455 + Film 10
-1	422-512 + ES 2
-1	430-573 + ES 4
-1	432+ + Film 8
-1	440 à aujourd'hui
-1	45
-1	474
-1	484-513
-1	488
-1	490+ + ES 4
 1	5,000,000,000
 1	500,000,000
 1	500.000.000
-1	519-572
-1	6-52
-1	608-679
-1	618-679
-1	67-143
-1	680+
-1	690+
-1	690+ + Film 14
-1	70-79
-1	700+
-1	736
-1	751 + Film 14
-1	752
-1	752 + Film 14
-1	762+ + Film 14
-1	78-129
-1	789+
 1	8'3"
-1	893+ + Film 14
-1	917+
-1	919+
 1	acting, former
 1	actuellement
 1	actuellement séparée de Gecko Moria à cause de Bartholomew Kuma
 1	adulte
-1	Adulte
-1	Adulte et jeune, 223
 1	âge biologique
 1	âge réel
 1	Anime
-1	apres l'ellipse
-1	après l'éllipse
 1	Archipel des Gekko
 1	Arlong Pirates, former
 1	Armée Est
 1	Armée G
 1	assumé
 1	autoproclamé
-1	avant l'éllipse
 1	avant/après ellipse
 1	avec Buchi
 1	avec Sham
@@ -162,7 +78,6 @@ Segments uniques entre parenthèses: 542
 1	Bas-fonds de Water Seven
 1	Baterilla
 1	Bean Town
-1	Candle
 1	Capitale des fleurs
 1	Capitale des Fleurs
 1	Captain of the Eighth Ship
@@ -186,7 +101,6 @@ Segments uniques entre parenthèses: 542
 1	corbeau
 1	Couverture
 1	cover, former
-1	databook
 1	défection
 1	demoted
 1	Dr. くれは Dokutā Kureha
@@ -195,24 +109,13 @@ Segments uniques entre parenthèses: 542
 1	droite
 1	e
 1	En apparence
-1	Épisode 254-263, Film 7
-1	Épisode 398-751
-1	Épisode 430 à 432
-1	Épisode 83-253, 264+
-1	Épisode 881-
-1	Épisode de Luffy
-1	épisode spécial
-1	Épisodes 299-319
-1	Épisodes 67-298, 320+
 1	espérance de vie dépensée
 1	espionnage
-1	estimation, après ellipse
-1	estimation, début
+1	estimation après ellipse
+1	estimation début
 1	Famille Chinjao
 1	Fancy Town
 1	Fighter
-1	Film 14
-1	Film 15
 1	Flour Town
 1	Fruit Artificiel
 1	full
@@ -220,27 +123,14 @@ Segments uniques entre parenthèses: 542
 1	gauche
 1	Gifutazu Shin'uchi
 1	Hachette
-1	HD
-1	Heavy Point
 1	Hito Hito no Mi, Model: Nika
 1	Honey Town
 1	Île de Drum
 1	Île Onigashima
 1	image
 1	Infiltration
-1	jeune Cutty Flam
-1	Jeune Robin
-1	Jeune Sanji
-1	Jeune Zoro
-1	jeune, 19
-1	jeune, 223-504
-1	Jeune, 26-282
-1	Jeune, 803-804
-1	Jour de la Beauté
-1	Jour des Enfants
 1	Juice Town
 1	Kedétrav
-1	Kiwi
 1	Kuri, Capitale des Fleurs
 1	Lick Town
 1	Loguetown
@@ -254,7 +144,6 @@ Segments uniques entre parenthèses: 542
 1	mentionnée
 1	milieu
 1	Moby Dick
-1	Mozu
 1	Mr. プリンス, Misutā Purinsu
 1	Mr.（ミスター）ストア, Misutā Sutoa?
 1	Mythical Zoan
@@ -272,7 +161,6 @@ Segments uniques entre parenthèses: 542
 1	post ellipse
 1	Post Wano
 1	pre ellipse
-1	proxy physique sur les sets
 1	Rainbase
 1	Rebecca
 1	Rikkī
@@ -287,23 +175,18 @@ Segments uniques entre parenthèses: 542
 1	royaume Ryugu
 1	Royaume Vespa
 1	Sanbo Socho
-1	SBS
 1	Scotch
 1	seen
 1	seulement le Dimanche
 1	shadowed
 1	Soldat Jouet
-1	Spécial Zombie n°900
 1	supposé
 1	sur le Moby Dick
 1	temporaire
+1	toutes les deux
 1	Version Bouddha
 1	VF
 1	Village d'Amigasa
-1	voix chantée
-1	Voix principale
-1	Voix principale + Films 13-14
-1	voix, capture faciale
 1	アンド, Ando
 1	イヌアラシ公爵, Inuarashi Kōshaku
 1	ヴァイオレット, Vaioretto
@@ -451,7 +334,6 @@ Segments uniques entre parenthèses: 542
 1	横綱河松, Yokozuna Kawamatsu
 1	歓楽街の女王, Kanraku-gai no Joō
 1	死（しに）神（がみ）, Shinigami?
-1	死の外科医, Shi no Gekai
 1	残雪の菊の丞, Zansetsu no Kikunojō
 1	殺戮兵器, Satsuriku Heiki?
 1	殺戮支配者, Satsuriku Shihaisha
