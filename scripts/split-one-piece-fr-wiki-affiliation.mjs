@@ -28,6 +28,16 @@ const AFFILIATION_MARKERS = [
   "Famille",
   "L'Équipage",
   "Équipage",
+  "CP9",
+  "CP8",
+  "CP7",
+  "CP6",
+  "CP5",
+  "CP4",
+  "CP3",
+  "CP2",
+  "CP1",
+  "CP0",
   "CP-",
   "Shandia",
   "Ohara",
@@ -155,31 +165,73 @@ function splitAffiliation(frAffiliation, enMainAffiliation, enSubAffiliations) {
   return { main, sub };
 }
 
+function extractAffiliationParts(main, sub, enSubAffiliations) {
+  const hasEnglishSub = normalizeSpace(enSubAffiliations).length > 0;
+  const combined = [];
+
+  for (const value of [main, sub]) {
+    const text = normalizeSpace(value).replace(/L',\s*Équipage/g, "L'Équipage");
+    if (!text) continue;
+
+    const parts = /[;,]/.test(text)
+      ? splitDelimited(text)
+      : hasEnglishSub
+        ? splitByMarkers(text)
+        : [text];
+
+    combined.push(...parts);
+  }
+
+  return combined.filter(Boolean);
+}
+
 const raw = fs.readFileSync(CSV_PATH, "utf8");
 const lines = raw.split(/\r?\n/).filter(Boolean);
 const rows = lines.map(parseLine);
 const header = rows[0];
 
 const frAffIdx = header.indexOf("fr_wiki_affiliation");
+const frMainIdx = header.indexOf("fr_wiki_mainaffiliation");
+const frSubIdx = header.indexOf("fr_wiki_subaffiliations");
 const enMainIdx = header.indexOf("en_wiki_mainaffiliation");
 const enSubIdx = header.indexOf("en_wiki_subaffiliations");
 
-if (frAffIdx === -1) {
-  console.error("fr_wiki_affiliation introuvable");
+if (frAffIdx === -1 && (frMainIdx === -1 || frSubIdx === -1)) {
+  console.error("colonnes d'affiliation fr introuvables");
   process.exit(1);
 }
 
-header.splice(frAffIdx, 1, "fr_wiki_mainaffiliation", "fr_wiki_subaffiliations");
+if (frAffIdx !== -1) {
+  header.splice(frAffIdx, 1, "fr_wiki_mainaffiliation", "fr_wiki_subaffiliations");
+}
 
 for (let i = 1; i < rows.length; i++) {
   const row = rows[i];
-  const { main, sub } = splitAffiliation(
-    row[frAffIdx],
-    enMainIdx === -1 ? "" : row[enMainIdx],
-    enSubIdx === -1 ? "" : row[enSubIdx],
-  );
+  let main = "";
+  let sub = "";
 
-  row.splice(frAffIdx, 1, main, sub);
+  if (frAffIdx !== -1) {
+    ({ main, sub } = splitAffiliation(
+      row[frAffIdx],
+      enMainIdx === -1 ? "" : row[enMainIdx],
+      enSubIdx === -1 ? "" : row[enSubIdx],
+    ));
+  } else {
+    const parts = extractAffiliationParts(
+      row[frMainIdx],
+      row[frSubIdx],
+      enSubIdx === -1 ? "" : row[enSubIdx],
+    );
+    main = parts[0] ?? "";
+    sub = parts.slice(1).join(",");
+  }
+
+  if (frAffIdx !== -1) {
+    row.splice(frAffIdx, 1, main, sub);
+  } else {
+    row[frMainIdx] = main;
+    row[frSubIdx] = sub;
+  }
 }
 
 const output = rows
