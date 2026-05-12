@@ -12,7 +12,7 @@ const VERIFIED_DFNAMES = new Map([
   ["jack", "Zou Zou no Mi, Model: Mammoth"],
   ["kozuki-momonosuke", "Uo Uo no Mi, Model: Seiryu"],
   ["mikita", "Kiro Kiro no Mi"],
-  ["monkey-d-luffy", "Gomu Gomu no Mi / Hito Hito no Mi, Model: Nika"],
+  ["monkey-d-luffy", "Hito Hito no Mi : Mod\u00e8le Nika"],
   ["sheep-s-head", "Sheep SMILE"],
   ["speed", "Horse SMILE"],
   ["urouge", "Fruit sans nom"],
@@ -64,7 +64,7 @@ function pickFrName(value) {
   return text.split(",")[0].trim();
 }
 
-function computeFinalDfName(id, enDfName, frDfName) {
+function computeFinalDfName(id, enDfName, frDfName, existingFinalDfName) {
   if (VERIFIED_DFNAMES.has(id)) return VERIFIED_DFNAMES.get(id);
 
   const en = String(enDfName ?? "").trim();
@@ -72,6 +72,9 @@ function computeFinalDfName(id, enDfName, frDfName) {
 
   const fr = pickFrName(frDfName);
   if (fr) return fr;
+
+  const existing = String(existingFinalDfName ?? "").trim();
+  if (existing) return existing;
 
   return "Aucun";
 }
@@ -95,8 +98,9 @@ for (let i = 1; i < rows.length; i++) {
   const row = rows[i];
   row[finalDfNameIdx] = computeFinalDfName(
     row[idIdx],
-    row[enDfNameIdx],
-    row[frDfNameIdx],
+    enDfNameIdx === -1 ? "" : row[enDfNameIdx],
+    frDfNameIdx === -1 ? "" : row[frDfNameIdx],
+    row[finalDfNameIdx],
   );
 }
 

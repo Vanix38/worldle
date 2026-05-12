@@ -99,6 +99,22 @@ const ORIGIN_ALIASES = [
   [/ile de ruche/g, "hachinosu"],
   [/baldimore/g, "karakuri island"],
   [/royaume des prots/g, "torino kingdom"],
+  [/water seven/g, "water 7"],
+  [/bilca/g, "birka"],
+  [/archipel totto land/g, "totto land"],
+  [/iles celestes/g, "sky island"],
+  [/ile celeste/g, "sky island"],
+  [/origine inconnue/g, "unknown"],
+  [/royaume d[' ]alabasta/g, "arabasta kingdom"],
+  [/royaume de sorbet/g, "sorbet kingdom"],
+  [/royaume bourgeois/g, "bourgeois kingdom"],
+  [/royaume de standing/g, "standing kingdom"],
+  [/royaume vespa/g, "vespa kingdom"],
+  [/sur le moby dick/g, "moby dick"],
+  [/kedetrav/g, "kamabakka kingdom"],
+  [/archipel des gekko/g, "gecko islands"],
+  [/archipel des orgao/g, "organ islands"],
+  [/royaume de satsuruzo/g, "satsuruzo kingdom"],
 ];
 
 function normalizeOriginText(value) {
@@ -128,9 +144,12 @@ function extractOriginTokens(value) {
           .replace(/^ile d[' ]/g, "")
           .replace(/^island of /g, "")
           .replace(/^royaume de /g, "")
+          .replace(/^royaume d[' ]/g, "")
           .replace(/^kingdom of /g, "")
           .replace(/^village de /g, "")
+          .replace(/^archipel (des |de |d[' ])?/g, "")
           .replace(/^mount /g, "mt. ")
+          .replace(/^sur le /g, "")
           .trim()
       )
   );
