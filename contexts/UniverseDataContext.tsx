@@ -3,6 +3,7 @@
 import { createContext, useContext, useMemo } from "react";
 import type { AttributeSchemaEntry, Character, HintTierDef, SpecificSymbolEntry, UniverseData } from "@/types/game";
 import { getHintTiers, getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
+import { SpecificSymbolTapProvider } from "@/contexts/SpecificSymbolTapContext";
 
 export interface UniverseDataContextValue {
   universeId: string;
@@ -43,7 +44,7 @@ export function UniverseDataProvider({
 
   return (
     <UniverseDataContext.Provider value={value}>
-      {children}
+      <SpecificSymbolTapProvider>{children}</SpecificSymbolTapProvider>
     </UniverseDataContext.Provider>
   );
 }

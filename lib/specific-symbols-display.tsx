@@ -1,6 +1,8 @@
 "use client";
 
 import { Fragment, type ReactNode } from "react";
+import { useSpecificSymbolTap } from "@/contexts/SpecificSymbolTapContext";
+import { labelFromSymbolFilename } from "@/lib/specific-symbol-label";
 import { stripAccents } from "@/lib/utils";
 import type { SpecificSymbolEntry } from "@/types/game";
 
@@ -27,6 +29,43 @@ function findSymbol(stemsSorted: SpecificSymbolEntry[], token: string): Specific
   return null;
 }
 
+function SpecificSymbolIcon({
+  entry,
+  iconClassName,
+}: {
+  entry: SpecificSymbolEntry;
+  iconClassName: string;
+}) {
+  const { openStem, toggleStem } = useSpecificSymbolTap();
+  const label = labelFromSymbolFilename(entry.filename);
+  const isOpen = openStem === entry.stem;
+
+  return (
+    <button
+      type="button"
+      data-specific-symbol-trigger
+      onClick={(e) => {
+        e.stopPropagation();
+        toggleStem(entry.stem);
+      }}
+      aria-label={stripAccents(label)}
+      aria-expanded={isOpen}
+      className="inline-flex shrink-0 flex-col items-center justify-center gap-0.5 rounded-sm border-0 bg-transparent p-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-400 focus-visible:ring-offset-1 focus-visible:ring-offset-transparent"
+    >
+      <img
+        src={entry.url}
+        alt=""
+        className={`pointer-events-none ${iconClassName}`}
+      />
+      {isOpen ? (
+        <span className="max-w-[5rem] line-clamp-2 text-center text-[10px] leading-tight text-gray-200">
+          {stripAccents(label)}
+        </span>
+      ) : null}
+    </button>
+  );
+}
+
 function PartOrWords({
   part,
   stemsSorted,
@@ -38,14 +77,7 @@ function PartOrWords({
 }) {
   const direct = findSymbol(stemsSorted, part);
   if (direct) {
-    return (
-      <img
-        src={direct.url}
-        alt={stripAccents(part)}
-        title={stripAccents(part)}
-        className={iconClassName}
-      />
-    );
+    return <SpecificSymbolIcon entry={direct} iconClassName={iconClassName} />;
   }
 
   const words = part.trim().split(/\s+/).filter(Boolean);
@@ -66,14 +98,11 @@ function PartOrWords({
       }
     }
     if (found) {
-      const phrase = words.slice(i, i + found.len).join(" ");
       chunks.push(
-        <img
+        <SpecificSymbolIcon
           key={`sym-${i}-${found.sym.stem}`}
-          src={found.sym.url}
-          alt={stripAccents(phrase)}
-          title={stripAccents(phrase)}
-          className={iconClassName}
+          entry={found.sym}
+          iconClassName={iconClassName}
         />,
       );
       i += found.len;

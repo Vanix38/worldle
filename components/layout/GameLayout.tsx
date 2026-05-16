@@ -8,6 +8,7 @@ import {
   FaClipboardList,
   FaColumns,
   FaImage,
+  FaObjectGroup,
   FaTh,
   FaUserCircle,
 } from "react-icons/fa";
@@ -15,6 +16,7 @@ import { Button } from "@/components/ui/Button";
 import { RulesModal } from "@/components/RulesModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
 import { ColumnsModal } from "@/components/ColumnsModal";
+import { SpecificSymbolsLegendModal } from "@/components/SpecificSymbolsLegendModal";
 import { PageTransition } from "./PageTransition";
 import { stripAccents } from "@/lib/utils";
 
@@ -25,6 +27,8 @@ interface GameLayoutProps {
 export function GameLayout({ children }: GameLayoutProps) {
   const [rulesOpen, setRulesOpen] = useState(false);
   const [columnsOpen, setColumnsOpen] = useState(false);
+  const [symbolsOpen, setSymbolsOpen] = useState(false);
+  const [hasSpecificSymbols, setHasSpecificSymbols] = useState(false);
   const pathname = usePathname();
   const basePath = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/^\/+|\/+$/g, "");
   const prefix = basePath ? `/${basePath}` : "";
@@ -35,7 +39,44 @@ export function GameLayout({ children }: GameLayoutProps) {
   const onAlternateMode = /^\/game\/[^/]+\/(hard|blur|sheet)$/.test(pathSansBase);
 
   useEffect(() => {
-    if (!columnsUniverseId) setColumnsOpen(false);
+    if (!columnsUniverseId) {
+      setColumnsOpen(false);
+      setSymbolsOpen(false);
+      setHasSpecificSymbols(false);
+      return;
+    }
+
+    let cancelled = false;
+    const bp = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/^\/+|\/+$/g, "");
+    const segments = [
+      bp,
+      "api",
+      "universe",
+      encodeURIComponent(columnsUniverseId),
+      "specific-symbols",
+    ].filter(Boolean);
+    const path = `/${segments.join("/")}`.replace(/\/{2,}/g, "/");
+
+    void fetch(path)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: { symbols?: unknown[] } | null) => {
+        if (cancelled) return;
+        setHasSpecificSymbols(Array.isArray(data?.symbols) && data.symbols.length > 0);
+      })
+      .catch(() => {
+        if (!cancelled) setHasSpecificSymbols(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [columnsUniverseId]);
+
+  useEffect(() => {
+    if (!columnsUniverseId) {
+      setColumnsOpen(false);
+      setSymbolsOpen(false);
+    }
   }, [columnsUniverseId]);
 
   return (
@@ -110,6 +151,19 @@ export function GameLayout({ children }: GameLayoutProps) {
           )}
 
           <div className="flex shrink-0 items-center gap-0.5 sm:gap-2">
+            {columnsUniverseId && hasSpecificSymbols ? (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setSymbolsOpen(true)}
+                title={stripAccents("Symboles")}
+                className="inline-flex size-9 shrink-0 items-center justify-center px-0 sm:size-auto sm:gap-1.5 sm:px-3"
+                aria-label={stripAccents("Légende des symboles de l'univers")}
+              >
+                <FaObjectGroup className="h-4 w-4 opacity-90" aria-hidden />
+                <span className="hidden sm:inline">{stripAccents("Symboles")}</span>
+              </Button>
+            ) : null}
             {columnsUniverseId ? (
               <Button
                 variant="ghost"
@@ -156,6 +210,11 @@ export function GameLayout({ children }: GameLayoutProps) {
         universeId={columnsUniverseId}
         isOpen={columnsOpen}
         onClose={() => setColumnsOpen(false)}
+      />
+      <SpecificSymbolsLegendModal
+        universeId={columnsUniverseId}
+        isOpen={symbolsOpen}
+        onClose={() => setSymbolsOpen(false)}
       />
       <OnboardingModal />
     </>
