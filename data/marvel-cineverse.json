@@ -4216,7 +4216,8 @@
       "indice3": "Thor, Avengers, Thor : Le Monde des Ténèbres, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Loki (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Multiverselles",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4237,7 +4238,8 @@
       "indice3": "Loki (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Aucune"
+        "Multiverselles",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4795,7 +4797,8 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Antagoniste",
       "abilities": [
-        "Aucune"
+        "Multiverselles",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4862,7 +4865,8 @@
       "indice3": "Avengers",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Multiverselles",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5740,7 +5744,8 @@
       "indice3": "Daredevil, Le Punisher (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Intellectuelles",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -6025,7 +6030,8 @@
       "indice3": "Madame Web",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -7998,7 +8004,7 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Vilain",
       "abilities": [
-        "Aucune"
+        "Technologiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
