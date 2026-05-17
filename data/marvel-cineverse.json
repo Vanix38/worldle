@@ -19,8 +19,8 @@
     },
     "species": {
       "header": "Espèce",
-      "fonction": "Classique",
-      "description": "Espèce ou type (humain, Asgardien, Kree, etc.)."
+      "fonction": "Multivalue",
+      "description": "Espèce ou type (humain, Asgardien, Kree, etc.). Orange si au moins une entrée est commune avec la cible."
     },
     "gender": {
       "header": "Genre",
@@ -291,7 +291,9 @@
       "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -313,7 +315,8 @@
       "indice3": "Iron Man 2, Avengers, Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Captain Marvel, Black Widow",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -335,7 +338,9 @@
       "indice3": "Thor, Avengers, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Surhumaines",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -364,7 +369,9 @@
       "indice3": "Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Spider-Man : Far From Home, Spider-Man : No Way Home",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -431,7 +438,9 @@
       "indice3": "Captain America : Civil War, Avengers : Infinity War, Black Panther, Avengers : Endgame",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Arts Martiaux",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -627,7 +636,9 @@
       "indice3": "Captain America : First Avenger, Captain America : Le Soldat de l'Hiver, Ant-Man, Captain America : Civil War, Avengers : Infinity War, Black Panther, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Réformé",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Surhumaines",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -649,7 +660,7 @@
       "indice3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2, Avengers : Infinity War, Avengers : Endgame, Les Gardiens de la Galaxie : Les Fêtes des Fêtes",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -815,7 +826,8 @@
       "indice3": "Shang-Chi et la Légende des Dix Anneaux, Avengers : Doomsday",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -838,7 +850,8 @@
       "indice3": "Black Widow, Hawkeye (Saison 1), Thunderbolts",
       "role": "Réformé",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -860,7 +873,8 @@
       "indice3": "Thor, Avengers, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -882,7 +896,8 @@
       "indice3": "Daredevil, The Defenders (Saison 1), Spider-Man : No Way Home, She-Hulk (Saison 1), Echo (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Justicier",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -931,7 +946,7 @@
       "indice3": "Daredevil (Saison 2), Le Punisher (Saison 1)",
       "role": "Justicier",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -973,7 +988,7 @@
       "indice3": "Venom, Spider-Man : No Way Home, Venom : Let There Be Carnage",
       "role": "Justicier",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -996,7 +1011,10 @@
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Anti-héros",
       "abilities": [
-        "Mutantes"
+        "Régénération",
+        "Téléportation",
+        "Energétiques",
+        "Technologiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1018,7 +1036,7 @@
       "indice3": "X-Men Origins : Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Psioniques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1041,7 +1059,9 @@
       "indice3": "X-Men Origins : Wolverine",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines",
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1063,7 +1083,7 @@
       "indice3": "X-Men Origins : Wolverine",
       "role": "Allié",
       "abilities": [
-        "Mutantes"
+        "Téléportation"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1085,7 +1105,7 @@
       "indice3": "X-Men Origins : Wolverine",
       "role": "Allié",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1107,7 +1127,7 @@
       "indice3": "X-Men Origins : Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1133,7 +1153,8 @@
       "indice3": "X-Men",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1152,7 +1173,7 @@
       "indice3": "Deadpool 2, Deadpool & Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1183,7 +1204,7 @@
       "indice3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1228,7 +1249,9 @@
       "indice3": "X-Men, Deadpool & Wolverine",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines",
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -1249,7 +1272,8 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron",
       "role": "Réformé",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Vitesse"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1270,7 +1294,8 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Résistance"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1462,7 +1487,7 @@
       "indice3": "Black Widow, Hawkeye (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1500,7 +1525,7 @@
       "indice3": "Avengers",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1519,7 +1544,8 @@
       "indice3": "Moon Knight (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1892,7 +1918,9 @@
       "indice3": "L'Incroyable Hulk, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Captain America : Brave New World",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1913,7 +1941,9 @@
       "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -1993,7 +2023,8 @@
       "indice3": "Thor, Thor : Le Monde des Ténèbres, Thor : Love and Thunder, Avengers : Endgame, What If...? (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Divinnes"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2110,7 +2141,7 @@
       "indice3": "Captain America : First Avenger, Agent Carter (Saison 1), Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Avengers : Endgame",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2152,6 +2183,8 @@
       "indice3": "Captain America : First Avenger, What If...? (Saison 1), Avengers : Infinity War, Avengers : Endgame",
       "role": "Vilain",
       "abilities": [
+        "Militaires",
+        "Intellectuelles",
         "Surhumaines"
       ],
       "earth": 616,
@@ -2171,7 +2204,7 @@
       "indice3": "Agents of S.H.I.E.L.D. (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2192,7 +2225,7 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Captain America : Civil War, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2214,7 +2247,7 @@
       "indice3": "Captain America : First Avenger, Agent Carter (Saison 1), Captain America : Le Soldat de l'Hiver",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2233,7 +2266,7 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, WandaVision (Saison 1), Doctor Strange in the Multiverse of Madness",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Millitaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2252,7 +2285,7 @@
       "indice3": "Captain America : Civil War, Falcon et le Soldat de l'Hiver (Saison 1), Thunderbolts",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Millitaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2314,7 +2347,8 @@
       "indice3": "Doctor Strange, Doctor Strange in the Multiverse of Madness",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Mystiques",
+        "Magiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2352,7 +2386,8 @@
       "indice3": "Doctor Strange, Avengers : Infinity War, Avengers : Endgame, Doctor Strange in the Multiverse of Madness",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Mystiques",
+        "Magiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2409,7 +2444,7 @@
       "indice3": "Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2452,7 +2487,7 @@
       "indice3": "Ant-Man et la Guêpe, WandaVision (Saison 1), Ant-Man et la Guêpe : Quantumania",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2473,7 +2508,8 @@
       "indice3": "Ant-Man et la Guêpe, Thunderbolts",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Quantiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2492,7 +2528,7 @@
       "indice3": "Ant-Man, Captain America : Civil War, Ant-Man et la Guêpe, Avengers : Infinity War, Avengers : Endgame",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2513,7 +2549,7 @@
       "indice3": "Daredevil, Hawkeye (Saison 1), Echo (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Ep�iste"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2534,7 +2570,8 @@
       "indice3": "Hawkeye (Saison 1), Echo (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2555,6 +2592,7 @@
       "indice3": "Daredevil, Daredevil : Born Again (Saison 1)",
       "role": "Vilain",
       "abilities": [
+        "Militaires",
         "Surhumaines"
       ],
       "earth": 616,
@@ -2577,7 +2615,8 @@
       "indice3": "Daredevil (Saison 1), Daredevil (Saison 2), The Defenders (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2596,7 +2635,7 @@
       "indice3": "Daredevil, Iron Fist (Saison 1), The Defenders (Saison 1)",
       "role": "Mentor",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2679,7 +2718,7 @@
       "indice3": "Spider-Man : Far From Home, Spider-Man : No Way Home",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2704,7 +2743,9 @@
       "indice3": "Spider-Man, Spider-Man 2, Spider-Man 3, Spider-Man : No Way Home",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Technologiques"
       ],
       "earth": 96283,
       "univers": "Raimi-Verse"
@@ -2728,7 +2769,7 @@
       "indice3": "The Amazing Spider-Man 2, Spider-Man : No Way Home",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Energ�tiques"
       ],
       "earth": 120703,
       "univers": "Webb-Verse"
@@ -2750,7 +2791,7 @@
       "indice3": "Spider-Man 3, Spider-Man : No Way Home",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Biochimiques"
       ],
       "earth": 96283,
       "univers": "Raimi-Verse"
@@ -2773,7 +2814,8 @@
       "indice3": "The Amazing Spider-Man, Spider-Man : No Way Home",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Biochimiques"
       ],
       "earth": 120703,
       "univers": "Webb-Verse"
@@ -2794,7 +2836,7 @@
       "indice3": "Captain America : Civil War, Spider-Man : Homecoming, Avengers : Infinity War, Avengers : Endgame, Spider-Man : Far From Home, Spider-Man : No Way Home",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2861,7 +2903,7 @@
       "indice3": "Spider-Man : Homecoming, Spider-Man : Far From Home, Spider-Man : No Way Home, Spider-Man : Brand New Day",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2941,7 +2983,7 @@
       "indice3": "Avengers",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2960,7 +3002,8 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Captain America : Civil War, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -2979,7 +3022,7 @@
       "indice3": "Captain America : First Avenger, Captain America : Le Soldat de l'Hiver, Ant-Man, Captain America : Civil War, Avengers : Infinity War, Black Panther, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3000,7 +3043,7 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Captain America : Civil War, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Traître",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3019,7 +3062,7 @@
       "indice3": "Avengers",
       "role": "Réformé",
       "abilities": [
-        "Surhumaines"
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3076,7 +3119,8 @@
       "indice3": "Avengers : L'ère d'Ultron, Black Panther",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Technologiques",
+        "Energ�tiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3120,7 +3164,8 @@
       "indice3": "Ant-Man, Ant-Man et la Guêpe : Quantumania",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Technologiques",
+        "Quantiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3181,7 +3226,7 @@
       "indice3": "Captain America : Civil War, Avengers : Infinity War, Black Panther, Avengers : Endgame",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3479,6 +3524,7 @@
       "indice3": "Black Widow, Thunderbolts",
       "role": "Réformé",
       "abilities": [
+        "Militaires",
         "Surhumaines"
       ],
       "earth": 616,
@@ -3500,7 +3546,7 @@
       "indice3": "Black Widow, Hawkeye (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3521,7 +3567,7 @@
       "indice3": "Black Widow, Hawkeye (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3542,7 +3588,8 @@
       "indice3": "Shang-Chi et la Légende des Dix Anneaux, Avengers : Doomsday",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3563,7 +3610,7 @@
       "indice3": "Shang-Chi et la Légende des Dix Anneaux, Avengers : Doomsday",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3606,7 +3653,7 @@
       "indice3": "Shang-Chi et la Légende des Dix Anneaux",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3864,7 +3911,8 @@
       "indice3": "Spider-Man 2, Spider-Man : No Way Home",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Technologiques"
       ],
       "earth": 96283,
       "univers": "Raimi-Verse"
@@ -3908,7 +3956,7 @@
       "indice3": "Doctor Strange in the Multiverse of Madness, The Marvels",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Multiverselles"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -3933,7 +3981,8 @@
       "indice3": "Les Quatre Fantastiques : Premiers Pas",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Cosmiques"
       ],
       "earth": 828,
       "univers": "MCU"
@@ -3980,7 +4029,9 @@
       "indice3": "Black Panther : Wakanda Forever",
       "role": "Anti-héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Régénération",
+        "Psioniques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4037,7 +4088,7 @@
       "indice3": "Black Widow, Hawkeye (Saison 1)",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4080,6 +4131,7 @@
       "indice3": "Thunderbolts, Falcon et le Soldat de l'Hiver",
       "role": "Anti-héros",
       "abilities": [
+        "Militaires",
         "Surhumaines"
       ],
       "earth": 616,
@@ -4099,6 +4151,7 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Héros",
       "abilities": [
+        "Militaires",
         "Surhumaines"
       ],
       "earth": 616,
@@ -4118,7 +4171,8 @@
       "indice3": "Captain America : Le Soldat de l'Hiver, Ant-Man, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Infinity War, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4183,7 +4237,7 @@
       "indice3": "Loki (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4206,7 +4260,9 @@
       "indice3": "Doctor Strange, Avengers : Infinity War, Avengers : Endgame, Doctor Strange in the Multiverse of Madness",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Multiverselles",
+        "Intellectuelles",
+        "Technologiques"
       ],
       "earth": 0,
       "univers": "MCU"
@@ -4228,7 +4284,12 @@
       "indice3": "What If...? (Saison 1), What If...? (Saison 1)",
       "role": "Amoral",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Multiverselles",
+        "Energ�tiques",
+        "Psioniques",
+        "Omnipotentes",
+        "Omniscientes"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4247,7 +4308,7 @@
       "indice3": "Daredevil, Hawkeye (Saison 1), Echo (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4268,7 +4329,8 @@
       "indice3": "Moon Knight (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Divinnes"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4289,7 +4351,7 @@
       "indice3": "Moon Knight (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Divinnes"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4308,7 +4370,7 @@
       "indice3": "Moon Knight (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Divinnes"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4329,7 +4391,7 @@
       "indice3": "Moon Knight (Saison 1)",
       "role": "Amoral",
       "abilities": [
-        "Surhumaines"
+        "Divinnes"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4416,7 +4478,8 @@
       "indice3": "L'Incroyable Hulk, Avengers, Iron Man 3, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4460,7 +4523,8 @@
       "indice3": "Avengers : Endgame, Captain Marvel",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4500,7 +4564,9 @@
       "indice3": "Les Gardiens de la Galaxie Vol. 3",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Technologiques",
+        "Psioniques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4561,7 +4627,7 @@
       "indice3": "Les Gardiens de la Galaxie Vol. 3",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4686,7 +4752,8 @@
       "indice3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Résistance"
       ],
       "earth": 10005,
       "univers": "MCU"
@@ -4707,7 +4774,7 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Psioniques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4728,7 +4795,7 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4750,7 +4817,8 @@
       "indice3": "L'Incroyable Hulk, Captain America : Brave New World",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4771,7 +4839,9 @@
       "indice3": "Thunderbolts",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques",
+        "Energ�tiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4811,7 +4881,9 @@
       "indice3": "What If...? (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Cosmiques",
+        "Energetiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4856,7 +4928,7 @@
       "indice3": "WandaVision (Saison 1), Agatha All Along (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Magiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4875,7 +4947,7 @@
       "indice3": "Agatha All Along (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Magiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4894,7 +4966,7 @@
       "indice3": "Agatha All Along (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Magiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4913,7 +4985,7 @@
       "indice3": "Agatha All Along (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Magiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -4957,7 +5029,8 @@
       "indice3": "Les Quatre Fantastiques : Premiers Pas",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Energétiques",
+        "Cosmiques"
       ],
       "earth": 828,
       "univers": "MCU"
@@ -4981,7 +5054,8 @@
       "indice3": "Les Quatre Fantastiques : Premiers Pas",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Pyrokinésiques",
+        "Cosmiques"
       ],
       "earth": 828,
       "univers": "MCU"
@@ -5005,7 +5079,9 @@
       "indice3": "Les Quatre Fantastiques : Premiers Pas",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Surhumaines",
+        "Cosmiques"
       ],
       "earth": 828,
       "univers": "MCU"
@@ -5026,7 +5102,8 @@
       "indice3": "Daredevil, Jessica Jones (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 1), Iron Fist (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5048,7 +5125,8 @@
       "indice3": "Daredevil, Jessica Jones (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 1), Iron Fist (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Mystiques",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5071,7 +5149,8 @@
       "indice3": "Daredevil, Jessica Jones (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 1), Iron Fist (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5115,7 +5194,7 @@
       "indice3": "Daredevil, Hawkeye (Saison 1), Echo (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5136,7 +5215,7 @@
       "indice3": "Daredevil, Hawkeye (Saison 1), Echo (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5155,7 +5234,7 @@
       "indice3": "Daredevil",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5174,7 +5253,8 @@
       "indice3": "Daredevil, Iron Fist (Saison 1), The Defenders (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5193,7 +5273,8 @@
       "indice3": "Daredevil",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5212,7 +5293,7 @@
       "indice3": "Daredevil (Saison 1), Daredevil (Saison 2), The Defenders (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5276,7 +5357,7 @@
       "indice3": "Jessica Jones (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Psioniques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5299,7 +5380,8 @@
       "indice3": "Jessica Jones (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5363,7 +5445,8 @@
       "indice3": "Daredevil, Jessica Jones (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 1), Iron Fist (Saison 1)",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux",
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5382,7 +5465,7 @@
       "indice3": "Iron Fist (Saison 1), The Defenders (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5401,7 +5484,7 @@
       "indice3": "Iron Fist (Saison 1), The Defenders (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5420,7 +5503,7 @@
       "indice3": "Iron Fist (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5441,7 +5524,8 @@
       "indice3": "Iron Fist (Saison 1), The Defenders (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Mystiques",
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5463,7 +5547,7 @@
       "indice3": "Iron Fist (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5484,7 +5568,7 @@
       "indice3": "Luke Cage (Saison 1), The Defenders (Saison 1), Iron Fist (Saison 1), Daredevil : Born Again (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Technologiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5505,7 +5589,7 @@
       "indice3": "Luke Cage (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5529,7 +5613,7 @@
       "indice3": "Luke Cage (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5551,7 +5635,7 @@
       "indice3": "Luke Cage (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5591,7 +5675,8 @@
       "indice3": "Luke Cage (Saison 1)",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5613,7 +5698,7 @@
       "indice3": "Luke Cage (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5632,7 +5717,7 @@
       "indice3": "The Defenders (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5717,7 +5802,7 @@
       "indice3": "Daredevil, Le Punisher (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5738,7 +5823,7 @@
       "indice3": "Le Punisher (Saison 1)",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -5779,7 +5864,7 @@
       "indice3": "Venom, Spider-Man : No Way Home, Venom : Let There Be Carnage",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -5820,7 +5905,7 @@
       "indice3": "Venom, Spider-Man : No Way Home, Venom : Let There Be Carnage",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -5917,7 +6002,8 @@
       "indice3": "Madame Web",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Pr�cognition",
+        "Psioniques"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -5960,7 +6046,8 @@
       "indice3": "Madame Web",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -5981,7 +6068,8 @@
       "indice3": "Madame Web",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -6002,7 +6090,8 @@
       "indice3": "Kraven le Chasseur",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Technologiques",
+        "Biochimiques"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -6021,7 +6110,7 @@
       "indice3": "Venom, Spider-Man : No Way Home, Venom : Let There Be Carnage",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 688,
       "univers": "SSU"
@@ -6049,7 +6138,9 @@
       "indice3": "Spider-Man, Spider-Man 2, Spider-Man 3, Spider-Man : No Way Home",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 96283,
       "univers": "Raimi-Verse"
@@ -6127,7 +6218,7 @@
       "indice3": "Spider-Man, Spider-Man 2, Spider-Man 3, Spider-Man : Far From Home, Spider-Man : No Way Home",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 96283,
       "univers": "Raimi-Verse"
@@ -6246,7 +6337,9 @@
       "indice3": "The Amazing Spider-Man, The Amazing Spider-Man 2, Spider-Man : No Way Home",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 120703,
       "univers": "Webb-Verse"
@@ -6338,7 +6431,8 @@
       "indice3": "The Amazing Spider-Man 2",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Technologiques"
       ],
       "earth": 120703,
       "univers": "Webb-Verse"
@@ -6432,7 +6526,9 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, X-Men : Le Commencement, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines",
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6457,7 +6553,9 @@
       "indice3": "Logan",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines",
+        "Régénération"
       ],
       "earth": 17315,
       "univers": "Fox X-Men"
@@ -6482,7 +6580,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, X-Men : Le Commencement, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past, Logan",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Psioniques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6505,7 +6603,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Le Commencement, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6529,7 +6627,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Le Commencement, X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Métamorphose"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6552,7 +6650,8 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Psioniques",
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6576,7 +6675,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6597,7 +6696,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Métérologiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6624,7 +6723,8 @@
       "indice3": "X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6645,7 +6745,9 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Anti-Pouvoir",
+        "Energétiques",
+        "Psioniques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6668,7 +6770,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, Wolverine : Le combat de l'immortel, X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Cryokinésiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6690,7 +6792,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Intangibilité"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6717,7 +6819,9 @@
       "indice3": "X-men 2",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Téléportation",
+        "Animales"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6741,7 +6845,8 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men Origins : Wolverine, X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Résistance"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6762,7 +6867,7 @@
       "indice3": "X-Men, X-men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Pyrokinésiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6783,7 +6888,8 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Résistance"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6828,7 +6934,7 @@
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Anti-héros",
       "abilities": [
-        "Mutantes"
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6857,7 +6963,8 @@
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Anti-héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Technologiques"
       ],
       "earth": 41633,
       "univers": "Fox X-Men"
@@ -6886,7 +6993,11 @@
       "indice3": "X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Psioniques",
+        "Surhumaines",
+        "Energétiques",
+        "Intellectuelles",
+        "Téléportation"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6905,7 +7016,8 @@
       "indice3": "X-Men : Le Commencement",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Psioniques",
+        "Surhumaines"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6927,7 +7039,8 @@
       "indice3": "X-Men : Le Commencement",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6946,7 +7059,10 @@
       "indice3": "X-Men : Le Commencement",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Arts Martiaux",
+        "Epéiste",
+        "Téléportation"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6967,7 +7083,7 @@
       "indice3": "X-Men : Le Commencement",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Métérologiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -6988,7 +7104,7 @@
       "indice3": "X-Men : Le Commencement",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Animales"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7007,7 +7123,8 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Psioniques",
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7028,7 +7145,7 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Animales"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7047,7 +7164,8 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Arts Martiaux"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7069,7 +7187,7 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Dédoublement"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7090,7 +7208,8 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7111,7 +7230,7 @@
       "indice3": "X-Men : L'Affrontement final",
       "role": "Allié",
       "abilities": [
-        "Mutantes"
+        "Anti-Pouvoir"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7133,7 +7252,7 @@
       "indice3": "X-Men : Le Commencement, X-Men : Apocalypse",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7155,7 +7274,7 @@
       "indice3": "X-men 2, X-Men Origins : Wolverine, X-Men : Days of Future Past",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7177,7 +7296,9 @@
       "indice3": "X-men 2",
       "role": "Vilain",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines",
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7199,7 +7320,7 @@
       "indice3": "X-men 2",
       "role": "Civil",
       "abilities": [
-        "Mutantes"
+        "Psioniques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7222,7 +7343,8 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "MCU"
@@ -7244,7 +7366,7 @@
       "indice3": "X-Men : Le Commencement, X-Men : Days of Future Past",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7284,7 +7406,7 @@
       "indice3": "X-Men Origins : Wolverine, Deadpool, Deadpool 2, Deadpool & Wolverine",
       "role": "Allié",
       "abilities": [
-        "Mutantes"
+        "Chance"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7307,7 +7429,9 @@
       "indice3": "Deadpool & Wolverine",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Surhumaines",
+        "Régénération"
       ],
       "earth": 10005,
       "univers": "MCU"
@@ -7330,7 +7454,9 @@
       "indice3": "Avengers : Endgame, Captain Marvel",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Cosmiques",
+        "Energetiques"
       ],
       "earth": 10005,
       "univers": "MCU"
@@ -7374,7 +7500,8 @@
       "indice3": "Logan",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Animales",
+        "Régénération"
       ],
       "earth": 17315,
       "univers": "Fox X-Men"
@@ -7396,7 +7523,7 @@
       "indice3": "X-Men",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Psioniques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7419,7 +7546,7 @@
       "indice3": "X-Men",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Energétiques"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7441,7 +7568,8 @@
       "indice3": "X-Men : Days of Future Past, X-Men : Apocalypse",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Vitesse"
       ],
       "earth": 10005,
       "univers": "Fox X-Men"
@@ -7466,7 +7594,8 @@
       "indice3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Cosmiques"
       ],
       "earth": 121698,
       "univers": "Fox Fantastiques"
@@ -7493,7 +7622,8 @@
       "indice3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Energétiques",
+        "Cosmiques"
       ],
       "earth": 121698,
       "univers": "Fox Fantastiques"
@@ -7517,7 +7647,8 @@
       "indice3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Pyrokinésiques",
+        "Cosmiques"
       ],
       "earth": 121698,
       "univers": "Fox Fantastiques"
@@ -7540,7 +7671,9 @@
       "indice3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Militaires",
+        "Surhumaines",
+        "Cosmiques"
       ],
       "earth": 121698,
       "univers": "Fox Fantastiques"
@@ -7562,7 +7695,11 @@
       "indice3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Cosmiques",
+        "Energï¿½tiques",
+        "Technologiques",
+        "Surhumaines",
+        "Psioniques"
       ],
       "earth": 121698,
       "univers": "Fox Fantastiques"
@@ -7645,7 +7782,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7669,7 +7807,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7695,7 +7834,9 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7719,7 +7860,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Mutantes"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7740,7 +7882,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7761,7 +7904,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Technologiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7782,7 +7926,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7806,7 +7951,8 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Multiverselles"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7852,7 +7998,7 @@
       "indice3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 8311,
       "univers": "Spider-Verse"
@@ -7937,7 +8083,9 @@
       "indice3": "Hulk",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Intellectuelles",
+        "Surhumaines",
+        "Biochimiques"
       ],
       "earth": 400083,
       "univers": "Indépendants"
@@ -7982,7 +8130,7 @@
       "indice3": "Hulk",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 400083,
       "univers": "Indépendants"
@@ -8004,7 +8152,8 @@
       "indice3": "Daredevil, Elektra",
       "role": "Justicier",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Arts Martiaux"
       ],
       "earth": 701306,
       "univers": "Indépendants"
@@ -8049,6 +8198,7 @@
       "indice3": "Daredevil",
       "role": "Vilain",
       "abilities": [
+        "Militaires",
         "Surhumaines"
       ],
       "earth": 701306,
@@ -8114,7 +8264,7 @@
       "indice3": "Elektra",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 701306,
       "univers": "Indépendants"
@@ -8136,7 +8286,7 @@
       "indice3": "Daredevil, Elektra",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 701306,
       "univers": "Indépendants"
@@ -8157,7 +8307,9 @@
       "indice3": "Ghost Rider",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "D�moniaques",
+        "Mystiques",
+        "Magiques"
       ],
       "earth": 121347,
       "univers": "Indépendants"
@@ -8262,7 +8414,7 @@
       "indice3": "Punisher: War Zone",
       "role": "Justicier",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 47281,
       "univers": "Indépendants"
@@ -8285,7 +8437,7 @@
       "indice3": "Punisher: War Zone",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 47281,
       "univers": "Indépendants"
@@ -8308,7 +8460,7 @@
       "indice3": "Punisher: War Zone",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 47281,
       "univers": "Indépendants"
@@ -8367,7 +8519,7 @@
       "indice3": "Le Punisher",
       "role": "Justicier",
       "abilities": [
-        "Surhumaines"
+        "Militaires"
       ],
       "earth": 58732,
       "univers": "Indépendants"
@@ -8386,7 +8538,7 @@
       "indice3": "Le Punisher",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 58732,
       "univers": "Indépendants"
@@ -8405,7 +8557,7 @@
       "indice3": "Le Punisher",
       "role": "Vilain",
       "abilities": [
-        "Surhumaines"
+        "Aucune"
       ],
       "earth": 58732,
       "univers": "Indépendants"
@@ -8428,7 +8580,7 @@
       "indice3": "Homme-Chose, Werewolf by Night",
       "role": "Allié",
       "abilities": [
-        "Surhumaines"
+        "Monstrueuses"
       ],
       "earth": 58460,
       "univers": "Indépendants"
@@ -8557,7 +8709,8 @@
       "indice3": "Loki (Saison 1)",
       "role": "Allié",
       "abilities": [
-        "Aucune"
+        "Intellectuelles",
+        "Technologiques"
       ],
       "earth": 0,
       "univers": "MCU"
@@ -8627,7 +8780,8 @@
       "indice3": "Doctor Strange in the Multiverse of Madness",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Mystiques",
+        "Magiques"
       ],
       "earth": 838,
       "univers": "MCU"
@@ -8653,7 +8807,8 @@
       "indice3": "Doctor Strange in the Multiverse of Madness",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Cosmiques"
       ],
       "earth": 838,
       "univers": "MCU"
@@ -8675,7 +8830,7 @@
       "indice3": "Doctor Strange in the Multiverse of Madness",
       "role": "Antagoniste",
       "abilities": [
-        "Surhumaines"
+        "Arts Martiaux"
       ],
       "earth": 838,
       "univers": "MCU"
@@ -8721,7 +8876,7 @@
       "indice3": "Doctor Strange in the Multiverse of Madness",
       "role": "Antagoniste",
       "abilities": [
-        "Mutantes"
+        "Psioniques"
       ],
       "earth": 838,
       "univers": "MCU"
@@ -8955,7 +9110,8 @@
       "indice3": "Avengers",
       "role": "Anti-héros",
       "abilities": [
-        "Surhumaines"
+        "Surhumaines",
+        "Monstrueuses"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -8976,7 +9132,7 @@
       "indice3": "Werewolf by Night",
       "role": "Héros",
       "abilities": [
-        "Surhumaines"
+        "Mystiques"
       ],
       "earth": 616,
       "univers": "MCU"
@@ -8999,7 +9155,7 @@
       "indice3": "Werewolf by Night",
       "role": "Allié",
       "abilities": [
-        "Surhumaines"
+        "Monstrueuses"
       ],
       "earth": 616,
       "univers": "MCU"
