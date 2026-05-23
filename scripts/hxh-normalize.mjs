@@ -41,13 +41,20 @@ export function normalizeHxhStatus(raw) {
     .normalize("NFD")
     .replace(/\p{M}/gu, "")
     .toLowerCase();
-  if (/\b(deced|mort)\b/.test(ascii) || /\bdisparu/.test(ascii) || /\btue\b/.test(ascii)) {
+  if (/\bdece?d/.test(ascii) || /\bmort/.test(ascii) || /\bdisparu/.test(ascii) || /\btue\b/.test(ascii)) {
     return "Mort";
   }
-  if (/\b(vivant|alive|vivante|vivants|vivantes)\b/.test(ascii) || /\ben vie\b/.test(ascii)) {
+  if (
+    /\b(vivant|alive|vivante|vivants|vivantes)\b/.test(ascii) ||
+    /\ben vie\b/.test(ascii) ||
+    /\breincarn/.test(ascii)
+  ) {
     return "Vivant";
   }
-  if (/\b(inconnu|indetermine|arrete|kimera|chien de garde)\b/.test(ascii)) {
+  if (/\barrete/.test(ascii) || /\bchien de garde\b/.test(ascii)) {
+    return "Vivant";
+  }
+  if (/\b(inconnu|indetermine|kimera)\b/.test(ascii)) {
     return "Inconnu";
   }
   return "Inconnu";
