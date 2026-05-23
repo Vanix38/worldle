@@ -10,6 +10,12 @@
     "extract-fruits": "node html/extract-fruits-demon.js",
     "migrate-marvel-names": "node scripts/migrate-marvel-names.js",
     "scrape-naruto": "node scripts/scrape-naruto-fandom.mjs",
+    "scrape-hunterxhunter": "node scripts/scrape-hunterxhunter-fandom.mjs",
+    "recalc-hxh-prevalence": "node scripts/scrape-hunterxhunter-fandom.mjs --recalc-prevalence",
+    "apply-hxh-versioned-attrs-2011": "node scripts/apply-hxh-versioned-attrs-2011.mjs",
+    "build-hxh-aliases": "node scripts/build-hxh-aliases.mjs --from-wiki",
+    "download-hxh-images": "node scripts/download-hxh-character-images.mjs --skip-existing",
+    "normalize-hxh": "node scripts/apply-hxh-normalize.mjs",
     "extract-marvel-film-realities": "node scripts/extract-marvel-film-realities.mjs",
     "extract-marvel-wiki-characters-by-earth": "node scripts/extract-marvel-wiki-characters-by-earth.mjs",
     "download-naruto-images": "node scripts/download-naruto-character-images.mjs"

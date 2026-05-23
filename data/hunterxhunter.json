@@ -1,0 +1,2278 @@
+{
+  "id": "hunterxhunter",
+  "name": "Hunter × Hunter",
+  "fieldMapping": {
+    "affiliation": {
+      "header": "Affiliation",
+      "fonction": "Classique",
+      "description": "Champ infobox wiki « affiliation » (hunterxhunter.fandom.com)."
+    },
+    "gender": {
+      "header": "Genre",
+      "fonction": "Classique",
+      "description": "Homme, Femme, Variable ou Inconnu (libellés wiki normalisés). Symboles ♂ / ♀ dans la grille.",
+      "columnWidth": "small"
+    },
+    "occupation": {
+      "header": "Occupation",
+      "fonction": "Classique",
+      "description": "Champ infobox wiki « occupation » (hunterxhunter.fandom.com)."
+    },
+    "status": {
+      "header": "Statut",
+      "fonction": "Classique",
+      "description": "Vivant, Mort ou Inconnu (décédé, arrêté, statuts spéciaux wiki regroupés).",
+      "columnWidth": "small"
+    },
+    "type": {
+      "header": "Type Nen",
+      "fonction": "Classique",
+      "description": "Catégorie Nen (Renforcement, Transformation, Matérialisation, Émission, Manipulation, Spécialisation, Inconnu)."
+    },
+    "yeux": {
+      "header": "Yeux",
+      "fonction": "Classique",
+      "description": "Champ infobox wiki « yeux » (hunterxhunter.fandom.com)."
+    },
+    "aliases": {
+      "header": "Alias",
+      "fonction": "Recherche",
+      "description": "Fusion de connu, aussi connu sous le nom, surnom et romaji (recherche / autocomplete uniquement)."
+    },
+    "indice2": {
+      "header": "Indice 2",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Capacités Nen",
+        "icon": "FaBolt"
+      },
+      "description": "Techniques / capacités (infobox wiki)."
+    },
+    "indice3": {
+      "header": "Indice 3",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Relations",
+        "icon": "FaUsers"
+      },
+      "includeInSearch": true,
+      "description": "Liens familiaux et relations (infobox wiki)."
+    },
+    "indice1": {
+      "header": "Indice 1",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Cheveux",
+        "icon": "FaPalette"
+      },
+      "description": "Couleur / style des cheveux (version 2011, infobox wiki)."
+    },
+    "arc": {
+      "header": "Arc",
+      "fonction": "Comparaison",
+      "order": [
+        "Inconnu",
+        "Examen Hunter",
+        "Arène du Ciel",
+        "Yorknew",
+        "Greed Island",
+        "Fourmis chimère",
+        "Élection 13e président"
+      ],
+      "description": "Arc anime 2011 au premier chapitre manga d’apparition (ordre chronologique). ↑ = plus tôt ; ↓ = plus tard. Bornes : data/hunterxhunter-chapitres-arcs.json."
+    }
+  },
+  "fieldPrevalence": {
+    "gender": 1,
+    "status": 1,
+    "arc": 1,
+    "occupation": 0.89375,
+    "indice1": 0.85625,
+    "yeux": 0.79375,
+    "aliases": 0.4875,
+    "type": 0.38125,
+    "indice2": 0.35625,
+    "affiliation": 0.325,
+    "indice3": 0.3
+  },
+  "wikiInfoboxKeys": [
+    "affiliation",
+    "anime debut",
+    "capacites",
+    "cheveux",
+    "galerie",
+    "genre",
+    "image",
+    "manga debut",
+    "numero pendant l’exam",
+    "occupation",
+    "relations",
+    "statut",
+    "type",
+    "yeux"
+  ],
+  "characters": [
+    {
+      "id": "abe-freecss",
+      "name": "Abe",
+      "gender": "Femme",
+      "status": "Vivant",
+      "indice3": "Mito, Jin, Gon",
+      "indice1": "Gris",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 1 (2011)"
+    },
+    {
+      "id": "abengane",
+      "name": "Abe",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Exorciste",
+      "type": "Matérialisation",
+      "aliases": [
+        "Abengane"
+      ],
+      "indice2": "Exorcisme",
+      "indice1": "Noirs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "agent-de-l-association-hunter",
+      "name": "Agent de l'association Hunter",
+      "gender": "Femme",
+      "yeux": "Roses",
+      "status": "Vivant",
+      "occupation": "association Hunter",
+      "indice1": "Violets",
+      "arc": "Arène du Ciel",
+      "firstAppearance": "Manga : Chapitre 51 · Anime (2011) : Episode 39 (2011)"
+    },
+    {
+      "id": "agon",
+      "name": "Agon",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Gris",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "amana",
+      "name": "Amana",
+      "gender": "Femme",
+      "yeux": "Marrons",
+      "status": "Inconnu",
+      "occupation": "Joueuse de Greed Island",
+      "indice1": "Noirs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 154 · Anime (2011) : Episode 67 (2011)"
+    },
+    {
+      "id": "amane",
+      "name": "Amane",
+      "gender": "Femme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Zoldik",
+      "indice3": "Tsubone",
+      "indice1": "Noirs",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 324 · Anime (2011) : Episode 140 (2011)"
+    },
+    {
+      "id": "amori",
+      "name": "Amori",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Bruns Clairs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "amour-de-battera",
+      "name": "Amour de Battera",
+      "gender": "Femme",
+      "yeux": "Marrons",
+      "status": "Inconnu",
+      "indice1": "Bruns",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 174 · Anime (2011) : Episode 73 (2011)"
+    },
+    {
+      "id": "aruka-zoldik",
+      "name": "Aruka Zoldik",
+      "gender": "Féminin",
+      "yeux": "Bleu",
+      "status": "Vivant",
+      "type": "Spécialisation",
+      "aliases": [
+        "Aruka Zorudikku",
+        "Chose (Par les Zoldik)",
+        "Monstre (Par les Zoldik)"
+      ],
+      "indice2": "Voeux infinis",
+      "indice3": "Maha, Zeno, Silva, Kikyo, Irumi, Miruki, Kirua, Karuto, Nanika",
+      "indice1": "Noir",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 229 (Photo), Chapitre 321 (Officielle) · Anime (2011) : Episode 97 (Photo) / Episode 138 (Officielle)"
+    },
+    {
+      "id": "assassin-a",
+      "name": "Assassin A",
+      "gender": "Homme",
+      "yeux": "Bleus",
+      "status": "Inconnu",
+      "occupation": "Assassin",
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 95 · Anime (2011) : Episode 51 (2011)"
+    },
+    {
+      "id": "asuta",
+      "name": "Asuta",
+      "gender": "Femme",
+      "yeux": "Noir",
+      "status": "Inconnu",
+      "occupation": "Joueuse de Greed Island",
+      "indice1": "Oranges",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 133 · Anime (2011) : Episode 62 (2011)"
+    },
+    {
+      "id": "banana-kavaro",
+      "name": "Banana Kavaro",
+      "gender": "Femme",
+      "yeux": "Verts forêts",
+      "status": "Vivant",
+      "occupation": "Hunter amateur",
+      "indice1": "Pêche",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 77"
+    },
+    {
+      "id": "bara",
+      "name": "Bara",
+      "gender": "Homme",
+      "status": "Vivant",
+      "affiliation": "Boomer",
+      "occupation": "Joueur de Greed Island;Boomer",
+      "indice3": "Genthru, Sabu",
+      "indice1": "brun",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 143 · Anime (2011) : Episode 63 (2011)"
+    },
+    {
+      "id": "barbon",
+      "name": "Barbon",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Charmeur de serpents / Candidat à l'examen Hunter",
+      "aliases": [
+        "Bābon"
+      ],
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "beans",
+      "name": "Beans Maamen",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "affiliation": "Association Hunter",
+      "occupation": "Isaac Netero",
+      "aliases": [
+        "Bīnzu"
+      ],
+      "indice3": "Isaac Netero",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "bennie-doron",
+      "name": "Bennie Doron",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "aliases": [
+        "Ben’nī Doron"
+      ],
+      "occupation": "Tueur à gages ; Forgeur de sabres",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 85 · Anime (2011) : Episode 48 (2011) (Mentionné indirectement)"
+    },
+    {
+      "id": "binolt",
+      "name": "Binolt",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Greed Island",
+      "type": "Spécialisation",
+      "aliases": [
+        "Binoruto"
+      ],
+      "indice2": "Scissor Hands",
+      "indice1": "Rouges",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 137 · Anime (2011) : Episode 63 (2011)"
+    },
+    {
+      "id": "biscuit-kruger",
+      "name": "Biscuits Krueger",
+      "gender": "Femme",
+      "yeux": "Roses",
+      "status": "Vivant",
+      "affiliation": "Société Hunter",
+      "occupation": "Greed Island",
+      "type": "Transformation",
+      "aliases": [
+        "Biske",
+        "Bisuketto Kurūgā"
+      ],
+      "indice2": "Kukki l'esthéticienne magicienne",
+      "indice1": "Blonds",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "bodoro",
+      "name": "Bodoro",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Artiste Martial / Candidat à l'examen Hunter",
+      "indice1": "Gris",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "boki",
+      "name": "Boki",
+      "gender": "Homme",
+      "yeux": "Violets",
+      "status": "Inconnu",
+      "occupation": "Soldat Kimera Ant",
+      "type": "Manipulation",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 226 · Anime (2011) : Episode 96 (2011)"
+    },
+    {
+      "id": "bonorenof-ndongo",
+      "name": "Bonorenof Ndongo",
+      "gender": "Homme",
+      "status": "Vivant",
+      "affiliation": "Brigade Fantôme, Gyudondondo",
+      "occupation": "Brigade Fantôme",
+      "type": "Matérialisation",
+      "aliases": [
+        "Bonorenofu"
+      ],
+      "indice2": "Battle Cantabile : Prologue / Battle Cantabile : Jupiter",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+    },
+    {
+      "id": "buhara",
+      "name": "Buhara",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Hunter Gourmet",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 10 · Anime (2011) : Episode 6 (2011)"
+    },
+    {
+      "id": "burovuta",
+      "name": "Burovûta",
+      "gender": "Homme",
+      "status": "Vivant",
+      "affiliation": "soldat kimera ant",
+      "type": "Émission",
+      "indice2": "mitraillettes aux poings",
+      "indice1": "chauve",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 188 · Anime (2011) : Episode 78"
+    },
+    {
+      "id": "bushidora-ambitious",
+      "name": "Bushidora Ambitious",
+      "gender": "Homme",
+      "yeux": "Bleu",
+      "status": "Inconnu",
+      "affiliation": "Groupe Seirin",
+      "occupation": "Single Hunter, Black List",
+      "aliases": [
+        "Bushidora Anbishasu"
+      ],
+      "indice3": "Teradin, Loupe",
+      "indice1": "Marron",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 326 · Anime (2011) : Episode 141 (2011)"
+    },
+    {
+      "id": "capitaine",
+      "name": "Capitaine",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Capitaine / Examinateur",
+      "aliases": [
+        "Senchō"
+      ],
+      "indice1": "Gris",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 2 · Anime (2011) : Episode 1 (2011)"
+    },
+    {
+      "id": "cherry",
+      "name": "Cherry",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Artiste martial",
+      "aliases": [
+        "Cheri"
+      ],
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 5 (2011)"
+    },
+    {
+      "id": "cocco",
+      "name": "Cocco",
+      "gender": "Femme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Pésentatrice de la Tour Céleste",
+      "aliases": [
+        "kokko"
+      ],
+      "indice1": "Orange",
+      "arc": "Arène du Ciel",
+      "firstAppearance": "Manga : Chapitre 45 · Anime (2011) : Episode 27 (2011)"
+    },
+    {
+      "id": "coco-chan",
+      "name": "Coco Loo",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Vivant",
+      "occupation": "Cri d'effroi",
+      "aliases": [
+        "Kokoru"
+      ],
+      "indice1": "Oranges clairs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 39 · Anime (2011) : Episode 22 (2011)"
+    },
+    {
+      "id": "commissaire-priseur",
+      "name": "Commissaire-priseur",
+      "gender": "Femme",
+      "yeux": "Oranges",
+      "status": "Vivant",
+      "occupation": "Commissaire-priseur des actions de Southernpiece",
+      "indice1": "Violets",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 120, Chapitre 121 · Anime (2011) : Episode 59 (2011)"
+    },
+    {
+      "id": "crapaud",
+      "name": "Crapaud",
+      "gender": "Homme",
+      "yeux": "Jaunes",
+      "status": "Inconnu",
+      "occupation": "Soldat Kimera Ant",
+      "aliases": [
+        "Kaeru"
+      ],
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 188 · Anime (2011) : Episode 78 (2011)"
+    },
+    {
+      "id": "darzolne",
+      "name": "Darzolne",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "aliases": [
+        "Darutsorune"
+      ],
+      "affiliation": "Clan Nostrad",
+      "occupation": "Chef des gardes du corps de Neon",
+      "indice1": "Noirs",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 39"
+    },
+    {
+      "id": "djido",
+      "name": "Djido",
+      "gender": "Homme",
+      "yeux": "Vert",
+      "status": "Inconnu",
+      "occupation": "Commandant d'escadron Chimera Ant",
+      "type": "Matérialisation",
+      "aliases": [
+        "Jittu"
+      ],
+      "indice2": "Arbalète à griffes / Monroe Walk",
+      "indice1": "Violet",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 78 (2011)"
+    },
+    {
+      "id": "eather",
+      "name": "Eather",
+      "gender": "Femme",
+      "yeux": "Bleus",
+      "status": "Vivant",
+      "occupation": "Hacker Hunter ; Game Master de Greed Island",
+      "aliases": [
+        "Īta"
+      ],
+      "indice3": "Elena (Soeur jumelle)",
+      "indice1": "Blancs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 127 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "elena",
+      "name": "Elena",
+      "gender": "Femme",
+      "yeux": "Roses",
+      "status": "Vivant",
+      "occupation": "Game Master",
+      "aliases": [
+        "Erena"
+      ],
+      "indice3": "Eather(Soeur jumelle)",
+      "indice1": "Blancs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 146 · Anime (2011) : Episode 65 (2011)"
+    },
+    {
+      "id": "elisa",
+      "name": "Elisa",
+      "gender": "Femme",
+      "yeux": "Violets",
+      "status": "Vivant",
+      "affiliation": "clan nostrad",
+      "aliases": [
+        "Eriza"
+      ],
+      "indice3": "Sukuwara",
+      "indice1": "Violets",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 41 (2011)"
+    },
+    {
+      "id": "feitan-portor",
+      "name": "Feitan Portor",
+      "gender": "Homme",
+      "yeux": "Violet",
+      "status": "Vivant",
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "type": "Transformation",
+      "aliases": [
+        "Feitan Pōtoo"
+      ],
+      "indice2": "Pain Packer / Rising Sun",
+      "indice1": "Noir",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "franklin-bordeaux",
+      "name": "Franklin Bordeaux",
+      "gender": "Homme",
+      "yeux": "Violets",
+      "status": "Vivant",
+      "occupation": "Brigade Fantôme",
+      "type": "Émission",
+      "aliases": [
+        "Furankurin"
+      ],
+      "indice2": "Double Machine Gun",
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "fukuro",
+      "name": "Fukuro",
+      "gender": "Homme",
+      "status": "Vivant",
+      "type": "Matérialisation",
+      "aliases": [
+        "Fukurō",
+        "La Chouette"
+      ],
+      "affiliation": "Bêtes de l'Ombre, Dix parrains",
+      "occupation": "Garde du corps",
+      "indice2": "Fun Fun Cloth",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 74 · Anime (2011) : Episode 43 (2011)"
+    },
+    {
+      "id": "fumi",
+      "name": "Fumi",
+      "gender": "Femme",
+      "yeux": "Bruns foncés",
+      "status": "Vivant",
+      "occupation": "Réceptionniste",
+      "indice1": "Violets",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 85 · Anime (2011) : Episode 48 (2011)"
+    },
+    {
+      "id": "furatta",
+      "name": "Furatta",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "affiliation": "Fourmi-chimère",
+      "type": "Matérialisation",
+      "occupation": "Membre de l'armée du Roi / Soldat",
+      "indice2": "Libellule Satellites",
+      "indice3": "Léol, Hirin, Djido",
+      "indice1": "Noirs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 81 (2011)"
+    },
+    {
+      "id": "gashita-bellam",
+      "name": "Gashita Bellam",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Hunter",
+      "indice3": "Zetsuku Bellam",
+      "indice1": "Noirs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "gereta",
+      "name": "Gereta",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Inconnu",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "geru",
+      "name": "Geru",
+      "gender": "Femme",
+      "yeux": "Violets",
+      "status": "Vivant",
+      "affiliation": "Association Hunter, Zodiaques",
+      "occupation": "Zodiaque",
+      "aliases": [
+        "Serpent (Par les Zodiaques)"
+      ],
+      "indice1": "Noirs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 137"
+    },
+    {
+      "id": "ging-freecss",
+      "name": "Ging Freecss",
+      "gender": "Homme",
+      "yeux": "Cafe",
+      "status": "Vivant",
+      "affiliation": "Association Hunter, Greed Island, Beyond Netero, Zodiaques",
+      "occupation": "Hunter",
+      "type": "Inconnu",
+      "aliases": [
+        "Jin Furīkusu"
+      ],
+      "indice2": "Warping Punch* / Ultrasons* / *(copie amélioré des techniques de Leolio)",
+      "indice3": "Gon Freecss, Mito Freecss, Abe Freecss",
+      "indice1": "Noir",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 37 (2011)"
+    },
+    {
+      "id": "gon-freecss",
+      "name": "Gon Freecss",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Hunter",
+      "type": "Renforcement",
+      "aliases": [
+        "Gon Furīkusu"
+      ],
+      "indice2": "Jajanken : / Pierre / Papier / Ciseaux /",
+      "indice3": "Jin Freecss, Mito Freecss, Abe Freecss",
+      "indice1": "Noir verdâtre",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 0 / Episode 1"
+    },
+    {
+      "id": "gorille",
+      "name": "Gorille",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Soldat Kimera Ant",
+      "indice1": "Marrons",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 225 · Anime (2011) : Episode 96 (2011)"
+    },
+    {
+      "id": "goto",
+      "name": "Gotô",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "type": "Renforcement",
+      "aliases": [
+        "Gotō"
+      ],
+      "affiliation": "La Famille Zoldik",
+      "occupation": "Employé de la famille Zoldik",
+      "indice2": "Balles de pièces de monnaie",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 40 · Anime (2011) : Episode 22 (2011)"
+    },
+    {
+      "id": "gozu",
+      "name": "Gozu",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Guerrier de Bianu, Mercenaire",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "grand-mere-galaxy",
+      "name": "Grand-mère Galaxy",
+      "gender": "Femme",
+      "status": "Inconnu",
+      "occupation": "Voyante / Escroc",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 96 · Anime (2011) : Episode 51 (2011)"
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzo",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Ninja / Information Hunter",
+      "aliases": [
+        "Hanzō"
+      ],
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3"
+    },
+    {
+      "id": "haruna",
+      "name": "Haruna",
+      "gender": "Femme",
+      "yeux": "Verts olives",
+      "status": "Vivant",
+      "occupation": "Mère",
+      "indice3": "Reina(fille) / Kuruto(Fils) / Shidore(Reincarnation de Reina) / Koruto(Reincarnation de Kuruto)",
+      "indice1": "Prunes",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 215 · Anime (2011) : Episode 77"
+    },
+    {
+      "id": "hina",
+      "name": "Hirin",
+      "gender": "Femme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Kimera ant Capitaine de troupe",
+      "aliases": [
+        "Hina",
+        "Hirin(Ancien prénom)"
+      ],
+      "indice2": "Exorcisme",
+      "indice1": "Blonds",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 81 (2011)"
+    },
+    {
+      "id": "hisaku",
+      "name": "Hisaku",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "aliases": [
+        "Pisaku"
+      ],
+      "occupation": "Joueur de Greed Island",
+      "indice1": "Noirs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : chapitre 132 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "hisoka-morow",
+      "name": "Hisoka Morrow",
+      "gender": "Homme",
+      "yeux": "Jaune",
+      "status": "Vivant",
+      "affiliation": "Association Hunter, Brigade Fantôme",
+      "occupation": "Hunter, Brigade Fantôme",
+      "type": "Transformation",
+      "aliases": [
+        "Hisoka le magicien",
+        "Hisoka Morou"
+      ],
+      "indice2": "Bungie Gum / Texture trompeuse",
+      "indice1": "Rouge orangé",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3"
+    },
+    {
+      "id": "imori",
+      "name": "Imori",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Bruns clairs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "interprete-de-ngl",
+      "name": "Interprète de NGL",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Vivant",
+      "occupation": "Interprète",
+      "indice1": "Bleus",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 190 · Anime (2011) : Episode 80 (2011)"
+    },
+    {
+      "id": "isaac-netero",
+      "name": "Isaac Netero",
+      "gender": "Homme",
+      "yeux": "Bruns",
+      "status": "Inconnu",
+      "type": "Renforcement",
+      "aliases": [
+        "Aizakku Netero",
+        "Président"
+      ],
+      "affiliation": "Association Hunter, Groupe Seirin",
+      "occupation": "Association Hunter",
+      "indice2": "Hyakushiki Kannon",
+      "indice3": "Beyond Netero",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 12 · Anime (2011) : Episode 6 (2011)"
+    },
+    {
+      "id": "isaku",
+      "name": "Isaku",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Mort",
+      "occupation": "Joueur de Greed Island",
+      "indice1": "Gris",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 130 · Anime (2011) : Episode 61 (2011)"
+    },
+    {
+      "id": "iwalenkov",
+      "name": "Iwalenkov",
+      "gender": "Homme",
+      "yeux": "Verts",
+      "status": "Inconnu",
+      "occupation": "Hunter / Garde du corps",
+      "aliases": [
+        "Iwarenkofu"
+      ],
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+    },
+    {
+      "id": "jeitosari",
+      "name": "Jeitosari",
+      "gender": "Homme",
+      "yeux": "Verts foncés",
+      "status": "Inconnu",
+      "indice1": "Noirs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 121 · Anime (2011) : Episode 59 (2011)"
+    },
+    {
+      "id": "jito",
+      "name": "Jito",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "occupation": "Joueur de Greed Island",
+      "aliases": [
+        "Jiito"
+      ],
+      "indice1": "Noirs",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "kaito",
+      "name": "Kaito",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "occupation": "Hunter",
+      "type": "Matérialisation",
+      "aliases": [
+        "Baleinosse"
+      ],
+      "indice2": "Crazy Slot",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 76"
+    },
+    {
+      "id": "kanaria",
+      "name": "Kanaria",
+      "gender": "Femme",
+      "status": "Vivant",
+      "occupation": "Apprentie Majordome des Zoldiks",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 41 · Anime (2011) : Episode 23 (2011)"
+    },
+    {
+      "id": "kara",
+      "name": "Kara",
+      "gender": "Femme",
+      "yeux": "Jaunes",
+      "status": "Vivant",
+      "occupation": "Hunter",
+      "indice1": "Rouges",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 22 (comme esquisse) / Chapitre 23 · Anime (2011) : Episode 14 (2011)"
+    },
+    {
+      "id": "karuto-zoldik",
+      "name": "Karuto Zoldik",
+      "gender": "Homme",
+      "yeux": "Roses",
+      "status": "Vivant",
+      "affiliation": "Famille Zoldik",
+      "occupation": "Assassin Zoldik / Membre n°4 de la Brigade Fantôme",
+      "type": "Manipulation",
+      "aliases": [
+        "Caltt",
+        "Caltt (1999)",
+        "Karuto Zorudikku"
+      ],
+      "indice2": "Paper Manipulation / Surveillance Paper Dolls / Paper Fan Blade / Dancing Serpent's Bite",
+      "indice3": "Maha Zoldik, Zzigg Zoldik, Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 41 · Anime (2011) : Episode 23 (2011)"
+    },
+    {
+      "id": "kastro",
+      "name": "Kastro",
+      "gender": "Homme",
+      "yeux": "Bleus",
+      "status": "Inconnu",
+      "occupation": "Tour céleste",
+      "type": "Renforcement",
+      "aliases": [
+        "Kasutoro"
+      ],
+      "indice2": "Morsure du tigre, DoppelGanger, Véritable morsure du tigre",
+      "indice1": "Blancs",
+      "arc": "Arène du Ciel",
+      "firstAppearance": "Manga : Chapitre 52 · Anime (2011) : Episode 31 (2011)"
+    },
+    {
+      "id": "kasuga",
+      "name": "Kasuga",
+      "gender": "Femme",
+      "yeux": "Violets clairs",
+      "status": "Inconnu",
+      "occupation": "Zoldik",
+      "indice1": "Verts-gris",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 322 · Anime (2011) : Episode 138 (2011)"
+    },
+    {
+      "id": "kenmi",
+      "name": "Kenmi",
+      "gender": "Homme",
+      "status": "Vivant",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 11 · Anime (2011) : Episode 26 (2011)"
+    },
+    {
+      "id": "kenzaki",
+      "name": "Kenzaki",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 329 · Anime (2011) : Episode 143"
+    },
+    {
+      "id": "kikyo-zoldik",
+      "name": "Kikyô Zoldik",
+      "gender": "Femme",
+      "status": "Vivant",
+      "affiliation": "Famille Zoldik",
+      "occupation": "Assassin à gages",
+      "type": "Manipulation",
+      "aliases": [
+        "Kikyô Zorudikku"
+      ],
+      "indice2": "Nom inconnu",
+      "indice3": "Maha, Zeno, Silva, Irumi, Miruki, Kirua, Aruka, Karuto",
+      "indice1": "Noir",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 41 · Anime (2011) : Episode 23 (2011)"
+    },
+    {
+      "id": "kimera-ant-chauve-souris",
+      "name": "Kimera Ant chauve-souris",
+      "gender": "Femme",
+      "status": "Vivant",
+      "occupation": "Soldat Kimera Ant",
+      "type": "Émission",
+      "indice2": "Nose Dive(Renforcement) / Secret Noise(Emission)",
+      "indice3": "Reine Kimera Ant(Mère)",
+      "indice1": "Lilas",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 231 · Anime (2011) : Episode 98 (2011)"
+    },
+    {
+      "id": "kimera-ant-moustique",
+      "name": "Kimera Ant Moustique",
+      "gender": "Femme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Soldat Kimera Ant",
+      "indice1": "Blonds sale",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 80 (2011)"
+    },
+    {
+      "id": "kirua-zoldik",
+      "name": "Kirua Zoldik",
+      "gender": "Homme",
+      "yeux": "2011)",
+      "status": "Vivant",
+      "affiliation": "Famille Zoldik",
+      "occupation": "Hunter, Famille Zoldik",
+      "type": "Transformation",
+      "aliases": [
+        "Kikyô Zoldik)",
+        "Kiru (par Irumi",
+        "Kirua Zorudikku"
+      ],
+      "indice2": "Foudre de Paume (Manga) / Paume de Foudre (2011) (雷掌) / La Foudre (落雷) / Vitesse Divine (神速)",
+      "indice3": "Maha, Zzigg, Zeno, Silva, Kikyo, Irumi, Miruki, Aruka, Karuto",
+      "indice1": "Blanc gris",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3"
+    },
+    {
+      "id": "knuckle-bine",
+      "name": "Knuckle Bain",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Beast Hunter",
+      "type": "Matérialisation",
+      "aliases": [
+        "Nakkuru Bain"
+      ],
+      "indice2": "Hakoware",
+      "indice1": "Noirs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 200 · Anime (2011) : Episode 86"
+    },
+    {
+      "id": "koala",
+      "name": "Koala",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Au service de Kaito / Anciennement soldat Kimera Ant",
+      "indice1": "Rose (son pelage)",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 189 · Anime (2011) : Episode 79"
+    },
+    {
+      "id": "komugi",
+      "name": "Komugi",
+      "gender": "Femme",
+      "yeux": "Bleus clairs",
+      "status": "Inconnu",
+      "affiliation": "Inconnue, 150",
+      "occupation": "Joueuse de gungi",
+      "type": "Renforcement",
+      "aliases": [
+        "Grande joueuse de gungi"
+      ],
+      "indice2": "Augmentation constante de la capacité à jouer au gungi",
+      "indice3": "Meruem (petit ami)",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 244 · Anime (2011) : Episode 102 (2011)"
+    },
+    {
+      "id": "koruko",
+      "name": "Koruko",
+      "gender": "Femme",
+      "status": "Inconnu",
+      "occupation": "Reine",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 72 · Anime (2011) : Episode 42 (2011)"
+    },
+    {
+      "id": "korutopi-tonofumeiru",
+      "name": "Korutopi Tonofumeiru",
+      "gender": "Homme",
+      "yeux": "Bleu",
+      "status": "Inconnu",
+      "occupation": "Brigade Fantôme",
+      "type": "Matérialisation",
+      "aliases": [
+        "Korutopi"
+      ],
+      "indice2": "''Gallery Fake''",
+      "indice1": "Bleu pâle",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+    },
+    {
+      "id": "kuroro-lucifer",
+      "name": "Kuroro Lucifer",
+      "status": "Vivant",
+      "gender": "Homme",
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "type": "Spécialisation",
+      "aliases": [
+        "Boss (par la Brigade Fantôme)",
+        "Kuroro Rushirufuru"
+      ],
+      "indice2": "'''Skill Hunter'''",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "kyu",
+      "name": "Kyû",
+      "status": "Vivant",
+      "gender": "Homme",
+      "yeux": "Bleus",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Bordeaux",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 12 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "leolio-paradinaito",
+      "name": "Leolio Paradinaito",
+      "gender": "Homme",
+      "yeux": "Brun",
+      "status": "Vivant",
+      "affiliation": "Zodiaques de l’Association Hunter (équipe scientifique)",
+      "occupation": "Rookie Hunter / Étudiant en médecine / Zodiaque (Sanglier)",
+      "type": "Émission",
+      "aliases": [
+        "Loradio (par Kirua)",
+        "Reorio Paradinaito",
+        "Rioleo (par Kurapika)",
+        "Sanglier (chez les Zodiaques)"
+      ],
+      "indice2": "Warping Punch / Ultrasons",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 2 · Anime (2011) : Episode 1 (2011)"
+    },
+    {
+      "id": "maenore",
+      "name": "Maenore",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "occupation": "Soldat Kimera Ant",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 261 · Anime (2011) : Episode 105 (2011)"
+    },
+    {
+      "id": "maha-zoldik",
+      "name": "Maha Zoldiku",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Assassin",
+      "type": "Renforcement",
+      "affiliation": "Brigade Fantôme, Famille Zoldik",
+      "aliases": [
+        "Maha Zorudikku"
+      ],
+      "indice3": "Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 39, Chapitre 100 · Anime (2011) : Episode 141 (2011) (diagramme des relations Zoldik)"
+    },
+    {
+      "id": "masuta",
+      "name": "Masuta",
+      "status": "Vivant",
+      "gender": "Homme",
+      "occupation": "Examinateur Hunter",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 33 · Anime (2011) : Episode 17 (2011)"
+    },
+    {
+      "id": "meleolon",
+      "name": "Meleolon",
+      "gender": "Homme",
+      "yeux": "Verts",
+      "status": "Vivant",
+      "type": "Spécialisation",
+      "aliases": [
+        "Jail (ジェイル",
+        "Jeiru)",
+        "Mereoron"
+      ],
+      "affiliation": "Kimera Ants",
+      "occupation": "Kimera Ants",
+      "indice2": "Plan infaillible / Le Complice de Dieu",
+      "indice1": "Blonds",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 189 · Anime (2011) : Episode 79 (2011)"
+    },
+    {
+      "id": "menchi",
+      "name": "Menchi",
+      "status": "Vivant",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "occupation": "Hunter",
+      "indice1": "Turquins",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 10 · Anime (2011) : Episode 6 (2011)"
+    },
+    {
+      "id": "meneuse-des-danseuses-de-goruto-est",
+      "name": "Meneuse des danseuses du Gorutô Est",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Inconnu",
+      "occupation": "Danseuse",
+      "indice1": "Bruns",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 216 · Anime (2011) : Episode 93 (2011)"
+    },
+    {
+      "id": "meruem",
+      "name": "Meruem",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "affiliation": "Kimera Ants",
+      "type": "Émission",
+      "aliases": [
+        "Le Roi",
+        "Majesté",
+        "Meruemu"
+      ],
+      "indice2": "Nen Eater / Metamorphose / Rage Blast / Photon",
+      "indice3": "Reine, Neferupito, Shauapufu, Montutyupi",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 213 · Anime (2011) : Episode 91"
+    },
+    {
+      "id": "mike",
+      "name": "Mike",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "affiliation": "Famille Zoldik",
+      "aliases": [
+        "Mi-ke"
+      ],
+      "indice1": "Mauves",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 39 · Anime (2011) : Episode 22 (2011)"
+    },
+    {
+      "id": "mikuri",
+      "name": "Mikuri",
+      "gender": "Femme",
+      "yeux": "Gris",
+      "status": "Inconnu",
+      "occupation": "Joueuse de Greed Island",
+      "indice1": "Rouges",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "mimizu",
+      "name": "Mimizu",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "type": "Transformation",
+      "aliases": [
+        "Ver de Terre"
+      ],
+      "affiliation": "Bêtes de l'Ombre, Dix parrains",
+      "occupation": "Garde du corps",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 75 · Anime (2011) : Episode 43 (2011)"
+    },
+    {
+      "id": "miruki-zoldik",
+      "name": "Miruki Zoldik",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Famille Zoldik",
+      "type": "Manipulation",
+      "aliases": [
+        "Miruki Zorudikku"
+      ],
+      "indice2": "Inconnues",
+      "indice3": "Maha Zoldik, Zeno Zoldik, Silva Zoldik, Kikyo Zoldik, Irumi Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 42 · Anime (2011) : Episode 23 (2011)"
+    },
+    {
+      "id": "mito-freecss",
+      "name": "Mito",
+      "gender": "Femme",
+      "yeux": "Jaunes",
+      "status": "Vivant",
+      "occupation": "Poissonnière (2011)",
+      "aliases": [
+        "Mito Furīkusu",
+        "Tante Mito (Par Gon)"
+      ],
+      "indice3": "Abe, Gon, Jin",
+      "indice1": "Orange",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 1 (2011)"
+    },
+    {
+      "id": "mitsuba",
+      "name": "Mitsuba",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Inconnu",
+      "occupation": "Zoldik",
+      "indice3": "Hasama",
+      "indice1": "Blonds",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 322 · Anime (2011) : Episode 138 (2011)"
+    },
+    {
+      "id": "mizaisutomu-nana",
+      "name": "Mizaisutomu Nana",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "affiliation": "Zodiaques",
+      "occupation": "Crime Hunter (2 étoiles) / Zodiaques (Vache) / Sécurité privée / Directeur d'entreprise / Avocat / Equipe d'intelligence",
+      "aliases": [
+        "Vache"
+      ],
+      "indice2": "Cross Game",
+      "indice1": "Noirs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 137"
+    },
+    {
+      "id": "mizuken",
+      "name": "Mizuken",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Kurapika",
+      "type": "Émission",
+      "indice1": "Bruns foncés",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 83 · Anime (2011) : Episode 30 (2011)"
+    },
+    {
+      "id": "montutyupi",
+      "name": "Montutuyupi",
+      "gender": "Homme",
+      "yeux": "Pourpre",
+      "status": "Inconnu",
+      "type": "Transformation",
+      "aliases": [
+        "Le Sabre Fatal",
+        "Montutuyupī",
+        "Yupi"
+      ],
+      "affiliation": "Kimera Ant",
+      "occupation": "Garde Royal du Roi",
+      "indice2": "Métamorphose ;Rage Blast ;Rage Incarné",
+      "indice3": "Reine, Neferupito, Shaupfufu, Meruem, Kaito(Kimera Ant)",
+      "indice1": "Violets foncés",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 206 · Anime (2011) : Episode 88 (2011)"
+    },
+    {
+      "id": "morau-mccarnathy",
+      "name": "Morau McCarnathy",
+      "gender": "Homme",
+      "status": "Vivant",
+      "affiliation": "Société Hunter",
+      "occupation": "Hunter",
+      "type": "Manipulation",
+      "indice2": "Deep Purple",
+      "indice3": "Knuckle, Shoot",
+      "indice1": "Argentés",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 199 · Anime (2011) : Episode 85"
+    },
+    {
+      "id": "muuna",
+      "name": "Muuna",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "occupation": "Touriste",
+      "indice1": "Noir",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 323 · Anime (2011) : Episode 139 (2011)"
+    },
+    {
+      "id": "neferupito",
+      "name": "Neferupitō",
+      "gender": "Homme",
+      "yeux": "rouge / jaune",
+      "status": "Inconnu",
+      "affiliation": "Garde royal(e) Kimera Ant, Humain et autres espèces",
+      "occupation": "garde royal",
+      "type": "Spécialisation",
+      "aliases": [
+        "Pitō)",
+        "Pitou (ピトー"
+      ],
+      "indice2": "Terpishora / Docteur Blythe / Marionnetiste",
+      "indice3": "Reine, Shaupfufu, Montutyupi, Meruem, Kaito",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 197 · Anime (2011) : Episode 84 (2011)"
+    },
+    {
+      "id": "neon-nostrad",
+      "name": "Neon Nostrad",
+      "gender": "Femme",
+      "yeux": "et 2011)",
+      "status": "Inconnu",
+      "occupation": "Voyante",
+      "type": "Spécialisation",
+      "aliases": [
+        "Neon Nosutorādo"
+      ],
+      "indice2": "Lovely Ghost Writer",
+      "indice3": "Right Nostrad",
+      "indice1": "Bleu électrique",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 70 · Anime (2011) : Episode 41 (2011)"
+    },
+    {
+      "id": "nobunaga-hazama",
+      "name": "Nobunaga Hazama",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "type": "Renforcement",
+      "indice1": "Noirs",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "noko",
+      "name": "Nokô",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Vivant",
+      "occupation": "Résidente de l'île de la Baleine",
+      "indice1": "Oranges",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 1 (2011)"
+    },
+    {
+      "id": "novu",
+      "name": "Nov",
+      "gender": "Homme",
+      "yeux": "Marron clair",
+      "status": "Vivant",
+      "affiliation": "Société Hunter",
+      "occupation": "Hunter",
+      "type": "Émission",
+      "aliases": [
+        "Novu"
+      ],
+      "indice2": "Cache-cache / Scream",
+      "indice3": "Société Hunter, Pâmu Shiberia",
+      "indice1": "Noirs (anciennement) / Blancs (actuellement)",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 199 · Anime (2011) : Episode 85"
+    },
+    {
+      "id": "pairo",
+      "name": "Pairo",
+      "gender": "Homme",
+      "yeux": "Marrons / Rouges (Quand il est énervé)",
+      "status": "Inconnu",
+      "indice3": "Clan Kuruta",
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 117 · Anime (2011) : Episode 58 (2011)"
+    },
+    {
+      "id": "pakunoda",
+      "name": "Pakunoda",
+      "gender": "Femme",
+      "yeux": "Marrons",
+      "status": "Inconnu",
+      "type": "Spécialisation",
+      "aliases": [
+        "Paku",
+        "Paku (membres de la Brigade Fantôme)"
+      ],
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "indice2": "'''Analyse des souvenirs''' / '''Memory Bomb'''",
+      "indice1": "Blonds",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+    },
+    {
+      "id": "pamu-shiberia",
+      "name": "Pâmu Shiberia",
+      "gender": "Femme",
+      "yeux": "Fuchsias (Humaine) / Fuchsias (Fourmi-chimère)",
+      "status": "Vivant",
+      "occupation": "Hunter, Voyante, Hunter Professionnelle",
+      "type": "Renforcement",
+      "affiliation": "Association Hunter",
+      "indice2": "Merman Clairvoyance, Black Widow, Wink Blue",
+      "indice1": "Noirs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 200 · Anime (2011) : Episode 86 (2011)"
+    },
+    {
+      "id": "parisuton-hill",
+      "name": "Parisuton Hill",
+      "gender": "Homme",
+      "yeux": "Bruns",
+      "status": "Vivant",
+      "affiliation": "Association des Hunters, Zodiaques",
+      "occupation": "Triple Hunter",
+      "type": "Inconnu",
+      "aliases": [
+        "Le Rat",
+        "Parisuton Hirū"
+      ],
+      "indice2": "Inconnu",
+      "indice3": "Beyond, Zodiaques",
+      "indice1": "Blonds",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 234, Chapitre 319 · Anime (2011) : Episode 137"
+    },
+    {
+      "id": "pekuba",
+      "name": "Pekuba",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Mort",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 190 · Anime (2011) : Episode 78 (2011)"
+    },
+    {
+      "id": "phinks-magkav",
+      "name": "Phinks Magkav",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "type": "Renforcement",
+      "aliases": [
+        "Finkusu"
+      ],
+      "indice2": "Ripper Cyclotron",
+      "indice1": "Blonds",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "piedro",
+      "name": "Piedro",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "aliases": [
+        "Pietoro"
+      ],
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 7 · Anime (2011) : Episode 4 (2011)"
+    },
+    {
+      "id": "piyon",
+      "name": "Piyon",
+      "gender": "Femme",
+      "yeux": "Roses",
+      "status": "Vivant",
+      "affiliation": "Les zodiaques",
+      "occupation": "Chapitre 346",
+      "aliases": [
+        "Lapin"
+      ],
+      "indice1": "Roux",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 137"
+    },
+    {
+      "id": "pokkuru",
+      "name": "Pokkuru",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Inconnu",
+      "type": "Émission",
+      "affiliation": "Association Hunter, NGL",
+      "occupation": "Beast Hunter",
+      "indice2": "Tir-à-l'arc",
+      "indice1": "Orange-pêche",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3"
+    },
+    {
+      "id": "podongo-lapoy",
+      "name": "Pondongo Lapoy",
+      "gender": "Femme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Hunter amateur",
+      "indice1": "Gris",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 77 (2011)"
+    },
+    {
+      "id": "ponzu",
+      "name": "Ponzu",
+      "gender": "Femme",
+      "yeux": "Vert-forestier",
+      "status": "Inconnu",
+      "occupation": "Hunter amateur",
+      "indice1": "Vert clair",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "poorhatto",
+      "name": "Poorhatto",
+      "gender": "Homme",
+      "yeux": "Verts",
+      "status": "Mort",
+      "aliases": [
+        "Puhatto"
+      ],
+      "affiliation": "Nikkes",
+      "indice1": "Bruns-Blonds",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "rataza",
+      "name": "Rataza",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Mort",
+      "aliases": [
+        "Ratāza"
+      ],
+      "indice1": "Violets",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 128 · Anime (2011) : Episode 61 (2011)"
+    },
+    {
+      "id": "redwood",
+      "name": "Redwood",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Joueur de Greed Island",
+      "aliases": [
+        "Redouddo"
+      ],
+      "indice1": "Bruns",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 132 · Anime (2011) : Episode 60 (2011)"
+    },
+    {
+      "id": "reina",
+      "name": "Reina",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Inconnu",
+      "indice3": "Haruna",
+      "indice1": "Violets fushia",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 187 · Anime (2011) : Episode 77 (2011)"
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "gender": "Homme",
+      "yeux": "Noir",
+      "status": "Mort",
+      "occupation": "Soldat Kimera Ant",
+      "indice1": "Bleu",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 195 · Anime (2011) : Episode 93"
+    },
+    {
+      "id": "rippo",
+      "name": "Rippô",
+      "gender": "Homme",
+      "yeux": "Orange",
+      "status": "Vivant",
+      "affiliation": "Association Hunter",
+      "occupation": "liste noire, Tour aux astuces",
+      "aliases": [
+        "Rippō"
+      ],
+      "indice3": "Prisonniers de la tour aux astuces",
+      "indice1": "Violets",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 14 · Anime (2011) : Episode 8 (2011)"
+    },
+    {
+      "id": "rist",
+      "name": "Rist",
+      "gender": "Homme",
+      "yeux": "Verts",
+      "status": "Vivant",
+      "affiliation": "Greed Island",
+      "occupation": "Game Masters, Greed Island",
+      "type": "Inconnu",
+      "aliases": [
+        "Risuto"
+      ],
+      "indice1": "Blonds",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 183 · Anime (2011) : Episode 75 (2011)"
+    },
+    {
+      "id": "rover",
+      "name": "Rover",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Chien-humain",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 82 (2011)"
+    },
+    {
+      "id": "sabazushi",
+      "name": "Sabazushi",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Mercenaire",
+      "indice1": "Bruns",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 173 · Anime (2011) : Episode 72 (2011)"
+    },
+    {
+      "id": "sabu",
+      "name": "Sabu",
+      "gender": "Homme",
+      "status": "Vivant",
+      "affiliation": "Boomer",
+      "occupation": "Joueur de Greed Island;Boomer",
+      "indice3": "Genthru, Bara",
+      "indice1": "Rouge",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 143 · Anime (2011) : Episode 63 (2011)"
+    },
+    {
+      "id": "saccho-kobayakawa",
+      "name": "Saccho Kobayakawa",
+      "gender": "Homme",
+      "status": "Vivant",
+      "affiliation": "Zodiaques",
+      "occupation": "Trouble Hunter 2 étoiles",
+      "aliases": [
+        "Cheval",
+        "le conseiller du junishin",
+        "Satchou Kobayakawa"
+      ],
+      "indice3": "Zodiaques",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 136"
+    },
+    {
+      "id": "saccimonno-tocinno",
+      "name": "Saccimono Tocinno",
+      "gender": "Homme",
+      "yeux": "Gris",
+      "status": "Inconnu",
+      "occupation": "Hunter",
+      "type": "Émission",
+      "aliases": [
+        "Shacchimōno Tochīno"
+      ],
+      "indice2": "Eleven black children",
+      "indice1": "Orange",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 39 (2011)"
+    },
+    {
+      "id": "sadaso",
+      "name": "Sadaso",
+      "gender": "Homme",
+      "yeux": "Blancs",
+      "status": "Vivant",
+      "type": "Transformation",
+      "aliases": [
+        "Le destructeur des nouveaux"
+      ],
+      "occupation": "Combattants de la tour céleste",
+      "indice2": "Bras de nen",
+      "indice3": "Guido, Riluberto",
+      "indice1": "Blancs",
+      "arc": "Arène du Ciel",
+      "firstAppearance": "Manga : Chapitre 48 · Anime (2011) : Episode 29 (2011)"
+    },
+    {
+      "id": "satotsu",
+      "name": "Satotsu",
+      "gender": "Homme",
+      "yeux": "Bleus",
+      "status": "Vivant",
+      "occupation": "Hunter Archéologue",
+      "indice1": "Lavande",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "sedokan",
+      "name": "Sedokan",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Prisonnier, Poseur de bombes en séries",
+      "indice1": "Bruns",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 16 · Anime (2011) : Episode 9 (2011)"
+    },
+    {
+      "id": "sarah",
+      "name": "Selah",
+      "gender": "Femme",
+      "status": "Inconnu",
+      "occupation": "Actrice",
+      "indice1": "Noirs",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 70 · Anime (2011) : Episode 39 (2011)"
+    },
+    {
+      "id": "senritsu",
+      "name": "Senritsu",
+      "gender": "Femme",
+      "yeux": "Verts olive",
+      "status": "Vivant",
+      "occupation": "Neon",
+      "type": "Émission",
+      "indice2": "Un champ au printemps",
+      "indice1": "Gris",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 39 (2011)"
+    },
+    {
+      "id": "sharnalk",
+      "name": "Sharnalk Ryûsei",
+      "gender": "Homme",
+      "yeux": "Verts",
+      "status": "Inconnu",
+      "occupation": "Brigade Fantôme",
+      "type": "Manipulation",
+      "aliases": [
+        "Sharunāku"
+      ],
+      "indice2": "Black voice / Autopilote",
+      "indice1": "Blonds platines",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "shaupfufu",
+      "name": "Shauapufu",
+      "gender": "Homme",
+      "yeux": "Ambre",
+      "status": "Inconnu",
+      "occupation": "Garde Royal des Fourmis-Chimères",
+      "type": "Manipulation",
+      "indice2": "Spiritual Message / Beelzebut / Reconstruction du corps",
+      "indice3": "Neferupito, Reine Kimera Ants, Montutyupi, Meruem, Kaito (Kimera Ant)",
+      "indice1": "Blond foncé",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 206 · Anime (2011) : Episode 86 (2011)"
+    },
+    {
+      "id": "shidore",
+      "name": "Shidore",
+      "gender": "Femme",
+      "status": "Vivant",
+      "occupation": "Soldat Kimera Ant",
+      "indice3": "Haruna, Koruto, Kuruto, Reina",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 261 · Anime (2011) : Episode 105 (2011)"
+    },
+    {
+      "id": "shishito",
+      "name": "Shishitô",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Bleu nuit",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 8 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "shizuku-murasaki",
+      "name": "Shizuku Murasaki",
+      "gender": "Femme",
+      "yeux": "Violets",
+      "status": "Vivant",
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "type": "Matérialisation",
+      "aliases": [
+        "Shizuku"
+      ],
+      "indice2": "Vacuum Cleaner (Démé-chan)",
+      "indice1": "Noirs",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "shoot-macmahon",
+      "name": "Shoot MacMahon",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "UMA Hunter",
+      "type": "Manipulation",
+      "indice2": "Hôtel Rafflesia",
+      "indice1": "Violets",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 209 · Anime (2011) : Episode 86 (2011)"
+    },
+    {
+      "id": "silva-zoldik",
+      "name": "Silva Zoldik",
+      "gender": "Homme",
+      "yeux": "Bleus",
+      "status": "Vivant",
+      "affiliation": "Famille Zoldik",
+      "occupation": "Assassin",
+      "type": "Émission",
+      "indice2": "Nen Orbes Explosives",
+      "indice3": "Maha Zoldik, Zeno Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "indice1": "Blond",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 42 · Anime (2011) : Episode 24 (2011)"
+    },
+    {
+      "id": "somi",
+      "name": "Somi",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Bruns",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 23 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "spinna-cro",
+      "name": "Spinna Crô",
+      "gender": "Femme",
+      "status": "Vivant",
+      "occupation": "Hunter amateur",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 77 (2011)"
+    },
+    {
+      "id": "spot",
+      "name": "Spot",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Chien-humain de Yunju",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 82 (2011)"
+    },
+    {
+      "id": "supar",
+      "name": "Supar",
+      "gender": "Femme",
+      "status": "Inconnu",
+      "aliases": [
+        "Supā"
+      ],
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Rouges",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "taragette",
+      "name": "Taragette",
+      "gender": "Homme",
+      "yeux": "Gris",
+      "status": "Inconnu",
+      "occupation": "Soldat Kimera Ant",
+      "indice3": "Reine",
+      "indice1": "Chauve",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 251 · Anime (2011) : Episode 105"
+    },
+    {
+      "id": "todo",
+      "name": "Todo",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Catcheur / Candidat à l'examen Hunter",
+      "aliases": [
+        "Tōdō"
+      ],
+      "indice1": "Blonds et bruns",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "togari",
+      "name": "Togari",
+      "gender": "Homme",
+      "yeux": "Verts",
+      "status": "Inconnu",
+      "occupation": "Hunter",
+      "indice1": "Bleus",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 14 · Anime (2011) : Episode 10 (2011)"
+    },
+    {
+      "id": "tompa",
+      "name": "Tompa",
+      "status": "Vivant",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "affiliation": "Examen Hunter",
+      "occupation": "Examen Hunter",
+      "aliases": [
+        "Le broyeur de nouvelle recrue",
+        "Le casseur de nouveau",
+        "Ou",
+        "Tonpa"
+      ],
+      "indice1": "Bruns",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "tsubone",
+      "name": "Tsubone",
+      "gender": "Femme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Zoldik",
+      "type": "Matérialisation",
+      "indice2": "Rider High",
+      "indice3": "Amane",
+      "indice1": "Gris",
+      "arc": "Élection 13e président",
+      "firstAppearance": "Manga : Chapitre 324 · Anime (2011) : Episode 140 (2011)"
+    },
+    {
+      "id": "umori",
+      "name": "Umori",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Châtains",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+    },
+    {
+      "id": "uvoguine",
+      "name": "Uvôguine",
+      "gender": "Homme",
+      "status": "Inconnu",
+      "aliases": [
+        "Ubōgin",
+        "Uvô (par la Brigade Fantôme)"
+      ],
+      "affiliation": "Brigade Fantôme",
+      "occupation": "Brigade Fantôme",
+      "indice2": "'''Big Bang Impact'''",
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+    },
+    {
+      "id": "werefin",
+      "name": "Werefin",
+      "gender": "Masculin",
+      "yeux": "Noir",
+      "status": "Vivant",
+      "type": "Matérialisation",
+      "aliases": [
+        "Werufin"
+      ],
+      "affiliation": "Kimera Ants",
+      "occupation": "Chef d'escadron",
+      "indice2": "Missileman",
+      "indice3": "Inconnu",
+      "indice1": "Blond (Début) / Chauve (Fin)",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 188 · Anime (2011) : Episode 85 (2011)"
+    },
+    {
+      "id": "wing",
+      "name": "Wing",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Vivant",
+      "occupation": "Hunter",
+      "type": "Renforcement",
+      "aliases": [
+        "Maître Wing",
+        "Uingu"
+      ],
+      "indice3": "Biscuit Kruger, Zuchi, Kirua Zoldik, Gon Freecss",
+      "indice1": "Noirs",
+      "arc": "Arène du Ciel",
+      "firstAppearance": "Manga : Chapitre 45 · Anime (2011) : Episode 27 (2011)"
+    },
+    {
+      "id": "won",
+      "name": "Won",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "occupation": "Zoologiste",
+      "indice1": "Bruns",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 187 · Anime (2011) : Episode 77 (2011)"
+    },
+    {
+      "id": "yabibi",
+      "name": "Yabibi",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Inconnu",
+      "occupation": "Joueur de Greed Island",
+      "indice1": "Gris",
+      "arc": "Greed Island",
+      "firstAppearance": "Manga : Chapitre 154 · Anime (2011) : Episode 67 (2011)"
+    },
+    {
+      "id": "yama-arashi",
+      "name": "Yama Arashi",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Mort",
+      "type": "Transformation",
+      "aliases": [
+        "Porc-Epic"
+      ],
+      "affiliation": "Bêtes de l'ombre",
+      "occupation": "Sanglier(Bêtes de l'ombre)",
+      "indice2": "Poils de corps",
+      "indice3": "Bêtes de l'ombre",
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 75 · Anime (2011) : Episode 43 (2011)"
+    },
+    {
+      "id": "zazan",
+      "name": "Zazan",
+      "gender": "Femme",
+      "yeux": "Or",
+      "status": "Inconnu",
+      "affiliation": "Armée de Zazan, Armée de la Reine",
+      "type": "Transformation",
+      "indice2": "Queen Shot / Reine des monstres",
+      "indice3": "Pike",
+      "indice1": "Violets",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Manga : Chapitre 190 · Anime (2011) : Episode 78 (2011)"
+    },
+    {
+      "id": "zeno-zoldik",
+      "name": "Zeno Zoldik",
+      "gender": "Homme",
+      "yeux": "Gris",
+      "status": "Vivant",
+      "affiliation": "Famille Zoldik",
+      "occupation": "Assassin",
+      "type": "Émission",
+      "aliases": [
+        "Zeno Zorudikku"
+      ],
+      "indice2": "'''Dragon Head''' : / Dragon Lance / Dragon Dive",
+      "indice3": "Zzigg Zoldik, Maha Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "indice1": "Blanc",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Manga : Chapitre 42 · Anime (2011) : Episode 24"
+    },
+    {
+      "id": "zepairu",
+      "name": "Zepairu",
+      "gender": "Homme",
+      "yeux": "Bruns",
+      "status": "Vivant",
+      "occupation": "Chercheur d'Antiquités / Candidat à l'examen Hunter",
+      "indice1": "Bruns",
+      "arc": "Yorknew",
+      "firstAppearance": "Manga : Chapitre 86 · Anime (2011) : Episode 48 (2011)"
+    },
+    {
+      "id": "zushi",
+      "name": "Zushi",
+      "gender": "Homme",
+      "yeux": "Marrons (2012)",
+      "status": "Vivant",
+      "occupation": "Élève de l'école Shingen-Ryu",
+      "type": "Manipulation",
+      "indice3": "Wing",
+      "indice1": "Marron clair",
+      "arc": "Arène du Ciel",
+      "firstAppearance": "Manga : Chapitre 44 · Anime (2011) : Episode 27 (2011)"
+    }
+  ]
+}
