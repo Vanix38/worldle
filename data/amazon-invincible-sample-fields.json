@@ -1,0 +1,323 @@
+{
+  "wiki": "https://amazon-invincible.fandom.com/wiki/Category:Characters",
+  "sampleSize": 10,
+  "totalFieldKeysInSample": 15,
+  "fieldKeysInSample": [
+    "age",
+    "born",
+    "enemies",
+    "fate",
+    "first appearance",
+    "full name",
+    "gender",
+    "goals",
+    "home",
+    "occupation",
+    "other names",
+    "relatives",
+    "species",
+    "status",
+    "voice"
+  ],
+  "samplePages": [
+    {
+      "title": "Adam Wilkins",
+      "resolvedTitle": "Adam Wilkins",
+      "keys": [
+        "full name",
+        "gender",
+        "species",
+        "occupation",
+        "relatives",
+        "home",
+        "status",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Adam Wilkins",
+        "gender": "Male ♂",
+        "species": "Human",
+        "occupation": "Employee at a furniture store / (resigned after the Head Office's destruction)Burger Mart Employee (resigned) / Employee at a furniture store (New company)",
+        "relatives": "Spouses: / Betsy Wilkins (wife) / Children: / Samantha Eve Wilkins (indirect adopted daughter) / Unnamed Stillborn Child †",
+        "home": "Residence: Wilkins House / City: Chicago, Illinois / Country: United States / Planet: Earth /",
+        "status": "Alive",
+        "voice": "Fred Tatasciore"
+      }
+    },
+    {
+      "title": "Agent Spider",
+      "resolvedTitle": "Agent Spider",
+      "keys": [
+        "full name",
+        "other names",
+        "gender",
+        "species",
+        "occupation",
+        "enemies",
+        "home",
+        "status",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Unknown",
+        "other names": "Agent Spider",
+        "gender": "Male ♂",
+        "species": "Human",
+        "occupation": "Superhero",
+        "enemies": "Prof. Ock (arch-nemesis)",
+        "home": "Alternate Earth",
+        "status": "Alive",
+        "voice": "Josh Keaton"
+      }
+    },
+    {
+      "title": "Allen the Alien",
+      "resolvedTitle": "Allen the Alien",
+      "keys": [
+        "full name",
+        "other names",
+        "age",
+        "gender",
+        "species",
+        "occupation",
+        "relatives",
+        "enemies",
+        "home",
+        "goals",
+        "status",
+        "born",
+        "voice",
+        "first appearance"
+      ],
+      "fields": {
+        "full name": "Allen",
+        "other names": "Allen the Alien / Allen of Unopa / The Mighty Allen / Great Allen /",
+        "age": "100+",
+        "gender": "Male ♂",
+        "species": "Artificial Unopan",
+        "occupation": "Leader of the Coalition of Planets",
+        "relatives": "Marvin (creator) / Unnamed father †",
+        "enemies": "Viltrum Empire:Grand Regent Thragg / General Kregg / Conquest † / Anissa / Thula / Lucan / Kradd † / Vidor † / Elix / Torth † (victim) / Executioner 1 † (victim) / Executioner 2 † / Others:Prison Alien Guards / Data Twin II / Various subjugated races /",
+        "home": "Residence: Allen's Home / City: Talescria / Planet: Talescria /",
+        "goals": "Current: / Stop the Viltrum Empire. / Former: / Break out of prison and persuade Omni-Man to fight for the Coalition. (succeeded) /",
+        "status": "Alive",
+        "born": "Thragg Era | Talescria | Unopan breeding camp",
+        "voice": "Seth Rogen / James Adomian (Invincible VS) /",
+        "first appearance": "1x02 \"Here Goes Nothing\""
+      }
+    },
+    {
+      "title": "Amber Bennett",
+      "resolvedTitle": "Amber Bennett",
+      "keys": [
+        "full name",
+        "age",
+        "gender",
+        "species",
+        "occupation",
+        "relatives",
+        "enemies",
+        "home",
+        "status",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Amber Justine Bennet",
+        "age": "17 (Season 1) / 18 (Season 2) / 19 (Seasons 3 and 4) /",
+        "gender": "Female ♀",
+        "species": "Human",
+        "occupation": "Upstate University Student / Reginald Vel Johnson High School Student (graduated) / Soup Kitchen Worker",
+        "relatives": "Unnamed mother / Unnamed grandfather †",
+        "enemies": "Todd / D.A. Sinclair / ReAnimen / Anissa",
+        "home": "Residence: Upstate University / City: Chicago, Illinois / Country: United States / Planet: Earth /",
+        "status": "Alive",
+        "voice": "Zazie Beetz"
+      }
+    },
+    {
+      "title": "Andressa",
+      "resolvedTitle": "Andressa",
+      "keys": [
+        "full name",
+        "gender",
+        "species",
+        "occupation",
+        "relatives",
+        "enemies",
+        "home",
+        "goals",
+        "status",
+        "fate",
+        "born",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Andressa",
+        "gender": "Female ♀",
+        "species": "Thraxan",
+        "occupation": "Empress of Thraxa (formerly)",
+        "relatives": "Nolan (husband) / Oliver Grayson (son) / Mark Grayson (stepson) / Unnamed † (father in-law) / Unnamed † (mother in-law) /",
+        "enemies": "Viltrum EmpireLucan (attempted killer) / Vidor † / Thula /",
+        "home": "Thraxa",
+        "goals": "Former:To keep her people and child safe. (succeeded) / Give her son to his older brother, Mark, to take back to Earth. (succeeded) /",
+        "status": "Deceased",
+        "fate": "Passed away from old age",
+        "born": "Thragg Era | Thraxa",
+        "voice": "Rhea Seehorn"
+      }
+    },
+    {
+      "title": "Angstrom Jr.",
+      "resolvedTitle": "Angstrom Jr.",
+      "keys": [
+        "full name",
+        "gender",
+        "species",
+        "relatives",
+        "enemies",
+        "home",
+        "status",
+        "fate",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Angstrom Levy Jr.",
+        "gender": "Male ♂",
+        "species": "Human",
+        "relatives": "Angstrom Levy † (father) / Unnamed Mother †",
+        "enemies": "Capevincible (killer)",
+        "home": "Earth",
+        "status": "Deceased",
+        "fate": "Killed by Capevincible",
+        "voice": "Camden Coley"
+      }
+    },
+    {
+      "title": "Angstrom Levy",
+      "resolvedTitle": "Angstrom Levy",
+      "keys": [
+        "full name",
+        "gender",
+        "species",
+        "occupation",
+        "enemies",
+        "home",
+        "goals",
+        "status",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Angstrom Levy",
+        "gender": "Male ♂",
+        "species": "Human (Cybernetically Enhanced)",
+        "occupation": "Scientist / Supervillain / Founder of Team Evil Invincible / Peacemaker (formerly) / Client of the Technicians / Police officer (in some universes) / Professor (in some universes) / Superhero (in some universes) / Apocalyptic Rebel (in some universes)",
+        "enemies": "The Grayson Family: / Invincible (archnemesis, attempted killer) / Debbie Grayson / Oliver Grayson / Atom Eve / Team Evil Invincible: / Capevincible (former ally) / Viltrumincible (former ally) / Movincihawk (former ally) / Nomaskible (former ally) / Stripevincible (former ally) / Prisonincible (former ally) / Omnivincible (former ally) / Maskvincible (former ally) / Guardians of the Globe / Global Defense Agency",
+        "home": "Earth (formerly) / Alternate Earths",
+        "goals": "Help numerous universes with the knowledge he gained from his alternative selves (partially succeeded; backfired). / Save Invincible from the alternate Maulers (succeeded) / Collect evil variants of Invincible and have them destroy the reputation of the mainstream Invincible (temporarily succeeded) / Get revenge on Invincible for his disfigurement (ongoing) /",
+        "status": "Alive",
+        "voice": "Sterling K. Brown"
+      }
+    },
+    {
+      "title": "Angstrom Levy/Capevincible",
+      "resolvedTitle": "Angstrom Levy/Capevincible",
+      "keys": [
+        "full name",
+        "gender",
+        "species",
+        "relatives",
+        "enemies",
+        "home",
+        "status",
+        "fate",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Angstrom Levy",
+        "gender": "Male ♂",
+        "species": "Human",
+        "relatives": "Angstrom Jr. † (son) / Unnamed spouse †",
+        "enemies": "Capevincible / Main Invincible (presumably)",
+        "home": "Former:Universe: Capevincible Universe / Planet: Alternate Earth / Base: Unknown /",
+        "status": "Deceased",
+        "fate": "Accidentally killed in a explosion by Angstrom Levy.",
+        "voice": "Sterling K. Brown"
+      }
+    },
+    {
+      "title": "Angstrom Levy/Cop Slayer Invincible",
+      "resolvedTitle": "Angstrom Levy/Cop Slayer Invincible",
+      "keys": [
+        "full name",
+        "other names",
+        "gender",
+        "species",
+        "occupation",
+        "enemies",
+        "home",
+        "status",
+        "fate"
+      ],
+      "fields": {
+        "full name": "Angstrom Levy",
+        "other names": "Officer Levy (presumed offical title)",
+        "gender": "Male ♂",
+        "species": "Human",
+        "occupation": "Police Officer",
+        "enemies": "Cop Slayer Invincible / Main Invincible (presumably)",
+        "home": "Former:Universe: Cop Slayer Invincible Universe / Planet: Alternate Earth /",
+        "status": "Deceased",
+        "fate": "Accidentally killed in a explosion by Angstrom Levy."
+      }
+    },
+    {
+      "title": "Angstrom Levy/Corrupted Invincible",
+      "resolvedTitle": "Angstrom Levy/Corrupted Invincible",
+      "keys": [
+        "full name",
+        "other names",
+        "gender",
+        "species",
+        "enemies",
+        "home",
+        "goals",
+        "status",
+        "fate",
+        "voice"
+      ],
+      "fields": {
+        "full name": "Angstrom Levy",
+        "other names": "Angstrom #646",
+        "gender": "Male ♂",
+        "species": "Human",
+        "enemies": "Invincible (attempted killer) / Omni-Man",
+        "home": "Former:Universe: Corrupted Invincible Universe / Planet: Alternate Earth / Base: Underground Bunker /",
+        "goals": "Former:Find the weapon which can kill Omni-Man. (succeeded) / Defeat Invincible and Omni-Man. (failed) /",
+        "status": "Deceased",
+        "fate": "Accidentally killed in a explosion by Angstrom Levy.",
+        "voice": "Sterling K. Brown"
+      }
+    }
+  ],
+  "fieldCountsInFullCsv": {
+    "gender": 253,
+    "status": 250,
+    "species": 249,
+    "full name": 235,
+    "enemies": 220,
+    "home": 214,
+    "occupation": 205,
+    "voice": 195,
+    "other names": 131,
+    "relatives": 101,
+    "age": 87,
+    "born": 76,
+    "fate": 76,
+    "first appearance": 68,
+    "goals": 60,
+    "Enemies": 3,
+    "First Appearance": 3,
+    "Home": 3,
+    "Status": 3
+  }
+}
