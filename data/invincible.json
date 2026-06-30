@@ -66,21 +66,52 @@
       "fonction": "Multivalue",
       "description": "Occupations actuelles du personnage."
     },
-    "formerOccupations": {
-      "header": "Anciennes occupations",
+    "affiliation": {
+      "header": "Affiliation",
       "fonction": "Multivalue",
-      "description": "Anciennes occupations connues du personnage."
+      "description": "Affiliation actuelle du personnage (équipe, organisation, faction). Orange si au moins une entrée est commune avec la cible."
     },
-    "enemies": {
-      "header": "Ennemis",
+    "formerAffiliation": {
+      "header": "Ancienne affiliation",
       "fonction": "Multivalue",
-      "description": "Ennemis listés sur la fiche wiki. Orange si au moins une entrée est commune avec la cible."
+      "description": "Anciennes affiliations connues du personnage. Orange si au moins une entrée est commune avec la cible."
     },
     "aliases": {
       "header": "Alias",
       "fonction": "Recherche",
       "description": "Alias et autres noms, utilisés pour la recherche."
+    },
+    "indice1": {
+      "header": "Indice 1",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Ennemis",
+        "icon": "FaSkull"
+      },
+      "description": "Ennemis listés sur la fiche wiki. Débloqué après plusieurs tentatives."
+    },
+    "indice2": {
+      "header": "Indice 2",
+      "fonction": "Indice",
+      "hint": {
+        "prompt": "Anciennes occupations",
+        "icon": "FaBriefcase"
+      },
+      "description": "Anciennes occupations connues du personnage. Débloqué après plusieurs tentatives."
     }
+  },
+  "fieldPrevalence": {
+    "firstAppearance": 1,
+    "gender": 1,
+    "species": 1,
+    "status": 1,
+    "home": 1,
+    "occupation": 1,
+    "affiliation": 1,
+    "indice1": 1,
+    "aliases": 0.7837837837837838,
+    "indice2": 0.5,
+    "formerAffiliation": 0.1891891891891892
   },
   "characters": [
     {
@@ -91,10 +122,12 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "Décédé(e)",
-      "home": "Terre",
-      "occupation": "Super-vilaine",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-vilain",
+      "affiliation": "Ligue Lézard",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe",
+      "indice2": ""
     },
     {
       "id": "argall",
@@ -102,14 +135,16 @@
       "aliases": [
         "Empereur Argall"
       ],
-      "firstAppearance": "Saison 4, Episode 7",
+      "firstAppearance": "Saison 4, Episode 2",
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "Décédé",
-      "home": "Cité viltrumite, Viltrum",
-      "occupation": "",
-      "formerOccupations": "Empereur, Souverain de Viltrum",
-      "enemies": "Thaedus, 75 % des Reloniens"
+      "home": "Viltrum",
+      "occupation": "Souverain",
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Thaedus",
+      "indice2": ""
     },
     {
       "id": "ed-thompson",
@@ -122,10 +157,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": "Empire viltrumite"
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite",
+      "indice2": ""
     },
     {
       "id": "domina",
@@ -138,24 +175,26 @@
       "species": "Démon",
       "status": "En vie",
       "home": "Enfer",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": "Volcanikka, Magmanites"
+      "occupation": "Guerrier",
+      "affiliation": "Clan Darkblood, Forces de l'Enfer",
+      "formerAffiliation": "",
+      "indice1": "Forces de l'Enfer",
+      "indice2": ""
     },
     {
       "id": "volcanikka",
       "name": "Volcanikka",
-      "aliases": [
-        "Volcanikka"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 4, Episode 4",
       "gender": "Femme",
       "species": "Monstre de lave",
       "status": "En vie",
       "home": "Enfer",
-      "occupation": "Destructrice",
-      "formerOccupations": "",
-      "enemies": "Invincible, Damien Darkblood, Satan, Domina"
+      "occupation": "Super-vilain, Directeur/Chef",
+      "affiliation": "Magmanites",
+      "formerAffiliation": "",
+      "indice1": "Forces de l'Enfer, Invincible, Damien Darkblood",
+      "indice2": "Souverain"
     },
     {
       "id": "capitaine-pikell",
@@ -166,12 +205,14 @@
       ],
       "firstAppearance": "Saison 4, Episode 2",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Inconnu(e)",
       "status": "En vie",
-      "home": "",
-      "occupation": "Co-capitaine",
-      "formerOccupations": "",
-      "enemies": "Jumeau Data II"
+      "home": "Talescria",
+      "occupation": "Soldat",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite",
+      "indice2": ""
     },
     {
       "id": "thragg",
@@ -184,47 +225,51 @@
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "En vie",
-      "home": "Croiseur viltrumite, Lune de la Terre",
-      "occupation": "Grand régent de Viltrum",
-      "formerOccupations": "Régent de l'Empire viltrumite",
-      "enemies": "Thaedus, Allen l’Extraterrestre, Space Racer, Capitaine Pikell, Tech Jacket, Empereur geldérien, Elia, Mokk, Battle Beast, Générale Telia, Marvin, Jumeau Data I, Nolan, Invincible, Oliver Grayson"
+      "home": "Viltrum",
+      "occupation": "Souverain",
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Coalition des Planètes, Nolan, Invincible, Oliver Grayson",
+      "indice2": "Souverain"
     },
     {
       "id": "universa",
       "name": "Universa",
       "aliases": [
-        "Universa"
+        "Reine guerrière"
       ],
       "firstAppearance": "Saison 4, Episode 1",
       "gender": "Femme",
-      "species": "Alien",
+      "species": "Inconnu(e)",
       "status": "En vie",
-      "home": "",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": "Invincible, Atom Eve, Agence de défense mondiale"
+      "home": "Inconnu(e)",
+      "occupation": "Souverain, Super-vilain",
+      "affiliation": "Indépendant",
+      "formerAffiliation": "Coalition des Planètes",
+      "indice1": "Invincible, Atom Eve, Agence de Défence Globale (A.D.G.)",
+      "indice2": ""
     },
     {
       "id": "satan",
       "name": "Satan",
       "aliases": [
-        "La Grande Bête",
-        "Satan"
+        "La Grande Bête"
       ],
       "firstAppearance": "Saison 3, Episode 8",
       "gender": "Homme",
       "species": "Démon",
       "status": "En vie",
       "home": "Enfer",
-      "occupation": "Roi de l'Enfer",
-      "formerOccupations": "",
-      "enemies": "Volcanikka, Magmanites"
+      "occupation": "Souverain",
+      "affiliation": "Forces de l'Enfer",
+      "formerAffiliation": "",
+      "indice1": "Forces de l'Enfer",
+      "indice2": "Souverain"
     },
     {
       "id": "brit",
       "name": "Brit",
       "aliases": [
-        "Brit",
         "Brit Sr.",
         "Brittany"
       ],
@@ -232,10 +277,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Super-héros",
-      "formerOccupations": "Soldat",
-      "enemies": "Lightblueincible, Angstrom Levy, Powerplex"
+      "home": "Terre, Royaume-Uni",
+      "occupation": "Super-héros, Agent",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "Gardiens du Globe",
+      "indice1": "Équipe des Invincibles maléfiques, Angstrom Levy, Powerplex",
+      "indice2": "Soldat"
     },
     {
       "id": "tech-jacket",
@@ -247,10 +294,12 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Super-héroïne",
-      "formerOccupations": "",
-      "enemies": "Grand régent Thragg, Général Kregg, Conquest, Anissa, Thula, Lucan, Kradd, Elix, Torth, Divers autres, Mustachible, Kresh, The Walking Dread, Gardes extraterrestres de prison, Jumeau Data II"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite, Divers ennemis, Équipe des Invincibles maléfiques, L'ordre",
+      "indice2": "Agent"
     },
     {
       "id": "powerplex",
@@ -262,26 +311,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Chicago, Illinois, États-Unis, Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "Scientifique",
-      "enemies": "Invincible, Omni-Man, Shapesmith, Atom Eve, Gardiens du Globe, Cecil Stedman, Agence de défense mondiale, Brit, Movincihawk, Kid Omni-Man, Angstrom Levy"
-    },
-    {
-      "id": "l-immortel-ligne-temporelle-future",
-      "name": "L’Immortel/Ligne temporelle future",
-      "aliases": [
-        "Abraham Lincoln",
-        "L’Immortel"
-      ],
-      "firstAppearance": "Saison 3, Episode 4",
-      "gender": "Homme",
-      "species": "Humain(e)",
-      "status": "Décédé",
-      "home": "Terre",
-      "occupation": "Roi de la Terre",
-      "formerOccupations": "Guerrier celte, Chevalier, Président des États-Unis, Super-héros",
-      "enemies": "Invincible principal, Fightmaster, Dropkick"
+      "affiliation": "Indépendant",
+      "formerAffiliation": "Agence de Défence Globale (A.D.G.)",
+      "indice1": "Agence de Défence Globale (A.D.G.), Gardiens du Globe, Invincible, Omni-Man, Atom Eve, Équipe des Invincibles maléfiques, Kid Omni-Man, Angstrom Levy",
+      "indice2": "Scientifique"
     },
     {
       "id": "radcliffe",
@@ -292,116 +327,64 @@
       "firstAppearance": "Saison 3, Episode 2",
       "gender": "Homme",
       "species": "Humain(e)",
-      "status": "Décédé(e)",
-      "home": "États-Unis, Terre",
-      "occupation": "",
-      "formerOccupations": "Directeur de l'Agence de défense mondiale",
-      "enemies": "Ligue Lézard, Komodo Dragon"
-    },
-    {
-      "id": "dropkick",
-      "name": "Dropkick",
-      "aliases": [],
-      "firstAppearance": "Saison 3, Episode 1",
-      "gender": "Homme",
-      "species": "Humain(e)",
-      "status": "En vie",
-      "home": "Terre",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": "L’Immortel"
-    },
-    {
-      "id": "fightmaster",
-      "name": "Fightmaster",
-      "aliases": [],
-      "firstAppearance": "Saison 3, Episode 1",
-      "gender": "Homme",
-      "species": "Humain(e)",
-      "status": "En vie",
-      "home": "Terre",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": "L’Immortel"
-    },
-    {
-      "id": "atom-eve-ligne-temporelle-alternative",
-      "name": "Atom Eve/Ligne temporelle alternative",
-      "aliases": [
-        "Samantha Eve Wilkins"
-      ],
-      "firstAppearance": "Saison 2, Episode 8",
-      "gender": "Femme",
-      "species": "Humain(e)",
-      "status": "Décédé(e)",
-      "home": "Terre",
-      "occupation": "Super-héroïne",
-      "formerOccupations": "",
-      "enemies": "Angstrom Levy"
-    },
-    {
-      "id": "robot-ligne-temporelle-alternative",
-      "name": "Robot/Ligne temporelle alternative",
-      "aliases": [
-        "Rudolph \"Rex\" Connors"
-      ],
-      "firstAppearance": "Saison 2, Episode 8",
-      "gender": "Homme",
-      "species": "Humain(e)",
-      "status": "Décédé(e)",
-      "home": "Terre",
-      "occupation": "Chef alternatif des Gardiens",
-      "formerOccupations": "",
-      "enemies": "Angstrom Levy"
+      "status": "Inconnu",
+      "home": "Terre, États-Unis",
+      "occupation": "Directeur/Chef",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "",
+      "indice1": "Ligue Lézard",
+      "indice2": ""
     },
     {
       "id": "anissa",
       "name": "Anissa",
       "aliases": [
-        "Sujet viltrumite 3",
-        "Titre G.D.A.",
-        "Viltrumite femelle la plus forte",
-        "Anissa"
+        "Sujet viltrumite 3 (titre G.D.A.)",
+        "Viltrumite femelle la plus forte"
       ],
       "firstAppearance": "Saison 2, Episode 7",
       "gender": "Femme",
       "species": "Viltrumite",
       "status": "En vie",
-      "home": "À déterminer, Terre",
-      "occupation": "Soldate",
-      "formerOccupations": "",
-      "enemies": "Thaedus, Allen l’Extraterrestre, Nolan, Space Racer, Capitaine Pikell, Tech Jacket, Empereur geldérien, Elia, Mokk, Battle Beast, Générale Telia, Marvin, Jumeau Data I, Agence de défense mondiale, Directeur Cecil Stedman, Donald Ferguson, Invincible, Kid Omni-Man, Amber Bennett"
+      "home": "Terre, États-Unis",
+      "occupation": "Soldat",
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Agence de Défence Globale (A.D.G.), Coalition des Planètes, Nolan, Invincible, Kid Omni-Man, Amis d'Invincible",
+      "indice2": ""
     },
     {
       "id": "april-howsam",
       "name": "April Howsam",
-      "aliases": [
-        "April Howsam"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 2, Episode 6",
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Nounou",
-      "formerOccupations": "",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Civil, Agent",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "",
+      "indice1": "Aucun(e)",
+      "indice2": "Civil"
     },
     {
       "id": "space-racer",
       "name": "Space Racer",
       "aliases": [
         "Cavalier spatial",
-        "L’homme au pistolet invincible"
+        "L'homme au pistolet invincible"
       ],
       "firstAppearance": "Saison 2, Episode 6",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Inconnu(e)",
       "status": "En vie",
-      "home": "Nomade",
-      "occupation": "Nomade spatial, Soldat de la Coalition",
-      "formerOccupations": "",
-      "enemies": "Kradd, Jumeau Data II"
+      "home": "Espace",
+      "occupation": "Soldat",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite",
+      "indice2": "Nomade spatial"
     },
     {
       "id": "komodo-dragon",
@@ -411,56 +394,63 @@
       "gender": "Homme",
       "species": "Humain(e), Reptilien",
       "status": "Décédé",
-      "home": "",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe, Knuckle Buster, Force Fist, Cecil Stedman, Radcliffe"
+      "affiliation": "Ligue Lézard",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe, Knuckle Buster, Force Fist, Agence de Défence Globale (A.D.G.)",
+      "indice2": ""
     },
     {
       "id": "andressa",
       "name": "Andressa",
       "aliases": [
-        "Andressa"
+        "Impératrice de Thraxa"
       ],
       "firstAppearance": "Saison 2, Episode 4",
       "gender": "Femme",
-      "species": "Alien",
-      "status": "Décédé",
+      "species": "Thraxan",
+      "status": "Décédée",
       "home": "Thraxa",
-      "occupation": "",
-      "formerOccupations": "Impératrice de Thraxa",
-      "enemies": "Lucan, Vidor, Thula"
+      "occupation": "Souverain",
+      "affiliation": "Thraxa",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite",
+      "indice2": ""
     },
     {
       "id": "oliver-grayson-ii",
       "name": "Oliver Grayson II",
       "aliases": [
+        "Kid Omni-Man",
         "Sujet viltrumite 2A (titre G.D.A.)",
-        "Oliver Grayson II (nommé d’après son grand-père adoptif)"
+        "Oliver Grayson II (nommé d'après son grand-père adoptif)"
       ],
       "firstAppearance": "Saison 2, Episode 4",
       "gender": "Homme",
-      "species": "Viltrumite, Alien",
-      "status": "En vie",
-      "home": "Maison Grayson, Chicago, Illinois, États-Unis, Terre",
+      "species": "Viltrumite, Thraxan",
+      "status": "En vie (comateux)",
+      "home": "Terre, États-Unis",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Grand régent Thragg, Conquest, Général Kregg, Lucan, Vidor, Thula, Anissa, Kradd, Elix, Angstrom Levy, Capvincible, Hairvincible, Jumeaux Mauler, Elephant, Adolescent 1, Adolescent 2, Jeune homme, Powerplex, Rampage, Mister Liu"
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite, Angstrom Levy, Équipe des Invincibles maléfiques, Jumeaux Mauler, Powerplex, L'ordre",
+      "indice2": ""
     },
     {
       "id": "lucan",
       "name": "Lucan",
-      "aliases": [
-        "Lucan À déterminer"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 2, Episode 3",
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "En vie",
-      "home": "À déterminer, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Soldat, Homme d’affaires",
-      "formerOccupations": "",
-      "enemies": "Thaedus, Allen l’Extraterrestre, Nolan, Space Racer, Capitaine Pikell, Tech Jacket, Empereur geldérien, Elia, Mokk, Battle Beast, Générale Telia, Marvin, Jumeau Data I, Thraxans, Andressa, Nuolzot, Invincible, Oliver Grayson"
+      "home": "Terre, États-Unis",
+      "occupation": "Soldat, Civil",
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Thraxa, Coalition des Planètes, Nolan, Invincible, Oliver Grayson",
+      "indice2": ""
     },
     {
       "id": "telia",
@@ -470,12 +460,14 @@
       ],
       "firstAppearance": "Saison 2, Episode 3",
       "gender": "Femme",
-      "species": "Alien",
+      "species": "Inconnu(e)",
       "status": "En vie",
-      "home": "maison d’Allen, Talescria",
-      "occupation": "Général militaire",
-      "formerOccupations": "",
-      "enemies": "Jumeau Data II"
+      "home": "Talescria",
+      "occupation": "Général",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite",
+      "indice2": ""
     },
     {
       "id": "thaedus",
@@ -489,10 +481,12 @@
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "Décédé",
-      "home": "QG de la Coalition, Talescria",
-      "occupation": "",
-      "formerOccupations": "Chef de la Coalition des Planètes, Membre du Conseil viltrumite",
-      "enemies": "Empereur Argall, Grand régent Thragg, Général Kregg, Conquest, Anissa, Lucan, Thula, Kradd, Elix, Vidor, Partenaire de Nolan, Bourreau 1, Bourreau 2, 38 autres, 99,9 % des autres, Jumeau Data II"
+      "home": "Talescria",
+      "occupation": "Directeur/Chef",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "Empire Viltrumite",
+      "indice1": "Empire Viltrumite",
+      "indice2": "Guerrier"
     },
     {
       "id": "darkwing-ii",
@@ -506,55 +500,62 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Midnight City",
-      "occupation": "Super-héros, Justicier",
-      "formerOccupations": "Super-vilain",
-      "enemies": "Omni-Man, Doc Seismic, Jumeaux Mauler, Nogogglesible"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Omni-Man, Doc Seismic, Jumeaux Mauler, Équipe des Invincibles maléfiques",
+      "indice2": "Super-vilain"
     },
     {
       "id": "paul",
       "name": "Paul",
-      "aliases": [
-        "Paul"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 2, Episode 2",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Agent immobilier",
-      "formerOccupations": "",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "Aucun(e)",
+      "indice2": "Civil"
     },
     {
       "id": "supreme-lizard",
       "name": "Lézard Suprême",
       "aliases": [
-        "Lézard Suprême"
+        "Supreme Lizard"
       ],
       "firstAppearance": "Saison 2, Episode 2",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe, Roi Lézard"
+      "affiliation": "Ligue Lézard",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe",
+      "indice2": "Directeur/Chef"
     },
     {
       "id": "angstrom-levy",
       "name": "Angstrom Levy",
       "aliases": [
-        "Angstrom Levy"
+        "Peacemaker",
+        "Pacificateur"
       ],
       "firstAppearance": "Saison 2, Episode 1",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre, Terres alternatives",
-      "occupation": "Scientifique, Super-vilain, Fondateur de l’Équipe Invincible maléfique, Client des Techniciens, Policier, Professeur, Super-héros, Rebelle apocalyptique",
-      "formerOccupations": "Pacificateur",
-      "enemies": "Famille Grayson, Invincible, Debbie Grayson, Oliver Grayson, Atom Eve, Capevincible, Viltrumincible, Movincihawk, Nomaskible, Stripevincible, Prisonincible, Omnivincible, Maskvincible, Gardiens du Globe, Agence de Défense Mondiale"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-vilain, Esclave",
+      "affiliation": "Équipe des Invincibles maléfiques",
+      "formerAffiliation": "",
+      "indice1": "Famille Grayson, Invincible, Atom Eve, Équipe des Invincibles maléfiques, Gardiens du Globe, Agence de Défence Globale (A.D.G.)",
+      "indice2": "Scientifique"
     },
     {
       "id": "bulletproof",
@@ -566,10 +567,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "QG des Gardiens, États-Unis, Terre",
-      "occupation": "Super-héros, Membre des Gardiens du Globe",
-      "formerOccupations": "Membre de la Teen Team",
-      "enemies": "Ligue Lézard, Sequids, Gogglesvincible"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Teen Team",
+      "formerAffiliation": "Gardiens du Globe",
+      "indice1": "Ligue Lézard, Sequids, Équipe des Invincibles maléfiques",
+      "indice2": ""
     },
     {
       "id": "conquest",
@@ -577,17 +580,18 @@
       "aliases": [
         "Sujet viltrumite 4 (titre G.D.A.)",
         "Deuxième Viltrumite le plus fort (titre de la BO)",
-        "Mr. Ten Times Worse",
-        "Conquest"
+        "Mr. Ten Times Worse"
       ],
       "firstAppearance": "Saison 1, Episode 8",
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "Décédé",
-      "home": "Cité viltrumite, Viltrum",
+      "home": "Viltrum",
       "occupation": "Soldat",
-      "formerOccupations": "",
-      "enemies": "Thaedus, Allen l’Extraterrestre, Nolan, Space Racer, Capitaine Pikell, Tech Jacket, Empereur geldérien, Elia, Mokk, Battle Beast, Générale Telia, Marvin, Jumeau Data I, Agence de Défense Mondiale, Directeur Cecil Stedman, Donald Ferguson, Invincible, Oliver Grayson, Atom Eve"
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Agence de Défence Globale (A.D.G.), Coalition des Planètes, Nolan, Invincible, Oliver Grayson, Atom Eve",
+      "indice2": ""
     },
     {
       "id": "great-wall",
@@ -597,40 +601,45 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Garde du corps, Homme de main",
-      "formerOccupations": "",
-      "enemies": "Machine Head, Isotope, Titan"
+      "home": "Terre, Chine",
+      "occupation": "Homme de main",
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "L'ordre",
+      "indice2": ""
     },
     {
       "id": "kregg",
       "name": "Kregg",
       "aliases": [
-        "Kregg À déterminer"
+        "Général Kregg",
+        "General Kregg"
       ],
       "firstAppearance": "Saison 1, Episode 8",
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "En vie",
-      "home": "À déterminer, Terre",
-      "occupation": "Général militaire, Second de l’Empire viltrumite, Biker",
-      "formerOccupations": "",
-      "enemies": "Thaedus, Allen l’Extraterrestre, Oliver Grayson, Nolan, Générale Telia, Space Racer, Capitaine Pikell, Tech Jacket, Empereur geldérien, Elia, Mokk, Battle Beast, Marvin, Jumeau Data I, Thraxans, Andressa, Nuolzot, Invincible"
+      "home": "Terre, États-Unis",
+      "occupation": "Général, Guerrier",
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Thraxa, Coalition des Planètes, Oliver Grayson, Nolan, Invincible",
+      "indice2": ""
     },
     {
       "id": "thula",
       "name": "Thula",
-      "aliases": [
-        "Thula À déterminer"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 1, Episode 8",
       "gender": "Femme",
       "species": "Viltrumite",
       "status": "En vie",
-      "home": "À déterminer, Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Soldat",
-      "formerOccupations": "",
-      "enemies": "Thaedus, Allen l’Extraterrestre, Nolan, Space Racer, Capitaine Pikell, Tech Jacket, Empereur geldérien, Elia, Mokk, Battle Beast, Générale Telia, Marvin, Jumeau Data I, Thraxans, Andressa, Nuolzot, Invincible, Kid Omni-Man"
+      "affiliation": "Empire Viltrumite",
+      "formerAffiliation": "",
+      "indice1": "Thraxa, Coalition des Planètes, Nolan, Invincible, Kid Omni-Man",
+      "indice2": ""
     },
     {
       "id": "d-a-sinclair",
@@ -643,71 +652,78 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Scientifique, Membre de l’Agence de Défense Mondiale",
-      "formerOccupations": "Étudiant à l’Université Upstate",
-      "enemies": "Invincible, William Clockwell, Rick Sheridan, Amber Bennett, Omni-Man"
+      "home": "Terre, États-Unis",
+      "occupation": "Scientifique, Agent",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "",
+      "indice1": "Famille Grayson, Invincible, Amis d'Invincible, Omni-Man",
+      "indice2": "Civil"
     },
     {
       "id": "rick-sheridan",
       "name": "Rick Sheridan",
       "aliases": [
-        "Rick Sheridan"
+        "RéAniman"
       ],
       "firstAppearance": "Saison 1, Episode 6",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Université Upstate, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Étudiant à l’Université Upstate",
-      "formerOccupations": "Élève du lycée Reginald Vel Johnson",
-      "enemies": "D.A. Sinclair, RéAnimen"
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "RéAnimen",
+      "indice2": "Civil"
     },
     {
       "id": "adam-wilkins",
       "name": "Adam Wilkins",
-      "aliases": [
-        "Adam Wilkins"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 1, Episode 5",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Maison Wilkins, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Employé dans un magasin de meubles",
-      "formerOccupations": "Employé du Burger Mart",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "Aucun(e)",
+      "indice2": "Civil"
     },
     {
       "id": "battle-beast",
       "name": "Battle Beast",
       "aliases": [
-        "Battle Beast",
         "Thokk"
       ],
       "firstAppearance": "Saison 1, Episode 5",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Dornian",
       "status": "En vie",
-      "home": "",
-      "occupation": "Guerrier intergalactique",
-      "formerOccupations": "",
-      "enemies": "Grand régent Thragg, Général Kregg, Anissa, Lucan, Thula, Elix, Bourreau 1, Bourreau 2, Auxiliaires viltrumites, Gardiens du Globe, Robot, Monster Girl, Shrinking Rae, Black Samson, Dupli-Kate, Rex Splode, Titan, Jumeau Data II"
+      "home": "Dornin",
+      "occupation": "Guerrier",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe, Empire Viltrumite, L'ordre",
+      "indice2": ""
     },
     {
       "id": "betsy-wilkins",
       "name": "Betsy Wilkins",
       "aliases": [
-        "Betsy Wilkins"
+        "Elizabeth Wilkins"
       ],
       "firstAppearance": "Saison 1, Episode 5",
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Maison Wilkins, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "Aucun(e)",
+      "indice2": ""
     },
     {
       "id": "isotope",
@@ -717,26 +733,29 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Super-vilain, Lieutenant de Machine Head, Lieutenant de Titan",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe, Mister Liu, Great Wall"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-vilain, Lieutenant",
+      "affiliation": "L'ordre",
+      "formerAffiliation": "Titan",
+      "indice1": "Gardiens du Globe, L'ordre",
+      "indice2": "Homme de main"
     },
     {
       "id": "king-lizard",
       "name": "Roi Lézard",
       "aliases": [
-        "Roi Lézard",
-        "Prince Lézard (anciennement)"
+        "Prince Lézard"
       ],
       "firstAppearance": "Saison 1, Episode 5",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "Terre",
-      "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe, Lézard Suprême"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-vilain, Directeur/Chef",
+      "affiliation": "Ligue Lézard",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe",
+      "indice2": "Souverain"
     },
     {
       "id": "machine-head",
@@ -746,10 +765,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Chef criminel, Chef de l’Ordre",
-      "formerOccupations": "",
-      "enemies": "Invincible, Titan, Gardiens du Globe, Mister Liu, Great Wall"
+      "home": "Terre, États-Unis",
+      "occupation": "Directeur/Chef",
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "Invincible, L'ordre, Gardiens du Globe",
+      "indice2": ""
     },
     {
       "id": "tether-tyrant",
@@ -759,76 +780,83 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Invincible, Titan, Gardiens du Globe"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-vilain, Homme de main",
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "Invincible, L'ordre, Gardiens du Globe",
+      "indice2": ""
     },
     {
       "id": "the-elephant",
       "name": "The Elephant",
-      "aliases": [],
+      "aliases": [
+        "L'Éléphant",
+        "Elephant"
+      ],
       "firstAppearance": "Saison 1, Episode 5",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Invincible, Omni-Man, Atom Eve, Oliver Grayson"
+      "affiliation": "Indépendant",
+      "formerAffiliation": "",
+      "indice1": "Invincible, Omni-Man, Atom Eve, Oliver Grayson",
+      "indice2": ""
     },
     {
       "id": "ka-hor",
       "name": "Ka-Hor",
       "aliases": [
-        "Master",
-        "Misogynistic jerk",
-        "Ka-Hor"
+        "Maître"
       ],
       "firstAppearance": "Saison 1, Episode 4",
       "gender": "Homme",
       "species": "Humain(e)",
-      "status": "Décédé(e)",
-      "home": "Egypt",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": "Nogogglesible, Invincible"
+      "status": "Mort-vivant",
+      "home": "Terre, Égypte",
+      "occupation": "Super-vilain",
+      "affiliation": "Indépendant",
+      "formerAffiliation": "",
+      "indice1": "Équipe des Invincibles maléfiques, Invincible",
+      "indice2": "Souverain"
     },
     {
       "id": "mister-liu",
       "name": "Mister Liu",
       "aliases": [
-        "刘 (Hanzi",
-        "Simplified)",
-        "劉 (Hanzi",
-        "Traditional)",
-        "Liú (Pinyin)"
+        "刘",
+        "Liú"
       ],
       "firstAppearance": "Saison 1, Episode 4",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, Chine",
       "occupation": "Super-vilain",
-      "formerOccupations": "Chef de l’Ordre",
-      "enemies": "Invincible, Machine Head, Atom Eve, Omni-Man, Titan, Oliver Grayson, Debbie Grayson"
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "Famille Grayson, L'ordre, Invincible, Atom Eve, Omni-Man",
+      "indice2": "Directeur/Chef"
     },
     {
       "id": "shapesmith",
       "name": "Shapesmith",
       "aliases": [
         "Rus Livingston",
-        "Shapesmith",
         "Le Grand Traître"
       ],
       "firstAppearance": "Saison 1, Episode 4",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Martien",
       "status": "En vie",
-      "home": "",
+      "home": "Mars",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Sequids, Rus Livingston, Ligue Lézard, Powerplex, Nogogglesible"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Sequids, Ligue Lézard, Powerplex, Équipe des Invincibles maléfiques",
+      "indice2": "Soldat"
     },
     {
       "id": "black-samson",
@@ -840,25 +868,27 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Battle Beast, Machine Head, Isotope, Magmaniac, Furnace, Kursk, Tether Tyrant, Omni-Man, Giant, Ligue Lézard, Iguana, Nogogglesible"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Ligue Lézard, L'ordre, Battle Beast, Omni-Man, Équipe des Invincibles maléfiques",
+      "indice2": "Super-héros"
     },
     {
       "id": "doc-seismic",
       "name": "Doc Seismic",
-      "aliases": [
-        "Doc Seismic"
-      ],
+      "aliases": [],
       "firstAppearance": "Saison 1, Episode 3",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe, Rex Splode, Dupli-Kate, L’Immortel, Shrinking Rae, Shapesmith, Bulletproof, RéAnimen, Darkwing II, Invincible, Atom Eve"
+      "affiliation": "Indépendant",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe, RéAnimen, Invincible, Atom Eve",
+      "indice2": "Scientifique"
     },
     {
       "id": "monster-girl",
@@ -871,29 +901,30 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "base de la Teen Team, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Super-héros, Membre des Gardiens du Globe",
-      "formerOccupations": "Membre de la Teen Team",
-      "enemies": "Battle Beast, Machine Head, Kursk, Furnace, Magmaniac, Tether Tyrant, Gogglesvincible"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "Teen Team",
+      "indice1": "L'ordre, Battle Beast, Équipe des Invincibles maléfiques",
+      "indice2": ""
     },
     {
       "id": "multi-paul",
       "name": "Multi-Paul",
       "aliases": [
         "Paul Cha",
-        "查保罗 (Hanzi",
-        "Simplified)",
-        "查保羅 (Hanzi",
-        "Traditional)"
+        "查保罗"
       ],
       "firstAppearance": "Saison 1, Episode 3",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
-      "occupation": "Homme de main de l’Ordre, Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Rex Splode, Invincible, Elite Guard, Atom Eve"
+      "home": "Terre, États-Unis",
+      "occupation": "Homme de main, Super-vilain",
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "Rex Splode, Invincible, Atom Eve",
+      "indice2": ""
     },
     {
       "id": "shrinking-rae",
@@ -905,34 +936,37 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Brooklyn, New York, États-Unis, Terre",
-      "occupation": "Inconnu",
-      "formerOccupations": "Super-héros",
-      "enemies": "Battle Beast, Kursk, Furnace, Tether Tyrant, Magmaniac, Jumeaux Mauler, Giant, Ligue Lézard, Salamander"
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "Teen Team",
+      "indice1": "Ligue Lézard, L'ordre, Battle Beast, Jumeaux Mauler",
+      "indice2": "Super-héros"
     },
     {
       "id": "allen-l-extraterrestre",
       "name": "Allen l’Extraterrestre",
       "aliases": [
-        "Allen l’Extraterrestre",
         "Allen d’Unopa",
         "Le Puissant Allen",
         "Grand Allen"
       ],
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Unopan",
       "status": "En vie",
-      "home": "maison d’Allen, Talescria",
-      "occupation": "Chef de la Coalition des Planètes",
-      "formerOccupations": "",
-      "enemies": "Grand régent Thragg, Général Kregg, Conquest, Anissa, Thula, Lucan, Kradd, Vidor, Elix, Torth, Bourreau 1, Bourreau 2, Gardes extraterrestres de prison, Jumeau Data II, Diverses races soumises"
+      "home": "Talescria",
+      "occupation": "Directeur/Chef",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "",
+      "indice1": "Empire Viltrumite, Divers ennemis",
+      "indice2": "Guerrier"
     },
     {
       "id": "atom-eve",
       "name": "Atom Eve",
       "aliases": [
-        "Phase One (designation)",
+        "Phase One (désignation)",
         "Stéréotype de genre",
         "Chaton",
         "Sorcière",
@@ -942,92 +976,101 @@
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Femme",
       "species": "Humain(e)",
-      "status": "En vie",
-      "home": "Résidences, Maison Wilkins, maison d’Atom Eve, Chicago, Illinois, États-Unis",
-      "occupation": "Super-héros, Humanitaire, Fondatrice d’Invincible Inc., Étudiante à l’Université Upstate",
-      "formerOccupations": "Élève du lycée Reginald Vel Johnson",
-      "enemies": "Flaxans, Chef flaxan, Ligue Lézard, Roi Lézard, Omni-Man, Conquest, Hoodvincible, Omnivincible, Doc Seismic, Killcannon, Steven Erickson, Rodgers, Sequids, Powerplex, Mister Liu, Universa"
+      "status": "En vie (ressuscitée)",
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Indépendant",
+      "formerAffiliation": "Teen Team",
+      "indice1": "Flaxans, Ligue Lézard, Omni-Man, Empire Viltrumite, Équipe des Invincibles maléfiques, Doc Seismic, Sequids, Powerplex, L'ordre, Universa",
+      "indice2": "Civil"
     },
     {
       "id": "cecil-stedman",
       "name": "Cecil Stedman",
       "aliases": [
-        "Directeur Stedman (titre)",
-        "Cecil Stedman"
+        "Directeur Stedman (titre)"
       ],
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Pentagone, Washington, D.C., États-Unis, Terre",
-      "occupation": "Directeur de l’Agence de Défense Mondiale",
-      "formerOccupations": "",
-      "enemies": "Omni-Man, Flaxans, Damien Darkblood, Machine Head, Powerplex, Force Fist, Knuckle Buster, Ligue Lézard, Komodo Dragon, Flaxancible, Omnivincible, Hoodvincible"
+      "home": "Terre, États-Unis",
+      "occupation": "Directeur/Chef",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "",
+      "indice1": "Ligue Lézard, Omni-Man, Flaxans, Damien Darkblood, L'ordre, Powerplex, Force Fist, Knuckle Buster, Équipe des Invincibles maléfiques",
+      "indice2": ""
     },
     {
       "id": "damien-darkblood",
       "name": "Damien Darkblood",
       "aliases": [
-        "Great Horned Holmes",
-        "Damien Darkblood"
+        "Great Horned Holmes"
       ],
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Homme",
       "species": "Démon",
       "status": "En vie",
       "home": "Enfer",
-      "occupation": "Sorcier, Détective",
-      "formerOccupations": "",
-      "enemies": "Agence de Défense Mondiale:Cecil Stedman, Donald Ferguson, Volcanikka, Magmanites, Cerberus, Le Vil"
+      "occupation": "Guerrier, Détective",
+      "affiliation": "Clan Darkblood",
+      "formerAffiliation": "Agence de Défence Globale (A.D.G.)",
+      "indice1": "Forces de l'Enfer, Agence de Défence Globale (A.D.G.)",
+      "indice2": "Agent"
     },
     {
       "id": "donald-ferguson",
       "name": "Donald Ferguson",
       "aliases": [
-        "Donald Ferguson"
+        "Donnie",
+        "Agent Ferguson"
       ],
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Pentagone, Washington DC., États-Unis, Terre",
-      "occupation": "Agent G.D.A., Second de la G.D.A.",
-      "formerOccupations": "",
-      "enemies": "Omni-Man, Flaxancible, Lightblueincible"
+      "home": "Terre, États-Unis",
+      "occupation": "Agent",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "",
+      "indice1": "Omni-Man, Équipe des Invincibles maléfiques",
+      "indice2": ""
     },
     {
       "id": "dupli-kate",
       "name": "Dupli-Kate",
       "aliases": [
-        "查凯瑟琳 (Hanzi",
-        "Simplified)",
-        "查凱瑟琳 (Hanzi",
-        "Traditional)",
-        "Katherine Cha"
+        "Katherine Cha",
+        "查凯瑟琳"
       ],
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Flaxans, Machine Head, Kursk, Tether Tyrant, Furnace, Magmaniac, Battle Beast, Ligue Lézard, Nogogglesible"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "Teen Team",
+      "indice1": "L'ordre, Flaxans, Battle Beast, Ligue Lézard, Équipe des Invincibles maléfiques",
+      "indice2": ""
     },
     {
       "id": "flaxan-leader",
       "name": "Chef flaxan",
       "aliases": [
-        "Chef flaxan"
+        "Flaxan Leader",
+        "Chef des Flaxans"
       ],
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Flaxan",
       "status": "Décédé",
-      "home": "The dimension flaxane",
-      "occupation": "Soldat flaxan, Chef des Flaxans",
-      "formerOccupations": "",
-      "enemies": "Invincible, Omni-Man, Teen Team"
+      "home": "Dimension flaxane",
+      "occupation": "Soldat, Directeur/Chef",
+      "affiliation": "Flaxans",
+      "formerAffiliation": "",
+      "indice1": "Invincible, Omni-Man, Teen Team",
+      "indice2": ""
     },
     {
       "id": "rex-splode",
@@ -1039,10 +1082,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "base de la Teen Team, Chicago, Illinois, États-Unis, Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Flaxans, Ligue Lézard, Roi Lézard, Salamander, Iguana, Komodo Dragon, Multi-Paul, Machine Head, Battle Beast, Tether Tyrant, Magmaniac, Furnace, Kursk, Octoboss, RéAnimen, Gogglesvincible"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "Teen Team",
+      "indice1": "Ligue Lézard, L'ordre, Flaxans, Battle Beast, RéAnimen, Équipe des Invincibles maléfiques",
+      "indice2": ""
     },
     {
       "id": "robot",
@@ -1057,11 +1102,13 @@
       "firstAppearance": "Saison 1, Episode 2",
       "gender": "Homme",
       "species": "Humain(e)",
-      "status": "En vie",
-      "home": "À déterminer, dimension flaxane",
-      "occupation": "Super-héros, Résident de la dimension flaxane, Membre des Gardiens du Globe",
-      "formerOccupations": "Chef de la Teen Team",
-      "enemies": "Flaxans, Battle Beast, Kursk, Furnace, Magmaniac, Machine Head, Tether Tyrant, Jumeaux Mauler, Ligue Lézard, Sequids, Gogglesvincible"
+      "status": "En vie (clone)",
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "Teen Team",
+      "indice1": "L'ordre, Flaxans, Battle Beast, Jumeaux Mauler, Ligue Lézard, Sequids, Équipe des Invincibles maléfiques",
+      "indice2": "Directeur/Chef"
     },
     {
       "id": "amber-bennett",
@@ -1073,25 +1120,29 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Université Upstate, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Étudiante à l’Université Upstate, Bénévole en soupe populaire",
-      "formerOccupations": "Élève du lycée Reginald Vel Johnson",
-      "enemies": "Todd, D.A. Sinclair, RéAnimen, Anissa"
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "RéAnimen",
+      "indice2": "Civil"
     },
     {
       "id": "aquarus",
       "name": "Aquarus",
       "aliases": [
-        "Aquarus"
+        "Roi d'Atlantis"
       ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
       "species": "Atlante",
       "status": "Décédé",
-      "home": "Terre",
-      "occupation": "Roi d’Atlantis, Super-héros",
-      "formerOccupations": "",
-      "enemies": "Ligue Lézard, Jumeaux Mauler, Omni-Man"
+      "home": "Terre, Atlantis",
+      "occupation": "Souverain, Super-héros",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Ligue Lézard, Jumeaux Mauler, Omni-Man",
+      "indice2": ""
     },
     {
       "id": "art-rosenbaum",
@@ -1104,10 +1155,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "atelier de couture, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Tailleur",
-      "formerOccupations": "",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "Aucun(e)",
+      "indice2": "Civil"
     },
     {
       "id": "darkwing",
@@ -1117,10 +1170,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Chronodile, Jumeaux Mauler, Sam, Sam's Friend, Omni-Man"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Jumeaux Mauler, Omni-Man",
+      "indice2": ""
     },
     {
       "id": "debbie-grayson",
@@ -1133,10 +1188,12 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Maison Grayson, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Agente immobilière",
-      "formerOccupations": "",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Civil",
+      "affiliation": "Civil",
+      "formerAffiliation": "",
+      "indice1": "Aucun(e)",
+      "indice2": "Civil"
     },
     {
       "id": "green-ghost-ii",
@@ -1148,26 +1205,29 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "Terre",
-      "occupation": "Photographe, Super-héros",
-      "formerOccupations": "",
-      "enemies": "Jumeaux Mauler, Omni-Man"
+      "home": "Terre, États-Unis",
+      "occupation": "Civil, Super-héros",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Jumeaux Mauler, Omni-Man",
+      "indice2": "Civil"
     },
     {
       "id": "l-immortel",
       "name": "L’Immortel",
       "aliases": [
-        "Abraham Lincoln",
-        "L’Immortel"
+        "Abraham Lincoln"
       ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "cabane en Alaska, Terre",
-      "occupation": "",
-      "formerOccupations": "Guerrier celte, Chevalier, Président des États-Unis, Super-héros",
-      "enemies": "Ligue Lézard, Nogogglesible, Bi-Plane, Omni-Man, Jumeaux Mauler, Powerplex, John Wilkes Booth"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Ligue Lézard, Équipe des Invincibles maléfiques, Omni-Man, Jumeaux Mauler, Powerplex",
+      "indice2": "Guerrier"
     },
     {
       "id": "invincible",
@@ -1183,12 +1243,14 @@
       ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
-      "species": "Viltrumite, Humain(e)",
+      "species": "Humain(e), Viltrumite",
       "status": "En vie",
-      "home": "Maison Grayson, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Super-héros, Mentor de super-héros, Agent d’Invincible Inc.",
-      "formerOccupations": "Étudiant à l’Université Upstate, Agent viltrumite de la Terre, Élève du lycée Reginald Vel Johnson, Employé du Burger Mart",
-      "enemies": "Grand régent Thragg, Général Kregg, Conquest, Anissa, Lucan, Thula, Vidor, Kradd, Elix, Flaxans, Chef flaxan, Équipe de Machine Head, Machine Head, Isotope, Tether Tyrant, Kursk, Furnace, Magmaniac, Movincihawk, Hoodvincible, Omnivincible, Angstrom Levy, Powerplex, L’Immortel, Dinosaurus, Elephant, Sequids, Jumeaux Mauler, D.A. Sinclair, RéAnimen, Doc Seismic, Killcannon, Prof. Ock, Mister Liu, Universa, Cerberus, Le Vil, Volcanikka"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros",
+      "affiliation": "Agence de Défence Globale (A.D.G.)",
+      "formerAffiliation": "",
+      "indice1": "Forces de l'Enfer, RéAnimen, Flaxans, L'ordre, Empire Viltrumite, Équipe des Invincibles maléfiques, Angstrom Levy, Powerplex, L’Immortel, Sequids, Jumeaux Mauler, Doc Seismic, Universa",
+      "indice2": "Civil"
     },
     {
       "id": "killcannon",
@@ -1198,70 +1260,63 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Invincible, Atom Eve"
+      "affiliation": "Indépendant",
+      "formerAffiliation": "",
+      "indice1": "Invincible, Atom Eve",
+      "indice2": ""
     },
     {
       "id": "kursk",
       "name": "Kursk",
       "aliases": [
-        "КурскKursk"
+        "Курск"
       ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "Terre",
+      "home": "Terre, États-Unis",
       "occupation": "Super-vilain",
-      "formerOccupations": "",
-      "enemies": "Invincible, Red Rush, Titan, Gardiens du Globe"
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "Gardiens du Globe, Invincible, L'ordre",
+      "indice2": ""
     },
     {
       "id": "martian-man",
       "name": "Homme martien",
-      "aliases": [],
+      "aliases": [
+        "Martian Man"
+      ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Martien",
       "status": "Décédé",
-      "home": "Mars, Terre",
+      "home": "Mars",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Jumeaux Mauler, Omni-Man"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Jumeaux Mauler, Omni-Man",
+      "indice2": ""
     },
     {
       "id": "jumeaux-mauler",
       "name": "Jumeaux Mauler",
       "aliases": [
-        "Jumeaux Mauler",
         "Maulers"
       ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
-      "species": "Alien",
+      "species": "Inconnu(e)",
       "status": "Décédé",
-      "home": "Terre",
-      "occupation": "Scientifiques, Super-vilains",
-      "formerOccupations": "",
-      "enemies": "Gardiens du Globe, Invincible, Omni-Man, Kid Omni-Man, Robot, Steve, Pete"
-    },
-    {
-      "id": "olga",
-      "name": "Olga",
-      "aliases": [
-        "Ольга",
-        "Olga"
-      ],
-      "firstAppearance": "Saison 1, Episode 1",
-      "gender": "Femme",
-      "species": "Humain(e)",
-      "status": "En vie",
-      "home": "Terre",
-      "occupation": "",
-      "formerOccupations": "",
-      "enemies": ""
+      "home": "Terre, États-Unis",
+      "occupation": "Super-vilain, Scientifique",
+      "affiliation": "Indépendant",
+      "formerAffiliation": "",
+      "indice1": "Teen Team, Gardiens du Globe, Invincible, Omni-Man, Kid Omni-Man",
+      "indice2": ""
     },
     {
       "id": "omni-man",
@@ -1269,8 +1324,7 @@
       "aliases": [
         "Le Grand Nolan (premier titre)",
         "Nolan Grayson",
-        "Sujet viltrumite 1",
-        "(titre G.D.A.)",
+        "Sujet viltrumite 1 (titre G.D.A.)",
         "Le Monarque (deuxième titre)",
         "Le Réserviste",
         "Le Bon Viltrumite",
@@ -1280,25 +1334,30 @@
       "gender": "Homme",
       "species": "Viltrumite",
       "status": "En vie",
-      "home": "maison d’Allen, Talescria Central City, Talescria",
-      "occupation": "Soldat de la Coalition",
-      "formerOccupations": "Chercheur viltrumite, Soldat viltrumite, Agent viltrumite de la Terre, Écrivain, Super-héros, Super-vilain, Empereur de Thraxa",
-      "enemies": "Grand régent Thragg, Général Kregg, Conquest, Anissa, Thula, Lucan, Elix, Kradd, Vidor, Bourreau 1, Bourreau 2, Gardiens du Globe, L’Immortel, Aquarus, Darkwing, Fantôme Vert, Homme martien, Red Rush, War Woman, Agence de Défense Mondiale, Cecil Stedman, Donald Ferguson, Soldats G.D.A., RéAnimen, Beach Kaiju, Flaxans, Jumeaux Mauler, Rognarrs, William Clockwell, Hail Mary, Auxiliaires viltrumites"
+      "home": "Talescria, Cité centrale de Talescria",
+      "occupation": "Soldat",
+      "affiliation": "Coalition des Planètes",
+      "formerAffiliation": "Empire Viltrumite",
+      "indice1": "Agence de Défence Globale (A.D.G.), Gardiens du Globe, Empire Viltrumite, RéAnimen, Flaxans, Jumeaux Mauler, Amis d'Invincible",
+      "indice2": "Scientifique, Soldat, Super-héros, Super-vilain"
     },
     {
       "id": "red-rush",
       "name": "Red Rush",
       "aliases": [
-        "ЙозефJosef"
+        "Йозеф",
+        "Josef"
       ],
       "firstAppearance": "Saison 1, Episode 1",
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "",
+      "home": "Terre, États-Unis",
       "occupation": "Super-héros",
-      "formerOccupations": "",
-      "enemies": "Kursk, Jumeaux Mauler, Ligue Lézard, Omni-Man"
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "L'ordre, Jumeaux Mauler, Ligue Lézard, Omni-Man",
+      "indice2": ""
     },
     {
       "id": "titan",
@@ -1308,10 +1367,12 @@
       "gender": "Homme",
       "species": "Humain(e)",
       "status": "En vie",
-      "home": "tour de Titan, Chicago, Illinois, États-Unis, Terre",
-      "occupation": "Chef criminel",
-      "formerOccupations": "Homme de main",
-      "enemies": "Battle Beast, Tether Tyrant, Magmaniac, Magnattack"
+      "home": "Terre, États-Unis",
+      "occupation": "Directeur/Chef",
+      "affiliation": "L'ordre",
+      "formerAffiliation": "",
+      "indice1": "L'ordre, Battle Beast",
+      "indice2": "Homme de main, Super-héros"
     },
     {
       "id": "war-woman",
@@ -1323,10 +1384,12 @@
       "gender": "Femme",
       "species": "Humain(e)",
       "status": "Décédé",
-      "home": "Terre",
-      "occupation": "Super Hero, Business Woman",
-      "formerOccupations": "",
-      "enemies": "Jumeaux Mauler, Ligue Lézard, Omni-Man"
+      "home": "Terre, États-Unis",
+      "occupation": "Super-héros, Civil",
+      "affiliation": "Gardiens du Globe",
+      "formerAffiliation": "",
+      "indice1": "Jumeaux Mauler, Ligue Lézard, Omni-Man",
+      "indice2": "Civil"
     }
   ]
 }
