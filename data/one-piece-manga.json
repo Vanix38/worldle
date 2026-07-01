@@ -1252,6 +1252,69 @@
             "Chapitre 1123",
             "Chapitre 1124",
             "Chapitre 1125"
+          ],
+          "Elbaph": [
+            "Chapitre 1126",
+            "Chapitre 1127",
+            "Chapitre 1128",
+            "Chapitre 1129",
+            "Chapitre 1130",
+            "Chapitre 1131",
+            "Chapitre 1132",
+            "Chapitre 1133",
+            "Chapitre 1134",
+            "Chapitre 1135",
+            "Chapitre 1136",
+            "Chapitre 1137",
+            "Chapitre 1138",
+            "Chapitre 1139",
+            "Chapitre 1140",
+            "Chapitre 1141",
+            "Chapitre 1142",
+            "Chapitre 1143",
+            "Chapitre 1144",
+            "Chapitre 1145",
+            "Chapitre 1146",
+            "Chapitre 1147",
+            "Chapitre 1148",
+            "Chapitre 1149",
+            "Chapitre 1150",
+            "Chapitre 1151",
+            "Chapitre 1152",
+            "Chapitre 1153",
+            "Chapitre 1154",
+            "Chapitre 1155",
+            "Chapitre 1156",
+            "Chapitre 1157",
+            "Chapitre 1158",
+            "Chapitre 1159",
+            "Chapitre 1160",
+            "Chapitre 1161",
+            "Chapitre 1162",
+            "Chapitre 1163",
+            "Chapitre 1164",
+            "Chapitre 1165",
+            "Chapitre 1166",
+            "Chapitre 1167",
+            "Chapitre 1168",
+            "Chapitre 1169",
+            "Chapitre 1170",
+            "Chapitre 1171",
+            "Chapitre 1172",
+            "Chapitre 1173",
+            "Chapitre 1174",
+            "Chapitre 1175",
+            "Chapitre 1176",
+            "Chapitre 1177",
+            "Chapitre 1178",
+            "Chapitre 1179",
+            "Chapitre 1180",
+            "Chapitre 1181",
+            "Chapitre 1182",
+            "Chapitre 1183",
+            "Chapitre 1184",
+            "Chapitre 1185",
+            "Chapitre 1186"
           ]
         }
       },
@@ -1309,7 +1372,8 @@
           "Wano Kuni"
         ],
         "Saga Finale": [
-          "Egghead"
+          "Egghead",
+          "Elbaph"
         ]
       },
       "description": "Arc narratif de la première apparition du personnage dans le manga ou l'anime ; ordre chronologique des arcs."
@@ -1378,6 +1442,26 @@
       "indice2": "Suke Suke no Mi",
       "indice3": "Thriller Bark",
       "firstAppearance": "Chapitre 444"
+    },
+    {
+      "id": "aegir",
+      "name": "Aegir",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "aisa",
@@ -1478,6 +1562,26 @@
       "firstAppearance": "Chapitre 2"
     },
     {
+      "id": "ange",
+      "name": "Ange",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 1700,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "École du Morse",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1131"
+    },
+    {
       "id": "arlong",
       "name": "Arlong",
       "aliases": [
@@ -1506,6 +1610,7 @@
       "id": "atlas",
       "name": "Atlas",
       "aliases": [
+        "Vegapunk",
         "Atlas la Violente"
       ],
       "affiliation": "Marine",
@@ -1552,6 +1657,26 @@
       "indice2": "Shima Shima no Mi",
       "indice3": "Impel Down",
       "firstAppearance": "Chapitre 575"
+    },
+    {
+      "id": "axel",
+      "name": "Axel",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "babe",
@@ -1636,6 +1761,26 @@
       "firstAppearance": "Chapitre 9"
     },
     {
+      "id": "barbel",
+      "name": "Barbel",
+      "aliases": [],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 250,
+      "race": "Homme-Poisson",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Homme-Poisson",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1156"
+    },
+    {
       "id": "bartholomew-kuma",
       "name": "Bartholomew Kuma",
       "aliases": [
@@ -1650,7 +1795,7 @@
         "Armée Révolutionnaire"
       ],
       "age": 45,
-      "arc": "Thriller Bark",
+      "arc": "Elbaph",
       "bounty": 296000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
@@ -1861,6 +2006,26 @@
       "firstAppearance": "Chapitre 1"
     },
     {
+      "id": "bent",
+      "name": "Bent",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
       "id": "bentham",
       "name": "Bentham",
       "aliases": [
@@ -1917,6 +2082,26 @@
       "firstAppearance": "Chapitre 498"
     },
     {
+      "id": "biblo",
+      "name": "Biblo",
+      "aliases": [],
+      "affiliation": "Bibliothèque du Hibou",
+      "sub_affiliation": [],
+      "age": 300,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 120,
+      "race": "Humain",
+      "indice1": "Bibliothèque du Hibou",
+      "indice2": "Iku Iku no Mi",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
       "id": "black-maria",
       "name": "Black Maria",
       "aliases": [],
@@ -1941,6 +2126,26 @@
       "indice2": "Kumo Kumo no Mi modèle Rosamygale grauvogeli",
       "indice3": "Tobiroppo",
       "firstAppearance": "Chapitre 977"
+    },
+    {
+      "id": "blade",
+      "name": "Blade",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 1800,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Professeur de mathématiques",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1142"
     },
     {
       "id": "blue-gilly",
@@ -2152,7 +2357,7 @@
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
       "age": 158,
-      "arc": "Little Garden",
+      "arc": "Elbaph",
       "bounty": 1800000000,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -2178,7 +2383,7 @@
         "Équipage de Rumbar"
       ],
       "age": 38,
-      "arc": "Thriller Bark",
+      "arc": "Elbaph",
       "bounty": 383000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
@@ -2213,6 +2418,30 @@
       "indice2": "Humain",
       "indice3": "East Blue",
       "firstAppearance": "Chapitre 31"
+    },
+    {
+      "id": "buckingham-stussy",
+      "name": "Buckingham Stussy",
+      "aliases": [
+        "Buckingham Stussy"
+      ],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [
+        "MADS"
+      ],
+      "age": 76,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 68,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Équipage de Rocks",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1156"
     },
     {
       "id": "buffalo",
@@ -2257,6 +2486,28 @@
       "indice2": "Humain",
       "indice3": "Équipage du Clown",
       "firstAppearance": "Chapitre 9"
+    },
+    {
+      "id": "candelle",
+      "name": "Candelle",
+      "aliases": [],
+      "affiliation": "Royaume d'Esperia",
+      "sub_affiliation": [
+        "Battle Convoy"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 170,
+      "race": "Humain",
+      "indice1": "Royaume d'Esperia",
+      "indice2": "Capitaine du Battle Convoy",
+      "indice3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183"
     },
     {
       "id": "capone-bege",
@@ -2618,7 +2869,7 @@
         "Équipage des Rocks"
       ],
       "age": 68,
-      "arc": "Fishman Island",
+      "arc": "Elbaph",
       "bounty": 4388000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
@@ -2865,6 +3116,26 @@
       "indice2": "Chien",
       "indice3": "Orange Town",
       "firstAppearance": "Chapitre 12"
+    },
+    {
+      "id": "colon",
+      "name": "Colon",
+      "aliases": [],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [],
+      "age": 20,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 350,
+      "race": "Géant",
+      "indice1": "Erbaf",
+      "indice2": "Demi-géant",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1076"
     },
     {
       "id": "conis",
@@ -3201,7 +3472,7 @@
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
       "age": 158,
-      "arc": "Little Garden",
+      "arc": "Elbaph",
       "bounty": 1800000000,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -3213,6 +3484,26 @@
       "indice2": "Géant",
       "indice3": "Erbaf",
       "firstAppearance": "Chapitre 116"
+    },
+    {
+      "id": "douzan",
+      "name": "Douzan",
+      "aliases": [],
+      "affiliation": "Royaume d'Esperia",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 0,
+      "race": "Humain",
+      "indice1": "Royaume d'Esperia",
+      "indice2": "Mentionné",
+      "indice3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183"
     },
     {
       "id": "dracule-mihawk",
@@ -3285,6 +3576,7 @@
       "id": "edison",
       "name": "Edison",
       "aliases": [
+        "Vegapunk",
         "Edison le Penseur"
       ],
       "affiliation": "Marine",
@@ -3317,7 +3609,7 @@
         "Quatre Empereurs"
       ],
       "age": 72,
-      "arc": "Jaya",
+      "arc": "Elbaph",
       "bounty": 5046000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
@@ -3381,6 +3673,26 @@
       "indice2": "Géant de fer",
       "indice3": "Grand Line (Egghead)",
       "firstAppearance": "Chapitre 1065"
+    },
+    {
+      "id": "emil",
+      "name": "Emil",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "emporio-ivankov",
@@ -3457,6 +3769,48 @@
       "firstAppearance": "Chapitre 448"
     },
     {
+      "id": "eris",
+      "name": "Eris",
+      "aliases": [],
+      "affiliation": "Famille Davy",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line (God Valley)",
+      "size": 170,
+      "race": "Humain",
+      "indice1": "Famille Davy",
+      "indice2": "Épouse de Rocks D. Xebec",
+      "indice3": "Grand Line (God Valley)",
+      "firstAppearance": "Chapitre 1159"
+    },
+    {
+      "id": "estrid",
+      "name": "Estrid",
+      "aliases": [],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [
+        "Famille royale d'Erbaf"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 1700,
+      "race": "Géant",
+      "indice1": "Erbaf",
+      "indice2": "Reine",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1153"
+    },
+    {
       "id": "ethanbaron-v-nusjuro",
       "name": "Ethanbaron V. Nusjuro",
       "aliases": [
@@ -3525,7 +3879,7 @@
         "Chevaliers de Dieu"
       ],
       "age": 58,
-      "arc": "Egghead",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -3541,6 +3895,34 @@
       "indice2": "Chevaliers de Dieu",
       "indice3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 1086"
+    },
+    {
+      "id": "figarland-shamrock",
+      "name": "Figarland Shamrock",
+      "aliases": [
+        "Saint Figarland Shamrock"
+      ],
+      "affiliation": "Chevaliers de Dieu",
+      "sub_affiliation": [
+        "Nobles Mondiaux"
+      ],
+      "age": 39,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Zoan Mythique",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "West Blue (God Valley)",
+      "size": 185,
+      "race": "Humain",
+      "indice1": "Chevaliers de Dieu",
+      "indice2": "Cerberus",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 907"
     },
     {
       "id": "fisher-tiger",
@@ -3764,6 +4146,48 @@
       "firstAppearance": "Chapitre 237"
     },
     {
+      "id": "gantonio",
+      "name": "Gantonio",
+      "aliases": [],
+      "affiliation": "Pirates Guerriers Géants",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 2000,
+      "race": "Géant",
+      "indice1": "Pirates Guerriers Géants",
+      "indice2": "Pirate",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1177"
+    },
+    {
+      "id": "ganzui",
+      "name": "Ganzui",
+      "aliases": [],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [
+        "Équipage de Thriller Bark"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 200,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Bomu Bomu no Mi",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1156"
+    },
+    {
       "id": "gedatsu",
       "name": "Gedatsu",
       "aliases": [
@@ -3819,7 +4243,7 @@
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 75,
-      "arc": "Whole Cake",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
@@ -3831,6 +4255,28 @@
       "indice2": "Géant",
       "indice3": "Erbaf",
       "firstAppearance": "Chapitre 866"
+    },
+    {
+      "id": "gill-bastar",
+      "name": "Gill Bastar",
+      "aliases": [],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [
+        "Équipage de Thriller Bark"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 970000000,
+      "devilFruitType": "Paramecia",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 200,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Horo Horo no Mi",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 450"
     },
     {
       "id": "gin",
@@ -3859,7 +4305,7 @@
         "Armée de l'Est"
       ],
       "age": 39,
-      "arc": "Egghead",
+      "arc": "Elbaph",
       "bounty": 190000000,
       "devilFruitType": "",
       "gender": "Féminin",
@@ -3893,6 +4339,33 @@
       "firstAppearance": "Chapitre 682"
     },
     {
+      "id": "gloriosa",
+      "name": "Gloriosa",
+      "aliases": [
+        "Grand-mère Nyon"
+      ],
+      "affiliation": "Kuja",
+      "sub_affiliation": [
+        "Équipage des Pirates Kuja",
+        "Équipage de Rocks"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [
+        "Armement"
+      ],
+      "origin": "Calm Belt (Amazon Lily)",
+      "size": 180,
+      "race": "Humain",
+      "indice1": "Kuja",
+      "indice2": "Impératrice Kuja",
+      "indice3": "Armement",
+      "firstAppearance": "Chapitre 1156"
+    },
+    {
       "id": "gol-d-roger",
       "name": "Gol D. Roger",
       "aliases": [
@@ -3902,7 +4375,7 @@
       "affiliation": "Équipage de Roger",
       "sub_affiliation": [],
       "age": 53,
-      "arc": "Logue Town, Début",
+      "arc": "Elbaph",
       "bounty": 5564800000,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -3918,6 +4391,28 @@
       "indice2": "Humain",
       "indice3": "Armement, Observation, des rois",
       "firstAppearance": "Chapitre 1"
+    },
+    {
+      "id": "goldberg",
+      "name": "Goldberg",
+      "aliases": [],
+      "affiliation": "Les Pirates d'Expédition",
+      "sub_affiliation": [
+        "Grand Fleet du Chapeau de Paille"
+      ],
+      "age": 63,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 2100,
+      "race": "Géant",
+      "indice1": "Les Pirates d'Expédition",
+      "indice2": "Géant",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 899"
     },
     {
       "id": "gotti",
@@ -3938,6 +4433,56 @@
       "indice2": "Humain",
       "indice3": "West Blue",
       "firstAppearance": "Chapitre 825"
+    },
+    {
+      "id": "gunko",
+      "name": "Gunko",
+      "aliases": [
+        "Manmayer Gunko",
+        "Shuri",
+        "Princesse Shuri"
+      ],
+      "affiliation": "Chevaliers de Dieu",
+      "sub_affiliation": [
+        "Nobles Mondiaux"
+      ],
+      "age": 77,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Féminin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 170,
+      "race": "Humain",
+      "indice1": "Chevaliers de Dieu",
+      "indice2": "Aro Aro no Mi",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
+      "id": "gustav",
+      "name": "Gustav",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "hack",
@@ -3962,11 +4507,13 @@
     {
       "id": "haguar-d-sauro",
       "name": "Haguar D. Sauro",
-      "aliases": [],
+      "aliases": [
+        "Jaguar D. Saul"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 105,
-      "arc": "Ohara",
+      "arc": "Elbaph",
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -3991,7 +4538,7 @@
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [],
       "age": 81,
-      "arc": "Dressrosa",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -4025,6 +4572,33 @@
       "firstAppearance": "Chapitre 525"
     },
     {
+      "id": "harald",
+      "name": "Harald",
+      "aliases": [],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [
+        "Famille royale d'Erbaf",
+        "Chevaliers de Dieu"
+      ],
+      "age": 144,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line (Erbaf)",
+      "size": 2200,
+      "race": "Géant",
+      "indice1": "Erbaf",
+      "indice2": "Ancien roi",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1136"
+    },
+    {
       "id": "haredas",
       "name": "Haredas",
       "aliases": [],
@@ -4043,6 +4617,26 @@
       "indice2": "Homme-Poisson",
       "indice3": "Îles Célestes (Bilca)",
       "firstAppearance": "Chapitre 523"
+    },
+    {
+      "id": "hilmungardr",
+      "name": "Hilmungardr",
+      "aliases": [],
+      "affiliation": "Pays des Dieux",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 0,
+      "race": "Animal",
+      "indice1": "Pays des Dieux",
+      "indice2": "Serpent",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1128"
     },
     {
       "id": "hiluluk",
@@ -4174,6 +4768,28 @@
       "firstAppearance": "Chapitre 323"
     },
     {
+      "id": "ida",
+      "name": "Ida",
+      "aliases": [],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [
+        "Village des Pêcheurs"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "South Blue (Île de Samuwanai)",
+      "size": 1700,
+      "race": "Géant",
+      "indice1": "Erbaf",
+      "indice2": "Barmaid",
+      "indice3": "South Blue (Île de Samuwanai)",
+      "firstAppearance": "Chapitre 1153"
+    },
+    {
       "id": "ideo",
       "name": "Ideo",
       "aliases": [
@@ -4194,6 +4810,36 @@
       "indice2": "Humain",
       "indice3": "Grand Line",
       "firstAppearance": "Chapitre 706"
+    },
+    {
+      "id": "imu",
+      "name": "Imu",
+      "aliases": [
+        "Saint Nerona Imu",
+        "Roi du Monde"
+      ],
+      "affiliation": "Gouvernement Mondial",
+      "sub_affiliation": [
+        "Premiers Vingt",
+        "Famille Nerona"
+      ],
+      "age": 800,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Indéterminé",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line (Mary Geoise)",
+      "size": 0,
+      "race": "Humain",
+      "indice1": "Gouvernement Mondial",
+      "indice2": "Akuma no Mi",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 906"
     },
     {
       "id": "inazuma",
@@ -4242,6 +4888,26 @@
       "indice2": "Homme-Poisson",
       "indice3": "Armement, Observation",
       "firstAppearance": "Chapitre 808"
+    },
+    {
+      "id": "iscat",
+      "name": "Iscat",
+      "aliases": [],
+      "affiliation": "Royaume des Blocs",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 900,
+      "race": "Humain",
+      "indice1": "Royaume des Blocs",
+      "indice2": "Félin géant",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1127"
     },
     {
       "id": "issho",
@@ -4341,6 +5007,28 @@
       "firstAppearance": "Chapitre 801"
     },
     {
+      "id": "jarul",
+      "name": "Jarul",
+      "aliases": [
+        "Jarul à la barbe de montagne"
+      ],
+      "affiliation": "Équipage des Géants",
+      "sub_affiliation": [],
+      "age": 408,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 2050,
+      "race": "Géant",
+      "indice1": "Équipage des Géants",
+      "indice2": "Ancien du village",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 866"
+    },
+    {
       "id": "jaygarcia-saturn",
       "name": "Jaygarcia Saturn",
       "aliases": [
@@ -4351,7 +5039,7 @@
         "Cinq Sages"
       ],
       "age": 200,
-      "arc": "Egghead",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
@@ -4405,7 +5093,7 @@
       "affiliation": "Équipage de Bonney",
       "sub_affiliation": [],
       "age": 10,
-      "arc": "Archipel Sabaody",
+      "arc": "Elbaph",
       "bounty": 320000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
@@ -4444,6 +5132,50 @@
       "indice2": "Humain",
       "indice3": "Armement, Observation",
       "firstAppearance": "Chapitre 528"
+    },
+    {
+      "id": "johanna",
+      "name": "Johanna",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1135"
+    },
+    {
+      "id": "captain-john",
+      "name": "John",
+      "aliases": [
+        "John le Capitaine"
+      ],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [
+        "Équipage de Thriller Bark"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 200,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Jiki Jiki no Mi",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1156"
     },
     {
       "id": "johnny",
@@ -4522,7 +5254,7 @@
       "affiliation": "Équipage de Rocks",
       "sub_affiliation": [],
       "age": 59,
-      "arc": "Dressrosa",
+      "arc": "Elbaph",
       "bounty": 4611100000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
@@ -4637,6 +5369,26 @@
       "firstAppearance": "Chapitre 593"
     },
     {
+      "id": "karin",
+      "name": "Karin",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
       "id": "karoo",
       "name": "Karoo",
       "aliases": [
@@ -4659,6 +5411,26 @@
       "firstAppearance": "Chapitre 109"
     },
     {
+      "id": "kashii",
+      "name": "Kashii",
+      "aliases": [],
+      "affiliation": "Équipage des Géants",
+      "sub_affiliation": [],
+      "age": 156,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 1700,
+      "race": "Géant",
+      "indice1": "Équipage des Géants",
+      "indice2": "Géant",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 377"
+    },
+    {
       "id": "kawamatsu",
       "name": "Kawamatsu",
       "aliases": [
@@ -4679,6 +5451,28 @@
       "size": "",
       "race": "Homme-Poisson",
       "firstAppearance": "Chapitre 920"
+    },
+    {
+      "id": "kiba",
+      "name": "Kiba",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [
+        "Équipage des Géants"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 2000,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Directeur",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1142"
     },
     {
       "id": "kikunojo",
@@ -5086,6 +5880,29 @@
       "firstAppearance": "Chapitre 303"
     },
     {
+      "id": "kyo",
+      "name": "Kyo",
+      "aliases": [
+        "Silver Axe",
+        "Hache d'argent"
+      ],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Wano Kuni",
+      "size": 220,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Yakuza",
+      "indice3": "Wano Kuni",
+      "firstAppearance": "Chapitre 1156"
+    },
+    {
       "id": "kyros",
       "name": "Kyros",
       "aliases": [],
@@ -5190,13 +6007,15 @@
     {
       "id": "lilith",
       "name": "Lilith",
-      "aliases": [],
+      "aliases": [
+        "Vegapunk"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [
         "SSG"
       ],
       "age": 24,
-      "arc": "Egghead",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
@@ -5230,6 +6049,53 @@
       "firstAppearance": "Chapitre 554"
     },
     {
+      "id": "loki",
+      "name": "Loki",
+      "aliases": [
+        "Prince maudit",
+        "Sun God"
+      ],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [
+        "Famille royale d'Erbaf"
+      ],
+      "age": 63,
+      "arc": "Elbaph",
+      "bounty": 2600000000,
+      "devilFruitType": "Zoan Mythique",
+      "gender": "Masculin",
+      "haki": [
+        "Conquérant"
+      ],
+      "origin": "Grand Line (Erbaf)",
+      "size": 2800,
+      "race": "Géant",
+      "indice1": "Erbaf",
+      "indice2": "Ryu Ryu no Mi modèle Nidhöggr",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1130"
+    },
+    {
+      "id": "louis-arnote",
+      "name": "Louis Arnote",
+      "aliases": [],
+      "affiliation": "Brag Men",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 0,
+      "race": "Humain",
+      "indice1": "Brag Men",
+      "indice2": "Explorateur",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 115"
+    },
+    {
       "id": "lucky-roux",
       "name": "Lucky Roux",
       "aliases": [],
@@ -5253,6 +6119,26 @@
       "firstAppearance": "Chapitre 1"
     },
     {
+      "id": "luven",
+      "name": "Luven",
+      "aliases": [],
+      "affiliation": "Royaume d'Esperia",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 180,
+      "race": "Humain",
+      "indice1": "Royaume d'Esperia",
+      "indice2": "Prince",
+      "indice3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183"
+    },
+    {
       "id": "machvise",
       "name": "Machvise",
       "aliases": [],
@@ -5271,6 +6157,26 @@
       "indice2": "Ton Ton no Mi",
       "indice3": "North Blue",
       "firstAppearance": "Chapitre 682"
+    },
+    {
+      "id": "mag",
+      "name": "Mag",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "magellan",
@@ -5293,6 +6199,26 @@
       "firstAppearance": "Chapitre 528"
     },
     {
+      "id": "magnolia",
+      "name": "Magnolia",
+      "aliases": [],
+      "affiliation": "God Valley",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line (God Valley)",
+      "size": 170,
+      "race": "Humain",
+      "indice1": "God Valley",
+      "indice2": "Mère de Shanks et Shamrock",
+      "indice3": "Grand Line (God Valley)",
+      "firstAppearance": "Chapitre 1158"
+    },
+    {
       "id": "manboshi",
       "name": "Manboshi",
       "aliases": [],
@@ -5311,6 +6237,35 @@
       "indice2": "Homme-Poisson",
       "indice3": "Fishman Island",
       "firstAppearance": "Chapitre 609"
+    },
+    {
+      "id": "manmayer-gurou",
+      "name": "Manmayer Gurou",
+      "aliases": [
+        "Saint Manmayer Gurou",
+        "Growlo"
+      ],
+      "affiliation": "Chevaliers de Dieu",
+      "sub_affiliation": [
+        "Nobles Mondiaux"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 175,
+      "race": "Humain",
+      "indice1": "Chevaliers de Dieu",
+      "indice2": "Chevaliers de Dieu",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1185"
     },
     {
       "id": "mansherry",
@@ -5366,7 +6321,7 @@
         "Cinq Sages"
       ],
       "age": 200,
-      "arc": "Egghead",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
@@ -5426,6 +6381,26 @@
       "firstAppearance": "Chapitre 117"
     },
     {
+      "id": "marlon",
+      "name": "Marlon",
+      "aliases": [],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 200,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Équipage de Rocks",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1155"
+    },
+    {
       "id": "marshall-d-teach",
       "name": "Marshall D. Teach",
       "aliases": [
@@ -5436,7 +6411,7 @@
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [],
       "age": 38,
-      "arc": "Jaya, Impel Down, Marineford",
+      "arc": "Elbaph",
       "bounty": 3996000000,
       "devilFruitType": "Logia, Paramecia",
       "gender": "Masculin",
@@ -5516,6 +6491,29 @@
       "firstAppearance": "Chapitre 110"
     },
     {
+      "id": "mma",
+      "name": "MMA",
+      "aliases": [
+        "Sleeptids",
+        "Mūma"
+      ],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 0,
+      "race": "Animal",
+      "indice1": "École du Morse",
+      "indice2": "Créature",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1142"
+    },
+    {
       "id": "momonga",
       "name": "Momonga",
       "aliases": [],
@@ -5567,7 +6565,7 @@
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [],
       "age": 53,
-      "arc": "Logue Town",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -5683,6 +6681,50 @@
       "firstAppearance": "Chapitre 9"
     },
     {
+      "id": "mosa",
+      "name": "Mosa",
+      "aliases": [],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [
+        "Underworld"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 180,
+      "race": "Humain",
+      "indice1": "Erbaf",
+      "indice2": "Prisonnier",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
+      "id": "moulon",
+      "name": "Moulon",
+      "aliases": [
+        "Don Moulon"
+      ],
+      "affiliation": "Famille Moulon",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 180,
+      "race": "Humain",
+      "indice1": "Famille Moulon",
+      "indice2": "Chef de famille",
+      "indice3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183"
+    },
+    {
       "id": "mozu-et-kiwi",
       "name": "Mozu et Kiwi",
       "aliases": [],
@@ -5699,6 +6741,26 @@
       "size": "1m87",
       "race": "Humain",
       "firstAppearance": "Chapitre 329"
+    },
+    {
+      "id": "muginn",
+      "name": "Muginn",
+      "aliases": [],
+      "affiliation": "Pays des Dieux",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 0,
+      "race": "Animal",
+      "indice1": "Pays des Dieux",
+      "indice2": "Corbeau",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1128"
     },
     {
       "id": "nami",
@@ -5916,6 +6978,29 @@
       "firstAppearance": "Chapitre 456"
     },
     {
+      "id": "ochoku",
+      "name": "Ochoku",
+      "aliases": [
+        "Wang Zhi",
+        "Ochoku le Roi des Pirates"
+      ],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 200,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Équipage de Rocks",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1155"
+    },
+    {
       "id": "octo",
       "name": "Octo",
       "aliases": [],
@@ -5966,7 +7051,7 @@
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
       "age": 151,
-      "arc": "Enies Lobby",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -5978,6 +7063,26 @@
       "indice2": "Géant",
       "indice3": "Erbaf",
       "firstAppearance": "Chapitre 377"
+    },
+    {
+      "id": "olav",
+      "name": "Olav",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "orlumbus",
@@ -6214,6 +7319,28 @@
       "firstAppearance": "Chapitre 700"
     },
     {
+      "id": "polo-gram",
+      "name": "Polo Gram",
+      "aliases": [],
+      "affiliation": "Équipage de Polo",
+      "sub_affiliation": [
+        "Équipage de Rocks"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 200,
+      "race": "Humain",
+      "indice1": "Équipage de Polo",
+      "indice2": "Capitaine",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 1162"
+    },
+    {
       "id": "porchemy",
       "name": "Porchemy",
       "aliases": [],
@@ -6263,6 +7390,7 @@
       "id": "pythagoras",
       "name": "Pythagoras",
       "aliases": [
+        "Vegapunk",
         "Pythagoras le Sage"
       ],
       "affiliation": "Marine",
@@ -6282,6 +7410,48 @@
       "indice2": "Satellite de Vegapunk",
       "indice3": "Grand Line (Egghead)",
       "firstAppearance": "Chapitre 1065"
+    },
+    {
+      "id": "ragnir",
+      "name": "Ragnir",
+      "aliases": [],
+      "affiliation": "Famille royale d'Erbaf",
+      "sub_affiliation": [
+        "Loki"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Zoan Mythique",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 0,
+      "race": "Géant",
+      "indice1": "Famille royale d'Erbaf",
+      "indice2": "Risu Risu no Mi modèle Ratatoskr",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1130"
+    },
+    {
+      "id": "raideen",
+      "name": "Raideen",
+      "aliases": [],
+      "affiliation": "Pirates Guerriers Géants",
+      "sub_affiliation": [],
+      "age": 102,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 2000,
+      "race": "Géant",
+      "indice1": "Pirates Guerriers Géants",
+      "indice2": "Pirate",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 129"
     },
     {
       "id": "raizo",
@@ -6331,6 +7501,28 @@
       "firstAppearance": "Chapitre 704"
     },
     {
+      "id": "reuven",
+      "name": "Reuven",
+      "aliases": [
+        "Roi Reuven"
+      ],
+      "affiliation": "Royaume d'Esperia",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "West Blue (Royaume d'Esperia)",
+      "size": 180,
+      "race": "Humain",
+      "indice1": "Royaume d'Esperia",
+      "indice2": "Roi",
+      "indice3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183"
+    },
+    {
       "id": "riku-doldo-iii",
       "name": "Riku Doldo III",
       "aliases": [],
@@ -6373,6 +7565,78 @@
       "firstAppearance": "Chapitre 703"
     },
     {
+      "id": "rimoshifu-killingham",
+      "name": "Rimoshifu Killingham",
+      "aliases": [
+        "Saint Rimoshifu Killingham"
+      ],
+      "affiliation": "Chevaliers de Dieu",
+      "sub_affiliation": [
+        "Nobles Mondiaux"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Zoan Mythique",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line (Mary Geoise)",
+      "size": 175,
+      "race": "Humain",
+      "indice1": "Chevaliers de Dieu",
+      "indice2": "Ryu Ryu no Mi modèle Kirin",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1140"
+    },
+    {
+      "id": "ripley",
+      "name": "Ripley",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 80,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 1700,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Professeure de biologie",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
+      "id": "road",
+      "name": "Road",
+      "aliases": [
+        "Sun God"
+      ],
+      "affiliation": "Les Pirates d'Expédition",
+      "sub_affiliation": [
+        "Royaume des Blocs"
+      ],
+      "age": 63,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 2600,
+      "race": "Géant",
+      "indice1": "Les Pirates d'Expédition",
+      "indice2": "Géant",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 898"
+    },
+    {
       "id": "rob-lucci",
       "name": "Rob Lucci",
       "aliases": [],
@@ -6394,6 +7658,55 @@
       "indice2": "Neko Neko no Mi modèle Léopard",
       "indice3": "Armement, Observation",
       "firstAppearance": "Chapitre 323"
+    },
+    {
+      "id": "rocks-d-xebec",
+      "name": "Rocks D. Xebec",
+      "aliases": [
+        "Rocks D. Xebec",
+        "Davy D. Xebec"
+      ],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [
+        "Famille Davy"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "West Blue (God Valley)",
+      "size": 250,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Capitaine",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1155"
+    },
+    {
+      "id": "ronja",
+      "name": "Ronja",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "roronoa-zoro",
@@ -6629,6 +7942,34 @@
       "firstAppearance": "Chapitre 977"
     },
     {
+      "id": "satchels-maffey",
+      "name": "Satchels Maffey",
+      "aliases": [
+        "Saint Satchels Maffey"
+      ],
+      "affiliation": "Chevaliers de Dieu",
+      "sub_affiliation": [
+        "Nobles Mondiaux"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line (Mary Geoise)",
+      "size": 450,
+      "race": "Humain",
+      "indice1": "Chevaliers de Dieu",
+      "indice2": "Chevalière de Dieu",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1160"
+    },
+    {
       "id": "satori",
       "name": "Satori",
       "aliases": [],
@@ -6649,6 +7990,36 @@
       "indice2": "Géant",
       "indice3": "Observation",
       "firstAppearance": "Chapitre 241"
+    },
+    {
+      "id": "scopper-gaban",
+      "name": "Scopper Gaban",
+      "aliases": [
+        "Ya-san",
+        "Mountain-Eater",
+        "Bras gauche du Roi des Pirates"
+      ],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [
+        "Équipage de Roger"
+      ],
+      "age": 79,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line",
+      "size": 195,
+      "race": "Humain",
+      "indice1": "Erbaf",
+      "indice2": "Navigateur",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1139"
     },
     {
       "id": "scratchmen-apoo",
@@ -6746,6 +8117,7 @@
       "id": "shaka",
       "name": "Shaka",
       "aliases": [
+        "Vegapunk",
         "Shaka le Bon"
       ],
       "affiliation": "Marine",
@@ -6773,7 +8145,7 @@
       "affiliation": "Équipage des Pirates Kuja",
       "sub_affiliation": [],
       "age": 62,
-      "arc": "Archipel Sabaody",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
@@ -6816,7 +8188,7 @@
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
       "age": 39,
-      "arc": "Romance Dawn",
+      "arc": "Elbaph",
       "bounty": 4048900000,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -6880,6 +8252,62 @@
       "indice2": "Hito Hito no Mi modèle Morphon",
       "indice3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 233"
+    },
+    {
+      "id": "shepherd-sommers",
+      "name": "Shepherd Sommers",
+      "aliases": [
+        "Saint Shepherd Sommers"
+      ],
+      "affiliation": "Chevaliers de Dieu",
+      "sub_affiliation": [
+        "Nobles Mondiaux"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line (Mary Geoise)",
+      "size": 175,
+      "race": "Humain",
+      "indice1": "Chevaliers de Dieu",
+      "indice2": "Iba Iba no Mi",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1140"
+    },
+    {
+      "id": "shiki",
+      "name": "Shiki",
+      "aliases": [
+        "Shiki le Lion d'Or"
+      ],
+      "affiliation": "Équipage de Rocks",
+      "sub_affiliation": [
+        "Équipage du Lion d'Or"
+      ],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "gender": "Masculin",
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
+      "origin": "Grand Line",
+      "size": 250,
+      "race": "Humain",
+      "indice1": "Équipage de Rocks",
+      "indice2": "Fuwa Fuwa no Mi",
+      "indice3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1156"
     },
     {
       "id": "shimotsuki-koshiro",
@@ -7019,7 +8447,7 @@
       "affiliation": "Ancien Équipage de Roger",
       "sub_affiliation": [],
       "age": 78,
-      "arc": "Archipel de Sabaody",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
@@ -7033,6 +8461,26 @@
       "size": "1m88",
       "race": "Humain",
       "firstAppearance": "Chapitre 19"
+    },
+    {
+      "id": "skaldi",
+      "name": "Skaldi",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1134"
     },
     {
       "id": "smack",
@@ -7144,6 +8592,28 @@
       "firstAppearance": "Chapitre 551"
     },
     {
+      "id": "stansen",
+      "name": "Stansen",
+      "aliases": [],
+      "affiliation": "Les Pirates d'Expédition",
+      "sub_affiliation": [
+        "Grand Fleet du Chapeau de Paille"
+      ],
+      "age": 81,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 1950,
+      "race": "Géant",
+      "indice1": "Les Pirates d'Expédition",
+      "indice2": "Géant",
+      "indice3": "Grand Line",
+      "firstAppearance": "Chapitre 500"
+    },
+    {
       "id": "stella",
       "name": "Stella",
       "aliases": [
@@ -7175,7 +8645,7 @@
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [],
       "age": 92,
-      "arc": "Whole Cake",
+      "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
@@ -7438,6 +8908,28 @@
       "indice2": "Beta Beta no Mi",
       "indice3": "Armement, Observation",
       "firstAppearance": "Chapitre 700"
+    },
+    {
+      "id": "tritoma",
+      "name": "Tritoma",
+      "aliases": [],
+      "affiliation": "Équipage des Pirates Kuja",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [
+        "Armement"
+      ],
+      "origin": "Calm Belt (Amazon Lily)",
+      "size": 186,
+      "race": "Humain",
+      "indice1": "Équipage des Pirates Kuja",
+      "indice2": "Impératrice Kuja",
+      "indice3": "Armement",
+      "firstAppearance": "Chapitre 1156"
     },
     {
       "id": "tsuru",
@@ -7888,6 +9380,28 @@
       "firstAppearance": "Chapitre 237"
     },
     {
+      "id": "wolf-elbaph",
+      "name": "Wolf",
+      "aliases": [
+        "Wolf"
+      ],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Masculin",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 1900,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Professeur de sport",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1142"
+    },
+    {
       "id": "x-drake",
       "name": "X Drake",
       "aliases": [
@@ -8008,11 +9522,32 @@
       "firstAppearance": "Chapitre 665"
     },
     {
+      "id": "ylva",
+      "name": "Ylva",
+      "aliases": [],
+      "affiliation": "École du Morse",
+      "sub_affiliation": [],
+      "age": 12,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Féminin",
+      "haki": [],
+      "origin": "Grand Line (Erbaf)",
+      "size": 450,
+      "race": "Géant",
+      "indice1": "École du Morse",
+      "indice2": "Élève",
+      "indice3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134"
+    },
+    {
       "id": "york",
       "name": "York",
       "aliases": [],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
+        "Vegapunk",
         "Nobles Mondiaux"
       ],
       "age": 16,
@@ -8113,6 +9648,28 @@
       "indice2": "Humain",
       "indice3": "Water Seven",
       "firstAppearance": "Chapitre 324"
+    },
+    {
+      "id": "zaza",
+      "name": "Zaza",
+      "aliases": [
+        "Dieu de la Pluie"
+      ],
+      "affiliation": "Erbaf",
+      "sub_affiliation": [],
+      "age": 0,
+      "arc": "Elbaph",
+      "bounty": 0,
+      "devilFruitType": "",
+      "gender": "Indéterminé",
+      "haki": [],
+      "origin": "Erbaf",
+      "size": 0,
+      "race": "Géant",
+      "indice1": "Erbaf",
+      "indice2": "Dieu de la Pluie",
+      "indice3": "Erbaf",
+      "firstAppearance": "Chapitre 1182"
     },
     {
       "id": "zeff",

@@ -1,4 +1,5 @@
 import type { Character, FieldMapping, SpecificSymbolEntry, UniverseData } from "@/types/game";
+import { stripAccents } from "@/lib/utils";
 import fs from "fs";
 import path from "path";
 
@@ -30,9 +31,8 @@ export function readSpecificSymbols(universeId: string): SpecificSymbolEntry[] {
     });
     const mapped = files.map((filename) => {
       const ext = path.extname(filename).toLowerCase();
-      /** Aligné sur `normalizeComparable` dans specific-symbols-display (espaces → tirets). */
-      const stem = path
-        .basename(filename, ext)
+      /** Aligné sur `normalizeComparable` dans specific-symbols-display (accents retirés, espaces → tirets). */
+      const stem = stripAccents(path.basename(filename, ext))
         .toLowerCase()
         .trim()
         .replace(/\s+/g, "-");
