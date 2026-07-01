@@ -56,6 +56,12 @@ export interface FieldMappingHintMeta {
   icon: string;
 }
 
+/** Flat list or nested groups (e.g. saga → arcs → episodes). */
+export type FieldOrder = string[] | FieldOrderMap;
+export interface FieldOrderMap {
+  [key: string]: FieldOrder;
+}
+
 export interface FieldMappingEntry {
   header: string;
   fonction: FieldMappingFonction;
@@ -63,8 +69,8 @@ export interface FieldMappingEntry {
   columnWidth?: FieldColumnWidth;
   /** Texte d’aide affiché dans la modale « Colonnes ». */
   description?: string;
-  /** For Comparaison: ordered list (first = avant, last = après). */
-  order?: string[];
+  /** For Comparaison: flat list or grouped map (first → last chronologically). */
+  order?: FieldOrder;
   /** Synonym pairs for ordered comparison / indice3 sorting (same chronological rank). */
   orderLabelEquivalence?: [string, string][];
   /** If set, this field is a hint tier (order = key order in fieldMapping). */
@@ -110,8 +116,6 @@ export interface UniverseData {
   fieldMapping?: FieldMapping;
   /** Set by server when public/universes/[id]/background.webp|.png|.jpg exists */
   backgroundImage?: string;
-  /** Set by server when font file(s) exist in public/universes/[id]/ */
-  font?: { url: string; family: string; format: string };
   schema?: AttributeSchemaEntry[];
   /** Set by server: images dans specific-symbols/ par stem de fichier = mot remplacé dans le tableau. */
   specificSymbols?: SpecificSymbolEntry[];

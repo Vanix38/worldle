@@ -22,7 +22,7 @@ export default function Home() {
           <li key={u.id}>
             <Card padding="none" variant="outline" className="overflow-hidden">
               <Link
-                href={`/game/${u.id}`}
+                href={`/game/${u.id}/setup`}
                 className="relative flex min-h-[4.5rem] items-center justify-center overflow-hidden px-4 py-4 transition hover:border-ocean-500/50 hover:bg-gray-800/60 sm:min-h-[5rem] sm:px-5 sm:py-5"
                 style={{
                   ...(u.banner && {

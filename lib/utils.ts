@@ -2,7 +2,7 @@ import type { Character } from "@/types/game";
 
 /**
  * Retire les diacritiques (FR : û ô é è à ç, etc.) + æ/œ → ae/oe.
- * Custom fonts : affichage sans accents ; recherche / filtre insensible aux variantes.
+ * Affichage sans accents ; recherche / filtre insensible aux variantes.
  */
 export function stripAccents(str: string): string {
   return str

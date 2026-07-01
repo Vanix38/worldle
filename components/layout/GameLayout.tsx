@@ -5,12 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   FaBook,
-  FaClipboardList,
   FaColumns,
-  FaImage,
   FaObjectGroup,
-  FaTh,
-  FaUserCircle,
 } from "react-icons/fa";
 import { Button } from "@/components/ui/Button";
 import { RulesModal } from "@/components/RulesModal";
@@ -36,7 +32,6 @@ export function GameLayout({ children }: GameLayoutProps) {
     prefix && pathname.startsWith(prefix) ? pathname.slice(prefix.length) || "/" : pathname;
   const gameUniverseMatch = pathSansBase.match(/^\/game\/([^/]+)/);
   const columnsUniverseId = gameUniverseMatch?.[1] ?? null;
-  const onAlternateMode = /^\/game\/[^/]+\/(hard|blur|sheet)$/.test(pathSansBase);
 
   useEffect(() => {
     if (!columnsUniverseId) {
@@ -100,55 +95,7 @@ export function GameLayout({ children }: GameLayoutProps) {
             Worlddle
           </Link>
 
-          {columnsUniverseId ? (
-            <div
-              className="min-w-0 flex-1 overflow-x-auto py-0.5 [scrollbar-width:thin]"
-              aria-label={stripAccents("Modes de jeu")}
-            >
-              <div className="flex w-max flex-nowrap items-center gap-1 sm:gap-2">
-                {onAlternateMode ? (
-                  <Link
-                    href={`/game/${columnsUniverseId}`}
-                    title={stripAccents("Grille")}
-                    aria-label={stripAccents("Mode grille")}
-                    className="inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-green-600 text-white transition-colors hover:bg-green-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:size-auto sm:min-h-[2.25rem] sm:gap-1.5 sm:px-2.5 sm:py-1.5 sm:text-sm"
-                  >
-                    <FaTh className="h-4 w-4 shrink-0 sm:h-3.5 md:h-4" aria-hidden />
-                    <span className="hidden sm:inline">{stripAccents("Grille")}</span>
-                  </Link>
-                ) : null}
-                <Link
-                  href={`/game/${columnsUniverseId}/hard`}
-                  title={stripAccents("Portrait mystère")}
-                  aria-label={stripAccents("Portrait mystère")}
-                  className="inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-amber-600 text-white transition-colors hover:bg-amber-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:size-auto sm:min-h-[2.25rem] sm:gap-1.5 sm:px-2.5 sm:py-1.5 sm:text-sm"
-                >
-                  <FaUserCircle className="h-4 w-4 shrink-0 sm:h-3.5 md:h-4" aria-hidden />
-                  <span className="hidden sm:inline">{stripAccents("Portrait")}</span>
-                </Link>
-                <Link
-                  href={`/game/${columnsUniverseId}/blur`}
-                  title={stripAccents("Défloutage")}
-                  aria-label={stripAccents("Défloutage")}
-                  className="inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-violet-600 text-white transition-colors hover:bg-violet-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:size-auto sm:min-h-[2.25rem] sm:gap-1.5 sm:px-2.5 sm:py-1.5 sm:text-sm"
-                >
-                  <FaImage className="h-4 w-4 shrink-0 sm:h-3.5 md:h-4" aria-hidden />
-                  <span className="hidden sm:inline">{stripAccents("Défloutage")}</span>
-                </Link>
-                <Link
-                  href={`/game/${columnsUniverseId}/sheet`}
-                  title={stripAccents("Fiche mystère")}
-                  aria-label={stripAccents("Fiche mystère")}
-                  className="inline-flex size-9 shrink-0 items-center justify-center rounded-lg bg-sky-600 text-white transition-colors hover:bg-sky-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 sm:size-auto sm:min-h-[2.25rem] sm:gap-1.5 sm:px-2.5 sm:py-1.5 sm:text-sm"
-                >
-                  <FaClipboardList className="h-4 w-4 shrink-0 sm:h-3.5 md:h-4" aria-hidden />
-                  <span className="hidden sm:inline">{stripAccents("Fiche")}</span>
-                </Link>
-              </div>
-            </div>
-          ) : (
-            <div className="min-w-0 flex-1" aria-hidden />
-          )}
+          <div className="min-w-0 flex-1" aria-hidden />
 
           <div className="flex shrink-0 items-center gap-0.5 sm:gap-2">
             {columnsUniverseId && hasSpecificSymbols ? (

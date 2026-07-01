@@ -4,6 +4,8 @@ import { createContext, useContext, useMemo } from "react";
 import type { AttributeSchemaEntry, Character, HintTierDef, SpecificSymbolEntry, UniverseData } from "@/types/game";
 import { getHintTiers, getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
 import { SpecificSymbolTapProvider } from "@/contexts/SpecificSymbolTapContext";
+import { SpoilerProgressProvider } from "@/contexts/SpoilerProgressContext";
+import type { FieldMapping } from "@/types/game";
 
 export interface UniverseDataContextValue {
   universeId: string;
@@ -16,6 +18,7 @@ export interface UniverseDataContextValue {
   hintTiers: HintTierDef[];
   /** Remplacements pictos (public/universes/{id}/specific-symbols/). */
   specificSymbols: SpecificSymbolEntry[];
+  fieldMapping: FieldMapping;
 }
 
 const UniverseDataContext = createContext<UniverseDataContextValue | null>(null);
@@ -39,12 +42,15 @@ export function UniverseDataProvider({
       searchFieldKeys,
       hintTiers,
       specificSymbols: universeData.specificSymbols ?? [],
+      fieldMapping: universeData.fieldMapping ?? {},
     };
   }, [universeData]);
 
   return (
     <UniverseDataContext.Provider value={value}>
-      <SpecificSymbolTapProvider>{children}</SpecificSymbolTapProvider>
+      <SpecificSymbolTapProvider>
+        <SpoilerProgressProvider>{children}</SpoilerProgressProvider>
+      </SpecificSymbolTapProvider>
     </UniverseDataContext.Provider>
   );
 }

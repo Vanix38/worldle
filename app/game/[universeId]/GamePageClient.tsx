@@ -5,6 +5,8 @@ import { stripAccents } from "@/lib/utils";
 import type { UniverseData } from "@/types/game";
 import { UniverseDataProvider } from "@/contexts/UniverseDataContext";
 import { GameBoard } from "@/components/GameBoard";
+import { SpoilerProgressGate } from "@/components/SpoilerProgressGate";
+import { ProgressSettingsLink } from "@/components/ProgressSettingsLink";
 
 interface GamePageClientProps {
   universeId: string;
@@ -13,21 +15,10 @@ interface GamePageClientProps {
 
 export function GamePageClient({ universeId, universeData }: GamePageClientProps) {
   const hasBackground = Boolean(universeData.backgroundImage?.trim());
-  const font = universeData.font;
 
   return (
     <UniverseDataProvider universeData={universeData}>
-      {font && (
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `@font-face{font-family:"${font.family}";src:url("${font.url}") format("${font.format}");font-display:swap;}`,
-          }}
-        />
-      )}
-      <div
-        className="relative min-h-screen"
-        style={font ? { fontFamily: `"${font.family}", sans-serif` } : undefined}
-      >
+      <div className="relative min-h-screen">
         {/* Fond */}
         {hasBackground ? (
           <>
@@ -57,10 +48,14 @@ export function GamePageClient({ universeId, universeData }: GamePageClientProps
             <h1 className="min-w-0 flex-1 truncate text-center text-lg font-bold text-white sm:text-xl">
               {stripAccents(universeData.name)}
             </h1>
-            <div className="flex min-w-0 flex-1 justify-end" aria-hidden />
+            <div className="flex min-w-0 flex-1 justify-end">
+              <ProgressSettingsLink universeId={universeId} />
+            </div>
           </header>
 
-          <GameBoard universeId={universeId} />
+          <SpoilerProgressGate universeId={universeId}>
+            <GameBoard universeId={universeId} />
+          </SpoilerProgressGate>
         </div>
       </div>
     </UniverseDataProvider>

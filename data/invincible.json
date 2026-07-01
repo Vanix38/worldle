@@ -5,40 +5,48 @@
     "firstAppearance": {
       "header": "Première apparition",
       "fonction": "Comparaison",
-      "order": [
-        "Saison 1, Episode 1",
-        "Saison 1, Episode 2",
-        "Saison 1, Episode 3",
-        "Saison 1, Episode 4",
-        "Saison 1, Episode 5",
-        "Saison 1, Episode 6",
-        "Saison 1, Episode 7",
-        "Saison 1, Episode 8",
-        "Saison 2, Episode 1",
-        "Saison 2, Episode 2",
-        "Saison 2, Episode 3",
-        "Saison 2, Episode 4",
-        "Saison 2, Episode 5",
-        "Saison 2, Episode 6",
-        "Saison 2, Episode 7",
-        "Saison 2, Episode 8",
-        "Saison 3, Episode 1",
-        "Saison 3, Episode 2",
-        "Saison 3, Episode 3",
-        "Saison 3, Episode 4",
-        "Saison 3, Episode 5",
-        "Saison 3, Episode 6",
-        "Saison 3, Episode 7",
-        "Saison 3, Episode 8",
-        "Saison 4, Episode 1",
-        "Saison 4, Episode 2",
-        "Saison 4, Episode 3",
-        "Saison 4, Episode 4",
-        "Saison 4, Episode 5",
-        "Saison 4, Episode 6",
-        "Saison 4, Episode 7",
-        "Saison 4, Episode 8"
-      ],
+      "order": {
+        "Saison 1": [
+          "Saison 1, Episode 1",
+          "Saison 1, Episode 2",
+          "Saison 1, Episode 3",
+          "Saison 1, Episode 4",
+          "Saison 1, Episode 5",
+          "Saison 1, Episode 6",
+          "Saison 1, Episode 7",
+          "Saison 1, Episode 8"
+        ],
+        "Saison 2": [
+          "Saison 2, Episode 1",
+          "Saison 2, Episode 2",
+          "Saison 2, Episode 3",
+          "Saison 2, Episode 4",
+          "Saison 2, Episode 5",
+          "Saison 2, Episode 6",
+          "Saison 2, Episode 7",
+          "Saison 2, Episode 8"
+        ],
+        "Saison 3": [
+          "Saison 3, Episode 1",
+          "Saison 3, Episode 2",
+          "Saison 3, Episode 3",
+          "Saison 3, Episode 4",
+          "Saison 3, Episode 5",
+          "Saison 3, Episode 6",
+          "Saison 3, Episode 7",
+          "Saison 3, Episode 8"
+        ],
+        "Saison 4": [
+          "Saison 4, Episode 1",
+          "Saison 4, Episode 2",
+          "Saison 4, Episode 3",
+          "Saison 4, Episode 4",
+          "Saison 4, Episode 5",
+          "Saison 4, Episode 6",
+          "Saison 4, Episode 7",
+          "Saison 4, Episode 8"
+        ]
+      },
       "description": "Premier épisode d'apparition dans la série Invincible, au format saison x épisode."
     },
     "gender": {

@@ -1,0 +1,56 @@
+"use client";
+
+import Link from "next/link";
+import { stripAccents } from "@/lib/utils";
+import type { UniverseData } from "@/types/game";
+import { UniverseDataProvider } from "@/contexts/UniverseDataContext";
+import { SetupProgressForm } from "@/components/SetupProgressForm";
+
+interface SetupPageClientProps {
+  universeId: string;
+  universeData: UniverseData;
+}
+
+export function SetupPageClient({ universeId, universeData }: SetupPageClientProps) {
+  const hasBackground = Boolean(universeData.backgroundImage?.trim());
+
+  return (
+    <UniverseDataProvider universeData={universeData}>
+      <div className="relative min-h-screen">
+        {hasBackground ? (
+          <>
+            <div
+              className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: `url(${universeData.backgroundImage!.trim()})` }}
+            />
+            <div className="fixed inset-0 -z-10 bg-black/50" aria-hidden />
+          </>
+        ) : (
+          <>
+            <div className="fixed inset-0 -z-10 bg-gradient-to-br from-slate-950 via-gray-900 to-slate-950" />
+            <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-800/20 via-transparent to-transparent" />
+          </>
+        )}
+
+        <div className="mx-auto min-w-0 max-w-full px-4 py-6 sm:px-6 sm:py-10">
+          <header className="mb-8 flex items-center gap-2">
+            <div className="flex min-w-0 flex-1 justify-start">
+              <Link
+                href="/"
+                className="text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500"
+              >
+                {stripAccents("← Accueil")}
+              </Link>
+            </div>
+            <h1 className="min-w-0 flex-1 truncate text-center text-lg font-bold text-white sm:text-xl">
+              {stripAccents(universeData.name)}
+            </h1>
+            <div className="flex min-w-0 flex-1 justify-end" aria-hidden />
+          </header>
+
+          <SetupProgressForm universeId={universeId} />
+        </div>
+      </div>
+    </UniverseDataProvider>
+  );
+}

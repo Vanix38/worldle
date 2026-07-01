@@ -5,6 +5,7 @@ import type {
   HintTierDef,
   UniverseData,
 } from "@/types/game";
+import { flattenFieldOrder } from "@/lib/progress-order";
 
 const RESERVED_KEYS = new Set(["id", "name", "imageUrl", "aliases"]);
 
@@ -38,8 +39,8 @@ function schemaEntryFromFieldMapping(
       break;
     case "Comparaison":
       type = "categorical";
-      order = entry.order;
-      ordered = Boolean(order && order.length > 0);
+      order = flattenFieldOrder(entry.order);
+      ordered = order.length > 0;
       break;
     case "ComparaisonDate":
       type = "date";

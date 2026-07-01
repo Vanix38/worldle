@@ -1,13 +1,13 @@
 /**
- * Scrape onepiece.fandom.com (EN) — portable-infobox de chaque perso de data/one-piece.json → CSV.
+ * Scrape onepiece.fandom.com (EN) — portable-infobox de chaque perso de data/one-piece-anime.json → CSV.
  *
  *   --discover                 : extrait les fiches de 3 persos (Luffy/Zoro/Nami) → discovered-one-piece-fields.json
- *   (par défaut)               : pour chaque perso de data/one-piece.json, fetch HTML rendu, parse portable-infobox → CSV
+ *   (par défaut)               : pour chaque perso de data/one-piece-anime.json, fetch HTML rendu, parse portable-infobox → CSV
  *
  * Options :
  *   --limit N        : limiter à N persos (debug)
  *   --delay MS       : délai inter-requêtes (def 350)
- *   --in PATH        : data/one-piece.json par défaut
+ *   --in PATH        : data/one-piece-anime.json par défaut
  *   --out PATH       : data/one-piece-wiki.csv par défaut
  *   --resume         : si CSV existe, ne re-fetch pas les ids déjà présents
  *   --names a,b,c    : forcer un sous-ensemble par id local (debug rapide)
@@ -20,7 +20,7 @@ import * as cheerio from "cheerio";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
-const DEFAULT_IN = path.join(ROOT, "data", "one-piece.json");
+const DEFAULT_IN = path.join(ROOT, "data", "one-piece-anime.json");
 const DEFAULT_OUT = path.join(ROOT, "data", "one-piece-wiki.csv");
 const DEFAULT_OVERRIDES = path.join(ROOT, "data", "one-piece-wiki-overrides.json");
 const DISCOVER_OUT = path.join(__dirname, "discovered-one-piece-fields.json");

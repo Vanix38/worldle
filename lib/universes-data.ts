@@ -68,13 +68,6 @@ function assetPath(relative: string): string {
   return base ? `${base}${relative.startsWith("/") ? relative : `/${relative}`}` : relative;
 }
 
-const FONT_EXTENSIONS: { ext: string; format: string }[] = [
-  { ext: "woff2", format: "woff2" },
-  { ext: "woff", format: "woff" },
-  { ext: "ttf", format: "truetype" },
-  { ext: "otf", format: "opentype" },
-];
-
 function detectImageInDir(dir: string, baseName: string, universeId: string): string | undefined {
   const extensions = ["webp", "png", "jpg", "svg", "ico"] as const;
   for (const ext of extensions) {
@@ -128,28 +121,6 @@ function detectLogo(universeId: string): string | undefined {
   return undefined;
 }
 
-function detectFont(universeId: string): UniverseData["font"] | undefined {
-  try {
-    const dir = path.join(PUBLIC_UNIVERSES_DIR, universeId);
-    if (!fs.existsSync(dir)) return undefined;
-    const files = fs.readdirSync(dir);
-    const family = `UniverseFont-${universeId.replace(/\W/g, "-")}`;
-    for (const { ext, format } of FONT_EXTENSIONS) {
-      const found = files.find((f) => f.toLowerCase().endsWith(`.${ext}`));
-      if (found) {
-        return {
-          url: assetPath(`/universes/${universeId}/${found}`),
-          family,
-          format,
-        };
-      }
-    }
-  } catch {
-    // ignore
-  }
-  return undefined;
-}
-
 function isValidUniverseJson(obj: unknown): obj is { id: string; name: string; characters: unknown[] } {
   if (!obj || typeof obj !== "object") return false;
   const o = obj as Record<string, unknown>;
@@ -166,12 +137,11 @@ export interface UniverseListItem {
   icon?: string;
   banner?: string;
   logo?: string;
-  font?: { url: string; family: string; format: string };
 }
 
 /**
  * Returns list of universes from JSON files in data/ that have id, name, and characters.
- * Includes icon, banner, and font when present in public/universes/{id}/.
+ * Includes icon and banner when present in public/universes/{id}/.
  * Only call from server (Node) / generateStaticParams / Server Components.
  */
 export function getUniverses(): UniverseListItem[] {
@@ -198,8 +168,6 @@ export function getUniverses(): UniverseListItem[] {
           if (banner) item.banner = banner;
           const logo = detectLogo(data.id);
           if (logo) item.logo = logo;
-          const font = detectFont(data.id);
-          if (font) item.font = font;
           result.push(item);
         }
       } catch {
@@ -227,7 +195,6 @@ export function getUniverseData(universeId: string): UniverseData | null {
     const characters = data.characters as Character[];
     const o = data as Record<string, unknown>;
     const backgroundImage = detectBackgroundImage(data.id);
-    const font = detectFont(data.id);
     const specificSymbols = readSpecificSymbols(data.id);
     const fieldMapping =
       o.fieldMapping && typeof o.fieldMapping === "object" && !Array.isArray(o.fieldMapping)
@@ -239,7 +206,6 @@ export function getUniverseData(universeId: string): UniverseData | null {
       characters,
       ...(fieldMapping && Object.keys(fieldMapping).length > 0 && { fieldMapping }),
       ...(backgroundImage && { backgroundImage }),
-      ...(font && { font }),
       schema: Array.isArray(o.schema) ? (o.schema as UniverseData["schema"]) : undefined,
       ...(specificSymbols.length > 0 && { specificSymbols }),
     };

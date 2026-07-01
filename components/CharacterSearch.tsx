@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import type { Character } from "@/types/game";
 import type { UniverseId } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
+import { useSpoilerProgress } from "@/contexts/SpoilerProgressContext";
 import { CharacterAvatar } from "./CharacterAvatar";
 import { stripAccents } from "@/lib/utils";
 
@@ -74,7 +75,8 @@ export function CharacterSearch({
   size = "sm",
   hideSuggestionAvatars = false,
 }: CharacterSearchProps) {
-  const { characters, searchFieldKeys } = useUniverseData();
+  const { searchFieldKeys } = useUniverseData();
+  const { playableCharacters } = useSpoilerProgress();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Character[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -88,13 +90,13 @@ export function CharacterSearch({
       setOpen(false);
       return;
     }
-    const list = searchCharacters(characters, query, searchFieldKeys).filter(
+    const list = searchCharacters(playableCharacters, query, searchFieldKeys).filter(
       (c) => !guessedIds.includes(c.id)
     );
     setResults(list);
     setSelectedIndex(0);
     setOpen(list.length > 0);
-  }, [query, characters, guessedIds, searchFieldKeys]);
+  }, [query, playableCharacters, guessedIds, searchFieldKeys]);
 
   useEffect(() => {
     if (!open || !listRef.current) return;

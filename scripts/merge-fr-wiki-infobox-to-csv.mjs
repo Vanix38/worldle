@@ -16,7 +16,7 @@ import * as cheerio from "cheerio";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const CSV_PATH = path.join(ROOT, "data", "one-piece-wiki-fixed.csv");
-const JSON_PATH = path.join(ROOT, "data", "one-piece.json");
+const JSON_PATH = path.join(ROOT, "data", "one-piece-anime.json");
 const OVERRIDES_PATH = path.join(ROOT, "data", "one-piece-wiki-overrides.json");
 const FR_API = "https://onepiece.fandom.com/fr/api.php";
 

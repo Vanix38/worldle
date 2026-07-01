@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import type { GameState, Character } from "@/types/game";
 import type { UniverseId } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
+import { useSpoilerProgress } from "@/contexts/SpoilerProgressContext";
 import { getFeedback } from "@/lib/compare";
 import type { AttributeFeedback } from "@/types/game";
 
@@ -50,16 +51,25 @@ export interface GuessRowData {
 
 export function useGameState(universeId: UniverseId) {
   const { characters, schema } = useUniverseData();
+  const { playableCharacters, hydrated: spoilerHydrated } = useSpoilerProgress();
   const [state, setState] = useState<GameState | null>(null);
 
   useEffect(() => {
+    if (!spoilerHydrated || playableCharacters.length === 0) return;
     const saved = loadState(universeId);
-    if (saved) {
+    if (saved && playableCharacters.some((c) => c.id === saved.targetId)) {
       setState(saved);
     } else {
-      setState(createNewGame(universeId, characters));
+      setState(createNewGame(universeId, playableCharacters));
     }
-  }, [universeId]); // eslint-disable-line react-hooks/exhaustive-deps -- only reset when universe changes
+  }, [universeId, spoilerHydrated, playableCharacters]);
+
+  useEffect(() => {
+    if (!state || !spoilerHydrated || playableCharacters.length === 0) return;
+    if (!playableCharacters.some((c) => c.id === state.targetId)) {
+      setState(createNewGame(universeId, playableCharacters));
+    }
+  }, [state, spoilerHydrated, playableCharacters, universeId]);
 
   useEffect(() => {
     if (state) saveState(state);
@@ -95,8 +105,9 @@ export function useGameState(universeId: UniverseId) {
   );
 
   const startNewGame = useCallback(() => {
-    setState(createNewGame(universeId, characters));
-  }, [universeId, characters]);
+    if (playableCharacters.length === 0) return;
+    setState(createNewGame(universeId, playableCharacters));
+  }, [universeId, playableCharacters]);
 
   return {
     state,

@@ -48,7 +48,7 @@ const DESCRIPTIONS = {
     earth: "Numéro de Terre ou filière du multivers (ex. 616).",
     univers: "Franchise ou label (MCU, etc.).",
   },
-  "one-piece": {
+  "one-piece-manga": {
     gender: "Genre du personnage.",
     age: "Âge en années ; la grille indique si l'âge est plus haut ou plus bas.",
     bounty: "Prime en berries ; comparaison numérique plus haut / plus bas.",
