@@ -120,11 +120,9 @@ export function cleanIndiceWikiText(raw) {
   return cleanWikiFieldValue(s);
 }
 
+import { extractEpisode2011, episodeLabel2011 } from "./hxh-first-appearance.mjs";
+
 export function normalizeFirstAppearance(raw) {
-  let s = String(raw || "").trim();
-  if (!s) return s;
-  s = s.replace(/Épisode/gi, "Episode");
-  s = s.replace(/Episode\s+(\d+)\s*\(\s*2011\s*\)/gi, "Episode $1 (2011)");
-  s = s.replace(/Episode\s+(\d+)\(2011\)/gi, "Episode $1 (2011)");
-  return s;
+  const ep = extractEpisode2011(raw);
+  return ep != null ? episodeLabel2011(ep) : "";
 }

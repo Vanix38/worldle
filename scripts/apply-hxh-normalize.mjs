@@ -94,7 +94,10 @@ for (const c of data.characters) {
   }
   if (c.firstAppearance) {
     const next = normalizeFirstAppearance(c.firstAppearance);
-    if (next !== c.firstAppearance) {
+    if (!next) {
+      delete c.firstAppearance;
+      stats.firstAppearance++;
+    } else if (next !== c.firstAppearance) {
       stats.firstAppearance++;
       c.firstAppearance = next;
     }

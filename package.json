@@ -16,6 +16,7 @@
     "build-hxh-aliases": "node scripts/build-hxh-aliases.mjs --from-wiki",
     "download-hxh-images": "node scripts/download-hxh-character-images.mjs --skip-existing",
     "normalize-hxh": "node scripts/apply-hxh-normalize.mjs",
+    "add-hxh-missing": "node scripts/add-hxh-missing-from-wiki.mjs",
     "extract-marvel-film-realities": "node scripts/extract-marvel-film-realities.mjs",
     "extract-marvel-wiki-characters-by-earth": "node scripts/extract-marvel-wiki-characters-by-earth.mjs",
     "download-naruto-images": "node scripts/download-naruto-character-images.mjs"

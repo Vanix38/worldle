@@ -15,7 +15,6 @@ import { mergeFirstAppearance } from "./hxh-first-appearance.mjs";
 import {
   cleanIndiceWikiText,
   cleanWikiFieldValue,
-  normalizeFirstAppearance,
   normalizeGenderDisplay,
   normalizeHxhStatus,
   normalizeNenType,
@@ -100,7 +99,7 @@ function parseArgv(argv) {
   return out;
 }
 
-function sleep(ms) {
+export function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
@@ -118,7 +117,7 @@ function stripGalleryFromInfoboxInner(inner) {
   return inner.replace(/<gallery>[\s\S]*?<\/gallery>/gi, "\n");
 }
 
-function extractInfoboxInner(wikitext) {
+export function extractInfoboxInner(wikitext) {
   let best = null;
   for (const marker of INFOBOX_MARKERS) {
     const pos = wikitext.indexOf(marker);
@@ -145,7 +144,7 @@ function extractInfoboxInner(wikitext) {
   return best;
 }
 
-function parseInfoboxParams(inner) {
+export function parseInfoboxParams(inner) {
   const params = {};
   let i = 0;
   const len = inner.length;
@@ -261,7 +260,7 @@ function wikiKeyToHeader(canonicalWikiKey) {
   return h.charAt(0).toUpperCase() + h.slice(1);
 }
 
-function canonicalizeParams(params) {
+export function canonicalizeParams(params) {
   const out = {};
   for (const [rawKey, rawVal] of Object.entries(params)) {
     const ck = normalizeWikiKey(rawKey);
@@ -322,7 +321,7 @@ function normalizeVersionedAttribute2011(raw) {
   return no1999.map(clean2011AttributeSegment).filter(Boolean).join(" / ") || "";
 }
 
-function titleToId(title) {
+export function titleToId(title) {
   return title
     .normalize("NFD")
     .replace(/\p{M}/gu, "")
@@ -337,7 +336,7 @@ function displayNameFromParams(params, pageTitle) {
   return pageTitle.replace(/_/g, " ");
 }
 
-function buildCharacter(pageTitle, params) {
+export function buildCharacter(pageTitle, params) {
   const canon = canonicalizeParams(params);
   const name = displayNameFromParams(canon, pageTitle);
   const char = { id: titleToId(pageTitle), name };
@@ -432,7 +431,7 @@ function buildCharacter(pageTitle, params) {
     delete char.ancAffiliation;
   }
   const firstAppearance = mergeFirstAppearance(mangaDebut, animeDebut);
-  if (firstAppearance) char.firstAppearance = normalizeFirstAppearance(firstAppearance);
+  if (firstAppearance) char.firstAppearance = firstAppearance;
   if (char.gender) char.gender = normalizeGenderDisplay(char.gender);
   if (char.status) char.status = normalizeHxhStatus(char.status);
   if (char.type) {
@@ -509,7 +508,7 @@ function presenceRates(characters, keys) {
   return rates;
 }
 
-function buildFieldPrevalence(characters, fieldMapping = {}) {
+export function buildFieldPrevalence(characters, fieldMapping = {}) {
   const keys = collectAllFieldKeys(characters, fieldMapping);
   return Object.fromEntries(
     Object.entries(presenceRates(characters, keys)).sort((a, b) => b[1] - a[1]),
@@ -541,7 +540,7 @@ function recalcPrevalence(opts) {
   printFieldPrevalence(fieldPrevalence, characters.length);
 }
 
-async function fetchCategoryTitles(limit, delay) {
+export async function fetchCategoryTitles(limit, delay) {
   const titles = [];
   let cmcontinue;
   do {
@@ -566,7 +565,7 @@ async function fetchCategoryTitles(limit, delay) {
   return titles.slice(0, limit);
 }
 
-async function fetchWikitext(title) {
+export async function fetchWikitext(title) {
   const data = await fetchJson({
     action: "parse",
     page: title,
@@ -675,17 +674,22 @@ async function scrape(opts) {
   console.log("Characters:", characters.length, "| Fields:", jsonKeys.length, "| ok", ok, "skip", skipped, "fail", fail);
 }
 
-const opts = parseArgv(process.argv);
-if (opts.recalcPrevalence) {
-  try {
-    recalcPrevalence(opts);
-  } catch (e) {
-    console.error(e);
-    process.exit(1);
+const isMain =
+  process.argv[1] && path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1]);
+
+if (isMain) {
+  const opts = parseArgv(process.argv);
+  if (opts.recalcPrevalence) {
+    try {
+      recalcPrevalence(opts);
+    } catch (e) {
+      console.error(e);
+      process.exit(1);
+    }
+  } else {
+    scrape(opts).catch((e) => {
+      console.error(e);
+      process.exit(1);
+    });
   }
-} else {
-  scrape(opts).catch((e) => {
-    console.error(e);
-    process.exit(1);
-  });
 }

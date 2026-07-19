@@ -16,7 +16,20 @@ const ROOT = path.join(__dirname, "..");
 const DATA_JSON = path.join(ROOT, "data", "hunterxhunter.json");
 const OUT_DIR = path.join(ROOT, "public", "universes", "hunterxhunter", "characters");
 const API = "https://hunterxhunter.fandom.com/fr/api.php";
+const API_EN = "https://hunterxhunter.fandom.com/api.php";
 const LIST_PAGE = "Liste des personnages d'Hunter x Hunter";
+
+async function fetchJsonFrom(api, params) {
+  const u = new URL(api);
+  for (const [k, v] of Object.entries(params)) u.searchParams.set(k, String(v));
+  const res = await fetch(u, { headers: { "User-Agent": "worldle-hxh-images/1.0 (local)" } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
+async function fetchJson(params) {
+  return fetchJsonFrom(API, params);
+}
 
 function parseArgs(argv) {
   const out = { delay: 300, limit: Infinity, skipExisting: false };
@@ -51,14 +64,6 @@ function normLabel(s) {
     .replace(/[^a-zA-Z0-9]+/g, " ")
     .trim()
     .toLowerCase();
-}
-
-async function fetchJson(params) {
-  const u = new URL(API);
-  for (const [k, v] of Object.entries(params)) u.searchParams.set(k, String(v));
-  const res = await fetch(u, { headers: { "User-Agent": "worldle-hxh-images/1.0 (local)" } });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.json();
 }
 
 /** wikiTitle → nom de fichier (sans préfixe Fichier:). */
@@ -121,8 +126,8 @@ async function getImageDownloadUrl(fileName) {
   return page.imageinfo?.[0]?.url || null;
 }
 
-async function getPageThumbnailUrl(pageTitle) {
-  const data = await fetchJson({
+async function getPageThumbnailUrl(pageTitle, api = API) {
+  const data = await fetchJsonFrom(api, {
     action: "query",
     titles: pageTitle,
     prop: "pageimages",
@@ -155,10 +160,30 @@ async function downloadFile(url, dest) {
 }
 
 function existsAnyExtension(id) {
-  for (const ext of [".webp", ".png", ".jpg", ".jpeg"]) {
+  for (const ext of [".webp", ".png", ".jpg", ".jpeg", ".gif"]) {
     if (fs.existsSync(path.join(OUT_DIR, `${id}${ext}`))) return true;
   }
   return false;
+}
+
+/** Titres wiki candidats pour pageimages (sans toucher aux fichiers existants). */
+function candidatePageTitles(ch) {
+  const titles = [];
+  const push = (t) => {
+    const s = String(t || "").trim();
+    if (s && !titles.includes(s)) titles.push(s);
+  };
+  push(ch.name);
+  if (ch.aliases) for (const a of ch.aliases) push(a);
+  // id kebab → Title Case approximatif (maha-zoldik → Maha Zoldik)
+  push(
+    String(ch.id || "")
+      .split("-")
+      .filter(Boolean)
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" "),
+  );
+  return titles;
 }
 
 function buildLookup(characters, listMap) {
@@ -250,8 +275,18 @@ async function main() {
       }
 
       if (!url) {
-        url = await getPageThumbnailUrl(ch.name);
-        await sleep(opts.delay);
+        for (const title of candidatePageTitles(ch)) {
+          url = await getPageThumbnailUrl(title, API);
+          await sleep(Math.min(opts.delay, 150));
+          if (url) break;
+        }
+      }
+      if (!url) {
+        for (const title of candidatePageTitles(ch)) {
+          url = await getPageThumbnailUrl(title, API_EN);
+          await sleep(Math.min(opts.delay, 150));
+          if (url) break;
+        }
       }
 
       if (!url) {
@@ -262,9 +297,10 @@ async function main() {
 
       const ext = extFromUrl(url);
       const dest = path.join(OUT_DIR, `${id}${ext}`);
-      for (const oldExt of [".webp", ".png", ".jpg", ".jpeg"]) {
-        const p = path.join(OUT_DIR, `${id}${oldExt}`);
-        if (p !== dest && fs.existsSync(p)) fs.unlinkSync(p);
+      // Ne jamais écraser un fichier déjà présent pour cet id
+      if (existsAnyExtension(id)) {
+        skip++;
+        continue;
       }
       await downloadFile(url, dest);
       ok++;

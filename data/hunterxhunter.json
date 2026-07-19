@@ -24,6 +24,33 @@
       "description": "Vivant, Mort ou Inconnu (décédé, arrêté, statuts spéciaux wiki regroupés).",
       "columnWidth": "small"
     },
+    "role": {
+      "header": "Rôle",
+      "fonction": "Classique",
+      "columnWidth": "small",
+      "order": [
+        "Protagoniste",
+        "Deuteragoniste",
+        "Tritagoniste",
+        "Antagoniste Majeur",
+        "Antagoniste Secondaire",
+        "Fonctionnel"
+      ],
+      "description": "Importance narrative : Protagoniste, Deuteragoniste, Tritagoniste, Antagoniste Majeur, Antagoniste Secondaire, Fonctionnel."
+    },
+    "difficulte": {
+      "header": "Difficulté",
+      "fonction": "Comparaison",
+      "columnWidth": "small",
+      "order": [
+        "Très facile",
+        "Facile",
+        "Moyen",
+        "Difficile",
+        "Impossible"
+      ],
+      "description": "Facilité à deviner le personnage (notoriété). Ordre : Très facile → Facile → Moyen → Difficile → Impossible."
+    },
     "type": {
       "header": "Type Nen",
       "fonction": "Classique",
@@ -85,15 +112,17 @@
   "fieldPrevalence": {
     "gender": 1,
     "status": 1,
+    "role": 1,
+    "difficulte": 1,
     "arc": 1,
-    "occupation": 0.89375,
-    "indice1": 0.85625,
-    "yeux": 0.79375,
-    "aliases": 0.4875,
-    "type": 0.38125,
-    "indice2": 0.35625,
-    "affiliation": 0.325,
-    "indice3": 0.3
+    "occupation": 0.9005847953216374,
+    "indice1": 0.8654970760233918,
+    "yeux": 0.8070175438596491,
+    "aliases": 0.5497076023391813,
+    "type": 0.42105263157894735,
+    "indice2": 0.38011695906432746,
+    "affiliation": 0.3684210526315789,
+    "indice3": 0.3508771929824561
   },
   "wikiInfoboxKeys": [
     "affiliation",
@@ -117,10 +146,12 @@
       "name": "Abe",
       "gender": "Femme",
       "status": "Vivant",
-      "indice3": "Mito, Jin, Gon",
       "indice1": "Gris",
+      "indice3": "Mito, Jin, Gon",
+      "firstAppearance": "Épisode 1",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 1 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "abengane",
@@ -130,24 +161,15 @@
       "status": "Vivant",
       "occupation": "Exorciste",
       "type": "Matérialisation",
+      "indice1": "Noirs",
+      "indice2": "Exorcisme",
+      "firstAppearance": "Épisode 60",
       "aliases": [
         "Abengane"
       ],
-      "indice2": "Exorcisme",
-      "indice1": "Noirs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
-    },
-    {
-      "id": "agent-de-l-association-hunter",
-      "name": "Agent de l'association Hunter",
-      "gender": "Femme",
-      "yeux": "Roses",
-      "status": "Vivant",
-      "occupation": "association Hunter",
-      "indice1": "Violets",
-      "arc": "Arène du Ciel",
-      "firstAppearance": "Manga : Chapitre 51 · Anime (2011) : Episode 39 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "agon",
@@ -158,7 +180,9 @@
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Gris",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "amana",
@@ -169,7 +193,9 @@
       "occupation": "Joueuse de Greed Island",
       "indice1": "Noirs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 154 · Anime (2011) : Episode 67 (2011)"
+      "firstAppearance": "Épisode 67",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "amane",
@@ -181,7 +207,9 @@
       "indice3": "Tsubone",
       "indice1": "Noirs",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 324 · Anime (2011) : Episode 140 (2011)"
+      "firstAppearance": "Épisode 140",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "amori",
@@ -191,18 +219,10 @@
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Bruns Clairs",
+      "firstAppearance": "Épisode 3",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
-    },
-    {
-      "id": "amour-de-battera",
-      "name": "Amour de Battera",
-      "gender": "Femme",
-      "yeux": "Marrons",
-      "status": "Inconnu",
-      "indice1": "Bruns",
-      "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 174 · Anime (2011) : Episode 73 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "aruka-zoldik",
@@ -220,18 +240,9 @@
       "indice3": "Maha, Zeno, Silva, Kikyo, Irumi, Miruki, Kirua, Karuto, Nanika",
       "indice1": "Noir",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 229 (Photo), Chapitre 321 (Officielle) · Anime (2011) : Episode 97 (Photo) / Episode 138 (Officielle)"
-    },
-    {
-      "id": "assassin-a",
-      "name": "Assassin A",
-      "gender": "Homme",
-      "yeux": "Bleus",
-      "status": "Inconnu",
-      "occupation": "Assassin",
-      "indice1": "Bruns",
-      "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 95 · Anime (2011) : Episode 51 (2011)"
+      "firstAppearance": "Épisode 138",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "asuta",
@@ -242,7 +253,9 @@
       "occupation": "Joueuse de Greed Island",
       "indice1": "Oranges",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 133 · Anime (2011) : Episode 62 (2011)"
+      "firstAppearance": "Épisode 62",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "banana-kavaro",
@@ -253,7 +266,9 @@
       "occupation": "Hunter amateur",
       "indice1": "Pêche",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 77"
+      "firstAppearance": "Épisode 77",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "bara",
@@ -265,21 +280,25 @@
       "indice3": "Genthru, Sabu",
       "indice1": "brun",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 143 · Anime (2011) : Episode 63 (2011)"
+      "firstAppearance": "Épisode 63",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "barbon",
       "name": "Barbon",
       "gender": "Homme",
       "yeux": "Noirs",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Charmeur de serpents / Candidat à l'examen Hunter",
+      "indice1": "Noirs",
+      "firstAppearance": "Épisode 3",
       "aliases": [
         "Bābon"
       ],
-      "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "beans",
@@ -294,19 +313,9 @@
       ],
       "indice3": "Isaac Netero",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3 (2011)"
-    },
-    {
-      "id": "bennie-doron",
-      "name": "Bennie Doron",
-      "gender": "Homme",
-      "status": "Inconnu",
-      "aliases": [
-        "Ben’nī Doron"
-      ],
-      "occupation": "Tueur à gages ; Forgeur de sabres",
-      "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 85 · Anime (2011) : Episode 48 (2011) (Mentionné indirectement)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Facile"
     },
     {
       "id": "binolt",
@@ -322,7 +331,9 @@
       "indice2": "Scissor Hands",
       "indice1": "Rouges",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 137 · Anime (2011) : Episode 63 (2011)"
+      "firstAppearance": "Épisode 63",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Moyen"
     },
     {
       "id": "biscuit-kruger",
@@ -340,7 +351,9 @@
       "indice2": "Kukki l'esthéticienne magicienne",
       "indice1": "Blonds",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+      "firstAppearance": "Épisode 60",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "bodoro",
@@ -351,18 +364,22 @@
       "occupation": "Artiste Martial / Candidat à l'examen Hunter",
       "indice1": "Gris",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "boki",
       "name": "Boki",
       "gender": "Homme",
       "yeux": "Violets",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Soldat Kimera Ant",
       "type": "Manipulation",
+      "firstAppearance": "Épisode 96",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 226 · Anime (2011) : Episode 96 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "bonorenof-ndongo",
@@ -377,7 +394,9 @@
       ],
       "indice2": "Battle Cantabile : Prologue / Battle Cantabile : Jupiter",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+      "firstAppearance": "Épisode 41",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "buhara",
@@ -388,7 +407,9 @@
       "occupation": "Hunter Gourmet",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 10 · Anime (2011) : Episode 6 (2011)"
+      "firstAppearance": "Épisode 6",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "burovuta",
@@ -400,7 +421,9 @@
       "indice2": "mitraillettes aux poings",
       "indice1": "chauve",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 188 · Anime (2011) : Episode 78"
+      "firstAppearance": "Épisode 78",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "bushidora-ambitious",
@@ -416,35 +439,25 @@
       "indice3": "Teradin, Loupe",
       "indice1": "Marron",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 326 · Anime (2011) : Episode 141 (2011)"
-    },
-    {
-      "id": "capitaine",
-      "name": "Capitaine",
-      "gender": "Homme",
-      "yeux": "Marrons",
-      "status": "Vivant",
-      "occupation": "Capitaine / Examinateur",
-      "aliases": [
-        "Senchō"
-      ],
-      "indice1": "Gris",
-      "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 2 · Anime (2011) : Episode 1 (2011)"
+      "firstAppearance": "Épisode 141",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "cherry",
       "name": "Cherry",
       "gender": "Homme",
       "yeux": "Noirs",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Artiste martial",
+      "indice1": "Noirs",
+      "firstAppearance": "Épisode 5",
       "aliases": [
         "Cheri"
       ],
-      "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 5 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "cocco",
@@ -453,12 +466,14 @@
       "yeux": "Marrons",
       "status": "Vivant",
       "occupation": "Pésentatrice de la Tour Céleste",
+      "indice1": "Orange",
+      "firstAppearance": "Épisode 27",
       "aliases": [
         "kokko"
       ],
-      "indice1": "Orange",
       "arc": "Arène du Ciel",
-      "firstAppearance": "Manga : Chapitre 45 · Anime (2011) : Episode 27 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "coco-chan",
@@ -472,31 +487,9 @@
       ],
       "indice1": "Oranges clairs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 39 · Anime (2011) : Episode 22 (2011)"
-    },
-    {
-      "id": "commissaire-priseur",
-      "name": "Commissaire-priseur",
-      "gender": "Femme",
-      "yeux": "Oranges",
-      "status": "Vivant",
-      "occupation": "Commissaire-priseur des actions de Southernpiece",
-      "indice1": "Violets",
-      "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 120, Chapitre 121 · Anime (2011) : Episode 59 (2011)"
-    },
-    {
-      "id": "crapaud",
-      "name": "Crapaud",
-      "gender": "Homme",
-      "yeux": "Jaunes",
-      "status": "Inconnu",
-      "occupation": "Soldat Kimera Ant",
-      "aliases": [
-        "Kaeru"
-      ],
-      "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 188 · Anime (2011) : Episode 78 (2011)"
+      "firstAppearance": "Épisode 22",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "darzolne",
@@ -510,7 +503,9 @@
       "occupation": "Chef des gardes du corps de Neon",
       "indice1": "Noirs",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 39"
+      "firstAppearance": "Épisode 39",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "djido",
@@ -526,7 +521,9 @@
       "indice2": "Arbalète à griffes / Monroe Walk",
       "indice1": "Violet",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 78 (2011)"
+      "firstAppearance": "Épisode 78",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "eather",
@@ -541,7 +538,9 @@
       "indice3": "Elena (Soeur jumelle)",
       "indice1": "Blancs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 127 · Anime (2011) : Episode 60 (2011)"
+      "firstAppearance": "Épisode 60",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "elena",
@@ -550,13 +549,15 @@
       "yeux": "Roses",
       "status": "Vivant",
       "occupation": "Game Master",
+      "indice1": "Blancs",
+      "indice3": "Eather(Soeur jumelle)",
+      "firstAppearance": "Épisode 65",
       "aliases": [
         "Erena"
       ],
-      "indice3": "Eather(Soeur jumelle)",
-      "indice1": "Blancs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 146 · Anime (2011) : Episode 65 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "elisa",
@@ -571,7 +572,9 @@
       "indice3": "Sukuwara",
       "indice1": "Violets",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 41 (2011)"
+      "firstAppearance": "Épisode 41",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "feitan-portor",
@@ -588,7 +591,9 @@
       "indice2": "Pain Packer / Rising Sun",
       "indice1": "Noir",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "franklin-bordeaux",
@@ -604,7 +609,31 @@
       "indice2": "Double Machine Gun",
       "indice1": "Bruns",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
+    },
+    {
+      "id": "frere-oroso",
+      "name": "Frère Oroso",
+      "gender": "Homme",
+      "yeux": "Jaunes",
+      "status": "Mort",
+      "affiliation": "Fourmis chimères, Escouade de Léol",
+      "occupation": "Capitaine Fourmi chimère",
+      "type": "Inconnu",
+      "aliases": [
+        "Oroso (frère)",
+        "Ortho Brother",
+        "オロソ兄"
+      ],
+      "indice2": "Darts De Darts (lancer de fléchettes)",
+      "indice3": "Sœur Oroso, Kobarn, Kirua Zoldik, Furatta, Léol",
+      "indice1": "Blonds",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 101",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "fukuro",
@@ -620,18 +649,9 @@
       "occupation": "Garde du corps",
       "indice2": "Fun Fun Cloth",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 74 · Anime (2011) : Episode 43 (2011)"
-    },
-    {
-      "id": "fumi",
-      "name": "Fumi",
-      "gender": "Femme",
-      "yeux": "Bruns foncés",
-      "status": "Vivant",
-      "occupation": "Réceptionniste",
-      "indice1": "Violets",
-      "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 85 · Anime (2011) : Episode 48 (2011)"
+      "firstAppearance": "Épisode 43",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "furatta",
@@ -645,7 +665,9 @@
       "indice3": "Léol, Hirin, Djido",
       "indice1": "Noirs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 81 (2011)"
+      "firstAppearance": "Épisode 81",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "gashita-bellam",
@@ -657,7 +679,9 @@
       "indice3": "Zetsuku Bellam",
       "indice1": "Noirs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+      "firstAppearance": "Épisode 60",
+      "role": "Tritagoniste",
+      "difficulte": "Difficile"
     },
     {
       "id": "gereta",
@@ -668,7 +692,9 @@
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "geru",
@@ -683,7 +709,9 @@
       ],
       "indice1": "Noirs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 137"
+      "firstAppearance": "Épisode 137",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "ging-freecss",
@@ -701,7 +729,9 @@
       "indice3": "Gon Freecss, Mito Freecss, Abe Freecss",
       "indice1": "Noir",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 37 (2011)"
+      "firstAppearance": "Épisode 37",
+      "role": "Tritagoniste",
+      "difficulte": "Très facile"
     },
     {
       "id": "gon-freecss",
@@ -718,18 +748,9 @@
       "indice3": "Jin Freecss, Mito Freecss, Abe Freecss",
       "indice1": "Noir verdâtre",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 0 / Episode 1"
-    },
-    {
-      "id": "gorille",
-      "name": "Gorille",
-      "gender": "Homme",
-      "yeux": "Noirs",
-      "status": "Inconnu",
-      "occupation": "Soldat Kimera Ant",
-      "indice1": "Marrons",
-      "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 225 · Anime (2011) : Episode 96 (2011)"
+      "firstAppearance": "Épisode 0",
+      "role": "Protagoniste",
+      "difficulte": "Très facile"
     },
     {
       "id": "goto",
@@ -746,7 +767,9 @@
       "indice2": "Balles de pièces de monnaie",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 40 · Anime (2011) : Episode 22 (2011)"
+      "firstAppearance": "Épisode 22",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "gozu",
@@ -757,16 +780,9 @@
       "occupation": "Guerrier de Bianu, Mercenaire",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
-    },
-    {
-      "id": "grand-mere-galaxy",
-      "name": "Grand-mère Galaxy",
-      "gender": "Femme",
-      "status": "Inconnu",
-      "occupation": "Voyante / Escroc",
-      "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 96 · Anime (2011) : Episode 51 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "hanzo",
@@ -779,7 +795,9 @@
         "Hanzō"
       ],
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3"
+      "firstAppearance": "Épisode 3",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "haruna",
@@ -788,10 +806,12 @@
       "yeux": "Verts olives",
       "status": "Vivant",
       "occupation": "Mère",
-      "indice3": "Reina(fille) / Kuruto(Fils) / Shidore(Reincarnation de Reina) / Koruto(Reincarnation de Kuruto)",
       "indice1": "Prunes",
+      "indice3": "Reina(fille) / Kuruto(Fils) / Shidore(Reincarnation de Reina) / Koruto(Reincarnation de Kuruto)",
+      "firstAppearance": "Épisode 77",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 215 · Anime (2011) : Episode 77"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "hina",
@@ -807,21 +827,25 @@
       "indice2": "Exorcisme",
       "indice1": "Blonds",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 81 (2011)"
+      "firstAppearance": "Épisode 81",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "hisaku",
       "name": "Hisaku",
       "gender": "Homme",
       "yeux": "Noirs",
-      "status": "Inconnu",
+      "status": "Mort",
+      "occupation": "Joueur de Greed Island",
+      "indice1": "Noirs",
+      "firstAppearance": "Épisode 60",
       "aliases": [
         "Pisaku"
       ],
-      "occupation": "Joueur de Greed Island",
-      "indice1": "Noirs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : chapitre 132 · Anime (2011) : Episode 60 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "hisoka-morow",
@@ -839,7 +863,30 @@
       "indice2": "Bungie Gum / Texture trompeuse",
       "indice1": "Rouge orangé",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3"
+      "firstAppearance": "Épisode 3",
+      "role": "Deuteragoniste",
+      "difficulte": "Très facile"
+    },
+    {
+      "id": "ikarugo",
+      "name": "Ikarugo",
+      "gender": "Homme",
+      "yeux": "Turquoise",
+      "status": "Vivant",
+      "affiliation": "Équipe d'extermination des Fourmis chimères",
+      "occupation": "Soldat Kimera Ant, Ex-capitaine",
+      "type": "Renforcement",
+      "aliases": [
+        "Ikalgo",
+        "イカルゴ"
+      ],
+      "indice2": "Poupées vivantes / Fleadom",
+      "indice3": "Kirua Zoldik, Koruto, Reine des Fourmis chimères",
+      "indice1": "Aucun",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 100",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "imori",
@@ -849,19 +896,33 @@
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Bruns clairs",
+      "firstAppearance": "Épisode 3",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
-      "id": "interprete-de-ngl",
-      "name": "Interprète de NGL",
-      "gender": "Femme",
-      "yeux": "Verts",
+      "id": "irumi-zoldik",
+      "name": "Irumi Zoldik",
+      "gender": "Homme",
+      "yeux": "Noirs",
       "status": "Vivant",
-      "occupation": "Interprète",
-      "indice1": "Bleus",
-      "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 190 · Anime (2011) : Episode 80 (2011)"
+      "affiliation": "Famille Zoldik, Brigade Fantôme, Association Hunter",
+      "occupation": "Assassin Zoldik, Hunter, Membre n°11 Brigade Fantôme",
+      "type": "Manipulation",
+      "aliases": [
+        "Illumi Zoldyck",
+        "Gitarakuru",
+        "Illu",
+        "イルミゾルディック"
+      ],
+      "indice2": "Needle Men / Déguisement / Regard hypnotique",
+      "indice3": "Silva Zoldik, Kikyô Zoldik, Kirua Zoldik, Miruki Zoldik, Kuroro Lucifer, Hisoka",
+      "indice1": "Noirs",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Épisode 15",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Très facile"
     },
     {
       "id": "isaac-netero",
@@ -879,7 +940,9 @@
       "indice2": "Hyakushiki Kannon",
       "indice3": "Beyond Netero",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 12 · Anime (2011) : Episode 6 (2011)"
+      "firstAppearance": "Épisode 6",
+      "role": "Deuteragoniste",
+      "difficulte": "Très facile"
     },
     {
       "id": "isaku",
@@ -889,22 +952,26 @@
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
       "indice1": "Gris",
+      "firstAppearance": "Épisode 61",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 130 · Anime (2011) : Episode 61 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "iwalenkov",
       "name": "Iwalenkov",
       "gender": "Homme",
       "yeux": "Verts",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Hunter / Garde du corps",
+      "indice1": "Bruns",
+      "firstAppearance": "Épisode 41",
       "aliases": [
         "Iwarenkofu"
       ],
-      "indice1": "Bruns",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "jeitosari",
@@ -913,21 +980,25 @@
       "yeux": "Verts foncés",
       "status": "Inconnu",
       "indice1": "Noirs",
+      "firstAppearance": "Épisode 59",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 121 · Anime (2011) : Episode 59 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "jito",
       "name": "Jito",
       "gender": "Homme",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Joueur de Greed Island",
+      "indice1": "Noirs",
+      "firstAppearance": "Épisode 60",
       "aliases": [
         "Jiito"
       ],
-      "indice1": "Noirs",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "kaito",
@@ -941,7 +1012,9 @@
       ],
       "indice2": "Crazy Slot",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 76"
+      "firstAppearance": "Épisode 76",
+      "role": "Deuteragoniste",
+      "difficulte": "Très facile"
     },
     {
       "id": "kanaria",
@@ -950,7 +1023,9 @@
       "status": "Vivant",
       "occupation": "Apprentie Majordome des Zoldiks",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 41 · Anime (2011) : Episode 23 (2011)"
+      "firstAppearance": "Épisode 23",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "kara",
@@ -961,7 +1036,9 @@
       "occupation": "Hunter",
       "indice1": "Rouges",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 22 (comme esquisse) / Chapitre 23 · Anime (2011) : Episode 14 (2011)"
+      "firstAppearance": "Épisode 14",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "karuto-zoldik",
@@ -981,7 +1058,9 @@
       "indice3": "Maha Zoldik, Zzigg Zoldik, Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 41 · Anime (2011) : Episode 23 (2011)"
+      "firstAppearance": "Épisode 23",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "kastro",
@@ -997,18 +1076,22 @@
       "indice2": "Morsure du tigre, DoppelGanger, Véritable morsure du tigre",
       "indice1": "Blancs",
       "arc": "Arène du Ciel",
-      "firstAppearance": "Manga : Chapitre 52 · Anime (2011) : Episode 31 (2011)"
+      "firstAppearance": "Épisode 31",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "kasuga",
       "name": "Kasuga",
       "gender": "Femme",
       "yeux": "Violets clairs",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Zoldik",
       "indice1": "Verts-gris",
+      "firstAppearance": "Épisode 138",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 322 · Anime (2011) : Episode 138 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "kenmi",
@@ -1017,16 +1100,20 @@
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Noirs",
+      "firstAppearance": "Épisode 26",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 11 · Anime (2011) : Episode 26 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "kenzaki",
       "name": "Kenzaki",
       "gender": "Homme",
-      "status": "Inconnu",
+      "status": "Mort",
+      "firstAppearance": "Épisode 143",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 329 · Anime (2011) : Episode 143"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "kikyo-zoldik",
@@ -1043,31 +1130,9 @@
       "indice3": "Maha, Zeno, Silva, Irumi, Miruki, Kirua, Aruka, Karuto",
       "indice1": "Noir",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 41 · Anime (2011) : Episode 23 (2011)"
-    },
-    {
-      "id": "kimera-ant-chauve-souris",
-      "name": "Kimera Ant chauve-souris",
-      "gender": "Femme",
-      "status": "Vivant",
-      "occupation": "Soldat Kimera Ant",
-      "type": "Émission",
-      "indice2": "Nose Dive(Renforcement) / Secret Noise(Emission)",
-      "indice3": "Reine Kimera Ant(Mère)",
-      "indice1": "Lilas",
-      "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 231 · Anime (2011) : Episode 98 (2011)"
-    },
-    {
-      "id": "kimera-ant-moustique",
-      "name": "Kimera Ant Moustique",
-      "gender": "Femme",
-      "yeux": "Noirs",
-      "status": "Inconnu",
-      "occupation": "Soldat Kimera Ant",
-      "indice1": "Blonds sale",
-      "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 80 (2011)"
+      "firstAppearance": "Épisode 23",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "kirua-zoldik",
@@ -1087,7 +1152,9 @@
       "indice3": "Maha, Zzigg, Zeno, Silva, Kikyo, Irumi, Miruki, Aruka, Karuto",
       "indice1": "Blanc gris",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3"
+      "firstAppearance": "Épisode 3",
+      "role": "Protagoniste",
+      "difficulte": "Très facile"
     },
     {
       "id": "knuckle-bine",
@@ -1103,7 +1170,9 @@
       "indice2": "Hakoware",
       "indice1": "Noirs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 200 · Anime (2011) : Episode 86"
+      "firstAppearance": "Épisode 86",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "koala",
@@ -1114,7 +1183,9 @@
       "occupation": "Au service de Kaito / Anciennement soldat Kimera Ant",
       "indice1": "Rose (son pelage)",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 189 · Anime (2011) : Episode 79"
+      "firstAppearance": "Épisode 79",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "komugi",
@@ -1132,16 +1203,42 @@
       "indice3": "Meruem (petit ami)",
       "indice1": "Blancs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 244 · Anime (2011) : Episode 102 (2011)"
+      "firstAppearance": "Épisode 102",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "koruko",
       "name": "Koruko",
       "gender": "Femme",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Reine",
+      "firstAppearance": "Épisode 42",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 72 · Anime (2011) : Episode 42 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
+    },
+    {
+      "id": "koruto",
+      "name": "Koruto",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "affiliation": "Fourmis chimères, NGL",
+      "occupation": "Chef d'escadron Kimera Ant, Gardien de Kaito",
+      "type": "Inconnu",
+      "aliases": [
+        "Colt",
+        "Kuruto",
+        "Kurt",
+        "コルト"
+      ],
+      "indice3": "Haruna, Reina, Shidore, Kuruto, Reine des Fourmis chimères, Pegui, Ramotto",
+      "indice1": "Noirs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 77",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "korutopi-tonofumeiru",
@@ -1157,7 +1254,31 @@
       "indice2": "''Gallery Fake''",
       "indice1": "Bleu pâle",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
+    },
+    {
+      "id": "kurapika",
+      "name": "Kurapika",
+      "gender": "Homme",
+      "yeux": "Gris (2011) / Rouges (pupilles écarlates)",
+      "status": "Vivant",
+      "affiliation": "Association Hunter, Zodiaques, Clan Kuruta, Division du renseignement",
+      "occupation": "Blacklist Hunter, Zodiaque (Rat), Chef du Clan Nostrad",
+      "type": "Matérialisation",
+      "aliases": [
+        "Le type à la chaîne",
+        "Pupille écarlate",
+        "クラピカ"
+      ],
+      "indice2": "Holy Chain / Steal Chain / Chain Jail / Judgment Chain / Emperor Time",
+      "indice3": "Gon Freecss, Kirua Zoldik, Leolio Paradinaito, Pairo, Clan Kuruta, Kuroro Lucifer",
+      "indice1": "Blonds",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Épisode 1",
+      "role": "Protagoniste",
+      "difficulte": "Très facile"
     },
     {
       "id": "kuroro-lucifer",
@@ -1173,7 +1294,9 @@
       ],
       "indice2": "'''Skill Hunter'''",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Très facile"
     },
     {
       "id": "kyu",
@@ -1184,7 +1307,9 @@
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Bordeaux",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 12 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "leolio-paradinaito",
@@ -1204,16 +1329,41 @@
       "indice2": "Warping Punch / Ultrasons",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 2 · Anime (2011) : Episode 1 (2011)"
+      "firstAppearance": "Épisode 1",
+      "role": "Protagoniste",
+      "difficulte": "Très facile"
+    },
+    {
+      "id": "leoru",
+      "name": "Leoru",
+      "gender": "Homme",
+      "yeux": "Blancs",
+      "status": "Mort",
+      "affiliation": "Fourmis chimères, Division d'attaque de Leoru",
+      "occupation": "Chef d'escadron, Commandant de division",
+      "type": "Spécialisation",
+      "aliases": [
+        "Hagya",
+        "レオル"
+      ],
+      "indice2": "Rental Pod",
+      "indice3": "Furatta, Hirin, Djido, Neferupito, Reine des Fourmis chimères",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 81",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Moyen"
     },
     {
       "id": "maenore",
       "name": "Maenore",
       "gender": "Homme",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Soldat Kimera Ant",
+      "firstAppearance": "Épisode 105",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 261 · Anime (2011) : Episode 105 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "maha-zoldik",
@@ -1224,22 +1374,26 @@
       "occupation": "Assassin",
       "type": "Renforcement",
       "affiliation": "Brigade Fantôme, Famille Zoldik",
+      "indice3": "Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "firstAppearance": "Épisode 141",
       "aliases": [
         "Maha Zorudikku"
       ],
-      "indice3": "Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 39, Chapitre 100 · Anime (2011) : Episode 141 (2011) (diagramme des relations Zoldik)"
+      "role": "Fonctionnel",
+      "difficulte": "Facile"
     },
     {
       "id": "masuta",
       "name": "Masuta",
-      "status": "Vivant",
       "gender": "Homme",
       "occupation": "Examinateur Hunter",
       "indice1": "Noirs",
+      "firstAppearance": "Épisode 17",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 33 · Anime (2011) : Episode 17 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible",
+      "status": "Inconnu"
     },
     {
       "id": "meleolon",
@@ -1258,7 +1412,9 @@
       "indice2": "Plan infaillible / Le Complice de Dieu",
       "indice1": "Blonds",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 189 · Anime (2011) : Episode 79 (2011)"
+      "firstAppearance": "Épisode 79",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "menchi",
@@ -1269,18 +1425,9 @@
       "occupation": "Hunter",
       "indice1": "Turquins",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 10 · Anime (2011) : Episode 6 (2011)"
-    },
-    {
-      "id": "meneuse-des-danseuses-de-goruto-est",
-      "name": "Meneuse des danseuses du Gorutô Est",
-      "gender": "Femme",
-      "yeux": "Verts",
-      "status": "Inconnu",
-      "occupation": "Danseuse",
-      "indice1": "Bruns",
-      "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 216 · Anime (2011) : Episode 93 (2011)"
+      "firstAppearance": "Épisode 6",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "meruem",
@@ -1297,7 +1444,9 @@
       "indice2": "Nen Eater / Metamorphose / Rage Blast / Photon",
       "indice3": "Reine, Neferupito, Shauapufu, Montutyupi",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 213 · Anime (2011) : Episode 91"
+      "firstAppearance": "Épisode 91",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Très facile"
     },
     {
       "id": "mike",
@@ -1311,18 +1460,22 @@
       ],
       "indice1": "Mauves",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 39 · Anime (2011) : Episode 22 (2011)"
+      "firstAppearance": "Épisode 22",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "mikuri",
       "name": "Mikuri",
       "gender": "Femme",
       "yeux": "Gris",
-      "status": "Inconnu",
+      "status": "Mort",
       "occupation": "Joueuse de Greed Island",
       "indice1": "Rouges",
+      "firstAppearance": "Épisode 60",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "mimizu",
@@ -1336,7 +1489,9 @@
       "affiliation": "Bêtes de l'Ombre, Dix parrains",
       "occupation": "Garde du corps",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 75 · Anime (2011) : Episode 43 (2011)"
+      "firstAppearance": "Épisode 43",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "miruki-zoldik",
@@ -1353,7 +1508,9 @@
       "indice3": "Maha Zoldik, Zeno Zoldik, Silva Zoldik, Kikyo Zoldik, Irumi Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
       "indice1": "Noirs",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 42 · Anime (2011) : Episode 23 (2011)"
+      "firstAppearance": "Épisode 23",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "mito-freecss",
@@ -1369,7 +1526,9 @@
       "indice3": "Abe, Gon, Jin",
       "indice1": "Orange",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 1 (2011)"
+      "firstAppearance": "Épisode 1",
+      "role": "Fonctionnel",
+      "difficulte": "Facile"
     },
     {
       "id": "mitsuba",
@@ -1378,10 +1537,12 @@
       "yeux": "Verts",
       "status": "Mort",
       "occupation": "Zoldik",
-      "indice3": "Hasama",
       "indice1": "Blonds",
+      "indice3": "Hasama",
+      "firstAppearance": "Épisode 138",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 322 · Anime (2011) : Episode 138 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "mizaisutomu-nana",
@@ -1397,7 +1558,9 @@
       "indice2": "Cross Game",
       "indice1": "Noirs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 137"
+      "firstAppearance": "Épisode 137",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "mizuken",
@@ -1409,7 +1572,9 @@
       "type": "Émission",
       "indice1": "Bruns foncés",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 83 · Anime (2011) : Episode 30 (2011)"
+      "firstAppearance": "Épisode 30",
+      "role": "Tritagoniste",
+      "difficulte": "Difficile"
     },
     {
       "id": "montutyupi",
@@ -1429,7 +1594,9 @@
       "indice3": "Reine, Neferupito, Shaupfufu, Meruem, Kaito(Kimera Ant)",
       "indice1": "Violets foncés",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 206 · Anime (2011) : Episode 88 (2011)"
+      "firstAppearance": "Épisode 88",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Facile"
     },
     {
       "id": "morau-mccarnathy",
@@ -1443,7 +1610,9 @@
       "indice3": "Knuckle, Shoot",
       "indice1": "Argentés",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 199 · Anime (2011) : Episode 85"
+      "firstAppearance": "Épisode 85",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "muuna",
@@ -1452,8 +1621,10 @@
       "status": "Mort",
       "occupation": "Touriste",
       "indice1": "Noir",
+      "firstAppearance": "Épisode 139",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 323 · Anime (2011) : Episode 139 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "neferupito",
@@ -1472,7 +1643,9 @@
       "indice3": "Reine, Shaupfufu, Montutyupi, Meruem, Kaito",
       "indice1": "Blancs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 197 · Anime (2011) : Episode 84 (2011)"
+      "firstAppearance": "Épisode 84",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Très facile"
     },
     {
       "id": "neon-nostrad",
@@ -1489,7 +1662,9 @@
       "indice3": "Right Nostrad",
       "indice1": "Bleu électrique",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 70 · Anime (2011) : Episode 41 (2011)"
+      "firstAppearance": "Épisode 41",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "nobunaga-hazama",
@@ -1502,7 +1677,9 @@
       "type": "Renforcement",
       "indice1": "Noirs",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "noko",
@@ -1512,8 +1689,13 @@
       "status": "Vivant",
       "occupation": "Résidente de l'île de la Baleine",
       "indice1": "Oranges",
+      "firstAppearance": "Épisode 1",
+      "aliases": [
+        "Nouko"
+      ],
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 1 · Anime (2011) : Episode 1 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "novu",
@@ -1531,18 +1713,22 @@
       "indice3": "Société Hunter, Pâmu Shiberia",
       "indice1": "Noirs (anciennement) / Blancs (actuellement)",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 199 · Anime (2011) : Episode 85"
+      "firstAppearance": "Épisode 85",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "pairo",
       "name": "Pairo",
       "gender": "Homme",
       "yeux": "Marrons / Rouges (Quand il est énervé)",
-      "status": "Vivant",
-      "indice3": "Clan Kuruta",
+      "status": "Mort",
       "indice1": "Bruns",
+      "indice3": "Clan Kuruta",
+      "firstAppearance": "Épisode 58",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 117 · Anime (2011) : Episode 58 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Facile"
     },
     {
       "id": "pakunoda",
@@ -1560,7 +1746,9 @@
       "indice2": "'''Analyse des souvenirs''' / '''Memory Bomb'''",
       "indice1": "Blonds",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41 (2011)"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "pamu-shiberia",
@@ -1574,7 +1762,9 @@
       "indice2": "Merman Clairvoyance, Black Widow, Wink Blue",
       "indice1": "Noirs",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 200 · Anime (2011) : Episode 86 (2011)"
+      "firstAppearance": "Épisode 86",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "parisuton-hill",
@@ -1593,7 +1783,30 @@
       "indice3": "Beyond, Zodiaques",
       "indice1": "Blonds",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 234, Chapitre 319 · Anime (2011) : Episode 137"
+      "firstAppearance": "Épisode 137",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Facile"
+    },
+    {
+      "id": "pegui",
+      "name": "Pegui",
+      "gender": "Homme",
+      "yeux": "Marrons",
+      "status": "Mort",
+      "affiliation": "Fourmis chimères, Reine des Fourmis chimères",
+      "occupation": "Chef d'escadron des Fourmis chimères",
+      "type": "Inconnu",
+      "aliases": [
+        "Peggy",
+        "Pegī",
+        "ペギー"
+      ],
+      "indice3": "Reine des Fourmis chimères, Koruto, Ramotto, Meleolon (Jail)",
+      "indice1": "Blancs",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 78",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "pekuba",
@@ -1602,8 +1815,10 @@
       "yeux": "Noirs",
       "status": "Mort",
       "indice1": "Blancs",
+      "firstAppearance": "Épisode 78",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 190 · Anime (2011) : Episode 78 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "phinks-magkav",
@@ -1620,18 +1835,22 @@
       "indice2": "Ripper Cyclotron",
       "indice1": "Blonds",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "piedro",
       "name": "Piedro",
       "gender": "Homme",
       "status": "Mort",
+      "firstAppearance": "Épisode 4",
       "aliases": [
         "Pietoro"
       ],
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 7 · Anime (2011) : Episode 4 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "piyon",
@@ -1646,7 +1865,9 @@
       ],
       "indice1": "Roux",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 137"
+      "firstAppearance": "Épisode 137",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "pokkuru",
@@ -1655,12 +1876,19 @@
       "yeux": "Marrons",
       "status": "Mort",
       "type": "Émission",
-      "affiliation": "Association Hunter, NGL",
-      "occupation": "Beast Hunter",
-      "indice2": "Tir-à-l'arc",
+      "affiliation": "Association Hunter, Équipe d'expédition NGL",
+      "occupation": "Beast Hunter, Candidat n°53 (287e examen Hunter)",
+      "aliases": [
+        "Pokkle",
+        "ポックル"
+      ],
+      "indice2": "Rainbow / Flèche rouge / Flèche orange",
+      "indice3": "Gon Freecss, Leolio Paradinaito, Ponzu, NGL",
       "indice1": "Orange-pêche",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3"
+      "firstAppearance": "Épisode 3",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "podongo-lapoy",
@@ -1671,7 +1899,9 @@
       "occupation": "Hunter amateur",
       "indice1": "Gris",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 77 (2011)"
+      "firstAppearance": "Épisode 77",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "ponzu",
@@ -1682,7 +1912,9 @@
       "occupation": "Hunter amateur",
       "indice1": "Vert clair",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "poorhatto",
@@ -1690,13 +1922,36 @@
       "gender": "Homme",
       "yeux": "Verts",
       "status": "Mort",
+      "indice1": "Bruns-Blonds",
+      "affiliation": "Nikkes",
+      "firstAppearance": "Épisode 60",
       "aliases": [
         "Puhatto"
       ],
-      "affiliation": "Nikkes",
-      "indice1": "Bruns-Blonds",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 125 · Anime (2011) : Episode 60 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
+    },
+    {
+      "id": "ramotto",
+      "name": "Ramotto",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Mort",
+      "affiliation": "Fourmis chimères, Reine des Fourmis chimères",
+      "occupation": "Chef d'escadron des Fourmis chimères",
+      "type": "Renforcement",
+      "aliases": [
+        "Rammot",
+        "ラモット"
+      ],
+      "indice2": "Lames de plumes (Feather Blades)",
+      "indice3": "Koruto, Neferupito, Pegui, Reine des Fourmis chimères",
+      "indice1": "Verts",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 79",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "rataza",
@@ -1709,7 +1964,9 @@
       ],
       "indice1": "Violets",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 128 · Anime (2011) : Episode 61 (2011)"
+      "firstAppearance": "Épisode 61",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Impossible"
     },
     {
       "id": "redwood",
@@ -1718,12 +1975,14 @@
       "yeux": "Noirs",
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
+      "indice1": "Bruns",
+      "firstAppearance": "Épisode 60",
       "aliases": [
         "Redouddo"
       ],
-      "indice1": "Bruns",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 132 · Anime (2011) : Episode 60 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "reina",
@@ -1731,10 +1990,35 @@
       "gender": "Femme",
       "yeux": "Verts",
       "status": "Mort",
-      "indice3": "Haruna",
       "indice1": "Violets fushia",
+      "indice3": "Haruna",
+      "firstAppearance": "Épisode 77",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 187 · Anime (2011) : Episode 77 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
+    },
+    {
+      "id": "reine-fourmis-chimere",
+      "name": "Reine des Fourmis chimères",
+      "gender": "Femme",
+      "yeux": "Noirs",
+      "status": "Mort",
+      "affiliation": "Colonie de Fourmis chimères",
+      "occupation": "Reine Kimera Ant",
+      "type": "Inconnu",
+      "aliases": [
+        "Reine Kimera Ant",
+        "Reine",
+        "Chimera Ant Queen",
+        "キメラ＝アントの女王"
+      ],
+      "indice2": "Phagogenèse (摂食交配)",
+      "indice3": "Meruem, Neferupito, Shauapufu, Montutyupi, Kaito (Kimera Ant)",
+      "indice1": "Aucun",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 76",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Facile"
     },
     {
       "id": "rhino",
@@ -1744,8 +2028,10 @@
       "status": "Mort",
       "occupation": "Soldat Kimera Ant",
       "indice1": "Bleu",
+      "firstAppearance": "Épisode 93",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 195 · Anime (2011) : Episode 93"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "rippo",
@@ -1761,7 +2047,9 @@
       "indice3": "Prisonniers de la tour aux astuces",
       "indice1": "Violets",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 14 · Anime (2011) : Episode 8 (2011)"
+      "firstAppearance": "Épisode 8",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "rist",
@@ -1777,7 +2065,9 @@
       ],
       "indice1": "Blonds",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 183 · Anime (2011) : Episode 75 (2011)"
+      "firstAppearance": "Épisode 75",
+      "role": "Tritagoniste",
+      "difficulte": "Difficile"
     },
     {
       "id": "rover",
@@ -1787,8 +2077,10 @@
       "status": "Mort",
       "occupation": "Chien-humain",
       "indice1": "Blancs",
+      "firstAppearance": "Épisode 82",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 82 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "sabazushi",
@@ -1798,8 +2090,10 @@
       "status": "Mort",
       "occupation": "Mercenaire",
       "indice1": "Bruns",
+      "firstAppearance": "Épisode 72",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 173 · Anime (2011) : Episode 72 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "sabu",
@@ -1811,7 +2105,9 @@
       "indice3": "Genthru, Bara",
       "indice1": "Rouge",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 143 · Anime (2011) : Episode 63 (2011)"
+      "firstAppearance": "Épisode 63",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "saccho-kobayakawa",
@@ -1827,7 +2123,9 @@
       ],
       "indice3": "Zodiaques",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 318 · Anime (2011) : Episode 136"
+      "firstAppearance": "Épisode 136",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "saccimonno-tocinno",
@@ -1843,7 +2141,9 @@
       "indice2": "Eleven black children",
       "indice1": "Orange",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 39 (2011)"
+      "firstAppearance": "Épisode 39",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "sadaso",
@@ -1860,7 +2160,9 @@
       "indice3": "Guido, Riluberto",
       "indice1": "Blancs",
       "arc": "Arène du Ciel",
-      "firstAppearance": "Manga : Chapitre 48 · Anime (2011) : Episode 29 (2011)"
+      "firstAppearance": "Épisode 29",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Difficile"
     },
     {
       "id": "satotsu",
@@ -1871,7 +2173,9 @@
       "occupation": "Hunter Archéologue",
       "indice1": "Lavande",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 6 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "sedokan",
@@ -1882,17 +2186,9 @@
       "occupation": "Prisonnier, Poseur de bombes en séries",
       "indice1": "Bruns",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 16 · Anime (2011) : Episode 9 (2011)"
-    },
-    {
-      "id": "sarah",
-      "name": "Selah",
-      "gender": "Femme",
-      "status": "Mort",
-      "occupation": "Actrice",
-      "indice1": "Noirs",
-      "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 70 · Anime (2011) : Episode 39 (2011)"
+      "firstAppearance": "Épisode 9",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "senritsu",
@@ -1905,7 +2201,9 @@
       "indice2": "Un champ au printemps",
       "indice1": "Gris",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 67 · Anime (2011) : Episode 39 (2011)"
+      "firstAppearance": "Épisode 39",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "sharnalk",
@@ -1921,7 +2219,9 @@
       "indice2": "Black voice / Autopilote",
       "indice1": "Blonds platines",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "shaupfufu",
@@ -1935,7 +2235,9 @@
       "indice3": "Neferupito, Reine Kimera Ants, Montutyupi, Meruem, Kaito (Kimera Ant)",
       "indice1": "Blond foncé",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 206 · Anime (2011) : Episode 86 (2011)"
+      "firstAppearance": "Épisode 86",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Facile"
     },
     {
       "id": "shidore",
@@ -1944,8 +2246,10 @@
       "status": "Vivant",
       "occupation": "Soldat Kimera Ant",
       "indice3": "Haruna, Koruto, Kuruto, Reina",
+      "firstAppearance": "Épisode 105",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 261 · Anime (2011) : Episode 105 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "shishito",
@@ -1955,8 +2259,13 @@
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Bleu nuit",
+      "firstAppearance": "Épisode 3",
+      "aliases": [
+        "Shishitō"
+      ],
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 8 · Anime (2011) : Episode 3 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "shizuku-murasaki",
@@ -1973,7 +2282,9 @@
       "indice2": "Vacuum Cleaner (Démé-chan)",
       "indice1": "Noirs",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Facile"
     },
     {
       "id": "shoot-macmahon",
@@ -1986,7 +2297,9 @@
       "indice2": "Hôtel Rafflesia",
       "indice1": "Violets",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 209 · Anime (2011) : Episode 86 (2011)"
+      "firstAppearance": "Épisode 86",
+      "role": "Deuteragoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "silva-zoldik",
@@ -2001,7 +2314,31 @@
       "indice3": "Maha Zoldik, Zeno Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
       "indice1": "Blond",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 42 · Anime (2011) : Episode 24 (2011)"
+      "firstAppearance": "Épisode 24",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
+    },
+    {
+      "id": "soeur-oroso",
+      "name": "Sœur Oroso",
+      "gender": "Femme",
+      "yeux": "Verts",
+      "status": "Mort",
+      "affiliation": "Fourmis chimères, Escouade de Léol",
+      "occupation": "Capitaine Fourmi chimère",
+      "type": "Inconnu",
+      "aliases": [
+        "Oroso (sœur)",
+        "Ortho Sister",
+        "オロソ妹"
+      ],
+      "indice2": "Darts De Darts (badge Bar Double Bull)",
+      "indice3": "Frère Oroso, Kobarn, Kirua Zoldik, Furatta, Léol",
+      "indice1": "Blonds",
+      "arc": "Fourmis chimère",
+      "firstAppearance": "Épisode 101",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Moyen"
     },
     {
       "id": "somi",
@@ -2012,7 +2349,9 @@
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Bruns",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 23 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "spinna-cro",
@@ -2021,7 +2360,9 @@
       "status": "Vivant",
       "occupation": "Hunter amateur",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 186 · Anime (2011) : Episode 77 (2011)"
+      "firstAppearance": "Épisode 77",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "spot",
@@ -2031,21 +2372,25 @@
       "status": "Mort",
       "occupation": "Chien-humain de Yunju",
       "indice1": "Blancs",
+      "firstAppearance": "Épisode 82",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 192 · Anime (2011) : Episode 82 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "supar",
       "name": "Supar",
       "gender": "Femme",
       "status": "Mort",
+      "occupation": "Candidat à l'examen Hunter",
+      "indice1": "Rouges",
+      "firstAppearance": "Épisode 3",
       "aliases": [
         "Supā"
       ],
-      "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Rouges",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 22 · Anime (2011) : Episode 3 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "taragette",
@@ -2054,10 +2399,12 @@
       "yeux": "Gris",
       "status": "Mort",
       "occupation": "Soldat Kimera Ant",
-      "indice3": "Reine",
       "indice1": "Chauve",
+      "indice3": "Reine",
+      "firstAppearance": "Épisode 105",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 251 · Anime (2011) : Episode 105"
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "todo",
@@ -2071,7 +2418,9 @@
       ],
       "indice1": "Blonds et bruns",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "togari",
@@ -2082,7 +2431,9 @@
       "occupation": "Hunter",
       "indice1": "Bleus",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 14 · Anime (2011) : Episode 10 (2011)"
+      "firstAppearance": "Épisode 10",
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "tompa",
@@ -2100,7 +2451,9 @@
       ],
       "indice1": "Bruns",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+      "firstAppearance": "Épisode 3",
+      "role": "Fonctionnel",
+      "difficulte": "Facile"
     },
     {
       "id": "tsubone",
@@ -2114,7 +2467,9 @@
       "indice3": "Amane",
       "indice1": "Gris",
       "arc": "Élection 13e président",
-      "firstAppearance": "Manga : Chapitre 324 · Anime (2011) : Episode 140 (2011)"
+      "firstAppearance": "Épisode 140",
+      "role": "Tritagoniste",
+      "difficulte": "Moyen"
     },
     {
       "id": "umori",
@@ -2124,8 +2479,10 @@
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
       "indice1": "Châtains",
+      "firstAppearance": "Épisode 3",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 5 · Anime (2011) : Episode 3 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "uvoguine",
@@ -2141,7 +2498,9 @@
       "indice2": "'''Big Bang Impact'''",
       "indice1": "Bruns",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 71 · Anime (2011) : Episode 41"
+      "firstAppearance": "Épisode 41",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Facile"
     },
     {
       "id": "werefin",
@@ -2159,7 +2518,9 @@
       "indice3": "Inconnu",
       "indice1": "Blond (Début) / Chauve (Fin)",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 188 · Anime (2011) : Episode 85 (2011)"
+      "firstAppearance": "Épisode 85",
+      "role": "Tritagoniste",
+      "difficulte": "Difficile"
     },
     {
       "id": "wing",
@@ -2176,7 +2537,9 @@
       "indice3": "Biscuit Kruger, Zuchi, Kirua Zoldik, Gon Freecss",
       "indice1": "Noirs",
       "arc": "Arène du Ciel",
-      "firstAppearance": "Manga : Chapitre 45 · Anime (2011) : Episode 27 (2011)"
+      "firstAppearance": "Épisode 27",
+      "role": "Deuteragoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "won",
@@ -2186,8 +2549,10 @@
       "status": "Vivant",
       "occupation": "Zoologiste",
       "indice1": "Bruns",
+      "firstAppearance": "Épisode 77",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 187 · Anime (2011) : Episode 77 (2011)"
+      "role": "Fonctionnel",
+      "difficulte": "Difficile"
     },
     {
       "id": "yabibi",
@@ -2198,7 +2563,9 @@
       "occupation": "Joueur de Greed Island",
       "indice1": "Gris",
       "arc": "Greed Island",
-      "firstAppearance": "Manga : Chapitre 154 · Anime (2011) : Episode 67 (2011)"
+      "firstAppearance": "Épisode 67",
+      "role": "Antagoniste Secondaire",
+      "difficulte": "Impossible"
     },
     {
       "id": "yama-arashi",
@@ -2216,7 +2583,9 @@
       "indice3": "Bêtes de l'ombre",
       "indice1": "Bruns",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 75 · Anime (2011) : Episode 43 (2011)"
+      "firstAppearance": "Épisode 43",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "zazan",
@@ -2230,7 +2599,29 @@
       "indice3": "Pike",
       "indice1": "Violets",
       "arc": "Fourmis chimère",
-      "firstAppearance": "Manga : Chapitre 190 · Anime (2011) : Episode 78 (2011)"
+      "firstAppearance": "Épisode 78",
+      "role": "Antagoniste Majeur",
+      "difficulte": "Moyen"
+    },
+    {
+      "id": "zebulo",
+      "name": "Zebulo",
+      "gender": "Homme",
+      "yeux": "Noirs",
+      "status": "Vivant",
+      "affiliation": "Famille Zoldik",
+      "occupation": "Jardinier, Gardien de la Porte de vérification",
+      "type": "Inconnu",
+      "aliases": [
+        "Zebro",
+        "ゼブロ"
+      ],
+      "indice3": "Mike, Kirua Zoldik, Gon Freecss, Seaquant",
+      "indice1": "Gris (2011) / Noirs (1999)",
+      "arc": "Examen Hunter",
+      "firstAppearance": "Épisode 22",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     },
     {
       "id": "zeno-zoldik",
@@ -2248,7 +2639,9 @@
       "indice3": "Zzigg Zoldik, Maha Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
       "indice1": "Blanc",
       "arc": "Examen Hunter",
-      "firstAppearance": "Manga : Chapitre 42 · Anime (2011) : Episode 24"
+      "firstAppearance": "Épisode 24",
+      "role": "Tritagoniste",
+      "difficulte": "Facile"
     },
     {
       "id": "zepairu",
@@ -2259,7 +2652,9 @@
       "occupation": "Chercheur d'Antiquités / Candidat à l'examen Hunter",
       "indice1": "Bruns",
       "arc": "Yorknew",
-      "firstAppearance": "Manga : Chapitre 86 · Anime (2011) : Episode 48 (2011)"
+      "firstAppearance": "Épisode 48",
+      "role": "Fonctionnel",
+      "difficulte": "Impossible"
     },
     {
       "id": "zushi",
@@ -2272,7 +2667,9 @@
       "indice3": "Wing",
       "indice1": "Marron clair",
       "arc": "Arène du Ciel",
-      "firstAppearance": "Manga : Chapitre 44 · Anime (2011) : Episode 27 (2011)"
+      "firstAppearance": "Épisode 27",
+      "role": "Fonctionnel",
+      "difficulte": "Moyen"
     }
   ]
 }
