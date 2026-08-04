@@ -89,7 +89,7 @@
       "fonction": "Recherche",
       "description": "Alias et autres noms, utilisés pour la recherche."
     },
-    "indice1": {
+    "hint1": {
       "header": "Indice 1",
       "fonction": "Indice",
       "hint": {
@@ -98,7 +98,7 @@
       },
       "description": "Ennemis listés sur la fiche wiki. Débloqué après plusieurs tentatives."
     },
-    "indice2": {
+    "hint2": {
       "header": "Indice 2",
       "fonction": "Indice",
       "hint": {
@@ -116,9 +116,9 @@
     "home": 1,
     "occupation": 1,
     "affiliation": 1,
-    "indice1": 1,
+    "hint1": 1,
     "aliases": 0.7837837837837838,
-    "indice2": 0.5,
+    "hint2": 0.5,
     "formerAffiliation": 0.1891891891891892
   },
   "characters": [
@@ -134,8 +134,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Ligue Lézard",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe",
-      "indice2": ""
+      "hint1": "Gardiens du Globe",
+      "hint2": ""
     },
     {
       "id": "argall",
@@ -151,8 +151,8 @@
       "occupation": "Souverain",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Thaedus",
-      "indice2": ""
+      "hint1": "Thaedus",
+      "hint2": ""
     },
     {
       "id": "ed-thompson",
@@ -169,8 +169,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite",
-      "indice2": ""
+      "hint1": "Empire Viltrumite",
+      "hint2": ""
     },
     {
       "id": "domina",
@@ -186,8 +186,8 @@
       "occupation": "Guerrier",
       "affiliation": "Clan Darkblood, Forces de l'Enfer",
       "formerAffiliation": "",
-      "indice1": "Forces de l'Enfer",
-      "indice2": ""
+      "hint1": "Forces de l'Enfer",
+      "hint2": ""
     },
     {
       "id": "volcanikka",
@@ -201,8 +201,8 @@
       "occupation": "Super-vilain, Directeur/Chef",
       "affiliation": "Magmanites",
       "formerAffiliation": "",
-      "indice1": "Forces de l'Enfer, Invincible, Damien Darkblood",
-      "indice2": "Souverain"
+      "hint1": "Forces de l'Enfer, Invincible, Damien Darkblood",
+      "hint2": "Souverain"
     },
     {
       "id": "capitaine-pikell",
@@ -219,8 +219,8 @@
       "occupation": "Soldat",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite",
-      "indice2": ""
+      "hint1": "Empire Viltrumite",
+      "hint2": ""
     },
     {
       "id": "thragg",
@@ -237,8 +237,8 @@
       "occupation": "Souverain",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Coalition des Planètes, Nolan, Invincible, Oliver Grayson",
-      "indice2": "Souverain"
+      "hint1": "Coalition des Planètes, Nolan, Invincible, Oliver Grayson",
+      "hint2": "Souverain"
     },
     {
       "id": "universa",
@@ -254,8 +254,8 @@
       "occupation": "Souverain, Super-vilain",
       "affiliation": "Indépendant",
       "formerAffiliation": "Coalition des Planètes",
-      "indice1": "Invincible, Atom Eve, Agence de Défence Globale (A.D.G.)",
-      "indice2": ""
+      "hint1": "Invincible, Atom Eve, Agence de Défence Globale (A.D.G.)",
+      "hint2": ""
     },
     {
       "id": "satan",
@@ -271,8 +271,8 @@
       "occupation": "Souverain",
       "affiliation": "Forces de l'Enfer",
       "formerAffiliation": "",
-      "indice1": "Forces de l'Enfer",
-      "indice2": "Souverain"
+      "hint1": "Forces de l'Enfer",
+      "hint2": "Souverain"
     },
     {
       "id": "brit",
@@ -289,8 +289,8 @@
       "occupation": "Super-héros, Agent",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "Gardiens du Globe",
-      "indice1": "Équipe des Invincibles maléfiques, Angstrom Levy, Powerplex",
-      "indice2": "Soldat"
+      "hint1": "Équipe des Invincibles maléfiques, Angstrom Levy, Powerplex",
+      "hint2": "Soldat"
     },
     {
       "id": "tech-jacket",
@@ -306,8 +306,8 @@
       "occupation": "Super-héros",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite, Divers ennemis, Équipe des Invincibles maléfiques, L'ordre",
-      "indice2": "Agent"
+      "hint1": "Empire Viltrumite, Divers ennemis, Équipe des Invincibles maléfiques, L'ordre",
+      "hint2": "Agent"
     },
     {
       "id": "powerplex",
@@ -323,8 +323,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Indépendant",
       "formerAffiliation": "Agence de Défence Globale (A.D.G.)",
-      "indice1": "Agence de Défence Globale (A.D.G.), Gardiens du Globe, Invincible, Omni-Man, Atom Eve, Équipe des Invincibles maléfiques, Kid Omni-Man, Angstrom Levy",
-      "indice2": "Scientifique"
+      "hint1": "Agence de Défence Globale (A.D.G.), Gardiens du Globe, Invincible, Omni-Man, Atom Eve, Équipe des Invincibles maléfiques, Kid Omni-Man, Angstrom Levy",
+      "hint2": "Scientifique"
     },
     {
       "id": "radcliffe",
@@ -340,8 +340,8 @@
       "occupation": "Directeur/Chef",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "",
-      "indice1": "Ligue Lézard",
-      "indice2": ""
+      "hint1": "Ligue Lézard",
+      "hint2": ""
     },
     {
       "id": "anissa",
@@ -358,8 +358,8 @@
       "occupation": "Soldat",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Agence de Défence Globale (A.D.G.), Coalition des Planètes, Nolan, Invincible, Kid Omni-Man, Amis d'Invincible",
-      "indice2": ""
+      "hint1": "Agence de Défence Globale (A.D.G.), Coalition des Planètes, Nolan, Invincible, Kid Omni-Man, Amis d'Invincible",
+      "hint2": ""
     },
     {
       "id": "april-howsam",
@@ -373,8 +373,8 @@
       "occupation": "Civil, Agent",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "",
-      "indice1": "Aucun(e)",
-      "indice2": "Civil"
+      "hint1": "Aucun(e)",
+      "hint2": "Civil"
     },
     {
       "id": "space-racer",
@@ -391,8 +391,8 @@
       "occupation": "Soldat",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite",
-      "indice2": "Nomade spatial"
+      "hint1": "Empire Viltrumite",
+      "hint2": "Nomade spatial"
     },
     {
       "id": "komodo-dragon",
@@ -406,8 +406,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Ligue Lézard",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe, Knuckle Buster, Force Fist, Agence de Défence Globale (A.D.G.)",
-      "indice2": ""
+      "hint1": "Gardiens du Globe, Knuckle Buster, Force Fist, Agence de Défence Globale (A.D.G.)",
+      "hint2": ""
     },
     {
       "id": "andressa",
@@ -423,8 +423,8 @@
       "occupation": "Souverain",
       "affiliation": "Thraxa",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite",
-      "indice2": ""
+      "hint1": "Empire Viltrumite",
+      "hint2": ""
     },
     {
       "id": "oliver-grayson-ii",
@@ -442,8 +442,8 @@
       "occupation": "Super-héros",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite, Angstrom Levy, Équipe des Invincibles maléfiques, Jumeaux Mauler, Powerplex, L'ordre",
-      "indice2": ""
+      "hint1": "Empire Viltrumite, Angstrom Levy, Équipe des Invincibles maléfiques, Jumeaux Mauler, Powerplex, L'ordre",
+      "hint2": ""
     },
     {
       "id": "lucan",
@@ -457,8 +457,8 @@
       "occupation": "Soldat, Civil",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Thraxa, Coalition des Planètes, Nolan, Invincible, Oliver Grayson",
-      "indice2": ""
+      "hint1": "Thraxa, Coalition des Planètes, Nolan, Invincible, Oliver Grayson",
+      "hint2": ""
     },
     {
       "id": "telia",
@@ -474,8 +474,8 @@
       "occupation": "Général",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite",
-      "indice2": ""
+      "hint1": "Empire Viltrumite",
+      "hint2": ""
     },
     {
       "id": "thaedus",
@@ -493,8 +493,8 @@
       "occupation": "Directeur/Chef",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "Empire Viltrumite",
-      "indice1": "Empire Viltrumite",
-      "indice2": "Guerrier"
+      "hint1": "Empire Viltrumite",
+      "hint2": "Guerrier"
     },
     {
       "id": "darkwing-ii",
@@ -512,8 +512,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Omni-Man, Doc Seismic, Jumeaux Mauler, Équipe des Invincibles maléfiques",
-      "indice2": "Super-vilain"
+      "hint1": "Omni-Man, Doc Seismic, Jumeaux Mauler, Équipe des Invincibles maléfiques",
+      "hint2": "Super-vilain"
     },
     {
       "id": "paul",
@@ -527,8 +527,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "Aucun(e)",
-      "indice2": "Civil"
+      "hint1": "Aucun(e)",
+      "hint2": "Civil"
     },
     {
       "id": "supreme-lizard",
@@ -544,8 +544,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Ligue Lézard",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe",
-      "indice2": "Directeur/Chef"
+      "hint1": "Gardiens du Globe",
+      "hint2": "Directeur/Chef"
     },
     {
       "id": "angstrom-levy",
@@ -562,8 +562,8 @@
       "occupation": "Super-vilain, Esclave",
       "affiliation": "Équipe des Invincibles maléfiques",
       "formerAffiliation": "",
-      "indice1": "Famille Grayson, Invincible, Atom Eve, Équipe des Invincibles maléfiques, Gardiens du Globe, Agence de Défence Globale (A.D.G.)",
-      "indice2": "Scientifique"
+      "hint1": "Famille Grayson, Invincible, Atom Eve, Équipe des Invincibles maléfiques, Gardiens du Globe, Agence de Défence Globale (A.D.G.)",
+      "hint2": "Scientifique"
     },
     {
       "id": "bulletproof",
@@ -579,8 +579,8 @@
       "occupation": "Super-héros",
       "affiliation": "Teen Team",
       "formerAffiliation": "Gardiens du Globe",
-      "indice1": "Ligue Lézard, Sequids, Équipe des Invincibles maléfiques",
-      "indice2": ""
+      "hint1": "Ligue Lézard, Sequids, Équipe des Invincibles maléfiques",
+      "hint2": ""
     },
     {
       "id": "conquest",
@@ -598,8 +598,8 @@
       "occupation": "Soldat",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Agence de Défence Globale (A.D.G.), Coalition des Planètes, Nolan, Invincible, Oliver Grayson, Atom Eve",
-      "indice2": ""
+      "hint1": "Agence de Défence Globale (A.D.G.), Coalition des Planètes, Nolan, Invincible, Oliver Grayson, Atom Eve",
+      "hint2": ""
     },
     {
       "id": "great-wall",
@@ -613,8 +613,8 @@
       "occupation": "Homme de main",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "L'ordre",
-      "indice2": ""
+      "hint1": "L'ordre",
+      "hint2": ""
     },
     {
       "id": "kregg",
@@ -631,8 +631,8 @@
       "occupation": "Général, Guerrier",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Thraxa, Coalition des Planètes, Oliver Grayson, Nolan, Invincible",
-      "indice2": ""
+      "hint1": "Thraxa, Coalition des Planètes, Oliver Grayson, Nolan, Invincible",
+      "hint2": ""
     },
     {
       "id": "thula",
@@ -646,8 +646,8 @@
       "occupation": "Soldat",
       "affiliation": "Empire Viltrumite",
       "formerAffiliation": "",
-      "indice1": "Thraxa, Coalition des Planètes, Nolan, Invincible, Kid Omni-Man",
-      "indice2": ""
+      "hint1": "Thraxa, Coalition des Planètes, Nolan, Invincible, Kid Omni-Man",
+      "hint2": ""
     },
     {
       "id": "d-a-sinclair",
@@ -664,8 +664,8 @@
       "occupation": "Scientifique, Agent",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "",
-      "indice1": "Famille Grayson, Invincible, Amis d'Invincible, Omni-Man",
-      "indice2": "Civil"
+      "hint1": "Famille Grayson, Invincible, Amis d'Invincible, Omni-Man",
+      "hint2": "Civil"
     },
     {
       "id": "rick-sheridan",
@@ -681,8 +681,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "RéAnimen",
-      "indice2": "Civil"
+      "hint1": "RéAnimen",
+      "hint2": "Civil"
     },
     {
       "id": "adam-wilkins",
@@ -696,8 +696,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "Aucun(e)",
-      "indice2": "Civil"
+      "hint1": "Aucun(e)",
+      "hint2": "Civil"
     },
     {
       "id": "battle-beast",
@@ -713,8 +713,8 @@
       "occupation": "Guerrier",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe, Empire Viltrumite, L'ordre",
-      "indice2": ""
+      "hint1": "Gardiens du Globe, Empire Viltrumite, L'ordre",
+      "hint2": ""
     },
     {
       "id": "betsy-wilkins",
@@ -730,8 +730,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "Aucun(e)",
-      "indice2": ""
+      "hint1": "Aucun(e)",
+      "hint2": ""
     },
     {
       "id": "isotope",
@@ -745,8 +745,8 @@
       "occupation": "Super-vilain, Lieutenant",
       "affiliation": "L'ordre",
       "formerAffiliation": "Titan",
-      "indice1": "Gardiens du Globe, L'ordre",
-      "indice2": "Homme de main"
+      "hint1": "Gardiens du Globe, L'ordre",
+      "hint2": "Homme de main"
     },
     {
       "id": "king-lizard",
@@ -762,8 +762,8 @@
       "occupation": "Super-vilain, Directeur/Chef",
       "affiliation": "Ligue Lézard",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe",
-      "indice2": "Souverain"
+      "hint1": "Gardiens du Globe",
+      "hint2": "Souverain"
     },
     {
       "id": "machine-head",
@@ -777,8 +777,8 @@
       "occupation": "Directeur/Chef",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "Invincible, L'ordre, Gardiens du Globe",
-      "indice2": ""
+      "hint1": "Invincible, L'ordre, Gardiens du Globe",
+      "hint2": ""
     },
     {
       "id": "tether-tyrant",
@@ -792,8 +792,8 @@
       "occupation": "Super-vilain, Homme de main",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "Invincible, L'ordre, Gardiens du Globe",
-      "indice2": ""
+      "hint1": "Invincible, L'ordre, Gardiens du Globe",
+      "hint2": ""
     },
     {
       "id": "the-elephant",
@@ -810,8 +810,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Indépendant",
       "formerAffiliation": "",
-      "indice1": "Invincible, Omni-Man, Atom Eve, Oliver Grayson",
-      "indice2": ""
+      "hint1": "Invincible, Omni-Man, Atom Eve, Oliver Grayson",
+      "hint2": ""
     },
     {
       "id": "ka-hor",
@@ -827,8 +827,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Indépendant",
       "formerAffiliation": "",
-      "indice1": "Équipe des Invincibles maléfiques, Invincible",
-      "indice2": "Souverain"
+      "hint1": "Équipe des Invincibles maléfiques, Invincible",
+      "hint2": "Souverain"
     },
     {
       "id": "mister-liu",
@@ -845,8 +845,8 @@
       "occupation": "Super-vilain",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "Famille Grayson, L'ordre, Invincible, Atom Eve, Omni-Man",
-      "indice2": "Directeur/Chef"
+      "hint1": "Famille Grayson, L'ordre, Invincible, Atom Eve, Omni-Man",
+      "hint2": "Directeur/Chef"
     },
     {
       "id": "shapesmith",
@@ -863,8 +863,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Sequids, Ligue Lézard, Powerplex, Équipe des Invincibles maléfiques",
-      "indice2": "Soldat"
+      "hint1": "Sequids, Ligue Lézard, Powerplex, Équipe des Invincibles maléfiques",
+      "hint2": "Soldat"
     },
     {
       "id": "black-samson",
@@ -880,8 +880,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Ligue Lézard, L'ordre, Battle Beast, Omni-Man, Équipe des Invincibles maléfiques",
-      "indice2": "Super-héros"
+      "hint1": "Ligue Lézard, L'ordre, Battle Beast, Omni-Man, Équipe des Invincibles maléfiques",
+      "hint2": "Super-héros"
     },
     {
       "id": "doc-seismic",
@@ -895,8 +895,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Indépendant",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe, RéAnimen, Invincible, Atom Eve",
-      "indice2": "Scientifique"
+      "hint1": "Gardiens du Globe, RéAnimen, Invincible, Atom Eve",
+      "hint2": "Scientifique"
     },
     {
       "id": "monster-girl",
@@ -913,8 +913,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "Teen Team",
-      "indice1": "L'ordre, Battle Beast, Équipe des Invincibles maléfiques",
-      "indice2": ""
+      "hint1": "L'ordre, Battle Beast, Équipe des Invincibles maléfiques",
+      "hint2": ""
     },
     {
       "id": "multi-paul",
@@ -931,8 +931,8 @@
       "occupation": "Homme de main, Super-vilain",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "Rex Splode, Invincible, Atom Eve",
-      "indice2": ""
+      "hint1": "Rex Splode, Invincible, Atom Eve",
+      "hint2": ""
     },
     {
       "id": "shrinking-rae",
@@ -948,8 +948,8 @@
       "occupation": "Civil",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "Teen Team",
-      "indice1": "Ligue Lézard, L'ordre, Battle Beast, Jumeaux Mauler",
-      "indice2": "Super-héros"
+      "hint1": "Ligue Lézard, L'ordre, Battle Beast, Jumeaux Mauler",
+      "hint2": "Super-héros"
     },
     {
       "id": "allen-l-extraterrestre",
@@ -967,8 +967,8 @@
       "occupation": "Directeur/Chef",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "",
-      "indice1": "Empire Viltrumite, Divers ennemis",
-      "indice2": "Guerrier"
+      "hint1": "Empire Viltrumite, Divers ennemis",
+      "hint2": "Guerrier"
     },
     {
       "id": "atom-eve",
@@ -989,8 +989,8 @@
       "occupation": "Super-héros",
       "affiliation": "Indépendant",
       "formerAffiliation": "Teen Team",
-      "indice1": "Flaxans, Ligue Lézard, Omni-Man, Empire Viltrumite, Équipe des Invincibles maléfiques, Doc Seismic, Sequids, Powerplex, L'ordre, Universa",
-      "indice2": "Civil"
+      "hint1": "Flaxans, Ligue Lézard, Omni-Man, Empire Viltrumite, Équipe des Invincibles maléfiques, Doc Seismic, Sequids, Powerplex, L'ordre, Universa",
+      "hint2": "Civil"
     },
     {
       "id": "cecil-stedman",
@@ -1006,8 +1006,8 @@
       "occupation": "Directeur/Chef",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "",
-      "indice1": "Ligue Lézard, Omni-Man, Flaxans, Damien Darkblood, L'ordre, Powerplex, Force Fist, Knuckle Buster, Équipe des Invincibles maléfiques",
-      "indice2": ""
+      "hint1": "Ligue Lézard, Omni-Man, Flaxans, Damien Darkblood, L'ordre, Powerplex, Force Fist, Knuckle Buster, Équipe des Invincibles maléfiques",
+      "hint2": ""
     },
     {
       "id": "damien-darkblood",
@@ -1023,8 +1023,8 @@
       "occupation": "Guerrier, Détective",
       "affiliation": "Clan Darkblood",
       "formerAffiliation": "Agence de Défence Globale (A.D.G.)",
-      "indice1": "Forces de l'Enfer, Agence de Défence Globale (A.D.G.)",
-      "indice2": "Agent"
+      "hint1": "Forces de l'Enfer, Agence de Défence Globale (A.D.G.)",
+      "hint2": "Agent"
     },
     {
       "id": "donald-ferguson",
@@ -1041,8 +1041,8 @@
       "occupation": "Agent",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "",
-      "indice1": "Omni-Man, Équipe des Invincibles maléfiques",
-      "indice2": ""
+      "hint1": "Omni-Man, Équipe des Invincibles maléfiques",
+      "hint2": ""
     },
     {
       "id": "dupli-kate",
@@ -1059,8 +1059,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "Teen Team",
-      "indice1": "L'ordre, Flaxans, Battle Beast, Ligue Lézard, Équipe des Invincibles maléfiques",
-      "indice2": ""
+      "hint1": "L'ordre, Flaxans, Battle Beast, Ligue Lézard, Équipe des Invincibles maléfiques",
+      "hint2": ""
     },
     {
       "id": "flaxan-leader",
@@ -1077,8 +1077,8 @@
       "occupation": "Soldat, Directeur/Chef",
       "affiliation": "Flaxans",
       "formerAffiliation": "",
-      "indice1": "Invincible, Omni-Man, Teen Team",
-      "indice2": ""
+      "hint1": "Invincible, Omni-Man, Teen Team",
+      "hint2": ""
     },
     {
       "id": "rex-splode",
@@ -1094,8 +1094,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "Teen Team",
-      "indice1": "Ligue Lézard, L'ordre, Flaxans, Battle Beast, RéAnimen, Équipe des Invincibles maléfiques",
-      "indice2": ""
+      "hint1": "Ligue Lézard, L'ordre, Flaxans, Battle Beast, RéAnimen, Équipe des Invincibles maléfiques",
+      "hint2": ""
     },
     {
       "id": "robot",
@@ -1115,8 +1115,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "Teen Team",
-      "indice1": "L'ordre, Flaxans, Battle Beast, Jumeaux Mauler, Ligue Lézard, Sequids, Équipe des Invincibles maléfiques",
-      "indice2": "Directeur/Chef"
+      "hint1": "L'ordre, Flaxans, Battle Beast, Jumeaux Mauler, Ligue Lézard, Sequids, Équipe des Invincibles maléfiques",
+      "hint2": "Directeur/Chef"
     },
     {
       "id": "amber-bennett",
@@ -1132,8 +1132,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "RéAnimen",
-      "indice2": "Civil"
+      "hint1": "RéAnimen",
+      "hint2": "Civil"
     },
     {
       "id": "aquarus",
@@ -1149,8 +1149,8 @@
       "occupation": "Souverain, Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Ligue Lézard, Jumeaux Mauler, Omni-Man",
-      "indice2": ""
+      "hint1": "Ligue Lézard, Jumeaux Mauler, Omni-Man",
+      "hint2": ""
     },
     {
       "id": "art-rosenbaum",
@@ -1167,8 +1167,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "Aucun(e)",
-      "indice2": "Civil"
+      "hint1": "Aucun(e)",
+      "hint2": "Civil"
     },
     {
       "id": "darkwing",
@@ -1182,8 +1182,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Jumeaux Mauler, Omni-Man",
-      "indice2": ""
+      "hint1": "Jumeaux Mauler, Omni-Man",
+      "hint2": ""
     },
     {
       "id": "debbie-grayson",
@@ -1200,8 +1200,8 @@
       "occupation": "Civil",
       "affiliation": "Civil",
       "formerAffiliation": "",
-      "indice1": "Aucun(e)",
-      "indice2": "Civil"
+      "hint1": "Aucun(e)",
+      "hint2": "Civil"
     },
     {
       "id": "green-ghost-ii",
@@ -1217,8 +1217,8 @@
       "occupation": "Civil, Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Jumeaux Mauler, Omni-Man",
-      "indice2": "Civil"
+      "hint1": "Jumeaux Mauler, Omni-Man",
+      "hint2": "Civil"
     },
     {
       "id": "l-immortel",
@@ -1234,8 +1234,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Ligue Lézard, Équipe des Invincibles maléfiques, Omni-Man, Jumeaux Mauler, Powerplex",
-      "indice2": "Guerrier"
+      "hint1": "Ligue Lézard, Équipe des Invincibles maléfiques, Omni-Man, Jumeaux Mauler, Powerplex",
+      "hint2": "Guerrier"
     },
     {
       "id": "invincible",
@@ -1257,8 +1257,8 @@
       "occupation": "Super-héros",
       "affiliation": "Agence de Défence Globale (A.D.G.)",
       "formerAffiliation": "",
-      "indice1": "Forces de l'Enfer, RéAnimen, Flaxans, L'ordre, Empire Viltrumite, Équipe des Invincibles maléfiques, Angstrom Levy, Powerplex, L’Immortel, Sequids, Jumeaux Mauler, Doc Seismic, Universa",
-      "indice2": "Civil"
+      "hint1": "Forces de l'Enfer, RéAnimen, Flaxans, L'ordre, Empire Viltrumite, Équipe des Invincibles maléfiques, Angstrom Levy, Powerplex, L’Immortel, Sequids, Jumeaux Mauler, Doc Seismic, Universa",
+      "hint2": "Civil"
     },
     {
       "id": "killcannon",
@@ -1272,8 +1272,8 @@
       "occupation": "Super-vilain",
       "affiliation": "Indépendant",
       "formerAffiliation": "",
-      "indice1": "Invincible, Atom Eve",
-      "indice2": ""
+      "hint1": "Invincible, Atom Eve",
+      "hint2": ""
     },
     {
       "id": "kursk",
@@ -1289,8 +1289,8 @@
       "occupation": "Super-vilain",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "Gardiens du Globe, Invincible, L'ordre",
-      "indice2": ""
+      "hint1": "Gardiens du Globe, Invincible, L'ordre",
+      "hint2": ""
     },
     {
       "id": "martian-man",
@@ -1306,8 +1306,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Jumeaux Mauler, Omni-Man",
-      "indice2": ""
+      "hint1": "Jumeaux Mauler, Omni-Man",
+      "hint2": ""
     },
     {
       "id": "jumeaux-mauler",
@@ -1323,8 +1323,8 @@
       "occupation": "Super-vilain, Scientifique",
       "affiliation": "Indépendant",
       "formerAffiliation": "",
-      "indice1": "Teen Team, Gardiens du Globe, Invincible, Omni-Man, Kid Omni-Man",
-      "indice2": ""
+      "hint1": "Teen Team, Gardiens du Globe, Invincible, Omni-Man, Kid Omni-Man",
+      "hint2": ""
     },
     {
       "id": "omni-man",
@@ -1346,8 +1346,8 @@
       "occupation": "Soldat",
       "affiliation": "Coalition des Planètes",
       "formerAffiliation": "Empire Viltrumite",
-      "indice1": "Agence de Défence Globale (A.D.G.), Gardiens du Globe, Empire Viltrumite, RéAnimen, Flaxans, Jumeaux Mauler, Amis d'Invincible",
-      "indice2": "Scientifique, Soldat, Super-héros, Super-vilain"
+      "hint1": "Agence de Défence Globale (A.D.G.), Gardiens du Globe, Empire Viltrumite, RéAnimen, Flaxans, Jumeaux Mauler, Amis d'Invincible",
+      "hint2": "Scientifique, Soldat, Super-héros, Super-vilain"
     },
     {
       "id": "red-rush",
@@ -1364,8 +1364,8 @@
       "occupation": "Super-héros",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "L'ordre, Jumeaux Mauler, Ligue Lézard, Omni-Man",
-      "indice2": ""
+      "hint1": "L'ordre, Jumeaux Mauler, Ligue Lézard, Omni-Man",
+      "hint2": ""
     },
     {
       "id": "titan",
@@ -1379,8 +1379,8 @@
       "occupation": "Directeur/Chef",
       "affiliation": "L'ordre",
       "formerAffiliation": "",
-      "indice1": "L'ordre, Battle Beast",
-      "indice2": "Homme de main, Super-héros"
+      "hint1": "L'ordre, Battle Beast",
+      "hint2": "Homme de main, Super-héros"
     },
     {
       "id": "war-woman",
@@ -1396,8 +1396,8 @@
       "occupation": "Super-héros, Civil",
       "affiliation": "Gardiens du Globe",
       "formerAffiliation": "",
-      "indice1": "Jumeaux Mauler, Ligue Lézard, Omni-Man",
-      "indice2": "Civil"
+      "hint1": "Jumeaux Mauler, Ligue Lézard, Omni-Man",
+      "hint2": "Civil"
     }
   ]
 }

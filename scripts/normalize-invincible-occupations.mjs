@@ -77,7 +77,7 @@ function normalizeField(value) {
 
 for (const c of data.characters) {
   c.occupation = normalizeField(c.occupation);
-  c.indice2 = normalizeField(c.indice2);
+  c.hint2 = normalizeField(c.hint2);
 }
 
 writeFileSync(path, JSON.stringify(data, null, 2) + "\n", "utf8");

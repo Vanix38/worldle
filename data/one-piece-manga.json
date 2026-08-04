@@ -1378,6 +1378,19 @@
       },
       "description": "Arc narratif de la première apparition du personnage dans le manga ou l'anime ; ordre chronologique des arcs."
     },
+    "difficulty": {
+      "header": "Difficulté",
+      "fonction": "Comparaison",
+      "columnWidth": "small",
+      "order": [
+        "Très facile",
+        "Facile",
+        "Moyen",
+        "Difficile",
+        "Impossible"
+      ],
+      "description": "Facilité à deviner le personnage (notoriété). Ordre : Très facile → Facile → Moyen → Difficile → Impossible."
+    },
     "sub_affiliation": {
       "header": "Sous Affiliation",
       "fonction": "Recherche",
@@ -1388,7 +1401,7 @@
       "fonction": "Recherche",
       "description": "Alias pour la recherche (non affichés dans la grille)."
     },
-    "indice1": {
+    "hint1": {
       "header": "Indice 1",
       "fonction": "Indice",
       "hint": {
@@ -1397,7 +1410,7 @@
       },
       "description": "Indice sur le rang et le rôle dans le monde de One Piece, débloqué après plusieurs tentatives."
     },
-    "indice2": {
+    "hint2": {
       "header": "Indice 2",
       "fonction": "Indice",
       "hint": {
@@ -1406,7 +1419,7 @@
       },
       "description": "Indice sur le fruit du démon ou son type, débloqué après plusieurs tentatives."
     },
-    "indice3": {
+    "hint3": {
       "header": "Indice 3",
       "fonction": "Indice",
       "hint": {
@@ -1438,10 +1451,11 @@
       "origin": "West Blue",
       "size": 195,
       "race": "Humain",
-      "indice1": "Troisième",
-      "indice2": "Suke Suke no Mi",
-      "indice3": "Thriller Bark",
-      "firstAppearance": "Chapitre 444"
+      "hint1": "Troisième",
+      "hint2": "Suke Suke no Mi",
+      "hint3": "Thriller Bark",
+      "firstAppearance": "Chapitre 444",
+      "difficulty": "Moyen"
     },
     {
       "id": "aegir",
@@ -1458,10 +1472,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "aisa",
@@ -1480,10 +1495,11 @@
       "origin": "Skypiea",
       "size": 140,
       "race": "Humain",
-      "indice1": "Shandias",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 249"
+      "hint1": "Shandias",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 249",
+      "difficulty": "Impossible"
     },
     {
       "id": "aladdin",
@@ -1502,10 +1518,11 @@
       "origin": "Fishman Island",
       "size": 627,
       "race": "Sirène",
-      "indice1": "Équipage de Big Mom",
-      "indice2": "Sirène",
-      "indice3": "Équipage de Big Mom",
-      "firstAppearance": "Chapitre 620"
+      "hint1": "Équipage de Big Mom",
+      "hint2": "Sirène",
+      "hint3": "Équipage de Big Mom",
+      "firstAppearance": "Chapitre 620",
+      "difficulty": "Moyen"
     },
     {
       "id": "alber",
@@ -1531,10 +1548,11 @@
       "origin": "Grand Line",
       "size": 613,
       "race": "Lunarien",
-      "indice1": "Second",
-      "indice2": "Ryu Ryu no Mi modèle Ptéranodon",
-      "indice3": "Calamités",
-      "firstAppearance": "Chapitre 920"
+      "hint1": "Second",
+      "hint2": "Ryu Ryu no Mi modèle Ptéranodon",
+      "hint3": "Calamités",
+      "firstAppearance": "Chapitre 920",
+      "difficulty": "Facile"
     },
     {
       "id": "alvida",
@@ -1556,10 +1574,11 @@
       "origin": "East Blue",
       "size": 198,
       "race": "Humain",
-      "indice1": "Alliance Baggy et Alvida",
-      "indice2": "Sube Sube no Mi",
-      "indice3": "Alliance Baggy et Alvida",
-      "firstAppearance": "Chapitre 2"
+      "hint1": "Alliance Baggy et Alvida",
+      "hint2": "Sube Sube no Mi",
+      "hint3": "Alliance Baggy et Alvida",
+      "firstAppearance": "Chapitre 2",
+      "difficulty": "Facile"
     },
     {
       "id": "ange",
@@ -1576,10 +1595,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "École du Morse",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1131"
+      "hint1": "École du Morse",
+      "hint2": "École du Morse",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1131",
+      "difficulty": "Impossible"
     },
     {
       "id": "arlong",
@@ -1601,10 +1621,11 @@
       "origin": "Fishman Island",
       "size": 263,
       "race": "Homme-Poisson",
-      "indice1": "Capitaine",
-      "indice2": "Homme-Poisson",
-      "indice3": "Équipage des Pirates du soleil",
-      "firstAppearance": "Chapitre 69"
+      "hint1": "Capitaine",
+      "hint2": "Homme-Poisson",
+      "hint3": "Équipage des Pirates du soleil",
+      "firstAppearance": "Chapitre 69",
+      "difficulty": "Très facile"
     },
     {
       "id": "atlas",
@@ -1626,10 +1647,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 729,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Satellite de Vegapunk",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1062"
+      "hint1": "Marine",
+      "hint2": "Satellite de Vegapunk",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1062",
+      "difficulty": "Moyen"
     },
     {
       "id": "avalo-pizarro",
@@ -1653,10 +1675,11 @@
       "origin": "North Blue",
       "size": 505,
       "race": "Humain",
-      "indice1": "Impel Down",
-      "indice2": "Shima Shima no Mi",
-      "indice3": "Impel Down",
-      "firstAppearance": "Chapitre 575"
+      "hint1": "Impel Down",
+      "hint2": "Shima Shima no Mi",
+      "hint3": "Impel Down",
+      "firstAppearance": "Chapitre 575",
+      "difficulty": "Difficile"
     },
     {
       "id": "axel",
@@ -1673,10 +1696,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "babe",
@@ -1698,10 +1722,11 @@
       "origin": "Grand Line",
       "size": 218,
       "race": "Humain",
-      "indice1": "Spiders Café",
-      "indice2": "Humain",
-      "indice3": "Spiders Café",
-      "firstAppearance": "Chapitre 160"
+      "hint1": "Spiders Café",
+      "hint2": "Humain",
+      "hint3": "Spiders Café",
+      "firstAppearance": "Chapitre 160",
+      "difficulty": "Impossible"
     },
     {
       "id": "baby-5",
@@ -1721,10 +1746,11 @@
       "origin": "North Blue",
       "size": 181,
       "race": "Humain",
-      "indice1": "Flotte de Happou",
-      "indice2": "Buki Buki no Mi",
-      "indice3": "Flotte de Happou",
-      "firstAppearance": "Chapitre 682"
+      "hint1": "Flotte de Happou",
+      "hint2": "Buki Buki no Mi",
+      "hint3": "Flotte de Happou",
+      "firstAppearance": "Chapitre 682",
+      "difficulty": "Moyen"
     },
     {
       "id": "baggy",
@@ -1755,10 +1781,11 @@
       "origin": "Grand Line",
       "size": 192,
       "race": "Humain",
-      "indice1": "Quatre Empereurs",
-      "indice2": "Bara Bara no Mi",
-      "indice3": "Quatre Empereurs",
-      "firstAppearance": "Chapitre 9"
+      "hint1": "Quatre Empereurs",
+      "hint2": "Bara Bara no Mi",
+      "hint3": "Quatre Empereurs",
+      "firstAppearance": "Chapitre 9",
+      "difficulty": "Très facile"
     },
     {
       "id": "barbel",
@@ -1775,10 +1802,11 @@
       "origin": "Grand Line",
       "size": 250,
       "race": "Homme-Poisson",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Homme-Poisson",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Homme-Poisson",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Impossible"
     },
     {
       "id": "bartholomew-kuma",
@@ -1806,10 +1834,11 @@
       "origin": "South Blue (Royaume de Sorbet)",
       "size": 689,
       "race": "Buccaneer",
-      "indice1": "Sept Grands Corsaires",
-      "indice2": "Nikyu Nikyu no Mi",
-      "indice3": "Sept Grands Corsaires",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Sept Grands Corsaires",
+      "hint2": "Nikyu Nikyu no Mi",
+      "hint3": "Sept Grands Corsaires",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Très facile"
     },
     {
       "id": "bartolomeo",
@@ -1831,10 +1860,11 @@
       "origin": "East Blue",
       "size": 220,
       "race": "Humain",
-      "indice1": "Équipage de Bartolomeo",
-      "indice2": "Bari Bari no Mi",
-      "indice3": "Équipage de Bartolomeo",
-      "firstAppearance": "Chapitre 705"
+      "hint1": "Équipage de Bartolomeo",
+      "hint2": "Bari Bari no Mi",
+      "hint3": "Équipage de Bartolomeo",
+      "firstAppearance": "Chapitre 705",
+      "difficulty": "Facile"
     },
     {
       "id": "basil-hawkins",
@@ -1860,10 +1890,11 @@
       "origin": "North Blue",
       "size": 210,
       "race": "Humain",
-      "indice1": "Supernova",
-      "indice2": "Wara Wara no Mi",
-      "indice3": "Supernova",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Supernova",
+      "hint2": "Wara Wara no Mi",
+      "hint3": "Supernova",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "baskerville",
@@ -1885,10 +1916,11 @@
       "origin": "Grand Line",
       "size": 512,
       "race": "Humain",
-      "indice1": "Enies Lobby",
-      "indice2": "Humain",
-      "indice3": "Enies Lobby",
-      "firstAppearance": "Chapitre 379"
+      "hint1": "Enies Lobby",
+      "hint2": "Humain",
+      "hint3": "Enies Lobby",
+      "firstAppearance": "Chapitre 379",
+      "difficulty": "Impossible"
     },
     {
       "id": "bastille",
@@ -1912,10 +1944,11 @@
       "origin": "Grand Line",
       "size": 291,
       "race": "Humain",
-      "indice1": "Vice-Amiral",
-      "indice2": "Humain",
-      "indice3": "Vice-Amiral",
-      "firstAppearance": "Chapitre 553"
+      "hint1": "Vice-Amiral",
+      "hint2": "Humain",
+      "hint3": "Vice-Amiral",
+      "firstAppearance": "Chapitre 553",
+      "difficulty": "Difficile"
     },
     {
       "id": "bellamy",
@@ -1941,10 +1974,11 @@
       "origin": "North Blue}",
       "size": 240,
       "race": "Humain",
-      "indice1": "Équipage de Bellamy",
-      "indice2": "Bane Bane no Mi",
-      "indice3": "Équipage de Bellamy",
-      "firstAppearance": "Chapitre 222"
+      "hint1": "Équipage de Bellamy",
+      "hint2": "Bane Bane no Mi",
+      "hint3": "Équipage de Bellamy",
+      "firstAppearance": "Chapitre 222",
+      "difficulty": "Facile"
     },
     {
       "id": "bellemere",
@@ -1962,7 +1996,8 @@
       "origin": "East Blue",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 77"
+      "firstAppearance": "Chapitre 77",
+      "difficulty": "Moyen"
     },
     {
       "id": "belo-betty",
@@ -1982,10 +2017,11 @@
       "origin": "East Blue",
       "size": 196,
       "race": "Humain",
-      "indice1": "Révolutionnaires",
-      "indice2": "Kobu Kobu no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 904"
+      "hint1": "Révolutionnaires",
+      "hint2": "Kobu Kobu no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 904",
+      "difficulty": "Moyen"
     },
     {
       "id": "ben-beckmann",
@@ -2003,7 +2039,8 @@
       "origin": "North Blue",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 1"
+      "firstAppearance": "Chapitre 1",
+      "difficulty": "Facile"
     },
     {
       "id": "bent",
@@ -2020,10 +2057,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "bentham",
@@ -2051,10 +2089,11 @@
       "origin": "East Blue",
       "size": 238,
       "race": "Humain",
-      "indice1": "Impel Down",
-      "indice2": "Mane Mane no Mi",
-      "indice3": "Impel Down",
-      "firstAppearance": "Chapitre 129"
+      "hint1": "Impel Down",
+      "hint2": "Mane Mane no Mi",
+      "hint3": "Impel Down",
+      "firstAppearance": "Chapitre 129",
+      "difficulty": "Facile"
     },
     {
       "id": "bepo",
@@ -2076,10 +2115,11 @@
       "origin": "Zou (Principauté de Mokomo)",
       "size": 240,
       "race": "Minks",
-      "indice1": "Second",
-      "indice2": "Minks",
-      "indice3": "Tribu des Minks",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Second",
+      "hint2": "Minks",
+      "hint3": "Tribu des Minks",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "biblo",
@@ -2096,10 +2136,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 120,
       "race": "Humain",
-      "indice1": "Bibliothèque du Hibou",
-      "indice2": "Iku Iku no Mi",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "Bibliothèque du Hibou",
+      "hint2": "Iku Iku no Mi",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "black-maria",
@@ -2122,10 +2163,11 @@
       "origin": "Wano Kuni",
       "size": 820,
       "race": "Géant",
-      "indice1": "Tobiroppo",
-      "indice2": "Kumo Kumo no Mi modèle Rosamygale grauvogeli",
-      "indice3": "Tobiroppo",
-      "firstAppearance": "Chapitre 977"
+      "hint1": "Tobiroppo",
+      "hint2": "Kumo Kumo no Mi modèle Rosamygale grauvogeli",
+      "hint3": "Tobiroppo",
+      "firstAppearance": "Chapitre 977",
+      "difficulty": "Facile"
     },
     {
       "id": "blade",
@@ -2142,10 +2184,11 @@
       "origin": "Erbaf",
       "size": 1800,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Professeur de mathématiques",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1142"
+      "hint1": "École du Morse",
+      "hint2": "Professeur de mathématiques",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1142",
+      "difficulty": "Impossible"
     },
     {
       "id": "blue-gilly",
@@ -2164,10 +2207,11 @@
       "origin": "Grand Line",
       "size": 314,
       "race": "Longues-Jambes",
-      "indice1": "Équipage d'Ideo",
-      "indice2": "Longues-Jambes",
-      "indice3": "Équipage d'Ideo",
-      "firstAppearance": "Chapitre 706"
+      "hint1": "Équipage d'Ideo",
+      "hint2": "Longues-Jambes",
+      "hint3": "Équipage d'Ideo",
+      "firstAppearance": "Chapitre 706",
+      "difficulty": "Difficile"
     },
     {
       "id": "bluejam",
@@ -2184,10 +2228,11 @@
       "origin": "Royaume de Goa",
       "size": 261,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Humain",
-      "indice3": "Royaume de Goa",
-      "firstAppearance": "Chapitre 584"
+      "hint1": "Capitaine",
+      "hint2": "Humain",
+      "hint3": "Royaume de Goa",
+      "firstAppearance": "Chapitre 584",
+      "difficulty": "Impossible"
     },
     {
       "id": "blueno",
@@ -2211,10 +2256,11 @@
       "origin": "North Blue",
       "size": 258,
       "race": "Humain",
-      "indice1": "CP-AIGIS9",
-      "indice2": "Doa Doa no Mi",
-      "indice3": "CP-AIGIS9",
-      "firstAppearance": "Chapitre 325"
+      "hint1": "CP-AIGIS9",
+      "hint2": "Doa Doa no Mi",
+      "hint3": "CP-AIGIS9",
+      "firstAppearance": "Chapitre 325",
+      "difficulty": "Moyen"
     },
     {
       "id": "boa-hancock",
@@ -2242,10 +2288,11 @@
       "origin": "Calm Belt (Amazon Lily)",
       "size": 191,
       "race": "Homme-Poisson",
-      "indice1": "Amazon Lily",
-      "indice2": "Mero Mero no Mi",
-      "indice3": "Amazon Lily",
-      "firstAppearance": "Chapitre 489"
+      "hint1": "Amazon Lily",
+      "hint2": "Mero Mero no Mi",
+      "hint3": "Amazon Lily",
+      "firstAppearance": "Chapitre 489",
+      "difficulty": "Très facile"
     },
     {
       "id": "boa-marigold",
@@ -2267,10 +2314,11 @@
       "origin": "Calm Belt (Amazon Lily)",
       "size": 432,
       "race": "Humain",
-      "indice1": "Amazon Lily",
-      "indice2": "Hebi Hebi no Mi modèle Cobra Royal",
-      "indice3": "Amazon Lily",
-      "firstAppearance": "Chapitre 516"
+      "hint1": "Amazon Lily",
+      "hint2": "Hebi Hebi no Mi modèle Cobra Royal",
+      "hint3": "Amazon Lily",
+      "firstAppearance": "Chapitre 516",
+      "difficulty": "Difficile"
     },
     {
       "id": "boa-sandersonia",
@@ -2292,10 +2340,11 @@
       "origin": "Calm Belt (Amazon Lily)",
       "size": 453,
       "race": "Humain",
-      "indice1": "Amazon Lily",
-      "indice2": "Hebi Hebi no Mi modèle Anaconda",
-      "indice3": "Amazon Lily",
-      "firstAppearance": "Chapitre 516"
+      "hint1": "Amazon Lily",
+      "hint2": "Hebi Hebi no Mi modèle Anaconda",
+      "hint3": "Amazon Lily",
+      "firstAppearance": "Chapitre 516",
+      "difficulty": "Difficile"
     },
     {
       "id": "borsalino",
@@ -2320,10 +2369,11 @@
       "origin": "North Blue",
       "size": 302,
       "race": "Humain",
-      "indice1": "Amiral",
-      "indice2": "Pika Pika no Mi",
-      "indice3": "Amiral",
-      "firstAppearance": "Chapitre 504"
+      "hint1": "Amiral",
+      "hint2": "Pika Pika no Mi",
+      "hint3": "Amiral",
+      "firstAppearance": "Chapitre 504",
+      "difficulty": "Facile"
     },
     {
       "id": "brannew",
@@ -2342,10 +2392,11 @@
       "origin": "Grand Line",
       "size": 190,
       "race": "Humain",
-      "indice1": "Contre-Amiral",
-      "indice2": "Humain",
-      "indice3": "Contre-Amiral",
-      "firstAppearance": "Chapitre 96"
+      "hint1": "Contre-Amiral",
+      "hint2": "Humain",
+      "hint3": "Contre-Amiral",
+      "firstAppearance": "Chapitre 96",
+      "difficulty": "Difficile"
     },
     {
       "id": "brogy",
@@ -2365,10 +2416,11 @@
       "origin": "Erbaf",
       "size": 2130,
       "race": "Géant",
-      "indice1": "Capitaine",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 115"
+      "hint1": "Capitaine",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 115",
+      "difficulty": "Facile"
     },
     {
       "id": "brook",
@@ -2391,10 +2443,11 @@
       "origin": "West Blue",
       "size": 277,
       "race": "Humain",
-      "indice1": "Équipage de Rumbar",
-      "indice2": "Yomi Yomi no Mi",
-      "indice3": "Équipage de Rumbar",
-      "firstAppearance": "Chapitre 442"
+      "hint1": "Équipage de Rumbar",
+      "hint2": "Yomi Yomi no Mi",
+      "hint3": "Équipage de Rumbar",
+      "firstAppearance": "Chapitre 442",
+      "difficulty": "Très facile"
     },
     {
       "id": "buchi",
@@ -2414,10 +2467,11 @@
       "origin": "East Blue",
       "size": 216,
       "race": "Humain",
-      "indice1": "Équipage du Chat Noir",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 31"
+      "hint1": "Équipage du Chat Noir",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 31",
+      "difficulty": "Impossible"
     },
     {
       "id": "buckingham-stussy",
@@ -2438,10 +2492,11 @@
       "origin": "Grand Line",
       "size": 68,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Équipage de Rocks",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Équipage de Rocks",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Impossible"
     },
     {
       "id": "buffalo",
@@ -2458,10 +2513,11 @@
       "origin": "North Blue",
       "size": 696,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Guru Guru no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 692"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Guru Guru no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 692",
+      "difficulty": "Moyen"
     },
     {
       "id": "cabaji",
@@ -2482,10 +2538,11 @@
       "origin": "East Blue",
       "size": 208,
       "race": "Humain",
-      "indice1": "Équipage du Clown",
-      "indice2": "Humain",
-      "indice3": "Équipage du Clown",
-      "firstAppearance": "Chapitre 9"
+      "hint1": "Équipage du Clown",
+      "hint2": "Humain",
+      "hint3": "Équipage du Clown",
+      "firstAppearance": "Chapitre 9",
+      "difficulty": "Difficile"
     },
     {
       "id": "candelle",
@@ -2504,10 +2561,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 170,
       "race": "Humain",
-      "indice1": "Royaume d'Esperia",
-      "indice2": "Capitaine du Battle Convoy",
-      "indice3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183"
+      "hint1": "Royaume d'Esperia",
+      "hint2": "Capitaine du Battle Convoy",
+      "hint3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183",
+      "difficulty": "Impossible"
     },
     {
       "id": "capone-bege",
@@ -2532,10 +2590,11 @@
       "origin": "West Blue",
       "size": 166,
       "race": "Humain",
-      "indice1": "Équipage du Fire Tank",
-      "indice2": "Shiro Shiro no Mi",
-      "indice3": "Équipage du Fire Tank",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Équipage du Fire Tank",
+      "hint2": "Shiro Shiro no Mi",
+      "hint3": "Équipage du Fire Tank",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "caribou",
@@ -2558,10 +2617,11 @@
       "origin": "North Blue",
       "size": 228,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Numa Numa no Mi",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 600"
+      "hint1": "Capitaine",
+      "hint2": "Numa Numa no Mi",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 600",
+      "difficulty": "Moyen"
     },
     {
       "id": "carrot",
@@ -2583,10 +2643,11 @@
       "origin": "Zou (Principauté de Mokomo)",
       "size": 161,
       "race": "Mink",
-      "indice1": "Unité des mousquetaires",
-      "indice2": "Mink",
-      "indice3": "Unité des mousquetaires",
-      "firstAppearance": "Chapitre 804"
+      "hint1": "Unité des mousquetaires",
+      "hint2": "Mink",
+      "hint3": "Unité des mousquetaires",
+      "firstAppearance": "Chapitre 804",
+      "difficulty": "Facile"
     },
     {
       "id": "catarina-devon",
@@ -2607,10 +2668,11 @@
       "origin": "South Blue",
       "size": 361,
       "race": "Humain",
-      "indice1": "Impel Down",
-      "indice2": "Inu Inu no Mi modèle Kyubi no Kitsune",
-      "indice3": "Impel Down",
-      "firstAppearance": "Chapitre 575"
+      "hint1": "Impel Down",
+      "hint2": "Inu Inu no Mi modèle Kyubi no Kitsune",
+      "hint3": "Impel Down",
+      "firstAppearance": "Chapitre 575",
+      "difficulty": "Difficile"
     },
     {
       "id": "cavendish",
@@ -2636,10 +2698,11 @@
       "origin": "Grand Line",
       "size": 208,
       "race": "Humain",
-      "indice1": "Équipage de Cavendish",
-      "indice2": "Humain",
-      "indice3": "Équipage de Cavendish",
-      "firstAppearance": "Chapitre 704"
+      "hint1": "Équipage de Cavendish",
+      "hint2": "Humain",
+      "hint3": "Équipage de Cavendish",
+      "firstAppearance": "Chapitre 704",
+      "difficulty": "Facile"
     },
     {
       "id": "cesar-clown",
@@ -2661,10 +2724,11 @@
       "origin": "Grand Line",
       "size": 309,
       "race": "Humain",
-      "indice1": "Mads",
-      "indice2": "Gasu Gasu no Mi",
-      "indice3": "Mads",
-      "firstAppearance": "Chapitre 658"
+      "hint1": "Mads",
+      "hint2": "Gasu Gasu no Mi",
+      "hint3": "Mads",
+      "firstAppearance": "Chapitre 658",
+      "difficulty": "Facile"
     },
     {
       "id": "chadros-higelyges",
@@ -2683,10 +2747,11 @@
       "origin": "Grand Line",
       "size": 691,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Brune",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 581"
+      "hint1": "Équipage de Barbe Brune",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 581",
+      "difficulty": "Difficile"
     },
     {
       "id": "charlotte-brulee",
@@ -2705,10 +2770,11 @@
       "origin": "Grand Line ",
       "size": 350,
       "race": "Minks",
-      "indice1": "Famille Charlotte",
-      "indice2": "Mira Mira no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 831"
+      "hint1": "Famille Charlotte",
+      "hint2": "Mira Mira no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 831",
+      "difficulty": "Facile"
     },
     {
       "id": "charlotte-chiffon",
@@ -2728,10 +2794,11 @@
       "origin": "Grand Line",
       "size": 215,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Humain",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 825"
+      "hint1": "Famille Charlotte",
+      "hint2": "Humain",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 825",
+      "difficulty": "Moyen"
     },
     {
       "id": "charlotte-cracker",
@@ -2756,10 +2823,11 @@
       "origin": "Grand Line ",
       "size": 307,
       "race": "Géant",
-      "indice1": "Troisième",
-      "indice2": "Bisu Bisu no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 835"
+      "hint1": "Troisième",
+      "hint2": "Bisu Bisu no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 835",
+      "difficulty": "Facile"
     },
     {
       "id": "charlotte-daifuku",
@@ -2781,10 +2849,11 @@
       "origin": "Grand Line ",
       "size": 489,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Hoya Hoya no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 861"
+      "hint1": "Famille Charlotte",
+      "hint2": "Hoya Hoya no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 861",
+      "difficulty": "Moyen"
     },
     {
       "id": "charlotte-flampe",
@@ -2803,10 +2872,11 @@
       "origin": "Grand Line ",
       "size": 170,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Humain",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 891"
+      "hint1": "Famille Charlotte",
+      "hint2": "Humain",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 891",
+      "difficulty": "Impossible"
     },
     {
       "id": "charlotte-katakuri",
@@ -2829,10 +2899,11 @@
       "origin": "Grand Line ",
       "size": 509,
       "race": "Humain",
-      "indice1": "Second",
-      "indice2": "Mochi Mochi no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 860"
+      "hint1": "Second",
+      "hint2": "Mochi Mochi no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 860",
+      "difficulty": "Très facile"
     },
     {
       "id": "charlotte-laura",
@@ -2851,10 +2922,11 @@
       "origin": "Grand Line ",
       "size": 215,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Humain",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 476"
+      "hint1": "Famille Charlotte",
+      "hint2": "Humain",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 476",
+      "difficulty": "Impossible"
     },
     {
       "id": "charlotte-linlin",
@@ -2881,10 +2953,11 @@
       "origin": "Grand Line",
       "size": 880,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Soru Soru no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 651"
+      "hint1": "Capitaine",
+      "hint2": "Soru Soru no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 651",
+      "difficulty": "Très facile"
     },
     {
       "id": "charlotte-mont-d-or",
@@ -2903,10 +2976,11 @@
       "origin": "Grand Line ",
       "size": 260,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Buku Buku no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 829"
+      "hint1": "Famille Charlotte",
+      "hint2": "Buku Buku no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 829",
+      "difficulty": "Difficile"
     },
     {
       "id": "charlotte-oven",
@@ -2928,10 +3002,11 @@
       "origin": "Grand Line ",
       "size": 492,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Netsu Netsu no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 861"
+      "hint1": "Famille Charlotte",
+      "hint2": "Netsu Netsu no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 861",
+      "difficulty": "Facile"
     },
     {
       "id": "charlotte-perospero",
@@ -2953,10 +3028,11 @@
       "origin": "Grand Line ",
       "size": 333,
       "race": "Humain",
-      "indice1": "Famille Charlotte",
-      "indice2": "Pero Pero no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 834"
+      "hint1": "Famille Charlotte",
+      "hint2": "Pero Pero no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 834",
+      "difficulty": "Facile"
     },
     {
       "id": "charlotte-praline",
@@ -2975,10 +3051,11 @@
       "origin": "Whole Cake",
       "size": 800,
       "race": "Sirène",
-      "indice1": "Famille Charlotte",
-      "indice2": "Sirène",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 830"
+      "hint1": "Famille Charlotte",
+      "hint2": "Sirène",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 830",
+      "difficulty": "Difficile"
     },
     {
       "id": "charlotte-pudding",
@@ -3000,7 +3077,8 @@
       "origin": "Whole Cake Island",
       "size": "1m66",
       "race": "Humain",
-      "firstAppearance": "Chapitre 651"
+      "firstAppearance": "Chapitre 651",
+      "difficulty": "Facile"
     },
     {
       "id": "charlotte-smoothie",
@@ -3022,10 +3100,11 @@
       "origin": "Grand Line ",
       "size": 464,
       "race": "Longues-Jambes",
-      "indice1": "Famille Charlotte",
-      "indice2": "Shibo Shibo no Mi",
-      "indice3": "Famille Charlotte",
-      "firstAppearance": "Chapitre 846"
+      "hint1": "Famille Charlotte",
+      "hint2": "Shibo Shibo no Mi",
+      "hint3": "Famille Charlotte",
+      "firstAppearance": "Chapitre 846",
+      "difficulty": "Facile"
     },
     {
       "id": "chess",
@@ -3042,10 +3121,11 @@
       "origin": "Drum Island",
       "size": 194,
       "race": "Humain",
-      "indice1": "Équipage de Wapol",
-      "indice2": "Humain",
-      "indice3": "Drum Island",
-      "firstAppearance": "Chapitre 131"
+      "hint1": "Équipage de Wapol",
+      "hint2": "Humain",
+      "hint3": "Drum Island",
+      "firstAppearance": "Chapitre 131",
+      "difficulty": "Impossible"
     },
     {
       "id": "chimney",
@@ -3062,10 +3142,11 @@
       "origin": "Water Seven",
       "size": 115,
       "race": "Humain",
-      "indice1": "Gare de Shift",
-      "indice2": "Humain",
-      "indice3": "Water Seven",
-      "firstAppearance": "Chapitre 322"
+      "hint1": "Gare de Shift",
+      "hint2": "Humain",
+      "hint3": "Water Seven",
+      "firstAppearance": "Chapitre 322",
+      "difficulty": "Impossible"
     },
     {
       "id": "chinjao",
@@ -3092,10 +3173,11 @@
       "origin": "Pays des Fleurs",
       "size": 520,
       "race": "Humain",
-      "indice1": "Flotte de Happou",
-      "indice2": "Humain",
-      "indice3": "Flotte de Happou",
-      "firstAppearance": "Chapitre 704"
+      "hint1": "Flotte de Happou",
+      "hint2": "Humain",
+      "hint3": "Flotte de Happou",
+      "firstAppearance": "Chapitre 704",
+      "difficulty": "Facile"
     },
     {
       "id": "chouchou",
@@ -3112,10 +3194,11 @@
       "origin": "Orange Town",
       "size": 40,
       "race": "Chien",
-      "indice1": "Orange Town",
-      "indice2": "Chien",
-      "indice3": "Orange Town",
-      "firstAppearance": "Chapitre 12"
+      "hint1": "Orange Town",
+      "hint2": "Chien",
+      "hint3": "Orange Town",
+      "firstAppearance": "Chapitre 12",
+      "difficulty": "Difficile"
     },
     {
       "id": "colon",
@@ -3132,10 +3215,11 @@
       "origin": "Erbaf",
       "size": 350,
       "race": "Géant",
-      "indice1": "Erbaf",
-      "indice2": "Demi-géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1076"
+      "hint1": "Erbaf",
+      "hint2": "Demi-géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1076",
+      "difficulty": "Impossible"
     },
     {
       "id": "conis",
@@ -3152,10 +3236,11 @@
       "origin": "Skypiea",
       "size": 176,
       "race": "Skypieien",
-      "indice1": "Skypiea",
-      "indice2": "Skypieien",
-      "indice3": "Skypiea",
-      "firstAppearance": "Chapitre 239"
+      "hint1": "Skypiea",
+      "hint2": "Skypieien",
+      "hint3": "Skypiea",
+      "firstAppearance": "Chapitre 239",
+      "difficulty": "Difficile"
     },
     {
       "id": "coribou",
@@ -3174,10 +3259,11 @@
       "origin": "North Blue",
       "size": 250,
       "race": "Humain",
-      "indice1": "Équipage de Caribou",
-      "indice2": "Humain",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 600"
+      "hint1": "Équipage de Caribou",
+      "hint2": "Humain",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 600",
+      "difficulty": "Difficile"
     },
     {
       "id": "crocodile",
@@ -3199,10 +3285,11 @@
       "origin": "Grand Line",
       "size": 253,
       "race": "Humain",
-      "indice1": "Sept Grands Corsaires",
-      "indice2": "Suna Suna no Mi",
-      "indice3": "Sept Grands Corsaires",
-      "firstAppearance": "Chapitre 126"
+      "hint1": "Sept Grands Corsaires",
+      "hint2": "Suna Suna no Mi",
+      "hint3": "Sept Grands Corsaires",
+      "firstAppearance": "Chapitre 126",
+      "difficulty": "Très facile"
     },
     {
       "id": "crocus",
@@ -3221,10 +3308,11 @@
       "origin": "Grand Line",
       "size": 203,
       "race": "Humain",
-      "indice1": "Équipage de Roger",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 102"
+      "hint1": "Équipage de Roger",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 102",
+      "difficulty": "Facile"
     },
     {
       "id": "curly-dadan",
@@ -3241,10 +3329,11 @@
       "origin": "East Blue",
       "size": 221,
       "race": "Humain",
-      "indice1": "Bandits",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 582"
+      "hint1": "Bandits",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 582",
+      "difficulty": "Facile"
     },
     {
       "id": "dalton",
@@ -3263,10 +3352,11 @@
       "origin": "Drum Island",
       "size": 218,
       "race": "Humain",
-      "indice1": "Royaume des Cerisiers",
-      "indice2": "Ushi Ushi no Mi modèle Bison",
-      "indice3": "Royaume des Cerisiers",
-      "firstAppearance": "Chapitre 132"
+      "hint1": "Royaume des Cerisiers",
+      "hint2": "Ushi Ushi no Mi modèle Bison",
+      "hint3": "Royaume des Cerisiers",
+      "firstAppearance": "Chapitre 132",
+      "difficulty": "Moyen"
     },
     {
       "id": "demalo-black",
@@ -3286,10 +3376,11 @@
       "origin": "East Blue",
       "size": 245,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 598"
+      "hint1": "Capitaine",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 598",
+      "difficulty": "Difficile"
     },
     {
       "id": "den",
@@ -3306,10 +3397,11 @@
       "origin": "Fishman Island",
       "size": 435,
       "race": "Homme-Poisson",
-      "indice1": "Civil",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 616"
+      "hint1": "Civil",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 616",
+      "difficulty": "Impossible"
     },
     {
       "id": "denjiro",
@@ -3333,10 +3425,11 @@
       "origin": "Wano Kuni",
       "size": 306,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 919"
+      "hint1": "Famille Kozuki",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 919",
+      "difficulty": "Moyen"
     },
     {
       "id": "diamante",
@@ -3358,10 +3451,11 @@
       "origin": "North Blue",
       "size": 525,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Hira Hira no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 700"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Hira Hira no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 700",
+      "difficulty": "Facile"
     },
     {
       "id": "doc-q",
@@ -3380,10 +3474,11 @@
       "origin": "North Blue",
       "size": 342,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Noire",
-      "indice2": "Shiku Shiku no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 223"
+      "hint1": "Équipage de Barbe Noire",
+      "hint2": "Shiku Shiku no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 223",
+      "difficulty": "Difficile"
     },
     {
       "id": "doll",
@@ -3404,10 +3499,11 @@
       "origin": "Grand Line",
       "size": 220,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Vice-amiral",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1061"
+      "hint1": "Marine",
+      "hint2": "Vice-amiral",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1061",
+      "difficulty": "Difficile"
     },
     {
       "id": "don-quichotte-doflamingo",
@@ -3431,10 +3527,11 @@
       "origin": "Mary Geoise",
       "size": 305,
       "race": "Humain",
-      "indice1": "Équipage des Cent Bêtes",
-      "indice2": "Ito Ito no Mi",
-      "indice3": "Équipage des Cent Bêtes",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Équipage des Cent Bêtes",
+      "hint2": "Ito Ito no Mi",
+      "hint3": "Équipage des Cent Bêtes",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Très facile"
     },
     {
       "id": "don-quichotte-rossinante",
@@ -3457,10 +3554,11 @@
       "origin": "Mary Geoise",
       "size": 293,
       "race": "Humain",
-      "indice1": "Lieutenant Colonel",
-      "indice2": "Nagi Nagi no Mi",
-      "indice3": "Marines",
-      "firstAppearance": "Chapitre 761"
+      "hint1": "Lieutenant Colonel",
+      "hint2": "Nagi Nagi no Mi",
+      "hint3": "Marines",
+      "firstAppearance": "Chapitre 761",
+      "difficulty": "Facile"
     },
     {
       "id": "dorry",
@@ -3480,10 +3578,11 @@
       "origin": "Erbaf",
       "size": 2260,
       "race": "Géant",
-      "indice1": "Capitaine",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 116"
+      "hint1": "Capitaine",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 116",
+      "difficulty": "Facile"
     },
     {
       "id": "douzan",
@@ -3500,10 +3599,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 0,
       "race": "Humain",
-      "indice1": "Royaume d'Esperia",
-      "indice2": "Mentionné",
-      "indice3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183"
+      "hint1": "Royaume d'Esperia",
+      "hint2": "Mentionné",
+      "hint3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183",
+      "difficulty": "Impossible"
     },
     {
       "id": "dracule-mihawk",
@@ -3529,7 +3629,8 @@
       "origin": "Grand Line",
       "size": "1m98",
       "race": "Humain",
-      "firstAppearance": "Chapitre 49"
+      "firstAppearance": "Chapitre 49",
+      "difficulty": "Très facile"
     },
     {
       "id": "drophy",
@@ -3549,10 +3650,11 @@
       "origin": "Grand Line",
       "size": 156,
       "race": "Humain",
-      "indice1": "Baroque Works",
-      "indice2": "Mogu Mogu no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 160"
+      "hint1": "Baroque Works",
+      "hint2": "Mogu Mogu no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 160",
+      "difficulty": "Difficile"
     },
     {
       "id": "dugong",
@@ -3570,7 +3672,8 @@
       "origin": "Grand Line",
       "size": "",
       "race": "Animal",
-      "firstAppearance": "Chapitre 161"
+      "firstAppearance": "Chapitre 161",
+      "difficulty": "Impossible"
     },
     {
       "id": "edison",
@@ -3592,10 +3695,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 100,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Satellite de Vegapunk",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1065"
+      "hint1": "Marine",
+      "hint2": "Satellite de Vegapunk",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1065",
+      "difficulty": "Difficile"
     },
     {
       "id": "edward-newgate",
@@ -3621,10 +3725,11 @@
       "origin": "Sphinx",
       "size": 666,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Gura Gura no Mi",
-      "indice3": "Quatre Empereurs",
-      "firstAppearance": "Chapitre 234"
+      "hint1": "Capitaine",
+      "hint2": "Gura Gura no Mi",
+      "hint3": "Quatre Empereurs",
+      "firstAppearance": "Chapitre 234",
+      "difficulty": "Très facile"
     },
     {
       "id": "edward-weevil",
@@ -3647,10 +3752,11 @@
       "origin": "Grand Line",
       "size": 680,
       "race": "Humain",
-      "indice1": "Grand corsaire",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 802"
+      "hint1": "Grand corsaire",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 802",
+      "difficulty": "Facile"
     },
     {
       "id": "emet",
@@ -3669,10 +3775,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 1050,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Géant de fer",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1065"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Géant de fer",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1065",
+      "difficulty": "Moyen"
     },
     {
       "id": "emil",
@@ -3689,10 +3796,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "emporio-ivankov",
@@ -3717,10 +3825,11 @@
       "origin": "Grand Line",
       "size": 449,
       "race": "Humain",
-      "indice1": "Kedétrav",
-      "indice2": "Horu Horu no Mi",
-      "indice3": "Kedétrav",
-      "firstAppearance": "Chapitre 537"
+      "hint1": "Kedétrav",
+      "hint2": "Horu Horu no Mi",
+      "hint3": "Kedétrav",
+      "firstAppearance": "Chapitre 537",
+      "difficulty": "Facile"
     },
     {
       "id": "enel",
@@ -3740,10 +3849,11 @@
       "origin": "Îles Célestes (Bilca)",
       "size": 266,
       "race": "Skypieien",
-      "indice1": "Skypiea",
-      "indice2": "Goro Goro no Mi",
-      "indice3": "Îles Célestes (Bilca)",
-      "firstAppearance": "Chapitre 254"
+      "hint1": "Skypiea",
+      "hint2": "Goro Goro no Mi",
+      "hint3": "Îles Célestes (Bilca)",
+      "firstAppearance": "Chapitre 254",
+      "difficulty": "Très facile"
     },
     {
       "id": "gecko-moria",
@@ -3763,10 +3873,11 @@
       "origin": "West Blue",
       "size": 692,
       "race": "Humain",
-      "indice1": "Équipage des Pirates Gecko",
-      "indice2": "Paramecia",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 448"
+      "hint1": "Équipage des Pirates Gecko",
+      "hint2": "Paramecia",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 448",
+      "difficulty": "Très facile"
     },
     {
       "id": "eris",
@@ -3783,10 +3894,11 @@
       "origin": "Grand Line (God Valley)",
       "size": 170,
       "race": "Humain",
-      "indice1": "Famille Davy",
-      "indice2": "Épouse de Rocks D. Xebec",
-      "indice3": "Grand Line (God Valley)",
-      "firstAppearance": "Chapitre 1159"
+      "hint1": "Famille Davy",
+      "hint2": "Épouse de Rocks D. Xebec",
+      "hint3": "Grand Line (God Valley)",
+      "firstAppearance": "Chapitre 1159",
+      "difficulty": "Impossible"
     },
     {
       "id": "estrid",
@@ -3805,10 +3917,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
       "race": "Géant",
-      "indice1": "Erbaf",
-      "indice2": "Reine",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1153"
+      "hint1": "Erbaf",
+      "hint2": "Reine",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1153",
+      "difficulty": "Impossible"
     },
     {
       "id": "ethanbaron-v-nusjuro",
@@ -3833,10 +3946,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 350,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Inu Inu no Mi modèle Bakotsu",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Inu Inu no Mi modèle Bakotsu",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Moyen"
     },
     {
       "id": "eustass-kid",
@@ -3862,10 +3976,11 @@
       "origin": "South Blue",
       "size": 205,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Jiki Jiki no Mi",
-      "indice3": "Supernova",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Capitaine",
+      "hint2": "Jiki Jiki no Mi",
+      "hint3": "Supernova",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Très facile"
     },
     {
       "id": "figarland-garling",
@@ -3891,10 +4006,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 310,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Chevaliers de Dieu",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1086"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Chevaliers de Dieu",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1086",
+      "difficulty": "Facile"
     },
     {
       "id": "figarland-shamrock",
@@ -3919,10 +4035,11 @@
       "origin": "West Blue (God Valley)",
       "size": 185,
       "race": "Humain",
-      "indice1": "Chevaliers de Dieu",
-      "indice2": "Cerberus",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 907"
+      "hint1": "Chevaliers de Dieu",
+      "hint2": "Cerberus",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 907",
+      "difficulty": "Facile"
     },
     {
       "id": "fisher-tiger",
@@ -3942,10 +4059,11 @@
       "origin": "Fishman Island",
       "size": 520,
       "race": "Homme-Poisson",
-      "indice1": "Capitaine",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 521"
+      "hint1": "Capitaine",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 521",
+      "difficulty": "Facile"
     },
     {
       "id": "foxy",
@@ -3965,10 +4083,11 @@
       "origin": "South Blue",
       "size": 180,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Noro Noro no Mi",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 305"
+      "hint1": "Capitaine",
+      "hint2": "Noro Noro no Mi",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 305",
+      "difficulty": "Facile"
     },
     {
       "id": "franky",
@@ -3989,10 +4108,11 @@
       "origin": "South Blue",
       "size": 240,
       "race": "Humain",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 329"
+      "hint1": "Équipage du Chapeau de Paille",
+      "hint2": "Humain",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 329",
+      "difficulty": "Très facile"
     },
     {
       "id": "fukaboshi",
@@ -4009,10 +4129,11 @@
       "origin": "Fishman Island",
       "size": 604,
       "race": "Homme-Poisson",
-      "indice1": "Famille royale de l'île des hommes-poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 609"
+      "hint1": "Famille royale de l'île des hommes-poissons",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 609",
+      "difficulty": "Moyen"
     },
     {
       "id": "fukuro",
@@ -4034,10 +4155,11 @@
       "origin": "Grand Line",
       "size": 331,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 375"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 375",
+      "difficulty": "Difficile"
     },
     {
       "id": "fukurokuju",
@@ -4054,10 +4176,11 @@
       "origin": "Wano Kuni",
       "size": 221,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Humain",
-      "indice3": "Wano Kuni",
-      "firstAppearance": "Chapitre 931"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Humain",
+      "hint3": "Wano Kuni",
+      "firstAppearance": "Chapitre 931",
+      "difficulty": "Impossible"
     },
     {
       "id": "fullbody",
@@ -4076,10 +4199,11 @@
       "origin": "North Blue",
       "size": 184,
       "race": "Humain",
-      "indice1": "Lieutenant Commandant",
-      "indice2": "Humain",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 43"
+      "hint1": "Lieutenant Commandant",
+      "hint2": "Humain",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 43",
+      "difficulty": "Difficile"
     },
     {
       "id": "gaimon",
@@ -4097,7 +4221,8 @@
       "origin": "East Blue",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 22"
+      "firstAppearance": "Chapitre 22",
+      "difficulty": "Difficile"
     },
     {
       "id": "galdino",
@@ -4118,10 +4243,11 @@
       "origin": "South Blue",
       "size": 179,
       "race": "Humain",
-      "indice1": "Cross Guild",
-      "indice2": "Doru Doru no Mi",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 117"
+      "hint1": "Cross Guild",
+      "hint2": "Doru Doru no Mi",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 117",
+      "difficulty": "Facile"
     },
     {
       "id": "gan-forr",
@@ -4140,10 +4266,11 @@
       "origin": "Skypiea",
       "size": 180,
       "race": "Dieu",
-      "indice1": "Skypiea",
-      "indice2": "Dieu",
-      "indice3": "Skypiea",
-      "firstAppearance": "Chapitre 237"
+      "hint1": "Skypiea",
+      "hint2": "Dieu",
+      "hint3": "Skypiea",
+      "firstAppearance": "Chapitre 237",
+      "difficulty": "Moyen"
     },
     {
       "id": "gantonio",
@@ -4160,10 +4287,11 @@
       "origin": "Erbaf",
       "size": 2000,
       "race": "Géant",
-      "indice1": "Pirates Guerriers Géants",
-      "indice2": "Pirate",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1177"
+      "hint1": "Pirates Guerriers Géants",
+      "hint2": "Pirate",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1177",
+      "difficulty": "Impossible"
     },
     {
       "id": "ganzui",
@@ -4182,10 +4310,11 @@
       "origin": "Grand Line",
       "size": 200,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Bomu Bomu no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Bomu Bomu no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Impossible"
     },
     {
       "id": "gedatsu",
@@ -4206,10 +4335,11 @@
       "origin": "Îles Célestes (Bilca)",
       "size": 220,
       "race": "Humain",
-      "indice1": "Clan d'Ener",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 241"
+      "hint1": "Clan d'Ener",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 241",
+      "difficulty": "Difficile"
     },
     {
       "id": "gem",
@@ -4229,10 +4359,11 @@
       "origin": "South Blue",
       "size": 197,
       "race": "Humain",
-      "indice1": "Baroque Works",
-      "indice2": "Bomu Bomu no Mi",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 110"
+      "hint1": "Baroque Works",
+      "hint2": "Bomu Bomu no Mi",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 110",
+      "difficulty": "Difficile"
     },
     {
       "id": "gerd",
@@ -4240,8 +4371,10 @@
       "aliases": [
         "Géant"
       ],
-      "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "affiliation": "Les Pirates d'Expédition",
+      "sub_affiliation": [
+        "Grand Fleet du Chapeau de Paille"
+      ],
       "age": 75,
       "arc": "Elbaph",
       "bounty": 0,
@@ -4251,10 +4384,11 @@
       "origin": "Erbaf",
       "size": 1700,
       "race": "Géant",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 866"
+      "hint1": "Les Pirates d'Expédition",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 866",
+      "difficulty": "Difficile"
     },
     {
       "id": "gill-bastar",
@@ -4273,10 +4407,11 @@
       "origin": "Grand Line",
       "size": 200,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Horo Horo no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 450"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Horo Horo no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 450",
+      "difficulty": "Impossible"
     },
     {
       "id": "gin",
@@ -4294,7 +4429,8 @@
       "origin": "East Blue",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 44"
+      "firstAppearance": "Chapitre 44",
+      "difficulty": "Difficile"
     },
     {
       "id": "ginny",
@@ -4313,10 +4449,11 @@
       "origin": "Grand Line (Royaume de Porco)",
       "size": 174,
       "race": "Humain",
-      "indice1": "Armée Révolutionnaire",
-      "indice2": "Capitaine de l'Armée de l'Est",
-      "indice3": "Grand Line (Royaume de Porco)",
-      "firstAppearance": "Chapitre 1095"
+      "hint1": "Armée Révolutionnaire",
+      "hint2": "Capitaine de l'Armée de l'Est",
+      "hint3": "Grand Line (Royaume de Porco)",
+      "firstAppearance": "Chapitre 1095",
+      "difficulty": "Moyen"
     },
     {
       "id": "gladius",
@@ -4333,10 +4470,11 @@
       "origin": "North Blue",
       "size": 260,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Pamu Pamu no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 682"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Pamu Pamu no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 682",
+      "difficulty": "Difficile"
     },
     {
       "id": "gloriosa",
@@ -4360,10 +4498,11 @@
       "origin": "Calm Belt (Amazon Lily)",
       "size": 180,
       "race": "Humain",
-      "indice1": "Kuja",
-      "indice2": "Impératrice Kuja",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Kuja",
+      "hint2": "Impératrice Kuja",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Difficile"
     },
     {
       "id": "gol-d-roger",
@@ -4387,10 +4526,11 @@
       "origin": "Logue Town",
       "size": 274,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation, des rois",
-      "firstAppearance": "Chapitre 1"
+      "hint1": "Capitaine",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation, des rois",
+      "firstAppearance": "Chapitre 1",
+      "difficulty": "Très facile"
     },
     {
       "id": "goldberg",
@@ -4409,10 +4549,11 @@
       "origin": "Erbaf",
       "size": 2100,
       "race": "Géant",
-      "indice1": "Les Pirates d'Expédition",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 899"
+      "hint1": "Les Pirates d'Expédition",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 899",
+      "difficulty": "Impossible"
     },
     {
       "id": "gotti",
@@ -4429,10 +4570,11 @@
       "origin": "West Blue",
       "size": 375,
       "race": "Humain",
-      "indice1": "Équipage du Fire Tank",
-      "indice2": "Humain",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 825"
+      "hint1": "Équipage du Fire Tank",
+      "hint2": "Humain",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 825",
+      "difficulty": "Difficile"
     },
     {
       "id": "gunko",
@@ -4459,10 +4601,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 170,
       "race": "Humain",
-      "indice1": "Chevaliers de Dieu",
-      "indice2": "Aro Aro no Mi",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "Chevaliers de Dieu",
+      "hint2": "Aro Aro no Mi",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Facile"
     },
     {
       "id": "gustav",
@@ -4479,10 +4622,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "hack",
@@ -4499,10 +4643,11 @@
       "origin": "Île des Hommes-Poissons",
       "size": 280,
       "race": "Homme-Poisson",
-      "indice1": "Armée Révolutionnaire",
-      "indice2": "Homme-Poisson",
-      "indice3": "Île des Hommes-Poissons",
-      "firstAppearance": "Chapitre 706"
+      "hint1": "Armée Révolutionnaire",
+      "hint2": "Homme-Poisson",
+      "hint3": "Île des Hommes-Poissons",
+      "firstAppearance": "Chapitre 706",
+      "difficulty": "Difficile"
     },
     {
       "id": "haguar-d-sauro",
@@ -4523,10 +4668,11 @@
       "origin": "South Blue",
       "size": 1950,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Humain",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 392"
+      "hint1": "Marine",
+      "hint2": "Humain",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 392",
+      "difficulty": "Facile"
     },
     {
       "id": "hajrudin",
@@ -4546,10 +4692,11 @@
       "origin": "Erbaf",
       "size": 2200,
       "race": "Géant",
-      "indice1": "Les Pirates d'Expédition",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 706"
+      "hint1": "Les Pirates d'Expédition",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 706",
+      "difficulty": "Facile"
     },
     {
       "id": "hannyabal",
@@ -4566,10 +4713,11 @@
       "origin": "South Blue",
       "size": 309,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Humain",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 525"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Humain",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 525",
+      "difficulty": "Difficile"
     },
     {
       "id": "harald",
@@ -4593,10 +4741,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 2200,
       "race": "Géant",
-      "indice1": "Erbaf",
-      "indice2": "Ancien roi",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1136"
+      "hint1": "Erbaf",
+      "hint2": "Ancien roi",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1136",
+      "difficulty": "Facile"
     },
     {
       "id": "haredas",
@@ -4613,10 +4762,11 @@
       "origin": "Îles Célestes (Bilca)",
       "size": 253,
       "race": "Homme-Poisson",
-      "indice1": "Weatheria",
-      "indice2": "Homme-Poisson",
-      "indice3": "Îles Célestes (Bilca)",
-      "firstAppearance": "Chapitre 523"
+      "hint1": "Weatheria",
+      "hint2": "Homme-Poisson",
+      "hint3": "Îles Célestes (Bilca)",
+      "firstAppearance": "Chapitre 523",
+      "difficulty": "Impossible"
     },
     {
       "id": "hilmungardr",
@@ -4633,10 +4783,11 @@
       "origin": "Erbaf",
       "size": 0,
       "race": "Animal",
-      "indice1": "Pays des Dieux",
-      "indice2": "Serpent",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1128"
+      "hint1": "Pays des Dieux",
+      "hint2": "Serpent",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1128",
+      "difficulty": "Impossible"
     },
     {
       "id": "hiluluk",
@@ -4655,10 +4806,11 @@
       "origin": "Drum Island",
       "size": 213,
       "race": "Humain",
-      "indice1": "Royaume des Cerisiers",
-      "indice2": "Humain",
-      "indice3": "Drum Island",
-      "firstAppearance": "Chapitre 141"
+      "hint1": "Royaume des Cerisiers",
+      "hint2": "Humain",
+      "hint3": "Drum Island",
+      "firstAppearance": "Chapitre 141",
+      "difficulty": "Moyen"
     },
     {
       "id": "hina",
@@ -4678,10 +4830,11 @@
       "origin": "West Blue",
       "size": 181,
       "race": "Humain",
-      "indice1": "Sous-Amiral",
-      "indice2": "Ori Ori no Mi",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 171"
+      "hint1": "Sous-Amiral",
+      "hint2": "Ori Ori no Mi",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 171",
+      "difficulty": "Moyen"
     },
     {
       "id": "hody-jones",
@@ -4700,10 +4853,11 @@
       "origin": "Fishman Island",
       "size": 331,
       "race": "Homme-Poisson",
-      "indice1": "Nouvel Équipage des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "des Rois",
-      "firstAppearance": "Chapitre 608"
+      "hint1": "Nouvel Équipage des Hommes-Poissons",
+      "hint2": "Homme-Poisson",
+      "hint3": "des Rois",
+      "firstAppearance": "Chapitre 608",
+      "difficulty": "Facile"
     },
     {
       "id": "hogback",
@@ -4720,10 +4874,11 @@
       "origin": "West Blue",
       "size": 233,
       "race": "Humain",
-      "indice1": "Equipage de Gecko Moria",
-      "indice2": "Humain",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 446"
+      "hint1": "Equipage de Gecko Moria",
+      "hint2": "Humain",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 446",
+      "difficulty": "Difficile"
     },
     {
       "id": "holdem",
@@ -4742,10 +4897,11 @@
       "origin": "Wano Kuni",
       "size": 312,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "SMILE",
-      "indice3": "Wano Kuni",
-      "firstAppearance": "Chapitre 915"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "SMILE",
+      "hint3": "Wano Kuni",
+      "firstAppearance": "Chapitre 915",
+      "difficulty": "Difficile"
     },
     {
       "id": "iceburg",
@@ -4765,7 +4921,8 @@
       "origin": "Water Seven",
       "size": "1m99",
       "race": "Humain",
-      "firstAppearance": "Chapitre 323"
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Moyen"
     },
     {
       "id": "ida",
@@ -4784,10 +4941,11 @@
       "origin": "South Blue (Île de Samuwanai)",
       "size": 1700,
       "race": "Géant",
-      "indice1": "Erbaf",
-      "indice2": "Barmaid",
-      "indice3": "South Blue (Île de Samuwanai)",
-      "firstAppearance": "Chapitre 1153"
+      "hint1": "Erbaf",
+      "hint2": "Barmaid",
+      "hint3": "South Blue (Île de Samuwanai)",
+      "firstAppearance": "Chapitre 1153",
+      "difficulty": "Impossible"
     },
     {
       "id": "ideo",
@@ -4806,10 +4964,11 @@
       "origin": "Grand Line",
       "size": 225,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 706"
+      "hint1": "Capitaine",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 706",
+      "difficulty": "Difficile"
     },
     {
       "id": "imu",
@@ -4836,10 +4995,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 0,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Akuma no Mi",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 906"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Akuma no Mi",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 906",
+      "difficulty": "Facile"
     },
     {
       "id": "inazuma",
@@ -4858,10 +5018,11 @@
       "origin": "South Blue",
       "size": 228,
       "race": "Humain",
-      "indice1": "Armée Révolutionnaire",
-      "indice2": "Choki Choki no Mi",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 536"
+      "hint1": "Armée Révolutionnaire",
+      "hint2": "Choki Choki no Mi",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 536",
+      "difficulty": "Facile"
     },
     {
       "id": "inuarashi",
@@ -4884,10 +5045,11 @@
       "origin": "Zou (Principauté de Mokomo)",
       "size": 511,
       "race": "Homme-Poisson",
-      "indice1": "Principauté de Mokomo",
-      "indice2": "Homme-Poisson",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 808"
+      "hint1": "Principauté de Mokomo",
+      "hint2": "Homme-Poisson",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 808",
+      "difficulty": "Moyen"
     },
     {
       "id": "iscat",
@@ -4904,10 +5066,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 900,
       "race": "Humain",
-      "indice1": "Royaume des Blocs",
-      "indice2": "Félin géant",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1127"
+      "hint1": "Royaume des Blocs",
+      "hint2": "Félin géant",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1127",
+      "difficulty": "Impossible"
     },
     {
       "id": "issho",
@@ -4930,10 +5093,11 @@
       "origin": "Grand Line",
       "size": 270,
       "race": "Humain",
-      "indice1": "Amiral",
-      "indice2": "Zushi Zushi no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 701"
+      "hint1": "Amiral",
+      "hint2": "Zushi Zushi no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 701",
+      "difficulty": "Facile"
     },
     {
       "id": "izou",
@@ -4953,10 +5117,11 @@
       "origin": "Wano Kuni (Ringo)",
       "size": 192,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Blanche",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 553"
+      "hint1": "Équipage de Barbe Blanche",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 553",
+      "difficulty": "Moyen"
     },
     {
       "id": "jabra",
@@ -4976,10 +5141,11 @@
       "origin": "North Blue",
       "size": 212,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Inu Inu no Mi modèle Loup",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 375"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Inu Inu no Mi modèle Loup",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 375",
+      "difficulty": "Difficile"
     },
     {
       "id": "jack",
@@ -5001,10 +5167,11 @@
       "origin": "Grand Line",
       "size": 830,
       "race": "Homme-Poisson",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Zo Zo no Mi modèle Mammouth",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 801"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Zo Zo no Mi modèle Mammouth",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 801",
+      "difficulty": "Facile"
     },
     {
       "id": "jarul",
@@ -5023,10 +5190,11 @@
       "origin": "Erbaf",
       "size": 2050,
       "race": "Géant",
-      "indice1": "Équipage des Géants",
-      "indice2": "Ancien du village",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 866"
+      "hint1": "Équipage des Géants",
+      "hint2": "Ancien du village",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 866",
+      "difficulty": "Impossible"
     },
     {
       "id": "jaygarcia-saturn",
@@ -5051,10 +5219,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 350,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Ushi Ushi no Mi modèle Gyuki",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Ushi Ushi no Mi modèle Gyuki",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Facile"
     },
     {
       "id": "jesus-burgess",
@@ -5077,10 +5246,11 @@
       "origin": "Grand Line",
       "size": 355,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Noire",
-      "indice2": "Riki Riki no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 222"
+      "hint1": "Équipage de Barbe Noire",
+      "hint2": "Riki Riki no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 222",
+      "difficulty": "Moyen"
     },
     {
       "id": "jewelry-bonney",
@@ -5103,10 +5273,11 @@
       "origin": "South Blue",
       "size": 174,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Toshi Toshi no Mi",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Capitaine",
+      "hint2": "Toshi Toshi no Mi",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "jinbe",
@@ -5128,10 +5299,11 @@
       "origin": "Fishman Island",
       "size": 301,
       "race": "Humain",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 528"
+      "hint1": "Équipage du Chapeau de Paille",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 528",
+      "difficulty": "Très facile"
     },
     {
       "id": "johanna",
@@ -5148,10 +5320,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1135"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1135",
+      "difficulty": "Impossible"
     },
     {
       "id": "captain-john",
@@ -5172,10 +5345,11 @@
       "origin": "Grand Line",
       "size": 200,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Jiki Jiki no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Jiki Jiki no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Impossible"
     },
     {
       "id": "johnny",
@@ -5192,10 +5366,11 @@
       "origin": "East Blue",
       "size": 186,
       "race": "Humain",
-      "indice1": "Chasseurs de Primes (avec Yosaku)",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 42"
+      "hint1": "Chasseurs de Primes (avec Yosaku)",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 42",
+      "difficulty": "Difficile"
     },
     {
       "id": "jora",
@@ -5212,10 +5387,11 @@
       "origin": "North Blue",
       "size": 221,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Ato Ato no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 682"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Ato Ato no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 682",
+      "difficulty": "Difficile"
     },
     {
       "id": "joz",
@@ -5237,10 +5413,11 @@
       "origin": "West Blue",
       "size": 503,
       "race": "Humain",
-      "indice1": "Troisième",
-      "indice2": "Kira Kira no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 234"
+      "hint1": "Troisième",
+      "hint2": "Kira Kira no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 234",
+      "difficulty": "Difficile"
     },
     {
       "id": "kaidou",
@@ -5266,10 +5443,11 @@
       "origin": "Grand Line",
       "size": 710,
       "race": "Minks",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Uo Uo no Mi modèle Seiryu",
-      "indice3": "Armement, Observation, des Rois",
-      "firstAppearance": "Chapitre 795"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Uo Uo no Mi modèle Seiryu",
+      "hint3": "Armement, Observation, des Rois",
+      "firstAppearance": "Chapitre 795",
+      "difficulty": "Très facile"
     },
     {
       "id": "kaku",
@@ -5291,10 +5469,11 @@
       "origin": "East Blue",
       "size": 193,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Ushi Ushi no Mi modèle Girafe",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 323"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Ushi Ushi no Mi modèle Girafe",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Facile"
     },
     {
       "id": "kalgara",
@@ -5315,10 +5494,11 @@
       "origin": "Grand Line",
       "size": 222,
       "race": "Humain",
-      "indice1": "Shandiass",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 286"
+      "hint1": "Shandiass",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 286",
+      "difficulty": "Impossible"
     },
     {
       "id": "kalifa",
@@ -5338,10 +5518,11 @@
       "origin": "Grand Line",
       "size": 185,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Awa Awa no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 323"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Awa Awa no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Moyen"
     },
     {
       "id": "karasu",
@@ -5363,10 +5544,11 @@
       "origin": "North Blue",
       "size": 265,
       "race": "Humain",
-      "indice1": "Armée Révolutionnaire",
-      "indice2": "Susu Susu no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 593"
+      "hint1": "Armée Révolutionnaire",
+      "hint2": "Susu Susu no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 593",
+      "difficulty": "Moyen"
     },
     {
       "id": "karin",
@@ -5383,10 +5565,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "karoo",
@@ -5405,10 +5588,11 @@
       "origin": "Royaume d'Alabasta",
       "size": 150,
       "race": "Humain",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "Royaume d'Alabasta",
-      "firstAppearance": "Chapitre 109"
+      "hint1": "Équipage du Chapeau de Paille",
+      "hint2": "Humain",
+      "hint3": "Royaume d'Alabasta",
+      "firstAppearance": "Chapitre 109",
+      "difficulty": "Moyen"
     },
     {
       "id": "kashii",
@@ -5425,10 +5609,11 @@
       "origin": "Erbaf",
       "size": 1700,
       "race": "Géant",
-      "indice1": "Équipage des Géants",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 377"
+      "hint1": "Équipage des Géants",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 377",
+      "difficulty": "Difficile"
     },
     {
       "id": "kawamatsu",
@@ -5450,7 +5635,8 @@
       "origin": "Île des Hommes-Poissons",
       "size": "",
       "race": "Homme-Poisson",
-      "firstAppearance": "Chapitre 920"
+      "firstAppearance": "Chapitre 920",
+      "difficulty": "Difficile"
     },
     {
       "id": "kiba",
@@ -5469,10 +5655,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 2000,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Directeur",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1142"
+      "hint1": "École du Morse",
+      "hint2": "Directeur",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1142",
+      "difficulty": "Impossible"
     },
     {
       "id": "kikunojo",
@@ -5494,7 +5681,8 @@
       "origin": "Pays des Wa",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 913"
+      "firstAppearance": "Chapitre 913",
+      "difficulty": "Moyen"
     },
     {
       "id": "killer",
@@ -5518,10 +5706,11 @@
       "origin": "South Blue",
       "size": 195,
       "race": "Humain",
-      "indice1": "Second",
-      "indice2": "SMILE",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Second",
+      "hint2": "SMILE",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "kinemon",
@@ -5543,10 +5732,11 @@
       "origin": "Wano Kuni",
       "size": 295,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Fuku Fuku no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 656"
+      "hint1": "Famille Kozuki",
+      "hint2": "Fuku Fuku no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 656",
+      "difficulty": "Facile"
     },
     {
       "id": "koala",
@@ -5564,7 +5754,8 @@
       "origin": "Inconnu",
       "size": "1m60",
       "race": "Humain",
-      "firstAppearance": "Chapitre 622"
+      "firstAppearance": "Chapitre 622",
+      "difficulty": "Facile"
     },
     {
       "id": "koby",
@@ -5586,10 +5777,11 @@
       "origin": "East Blue (Royaume de Satsuruzo)",
       "size": 167,
       "race": "Humain",
-      "indice1": "Colonel",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 2"
+      "hint1": "Colonel",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 2",
+      "difficulty": "Très facile"
     },
     {
       "id": "kokoro",
@@ -5606,10 +5798,11 @@
       "origin": "Île des Hommes-Poissons",
       "size": 168,
       "race": "Sirène",
-      "indice1": "Tom's Workers",
-      "indice2": "Sirène",
-      "indice3": "Île des Hommes-Poissons",
-      "firstAppearance": "Chapitre 322"
+      "hint1": "Tom's Workers",
+      "hint2": "Sirène",
+      "hint3": "Île des Hommes-Poissons",
+      "firstAppearance": "Chapitre 322",
+      "difficulty": "Difficile"
     },
     {
       "id": "koza",
@@ -5626,10 +5819,11 @@
       "origin": "Royaume d'Alabasta",
       "size": 177,
       "race": "Humain",
-      "indice1": "Alabasta (Les Sablonneux",
-      "indice2": "Humain",
-      "indice3": "Royaume d'Alabasta",
-      "firstAppearance": "Chapitre 163"
+      "hint1": "Alabasta (Les Sablonneux",
+      "hint2": "Humain",
+      "hint3": "Royaume d'Alabasta",
+      "firstAppearance": "Chapitre 163",
+      "difficulty": "Impossible"
     },
     {
       "id": "kozuki-hiyori",
@@ -5648,10 +5842,11 @@
       "origin": "Grand Line (Moby Dick)",
       "size": 170,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Humain",
-      "indice3": "Grand Line (Moby Dick)",
-      "firstAppearance": "Chapitre 909"
+      "hint1": "Famille Kozuki",
+      "hint2": "Humain",
+      "hint3": "Grand Line (Moby Dick)",
+      "firstAppearance": "Chapitre 909",
+      "difficulty": "Moyen"
     },
     {
       "id": "kozuki-momonosuke",
@@ -5668,10 +5863,11 @@
       "origin": "Grand Line (sur le Moby Dick)",
       "size": 110,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Smile du Uo Uo no Mi",
-      "indice3": "Grand Line (sur le Moby Dick)",
-      "firstAppearance": "Chapitre 684"
+      "hint1": "Famille Kozuki",
+      "hint2": "Smile du Uo Uo no Mi",
+      "hint3": "Grand Line (sur le Moby Dick)",
+      "firstAppearance": "Chapitre 684",
+      "difficulty": "Facile"
     },
     {
       "id": "kozuki-oden",
@@ -5691,10 +5887,11 @@
       "origin": "Wano Kuni",
       "size": 382,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Humain",
-      "indice3": "Armement, des Rois",
-      "firstAppearance": "Chapitre 920"
+      "hint1": "Famille Kozuki",
+      "hint2": "Humain",
+      "hint3": "Armement, des Rois",
+      "firstAppearance": "Chapitre 920",
+      "difficulty": "Facile"
     },
     {
       "id": "kumadori",
@@ -5716,10 +5913,11 @@
       "origin": "South Blue",
       "size": 318,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 375"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 375",
+      "difficulty": "Difficile"
     },
     {
       "id": "kureha",
@@ -5740,10 +5938,11 @@
       "origin": "Grand Line (Drum Island)",
       "size": 188,
       "race": "Humain",
-      "indice1": "Royaume des Cerisiers",
-      "indice2": "Humain",
-      "indice3": "Grand Line (Drum Island)",
-      "firstAppearance": "Chapitre 134"
+      "hint1": "Royaume des Cerisiers",
+      "hint2": "Humain",
+      "hint3": "Grand Line (Drum Island)",
+      "firstAppearance": "Chapitre 134",
+      "difficulty": "Moyen"
     },
     {
       "id": "kuromarimo",
@@ -5760,10 +5959,11 @@
       "origin": "Royaume de Drum",
       "size": 186,
       "race": "Humain",
-      "indice1": "L’Équipage de Wapol (dissous)",
-      "indice2": "Humain",
-      "indice3": "Royaume de Drum",
-      "firstAppearance": "Chapitre 131"
+      "hint1": "L’Équipage de Wapol (dissous)",
+      "hint2": "Humain",
+      "hint3": "Royaume de Drum",
+      "firstAppearance": "Chapitre 131",
+      "difficulty": "Impossible"
     },
     {
       "id": "kuroobi",
@@ -5782,10 +5982,11 @@
       "origin": "Fishman Island",
       "size": 252,
       "race": "Homme-Poisson",
-      "indice1": "Équipage d'Arlong",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 69"
+      "hint1": "Équipage d'Arlong",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 69",
+      "difficulty": "Difficile"
     },
     {
       "id": "kurozumi-kanjuro",
@@ -5805,10 +6006,11 @@
       "origin": "Wano Kuni",
       "size": 347,
       "race": "Humain",
-      "indice1": "Famille Kurozumi",
-      "indice2": "Fude Fude no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 700"
+      "hint1": "Famille Kurozumi",
+      "hint2": "Fude Fude no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 700",
+      "difficulty": "Moyen"
     },
     {
       "id": "kurozumi-orochi",
@@ -5827,10 +6029,11 @@
       "origin": "Wano Kuni",
       "size": 350,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Zoan Mythique",
-      "indice3": "Wano Kuni",
-      "firstAppearance": "Chapitre 927"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Zoan Mythique",
+      "hint3": "Wano Kuni",
+      "firstAppearance": "Chapitre 927",
+      "difficulty": "Facile"
     },
     {
       "id": "kurozumi-tama",
@@ -5851,7 +6054,8 @@
       "origin": "Pays des Wa",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 911"
+      "firstAppearance": "Chapitre 911",
+      "difficulty": "Moyen"
     },
     {
       "id": "kuzan",
@@ -5874,10 +6078,11 @@
       "origin": "South Blue (Royaume Vespa)",
       "size": 298,
       "race": "Humain",
-      "indice1": "Amiral",
-      "indice2": "Hie Hie no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 303"
+      "hint1": "Amiral",
+      "hint2": "Hie Hie no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 303",
+      "difficulty": "Facile"
     },
     {
       "id": "kyo",
@@ -5897,10 +6102,11 @@
       "origin": "Wano Kuni",
       "size": 220,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Yakuza",
-      "indice3": "Wano Kuni",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Yakuza",
+      "hint3": "Wano Kuni",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Impossible"
     },
     {
       "id": "kyros",
@@ -5919,10 +6125,11 @@
       "origin": "Dressrosa",
       "size": 298,
       "race": "Humain",
-      "indice1": "Colisée Corrida",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 702"
+      "hint1": "Colisée Corrida",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 702",
+      "difficulty": "Facile"
     },
     {
       "id": "laboon",
@@ -5939,10 +6146,11 @@
       "origin": "West Blue",
       "size": 40000,
       "race": "Homme-Poisson",
-      "indice1": "Équipage du Rumbar",
-      "indice2": "Homme-Poisson",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 102"
+      "hint1": "Équipage du Rumbar",
+      "hint2": "Homme-Poisson",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 102",
+      "difficulty": "Facile"
     },
     {
       "id": "laffitte",
@@ -5959,10 +6167,11 @@
       "origin": "West Blue",
       "size": 340,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Noire",
-      "indice2": "Humain",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 234"
+      "hint1": "Équipage de Barbe Noire",
+      "hint2": "Humain",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 234",
+      "difficulty": "Difficile"
     },
     {
       "id": "lao-g",
@@ -5979,10 +6188,11 @@
       "origin": "North Blue",
       "size": 157,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Humain",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 682"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Humain",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 682",
+      "difficulty": "Difficile"
     },
     {
       "id": "leo",
@@ -5999,10 +6209,11 @@
       "origin": "Green Bit",
       "size": 23,
       "race": "Humain",
-      "indice1": "Allié de Équipage du Chapeau de Paille",
-      "indice2": "Nui Nui no Mi",
-      "indice3": "Green Bit",
-      "firstAppearance": "Chapitre 710"
+      "hint1": "Allié de Équipage du Chapeau de Paille",
+      "hint2": "Nui Nui no Mi",
+      "hint3": "Green Bit",
+      "firstAppearance": "Chapitre 710",
+      "difficulty": "Moyen"
     },
     {
       "id": "lilith",
@@ -6023,10 +6234,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 204,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Satellite de Vegapunk",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1061"
+      "hint1": "Marine",
+      "hint2": "Satellite de Vegapunk",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1061",
+      "difficulty": "Facile"
     },
     {
       "id": "little-oars-jr",
@@ -6043,10 +6255,11 @@
       "origin": "Grand Line",
       "size": 6000,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Blanche",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 554"
+      "hint1": "Équipage de Barbe Blanche",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 554",
+      "difficulty": "Moyen"
     },
     {
       "id": "loki",
@@ -6070,10 +6283,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 2800,
       "race": "Géant",
-      "indice1": "Erbaf",
-      "indice2": "Ryu Ryu no Mi modèle Nidhöggr",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1130"
+      "hint1": "Erbaf",
+      "hint2": "Ryu Ryu no Mi modèle Nidhöggr",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1130",
+      "difficulty": "Facile"
     },
     {
       "id": "louis-arnote",
@@ -6090,10 +6304,11 @@
       "origin": "Grand Line",
       "size": 0,
       "race": "Humain",
-      "indice1": "Brag Men",
-      "indice2": "Explorateur",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 115"
+      "hint1": "Brag Men",
+      "hint2": "Explorateur",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 115",
+      "difficulty": "Impossible"
     },
     {
       "id": "lucky-roux",
@@ -6113,10 +6328,11 @@
       "origin": "South Blue",
       "size": 241,
       "race": "Humain",
-      "indice1": "Équipage du Roux",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 1"
+      "hint1": "Équipage du Roux",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 1",
+      "difficulty": "Facile"
     },
     {
       "id": "luven",
@@ -6133,10 +6349,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 180,
       "race": "Humain",
-      "indice1": "Royaume d'Esperia",
-      "indice2": "Prince",
-      "indice3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183"
+      "hint1": "Royaume d'Esperia",
+      "hint2": "Prince",
+      "hint3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183",
+      "difficulty": "Impossible"
     },
     {
       "id": "machvise",
@@ -6153,10 +6370,11 @@
       "origin": "North Blue",
       "size": 440,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Ton Ton no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 682"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Ton Ton no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 682",
+      "difficulty": "Difficile"
     },
     {
       "id": "mag",
@@ -6173,10 +6391,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "magellan",
@@ -6193,10 +6412,11 @@
       "origin": "Grand Line",
       "size": 491,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Doku Doku no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 528"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Doku Doku no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 528",
+      "difficulty": "Facile"
     },
     {
       "id": "magnolia",
@@ -6213,10 +6433,11 @@
       "origin": "Grand Line (God Valley)",
       "size": 170,
       "race": "Humain",
-      "indice1": "God Valley",
-      "indice2": "Mère de Shanks et Shamrock",
-      "indice3": "Grand Line (God Valley)",
-      "firstAppearance": "Chapitre 1158"
+      "hint1": "God Valley",
+      "hint2": "Mère de Shanks et Shamrock",
+      "hint3": "Grand Line (God Valley)",
+      "firstAppearance": "Chapitre 1158",
+      "difficulty": "Impossible"
     },
     {
       "id": "manboshi",
@@ -6233,10 +6454,11 @@
       "origin": "Fishman Island",
       "size": 473,
       "race": "Homme-Poisson",
-      "indice1": "Île des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 609"
+      "hint1": "Île des Hommes-Poissons",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 609",
+      "difficulty": "Impossible"
     },
     {
       "id": "manmayer-gurou",
@@ -6262,10 +6484,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 175,
       "race": "Humain",
-      "indice1": "Chevaliers de Dieu",
-      "indice2": "Chevaliers de Dieu",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1185"
+      "hint1": "Chevaliers de Dieu",
+      "hint2": "Chevaliers de Dieu",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1185",
+      "difficulty": "Impossible"
     },
     {
       "id": "mansherry",
@@ -6283,7 +6506,8 @@
       "origin": "Green Bit",
       "size": "20cm",
       "race": "Nain",
-      "firstAppearance": "Chapitre 717"
+      "firstAppearance": "Chapitre 717",
+      "difficulty": "Moyen"
     },
     {
       "id": "marco",
@@ -6305,10 +6529,11 @@
       "origin": "Grand Line",
       "size": 203,
       "race": "Humain",
-      "indice1": "Second",
-      "indice2": "Tori Tori no Mi modèle Phoenix",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 234"
+      "hint1": "Second",
+      "hint2": "Tori Tori no Mi modèle Phoenix",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 234",
+      "difficulty": "Facile"
     },
     {
       "id": "marcus-mars",
@@ -6333,10 +6558,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 350,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Tori Tori no Mi modèle Itsumade",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Tori Tori no Mi modèle Itsumade",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Moyen"
     },
     {
       "id": "marguerite",
@@ -6355,10 +6581,11 @@
       "origin": "Calm Belt (Amazon Lily)",
       "size": 178,
       "race": "Humain",
-      "indice1": "Kujas",
-      "indice2": "Humain",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 514"
+      "hint1": "Kujas",
+      "hint2": "Humain",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 514",
+      "difficulty": "Difficile"
     },
     {
       "id": "marianne",
@@ -6375,10 +6602,11 @@
       "origin": "North Blue",
       "size": 145,
       "race": "Humain",
-      "indice1": "Baroque Works",
-      "indice2": "Humain",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 117"
+      "hint1": "Baroque Works",
+      "hint2": "Humain",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 117",
+      "difficulty": "Impossible"
     },
     {
       "id": "marlon",
@@ -6395,10 +6623,11 @@
       "origin": "Grand Line",
       "size": 200,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Équipage de Rocks",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1155"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Équipage de Rocks",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1155",
+      "difficulty": "Impossible"
     },
     {
       "id": "marshall-d-teach",
@@ -6422,10 +6651,11 @@
       "origin": "Grand Line",
       "size": 344,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Gura Gura no Mi / Yami Yami no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 223"
+      "hint1": "Capitaine",
+      "hint2": "Gura Gura no Mi / Yami Yami no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 223",
+      "difficulty": "Très facile"
     },
     {
       "id": "masira",
@@ -6442,10 +6672,11 @@
       "origin": "North Blue",
       "size": 345,
       "race": "Humain",
-      "indice1": "Ligue des Primates",
-      "indice2": "Humain",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 219"
+      "hint1": "Ligue des Primates",
+      "hint2": "Humain",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 219",
+      "difficulty": "Impossible"
     },
     {
       "id": "meuh-meuh",
@@ -6462,10 +6693,11 @@
       "origin": "Grand Line",
       "size": 3600,
       "race": "Humain",
-      "indice1": "Équipage d'Arlong",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 73"
+      "hint1": "Équipage d'Arlong",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 73",
+      "difficulty": "Impossible"
     },
     {
       "id": "mikita",
@@ -6485,10 +6717,11 @@
       "origin": "West Blue",
       "size": 177,
       "race": "Humain",
-      "indice1": "Baroque Works",
-      "indice2": "Kilo Kilo no Mi",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 110"
+      "hint1": "Baroque Works",
+      "hint2": "Kilo Kilo no Mi",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 110",
+      "difficulty": "Impossible"
     },
     {
       "id": "mma",
@@ -6508,10 +6741,11 @@
       "origin": "Erbaf",
       "size": 0,
       "race": "Animal",
-      "indice1": "École du Morse",
-      "indice2": "Créature",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1142"
+      "hint1": "École du Morse",
+      "hint2": "Créature",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1142",
+      "difficulty": "Impossible"
     },
     {
       "id": "momonga",
@@ -6531,10 +6765,11 @@
       "origin": "Grand Line",
       "size": 251,
       "race": "Humain",
-      "indice1": "Vice-Amiral",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 420"
+      "hint1": "Vice-Amiral",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 420",
+      "difficulty": "Difficile"
     },
     {
       "id": "monet",
@@ -6551,10 +6786,11 @@
       "origin": "North Blue",
       "size": 227,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Yuki Yuki no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 657"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Yuki Yuki no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 657",
+      "difficulty": "Moyen"
     },
     {
       "id": "monkey-d-dragon",
@@ -6573,10 +6809,11 @@
       "origin": "East Blue (Royaume de Goa)",
       "size": 256,
       "race": "Humain",
-      "indice1": "Armée Révolutionnaire",
-      "indice2": "Humain",
-      "indice3": "East Blue (Royaume de Goa)",
-      "firstAppearance": "Chapitre 100"
+      "hint1": "Armée Révolutionnaire",
+      "hint2": "Humain",
+      "hint3": "East Blue (Royaume de Goa)",
+      "firstAppearance": "Chapitre 100",
+      "difficulty": "Très facile"
     },
     {
       "id": "monkey-d-garp",
@@ -6599,10 +6836,11 @@
       "origin": "East Blue (Royaume de Goa)",
       "size": 287,
       "race": "Humain",
-      "indice1": "Vice-Amiral",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation, des rois",
-      "firstAppearance": "Chapitre 92"
+      "hint1": "Vice-Amiral",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation, des rois",
+      "firstAppearance": "Chapitre 92",
+      "difficulty": "Très facile"
     },
     {
       "id": "monkey-d-luffy",
@@ -6633,10 +6871,11 @@
       "origin": "East Blue (Royaume de Goa)",
       "size": 174,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Gomu Gomu no Mi",
-      "indice3": "Armement, Observation, des rois",
-      "firstAppearance": "Chapitre 1"
+      "hint1": "Capitaine",
+      "hint2": "Gomu Gomu no Mi",
+      "hint3": "Armement, Observation, des rois",
+      "firstAppearance": "Chapitre 1",
+      "difficulty": "Très facile"
     },
     {
       "id": "morgans",
@@ -6655,10 +6894,11 @@
       "origin": "Grand Line",
       "size": 305,
       "race": "Humain",
-      "indice1": "Pègre",
-      "indice2": "Tori Tori no Mi modèle Albatros",
-      "indice3": "des Rois",
-      "firstAppearance": "Chapitre 860"
+      "hint1": "Pègre",
+      "hint2": "Tori Tori no Mi modèle Albatros",
+      "hint3": "des Rois",
+      "firstAppearance": "Chapitre 860",
+      "difficulty": "Moyen"
     },
     {
       "id": "morge",
@@ -6675,10 +6915,11 @@
       "origin": "East Blue",
       "size": 197,
       "race": "Humain",
-      "indice1": "Équipage du Clown",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 9"
+      "hint1": "Équipage du Clown",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 9",
+      "difficulty": "Difficile"
     },
     {
       "id": "mosa",
@@ -6697,10 +6938,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 180,
       "race": "Humain",
-      "indice1": "Erbaf",
-      "indice2": "Prisonnier",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "Erbaf",
+      "hint2": "Prisonnier",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "moulon",
@@ -6719,10 +6961,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 180,
       "race": "Humain",
-      "indice1": "Famille Moulon",
-      "indice2": "Chef de famille",
-      "indice3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183"
+      "hint1": "Famille Moulon",
+      "hint2": "Chef de famille",
+      "hint3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183",
+      "difficulty": "Impossible"
     },
     {
       "id": "mozu-et-kiwi",
@@ -6740,7 +6983,8 @@
       "origin": "Grand Line (Bas-fonds de Water Seven)",
       "size": "1m87",
       "race": "Humain",
-      "firstAppearance": "Chapitre 329"
+      "firstAppearance": "Chapitre 329",
+      "difficulty": "Impossible"
     },
     {
       "id": "muginn",
@@ -6757,10 +7001,11 @@
       "origin": "Erbaf",
       "size": 0,
       "race": "Animal",
-      "indice1": "Pays des Dieux",
-      "indice2": "Corbeau",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1128"
+      "hint1": "Pays des Dieux",
+      "hint2": "Corbeau",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1128",
+      "difficulty": "Impossible"
     },
     {
       "id": "nami",
@@ -6780,10 +7025,11 @@
       "origin": "East Blue",
       "size": 170,
       "race": "Humain",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 8"
+      "hint1": "Équipage du Chapeau de Paille",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 8",
+      "difficulty": "Très facile"
     },
     {
       "id": "nefertari-cobra",
@@ -6800,10 +7046,11 @@
       "origin": "Royaume d'Alabasta",
       "size": 182,
       "race": "Humain",
-      "indice1": "Famille Nefertari",
-      "indice2": "Humain",
-      "indice3": "Royaume d'Alabasta",
-      "firstAppearance": "Chapitre 142"
+      "hint1": "Famille Nefertari",
+      "hint2": "Humain",
+      "hint3": "Royaume d'Alabasta",
+      "firstAppearance": "Chapitre 142",
+      "difficulty": "Facile"
     },
     {
       "id": "nefertari-vivi",
@@ -6820,10 +7067,11 @@
       "origin": "Royaume d'Alabasta",
       "size": 169,
       "race": "Humain",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "Royaume d'Alabasta",
-      "firstAppearance": "Chapitre 103"
+      "hint1": "Équipage du Chapeau de Paille",
+      "hint2": "Humain",
+      "hint3": "Royaume d'Alabasta",
+      "firstAppearance": "Chapitre 103",
+      "difficulty": "Très facile"
     },
     {
       "id": "nekomamushi",
@@ -6845,10 +7093,11 @@
       "origin": "Zou (Principauté de Mokomo)",
       "size": 522,
       "race": "Cyborg",
-      "indice1": "Principauté de Mokomo",
-      "indice2": "Cyborg",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 809"
+      "hint1": "Principauté de Mokomo",
+      "hint2": "Cyborg",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 809",
+      "difficulty": "Moyen"
     },
     {
       "id": "neptune",
@@ -6865,10 +7114,11 @@
       "origin": "Fishman Island",
       "size": 1220,
       "race": "Homme-Poisson",
-      "indice1": "Famille royale du royaume Ryugu",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 611"
+      "hint1": "Famille royale du royaume Ryugu",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 611",
+      "difficulty": "Facile"
     },
     {
       "id": "nero",
@@ -6885,10 +7135,11 @@
       "origin": "West Blue",
       "size": 202,
       "race": "Humain",
-      "indice1": "CP9",
-      "indice2": "Humain",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 367"
+      "hint1": "CP9",
+      "hint2": "Humain",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 367",
+      "difficulty": "Impossible"
     },
     {
       "id": "nezumi",
@@ -6908,10 +7159,11 @@
       "origin": "East Blue",
       "size": 182,
       "race": "Humain",
-      "indice1": "Colonel",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 69"
+      "hint1": "Colonel",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 69",
+      "difficulty": "Difficile"
     },
     {
       "id": "nico-olvia",
@@ -6928,10 +7180,11 @@
       "origin": "West Blue (Ohara)",
       "size": 186,
       "race": "Humain",
-      "indice1": "Ohara",
-      "indice2": "Humain",
-      "indice3": "West Blue (Ohara)",
-      "firstAppearance": "Chapitre 392"
+      "hint1": "Ohara",
+      "hint2": "Humain",
+      "hint3": "West Blue (Ohara)",
+      "firstAppearance": "Chapitre 392",
+      "difficulty": "Moyen"
     },
     {
       "id": "nico-robin",
@@ -6952,10 +7205,11 @@
       "origin": "West Blue",
       "size": 188,
       "race": "Humain",
-      "indice1": "Équipage du Chapeau de Paille",
-      "indice2": "Hana Hana no Mi",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 114"
+      "hint1": "Équipage du Chapeau de Paille",
+      "hint2": "Hana Hana no Mi",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 114",
+      "difficulty": "Très facile"
     },
     {
       "id": "oars",
@@ -6972,10 +7226,11 @@
       "origin": "North Blue",
       "size": 6700,
       "race": "Géant",
-      "indice1": "Thriller Bark",
-      "indice2": "Géant",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 456"
+      "hint1": "Thriller Bark",
+      "hint2": "Géant",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 456",
+      "difficulty": "Moyen"
     },
     {
       "id": "ochoku",
@@ -6995,10 +7250,11 @@
       "origin": "Grand Line",
       "size": 200,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Équipage de Rocks",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1155"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Équipage de Rocks",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1155",
+      "difficulty": "Impossible"
     },
     {
       "id": "octo",
@@ -7015,10 +7271,11 @@
       "origin": "Fishman Island",
       "size": 220,
       "race": "Homme-Poisson",
-      "indice1": "Équipage d'Arlong",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 69"
+      "hint1": "Équipage d'Arlong",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 69",
+      "difficulty": "Difficile"
     },
     {
       "id": "ohm",
@@ -7037,10 +7294,11 @@
       "origin": "Îles Célestes (Bilca)",
       "size": 189,
       "race": "Géant",
-      "indice1": "Clan d'Ener",
-      "indice2": "Géant",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 241"
+      "hint1": "Clan d'Ener",
+      "hint2": "Géant",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 241",
+      "difficulty": "Difficile"
     },
     {
       "id": "oimo",
@@ -7059,10 +7317,11 @@
       "origin": "Erbaf",
       "size": 1600,
       "race": "Géant",
-      "indice1": "Équipage des Géants",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 377"
+      "hint1": "Équipage des Géants",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 377",
+      "difficulty": "Difficile"
     },
     {
       "id": "olav",
@@ -7079,10 +7338,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "orlumbus",
@@ -7099,10 +7359,11 @@
       "origin": "Grand Line (Royaume de Standing)",
       "size": 480,
       "race": "Humain",
-      "indice1": "Grande Flotte du Chapeau de Paille",
-      "indice2": "Humain",
-      "indice3": "Grand Line (Royaume de Standing)",
-      "firstAppearance": "Chapitre 704"
+      "hint1": "Grande Flotte du Chapeau de Paille",
+      "hint2": "Humain",
+      "hint3": "Grand Line (Royaume de Standing)",
+      "firstAppearance": "Chapitre 704",
+      "difficulty": "Difficile"
     },
     {
       "id": "otohime",
@@ -7121,10 +7382,11 @@
       "origin": "Fishman Island",
       "size": 224,
       "race": "Sirène",
-      "indice1": "Famille Royale",
-      "indice2": "Sirène",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 621"
+      "hint1": "Famille Royale",
+      "hint2": "Sirène",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 621",
+      "difficulty": "Moyen"
     },
     {
       "id": "pagaya",
@@ -7141,10 +7403,11 @@
       "origin": "Skypiea",
       "size": 179,
       "race": "Humain",
-      "indice1": "Skypiea",
-      "indice2": "Humain",
-      "indice3": "Skypiea",
-      "firstAppearance": "Chapitre 239"
+      "hint1": "Skypiea",
+      "hint2": "Humain",
+      "hint3": "Skypiea",
+      "firstAppearance": "Chapitre 239",
+      "difficulty": "Impossible"
     },
     {
       "id": "page-one",
@@ -7166,10 +7429,11 @@
       "origin": "Grand Line",
       "size": 171,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Ryu Ryu no Mi modèle Spinosaure",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 929"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Ryu Ryu no Mi modèle Spinosaure",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 929",
+      "difficulty": "Difficile"
     },
     {
       "id": "pandaman",
@@ -7187,7 +7451,8 @@
       "origin": "Inconnu",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 44"
+      "firstAppearance": "Chapitre 44",
+      "difficulty": "Impossible"
     },
     {
       "id": "paulie",
@@ -7205,7 +7470,8 @@
       "origin": "Water Seven",
       "size": "",
       "race": "Humain",
-      "firstAppearance": "Chapitre 323"
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Difficile"
     },
     {
       "id": "pedro",
@@ -7225,10 +7491,11 @@
       "origin": "Zou (Principauté de Mokomo)",
       "size": 233,
       "race": "Homme-Poisson",
-      "indice1": "Pirates de Nox",
-      "indice2": "Homme-Poisson",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 805"
+      "hint1": "Pirates de Nox",
+      "hint2": "Homme-Poisson",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 805",
+      "difficulty": "Facile"
     },
     {
       "id": "peeply-lulu",
@@ -7245,10 +7512,11 @@
       "origin": "Water Seven",
       "size": 206,
       "race": "Humain",
-      "indice1": "Galley-La Company",
-      "indice2": "Humain",
-      "indice3": "Water Seven",
-      "firstAppearance": "Chapitre 323"
+      "hint1": "Galley-La Company",
+      "hint2": "Humain",
+      "hint3": "Water Seven",
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Impossible"
     },
     {
       "id": "pell",
@@ -7270,7 +7538,8 @@
       "origin": "Arabasta",
       "size": "1m89",
       "race": "Humain",
-      "firstAppearance": "Chapitre 155"
+      "firstAppearance": "Chapitre 155",
+      "difficulty": "Facile"
     },
     {
       "id": "perona",
@@ -7290,10 +7559,11 @@
       "origin": "West Blue",
       "size": 160,
       "race": "Humain",
-      "indice1": "Second",
-      "indice2": "Horo Horo no Mi",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 443"
+      "hint1": "Second",
+      "hint2": "Horo Horo no Mi",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 443",
+      "difficulty": "Facile"
     },
     {
       "id": "pica",
@@ -7313,10 +7583,11 @@
       "origin": "North Blue",
       "size": 470,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Ishi Ishi no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 700"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Ishi Ishi no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 700",
+      "difficulty": "Facile"
     },
     {
       "id": "polo-gram",
@@ -7335,10 +7606,11 @@
       "origin": "Grand Line",
       "size": 200,
       "race": "Humain",
-      "indice1": "Équipage de Polo",
-      "indice2": "Capitaine",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 1162"
+      "hint1": "Équipage de Polo",
+      "hint2": "Capitaine",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 1162",
+      "difficulty": "Impossible"
     },
     {
       "id": "porchemy",
@@ -7355,10 +7627,11 @@
       "origin": "East Blue (Royaume de Goa)",
       "size": 320,
       "race": "Humain",
-      "indice1": "Équipage de Bluejam",
-      "indice2": "Humain",
-      "indice3": "East Blue (Royaume de Goa)",
-      "firstAppearance": "Chapitre 583"
+      "hint1": "Équipage de Bluejam",
+      "hint2": "Humain",
+      "hint3": "East Blue (Royaume de Goa)",
+      "firstAppearance": "Chapitre 583",
+      "difficulty": "Impossible"
     },
     {
       "id": "portgas-d-ace",
@@ -7381,10 +7654,11 @@
       "origin": "South Blue (Baterilla)",
       "size": 185,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Blanche",
-      "indice2": "Mera Mera no Mi",
-      "indice3": "Armement, Observation, des rois",
-      "firstAppearance": "Chapitre 154"
+      "hint1": "Équipage de Barbe Blanche",
+      "hint2": "Mera Mera no Mi",
+      "hint3": "Armement, Observation, des rois",
+      "firstAppearance": "Chapitre 154",
+      "difficulty": "Très facile"
     },
     {
       "id": "pythagoras",
@@ -7406,10 +7680,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 341,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Satellite de Vegapunk",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1065"
+      "hint1": "Marine",
+      "hint2": "Satellite de Vegapunk",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1065",
+      "difficulty": "Difficile"
     },
     {
       "id": "ragnir",
@@ -7428,10 +7703,11 @@
       "origin": "Erbaf",
       "size": 0,
       "race": "Géant",
-      "indice1": "Famille royale d'Erbaf",
-      "indice2": "Risu Risu no Mi modèle Ratatoskr",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1130"
+      "hint1": "Famille royale d'Erbaf",
+      "hint2": "Risu Risu no Mi modèle Ratatoskr",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1130",
+      "difficulty": "Impossible"
     },
     {
       "id": "raideen",
@@ -7448,10 +7724,11 @@
       "origin": "Erbaf",
       "size": 2000,
       "race": "Géant",
-      "indice1": "Pirates Guerriers Géants",
-      "indice2": "Pirate",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 129"
+      "hint1": "Pirates Guerriers Géants",
+      "hint2": "Pirate",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 129",
+      "difficulty": "Impossible"
     },
     {
       "id": "raizo",
@@ -7473,10 +7750,11 @@
       "origin": "Wano Kuni",
       "size": 311,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Maki Maki no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 817"
+      "hint1": "Famille Kozuki",
+      "hint2": "Maki Maki no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 817",
+      "difficulty": "Moyen"
     },
     {
       "id": "rebecca",
@@ -7495,10 +7773,11 @@
       "origin": "Dressrosa",
       "size": 171,
       "race": "Humain",
-      "indice1": "Famille Riku",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 704"
+      "hint1": "Famille Riku",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 704",
+      "difficulty": "Facile"
     },
     {
       "id": "reuven",
@@ -7517,10 +7796,11 @@
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 180,
       "race": "Humain",
-      "indice1": "Royaume d'Esperia",
-      "indice2": "Roi",
-      "indice3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183"
+      "hint1": "Royaume d'Esperia",
+      "hint2": "Roi",
+      "hint3": "West Blue (Royaume d'Esperia)",
+      "firstAppearance": "Chapitre 1183",
+      "difficulty": "Impossible"
     },
     {
       "id": "riku-doldo-iii",
@@ -7537,10 +7817,11 @@
       "origin": "Dressrosa",
       "size": 261,
       "race": "Humain",
-      "indice1": "Colisée Corrida",
-      "indice2": "Humain",
-      "indice3": "Dressrosa",
-      "firstAppearance": "Chapitre 706"
+      "hint1": "Colisée Corrida",
+      "hint2": "Humain",
+      "hint3": "Dressrosa",
+      "firstAppearance": "Chapitre 706",
+      "difficulty": "Moyen"
     },
     {
       "id": "riku-viola",
@@ -7559,10 +7840,11 @@
       "origin": "Dressrosa",
       "size": 178,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Giro Giro no Mi",
-      "indice3": "Dressrosa",
-      "firstAppearance": "Chapitre 703"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Giro Giro no Mi",
+      "hint3": "Dressrosa",
+      "firstAppearance": "Chapitre 703",
+      "difficulty": "Moyen"
     },
     {
       "id": "rimoshifu-killingham",
@@ -7587,10 +7869,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 175,
       "race": "Humain",
-      "indice1": "Chevaliers de Dieu",
-      "indice2": "Ryu Ryu no Mi modèle Kirin",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1140"
+      "hint1": "Chevaliers de Dieu",
+      "hint2": "Ryu Ryu no Mi modèle Kirin",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1140",
+      "difficulty": "Difficile"
     },
     {
       "id": "ripley",
@@ -7607,10 +7890,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Professeure de biologie",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Professeure de biologie",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "road",
@@ -7631,10 +7915,11 @@
       "origin": "Erbaf",
       "size": 2600,
       "race": "Géant",
-      "indice1": "Les Pirates d'Expédition",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 898"
+      "hint1": "Les Pirates d'Expédition",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 898",
+      "difficulty": "Impossible"
     },
     {
       "id": "rob-lucci",
@@ -7654,10 +7939,11 @@
       "origin": "Grand Line",
       "size": 212,
       "race": "Humain",
-      "indice1": "CP0",
-      "indice2": "Neko Neko no Mi modèle Léopard",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 323"
+      "hint1": "CP0",
+      "hint2": "Neko Neko no Mi modèle Léopard",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Très facile"
     },
     {
       "id": "rocks-d-xebec",
@@ -7683,10 +7969,11 @@
       "origin": "West Blue (God Valley)",
       "size": 250,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Capitaine",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1155"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Capitaine",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1155",
+      "difficulty": "Facile"
     },
     {
       "id": "ronja",
@@ -7703,10 +7990,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "roronoa-zoro",
@@ -7731,10 +8019,11 @@
       "origin": "East Blue",
       "size": 181,
       "race": "Humain",
-      "indice1": "Second",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation, des Rois",
-      "firstAppearance": "Chapitre 3"
+      "hint1": "Second",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation, des Rois",
+      "firstAppearance": "Chapitre 3",
+      "difficulty": "Très facile"
     },
     {
       "id": "ryuboshi",
@@ -7751,10 +8040,11 @@
       "origin": "Fishman Island",
       "size": 544,
       "race": "Homme-Poisson",
-      "indice1": "Famille royale du royaume Ryugu",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 609"
+      "hint1": "Famille royale du royaume Ryugu",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 609",
+      "difficulty": "Impossible"
     },
     {
       "id": "sabo",
@@ -7777,10 +8067,11 @@
       "origin": "East Blue (Royaume de Goa)",
       "size": 187,
       "race": "Humain",
-      "indice1": "Équipage ASL",
-      "indice2": "Mera Mera no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 583"
+      "hint1": "Équipage ASL",
+      "hint2": "Mera Mera no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 583",
+      "difficulty": "Très facile"
     },
     {
       "id": "sai",
@@ -7800,10 +8091,11 @@
       "origin": "West Blue (Pays des Fleurs)",
       "size": 242,
       "race": "Humain",
-      "indice1": "Flotte de Happou",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 704"
+      "hint1": "Flotte de Happou",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 704",
+      "difficulty": "Difficile"
     },
     {
       "id": "saint-rosward-charlos",
@@ -7820,10 +8112,11 @@
       "origin": "Mary Geoise",
       "size": 230,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Humain",
-      "indice3": "Mary Geoise",
-      "firstAppearance": "Chapitre 499"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Humain",
+      "hint3": "Mary Geoise",
+      "firstAppearance": "Chapitre 499",
+      "difficulty": "Moyen"
     },
     {
       "id": "sainte-rosward-sharlia",
@@ -7840,10 +8133,11 @@
       "origin": "Mary Geoise",
       "size": 178,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Humain",
-      "indice3": "Mary Geoise",
-      "firstAppearance": "Chapitre 497"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Humain",
+      "hint3": "Mary Geoise",
+      "firstAppearance": "Chapitre 497",
+      "difficulty": "Impossible"
     },
     {
       "id": "sakazuki",
@@ -7866,10 +8160,11 @@
       "origin": "North Blue",
       "size": 306,
       "race": "Humain",
-      "indice1": "Amiral en chef",
-      "indice2": "Magu Magu no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 397"
+      "hint1": "Amiral en chef",
+      "hint2": "Magu Magu no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 397",
+      "difficulty": "Très facile"
     },
     {
       "id": "vinsmoke-sanji",
@@ -7893,7 +8188,8 @@
       "origin": "North Blue",
       "size": "1m80",
       "race": "Humain",
-      "firstAppearance": "Chapitre 43"
+      "firstAppearance": "Chapitre 43",
+      "difficulty": "Très facile"
     },
     {
       "id": "sanjuan-wolf",
@@ -7910,10 +8206,11 @@
       "origin": "West Blue",
       "size": 18000,
       "race": "Géant",
-      "indice1": "Équipage de Barbe Noire",
-      "indice2": "Deka Deka no Mi",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 575"
+      "hint1": "Équipage de Barbe Noire",
+      "hint2": "Deka Deka no Mi",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 575",
+      "difficulty": "Difficile"
     },
     {
       "id": "sasaki",
@@ -7936,10 +8233,11 @@
       "origin": "Grand Line",
       "size": 318,
       "race": "Homme-Poisson",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Ryu Ryu no Mi modèle Tricératops",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 977"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Ryu Ryu no Mi modèle Tricératops",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 977",
+      "difficulty": "Moyen"
     },
     {
       "id": "satchels-maffey",
@@ -7964,10 +8262,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 450,
       "race": "Humain",
-      "indice1": "Chevaliers de Dieu",
-      "indice2": "Chevalière de Dieu",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1160"
+      "hint1": "Chevaliers de Dieu",
+      "hint2": "Chevalière de Dieu",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1160",
+      "difficulty": "Impossible"
     },
     {
       "id": "satori",
@@ -7986,10 +8285,11 @@
       "origin": "Îles Célestes (Bilca)",
       "size": 179,
       "race": "Géant",
-      "indice1": "Clan d'Ener",
-      "indice2": "Géant",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 241"
+      "hint1": "Clan d'Ener",
+      "hint2": "Géant",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 241",
+      "difficulty": "Difficile"
     },
     {
       "id": "scopper-gaban",
@@ -8016,10 +8316,11 @@
       "origin": "Grand Line",
       "size": 195,
       "race": "Humain",
-      "indice1": "Erbaf",
-      "indice2": "Navigateur",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1139"
+      "hint1": "Erbaf",
+      "hint2": "Navigateur",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1139",
+      "difficulty": "Facile"
     },
     {
       "id": "scratchmen-apoo",
@@ -8041,10 +8342,11 @@
       "origin": "Grand Line",
       "size": 256,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Oto Oto no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Oto Oto no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "sengoku",
@@ -8065,10 +8367,11 @@
       "origin": "South Blue",
       "size": 278,
       "race": "Humain",
-      "indice1": "Amiral en chef",
-      "indice2": "Hito Hito no Mi modèle Daibutsu",
-      "indice3": "Armement, Observation, des Rois",
-      "firstAppearance": "Chapitre 234"
+      "hint1": "Amiral en chef",
+      "hint2": "Hito Hito no Mi modèle Daibutsu",
+      "hint3": "Armement, Observation, des Rois",
+      "firstAppearance": "Chapitre 234",
+      "difficulty": "Facile"
     },
     {
       "id": "senor-pink",
@@ -8085,10 +8388,11 @@
       "origin": "North Blue",
       "size": 244,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Sui Sui no Mi",
-      "indice3": "North Blue",
-      "firstAppearance": "Chapitre 702"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Sui Sui no Mi",
+      "hint3": "North Blue",
+      "firstAppearance": "Chapitre 702",
+      "difficulty": "Moyen"
     },
     {
       "id": "sentomaru",
@@ -8108,10 +8412,11 @@
       "origin": "Grand Line Mont Kintoki",
       "size": 279,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 497"
+      "hint1": "Marine",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 497",
+      "difficulty": "Facile"
     },
     {
       "id": "shaka",
@@ -8133,10 +8438,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 220,
       "race": "Humain",
-      "indice1": "Marine",
-      "indice2": "Satellite de Vegapunk",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1062"
+      "hint1": "Marine",
+      "hint2": "Satellite de Vegapunk",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1062",
+      "difficulty": "Moyen"
     },
     {
       "id": "shakuyaku",
@@ -8153,10 +8459,11 @@
       "origin": "Amazon Lily",
       "size": 186,
       "race": "Humain",
-      "indice1": "Équipage des Pirates Kuja",
-      "indice2": "Humain",
-      "indice3": "Amazon Lily",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Équipage des Pirates Kuja",
+      "hint2": "Humain",
+      "hint3": "Amazon Lily",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Moyen"
     },
     {
       "id": "sham",
@@ -8173,10 +8480,11 @@
       "origin": "East Blue",
       "size": 201,
       "race": "Humain",
-      "indice1": "Équipage du Chat Noir",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 31"
+      "hint1": "Équipage du Chat Noir",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 31",
+      "difficulty": "Impossible"
     },
     {
       "id": "shanks",
@@ -8200,10 +8508,11 @@
       "origin": "West Blue",
       "size": 199,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation, des Rois",
-      "firstAppearance": "Chapitre 1"
+      "hint1": "Capitaine",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation, des Rois",
+      "firstAppearance": "Chapitre 1",
+      "difficulty": "Très facile"
     },
     {
       "id": "sheep-s-head",
@@ -8220,10 +8529,11 @@
       "origin": "Grand Line",
       "size": 293,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 795"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 795",
+      "difficulty": "Impossible"
     },
     {
       "id": "shepherd-ju-peter",
@@ -8248,10 +8558,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 350,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Hito Hito no Mi modèle Morphon",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Hito Hito no Mi modèle Morphon",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Moyen"
     },
     {
       "id": "shepherd-sommers",
@@ -8276,10 +8587,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 175,
       "race": "Humain",
-      "indice1": "Chevaliers de Dieu",
-      "indice2": "Iba Iba no Mi",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1140"
+      "hint1": "Chevaliers de Dieu",
+      "hint2": "Iba Iba no Mi",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1140",
+      "difficulty": "Difficile"
     },
     {
       "id": "shiki",
@@ -8304,10 +8616,11 @@
       "origin": "Grand Line",
       "size": 250,
       "race": "Humain",
-      "indice1": "Équipage de Rocks",
-      "indice2": "Fuwa Fuwa no Mi",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage de Rocks",
+      "hint2": "Fuwa Fuwa no Mi",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Moyen"
     },
     {
       "id": "shimotsuki-koshiro",
@@ -8324,10 +8637,11 @@
       "origin": "East Blue",
       "size": 184,
       "race": "Humain",
-      "indice1": "Famille Shimotsuki",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 5"
+      "hint1": "Famille Shimotsuki",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 5",
+      "difficulty": "Impossible"
     },
     {
       "id": "shimotsuki-kuina",
@@ -8344,10 +8658,11 @@
       "origin": "Village de Shimotsuki",
       "size": 150,
       "race": "Humain",
-      "indice1": "Famille Shimotsuki",
-      "indice2": "Humain",
-      "indice3": "Village de Shimotsuki",
-      "firstAppearance": "Chapitre 5"
+      "hint1": "Famille Shimotsuki",
+      "hint2": "Humain",
+      "hint3": "Village de Shimotsuki",
+      "firstAppearance": "Chapitre 5",
+      "difficulty": "Moyen"
     },
     {
       "id": "shinobu",
@@ -8366,10 +8681,11 @@
       "origin": "Wano Kuni",
       "size": 180,
       "race": "Humain",
-      "indice1": "Famille Kozuki",
-      "indice2": "Juku Juku no Mi",
-      "indice3": "Wano Kuni",
-      "firstAppearance": "Chapitre 921"
+      "hint1": "Famille Kozuki",
+      "hint2": "Juku Juku no Mi",
+      "hint3": "Wano Kuni",
+      "firstAppearance": "Chapitre 921",
+      "difficulty": "Moyen"
     },
     {
       "id": "shirahoshi",
@@ -8389,7 +8705,8 @@
       "origin": "Île des Hommes-Poissons (Royaume Ryugu)",
       "size": "11m87",
       "race": "Sirène",
-      "firstAppearance": "Chapitre 612"
+      "firstAppearance": "Chapitre 612",
+      "difficulty": "Facile"
     },
     {
       "id": "shura",
@@ -8410,10 +8727,11 @@
       "origin": "Îles Célestes (Bilca)",
       "size": 220,
       "race": "Humain",
-      "indice1": "Clan d'Ener",
-      "indice2": "Humain",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 241"
+      "hint1": "Clan d'Ener",
+      "hint2": "Humain",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 241",
+      "difficulty": "Difficile"
     },
     {
       "id": "shyarly",
@@ -8432,10 +8750,11 @@
       "origin": "Fishman Island",
       "size": 520,
       "race": "Sirène",
-      "indice1": "Mermaid Café",
-      "indice2": "Sirène",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 610"
+      "hint1": "Mermaid Café",
+      "hint2": "Sirène",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 610",
+      "difficulty": "Difficile"
     },
     {
       "id": "silvers-rayleigh",
@@ -8460,7 +8779,8 @@
       "origin": "Grand Line",
       "size": "1m88",
       "race": "Humain",
-      "firstAppearance": "Chapitre 19"
+      "firstAppearance": "Chapitre 19",
+      "difficulty": "Très facile"
     },
     {
       "id": "skaldi",
@@ -8477,10 +8797,11 @@
       "origin": "Erbaf",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "smack",
@@ -8497,10 +8818,11 @@
       "origin": "Fishman Island",
       "size": 257,
       "race": "Homme-Poisson",
-      "indice1": "Équipage d'Arlong",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 69"
+      "hint1": "Équipage d'Arlong",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 69",
+      "difficulty": "Impossible"
     },
     {
       "id": "smoker",
@@ -8522,10 +8844,11 @@
       "origin": "Grand Line",
       "size": 209,
       "race": "Humain",
-      "indice1": "Vice-Amiral",
-      "indice2": "Moku Moku no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 97"
+      "hint1": "Vice-Amiral",
+      "hint2": "Moku Moku no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 97",
+      "difficulty": "Facile"
     },
     {
       "id": "spandam",
@@ -8542,10 +8865,11 @@
       "origin": "Grand Line",
       "size": 192,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 355"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 355",
+      "difficulty": "Moyen"
     },
     {
       "id": "speed",
@@ -8564,10 +8888,11 @@
       "origin": "Wano Kuni",
       "size": 298,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "SMILE",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 917"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "SMILE",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 917",
+      "difficulty": "Impossible"
     },
     {
       "id": "squard",
@@ -8586,10 +8911,11 @@
       "origin": "Grand Line",
       "size": 228,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Blanche",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 551"
+      "hint1": "Équipage de Barbe Blanche",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 551",
+      "difficulty": "Difficile"
     },
     {
       "id": "stansen",
@@ -8608,10 +8934,11 @@
       "origin": "Grand Line",
       "size": 1950,
       "race": "Géant",
-      "indice1": "Les Pirates d'Expédition",
-      "indice2": "Géant",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 500"
+      "hint1": "Les Pirates d'Expédition",
+      "hint2": "Géant",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 500",
+      "difficulty": "Impossible"
     },
     {
       "id": "stella",
@@ -8631,10 +8958,11 @@
       "origin": "Grand Line (Baldimore)",
       "size": 314,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Nomi Nomi no Mi",
-      "indice3": "Grand Line (Baldimore)",
-      "firstAppearance": "Chapitre 684"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Nomi Nomi no Mi",
+      "hint3": "Grand Line (Baldimore)",
+      "firstAppearance": "Chapitre 684",
+      "difficulty": "Facile"
     },
     {
       "id": "streusen",
@@ -8653,10 +8981,11 @@
       "origin": "Grand Line",
       "size": 140,
       "race": "Humain",
-      "indice1": "Équipage de Big Mom",
-      "indice2": "Kuku Kuku no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 858"
+      "hint1": "Équipage de Big Mom",
+      "hint2": "Kuku Kuku no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 858",
+      "difficulty": "Difficile"
     },
     {
       "id": "stussy",
@@ -8678,10 +9007,11 @@
       "origin": "Grand Line",
       "size": 179,
       "race": "Humain",
-      "indice1": "CP-AIGIS0",
-      "indice2": "Batto Batto no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 860"
+      "hint1": "CP-AIGIS0",
+      "hint2": "Batto Batto no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 860",
+      "difficulty": "Moyen"
     },
     {
       "id": "sugar",
@@ -8700,10 +9030,11 @@
       "origin": "North Blue",
       "size": 110,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Hobi Hobi no Mi",
-      "indice3": "Observation",
-      "firstAppearance": "Chapitre 682"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Hobi Hobi no Mi",
+      "hint3": "Observation",
+      "firstAppearance": "Chapitre 682",
+      "difficulty": "Facile"
     },
     {
       "id": "suleiman",
@@ -8722,10 +9053,11 @@
       "origin": "South Blue",
       "size": 240,
       "race": "Humain",
-      "indice1": "Équipage des Magnifiques Pirates",
-      "indice2": "Humain",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 704"
+      "hint1": "Équipage des Magnifiques Pirates",
+      "hint2": "Humain",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 704",
+      "difficulty": "Impossible"
     },
     {
       "id": "tamago",
@@ -8747,10 +9079,11 @@
       "origin": "Grand Line",
       "size": 301,
       "race": "Homme-Poisson",
-      "indice1": "Équipage de Big Mom",
-      "indice2": "Tama Tama no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 651"
+      "hint1": "Équipage de Big Mom",
+      "hint2": "Tama Tama no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 651",
+      "difficulty": "Moyen"
     },
     {
       "id": "tashigi",
@@ -8770,10 +9103,11 @@
       "origin": "East Blue",
       "size": 170,
       "race": "Humain",
-      "indice1": "Colonel",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 96"
+      "hint1": "Colonel",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 96",
+      "difficulty": "Facile"
     },
     {
       "id": "tilestone",
@@ -8790,10 +9124,11 @@
       "origin": "Water Seven",
       "size": 255,
       "race": "Humain",
-      "indice1": "Galley-La Company",
-      "indice2": "Humain",
-      "indice3": "Water Seven",
-      "firstAppearance": "Chapitre 323"
+      "hint1": "Galley-La Company",
+      "hint2": "Humain",
+      "hint3": "Water Seven",
+      "firstAppearance": "Chapitre 323",
+      "difficulty": "Impossible"
     },
     {
       "id": "tom",
@@ -8810,10 +9145,11 @@
       "origin": "Fishman Island",
       "size": 296,
       "race": "Homme-Poisson",
-      "indice1": "Tom's Workers",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 352"
+      "hint1": "Tom's Workers",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 352",
+      "difficulty": "Moyen"
     },
     {
       "id": "tony-tony-chopper",
@@ -8831,7 +9167,8 @@
       "origin": "Île de Drum",
       "size": "90cm",
       "race": "Renne",
-      "firstAppearance": "Chapitre 134"
+      "firstAppearance": "Chapitre 134",
+      "difficulty": "Très facile"
     },
     {
       "id": "topman-warcury",
@@ -8856,10 +9193,11 @@
       "origin": "Grand Line (Mary Geoise)",
       "size": 350,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Hito Hito no Mi modèle Fengxi",
-      "indice3": "Armement, Observation, Conquérant",
-      "firstAppearance": "Chapitre 233"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Hito Hito no Mi modèle Fengxi",
+      "hint3": "Armement, Observation, Conquérant",
+      "firstAppearance": "Chapitre 233",
+      "difficulty": "Moyen"
     },
     {
       "id": "trafalgar-d-water-law",
@@ -8881,10 +9219,11 @@
       "origin": "North Blue",
       "size": 191,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Ope Ope no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Capitaine",
+      "hint2": "Ope Ope no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Très facile"
     },
     {
       "id": "trebol",
@@ -8904,10 +9243,11 @@
       "origin": "North Blue",
       "size": 349,
       "race": "Humain",
-      "indice1": "Don Quichotte Family",
-      "indice2": "Beta Beta no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 700"
+      "hint1": "Don Quichotte Family",
+      "hint2": "Beta Beta no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 700",
+      "difficulty": "Facile"
     },
     {
       "id": "tritoma",
@@ -8926,10 +9266,11 @@
       "origin": "Calm Belt (Amazon Lily)",
       "size": 186,
       "race": "Humain",
-      "indice1": "Équipage des Pirates Kuja",
-      "indice2": "Impératrice Kuja",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 1156"
+      "hint1": "Équipage des Pirates Kuja",
+      "hint2": "Impératrice Kuja",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 1156",
+      "difficulty": "Impossible"
     },
     {
       "id": "tsuru",
@@ -8951,10 +9292,11 @@
       "origin": "North Blue",
       "size": 204,
       "race": "Humain",
-      "indice1": "Vice-Amiral",
-      "indice2": "Woshu Woshu no Mi",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 234"
+      "hint1": "Vice-Amiral",
+      "hint2": "Woshu Woshu no Mi",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 234",
+      "difficulty": "Facile"
     },
     {
       "id": "ulti",
@@ -8976,10 +9318,11 @@
       "origin": "Grand Line",
       "size": 173,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Ryu Ryu no Mi modèle Pachycéphalosaure",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 977"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Ryu Ryu no Mi modèle Pachycéphalosaure",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 977",
+      "difficulty": "Moyen"
     },
     {
       "id": "urouge",
@@ -8998,10 +9341,11 @@
       "origin": "Îles Célestes",
       "size": 388,
       "race": "Humain",
-      "indice1": "Équipage des Moines Dépravés",
-      "indice2": "Fruit d'Urouge",
-      "indice3": "Îles Célestes",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Équipage des Moines Dépravés",
+      "hint2": "Fruit d'Urouge",
+      "hint3": "Îles Célestes",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Moyen"
     },
     {
       "id": "usopp",
@@ -9025,7 +9369,8 @@
       "origin": "East Blue",
       "size": "1m76",
       "race": "Humain",
-      "firstAppearance": "Chapitre 23"
+      "firstAppearance": "Chapitre 23",
+      "difficulty": "Très facile"
     },
     {
       "id": "van-augur",
@@ -9044,10 +9389,11 @@
       "origin": "East Blue",
       "size": 340,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Noire",
-      "indice2": "Wapu Wapu no Mi",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 222"
+      "hint1": "Équipage de Barbe Noire",
+      "hint2": "Wapu Wapu no Mi",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 222",
+      "difficulty": "Moyen"
     },
     {
       "id": "vander-decken-ix",
@@ -9064,10 +9410,11 @@
       "origin": "Fishman Island",
       "size": 352,
       "race": "Homme-Poisson",
-      "indice1": "Équipage des Pirates Volants",
-      "indice2": "Mato Mato no Mi",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 606"
+      "hint1": "Équipage des Pirates Volants",
+      "hint2": "Mato Mato no Mi",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 606",
+      "difficulty": "Moyen"
     },
     {
       "id": "vasco-shot",
@@ -9086,10 +9433,11 @@
       "origin": "South Blue",
       "size": 573,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Noire",
-      "indice2": "Gabu Gabu no Mi",
-      "indice3": "South Blue",
-      "firstAppearance": "Chapitre 575"
+      "hint1": "Équipage de Barbe Noire",
+      "hint2": "Gabu Gabu no Mi",
+      "hint3": "South Blue",
+      "firstAppearance": "Chapitre 575",
+      "difficulty": "Difficile"
     },
     {
       "id": "vergo",
@@ -9110,10 +9458,11 @@
       "origin": "North Blue",
       "size": 247,
       "race": "Humain",
-      "indice1": "Vice-Amiral",
-      "indice2": "Humain",
-      "indice3": "Armement",
-      "firstAppearance": "Chapitre 671"
+      "hint1": "Vice-Amiral",
+      "hint2": "Humain",
+      "hint3": "Armement",
+      "firstAppearance": "Chapitre 671",
+      "difficulty": "Moyen"
     },
     {
       "id": "vinsmoke-ichiji",
@@ -9132,10 +9481,11 @@
       "origin": "North Blue (Royaume de Germa)",
       "size": 186,
       "race": "Humain",
-      "indice1": "Germa 66",
-      "indice2": "Humain",
-      "indice3": "North Blue (Royaume de Germa)",
-      "firstAppearance": "Chapitre 828"
+      "hint1": "Germa 66",
+      "hint2": "Humain",
+      "hint3": "North Blue (Royaume de Germa)",
+      "firstAppearance": "Chapitre 828",
+      "difficulty": "Moyen"
     },
     {
       "id": "vinsmoke-niji",
@@ -9154,10 +9504,11 @@
       "origin": "North Blue (Royaume de Germa)",
       "size": 185,
       "race": "Humain",
-      "indice1": "Germa 66",
-      "indice2": "Humain",
-      "indice3": "North Blue (Royaume de Germa)",
-      "firstAppearance": "Chapitre 828"
+      "hint1": "Germa 66",
+      "hint2": "Humain",
+      "hint3": "North Blue (Royaume de Germa)",
+      "firstAppearance": "Chapitre 828",
+      "difficulty": "Moyen"
     },
     {
       "id": "vinsmoke-reiju",
@@ -9176,10 +9527,11 @@
       "origin": "North Blue (Royaume de Germa)",
       "size": 173,
       "race": "Humain",
-      "indice1": "Germa 66",
-      "indice2": "Humain",
-      "indice3": "North Blue (Royaume de Germa)",
-      "firstAppearance": "Chapitre 826"
+      "hint1": "Germa 66",
+      "hint2": "Humain",
+      "hint3": "North Blue (Royaume de Germa)",
+      "firstAppearance": "Chapitre 826",
+      "difficulty": "Moyen"
     },
     {
       "id": "vinsmoke-yonji",
@@ -9198,10 +9550,11 @@
       "origin": "North Blue (Royaume de Germa)",
       "size": 194,
       "race": "Humain",
-      "indice1": "Germa 66",
-      "indice2": "Humain",
-      "indice3": "North Blue (Royaume de Germa)",
-      "firstAppearance": "Chapitre 825"
+      "hint1": "Germa 66",
+      "hint2": "Humain",
+      "hint3": "North Blue (Royaume de Germa)",
+      "firstAppearance": "Chapitre 825",
+      "difficulty": "Moyen"
     },
     {
       "id": "vista",
@@ -9223,10 +9576,11 @@
       "origin": "North Blue",
       "size": 328,
       "race": "Humain",
-      "indice1": "Équipage de Barbe Blanche",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 552"
+      "hint1": "Équipage de Barbe Blanche",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 552",
+      "difficulty": "Moyen"
     },
     {
       "id": "vito",
@@ -9245,10 +9599,11 @@
       "origin": "West Blue",
       "size": 242,
       "race": "Humain",
-      "indice1": "Équipage du Fire Tank",
-      "indice2": "Humain",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 812"
+      "hint1": "Équipage du Fire Tank",
+      "hint2": "Humain",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 812",
+      "difficulty": "Difficile"
     },
     {
       "id": "wadatsumi",
@@ -9267,10 +9622,11 @@
       "origin": "Fishman Island",
       "size": 8000,
       "race": "Homme-Poisson",
-      "indice1": "Équipage des Pirates du Soleil",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 606"
+      "hint1": "Équipage des Pirates du Soleil",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 606",
+      "difficulty": "Impossible"
     },
     {
       "id": "wanda",
@@ -9287,10 +9643,11 @@
       "origin": "Zou (Principauté de Mokomo)",
       "size": 181,
       "race": "Minks",
-      "indice1": "Principauté de Mokomo",
-      "indice2": "Minks",
-      "indice3": "Zou (Principauté de Mokomo)",
-      "firstAppearance": "Chapitre 804"
+      "hint1": "Principauté de Mokomo",
+      "hint2": "Minks",
+      "hint3": "Zou (Principauté de Mokomo)",
+      "firstAppearance": "Chapitre 804",
+      "difficulty": "Impossible"
     },
     {
       "id": "wanze",
@@ -9307,10 +9664,11 @@
       "origin": "West Blue",
       "size": 173,
       "race": "Humain",
-      "indice1": "CP7",
-      "indice2": "Humain",
-      "indice3": "West Blue",
-      "firstAppearance": "Chapitre 367"
+      "hint1": "CP7",
+      "hint2": "Humain",
+      "hint3": "West Blue",
+      "firstAppearance": "Chapitre 367",
+      "difficulty": "Impossible"
     },
     {
       "id": "wapol",
@@ -9327,10 +9685,11 @@
       "origin": "Drum Island",
       "size": 207,
       "race": "Humain",
-      "indice1": "Capitaine",
-      "indice2": "Baku Baku no Mi",
-      "indice3": "Drum Island",
-      "firstAppearance": "Chapitre 131"
+      "hint1": "Capitaine",
+      "hint2": "Baku Baku no Mi",
+      "hint3": "Drum Island",
+      "firstAppearance": "Chapitre 131",
+      "difficulty": "Facile"
     },
     {
       "id": "who-s-who",
@@ -9352,10 +9711,11 @@
       "origin": "North Blue",
       "size": 336,
       "race": "Humain",
-      "indice1": "Équipage aux Cent Bêtes",
-      "indice2": "Neko Neko no Mi modèle Tigre à dents de sabre",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 979"
+      "hint1": "Équipage aux Cent Bêtes",
+      "hint2": "Neko Neko no Mi modèle Tigre à dents de sabre",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 979",
+      "difficulty": "Moyen"
     },
     {
       "id": "wiper",
@@ -9374,10 +9734,11 @@
       "origin": "Skypiea",
       "size": 183,
       "race": "Humain",
-      "indice1": "Shandias",
-      "indice2": "Humain",
-      "indice3": "Skypiea",
-      "firstAppearance": "Chapitre 237"
+      "hint1": "Shandias",
+      "hint2": "Humain",
+      "hint3": "Skypiea",
+      "firstAppearance": "Chapitre 237",
+      "difficulty": "Difficile"
     },
     {
       "id": "wolf-elbaph",
@@ -9396,10 +9757,11 @@
       "origin": "Erbaf",
       "size": 1900,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Professeur de sport",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1142"
+      "hint1": "École du Morse",
+      "hint2": "Professeur de sport",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1142",
+      "difficulty": "Impossible"
     },
     {
       "id": "x-drake",
@@ -9422,10 +9784,11 @@
       "origin": "North Blue",
       "size": 233,
       "race": "Humain",
-      "indice1": "Équipage de X. Barrels",
-      "indice2": "Ryu Ryu no Mi modèle Allosaure",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 498"
+      "hint1": "Équipage de X. Barrels",
+      "hint2": "Ryu Ryu no Mi modèle Allosaure",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 498",
+      "difficulty": "Facile"
     },
     {
       "id": "yamato",
@@ -9449,10 +9812,11 @@
       "origin": "Origine inconnue",
       "size": 263,
       "race": "Homme-Poisson",
-      "indice1": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
-      "indice2": "Zoan Mythique",
-      "indice3": "Armement, Observation, des Rois",
-      "firstAppearance": "Chapitre 971"
+      "hint1": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+      "hint2": "Zoan Mythique",
+      "hint3": "Armement, Observation, des Rois",
+      "firstAppearance": "Chapitre 971",
+      "difficulty": "Facile"
     },
     {
       "id": "yarle",
@@ -9471,10 +9835,11 @@
       "origin": "Erbaf",
       "size": 2050,
       "race": "Géant",
-      "indice1": "Équipage des Géants",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 866"
+      "hint1": "Équipage des Géants",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 866",
+      "difficulty": "Impossible"
     },
     {
       "id": "yasopp",
@@ -9496,10 +9861,11 @@
       "origin": "East Blue (Archipel des Gekko)",
       "size": 183,
       "race": "Humain",
-      "indice1": "Équipage du Roux",
-      "indice2": "Humain",
-      "indice3": "Armement, Observation",
-      "firstAppearance": "Chapitre 1"
+      "hint1": "Équipage du Roux",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Chapitre 1",
+      "difficulty": "Facile"
     },
     {
       "id": "yeti-cool-brothers",
@@ -9516,10 +9882,11 @@
       "origin": "Grand Line",
       "size": 4250,
       "race": "Humain",
-      "indice1": "César Clown",
-      "indice2": "Humain",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 665"
+      "hint1": "César Clown",
+      "hint2": "Humain",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 665",
+      "difficulty": "Impossible"
     },
     {
       "id": "ylva",
@@ -9536,10 +9903,11 @@
       "origin": "Grand Line (Erbaf)",
       "size": 450,
       "race": "Géant",
-      "indice1": "École du Morse",
-      "indice2": "Élève",
-      "indice3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1134"
+      "hint1": "École du Morse",
+      "hint2": "Élève",
+      "hint3": "Grand Line (Erbaf)",
+      "firstAppearance": "Chapitre 1134",
+      "difficulty": "Impossible"
     },
     {
       "id": "york",
@@ -9559,10 +9927,11 @@
       "origin": "Grand Line (Egghead)",
       "size": 482,
       "race": "Humain",
-      "indice1": "Gouvernement Mondial",
-      "indice2": "Satellite de Vegapunk",
-      "indice3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1065"
+      "hint1": "Gouvernement Mondial",
+      "hint2": "Satellite de Vegapunk",
+      "hint3": "Grand Line (Egghead)",
+      "firstAppearance": "Chapitre 1065",
+      "difficulty": "Facile"
     },
     {
       "id": "yorle",
@@ -9581,10 +9950,11 @@
       "origin": "Erbaf",
       "size": 2150,
       "race": "Géant",
-      "indice1": "Équipage des Géants",
-      "indice2": "Géant",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 866"
+      "hint1": "Équipage des Géants",
+      "hint2": "Géant",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 866",
+      "difficulty": "Impossible"
     },
     {
       "id": "yosaku",
@@ -9601,10 +9971,11 @@
       "origin": "East Blue",
       "size": 185,
       "race": "Humain",
-      "indice1": "Johnny",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 42"
+      "hint1": "Johnny",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 42",
+      "difficulty": "Difficile"
     },
     {
       "id": "zala",
@@ -9624,10 +9995,11 @@
       "origin": "Grand Line",
       "size": 187,
       "race": "Humain",
-      "indice1": "Baroque Works",
-      "indice2": "Toge Toge no Mi",
-      "indice3": "Grand Line",
-      "firstAppearance": "Chapitre 155"
+      "hint1": "Baroque Works",
+      "hint2": "Toge Toge no Mi",
+      "hint3": "Grand Line",
+      "firstAppearance": "Chapitre 155",
+      "difficulty": "Difficile"
     },
     {
       "id": "zambai",
@@ -9644,10 +10016,11 @@
       "origin": "Water Seven",
       "size": 237,
       "race": "Humain",
-      "indice1": "Galley-La Company",
-      "indice2": "Humain",
-      "indice3": "Water Seven",
-      "firstAppearance": "Chapitre 324"
+      "hint1": "Galley-La Company",
+      "hint2": "Humain",
+      "hint3": "Water Seven",
+      "firstAppearance": "Chapitre 324",
+      "difficulty": "Impossible"
     },
     {
       "id": "zaza",
@@ -9666,10 +10039,11 @@
       "origin": "Erbaf",
       "size": 0,
       "race": "Géant",
-      "indice1": "Erbaf",
-      "indice2": "Dieu de la Pluie",
-      "indice3": "Erbaf",
-      "firstAppearance": "Chapitre 1182"
+      "hint1": "Erbaf",
+      "hint2": "Dieu de la Pluie",
+      "hint3": "Erbaf",
+      "firstAppearance": "Chapitre 1182",
+      "difficulty": "Impossible"
     },
     {
       "id": "zeff",
@@ -9688,10 +10062,11 @@
       "origin": "East Blue",
       "size": 189,
       "race": "Humain",
-      "indice1": "Baratie",
-      "indice2": "Humain",
-      "indice3": "East Blue",
-      "firstAppearance": "Chapitre 43"
+      "hint1": "Baratie",
+      "hint2": "Humain",
+      "hint3": "East Blue",
+      "firstAppearance": "Chapitre 43",
+      "difficulty": "Facile"
     },
     {
       "id": "zeo",
@@ -9710,10 +10085,11 @@
       "origin": "Fishman Island",
       "size": "3m25",
       "race": "Homme-Poisson",
-      "indice1": "Nouvel Équipage des Hommes-Poissons",
-      "indice2": "Homme-Poisson",
-      "indice3": "Fishman Island",
-      "firstAppearance": "Chapitre 611"
+      "hint1": "Nouvel Équipage des Hommes-Poissons",
+      "hint2": "Homme-Poisson",
+      "hint3": "Fishman Island",
+      "firstAppearance": "Chapitre 611",
+      "difficulty": "Impossible"
     }
   ],
   "fieldPrevalence": {

@@ -7,7 +7,7 @@ const { formerOccupations, enemies, ...restMapping } = data.fieldMapping;
 
 data.fieldMapping = {
   ...restMapping,
-  indice1: {
+  hint1: {
     header: "Indice 1",
     fonction: "Indice",
     hint: {
@@ -17,7 +17,7 @@ data.fieldMapping = {
     description:
       "Ennemis listés sur la fiche wiki. Débloqué après plusieurs tentatives.",
   },
-  indice2: {
+  hint2: {
     header: "Indice 2",
     fonction: "Indice",
     hint: {
@@ -30,8 +30,8 @@ data.fieldMapping = {
 };
 
 for (const c of data.characters) {
-  c.indice1 = c.enemies ?? "";
-  c.indice2 = c.formerOccupations ?? "";
+  c.hint1 = c.enemies ?? "";
+  c.hint2 = c.formerOccupations ?? "";
   delete c.enemies;
   delete c.formerOccupations;
 }

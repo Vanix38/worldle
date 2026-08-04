@@ -31,7 +31,7 @@ const expectedBasenames = new Set();
 
 for (const c of characters) {
   const nameSlug = toNameSlug(c?.name);
-  const worldSlug = toSlug(c?.univers);
+  const worldSlug = toSlug(c?.universe);
   const universSlug = cleanUnivers(c?.earth);
   if (!nameSlug || !worldSlug || !universSlug) continue;
 

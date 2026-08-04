@@ -16,7 +16,7 @@ const data = JSON.parse(readFileSync("d:/worlddle/data/invincible.json", "utf8")
 const counts = new Map();
 
 for (const c of data.characters) {
-  for (const enemy of splitEnemies(c.indice1)) {
+  for (const enemy of splitEnemies(c.hint1)) {
     counts.set(enemy, (counts.get(enemy) || 0) + 1);
   }
 }

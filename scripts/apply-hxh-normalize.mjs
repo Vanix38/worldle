@@ -50,7 +50,7 @@ function buildFieldPrevalence(characters, fieldMapping) {
 
 const opts = parseArgv(process.argv);
 const data = JSON.parse(fs.readFileSync(opts.outPath, "utf8"));
-const stats = { gender: 0, status: 0, type: 0, typeCleared: 0, indice2: 0, occupation: 0, firstAppearance: 0 };
+const stats = { gender: 0, status: 0, type: 0, typeCleared: 0, hint2: 0, occupation: 0, firstAppearance: 0 };
 
 for (const c of data.characters) {
   if (c.gender) {
@@ -84,12 +84,12 @@ for (const c of data.characters) {
       c.occupation = next;
     }
   }
-  if (c.indice2) {
-    const next = cleanIndiceWikiText(c.indice2);
-    if (next !== c.indice2) {
-      stats.indice2++;
-      c.indice2 = next || undefined;
-      if (!c.indice2) delete c.indice2;
+  if (c.hint2) {
+    const next = cleanIndiceWikiText(c.hint2);
+    if (next !== c.hint2) {
+      stats.hint2++;
+      c.hint2 = next || undefined;
+      if (!c.hint2) delete c.hint2;
     }
   }
   if (c.firstAppearance) {

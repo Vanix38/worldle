@@ -26,6 +26,8 @@ export interface SpoilerProgressPersisted {
   universeId: string;
   allSeen?: boolean;
   seenLabels?: string[];
+  /** Max difficulty label (inclusive); characters harder than this are excluded. */
+  maxDifficulty?: string;
   /** @deprecated Ancien format (cutoff unique). */
   cutoffLabel?: string;
 }
@@ -34,7 +36,15 @@ export type SpoilerProgressSelection =
   | { mode: "all" }
   | { mode: "seen"; labels: string[] };
 
+export interface DifficultyConfig {
+  key: string;
+  label: string;
+  /** Easiest → hardest. */
+  order: string[];
+}
+
 const PROGRESS_FIELD_PRIORITY = ["firstAppearance", "arc"] as const;
+const DIFFICULTY_FIELD_KEY = "difficulty";
 
 function configFromFieldEntry(
   key: string,
@@ -66,7 +76,7 @@ export function getProgressFieldConfig(universeData: UniverseData): ProgressFiel
   }
 
   for (const [key, entry] of Object.entries(fm)) {
-    if (key === "ninjaRank") continue;
+    if (key === "ninjaRank" || key === DIFFICULTY_FIELD_KEY) continue;
     const config = configFromFieldEntry(key, entry);
     if (config) return config;
   }
@@ -76,6 +86,58 @@ export function getProgressFieldConfig(universeData: UniverseData): ProgressFiel
 
 export function universeHasSpoilerProgress(universeData: UniverseData): boolean {
   return getProgressFieldConfig(universeData) !== null;
+}
+
+/** Difficulty field (Comparaison + order), independent from spoiler progress. */
+export function getDifficultyConfig(universeData: UniverseData): DifficultyConfig | null {
+  const entry = universeData.fieldMapping?.[DIFFICULTY_FIELD_KEY];
+  if (!entry || entry.fonction !== "Comparaison" || !fieldOrderHasItems(entry.order)) {
+    return null;
+  }
+  return {
+    key: DIFFICULTY_FIELD_KEY,
+    label: entry.header,
+    order: flattenFieldOrder(entry.order),
+  };
+}
+
+export function getCharacterDifficultyRank(
+  character: Character,
+  config: DifficultyConfig,
+): number {
+  const raw = character[config.key];
+  if (raw === undefined || raw === null) return -1;
+  const value = Array.isArray(raw) ? raw[0] : raw;
+  return rankInOrderedList(value, config.order);
+}
+
+/** Keep characters whose difficulty rank is ≤ selected max (inclusive). */
+export function isCharacterWithinMaxDifficulty(
+  character: Character,
+  config: DifficultyConfig,
+  maxDifficulty: string,
+): boolean {
+  const maxRank = rankInOrderedList(maxDifficulty, config.order);
+  if (maxRank === -1) return false;
+  const charRank = getCharacterDifficultyRank(character, config);
+  if (charRank === -1) return false;
+  return charRank <= maxRank;
+}
+
+/**
+ * Resolve persisted max difficulty; default to hardest when config exists
+ * but no valid saved value (migration / first run after feature).
+ */
+export function resolveMaxDifficulty(
+  persisted: SpoilerProgressPersisted | null | undefined,
+  config: DifficultyConfig | null,
+): string | null {
+  if (!config || config.order.length === 0) return null;
+  if (persisted?.maxDifficulty) {
+    const rank = rankInOrderedList(persisted.maxDifficulty, config.order);
+    if (rank !== -1) return config.order[rank];
+  }
+  return config.order[config.order.length - 1];
 }
 
 export function getCharacterProgressRank(
@@ -157,12 +219,25 @@ export function filterPlayableCharacters(
   characters: Character[],
   config: ProgressFieldConfig | null,
   selection: SpoilerProgressSelection | null,
+  difficultyConfig: DifficultyConfig | null = null,
+  maxDifficulty: string | null = null,
 ): Character[] {
-  if (!config || !selection || selection.mode === "all") {
-    return characters;
+  let pool = characters;
+
+  if (config && selection) {
+    if (selection.mode === "seen") {
+      if (selection.labels.length === 0) return [];
+      pool = pool.filter((c) => isCharacterPlayable(c, config, selection));
+    }
   }
-  if (selection.labels.length === 0) return [];
-  return characters.filter((c) => isCharacterPlayable(c, config, selection));
+
+  if (difficultyConfig && maxDifficulty) {
+    pool = pool.filter((c) =>
+      isCharacterWithinMaxDifficulty(c, difficultyConfig, maxDifficulty),
+    );
+  }
+
+  return pool;
 }
 
 export function loadSpoilerProgress(universeId: string): SpoilerProgressPersisted | null {
@@ -188,11 +263,14 @@ export function saveSpoilerProgress(state: SpoilerProgressPersisted): void {
 export function persistedFromSelection(
   universeId: string,
   selection: SpoilerProgressSelection,
+  maxDifficulty?: string | null,
 ): SpoilerProgressPersisted {
+  const difficulty =
+    maxDifficulty && maxDifficulty.trim() ? { maxDifficulty: maxDifficulty.trim() } : {};
   if (selection.mode === "all") {
-    return { universeId, allSeen: true, seenLabels: [] };
+    return { universeId, allSeen: true, seenLabels: [], ...difficulty };
   }
-  return { universeId, allSeen: false, seenLabels: [...selection.labels] };
+  return { universeId, allSeen: false, seenLabels: [...selection.labels], ...difficulty };
 }
 
 export function clearGameStorageForUniverse(universeId: string): void {
@@ -213,11 +291,17 @@ export function clearGameStorageForUniverse(universeId: string): void {
 export function formatProgressSummary(
   selection: SpoilerProgressSelection,
   config: ProgressFieldConfig | null,
+  maxDifficulty?: string | null,
 ): string {
-  if (selection.mode === "all") return "Tout l'univers";
-  const n = selection.labels.length;
-  if (n === 0) return "Rien de sélectionné";
-  if (n === 1) return selection.labels[0];
-  if (config && n === config.order.length) return "Tout vu";
-  return `${n} sélectionné${n > 1 ? "s" : ""}`;
+  let base: string;
+  if (selection.mode === "all") base = "Tout l'univers";
+  else {
+    const n = selection.labels.length;
+    if (n === 0) base = "Rien de sélectionné";
+    else if (n === 1) base = selection.labels[0];
+    else if (config && n === config.order.length) base = "Tout vu";
+    else base = `${n} sélectionné${n > 1 ? "s" : ""}`;
+  }
+  if (maxDifficulty) return `${base} · ${maxDifficulty}`;
+  return base;
 }

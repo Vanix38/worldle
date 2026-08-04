@@ -38,7 +38,7 @@ for (const k of fmKeys) {
 }
 
 const typeUrl = d.characters.filter((c) => c.type && /https?:\/\//i.test(c.type));
-const indice2Url = d.characters.filter((c) => c.indice2 && /https?:\/\//i.test(c.indice2));
+const hint2Url = d.characters.filter((c) => c.hint2 && /https?:\/\//i.test(c.hint2));
 const genderVals = [...new Set(d.characters.map((c) => c.gender).filter(Boolean))].sort();
 const statusVals = [...new Set(d.characters.map((c) => c.status).filter(Boolean))].sort();
 
@@ -64,7 +64,7 @@ for (const k of gridKeys) {
 
 console.log("\n=== Problèmes qualité ===");
 console.log("type avec URL brute:", typeUrl.length);
-console.log("indice2 avec URL brute:", indice2Url.length);
+console.log("hint2 avec URL brute:", hint2Url.length);
 console.log("arc hors order:", arcNotInOrder);
 console.log("genres:", genderVals.join(", "));
 console.log("statuts (" + statusVals.length + "):", statusVals.slice(0, 12).join(", "), statusVals.length > 12 ? "…" : "");

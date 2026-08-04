@@ -279,7 +279,7 @@ function buildCineverseEarthMap(json) {
   const map = new Map();
   for (const c of json.characters || []) {
     const e = c.earth;
-    const u = c.univers;
+    const u = c.universe;
     if (e == null || u == null) continue;
     if (!map.has(e)) map.set(e, new Set());
     map.get(e).add(u);

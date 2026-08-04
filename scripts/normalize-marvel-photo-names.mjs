@@ -39,7 +39,7 @@ let collisions = 0;
 let unmatched = 0;
 
 for (const c of characters) {
-  const univers = c?.univers;
+  const univers = c?.universe;
   const earth = c?.earth;
   const name = c?.name;
   if (!univers || !earth || !name) continue;

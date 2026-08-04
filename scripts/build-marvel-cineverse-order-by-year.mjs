@@ -8,7 +8,7 @@ import path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const DATA_PATH = path.join(ROOT, "data", "marvel-cineverse.json");
 
-/** Années pour œuvres sans personnage (ou sans indice2) dans le dataset. */
+/** Années pour œuvres sans personnage (ou sans hint2) dans le dataset. */
 const MANUAL_RELEASE_YEARS = {
   "Agents of S.H.I.E.L.D. (Saison 1)": "2013",
   "Wolverine : Le combat de l'immortel": "2013",
@@ -59,7 +59,7 @@ function buildYearByTitle(characters) {
   const map = new Map();
   for (const c of characters) {
     const title = c.firstAppearance;
-    const year = c.indice2;
+    const year = c.hint2;
     if (!title || year === undefined || year === null) continue;
     const y = String(year).trim();
     if (!map.has(title)) map.set(title, new Set());

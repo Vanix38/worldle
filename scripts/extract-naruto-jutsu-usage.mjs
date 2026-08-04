@@ -213,7 +213,7 @@ function parseArgs(argv) {
  * @param {number} minPopular
  * @returns {{ labels: Map<string, string>, usedFallback: number }}
  */
-function indice1LabelsFromJutsu(jutsuUsers, minPopular) {
+function hint1LabelsFromJutsu(jutsuUsers, minPopular) {
   /** @type {Map<string, string[]>} */
   const allById = new Map();
   for (const [jutsuName, idSet] of jutsuUsers) {
@@ -340,7 +340,7 @@ console.log(
 );
 
 if (opts.patchNarutoPath) {
-  const { labels, usedFallback } = indice1LabelsFromJutsu(jutsuUsers, opts.minJutsuUsers);
+  const { labels, usedFallback } = hint1LabelsFromJutsu(jutsuUsers, opts.minJutsuUsers);
   const narutoPath = opts.patchNarutoPath;
   const naruto = JSON.parse(fs.readFileSync(narutoPath, "utf8"));
   if (!Array.isArray(naruto.characters)) {
@@ -350,12 +350,12 @@ if (opts.patchNarutoPath) {
   let withList = 0;
   for (const c of naruto.characters) {
     const v = labels.get(c.id);
-    c.indice1 = v !== undefined ? v : "—";
-    if (c.indice1 !== "—") withList++;
+    c.hint1 = v !== undefined ? v : "—";
+    if (c.hint1 !== "—") withList++;
   }
   fs.writeFileSync(narutoPath, JSON.stringify(naruto, null, 2) + "\n", "utf8");
   console.log(
-    "Patched indice1 →",
+    "Patched hint1 →",
     narutoPath,
     "| persos avec texte:",
     withList,

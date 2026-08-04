@@ -41,7 +41,7 @@ function parseBioAge(age) {
   return num ? Number(num[1]) : 0;
 }
 
-/** @type {Record<string, { wikiFirst: string, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, indice2: string, indice3: string }>} */
+/** @type {Record<string, { wikiFirst: string, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, hint2: string, hint3: string }>} */
 const EGGHEAD_CHARS = {
   shaka: {
     wikiFirst: "Chapter 1062; Episode 1091",
@@ -56,8 +56,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Satellite de Vegapunk",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Satellite de Vegapunk",
+    hint3: "Grand Line (Egghead)",
   },
   lilith: {
     wikiFirst: "Chapter 1061; Episode 1090",
@@ -72,8 +72,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Satellite de Vegapunk",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Satellite de Vegapunk",
+    hint3: "Grand Line (Egghead)",
   },
   edison: {
     wikiFirst: "Chapter 1065; Episode 1095",
@@ -88,8 +88,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Satellite de Vegapunk",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Satellite de Vegapunk",
+    hint3: "Grand Line (Egghead)",
   },
   pythagoras: {
     wikiFirst: "Chapter 1065; Episode 1095",
@@ -104,8 +104,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Satellite de Vegapunk",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Satellite de Vegapunk",
+    hint3: "Grand Line (Egghead)",
   },
   atlas: {
     wikiFirst: "Chapter 1062; Episode 1091",
@@ -120,8 +120,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Satellite de Vegapunk",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Satellite de Vegapunk",
+    hint3: "Grand Line (Egghead)",
   },
   york: {
     wikiFirst: "Chapter 1065; Episode 1095",
@@ -136,8 +136,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Satellite de Vegapunk",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Satellite de Vegapunk",
+    hint3: "Grand Line (Egghead)",
   },
   doll: {
     wikiFirst: "Chapter 1061; Episode 1090",
@@ -152,8 +152,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Vice-amiral",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Vice-amiral",
+    hint3: "Armement, Observation, Conquérant",
   },
   emet: {
     wikiFirst: "Chapter 1065; Episode 1095",
@@ -168,8 +168,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Géant de fer",
-    indice3: "Grand Line (Egghead)",
+    hint2: "Géant de fer",
+    hint3: "Grand Line (Egghead)",
   },
   ginny: {
     wikiFirst: "Chapter 1095; Episode 1129",
@@ -184,8 +184,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Capitaine de l'Armée de l'Est",
-    indice3: "Grand Line (Royaume de Porco)",
+    hint2: "Capitaine de l'Armée de l'Est",
+    hint3: "Grand Line (Royaume de Porco)",
   },
   "jaygarcia-saturn": {
     wikiFirst: "Chapter 233; Episode 151",
@@ -200,8 +200,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Ushi Ushi no Mi modèle Gyuki",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Ushi Ushi no Mi modèle Gyuki",
+    hint3: "Armement, Observation, Conquérant",
   },
   "figarland-garling": {
     wikiFirst: "Chapter 1086; Episode 1120",
@@ -216,8 +216,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Chevaliers de Dieu",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Chevaliers de Dieu",
+    hint3: "Armement, Observation, Conquérant",
   },
   "marcus-mars": {
     wikiFirst: "Chapter 233; Episode 151",
@@ -232,8 +232,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Tori Tori no Mi modèle Itsumade",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Tori Tori no Mi modèle Itsumade",
+    hint3: "Armement, Observation, Conquérant",
   },
   "topman-warcury": {
     wikiFirst: "Chapter 233; Episode 151",
@@ -248,8 +248,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Hito Hito no Mi modèle Fengxi",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Hito Hito no Mi modèle Fengxi",
+    hint3: "Armement, Observation, Conquérant",
   },
   "ethanbaron-v-nusjuro": {
     wikiFirst: "Chapter 233; Episode 151",
@@ -264,8 +264,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Inu Inu no Mi modèle Bakotsu",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Inu Inu no Mi modèle Bakotsu",
+    hint3: "Armement, Observation, Conquérant",
   },
   "shepherd-ju-peter": {
     wikiFirst: "Chapter 233; Episode 151",
@@ -280,8 +280,8 @@ const EGGHEAD_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Hito Hito no Mi modèle Morphon",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Hito Hito no Mi modèle Morphon",
+    hint3: "Armement, Observation, Conquérant",
   },
 };
 
@@ -323,9 +323,9 @@ function buildEntry(id, def, anime) {
     origin: def.origin,
     size: def.size,
     race: def.race,
-    indice1: def.affiliation,
-    indice2: def.indice2,
-    indice3: def.indice3,
+    hint1: def.affiliation,
+    hint2: def.hint2,
+    hint3: def.hint3,
     firstAppearance,
   };
 }

@@ -318,15 +318,15 @@ function normalizeEnemies(value) {
 }
 
 for (const c of data.characters) {
-  c.indice1 = normalizeEnemies(c.indice1);
+  c.hint1 = normalizeEnemies(c.hint1);
 
   if ((c.home || "").toLowerCase().includes("talescria")) {
-    const parts = splitEnemies(c.indice1);
+    const parts = splitEnemies(c.hint1);
     const hasEmpire = parts.some(
       (part) => part.toLowerCase() === EMPIRE_VILTRUMITE.toLowerCase()
     );
     if (!hasEmpire) {
-      c.indice1 = [EMPIRE_VILTRUMITE, ...parts].join(", ");
+      c.hint1 = [EMPIRE_VILTRUMITE, ...parts].join(", ");
     }
   }
 }

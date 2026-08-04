@@ -6,7 +6,7 @@ const counts = new Map();
 const split = (s) => (s || "").split(",").map((x) => x.trim()).filter(Boolean);
 
 for (const c of data.characters) {
-  for (const field of ["occupation", "indice2"]) {
+  for (const field of ["occupation", "hint2"]) {
     for (const occ of split(c[field])) {
       counts.set(occ, (counts.get(occ) || 0) + 1);
     }

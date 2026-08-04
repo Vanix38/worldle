@@ -23,7 +23,7 @@ const uni = (v) => {
 const json = JSON.parse(fs.readFileSync(dataPath, "utf8").replace(/^\uFEFF/, ""));
 const byKey = new Map();
 for (const c of json.characters || []) {
-  const expected = `${toNameSlug(c.name)}-${toSlug(c.univers)}-${uni(c.earth)}`;
+  const expected = `${toNameSlug(c.name)}-${toSlug(c.universe)}-${uni(c.earth)}`;
   const keys = new Set([
     toSlug(c.id, "_"),
     toSlug(c.name, "_"),

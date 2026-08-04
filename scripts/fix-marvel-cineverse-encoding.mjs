@@ -14,11 +14,11 @@ const FIXED_INDICE2_PROMPT = "Année (première apparition à l'écran)";
 function sanitizeString(path, s) {
   let t = s;
 
-  if (path === "fieldMapping.indice2.hint.prompt" && t.includes(FFFD)) {
+  if (path === "fieldMapping.hint2.hint.prompt" && t.includes(FFFD)) {
     return FIXED_INDICE2_PROMPT;
   }
 
-  if (path === "fieldMapping.indice3.hint.prompt" && t.includes("Å") && t.includes(LEFT_DOUBLE_QUOTE)) {
+  if (path === "fieldMapping.hint3.hint.prompt" && t.includes("Å") && t.includes(LEFT_DOUBLE_QUOTE)) {
     t = t.replace(`Films et Å${LEFT_DOUBLE_QUOTE}uvres`, "Films et œuvres");
   }
 

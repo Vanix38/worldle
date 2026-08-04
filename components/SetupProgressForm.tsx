@@ -9,7 +9,9 @@ import type { OrderGroup } from "@/lib/progress-order";
 import {
   clearGameStorageForUniverse,
   filterPlayableCharacters,
+  getDifficultyConfig,
   persistedFromSelection,
+  resolveMaxDifficulty,
   saveSpoilerProgress,
   type ProgressFieldConfig,
   type SpoilerProgressSelection,
@@ -245,10 +247,17 @@ function allLabelsForField(config: ProgressFieldConfig): string[] {
 
 export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
   const router = useRouter();
-  const { characters } = useUniverseData();
-  const { progressField, selection, setSelection } = useSpoilerProgress();
+  const { characters, fieldMapping } = useUniverseData();
+  const { progressField, selection, setSelection, maxDifficulty, setMaxDifficulty } =
+    useSpoilerProgress();
   const [allSeen, setAllSeen] = useState(false);
   const [seenSet, setSeenSet] = useState<Set<string>>(() => new Set());
+  const [difficultyChoice, setDifficultyChoice] = useState<string>("");
+
+  const difficultyConfig = useMemo(
+    () => getDifficultyConfig({ id: universeId, name: "", characters, fieldMapping }),
+    [universeId, characters, fieldMapping],
+  );
 
   useEffect(() => {
     if (!selection) return;
@@ -261,6 +270,16 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
     setSeenSet(new Set(selection.labels));
   }, [selection]);
 
+  useEffect(() => {
+    if (!difficultyConfig) {
+      setDifficultyChoice("");
+      return;
+    }
+    setDifficultyChoice(
+      maxDifficulty ?? resolveMaxDifficulty(null, difficultyConfig) ?? difficultyConfig.order[0] ?? "",
+    );
+  }, [difficultyConfig, maxDifficulty]);
+
   const currentSelection = useMemo(
     () => selectionFromUi(allSeen, seenSet),
     [allSeen, seenSet],
@@ -268,8 +287,20 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
 
   const playableCount = useMemo(() => {
     if (!progressField || !currentSelection) return 0;
-    return filterPlayableCharacters(characters, progressField, currentSelection).length;
-  }, [characters, progressField, currentSelection]);
+    return filterPlayableCharacters(
+      characters,
+      progressField,
+      currentSelection,
+      difficultyConfig,
+      difficultyConfig ? difficultyChoice || null : null,
+    ).length;
+  }, [
+    characters,
+    progressField,
+    currentSelection,
+    difficultyConfig,
+    difficultyChoice,
+  ]);
 
   if (!progressField) return null;
 
@@ -307,12 +338,20 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
     setSeenSet(new Set());
   };
 
+  const canSubmit =
+    Boolean(currentSelection) &&
+    playableCount > 0 &&
+    (!difficultyConfig || Boolean(difficultyChoice));
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!currentSelection) return;
-    saveSpoilerProgress(persistedFromSelection(universeId, currentSelection));
+    if (difficultyConfig && !difficultyChoice) return;
+    const maxDiff = difficultyConfig ? difficultyChoice : null;
+    saveSpoilerProgress(persistedFromSelection(universeId, currentSelection, maxDiff));
     clearGameStorageForUniverse(universeId);
     setSelection(currentSelection);
+    if (maxDiff) setMaxDifficulty(maxDiff);
     router.push(`/game/${universeId}`);
   };
 
@@ -389,6 +428,36 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
         </div>
       ) : null}
 
+      {difficultyConfig ? (
+        <fieldset className="space-y-2">
+          <legend className="text-sm font-medium text-gray-300">
+            {stripAccents(difficultyConfig.label)}
+          </legend>
+          <p className="text-xs text-gray-500">
+            {stripAccents(
+              "Le personnage à deviner aura cette difficulté ou une difficulté inférieure.",
+            )}
+          </p>
+          <ul className="space-y-1.5 rounded-lg border border-gray-600 bg-gray-800/60 p-2">
+            {difficultyConfig.order.map((label) => (
+              <li key={label}>
+                <label className="flex cursor-pointer items-center gap-3 rounded-md px-2 py-2 hover:bg-gray-700/40">
+                  <input
+                    type="radio"
+                    name="max-difficulty"
+                    value={label}
+                    checked={difficultyChoice === label}
+                    onChange={() => setDifficultyChoice(label)}
+                    className="size-4 shrink-0 border-gray-500 bg-gray-900 text-ocean-500 focus:ring-ocean-500"
+                  />
+                  <span className="text-sm text-white">{stripAccents(label)}</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </fieldset>
+      ) : null}
+
       {currentSelection ? (
         <p className="text-center text-sm text-gray-400">
           {playableCount > 0
@@ -408,7 +477,7 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
         variant="primary"
         size="lg"
         className="w-full"
-        disabled={!currentSelection || playableCount === 0}
+        disabled={!canSubmit}
       >
         {stripAccents("Jouer")}
       </Button>

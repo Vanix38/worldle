@@ -108,7 +108,7 @@ export function cleanWikiFieldValue(raw) {
   return stripInfoboxLeak(String(raw || "").trim());
 }
 
-/** Nettoie un lien wiki dans indice2 / capacités. */
+/** Nettoie un lien wiki dans hint2 / capacités. */
 export function cleanIndiceWikiText(raw) {
   let s = String(raw || "").trim();
   if (!s) return s;

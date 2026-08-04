@@ -11,9 +11,9 @@
  *   --reprune : relit data/naruto.json (--out), réapplique seulement le pruning + fieldPrevalence (pas d’API).
  *   --backfill-status-clan : requête wiki (infobox Statut + Clan) pour chaque perso ; met à jour uniquement status/clan + fieldMapping/fieldPrevalence pour ces clés (aucun prune, autres champs inchangés).
  *   --backfill-profession : idem pour Profession uniquement.
- *   --backfill-affiliation-sub : réinfère affiliation (1er lien) et indice3 (affiliation + autres lignes + équipes, hors ~~Anime/Film seulement~~).
- *   --backfill-kekkei-indice2 : infobox Kekkei Genkai → kekkeiGenkai, Traits Uniques → indice2.
- *   Après un scrape complet : node scripts/extract-naruto-jutsu-usage.mjs --patch-naruto — remplit indice1 (jutsu wiki présents chez ≥5 persos du jeu).
+ *   --backfill-affiliation-sub : réinfère affiliation (1er lien) et hint3 (affiliation + autres lignes + équipes, hors ~~Anime/Film seulement~~).
+ *   --backfill-kekkei-hint2 : infobox Kekkei Genkai → kekkeiGenkai, Traits Uniques → hint2.
+ *   Après un scrape complet : node scripts/extract-naruto-jutsu-usage.mjs --patch-naruto — remplit hint1 (jutsu wiki présents chez ≥5 persos du jeu).
  */
 
 import fs from "fs";
@@ -54,7 +54,7 @@ function chapterToArcLabel(ch) {
 }
 
 /** Toujours garder ces clés dans fieldMapping et sur les persos (jeu / recherche). */
-const ALWAYS_FIELD_KEYS = new Set(["aliases", "indice1", "indice2", "indice3", "kekkeiGenkai"]);
+const ALWAYS_FIELD_KEYS = new Set(["aliases", "hint1", "hint2", "hint3", "kekkeiGenkai"]);
 
 const FIELD_MAPPING = {
   status: {
@@ -122,7 +122,7 @@ const FIELD_MAPPING = {
     description:
       "Classifications (virgules). Orange si au moins une entrée est commune avec la cible.",
   },
-  indice1: {
+  hint1: {
     header: "Indice 1",
     fonction: "Indice",
     hint: {
@@ -132,13 +132,13 @@ const FIELD_MAPPING = {
     description:
       "Jutsu infobox : d’abord ceux maîtrisés par ≥ cinq persos du jeu ; sinon tous les jutsu liés sur la fiche (y compris rares). Vide si pas de champ Jutsu. Rempli par extract-naruto-jutsu-usage.mjs --patch-naruto.",
   },
-  indice2: {
+  hint2: {
     header: "Indice 2",
     fonction: "Indice",
     hint: { prompt: "Traits uniques", icon: "FaStar" },
     description: "Champ infobox « Traits uniques » (liens), « — » si absent.",
   },
-  indice3: {
+  hint3: {
     header: "Indice 3",
     fonction: "Indice",
     hint: { prompt: "Équipes & affiliation", icon: "FaUsers" },
@@ -188,7 +188,7 @@ function parseArgs(argv) {
     else if (a === "--backfill-status-clan") out.backfillStatusClan = true;
     else if (a === "--backfill-profession") out.backfillProfession = true;
     else if (a === "--backfill-affiliation-sub") out.backfillAffiliationSub = true;
-    else if (a === "--backfill-kekkei-indice2") out.backfillKekkeiIndice2 = true;
+    else if (a === "--backfill-kekkei-hint2") out.backfillKekkeiIndice2 = true;
     else if (a === "--resume") out.resume = true;
     else if (a === "--dry-run") out.dryRun = true;
     else if (a === "--reprune") out.reprune = true;
@@ -435,7 +435,7 @@ function isAnimeOrFilmOnlySegment(segment) {
 
 /**
  * Affiliation = premier lien du champ Affiliation.
- * extras = autres liens Affiliation + Équipe (segments ~~Anime/Film seulement~~ exclus) — sert à construire indice3 uniquement.
+ * extras = autres liens Affiliation + Équipe (segments ~~Anime/Film seulement~~ exclus) — sert à construire hint3 uniquement.
  */
 function deriveAffiliationSubFromParams(params) {
   const rawAff = params["Affiliation"] || "";
@@ -550,14 +550,14 @@ function buildCharacter(title, params) {
   const aliases = extractAliases(params["Autres noms"] || "").map((a) => stripPartieLabels(a)).filter(Boolean);
 
   /** Rempli ensuite par extract-naruto-jutsu-usage.mjs --patch-naruto (seuil jutsu ≥5 persos). */
-  const indice1 = "—";
-  const indice2 = traitsUniques || "—";
-  const indice3Parts = [
+  const hint1 = "—";
+  const hint2 = traitsUniques || "—";
+  const hint3Parts = [
     ...new Set(
       [affiliation, ...extras].map((x) => stripPartieLabels(x)).filter(Boolean),
     ),
   ];
-  const indice3 = stripPartieLabels(indice3Parts.join(", ") || "—");
+  const hint3 = stripPartieLabels(hint3Parts.join(", ") || "—");
 
   const char = {
     id,
@@ -573,9 +573,9 @@ function buildCharacter(title, params) {
     classification,
     profession: profession || "",
     arc,
-    indice1,
-    indice2,
-    indice3,
+    hint1,
+    hint2,
+    hint3,
   };
 
   if (age !== undefined) char.age = age;
@@ -618,21 +618,21 @@ async function discover() {
       "kekkeiGenkai",
       "arc",
       "aliases",
-      "indice1",
-      "indice2",
-      "indice3",
+      "hint1",
+      "hint2",
+      "hint3",
     ],
     wikiSourceFields: {
       Genre: "gender",
       Statut: "status",
       Clan: "clan",
       Âge: "age",
-      Affiliation: "affiliation (1er lien) ; autres lignes → indice3",
-      Équipe: "indice3",
+      Affiliation: "affiliation (1er lien) ; autres lignes → hint3",
+      Équipe: "hint3",
       "Rang Ninja": "ninjaRank",
       "Nature de Chakra": "chakraNatures",
       "Kekkei Genkai": "kekkeiGenkai",
-      "Traits Uniques": "indice2",
+      "Traits Uniques": "hint2",
       Classification: "classification",
       Profession: "profession",
       "Début manga": "arc (via numéro de chapitre)",
@@ -1013,7 +1013,7 @@ async function backfillAffiliationSub(opts) {
     console.error("Invalid JSON: missing characters[]");
     process.exit(1);
   }
-  console.log("Backfill affiliation + indice3 — carte catégorie → titres wiki…");
+  console.log("Backfill affiliation + hint3 — carte catégorie → titres wiki…");
   const titles = await fetchCategoryTitles(Infinity, opts.delay);
   const idToTitle = new Map();
   for (const t of titles) idToTitle.set(titleToId(t), t);
@@ -1040,23 +1040,23 @@ async function backfillAffiliationSub(opts) {
       const { affiliation, extras } = deriveAffiliationSubFromParams(params);
       c.affiliation = affiliation;
       delete c.sub_affiliation;
-      const indice3Parts = [
+      const hint3Parts = [
         ...new Set(
           [affiliation, ...extras].map((x) => stripPartieLabels(x)).filter(Boolean),
         ),
       ];
-      c.indice3 = stripPartieLabels(indice3Parts.join(", ") || "—");
+      c.hint3 = stripPartieLabels(hint3Parts.join(", ") || "—");
       okRows++;
     } catch (e) {
       console.warn("[backfill affiliation]", c.id, e.message);
     }
     if ((i + 1) % 50 === 0) console.log("Backfill affiliation", i + 1, "/", characters.length);
   }
-  console.log("Fiches mises à jour (affiliation + indice3):", okRows, "| sans titre wiki:", noTitle);
+  console.log("Fiches mises à jour (affiliation + hint3):", okRows, "| sans titre wiki:", noTitle);
 
   const mergedFm = { ...(data.fieldMapping || {}) };
   mergedFm.affiliation = FIELD_MAPPING.affiliation;
-  mergedFm.indice3 = FIELD_MAPPING.indice3;
+  mergedFm.hint3 = FIELD_MAPPING.hint3;
   delete mergedFm.sub_affiliation;
 
   const fmKeys = Object.keys(mergedFm);
@@ -1085,7 +1085,7 @@ async function backfillKekkeiIndice2(opts) {
     console.error("Invalid JSON: missing characters[]");
     process.exit(1);
   }
-  console.log("Backfill Kekkei genkai + Traits Uniques (indice2) — carte catégorie → titres wiki…");
+  console.log("Backfill Kekkei genkai + Traits Uniques (hint2) — carte catégorie → titres wiki…");
   const titles = await fetchCategoryTitles(Infinity, opts.delay);
   const idToTitle = new Map();
   for (const t of titles) idToTitle.set(titleToId(t), t);
@@ -1115,7 +1115,7 @@ async function backfillKekkeiIndice2(opts) {
       const traitsList = extractLinkTexts(params["Traits Uniques"] || "").sort((a, b) => a.localeCompare(b, "fr"));
       const traitsUniques = stripPartieLabels(traitsList.join(", "));
       c.kekkeiGenkai = kekkeiGenkai || "";
-      c.indice2 = traitsUniques || "—";
+      c.hint2 = traitsUniques || "—";
       if (kekkeiGenkai) okKekkei++;
       if (traitsUniques) okTraits++;
     } catch (e) {
@@ -1126,7 +1126,7 @@ async function backfillKekkeiIndice2(opts) {
   console.log(
     "Persos avec kekkei renseigné:",
     okKekkei,
-    "| avec traits uniques (indice2):",
+    "| avec traits uniques (hint2):",
     okTraits,
     "| sans titre wiki:",
     noTitle,
@@ -1134,7 +1134,7 @@ async function backfillKekkeiIndice2(opts) {
 
   const mergedFm = { ...(data.fieldMapping || {}) };
   mergedFm.kekkeiGenkai = FIELD_MAPPING.kekkeiGenkai;
-  mergedFm.indice2 = FIELD_MAPPING.indice2;
+  mergedFm.hint2 = FIELD_MAPPING.hint2;
 
   const fmKeys = Object.keys(mergedFm);
   const fieldPrevalence = Object.fromEntries(

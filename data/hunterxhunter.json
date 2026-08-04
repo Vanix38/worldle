@@ -38,7 +38,7 @@
       ],
       "description": "Importance narrative : Protagoniste, Deuteragoniste, Tritagoniste, Antagoniste Majeur, Antagoniste Secondaire, Fonctionnel."
     },
-    "difficulte": {
+    "difficulty": {
       "header": "Difficulté",
       "fonction": "Comparaison",
       "columnWidth": "small",
@@ -56,7 +56,7 @@
       "fonction": "Classique",
       "description": "Catégorie Nen (Renforcement, Transformation, Matérialisation, Émission, Manipulation, Spécialisation, Inconnu)."
     },
-    "yeux": {
+    "eyes": {
       "header": "Yeux",
       "fonction": "Classique",
       "description": "Champ infobox wiki « yeux » (hunterxhunter.fandom.com)."
@@ -66,7 +66,7 @@
       "fonction": "Recherche",
       "description": "Fusion de connu, aussi connu sous le nom, surnom et romaji (recherche / autocomplete uniquement)."
     },
-    "indice2": {
+    "hint2": {
       "header": "Indice 2",
       "fonction": "Indice",
       "hint": {
@@ -75,7 +75,7 @@
       },
       "description": "Techniques / capacités (infobox wiki)."
     },
-    "indice3": {
+    "hint3": {
       "header": "Indice 3",
       "fonction": "Indice",
       "hint": {
@@ -85,7 +85,7 @@
       "includeInSearch": true,
       "description": "Liens familiaux et relations (infobox wiki)."
     },
-    "indice1": {
+    "hint1": {
       "header": "Indice 1",
       "fonction": "Indice",
       "hint": {
@@ -113,16 +113,16 @@
     "gender": 1,
     "status": 1,
     "role": 1,
-    "difficulte": 1,
+    "difficulty": 1,
     "arc": 1,
     "occupation": 0.9005847953216374,
-    "indice1": 0.8654970760233918,
-    "yeux": 0.8070175438596491,
+    "hint1": 0.8654970760233918,
+    "eyes": 0.8070175438596491,
     "aliases": 0.5497076023391813,
     "type": 0.42105263157894735,
-    "indice2": 0.38011695906432746,
+    "hint2": 0.38011695906432746,
     "affiliation": 0.3684210526315789,
-    "indice3": 0.3508771929824561
+    "hint3": 0.3508771929824561
   },
   "wikiInfoboxKeys": [
     "affiliation",
@@ -146,89 +146,89 @@
       "name": "Abe",
       "gender": "Femme",
       "status": "Vivant",
-      "indice1": "Gris",
-      "indice3": "Mito, Jin, Gon",
+      "hint1": "Gris",
+      "hint3": "Mito, Jin, Gon",
       "firstAppearance": "Épisode 1",
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "abengane",
       "name": "Abe",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Exorciste",
       "type": "Matérialisation",
-      "indice1": "Noirs",
-      "indice2": "Exorcisme",
+      "hint1": "Noirs",
+      "hint2": "Exorcisme",
       "firstAppearance": "Épisode 60",
       "aliases": [
         "Abengane"
       ],
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "agon",
       "name": "Agon",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Inconnu",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Gris",
+      "hint1": "Gris",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "amana",
       "name": "Amana",
       "gender": "Femme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Inconnu",
       "occupation": "Joueuse de Greed Island",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 67",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "amane",
       "name": "Amane",
       "gender": "Femme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Zoldik",
-      "indice3": "Tsubone",
-      "indice1": "Noirs",
+      "hint3": "Tsubone",
+      "hint1": "Noirs",
       "arc": "Élection 13e président",
       "firstAppearance": "Épisode 140",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "amori",
       "name": "Amori",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Bruns Clairs",
+      "hint1": "Bruns Clairs",
       "firstAppearance": "Épisode 3",
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "aruka-zoldik",
       "name": "Aruka Zoldik",
       "gender": "Féminin",
-      "yeux": "Bleu",
+      "eyes": "Bleu",
       "status": "Vivant",
       "type": "Spécialisation",
       "aliases": [
@@ -236,39 +236,39 @@
         "Chose (Par les Zoldik)",
         "Monstre (Par les Zoldik)"
       ],
-      "indice2": "Voeux infinis",
-      "indice3": "Maha, Zeno, Silva, Kikyo, Irumi, Miruki, Kirua, Karuto, Nanika",
-      "indice1": "Noir",
+      "hint2": "Voeux infinis",
+      "hint3": "Maha, Zeno, Silva, Kikyo, Irumi, Miruki, Kirua, Karuto, Nanika",
+      "hint1": "Noir",
       "arc": "Élection 13e président",
       "firstAppearance": "Épisode 138",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "asuta",
       "name": "Asuta",
       "gender": "Femme",
-      "yeux": "Noir",
+      "eyes": "Noir",
       "status": "Inconnu",
       "occupation": "Joueuse de Greed Island",
-      "indice1": "Oranges",
+      "hint1": "Oranges",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 62",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "banana-kavaro",
       "name": "Banana Kavaro",
       "gender": "Femme",
-      "yeux": "Verts forêts",
+      "eyes": "Verts forêts",
       "status": "Vivant",
       "occupation": "Hunter amateur",
-      "indice1": "Pêche",
+      "hint1": "Pêche",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 77",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "bara",
@@ -277,69 +277,69 @@
       "status": "Vivant",
       "affiliation": "Boomer",
       "occupation": "Joueur de Greed Island;Boomer",
-      "indice3": "Genthru, Sabu",
-      "indice1": "brun",
+      "hint3": "Genthru, Sabu",
+      "hint1": "brun",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 63",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "barbon",
       "name": "Barbon",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Charmeur de serpents / Candidat à l'examen Hunter",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 3",
       "aliases": [
         "Bābon"
       ],
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "beans",
       "name": "Beans Maamen",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Association Hunter",
       "occupation": "Isaac Netero",
       "aliases": [
         "Bīnzu"
       ],
-      "indice3": "Isaac Netero",
+      "hint3": "Isaac Netero",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "binolt",
       "name": "Binolt",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Greed Island",
       "type": "Spécialisation",
       "aliases": [
         "Binoruto"
       ],
-      "indice2": "Scissor Hands",
-      "indice1": "Rouges",
+      "hint2": "Scissor Hands",
+      "hint1": "Rouges",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 63",
       "role": "Antagoniste Majeur",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "biscuit-kruger",
       "name": "Biscuits Krueger",
       "gender": "Femme",
-      "yeux": "Roses",
+      "eyes": "Roses",
       "status": "Vivant",
       "affiliation": "Société Hunter",
       "occupation": "Greed Island",
@@ -348,38 +348,38 @@
         "Biske",
         "Bisuketto Kurūgā"
       ],
-      "indice2": "Kukki l'esthéticienne magicienne",
-      "indice1": "Blonds",
+      "hint2": "Kukki l'esthéticienne magicienne",
+      "hint1": "Blonds",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 60",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "bodoro",
       "name": "Bodoro",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Inconnu",
       "occupation": "Artiste Martial / Candidat à l'examen Hunter",
-      "indice1": "Gris",
+      "hint1": "Gris",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "boki",
       "name": "Boki",
       "gender": "Homme",
-      "yeux": "Violets",
+      "eyes": "Violets",
       "status": "Mort",
       "occupation": "Soldat Kimera Ant",
       "type": "Manipulation",
       "firstAppearance": "Épisode 96",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "bonorenof-ndongo",
@@ -392,24 +392,24 @@
       "aliases": [
         "Bonorenofu"
       ],
-      "indice2": "Battle Cantabile : Prologue / Battle Cantabile : Jupiter",
+      "hint2": "Battle Cantabile : Prologue / Battle Cantabile : Jupiter",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "buhara",
       "name": "Buhara",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Hunter Gourmet",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 6",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "burovuta",
@@ -418,78 +418,78 @@
       "status": "Vivant",
       "affiliation": "soldat kimera ant",
       "type": "Émission",
-      "indice2": "mitraillettes aux poings",
-      "indice1": "chauve",
+      "hint2": "mitraillettes aux poings",
+      "hint1": "chauve",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 78",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "bushidora-ambitious",
       "name": "Bushidora Ambitious",
       "gender": "Homme",
-      "yeux": "Bleu",
+      "eyes": "Bleu",
       "status": "Inconnu",
       "affiliation": "Groupe Seirin",
       "occupation": "Single Hunter, Black List",
       "aliases": [
         "Bushidora Anbishasu"
       ],
-      "indice3": "Teradin, Loupe",
-      "indice1": "Marron",
+      "hint3": "Teradin, Loupe",
+      "hint1": "Marron",
       "arc": "Élection 13e président",
       "firstAppearance": "Épisode 141",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "cherry",
       "name": "Cherry",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Artiste martial",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 5",
       "aliases": [
         "Cheri"
       ],
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "cocco",
       "name": "Cocco",
       "gender": "Femme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Pésentatrice de la Tour Céleste",
-      "indice1": "Orange",
+      "hint1": "Orange",
       "firstAppearance": "Épisode 27",
       "aliases": [
         "kokko"
       ],
       "arc": "Arène du Ciel",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "coco-chan",
       "name": "Coco Loo",
       "gender": "Femme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Vivant",
       "occupation": "Cri d'effroi",
       "aliases": [
         "Kokoru"
       ],
-      "indice1": "Oranges clairs",
+      "hint1": "Oranges clairs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 22",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "darzolne",
@@ -501,86 +501,86 @@
       ],
       "affiliation": "Clan Nostrad",
       "occupation": "Chef des gardes du corps de Neon",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 39",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "djido",
       "name": "Djido",
       "gender": "Homme",
-      "yeux": "Vert",
+      "eyes": "Vert",
       "status": "Inconnu",
       "occupation": "Commandant d'escadron Chimera Ant",
       "type": "Matérialisation",
       "aliases": [
         "Jittu"
       ],
-      "indice2": "Arbalète à griffes / Monroe Walk",
-      "indice1": "Violet",
+      "hint2": "Arbalète à griffes / Monroe Walk",
+      "hint1": "Violet",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 78",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "eather",
       "name": "Eather",
       "gender": "Femme",
-      "yeux": "Bleus",
+      "eyes": "Bleus",
       "status": "Vivant",
       "occupation": "Hacker Hunter ; Game Master de Greed Island",
       "aliases": [
         "Īta"
       ],
-      "indice3": "Elena (Soeur jumelle)",
-      "indice1": "Blancs",
+      "hint3": "Elena (Soeur jumelle)",
+      "hint1": "Blancs",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 60",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "elena",
       "name": "Elena",
       "gender": "Femme",
-      "yeux": "Roses",
+      "eyes": "Roses",
       "status": "Vivant",
       "occupation": "Game Master",
-      "indice1": "Blancs",
-      "indice3": "Eather(Soeur jumelle)",
+      "hint1": "Blancs",
+      "hint3": "Eather(Soeur jumelle)",
       "firstAppearance": "Épisode 65",
       "aliases": [
         "Erena"
       ],
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "elisa",
       "name": "Elisa",
       "gender": "Femme",
-      "yeux": "Violets",
+      "eyes": "Violets",
       "status": "Vivant",
       "affiliation": "clan nostrad",
       "aliases": [
         "Eriza"
       ],
-      "indice3": "Sukuwara",
-      "indice1": "Violets",
+      "hint3": "Sukuwara",
+      "hint1": "Violets",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "feitan-portor",
       "name": "Feitan Portor",
       "gender": "Homme",
-      "yeux": "Violet",
+      "eyes": "Violet",
       "status": "Vivant",
       "affiliation": "Brigade Fantôme",
       "occupation": "Brigade Fantôme",
@@ -588,36 +588,36 @@
       "aliases": [
         "Feitan Pōtoo"
       ],
-      "indice2": "Pain Packer / Rising Sun",
-      "indice1": "Noir",
+      "hint2": "Pain Packer / Rising Sun",
+      "hint1": "Noir",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "franklin-bordeaux",
       "name": "Franklin Bordeaux",
       "gender": "Homme",
-      "yeux": "Violets",
+      "eyes": "Violets",
       "status": "Vivant",
       "occupation": "Brigade Fantôme",
       "type": "Émission",
       "aliases": [
         "Furankurin"
       ],
-      "indice2": "Double Machine Gun",
-      "indice1": "Bruns",
+      "hint2": "Double Machine Gun",
+      "hint1": "Bruns",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "frere-oroso",
       "name": "Frère Oroso",
       "gender": "Homme",
-      "yeux": "Jaunes",
+      "eyes": "Jaunes",
       "status": "Mort",
       "affiliation": "Fourmis chimères, Escouade de Léol",
       "occupation": "Capitaine Fourmi chimère",
@@ -627,13 +627,13 @@
         "Ortho Brother",
         "オロソ兄"
       ],
-      "indice2": "Darts De Darts (lancer de fléchettes)",
-      "indice3": "Sœur Oroso, Kobarn, Kirua Zoldik, Furatta, Léol",
-      "indice1": "Blonds",
+      "hint2": "Darts De Darts (lancer de fléchettes)",
+      "hint3": "Sœur Oroso, Kobarn, Kirua Zoldik, Furatta, Léol",
+      "hint1": "Blonds",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 101",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "fukuro",
@@ -647,11 +647,11 @@
       ],
       "affiliation": "Bêtes de l'Ombre, Dix parrains",
       "occupation": "Garde du corps",
-      "indice2": "Fun Fun Cloth",
+      "hint2": "Fun Fun Cloth",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 43",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "furatta",
@@ -661,63 +661,63 @@
       "affiliation": "Fourmi-chimère",
       "type": "Matérialisation",
       "occupation": "Membre de l'armée du Roi / Soldat",
-      "indice2": "Libellule Satellites",
-      "indice3": "Léol, Hirin, Djido",
-      "indice1": "Noirs",
+      "hint2": "Libellule Satellites",
+      "hint3": "Léol, Hirin, Djido",
+      "hint1": "Noirs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 81",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "gashita-bellam",
       "name": "Gashita Bellam",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Hunter",
-      "indice3": "Zetsuku Bellam",
-      "indice1": "Noirs",
+      "hint3": "Zetsuku Bellam",
+      "hint1": "Noirs",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 60",
       "role": "Tritagoniste",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "gereta",
       "name": "Gereta",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Inconnu",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "geru",
       "name": "Geru",
       "gender": "Femme",
-      "yeux": "Violets",
+      "eyes": "Violets",
       "status": "Vivant",
       "affiliation": "Association Hunter, Zodiaques",
       "occupation": "Zodiaque",
       "aliases": [
         "Serpent (Par les Zodiaques)"
       ],
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 137",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "ging-freecss",
       "name": "Ging Freecss",
       "gender": "Homme",
-      "yeux": "Cafe",
+      "eyes": "Cafe",
       "status": "Vivant",
       "affiliation": "Association Hunter, Greed Island, Beyond Netero, Zodiaques",
       "occupation": "Hunter",
@@ -725,38 +725,38 @@
       "aliases": [
         "Jin Furīkusu"
       ],
-      "indice2": "Warping Punch* / Ultrasons* / *(copie amélioré des techniques de Leolio)",
-      "indice3": "Gon Freecss, Mito Freecss, Abe Freecss",
-      "indice1": "Noir",
+      "hint2": "Warping Punch* / Ultrasons* / *(copie amélioré des techniques de Leolio)",
+      "hint3": "Gon Freecss, Mito Freecss, Abe Freecss",
+      "hint1": "Noir",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 37",
       "role": "Tritagoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "gon-freecss",
       "name": "Gon Freecss",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Hunter",
       "type": "Renforcement",
       "aliases": [
         "Gon Furīkusu"
       ],
-      "indice2": "Jajanken : / Pierre / Papier / Ciseaux /",
-      "indice3": "Jin Freecss, Mito Freecss, Abe Freecss",
-      "indice1": "Noir verdâtre",
+      "hint2": "Jajanken : / Pierre / Papier / Ciseaux /",
+      "hint3": "Jin Freecss, Mito Freecss, Abe Freecss",
+      "hint1": "Noir verdâtre",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 0",
       "role": "Protagoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "goto",
       "name": "Gotô",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Inconnu",
       "type": "Renforcement",
       "aliases": [
@@ -764,31 +764,31 @@
       ],
       "affiliation": "La Famille Zoldik",
       "occupation": "Employé de la famille Zoldik",
-      "indice2": "Balles de pièces de monnaie",
-      "indice1": "Noirs",
+      "hint2": "Balles de pièces de monnaie",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 22",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "gozu",
       "name": "Gozu",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Inconnu",
       "occupation": "Guerrier de Bianu, Mercenaire",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "hanzo",
       "name": "Hanzo",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Ninja / Information Hunter",
       "aliases": [
@@ -797,61 +797,61 @@
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "haruna",
       "name": "Haruna",
       "gender": "Femme",
-      "yeux": "Verts olives",
+      "eyes": "Verts olives",
       "status": "Vivant",
       "occupation": "Mère",
-      "indice1": "Prunes",
-      "indice3": "Reina(fille) / Kuruto(Fils) / Shidore(Reincarnation de Reina) / Koruto(Reincarnation de Kuruto)",
+      "hint1": "Prunes",
+      "hint3": "Reina(fille) / Kuruto(Fils) / Shidore(Reincarnation de Reina) / Koruto(Reincarnation de Kuruto)",
       "firstAppearance": "Épisode 77",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "hina",
       "name": "Hirin",
       "gender": "Femme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Kimera ant Capitaine de troupe",
       "aliases": [
         "Hina",
         "Hirin(Ancien prénom)"
       ],
-      "indice2": "Exorcisme",
-      "indice1": "Blonds",
+      "hint2": "Exorcisme",
+      "hint1": "Blonds",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 81",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "hisaku",
       "name": "Hisaku",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 60",
       "aliases": [
         "Pisaku"
       ],
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "hisoka-morow",
       "name": "Hisoka Morrow",
       "gender": "Homme",
-      "yeux": "Jaune",
+      "eyes": "Jaune",
       "status": "Vivant",
       "affiliation": "Association Hunter, Brigade Fantôme",
       "occupation": "Hunter, Brigade Fantôme",
@@ -860,18 +860,18 @@
         "Hisoka le magicien",
         "Hisoka Morou"
       ],
-      "indice2": "Bungie Gum / Texture trompeuse",
-      "indice1": "Rouge orangé",
+      "hint2": "Bungie Gum / Texture trompeuse",
+      "hint1": "Rouge orangé",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Deuteragoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "ikarugo",
       "name": "Ikarugo",
       "gender": "Homme",
-      "yeux": "Turquoise",
+      "eyes": "Turquoise",
       "status": "Vivant",
       "affiliation": "Équipe d'extermination des Fourmis chimères",
       "occupation": "Soldat Kimera Ant, Ex-capitaine",
@@ -880,32 +880,32 @@
         "Ikalgo",
         "イカルゴ"
       ],
-      "indice2": "Poupées vivantes / Fleadom",
-      "indice3": "Kirua Zoldik, Koruto, Reine des Fourmis chimères",
-      "indice1": "Aucun",
+      "hint2": "Poupées vivantes / Fleadom",
+      "hint3": "Kirua Zoldik, Koruto, Reine des Fourmis chimères",
+      "hint1": "Aucun",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 100",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "imori",
       "name": "Imori",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Bruns clairs",
+      "hint1": "Bruns clairs",
       "firstAppearance": "Épisode 3",
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "irumi-zoldik",
       "name": "Irumi Zoldik",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Famille Zoldik, Brigade Fantôme, Association Hunter",
       "occupation": "Assassin Zoldik, Hunter, Membre n°11 Brigade Fantôme",
@@ -916,19 +916,19 @@
         "Illu",
         "イルミゾルディック"
       ],
-      "indice2": "Needle Men / Déguisement / Regard hypnotique",
-      "indice3": "Silva Zoldik, Kikyô Zoldik, Kirua Zoldik, Miruki Zoldik, Kuroro Lucifer, Hisoka",
-      "indice1": "Noirs",
+      "hint2": "Needle Men / Déguisement / Regard hypnotique",
+      "hint3": "Silva Zoldik, Kikyô Zoldik, Kirua Zoldik, Miruki Zoldik, Kuroro Lucifer, Hisoka",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 15",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "isaac-netero",
       "name": "Isaac Netero",
       "gender": "Homme",
-      "yeux": "Bruns",
+      "eyes": "Bruns",
       "status": "Inconnu",
       "type": "Renforcement",
       "aliases": [
@@ -937,53 +937,53 @@
       ],
       "affiliation": "Association Hunter, Groupe Seirin",
       "occupation": "Association Hunter",
-      "indice2": "Hyakushiki Kannon",
-      "indice3": "Beyond Netero",
+      "hint2": "Hyakushiki Kannon",
+      "hint3": "Beyond Netero",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 6",
       "role": "Deuteragoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "isaku",
       "name": "Isaku",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
-      "indice1": "Gris",
+      "hint1": "Gris",
       "firstAppearance": "Épisode 61",
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "iwalenkov",
       "name": "Iwalenkov",
       "gender": "Homme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
       "occupation": "Hunter / Garde du corps",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "firstAppearance": "Épisode 41",
       "aliases": [
         "Iwarenkofu"
       ],
       "arc": "Yorknew",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "jeitosari",
       "name": "Jeitosari",
       "gender": "Homme",
-      "yeux": "Verts foncés",
+      "eyes": "Verts foncés",
       "status": "Inconnu",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 59",
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "jito",
@@ -991,14 +991,14 @@
       "gender": "Homme",
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 60",
       "aliases": [
         "Jiito"
       ],
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "kaito",
@@ -1010,11 +1010,11 @@
       "aliases": [
         "Baleinosse"
       ],
-      "indice2": "Crazy Slot",
+      "hint2": "Crazy Slot",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 76",
       "role": "Deuteragoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "kanaria",
@@ -1025,26 +1025,26 @@
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 23",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "kara",
       "name": "Kara",
       "gender": "Femme",
-      "yeux": "Jaunes",
+      "eyes": "Jaunes",
       "status": "Vivant",
       "occupation": "Hunter",
-      "indice1": "Rouges",
+      "hint1": "Rouges",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 14",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "karuto-zoldik",
       "name": "Karuto Zoldik",
       "gender": "Homme",
-      "yeux": "Roses",
+      "eyes": "Roses",
       "status": "Vivant",
       "affiliation": "Famille Zoldik",
       "occupation": "Assassin Zoldik / Membre n°4 de la Brigade Fantôme",
@@ -1054,44 +1054,44 @@
         "Caltt (1999)",
         "Karuto Zorudikku"
       ],
-      "indice2": "Paper Manipulation / Surveillance Paper Dolls / Paper Fan Blade / Dancing Serpent's Bite",
-      "indice3": "Maha Zoldik, Zzigg Zoldik, Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik",
-      "indice1": "Noirs",
+      "hint2": "Paper Manipulation / Surveillance Paper Dolls / Paper Fan Blade / Dancing Serpent's Bite",
+      "hint3": "Maha Zoldik, Zzigg Zoldik, Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 23",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "kastro",
       "name": "Kastro",
       "gender": "Homme",
-      "yeux": "Bleus",
+      "eyes": "Bleus",
       "status": "Inconnu",
       "occupation": "Tour céleste",
       "type": "Renforcement",
       "aliases": [
         "Kasutoro"
       ],
-      "indice2": "Morsure du tigre, DoppelGanger, Véritable morsure du tigre",
-      "indice1": "Blancs",
+      "hint2": "Morsure du tigre, DoppelGanger, Véritable morsure du tigre",
+      "hint1": "Blancs",
       "arc": "Arène du Ciel",
       "firstAppearance": "Épisode 31",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "kasuga",
       "name": "Kasuga",
       "gender": "Femme",
-      "yeux": "Violets clairs",
+      "eyes": "Violets clairs",
       "status": "Mort",
       "occupation": "Zoldik",
-      "indice1": "Verts-gris",
+      "hint1": "Verts-gris",
       "firstAppearance": "Épisode 138",
       "arc": "Élection 13e président",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "kenmi",
@@ -1099,11 +1099,11 @@
       "gender": "Homme",
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 26",
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "kenzaki",
@@ -1113,7 +1113,7 @@
       "firstAppearance": "Épisode 143",
       "arc": "Élection 13e président",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "kikyo-zoldik",
@@ -1126,19 +1126,19 @@
       "aliases": [
         "Kikyô Zorudikku"
       ],
-      "indice2": "Nom inconnu",
-      "indice3": "Maha, Zeno, Silva, Irumi, Miruki, Kirua, Aruka, Karuto",
-      "indice1": "Noir",
+      "hint2": "Nom inconnu",
+      "hint3": "Maha, Zeno, Silva, Irumi, Miruki, Kirua, Aruka, Karuto",
+      "hint1": "Noir",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 23",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "kirua-zoldik",
       "name": "Kirua Zoldik",
       "gender": "Homme",
-      "yeux": "2011)",
+      "eyes": "2011)",
       "status": "Vivant",
       "affiliation": "Famille Zoldik",
       "occupation": "Hunter, Famille Zoldik",
@@ -1148,50 +1148,50 @@
         "Kiru (par Irumi",
         "Kirua Zorudikku"
       ],
-      "indice2": "Foudre de Paume (Manga) / Paume de Foudre (2011) (雷掌) / La Foudre (落雷) / Vitesse Divine (神速)",
-      "indice3": "Maha, Zzigg, Zeno, Silva, Kikyo, Irumi, Miruki, Aruka, Karuto",
-      "indice1": "Blanc gris",
+      "hint2": "Foudre de Paume (Manga) / Paume de Foudre (2011) (雷掌) / La Foudre (落雷) / Vitesse Divine (神速)",
+      "hint3": "Maha, Zzigg, Zeno, Silva, Kikyo, Irumi, Miruki, Aruka, Karuto",
+      "hint1": "Blanc gris",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Protagoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "knuckle-bine",
       "name": "Knuckle Bain",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Beast Hunter",
       "type": "Matérialisation",
       "aliases": [
         "Nakkuru Bain"
       ],
-      "indice2": "Hakoware",
-      "indice1": "Noirs",
+      "hint2": "Hakoware",
+      "hint1": "Noirs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 86",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "koala",
       "name": "Koala",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Au service de Kaito / Anciennement soldat Kimera Ant",
-      "indice1": "Rose (son pelage)",
+      "hint1": "Rose (son pelage)",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 79",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "komugi",
       "name": "Komugi",
       "gender": "Femme",
-      "yeux": "Bleus clairs",
+      "eyes": "Bleus clairs",
       "status": "Inconnu",
       "affiliation": "Inconnue, 150",
       "occupation": "Joueuse de gungi",
@@ -1199,13 +1199,13 @@
       "aliases": [
         "Grande joueuse de gungi"
       ],
-      "indice2": "Augmentation constante de la capacité à jouer au gungi",
-      "indice3": "Meruem (petit ami)",
-      "indice1": "Blancs",
+      "hint2": "Augmentation constante de la capacité à jouer au gungi",
+      "hint3": "Meruem (petit ami)",
+      "hint1": "Blancs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 102",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "koruko",
@@ -1216,13 +1216,13 @@
       "firstAppearance": "Épisode 42",
       "arc": "Yorknew",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "koruto",
       "name": "Koruto",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Fourmis chimères, NGL",
       "occupation": "Chef d'escadron Kimera Ant, Gardien de Kaito",
@@ -1233,36 +1233,36 @@
         "Kurt",
         "コルト"
       ],
-      "indice3": "Haruna, Reina, Shidore, Kuruto, Reine des Fourmis chimères, Pegui, Ramotto",
-      "indice1": "Noirs",
+      "hint3": "Haruna, Reina, Shidore, Kuruto, Reine des Fourmis chimères, Pegui, Ramotto",
+      "hint1": "Noirs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 77",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "korutopi-tonofumeiru",
       "name": "Korutopi Tonofumeiru",
       "gender": "Homme",
-      "yeux": "Bleu",
+      "eyes": "Bleu",
       "status": "Inconnu",
       "occupation": "Brigade Fantôme",
       "type": "Matérialisation",
       "aliases": [
         "Korutopi"
       ],
-      "indice2": "''Gallery Fake''",
-      "indice1": "Bleu pâle",
+      "hint2": "''Gallery Fake''",
+      "hint1": "Bleu pâle",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "kurapika",
       "name": "Kurapika",
       "gender": "Homme",
-      "yeux": "Gris (2011) / Rouges (pupilles écarlates)",
+      "eyes": "Gris (2011) / Rouges (pupilles écarlates)",
       "status": "Vivant",
       "affiliation": "Association Hunter, Zodiaques, Clan Kuruta, Division du renseignement",
       "occupation": "Blacklist Hunter, Zodiaque (Rat), Chef du Clan Nostrad",
@@ -1272,13 +1272,13 @@
         "Pupille écarlate",
         "クラピカ"
       ],
-      "indice2": "Holy Chain / Steal Chain / Chain Jail / Judgment Chain / Emperor Time",
-      "indice3": "Gon Freecss, Kirua Zoldik, Leolio Paradinaito, Pairo, Clan Kuruta, Kuroro Lucifer",
-      "indice1": "Blonds",
+      "hint2": "Holy Chain / Steal Chain / Chain Jail / Judgment Chain / Emperor Time",
+      "hint3": "Gon Freecss, Kirua Zoldik, Leolio Paradinaito, Pairo, Clan Kuruta, Kuroro Lucifer",
+      "hint1": "Blonds",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 1",
       "role": "Protagoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "kuroro-lucifer",
@@ -1292,30 +1292,30 @@
         "Boss (par la Brigade Fantôme)",
         "Kuroro Rushirufuru"
       ],
-      "indice2": "'''Skill Hunter'''",
+      "hint2": "'''Skill Hunter'''",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Majeur",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "kyu",
       "name": "Kyû",
       "status": "Vivant",
       "gender": "Homme",
-      "yeux": "Bleus",
+      "eyes": "Bleus",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Bordeaux",
+      "hint1": "Bordeaux",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "leolio-paradinaito",
       "name": "Leolio Paradinaito",
       "gender": "Homme",
-      "yeux": "Brun",
+      "eyes": "Brun",
       "status": "Vivant",
       "affiliation": "Zodiaques de l’Association Hunter (équipe scientifique)",
       "occupation": "Rookie Hunter / Étudiant en médecine / Zodiaque (Sanglier)",
@@ -1326,18 +1326,18 @@
         "Rioleo (par Kurapika)",
         "Sanglier (chez les Zodiaques)"
       ],
-      "indice2": "Warping Punch / Ultrasons",
-      "indice1": "Noirs",
+      "hint2": "Warping Punch / Ultrasons",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 1",
       "role": "Protagoniste",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "leoru",
       "name": "Leoru",
       "gender": "Homme",
-      "yeux": "Blancs",
+      "eyes": "Blancs",
       "status": "Mort",
       "affiliation": "Fourmis chimères, Division d'attaque de Leoru",
       "occupation": "Chef d'escadron, Commandant de division",
@@ -1346,13 +1346,13 @@
         "Hagya",
         "レオル"
       ],
-      "indice2": "Rental Pod",
-      "indice3": "Furatta, Hirin, Djido, Neferupito, Reine des Fourmis chimères",
-      "indice1": "Blancs",
+      "hint2": "Rental Pod",
+      "hint3": "Furatta, Hirin, Djido, Neferupito, Reine des Fourmis chimères",
+      "hint1": "Blancs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 81",
       "role": "Antagoniste Majeur",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "maenore",
@@ -1363,43 +1363,43 @@
       "firstAppearance": "Épisode 105",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "maha-zoldik",
       "name": "Maha Zoldiku",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Assassin",
       "type": "Renforcement",
       "affiliation": "Brigade Fantôme, Famille Zoldik",
-      "indice3": "Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "hint3": "Zeno Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
       "firstAppearance": "Épisode 141",
       "aliases": [
         "Maha Zorudikku"
       ],
       "arc": "Yorknew",
       "role": "Fonctionnel",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "masuta",
       "name": "Masuta",
       "gender": "Homme",
       "occupation": "Examinateur Hunter",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "firstAppearance": "Épisode 17",
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Impossible",
+      "difficulty": "Impossible",
       "status": "Inconnu"
     },
     {
       "id": "meleolon",
       "name": "Meleolon",
       "gender": "Homme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Vivant",
       "type": "Spécialisation",
       "aliases": [
@@ -1409,25 +1409,25 @@
       ],
       "affiliation": "Kimera Ants",
       "occupation": "Kimera Ants",
-      "indice2": "Plan infaillible / Le Complice de Dieu",
-      "indice1": "Blonds",
+      "hint2": "Plan infaillible / Le Complice de Dieu",
+      "hint1": "Blonds",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 79",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "menchi",
       "name": "Menchi",
       "status": "Vivant",
       "gender": "Femme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "occupation": "Hunter",
-      "indice1": "Turquins",
+      "hint1": "Turquins",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 6",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "meruem",
@@ -1441,41 +1441,41 @@
         "Majesté",
         "Meruemu"
       ],
-      "indice2": "Nen Eater / Metamorphose / Rage Blast / Photon",
-      "indice3": "Reine, Neferupito, Shauapufu, Montutyupi",
+      "hint2": "Nen Eater / Metamorphose / Rage Blast / Photon",
+      "hint3": "Reine, Neferupito, Shauapufu, Montutyupi",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 91",
       "role": "Antagoniste Majeur",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "mike",
       "name": "Mike",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Inconnu",
       "affiliation": "Famille Zoldik",
       "aliases": [
         "Mi-ke"
       ],
-      "indice1": "Mauves",
+      "hint1": "Mauves",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 22",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "mikuri",
       "name": "Mikuri",
       "gender": "Femme",
-      "yeux": "Gris",
+      "eyes": "Gris",
       "status": "Mort",
       "occupation": "Joueuse de Greed Island",
-      "indice1": "Rouges",
+      "hint1": "Rouges",
       "firstAppearance": "Épisode 60",
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "mimizu",
@@ -1491,96 +1491,96 @@
       "arc": "Yorknew",
       "firstAppearance": "Épisode 43",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "miruki-zoldik",
       "name": "Miruki Zoldik",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Famille Zoldik",
       "type": "Manipulation",
       "aliases": [
         "Miruki Zorudikku"
       ],
-      "indice2": "Inconnues",
-      "indice3": "Maha Zoldik, Zeno Zoldik, Silva Zoldik, Kikyo Zoldik, Irumi Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
-      "indice1": "Noirs",
+      "hint2": "Inconnues",
+      "hint3": "Maha Zoldik, Zeno Zoldik, Silva Zoldik, Kikyo Zoldik, Irumi Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "hint1": "Noirs",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 23",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "mito-freecss",
       "name": "Mito",
       "gender": "Femme",
-      "yeux": "Jaunes",
+      "eyes": "Jaunes",
       "status": "Vivant",
       "occupation": "Poissonnière (2011)",
       "aliases": [
         "Mito Furīkusu",
         "Tante Mito (Par Gon)"
       ],
-      "indice3": "Abe, Gon, Jin",
-      "indice1": "Orange",
+      "hint3": "Abe, Gon, Jin",
+      "hint1": "Orange",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 1",
       "role": "Fonctionnel",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "mitsuba",
       "name": "Mitsuba",
       "gender": "Femme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
       "occupation": "Zoldik",
-      "indice1": "Blonds",
-      "indice3": "Hasama",
+      "hint1": "Blonds",
+      "hint3": "Hasama",
       "firstAppearance": "Épisode 138",
       "arc": "Élection 13e président",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "mizaisutomu-nana",
       "name": "Mizaisutomu Nana",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Zodiaques",
       "occupation": "Crime Hunter (2 étoiles) / Zodiaques (Vache) / Sécurité privée / Directeur d'entreprise / Avocat / Equipe d'intelligence",
       "aliases": [
         "Vache"
       ],
-      "indice2": "Cross Game",
-      "indice1": "Noirs",
+      "hint2": "Cross Game",
+      "hint1": "Noirs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 137",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "mizuken",
       "name": "Mizuken",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Kurapika",
       "type": "Émission",
-      "indice1": "Bruns foncés",
+      "hint1": "Bruns foncés",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 30",
       "role": "Tritagoniste",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "montutyupi",
       "name": "Montutuyupi",
       "gender": "Homme",
-      "yeux": "Pourpre",
+      "eyes": "Pourpre",
       "status": "Mort",
       "type": "Transformation",
       "aliases": [
@@ -1590,13 +1590,13 @@
       ],
       "affiliation": "Kimera Ant",
       "occupation": "Garde Royal du Roi",
-      "indice2": "Métamorphose ;Rage Blast ;Rage Incarné",
-      "indice3": "Reine, Neferupito, Shaupfufu, Meruem, Kaito(Kimera Ant)",
-      "indice1": "Violets foncés",
+      "hint2": "Métamorphose ;Rage Blast ;Rage Incarné",
+      "hint3": "Reine, Neferupito, Shaupfufu, Meruem, Kaito(Kimera Ant)",
+      "hint1": "Violets foncés",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 88",
       "role": "Antagoniste Majeur",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "morau-mccarnathy",
@@ -1606,13 +1606,13 @@
       "affiliation": "Société Hunter",
       "occupation": "Hunter",
       "type": "Manipulation",
-      "indice2": "Deep Purple",
-      "indice3": "Knuckle, Shoot",
-      "indice1": "Argentés",
+      "hint2": "Deep Purple",
+      "hint3": "Knuckle, Shoot",
+      "hint1": "Argentés",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 85",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "muuna",
@@ -1620,17 +1620,17 @@
       "gender": "Homme",
       "status": "Mort",
       "occupation": "Touriste",
-      "indice1": "Noir",
+      "hint1": "Noir",
       "firstAppearance": "Épisode 139",
       "arc": "Élection 13e président",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "neferupito",
       "name": "Neferupitō",
       "gender": "Homme",
-      "yeux": "rouge / jaune",
+      "eyes": "rouge / jaune",
       "status": "Mort",
       "affiliation": "Garde royal(e) Kimera Ant, Humain et autres espèces",
       "occupation": "garde royal",
@@ -1639,69 +1639,69 @@
         "Pitō)",
         "Pitou (ピトー"
       ],
-      "indice2": "Terpishora / Docteur Blythe / Marionnetiste",
-      "indice3": "Reine, Shaupfufu, Montutyupi, Meruem, Kaito",
-      "indice1": "Blancs",
+      "hint2": "Terpishora / Docteur Blythe / Marionnetiste",
+      "hint3": "Reine, Shaupfufu, Montutyupi, Meruem, Kaito",
+      "hint1": "Blancs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 84",
       "role": "Antagoniste Majeur",
-      "difficulte": "Très facile"
+      "difficulty": "Très facile"
     },
     {
       "id": "neon-nostrad",
       "name": "Neon Nostrad",
       "gender": "Femme",
-      "yeux": "et 2011)",
+      "eyes": "et 2011)",
       "status": "Vivant",
       "occupation": "Voyante",
       "type": "Spécialisation",
       "aliases": [
         "Neon Nosutorādo"
       ],
-      "indice2": "Lovely Ghost Writer",
-      "indice3": "Right Nostrad",
-      "indice1": "Bleu électrique",
+      "hint2": "Lovely Ghost Writer",
+      "hint3": "Right Nostrad",
+      "hint1": "Bleu électrique",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "nobunaga-hazama",
       "name": "Nobunaga Hazama",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Brigade Fantôme",
       "occupation": "Brigade Fantôme",
       "type": "Renforcement",
-      "indice1": "Noirs",
+      "hint1": "Noirs",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "noko",
       "name": "Nokô",
       "gender": "Femme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Vivant",
       "occupation": "Résidente de l'île de la Baleine",
-      "indice1": "Oranges",
+      "hint1": "Oranges",
       "firstAppearance": "Épisode 1",
       "aliases": [
         "Nouko"
       ],
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "novu",
       "name": "Nov",
       "gender": "Homme",
-      "yeux": "Marron clair",
+      "eyes": "Marron clair",
       "status": "Vivant",
       "affiliation": "Société Hunter",
       "occupation": "Hunter",
@@ -1709,32 +1709,32 @@
       "aliases": [
         "Novu"
       ],
-      "indice2": "Cache-cache / Scream",
-      "indice3": "Société Hunter, Pâmu Shiberia",
-      "indice1": "Noirs (anciennement) / Blancs (actuellement)",
+      "hint2": "Cache-cache / Scream",
+      "hint3": "Société Hunter, Pâmu Shiberia",
+      "hint1": "Noirs (anciennement) / Blancs (actuellement)",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 85",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "pairo",
       "name": "Pairo",
       "gender": "Homme",
-      "yeux": "Marrons / Rouges (Quand il est énervé)",
+      "eyes": "Marrons / Rouges (Quand il est énervé)",
       "status": "Mort",
-      "indice1": "Bruns",
-      "indice3": "Clan Kuruta",
+      "hint1": "Bruns",
+      "hint3": "Clan Kuruta",
       "firstAppearance": "Épisode 58",
       "arc": "Yorknew",
       "role": "Fonctionnel",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "pakunoda",
       "name": "Pakunoda",
       "gender": "Femme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Mort",
       "type": "Spécialisation",
       "aliases": [
@@ -1743,34 +1743,34 @@
       ],
       "affiliation": "Brigade Fantôme",
       "occupation": "Brigade Fantôme",
-      "indice2": "'''Analyse des souvenirs''' / '''Memory Bomb'''",
-      "indice1": "Blonds",
+      "hint2": "'''Analyse des souvenirs''' / '''Memory Bomb'''",
+      "hint1": "Blonds",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "pamu-shiberia",
       "name": "Pâmu Shiberia",
       "gender": "Femme",
-      "yeux": "Fuchsias (Humaine) / Fuchsias (Fourmi-chimère)",
+      "eyes": "Fuchsias (Humaine) / Fuchsias (Fourmi-chimère)",
       "status": "Vivant",
       "occupation": "Hunter, Voyante, Hunter Professionnelle",
       "type": "Renforcement",
       "affiliation": "Association Hunter",
-      "indice2": "Merman Clairvoyance, Black Widow, Wink Blue",
-      "indice1": "Noirs",
+      "hint2": "Merman Clairvoyance, Black Widow, Wink Blue",
+      "hint1": "Noirs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 86",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "parisuton-hill",
       "name": "Parisuton Hill",
       "gender": "Homme",
-      "yeux": "Bruns",
+      "eyes": "Bruns",
       "status": "Vivant",
       "affiliation": "Association des Hunters, Zodiaques",
       "occupation": "Triple Hunter",
@@ -1779,19 +1779,19 @@
         "Le Rat",
         "Parisuton Hirū"
       ],
-      "indice2": "Inconnu",
-      "indice3": "Beyond, Zodiaques",
-      "indice1": "Blonds",
+      "hint2": "Inconnu",
+      "hint3": "Beyond, Zodiaques",
+      "hint1": "Blonds",
       "arc": "Élection 13e président",
       "firstAppearance": "Épisode 137",
       "role": "Antagoniste Majeur",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "pegui",
       "name": "Pegui",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Mort",
       "affiliation": "Fourmis chimères, Reine des Fourmis chimères",
       "occupation": "Chef d'escadron des Fourmis chimères",
@@ -1801,30 +1801,30 @@
         "Pegī",
         "ペギー"
       ],
-      "indice3": "Reine des Fourmis chimères, Koruto, Ramotto, Meleolon (Jail)",
-      "indice1": "Blancs",
+      "hint3": "Reine des Fourmis chimères, Koruto, Ramotto, Meleolon (Jail)",
+      "hint1": "Blancs",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 78",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "pekuba",
       "name": "Pekuba",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
-      "indice1": "Blancs",
+      "hint1": "Blancs",
       "firstAppearance": "Épisode 78",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "phinks-magkav",
       "name": "Phinks Magkav",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Brigade Fantôme",
       "occupation": "Brigade Fantôme",
@@ -1832,12 +1832,12 @@
       "aliases": [
         "Finkusu"
       ],
-      "indice2": "Ripper Cyclotron",
-      "indice1": "Blonds",
+      "hint2": "Ripper Cyclotron",
+      "hint1": "Blonds",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "piedro",
@@ -1850,30 +1850,30 @@
       ],
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "piyon",
       "name": "Piyon",
       "gender": "Femme",
-      "yeux": "Roses",
+      "eyes": "Roses",
       "status": "Vivant",
       "affiliation": "Les zodiaques",
       "occupation": "Chapitre 346",
       "aliases": [
         "Lapin"
       ],
-      "indice1": "Roux",
+      "hint1": "Roux",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 137",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "pokkuru",
       "name": "Pokkuru",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Mort",
       "type": "Émission",
       "affiliation": "Association Hunter, Équipe d'expédition NGL",
@@ -1882,47 +1882,47 @@
         "Pokkle",
         "ポックル"
       ],
-      "indice2": "Rainbow / Flèche rouge / Flèche orange",
-      "indice3": "Gon Freecss, Leolio Paradinaito, Ponzu, NGL",
-      "indice1": "Orange-pêche",
+      "hint2": "Rainbow / Flèche rouge / Flèche orange",
+      "hint3": "Gon Freecss, Leolio Paradinaito, Ponzu, NGL",
+      "hint1": "Orange-pêche",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "podongo-lapoy",
       "name": "Pondongo Lapoy",
       "gender": "Femme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Hunter amateur",
-      "indice1": "Gris",
+      "hint1": "Gris",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 77",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "ponzu",
       "name": "Ponzu",
       "gender": "Femme",
-      "yeux": "Vert-forestier",
+      "eyes": "Vert-forestier",
       "status": "Mort",
       "occupation": "Hunter amateur",
-      "indice1": "Vert clair",
+      "hint1": "Vert clair",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "poorhatto",
       "name": "Poorhatto",
       "gender": "Homme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
-      "indice1": "Bruns-Blonds",
+      "hint1": "Bruns-Blonds",
       "affiliation": "Nikkes",
       "firstAppearance": "Épisode 60",
       "aliases": [
@@ -1930,13 +1930,13 @@
       ],
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "ramotto",
       "name": "Ramotto",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "affiliation": "Fourmis chimères, Reine des Fourmis chimères",
       "occupation": "Chef d'escadron des Fourmis chimères",
@@ -1945,63 +1945,63 @@
         "Rammot",
         "ラモット"
       ],
-      "indice2": "Lames de plumes (Feather Blades)",
-      "indice3": "Koruto, Neferupito, Pegui, Reine des Fourmis chimères",
-      "indice1": "Verts",
+      "hint2": "Lames de plumes (Feather Blades)",
+      "hint3": "Koruto, Neferupito, Pegui, Reine des Fourmis chimères",
+      "hint1": "Verts",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 79",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "rataza",
       "name": "Rataza",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "aliases": [
         "Ratāza"
       ],
-      "indice1": "Violets",
+      "hint1": "Violets",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 61",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "redwood",
       "name": "Redwood",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "firstAppearance": "Épisode 60",
       "aliases": [
         "Redouddo"
       ],
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "reina",
       "name": "Reina",
       "gender": "Femme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
-      "indice1": "Violets fushia",
-      "indice3": "Haruna",
+      "hint1": "Violets fushia",
+      "hint3": "Haruna",
       "firstAppearance": "Épisode 77",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "reine-fourmis-chimere",
       "name": "Reine des Fourmis chimères",
       "gender": "Femme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "affiliation": "Colonie de Fourmis chimères",
       "occupation": "Reine Kimera Ant",
@@ -2012,50 +2012,50 @@
         "Chimera Ant Queen",
         "キメラ＝アントの女王"
       ],
-      "indice2": "Phagogenèse (摂食交配)",
-      "indice3": "Meruem, Neferupito, Shauapufu, Montutyupi, Kaito (Kimera Ant)",
-      "indice1": "Aucun",
+      "hint2": "Phagogenèse (摂食交配)",
+      "hint3": "Meruem, Neferupito, Shauapufu, Montutyupi, Kaito (Kimera Ant)",
+      "hint1": "Aucun",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 76",
       "role": "Antagoniste Majeur",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "rhino",
       "name": "Rhino",
       "gender": "Homme",
-      "yeux": "Noir",
+      "eyes": "Noir",
       "status": "Mort",
       "occupation": "Soldat Kimera Ant",
-      "indice1": "Bleu",
+      "hint1": "Bleu",
       "firstAppearance": "Épisode 93",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "rippo",
       "name": "Rippô",
       "gender": "Homme",
-      "yeux": "Orange",
+      "eyes": "Orange",
       "status": "Vivant",
       "affiliation": "Association Hunter",
       "occupation": "liste noire, Tour aux astuces",
       "aliases": [
         "Rippō"
       ],
-      "indice3": "Prisonniers de la tour aux astuces",
-      "indice1": "Violets",
+      "hint3": "Prisonniers de la tour aux astuces",
+      "hint1": "Violets",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 8",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "rist",
       "name": "Rist",
       "gender": "Homme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Vivant",
       "affiliation": "Greed Island",
       "occupation": "Game Masters, Greed Island",
@@ -2063,37 +2063,37 @@
       "aliases": [
         "Risuto"
       ],
-      "indice1": "Blonds",
+      "hint1": "Blonds",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 75",
       "role": "Tritagoniste",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "rover",
       "name": "Rover",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Chien-humain",
-      "indice1": "Blancs",
+      "hint1": "Blancs",
       "firstAppearance": "Épisode 82",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "sabazushi",
       "name": "Sabazushi",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Mercenaire",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "firstAppearance": "Épisode 72",
       "arc": "Greed Island",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "sabu",
@@ -2102,12 +2102,12 @@
       "status": "Vivant",
       "affiliation": "Boomer",
       "occupation": "Joueur de Greed Island;Boomer",
-      "indice3": "Genthru, Bara",
-      "indice1": "Rouge",
+      "hint3": "Genthru, Bara",
+      "hint1": "Rouge",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 63",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "saccho-kobayakawa",
@@ -2121,123 +2121,123 @@
         "le conseiller du junishin",
         "Satchou Kobayakawa"
       ],
-      "indice3": "Zodiaques",
+      "hint3": "Zodiaques",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 136",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "saccimonno-tocinno",
       "name": "Saccimono Tocinno",
       "gender": "Homme",
-      "yeux": "Gris",
+      "eyes": "Gris",
       "status": "Mort",
       "occupation": "Hunter",
       "type": "Émission",
       "aliases": [
         "Shacchimōno Tochīno"
       ],
-      "indice2": "Eleven black children",
-      "indice1": "Orange",
+      "hint2": "Eleven black children",
+      "hint1": "Orange",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 39",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "sadaso",
       "name": "Sadaso",
       "gender": "Homme",
-      "yeux": "Blancs",
+      "eyes": "Blancs",
       "status": "Vivant",
       "type": "Transformation",
       "aliases": [
         "Le destructeur des nouveaux"
       ],
       "occupation": "Combattants de la tour céleste",
-      "indice2": "Bras de nen",
-      "indice3": "Guido, Riluberto",
-      "indice1": "Blancs",
+      "hint2": "Bras de nen",
+      "hint3": "Guido, Riluberto",
+      "hint1": "Blancs",
       "arc": "Arène du Ciel",
       "firstAppearance": "Épisode 29",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "satotsu",
       "name": "Satotsu",
       "gender": "Homme",
-      "yeux": "Bleus",
+      "eyes": "Bleus",
       "status": "Vivant",
       "occupation": "Hunter Archéologue",
-      "indice1": "Lavande",
+      "hint1": "Lavande",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "sedokan",
       "name": "Sedokan",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Prisonnier, Poseur de bombes en séries",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 9",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "senritsu",
       "name": "Senritsu",
       "gender": "Femme",
-      "yeux": "Verts olive",
+      "eyes": "Verts olive",
       "status": "Vivant",
       "occupation": "Neon",
       "type": "Émission",
-      "indice2": "Un champ au printemps",
-      "indice1": "Gris",
+      "hint2": "Un champ au printemps",
+      "hint1": "Gris",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 39",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "sharnalk",
       "name": "Sharnalk Ryûsei",
       "gender": "Homme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
       "occupation": "Brigade Fantôme",
       "type": "Manipulation",
       "aliases": [
         "Sharunāku"
       ],
-      "indice2": "Black voice / Autopilote",
-      "indice1": "Blonds platines",
+      "hint2": "Black voice / Autopilote",
+      "hint1": "Blonds platines",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "shaupfufu",
       "name": "Shauapufu",
       "gender": "Homme",
-      "yeux": "Ambre",
+      "eyes": "Ambre",
       "status": "Mort",
       "occupation": "Garde Royal des Fourmis-Chimères",
       "type": "Manipulation",
-      "indice2": "Spiritual Message / Beelzebut / Reconstruction du corps",
-      "indice3": "Neferupito, Reine Kimera Ants, Montutyupi, Meruem, Kaito (Kimera Ant)",
-      "indice1": "Blond foncé",
+      "hint2": "Spiritual Message / Beelzebut / Reconstruction du corps",
+      "hint3": "Neferupito, Reine Kimera Ants, Montutyupi, Meruem, Kaito (Kimera Ant)",
+      "hint1": "Blond foncé",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 86",
       "role": "Antagoniste Majeur",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "shidore",
@@ -2245,33 +2245,33 @@
       "gender": "Femme",
       "status": "Vivant",
       "occupation": "Soldat Kimera Ant",
-      "indice3": "Haruna, Koruto, Kuruto, Reina",
+      "hint3": "Haruna, Koruto, Kuruto, Reina",
       "firstAppearance": "Épisode 105",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "shishito",
       "name": "Shishitô",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Bleu nuit",
+      "hint1": "Bleu nuit",
       "firstAppearance": "Épisode 3",
       "aliases": [
         "Shishitō"
       ],
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "shizuku-murasaki",
       "name": "Shizuku Murasaki",
       "gender": "Femme",
-      "yeux": "Violets",
+      "eyes": "Violets",
       "status": "Vivant",
       "affiliation": "Brigade Fantôme",
       "occupation": "Brigade Fantôme",
@@ -2279,50 +2279,50 @@
       "aliases": [
         "Shizuku"
       ],
-      "indice2": "Vacuum Cleaner (Démé-chan)",
-      "indice1": "Noirs",
+      "hint2": "Vacuum Cleaner (Démé-chan)",
+      "hint1": "Noirs",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "shoot-macmahon",
       "name": "Shoot MacMahon",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "UMA Hunter",
       "type": "Manipulation",
-      "indice2": "Hôtel Rafflesia",
-      "indice1": "Violets",
+      "hint2": "Hôtel Rafflesia",
+      "hint1": "Violets",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 86",
       "role": "Deuteragoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "silva-zoldik",
       "name": "Silva Zoldik",
       "gender": "Homme",
-      "yeux": "Bleus",
+      "eyes": "Bleus",
       "status": "Vivant",
       "affiliation": "Famille Zoldik",
       "occupation": "Assassin",
       "type": "Émission",
-      "indice2": "Nen Orbes Explosives",
-      "indice3": "Maha Zoldik, Zeno Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
-      "indice1": "Blond",
+      "hint2": "Nen Orbes Explosives",
+      "hint3": "Maha Zoldik, Zeno Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "hint1": "Blond",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 24",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "soeur-oroso",
       "name": "Sœur Oroso",
       "gender": "Femme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
       "affiliation": "Fourmis chimères, Escouade de Léol",
       "occupation": "Capitaine Fourmi chimère",
@@ -2332,26 +2332,26 @@
         "Ortho Sister",
         "オロソ妹"
       ],
-      "indice2": "Darts De Darts (badge Bar Double Bull)",
-      "indice3": "Frère Oroso, Kobarn, Kirua Zoldik, Furatta, Léol",
-      "indice1": "Blonds",
+      "hint2": "Darts De Darts (badge Bar Double Bull)",
+      "hint3": "Frère Oroso, Kobarn, Kirua Zoldik, Furatta, Léol",
+      "hint1": "Blonds",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 101",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "somi",
       "name": "Somi",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "spinna-cro",
@@ -2362,20 +2362,20 @@
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 77",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "spot",
       "name": "Spot",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Chien-humain de Yunju",
-      "indice1": "Blancs",
+      "hint1": "Blancs",
       "firstAppearance": "Épisode 82",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "supar",
@@ -2383,64 +2383,64 @@
       "gender": "Femme",
       "status": "Mort",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Rouges",
+      "hint1": "Rouges",
       "firstAppearance": "Épisode 3",
       "aliases": [
         "Supā"
       ],
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "taragette",
       "name": "Taragette",
       "gender": "Homme",
-      "yeux": "Gris",
+      "eyes": "Gris",
       "status": "Mort",
       "occupation": "Soldat Kimera Ant",
-      "indice1": "Chauve",
-      "indice3": "Reine",
+      "hint1": "Chauve",
+      "hint3": "Reine",
       "firstAppearance": "Épisode 105",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "todo",
       "name": "Todo",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Catcheur / Candidat à l'examen Hunter",
       "aliases": [
         "Tōdō"
       ],
-      "indice1": "Blonds et bruns",
+      "hint1": "Blonds et bruns",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "togari",
       "name": "Togari",
       "gender": "Homme",
-      "yeux": "Verts",
+      "eyes": "Verts",
       "status": "Mort",
       "occupation": "Hunter",
-      "indice1": "Bleus",
+      "hint1": "Bleus",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 10",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "tompa",
       "name": "Tompa",
       "status": "Vivant",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "affiliation": "Examen Hunter",
       "occupation": "Examen Hunter",
       "aliases": [
@@ -2449,40 +2449,40 @@
         "Ou",
         "Tonpa"
       ],
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 3",
       "role": "Fonctionnel",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "tsubone",
       "name": "Tsubone",
       "gender": "Femme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Zoldik",
       "type": "Matérialisation",
-      "indice2": "Rider High",
-      "indice3": "Amane",
-      "indice1": "Gris",
+      "hint2": "Rider High",
+      "hint3": "Amane",
+      "hint1": "Gris",
       "arc": "Élection 13e président",
       "firstAppearance": "Épisode 140",
       "role": "Tritagoniste",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "umori",
       "name": "Umori",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Candidat à l'examen Hunter",
-      "indice1": "Châtains",
+      "hint1": "Châtains",
       "firstAppearance": "Épisode 3",
       "arc": "Examen Hunter",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "uvoguine",
@@ -2495,18 +2495,18 @@
       ],
       "affiliation": "Brigade Fantôme",
       "occupation": "Brigade Fantôme",
-      "indice2": "'''Big Bang Impact'''",
-      "indice1": "Bruns",
+      "hint2": "'''Big Bang Impact'''",
+      "hint1": "Bruns",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 41",
       "role": "Antagoniste Majeur",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "werefin",
       "name": "Werefin",
       "gender": "Masculin",
-      "yeux": "Noir",
+      "eyes": "Noir",
       "status": "Vivant",
       "type": "Matérialisation",
       "aliases": [
@@ -2514,19 +2514,19 @@
       ],
       "affiliation": "Kimera Ants",
       "occupation": "Chef d'escadron",
-      "indice2": "Missileman",
-      "indice3": "Inconnu",
-      "indice1": "Blond (Début) / Chauve (Fin)",
+      "hint2": "Missileman",
+      "hint3": "Inconnu",
+      "hint1": "Blond (Début) / Chauve (Fin)",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 85",
       "role": "Tritagoniste",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "wing",
       "name": "Wing",
       "gender": "Homme",
-      "yeux": "Marrons",
+      "eyes": "Marrons",
       "status": "Vivant",
       "occupation": "Hunter",
       "type": "Renforcement",
@@ -2534,44 +2534,44 @@
         "Maître Wing",
         "Uingu"
       ],
-      "indice3": "Biscuit Kruger, Zuchi, Kirua Zoldik, Gon Freecss",
-      "indice1": "Noirs",
+      "hint3": "Biscuit Kruger, Zuchi, Kirua Zoldik, Gon Freecss",
+      "hint1": "Noirs",
       "arc": "Arène du Ciel",
       "firstAppearance": "Épisode 27",
       "role": "Deuteragoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "won",
       "name": "Won",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "occupation": "Zoologiste",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "firstAppearance": "Épisode 77",
       "arc": "Fourmis chimère",
       "role": "Fonctionnel",
-      "difficulte": "Difficile"
+      "difficulty": "Difficile"
     },
     {
       "id": "yabibi",
       "name": "Yabibi",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "occupation": "Joueur de Greed Island",
-      "indice1": "Gris",
+      "hint1": "Gris",
       "arc": "Greed Island",
       "firstAppearance": "Épisode 67",
       "role": "Antagoniste Secondaire",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "yama-arashi",
       "name": "Yama Arashi",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Mort",
       "type": "Transformation",
       "aliases": [
@@ -2579,35 +2579,35 @@
       ],
       "affiliation": "Bêtes de l'ombre",
       "occupation": "Sanglier(Bêtes de l'ombre)",
-      "indice2": "Poils de corps",
-      "indice3": "Bêtes de l'ombre",
-      "indice1": "Bruns",
+      "hint2": "Poils de corps",
+      "hint3": "Bêtes de l'ombre",
+      "hint1": "Bruns",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 43",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "zazan",
       "name": "Zazan",
       "gender": "Femme",
-      "yeux": "Or",
+      "eyes": "Or",
       "status": "Mort",
       "affiliation": "Armée de Zazan, Armée de la Reine",
       "type": "Transformation",
-      "indice2": "Queen Shot / Reine des monstres",
-      "indice3": "Pike",
-      "indice1": "Violets",
+      "hint2": "Queen Shot / Reine des monstres",
+      "hint3": "Pike",
+      "hint1": "Violets",
       "arc": "Fourmis chimère",
       "firstAppearance": "Épisode 78",
       "role": "Antagoniste Majeur",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "zebulo",
       "name": "Zebulo",
       "gender": "Homme",
-      "yeux": "Noirs",
+      "eyes": "Noirs",
       "status": "Vivant",
       "affiliation": "Famille Zoldik",
       "occupation": "Jardinier, Gardien de la Porte de vérification",
@@ -2616,18 +2616,18 @@
         "Zebro",
         "ゼブロ"
       ],
-      "indice3": "Mike, Kirua Zoldik, Gon Freecss, Seaquant",
-      "indice1": "Gris (2011) / Noirs (1999)",
+      "hint3": "Mike, Kirua Zoldik, Gon Freecss, Seaquant",
+      "hint1": "Gris (2011) / Noirs (1999)",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 22",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     },
     {
       "id": "zeno-zoldik",
       "name": "Zeno Zoldik",
       "gender": "Homme",
-      "yeux": "Gris",
+      "eyes": "Gris",
       "status": "Vivant",
       "affiliation": "Famille Zoldik",
       "occupation": "Assassin",
@@ -2635,41 +2635,41 @@
       "aliases": [
         "Zeno Zorudikku"
       ],
-      "indice2": "'''Dragon Head''' : / Dragon Lance / Dragon Dive",
-      "indice3": "Zzigg Zoldik, Maha Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
-      "indice1": "Blanc",
+      "hint2": "'''Dragon Head''' : / Dragon Lance / Dragon Dive",
+      "hint3": "Zzigg Zoldik, Maha Zoldik, Silva Zoldik, Kikyô Zoldik, Irumi Zoldik, Miruki Zoldik, Kirua Zoldik, Aruka Zoldik, Karuto Zoldik",
+      "hint1": "Blanc",
       "arc": "Examen Hunter",
       "firstAppearance": "Épisode 24",
       "role": "Tritagoniste",
-      "difficulte": "Facile"
+      "difficulty": "Facile"
     },
     {
       "id": "zepairu",
       "name": "Zepairu",
       "gender": "Homme",
-      "yeux": "Bruns",
+      "eyes": "Bruns",
       "status": "Vivant",
       "occupation": "Chercheur d'Antiquités / Candidat à l'examen Hunter",
-      "indice1": "Bruns",
+      "hint1": "Bruns",
       "arc": "Yorknew",
       "firstAppearance": "Épisode 48",
       "role": "Fonctionnel",
-      "difficulte": "Impossible"
+      "difficulty": "Impossible"
     },
     {
       "id": "zushi",
       "name": "Zushi",
       "gender": "Homme",
-      "yeux": "Marrons (2012)",
+      "eyes": "Marrons (2012)",
       "status": "Vivant",
       "occupation": "Élève de l'école Shingen-Ryu",
       "type": "Manipulation",
-      "indice3": "Wing",
-      "indice1": "Marron clair",
+      "hint3": "Wing",
+      "hint1": "Marron clair",
       "arc": "Arène du Ciel",
       "firstAppearance": "Épisode 27",
       "role": "Fonctionnel",
-      "difficulte": "Moyen"
+      "difficulty": "Moyen"
     }
   ]
 }

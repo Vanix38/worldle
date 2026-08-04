@@ -33,7 +33,7 @@ const characters = Array.isArray(data.characters) ? data.characters : [];
 const expectedBases = new Set();
 for (const c of characters) {
   const nameSlug = toNameSlug(stripParentheses(c?.name));
-  const universSlug = toUniversSlug(c?.univers);
+  const universSlug = toUniversSlug(c?.universe);
   const earthSlug = toEarthSlug(c?.earth);
   if (!nameSlug || !universSlug || !earthSlug) continue;
   expectedBases.add(`${nameSlug}-${universSlug}-${earthSlug}`);

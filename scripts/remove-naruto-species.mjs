@@ -1,5 +1,5 @@
 /**
- * Supprime species du JSON Naruto, met à jour indice1 et fieldPrevalence.
+ * Supprime species du JSON Naruto, met à jour hint1 et fieldPrevalence.
  */
 import fs from "fs";
 import path from "path";
@@ -22,11 +22,11 @@ const j = JSON.parse(fs.readFileSync(fp, "utf8"));
 delete j.fieldMapping.species;
 delete j.fieldPrevalence?.species;
 
-if (j.fieldMapping.indice1?.hint) {
-  j.fieldMapping.indice1.hint.prompt = "Classification & rang ninja";
+if (j.fieldMapping.hint1?.hint) {
+  j.fieldMapping.hint1.hint.prompt = "Classification & rang ninja";
 }
-if (j.fieldMapping.indice1) {
-  j.fieldMapping.indice1.description =
+if (j.fieldMapping.hint1) {
+  j.fieldMapping.hint1.description =
     "Indice dérivé de la classification et du rang ninja (sans espèce).";
 }
 
@@ -34,7 +34,7 @@ for (const c of j.characters) {
   delete c.species;
   const cls = String(c.classification ?? "").trim();
   const nr = String(c.ninjaRank ?? "").trim();
-  c.indice1 = cls || nr || "—";
+  c.hint1 = cls || nr || "—";
 }
 
 const fmKeys = Object.keys(j.fieldMapping || {});

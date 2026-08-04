@@ -11,7 +11,7 @@ const ROOT = path.join(__dirname, "..");
 const MANGA_PATH = path.join(ROOT, "data", "one-piece-manga.json");
 const ORDER_END = 1186;
 
-/** @type {Record<string, { chapter: number, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, indice2: string, indice3: string }>} */
+/** @type {Record<string, { chapter: number, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, hint2: string, hint3: string }>} */
 const NEW_CHARS = {
   imu: {
     chapter: 906,
@@ -26,8 +26,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Akuma no Mi",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Akuma no Mi",
+    hint3: "Armement, Observation, Conquérant",
   },
   "rocks-d-xebec": {
     chapter: 1155,
@@ -42,8 +42,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Capitaine",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Capitaine",
+    hint3: "Armement, Observation, Conquérant",
   },
   shiki: {
     chapter: 1156,
@@ -58,8 +58,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Fuwa Fuwa no Mi",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Fuwa Fuwa no Mi",
+    hint3: "Armement, Observation, Conquérant",
   },
   ochoku: {
     chapter: 1155,
@@ -74,8 +74,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Équipage de Rocks",
-    indice3: "Grand Line",
+    hint2: "Équipage de Rocks",
+    hint3: "Grand Line",
   },
   kyo: {
     chapter: 1156,
@@ -90,8 +90,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Yakuza",
-    indice3: "Wano Kuni",
+    hint2: "Yakuza",
+    hint3: "Wano Kuni",
   },
   tritoma: {
     chapter: 1156,
@@ -106,8 +106,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: ["Armement"],
     race: "Humain",
-    indice2: "Impératrice Kuja",
-    indice3: "Armement",
+    hint2: "Impératrice Kuja",
+    hint3: "Armement",
   },
   "polo-gram": {
     chapter: 1162,
@@ -122,8 +122,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Capitaine",
-    indice3: "Grand Line",
+    hint2: "Capitaine",
+    hint3: "Grand Line",
   },
   gloriosa: {
     chapter: 1156,
@@ -138,8 +138,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: ["Armement"],
     race: "Humain",
-    indice2: "Impératrice Kuja",
-    indice3: "Armement",
+    hint2: "Impératrice Kuja",
+    hint3: "Armement",
   },
   "buckingham-stussy": {
     chapter: 1156,
@@ -154,8 +154,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Équipage de Rocks",
-    indice3: "Grand Line",
+    hint2: "Équipage de Rocks",
+    hint3: "Grand Line",
   },
   marlon: {
     chapter: 1155,
@@ -170,8 +170,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Équipage de Rocks",
-    indice3: "Grand Line",
+    hint2: "Équipage de Rocks",
+    hint3: "Grand Line",
   },
   "captain-john": {
     chapter: 1156,
@@ -186,8 +186,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: [],
     race: "Humain",
-    indice2: "Jiki Jiki no Mi",
-    indice3: "Grand Line",
+    hint2: "Jiki Jiki no Mi",
+    hint3: "Grand Line",
   },
   ganzui: {
     chapter: 1156,
@@ -202,8 +202,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: [],
     race: "Humain",
-    indice2: "Bomu Bomu no Mi",
-    indice3: "Grand Line",
+    hint2: "Bomu Bomu no Mi",
+    hint3: "Grand Line",
   },
   barbel: {
     chapter: 1156,
@@ -218,8 +218,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Homme-Poisson",
-    indice2: "Homme-Poisson",
-    indice3: "Grand Line",
+    hint2: "Homme-Poisson",
+    hint3: "Grand Line",
   },
   "manmayer-gurou": {
     chapter: 1185,
@@ -234,8 +234,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Chevaliers de Dieu",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Chevaliers de Dieu",
+    hint3: "Armement, Observation, Conquérant",
   },
   aegir: {
     chapter: 1134,
@@ -250,8 +250,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   ronja: {
     chapter: 1134,
@@ -266,8 +266,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   olav: {
     chapter: 1134,
@@ -282,8 +282,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   reuven: {
     chapter: 1183,
@@ -298,8 +298,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Roi",
-    indice3: "West Blue (Royaume d'Esperia)",
+    hint2: "Roi",
+    hint3: "West Blue (Royaume d'Esperia)",
   },
   candelle: {
     chapter: 1183,
@@ -314,8 +314,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Capitaine du Battle Convoy",
-    indice3: "West Blue (Royaume d'Esperia)",
+    hint2: "Capitaine du Battle Convoy",
+    hint3: "West Blue (Royaume d'Esperia)",
   },
   luven: {
     chapter: 1183,
@@ -330,8 +330,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Prince",
-    indice3: "West Blue (Royaume d'Esperia)",
+    hint2: "Prince",
+    hint3: "West Blue (Royaume d'Esperia)",
   },
   ragnir: {
     chapter: 1130,
@@ -346,8 +346,8 @@ const NEW_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: [],
     race: "Géant",
-    indice2: "Risu Risu no Mi modèle Ratatoskr",
-    indice3: "Erbaf",
+    hint2: "Risu Risu no Mi modèle Ratatoskr",
+    hint3: "Erbaf",
   },
   emil: {
     chapter: 1134,
@@ -362,8 +362,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   johanna: {
     chapter: 1135,
@@ -378,8 +378,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   karin: {
     chapter: 1134,
@@ -394,8 +394,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   mag: {
     chapter: 1134,
@@ -410,8 +410,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   skaldi: {
     chapter: 1134,
@@ -426,8 +426,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   bent: {
     chapter: 1134,
@@ -442,8 +442,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   axel: {
     chapter: 1134,
@@ -458,8 +458,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   gustav: {
     chapter: 1134,
@@ -474,8 +474,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Erbaf",
+    hint2: "Élève",
+    hint3: "Erbaf",
   },
   mma: {
     chapter: 1142,
@@ -490,8 +490,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Animal",
-    indice2: "Créature",
-    indice3: "Erbaf",
+    hint2: "Créature",
+    hint3: "Erbaf",
   },
   hilmungardr: {
     chapter: 1128,
@@ -506,8 +506,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Animal",
-    indice2: "Serpent",
-    indice3: "Erbaf",
+    hint2: "Serpent",
+    hint3: "Erbaf",
   },
   muginn: {
     chapter: 1128,
@@ -522,8 +522,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Animal",
-    indice2: "Corbeau",
-    indice3: "Erbaf",
+    hint2: "Corbeau",
+    hint3: "Erbaf",
   },
   gantonio: {
     chapter: 1177,
@@ -538,8 +538,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Pirate",
-    indice3: "Erbaf",
+    hint2: "Pirate",
+    hint3: "Erbaf",
   },
   zaza: {
     chapter: 1182,
@@ -554,8 +554,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Dieu de la Pluie",
-    indice3: "Erbaf",
+    hint2: "Dieu de la Pluie",
+    hint3: "Erbaf",
   },
   douzan: {
     chapter: 1183,
@@ -570,8 +570,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Mentionné",
-    indice3: "West Blue (Royaume d'Esperia)",
+    hint2: "Mentionné",
+    hint3: "West Blue (Royaume d'Esperia)",
   },
   moulon: {
     chapter: 1183,
@@ -586,8 +586,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Chef de famille",
-    indice3: "West Blue (Royaume d'Esperia)",
+    hint2: "Chef de famille",
+    hint3: "West Blue (Royaume d'Esperia)",
   },
   "louis-arnote": {
     chapter: 115,
@@ -602,8 +602,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Explorateur",
-    indice3: "Grand Line",
+    hint2: "Explorateur",
+    hint3: "Grand Line",
   },
   raideen: {
     chapter: 129,
@@ -618,8 +618,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Pirate",
-    indice3: "Erbaf",
+    hint2: "Pirate",
+    hint3: "Erbaf",
   },
   "gill-bastar": {
     chapter: 450,
@@ -634,8 +634,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: [],
     race: "Humain",
-    indice2: "Horo Horo no Mi",
-    indice3: "Grand Line",
+    hint2: "Horo Horo no Mi",
+    hint3: "Grand Line",
   },
 };
 
@@ -706,7 +706,7 @@ const EXTRA_ALIASES = {
 
 const LOKI_DF_UPDATE = {
   devilFruitType: "Zoan Mythique",
-  indice2: "Ryu Ryu no Mi modèle Nidhöggr",
+  hint2: "Ryu Ryu no Mi modèle Nidhöggr",
 };
 
 function extendOrder(data) {
@@ -733,9 +733,9 @@ function buildEntry(id, def) {
     origin: def.origin,
     size: def.size,
     race: def.race,
-    indice1: def.affiliation,
-    indice2: def.indice2,
-    indice3: def.indice3,
+    hint1: def.affiliation,
+    hint2: def.hint2,
+    hint3: def.hint3,
     firstAppearance: `Chapitre ${def.chapter}`,
   };
 }

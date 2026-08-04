@@ -118,7 +118,7 @@ const idToTitle = {
   "l-immortel-ligne-temporelle-future": "Invincible/Future Timeline",
 };
 
-const empty = data.characters.filter((c) => !c.indice2 || !String(c.indice2).trim());
+const empty = data.characters.filter((c) => !c.hint2 || !String(c.hint2).trim());
 for (const c of empty) {
   const title = idToTitle[c.id] || c.name;
   const row = byTitle[title.toLowerCase()] || {};

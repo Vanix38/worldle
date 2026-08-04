@@ -21,7 +21,7 @@ const MANGA_ELBAPH_END = 1142;
 const ANIME_ELBAPH_START = 1156;
 const ANIME_ELBAPH_END = 1168;
 
-/** @type {Record<string, { wikiFirst: string, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, indice2: string, indice3: string }>} */
+/** @type {Record<string, { wikiFirst: string, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, hint2: string, hint3: string }>} */
 const NEW_CHARS = {
   loki: {
     wikiFirst: "Chapter 1130; Episode 1160",
@@ -36,8 +36,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: ["Conquérant"],
     race: "Géant",
-    indice2: "Prince maudit",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Prince maudit",
+    hint3: "Grand Line (Erbaf)",
   },
   iscat: {
     wikiFirst: "Chapter 1127; Episode 1157",
@@ -52,8 +52,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Félin géant",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Félin géant",
+    hint3: "Grand Line (Erbaf)",
   },
   ange: {
     wikiFirst: "Chapter 1131; Episode 1161",
@@ -68,8 +68,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "École du Morse",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "École du Morse",
+    hint3: "Grand Line (Erbaf)",
   },
   gunko: {
     wikiFirst: "Chapter 1134; Episode 1164",
@@ -84,8 +84,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Aro Aro no Mi",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Aro Aro no Mi",
+    hint3: "Armement, Observation, Conquérant",
   },
   ripley: {
     wikiFirst: "Chapter 1134; Episode 1164",
@@ -100,8 +100,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Professeure de biologie",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Professeure de biologie",
+    hint3: "Grand Line (Erbaf)",
   },
   biblo: {
     wikiFirst: "Chapter 1134; Episode 1164",
@@ -116,8 +116,8 @@ const NEW_CHARS = {
     devilFruitType: "Paramecia",
     haki: [],
     race: "Humain",
-    indice2: "Iku Iku no Mi",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Iku Iku no Mi",
+    hint3: "Grand Line (Erbaf)",
   },
   mosa: {
     wikiFirst: "Chapter 1134; Episode 1164",
@@ -132,8 +132,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Prisonnier",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Prisonnier",
+    hint3: "Grand Line (Erbaf)",
   },
   ylva: {
     wikiFirst: "Chapter 1134; Episode 1164",
@@ -148,8 +148,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Élève",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Élève",
+    hint3: "Grand Line (Erbaf)",
   },
   harald: {
     wikiFirst: "Chapter 1136; Episode 1166",
@@ -164,8 +164,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Géant",
-    indice2: "Ancien roi",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Ancien roi",
+    hint3: "Armement, Observation, Conquérant",
   },
   kiba: {
     wikiFirst: "Chapter 1142; Episode 1168",
@@ -180,8 +180,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Directeur",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Directeur",
+    hint3: "Grand Line (Erbaf)",
   },
   "figarland-shamrock": {
     wikiFirst: "Chapter 907; Episode 887",
@@ -196,8 +196,8 @@ const NEW_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Cerberus",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Cerberus",
+    hint3: "Armement, Observation, Conquérant",
   },
   kashii: {
     wikiFirst: "Chapter 377; Episode 265",
@@ -212,8 +212,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Géant",
-    indice3: "Erbaf",
+    hint2: "Géant",
+    hint3: "Erbaf",
   },
   stansen: {
     wikiFirst: "Chapter 500; Episode 394",
@@ -228,8 +228,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Géant",
-    indice3: "Grand Line",
+    hint2: "Géant",
+    hint3: "Grand Line",
   },
   road: {
     wikiFirst: "Chapter 898; Episode 836",
@@ -244,8 +244,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Géant",
-    indice3: "Erbaf",
+    hint2: "Géant",
+    hint3: "Erbaf",
   },
   goldberg: {
     wikiFirst: "Chapter 899; Episode 836",
@@ -260,8 +260,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Géant",
-    indice3: "Erbaf",
+    hint2: "Géant",
+    hint3: "Erbaf",
   },
   jarul: {
     wikiFirst: "Chapter 866; Episode 836",
@@ -276,8 +276,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Ancien du village",
-    indice3: "Erbaf",
+    hint2: "Ancien du village",
+    hint3: "Erbaf",
   },
   colon: {
     wikiFirst: "Chapter 1076; Episode 1109",
@@ -292,8 +292,8 @@ const NEW_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Demi-géant",
-    indice3: "Erbaf",
+    hint2: "Demi-géant",
+    hint3: "Erbaf",
   },
 };
 
@@ -383,9 +383,9 @@ function buildEntry(id, def, anime) {
     origin: def.origin,
     size: def.size,
     race: def.race,
-    indice1: def.affiliation,
-    indice2: def.indice2,
-    indice3: def.indice3,
+    hint1: def.affiliation,
+    hint2: def.hint2,
+    hint3: def.hint3,
     firstAppearance,
   };
 }

@@ -1,5 +1,5 @@
 /**
- * Retire les persos dont indice1, indice2 et indice3 sont vides ou uniquement un tiret (— - …).
+ * Retire les persos dont hint1, hint2 et hint3 sont vides ou uniquement un tiret (— - …).
  * Recalcule fieldPrevalence.
  */
 import fs from "fs";
@@ -28,7 +28,7 @@ function charGameFieldPresent(char, key) {
 const j = JSON.parse(fs.readFileSync(fp, "utf8"));
 const before = j.characters.length;
 j.characters = j.characters.filter(
-  (c) => !(indiceEmpty(c.indice1) && indiceEmpty(c.indice2) && indiceEmpty(c.indice3)),
+  (c) => !(indiceEmpty(c.hint1) && indiceEmpty(c.hint2) && indiceEmpty(c.hint3)),
 );
 const removed = before - j.characters.length;
 

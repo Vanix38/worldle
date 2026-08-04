@@ -47,7 +47,7 @@ let skippedCollision = 0;
 for (const character of characters) {
   const id = String(character?.id ?? "").trim();
   const nameSlug = toNameSlug(character?.name);
-  const worldSlug = toSlug(character?.univers);
+  const worldSlug = toSlug(character?.universe);
   const universSlug = toUniversSlug(character?.earth);
 
   if (!id || !nameSlug || !worldSlug || !universSlug) {

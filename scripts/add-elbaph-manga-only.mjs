@@ -12,7 +12,7 @@ const MANGA_PATH = path.join(ROOT, "data", "one-piece-manga.json");
 
 const MANGA_ELBAPH_ORDER_END = 1160;
 
-/** @type {Record<string, { chapter: number, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, indice2: string, indice3: string }>} */
+/** @type {Record<string, { chapter: number, aliases?: string[], gender: string, age: number, size: number, affiliation: string, sub_affiliation?: string[], origin: string, bounty: number, devilFruitType: string, haki: string[], race: string, hint2: string, hint3: string }>} */
 const MANGA_ONLY_CHARS = {
   "scopper-gaban": {
     chapter: 1139,
@@ -27,8 +27,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Navigateur",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Navigateur",
+    hint3: "Armement, Observation, Conquérant",
   },
   "shepherd-sommers": {
     chapter: 1140,
@@ -43,8 +43,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "Paramecia",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Iba Iba no Mi",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Iba Iba no Mi",
+    hint3: "Armement, Observation, Conquérant",
   },
   "rimoshifu-killingham": {
     chapter: 1140,
@@ -59,8 +59,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "Zoan Mythique",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Ryu Ryu no Mi modèle Kirin",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Ryu Ryu no Mi modèle Kirin",
+    hint3: "Armement, Observation, Conquérant",
   },
   "wolf-elbaph": {
     chapter: 1142,
@@ -75,8 +75,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Professeur de sport",
-    indice3: "Erbaf",
+    hint2: "Professeur de sport",
+    hint3: "Erbaf",
   },
   blade: {
     chapter: 1142,
@@ -91,8 +91,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Professeur de mathématiques",
-    indice3: "Erbaf",
+    hint2: "Professeur de mathématiques",
+    hint3: "Erbaf",
   },
   estrid: {
     chapter: 1153,
@@ -107,8 +107,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Reine",
-    indice3: "Grand Line (Erbaf)",
+    hint2: "Reine",
+    hint3: "Grand Line (Erbaf)",
   },
   ida: {
     chapter: 1153,
@@ -123,8 +123,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Géant",
-    indice2: "Barmaid",
-    indice3: "South Blue (Île de Samuwanai)",
+    hint2: "Barmaid",
+    hint3: "South Blue (Île de Samuwanai)",
   },
   magnolia: {
     chapter: 1158,
@@ -139,8 +139,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Mère de Shanks et Shamrock",
-    indice3: "Grand Line (God Valley)",
+    hint2: "Mère de Shanks et Shamrock",
+    hint3: "Grand Line (God Valley)",
   },
   eris: {
     chapter: 1159,
@@ -155,8 +155,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: [],
     race: "Humain",
-    indice2: "Épouse de Rocks D. Xebec",
-    indice3: "Grand Line (God Valley)",
+    hint2: "Épouse de Rocks D. Xebec",
+    hint3: "Grand Line (God Valley)",
   },
   "satchels-maffey": {
     chapter: 1160,
@@ -171,8 +171,8 @@ const MANGA_ONLY_CHARS = {
     devilFruitType: "",
     haki: ["Armement", "Observation", "Conquérant"],
     race: "Humain",
-    indice2: "Chevalière de Dieu",
-    indice3: "Armement, Observation, Conquérant",
+    hint2: "Chevalière de Dieu",
+    hint3: "Armement, Observation, Conquérant",
   },
 };
 
@@ -215,9 +215,9 @@ function buildEntry(id, def) {
     origin: def.origin,
     size: def.size,
     race: def.race,
-    indice1: def.affiliation,
-    indice2: def.indice2,
-    indice3: def.indice3,
+    hint1: def.affiliation,
+    hint2: def.hint2,
+    hint3: def.hint3,
     firstAppearance: `Chapitre ${def.chapter}`,
   };
 }

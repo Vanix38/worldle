@@ -10,11 +10,11 @@ interface ProgressSettingsLinkProps {
 }
 
 export function ProgressSettingsLink({ universeId }: ProgressSettingsLinkProps) {
-  const { progressField, selection } = useSpoilerProgress();
+  const { progressField, selection, maxDifficulty } = useSpoilerProgress();
 
   if (!progressField || !selection) return null;
 
-  const label = formatProgressSummary(selection, progressField);
+  const label = formatProgressSummary(selection, progressField, maxDifficulty);
 
   return (
     <Link

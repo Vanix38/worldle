@@ -18,8 +18,8 @@ const INDICE2 = {
 
 for (const c of data.characters) {
   if (INDICE2[c.id]) {
-    c.indice2 = INDICE2[c.id];
-    console.log(`${c.id}: ${c.indice2}`);
+    c.hint2 = INDICE2[c.id];
+    console.log(`${c.id}: ${c.hint2}`);
   }
 }
 
@@ -42,4 +42,4 @@ data.fieldPrevalence = Object.fromEntries(
 );
 
 writeFileSync(path, JSON.stringify(data, null, 2) + "\n", "utf8");
-console.log(`indice2: ${(data.fieldPrevalence.indice2 * 100).toFixed(1)}% (${Math.round(data.fieldPrevalence.indice2 * n)}/${n})`);
+console.log(`hint2: ${(data.fieldPrevalence.hint2 * 100).toFixed(1)}% (${Math.round(data.fieldPrevalence.hint2 * n)}/${n})`);

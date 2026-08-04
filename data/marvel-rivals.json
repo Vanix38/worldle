@@ -42,7 +42,7 @@
       "fonction": "Recherche",
       "description": "Champ de recherche par alias (non affiché dans la grille)."
     },
-    "indice1": {
+    "hint1": {
       "header": "Indice 1",
       "fonction": "Indice",
       "hint": {
@@ -51,7 +51,7 @@
       },
       "description": "Indice sur l'équipe et l'origine, débloqué après plusieurs tentatives."
     },
-    "indice2": {
+    "hint2": {
       "header": "Indice 2",
       "fonction": "Indice",
       "hint": {
@@ -60,7 +60,7 @@
       },
       "description": "Indice sur le rôle et la race, débloqué après plusieurs tentatives."
     },
-    "indice3": {
+    "hint3": {
       "header": "Indice 3",
       "fonction": "Indice",
       "hint": {
@@ -82,9 +82,9 @@
       "origin": "Terre",
       "powerSource": "Cosmique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Gardiens de la Galaxie",
-      "indice2": "Stratège",
-      "indice3": "Cosmique"
+      "hint1": "Gardiens de la Galaxie",
+      "hint2": "Stratège",
+      "hint3": "Cosmique"
     },
     {
       "id": "black-panther",
@@ -99,9 +99,9 @@
       "origin": "Wakanda",
       "powerSource": "Artéfact",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Artéfact"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Artéfact"
     },
     {
       "id": "black-widow",
@@ -116,9 +116,9 @@
       "origin": "Russie",
       "powerSource": "Entraînement",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Entraînement"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Entraînement"
     },
     {
       "id": "captain-america",
@@ -134,9 +134,9 @@
       "origin": "États-Unis",
       "powerSource": "Sérum",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Avant-garde",
-      "indice3": "Sérum"
+      "hint1": "Avengers",
+      "hint2": "Avant-garde",
+      "hint3": "Sérum"
     },
     {
       "id": "cloak-and-dagger",
@@ -152,9 +152,9 @@
       "origin": "États-Unis",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Stratège",
-      "indice3": "Mutation"
+      "hint1": "Indépendants",
+      "hint2": "Stratège",
+      "hint3": "Mutation"
     },
     {
       "id": "doctor-strange",
@@ -169,9 +169,9 @@
       "origin": "États-Unis",
       "powerSource": "Magie",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Avant-garde",
-      "indice3": "Magie"
+      "hint1": "Avengers",
+      "hint2": "Avant-garde",
+      "hint3": "Magie"
     },
     {
       "id": "groot",
@@ -186,9 +186,9 @@
       "origin": "Planet X",
       "powerSource": "Naturel",
       "releaseDate": "Décembre 2024",
-      "indice1": "Gardiens de la Galaxie",
-      "indice2": "Avant-garde",
-      "indice3": "Naturel"
+      "hint1": "Gardiens de la Galaxie",
+      "hint2": "Avant-garde",
+      "hint3": "Naturel"
     },
     {
       "id": "hawkeye",
@@ -203,9 +203,9 @@
       "origin": "États-Unis",
       "powerSource": "Entraînement",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Entraînement"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Entraînement"
     },
     {
       "id": "hela",
@@ -218,9 +218,9 @@
       "origin": "Asgard",
       "powerSource": "Divin",
       "releaseDate": "Décembre 2024",
-      "indice1": "Asgardiens",
-      "indice2": "Duelliste",
-      "indice3": "Divin"
+      "hint1": "Asgardiens",
+      "hint2": "Duelliste",
+      "hint3": "Divin"
     },
     {
       "id": "hulk",
@@ -235,9 +235,9 @@
       "origin": "États-Unis",
       "powerSource": "Radiation",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Avant-garde",
-      "indice3": "Radiation"
+      "hint1": "Avengers",
+      "hint2": "Avant-garde",
+      "hint3": "Radiation"
     },
     {
       "id": "iron-fist",
@@ -252,9 +252,9 @@
       "origin": "K'un-Lun",
       "powerSource": "Artéfact",
       "releaseDate": "Décembre 2024",
-      "indice1": "Defenders",
-      "indice2": "Duelliste",
-      "indice3": "Artéfact"
+      "hint1": "Defenders",
+      "hint2": "Duelliste",
+      "hint3": "Artéfact"
     },
     {
       "id": "iron-man",
@@ -269,9 +269,9 @@
       "origin": "États-Unis",
       "powerSource": "Technologie",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Technologie"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Technologie"
     },
     {
       "id": "jeff-the-land-shark",
@@ -284,9 +284,9 @@
       "origin": "Terre",
       "powerSource": "Naturel",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Stratège",
-      "indice3": "Naturel"
+      "hint1": "Indépendants",
+      "hint2": "Stratège",
+      "hint3": "Naturel"
     },
     {
       "id": "loki",
@@ -298,9 +298,9 @@
       "origin": "Jotunheim",
       "powerSource": "Divin",
       "releaseDate": "Décembre 2024",
-      "indice1": "Asgardiens",
-      "indice2": "Stratège",
-      "indice3": "Divin"
+      "hint1": "Asgardiens",
+      "hint2": "Stratège",
+      "hint3": "Divin"
     },
     {
       "id": "luna-snow",
@@ -313,9 +313,9 @@
       "origin": "Corée du Sud",
       "powerSource": "Inhumain",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Stratège",
-      "indice3": "Inhumain"
+      "hint1": "Indépendants",
+      "hint2": "Stratège",
+      "hint3": "Inhumain"
     },
     {
       "id": "magik",
@@ -330,9 +330,9 @@
       "origin": "Russie",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "X-Men",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "magneto",
@@ -347,9 +347,9 @@
       "origin": "Allemagne",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "X-Men",
-      "indice2": "Avant-garde",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Avant-garde",
+      "hint3": "Mutation"
     },
     {
       "id": "mantis",
@@ -362,9 +362,9 @@
       "origin": "Vietnam",
       "powerSource": "Génétique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Gardiens de la Galaxie",
-      "indice2": "Stratège",
-      "indice3": "Génétique"
+      "hint1": "Gardiens de la Galaxie",
+      "hint2": "Stratège",
+      "hint3": "Génétique"
     },
     {
       "id": "moon-knight",
@@ -379,9 +379,9 @@
       "origin": "États-Unis",
       "powerSource": "Divin",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Divin"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Divin"
     },
     {
       "id": "namor",
@@ -396,9 +396,9 @@
       "origin": "Atlantis",
       "powerSource": "Naturel",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Duelliste",
-      "indice3": "Naturel"
+      "hint1": "Indépendants",
+      "hint2": "Duelliste",
+      "hint3": "Naturel"
     },
     {
       "id": "peni-parker",
@@ -411,9 +411,9 @@
       "origin": "Terre",
       "powerSource": "Technologie",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Avant-garde",
-      "indice3": "Technologie"
+      "hint1": "Indépendants",
+      "hint2": "Avant-garde",
+      "hint3": "Technologie"
     },
     {
       "id": "psylocke",
@@ -428,9 +428,9 @@
       "origin": "Royaume-Uni",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "X-Men",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "punisher",
@@ -445,9 +445,9 @@
       "origin": "États-Unis",
       "powerSource": "Entraînement",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Duelliste",
-      "indice3": "Entraînement"
+      "hint1": "Indépendants",
+      "hint2": "Duelliste",
+      "hint3": "Entraînement"
     },
     {
       "id": "rocket-raccoon",
@@ -462,9 +462,9 @@
       "origin": "Contre-Terre",
       "powerSource": "Génétique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Gardiens de la Galaxie",
-      "indice2": "Stratège",
-      "indice3": "Génétique"
+      "hint1": "Gardiens de la Galaxie",
+      "hint2": "Stratège",
+      "hint3": "Génétique"
     },
     {
       "id": "scarlet-witch",
@@ -480,9 +480,9 @@
       "origin": "Sokovie",
       "powerSource": "Magie",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Magie"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Magie"
     },
     {
       "id": "spider-man",
@@ -497,9 +497,9 @@
       "origin": "États-Unis",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "squirrel-girl",
@@ -514,9 +514,9 @@
       "origin": "États-Unis",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "star-lord",
@@ -531,9 +531,9 @@
       "origin": "États-Unis",
       "powerSource": "Technologie",
       "releaseDate": "Décembre 2024",
-      "indice1": "Gardiens de la Galaxie",
-      "indice2": "Duelliste",
-      "indice3": "Technologie"
+      "hint1": "Gardiens de la Galaxie",
+      "hint2": "Duelliste",
+      "hint3": "Technologie"
     },
     {
       "id": "storm",
@@ -545,9 +545,9 @@
       "origin": "Kenya",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "X-Men",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "thor",
@@ -560,9 +560,9 @@
       "origin": "Asgard",
       "powerSource": "Divin",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Avant-garde",
-      "indice3": "Divin"
+      "hint1": "Avengers",
+      "hint2": "Avant-garde",
+      "hint3": "Divin"
     },
     {
       "id": "venom",
@@ -577,9 +577,9 @@
       "origin": "Terre",
       "powerSource": "Symbiote",
       "releaseDate": "Décembre 2024",
-      "indice1": "Indépendants",
-      "indice2": "Avant-garde",
-      "indice3": "Symbiote"
+      "hint1": "Indépendants",
+      "hint2": "Avant-garde",
+      "hint3": "Symbiote"
     },
     {
       "id": "winter-soldier",
@@ -595,9 +595,9 @@
       "origin": "États-Unis",
       "powerSource": "Technologie",
       "releaseDate": "Décembre 2024",
-      "indice1": "Avengers",
-      "indice2": "Duelliste",
-      "indice3": "Technologie"
+      "hint1": "Avengers",
+      "hint2": "Duelliste",
+      "hint3": "Technologie"
     },
     {
       "id": "wolverine",
@@ -612,9 +612,9 @@
       "origin": "Canada",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "X-Men",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "mister-fantastic",
@@ -629,9 +629,9 @@
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Fantastic Four",
-      "indice2": "Duelliste",
-      "indice3": "Rayonnement cosmique"
+      "hint1": "Fantastic Four",
+      "hint2": "Duelliste",
+      "hint3": "Rayonnement cosmique"
     },
     {
       "id": "invisible-woman",
@@ -647,9 +647,9 @@
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Fantastic Four",
-      "indice2": "Stratège",
-      "indice3": "Rayonnement cosmique"
+      "hint1": "Fantastic Four",
+      "hint2": "Stratège",
+      "hint3": "Rayonnement cosmique"
     },
     {
       "id": "human-torch",
@@ -664,9 +664,9 @@
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Fantastic Four",
-      "indice2": "Duelliste",
-      "indice3": "Rayonnement cosmique"
+      "hint1": "Fantastic Four",
+      "hint2": "Duelliste",
+      "hint3": "Rayonnement cosmique"
     },
     {
       "id": "the-thing",
@@ -681,9 +681,9 @@
       "origin": "États-Unis",
       "powerSource": "Rayonnement cosmique",
       "releaseDate": "Décembre 2024",
-      "indice1": "Fantastic Four",
-      "indice2": "Avant-garde",
-      "indice3": "Rayonnement cosmique"
+      "hint1": "Fantastic Four",
+      "hint2": "Avant-garde",
+      "hint3": "Rayonnement cosmique"
     },
     {
       "id": "emma-frost",
@@ -698,9 +698,9 @@
       "origin": "États-Unis",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2024",
-      "indice1": "X-Men",
-      "indice2": "Avant-garde",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Avant-garde",
+      "hint3": "Mutation"
     },
     {
       "id": "ultron",
@@ -713,9 +713,9 @@
       "origin": "Terre",
       "powerSource": "Technologie",
       "releaseDate": "Mai 2025",
-      "indice1": "Villains",
-      "indice2": "Stratège",
-      "indice3": "Technologie"
+      "hint1": "Villains",
+      "hint2": "Stratège",
+      "hint3": "Technologie"
     },
     {
       "id": "phoenix",
@@ -730,9 +730,9 @@
       "origin": "États-Unis",
       "powerSource": "Cosmique",
       "releaseDate": "Juillet 2025",
-      "indice1": "X-Men",
-      "indice2": "Duelliste",
-      "indice3": "Cosmique"
+      "hint1": "X-Men",
+      "hint2": "Duelliste",
+      "hint3": "Cosmique"
     },
     {
       "id": "blade",
@@ -747,9 +747,9 @@
       "origin": "Royaume-Uni",
       "powerSource": "Génétique",
       "releaseDate": "Août 2025",
-      "indice1": "Indépendants",
-      "indice2": "Duelliste",
-      "indice3": "Génétique"
+      "hint1": "Indépendants",
+      "hint2": "Duelliste",
+      "hint3": "Génétique"
     },
     {
       "id": "angela",
@@ -762,9 +762,9 @@
       "origin": "Asgard",
       "powerSource": "Divin",
       "releaseDate": "Septembre 2025",
-      "indice1": "Asgardiens",
-      "indice2": "Avant-garde",
-      "indice3": "Divin"
+      "hint1": "Asgardiens",
+      "hint2": "Avant-garde",
+      "hint3": "Divin"
     },
     {
       "id": "daredevil",
@@ -779,9 +779,9 @@
       "origin": "États-Unis",
       "powerSource": "Mutation",
       "releaseDate": "Octobre 2025",
-      "indice1": "Defenders",
-      "indice2": "Duelliste",
-      "indice3": "Mutation"
+      "hint1": "Defenders",
+      "hint2": "Duelliste",
+      "hint3": "Mutation"
     },
     {
       "id": "gambit",
@@ -796,9 +796,9 @@
       "origin": "Louisiane",
       "powerSource": "Mutation",
       "releaseDate": "Novembre 2025",
-      "indice1": "X-Men",
-      "indice2": "Stratège",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Stratège",
+      "hint3": "Mutation"
     },
     {
       "id": "rogue",
@@ -811,9 +811,9 @@
       "origin": "États-Unis",
       "powerSource": "Mutation",
       "releaseDate": "Décembre 2025",
-      "indice1": "X-Men",
-      "indice2": "Avant-garde",
-      "indice3": "Mutation"
+      "hint1": "X-Men",
+      "hint2": "Avant-garde",
+      "hint3": "Mutation"
     },
     {
       "id": "deadpool",
@@ -828,9 +828,9 @@
       "origin": "Canada",
       "powerSource": "Mutation",
       "releaseDate": "Janvier 2026",
-      "indice1": "Indépendants",
-      "indice2": "Multi-Role",
-      "indice3": "Mutation"
+      "hint1": "Indépendants",
+      "hint2": "Multi-Role",
+      "hint3": "Mutation"
     },
     {
       "id": "elsa-bloodstone",
@@ -843,9 +843,9 @@
       "origin": "Royaume-Uni",
       "powerSource": "Génétique",
       "releaseDate": "Février 2026",
-      "indice1": "Indépendants",
-      "indice2": "Duelliste",
-      "indice3": "Génétique"
+      "hint1": "Indépendants",
+      "hint2": "Duelliste",
+      "hint3": "Génétique"
     }
   ]
 }

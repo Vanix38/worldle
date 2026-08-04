@@ -92,7 +92,7 @@ function mainSyncCollect() {
   for (const c of raw.characters ?? []) {
     const e = c.earth;
     if (EXCLUDED.has(e)) continue;
-    const u = c.univers;
+    const u = c.universe;
     if (e == null || !u) continue;
     const key = `${u}\0${e}`;
     if (!byKey.has(key)) {
@@ -101,7 +101,7 @@ function mainSyncCollect() {
     byKey.get(key).gameCharacters.push({ id: c.id, name: c.name });
   }
   return [...byKey.values()].sort((a, b) =>
-    a.univers.localeCompare(b.univers) || String(a.earth).localeCompare(String(b.earth), undefined, { numeric: true }),
+    a.universe.localeCompare(b.universe) || String(a.earth).localeCompare(String(b.earth), undefined, { numeric: true }),
   );
 }
 
@@ -127,7 +127,7 @@ async function main() {
     }
 
     results.push({
-      univers: g.univers,
+      univers: g.universe,
       earth: g.earth,
       wikiCategory: cmtitle,
       wikiCharacterCount: characters.length,

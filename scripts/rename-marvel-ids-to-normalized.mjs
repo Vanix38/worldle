@@ -23,7 +23,7 @@ let withSuffix = 0;
 
 for (const character of characters) {
   const name = toSlug(stripParentheses(character?.name), "_");
-  const univers = toSlug(character?.univers, "_");
+  const univers = toSlug(character?.universe, "_");
   const earthRaw = toSlug(character?.earth, "-");
   const earth = earthRaw.replace(/^(terre|earth)-?/, "") || earthRaw;
 

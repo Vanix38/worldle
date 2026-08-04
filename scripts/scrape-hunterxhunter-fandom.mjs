@@ -402,15 +402,15 @@ export function buildCharacter(pageTitle, params) {
     delete char.ancOccupation;
   }
   if (char.cheveux) {
-    char.indice1 = char.cheveux;
+    char.hint1 = char.cheveux;
     delete char.cheveux;
   }
   if (char.capacites) {
-    char.indice2 = char.capacites;
+    char.hint2 = char.capacites;
     delete char.capacites;
   }
   if (char.relations) {
-    char.indice3 = char.relations;
+    char.hint3 = char.relations;
     delete char.relations;
   }
   if (char.ancAffiliation) {
@@ -440,10 +440,10 @@ export function buildCharacter(pageTitle, params) {
     else delete char.type;
   }
   if (char.occupation) char.occupation = cleanWikiFieldValue(char.occupation);
-  if (char.indice2) {
-    const cap = cleanIndiceWikiText(char.indice2);
-    if (cap) char.indice2 = cap;
-    else delete char.indice2;
+  if (char.hint2) {
+    const cap = cleanIndiceWikiText(char.hint2);
+    if (cap) char.hint2 = cap;
+    else delete char.hint2;
   }
   const aliases = buildAliasesFromCharacter({ ...char, ...aliasSources });
   if (aliases.length > 0) char.aliases = aliases;
