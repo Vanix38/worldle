@@ -1,0 +1,22 @@
+[
+  {"id": "petunia_grimm-mcu-828", "name": "Petunia Grimm", "alignment": "neutre", "reason": "Tante civile de Ben Grimm."},
+  {"id": "phil_noto-mcu-828", "name": "Phil Noto", "alignment": "neutre", "reason": "Cameo d'artiste, non combattant."},
+  {"id": "phil-mcu-616", "name": "Phil", "alignment": "neutre", "reason": "Personnage mineur sans camp clair."},
+  {"id": "philip_masters-mcu-828", "name": "Philip Masters", "alignment": "méchant", "reason": "Puppet Master, souvent antagoniste."},
+  {"id": "philip_sterns-independants-400083", "name": "Philip Sterns", "alignment": "méchant", "reason": "Scientifique antagoniste lié à Hulk."},
+  {"id": "phillip_b_phil_jones-mcu-616", "name": "Phil Jones", "alignment": "gentil", "reason": "Agent du SHIELD allié."},
+  {"id": "phillip_masters-fox_fantastiques-121698", "name": "Phillip Masters", "alignment": "méchant", "reason": "Puppet Master, ennemi des FF."},
+  {"id": "piotr_rasputin-mcu-617", "name": "Piotr Rasputin", "alignment": "gentil", "reason": "Colossus, héros des X-Men."},
+  {"id": "powell-mcu-616", "name": "Powell", "alignment": "neutre", "reason": "Personnage secondaire indéterminé."},
+  {"id": "president_of_the_united_states-mcu-828", "name": "President of the United States", "alignment": "neutre", "reason": "Figure politique civile neutre."},
+  {"id": "pretty_boy-fox_x_men-17315", "name": "Pretty Boy", "alignment": "méchant", "reason": "Gang antagoniste face à Deadpool."},
+  {"id": "priya_aggarwal-mcu-86445", "name": "Priya Aggarwal", "alignment": "gentil", "reason": "Alliée des Runaways."},
+  {"id": "proxima_midnight-mcu-21818", "name": "Proxima Midnight", "alignment": "méchant", "reason": "Ordre Noir, vilaine de Thanos."},
+  {"id": "proxima_midnight-mcu-72124", "name": "Proxima Midnight", "alignment": "méchant", "reason": "Vilaine Black Order dans What If."},
+  {"id": "pulsus-mcu-616", "name": "Pulsus", "alignment": "neutre", "reason": "Rôle mineur, alignement flou."},
+  {"id": "pyotr_vasilievich_starkovsky-mcu-616", "name": "Pyotr Vasilievich Starkovsky", "alignment": "neutre", "reason": "Personnage secondaire indécis."},
+  {"id": "qajax-mcu-616", "name": "Qajax", "alignment": "neutre", "reason": "Figurant sans camp établi."},
+  {"id": "qolpakc-mcu-616", "name": "Qolpakc", "alignment": "neutre", "reason": "Personnage mineur ambigu."},
+  {"id": "quan_chen-mcu-616", "name": "Quan Chen", "alignment": "neutre", "reason": "Lié à K'un-Lun/Main, gris."},
+  {"id": "quelin-mcu-616", "name": "Quelin", "alignment": "neutre", "reason": "Royal Inhumain, souvent neutre."}
+]

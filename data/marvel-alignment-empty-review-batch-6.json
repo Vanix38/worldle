@@ -1,0 +1,122 @@
+[
+  {
+    "id": "barbara_shlottman-mcu-616",
+    "name": "Barbara Shlottman",
+    "alignment": "neutre",
+    "reason": "Amie de Jessica Jones, victime de Kilgrave sans rôle héroïque propre."
+  },
+  {
+    "id": "barbour-mcu-616",
+    "name": "Barbour",
+    "alignment": "gentil",
+    "reason": "Agent S.H.I.E.L.D. allié des héros dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "barney_bushkin-ssu-688",
+    "name": "Barney Bushkin",
+    "alignment": "neutre",
+    "reason": "Éditeur du Daily Globe, figurant civil dans Venom."
+  },
+  {
+    "id": "barry_hapgood-mcu-616",
+    "name": "Barry Hapgood",
+    "alignment": "neutre",
+    "reason": "Professeur de shop à Midtown, civil sans rôle héroïque."
+  },
+  {
+    "id": "barry-mcu-616",
+    "name": "Barry (last name unrevealed)",
+    "alignment": "neutre",
+    "reason": "Figurant mineur dans The Punisher: One Last Kill."
+  },
+  {
+    "id": "bast-mcu-616",
+    "name": "Bast",
+    "alignment": "neutre",
+    "reason": "Déesse ennead juge au conseil des dieux, entité divine neutre."
+  },
+  {
+    "id": "bastian_cooper-mcu-616",
+    "name": "Bastian Cooper",
+    "alignment": "méchant",
+    "reason": "Serial killer Muse, antagoniste principal dans Daredevil: Born Again."
+  },
+  {
+    "id": "baylin-mcu-616",
+    "name": "Baylin",
+    "alignment": "gentil",
+    "reason": "Agent S.H.I.E.L.D. allié des héros dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "bb-mcu-616",
+    "name": "BB",
+    "alignment": "neutre",
+    "reason": "Jeune de rue dans un gang, personnage gris sympathisant avec Colleen."
+  },
+  {
+    "id": "bear-mcu-616",
+    "name": "Jimmy",
+    "alignment": "méchant",
+    "reason": "Membre des Dogs of Hell, gang criminel antagoniste de Daredevil."
+  },
+  {
+    "id": "behemoth-mcu-616",
+    "name": "Behemoth",
+    "alignment": "méchant",
+    "reason": "Hell Spawn enforcer du High Evolutionary dans GotG Vol. 3."
+  },
+  {
+    "id": "ben_stoss-mcu-616",
+    "name": "Ben Stoss",
+    "alignment": "gentil",
+    "reason": "Mari de Phastos, figure bienveillante et soutien dans Eternals."
+  },
+  {
+    "id": "benedict-independants-121347",
+    "name": "Benedict",
+    "alignment": "gentil",
+    "reason": "Moine protecteur de Nadya et Danny contre Mephistopheles."
+  },
+  {
+    "id": "benjamin_anders-mcu-86445",
+    "name": "Benjamin Anders",
+    "alignment": "neutre",
+    "reason": "Élève lycéen civil invité au W.E.B. dans YFNSM."
+  },
+  {
+    "id": "benjamin_ben_hammil-fox_x_men-10005",
+    "name": "Benjamin \"Ben\" Hammil",
+    "alignment": "gentil",
+    "reason": "Mutant Match, élève des X-Men allié dans Dark Phoenix."
+  },
+  {
+    "id": "benjamin_ben_parker-spider_verse-8311",
+    "name": "Benjamin \"Ben\" Parker",
+    "alignment": "gentil",
+    "reason": "Oncle Ben, figure morale bienveillante pour Miles Morales."
+  },
+  {
+    "id": "benjamin_ben_parker-ssu-688",
+    "name": "Benjamin \"Ben\" Parker",
+    "alignment": "gentil",
+    "reason": "Paramédic altruiste et futur oncle de Peter dans Madame Web."
+  },
+  {
+    "id": "benjamin_grimm-mcu-617",
+    "name": "Benjamin Grimm",
+    "alignment": "gentil",
+    "reason": "Benjamin Grimm alias Thing, héros des Fantastic Four."
+  },
+  {
+    "id": "benjamin_parker-mcu-617",
+    "name": "Benjamin Parker",
+    "alignment": "gentil",
+    "reason": "Oncle Ben, mentor bienveillant de Peter Parker."
+  },
+  {
+    "id": "benjamin_tibbetts-independants-400083",
+    "name": "Benjamin Tibbetts",
+    "alignment": "méchant",
+    "reason": "Soldat transformé en Flux, boss antagoniste du jeu Hulk 2003."
+  }
+]

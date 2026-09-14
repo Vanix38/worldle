@@ -1,0 +1,22 @@
+[
+  {"id": "sammy-independants-400083", "name": "Sammy", "alignment": "neutre", "reason": "Personnage mineur sans camp clair."},
+  {"id": "sammy-mcu-616", "name": "Sammy", "alignment": "neutre", "reason": "Personnage mineur sans alignement clair."},
+  {"id": "samuel_chung-mcu-616", "name": "Samuel Chung / Frog-Man", "alignment": "gentil", "reason": "Héros souvent allié aux justiciers."},
+  {"id": "samuel_sam_guthrie-fox_x_men-10005", "name": "Sam Guthrie / Cannonball", "alignment": "gentil", "reason": "Mutant héroïque des X-Men / New Mutants."},
+  {"id": "samuel_sam_stein-mcu-616", "name": "Sam Stein", "alignment": "gentil", "reason": "Membre des Howling Commandos."},
+  {"id": "samuel_sawyer-mcu-616", "name": "Samuel Sawyer", "alignment": "gentil", "reason": "Officier des Howling Commandos."},
+  {"id": "samuel_sterns-independants-400083", "name": "Samuel Sterns / Leader", "alignment": "méchant", "reason": "Vilain intellectuel ennemi de Hulk."},
+  {"id": "sana_ali-mcu-616", "name": "Sana Ali", "alignment": "neutre", "reason": "Personnage mineur sans camp clair."},
+  {"id": "sanders-fox_x_men-10005", "name": "Sanders", "alignment": "neutre", "reason": "Personnage mineur sans alignement clair."},
+  {"id": "sandi_ann-mcu-616", "name": "Sandi Ann", "alignment": "neutre", "reason": "Civile mineure sans rôle clair."},
+  {"id": "santiago-ssu-688", "name": "Santiago", "alignment": "neutre", "reason": "Personnage SSU mineur sans camp clair."},
+  {"id": "santino_noguera-mcu-616", "name": "Santino Noguera", "alignment": "neutre", "reason": "Personnage mineur sans alignement clair."},
+  {"id": "santino-mcu-616", "name": "Santino", "alignment": "neutre", "reason": "Personnage mineur sans camp clair."},
+  {"id": "sara_pichelli-spider_verse-8311", "name": "Sara Pichelli", "alignment": "neutre", "reason": "Cameo d'artiste, hors fiction."},
+  {"id": "sara-mcu-616", "name": "Sara Grey", "alignment": "neutre", "reason": "Sœur civile tragique de Jean Grey."},
+  {"id": "saracen-mcu-616", "name": "Saracen", "alignment": "méchant", "reason": "Criminel face à Iron Fist / Defenders."},
+  {"id": "sarah_lieberman-mcu-616", "name": "Sarah Lieberman", "alignment": "neutre", "reason": "Civile victime, épouse de Micro."},
+  {"id": "sarah_niles-mcu-828", "name": "Sarah Niles", "alignment": "neutre", "reason": "Cameo d'actrice, hors fiction."},
+  {"id": "sarah_proctor-mcu-616", "name": "Sarah Proctor / Sadie", "alignment": "neutre", "reason": "Agente SWORD grise dans WandaVision."},
+  {"id": "sarah_wilson-mcu-616", "name": "Sarah Wilson", "alignment": "gentil", "reason": "Sœur alliée civile de Sam Wilson."}
+]

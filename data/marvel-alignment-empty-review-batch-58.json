@@ -1,0 +1,22 @@
+[
+  {"id":"stone-mcu-616","name":"Stone","alignment":"neutre","reason":"Personnage mineur, rôle civilien."},
+  {"id":"strieber-mcu-616","name":"Strieber","alignment":"neutre","reason":"Personnage secondaire, alignment flou."},
+  {"id":"stu-mcu-616","name":"Stu","alignment":"neutre","reason":"Civilien mineur sans camp clair."},
+  {"id":"stuart-independants-121347","name":"Stuart","alignment":"neutre","reason":"Personnage secondaire, neutre."},
+  {"id":"stuart-mcu-616","name":"Stuart","alignment":"neutre","reason":"Figurant MCU, camp indéterminé."},
+  {"id":"sue_lorman-mcu-616","name":"Sue Lorman","alignment":"neutre","reason":"Civile, pas d'affiliation héroïque."},
+  {"id":"sugar-mcu-616","name":"Sugar","alignment":"neutre","reason":"Personnage mineur, rôle neutre."},
+  {"id":"sunil_bakshi-mcu-616","name":"Sunil Bakshi","alignment":"méchant","reason":"Agent HYDRA, antagoniste Agents of SHIELD."},
+  {"id":"surtur-mcu-72124","name":"Surtur","alignment":"méchant","reason":"Démon de feu antagoniste What If."},
+  {"id":"susan_ellerh-mcu-616","name":"Susan Ellerh","alignment":"neutre","reason":"Civile secondaire sans camp clair."},
+  {"id":"susan_harris-mcu-616","name":"Susan Harris","alignment":"neutre","reason":"Personnage mineur, alignment neutre."},
+  {"id":"susan_storm-mcu-617","name":"Susan Storm","alignment":"gentil","reason":"Invisible Woman, héroïne Fantastic Four."},
+  {"id":"susan_storm-mcu-838","name":"Susan Storm","alignment":"gentil","reason":"Susan Storm, héroïne Invisible Woman."},
+  {"id":"t_chaka-mcu-21818","name":"T'Chaka","alignment":"gentil","reason":"Roi de Wakanda, allié héroïque What If."},
+  {"id":"t_chaka-mcu-86445","name":"T'Chaka","alignment":"gentil","reason":"Père de T'Challa, roi protecteur."},
+  {"id":"t_hager-fox_fantastiques-121698","name":"T. Hager","alignment":"neutre","reason":"Personnage mineur Fox, camp flou."},
+  {"id":"t_vanchat-mcu-616","name":"T. Vanchat","alignment":"neutre","reason":"Figurant secondaire, rôle neutre."},
+  {"id":"taina_tai_miranda-mcu-86445","name":"Taina Tai Miranda","alignment":"gentil","reason":"Alliée Runaways, camp héroïque."},
+  {"id":"taloa_lopez-mcu-616","name":"Taloa Lopez","alignment":"neutre","reason":"Mère d'Echo, civile."},
+  {"id":"talos-mcu-72124","name":"Talos","alignment":"gentil","reason":"Skrull allié des héros What If."}
+]

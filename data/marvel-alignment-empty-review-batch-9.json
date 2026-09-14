@@ -1,0 +1,122 @@
+[
+  {
+    "id": "brubaker-mcu-616",
+    "name": "Brubaker",
+    "alignment": "neutre",
+    "reason": "Astronaute NASA mort sur Maveth, victime sans rôle antagoniste."
+  },
+  {
+    "id": "bruce_banner-mcu-617",
+    "name": "Bruce Banner",
+    "alignment": "gentil",
+    "reason": "Alter ego du Hulk, scientifique héroïque malgré sa malédiction."
+  },
+  {
+    "id": "bruce_ogden-mcu-616",
+    "name": "Bruce Ogden",
+    "alignment": "gentil",
+    "reason": "Détenu qui aide les policiers à repousser les mercenaires de Pilgrim."
+  },
+  {
+    "id": "brunnhilde-mcu-72124",
+    "name": "Brunnhilde",
+    "alignment": "gentil",
+    "reason": "Valkyrie asgardienne, guerrière héroïque dans l'épisode What If...?"
+  },
+  {
+    "id": "buck-fox_x_men-10005",
+    "name": "Buck",
+    "alignment": "gentil",
+    "reason": "Ami proche de Wade Wilson et allié récurrent de Deadpool."
+  },
+  {
+    "id": "burrows-mcu-616",
+    "name": "Burrows",
+    "alignment": "gentil",
+    "reason": "Reproduction IA de Billy Koenig au service de la résistance S.H.I.E.L.D."
+  },
+  {
+    "id": "bzermikitokolok-mcu-616",
+    "name": "Bzermikitokolok",
+    "alignment": "neutre",
+    "reason": "Musicien alien de Knowhere, figurant sans enjeu héroïque ou criminel."
+  },
+  {
+    "id": "c_weber-spider_verse-8311",
+    "name": "C. Weber",
+    "alignment": "neutre",
+    "reason": "Personnel de Brooklyn Visions Academy, enseignante civile."
+  },
+  {
+    "id": "calleros-spider_verse-8311",
+    "name": "Calleros",
+    "alignment": "neutre",
+    "reason": "Personnel de Brooklyn Visions Academy, figurante scolaire."
+  },
+  {
+    "id": "callie_hannigan-mcu-616",
+    "name": "Callie Hannigan",
+    "alignment": "neutre",
+    "reason": "Cadette de l'Académie S.H.I.E.L.D., témoin sans camp défini."
+  },
+  {
+    "id": "calvin-mcu-616",
+    "name": "Calvin Chadwick",
+    "alignment": "méchant",
+    "reason": "Industriel manipulant la matière zéro, antagoniste d'Agent Carter S2."
+  },
+  {
+    "id": "calypso_ezili-ssu-688",
+    "name": "Calypso Ezili",
+    "alignment": "gentil",
+    "reason": "Sauve Sergei Kravinoff et l'aide à traquer des criminels dans Kraven."
+  },
+  {
+    "id": "candice_lee-mcu-616",
+    "name": "Candice Lee",
+    "alignment": "méchant",
+    "reason": "Opératrice HYDRA et assistante personnelle de la générale Hale."
+  },
+  {
+    "id": "canelo-mcu-616",
+    "name": "Canelo",
+    "alignment": "neutre",
+    "reason": "Propriétaire du garage Canelo's Auto and Body, employeur civil."
+  },
+  {
+    "id": "caprarelli-mcu-616",
+    "name": "Caprarelli",
+    "alignment": "neutre",
+    "reason": "Officier LAPD intervenant au Gordon Hotel, rôle institutionnel mineur."
+  },
+  {
+    "id": "carey_morrison-fox_x_men-10005",
+    "name": "Carey Morrison",
+    "alignment": "neutre",
+    "reason": "Personnage promotionnel du Bent Bullet Report, journaliste sans action directe."
+  },
+  {
+    "id": "carl_creel-mcu-616",
+    "name": "Carl Creel",
+    "alignment": "méchant",
+    "reason": "Absorbing Man, super-vilain Hydra et sbire du Clairvoyant."
+  },
+  {
+    "id": "carl_nussbaumer-mcu-616",
+    "name": "Carl Nussbaumer",
+    "alignment": "méchant",
+    "reason": "Policier corrompu tuant des dealers et volant leurs stups."
+  },
+  {
+    "id": "carl-mcu-616",
+    "name": "Carl Creel",
+    "alignment": "méchant",
+    "reason": "Reproduction IA du vilain Absorbing Man dans la simulation Framework."
+  },
+  {
+    "id": "carlo_mancini-mcu-616",
+    "name": "Carlo Mancini",
+    "alignment": "méchant",
+    "reason": "Chef des mercenaires Cybertek protégeant le projet Deathlok pour Ian Quinn."
+  }
+]

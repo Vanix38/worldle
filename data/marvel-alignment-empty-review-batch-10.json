@@ -1,0 +1,122 @@
+[
+  {
+    "id": "carlo-mcu-616",
+    "name": "Carlo",
+    "alignment": "neutre",
+    "reason": "Cousin vaporisé par le Grandmaster, figurant comique sans rôle moral."
+  },
+  {
+    "id": "carlos-independants-47281",
+    "name": "Carlos",
+    "alignment": "gentil",
+    "reason": "Ex-gangster allié du Punisher, protège les Donatelli avant sa mort."
+  },
+  {
+    "id": "carlos-mcu-616",
+    "name": "Carlos",
+    "alignment": "neutre",
+    "reason": "Figurant civil mineur dans Iron Fist, sans rôle héroïque."
+  },
+  {
+    "id": "carmine_gazzera-independants-47281",
+    "name": "Carmine Gazzera",
+    "alignment": "méchant",
+    "reason": "Pittsy, sbire de Jigsaw qui tue des policiers et prend des otages."
+  },
+  {
+    "id": "caroline_mulder-raimi_verse-96283",
+    "name": "Caroline Mulder",
+    "alignment": "neutre",
+    "reason": "Ex-épouse de Norman et mère de Harry, citée sans apparition active."
+  },
+  {
+    "id": "carolyn_haynes-mcu-828",
+    "name": "Carolyn Haynes",
+    "alignment": "neutre",
+    "reason": "Personnage civil mineur dans The Fantastic Four: First Steps."
+  },
+  {
+    "id": "carradine-mcu-617",
+    "name": "Carradine",
+    "alignment": "neutre",
+    "reason": "Personnage obscur sans rôle héroïque ou antagoniste à l'écran."
+  },
+  {
+    "id": "carradine-webb_verse-120703",
+    "name": "Carradine",
+    "alignment": "méchant",
+    "reason": "Voleur de l'épicerie dont la fuite provoque la mort d'Oncle Ben."
+  },
+  {
+    "id": "cassandra_cassie_lang-mcu-616",
+    "name": "Cassandra \"Cassie\" Lang",
+    "alignment": "gentil",
+    "reason": "Fille de Scott Lang, devient Stature et combat Kang aux côtés des héros."
+  },
+  {
+    "id": "catherine_starr-mcu-616",
+    "name": "Catherine Starr",
+    "alignment": "neutre",
+    "reason": "Mère d'Ava Starr, scientifique civile tuée par l'explosion du tunnel quantique."
+  },
+  {
+    "id": "caudle-mcu-616",
+    "name": "Caudle",
+    "alignment": "neutre",
+    "reason": "Détective NYPD enquêtant sur la Tracksuit Mafia, sans rôle héroïque propre."
+  },
+  {
+    "id": "cecilio-mcu-616",
+    "name": "Cecilio",
+    "alignment": "gentil",
+    "reason": "Agent S.H.I.E.L.D. allié des héros dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "chaac-mcu-616",
+    "name": "Chaac",
+    "alignment": "neutre",
+    "reason": "Dieu maya au conseil d'Omnipotence City, sans camp héroïque ou villain défini."
+  },
+  {
+    "id": "chad_davis-mcu-616",
+    "name": "Chad Davis",
+    "alignment": "neutre",
+    "reason": "Ancien soldat victime du programme Extremis d'A.I.M., explosion accidentelle."
+  },
+  {
+    "id": "chaimson-mcu-616",
+    "name": "Chaimson",
+    "alignment": "gentil",
+    "reason": "Agent S.H.I.E.L.D. allié des héros dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "charles_darwin-mcu-828",
+    "name": "Charles Darwin",
+    "alignment": "neutre",
+    "reason": "Figure historique citée dans The Fantastic Four: First Steps."
+  },
+  {
+    "id": "charles_francis_xavier-fox_x_men-17315",
+    "name": "Charles Francis Xavier",
+    "alignment": "gentil",
+    "reason": "Professor X, mentor mutant fondateur des X-Men dans Logan."
+  },
+  {
+    "id": "charles_wallace-mcu-616",
+    "name": "Charles Wallace",
+    "alignment": "neutre",
+    "reason": "Chauffeur de bus ivre impliqué dans l'accident de Reva, civil sans malice."
+  },
+  {
+    "id": "charles_xavier-mcu-617",
+    "name": "Charles Xavier",
+    "alignment": "gentil",
+    "reason": "Professor X, leader mutant bienveillant de l'univers alternatif 617."
+  },
+  {
+    "id": "charles-mcu-616",
+    "name": "Mr. Charles",
+    "alignment": "méchant",
+    "reason": "Fixateur CIA au service de Valentina, ordonne des assassinats et couvre Fisk."
+  }
+]

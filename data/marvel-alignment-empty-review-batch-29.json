@@ -1,0 +1,122 @@
+[
+  {
+    "id": "jack_taggart-mcu-616",
+    "name": "Jack Taggart",
+    "alignment": "méchant",
+    "reason": "Soldat A.I.M. du programme Extremis, utilisé dans l'attaque du théâtre chinois."
+  },
+  {
+    "id": "jack-mcu-616",
+    "name": "Jack",
+    "alignment": "neutre",
+    "reason": "Figurant civil à l'Expo Stark dans Iron Man 2, sans rôle héroïque ou criminel."
+  },
+  {
+    "id": "jackie_albini-mcu-616",
+    "name": "Jackie Albini",
+    "alignment": "gentil",
+    "reason": "Officier NYPD tué par Diamondback en tentant d'aider un passant."
+  },
+  {
+    "id": "jackson_brice-webb_verse-120703",
+    "name": "Jackson Brice",
+    "alignment": "méchant",
+    "reason": "Shocker Montana, criminel du Sinister Six contre Spider-Man."
+  },
+  {
+    "id": "jackson_dillard-mcu-616",
+    "name": "Jackson Dillard",
+    "alignment": "gentil",
+    "reason": "Médecin humanitaire tué en mission au Nicaragua, père adoptif de Tilda."
+  },
+  {
+    "id": "jackson_norris-mcu-616",
+    "name": "Jackson Norris",
+    "alignment": "neutre",
+    "reason": "Journaliste WHiH World News, simple reporter civil."
+  },
+  {
+    "id": "jacob_jake_smith-mcu-616",
+    "name": "Jacob \"Jake\" Smith",
+    "alignment": "neutre",
+    "reason": "Sergent NYPD au 29e precinct, fonction policière sans rôle héroïque propre."
+  },
+  {
+    "id": "jacobs-mcu-616",
+    "name": "Jacob \"Jake\" Smith",
+    "alignment": "neutre",
+    "reason": "Sergent NYPD au 29e precinct, fonction policière sans rôle héroïque propre."
+  },
+  {
+    "id": "jacobson-mcu-616",
+    "name": "Luke Jacobson",
+    "alignment": "neutre",
+    "reason": "Ami et collègue civil de Jennifer Walters dans She-Hulk."
+  },
+  {
+    "id": "jacques_dernier-mcu-616",
+    "name": "Jacques Dernier",
+    "alignment": "gentil",
+    "reason": "Howling Commando combattant aux côtés de Captain America contre l'Axe."
+  },
+  {
+    "id": "jacques_dernier-mcu-82111",
+    "name": "Jacques Dernier",
+    "alignment": "gentil",
+    "reason": "Howling Commando dans What If...?, soldat allié contre les nazis."
+  },
+  {
+    "id": "jacques_duchamps-mcu-616",
+    "name": "Jacques Duchamps",
+    "alignment": "gentil",
+    "reason": "Membre du Chaste envoyé par Stick pour combattre la Main et Elektra."
+  },
+  {
+    "id": "jademurai_god-mcu-616",
+    "name": "Jademurai God",
+    "alignment": "neutre",
+    "reason": "Acteur de la pièce théâtrique d'Asgard dans Thor: Love and Thunder."
+  },
+  {
+    "id": "jake_nelson-mcu-616",
+    "name": "Jake Nelson",
+    "alignment": "méchant",
+    "reason": "Sbire de Jigsaw dans Le Punisher saison 2, membre d'un gang criminel."
+  },
+  {
+    "id": "jake_schist-independants-58460",
+    "name": "Jake Schist",
+    "alignment": "méchant",
+    "reason": "Fils du baron pétrolier Schist, antagoniste du film Man-Thing."
+  },
+  {
+    "id": "jake-mcu-616",
+    "name": "Jake",
+    "alignment": "neutre",
+    "reason": "Démon mineur apparaissant dans She-Hulk, sans rôle héroïque ou vilain défini."
+  },
+  {
+    "id": "jamel_shabazz-mcu-616",
+    "name": "Jamel Shabazz",
+    "alignment": "neutre",
+    "reason": "Résident de Harlem dans Luke Cage, personnage civil secondaire."
+  },
+  {
+    "id": "james_buchanan_bucky_barnes-mcu-86445",
+    "name": "James Buchanan \"Bucky\" Barnes",
+    "alignment": "neutre",
+    "reason": "Winter Soldier fugitif dans YFNS Spider-Man, anti-héros de l'équipe de Cap."
+  },
+  {
+    "id": "james_howlett-mcu-617",
+    "name": "James Howlett",
+    "alignment": "gentil",
+    "reason": "Wolverine, mutant héroïque de la Terre-617."
+  },
+  {
+    "id": "james_jim_morita-mcu-616",
+    "name": "James \"Jim\" Morita",
+    "alignment": "gentil",
+    "reason": "Howling Commando de l'armée américaine combattant aux côtés de Captain America."
+  }
+]

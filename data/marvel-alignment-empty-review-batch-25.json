@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hailstrum-mcu-616",
+    "name": "Hailstrum",
+    "alignment": "méchant",
+    "reason": "Géant de Givre hostile qui provoque Thor sur Jotunheim dans Thor."
+  },
+  {
+    "id": "halfnut-mcu-616",
+    "name": "Halfnut",
+    "alignment": "méchant",
+    "reason": "Ravager mutin contre Yondu dans Les Gardiens de la Galaxie Vol. 2."
+  },
+  {
+    "id": "hank_mboy-spider_verse-8311",
+    "name": "Hank Mboy",
+    "alignment": "neutre",
+    "reason": "Contact de Miles Morales visible sur son téléphone dans Into the Spider-Verse."
+  },
+  {
+    "id": "hanna-mcu-616",
+    "name": "Hanna",
+    "alignment": "neutre",
+    "reason": "Personnage civil secondaire dans She-Hulk: Attorney at Law."
+  },
+  {
+    "id": "hannah-mcu-616",
+    "name": "Hannah",
+    "alignment": "neutre",
+    "reason": "Personnage civil mineur dans la série Runaways."
+  },
+  {
+    "id": "hannibal_king-independants-26320",
+    "name": "Hannibal King",
+    "alignment": "gentil",
+    "reason": "Chasseur de vampires allié de Blade contre les créatures maléfiques dans Blade: Trinity."
+  },
+  {
+    "id": "harold_joseph_happy_hogan-mcu-616",
+    "name": "Harold Joseph \"Happy\" Hogan",
+    "alignment": "gentil",
+    "reason": "Chauffeur et garde du corps fidèle de Tony Stark, combat aux côtés des héros."
+  },
+  {
+    "id": "harold_proctor-mcu-616",
+    "name": "Harold Proctor",
+    "alignment": "neutre",
+    "reason": "Agent SWORD sous couverture dans WandaVision, sans rôle criminel direct."
+  },
+  {
+    "id": "harper_simmons-fox_x_men-10005",
+    "name": "Harper Simmons",
+    "alignment": "neutre",
+    "reason": "Personnage civil mentionné dans le dossier promotionnel The Bent Bullet Report."
+  },
+  {
+    "id": "harper-independants-400083",
+    "name": "Harper",
+    "alignment": "neutre",
+    "reason": "Personnage civil mineur dans le film Hulk de 2003."
+  },
+  {
+    "id": "hastings-fox_x_men-10005",
+    "name": "Hastings",
+    "alignment": "neutre",
+    "reason": "Officier militaire du Joint Chiefs dans X-Men: Apocalypse."
+  },
+  {
+    "id": "hattie_johnson-webb_verse-120703",
+    "name": "Hattie Johnson",
+    "alignment": "neutre",
+    "reason": "Personnage civil lié au Daily Bugle dans l'univers Webb-Verse."
+  },
+  {
+    "id": "hauer-mcu-616",
+    "name": "Hauer",
+    "alignment": "gentil",
+    "reason": "Agent S.H.I.E.L.D. combattant Hydra dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "hawley-mcu-82111",
+    "name": "Hawley",
+    "alignment": "neutre",
+    "reason": "Représentante politique du Conseil de sécurité mondiale dans What If...?."
+  },
+  {
+    "id": "health_care_provider_man-mcu-617",
+    "name": "Health Care Provider-Man",
+    "alignment": "neutre",
+    "reason": "Personnage méta-parodique sans rôle héroïque ou criminel dans Secret Wars Too."
+  },
+  {
+    "id": "heather_glenn-independants-701306",
+    "name": "Heather Glenn",
+    "alignment": "neutre",
+    "reason": "Civil et ancienne compagne de Matt Murdock dans Daredevil de 2003."
+  },
+  {
+    "id": "hector_ayala-mcu-616",
+    "name": "Hector Ayala",
+    "alignment": "gentil",
+    "reason": "Vigilante White Tiger protégeant New York, acquitté grâce à Daredevil: Born Again."
+  },
+  {
+    "id": "heike_zemo-mcu-616",
+    "name": "Heike Zemo",
+    "alignment": "neutre",
+    "reason": "Épouse de Heinrich Zemo, victime de l'attaque HYDRA évoquée dans Civil War."
+  },
+  {
+    "id": "heinrich_zemo-mcu-616",
+    "name": "Heinrich Zemo",
+    "alignment": "méchant",
+    "reason": "Leader HYDRA et père de Baron Zemo, tué par le Soldat de l'Hiver."
+  },
+  {
+    "id": "helen_vogel_stacy-mcu-617",
+    "name": "Helen Vogel Stacy",
+    "alignment": "neutre",
+    "reason": "Mère de Gwen Stacy, personnage civil dans les comics Spider-Gwen."
+  }
+]

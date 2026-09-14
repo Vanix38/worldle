@@ -1,0 +1,122 @@
+[
+  {
+    "id": "martina-mcu-616",
+    "name": "Martina",
+    "alignment": "gentil",
+    "reason": "Compagne de Bruce Banner au Brésil, l'aide à fuir les militaires."
+  },
+  {
+    "id": "martine_bancroft-ssu-688",
+    "name": "Martine Bancroft",
+    "alignment": "neutre",
+    "reason": "Fiancée civile de Michael Morbius, tente de l'aider sans être héroïne."
+  },
+  {
+    "id": "mary_jane_mj_parker_nee_watson-spider_verse-8311",
+    "name": "Mary Jane \"MJ\" Parker, née Watson",
+    "alignment": "neutre",
+    "reason": "Épouse civile de Peter Parker, proche soutien sans rôle héroïque."
+  },
+  {
+    "id": "mary_parker_nee_fitzpatrick-mcu-86445",
+    "name": "Mary Parker, née Fitzpatrick",
+    "alignment": "neutre",
+    "reason": "Mère décédée de Peter Parker, simple figure familiale civile."
+  },
+  {
+    "id": "mary_parker_nee_fitzpatrick-webb_verse-120703",
+    "name": "Mary Parker, née Fitzpatrick",
+    "alignment": "neutre",
+    "reason": "Mère décédée de Peter Parker dans le Webb-Verse, civile."
+  },
+  {
+    "id": "mary_parker-raimi_verse-96283",
+    "name": "Mary Parker",
+    "alignment": "neutre",
+    "reason": "Mère décédée de Peter Parker, figure familiale sans rôle actif."
+  },
+  {
+    "id": "mary_parker-ssu-688",
+    "name": "Mary Parker",
+    "alignment": "neutre",
+    "reason": "Mère de Peter Parker dans Madame Web, simple civile."
+  },
+  {
+    "id": "mary_storm-mcu-828",
+    "name": "Mary Storm",
+    "alignment": "neutre",
+    "reason": "Mère décédée de Sue et Johnny Storm, figure familiale civile."
+  },
+  {
+    "id": "mary-mcu-616",
+    "name": "Mary",
+    "alignment": "neutre",
+    "reason": "Employée civile de Rand Enterprises dans Iron Fist S1."
+  },
+  {
+    "id": "matilda_maybelline_tilda_dillard-mcu-616",
+    "name": "Matilda Maybelline \"Tilda\" Dillard",
+    "alignment": "méchant",
+    "reason": "Empoisonne Mariah Stokes et hérite de l'empire criminel à Harlem."
+  },
+  {
+    "id": "matt_fraction-mcu-828",
+    "name": "Matt Fraction",
+    "alignment": "neutre",
+    "reason": "Caméo du scénariste réel dans Fantastic Four: First Steps."
+  },
+  {
+    "id": "matt_shakman-mcu-828",
+    "name": "Matt Shakman",
+    "alignment": "neutre",
+    "reason": "Caméo du réalisateur réel dans Fantastic Four: First Steps."
+  },
+  {
+    "id": "matthew_matt_murdock-raimi_verse-96283",
+    "name": "Matthew \"Matt\" Murdock",
+    "alignment": "neutre",
+    "reason": "Mentionné seulement dans le roman Spider-Man, jamais établi à l'écran."
+  },
+  {
+    "id": "matthew_murdock-mcu-617",
+    "name": "Matthew Murdock",
+    "alignment": "gentil",
+    "reason": "Daredevil, avocat vigilante défenseur de Hell's Kitchen."
+  },
+  {
+    "id": "maxwell_markham-spider_verse-8311",
+    "name": "Maxwell Markham",
+    "alignment": "méchant",
+    "reason": "Grizzly, criminel en costume d'ours antagoniste de Spider-Man."
+  },
+  {
+    "id": "maxwell_max_dillon-mcu-86445",
+    "name": "Maxwell \"Max\" Dillon",
+    "alignment": "méchant",
+    "reason": "Electro, super-vilain électrique adversaire de Spider-Man."
+  },
+  {
+    "id": "maybelle_parker-mcu-617",
+    "name": "Maybelle Parker",
+    "alignment": "gentil",
+    "reason": "Tante May, mentor bienveillante et soutien moral de Peter Parker."
+  },
+  {
+    "id": "maynard_tiboldt-mcu-616",
+    "name": "Maynard Tiboldt",
+    "alignment": "neutre",
+    "reason": "Avocat corporatif de Pryce Cheng contre Jessica Jones, sans vilainie."
+  },
+  {
+    "id": "meade-mcu-616",
+    "name": "Meade",
+    "alignment": "neutre",
+    "reason": "Personnage civil mineur lors de l'audition sénatoriale dans Iron Man 2."
+  },
+  {
+    "id": "megan-mcu-616",
+    "name": "Megan",
+    "alignment": "neutre",
+    "reason": "Assistante civile de Ward Meachum à Rand Enterprises dans Iron Fist."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "amanda_carter-mcu-616",
+    "name": "Amanda Carter",
+    "alignment": "neutre",
+    "reason": "Mère civile de Peggy Carter, figure familiale en flashback dans Agent Carter."
+  },
+  {
+    "id": "amanda_garmon-mcu-616",
+    "name": "Amanda Garmon",
+    "alignment": "gentil",
+    "reason": "Juge qui refuse la caution à Mariah Stokes et la renvoie en prison."
+  },
+  {
+    "id": "ambur-mcu-616",
+    "name": "Ambur",
+    "alignment": "neutre",
+    "reason": "Mère d'Inhumains mentionnée morte dans Inhumans, sans apparition directe."
+  },
+  {
+    "id": "amira_ahmed-mcu-616",
+    "name": "Amira Ahmed",
+    "alignment": "neutre",
+    "reason": "Journaliste FBX couvrant les attaques des Ten Rings à Gulmira dans Iron Man."
+  },
+  {
+    "id": "amy_chance-mcu-616",
+    "name": "Amy Chance",
+    "alignment": "neutre",
+    "reason": "Bibliothécaire carcérale témoin au procès Blonsky dans She-Hulk."
+  },
+  {
+    "id": "amy_minoru-mcu-616",
+    "name": "Amy Minoru",
+    "alignment": "gentil",
+    "reason": "Sœur aînée de Nico, victime innocente tuée par Jonah dans Runaways."
+  },
+  {
+    "id": "amy_s_hawkins-mcu-616",
+    "name": "Amy S. Hawkins",
+    "alignment": "neutre",
+    "reason": "Figurant ou mention de production dans Ironheart, rôle moral indéterminé."
+  },
+  {
+    "id": "anatoly_melikov-webb_verse-120703",
+    "name": "Anatoly Melikov",
+    "alignment": "neutre",
+    "reason": "Personnage mineur du Daily Bugle Tumblr, sans rôle antagoniste clair."
+  },
+  {
+    "id": "anatoly_ranskahov-mcu-616",
+    "name": "Anatoly Ranskahov",
+    "alignment": "méchant",
+    "reason": "Chef de la mafia russe de Hell's Kitchen, trafiquant allié de Fisk dans Daredevil."
+  },
+  {
+    "id": "anderson-mcu-616",
+    "name": "Anderson",
+    "alignment": "gentil",
+    "reason": "Agent du S.H.I.E.L.D. au Playground, allié des héros dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "andre_lincoln-mcu-86445",
+    "name": "Andre Lincoln",
+    "alignment": "neutre",
+    "reason": "Frère cadet de Lonnie, jeune membre d'un gang sans rôle héroïque clair."
+  },
+  {
+    "id": "andre_wilson-mcu-616",
+    "name": "Andre Wilson",
+    "alignment": "gentil",
+    "reason": "Coach Wilson, prof bienveillant de Peter au lycée dans Spider-Man: Homecoming."
+  },
+  {
+    "id": "andre-mcu-616",
+    "name": "Andre",
+    "alignment": "neutre",
+    "reason": "Figurant mineur dans Jessica Jones, sans rôle moral défini."
+  },
+  {
+    "id": "andrea_moore-webb_verse-120703",
+    "name": "Andrea Moore",
+    "alignment": "neutre",
+    "reason": "Personnage mineur du Daily Bugle Tumblr, sans camp héroïque ou méchant."
+  },
+  {
+    "id": "andrei_veznikov-mcu-616",
+    "name": "Andrei Veznikov",
+    "alignment": "méchant",
+    "reason": "Boucher russe combattant pour la Main contre Iron Fist dans Iron Fist."
+  },
+  {
+    "id": "andrew_henry-mcu-616",
+    "name": "Andrew Henry",
+    "alignment": "méchant",
+    "reason": "Détective corrompu payé par Whitney Frost pour dissimuler un meurtre."
+  },
+  {
+    "id": "andrew_lee-mcu-616",
+    "name": "Andrew Lee",
+    "alignment": "neutre",
+    "reason": "Médecin expert au procès de Punisher, témoin professionnel sans camp clair."
+  },
+  {
+    "id": "angela_donatelli-independants-47281",
+    "name": "Angela Donatelli",
+    "alignment": "gentil",
+    "reason": "Veuve victime protégeant sa fille, alliée finale du Punisher dans War Zone."
+  },
+  {
+    "id": "angie_kim-mcu-616",
+    "name": "Angie Kim",
+    "alignment": "gentil",
+    "reason": "Détective NYPD aidant les civils et rejoignant l'armée de Daredevil contre Fisk."
+  },
+  {
+    "id": "animal-ssu-688",
+    "name": "Animal",
+    "alignment": "gentil",
+    "reason": "Symbiote libéré combattant aux côtés de Venom contre les Xenophages."
+  }
+]

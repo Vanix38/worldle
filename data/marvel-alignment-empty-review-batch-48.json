@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ramirez-mcu-616",
+    "name": "Ramirez",
+    "alignment": "gentil",
+    "reason": "Officière de l'U.S. Air Force alliée lors du débriefing de Tony Stark."
+  },
+  {
+    "id": "ramonda-mcu-21818",
+    "name": "Ramonda",
+    "alignment": "gentil",
+    "reason": "Reine mère du Wakanda, protectrice de son peuple dans What If...?"
+  },
+  {
+    "id": "ramone-fox_x_men-10005",
+    "name": "Ramone",
+    "alignment": "neutre",
+    "reason": "Mutant mineur du futur dystopique, rôle à l'écran trop bref."
+  },
+  {
+    "id": "ramrod-mcu-616",
+    "name": "Ramrod",
+    "alignment": "méchant",
+    "reason": "Super-vilain cyborg affronté par Spider-Man dans Brand New Day."
+  },
+  {
+    "id": "ramsey-mcu-616",
+    "name": "Ramsey",
+    "alignment": "neutre",
+    "reason": "Agent du FBI sur l'affaire Kingpin, fonctionnaire sans rôle héroïque."
+  },
+  {
+    "id": "rance-mcu-616",
+    "name": "Rance",
+    "alignment": "méchant",
+    "reason": "Homme de main russe au service de Wilson Fisk dans Daredevil."
+  },
+  {
+    "id": "randall_spector-mcu-616",
+    "name": "Randall Spector",
+    "alignment": "méchant",
+    "reason": "Frère abusif de Marc Spector, source de traumatismes dans Moon Knight."
+  },
+  {
+    "id": "randolph_cherryh-mcu-616",
+    "name": "Randolph Cherryh",
+    "alignment": "méchant",
+    "reason": "Conseiller municipal corrompu et allié de Wilson Fisk."
+  },
+  {
+    "id": "randy_vale-mcu-616",
+    "name": "Randy Vale",
+    "alignment": "méchant",
+    "reason": "Criminel tentant de voler du matériel Chitauri à Damage Control."
+  },
+  {
+    "id": "rapu-mcu-616",
+    "name": "Rapu",
+    "alignment": "méchant",
+    "reason": "Dieu cruel ignorant la souffrance de ses fidèles, tué par Gorr."
+  },
+  {
+    "id": "rat-mcu-616",
+    "name": "Rat",
+    "alignment": "méchant",
+    "reason": "Membre du coven d'Agatha participant aux épreuves sorcières."
+  },
+  {
+    "id": "ray_collins-independants-26320",
+    "name": "Ray Collins",
+    "alignment": "gentil",
+    "reason": "Agent du FBI allié à Blade pour traquer les vampires."
+  },
+  {
+    "id": "ray_cumberland-independants-26320",
+    "name": "Ray Cumberland",
+    "alignment": "méchant",
+    "reason": "Agent du FBI traquant Blade, antagoniste du chasseur de vampires."
+  },
+  {
+    "id": "ray_schoonover-mcu-616",
+    "name": "Ray Schoonover",
+    "alignment": "méchant",
+    "reason": "Blacksmith, trafiquant d'armes et chef du cartel de la héroïne."
+  },
+  {
+    "id": "raymond_bloch-spider_verse-8311",
+    "name": "Raymond Bloch",
+    "alignment": "méchant",
+    "reason": "Ox, membre criminel des Enforcers au service du Kingpin."
+  },
+  {
+    "id": "raymond_bloch-webb_verse-120703",
+    "name": "Raymond Bloch",
+    "alignment": "méchant",
+    "reason": "Ox, criminel des Enforcers dans le Webb-Verse."
+  },
+  {
+    "id": "raymond_jones-mcu-616",
+    "name": "Raymond Jones",
+    "alignment": "méchant",
+    "reason": "Piranha Jones, gangster de Harlem et criminel dans Luke Cage."
+  },
+  {
+    "id": "rayshaun_lucas-spider_verse-8311",
+    "name": "Rayshaun Lucas",
+    "alignment": "neutre",
+    "reason": "Figurant civil de Brooklyn dans Into the Spider-Verse."
+  },
+  {
+    "id": "raza_hamidmi_al_wazar-mcu-616",
+    "name": "Raza Hamidmi Al-Wazar",
+    "alignment": "méchant",
+    "reason": "Chef des Ten Rings capturant Tony Stark dans Iron Man."
+  },
+  {
+    "id": "razor_fist-mcu-616",
+    "name": "Razor Fist",
+    "alignment": "méchant",
+    "reason": "Assassin des Ten Rings attaquant Shang-Chi sur le bus."
+  }
+]

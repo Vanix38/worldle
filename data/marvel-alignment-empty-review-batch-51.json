@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rockwell-mcu-82111",
+    "name": "Rockwell",
+    "alignment": "neutre",
+    "reason": "Représentant du Conseil de sécurité mondiale dans What If...? S2E5."
+  },
+  {
+    "id": "rodney_thibadeaux-independants-58460",
+    "name": "Rodney Thibadeaux",
+    "alignment": "neutre",
+    "reason": "Personnage civil décédé dans le film Man-Thing, sans rôle héroïque ou criminel."
+  },
+  {
+    "id": "rodrigo_guevara-webb_verse-120703",
+    "name": "Rodrigo Guevara",
+    "alignment": "neutre",
+    "reason": "Employé d'Oscorp, personnage civil dans The Amazing Spider-Man."
+  },
+  {
+    "id": "rodriguez-mcu-616",
+    "name": "Rodriguez",
+    "alignment": "neutre",
+    "reason": "Agent S.W.O.R.D. exécutant ses missions dans WandaVision, sans malveillance personnelle."
+  },
+  {
+    "id": "roeder-mcu-616",
+    "name": "Roeder",
+    "alignment": "méchant",
+    "reason": "Officier nazi affilié à Hitler dans Captain America: First Avenger."
+  },
+  {
+    "id": "roeder-mcu-82111",
+    "name": "Roeder",
+    "alignment": "méchant",
+    "reason": "Officier nazi du régime d'Hitler dans l'épisode What If...? S1E1."
+  },
+  {
+    "id": "roger_dooley-mcu-616",
+    "name": "Roger Dooley",
+    "alignment": "gentil",
+    "reason": "Directeur du SSR combattant Leviathan et Hydra dans Agent Carter."
+  },
+  {
+    "id": "roland_duplantier-mcu-616",
+    "name": "Roland Duplantier",
+    "alignment": "gentil",
+    "reason": "Big Chief, leader communautaire bienveillant aidant Tandy et Tyrone dans Cloak & Dagger."
+  },
+  {
+    "id": "roland_treece-ssu-688",
+    "name": "Roland Treece",
+    "alignment": "méchant",
+    "reason": "Homme de main de Carlton Drake menaçant Eddie Brock dans Venom."
+  },
+  {
+    "id": "ronan-mcu-21818",
+    "name": "Ronan",
+    "alignment": "méchant",
+    "reason": "Ronan l'Accusateur kree extrémiste menaçant la galaxie dans What If...? S1E2."
+  },
+  {
+    "id": "ronnie_williams-mcu-616",
+    "name": "Ronnie Williams",
+    "alignment": "neutre",
+    "reason": "Personnage civil secondaire dans la série Ironheart."
+  },
+  {
+    "id": "rooster-mcu-616",
+    "name": "Duane",
+    "alignment": "méchant",
+    "reason": "Membre criminel des Dogs of Hell affrontant les agents du SHIELD."
+  },
+  {
+    "id": "rosa_dalton-mcu-616",
+    "name": "Rosa Dalton",
+    "alignment": "neutre",
+    "reason": "Cheffe de cabinet de la Maison Blanche, fonctionnaire politique dans Secret Invasion."
+  },
+  {
+    "id": "rosalie_carbone-mcu-616",
+    "name": "Rosalie Carbone",
+    "alignment": "méchant",
+    "reason": "Parrain mafieux de Harlem ordonnant des meurtres dans Luke Cage S2."
+  },
+  {
+    "id": "rosalie_octavius-raimi_verse-96283",
+    "name": "Rosalie Octavius",
+    "alignment": "neutre",
+    "reason": "Épouse d'Otto Octavius, personnage civil décédé dans Spider-Man 2."
+  },
+  {
+    "id": "rosalind_price-mcu-616",
+    "name": "Rosalind Price",
+    "alignment": "gentil",
+    "reason": "Directrice de l'ATCU alliée de Coulson contre les menaces sur les Inhumains."
+  },
+  {
+    "id": "roscoe_sweeney-mcu-616",
+    "name": "Roscoe Sweeney",
+    "alignment": "méchant",
+    "reason": "Gangster extorqueur responsable de la mort du père de Matt Murdock dans Daredevil."
+  },
+  {
+    "id": "rose_roberts-mcu-616",
+    "name": "Rose Roberts",
+    "alignment": "gentil",
+    "reason": "Agente loyale du SSR soutenant Peggy Carter dans Agent Carter."
+  },
+  {
+    "id": "rose-spider_verse-8311",
+    "name": "Rose",
+    "alignment": "neutre",
+    "reason": "Personnage civil mineur dans Spider-Man: Into the Spider-Verse."
+  },
+  {
+    "id": "roshi-independants-701306",
+    "name": "Roshi",
+    "alignment": "méchant",
+    "reason": "Maître ninja de la Main, organisation criminelle dans Elektra."
+  }
+]

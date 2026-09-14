@@ -1,0 +1,22 @@
+[
+  {"id": "rick_cotton-mcu-616", "name": "Rick Cotton", "alignment": "neutre", "reason": "Personnage mineur indéterminé."},
+  {"id": "rick_mason-mcu-616", "name": "Rick Mason", "alignment": "gentil", "reason": "Allié passeur de Black Widow."},
+  {"id": "ring_binder_divider_man-mcu-617", "name": "Ring-Binder Divider-Man", "alignment": "gentil", "reason": "Héros mineur X-Men '97."},
+  {"id": "ripley_ryan-mcu-86445", "name": "Ripley Ryan", "alignment": "méchant", "reason": "Aftershock, antagoniste Runaways."},
+  {"id": "rita_sever-raimi_verse-96283", "name": "Rita Sever", "alignment": "neutre", "reason": "Civile / rôle secondaire neutre."},
+  {"id": "rj_nakajima-mcu-616", "name": "RJ Nakajima", "alignment": "neutre", "reason": "Personnage mineur sans camp."},
+  {"id": "robert_b-webb_verse-120703", "name": "Robert B.", "alignment": "neutre", "reason": "Figurant, alignement indécis."},
+  {"id": "robert_bob_coleman-mcu-616", "name": "Bob Coleman", "alignment": "neutre", "reason": "Personnage secondaire neutre."},
+  {"id": "robert_bob_hendry-fox_x_men-10005", "name": "Bob Hendry", "alignment": "neutre", "reason": "Prisonnier, pas de camp clair."},
+  {"id": "robert_brooks-independants-26320", "name": "Robert Brooks", "alignment": "neutre", "reason": "Rôle mineur indéterminé."},
+  {"id": "robert_fairbanks-mcu-616", "name": "Robert Fairbanks", "alignment": "neutre", "reason": "Personnage secondaire flou."},
+  {"id": "robert_mckenzie-independants-701306", "name": "Robert McKenzie", "alignment": "neutre", "reason": "Lien Punisher, camp incertain."},
+  {"id": "robert_minoru-mcu-86445", "name": "Robert Minoru", "alignment": "méchant", "reason": "Parent PRIDE, antagoniste."},
+  {"id": "robert_saint-independants-58732", "name": "Robert Saint", "alignment": "neutre", "reason": "Personnage mineur neutre."},
+  {"id": "roberta-fox_fantastiques-121698", "name": "Roberta", "alignment": "neutre", "reason": "Figurant, sans alignement clair."},
+  {"id": "roberto_da_costa-fox_x_men-10005", "name": "Roberto da Costa", "alignment": "gentil", "reason": "Sunspot, héros X-Men."},
+  {"id": "roberto_gonzales-mcu-616", "name": "Roberto Gonzales", "alignment": "neutre", "reason": "Directeur SWORD, bureaucrate gris."},
+  {"id": "roberto_strati-independants-26320", "name": "Roberto Strati", "alignment": "neutre", "reason": "Personnage secondaire indécis."},
+  {"id": "robin_hinton-mcu-616", "name": "Robin Hinton", "alignment": "gentil", "reason": "Alliée Inhumaine Agents of SHIELD."},
+  {"id": "rockwell-mcu-616", "name": "Rockwell", "alignment": "neutre", "reason": "Rôle mineur, camp flou."}
+]

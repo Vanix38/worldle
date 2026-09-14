@@ -1,0 +1,122 @@
+[
+  {
+    "id": "danny-mcu-616",
+    "name": "Danny",
+    "alignment": "méchant",
+    "reason": "Membre criminel de l'Aryan Brotherhood traquant le Punisher pour Pilgrim."
+  },
+  {
+    "id": "danny-webb_verse-120703",
+    "name": "Danny",
+    "alignment": "neutre",
+    "reason": "Personnage civil mineur sans rôle héroïque ou vilain tranché à l'écran."
+  },
+  {
+    "id": "dante_chapman-mcu-616",
+    "name": "Dante Chapman",
+    "alignment": "neutre",
+    "reason": "Jeune criminel gris impliqué dans un braquage tragique à Harlem."
+  },
+  {
+    "id": "darcy_the_duck-mcu-72124",
+    "name": "Darcy the Duck",
+    "alignment": "neutre",
+    "reason": "Animal comique sans camp moral dans l'épisode What If...? de Thor."
+  },
+  {
+    "id": "dark_shadow_lord-mcu-616",
+    "name": "Dark Shadow Lord",
+    "alignment": "méchant",
+    "reason": "Ancien porteur de l'Épée Nécrotique menant une croisade meurtrière contre les dieux."
+  },
+  {
+    "id": "darlene_wilson_nee_jeffries-mcu-616",
+    "name": "Darlene Wilson, née Jeffries",
+    "alignment": "neutre",
+    "reason": "Mère civile de Sam Wilson évoquée en flashbacks familiaux."
+  },
+  {
+    "id": "darryl-mcu-616",
+    "name": "Darryl",
+    "alignment": "neutre",
+    "reason": "Adolescent arrêté à tort lors de la chasse à Luke Cage, sans action vilaine."
+  },
+  {
+    "id": "daunte_jackson-independants-701306",
+    "name": "Daunte Jackson",
+    "alignment": "neutre",
+    "reason": "Ex-criminel injustement accusé de meurtre, défendu par Matt Murdock."
+  },
+  {
+    "id": "dave_griffith-mcu-616",
+    "name": "Dave Griffith",
+    "alignment": "gentil",
+    "reason": "Informateur et allié fidèle de Luke Cage dans Harlem."
+  },
+  {
+    "id": "dave_matailton-mcu-616",
+    "name": "Dave Matailton",
+    "alignment": "gentil",
+    "reason": "Commandant de la Royal Navy loyal, victime remplacée par un Skrull antagoniste."
+  },
+  {
+    "id": "dave-mcu-616",
+    "name": "Dave",
+    "alignment": "neutre",
+    "reason": "Membre criminel de l'équipe de Scott Lang, complice sans statut de héros."
+  },
+  {
+    "id": "david_alan_angar-mcu-616",
+    "name": "David Alan Angar",
+    "alignment": "méchant",
+    "reason": "Super-vilain aux cris soniques affronté par les agents du S.H.I.E.L.D."
+  },
+  {
+    "id": "david_bruce_banner-mcu-82111",
+    "name": "David Bruce Banner",
+    "alignment": "gentil",
+    "reason": "Hulk héroïque allié des Avengers dans la série animée What If...?"
+  },
+  {
+    "id": "david_bruce_banner-mcu-86445",
+    "name": "David Bruce Banner",
+    "alignment": "gentil",
+    "reason": "Hulk héroïque apparaissant dans Your Friendly Neighborhood Spider-Man."
+  },
+  {
+    "id": "david_cunningham-fox_x_men-10005",
+    "name": "David Cunningham",
+    "alignment": "neutre",
+    "reason": "Patient victime du laboratoire d'Ajax, ami de Wade Wilson."
+  },
+  {
+    "id": "david_ellerh-mcu-616",
+    "name": "David Ellerh",
+    "alignment": "méchant",
+    "reason": "Fondateur de l'Église de Gibborim manipulé par Jonah, emprisonnant sa propre famille."
+  },
+  {
+    "id": "david_kurata-mcu-616",
+    "name": "David Kurata",
+    "alignment": "neutre",
+    "reason": "Chirurgien contraint par Kilgrave, victime plutôt qu'antagoniste."
+  },
+  {
+    "id": "david_schultz-mcu-616",
+    "name": "David Schultz",
+    "alignment": "méchant",
+    "reason": "Membre de la famille Schultz commanditant des assassinats via John Pilgrim."
+  },
+  {
+    "id": "davis_lawfers-mcu-616",
+    "name": "Davis Lawfers",
+    "alignment": "méchant",
+    "reason": "Super-vilain Copperhead de la Serpent Society dans Captain America: Brave New World."
+  },
+  {
+    "id": "davis-mcu-616",
+    "name": "Davis",
+    "alignment": "gentil",
+    "reason": "Agent du S.H.I.E.L.D. allié lors des opérations liées à Ant-Man."
+  }
+]

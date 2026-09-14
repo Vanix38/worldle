@@ -1,0 +1,22 @@
+[
+  {"id": "sarah-independants-58460", "name": "Sarah", "alignment": "neutre", "reason": "Civile sans rôle héroïque clair."},
+  {"id": "saunders-mcu-616", "name": "Saunders", "alignment": "neutre", "reason": "Personnage secondaire civil ou indéterminé."},
+  {"id": "scott_forbes-mcu-86445", "name": "Scott Forbes", "alignment": "neutre", "reason": "Civile sans alignement héroïque établi."},
+  {"id": "scott_lang-mcu-86445", "name": "Scott Lang", "alignment": "gentil", "reason": "Ant-Man héroïque dans What If / Runaways."},
+  {"id": "scott_summers-fox_x_men-41633", "name": "Scott Summers", "alignment": "gentil", "reason": "Cyclops, cameo héroïque dans Deadpool 2."},
+  {"id": "scott_summers-mcu-617", "name": "Scott Summers", "alignment": "gentil", "reason": "Cyclops, héros des X-Men '97."},
+  {"id": "shane_ryback-mcu-616", "name": "Shane Ryback", "alignment": "neutre", "reason": "Personnage secondaire sans camp clair."},
+  {"id": "shannon-mcu-616", "name": "Shannon", "alignment": "neutre", "reason": "Civile ou rôle mineur indéterminé."},
+  {"id": "sharon_davis-mcu-616", "name": "Sharon Davis", "alignment": "neutre", "reason": "Amie / civile liée à Riri, pas héroïne."},
+  {"id": "sharon_xavier-fox_x_men-10005", "name": "Sharon Xavier", "alignment": "neutre", "reason": "Mère de Charles Xavier, civile."},
+  {"id": "shawna_lynde-mcu-616", "name": "Shawna Lynde", "alignment": "neutre", "reason": "Petite amie civile de Tony Stark."},
+  {"id": "sheila_rivera-mcu-616", "name": "Sheila Rivera", "alignment": "neutre", "reason": "Personnage secondaire civil."},
+  {"id": "sheila-mcu-616", "name": "Sheila", "alignment": "neutre", "reason": "Civile sans alignement établi."},
+  {"id": "shelby-mcu-616", "name": "Shelby", "alignment": "neutre", "reason": "Personnage mineur indéterminé."},
+  {"id": "sheldon-mcu-616", "name": "Sheldon", "alignment": "neutre", "reason": "Civile ou rôle secondaire neutre."},
+  {"id": "shen_lu_wei-independants-26320", "name": "Shen Lu Wei", "alignment": "neutre", "reason": "Personnage indépendant sans camp clair."},
+  {"id": "sherry_yang-mcu-616", "name": "Sherry Yang", "alignment": "neutre", "reason": "Civile secondaire du MCU."},
+  {"id": "shirley_benson-mcu-616", "name": "Shirley Benson", "alignment": "neutre", "reason": "Cliente / employeuse civile d'Alias."},
+  {"id": "shuri-mcu-21818", "name": "Shuri", "alignment": "gentil", "reason": "Héroïne wakandaise dans What If."},
+  {"id": "siddharth_k-webb_verse-120703", "name": "Siddharth K.", "alignment": "neutre", "reason": "Personnage secondaire sans alignement clair."}
+]

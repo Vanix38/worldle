@@ -1,0 +1,22 @@
+[
+  {"id": "sif-mcu-72124", "name": "Sif", "alignment": "gentil", "reason": "Guerrière asgardienne alliée dans What If."},
+  {"id": "silvio-mcu-616", "name": "Silvio", "alignment": "neutre", "reason": "Personnage secondaire civil ou indéterminé."},
+  {"id": "simon_stacy-webb_verse-120703", "name": "Simon Stacy", "alignment": "neutre", "reason": "Civile / secondaire sans rôle héroïque."},
+  {"id": "singh-mcu-616", "name": "Singh", "alignment": "neutre", "reason": "Personnage mineur sans camp clair."},
+  {"id": "singh-mcu-82111", "name": "Singh", "alignment": "neutre", "reason": "Personnage secondaire indéterminé."},
+  {"id": "sissy_garcia-mcu-616", "name": "Sissy Garcia", "alignment": "neutre", "reason": "Civile sans alignement établi."},
+  {"id": "skully-mcu-616", "name": "Skully", "alignment": "neutre", "reason": "Personnage mineur indéterminé."},
+  {"id": "skurge-mcu-72124", "name": "Skurge", "alignment": "neutre", "reason": "Executioner gris : allié puis rédemption."},
+  {"id": "slider_man-mcu-617", "name": "Slider-Man", "alignment": "gentil", "reason": "Héros type X-Men '97."},
+  {"id": "slocum-raimi_verse-96283", "name": "Slocum", "alignment": "neutre", "reason": "Personnel du Daily Bugle, civil."},
+  {"id": "smokey-independants-400083", "name": "Smokey", "alignment": "neutre", "reason": "Personnage indépendant sans camp clair."},
+  {"id": "snake-mcu-616", "name": "Snake", "alignment": "neutre", "reason": "Personnage secondaire indéterminé."},
+  {"id": "snowflake-mcu-616", "name": "Snowflake", "alignment": "méchant", "reason": "Membre des Flag Smashers, antagoniste."},
+  {"id": "snowman-independants-26320", "name": "Snowman", "alignment": "neutre", "reason": "Personnage indépendant sans alignement clair."},
+  {"id": "soh_larr-mcu-616", "name": "Soh-Larr", "alignment": "neutre", "reason": "Personnage secondaire indéterminé."},
+  {"id": "sol_rama-mcu-616", "name": "Sol Rama", "alignment": "gentil", "reason": "Maître des arts mystiques, allié."},
+  {"id": "soledad_ayala-mcu-616", "name": "Soledad Ayala", "alignment": "neutre", "reason": "Civile sans rôle héroïque."},
+  {"id": "soledad_temple-mcu-616", "name": "Soledad Temple", "alignment": "neutre", "reason": "Personnage secondaire civil."},
+  {"id": "sommerfield-independants-26320", "name": "Sommerfield", "alignment": "neutre", "reason": "Personnage indépendant indéterminé."},
+  {"id": "sonya_falsworth-mcu-616", "name": "Sonya Falsworth", "alignment": "gentil", "reason": "Alliée MI6 dans Secret Invasion."}
+]

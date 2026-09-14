@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mr_prohaszka-mcu-616",
+    "name": "Prohashka",
+    "alignment": "méchant",
+    "reason": "Mobster russe de Kitchen Cab tué par John Healy dans Daredevil S1."
+  },
+  {
+    "id": "mrs_hoskins-mcu-616",
+    "name": "Mrs. Hoskins",
+    "alignment": "neutre",
+    "reason": "Mère civile de Battlestar, fleuriste à Custer's Grove dans TFATWS."
+  },
+  {
+    "id": "mrs_lieberman-independants-47281",
+    "name": "Mrs. Lieberman",
+    "alignment": "neutre",
+    "reason": "Épouse de Microchip, victime civile tuée dans Punisher: War Zone."
+  },
+  {
+    "id": "mrs_nielson-mcu-616",
+    "name": "Mrs. Nielson",
+    "alignment": "neutre",
+    "reason": "Résidente de Westview, voisine piégée dans l'illusion de WandaVision."
+  },
+  {
+    "id": "ms_hoskins-mcu-616",
+    "name": "Ms. Hoskins",
+    "alignment": "neutre",
+    "reason": "Membre civile de la famille Hoskins lors de la visite de John Walker."
+  },
+  {
+    "id": "ms_tezuka-mcu-616",
+    "name": "Ms. Tezuka",
+    "alignment": "neutre",
+    "reason": "Personnel scolaire d'Atlas Academy, figure civile dans Runaways S1."
+  },
+  {
+    "id": "n_jobu-mcu-616",
+    "name": "N'Jobu",
+    "alignment": "neutre",
+    "reason": "Prince traître aux motivations compréhensibles, figure tragique de Black Panther."
+  },
+  {
+    "id": "nadia-mcu-616",
+    "name": "Nadia",
+    "alignment": "neutre",
+    "reason": "Amie de Seema Nadeem, personnage uniquement mentionné dans Daredevil S3."
+  },
+  {
+    "id": "namor_mckenzie-mcu-617",
+    "name": "Namor McKenzie",
+    "alignment": "neutre",
+    "reason": "Référence obscure de Secret Wars Too, sans rôle narratif défini à l'écran."
+  },
+  {
+    "id": "namor_mckenzie-raimi_verse-96283",
+    "name": "Namor McKenzie",
+    "alignment": "neutre",
+    "reason": "Mention du roi d'Atlantis dans le roman de Spider-Man 2, absent des films."
+  },
+  {
+    "id": "nana_b-mcu-616",
+    "name": "Nana B",
+    "alignment": "neutre",
+    "reason": "Grand-mère civile de Darius dans Runaways S2."
+  },
+  {
+    "id": "narblik-mcu-616",
+    "name": "Narblik",
+    "alignment": "méchant",
+    "reason": "Ravager mutin allié à Taserface contre Yondu dans GotG Vol. 2."
+  },
+  {
+    "id": "nathan_b_nathanson-mcu-616",
+    "name": "Nathan B. Nathanson",
+    "alignment": "gentil",
+    "reason": "Scientifique S.H.I.E.L.D. tué par Aida en découvrant le piège de May."
+  },
+  {
+    "id": "nathan_nate_garrett-mcu-616",
+    "name": "Nathan \"Nate\" Garrett",
+    "alignment": "neutre",
+    "reason": "Oncle étranger de Dane Whitman, seulement mentionné dans Eternals."
+  },
+  {
+    "id": "nathaniel_essex-fox_x_men-10005",
+    "name": "Nathaniel Essex",
+    "alignment": "méchant",
+    "reason": "Essex Corp/Mister Sinister, collecte le sang de Wolverine en post-générique d'Apocalypse."
+  },
+  {
+    "id": "nebula-mcu-72124",
+    "name": "Nebula",
+    "alignment": "neutre",
+    "reason": "Invitée à la fête intergalactique de Thor dans What If...? épisode 7."
+  },
+  {
+    "id": "neda_kazemi-mcu-616",
+    "name": "Neda Kazemi",
+    "alignment": "neutre",
+    "reason": "Star de télé-réalité, victime de kidnapping sauvée par Daredevil en S3."
+  },
+  {
+    "id": "neil_garrett-raimi_verse-96283",
+    "name": "Neil Garrett",
+    "alignment": "gentil",
+    "reason": "Officier NYPD dans Spider-Man 3, force de l'ordre."
+  },
+  {
+    "id": "nesbitt-mcu-616",
+    "name": "Nesbitt",
+    "alignment": "méchant",
+    "reason": "Chef du Kitchen Irish massacré par le Punisher dans Daredevil S2."
+  },
+  {
+    "id": "neville_barnwell-mcu-616",
+    "name": "Neville Barnwell",
+    "alignment": "méchant",
+    "reason": "Leader criminel des Yardies tué par Diamondback dans Luke Cage S1."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "marc_spector-independants-26320",
+    "name": "Marc Spector",
+    "alignment": "neutre",
+    "reason": "Seulement cité comme expert en loups-garous dans Blade: The Series, sans apparition à l'écran."
+  },
+  {
+    "id": "marc_spector-mcu-617",
+    "name": "Marc Spector",
+    "alignment": "neutre",
+    "reason": "Référence comics dans l'univers MCU 617, sans rôle héroïque ou criminel montré."
+  },
+  {
+    "id": "marcus_daniels-mcu-616",
+    "name": "Marcus Daniels",
+    "alignment": "méchant",
+    "reason": "Blackout, antagoniste Darkforce qui traque Audrey Nathan dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "marcus_scarlotti-mcu-616",
+    "name": "Marcus Scarlotti",
+    "alignment": "méchant",
+    "reason": "Mercenaire HYDRA qui attaque l'ONU déguisé en agent SHIELD dans Agents of S.H.I.E.L.D."
+  },
+  {
+    "id": "margaret-fox_x_men-10005",
+    "name": "Margaret",
+    "alignment": "neutre",
+    "reason": "Civile tuée par les D'Bari avant que Vuk ne prenne son apparence dans Dark Phoenix."
+  },
+  {
+    "id": "maria_collins_carbonell_stark-mcu-616",
+    "name": "Maria Collins Carbonell Stark",
+    "alignment": "neutre",
+    "reason": "Mère de Tony Stark, figure familiale civile sans action héroïque ou criminelle."
+  },
+  {
+    "id": "maria_elizabeth_castle-independants-47281",
+    "name": "Maria Elizabeth Castle",
+    "alignment": "neutre",
+    "reason": "Épouse de Frank Castle, victime civile assassinée dans Punisher: War Zone."
+  },
+  {
+    "id": "maria_morales-spider_verse-8311",
+    "name": "Maria Morales",
+    "alignment": "neutre",
+    "reason": "Tante de Miles Morales, civile présente à la fête familiale dans Across the Spider-Verse."
+  },
+  {
+    "id": "maria_rodriguez-mcu-616",
+    "name": "Maria Rodriguez",
+    "alignment": "neutre",
+    "reason": "Membre du conseil de Rand Enterprises, cadre d'entreprise sans rôle antagoniste."
+  },
+  {
+    "id": "marie_ellen_dodge-fox_x_men-10005",
+    "name": "Marie Ellen Dodge",
+    "alignment": "neutre",
+    "reason": "Témoin civile du rapport promotionnel Bent Bullet sur l'assassinat de JFK."
+  },
+  {
+    "id": "mariella-fox_x_men-10005",
+    "name": "Mariella",
+    "alignment": "neutre",
+    "reason": "Illusion générée par les pouvoirs de Dani Moonstar dans The New Mutants."
+  },
+  {
+    "id": "mark_buckingham-mcu-828",
+    "name": "Mark Buckingham",
+    "alignment": "neutre",
+    "reason": "Personnage mineur cité dans Fantastic Four: First Steps, sans rôle défini à l'écran."
+  },
+  {
+    "id": "mark_higgins-mcu-616",
+    "name": "Mark Higgins",
+    "alignment": "neutre",
+    "reason": "PDG d'Atreus Plastics, victime civile chantage puis exécuté par Bushmaster dans Luke Cage."
+  },
+  {
+    "id": "markham-mcu-616",
+    "name": "Markham",
+    "alignment": "méchant",
+    "reason": "Agent FBI corrompu au service de Kingpin dans Daredevil saison 3."
+  },
+  {
+    "id": "martha_connors-webb_verse-120703",
+    "name": "Martha Connors",
+    "alignment": "neutre",
+    "reason": "Épouse du Dr Curt Connors, civile sans action héroïque ou criminelle à l'écran Webb."
+  },
+  {
+    "id": "martha_franklin-ssu-688",
+    "name": "Martha Franklin",
+    "alignment": "gentil",
+    "reason": "Mattie Franklin, future Spider-Girl protégée puis alliée de Cassandra Webb contre Ezekiel Sims."
+  },
+  {
+    "id": "martha-mcu-616",
+    "name": "Martha",
+    "alignment": "neutre",
+    "reason": "Personnage mineur dans She-Hulk: Attorney at Law, sans rôle héroïque ou criminel."
+  },
+  {
+    "id": "martin_vreede-independants-26320",
+    "name": "Martin Vreede",
+    "alignment": "neutre",
+    "reason": "Chef de police qui arrête Blade après le piège des vampires dans Blade: Trinity."
+  },
+  {
+    "id": "martin_wallace-mcu-616",
+    "name": "Martin Wallace",
+    "alignment": "méchant",
+    "reason": "Commandant du groupe extrémiste Americans Against Russia manipulé pour provoquer une guerre."
+  },
+  {
+    "id": "martin-mcu-616",
+    "name": "Martin",
+    "alignment": "neutre",
+    "reason": "Figurant mineur dans Le Punisher saison 2, sans rôle antagoniste identifiable."
+  }
+]

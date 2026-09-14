@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hope_shlottman-mcu-616",
+    "name": "Hope Shlottman",
+    "alignment": "neutre",
+    "reason": "Patiente civile de Jessica Jones, victime sans rôle héroïque."
+  },
+  {
+    "id": "hope_van_dyne-mcu-82111",
+    "name": "Hope Van Dyne",
+    "alignment": "gentil",
+    "reason": "Variante héroïque de la Guêpe alliée dans What If…?"
+  },
+  {
+    "id": "horseman_of_death-fox_x_men-10005",
+    "name": "Horseman of Death",
+    "alignment": "méchant",
+    "reason": "Serviteur d'Apocalypse, antagoniste des X-Men."
+  },
+  {
+    "id": "horseman_of_famine-fox_x_men-10005",
+    "name": "Horseman of Famine",
+    "alignment": "méchant",
+    "reason": "Cavalier d'Apocalypse en guerre contre les mutants libres."
+  },
+  {
+    "id": "horseman_of_pestilence-fox_x_men-10005",
+    "name": "Horseman of Pestilence",
+    "alignment": "méchant",
+    "reason": "Cavalier d'Apocalypse, force antagoniste à l'écran."
+  },
+  {
+    "id": "horseman_of_war-fox_x_men-10005",
+    "name": "Horseman of War",
+    "alignment": "méchant",
+    "reason": "Cavalier d'Apocalypse combattant les héros."
+  },
+  {
+    "id": "horuz-mcu-616",
+    "name": "Horuz",
+    "alignment": "méchant",
+    "reason": "Guerrier Kree sous Yon-Rogg, camp impérial antagoniste."
+  },
+  {
+    "id": "houston-mcu-616",
+    "name": "Houston",
+    "alignment": "neutre",
+    "reason": "Personnage mineur au rôle peu clair à l'écran."
+  },
+  {
+    "id": "howard_stacy-webb_verse-120703",
+    "name": "Howard Stacy",
+    "alignment": "gentil",
+    "reason": "Capitaine de police allié, père protecteur de Gwen."
+  },
+  {
+    "id": "howard_the_duck-mcu-21818",
+    "name": "Howard the Duck",
+    "alignment": "neutre",
+    "reason": "Caméo comique sans camp héroïque clair."
+  },
+  {
+    "id": "howard_the_duck-mcu-72124",
+    "name": "Howard the Duck",
+    "alignment": "neutre",
+    "reason": "Caméo comique, figure grise hors conflit principal."
+  },
+  {
+    "id": "huhtar-mcu-616",
+    "name": "Huhtar",
+    "alignment": "neutre",
+    "reason": "Figurant mineur au camp ambigu ou non précisé."
+  },
+  {
+    "id": "humanoid_experimental_robot_b_type_integrated_electronics-fox_fantastiques-121698",
+    "name": "Humanoid Experimental Robot B-Type Integrated Electronics",
+    "alignment": "gentil",
+    "reason": "H.E.R.B.I.E., robot allié aidant les Fantastiques."
+  },
+  {
+    "id": "ian_c-webb_verse-120703",
+    "name": "Ian C.",
+    "alignment": "neutre",
+    "reason": "Civil mineur du Webb-verse, rôle secondaire."
+  },
+  {
+    "id": "idaho-mcu-616",
+    "name": "Idaho",
+    "alignment": "neutre",
+    "reason": "Personnage secondaire au positionnement flou."
+  },
+  {
+    "id": "igor-mcu-828",
+    "name": "Igor",
+    "alignment": "neutre",
+    "reason": "Figurant mineur, affiliation peu claire à l'écran."
+  },
+  {
+    "id": "illyana_rasputin-fox_x_men-10005",
+    "name": "Illyana Rasputin",
+    "alignment": "neutre",
+    "reason": "Enfant capturée par Apocalypse, pas encore héroïne à l'écran."
+  },
+  {
+    "id": "ink-independants-47281",
+    "name": "Ink",
+    "alignment": "neutre",
+    "reason": "Mutant anti-héros gris, camp ambigu."
+  },
+  {
+    "id": "irene_merryweather-fox_x_men-41633",
+    "name": "Irene Merryweather",
+    "alignment": "neutre",
+    "reason": "Journaliste civile hors combat mutant."
+  },
+  {
+    "id": "iridia-mcu-616",
+    "name": "Iridia",
+    "alignment": "neutre",
+    "reason": "Personnage mineur au camp non tranché."
+  }
+]
