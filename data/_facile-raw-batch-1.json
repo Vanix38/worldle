@@ -1,0 +1,445 @@
+[
+  {
+    "id": "abraham_whistler-independants-26320",
+    "name": "Abraham Whistler",
+    "status": "Décédé",
+    "aliases": [
+      "Poppy"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Blade",
+    "firstAppearance": "Blade (1998 film)",
+    "hint1": "",
+    "hint2": "1998",
+    "hint3": "Blade (1998 film)",
+    "role": "",
+    "abilities": [],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "adrian_toomes-mcu-616",
+    "name": "Adrian Toomes",
+    "status": "En Vie",
+    "aliases": [
+      "Vulture",
+      "Le Vautour"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Le Vautour",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "Michael Keaton",
+    "hint2": "2017",
+    "hint3": "Spider-Man : Homecoming, Morbius",
+    "role": "Réformé",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "agatha_harkness-mcu-616",
+    "name": "Agatha Harkness",
+    "status": "En Vie",
+    "aliases": [
+      "Agnes"
+    ],
+    "species": "Sorcière",
+    "gender": "Femme",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "Kathryn Hahn",
+    "hint2": "2021",
+    "hint3": "WandaVision (Saison 1), Agatha All Along (Saison 1)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Magiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "aleksei_sytsevich-ssu-688",
+    "name": "Aleksei Sytsevich",
+    "status": "Décédé",
+    "aliases": [
+      "Rhino"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Kraven the Hunter",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Kraven the Hunter",
+    "role": "",
+    "abilities": [],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "ancient_one-mcu-616",
+    "name": "Ancient One",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "Doctor Strange Prelude",
+    "hint1": "Tilda Swinton",
+    "hint2": "",
+    "hint3": "Doctor Strange Prelude",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "anthony_tony_stark-mcu-82111",
+    "name": "Anthony \"Tony\" Stark",
+    "status": "En Vie",
+    "aliases": [
+      "Iron Man"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "What If...? (animated series) Season 2 5",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "What If...? (animated series) Season 2 5",
+    "role": "",
+    "abilities": [],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "anthony_tony_stark-mcu-86445",
+    "name": "Anthony \"Tony\" Stark",
+    "status": "En Vie",
+    "aliases": [
+      "Iron Man"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 8",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 8",
+    "role": "",
+    "abilities": [],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "baron_helmut_zemo-mcu-616",
+    "name": "Baron Helmut Zemo",
+    "aliases": [],
+    "status": "En Vie",
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Captain America : Civil War",
+    "hint1": "Daniel Brühl",
+    "hint2": "2016",
+    "hint3": "Captain America : Civil War, Falcon et le Soldat de l'Hiver (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires",
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "ben_grimm-fox_fantastiques-121698",
+    "name": "Ben Grimm (Fox, 2005)",
+    "aliases": [
+      "Ben Grimm",
+      "The Thing",
+      "La Chose"
+    ],
+    "status": "En Vie",
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "4 Fantastiques",
+    "firstAppearance": "4 Fantastiques",
+    "hint1": "Michael Chiklis",
+    "hint2": "2005",
+    "hint3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
+    "role": "Héros",
+    "abilities": [
+      "Militaires",
+      "Surhumaines"
+    ],
+    "earth": 121698,
+    "universe": "Fox Fantastiques",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "ben_grimm-mcu-828",
+    "name": "Ben Grimm (Terre-828)",
+    "status": "En Vie",
+    "aliases": [
+      "Ben Grimm",
+      "Benjamin Jacob Grimm",
+      "La Chose",
+      "The Thing"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "4 Fantastiques",
+    "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
+    "hint1": "Ebon Moss-Bachrach",
+    "hint2": "2025",
+    "hint3": "Les Quatre Fantastiques : Premiers Pas",
+    "role": "Héros",
+    "abilities": [
+      "Militaires",
+      "Surhumaines"
+    ],
+    "earth": 828,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "ben_parker-raimi_verse-96283",
+    "name": "Ben Parker (Terre-96283)",
+    "status": "Décédé",
+    "aliases": [
+      "Uncle Ben",
+      "Benjamin Parker",
+      "Ben Parker (Raimi)"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man",
+    "hint1": "Cliff Robertson",
+    "hint2": "2002",
+    "hint3": "Spider-Man, Spider-Man 2",
+    "role": "Mentor",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "benjamin_j_ben_grimm-mcu-828",
+    "name": "Benjamin J. \"Ben\" Grimm",
+    "status": "En Vie",
+    "aliases": [
+      "Thing"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Formerly:",
+    "firstAppearance": "Fantastic Four: First Steps Vol 1 1",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Fantastic Four: First Steps Vol 1 1",
+    "role": "",
+    "abilities": [],
+    "earth": 828,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "benjamin_jacob_ben_grimm-fox_fantastiques-121698",
+    "name": "Benjamin Jacob \"Ben\" Grimm",
+    "status": "En Vie",
+    "aliases": [
+      "Thing",
+      "Benny",
+      "Pebbles"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Fantastic Four (2005 film)",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Fantastic Four (2005 film)",
+    "role": "",
+    "abilities": [],
+    "earth": 121698,
+    "universe": "Fox Fantastiques",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "brock_rumlow-mcu-616",
+    "name": "Brock Rumlow",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Captain America : Le Soldat de l'Hiver",
+    "hint1": "Frank Grillo",
+    "hint2": "2014",
+    "hint3": "Captain America : Le Soldat de l'Hiver, Captain America : Civil War, Avengers : Endgame, What If...? (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "brunnhilde-mcu-616",
+    "name": "Brunnhilde",
+    "status": "En Vie",
+    "aliases": [
+      "Valkyrie"
+    ],
+    "species": "Asgardian",
+    "gender": "Femme",
+    "affiliation": "Nouvelle Asgard",
+    "firstAppearance": "Thor : Ragnarok",
+    "hint1": "Tessa Thompson",
+    "hint2": "2017",
+    "hint3": "Thor : Ragnarok, Avengers : Endgame, Thor : Love and Thunder, The Marvels, What If...? (Saison 1)",
+    "role": "Héros",
+    "abilities": [
+      "Divinnes",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "bucky_barnes-mcu-616",
+    "name": "Bucky Barnes",
+    "status": "En Vie",
+    "aliases": [
+      "Winter Soldier",
+      "James Buchanan Barnes"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Nouveaux Avengers",
+    "firstAppearance": "Captain America : First Avenger",
+    "hint1": "Sebastian Stan",
+    "hint2": "2011",
+    "hint3": "Captain America : First Avenger, Captain America : Le Soldat de l'Hiver, Ant-Man, Captain America : Civil War, Avengers : Infinity War, Black Panther, Avengers : Endgame, Falcon et le Soldat de l'Hiver (Saison 1)",
+    "role": "Réformé",
+    "abilities": [
+      "Militaires",
+      "Surhumaines",
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "cain_marko-fox_x_men-10005",
+    "name": "Cain Marko",
+    "status": "En Vie",
+    "aliases": [
+      "Juggernaut"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men : L'Affrontement final",
+    "hint1": "Vinnie Jones",
+    "hint2": "2006",
+    "hint3": "X-Men : L'Affrontement final, Deadpool 2",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Résistance"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "captain_carter-mcu-82111",
+    "name": "Captain Carter (Terre-82111)",
+    "aliases": [
+      "Peggy Carter",
+      "Margaret Elizabeth Carter",
+      "Captain Carter (What If...?)"
+    ],
+    "status": "En Vie",
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Gardiens du multivers",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Hayley Atwell",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1), What If...? (Saison 2), What If...? (Saison 3)",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines"
+    ],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "carnage-ssu-688",
+    "name": "Carnage",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Symbiote",
+    "gender": "Homme",
+    "firstAppearance": "Venom : Let There Be Carnage",
+    "affiliation": "Indépendant(e)",
+    "hint1": "Woody Harrelson",
+    "hint2": "2021",
+    "hint3": "Venom : Let There Be Carnage",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "carol_danvers-mcu-616",
+    "name": "Carol Danvers",
+    "status": "En Vie",
+    "aliases": [
+      "Captain Marvel",
+      "Carol Susan Jane Danvers"
+    ],
+    "species": [
+      "Humain",
+      "Kree"
+    ],
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Captain Marvel",
+    "hint1": "Brie Larson",
+    "hint2": "2019",
+    "hint3": "Captain Marvel, Avengers : Endgame, Shang-Chi et la Légende des Dix Anneaux, Ms. Marvel (Saison 1), The Marvels",
+    "role": "Héros",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  }
+]

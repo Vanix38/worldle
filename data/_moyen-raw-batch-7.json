@@ -1,0 +1,421 @@
+[
+  {
+    "id": "ivan_vanko-mcu-616",
+    "name": "Ivan Vanko",
+    "status": "Décédé",
+    "aliases": [
+      "Whiplash",
+      "Ivan Vanko (Ð˜Ð²Ð°Ð½ Ð’Ð°Ð½ÐºÐ¾)"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Iron Man 2",
+    "hint1": "Mickey Rourke",
+    "hint2": "2010",
+    "hint3": "Iron Man 2, What If...? (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Technologiques",
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jack_hammer-fox_x_men-10005",
+    "name": "Jack Hammer",
+    "status": "En Vie",
+    "aliases": [
+      "Weasel"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Sister Margaret's School for Wayward Children",
+    "firstAppearance": "Deadpool",
+    "hint1": "",
+    "hint2": "2016",
+    "hint3": "Deadpool",
+    "role": "",
+    "abilities": [],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jack_hammer-fox_x_men-41633",
+    "name": "Jack Hammer",
+    "status": "En Vie",
+    "aliases": [
+      "Weasel"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Sister Margaret's School for Wayward Children",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "",
+    "abilities": [],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jack_russell-mcu-616",
+    "name": "Jack Russell",
+    "aliases": [
+      "Werewolf by Night"
+    ],
+    "status": "En Vie",
+    "species": [
+      "Humain",
+      "Loup-garou"
+    ],
+    "gender": "Homme",
+    "affiliation": "Chasseurs de monstres",
+    "firstAppearance": "Werewolf by Night",
+    "hint1": "Gael García Bernal",
+    "hint2": "2022",
+    "hint3": "Werewolf by Night",
+    "role": "Anti-héros",
+    "abilities": [
+      "Surhumaines",
+      "Monstrueuses"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jack_thompson-mcu-616",
+    "name": "Jack Thompson",
+    "status": "Décédé",
+    "aliases": [
+      "Jackie"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "SSR",
+    "firstAppearance": "Agent Carter (Saison 1)",
+    "hint1": "Chad Michael Murray",
+    "hint2": "2015",
+    "hint3": "Agent Carter (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "james_connors-mcu-616",
+    "name": "James Connors",
+    "status": "Décédé",
+    "aliases": [
+      "Agent M"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "New Orleans P.D.",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "J.D. Evermore",
+    "hint2": "",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "james_davis-mcu-616",
+    "name": "James Davis",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "Max Osinski",
+    "hint2": "2013",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "james_lucas-mcu-616",
+    "name": "James Lucas",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Mount Olivet Baptist Church",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Reg E. Cathey",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "janet_stein-mcu-616",
+    "name": "Janet Stein",
+    "status": "En Vie",
+    "aliases": [
+      "J-Brid"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "PRIDE",
+    "firstAppearance": "Runaways (Saison 1)",
+    "hint1": "Ever Carradine",
+    "hint2": "",
+    "hint3": "Runaways (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jason_wilkes-mcu-616",
+    "name": "Jason Wilkes",
+    "status": "En Vie",
+    "aliases": [
+      "Mr. Wilson",
+      ", Colored Scientist"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Formerly:",
+    "firstAppearance": "Agent Carter (Saison 2)",
+    "hint1": "Reggie Austin",
+    "hint2": "2016",
+    "hint3": "Agent Carter (Saison 2)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jefferson_morales-spider_verse-8311",
+    "name": "Jefferson Morales",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "NYPD",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "Brian Tyree Henry",
+    "hint2": "2018",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jeffrey_mace-mcu-616",
+    "name": "Jeffrey Mace",
+    "status": "Décédé",
+    "aliases": [
+      "Patriot"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint1": "Jason O'Mara",
+    "hint2": "2016",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jennifer_walters-mcu-616",
+    "name": "Jennifer Walters",
+    "status": "En Vie",
+    "aliases": [
+      "She-Hulk",
+      "Jennifer Susan Walters"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "She-Hulk (Saison 1)",
+    "hint1": "Tatiana Maslany",
+    "hint2": "2022",
+    "hint3": "She-Hulk (Saison 1)",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Biochimiques",
+      "Régénération"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jeri_hogarth-mcu-616",
+    "name": "Jeri Hogarth",
+    "status": "En Vie",
+    "aliases": [
+      "Jeryn Hogarth"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Rand Entreprises",
+    "firstAppearance": "Jessica Jones (Saison 1)",
+    "hint1": "Carrie-Anne Moss",
+    "hint2": "2015",
+    "hint3": "Jessica Jones (Saison 1), Daredevil (Saison 2), Iron Fist (Saison 1), The Defenders (Saison 1), Jessica Jones (Saison 2), Jessica Jones (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "jimmy_woo-mcu-616",
+    "name": "Jimmy Woo",
+    "status": "En Vie",
+    "aliases": [
+      "James E. Woo"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "États-Unis",
+    "firstAppearance": "Ant-Man et la Guêpe",
+    "hint1": "Randall Park",
+    "hint2": "2018",
+    "hint3": "Ant-Man et la Guêpe, WandaVision (Saison 1), Ant-Man et la Guêpe : Quantumania",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "joaquin_torres-mcu-616",
+    "name": "Joaquin Torres",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "affiliation": "États-Unis",
+    "hint1": "Danny Ramirez",
+    "hint2": "2021",
+    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1), Captain America : Brave New World",
+    "role": "Héros",
+    "abilities": [
+      "Militaires",
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "johann_fennhoff-mcu-616",
+    "name": "Johann Fennhoff",
+    "status": "En Vie",
+    "aliases": [
+      "Viktor Ivchenko"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Formerly:",
+    "firstAppearance": "Agent Carter (Saison 1)",
+    "hint1": "Ralph Brown",
+    "hint2": "2015",
+    "hint3": "Agent Carter (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "john_allerdyce-fox_x_men-10005",
+    "name": "John Allerdyce",
+    "status": "En Vie",
+    "aliases": [
+      "Pyro"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men",
+    "hint1": "Alexander Burton",
+    "hint2": "2000",
+    "hint3": "X-Men, X-Men 2, X-Men : L'Affrontement final, Deadpool & Wolverine",
+    "role": "Vilain",
+    "abilities": [
+      "Pyrokinésiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "john_jonah_jameson_iii-raimi_verse-96283",
+    "name": "John Jonah Jameson III",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Spider-Man 2",
+    "hint1": "",
+    "hint2": "2004",
+    "hint3": "Spider-Man 2",
+    "role": "",
+    "abilities": [],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "john_pilgrim-mcu-616",
+    "name": "John Pilgrim",
+    "status": "En Vie",
+    "aliases": [
+      "Robert"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Famille Schultz",
+    "firstAppearance": "Le Punisher (Saison 1)",
+    "hint1": "Josh Stewart",
+    "hint2": "2017",
+    "hint3": "Le Punisher (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  }
+]

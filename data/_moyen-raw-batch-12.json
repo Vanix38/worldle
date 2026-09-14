@@ -1,0 +1,447 @@
+[
+  {
+    "id": "peter_wisdom-fox_x_men-41633",
+    "name": "Peter Wisdom",
+    "status": "Décédé",
+    "aliases": [
+      "Sugar Bear"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "X-Force",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "",
+    "abilities": [],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "president_loki-mcu-0",
+    "name": "President Loki",
+    "status": "En Vie",
+    "aliases": [
+      "President Loki"
+    ],
+    "species": "Frost Giant",
+    "gender": "Homme",
+    "affiliation": "Vortex (TVA)",
+    "firstAppearance": "Loki (Saison 1)",
+    "hint1": "Tom Hiddleston",
+    "hint2": "2021",
+    "hint3": "Loki (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Aliennnes"
+    ],
+    "earth": 0,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "proxima_midnight-mcu-616",
+    "name": "Proxima Midnight",
+    "status": "Décédé",
+    "aliases": [],
+    "gender": "Femme",
+    "affiliation": "Ordre noir (Thanos)",
+    "firstAppearance": "Avengers : Infinity War",
+    "species": "Alien",
+    "hint1": "Carrie Coon",
+    "hint2": "2018",
+    "hint3": "Avengers : Infinity War, Avengers : Endgame, What If...? (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "psylocke-fox_x_men-10005",
+    "name": "Psylocke",
+    "status": "Décédé",
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men : L'Affrontement final",
+    "aliases": [],
+    "hint1": "Mei Melançon",
+    "hint2": "2006",
+    "hint3": "X-Men : L'Affrontement final",
+    "role": "Vilain",
+    "abilities": [
+      "Téléportation",
+      "Energétiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "ramonda-mcu-616",
+    "name": "Ramonda",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Wakanda",
+    "firstAppearance": "Black Panther",
+    "hint1": "Angela Bassett",
+    "hint2": "2018",
+    "hint3": "Black Panther, Avengers : Endgame, Black Panther : Wakanda Forever",
+    "role": "Mentor",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "ravonna_renslayer-mcu-616",
+    "name": "Ravonna Renslayer",
+    "status": "En Vie",
+    "aliases": [
+      "Rebecca Tourminet"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "TVA (Tribunal des variations anachroniques)",
+    "firstAppearance": "Loki (Saison 1)",
+    "hint1": "Gugu Mbatha-Raw",
+    "hint2": "2021",
+    "hint3": "Loki (Saison 1), Loki (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "rio_morales-spider_verse-8311",
+    "name": "Rio Morales",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "Luna Lauren Velez",
+    "hint2": "2018",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "rio_vidal-mcu-616",
+    "name": "Rio Vidal",
+    "status": "En Vie",
+    "aliases": [
+      "Death",
+      "La Mort"
+    ],
+    "species": "Entité Cosmique",
+    "gender": "Femme",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "hint1": "Aubrey Plaza",
+    "hint2": "2024",
+    "hint3": "Agatha All Along (Saison 1)",
+    "role": "Amoral",
+    "abilities": [
+      "Cosmiques",
+      "Magiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "riri_williams-mcu-616",
+    "name": "Riri Williams",
+    "status": "En Vie",
+    "aliases": [
+      "Ironheart"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Jeunes Avengers",
+    "firstAppearance": "Black Panther : Wakanda Forever",
+    "hint1": "Dominique Thorne",
+    "hint2": "2022",
+    "hint3": "Black Panther : Wakanda Forever, Ironheart (Saison 1)",
+    "role": "Héros",
+    "abilities": [
+      "Technologiques",
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "robert_reynolds-mcu-616",
+    "name": "Robert Reynolds",
+    "status": "En Vie",
+    "aliases": [
+      "Sentry"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Nouveaux Avengers",
+    "firstAppearance": "Thunderbolts",
+    "hint1": "Lewis Pullman",
+    "hint2": "2025",
+    "hint3": "Thunderbolts",
+    "role": "Anti-héros",
+    "abilities": [
+      "Surhumaines",
+      "Biochimiques",
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "ronan_l_accusateur-mcu-616",
+    "name": "Ronan l'Accusateur",
+    "status": "Décédé",
+    "aliases": [
+      "Ronan"
+    ],
+    "species": "Kree",
+    "gender": "Homme",
+    "affiliation": "Kree",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "Lee Pace",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie, Captain Marvel",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Cosmiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "samuel_sterns-mcu-616",
+    "name": "Samuel Sterns",
+    "status": "En Vie",
+    "aliases": [
+      "The Leader",
+      "Le Leader"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "L'Incroyable Hulk",
+    "hint1": "Tim Blake Nelson",
+    "hint2": "2008",
+    "hint3": "L'Incroyable Hulk, Captain America : Brave New World",
+    "role": "Vilain",
+    "abilities": [
+      "Intellectuelles",
+      "Biochimiques",
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "sebastian_shaw-fox_x_men-10005",
+    "name": "Sebastian Shaw",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Klaus Schmidt",
+      "Black King"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men : Le Commencement",
+    "hint1": "Kevin Bacon",
+    "hint2": "2011",
+    "hint3": "X-Men : Le Commencement",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Energétiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "sergei_kravinoff-ssu-688",
+    "name": "Sergei Kravinoff",
+    "aliases": [
+      "Kraven"
+    ],
+    "status": "En Vie",
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Kraven le Chasseur",
+    "hint1": "Aaron Taylor-Johnson",
+    "hint2": "2024",
+    "hint3": "Kraven le Chasseur",
+    "role": "Anti-héros",
+    "abilities": [
+      "Surhumaines",
+      "Animales"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "sersi-mcu-616",
+    "name": "Sersi",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Eternal",
+    "gender": "Femme",
+    "affiliation": "Éternels",
+    "firstAppearance": "Eternals",
+    "hint1": "Gemma Chan",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Héros",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "shriek-ssu-688",
+    "name": "Shriek",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Mutant",
+    "gender": "Femme",
+    "firstAppearance": "Venom : Let There Be Carnage",
+    "affiliation": "Indépendant(e)",
+    "hint1": "Naomie Harris",
+    "hint2": "2021",
+    "hint3": "Venom : Let There Be Carnage",
+    "role": "Vilain",
+    "abilities": [
+      "Energétiques"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "sif-mcu-616",
+    "name": "Sif",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Asgardian",
+    "gender": "Femme",
+    "firstAppearance": "Thor",
+    "affiliation": "Nouvelle Asgard",
+    "hint1": "Jaimie Alexander",
+    "hint2": "2011",
+    "hint3": "Thor, Thor : Le Monde des Ténèbres, Agents of S.H.I.E.L.D. (Saison 1), Loki (Saison 1), Thor : Love and Thunder, What If...? (Saison 1)",
+    "role": "Héros",
+    "abilities": [
+      "Divinnes",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "skurge-mcu-616",
+    "name": "Skurge",
+    "status": "Décédé",
+    "aliases": [
+      "Skurge l'Exécuteur"
+    ],
+    "species": "Asgardian",
+    "gender": "Homme",
+    "firstAppearance": "Thor : Ragnarok",
+    "affiliation": "Asgard",
+    "hint1": "Karl Urban",
+    "hint2": "2017",
+    "hint3": "Thor : Ragnarok",
+    "role": "Réformé",
+    "abilities": [
+      "Divinnes",
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "spider_cochon-spider_verse-8311",
+    "name": "Spider-Cochon",
+    "status": "En Vie",
+    "aliases": [
+      "Spider-Ham"
+    ],
+    "species": [
+      "Cochon",
+      "Mutant"
+    ],
+    "gender": "Homme",
+    "affiliation": "Spider Gang (Spider-Verse)",
+    "firstAppearance": "Spider-Ham : Piégé dans un Jambon",
+    "hint1": "John Mulaney",
+    "hint2": "2019",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Biochimiques"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "spider_noir-spider_verse-8311",
+    "name": "Spider-Noir",
+    "status": "En Vie",
+    "aliases": [
+      "Spider-Man"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Spider Gang (Spider-Verse)",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "Nicolas Cage",
+    "hint2": "2018",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Biochimiques"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Moyen"
+  }
+]

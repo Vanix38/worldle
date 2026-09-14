@@ -1,0 +1,470 @@
+[
+  {
+    "id": "mordo-mcu-616",
+    "name": "Mordo",
+    "status": "En Vie",
+    "aliases": [
+      "Baron Mordo",
+      "Karl Mordo",
+      "Karl Amadeus Mordo"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Kamar-Taj",
+    "firstAppearance": "Doctor Strange",
+    "hint1": "Chiwetel Ejiofor",
+    "hint2": "2016",
+    "hint3": "Doctor Strange, Doctor Strange in the Multiverse of Madness",
+    "role": "Antagoniste",
+    "abilities": [
+      "Mystiques",
+      "Magiques",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "morgan_le_fay-mcu-616",
+    "name": "Morgan Le Fay",
+    "status": "En Vie",
+    "aliases": [
+      "Morgane",
+      "Morgane la Fée",
+      "Morgan le Fay"
+    ],
+    "species": "Sorcière",
+    "gender": "Femme",
+    "affiliation": "Sabbat de Morgan Le Fay",
+    "firstAppearance": "Runaways (Saison 3)",
+    "hint1": "Elizabeth Hurley",
+    "hint2": "2019",
+    "hint3": "Runaways (Saison 3)",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Mystiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mr_charles-mcu-616",
+    "name": "Mr. Charles",
+    "status": "En Vie",
+    "aliases": [
+      "Mr. Charles",
+      "Mr. Robertson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "CIA",
+    "firstAppearance": "Daredevil : Born Again (Saison 2)",
+    "hint1": "Matthew Lillard",
+    "hint2": "2025",
+    "hint3": "Daredevil : Born Again (Saison 2)",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "muneeba_khan-mcu-616",
+    "name": "Muneeba Khan",
+    "status": "En Vie",
+    "aliases": [
+      "Muneeba",
+      "Muneeba Ali"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "Zenobia Shroff",
+    "hint2": "2022",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "najma-mcu-616",
+    "name": "Najma",
+    "status": "Décédé",
+    "aliases": [
+      "Najma"
+    ],
+    "species": "Noor",
+    "gender": "Femme",
+    "affiliation": "Clandestins (Ms. Marvel)",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "Nimra Bucha",
+    "hint2": "2022",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Cosmiques",
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "nakia-mcu-616",
+    "name": "Nakia",
+    "status": "En Vie",
+    "aliases": [
+      "Nakia"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Wakanda",
+    "firstAppearance": "Black Panther",
+    "hint1": "Lupita Nyong'o",
+    "hint2": "2018",
+    "hint3": "Black Panther, Black Panther : Wakanda Forever",
+    "role": "Héros",
+    "abilities": [
+      "Arts Martiaux",
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "nathaniel_malick-mcu-616",
+    "name": "Nathaniel Malick",
+    "status": "Décédé",
+    "aliases": [
+      "Nate Malick",
+      "Nathaniel Malick"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "Joel Dabney Courtney",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 7)",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "nebula-mcu-21818",
+    "name": "Nebula",
+    "status": "En Vie",
+    "aliases": [
+      "Nebula"
+    ],
+    "species": "Luphomoid",
+    "gender": "Femme",
+    "affiliation": "Ravagers",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Karen Gillan",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Arts Martiaux",
+      "Surhumaines"
+    ],
+    "earth": 21818,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "neena_thurman-fox_x_men-10005",
+    "name": "Neena Thurman",
+    "status": "En Vie",
+    "aliases": [
+      "Domino",
+      "Neena Thurman"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "X-Force",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Zazie Beetz",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "Allié",
+    "abilities": [
+      "Chance"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "neena_thurman-fox_x_men-41633",
+    "name": "Neena Thurman",
+    "status": "En Vie",
+    "aliases": [
+      "Domino",
+      "Neena Thurman"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "X-Force",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Zazie Beetz",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "Allié",
+    "abilities": [
+      "Chance"
+    ],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "nikki_ramos-mcu-616",
+    "name": "Nikki Ramos",
+    "status": "En Vie",
+    "aliases": [
+      "Nik",
+      "Nikki Ramos"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "GLK&H",
+    "firstAppearance": "She-Hulk (Saison 1)",
+    "hint1": "Ginger Gonzaga",
+    "hint2": "2022",
+    "hint3": "She-Hulk (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "nobu_yoshioka-mcu-616",
+    "name": "Nobu Yoshioka",
+    "status": "Décédé",
+    "aliases": [
+      "Nobu"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "La Main",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Peter Shinkoda",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "norman_osborn-mcu-86445",
+    "name": "Norman Osborn",
+    "status": "En Vie",
+    "aliases": [
+      "Norman Osborn"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "hint1": "Colman Domingo",
+    "hint2": "2025",
+    "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "role": "Mentor",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "norrin_radd-fox_fantastiques-121698",
+    "name": "Norrin Radd",
+    "status": "En Vie",
+    "aliases": [
+      "Surfer d'Argent",
+      "Silver Surfer",
+      "Norrin Radd"
+    ],
+    "species": "Alien",
+    "gender": "Homme",
+    "affiliation": "Galactus",
+    "firstAppearance": "Les 4 Fantastiques et le Surfer d'Argent",
+    "hint1": "Doug Jones, Laurence Fishburne",
+    "hint2": "2007",
+    "hint3": "Les 4 Fantastiques et le Surfer d'Argent",
+    "role": "Anti-héros",
+    "abilities": [
+      "Cosmiques",
+      "Aliennnes"
+    ],
+    "earth": 121698,
+    "universe": "Fox Fantastiques",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "nyssa_damaskinos-independants-26320",
+    "name": "Nyssa Damaskinos",
+    "status": "Décédé",
+    "aliases": [
+      "Nyssa"
+    ],
+    "species": "Vampire",
+    "gender": "Femme",
+    "affiliation": "Bloodpack",
+    "firstAppearance": "Blade II",
+    "hint1": "Leonor Varela",
+    "hint2": "2002",
+    "hint3": "Blade II",
+    "role": "Allié",
+    "abilities": [
+      "Surhumaines",
+      "Arts Martiaux"
+    ],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "obadiah_stane-mcu-616",
+    "name": "Obadiah Stane",
+    "status": "Décédé",
+    "aliases": [
+      "Iron Monger",
+      "Obadiah Stane"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Stark Industries",
+    "firstAppearance": "Iron Man",
+    "hint1": "Jeff Bridges",
+    "hint2": "2008",
+    "hint3": "Iron Man",
+    "role": "Vilain",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "parker_robbins-mcu-616",
+    "name": "Parker Robbins",
+    "status": "En Vie",
+    "aliases": [
+      "Le Capuchon",
+      "The Hood",
+      "Parker Robbins"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Gang du Capuchon",
+    "firstAppearance": "Ironheart (Saison 1)",
+    "hint1": "Anthony Ramos",
+    "hint2": "2025",
+    "hint3": "Ironheart (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Mystiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "peni_parker-spider_verse-8311",
+    "name": "Peni Parker",
+    "status": "En Vie",
+    "aliases": [
+      "SP//dr",
+      "Peni Parker"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Spider Gang (Spider-Verse)",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "Kimiko Glenn",
+    "hint2": "2018",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "role": "Héros",
+    "abilities": [
+      "Intellectuelles",
+      "Technologiques"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "peter_scarborough-mcu-616",
+    "name": "Peter Scarborough",
+    "status": "En Vie",
+    "aliases": [
+      "Scarborough"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Roxxon Corporation",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Wayne Péré",
+    "hint2": "2018",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "peter_wisdom-fox_x_men-10005",
+    "name": "Peter Wisdom",
+    "status": "En Vie",
+    "aliases": [
+      "Peter",
+      "Pete Wisdom"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "X-Force",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Rob Delaney",
+    "hint2": "2018",
+    "hint3": "Deadpool 2, Deadpool & Wolverine",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "id": "malekith-mcu-616",
+    "name": "Malekith",
+    "status": "Décédé",
+    "aliases": [
+      "Malekith le Maudit"
+    ],
+    "species": "Dark Elf",
+    "gender": "Homme",
+    "firstAppearance": "Thor : Le Monde des Ténèbres",
+    "affiliation": "Svartalfheim",
+    "hint1": "Christopher Eccleston",
+    "hint2": "2013",
+    "hint3": "Thor : Le Monde des Ténèbres",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Magiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mar_vell-mcu-616",
+    "name": "Mar-Vell",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Wendy Lawson"
+    ],
+    "species": "Kree",
+    "gender": "Femme",
+    "affiliation": "Formerly:",
+    "firstAppearance": "Captain Marvel",
+    "hint1": "Annette Bening",
+    "hint2": "2019",
+    "hint3": "Captain Marvel",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "marge_mccaffrey-mcu-616",
+    "name": "Marge McCaffrey",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Government of New York",
+    "firstAppearance": "Daredevil : Born Again (Saison 2)",
+    "hint1": "Lili Taylor",
+    "hint2": "2025",
+    "hint3": "Daredevil : Born Again (Saison 2)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "maria_rambeau-mcu-616",
+    "name": "Maria Rambeau",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "États-Unis",
+    "firstAppearance": "Captain Marvel",
+    "hint1": "Lashana Lynch",
+    "hint2": "2019",
+    "hint3": "Captain Marvel, Doctor Strange in the Multiverse of Madness, The Marvels",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "maria_rambeau-mcu-838",
+    "name": "Maria Rambeau (Terre-838)",
+    "status": "Décédé",
+    "aliases": [
+      "Captain Marvel"
+    ],
+    "species": [
+      "Humain",
+      "Kree"
+    ],
+    "gender": "Femme",
+    "affiliation": "Illuminati",
+    "firstAppearance": "Doctor Strange in the Multiverse of Madness",
+    "hint1": "Lashana Lynch",
+    "hint2": "2022",
+    "hint3": "Doctor Strange in the Multiverse of Madness",
+    "role": "Antagoniste",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "earth": 838,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mark_miller-independants-701306",
+    "name": "Mark Miller",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Elektra",
+    "hint1": "",
+    "hint2": "2005",
+    "hint3": "Elektra",
+    "role": "",
+    "abilities": [],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "matt_murdock-independants-701306",
+    "name": "Matt Murdock",
+    "aliases": [
+      "Daredevil",
+      "Le Démon de Hell's Kitchen (film 2003)"
+    ],
+    "status": "En Vie",
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil",
+    "hint1": "Ben Affleck",
+    "hint2": "2003",
+    "hint3": "Daredevil, Elektra",
+    "role": "Justicier",
+    "abilities": [
+      "Surhumaines",
+      "Arts Martiaux"
+    ],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "matthew_ellis-mcu-616",
+    "name": "Matthew Ellis",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Iron Man 3",
+    "hint1": "William Sadler",
+    "hint2": "2013",
+    "hint3": "Iron Man 3",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mattie_franklin-ssu-688",
+    "name": "Mattie Franklin",
+    "status": "En Vie",
+    "aliases": [
+      "Spider-Girl"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Madame Web",
+    "hint1": "Celeste O'Connor",
+    "hint2": "2024",
+    "hint3": "Madame Web",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "may_parker-webb_verse-120703",
+    "name": "May Parker (Terre-120703)",
+    "status": "En Vie",
+    "aliases": [
+      "Tante May",
+      "May Parker (Webb-Verse)",
+      "May Reilly Parker"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "The Amazing Spider-Man",
+    "hint1": "Sally Field",
+    "hint2": "2012",
+    "hint3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "maya_lopez-mcu-616",
+    "name": "Maya Lopez",
+    "status": "En Vie",
+    "aliases": [
+      "Echo"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Choctaw",
+    "firstAppearance": "Hawkeye (Saison 1)",
+    "hint1": "Alaqua Cox",
+    "hint2": "2021",
+    "hint3": "Hawkeye (Saison 1), Echo (Saison 1)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Surhumaines",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "maybelle_may_parker-mcu-86445",
+    "name": "Maybelle \"May\" Parker",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "Your Friendly Neighborhood Spider-Man Vol 1 1",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Your Friendly Neighborhood Spider-Man Vol 1 1",
+    "role": "",
+    "abilities": [],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "maybelle_may_parker_nee_reilly-webb_verse-120703",
+    "name": "Maybelle \"May\" Parker, née Reilly",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "The Amazing Spider-Man: The Movie Vol 1 1",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "The Amazing Spider-Man: The Movie Vol 1 1",
+    "role": "",
+    "abilities": [],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "medusalith_amaquelin-mcu-616",
+    "name": "Medusalith Amaquelin",
+    "status": "En Vie",
+    "aliases": [
+      "Medusa"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Inhuman Royal Family",
+    "firstAppearance": "Inhumans (Saison 1)",
+    "hint1": "Serinda Swan",
+    "hint2": "",
+    "hint3": "Inhumans (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mel-mcu-616",
+    "name": "Mel",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "ally of Bucky Barnes",
+    "firstAppearance": "Thunderbolts",
+    "hint1": "Geraldine Viswanathan",
+    "hint2": "2025",
+    "hint3": "Thunderbolts",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "melissa_bowen-mcu-616",
+    "name": "Melissa Bowen",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Andrea Roth",
+    "hint2": "",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mercedes_kelly_misty_knight-mcu-616",
+    "name": "Mercedes Kelly \"Misty\" Knight",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "N.Y.P.D.",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Simone Missick",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "misty_knight-mcu-616",
+    "name": "Misty Knight",
+    "status": "En Vie",
+    "aliases": [
+      "Mercedes Kelly Knight"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Harlem",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Simone Missick",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1), Luke Cage (Saison 2), The Defenders (Saison 1), Iron Fist (Saison 2)",
+    "role": "Allié",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "mitchell_ellison-mcu-616",
+    "name": "Mitchell Ellison",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Geoffrey Cantor",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "moira_mactaggert-fox_x_men-10005",
+    "name": "Moira MacTaggert",
+    "status": "En Vie",
+    "aliases": [
+      "X-Ray-Bravo-7-0"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "CIA",
+    "firstAppearance": "X-Men: First Class",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "X-Men: First Class",
+    "role": "",
+    "abilities": [],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  }
+]

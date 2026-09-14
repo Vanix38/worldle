@@ -1,0 +1,489 @@
+[
+  {
+    "id": "bullseye-independants-701306",
+    "name": "Bullseye",
+    "status": "En Vie",
+    "aliases": [
+      "Bullseye",
+      "Lester"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil",
+    "hint1": "Colin Farrell",
+    "hint2": "2003",
+    "hint3": "Daredevil",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux"
+    ],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "cable-fox_x_men-41633",
+    "name": "Cable",
+    "status": "En Vie",
+    "aliases": [
+      "Cable",
+      "Nathan Summers"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Josh Brolin",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "Anti-héros",
+    "abilities": [
+      "Surhumaines",
+      "Technologiques",
+      "Psioniques"
+    ],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "cain_marko-fox_x_men-41633",
+    "name": "Cain Marko",
+    "status": "En Vie",
+    "aliases": [
+      "Le Fléau",
+      "Juggernaut",
+      "Cain Marko"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Ryan Reynolds",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Résistance",
+      "Magiques"
+    ],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "caliban-fox_x_men-17315",
+    "name": "Caliban",
+    "status": "Décédé",
+    "aliases": [
+      "Caliban"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Logan",
+    "hint1": "Stephen Merchant",
+    "hint2": "2017",
+    "hint3": "Logan",
+    "role": "Allié",
+    "abilities": [
+      "Psioniques"
+    ],
+    "earth": 17315,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "calvin_zabo-mcu-616",
+    "name": "Cal Zabo",
+    "status": "En Vie",
+    "aliases": [
+      "Mister Hyde",
+      "Le Docteur",
+      "Docteur Winslow",
+      "Calvin Zabo"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "hint1": "Kyle MacLachlan",
+    "hint2": "2014",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Biochimiques",
+      "Surhumaines",
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "captain_britain-mcu-838",
+    "name": "Captain Carter",
+    "status": "Décédé",
+    "aliases": [
+      "Captain Carter",
+      "Peggy Carter",
+      "Margaret Carter"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Illuminati",
+    "firstAppearance": "Doctor Strange in the Multiverse of Madness",
+    "hint1": "Hayley Atwell",
+    "hint2": "2022",
+    "hint3": "Doctor Strange in the Multiverse of Madness",
+    "role": "Antagoniste",
+    "abilities": [
+      "Surhumaines"
+    ],
+    "earth": 838,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "carter_slade-independants-121347",
+    "name": "Carter Slade",
+    "status": "Décédé",
+    "aliases": [
+      "Ghost Rider",
+      "Cavalier Fantôme",
+      "Phantom Rider"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ghost Rider",
+    "hint1": "Sam Elliott",
+    "hint2": "2007",
+    "hint3": "Ghost Rider",
+    "role": "Mentor",
+    "abilities": [
+      "Démoniaques",
+      "Magiques"
+    ],
+    "earth": 121347,
+    "universe": "Indépendants",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "cassandra_cassie_webb-ssu-688",
+    "name": "Cassandra Webb",
+    "status": "En Vie",
+    "aliases": [
+      "Madame Web",
+      "Cassie Webb",
+      "Cassandra Webb"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Madame Web",
+    "hint1": "Dakota Johnson",
+    "hint2": "2024",
+    "hint3": "Madame Web",
+    "role": "Héros",
+    "abilities": [
+      "Précognition",
+      "Psioniques"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "cassandra_nova-mcu-616",
+    "name": "Cassandra Nova",
+    "status": "Décédé",
+    "aliases": [
+      "Cassandra Nova",
+      "Cassandra"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "TVA",
+    "firstAppearance": "Deadpool & Wolverine",
+    "hint1": "Emma Corrin",
+    "hint2": "2024",
+    "hint3": "Deadpool & Wolverine",
+    "role": "Vilain",
+    "abilities": [
+      "Psioniques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "catherine_henderson-mcu-616",
+    "name": "Catherine Wilder",
+    "status": "Décédé",
+    "aliases": [
+      "Cat",
+      "Catherine Henderson",
+      "Catherine Wilder"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "PRIDE",
+    "firstAppearance": "Marvel’s Runaways (Saison 1)",
+    "hint1": "Angel Parker",
+    "hint2": "2017",
+    "hint3": "Marvel’s Runaways (Saison 1), Marvel’s Runaways (Saison 2), Marvel’s Runaways (Saison 3)",
+    "role": "Vilain",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "cecilia_reyes-fox_x_men-10005",
+    "name": "Cecilia Reyes",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Reyes",
+      "Cecilia Reyes"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "The New Mutants",
+    "hint1": "Alice Braga",
+    "hint2": "2020",
+    "hint3": "The New Mutants",
+    "role": "Antagoniste",
+    "abilities": [
+      "Surhumaines",
+      "Intellectuelles"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "celui_qui_demeure-mcu-0",
+    "name": "Celui Qui Demeure",
+    "status": "Décédé",
+    "aliases": [
+      "Celui Qui Demeure",
+      "He Who Remains",
+      "Nathaniel Richards"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "TVA",
+    "firstAppearance": "Loki (Saison 1)",
+    "hint1": "Jonathan Majors",
+    "hint2": "2021",
+    "hint3": "Loki (Saison 1)",
+    "role": "Amoral",
+    "abilities": [
+      "Multiverselles",
+      "Intellectuelles",
+      "Technologiques"
+    ],
+    "earth": 0,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "chase_stein-mcu-616",
+    "name": "Chase Stein",
+    "status": "En Vie",
+    "aliases": [
+      "Chase",
+      "Talkback",
+      "Chase Stein"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Runaways",
+    "firstAppearance": "Marvel’s Runaways (Saison 1)",
+    "hint1": "Gregg Sulkin",
+    "hint2": "2017",
+    "hint3": "Marvel’s Runaways (Saison 1), Marvel’s Runaways (Saison 2), Marvel’s Runaways (Saison 3)",
+    "role": "Héros",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "chester_phillips-mcu-616",
+    "name": "Chester Phillips",
+    "status": "En Vie",
+    "aliases": [
+      "Colonel Phillips",
+      "Chester Phillips"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "SSR",
+    "firstAppearance": "Captain America : First Avenger",
+    "hint1": "Tommy Lee Jones",
+    "hint2": "2011",
+    "hint3": "Captain America : First Avenger",
+    "role": "Mentor",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "christine_palmer-mcu-616",
+    "name": "Christine Palmer",
+    "status": "En Vie",
+    "aliases": [
+      "Christine",
+      "Dr. Christine Palmer"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Doctor Strange",
+    "hint1": "Rachel McAdams",
+    "hint2": "2016",
+    "hint3": "Doctor Strange, Doctor Strange in the Multiverse of Madness",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "christine_palmer-mcu-838",
+    "name": "Christine Palmer",
+    "status": "En Vie",
+    "aliases": [
+      "Christine",
+      "Dr. Christine Palmer"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Baxter Foundation",
+    "firstAppearance": "Doctor Strange in the Multiverse of Madness",
+    "hint1": "Rachel McAdams",
+    "hint2": "2022",
+    "hint3": "Doctor Strange in the Multiverse of Madness",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 838,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "claire_temple-mcu-616",
+    "name": "Claire Temple",
+    "status": "En Vie",
+    "aliases": [
+      "L'Infirmière",
+      "Night Nurse",
+      "Claire Temple"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Rosario Dawson",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Jessica Jones (Saison 1), Luke Cage (Saison 1), Iron Fist (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 2)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "cletus_kasady-ssu-688",
+    "name": "Cletus Kasady",
+    "status": "Décédé",
+    "aliases": [
+      "Carnage",
+      "Cletus Kasady"
+    ],
+    "species": [
+      "Humain",
+      "Symbiote"
+    ],
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Venom",
+    "hint1": "Woody Harrelson",
+    "hint2": "2018",
+    "hint3": "Venom, Venom : Let There Be Carnage",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Monstrueuses"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "colleen_wing-mcu-616",
+    "name": "Colleen Wing",
+    "status": "En Vie",
+    "aliases": [
+      "Colleen",
+      "Iron Fist",
+      "Daughter of the Dragon"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Les Défenseurs",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Jessica Henwick",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1), The Defenders (Saison 1), Luke Cage (Saison 2), Iron Fist (Saison 2)",
+    "role": "Héros",
+    "abilities": [
+      "Arts Martiaux",
+      "Mystiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  },
+  {
+    "id": "connor_powell-mcu-616",
+    "name": "Connor Powell",
+    "status": "En Vie",
+    "aliases": [
+      "Powell",
+      "Connor Powell"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "NYPD",
+    "firstAppearance": "Daredevil : Born Again (Saison 1)",
+    "hint1": "Hamish Allan-Headley",
+    "hint2": "2025",
+    "hint3": "Daredevil : Born Again (Saison 1), Daredevil : Born Again (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Policières"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Moyen"
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "id": "carol_danvers-mcu-72124",
+    "name": "Carol Danvers",
+    "status": "En Vie",
+    "aliases": [
+      "Captain Marvel"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "What If...? (animated series) Season 1 7",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "What If...? (animated series) Season 1 7",
+    "role": "",
+    "abilities": [],
+    "earth": 72124,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "cassie_lang-mcu-616",
+    "name": "Cassie Lang",
+    "status": "En Vie",
+    "aliases": [
+      "Cassandra Eleanor Lang"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Jeunes Avengers",
+    "firstAppearance": "Ant-Man",
+    "hint1": "Abby Ryder Fortson",
+    "hint2": "2015",
+    "hint3": "Ant-Man, Ant-Man et la Guêpe, Avengers : Endgame, Ant-Man et la Guêpe : Quantumania",
+    "role": "Héros",
+    "abilities": [
+      "Technologiques",
+      "Quantiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "charles_xavier-mcu-838",
+    "name": "Charles Xavier (Terre-838)",
+    "status": "Décédé",
+    "aliases": [
+      "Professor X",
+      "Charles Francis Xavier (Terre-838)"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Illuminati",
+    "firstAppearance": "Doctor Strange in the Multiverse of Madness",
+    "hint1": "Patrick Stewart",
+    "hint2": "2022",
+    "hint3": "Doctor Strange in the Multiverse of Madness",
+    "role": "Antagoniste",
+    "abilities": [
+      "Psioniques"
+    ],
+    "earth": 838,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "clinton_barton-mcu-616",
+    "name": "Clinton Barton",
+    "status": "En Vie",
+    "aliases": [
+      "Hawkeye",
+      "Clinton Francis Barton"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Les Avengers",
+    "firstAppearance": "Thor",
+    "hint1": "Jeremy Renner",
+    "hint2": "2011",
+    "hint3": "Thor, Avengers, Avengers : L'ère d'Ultron, Captain America : Civil War, Avengers : Endgame, Hawkeye (Saison 1)",
+    "role": "Héros",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux",
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "curt_connors-webb_verse-120703",
+    "name": "Curt Connors",
+    "status": "En Vie",
+    "aliases": [
+      "Lizard",
+      "Curtis Connors",
+      "Dr. Connors"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "The Amazing Spider-Man",
+    "hint1": "Rhys Ifans",
+    "hint2": "2012",
+    "hint3": "The Amazing Spider-Man, Spider-Man : No Way Home",
+    "role": "Anti-héros",
+    "abilities": [
+      "Intellectuelles",
+      "Biochimiques"
+    ],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "daisy_johnson-mcu-616",
+    "name": "Daisy Johnson",
+    "status": "En Vie",
+    "aliases": [
+      "Quake",
+      "Jacqueline Rippon",
+      "Mary Sue Poots",
+      "Doctor Nugent",
+      "Sinara Smith",
+      "Skye",
+      "Destroyer of Worlds",
+      "Shake"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "Chloe Bennet",
+    "hint2": "2013",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "darcy_lewis-mcu-616",
+    "name": "Darcy Lewis",
+    "status": "En Vie",
+    "aliases": [
+      "The Escape Artist"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "S.W.O.R.D.",
+    "firstAppearance": "Thor",
+    "hint1": "Kat Dennings",
+    "hint2": "2011",
+    "hint3": "Thor",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "david_banner-independants-400083",
+    "name": "David Banner",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Mutate",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Hulk",
+    "hint1": "",
+    "hint2": "2003",
+    "hint3": "Hulk",
+    "role": "",
+    "abilities": [],
+    "earth": 400083,
+    "universe": "Indépendants",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "deacon_frost-independants-26320",
+    "name": "Deacon Frost",
+    "status": "Décédé",
+    "aliases": [
+      "La Magra"
+    ],
+    "species": "Vampire",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Blade (1998 film)",
+    "hint1": "",
+    "hint2": "1998",
+    "hint3": "Blade (1998 film)",
+    "role": "",
+    "abilities": [],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "donald_pierce-fox_x_men-17315",
+    "name": "Donald Pierce",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Transigen Project",
+    "firstAppearance": "Logan",
+    "hint1": "",
+    "hint2": "2017",
+    "hint3": "Logan",
+    "role": "",
+    "abilities": [],
+    "earth": 17315,
+    "universe": "Fox X-Men",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "dr_carlton_drake-ssu-688",
+    "name": "Dr. Carlton Drake",
+    "status": "Décédé",
+    "aliases": [
+      "Riot"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Symbiote invasion",
+    "firstAppearance": "Venom (Sony) Vol 1 1",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Venom (Sony) Vol 1 1",
+    "role": "",
+    "abilities": [],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "drax-mcu-616",
+    "name": "Drax",
+    "status": "En Vie",
+    "aliases": [],
+    "gender": "Homme",
+    "affiliation": "Gardiens de la Galaxie",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "species": "Alien",
+    "hint1": "Dave Bautista",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2, Avengers : Infinity War, Avengers : Endgame, Les Gardiens de la Galaxie : Les Fêtes des Fêtes, Les Gardiens de la Galaxie Vol. 3",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "ebony_maw-mcu-616",
+    "name": "Ebony Maw",
+    "status": "Décédé",
+    "aliases": [],
+    "gender": "Homme",
+    "affiliation": "Ordre noir (Thanos)",
+    "firstAppearance": "Avengers : Infinity War",
+    "species": "Alien",
+    "hint1": "Tom Vaughan-Lawlor",
+    "hint2": "2018",
+    "hint3": "Avengers : Infinity War, Avengers : Endgame",
+    "role": "Vilain",
+    "abilities": [
+      "Psioniques",
+      "Aliennnes"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "eddie_brock-raimi_verse-96283",
+    "name": "Eddie Brock (Terre-96283)",
+    "status": "Décédé",
+    "aliases": [
+      "Eddie Brock",
+      "Venom",
+      "Bruckner",
+      "Bernstein",
+      "Chump",
+      "Trash",
+      "Masked Accomplice",
+      "Edward Charles Allan Brock Jr."
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Le Daily Bugle",
+    "firstAppearance": "Spider-Man",
+    "hint1": "R.C. Everbeck",
+    "hint2": "2002",
+    "hint3": "Spider-Man 3",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "eddie_brock-ssu-688",
+    "name": "Eddie Brock (Terre-688)",
+    "status": "En Vie",
+    "aliases": [
+      "Eddie Brock",
+      "Venom"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Venom",
+    "hint1": "Tom Hardy",
+    "hint2": "2018",
+    "hint3": "Venom, Venom : Let There Be Carnage, Spider-Man : No Way Home, Venom: The Last Dance",
+    "role": "Anti-héros",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "edward_eddie_brock_jr-raimi_verse-96283",
+    "name": "Edward \"Eddie\" Brock Jr.",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Formerly:",
+    "firstAppearance": "Spider-Man 3",
+    "hint1": "",
+    "hint2": "2007",
+    "hint3": "Spider-Man 3",
+    "role": "",
+    "abilities": [],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "elektra_natchios-mcu-616",
+    "name": "Elektra Natchios",
+    "status": "Inconnu",
+    "aliases": [
+      "Elektra",
+      "Elektra Natchios (adoptive name)"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "La Main",
+    "firstAppearance": "Daredevil (Saison 2)",
+    "hint1": "Élodie Yung",
+    "hint2": "2016",
+    "hint3": "Daredevil (Saison 2), The Defenders (Saison 1)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Arts Martiaux",
+      "Mystiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "eloise_ellie_phimister-fox_x_men-41633",
+    "name": "Eloise \"Ellie\" Phimister",
+    "status": "En Vie",
+    "aliases": [
+      "Negasonic Teenage Warhead"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "",
+    "abilities": [],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "en_sabah_nur-fox_x_men-10005",
+    "name": "En Sabah Nur",
+    "status": "Décédé",
+    "aliases": [
+      "Apocalypse",
+      "The First One",
+      "Elohim",
+      "Shen",
+      "Ra",
+      "Krishna",
+      "Yahweh",
+      "The World's First Mutant",
+      "The False God"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Cavaliers d'Apocalypse (X-Men)",
+    "firstAppearance": "X-Men : Days of Future Past",
+    "hint1": "Oscar Isaac, Brendan Pedder",
+    "hint2": "2014",
+    "hint3": "X-Men : Days of Future Past, X-Men : Apocalypse",
+    "role": "Vilain",
+    "abilities": [
+      "Psioniques",
+      "Surhumaines",
+      "Energétiques",
+      "Intellectuelles",
+      "Téléportation"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "eric_brooks-independants-26320",
+    "name": "Eric Brooks",
+    "aliases": [
+      "Blade"
+    ],
+    "status": "En Vie",
+    "species": [
+      "Humain",
+      "Vampire"
+    ],
+    "gender": "Homme",
+    "affiliation": "Chasseur de vampires",
+    "firstAppearance": "Blade",
+    "hint1": "Wesley Snipes",
+    "hint2": "1998",
+    "hint3": "Blade, Blade II, Blade : Trinity, Deadpool & Wolverine",
+    "role": "Anti-héros",
+    "abilities": [
+      "Monstrueuses",
+      "Arts Martiaux"
+    ],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Facile"
+  }
+]

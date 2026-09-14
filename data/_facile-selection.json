@@ -1,0 +1,666 @@
+[
+  {
+    "id": "abraham_whistler-independants-26320",
+    "name": "Abraham Whistler"
+  },
+  {
+    "id": "adrian_toomes-mcu-616",
+    "name": "Adrian Toomes"
+  },
+  {
+    "id": "agatha_harkness-mcu-616",
+    "name": "Agatha Harkness"
+  },
+  {
+    "id": "aleksei_sytsevich-ssu-688",
+    "name": "Aleksei Sytsevich"
+  },
+  {
+    "id": "ancient_one-mcu-616",
+    "name": "Ancient One"
+  },
+  {
+    "id": "anthony_tony_stark-mcu-82111",
+    "name": "Anthony \"Tony\" Stark"
+  },
+  {
+    "id": "anthony_tony_stark-mcu-86445",
+    "name": "Anthony \"Tony\" Stark"
+  },
+  {
+    "id": "baron_helmut_zemo-mcu-616",
+    "name": "Baron Helmut Zemo"
+  },
+  {
+    "id": "ben_grimm-fox_fantastiques-121698",
+    "name": "Ben Grimm (Fox, 2005)"
+  },
+  {
+    "id": "ben_grimm-mcu-828",
+    "name": "Ben Grimm (Terre-828)"
+  },
+  {
+    "id": "ben_parker-raimi_verse-96283",
+    "name": "Ben Parker (Terre-96283)"
+  },
+  {
+    "id": "benjamin_j_ben_grimm-mcu-828",
+    "name": "Benjamin J. \"Ben\" Grimm"
+  },
+  {
+    "id": "benjamin_jacob_ben_grimm-fox_fantastiques-121698",
+    "name": "Benjamin Jacob \"Ben\" Grimm"
+  },
+  {
+    "id": "brock_rumlow-mcu-616",
+    "name": "Brock Rumlow"
+  },
+  {
+    "id": "brunnhilde-mcu-616",
+    "name": "Brunnhilde"
+  },
+  {
+    "id": "bucky_barnes-mcu-616",
+    "name": "Bucky Barnes"
+  },
+  {
+    "id": "cain_marko-fox_x_men-10005",
+    "name": "Cain Marko"
+  },
+  {
+    "id": "captain_carter-mcu-82111",
+    "name": "Captain Carter (Terre-82111)"
+  },
+  {
+    "id": "carnage-ssu-688",
+    "name": "Carnage"
+  },
+  {
+    "id": "carol_danvers-mcu-616",
+    "name": "Carol Danvers"
+  },
+  {
+    "id": "carol_danvers-mcu-72124",
+    "name": "Carol Danvers"
+  },
+  {
+    "id": "cassie_lang-mcu-616",
+    "name": "Cassie Lang"
+  },
+  {
+    "id": "charles_xavier-mcu-838",
+    "name": "Charles Xavier (Terre-838)"
+  },
+  {
+    "id": "clinton_barton-mcu-616",
+    "name": "Clinton Barton"
+  },
+  {
+    "id": "curt_connors-webb_verse-120703",
+    "name": "Curt Connors"
+  },
+  {
+    "id": "daisy_johnson-mcu-616",
+    "name": "Daisy Johnson"
+  },
+  {
+    "id": "darcy_lewis-mcu-616",
+    "name": "Darcy Lewis"
+  },
+  {
+    "id": "david_banner-independants-400083",
+    "name": "David Banner"
+  },
+  {
+    "id": "deacon_frost-independants-26320",
+    "name": "Deacon Frost"
+  },
+  {
+    "id": "donald_pierce-fox_x_men-17315",
+    "name": "Donald Pierce"
+  },
+  {
+    "id": "dr_carlton_drake-ssu-688",
+    "name": "Dr. Carlton Drake"
+  },
+  {
+    "id": "drax-mcu-616",
+    "name": "Drax"
+  },
+  {
+    "id": "ebony_maw-mcu-616",
+    "name": "Ebony Maw"
+  },
+  {
+    "id": "eddie_brock-raimi_verse-96283",
+    "name": "Eddie Brock (Terre-96283)"
+  },
+  {
+    "id": "eddie_brock-ssu-688",
+    "name": "Eddie Brock (Terre-688)"
+  },
+  {
+    "id": "edward_eddie_brock_jr-raimi_verse-96283",
+    "name": "Edward \"Eddie\" Brock Jr."
+  },
+  {
+    "id": "elektra_natchios-mcu-616",
+    "name": "Elektra Natchios"
+  },
+  {
+    "id": "eloise_ellie_phimister-fox_x_men-41633",
+    "name": "Eloise \"Ellie\" Phimister"
+  },
+  {
+    "id": "en_sabah_nur-fox_x_men-10005",
+    "name": "En Sabah Nur"
+  },
+  {
+    "id": "eric_brooks-independants-26320",
+    "name": "Eric Brooks"
+  },
+  {
+    "id": "even_dead_i_m_the_hero-mcu-616",
+    "name": "Even Dead, I'm The Hero"
+  },
+  {
+    "id": "flint_marko-raimi_verse-96283",
+    "name": "Flint Marko"
+  },
+  {
+    "id": "foggy_nelson-mcu-616",
+    "name": "Foggy Nelson"
+  },
+  {
+    "id": "francis_freeman-fox_x_men-10005",
+    "name": "Francis Freeman"
+  },
+  {
+    "id": "frank_castle-mcu-616",
+    "name": "Frank Castle"
+  },
+  {
+    "id": "franklin_percy_foggy_nelson-mcu-616",
+    "name": "Franklin Percy \"Foggy\" Nelson"
+  },
+  {
+    "id": "galan-mcu-828",
+    "name": "Galan"
+  },
+  {
+    "id": "gamora-mcu-616",
+    "name": "Gamora"
+  },
+  {
+    "id": "gorr-mcu-616",
+    "name": "Gorr"
+  },
+  {
+    "id": "grant_douglas_ward-mcu-616",
+    "name": "Grant Douglas Ward"
+  },
+  {
+    "id": "groot-mcu-616",
+    "name": "Groot"
+  },
+  {
+    "id": "gwen_stacy-spider_verse-8311",
+    "name": "Gwen Stacy (Spider-Verse)"
+  },
+  {
+    "id": "gwen_stacy-webb_verse-120703",
+    "name": "Gwen Stacy (Terre-120703)"
+  },
+  {
+    "id": "hank_mccoy-adult-fox_x_men-10005",
+    "name": "Hank McCoy (Fox, adulte)"
+  },
+  {
+    "id": "hank_pym-mcu-616",
+    "name": "Hank Pym"
+  },
+  {
+    "id": "happy_hogan-mcu-616",
+    "name": "Happy Hogan"
+  },
+  {
+    "id": "harold_harry_osborn-raimi_verse-96283",
+    "name": "Harold \"Harry\" Osborn"
+  },
+  {
+    "id": "harold_harry_osborn-webb_verse-120703",
+    "name": "Harold \"Harry\" Osborn"
+  },
+  {
+    "id": "harry_osborn-raimi_verse-96283",
+    "name": "Harry Osborn (Terre-96283)"
+  },
+  {
+    "id": "heimdall-mcu-616",
+    "name": "Heimdall"
+  },
+  {
+    "id": "hela-mcu-616",
+    "name": "Hela"
+  },
+  {
+    "id": "hernan_alvarez-mcu-616",
+    "name": "Hernan Alvarez"
+  },
+  {
+    "id": "high_evolutionary-mcu-616",
+    "name": "Unrevealed"
+  },
+  {
+    "id": "howard_saint-independants-58732",
+    "name": "Howard Saint"
+  },
+  {
+    "id": "howard_stark-mcu-616",
+    "name": "Howard Stark"
+  },
+  {
+    "id": "j_jonah_jameson-mcu-616",
+    "name": "J. Jonah Jameson"
+  },
+  {
+    "id": "james_buchanan_bucky_barnes-mcu-82111",
+    "name": "James Buchanan \"Bucky\" Barnes"
+  },
+  {
+    "id": "james_e_jimmy_woo-mcu-616",
+    "name": "James E. \"Jimmy\" Woo"
+  },
+  {
+    "id": "james_rhodes-mcu-616",
+    "name": "James Rhodes"
+  },
+  {
+    "id": "jane_foster-mcu-616",
+    "name": "Jane Foster"
+  },
+  {
+    "id": "jane_foster-mcu-72124",
+    "name": "Jane Foster"
+  },
+  {
+    "id": "janet_van_dyne-mcu-616",
+    "name": "Janet van Dyne"
+  },
+  {
+    "id": "jean_elaine_grey-mcu-616",
+    "name": "Jean Elaine Grey"
+  },
+  {
+    "id": "jean_grey-fox_x_men-10005",
+    "name": "Jean Grey"
+  },
+  {
+    "id": "jemma_anne_simmons-mcu-616",
+    "name": "Jemma Anne Simmons"
+  },
+  {
+    "id": "jessica_drew-spider_verse-8311",
+    "name": "Jessica Drew"
+  },
+  {
+    "id": "jessica_jones-mcu-616",
+    "name": "Jessica Jones"
+  },
+  {
+    "id": "johann_schmidt-mcu-616",
+    "name": "Johann Schmidt"
+  },
+  {
+    "id": "john_jonah_jameson_jr-raimi_verse-96283",
+    "name": "John Jonah Jameson Jr."
+  },
+  {
+    "id": "john_walker-mcu-616",
+    "name": "John Walker"
+  },
+  {
+    "id": "johnny_blaze-independants-121347",
+    "name": "Johnny Blaze"
+  },
+  {
+    "id": "johnny_storm-fox_fantastiques-121698",
+    "name": "Johnny Storm (Fox, 2005)"
+  },
+  {
+    "id": "johnny_storm-mcu-828",
+    "name": "Johnny Storm (Terre-828)"
+  },
+  {
+    "id": "kamala_khan-mcu-616",
+    "name": "Kamala Khan"
+  },
+  {
+    "id": "kang-mcu-616",
+    "name": "Kang"
+  },
+  {
+    "id": "karen_page-mcu-616",
+    "name": "Karen Page"
+  },
+  {
+    "id": "kevin_thompson-mcu-616",
+    "name": "Kevin Thompson"
+  },
+  {
+    "id": "korg-mcu-616",
+    "name": "Korg"
+  },
+  {
+    "id": "l_ancien-mcu-616",
+    "name": "L'Ancien"
+  },
+  {
+    "id": "laura_kinney-fox_x_men-17315",
+    "name": "Laura Kinney (Terre-17315)"
+  },
+  {
+    "id": "laura_kinney-mcu-10005",
+    "name": "Laura Kinney (MCU)"
+  },
+  {
+    "id": "logan-fox_x_men-17315",
+    "name": "Logan (Terre-17315)"
+  },
+  {
+    "id": "loki_alligator-mcu-0",
+    "name": "Loki Alligator"
+  },
+  {
+    "id": "luke_cage-mcu-616",
+    "name": "Luke Cage"
+  },
+  {
+    "id": "mantis-mcu-616",
+    "name": "Mantis"
+  },
+  {
+    "id": "marc_spector-mcu-616",
+    "name": "Marc Spector"
+  },
+  {
+    "id": "maria_hill-mcu-616",
+    "name": "Maria Hill"
+  },
+  {
+    "id": "marie_d_ancanto-fox_x_men-10005",
+    "name": "Marie D'Ancanto"
+  },
+  {
+    "id": "mary_jane_watson-raimi_verse-96283",
+    "name": "Mary Jane Watson"
+  },
+  {
+    "id": "matt_murdock-mcu-616",
+    "name": "Matt Murdock (Terre-616)"
+  },
+  {
+    "id": "matthew_murdock-mcu-86445",
+    "name": "Matthew Murdock"
+  },
+  {
+    "id": "max_dillon-webb_verse-120703",
+    "name": "Max Dillon"
+  },
+  {
+    "id": "may_parker-mcu-616",
+    "name": "May Parker"
+  },
+  {
+    "id": "may_parker-raimi_verse-96283",
+    "name": "May Parker (Terre-96283)"
+  },
+  {
+    "id": "maybelle_may_parker_nee_reilly-spider_verse-8311",
+    "name": "Maybelle \"May\" Parker, née Reilly"
+  },
+  {
+    "id": "michael_morbius-ssu-688",
+    "name": "Michael Morbius"
+  },
+  {
+    "id": "michelle_jones-mcu-616",
+    "name": "Michelle Jones"
+  },
+  {
+    "id": "miguel_o_hara-spider_verse-8311",
+    "name": "Miguel O'Hara"
+  },
+  {
+    "id": "mobius-mcu-616",
+    "name": "Mobius"
+  },
+  {
+    "id": "monica_rambeau-mcu-616",
+    "name": "Monica Rambeau"
+  },
+  {
+    "id": "morgan_stark-mcu-616",
+    "name": "Morgan Stark"
+  },
+  {
+    "id": "mysterio-mcu-616",
+    "name": "Mysterio"
+  },
+  {
+    "id": "n_jadaka-mcu-616",
+    "name": "N'Jadaka"
+  },
+  {
+    "id": "namor-mcu-616",
+    "name": "Namor"
+  },
+  {
+    "id": "nebula-mcu-616",
+    "name": "Nebula"
+  },
+  {
+    "id": "ned_leeds-mcu-616",
+    "name": "Ned Leeds"
+  },
+  {
+    "id": "nicholas_joseph_nick_fury-mcu-616",
+    "name": "Nicholas Joseph \"Nick\" Fury"
+  },
+  {
+    "id": "nick_fury-mcu-616",
+    "name": "Nick Fury"
+  },
+  {
+    "id": "odin_borson-mcu-616",
+    "name": "Odin Borson"
+  },
+  {
+    "id": "okoye-mcu-616",
+    "name": "Okoye"
+  },
+  {
+    "id": "otto_octavius-raimi_verse-96283",
+    "name": "Otto Octavius"
+  },
+  {
+    "id": "pepper_potts-mcu-616",
+    "name": "Pepper Potts"
+  },
+  {
+    "id": "peter_b_parker-spider_verse-8311",
+    "name": "Peter B. Parker"
+  },
+  {
+    "id": "peter_parker-webb_verse-120703",
+    "name": "Peter Parker (Terre-120703)"
+  },
+  {
+    "id": "peter_quill-mcu-616",
+    "name": "Peter Quill"
+  },
+  {
+    "id": "peter_rasputin-fox_x_men-41633",
+    "name": "Peter Rasputin"
+  },
+  {
+    "id": "phillip_coulson-mcu-616",
+    "name": "Phillip Coulson"
+  },
+  {
+    "id": "pietro_maximoff-fox_x_men-10005",
+    "name": "Pietro Maximoff"
+  },
+  {
+    "id": "pietro_maximoff-mcu-616",
+    "name": "Pietro Maximoff"
+  },
+  {
+    "id": "piotr_rasputin-fox_x_men-10005",
+    "name": "Piotr Rasputin"
+  },
+  {
+    "id": "piotr_rasputin-mcu-10005",
+    "name": "Piotr Rasputin"
+  },
+  {
+    "id": "raven_darkholme-fox_x_men-10005",
+    "name": "Raven Darkhölme"
+  },
+  {
+    "id": "reed_richards-fox_fantastiques-121698",
+    "name": "Reed Richards (Fox, 2005)"
+  },
+  {
+    "id": "reed_richards-mcu-828",
+    "name": "Reed Richards (Terre-828)"
+  },
+  {
+    "id": "reed_richards-mcu-838",
+    "name": "Reed Richards (Terre-838)"
+  },
+  {
+    "id": "robert_drake-fox_x_men-10005",
+    "name": "Robert Drake"
+  },
+  {
+    "id": "rocket_raccoon-mcu-616",
+    "name": "Rocket Raccoon"
+  },
+  {
+    "id": "sam_wilson-mcu-616",
+    "name": "Sam Wilson"
+  },
+  {
+    "id": "scott_lang-mcu-616",
+    "name": "Scott Lang"
+  },
+  {
+    "id": "shalla_bal-mcu-828",
+    "name": "Shalla-Bal (Terre-828)"
+  },
+  {
+    "id": "shang_chi-mcu-616",
+    "name": "Shang-Chi"
+  },
+  {
+    "id": "sharon_carter-mcu-616",
+    "name": "Sharon Carter"
+  },
+  {
+    "id": "shuri-mcu-616",
+    "name": "Shuri"
+  },
+  {
+    "id": "stephen_strange-mcu-616",
+    "name": "Stephen Strange (Terre-616)"
+  },
+  {
+    "id": "stephen_strange-mcu-91233",
+    "name": "Stephen Strange (Terre-91233)"
+  },
+  {
+    "id": "sue_storm-mcu-828",
+    "name": "Sue Storm (Terre-828)"
+  },
+  {
+    "id": "susan_storm-fox_fantastiques-121698",
+    "name": "Susan Storm"
+  },
+  {
+    "id": "sylvie-mcu-616",
+    "name": "Sylvie"
+  },
+  {
+    "id": "t_challa-mcu-21818",
+    "name": "T'Challa (Terre-21818)"
+  },
+  {
+    "id": "t_challa-mcu-616",
+    "name": "T'Challa"
+  },
+  {
+    "id": "thaddeus_ross-mcu-616",
+    "name": "Thaddeus Ross"
+  },
+  {
+    "id": "thor_odinson-mcu-72124",
+    "name": "Thor Odinson (Terre-72124)"
+  },
+  {
+    "id": "uatu-mcu-616",
+    "name": "Uatu"
+  },
+  {
+    "id": "ultron-mcu-616",
+    "name": "Ultron"
+  },
+  {
+    "id": "ulysses_klaue-mcu-616",
+    "name": "Ulysses Klaue"
+  },
+  {
+    "id": "venom-raimi_verse-96283",
+    "name": "Venom (Terre-96283)"
+  },
+  {
+    "id": "venom-ssu-688",
+    "name": "Venom (Terre-688)"
+  },
+  {
+    "id": "victor_von_doom-fox_fantastiques-121698",
+    "name": "Victor von Doom"
+  },
+  {
+    "id": "vision-mcu-616",
+    "name": "Vision"
+  },
+  {
+    "id": "wanda_maximoff-mcu-616",
+    "name": "Wanda Maximoff"
+  },
+  {
+    "id": "william_stryker-fox_x_men-10005",
+    "name": "William Stryker"
+  },
+  {
+    "id": "wilson_fisk-mcu-616",
+    "name": "Wilson Fisk"
+  },
+  {
+    "id": "wilson_fisk-spider_verse-1610",
+    "name": "Wilson Fisk (Terre-1610)"
+  },
+  {
+    "id": "wong-mcu-616",
+    "name": "Wong"
+  },
+  {
+    "id": "yelena_belova-mcu-616",
+    "name": "Yelena Belova"
+  },
+  {
+    "id": "yondu_udonta-mcu-616",
+    "name": "Yondu Udonta"
+  }
+]

@@ -1,0 +1,493 @@
+[
+  {
+    "id": "even_dead_i_m_the_hero-mcu-616",
+    "name": "Even Dead, I'm The Hero",
+    "status": "En Vie",
+    "aliases": [
+      "E.D.I.T.H.",
+      "EDITH"
+    ],
+    "species": "Artificiel",
+    "gender": "Femme",
+    "affiliation": "Stark Industries",
+    "firstAppearance": "Spider-Man : Far From Home",
+    "hint1": "Dawn Michelle King",
+    "hint2": "2019",
+    "hint3": "Spider-Man : Far From Home",
+    "role": "Allié",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "flint_marko-raimi_verse-96283",
+    "name": "Flint Marko",
+    "status": "En Vie",
+    "aliases": [
+      "Homme-Sable",
+      "Sandman"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "firstAppearance": "Spider-Man 3",
+    "affiliation": "Indépendant(e)",
+    "hint1": "Thomas Haden Church",
+    "hint2": "2007",
+    "hint3": "Spider-Man 3, Spider-Man : No Way Home",
+    "role": "Anti-héros",
+    "abilities": [
+      "Biochimiques",
+      "Métamorphose"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "foggy_nelson-mcu-616",
+    "name": "Foggy Nelson",
+    "status": "Décédé",
+    "aliases": [
+      "Foggy",
+      "Franklin Percy Nelson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Nelson & Murdock",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Elden Henson",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3), The Defenders (Saison 1), Daredevil : Born Again (Saison 1), Daredevil : Born Again (Saison 2)",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "francis_freeman-fox_x_men-10005",
+    "name": "Francis Freeman",
+    "status": "Décédé",
+    "aliases": [
+      "Ajax"
+    ],
+    "species": "Mutate",
+    "gender": "Homme",
+    "affiliation": "Programme Weapon X",
+    "firstAppearance": "Deadpool",
+    "hint1": "Ed Skrein",
+    "hint2": "2016",
+    "hint3": "Deadpool",
+    "role": "Vilain",
+    "abilities": [
+      "Anti-Pouvoir",
+      "Arts Martiaux"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "frank_castle-mcu-616",
+    "name": "Frank Castle",
+    "status": "En Vie",
+    "aliases": [
+      "Punisher",
+      "Le Punisher",
+      "Francis Castle"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil (Saison 2)",
+    "hint1": "Jon Bernthal",
+    "hint2": "2016",
+    "hint3": "Daredevil (Saison 2), Le Punisher (Saison 1), Le Punisher (Saison 2), Daredevil : Born Again (Saison 1), Spider-Man : Brand New Day",
+    "role": "Justicier",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "franklin_percy_foggy_nelson-mcu-616",
+    "name": "Franklin Percy Nelson",
+    "status": "Décédé",
+    "aliases": [
+      "Foggy",
+      "Foggy Nelson",
+      "Franklin Percy \"Foggy\" Nelson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Nelson & Murdock",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Elden Henson",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3), The Defenders (Saison 1), Daredevil : Born Again (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "galan-mcu-828",
+    "name": "Galan",
+    "status": "En Vie",
+    "aliases": [
+      "Galactus",
+      "Dévoreur de Mondes"
+    ],
+    "species": "Entité Cosmique",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
+    "hint1": "Ralph Ineson",
+    "hint2": "2025",
+    "hint3": "Les Quatre Fantastiques : Premiers Pas",
+    "role": "Amoral",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "earth": 828,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "gamora-mcu-616",
+    "name": "Gamora",
+    "status": "En Vie",
+    "aliases": [
+      "Fille de Thanos",
+      "Gamora Zen Whoberi Ben Titan"
+    ],
+    "species": "Zehoberei",
+    "gender": "Femme",
+    "affiliation": "Gardiens de la Galaxie",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "Zoe Saldaña",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2, Avengers : Infinity War, Avengers : Endgame, Les Gardiens de la Galaxie Vol. 3",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "gorr-mcu-616",
+    "name": "Gorr",
+    "status": "Décédé",
+    "aliases": [
+      "Le Boucher des Dieux",
+      "The God Butcher",
+      "Gorr the God Butcher"
+    ],
+    "species": "Alien",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Thor : Love and Thunder",
+    "hint1": "Christian Bale",
+    "hint2": "2022",
+    "hint3": "Thor : Love and Thunder",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Surhumaines",
+      "Epéiste"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "grant_douglas_ward-mcu-616",
+    "name": "Grant Ward",
+    "status": "Décédé",
+    "aliases": [
+      "Agent Ward",
+      "Grant Douglas Ward"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "Brett Dalton",
+    "hint2": "2013",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1), Agents of S.H.I.E.L.D. (Saison 2), Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 4)",
+    "role": "Traître",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux",
+      "Espionnage"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "groot-mcu-616",
+    "name": "Groot",
+    "status": "En Vie",
+    "aliases": [
+      "Je s'appelle Groot",
+      "I am Groot"
+    ],
+    "species": "Flora Colossus",
+    "gender": "Homme",
+    "affiliation": "Gardiens de la Galaxie",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "Vin Diesel",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2, Avengers : Infinity War, Avengers : Endgame, Je suis Groot (Saison 1), Les Gardiens de la Galaxie : Les Fêtes des Fêtes, Les Gardiens de la Galaxie Vol. 3, Je suis Groot (Saison 2)",
+    "role": "Héros",
+    "abilities": [
+      "Aliennnes",
+      "Régénération"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "gwen_stacy-spider_verse-8311",
+    "name": "Gwen Stacy",
+    "status": "En Vie",
+    "aliases": [
+      "Spider-Gwen",
+      "Ghost-Spider",
+      "Spider-Woman"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Spider Gang (Spider-Verse)",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "Hailee Steinfeld",
+    "hint2": "2018",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Biochimiques"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "gwen_stacy-webb_verse-120703",
+    "name": "Gwen Stacy",
+    "status": "Décédé",
+    "aliases": [
+      "Gwendolyne Maxine Stacy"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "The Amazing Spider-Man",
+    "hint1": "Emma Stone",
+    "hint2": "2012",
+    "hint3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "hank_mccoy-adult-fox_x_men-10005",
+    "name": "Hank McCoy",
+    "status": "Décédé",
+    "aliases": [
+      "Le Fauve",
+      "Beast",
+      "Henry Philip McCoy",
+      "Dr. Hank McCoy"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "X-Men",
+    "firstAppearance": "X-men 2",
+    "hint1": "Kelsey Grammer",
+    "hint2": "2003",
+    "hint3": "X-Men 2, X-Men : L'Affrontement final, X-Men : Days of Future Past",
+    "role": "Héros",
+    "abilities": [
+      "Animales",
+      "Surhumaines",
+      "Intellectuelles"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "hank_pym-mcu-616",
+    "name": "Hank Pym",
+    "status": "En Vie",
+    "aliases": [
+      "Ant-Man",
+      "Henry Jonathan Pym",
+      "Dr. Hank Pym"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ant-Man",
+    "hint1": "Michael Douglas",
+    "hint2": "2015",
+    "hint3": "Ant-Man, Ant-Man et la Guêpe, Avengers : Endgame, Ant-Man et la Guêpe : Quantumania",
+    "role": "Mentor",
+    "abilities": [
+      "Intellectuelles",
+      "Technologiques",
+      "Quantiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "happy_hogan-mcu-616",
+    "name": "Happy Hogan",
+    "status": "En Vie",
+    "aliases": [
+      "Happy",
+      "Harold Joseph Hogan"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "firstAppearance": "Iron Man",
+    "affiliation": "Stark Industries",
+    "hint1": "Jon Favreau",
+    "hint2": "2008",
+    "hint3": "Iron Man, Iron Man 2, Iron Man 3, Spider-Man : Homecoming, Avengers : Endgame, Spider-Man : Far From Home, Spider-Man : No Way Home, Deadpool & Wolverine",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "harold_harry_osborn-raimi_verse-96283",
+    "name": "Harold Osborn",
+    "status": "Décédé",
+    "aliases": [
+      "Le Nouveau Bouffon",
+      "New Goblin",
+      "Harry Osborn",
+      "Harold Theopolis Osborn"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Spider-Man",
+    "hint1": "James Franco",
+    "hint2": "2002",
+    "hint3": "Spider-Man, Spider-Man 2, Spider-Man 3",
+    "role": "Réformé",
+    "abilities": [
+      "Surhumaines",
+      "Technologiques",
+      "Biochimiques"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "harold_harry_osborn-webb_verse-120703",
+    "name": "Harold Osborn",
+    "status": "En Vie",
+    "aliases": [
+      "Le Bouffon Vert",
+      "Green Goblin",
+      "Harry Osborn",
+      "Harold Theopolis Osborn"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "The Amazing Spider-Man 2",
+    "hint1": "Dane DeHaan",
+    "hint2": "2014",
+    "hint3": "The Amazing Spider-Man 2",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Technologiques",
+      "Biochimiques"
+    ],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "harry_osborn-raimi_verse-96283",
+    "name": "Harry Osborn",
+    "status": "Décédé",
+    "aliases": [
+      "Le Nouveau Bouffon",
+      "New Goblin",
+      "Le Bouffon Vert",
+      "Harold Theopolis Osborn"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Spider-Man",
+    "hint1": "James Franco",
+    "hint2": "2002",
+    "hint3": "Spider-Man, Spider-Man 2, Spider-Man 3",
+    "role": "Réformé",
+    "abilities": [
+      "Surhumaines",
+      "Technologiques",
+      "Biochimiques"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Facile"
+  },
+  {
+    "id": "heimdall-mcu-616",
+    "name": "Heimdall",
+    "status": "Décédé",
+    "aliases": [
+      "Gardien du Bifrost"
+    ],
+    "species": "Asgardian",
+    "gender": "Homme",
+    "firstAppearance": "Thor",
+    "affiliation": "Asgard",
+    "hint1": "Idris Elba",
+    "hint2": "2011",
+    "hint3": "Thor, Thor : Le Monde des Ténèbres, Avengers : L'ère d'Ultron, Thor : Ragnarok, Avengers : Infinity War, Thor : Love and Thunder, What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Divinnes",
+      "Omniscientes"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Facile"
+  }
+]
