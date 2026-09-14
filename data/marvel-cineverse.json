@@ -9794,16 +9794,21 @@
       "id": "thanos-mcu-838",
       "name": "Thanos",
       "status": "Décédé",
-      "aliases": [],
-      "species": "Eternal",
+      "aliases": [
+        "The Mad Titan"
+      ],
+      "species": "Titan",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Famille royale de Titan",
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "hint1": "",
       "hint2": "2022",
       "hint3": "Doctor Strange in the Multiverse of Madness",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Cosmiques",
+        "Surhumaines"
+      ],
       "earth": 838,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -9812,16 +9817,20 @@
       "id": "thomas_tommy_maximoff-mcu-838",
       "name": "Thomas \"Tommy\" Maximoff",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Tommy"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
-      "hint1": "",
+      "hint1": "Jett Klyne",
       "hint2": "2022",
       "hint3": "Doctor Strange in the Multiverse of Madness",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 838,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -9832,14 +9841,17 @@
       "status": "En Vie",
       "aliases": [],
       "species": "Artificiel",
-      "gender": "",
-      "affiliation": "",
+      "gender": "Homme",
+      "affiliation": "Illuminati",
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
-      "hint1": "",
+      "hint1": "Ross Marquand",
       "hint2": "2022",
       "hint3": "Doctor Strange in the Multiverse of Madness",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Technologiques",
+        "Intellectuelles"
+      ],
       "earth": 838,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -9851,13 +9863,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "4 Fantastiques",
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
       "hint1": "",
       "hint2": "2022",
       "hint3": "Doctor Strange in the Multiverse of Madness",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 838,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -9869,13 +9883,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
-      "hint1": "",
+      "hint1": "Elizabeth Olsen",
       "hint2": "2022",
       "hint3": "Doctor Strange in the Multiverse of Madness",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Magiques"
+      ],
       "earth": 838,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -9884,16 +9900,20 @@
       "id": "william_billy_maximoff-mcu-838",
       "name": "William \"Billy\" Maximoff",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Billy"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Doctor Strange in the Multiverse of Madness",
-      "hint1": "",
+      "hint1": "Julian Hilliard",
       "hint2": "2022",
       "hint3": "Doctor Strange in the Multiverse of Madness",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 838,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -10706,13 +10726,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Fantastic Four: First Steps Vol 1 1",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Fantastic Four: First Steps Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
+      "hint1": "Mark Gatiss",
+      "hint2": "2025",
+      "hint3": "Les Quatre Fantastiques : Premiers Pas",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 828,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -10724,13 +10746,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Marvel Comics",
       "firstAppearance": "Fantastic Four: First Steps Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2025",
       "hint3": "Fantastic Four: First Steps Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 828,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -10745,10 +10769,13 @@
       "affiliation": "Mole Man",
       "firstAppearance": "Fantastic Four: First Steps Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2025",
       "hint3": "Fantastic Four: First Steps Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Monstrueuses",
+        "Surhumaines"
+      ],
       "earth": 828,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -10760,13 +10787,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Future Foundation",
       "firstAppearance": "Fantastic Four: First Steps Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2025",
       "hint3": "Fantastic Four: First Steps Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 828,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -10780,13 +10809,17 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "The Fantastic Four: First Steps",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "The Fantastic Four: First Steps",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Latverie",
+      "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
+      "hint1": "Robert Downey Jr.",
+      "hint2": "2025",
+      "hint3": "Les Quatre Fantastiques : Premiers Pas",
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles",
+        "Technologiques",
+        "Magiques"
+      ],
       "earth": 828,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -10798,13 +10831,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "The Fantastic Four: First Steps",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "The Fantastic Four: First Steps",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
+      "hint1": "Alex Hyde-White",
+      "hint2": "2025",
+      "hint3": "Les Quatre Fantastiques : Premiers Pas",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 828,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11566,16 +11601,21 @@
       "id": "thaddeus_thunderbolt_ross-mcu-617",
       "name": "Thaddeus \"Thunderbolt\" Ross",
       "status": "En Vie",
-      "aliases": [],
-      "species": "",
+      "aliases": [
+        "Thunderbolt Ross",
+        "General Ross"
+      ],
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "États-Unis",
       "firstAppearance": "Doc Samson Vol 2 4",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2006",
       "hint3": "Doc Samson Vol 2 4",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11590,10 +11630,12 @@
       "affiliation": "Thors",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Divinnes"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11603,15 +11645,17 @@
       "name": "Tidier-Man",
       "status": "En Vie",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11621,15 +11665,17 @@
       "name": "Uncle Den",
       "status": "En Vie",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11639,15 +11685,17 @@
       "name": "Uncle Glen",
       "status": "Décédé",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11657,15 +11705,17 @@
       "name": "Uncle Ken",
       "status": "Décédé",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11675,15 +11725,17 @@
       "name": "Uncle Sven",
       "status": "En Vie",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11697,13 +11749,17 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Latverie",
       "firstAppearance": "Doc Samson Vol 2 4",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2006",
       "hint3": "Doc Samson Vol 2 4",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles",
+        "Technologiques",
+        "Magiques"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11718,13 +11774,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Deadpool: Samurai Vol 1 14",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2022",
       "hint3": "Deadpool: Samurai Vol 1 14",
-      "role": "",
-      "abilities": [],
+      "role": "Anti-héros",
+      "abilities": [
+        "Régénération",
+        "Arts Martiaux"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11738,13 +11797,16 @@
       ],
       "species": "Mutant",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Doc Samson Vol 2 4",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2006",
       "hint3": "Doc Samson Vol 2 4",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Magiques",
+        "Psioniques"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11754,15 +11816,17 @@
       "name": "Wider-Man",
       "status": "En Vie",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -11774,15 +11838,17 @@
       "aliases": [
         "-Man"
       ],
-      "species": "",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Secret Wars Too Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2015",
       "hint3": "Secret Wars Too Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 617,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -12214,15 +12280,18 @@
       "name": "Taserface",
       "status": "En Vie",
       "aliases": [],
-      "species": "Alien",
+      "species": "Sakaaran",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 2",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 2",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Ravageurs",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Chris Sullivan",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Aliennnes",
+        "Militaires"
+      ],
       "earth": 21818,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -12232,18 +12301,20 @@
       "name": "Thanos",
       "status": "En Vie",
       "aliases": [
-        "The Mad Titan",
-        "Captain Genocide"
+        "The Mad Titan"
       ],
       "species": "Titan",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 2",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 2",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Ravageurs",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Josh Brolin",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Réformé",
+      "abilities": [
+        "Cosmiques",
+        "Surhumaines"
+      ],
       "earth": 21818,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -12255,13 +12326,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 2",
+      "affiliation": "Wakanda",
+      "firstAppearance": "What If...? (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 2",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 21818,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -12273,13 +12346,15 @@
       "aliases": [],
       "species": "Centaurian",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 2",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 2",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Ravageurs",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Michael Rooker",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Amoral",
+      "abilities": [
+        "Aliennnes"
+      ],
       "earth": 21818,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13026,13 +13101,15 @@
       "aliases": [],
       "species": "Sakaaran",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 7",
+      "affiliation": "Sakaar",
+      "firstAppearance": "What If...? (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 7",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Aliennnes"
+      ],
       "earth": 72124,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13041,16 +13118,21 @@
       "id": "thanos-mcu-72124",
       "name": "Thanos",
       "status": "Décédé",
-      "aliases": [],
-      "species": "Eternal",
-      "gender": "",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 3 4",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 3 4",
-      "role": "",
-      "abilities": [],
+      "aliases": [
+        "The Mad Titan"
+      ],
+      "species": "Titan",
+      "gender": "Homme",
+      "affiliation": "Famille royale de Titan",
+      "firstAppearance": "What If...? (Saison 3)",
+      "hint1": "Josh Brolin",
+      "hint2": "2024",
+      "hint3": "What If...? (Saison 3)",
+      "role": "Vilain",
+      "abilities": [
+        "Cosmiques",
+        "Surhumaines"
+      ],
       "earth": 72124,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13058,17 +13140,19 @@
     {
       "id": "topaz-mcu-72124",
       "name": "Topaz",
-      "status": "Décédé",
+      "status": "En Vie",
       "aliases": [],
       "species": "Sakaaran",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 7",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 7",
-      "role": "",
-      "abilities": [],
+      "affiliation": "The Grandmaster",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Rachel House",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Antagoniste",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 72124,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13080,13 +13164,15 @@
       "aliases": [],
       "species": "Asgardian",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 7",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 7",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Asgard",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Fred Tatasciore",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Divinnes"
+      ],
       "earth": 72124,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13098,13 +13184,15 @@
       "aliases": [],
       "species": "Centaurian",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 7",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 7",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Ravageurs",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Michael Rooker",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1), What If...? (Saison 3)",
+      "role": "Amoral",
+      "abilities": [
+        "Aliennnes"
+      ],
       "earth": 72124,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13116,13 +13204,15 @@
       "aliases": [],
       "species": "Olympian",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 3 4",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 3 4",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Olympiens",
+      "firstAppearance": "What If...? (Saison 3)",
+      "hint1": "Darin De Paul",
+      "hint2": "2024",
+      "hint3": "What If...? (Saison 3)",
+      "role": "Antagoniste",
+      "abilities": [
+        "Divinnes"
+      ],
       "earth": 72124,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13756,17 +13846,21 @@
       "name": "Thanos",
       "status": "En Vie",
       "aliases": [
-        "Ragazzo Viola Arrabbiato"
+        "Ragazzo Viola Arrabbiato",
+        "The Mad Titan"
       ],
       "species": "Titan",
       "gender": "Homme",
       "affiliation": "Titan",
-      "firstAppearance": "What If...? (animated series) Season 1 1",
+      "firstAppearance": "What If...? (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 1",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Vilain",
+      "abilities": [
+        "Cosmiques",
+        "Surhumaines"
+      ],
       "earth": 82111,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13778,13 +13872,15 @@
       "aliases": [],
       "species": "Asgardian",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 2 5",
+      "affiliation": "Asgard",
+      "firstAppearance": "What If...? (Saison 2)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 2 5",
-      "role": "",
-      "abilities": [],
+      "hint2": "2023",
+      "hint3": "What If...? (Saison 2)",
+      "role": "Héros",
+      "abilities": [
+        "Divinnes"
+      ],
       "earth": 82111,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -13793,16 +13889,20 @@
       "id": "timothy_dum_dum_dugan-mcu-82111",
       "name": "Timothy \"Dum Dum\" Dugan",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Dum Dum Dugan"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 1",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 1",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Howling Commandos",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Neal McDonough",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 82111,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14616,14 +14716,16 @@
       "status": "En Vie",
       "aliases": [],
       "species": "Humain",
-      "gender": "",
-      "affiliation": "",
+      "gender": "Femme",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2025",
       "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14637,13 +14739,15 @@
       ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 5",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2025",
       "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 5",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Cryokinésiques"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14746,16 +14850,20 @@
       "id": "taylor-mcu-86445",
       "name": "Taylor",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Mr. Taylor"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 1",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 1",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "hint1": "Phil LaMarr",
+      "hint2": "2025",
+      "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14767,13 +14875,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 10",
+      "affiliation": "W.E.B.",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 10",
-      "role": "",
-      "abilities": [],
+      "hint2": "2025",
+      "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14781,17 +14891,19 @@
     {
       "id": "tina_minoru-mcu-86445",
       "name": "Tina Minoru",
-      "status": "En Vie",
+      "status": "Décédé",
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 5",
+      "affiliation": "Civil",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 5",
-      "role": "",
-      "abilities": [],
+      "hint2": "2025",
+      "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Magiques"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14803,13 +14915,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 10",
+      "affiliation": "W.E.B.",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 10",
-      "role": "",
-      "abilities": [],
+      "hint2": "2025",
+      "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14817,17 +14931,20 @@
     {
       "id": "ultron-mcu-86445",
       "name": "Ultron",
-      "status": "En Vie",
+      "status": "Décédé",
       "aliases": [],
       "species": "Artificiel",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 8",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Your Friendly Neighborhood Spider-Man (TV series) Season 1 8",
-      "role": "",
-      "abilities": [],
+      "hint2": "2025",
+      "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "role": "Vilain",
+      "abilities": [
+        "Technologiques",
+        "Intellectuelles"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14839,13 +14956,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Your Friendly Neighborhood Spider-Man Vol 1 5",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Your Friendly Neighborhood Spider-Man Vol 1 5",
-      "role": "",
-      "abilities": [],
+      "hint2": "2025",
+      "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 86445,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -14989,13 +15108,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "What If...? (animated series) Season 1 4",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "What If...? (animated series) Season 1 4",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Kamar-Taj",
+      "firstAppearance": "What If...? (Saison 1)",
+      "hint1": "Benedict Wong",
+      "hint2": "2021",
+      "hint3": "What If...? (Saison 1)",
+      "role": "Héros",
+      "abilities": [
+        "Mystiques",
+        "Magiques"
+      ],
       "earth": 91233,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -16539,13 +16661,15 @@
       "aliases": [],
       "species": "Mutant",
       "gender": "Femme",
-      "affiliation": "Magneto",
+      "affiliation": "Confrérie des mutants",
       "firstAppearance": "Dark Phoenix",
-      "hint1": "",
-      "hint2": "",
+      "hint1": "Kota Eberhardt",
+      "hint2": "2019",
       "hint3": "Dark Phoenix",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Psioniques"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16557,13 +16681,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Thayr Harris",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16631,13 +16757,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "The New Mutants",
-      "hint1": "",
+      "hint1": "Thomas Kee",
       "hint2": "2020",
       "hint3": "The New Mutants",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16649,13 +16777,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "The Bent Bullet Report",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2013",
       "hint3": "The Bent Bullet Report",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Intellectuelles"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16664,16 +16794,20 @@
       "id": "vinny_lavecchia-fox_x_men-10005",
       "name": "Vinny Lavecchia",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Vincent Lavecchia"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "X-Men: The High Hand Vol 1 1",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "X-Men : Le Commencement",
       "hint1": "",
-      "hint2": "",
-      "hint3": "X-Men: The High Hand Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "hint2": "2011",
+      "hint3": "X-Men : Le Commencement",
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16685,13 +16819,17 @@
       "aliases": [],
       "species": "D'bari",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Dark Phoenix",
-      "hint1": "",
-      "hint2": "",
+      "hint1": "Jessica Chastain",
+      "hint2": "2019",
       "hint3": "Dark Phoenix",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aliennnes",
+        "Energétiques",
+        "Surhumaines"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16703,13 +16841,15 @@
       "aliases": [],
       "species": "Mutant",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "X-Men: Days of Future Past",
+      "affiliation": "Civil",
+      "firstAppearance": "X-Men : Days of Future Past",
       "hint1": "",
       "hint2": "2014",
-      "hint3": "X-Men: Days of Future Past",
-      "role": "",
-      "abilities": [],
+      "hint3": "X-Men : Days of Future Past",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16723,11 +16863,13 @@
       "gender": "Homme",
       "affiliation": "Cheyenne People",
       "firstAppearance": "The New Mutants",
-      "hint1": "",
+      "hint1": "Adam Beach",
       "hint2": "2020",
       "hint3": "The New Mutants",
-      "role": "",
-      "abilities": [],
+      "role": "Mentor",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16739,13 +16881,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "X-Men: Days of Future Past",
-      "hint1": "",
+      "affiliation": "U.S. Army",
+      "firstAppearance": "X-Men : Days of Future Past",
+      "hint1": "Josh Helman",
       "hint2": "2014",
-      "hint3": "X-Men: Days of Future Past",
-      "role": "",
-      "abilities": [],
+      "hint3": "X-Men : Days of Future Past",
+      "role": "Antagoniste",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -16758,12 +16902,14 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "CIA",
-      "firstAppearance": "X-Men: First Class",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "X-Men: First Class",
-      "role": "",
-      "abilities": [],
+      "firstAppearance": "X-Men : Le Commencement",
+      "hint1": "Don Creech",
+      "hint2": "2011",
+      "hint3": "X-Men : Le Commencement",
+      "role": "Antagoniste",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 10005,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17070,13 +17216,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "Civil",
       "firstAppearance": "Logan",
-      "hint1": "",
+      "hint1": "Eriq La Salle",
       "hint2": "2017",
       "hint3": "Logan",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 17315,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17088,13 +17236,17 @@
       "aliases": [],
       "species": "Mutant",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "Alkali-Transigen",
       "firstAppearance": "Logan",
-      "hint1": "",
+      "hint1": "Hugh Jackman",
       "hint2": "2017",
       "hint3": "Logan",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Animales",
+        "Surhumaines",
+        "Régénération"
+      ],
       "earth": 17315,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17106,13 +17258,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "Alkali-Transigen",
       "firstAppearance": "Logan",
-      "hint1": "",
+      "hint1": "Richard E. Grant",
       "hint2": "2017",
       "hint3": "Logan",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles"
+      ],
       "earth": 17315,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17560,13 +17714,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Thayr Harris",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17612,19 +17768,21 @@
     {
       "id": "thomas_cassidy-fox_x_men-41633",
       "name": "Thomas Cassidy",
-      "status": "Décédé",
+      "status": "En Vie",
       "aliases": [
         "Black Tom Cassidy"
       ],
       "species": "Mutant",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Jack Kesy",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Arts Martiaux"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17634,15 +17792,17 @@
       "name": "Vanessa Carlysle",
       "status": "Décédé",
       "aliases": [],
-      "species": "",
+      "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Morena Baccarin",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17651,16 +17811,20 @@
       "id": "vanisher-fox_x_men-41633",
       "name": "Vanisher",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Telford Porter"
+      ],
       "species": "Mutant",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "X-Force",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Brad Pitt",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17668,21 +17832,23 @@
     {
       "id": "wade_winston_wilson-fox_x_men-41633",
       "name": "Wade Winston Wilson",
-      "status": "Décédé",
+      "status": "En Vie",
       "aliases": [
         "Deadpool",
-        "Gail",
         "DP"
       ],
       "species": "Mutant",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "X-Force",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Ryan Reynolds",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Anti-héros",
+      "abilities": [
+        "Régénération",
+        "Arts Martiaux"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17692,8 +17858,7 @@
       "name": "Warren Worthington III",
       "status": "En Vie",
       "aliases": [
-        "Angel",
-        "Putz with the giant pigeon wings"
+        "Angel"
       ],
       "species": "Mutant",
       "gender": "Homme",
@@ -17702,8 +17867,10 @@
       "hint1": "",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Animales"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17717,13 +17884,16 @@
       ],
       "species": "Mutant",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "X-Men",
       "firstAppearance": "Deadpool 2",
-      "hint1": "",
+      "hint1": "Shioli Kutsuna",
       "hint2": "2018",
       "hint3": "Deadpool 2",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Energétiques",
+        "Arts Martiaux"
+      ],
       "earth": 41633,
       "universe": "Fox X-Men",
       "difficulty": "Impossible"
@@ -17980,14 +18150,16 @@
       "status": "En Vie",
       "aliases": [],
       "species": "Zenn-Lavian",
-      "gender": "",
-      "affiliation": "",
-      "firstAppearance": "Fantastic Four: Rise of the Silver Surfer",
+      "gender": "Femme",
+      "affiliation": "Civil",
+      "firstAppearance": "Les 4 Fantastiques et le Surfer d'Argent",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Fantastic Four: Rise of the Silver Surfer",
-      "role": "",
-      "abilities": [],
+      "hint2": "2007",
+      "hint3": "Les 4 Fantastiques et le Surfer d'Argent",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 121698,
       "universe": "Fox Fantastiques",
       "difficulty": "Impossible"
@@ -18036,12 +18208,14 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "United States Postal Service",
-      "firstAppearance": "Fantastic Four (2005 film)",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Fantastic Four (2005 film)",
-      "role": "",
-      "abilities": [],
+      "firstAppearance": "4 Fantastiques",
+      "hint1": "Stan Lee",
+      "hint2": "2005",
+      "hint3": "4 Fantastiques",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 121698,
       "universe": "Fox Fantastiques",
       "difficulty": "Impossible"
@@ -18049,17 +18223,19 @@
     {
       "id": "ziegfred_von_doom-fox_fantastiques-121698",
       "name": "Ziegfred Von Doom",
-      "status": "En Vie",
+      "status": "Décédé",
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Fantastic Four: Rise of the Silver Surfer",
+      "affiliation": "Latverie",
+      "firstAppearance": "Les 4 Fantastiques et le Surfer d'Argent",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Fantastic Four: Rise of the Silver Surfer",
-      "role": "",
-      "abilities": [],
+      "hint2": "2007",
+      "hint3": "Les 4 Fantastiques et le Surfer d'Argent",
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 121698,
       "universe": "Fox Fantastiques",
       "difficulty": "Impossible"
@@ -18720,16 +18896,25 @@
       "id": "teddy_paine-ssu-688",
       "name": "Teddy Paine",
       "status": "En Vie",
-      "aliases": [],
-      "species": "Humain",
+      "aliases": [
+        "Dr. Theodora Paine",
+        "Agony"
+      ],
+      "species": [
+        "Humain",
+        "Symbiote"
+      ],
       "gender": "Femme",
       "affiliation": "Imperium",
       "firstAppearance": "Venom: The Last Dance",
-      "hint1": "",
+      "hint1": "Juno Temple",
       "hint2": "2024",
       "hint3": "Venom: The Last Dance",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Intellectuelles",
+        "Aliennnes"
+      ],
       "earth": 688,
       "universe": "SSU",
       "difficulty": "Impossible"
@@ -18740,14 +18925,16 @@
       "status": "Décédé",
       "aliases": [],
       "species": "Symbiote",
-      "gender": "",
-      "affiliation": "",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Venom: The Last Dance",
       "hint1": "",
       "hint2": "2024",
       "hint3": "Venom: The Last Dance",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Aliennnes"
+      ],
       "earth": 688,
       "universe": "SSU",
       "difficulty": "Impossible"
@@ -18759,13 +18946,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Venom: The Last Dance",
       "hint1": "",
       "hint2": "2024",
       "hint3": "Venom: The Last Dance",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 688,
       "universe": "SSU",
       "difficulty": "Impossible"
@@ -18777,13 +18966,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Imperium",
       "firstAppearance": "Venom: The Last Dance",
       "hint1": "",
       "hint2": "2024",
       "hint3": "Venom: The Last Dance",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 688,
       "universe": "SSU",
       "difficulty": "Impossible"
@@ -18793,15 +18984,18 @@
       "name": "Venom Horse",
       "status": "En Vie",
       "aliases": [],
-      "species": "Horse",
-      "gender": "",
-      "affiliation": "Formerly:",
+      "species": "Cheval",
+      "gender": "Homme",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Venom: The Last Dance",
       "hint1": "",
       "hint2": "2024",
       "hint3": "Venom: The Last Dance",
-      "role": "",
-      "abilities": [],
+      "role": "Animal",
+      "abilities": [
+        "Aliennnes",
+        "Animales"
+      ],
       "earth": 688,
       "universe": "SSU",
       "difficulty": "Impossible"
@@ -18815,13 +19009,16 @@
       ],
       "species": "God of Earth's monotheistic faiths",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Venom (Sony) Vol 1 1",
+      "affiliation": "Civil",
+      "firstAppearance": "Venom",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Venom (Sony) Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "hint2": "2018",
+      "hint3": "Venom",
+      "role": "Mentor",
+      "abilities": [
+        "Divinnes",
+        "Omniscientes"
+      ],
       "earth": 688,
       "universe": "SSU",
       "difficulty": "Impossible"
@@ -19647,16 +19844,20 @@
       "id": "ted_hoffman-raimi_verse-96283",
       "name": "Ted Hoffman",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Hoffman"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Spider-Man (2002 film)",
-      "hint1": "",
+      "affiliation": "Le Daily Bugle",
+      "firstAppearance": "Spider-Man",
+      "hint1": "Ted Raimi",
       "hint2": "2002",
-      "hint3": "Spider-Man (2002 film)",
-      "role": "",
-      "abilities": [],
+      "hint3": "Spider-Man, Spider-Man 2, Spider-Man 3",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 96283,
       "universe": "Raimi-Verse",
       "difficulty": "Impossible"
@@ -19668,13 +19869,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Le Daily Bugle",
       "firstAppearance": "Your Friendly Neighborhood Spider-Man (novel)",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2002",
       "hint3": "Your Friendly Neighborhood Spider-Man (novel)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 96283,
       "universe": "Raimi-Verse",
       "difficulty": "Impossible"
@@ -19686,13 +19889,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Spider-Man 2",
-      "hint1": "",
+      "hint1": "Mageina Tovah",
       "hint2": "2004",
       "hint3": "Spider-Man 2",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 96283,
       "universe": "Raimi-Verse",
       "difficulty": "Impossible"
@@ -20906,16 +21111,20 @@
       "id": "thomas_fireheart-webb_verse-120703",
       "name": "Thomas Fireheart",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Puma"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "The Daily Bugle on Tumblr Vol 1 1",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2014",
       "hint3": "The Daily Bugle on Tumblr Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 120703,
       "universe": "Webb-Verse",
       "difficulty": "Impossible"
@@ -20927,13 +21136,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "The Daily Bugle on Tumblr Vol 1 1",
+      "affiliation": "Civil",
+      "firstAppearance": "The Amazing Spider-Man 2",
       "hint1": "",
-      "hint2": "",
-      "hint3": "The Daily Bugle on Tumblr Vol 1 1",
-      "role": "",
-      "abilities": [],
+      "hint2": "2014",
+      "hint3": "The Amazing Spider-Man 2",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 120703,
       "universe": "Webb-Verse",
       "difficulty": "Impossible"
@@ -20944,14 +21155,16 @@
       "status": "En Vie",
       "aliases": [],
       "species": "Symbiote",
-      "gender": "",
-      "affiliation": "",
+      "gender": "Homme",
+      "affiliation": "Oscorp",
       "firstAppearance": "The Amazing Spider-Man 2",
       "hint1": "",
       "hint2": "2014",
       "hint3": "The Amazing Spider-Man 2",
-      "role": "",
-      "abilities": [],
+      "role": "Amoral",
+      "abilities": [
+        "Aliennnes"
+      ],
       "earth": 120703,
       "universe": "Webb-Verse",
       "difficulty": "Impossible"
@@ -20960,16 +21173,20 @@
       "id": "william_billy_connors-webb_verse-120703",
       "name": "William \"Billy\" Connors",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Billy"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "The Amazing Spider-Man (2012 film)",
-      "hint1": "",
+      "affiliation": "Civil",
+      "firstAppearance": "The Amazing Spider-Man",
+      "hint1": "Miles Elliot",
       "hint2": "2012",
-      "hint3": "The Amazing Spider-Man (2012 film)",
-      "role": "",
-      "abilities": [],
+      "hint3": "The Amazing Spider-Man",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 120703,
       "universe": "Webb-Verse",
       "difficulty": "Impossible"
@@ -21769,16 +21986,21 @@
       "id": "vanessa_fisk_nee_marianna-spider_verse-8311",
       "name": "Vanessa Fisk, née Marianna",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Vanessa Fisk",
+        "Marianna"
+      ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Spider-Man: Into the Spider-Verse",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Spider-Man: Into the Spider-Verse",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Wilson Fisk",
+      "firstAppearance": "Spider-Man : New Generation",
+      "hint1": "Lake Bell",
+      "hint2": "2018",
+      "hint3": "Spider-Man : New Generation",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 8311,
       "universe": "Spider-Verse",
       "difficulty": "Impossible"
@@ -21786,17 +22008,21 @@
     {
       "id": "william_billy_braddock-spider_verse-8311",
       "name": "William \"Billy\" Braddock",
-      "status": "En Vie",
-      "aliases": [],
-      "species": "",
+      "status": "Décédé",
+      "aliases": [
+        "Spider-UK"
+      ],
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Spider-Man: Into the Spider-Verse",
+      "affiliation": "Spider Gang (Spider-Verse)",
+      "firstAppearance": "Edge of Spider-Verse Vol 1 2",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Spider-Man: Into the Spider-Verse",
-      "role": "",
-      "abilities": [],
+      "hint2": "2014",
+      "hint3": "Edge of Spider-Verse Vol 1 2",
+      "role": "Héros",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 8311,
       "universe": "Spider-Verse",
       "difficulty": "Impossible"
@@ -21810,13 +22036,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Spider-Man: Into the Spider-Verse",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Spider-Man: Into the Spider-Verse",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Wilson Fisk",
+      "firstAppearance": "Spider-Man : New Generation",
+      "hint1": "Liev Schreiber",
+      "hint2": "2018",
+      "hint3": "Spider-Man : New Generation",
+      "role": "Vilain",
+      "abilities": [
+        "Surhumaines",
+        "Direction criminelle"
+      ],
       "earth": 8311,
       "universe": "Spider-Verse",
       "difficulty": "Impossible"
@@ -22782,16 +23011,20 @@
       "id": "taylor-independants-26320",
       "name": "Taylor",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Mr. Taylor"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Blade: The Series Season 1 9",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Blade: The Series Season 1 9",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "Blade: The Series (Saison 1)",
+      "hint1": "Malcolm Stewart",
+      "hint2": "2006",
+      "hint3": "Blade: The Series (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22801,15 +23034,18 @@
       "name": "Vanessa Brooks",
       "status": "Décédé",
       "aliases": [],
-      "species": "Humain",
+      "species": "Vampire",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Blade (1998 film)",
-      "hint1": "",
+      "affiliation": "Vampires",
+      "firstAppearance": "Blade",
+      "hint1": "Sanaa Lathan",
       "hint2": "1998",
-      "hint3": "Blade (1998 film)",
-      "role": "",
-      "abilities": [],
+      "hint3": "Blade",
+      "role": "Vilain",
+      "abilities": [
+        "Monstrueuses",
+        "Surhumaines"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22823,11 +23059,14 @@
       "gender": "Femme",
       "affiliation": "Bloodpack",
       "firstAppearance": "Blade II",
-      "hint1": "",
+      "hint1": "Marit Velle Kile",
       "hint2": "2002",
       "hint3": "Blade II",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Surhumaines",
+        "Arts Martiaux"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22839,13 +23078,16 @@
       "aliases": [],
       "species": "Werewolf",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Blade: Trinity",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Blade : Trinity",
       "hint1": "",
       "hint2": "2004",
-      "hint3": "Blade: Trinity",
-      "role": "",
-      "abilities": [],
+      "hint3": "Blade : Trinity",
+      "role": "Antagoniste",
+      "abilities": [
+        "Métamorphose",
+        "Animales"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22857,13 +23099,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "F.B.I.",
-      "firstAppearance": "Blade: Trinity",
-      "hint1": "",
+      "affiliation": "FBI",
+      "firstAppearance": "Blade : Trinity",
+      "hint1": "Michael Anthony Rawlins",
       "hint2": "2004",
-      "hint3": "Blade: Trinity",
-      "role": "",
-      "abilities": [],
+      "hint3": "Blade : Trinity",
+      "role": "Allié",
+      "abilities": [
+        "Policières"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22877,13 +23121,16 @@
       ],
       "species": "Vampire",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Blade: The Series Season 1 5",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Blade: The Series Season 1 5",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Vampires",
+      "firstAppearance": "Blade: The Series (Saison 1)",
+      "hint1": "Bokeem Woodbine",
+      "hint2": "2006",
+      "hint3": "Blade: The Series (Saison 1)",
+      "role": "Vilain",
+      "abilities": [
+        "Surhumaines",
+        "Monstrueuses"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22895,13 +23142,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Ally of Blade",
-      "firstAppearance": "Blade: The Series Season 1 1",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Blade: The Series Season 1 1",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Équipe de Blade",
+      "firstAppearance": "Blade: The Series (Saison 1)",
+      "hint1": "David Kopp",
+      "hint2": "2006",
+      "hint3": "Blade: The Series (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Espionnage"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -22913,13 +23162,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Blade: Trinity",
-      "hint1": "",
+      "affiliation": "Nightstalkers",
+      "firstAppearance": "Blade : Trinity",
+      "hint1": "Haili Page",
       "hint2": "2004",
-      "hint3": "Blade: Trinity",
-      "role": "",
-      "abilities": [],
+      "hint3": "Blade : Trinity",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 26320,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -23265,13 +23516,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "The Hand",
+      "affiliation": "La Main",
       "firstAppearance": "Elektra",
-      "hint1": "",
+      "hint1": "Chris Ackerman",
       "hint2": "2005",
       "hint3": "Elektra",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Mystiques",
+        "Arts Martiaux"
+      ],
       "earth": 701306,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -23283,13 +23537,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Wilson Fisk",
       "firstAppearance": "Daredevil",
-      "hint1": "",
+      "hint1": "Leland Orser",
       "hint2": "2003",
       "hint3": "Daredevil",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 701306,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -23298,16 +23554,20 @@
       "id": "william_everett-independants-701306",
       "name": "William Everett",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Father Everett"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Daredevil",
-      "hint1": "",
+      "hint1": "Derrick O'Connor",
       "hint2": "2003",
       "hint3": "Daredevil",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 701306,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -23653,11 +23913,14 @@
       "gender": "Homme",
       "affiliation": "Blackheart",
       "firstAppearance": "Ghost Rider",
-      "hint1": "",
+      "hint1": "Daniel Frederiksen",
       "hint2": "2007",
       "hint3": "Ghost Rider",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Démoniaques",
+        "Monstrueuses"
+      ],
       "earth": 121347,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -23677,9 +23940,13 @@
       "firstAppearance": "Ghost Rider",
       "hint1": "",
       "hint2": "2007",
-      "hint3": "Ghost Rider",
-      "role": "",
-      "abilities": [],
+      "hint3": "Ghost Rider, Ghost Rider: Spirit of Vengeance",
+      "role": "Amoral",
+      "abilities": [
+        "Démoniaques",
+        "Pyrokinésiques",
+        "Mystiques"
+      ],
       "earth": 121347,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -23992,13 +24259,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Hulk: Gamma Games Vol 1 2",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2004",
       "hint3": "Hulk: Gamma Games Vol 1 2",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Intellectuelles",
+        "Monstrueuses"
+      ],
       "earth": 400083,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -24285,13 +24555,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Punisher: War Zone",
-      "hint1": "",
+      "hint1": "Aubert Pallascio",
       "hint2": "2008",
       "hint3": "Punisher: War Zone",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Direction criminelle"
+      ],
       "earth": 47281,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -24599,13 +24871,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "The Punisher (2004 film)",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "The Punisher (2004 film)",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "Le Punisher",
+      "hint1": "Marcus Johns",
+      "hint2": "2004",
+      "hint3": "Le Punisher",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 58732,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -24853,16 +25127,20 @@
       "id": "teri_elizabeth_richards-independants-58460",
       "name": "Teri Elizabeth Richards",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Teri Richards"
+      ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Man-Thing",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Man-Thing",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "Homme-Chose",
+      "hint1": "Rachael Taylor",
+      "hint2": "2005",
+      "hint3": "Homme-Chose",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 58460,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -24871,16 +25149,20 @@
       "id": "val_mayerik-independants-58460",
       "name": "Val Mayerik",
       "status": "En Vie",
-      "aliases": [],
-      "species": "",
+      "aliases": [
+        "Val Mayerick"
+      ],
+      "species": "Humain",
       "gender": "Homme",
       "affiliation": "Bywater",
-      "firstAppearance": "Man-Thing Vol 4 2",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Man-Thing Vol 4 2",
-      "role": "",
-      "abilities": [],
+      "firstAppearance": "Homme-Chose",
+      "hint1": "Brett Leonard",
+      "hint2": "2005",
+      "hint3": "Homme-Chose",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 58460,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -24892,13 +25174,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Man-Thing Vol 4 2",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Man-Thing Vol 4 2",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Homme-Chose",
+      "hint1": "John Batchelor",
+      "hint2": "2005",
+      "hint3": "Homme-Chose",
+      "role": "Antagoniste",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 58460,
       "universe": "Indépendants",
       "difficulty": "Impossible"
@@ -42988,13 +43272,16 @@
       "aliases": [],
       "species": "Alien",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Ravageurs",
       "firstAppearance": "Guardians of the Galaxy Vol. 2",
       "hint1": "Mike Escamilla",
-      "hint2": "",
+      "hint2": "2017",
       "hint3": "Guardians of the Galaxy Vol. 2",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aliennnes",
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43008,13 +43295,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Hand",
+      "affiliation": "La Main",
       "firstAppearance": "Iron Fist (Saison 1)",
       "hint1": "David Sakurai",
       "hint2": "2017",
       "hint3": "Iron Fist (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Arts Martiaux"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43024,15 +43313,17 @@
       "name": "Sebastian Derik",
       "status": "En Vie",
       "aliases": [],
-      "species": "Sebastian Derik was a test subject revived through the T.A.H",
+      "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "S.H.I.E.L.D.",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
       "hint1": "Brian Van Holt",
       "hint2": "2014",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43046,13 +43337,15 @@
       ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Daredevil (Saison 3)",
       "hint1": "Sunita Deshpande",
       "hint2": "2018",
       "hint3": "Daredevil (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43064,13 +43357,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "The Falcon and The Winter Soldier (Saison 1)",
-      "hint1": "",
-      "hint2": "",
+      "hint1": "Imelda Corcoran",
+      "hint2": "2021",
       "hint3": "The Falcon and The Winter Soldier (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43084,13 +43379,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "\"The Russians\"",
+      "affiliation": "Russian Mafia",
       "firstAppearance": "Daredevil (Saison 1)",
       "hint1": "Alex Falberg",
       "hint2": "2015",
       "hint3": "Daredevil (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43102,13 +43399,15 @@
       "aliases": [],
       "species": "Rabbit",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Sabbat d'Agatha Harkness",
       "firstAppearance": "WandaVision (Saison 1)",
       "hint1": "",
       "hint2": "2021",
       "hint3": "WandaVision (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Animal",
+      "abilities": [
+        "Animales"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43120,13 +43419,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 6)",
       "hint1": "Maurissa Tancharoen",
       "hint2": "2019",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 6)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43139,12 +43440,14 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "LAPD",
-      "firstAppearance": "Runaways (Saison 1)",
+      "firstAppearance": "Marvel’s Runaways (Saison 1)",
       "hint1": "Michael Christian Alexander",
-      "hint2": "",
-      "hint3": "Runaways (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2017",
+      "hint3": "Marvel’s Runaways (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Policières"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43156,13 +43459,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "NYPD",
       "firstAppearance": "Daredevil (Saison 2)",
       "hint1": "Katt Masterson",
       "hint2": "2016",
       "hint3": "Daredevil (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Policières"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43179,8 +43484,10 @@
       "hint1": "Alex Notkin",
       "hint2": "2019",
       "hint3": "Le Punisher (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43190,15 +43497,18 @@
       "name": "Sergio Caspani",
       "status": "En Vie",
       "aliases": [],
-      "species": "Humain",
+      "species": "Skrull",
       "gender": "Homme",
-      "affiliation": "North Atlantic Treaty Organization",
+      "affiliation": "Skrull Council",
       "firstAppearance": "Secret Invasion (Saison 1)",
       "hint1": "Giampiero Judica",
       "hint2": "2023",
       "hint3": "Secret Invasion (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Métamorphose",
+        "Aliennnes"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43212,13 +43522,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "SERPENT",
       "firstAppearance": "Captain America : Brave New World",
       "hint1": "Giancarlo Esposito",
       "hint2": "2025",
       "hint3": "Captain America : Brave New World",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43235,8 +43547,10 @@
       "hint1": "Josie Totah",
       "hint2": "2017",
       "hint3": "Spider-Man : Homecoming",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43253,8 +43567,10 @@
       "hint1": "Kylie Furneaux",
       "hint2": "2013",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43268,13 +43584,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "The Chaste",
+      "affiliation": "Ordre du Chaste",
       "firstAppearance": "The Defenders (Saison 1)",
       "hint1": "Marko Zaror",
       "hint2": "2017",
       "hint3": "The Defenders (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Arts Martiaux"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43286,13 +43604,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Harlem",
       "firstAppearance": "Luke Cage (Saison 1)",
       "hint1": "Jermel Howard",
       "hint2": "2016",
       "hint3": "Luke Cage (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -43302,15 +43622,17 @@
       "name": "Shane Henson",
       "status": "Décédé",
       "aliases": [],
-      "species": "Humain",
+      "species": "Inhumain",
       "gender": "Homme",
       "affiliation": "Inhumans",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
       "hint1": "Nick Eversman",
       "hint2": "2015",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44275,17 +44597,19 @@
       "name": "Taweret",
       "status": "En Vie",
       "aliases": [
-        "Goddess of Women and Children"
+        "Déesse des femmes et des enfants"
       ],
       "species": "Ennead",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Dieux Egyptiens",
       "firstAppearance": "Moon Knight (Saison 1)",
       "hint1": "Antonia Salib",
       "hint2": "2022",
       "hint3": "Moon Knight (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Divinnes"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44297,13 +44621,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Daredevil (Saison 1)",
       "hint1": "",
       "hint2": "2015",
       "hint3": "Daredevil (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44317,13 +44643,16 @@
       ],
       "species": "Mowtio",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Guardians of the Galaxy Vol. 3",
+      "affiliation": "OrgoCorp",
+      "firstAppearance": "Les Gardiens de la Galaxie Vol. 3",
       "hint1": "Nico Santos",
-      "hint2": "",
-      "hint3": "Guardians of the Galaxy Vol. 3",
-      "role": "",
-      "abilities": [],
+      "hint2": "2023",
+      "hint3": "Les Gardiens de la Galaxie Vol. 3",
+      "role": "Vilain",
+      "abilities": [
+        "Technologiques",
+        "Intellectuelles"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44335,13 +44664,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Luke Cage (Saison 1)",
       "hint1": "Tijuana Ricks",
       "hint2": "2016",
-      "hint3": "Luke Cage (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint3": "Luke Cage (Saison 1), Jessica Jones (Saison 2), Iron Fist (Saison 1), Jessica Jones (Saison 3)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44353,13 +44684,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Hydra",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
       "hint1": "Jesse D. Goins",
       "hint2": "2014",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44373,11 +44706,13 @@
       "gender": "Homme",
       "affiliation": "Nelson's Meats",
       "firstAppearance": "Daredevil (Saison 3)",
-      "hint1": "",
+      "hint1": "Peter Halpin",
       "hint2": "2018",
       "hint3": "Daredevil (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44394,8 +44729,10 @@
       "hint1": "",
       "hint2": "2023",
       "hint3": "Secret Invasion (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44409,13 +44746,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Council of Nine",
       "firstAppearance": "Agent Carter (Saison 2)",
       "hint1": "Casey Sander",
       "hint2": "2016",
       "hint3": "Agent Carter (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44427,13 +44766,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
       "hint1": "Brad Dourif",
       "hint2": "2013",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44447,11 +44788,13 @@
       "gender": "Homme",
       "affiliation": "Roxxon Oil Company",
       "firstAppearance": "Iron Man 3",
-      "hint1": "",
+      "hint1": "Tom Virtue",
       "hint2": "2013",
       "hint3": "Iron Man 3",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44463,13 +44806,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
       "hint1": "Patton Oswalt",
       "hint2": "2016",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44479,15 +44824,17 @@
       "name": "Tibor",
       "status": "Décédé",
       "aliases": [],
-      "species": "Humain",
+      "species": "Inhumain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Inhumans (Saison 1)",
+      "affiliation": "Attilan",
+      "firstAppearance": "Marvel’s Inhumans (Saison 1)",
       "hint1": "Ptolemy Slocum",
-      "hint2": "",
-      "hint3": "Inhumans (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2017",
+      "hint3": "Marvel’s Inhumans (Saison 1)",
+      "role": "Traître",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44500,12 +44847,15 @@
       "species": "Humain",
       "gender": "Femme",
       "affiliation": "Masters of the Mystic Arts",
-      "firstAppearance": "Doctor Strange Prelude",
-      "hint1": "Brittany Ishibashi",
-      "hint2": "",
-      "hint3": "Doctor Strange Prelude",
-      "role": "",
-      "abilities": [],
+      "firstAppearance": "Doctor Strange",
+      "hint1": "Linda Louise Duan",
+      "hint2": "2016",
+      "hint3": "Doctor Strange",
+      "role": "Allié",
+      "abilities": [
+        "Magiques",
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44517,13 +44867,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
       "hint1": "Robert Baker",
       "hint2": "2013",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Intangibilité",
+        "Téléportation"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44537,13 +44890,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Westview",
       "firstAppearance": "WandaVision (Saison 1)",
       "hint1": "Fred Melamed",
       "hint2": "2021",
       "hint3": "WandaVision (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44557,13 +44912,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "She-Hulk: Attorney at Law (Saison 1)",
+      "affiliation": "Intelligencia",
+      "firstAppearance": "She-Hulk (Saison 1)",
       "hint1": "Jon Bass",
-      "hint2": "",
-      "hint3": "She-Hulk: Attorney at Law (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2022",
+      "hint3": "She-Hulk (Saison 1)",
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44571,17 +44928,19 @@
     {
       "id": "tokiko_minoru-mcu-616",
       "name": "Tokiko Minoru",
-      "status": "En Vie",
+      "status": "Décédé",
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Runaways (Saison 3)",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Runaways (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Marvel’s Runaways (Saison 3)",
+      "hint1": "Minae Noji",
+      "hint2": "2019",
+      "hint3": "Marvel’s Runaways (Saison 3)",
+      "role": "Antagoniste",
+      "abilities": [
+        "Magiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44591,17 +44950,20 @@
       "name": "Tommy Maximoff",
       "status": "Décédé",
       "aliases": [
-        "Toby"
+        "Toby",
+        "Speed"
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "WandaVision (Saison 1)",
       "hint1": "Gavin Borders",
       "hint2": "2021",
       "hint3": "WandaVision (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Héros",
+      "abilities": [
+        "Vitesse"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44613,13 +44975,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Cottonmouth",
       "firstAppearance": "Luke Cage (Saison 1)",
       "hint1": "Warner Miller",
       "hint2": "2016",
       "hint3": "Luke Cage (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44631,13 +44995,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
-      "hint1": "",
+      "hint1": "Vincent Laresca",
       "hint2": "2013",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44654,8 +45020,10 @@
       "hint1": "Rachel House",
       "hint2": "2017",
       "hint3": "Thor : Ragnarok",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44667,13 +45035,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Runaways (Saison 2)",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Marvel’s Runaways (Saison 2)",
       "hint1": "Jan Luis Castellanos",
-      "hint2": "",
-      "hint3": "Runaways (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2018",
+      "hint3": "Marvel’s Runaways (Saison 2)",
+      "role": "Antagoniste",
+      "abilities": [
+        "Surhumaines"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44685,13 +45055,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Ally of Hydra",
+      "affiliation": "Hydra",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
       "hint1": "Brian Tee",
       "hint2": "2014",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44703,13 +45076,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Daredevil (Saison 1)",
-      "hint1": "",
+      "hint1": "Elise Kibler",
       "hint2": "2015",
       "hint3": "Daredevil (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44719,15 +45094,18 @@
       "name": "Triton",
       "status": "En Vie",
       "aliases": [],
-      "species": "Humain",
+      "species": "Inhumain",
       "gender": "Homme",
-      "affiliation": "Inhuman Royal Family",
-      "firstAppearance": "Inhumans (Saison 1)",
+      "affiliation": "Famille royale d'Attilan",
+      "firstAppearance": "Marvel’s Inhumans (Saison 1)",
       "hint1": "Mike Moh",
-      "hint2": "",
-      "hint3": "Inhumans (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2017",
+      "hint3": "Marvel’s Inhumans (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Surhumaines",
+        "Arts Martiaux"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44737,15 +45115,18 @@
       "name": "Tucker Shockley",
       "status": "En Vie",
       "aliases": [],
-      "species": "Humain",
+      "species": "Inhumain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Watchdogs",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
       "hint1": "John Pyper-Ferguson",
       "hint2": "2016",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Energétiques",
+        "Régénération"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44754,16 +45135,20 @@
       "id": "tullk-mcu-616",
       "name": "Tullk",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Tullk Ul-Zyn"
+      ],
       "species": "Alien",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Guardians of the Galaxy Vol. 2",
+      "affiliation": "Ravageurs",
+      "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
       "hint1": "Tommy Flanagan",
-      "hint2": "",
-      "hint3": "Guardians of the Galaxy Vol. 2",
-      "role": "",
-      "abilities": [],
+      "hint2": "2017",
+      "hint3": "Les Gardiens de la Galaxie Vol. 2",
+      "role": "Allié",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44775,13 +45160,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Daredevil (Saison 1)",
       "hint1": "Rob Morgan",
       "hint2": "2015",
       "hint3": "Daredevil (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Amoral",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44790,16 +45177,20 @@
       "id": "tyesha_marie_hillman_khan-mcu-616",
       "name": "Tyesha Marie Hillman-Khan",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Tyesha Hillman"
+      ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Famille Khan",
       "firstAppearance": "Ms. Marvel (Saison 1)",
       "hint1": "Travina Springer",
       "hint2": "2022",
       "hint3": "Ms. Marvel (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44811,13 +45202,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "S.W.O.R.D.",
       "firstAppearance": "WandaVision (Saison 1)",
       "hint1": "Josh Stamberg",
       "hint2": "2021",
       "hint3": "WandaVision (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44829,13 +45222,16 @@
       "aliases": [],
       "species": "Asgardian",
       "gender": "Homme",
-      "affiliation": "Asgardians",
-      "firstAppearance": "Thor: The Dark World",
+      "affiliation": "Asgard",
+      "firstAppearance": "Thor : Le Monde des Ténèbres",
       "hint1": "Clive Russell",
-      "hint2": "",
-      "hint3": "Thor: The Dark World",
-      "role": "",
-      "abilities": [],
+      "hint2": "2013",
+      "hint3": "Thor : Le Monde des Ténèbres",
+      "role": "Allié",
+      "abilities": [
+        "Divinnes",
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44850,13 +45246,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Partner of Tandy Bowen",
-      "firstAppearance": "Cloak & Dagger (Saison 1)",
+      "affiliation": "Indépendant(e)",
+      "firstAppearance": "Marvel’s Cloak & Dagger (Saison 1)",
       "hint1": "Aubrey Joseph",
-      "hint2": "",
-      "hint3": "Cloak & Dagger (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2018",
+      "hint3": "Marvel’s Cloak & Dagger (Saison 1)",
+      "role": "Héros",
+      "abilities": [
+        "Téléportation",
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44868,13 +45267,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Billy Swan",
+      "affiliation": "Chasseurs de monstres",
       "firstAppearance": "Werewolf by Night",
-      "hint1": "",
+      "hint1": "Richard Dixon",
       "hint2": "2022",
       "hint3": "Werewolf by Night",
-      "role": "",
-      "abilities": [],
+      "role": "Mentor",
+      "abilities": [
+        "Militaires",
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44883,16 +45285,20 @@
       "id": "van_kempen-mcu-616",
       "name": "Van Kempen",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "April Van Kempen"
+      ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 5)",
       "hint1": "",
-      "hint2": "",
+      "hint2": "2017",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 5)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44902,17 +45308,21 @@
       "name": "Varra",
       "status": "En Vie",
       "aliases": [
-        "Priscilla Fury"
+        "Priscilla Fury",
+        "Priscilla Davis"
       ],
       "species": "Skrull",
       "gender": "Femme",
-      "affiliation": "Formerly:",
+      "affiliation": "Skrulls",
       "firstAppearance": "Secret Invasion (Saison 1)",
-      "hint1": "",
+      "hint1": "Charlayne Woodard",
       "hint2": "2023",
       "hint3": "Secret Invasion (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Anti-héros",
+      "abilities": [
+        "Aliennnes",
+        "Métamorphose"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44924,13 +45334,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Hydra",
       "firstAppearance": "Captain America : Civil War",
       "hint1": "Gene Farber",
       "hint2": "2016",
       "hint3": "Captain America : Civil War",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44938,19 +45350,22 @@
     {
       "id": "vasily_poprishchin-mcu-616",
       "name": "Vasily Poprishchin",
-      "status": "En Vie",
+      "status": "Décédé",
       "aliases": [
         "Василий Поприщин"
       ],
-      "species": "Humain",
+      "species": "Skrull",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Skrull Resistance",
       "firstAppearance": "Secret Invasion (Saison 1)",
       "hint1": "Uriel Emil",
       "hint2": "2023",
       "hint3": "Secret Invasion (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aliennnes",
+        "Métamorphose"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44963,12 +45378,14 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "Church of Gibborim",
-      "firstAppearance": "Runaways (Saison 1)",
+      "firstAppearance": "Marvel’s Runaways (Saison 1)",
       "hint1": "Cody Mayo",
-      "hint2": "",
-      "hint3": "Runaways (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2017",
+      "hint3": "Marvel’s Runaways (Saison 1)",
+      "role": "Allié",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44985,8 +45402,10 @@
       "hint1": "Rey Valentin",
       "hint2": "2015",
       "hint3": "Agent Carter (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -44995,16 +45414,20 @@
       "id": "velt-mcu-616",
       "name": "Velt",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Manager Velt"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Nazi Germany",
+      "affiliation": "Hydra",
       "firstAppearance": "Captain America : First Avenger",
       "hint1": "Patrick Monckeberg",
       "hint2": "2011",
       "hint3": "Captain America : First Avenger",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45023,8 +45446,10 @@
       "hint1": "Kurtwood Smith",
       "hint2": "2016",
       "hint3": "Agent Carter (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45036,13 +45461,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Salem Seven",
       "firstAppearance": "Agatha All Along (Saison 1)",
       "hint1": "Okwui Okpokwasili",
       "hint2": "2024",
       "hint3": "Agatha All Along (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Magiques",
+        "Métamorphose"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45054,13 +45482,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Chasseurs de monstres",
       "firstAppearance": "Werewolf by Night",
       "hint1": "Harriet Sansom Harris",
       "hint2": "2022",
       "hint3": "Werewolf by Night",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45077,8 +45507,10 @@
       "hint1": "Yancey Arias",
       "hint2": "2015",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Policières"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45091,12 +45523,15 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "PRIDE",
-      "firstAppearance": "Runaways (Saison 1)",
+      "firstAppearance": "Marvel’s Runaways (Saison 1)",
       "hint1": "James Marsters",
-      "hint2": "",
-      "hint3": "Runaways (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2017",
+      "hint3": "Marvel’s Runaways (Saison 1)",
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45108,13 +45543,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Loki (Saison 2)",
       "hint1": "Nasri Thompson",
       "hint2": "2023",
       "hint3": "Loki (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Intellectuelles",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45123,16 +45561,20 @@
       "id": "victoria-mcu-616",
       "name": "Victoria",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Victoria Snow"
+      ],
       "species": "Humain",
       "gender": "Femme",
       "affiliation": "Quentin Beck's crew",
       "firstAppearance": "Spider-Man : Far From Home",
-      "hint1": "",
+      "hint1": "Clare Dunne",
       "hint2": "2019",
       "hint3": "Spider-Man : Far From Home",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45151,8 +45593,10 @@
       "hint1": "Saffron Burrows",
       "hint2": "2013",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45160,17 +45604,19 @@
     {
       "id": "vijay_nadeer-mcu-616",
       "name": "Vijay Nadeer",
-      "status": "Décédé",
+      "status": "Inconnu",
       "aliases": [],
-      "species": "Humain",
+      "species": "Inhumain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
       "hint1": "Manish Dayal",
       "hint2": "2016",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Vitesse"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45179,16 +45625,21 @@
       "id": "vim-mcu-616",
       "name": "Vim",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Recorder Vim"
+      ],
       "species": "Mowtio",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Guardians of the Galaxy Vol. 3",
+      "affiliation": "Laboratoires Arête",
+      "firstAppearance": "Les Gardiens de la Galaxie Vol. 3",
       "hint1": "Miriam Shor",
-      "hint2": "",
-      "hint3": "Guardians of the Galaxy Vol. 3",
-      "role": "",
-      "abilities": [],
+      "hint2": "2023",
+      "hint3": "Les Gardiens de la Galaxie Vol. 3",
+      "role": "Antagoniste",
+      "abilities": [
+        "Aliennnes",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45198,7 +45649,7 @@
       "name": "Vin-Tak",
       "status": "En Vie",
       "aliases": [
-        "\"Kava\""
+        "Kava"
       ],
       "species": "Kree",
       "gender": "Homme",
@@ -45207,8 +45658,12 @@
       "hint1": "Eddie McClintock",
       "hint2": "2014",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Aliennnes",
+        "Arts Martiaux",
+        "Surhumaines"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45222,11 +45677,14 @@
       "gender": "Homme",
       "affiliation": "Momentum Labs",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
-      "hint1": "",
+      "hint1": "Usman Ally",
       "hint2": "2016",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Intellectuelles",
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45236,17 +45694,20 @@
       "name": "Vira Viktorivna Halushka",
       "status": "En Vie",
       "aliases": [
+        "Vera Brezhneva",
         "Vera Brezneva"
       ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "The Avengers: Black Widow Strikes",
+      "affiliation": "Civil",
+      "firstAppearance": "Avengers",
       "hint1": "",
-      "hint2": "",
-      "hint3": "The Avengers: Black Widow Strikes",
-      "role": "",
-      "abilities": [],
+      "hint2": "2012",
+      "hint3": "Avengers",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45258,13 +45719,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "Russian Mafia",
       "firstAppearance": "Daredevil (Saison 1)",
       "hint1": "Nikolai Nikolaeff",
       "hint2": "2015",
       "hint3": "Daredevil (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45276,13 +45739,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Partner of Simon Williams",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Wonder Man (Saison 1)",
       "hint1": "Zlatko Burić",
-      "hint2": "",
+      "hint2": "2026",
       "hint3": "Wonder Man (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45294,13 +45759,16 @@
       "aliases": [],
       "species": "Alien Cyborg",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Guardians of the Galaxy",
+      "affiliation": "Ravagers",
+      "firstAppearance": "Les Gardiens de la Galaxie",
       "hint1": "Bruce Mackinnon",
-      "hint2": "",
-      "hint3": "Guardians of the Galaxy",
-      "role": "",
-      "abilities": [],
+      "hint2": "2014",
+      "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2",
+      "role": "Amoral",
+      "abilities": [
+        "Technologiques",
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45312,13 +45780,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Wakanda",
       "firstAppearance": "Black Panther",
       "hint1": "Daniel Kaluuya",
       "hint2": "2018",
       "hint3": "Black Panther",
-      "role": "",
-      "abilities": [],
+      "role": "Traître",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45330,13 +45800,16 @@
       "aliases": [],
       "species": "Hell Spawn",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Guardians of the Galaxy Vol. 3",
+      "affiliation": "Laboratoires Arête",
+      "firstAppearance": "Les Gardiens de la Galaxie Vol. 3",
       "hint1": "Judy Greer",
-      "hint2": "",
-      "hint3": "Guardians of the Galaxy Vol. 3",
-      "role": "",
-      "abilities": [],
+      "hint2": "2023",
+      "hint3": "Les Gardiens de la Galaxie Vol. 3",
+      "role": "Vilain",
+      "abilities": [
+        "Surhumaines",
+        "Monstrueuses"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45345,16 +45818,21 @@
       "id": "warren-mcu-616",
       "name": "Warren",
       "status": "En Vie",
-      "aliases": [],
+      "aliases": [
+        "Monica Warren",
+        "Ms. Warren"
+      ],
       "species": "Humain",
       "gender": "Femme",
       "affiliation": "Midtown School of Science & Technology",
       "firstAppearance": "Spider-Man : Homecoming",
-      "hint1": "",
+      "hint1": "Selenis Leyva",
       "hint2": "2017",
       "hint3": "Spider-Man : Homecoming",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45371,8 +45849,10 @@
       "hint1": "Matthew McCurdy",
       "hint2": "2018",
       "hint3": "Daredevil (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Traître",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45389,8 +45869,10 @@
       "hint1": "Ric Sarabia",
       "hint2": "2014",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45402,13 +45884,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Rand Entreprises",
       "firstAppearance": "Iron Fist (Saison 1)",
       "hint1": "David Furr",
       "hint2": "2017",
       "hint3": "Iron Fist (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45428,8 +45912,10 @@
       "hint1": "Adetinpo Thomas",
       "hint2": "2021",
       "hint3": "Hawkeye (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45438,16 +45924,20 @@
       "id": "wendy_ross-mcu-616",
       "name": "Wendy Ross",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Wendy Ross-Hogarth"
+      ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Jessica Jones (Saison 1)",
-      "hint1": "",
+      "hint1": "Robin Weigert",
       "hint2": "2015",
       "hint3": "Jessica Jones (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45459,13 +45949,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Moon Knight (Saison 1)",
       "hint1": "Fernanda Andrade",
       "hint2": "2022",
       "hint3": "Moon Knight (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45480,13 +45972,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Hydra",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
       "hint1": "Reed Diamond",
       "hint2": "2014",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Intellectuelles",
+        "Surhumaines"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45503,8 +45998,10 @@
       "hint1": "",
       "hint2": "2016",
       "hint3": "Agent Carter (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45517,12 +46014,14 @@
       "species": "Humain",
       "gender": "Homme",
       "affiliation": "Power Broker",
-      "firstAppearance": "The Falcon and The Winter Soldier (Saison 1)",
+      "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
       "hint1": "Olli Haaskivi",
-      "hint2": "",
-      "hint3": "The Falcon and The Winter Soldier (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "Falcon et le Soldat de l'Hiver (Saison 1)",
+      "role": "Antagoniste",
+      "abilities": [
+        "Intellectuelles"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45536,13 +46035,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Harlem",
       "firstAppearance": "Luke Cage (Saison 1)",
       "hint1": "Brian Marc",
       "hint2": "2016",
       "hint3": "Luke Cage (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45551,16 +46052,20 @@
       "id": "wilfredo_fredo_diaz_sr-mcu-616",
       "name": "Wilfredo \"Fredo\" Diaz Sr.",
       "status": "Décédé",
-      "aliases": [],
+      "aliases": [
+        "Fredo"
+      ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Cottonmouth",
       "firstAppearance": "Luke Cage (Saison 1)",
       "hint1": "",
       "hint2": "2016",
       "hint3": "Luke Cage (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45577,8 +46082,10 @@
       "hint1": "Jim Rash",
       "hint2": "2016",
       "hint3": "Captain America : Civil War",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45593,10 +46100,12 @@
       "affiliation": "WHiH World News",
       "firstAppearance": "WHIH Newsfront (Saison 2)",
       "hint1": "Al Madrigal",
-      "hint2": "",
+      "hint2": "2016",
       "hint3": "WHIH Newsfront (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45608,13 +46117,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Department of Damage Control",
       "firstAppearance": "Spider-Man : Brand New Day",
       "hint1": "Tramell Tillman",
       "hint2": "2026",
       "hint3": "Spider-Man : Brand New Day",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45631,8 +46142,10 @@
       "hint1": "Dillon Casey",
       "hint2": "2015",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Militaires"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45644,13 +46157,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Daredevil (Saison 1)",
       "hint1": "Domenick Lombardozzi",
       "hint2": "2015",
       "hint3": "Daredevil (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Politiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45666,9 +46181,12 @@
       "firstAppearance": "Iron Man",
       "hint1": "Peter Billingsley",
       "hint2": "2008",
-      "hint3": "Iron Man",
-      "role": "",
-      "abilities": [],
+      "hint3": "Iron Man, Spider-Man : Far From Home",
+      "role": "Antagoniste",
+      "abilities": [
+        "Sciences",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45682,13 +46200,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "Formerly:",
+      "affiliation": "CIA",
       "firstAppearance": "Le Punisher (Saison 1)",
       "hint1": "Paul Schulze",
       "hint2": "2017",
       "hint3": "Le Punisher (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Militaires",
+        "Espionnage"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45700,13 +46221,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Agatha All Along (Saison 1)",
       "hint1": "Joe Locke",
       "hint2": "2024",
       "hint3": "Agatha All Along (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45718,13 +46241,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Wilson Fisk",
       "firstAppearance": "Hawkeye (Saison 1)",
       "hint1": "Zahn McClarnon",
       "hint2": "2021",
-      "hint3": "Hawkeye (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint3": "Hawkeye (Saison 1), Echo (Saison 1)",
+      "role": "Vilain",
+      "abilities": [
+        "Direction criminelle"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45738,13 +46263,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "She-Hulk: Attorney at Law (Saison 1)",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "She-Hulk: Attorney at Law (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Civil",
+      "firstAppearance": "She-Hulk (Saison 1)",
+      "hint1": "Mark Linn-Baker",
+      "hint2": "2022",
+      "hint3": "She-Hulk (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45756,13 +46283,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Agent Carter (Saison 2)",
       "hint1": "Samaire Armstrong",
       "hint2": "2016",
       "hint3": "Agent Carter (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45779,8 +46308,10 @@
       "hint1": "Scotty Crowe",
       "hint2": "2018",
       "hint3": "Daredevil (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Policières"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45794,13 +46325,16 @@
       ],
       "species": "Démon",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Agatha All Along (Saison 1)",
       "hint1": "Jade Quon",
       "hint2": "2024",
       "hint3": "Agatha All Along (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Démoniaques",
+        "Pyrokinésiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45812,13 +46346,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Runaways (Saison 2)",
+      "affiliation": "Civil",
+      "firstAppearance": "Marvel’s Runaways (Saison 2)",
       "hint1": "",
-      "hint2": "",
-      "hint3": "Runaways (Saison 2)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2018",
+      "hint3": "Marvel’s Runaways (Saison 2)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45830,13 +46366,15 @@
       "aliases": [],
       "species": "Easik",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "The Guardians of the Galaxy Holiday Special",
+      "affiliation": "Knowhere",
+      "firstAppearance": "Les Gardiens de la Galaxie : Les Fêtes des Fêtes",
       "hint1": "Terence Rosemore",
-      "hint2": "",
-      "hint3": "The Guardians of the Galaxy Holiday Special",
-      "role": "",
-      "abilities": [],
+      "hint2": "2022",
+      "hint3": "Les Gardiens de la Galaxie : Les Fêtes des Fêtes",
+      "role": "Allié",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45848,13 +46386,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Dora Milaje",
       "firstAppearance": "Black Panther",
       "hint1": "Sydelle Noel",
       "hint2": "2018",
       "hint3": "Black Panther",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Arts Martiaux",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45871,8 +46412,10 @@
       "hint1": "Stephen Curry",
       "hint2": "2022",
       "hint3": "Thor : Love and Thunder",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45884,13 +46427,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Dora Milaje",
       "firstAppearance": "Black Panther",
-      "hint1": "",
+      "hint1": "Zola Williams",
       "hint2": "2018",
       "hint3": "Black Panther",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Arts Martiaux",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45902,13 +46448,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Dieux Egyptiens",
       "firstAppearance": "Moon Knight (Saison 1)",
-      "hint1": "",
+      "hint1": "Díana Bermudez",
       "hint2": "2022",
       "hint3": "Moon Knight (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45925,8 +46473,10 @@
       "hint1": "Alexander Carroll",
       "hint2": "2015",
       "hint3": "Agent Carter (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45938,13 +46488,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Captain America: The Winter Soldier",
+      "affiliation": "World Security Council",
+      "firstAppearance": "Captain America : Le Soldat de l'Hiver",
       "hint1": "Chin Han",
-      "hint2": "",
-      "hint3": "Captain America: The Winter Soldier",
-      "role": "",
-      "abilities": [],
+      "hint2": "2014",
+      "hint3": "Captain America : Le Soldat de l'Hiver",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45956,13 +46508,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
+      "affiliation": "Ta Lo",
+      "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
       "hint1": "Fala Chen",
-      "hint2": "",
-      "hint3": "Shang-Chi and the Legend of the Ten Rings",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "Shang-Chi et la Légende des Dix Anneaux",
+      "role": "Allié",
+      "abilities": [
+        "Arts Martiaux",
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45974,13 +46529,16 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
-      "firstAppearance": "Shang-Chi and the Legend of the Ten Rings",
+      "affiliation": "Ta Lo",
+      "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
       "hint1": "Michelle Yeoh",
-      "hint2": "",
-      "hint3": "Shang-Chi and the Legend of the Ten Rings",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "Shang-Chi et la Légende des Dix Anneaux",
+      "role": "Mentor",
+      "abilities": [
+        "Arts Martiaux",
+        "Mystiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -45992,13 +46550,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "The Falcon and The Winter Soldier (Saison 1)",
+      "affiliation": "Civil",
+      "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
       "hint1": "Ken Takemoto",
-      "hint2": "",
-      "hint3": "The Falcon and The Winter Soldier (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint2": "2021",
+      "hint3": "Falcon et le Soldat de l'Hiver (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46010,13 +46570,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Organisation criminelle",
       "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
       "hint1": "Ido Mor",
       "hint2": "2015",
       "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Direction criminelle"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46030,13 +46592,15 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Famille Khan",
       "firstAppearance": "Ms. Marvel (Saison 1)",
       "hint1": "Mohan Kapur",
       "hint2": "2022",
-      "hint3": "Ms. Marvel (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "hint3": "Ms. Marvel (Saison 1), The Marvels, Daredevil: Born Again (Saison 1)",
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46048,13 +46612,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Le Punisher (Saison 1)",
       "hint1": "Kobi Frumer",
       "hint2": "2017",
       "hint3": "Le Punisher (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46066,13 +46632,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Secret Invasion (Saison 1)",
       "hint1": "Alasdair Noble",
       "hint2": "2023",
       "hint3": "Secret Invasion (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46087,10 +46655,12 @@
       "affiliation": "The Sneepers",
       "firstAppearance": "Guardians' Inferno",
       "hint1": "David Hasselhoff",
-      "hint2": "",
+      "hint2": "2017",
       "hint3": "Guardians' Inferno",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46102,13 +46672,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Wakanda",
       "firstAppearance": "Black Panther",
       "hint1": "Connie Chiume",
       "hint2": "2018",
-      "hint3": "Black Panther",
-      "role": "",
-      "abilities": [],
+      "hint3": "Black Panther, Black Panther: Wakanda Forever",
+      "role": "Mentor",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46120,13 +46692,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Hogarth",
       "firstAppearance": "Jessica Jones (Saison 3)",
       "hint1": "Tiffany Mack",
       "hint2": "2019",
       "hint3": "Jessica Jones (Saison 3)",
-      "role": "",
-      "abilities": [],
+      "role": "Civil",
+      "abilities": [
+        "Intellectuelles"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46138,13 +46712,15 @@
       "aliases": [],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Indépendant(e)",
       "firstAppearance": "Ironheart (Saison 1)",
       "hint1": "Regan Aliyah",
-      "hint2": "",
+      "hint2": "2025",
       "hint3": "Ironheart (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Magiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46158,13 +46734,15 @@
       ],
       "species": "Olympian",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Olympiens",
       "firstAppearance": "Thor : Love and Thunder",
       "hint1": "Russell Crowe",
       "hint2": "2022",
       "hint3": "Thor : Love and Thunder",
-      "role": "",
-      "abilities": [],
+      "role": "Antagoniste",
+      "abilities": [
+        "Divinnes"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46181,8 +46759,11 @@
       "hint1": "Mark Lewis",
       "hint2": "2023",
       "hint3": "Secret Invasion (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Vilain",
+      "abilities": [
+        "Aliennnes",
+        "Métamorphose"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46197,13 +46778,15 @@
       ],
       "species": "Humain",
       "gender": "Femme",
-      "affiliation": "",
+      "affiliation": "Civil",
       "firstAppearance": "Ms. Marvel (Saison 1)",
       "hint1": "Laurel Marsden",
       "hint2": "2022",
       "hint3": "Ms. Marvel (Saison 1)",
-      "role": "",
-      "abilities": [],
+      "role": "Allié",
+      "abilities": [
+        "Aucune"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46217,13 +46800,16 @@
       ],
       "species": "Humain",
       "gender": "Homme",
-      "affiliation": "",
+      "affiliation": "Wakanda",
       "firstAppearance": "Black Panther",
       "hint1": "Forest Whitaker",
       "hint2": "2018",
       "hint3": "Black Panther",
-      "role": "",
-      "abilities": [],
+      "role": "Mentor",
+      "abilities": [
+        "Espionnage",
+        "Arts Martiaux"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
@@ -46233,15 +46819,18 @@
       "name": "Zylak",
       "status": "En Vie",
       "aliases": [],
-      "species": "Sovereign",
+      "species": "Souverain",
       "gender": "Homme",
-      "affiliation": "",
-      "firstAppearance": "Guardians of the Galaxy Vol. 2",
-      "hint1": "",
-      "hint2": "",
-      "hint3": "Guardians of the Galaxy Vol. 2",
-      "role": "",
-      "abilities": [],
+      "affiliation": "Souverains",
+      "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
+      "hint1": "Alex Klein",
+      "hint2": "2017",
+      "hint3": "Les Gardiens de la Galaxie Vol. 2",
+      "role": "Antagoniste",
+      "abilities": [
+        "Aliennnes",
+        "Technologiques"
+      ],
       "earth": 616,
       "universe": "MCU",
       "difficulty": "Impossible"
