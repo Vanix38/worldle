@@ -6,7 +6,7 @@
 export function rankInOrderedList(
   val: unknown,
   order: readonly string[],
-  pairs: readonly (readonly [string, string])[] | undefined,
+  pairs?: readonly (readonly [string, string])[] | undefined,
 ): number {
   const v = String(val ?? "").trim();
   if (!v || !order.length) return -1;
