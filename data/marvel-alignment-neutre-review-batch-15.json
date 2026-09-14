@@ -1,0 +1,122 @@
+[
+  {
+    "id": "turk_barrett-mcu-616",
+    "name": "Turk Barrett",
+    "alignment": "méchant",
+    "reason": "Petit criminel récurrent de Hell's Kitchen, trafiquant d'armes face à Daredevil."
+  },
+  {
+    "id": "tyesha_marie_hillman_khan-mcu-616",
+    "name": "Tyesha Marie Hillman-Khan",
+    "alignment": "neutre",
+    "reason": "Épouse civile d'Aamir dans Ms. Marvel, figure familiale hors combat."
+  },
+  {
+    "id": "uatu-mcu-616",
+    "name": "Uatu",
+    "alignment": "gentil",
+    "reason": "Gardien qui finit par aider les héros et défendre le multivers dans What If...?"
+  },
+  {
+    "id": "uncle_den-mcu-617",
+    "name": "Uncle Den",
+    "alignment": "neutre",
+    "reason": "Civil de caméo Secret Wars Too, sans camp moral à l'écran."
+  },
+  {
+    "id": "uncle_glen-mcu-617",
+    "name": "Uncle Glen",
+    "alignment": "neutre",
+    "reason": "Civil de caméo Secret Wars Too, passant familial sans enjeu héroïque."
+  },
+  {
+    "id": "uncle_ken-mcu-617",
+    "name": "Uncle Ken",
+    "alignment": "neutre",
+    "reason": "Civil de caméo Secret Wars Too, figurant neutre hors intrigue."
+  },
+  {
+    "id": "uncle_sven-mcu-617",
+    "name": "Uncle Sven",
+    "alignment": "neutre",
+    "reason": "Civil de caméo Secret Wars Too, sans rôle de héros ou vilain."
+  },
+  {
+    "id": "ursula_ditkovich-raimi_verse-96283",
+    "name": "Ursula Ditkovich",
+    "alignment": "neutre",
+    "reason": "Fille du propriétaire de Peter, civile Raimi sans camp moral."
+  },
+  {
+    "id": "val_mayerik-independants-58460",
+    "name": "Val Mayerik",
+    "alignment": "neutre",
+    "reason": "Habitant de Bywater dans Homme-Chose, civil sans alignement clair."
+  },
+  {
+    "id": "valencia_vitaly-webb_verse-120703",
+    "name": "Valencia Vitaly",
+    "alignment": "neutre",
+    "reason": "Civile Webb-Verse, figuration sans rôle héroïque ou antagoniste."
+  },
+  {
+    "id": "valeria_richards-mcu-838",
+    "name": "Valeria Richards",
+    "alignment": "neutre",
+    "reason": "Enfant des Quatre Fantastiques-838, civile familiale non combattante."
+  },
+  {
+    "id": "van_kempen-mcu-616",
+    "name": "Van Kempen",
+    "alignment": "neutre",
+    "reason": "Civile Agents of S.H.I.E.L.D., sans camp moral affirmé."
+  },
+  {
+    "id": "vanessa_carlysle-fox_x_men-10005",
+    "name": "Vanessa Carlysle",
+    "alignment": "neutre",
+    "reason": "Compagne civile de Deadpool, alliée affective hors héroïsme de combat."
+  },
+  {
+    "id": "vanessa_carlysle-fox_x_men-41633",
+    "name": "Vanessa Carlysle",
+    "alignment": "neutre",
+    "reason": "Variante civile tuée dans Deadpool 2, victime sans rôle de héros."
+  },
+  {
+    "id": "vanessa_fisk_nee_marianna-spider_verse-8311",
+    "name": "Vanessa Fisk, née Marianna",
+    "alignment": "neutre",
+    "reason": "Épouse civile de Fisk dans Spider-Verse, victime hors villainy propre."
+  },
+  {
+    "id": "vanessa_kirby-mcu-828",
+    "name": "Vanessa Kirby",
+    "alignment": "neutre",
+    "reason": "Entrée méta/actrice Future Foundation, alignement à l'écran peu clair."
+  },
+  {
+    "id": "varra-mcu-616",
+    "name": "Varra",
+    "alignment": "gentil",
+    "reason": "Skrull alliée de Fury qui s'oppose à Gravik et aide à stopper l'invasion."
+  },
+  {
+    "id": "venom_horse-ssu-688",
+    "name": "Venom Horse",
+    "alignment": "neutre",
+    "reason": "Cheval symbiote animal, créature amorale hors camps humains."
+  },
+  {
+    "id": "venom-ssu-688",
+    "name": "Venom",
+    "alignment": "neutre",
+    "reason": "Anti-héros symbiote aux morales mixtes, Lethal Protector gris."
+  },
+  {
+    "id": "venom-webb_verse-120703",
+    "name": "Venom (Symbiote)",
+    "alignment": "neutre",
+    "reason": "Simple tease post-générique TASM2, portrait trop vague pour juger."
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "id": "edward_eddy_costa-mcu-616",
+    "name": "Edward Costa",
+    "status": "En Vie",
+    "aliases": [
+      "Eddy Costa",
+      "Detective Costa",
+      "Edward Costa"
+    ],
+    "species": "Humain",
+    "affiliation": "NYPD",
+    "firstAppearance": "Jessica Jones (Saison 2)",
+    "hint1": "2018",
+    "hint2": "John Ventimiglia",
+    "hint3": "Jessica Jones (Saison 2)",
+    "hint4": "E.C.",
+    "abilities": [
+      "Policières"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "edward_nelson-mcu-616",
+    "name": "Edward Nelson",
+    "status": "En Vie",
+    "aliases": [
+      "Ed Nelson",
+      "Edward Nelson"
+    ],
+    "species": "Humain",
+    "affiliation": "Nelson's Meats",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "2018",
+    "hint2": "",
+    "hint3": "Daredevil (Saison 3)",
+    "hint4": "E.N.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "eileen_mercer-mcu-616",
+    "name": "Eileen Mercer",
+    "status": "En Vie",
+    "aliases": [
+      "Eileen Mercer"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "2018",
+    "hint2": "",
+    "hint3": "Daredevil (Saison 3)",
+    "hint4": "E.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "elaine_grey-fox_x_men-10005",
+    "name": "Elaine Grey",
+    "status": "Décédé",
+    "aliases": [
+      "Elaine Grey"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "X-Men : Dark Phoenix",
+    "hint1": "2019",
+    "hint2": "",
+    "hint3": "X-Men : Dark Phoenix",
+    "hint4": "E.G.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 10005
+  },
+  {
+    "id": "elaine_walters-mcu-616",
+    "name": "Elaine Walters",
+    "status": "En Vie",
+    "aliases": [
+      "Elaine Walters"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "She-Hulk (Saison 1)",
+    "hint1": "2022",
+    "hint2": "Tess Malis Kincaid",
+    "hint3": "She-Hulk (Saison 1)",
+    "hint4": "E.W.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "elektra_natchios-independants-701306",
+    "name": "Elektra Natchios",
+    "status": "En Vie",
+    "aliases": [
+      "Elektra"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil",
+    "hint1": "2003",
+    "hint2": "Jennifer Garner",
+    "hint3": "Daredevil, Elektra, Deadpool & Wolverine",
+    "hint4": "E.N.",
+    "abilities": [
+      "Arts Martiaux",
+      "Mystiques"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 701306
+  },
+  {
+    "id": "elektra_natchios-mcu-616",
+    "name": "Elektra Natchios",
+    "status": "Inconnu",
+    "aliases": [
+      "Elektra"
+    ],
+    "species": "Humain",
+    "affiliation": "La Main",
+    "firstAppearance": "Daredevil (Saison 2)",
+    "hint1": "2016",
+    "hint2": "Élodie Yung",
+    "hint3": "Daredevil (Saison 2), The Defenders (Saison 1)",
+    "hint4": "E.N.",
+    "abilities": [
+      "Arts Martiaux",
+      "Mystiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "elena_cardenas-mcu-616",
+    "name": "Elena Cardenas",
+    "status": "Décédé",
+    "aliases": [
+      "Mrs. C",
+      "Elena Cardenas"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "2015",
+    "hint2": "Judith Delgado",
+    "hint3": "Daredevil (Saison 1)",
+    "hint4": "E.C.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "elihas_starr-mcu-616",
+    "name": "Elihas Starr",
+    "status": "Décédé",
+    "aliases": [
+      "Elihas Starr"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ant-Man et la Guêpe",
+    "hint1": "2018",
+    "hint2": "Michael Cerveris",
+    "hint3": "Ant-Man et la Guêpe",
+    "hint4": "E.S.",
+    "abilities": [
+      "Intellectuelles",
+      "Sciences"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "eliza_schultz-mcu-616",
+    "name": "Eliza Schultz",
+    "status": "Décédé",
+    "aliases": [
+      "Eliza Schultz"
+    ],
+    "species": "Humain",
+    "affiliation": "Famille Schultz",
+    "firstAppearance": "Le Punisher (Saison 2)",
+    "hint1": "2019",
+    "hint2": "Annette O'Toole",
+    "hint3": "Le Punisher (Saison 2)",
+    "hint4": "E.S.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "elizabeth_betty_brant-raimi_verse-96283",
+    "name": "Betty Brant",
+    "status": "En Vie",
+    "aliases": [
+      "Betty",
+      "Elizabeth Brant"
+    ],
+    "species": "Humain",
+    "affiliation": "Le Daily Bugle",
+    "firstAppearance": "Spider-Man",
+    "hint1": "2002",
+    "hint2": "Elizabeth Banks",
+    "hint3": "Spider-Man, Spider-Man 2, Spider-Man 3",
+    "hint4": "B.B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "eric_brooks-independants-26320",
+    "name": "Eric Brooks",
+    "status": "En Vie",
+    "aliases": [
+      "Blade",
+      "Eric Brooks"
+    ],
+    "species": [
+      "Humain",
+      "Vampire"
+    ],
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Blade",
+    "hint1": "1998",
+    "hint2": "Wesley Snipes",
+    "hint3": "Blade, Blade II, Blade : Trinity, Deadpool & Wolverine",
+    "hint4": "E.B.",
+    "abilities": [
+      "Monstrueuses",
+      "Arts Martiaux"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 26320
+  },
+  {
+    "id": "erik_lensherr-young-fox_x_men-10005",
+    "name": "Erik Lensherr (jeune)",
+    "status": "Décédé",
+    "aliases": [
+      "Magneto",
+      "Frankenstein's Monster (Magneto Fox, jeune)",
+      "Erik Magnus Lehnsherr (Fox, jeune)"
+    ],
+    "species": "Mutant",
+    "affiliation": "X-Men",
+    "firstAppearance": "X-Men : Le Commencement",
+    "hint1": "2011",
+    "hint2": "Michael Fassbender",
+    "hint3": "X-Men : Le Commencement, X-Men : Days of Future Past, X-Men : Apocalypse, X-Men : Dark Phoenix",
+    "hint4": "E.L.",
+    "abilities": [
+      "Energétiques"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 10005
+  },
+  {
+    "id": "estevido_vido_arocho-mcu-616",
+    "name": "Estevido \"Vido\" Arocho",
+    "status": "En Vie",
+    "aliases": [
+      "Vido",
+      "Estevido Arocho"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Jessica Jones (Saison 2)",
+    "hint1": "2018",
+    "hint2": "Kevin Chacon",
+    "hint3": "Jessica Jones (Saison 2)",
+    "hint4": "E.V.A.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "esther_etta_lucas-mcu-616",
+    "name": "Esther \"Etta\" Lucas",
+    "status": "Décédé",
+    "aliases": [
+      "Etta",
+      "Esther Lucas"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "2016",
+    "hint2": "Joniece Abbott-Pratt",
+    "hint3": "Luke Cage (Saison 1)",
+    "hint4": "E.E.L.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "farah_madani-mcu-616",
+    "name": "Farah Madani",
+    "status": "En Vie",
+    "aliases": [
+      "Farah Madani"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Le Punisher (Saison 1)",
+    "hint1": "2017",
+    "hint2": "Shohreh Aghdashloo",
+    "hint3": "Le Punisher (Saison 1)",
+    "hint4": "F.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "felicia_hardy-webb_verse-120703",
+    "name": "Felicia Hardy",
+    "status": "En Vie",
+    "aliases": [
+      "Chatte Noire",
+      "Black Cat",
+      "Felicia",
+      "Felicia Hardy"
+    ],
+    "species": "Humain",
+    "affiliation": "Oscorp",
+    "firstAppearance": "The Amazing Spider-Man 2",
+    "hint1": "2014",
+    "hint2": "Felicity Jones",
+    "hint3": "The Amazing Spider-Man 2",
+    "hint4": "F.H.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Webb-Verse",
+    "earth": 120703
+  },
+  {
+    "id": "flash_thompson-mcu-616",
+    "name": "Flash Thompson",
+    "status": "En Vie",
+    "aliases": [
+      "Flash",
+      "Eugene Thompson"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "2017",
+    "hint2": "Tony Revolori",
+    "hint3": "Spider-Man : Homecoming, Spider-Man : Far From Home, Spider-Man : No Way Home",
+    "hint4": "F.T.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "flint_marko-raimi_verse-96283",
+    "name": "Flint Marko",
+    "status": "En Vie",
+    "aliases": [
+      "Homme-Sable",
+      "Sandman"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Spider-Man 3",
+    "hint1": "2007",
+    "hint2": "Thomas Haden Church",
+    "hint3": "Spider-Man 3, Spider-Man : No Way Home",
+    "hint4": "F.M.",
+    "abilities": [
+      "Biochimiques",
+      "Métamorphose"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "franklin_richards-mcu-828",
+    "name": "Franklin Richards",
+    "status": "En Vie",
+    "aliases": [
+      "Franklin",
+      "Franklin Benjamin Richards"
+    ],
+    "species": "Humain",
+    "affiliation": "4 Fantastiques",
+    "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
+    "hint1": "2025",
+    "hint2": "Ada Scott",
+    "hint3": "Les Quatre Fantastiques : Premiers Pas",
+    "hint4": "F.R.",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 828
+  }
+]

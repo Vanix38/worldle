@@ -1,0 +1,122 @@
+[
+  {
+    "id": "henry_hunter-mcu-616",
+    "name": "Henry Hunter",
+    "alignment": "gentil",
+    "reason": "Pop, mentor bienveillant de Harlem qui guide Luke et la communauté."
+  },
+  {
+    "id": "holden_holliway-mcu-616",
+    "name": "Holden Holliway",
+    "alignment": "neutre",
+    "reason": "Associé de cabinet juridique, civil professionnel sans camp moral clair."
+  },
+  {
+    "id": "hope_mackenzie-mcu-616",
+    "name": "Hope Mackenzie",
+    "alignment": "neutre",
+    "reason": "Civile victime utilisée dans l'affaire Patriot, ni héroïne ni vilaine."
+  },
+  {
+    "id": "ian_boothby-mcu-616",
+    "name": "Ian Boothby",
+    "alignment": "neutre",
+    "reason": "Stagiaire civil comique auprès de Darcy, simple figurant allié mineur."
+  },
+  {
+    "id": "ingrid_mackintosh-mcu-616",
+    "name": "Ingrid Mackintosh",
+    "alignment": "neutre",
+    "reason": "Tante de Bushmaster, figure familiale grise qui l'aide sans être une vilaine frontale."
+  },
+  {
+    "id": "ivan_hess-mcu-616",
+    "name": "Ivan Hess",
+    "alignment": "gentil",
+    "reason": "Scientifique Roxxon qui aide Cloak & Dagger après s'être retourné contre l'entreprise."
+  },
+  {
+    "id": "jack_russell-mcu-616",
+    "name": "Jack Russell",
+    "alignment": "neutre",
+    "reason": "Anti-héros loup-garou monstrueux aux motivations grises, ni héros ni vilain clair."
+  },
+  {
+    "id": "jack_stoss-mcu-616",
+    "name": "Jack Stoss",
+    "alignment": "neutre",
+    "reason": "Enfant civil dans Eternals, simple passant sans alignement héroïque."
+  },
+  {
+    "id": "jakob_lehnsherr-fox_x_men-10005",
+    "name": "Jakob Lehnsherr",
+    "alignment": "neutre",
+    "reason": "Père civil de Magneto, victime historique sans rôle de héros ou vilain."
+  },
+  {
+    "id": "james_j_jim_cramer-mcu-616",
+    "name": "Jim Cramer",
+    "alignment": "neutre",
+    "reason": "Commentateur TV en caméo, civil médiatique sans camp moral."
+  },
+  {
+    "id": "james_lucas-mcu-616",
+    "name": "James Lucas",
+    "alignment": "neutre",
+    "reason": "Pasteur et père de Luke, civil moralement complexe restant hors combat."
+  },
+  {
+    "id": "jason_ionello-mcu-616",
+    "name": "Jason Ionello",
+    "alignment": "neutre",
+    "reason": "Lycéen de Midtown, civil/brûleur social sans enjeu de villainy."
+  },
+  {
+    "id": "jasper_evans-mcu-616",
+    "name": "Jasper Evans",
+    "alignment": "neutre",
+    "reason": "Codétenu manipulé puis tué par Fisk, pion/victime et non antagoniste."
+  },
+  {
+    "id": "jessica_jones-mcu-616",
+    "name": "Jessica Jones",
+    "alignment": "gentil",
+    "reason": "Détective anti-héroïne clairement du côté des Defenders et des victimes."
+  },
+  {
+    "id": "joan-independants-58732",
+    "name": "Joan",
+    "alignment": "neutre",
+    "reason": "Voisine civile et intérêt amoureux du Punisher, pas une héroïne de combat."
+  },
+  {
+    "id": "john_a_mccone-fox_x_men-10005",
+    "name": "John A. McCone",
+    "alignment": "neutre",
+    "reason": "Directeur CIA institutionnel, autorité ambivalente face aux mutants."
+  },
+  {
+    "id": "john_collins-mcu-616",
+    "name": "John Collins",
+    "alignment": "neutre",
+    "reason": "Résident civil de Westview (Herb), voisin ordinaire sous l'Hex."
+  },
+  {
+    "id": "john_grey-fox_x_men-10005",
+    "name": "John Grey",
+    "alignment": "neutre",
+    "reason": "Père civil de Jean Grey, simple civil familial."
+  },
+  {
+    "id": "john_jonah_jameson_iii-raimi_verse-96283",
+    "name": "John Jonah Jameson III",
+    "alignment": "neutre",
+    "reason": "Astronaute NASA civil, fiancé de MJ sans rôle héroïque ou vilain."
+  },
+  {
+    "id": "john_jonah_jameson_iii-ssu-688",
+    "name": "John Jonah Jameson III",
+    "alignment": "neutre",
+    "reason": "Astronaute Life Foundation victime des symbiotes, civil sans camp."
+  }
+]

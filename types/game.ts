@@ -52,8 +52,18 @@ export type FieldMappingFonction =
 export interface FieldMappingHintMeta {
   /** Label shown next to the hint icon (e.g. "Acteur/Doubleur"). */
   prompt: string;
-  /** react-icons export name (e.g. "FaMicrophoneLines"). */
+  /** react-icons/fa export name (e.g. "FaMicrophoneLines"). */
   icon: string;
+  /**
+   * Optional sort key among Indice fields (ascending).
+   * When omitted, fieldMapping key order is kept.
+   */
+  order?: number;
+  /**
+   * Guesses required to unlock this hint.
+   * When omitted, uses `(tierIndex + 1) * hintInterval` (default interval 5).
+   */
+  unlockAfter?: number;
 }
 
 /** Flat list or nested groups (e.g. saga → arcs → episodes). */
@@ -71,19 +81,25 @@ export interface FieldMappingEntry {
   description?: string;
   /** For Comparaison: flat list or grouped map (first → last chronologically). */
   order?: FieldOrder;
-  /** Synonym pairs for ordered comparison / indice3 sorting (same chronological rank). */
+  /** Synonym pairs for ordered comparison / hint sorting (same chronological rank). */
   orderLabelEquivalence?: [string, string][];
-  /** If set, this field is a hint tier (order = key order in fieldMapping). */
+  /**
+   * Required for `fonction: "Indice"`.
+   * Any number of Indice fields is supported (hint1, hint2, hintYear, …) —
+   * unlock order follows `hint.order` then fieldMapping key order.
+   */
   hint?: FieldMappingHintMeta;
-  /** Include this field in character autocomplete (e.g. indice3 Naruto agrège équipes / affiliations). */
+  /** Include this field in character autocomplete (e.g. Naruto hint agrège équipes / affiliations). */
   includeInSearch?: boolean;
 }
 
-/** One unlockable hint tier derived from fieldMapping. */
+/** One unlockable hint tier derived from fieldMapping (`fonction: "Indice"`). */
 export interface HintTierDef {
   fieldKey: string;
   prompt: string;
   icon: string;
+  /** Explicit unlock threshold when set on fieldMapping.hint.unlockAfter. */
+  unlockAfter?: number;
 }
 
 export type FieldMapping = Record<string, FieldMappingEntry>;
@@ -112,8 +128,13 @@ export interface UniverseData {
   id: string;
   name: string;
   characters: Character[];
-  /** Mapping: field key -> header + fonction (Classique, Recherche, Comparaison, ComparaisonDate, ComparaisonChiffre). */
+  /** Mapping: field key -> header + fonction (Classique, Recherche, Comparaison, ComparaisonDate, ComparaisonChiffre, Indice, …). */
   fieldMapping?: FieldMapping;
+  /**
+   * Guesses between successive hints when `hint.unlockAfter` is omitted.
+   * Default: 5 (1st at 5, 2nd at 10, …). Applies to any number of Indice fields.
+   */
+  hintInterval?: number;
   /** Set by server when public/universes/[id]/background.webp|.png|.jpg exists */
   backgroundImage?: string;
   schema?: AttributeSchemaEntry[];

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "klev-mcu-86445",
+    "name": "Klev",
+    "alignment": "neutre",
+    "reason": "Civil secondaire de Ton Ami du Quartier Spider-Man, bystander."
+  },
+  {
+    "id": "kyle_williams-independants-58460",
+    "name": "Kyle Williams",
+    "alignment": "gentil",
+    "reason": "Shérif protagoniste de Man-Thing qui enquête et s'oppose à la corruption."
+  },
+  {
+    "id": "kyle-mcu-616",
+    "name": "Kyle",
+    "alignment": "neutre",
+    "reason": "Assistant de Harold Meachum, figurant gris tué sans camp clair."
+  },
+  {
+    "id": "laura_barton-mcu-616",
+    "name": "Laura Barton",
+    "alignment": "neutre",
+    "reason": "Épouse civile de Clint, soutien familial hors combat héroïque."
+  },
+  {
+    "id": "leo_lieberman-mcu-616",
+    "name": "Leo Lieberman",
+    "alignment": "neutre",
+    "reason": "Enfant civil de la famille Lieberman dans The Punisher."
+  },
+  {
+    "id": "lewis_wilson-mcu-616",
+    "name": "Lewis Wilson",
+    "alignment": "méchant",
+    "reason": "Vétéran terroriste auteur des attentats à la bombe dans The Punisher."
+  },
+  {
+    "id": "liam_walsh-mcu-616",
+    "name": "Liam Walsh",
+    "alignment": "méchant",
+    "reason": "Voleur/escroc qui trahit Tandy et lui vole son argent."
+  },
+  {
+    "id": "lighthammer-independants-26320",
+    "name": "Lighthammer",
+    "alignment": "méchant",
+    "reason": "Vampire du Bloodpack formé pour tuer Blade, puis Reaper meurtrier."
+  },
+  {
+    "id": "lilla_mackenzie-mcu-616",
+    "name": "Lilla Mackenzie",
+    "alignment": "neutre",
+    "reason": "Mère civile de Mack, otage des Chronicoms sans rôle héroïque."
+  },
+  {
+    "id": "lisa_barbara_castle-mcu-616",
+    "name": "Lisa Barbara Castle",
+    "alignment": "neutre",
+    "reason": "Fille civile de Frank Castle, victime innocente."
+  },
+  {
+    "id": "loki_laufeyson-mcu-82111",
+    "name": "Loki Laufeyson",
+    "alignment": "neutre",
+    "reason": "Prince Loki 1602 ambigu, sauvé par Carter sans camp tranché."
+  },
+  {
+    "id": "lonnie_wilson-mcu-616",
+    "name": "Lonnie Wilson",
+    "alignment": "neutre",
+    "reason": "Enfant civil de Harlem dans Luke Cage, bystander."
+  },
+  {
+    "id": "lorna_wu-mcu-616",
+    "name": "Lorna Wu",
+    "alignment": "gentil",
+    "reason": "Sorcière protectrice qui crée un sort pour sauver sa fille Alice."
+  },
+  {
+    "id": "lorraine-mcu-616",
+    "name": "Lorraine",
+    "alignment": "neutre",
+    "reason": "Soldate SSR figurant, caméo sans statut d'alliée claire."
+  },
+  {
+    "id": "love-mcu-616",
+    "name": "Love",
+    "alignment": "neutre",
+    "reason": "Enfant innocent de Gorr, civil hors camps bien/mal."
+  },
+  {
+    "id": "lucky-mcu-616",
+    "name": "Lucky",
+    "alignment": "neutre",
+    "reason": "Chien (Pizza Dog), animal sans alignement moral."
+  },
+  {
+    "id": "magda_gurzsky-fox_x_men-10005",
+    "name": "Magda Gurzsky",
+    "alignment": "neutre",
+    "reason": "Épouse civile de Magneto, victime innocente."
+  },
+  {
+    "id": "maggie_lang-mcu-616",
+    "name": "Maggie Lang",
+    "alignment": "neutre",
+    "reason": "Ex-femme civile de Scott, mère bystander."
+  },
+  {
+    "id": "mallory_book-mcu-616",
+    "name": "Mallory Book",
+    "alignment": "neutre",
+    "reason": "Avocate rivale ambitieuse, grise sans villenie claire."
+  },
+  {
+    "id": "marc_spector-mcu-616",
+    "name": "Marc Spector",
+    "alignment": "neutre",
+    "reason": "Anti-héros Moon Knight, justicier violent au service de Khonshu."
+  }
+]

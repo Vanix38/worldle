@@ -1,0 +1,122 @@
+[
+  {
+    "id": "david_dave_daniels-independants-58732",
+    "name": "David Daniels",
+    "alignment": "neutre",
+    "reason": "Civil voisin comique dans The Punisher, sans camp héroïque ni vilain."
+  },
+  {
+    "id": "debbie_mcilvane-fox_fantastiques-121698",
+    "name": "Debbie McIlvane",
+    "alignment": "neutre",
+    "reason": "Civile / intérêt amoureux de Johnny, simple bystander."
+  },
+  {
+    "id": "delmar-mcu-616",
+    "name": "Delmar",
+    "alignment": "neutre",
+    "reason": "Épicier civil du quartier, figure quotidienne sans alignement héroïque."
+  },
+  {
+    "id": "ditkovich-raimi_verse-96283",
+    "name": "Mr. Ditkovich",
+    "alignment": "neutre",
+    "reason": "Propriétaire civil de Peter Parker, purement bystander."
+  },
+  {
+    "id": "dolores_miller-mcu-616",
+    "name": "Dolores Miller",
+    "alignment": "neutre",
+    "reason": "Civile secondaire dans Defenders/Luke Cage, pas d'alignement clair."
+  },
+  {
+    "id": "donald_donnie_chang-mcu-616",
+    "name": "Donald Chang",
+    "alignment": "neutre",
+    "reason": "Flic NYPD qui fait son métier, ni héros ni antagoniste net."
+  },
+  {
+    "id": "donna_kraft-mcu-616",
+    "name": "Donna Kraft",
+    "alignment": "neutre",
+    "reason": "Collègue civile de Steven au musée, bystander."
+  },
+  {
+    "id": "dopinder-fox_x_men-10005",
+    "name": "Dopinder",
+    "alignment": "neutre",
+    "reason": "Chauffeur civil comique, allié occasionnel sans statut héroïque."
+  },
+  {
+    "id": "dopinder-fox_x_men-41633",
+    "name": "Dopinder",
+    "alignment": "neutre",
+    "reason": "Chauffeur civil comique, allié occasionnel sans statut héroïque."
+  },
+  {
+    "id": "dopinder-mcu-616",
+    "name": "Dopinder",
+    "alignment": "neutre",
+    "reason": "Chauffeur civil comique, allié occasionnel sans statut héroïque."
+  },
+  {
+    "id": "dormammu-mcu-616",
+    "name": "Dormammu",
+    "alignment": "méchant",
+    "reason": "Antagoniste cosmique de Doctor Strange visant à consumer la Terre."
+  },
+  {
+    "id": "dormammu-mcu-91233",
+    "name": "Dormammu",
+    "alignment": "méchant",
+    "reason": "Même seigneur de la Dimension noire, menace clairement hostile dans What If…?"
+  },
+  {
+    "id": "doug-mcu-616",
+    "name": "Doug",
+    "alignment": "neutre",
+    "reason": "Alien civil de Sakaar, ami de Korg sans rôle héroïque net."
+  },
+  {
+    "id": "dr_daniel_dan_lewis-ssu-688",
+    "name": "Dan Lewis",
+    "alignment": "neutre",
+    "reason": "Médecin civil / fiancé d'Anne, figure quotidienne bienveillante."
+  },
+  {
+    "id": "dr_maximilian_max_fargas-raimi_verse-96283",
+    "name": "Maximilian Fargas",
+    "alignment": "neutre",
+    "reason": "Administrateur Oscorp victime du Bouffon, pas un antagoniste."
+  },
+  {
+    "id": "dr_mendel_stromm-raimi_verse-96283",
+    "name": "Mendel Stromm",
+    "alignment": "neutre",
+    "reason": "Scientifique Oscorp tué par Norman, pas dépeint comme vilain à l'écran."
+  },
+  {
+    "id": "eddie_brock-ssu-688",
+    "name": "Eddie Brock",
+    "alignment": "neutre",
+    "reason": "Anti-héros Lethal Protector aux mœurs mixtes, gris classique."
+  },
+  {
+    "id": "eddie-mcu-616",
+    "name": "Eddie",
+    "alignment": "neutre",
+    "reason": "Civil / petit ami secondaire dans Agatha All Along."
+  },
+  {
+    "id": "edie_lehnsherr-fox_x_men-10005",
+    "name": "Edie Lehnsherr",
+    "alignment": "neutre",
+    "reason": "Civile, mère de Magneto, victime historique sans camp de combat."
+  },
+  {
+    "id": "edith_banner-independants-400083",
+    "name": "Edith Banner",
+    "alignment": "neutre",
+    "reason": "Civile, mère de Bruce Banner, figure familiale uniquement."
+  }
+]

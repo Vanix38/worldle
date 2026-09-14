@@ -1,0 +1,442 @@
+[
+  {
+    "id": "norrin_radd-fox_fantastiques-121698",
+    "name": "Norrin Radd",
+    "status": "En Vie",
+    "aliases": [
+      "Surfer d'Argent",
+      "Silver Surfer",
+      "Norrin Radd"
+    ],
+    "species": "Alien",
+    "affiliation": "Galactus",
+    "firstAppearance": "Les 4 Fantastiques et le Surfer d'Argent",
+    "hint1": "2007",
+    "hint2": "Doug Jones, Laurence Fishburne",
+    "hint3": "Les 4 Fantastiques et le Surfer d'Argent",
+    "hint4": "N.R.",
+    "abilities": [
+      "Cosmiques",
+      "Aliennnes"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox Fantastiques",
+    "earth": 121698
+  },
+  {
+    "id": "olek_maximoff-mcu-616",
+    "name": "Olek Maximoff",
+    "status": "Décédé",
+    "aliases": [
+      "Olek Maximoff"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "2021",
+    "hint2": "",
+    "hint3": "WandaVision (Saison 1)",
+    "hint4": "O.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "olivia_walker-mcu-616",
+    "name": "Olivia Walker",
+    "status": "En Vie",
+    "aliases": [
+      "Olivia Walker",
+      "Liv"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Gabrielle Byndloss",
+    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "hint4": "O.W.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "oscar_arocho-mcu-616",
+    "name": "Oscar Arocho",
+    "status": "En Vie",
+    "aliases": [
+      "Oscar Arocho",
+      "Oscar"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Jessica Jones (Saison 2)",
+    "hint1": "2018",
+    "hint2": "J. R. Ramirez",
+    "hint3": "Jessica Jones (Saison 2)",
+    "hint4": "O.A.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "otis_johnson-mcu-616",
+    "name": "Otis Johnson",
+    "status": "En Vie",
+    "aliases": [
+      "Otis Johnson",
+      "Otis"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "2018",
+    "hint2": "Miles Mussenden",
+    "hint3": "Cloak & Dagger (Saison 1), Cloak & Dagger (Saison 2)",
+    "hint4": "O.J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "pamela_lawton-mcu-616",
+    "name": "Pamela Lawton",
+    "status": "Décédé",
+    "aliases": [
+      "Pamela Lawton",
+      "Pam"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Secret Invasion (Saison 1)",
+    "hint1": "2023",
+    "hint2": "Anna Madeley",
+    "hint3": "Secret Invasion (Saison 1)",
+    "hint4": "P.L.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "patrick_mulligan-ssu-688",
+    "name": "Patrick Mulligan",
+    "status": "En Vie",
+    "aliases": [
+      "Toxin",
+      "Patrick Mulligan"
+    ],
+    "species": "Humain",
+    "affiliation": "SFPD",
+    "firstAppearance": "Venom : Let There Be Carnage",
+    "hint1": "2021",
+    "hint2": "Stephen Graham",
+    "hint3": "Venom : Let There Be Carnage, Venom : The Last Dance",
+    "hint4": "P.M.",
+    "abilities": [
+      "Aliennnes",
+      "Surhumaines"
+    ],
+    "alignment": "neutre",
+    "universe": "SSU",
+    "earth": 688
+  },
+  {
+    "id": "penny_marko-raimi_verse-96283",
+    "name": "Penny Marko",
+    "status": "En Vie",
+    "aliases": [
+      "Penny Marko"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Spider-Man 3",
+    "hint1": "2007",
+    "hint2": "Perla Haney-Jardine",
+    "hint3": "Spider-Man 3",
+    "hint4": "P.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "peter_lyonne-mcu-616",
+    "name": "Peter Lyonne",
+    "status": "Décédé",
+    "aliases": [
+      "Peter Lyonne"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Jessica Jones (Saison 3)",
+    "hint1": "2019",
+    "hint2": "John Benjamin Hickey",
+    "hint3": "Jessica Jones (Saison 3)",
+    "hint4": "P.L.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "peter_quill-mcu-21818",
+    "name": "Peter Quill",
+    "status": "En Vie",
+    "aliases": [
+      "Peter Quill"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Brian T. Delaney",
+    "hint3": "What If...? (Saison 1)",
+    "hint4": "P.Q.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 21818
+  },
+  {
+    "id": "philip_stacy-webb_verse-120703",
+    "name": "Philip Stacy",
+    "status": "En Vie",
+    "aliases": [
+      "Philip Stacy",
+      "Phillip Stacy"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "The Amazing Spider-Man",
+    "hint1": "2012",
+    "hint2": "Charlie DePew",
+    "hint3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+    "hint4": "P.S.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Webb-Verse",
+    "earth": 120703
+  },
+  {
+    "id": "pizza_poppa-mcu-838",
+    "name": "Pizza Poppa",
+    "status": "En Vie",
+    "aliases": [
+      "Pizza Poppa"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Doctor Strange in the Multiverse of Madness",
+    "hint1": "2022",
+    "hint2": "Bruce Campbell",
+    "hint3": "Doctor Strange in the Multiverse of Madness",
+    "hint4": "P.P.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 838
+  },
+  {
+    "id": "polly_hinton-mcu-616",
+    "name": "Polly Hinton",
+    "status": "En Vie",
+    "aliases": [
+      "Polly Hinton"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "2015",
+    "hint2": "Lola Glaudini",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint4": "P.H.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "price-mcu-616",
+    "name": "Price",
+    "status": "En Vie",
+    "aliases": [
+      "Juge Price",
+      "Judge Price",
+      "Price"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "She-Hulk : Avocate (Saison 1)",
+    "hint1": "2022",
+    "hint2": "George Bryant",
+    "hint3": "She-Hulk : Avocate (Saison 1)",
+    "hint4": "P.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "raven_darkholme-fox_x_men-10005",
+    "name": "Raven Darkhölme",
+    "status": "Décédé",
+    "aliases": [
+      "Mystique",
+      "Raven"
+    ],
+    "species": "Mutant",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men",
+    "hint1": "2000",
+    "hint2": "Rebecca Romijn, Jennifer Lawrence",
+    "hint3": "X-Men, X-Men 2, X-Men : L'Affrontement final, X-Men : Le Commencement, X-Men : Days of Future Past, X-Men : Apocalypse, X-Men : Dark Phoenix",
+    "hint4": "R.D.",
+    "abilities": [
+      "Métamorphose"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 10005
+  },
+  {
+    "id": "richard_parker-webb_verse-120703",
+    "name": "Richard Parker",
+    "status": "Décédé",
+    "aliases": [
+      "Docteur Parker",
+      "Dr. Parker",
+      "Richard Laurence Parker",
+      "Richard Parker"
+    ],
+    "species": "Humain",
+    "affiliation": "Oscorp",
+    "firstAppearance": "The Amazing Spider-Man",
+    "hint1": "2012",
+    "hint2": "Campbell Scott",
+    "hint3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+    "hint4": "R.P.",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "Webb-Verse",
+    "earth": 120703
+  },
+  {
+    "id": "rio_vidal-mcu-616",
+    "name": "Rio Vidal",
+    "status": "En Vie",
+    "aliases": [
+      "La Mort",
+      "Death"
+    ],
+    "species": "Entité Cosmique",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "2024",
+    "hint2": "Aubrey Plaza",
+    "hint3": "Agatha All Along (Saison 1)",
+    "hint4": "R.V.",
+    "abilities": [
+      "Cosmiques",
+      "Magiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "robert_reynolds-mcu-616",
+    "name": "Robert Reynolds",
+    "status": "En Vie",
+    "aliases": [
+      "Sentry",
+      "Bob",
+      "Void"
+    ],
+    "species": "Humain",
+    "affiliation": "Nouveaux Avengers",
+    "firstAppearance": "Thunderbolts",
+    "hint1": "2025",
+    "hint2": "Lewis Pullman",
+    "hint3": "Thunderbolts",
+    "hint4": "R.R.",
+    "abilities": [
+      "Surhumaines",
+      "Energétiques",
+      "Cosmiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "seema_nadeem-mcu-616",
+    "name": "Seema Nadeem",
+    "status": "En Vie",
+    "aliases": [
+      "Seems"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "2018",
+    "hint2": "Sunita Deshpande",
+    "hint3": "Daredevil (Saison 3)",
+    "hint4": "S.N.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "senor_scratchy-mcu-616",
+    "name": "Señor Scratchy",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Rabbit",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "2021",
+    "hint2": "",
+    "hint3": "WandaVision (Saison 1)",
+    "hint4": "S.S.",
+    "abilities": [
+      "Animales"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  }
+]

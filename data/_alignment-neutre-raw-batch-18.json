@@ -1,0 +1,122 @@
+[
+  {
+    "id": "zach_lieberman-mcu-616",
+    "name": "Zach Lieberman",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Le Punisher (Saison 1)",
+    "hint1": "2017",
+    "hint2": "Kobi Frumer",
+    "hint3": "Le Punisher (Saison 1)",
+    "hint4": "Z.L.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "zachary_fairbanks-mcu-616",
+    "name": "Zachary Fairbanks",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Secret Invasion (Saison 1)",
+    "hint1": "2023",
+    "hint2": "Alasdair Noble",
+    "hint3": "Secret Invasion (Saison 1)",
+    "hint4": "Z.F.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "zarathos-independants-121347",
+    "name": "Zarathos",
+    "status": "En Vie",
+    "aliases": [
+      "Spirit of Vengeance",
+      "The Rider",
+      "Spirit of Justice"
+    ],
+    "species": "Angel (formerly Fallen)",
+    "affiliation": "Heaven",
+    "firstAppearance": "Ghost Rider",
+    "hint1": "2007",
+    "hint2": "",
+    "hint3": "Ghost Rider, Ghost Rider: Spirit of Vengeance",
+    "hint4": "Z.",
+    "abilities": [
+      "Démoniaques",
+      "Pyrokinésiques",
+      "Mystiques"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 121347
+  },
+  {
+    "id": "zardu_hasselfrau-mcu-616",
+    "name": "Zardu Hasselfrau",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Sneeper",
+    "affiliation": "The Sneepers",
+    "firstAppearance": "Guardians' Inferno",
+    "hint1": "2017",
+    "hint2": "David Hasselhoff",
+    "hint3": "Guardians' Inferno",
+    "hint4": "Z.H.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "zaya_okonjo-mcu-616",
+    "name": "Zaya Okonjo",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Hogarth",
+    "firstAppearance": "Jessica Jones (Saison 3)",
+    "hint1": "2019",
+    "hint2": "Tiffany Mack",
+    "hint3": "Jessica Jones (Saison 3)",
+    "hint4": "Z.O.",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "zoe_sommerfield-independants-26320",
+    "name": "Zoe Sommerfield",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Nightstalkers",
+    "firstAppearance": "Blade : Trinity",
+    "hint1": "2004",
+    "hint2": "Haili Page",
+    "hint3": "Blade : Trinity",
+    "hint4": "Z.S.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 26320
+  }
+]

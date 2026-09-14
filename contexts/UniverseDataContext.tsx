@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useMemo } from "react";
 import type { AttributeSchemaEntry, Character, HintTierDef, SpecificSymbolEntry, UniverseData } from "@/types/game";
-import { getHintTiers, getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
+import { getHintInterval, getHintTiers, getSchemaFromUniverseData, getSearchFieldKeys } from "@/lib/schemas";
 import { SpecificSymbolTapProvider } from "@/contexts/SpecificSymbolTapContext";
 import { SpoilerProgressProvider } from "@/contexts/SpoilerProgressContext";
 import type { FieldMapping } from "@/types/game";
@@ -14,8 +14,10 @@ export interface UniverseDataContextValue {
   schema: AttributeSchemaEntry[];
   /** Field keys with fonction Recherche (searchable but not displayed in table). */
   searchFieldKeys: string[];
-  /** Hint tiers (fieldMapping entries with `hint`), in JSON key order. */
+  /** Hint tiers (`fonction: "Indice"`), unlimited — order from fieldMapping. */
   hintTiers: HintTierDef[];
+  /** Guesses between successive auto-scheduled hints (universe JSON `hintInterval`, default 5). */
+  hintInterval: number;
   /** Remplacements pictos (public/universes/{id}/specific-symbols/). */
   specificSymbols: SpecificSymbolEntry[];
   fieldMapping: FieldMapping;
@@ -34,6 +36,7 @@ export function UniverseDataProvider({
     const schema = getSchemaFromUniverseData(universeData);
     const searchFieldKeys = getSearchFieldKeys(universeData);
     const hintTiers = getHintTiers(universeData);
+    const hintInterval = getHintInterval(universeData);
     return {
       universeId: universeData.id,
       universeName: universeData.name,
@@ -41,6 +44,7 @@ export function UniverseDataProvider({
       schema,
       searchFieldKeys,
       hintTiers,
+      hintInterval,
       specificSymbols: universeData.specificSymbols ?? [],
       fieldMapping: universeData.fieldMapping ?? {},
     };

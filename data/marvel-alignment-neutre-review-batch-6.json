@@ -1,0 +1,122 @@
+[
+  {
+    "id": "g_iah-mcu-616",
+    "name": "G'iah",
+    "alignment": "neutre",
+    "reason": "Skrull grise : résistante puis retournée contre Gravik, morales mixtes."
+  },
+  {
+    "id": "galactus-fox_fantastiques-121698",
+    "name": "Galactus",
+    "alignment": "méchant",
+    "reason": "Antagoniste cosmique qui vient dévorer la Terre face aux Fantastiques."
+  },
+  {
+    "id": "galaga_guy-mcu-616",
+    "name": "Galaga Guy",
+    "alignment": "neutre",
+    "reason": "Agent S.H.I.E.L.D. comique de fond, simple figurant sans rôle héroïque."
+  },
+  {
+    "id": "galan-mcu-828",
+    "name": "Galan",
+    "alignment": "méchant",
+    "reason": "Galactus, grand antagoniste de First Steps menaçant la Terre et Franklin."
+  },
+  {
+    "id": "gary_williams-mcu-616",
+    "name": "Gary Williams",
+    "alignment": "neutre",
+    "reason": "Beau-père civil de Riri vu en flashbacks, figure familiale sans camp."
+  },
+  {
+    "id": "german_old_man-mcu-616",
+    "name": "German Old Man",
+    "alignment": "neutre",
+    "reason": "Civil de Stuttgart face à Loki, simple bystander courageux."
+  },
+  {
+    "id": "gilbert-mcu-616",
+    "name": "Gilbert O'Conner",
+    "alignment": "neutre",
+    "reason": "Fondateur AccuTech hors-écran, figure corporate sans alignement clair."
+  },
+  {
+    "id": "grace_bennett-mcu-616",
+    "name": "Grace Bennett",
+    "alignment": "neutre",
+    "reason": "Co-animatrice TV civile de Trish, pure bystander."
+  },
+  {
+    "id": "graciela_aguirre-mcu-616",
+    "name": "Graciela Aguirre",
+    "alignment": "gentil",
+    "reason": "Alliée de Molly qui s'oppose au PRIDE et meurt en la protégeant."
+  },
+  {
+    "id": "greg_pressfield-mcu-616",
+    "name": "Greg Pressfield",
+    "alignment": "neutre",
+    "reason": "Avocat civil de Melissa Bowen, victime de Roxxon."
+  },
+  {
+    "id": "gwen_mciver-mcu-616",
+    "name": "Gwen McIver",
+    "alignment": "neutre",
+    "reason": "Civile mère de John McIver, victime des Stokes en flashback."
+  },
+  {
+    "id": "gwen_stacy-raimi_verse-96283",
+    "name": "Gwen Stacy",
+    "alignment": "neutre",
+    "reason": "Civile / intérêt amoureux de Peter, sans statut héroïque."
+  },
+  {
+    "id": "hamid_madani-mcu-616",
+    "name": "Hamid Madani",
+    "alignment": "neutre",
+    "reason": "Médecin civil aidant ponctuellement, pas un héros de camp."
+  },
+  {
+    "id": "hannah_hutchins-mcu-616",
+    "name": "Hannah Hutchins",
+    "alignment": "neutre",
+    "reason": "Inspectrice civile StatiCorp, cas de la semaine ni héroïne ni vilaine."
+  },
+  {
+    "id": "harley_keener-mcu-616",
+    "name": "Harley Keener",
+    "alignment": "gentil",
+    "reason": "Allié clair de Tony dans Iron Man 3, aide activement le camp héroïque."
+  },
+  {
+    "id": "hasan-mcu-616",
+    "name": "Hasan",
+    "alignment": "neutre",
+    "reason": "Ancêtre civil de la Partition, figure historique sans camp."
+  },
+  {
+    "id": "hawley-mcu-616",
+    "name": "Hawley",
+    "alignment": "neutre",
+    "reason": "Membre du Conseil mondial, décideuse politique grise (nuke NYC)."
+  },
+  {
+    "id": "heather_rand-mcu-616",
+    "name": "Heather Rand",
+    "alignment": "neutre",
+    "reason": "Mère civile de Danny Rand, figure familiale décédée."
+  },
+  {
+    "id": "heinrich_schafer-mcu-616",
+    "name": "Heinrich Schäfer",
+    "alignment": "neutre",
+    "reason": "Civil de Stuttgart victime de Loki, simple bystander."
+  },
+  {
+    "id": "helen_stacy-webb_verse-120703",
+    "name": "Helen Stacy",
+    "alignment": "neutre",
+    "reason": "Mère civile de Gwen Stacy, pure bystander familiale."
+  }
+]

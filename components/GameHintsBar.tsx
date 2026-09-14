@@ -4,10 +4,12 @@ import { useState, useEffect } from "react";
 import type { Character } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { HintIcon } from "@/lib/hint-icons";
+import {
+  DEFAULT_HINT_INTERVAL,
+  formatHintValue,
+  getHintUnlockAfter,
+} from "@/lib/schemas";
 import { stripAccents } from "@/lib/utils";
-
-/** Guesses required between each hint tier (1st at 5, 2nd at 10, …). */
-export const HINT_INTERVAL = 5;
 
 interface GameHintsBarProps {
   target: Character;
@@ -15,8 +17,9 @@ interface GameHintsBarProps {
 }
 
 export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
-  const { hintTiers } = useUniverseData();
+  const { hintTiers, hintInterval } = useUniverseData();
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const interval = hintInterval > 0 ? hintInterval : DEFAULT_HINT_INTERVAL;
 
   useEffect(() => {
     if (guessCount === 0) setExpanded({});
@@ -31,17 +34,14 @@ export function GameHintsBar({ target, guessCount }: GameHintsBarProps) {
       aria-label={stripAccents("Indices")}
     >
       <p className="mb-2 text-xs font-medium uppercase tracking-wide text-amber-500/90">
-        {stripAccents(`Indices (un palier tous les ${HINT_INTERVAL} tentatives)`)}
+        {stripAccents(`Indices (un palier tous les ${interval} tentatives)`)}
       </p>
       <ul className="flex w-full flex-row flex-wrap gap-2 max-sm:items-stretch sm:items-start sm:justify-start">
         {hintTiers.map((tier, index) => {
-          const unlocked = guessCount >= (index + 1) * HINT_INTERVAL;
+          const unlockAfter = getHintUnlockAfter(tier, index, interval);
+          const unlocked = guessCount >= unlockAfter;
           const isOpen = Boolean(expanded[tier.fieldKey]);
-          const raw = target[tier.fieldKey];
-          const display =
-            raw !== undefined && raw !== "" && String(raw).trim()
-              ? String(raw)
-              : "—";
+          const display = formatHintValue(target[tier.fieldKey]);
 
           return (
             <li

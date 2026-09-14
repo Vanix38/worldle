@@ -1,0 +1,451 @@
+[
+  {
+    "id": "ava_starr-mcu-616",
+    "name": "Ava Starr",
+    "status": "En Vie",
+    "aliases": [
+      "Ghost",
+      "Fantôme",
+      "Ava Starr"
+    ],
+    "species": "Humain",
+    "affiliation": "Nouveaux Avengers",
+    "firstAppearance": "Ant-Man et la Guêpe",
+    "hint1": "2018",
+    "hint2": "Hannah John-Kamen",
+    "hint3": "Ant-Man et la Guêpe, Thunderbolts",
+    "hint4": "A.S.",
+    "abilities": [
+      "Quantiques",
+      "Intangibilité",
+      "Militaires"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "axl_heimdallson-mcu-616",
+    "name": "Axl Heimdallson",
+    "status": "En Vie",
+    "aliases": [
+      "Axl",
+      "Axl Heimdallson"
+    ],
+    "species": "Asgardian",
+    "affiliation": "Nouvelle Asgard",
+    "firstAppearance": "Thor : Love and Thunder",
+    "hint1": "2022",
+    "hint2": "Kieron L. Dyer",
+    "hint3": "Thor : Love and Thunder",
+    "hint4": "A.H.",
+    "abilities": [
+      "Divinnes",
+      "Omniscientes"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "barton_blaze-independants-121347",
+    "name": "Barton Blaze",
+    "status": "Décédé",
+    "aliases": [
+      "Barton Blaze"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ghost Rider",
+    "hint1": "2007",
+    "hint2": "Brett Cullen",
+    "hint3": "Ghost Rider",
+    "hint4": "B.B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 121347
+  },
+  {
+    "id": "bb_urich-mcu-616",
+    "name": "BB Urich",
+    "status": "En Vie",
+    "aliases": [
+      "BB Urich"
+    ],
+    "species": "Humain",
+    "affiliation": "New York Bulletin",
+    "firstAppearance": "Daredevil : Born Again (Saison 1)",
+    "hint1": "2025",
+    "hint2": "Genneya Walton",
+    "hint3": "Daredevil : Born Again (Saison 1)",
+    "hint4": "B.U.",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "benjamin_donovan-mcu-616",
+    "name": "Benjamin Donovan",
+    "status": "En Vie",
+    "aliases": [
+      "Big Ben",
+      "Ben Donovan",
+      "Benjamin Donovan"
+    ],
+    "species": "Humain",
+    "affiliation": "Donovan and Partners",
+    "firstAppearance": "Daredevil (Saison 2)",
+    "hint1": "2016",
+    "hint2": "Danny Johnson",
+    "hint3": "Daredevil (Saison 2), Daredevil (Saison 3), Luke Cage (Saison 2)",
+    "hint4": "B.D.",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "bereet-mcu-616",
+    "name": "Bereet",
+    "status": "En Vie",
+    "aliases": [
+      "Bereet"
+    ],
+    "species": "Krylorian",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "2014",
+    "hint2": "Melia Kreiling",
+    "hint3": "Les Gardiens de la Galaxie",
+    "hint4": "B.",
+    "abilities": [
+      "Technologiques",
+      "Aliennnes"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "betsy_beatty-mcu-616",
+    "name": "Betsy Beatty",
+    "status": "En Vie",
+    "aliases": [
+      "Betsy Beatty"
+    ],
+    "species": "Humain",
+    "affiliation": "Liberté conditionnelle de New York",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "2018",
+    "hint2": "Karina Casiano",
+    "hint3": "Daredevil (Saison 3)",
+    "hint4": "B.B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "betty_brant-mcu-616",
+    "name": "Betty Brant",
+    "status": "En Vie",
+    "aliases": [
+      "Betty",
+      "Elizabeth Brant"
+    ],
+    "species": "Humain",
+    "affiliation": "Le Daily Bugle",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "2017",
+    "hint2": "Angourie Rice",
+    "hint3": "Spider-Man : Homecoming, Spider-Man : Far From Home, Spider-Man : No Way Home",
+    "hint4": "B.B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "betty_ross-mcu-616",
+    "name": "Betty Ross",
+    "status": "En Vie",
+    "aliases": [
+      "Betty Ross",
+      "Elizabeth Ross"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "L'Incroyable Hulk",
+    "hint1": "2008",
+    "hint2": "Liv Tyler",
+    "hint3": "L'Incroyable Hulk, Captain America : Brave New World",
+    "hint4": "B.R.",
+    "abilities": [
+      "Intellectuelles",
+      "Sciences"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "blake_tower-mcu-616",
+    "name": "Blake Tower",
+    "status": "En Vie",
+    "aliases": [
+      "Tower"
+    ],
+    "species": "Humain",
+    "affiliation": "Bureau du procureur de New York",
+    "firstAppearance": "Daredevil (Saison 2)",
+    "hint1": "2016",
+    "hint2": "Stephen Rider",
+    "hint3": "Daredevil (Saison 2)",
+    "hint4": "B.T.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "blind_al-mcu-616",
+    "name": "Althea",
+    "status": "En Vie",
+    "aliases": [
+      "Blind Al",
+      "Al"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Deadpool",
+    "hint1": "2016",
+    "hint2": "Leslie Uggams",
+    "hint3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
+    "hint4": "A.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "blurp-mcu-616",
+    "name": "Blurp",
+    "status": "En Vie",
+    "aliases": [
+      "Blurp"
+    ],
+    "species": "F'Saki",
+    "affiliation": "Les Gardiens de la Galaxie",
+    "firstAppearance": "Les Gardiens de la Galaxie Vol. 3",
+    "hint1": "2023",
+    "hint2": "Dee Bradley Baker",
+    "hint3": "Les Gardiens de la Galaxie Vol. 3",
+    "hint4": "B.",
+    "abilities": [
+      "Animales",
+      "Aliennnes"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "brad_davis-mcu-616",
+    "name": "Brad Davis",
+    "status": "En Vie",
+    "aliases": [
+      "Brad"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man : Far From Home",
+    "hint1": "2019",
+    "hint2": "Remy Hii",
+    "hint3": "Spider-Man : Far From Home",
+    "hint4": "B.D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "brent_willard-mcu-616",
+    "name": "Brent Willard",
+    "status": "En Vie",
+    "aliases": [
+      "Wonder Man",
+      "Brent Willard"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Wonder Man (Saison 1)",
+    "hint1": "2026",
+    "hint2": "Dane Larsen",
+    "hint3": "Wonder Man (Saison 1)",
+    "hint4": "B.W.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "brian_jones-mcu-616",
+    "name": "Brian Jones",
+    "status": "Décédé",
+    "aliases": [
+      "Pop-Pop",
+      "Brian Jones"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Jessica Jones (Saison 1)",
+    "hint1": "2015",
+    "hint2": "James Colby",
+    "hint3": "Jessica Jones (Saison 1)",
+    "hint4": "B.J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "brianna_gelden-mcu-616",
+    "name": "Brianna Gelden",
+    "status": "En Vie",
+    "aliases": [
+      "Berry",
+      "Brie",
+      "Brianna Gelden"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Jessica Jones (Saison 3)",
+    "hint1": "2019",
+    "hint2": "Jamie Neumann",
+    "hint3": "Jessica Jones (Saison 3)",
+    "hint4": "B.G.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "broker-mcu-616",
+    "name": "Broker",
+    "status": "En Vie",
+    "aliases": [
+      "Broker"
+    ],
+    "species": "Alien",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "2014",
+    "hint2": "Christopher Fairbank",
+    "hint3": "Les Gardiens de la Galaxie",
+    "hint4": "B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "bruce_banner-independants-400083",
+    "name": "Bruce Banner",
+    "status": "En Vie",
+    "aliases": [
+      "Hulk",
+      "Bruce Banner"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Hulk",
+    "hint1": "2003",
+    "hint2": "Eric Bana",
+    "hint3": "Hulk",
+    "hint4": "B.B.",
+    "abilities": [
+      "Intellectuelles",
+      "Surhumaines",
+      "Biochimiques"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 400083
+  },
+  {
+    "id": "cable-fox_x_men-41633",
+    "name": "Cable",
+    "status": "En Vie",
+    "aliases": [
+      "Cable",
+      "Nathan Summers"
+    ],
+    "species": "Mutant",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "2018",
+    "hint2": "Josh Brolin",
+    "hint3": "Deadpool 2",
+    "hint4": "C.",
+    "abilities": [
+      "Surhumaines",
+      "Technologiques",
+      "Psioniques"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 41633
+  },
+  {
+    "id": "calvin_zabo-mcu-616",
+    "name": "Cal Zabo",
+    "status": "En Vie",
+    "aliases": [
+      "Mister Hyde",
+      "Le Docteur",
+      "Docteur Winslow",
+      "Calvin Zabo"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "hint1": "2014",
+    "hint2": "Kyle MacLachlan",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "hint4": "C.Z.",
+    "abilities": [
+      "Biochimiques",
+      "Surhumaines",
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wilkes-mcu-616",
+    "name": "Wilkes",
+    "alignment": "neutre",
+    "reason": "Professeur du MIT, civil académique sans camp."
+  },
+  {
+    "id": "will_adams-mcu-616",
+    "name": "Will Adams",
+    "alignment": "neutre",
+    "reason": "Journaliste WHiH, simple reporter civil."
+  },
+  {
+    "id": "william_billy_connors-webb_verse-120703",
+    "name": "William \"Billy\" Connors",
+    "alignment": "neutre",
+    "reason": "Fils civil de Curt Connors, enfant non combattant."
+  },
+  {
+    "id": "william_billy_maximoff-mcu-838",
+    "name": "William \"Billy\" Maximoff",
+    "alignment": "neutre",
+    "reason": "Enfant civil de Wanda 838, innocent sans camp."
+  },
+  {
+    "id": "william_everett-independants-701306",
+    "name": "William Everett",
+    "alignment": "gentil",
+    "reason": "Prêtre mentor de Matt, guide spirituel allié."
+  },
+  {
+    "id": "william_kaplan-mcu-616",
+    "name": "William Kaplan",
+    "alignment": "neutre",
+    "reason": "Adolescent civil décédé avant le transfert de Billy."
+  },
+  {
+    "id": "william_morris_walters-mcu-616",
+    "name": "William Morris Walters",
+    "alignment": "neutre",
+    "reason": "Père civil de Jennifer Walters, soutien familial."
+  },
+  {
+    "id": "william_russell-mcu-828",
+    "name": "William Russell",
+    "alignment": "neutre",
+    "reason": "Civil/caméo dans Premiers Pas, sans camp clair."
+  },
+  {
+    "id": "william_will_castle-independants-58732",
+    "name": "William \"Will\" Castle",
+    "alignment": "neutre",
+    "reason": "Fils civil du Punisher, victime innocente."
+  },
+  {
+    "id": "william_willie_lumpkin-fox_fantastiques-121698",
+    "name": "William \"Willie\" Lumpkin",
+    "alignment": "neutre",
+    "reason": "Facteur civil amical, figurant sans combat."
+  },
+  {
+    "id": "wilma_cully-mcu-616",
+    "name": "Wilma Cully",
+    "alignment": "neutre",
+    "reason": "Mère civile d'Agnes Cully, flashback sans camp."
+  },
+  {
+    "id": "winn-mcu-616",
+    "name": "Winn",
+    "alignment": "neutre",
+    "reason": "Agent FBI tué par Hattley, rôle secondaire."
+  },
+  {
+    "id": "xerxes-mcu-616",
+    "name": "Xerxes",
+    "alignment": "neutre",
+    "reason": "Bébé civil des Davis dans Runaways."
+  },
+  {
+    "id": "xialing-mcu-616",
+    "name": "Xialing",
+    "alignment": "neutre",
+    "reason": "Anti-héroïne grise : club illégal puis Dix Anneaux."
+  },
+  {
+    "id": "yakan-mcu-616",
+    "name": "Yakan",
+    "alignment": "neutre",
+    "reason": "Réfugié indigarrien civil, caméo non combattant."
+  },
+  {
+    "id": "yen-mcu-616",
+    "name": "Yen",
+    "alignment": "neutre",
+    "reason": "Conseiller WSC politique, ni héros ni Hydra clair."
+  },
+  {
+    "id": "yondu_udonta-mcu-21818",
+    "name": "Yondu Udonta",
+    "alignment": "gentil",
+    "reason": "Mentor de T'Challa Star-Lord, allié héroïque."
+  },
+  {
+    "id": "yondu_udonta-mcu-72124",
+    "name": "Yondu Udonta",
+    "alignment": "neutre",
+    "reason": "Ravageur amoral voleur d'œuf, sans rédemption."
+  },
+  {
+    "id": "yori_nakajima-mcu-616",
+    "name": "Yori Nakajima",
+    "alignment": "neutre",
+    "reason": "Civil endeuillé cherchant des réponses sur son fils."
+  },
+  {
+    "id": "yusuf_khan-mcu-616",
+    "name": "Yusuf Khan",
+    "alignment": "neutre",
+    "reason": "Père civil de Kamala, soutien familial non héros."
+  }
+]

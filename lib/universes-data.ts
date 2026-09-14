@@ -200,11 +200,16 @@ export function getUniverseData(universeId: string): UniverseData | null {
       o.fieldMapping && typeof o.fieldMapping === "object" && !Array.isArray(o.fieldMapping)
         ? (o.fieldMapping as FieldMapping)
         : undefined;
+    const hintInterval =
+      typeof o.hintInterval === "number" && Number.isFinite(o.hintInterval) && o.hintInterval > 0
+        ? Math.floor(o.hintInterval)
+        : undefined;
     return {
       id: data.id,
       name: data.name,
       characters,
       ...(fieldMapping && Object.keys(fieldMapping).length > 0 && { fieldMapping }),
+      ...(hintInterval !== undefined && { hintInterval }),
       ...(backgroundImage && { backgroundImage }),
       schema: Array.isArray(o.schema) ? (o.schema as UniverseData["schema"]) : undefined,
       ...(specificSymbols.length > 0 && { specificSymbols }),

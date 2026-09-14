@@ -1,6 +1,7 @@
 import type {
   AttributeSchemaEntry,
   AttributeType,
+  Character,
   FieldMappingEntry,
   HintTierDef,
   UniverseData,
@@ -106,20 +107,62 @@ export function getSearchFieldKeys(universeData: UniverseData): string[] {
 }
 
 /**
- * Hint tiers in fieldMapping key order (only entries with `hint` set).
+ * Hint tiers from every fieldMapping entry with `fonction: "Indice"` and hint meta.
+ * Unlimited count; any field keys (hint1, hint4, actor, …).
+ * Order: `hint.order` ascending (undefined last), then fieldMapping key order.
  */
 export function getHintTiers(universeData: UniverseData): HintTierDef[] {
   const fm = universeData.fieldMapping;
   if (!fm) return [];
-  const out: HintTierDef[] = [];
+  const out: { tier: HintTierDef; order: number; index: number }[] = [];
+  let index = 0;
   for (const [fieldKey, entry] of Object.entries(fm)) {
-    if (entry.hint?.prompt && entry.hint?.icon) {
-      out.push({
-        fieldKey,
-        prompt: entry.hint.prompt,
-        icon: entry.hint.icon,
-      });
-    }
+    if (entry.fonction !== "Indice") continue;
+    const prompt = entry.hint?.prompt?.trim();
+    const icon = entry.hint?.icon?.trim();
+    if (!prompt || !icon) continue;
+    const tier: HintTierDef = {
+      fieldKey,
+      prompt,
+      icon,
+      ...(typeof entry.hint?.unlockAfter === "number" && Number.isFinite(entry.hint.unlockAfter)
+        ? { unlockAfter: entry.hint.unlockAfter }
+        : {}),
+    };
+    out.push({
+      tier,
+      order: typeof entry.hint?.order === "number" ? entry.hint.order : Number.POSITIVE_INFINITY,
+      index: index++,
+    });
   }
-  return out;
+  out.sort((a, b) => a.order - b.order || a.index - b.index);
+  return out.map((x) => x.tier);
+}
+
+/** Default guesses between successive auto-scheduled hints. */
+export const DEFAULT_HINT_INTERVAL = 5;
+
+export function getHintInterval(universeData: UniverseData): number {
+  const n = universeData.hintInterval;
+  if (typeof n === "number" && Number.isFinite(n) && n > 0) return Math.floor(n);
+  return DEFAULT_HINT_INTERVAL;
+}
+
+/** Guesses required to unlock the tier at `tierIndex` (0-based). */
+export function getHintUnlockAfter(tier: HintTierDef, tierIndex: number, interval: number): number {
+  if (typeof tier.unlockAfter === "number" && Number.isFinite(tier.unlockAfter)) {
+    return Math.max(0, Math.floor(tier.unlockAfter));
+  }
+  return (tierIndex + 1) * interval;
+}
+
+/** Display string for a character hint field value. */
+export function formatHintValue(raw: Character[string] | undefined): string {
+  if (raw === undefined || raw === null || raw === "") return "—";
+  if (Array.isArray(raw)) {
+    const parts = raw.map((v) => String(v).trim()).filter(Boolean);
+    return parts.length > 0 ? parts.join(", ") : "—";
+  }
+  const s = String(raw).trim();
+  return s || "—";
 }

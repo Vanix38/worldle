@@ -1,0 +1,433 @@
+[
+  {
+    "id": "john_jonah_jameson_jr-spider_verse-8311",
+    "name": "J. Jonah Jameson Jr.",
+    "status": "En Vie",
+    "aliases": [
+      "Triple J",
+      "J.J.J.",
+      "John Jonah Jameson Jr."
+    ],
+    "species": "Humain",
+    "affiliation": "GRVN",
+    "firstAppearance": "Spider-Man : Across the Spider-Verse",
+    "hint1": "2023",
+    "hint2": "",
+    "hint3": "Spider-Man : Across the Spider-Verse",
+    "hint4": "J.J.J.J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Spider-Verse",
+    "earth": 8311
+  },
+  {
+    "id": "john_mackenzie-mcu-616",
+    "name": "John Mackenzie",
+    "status": "En Vie",
+    "aliases": [
+      "John Mackenzie"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "2015",
+    "hint2": "",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint4": "J.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "john_raymond-mcu-616",
+    "name": "John Raymond",
+    "status": "Décédé",
+    "aliases": [
+      "John Raymond"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "The Defenders (Saison 1)",
+    "hint1": "2017",
+    "hint2": "Alex Moggridge",
+    "hint3": "The Defenders (Saison 1)",
+    "hint4": "J.R.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "john_walker-mcu-616",
+    "name": "John Walker",
+    "status": "En Vie",
+    "aliases": [
+      "U.S. Agent",
+      "Captain America",
+      "Jonathan F. Walker"
+    ],
+    "species": "Humain",
+    "affiliation": "Nouveaux Avengers",
+    "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Wyatt Russell",
+    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1), Thunderbolts",
+    "hint4": "J.W.",
+    "abilities": [
+      "Militaires",
+      "Surhumaines"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "johnny_blaze-independants-121347",
+    "name": "Johnny Blaze",
+    "status": "En Vie",
+    "aliases": [
+      "Ghost Rider",
+      "Motard Fantôme"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ghost Rider",
+    "hint1": "2007",
+    "hint2": "Nicolas Cage",
+    "hint3": "Ghost Rider, Ghost Rider : L'Esprit de vengeance",
+    "hint4": "J.B.",
+    "abilities": [
+      "Démoniaques",
+      "Pyrokinésiques",
+      "Mystiques"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 121347
+  },
+  {
+    "id": "jose_quesada-independants-701306",
+    "name": "Jose Quesada",
+    "status": "Décédé",
+    "aliases": [
+      "Jose Quesada"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil",
+    "hint1": "2003",
+    "hint2": "",
+    "hint3": "Daredevil",
+    "hint4": "J.Q.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 701306
+  },
+  {
+    "id": "joseph_danvers-mcu-616",
+    "name": "Joseph Danvers",
+    "status": "En Vie",
+    "aliases": [
+      "Joe Danvers",
+      "Joseph Danvers"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Captain Marvel",
+    "hint1": "2019",
+    "hint2": "Kenneth Mitchell",
+    "hint3": "Captain Marvel",
+    "hint4": "J.D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "joseph_robbie_robertson-raimi_verse-96283",
+    "name": "Robbie Robertson",
+    "status": "En Vie",
+    "aliases": [
+      "Robbie",
+      "Joseph Robertson"
+    ],
+    "species": "Humain",
+    "affiliation": "Le Daily Bugle",
+    "firstAppearance": "Spider-Man",
+    "hint1": "2002",
+    "hint2": "Bill Nunn",
+    "hint3": "Spider-Man, Spider-Man 2, Spider-Man 3",
+    "hint4": "R.R.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "josie-independants-701306",
+    "name": "Josie",
+    "status": "En Vie",
+    "aliases": [
+      "Josie"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil",
+    "hint1": "2003",
+    "hint2": "",
+    "hint3": "Daredevil",
+    "hint4": "J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 701306
+  },
+  {
+    "id": "josie-mcu-616",
+    "name": "Josie",
+    "status": "En Vie",
+    "aliases": [
+      "Josie"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "2015",
+    "hint2": "Susan Varon",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3), Daredevil : Born Again (Saison 1)",
+    "hint4": "J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "joy_meachum-mcu-616",
+    "name": "Joy Meachum",
+    "status": "En Vie",
+    "aliases": [
+      "Joy Meachum"
+    ],
+    "species": "Humain",
+    "affiliation": "Rand Entreprises",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "2017",
+    "hint2": "Jessica Stroup",
+    "hint3": "Iron Fist (Saison 1), Iron Fist (Saison 2)",
+    "hint4": "J.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "julie_barnes-mcu-616",
+    "name": "Julie Barnes",
+    "status": "Décédé",
+    "aliases": [
+      "Julie Barnes"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "2018",
+    "hint2": "Holly Cinnamon",
+    "hint3": "Daredevil (Saison 3)",
+    "hint4": "J.B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "julius_dell-mcu-616",
+    "name": "Julius Dell",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Midtown School of Science & Technology",
+    "firstAppearance": "Spider-Man : Far From Home",
+    "hint1": "2019",
+    "hint2": "J. B. Smoove",
+    "hint3": "Spider-Man : Far From Home, Spider-Man : No Way Home",
+    "hint4": "J.D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "kamran-mcu-616",
+    "name": "Kamran",
+    "status": "En Vie",
+    "aliases": [
+      "Kamran"
+    ],
+    "species": [
+      "Humain",
+      "Noor"
+    ],
+    "affiliation": "Clandestins (Ms. Marvel)",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "2022",
+    "hint2": "Rish Shah",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "hint4": "K.",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "karja-mcu-616",
+    "name": "Karja",
+    "status": "En Vie",
+    "aliases": [
+      "Maître Karja",
+      "Master Karja",
+      "Karja"
+    ],
+    "species": "Alien",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Gardiens de la Galaxie Vol. 3",
+    "hint1": "2023",
+    "hint2": "Nathan Fillion",
+    "hint3": "Les Gardiens de la Galaxie Vol. 3",
+    "hint4": "K.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "katy_chen-mcu-616",
+    "name": "Katy Chen",
+    "status": "En Vie",
+    "aliases": [
+      "Chen Ruiwen"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
+    "hint1": "2021",
+    "hint2": "Awkwafina",
+    "hint3": "Shang-Chi et la Légende des Dix Anneaux",
+    "hint4": "K.C.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "ken_ogden-mcu-616",
+    "name": "Ken Ogden",
+    "status": "En Vie",
+    "aliases": [
+      "Ken Ogden"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Le Punisher (Saison 2)",
+    "hint1": "2019",
+    "hint2": "Brandon Gill",
+    "hint3": "Le Punisher (Saison 2)",
+    "hint4": "K.O.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "kevin_page-mcu-616",
+    "name": "Kevin Page",
+    "status": "Décédé",
+    "aliases": [
+      "Kevin Page"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "2018",
+    "hint2": "Jack DiFalco",
+    "hint3": "Daredevil (Saison 3)",
+    "hint4": "K.P.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "khonshu-mcu-616",
+    "name": "Khonshu",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Ennead",
+    "affiliation": "Dieux Egyptiens",
+    "firstAppearance": "Moon Knight (Saison 1)",
+    "hint1": "2022",
+    "hint2": "Karim El-Hakim",
+    "hint3": "Moon Knight (Saison 1)",
+    "hint4": "K.",
+    "abilities": [
+      "Divinnes"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "klev-mcu-616",
+    "name": "Klev",
+    "status": "En Vie",
+    "aliases": [
+      "Klev"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "2017",
+    "hint2": "Zach Cherry",
+    "hint3": "Spider-Man : Homecoming",
+    "hint4": "K.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  }
+]

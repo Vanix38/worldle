@@ -1,0 +1,442 @@
+[
+  {
+    "id": "david_dave_daniels-independants-58732",
+    "name": "David Daniels",
+    "status": "En Vie",
+    "aliases": [
+      "Spacker Dave",
+      "Dave Daniels",
+      "David A. Grayson"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "The Punisher",
+    "hint1": "2004",
+    "hint2": "John Pinette",
+    "hint3": "The Punisher",
+    "hint4": "D.D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 58732
+  },
+  {
+    "id": "debbie_mcilvane-fox_fantastiques-121698",
+    "name": "Debbie McIlvane",
+    "status": "En Vie",
+    "aliases": [
+      "Debs",
+      "Debbie McIlvane"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Les Quatre Fantastiques",
+    "hint1": "2005",
+    "hint2": "Laurie Holden",
+    "hint3": "Les Quatre Fantastiques",
+    "hint4": "D.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox Fantastiques",
+    "earth": 121698
+  },
+  {
+    "id": "delmar-mcu-616",
+    "name": "Delmar",
+    "status": "En Vie",
+    "aliases": [
+      "Mr. Delmar",
+      "Delmar"
+    ],
+    "species": "Humain",
+    "affiliation": "Delmar's Deli & Grill",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "2017",
+    "hint2": "Hemky Madera",
+    "hint3": "Spider-Man : Homecoming",
+    "hint4": "D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "ditkovich-raimi_verse-96283",
+    "name": "Mr. Ditkovich",
+    "status": "En Vie",
+    "aliases": [
+      "Mr. Ditkovich",
+      "Ditkovich"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man 2",
+    "hint1": "2004",
+    "hint2": "Elya Baskin",
+    "hint3": "Spider-Man 2, Spider-Man 3",
+    "hint4": "M.D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "dolores_miller-mcu-616",
+    "name": "Dolores Miller",
+    "status": "En Vie",
+    "aliases": [
+      "Dolores Miller"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "The Defenders (Saison 1)",
+    "hint1": "2017",
+    "hint2": "Debbi Morgan",
+    "hint3": "The Defenders (Saison 1), Luke Cage (Saison 2)",
+    "hint4": "D.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "donald_donnie_chang-mcu-616",
+    "name": "Donald Chang",
+    "status": "En Vie",
+    "aliases": [
+      "Donnie Chang",
+      "Donald Chang"
+    ],
+    "species": "Humain",
+    "affiliation": "NYPD",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "2016",
+    "hint2": "Andrew Pang",
+    "hint3": "Luke Cage (Saison 1)",
+    "hint4": "D.C.",
+    "abilities": [
+      "Policières"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "donna_kraft-mcu-616",
+    "name": "Donna Kraft",
+    "status": "En Vie",
+    "aliases": [
+      "Donna Kraft"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Moon Knight (Saison 1)",
+    "hint1": "2022",
+    "hint2": "Lucy Thackeray",
+    "hint3": "Moon Knight (Saison 1)",
+    "hint4": "D.K.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "dopinder-fox_x_men-10005",
+    "name": "Dopinder",
+    "status": "En Vie",
+    "aliases": [
+      "Dopinder"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Deadpool",
+    "hint1": "2016",
+    "hint2": "Karan Soni",
+    "hint3": "Deadpool",
+    "hint4": "D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 10005
+  },
+  {
+    "id": "dopinder-fox_x_men-41633",
+    "name": "Dopinder",
+    "status": "En Vie",
+    "aliases": [
+      "Dopinder"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "2018",
+    "hint2": "Karan Soni",
+    "hint3": "Deadpool 2",
+    "hint4": "D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 41633
+  },
+  {
+    "id": "dopinder-mcu-616",
+    "name": "Dopinder",
+    "status": "En Vie",
+    "aliases": [
+      "Dopinder"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Deadpool",
+    "hint1": "2016",
+    "hint2": "Karan Soni",
+    "hint3": "Deadpool, Deadpool 2, Deadpool & Wolverine",
+    "hint4": "D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "dormammu-mcu-616",
+    "name": "Dormammu",
+    "status": "En Vie",
+    "aliases": [
+      "Dormammu",
+      "Seigneur de la Dimension noire"
+    ],
+    "species": "Faltine",
+    "affiliation": "Dimension noire",
+    "firstAppearance": "Doctor Strange",
+    "hint1": "2016",
+    "hint2": "Benedict Cumberbatch",
+    "hint3": "Doctor Strange",
+    "hint4": "D.",
+    "abilities": [
+      "Cosmiques",
+      "Mystiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "dormammu-mcu-91233",
+    "name": "Dormammu",
+    "status": "En Vie",
+    "aliases": [
+      "Dormammu",
+      "Seigneur de la Dimension noire"
+    ],
+    "species": "Faltine",
+    "affiliation": "Dimension noire",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Benedict Cumberbatch",
+    "hint3": "What If...? (Saison 1)",
+    "hint4": "D.",
+    "abilities": [
+      "Cosmiques",
+      "Mystiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 91233
+  },
+  {
+    "id": "doug-mcu-616",
+    "name": "Doug",
+    "status": "En Vie",
+    "aliases": [
+      "Doug"
+    ],
+    "species": "Alien",
+    "affiliation": "Sakaar",
+    "firstAppearance": "Thor : Ragnarok",
+    "hint1": "2017",
+    "hint2": "",
+    "hint3": "Thor : Ragnarok",
+    "hint4": "D.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "dr_daniel_dan_lewis-ssu-688",
+    "name": "Dan Lewis",
+    "status": "En Vie",
+    "aliases": [
+      "Dan",
+      "Daniel Lewis",
+      "Dr. Dan Lewis"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Venom",
+    "hint1": "2018",
+    "hint2": "Reid Scott",
+    "hint3": "Venom, Venom : Let There Be Carnage",
+    "hint4": "D.L.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "SSU",
+    "earth": 688
+  },
+  {
+    "id": "dr_maximilian_max_fargas-raimi_verse-96283",
+    "name": "Maximilian Fargas",
+    "status": "Décédé",
+    "aliases": [
+      "Max Fargas",
+      "Dr. Maximilian Fargas"
+    ],
+    "species": "Humain",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Spider-Man",
+    "hint1": "2002",
+    "hint2": "Gerry Becker",
+    "hint3": "Spider-Man",
+    "hint4": "M.F.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "dr_mendel_stromm-raimi_verse-96283",
+    "name": "Mendel Stromm",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Mendel Stromm",
+      "Mendel Stromm"
+    ],
+    "species": "Humain",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Spider-Man",
+    "hint1": "2002",
+    "hint2": "Ron Perkins",
+    "hint3": "Spider-Man",
+    "hint4": "M.S.",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "Raimi-Verse",
+    "earth": 96283
+  },
+  {
+    "id": "eddie_brock-ssu-688",
+    "name": "Eddie Brock",
+    "status": "En Vie",
+    "aliases": [
+      "Venom",
+      "Eddie Brock"
+    ],
+    "species": [
+      "Humain",
+      "Symbiote"
+    ],
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Venom",
+    "hint1": "2018",
+    "hint2": "Tom Hardy",
+    "hint3": "Venom, Venom : Let There Be Carnage, Spider-Man : No Way Home, Venom: The Last Dance",
+    "hint4": "E.B.",
+    "abilities": [
+      "Monstrueuses",
+      "Surhumaines"
+    ],
+    "alignment": "neutre",
+    "universe": "SSU",
+    "earth": 688
+  },
+  {
+    "id": "eddie-mcu-616",
+    "name": "Eddie",
+    "status": "En Vie",
+    "aliases": [
+      "Boyf",
+      "Eddie"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "2024",
+    "hint2": "Miles Gutierrez-Riley",
+    "hint3": "Agatha All Along (Saison 1)",
+    "hint4": "E.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "edie_lehnsherr-fox_x_men-10005",
+    "name": "Edie Lehnsherr",
+    "status": "Décédé",
+    "aliases": [
+      "Edie Lehnsherr"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "X-Men : First Class",
+    "hint1": "2011",
+    "hint2": "",
+    "hint3": "X-Men : First Class",
+    "hint4": "E.L.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 10005
+  },
+  {
+    "id": "edith_banner-independants-400083",
+    "name": "Edith Banner",
+    "status": "Décédé",
+    "aliases": [
+      "Edith Banner"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Hulk",
+    "hint1": "2003",
+    "hint2": "",
+    "hint3": "Hulk",
+    "hint4": "E.B.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 400083
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "edward_eddy_costa-mcu-616",
+    "name": "Edward Costa",
+    "alignment": "neutre",
+    "reason": "Détective NYPD civil, allié ponctuel sans rôle héroïque clair."
+  },
+  {
+    "id": "edward_nelson-mcu-616",
+    "name": "Edward Nelson",
+    "alignment": "neutre",
+    "reason": "Civil boucher, figurant sans camp moral."
+  },
+  {
+    "id": "eileen_mercer-mcu-616",
+    "name": "Eileen Mercer",
+    "alignment": "neutre",
+    "reason": "Civile, mère de Dex sans rôle héroïque ou villain."
+  },
+  {
+    "id": "elaine_grey-fox_x_men-10005",
+    "name": "Elaine Grey",
+    "alignment": "neutre",
+    "reason": "Civile, mère de Jean Grey sans agency morale."
+  },
+  {
+    "id": "elaine_walters-mcu-616",
+    "name": "Elaine Walters",
+    "alignment": "neutre",
+    "reason": "Civile, mère de Jennifer Walters."
+  },
+  {
+    "id": "elektra_natchios-independants-701306",
+    "name": "Elektra Natchios",
+    "alignment": "neutre",
+    "reason": "Assassin anti-héroïne entre camps, pas clairement gentille."
+  },
+  {
+    "id": "elektra_natchios-mcu-616",
+    "name": "Elektra Natchios",
+    "alignment": "neutre",
+    "reason": "Tueuse grise liée à la Main puis alliée ponctuelle."
+  },
+  {
+    "id": "elena_cardenas-mcu-616",
+    "name": "Elena Cardenas",
+    "alignment": "neutre",
+    "reason": "Locataire civile innocente, victime de Fisk."
+  },
+  {
+    "id": "elihas_starr-mcu-616",
+    "name": "Elihas Starr",
+    "alignment": "neutre",
+    "reason": "Scientifique traître tragique, pas un méchant à l'écran clair."
+  },
+  {
+    "id": "eliza_schultz-mcu-616",
+    "name": "Eliza Schultz",
+    "alignment": "méchant",
+    "reason": "Complice de la couverture des crimes Schultz via Pilgrim."
+  },
+  {
+    "id": "elizabeth_betty_brant-raimi_verse-96283",
+    "name": "Betty Brant",
+    "alignment": "neutre",
+    "reason": "Journaliste/secrétaire du Daily Bugle, civile."
+  },
+  {
+    "id": "eric_brooks-independants-26320",
+    "name": "Eric Brooks",
+    "alignment": "gentil",
+    "reason": "Héros central de Blade, protège l'humanité des vampires."
+  },
+  {
+    "id": "erik_lensherr-young-fox_x_men-10005",
+    "name": "Erik Lensherr (jeune)",
+    "alignment": "méchant",
+    "reason": "Magneto antagoniste mutant, souvent opposé aux X-Men."
+  },
+  {
+    "id": "estevido_vido_arocho-mcu-616",
+    "name": "Estevido \"Vido\" Arocho",
+    "alignment": "neutre",
+    "reason": "Enfant civil voisin, sans camp."
+  },
+  {
+    "id": "esther_etta_lucas-mcu-616",
+    "name": "Esther \"Etta\" Lucas",
+    "alignment": "neutre",
+    "reason": "Civile victime, pas héroïne ni vilaine."
+  },
+  {
+    "id": "farah_madani-mcu-616",
+    "name": "Farah Madani",
+    "alignment": "neutre",
+    "reason": "Civile, mère de Dinah Madani."
+  },
+  {
+    "id": "felicia_hardy-webb_verse-120703",
+    "name": "Felicia Hardy",
+    "alignment": "neutre",
+    "reason": "Assistante Oscorp civile, pas encore Chatte Noire."
+  },
+  {
+    "id": "flash_thompson-mcu-616",
+    "name": "Flash Thompson",
+    "alignment": "neutre",
+    "reason": "Lycéen civil, bully puis ami, pas un héros."
+  },
+  {
+    "id": "flint_marko-raimi_verse-96283",
+    "name": "Flint Marko",
+    "alignment": "méchant",
+    "reason": "Homme-Sable, antagoniste clair de Spider-Man."
+  },
+  {
+    "id": "franklin_richards-mcu-828",
+    "name": "Franklin Richards",
+    "alignment": "neutre",
+    "reason": "Bébé cosmique sans agency morale claire à l'écran."
+  }
+]

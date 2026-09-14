@@ -1,0 +1,423 @@
+[
+  {
+    "id": "aamir_khan-mcu-616",
+    "name": "Aamir Khan",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Famille Khan",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "2022",
+    "hint2": "Saagar Shaikh",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "hint4": "A.K.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "aaron_davis-mcu-616",
+    "name": "Aaron Davis",
+    "status": "En Vie",
+    "aliases": [
+      "Le Rôdeur",
+      "Prowler",
+      "Aaron Davis"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "2017",
+    "hint2": "Donald Glover",
+    "hint3": "Spider-Man : Homecoming",
+    "hint4": "A.D.",
+    "abilities": [
+      "Technologiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "aaron_davis-spider_verse-8311",
+    "name": "Aaron Davis",
+    "status": "Décédé",
+    "aliases": [
+      "Le Rôdeur",
+      "Prowler",
+      "Aaron Davis"
+    ],
+    "species": "Humain",
+    "affiliation": "Wilson Fisk",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "2018",
+    "hint2": "Mahershala Ali",
+    "hint3": "Spider-Man : New Generation, Spider-Man : Across the Spider-Verse",
+    "hint4": "A.D.",
+    "abilities": [
+      "Technologiques"
+    ],
+    "alignment": "neutre",
+    "universe": "Spider-Verse",
+    "earth": 8311
+  },
+  {
+    "id": "abilash_tandon-mcu-616",
+    "name": "Abilash Tandon",
+    "status": "En Vie",
+    "aliases": [
+      "Norm",
+      "Abilash Tandon"
+    ],
+    "species": "Humain",
+    "affiliation": "Westview",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Asif Ali",
+    "hint3": "WandaVision (Saison 1)",
+    "hint4": "A.T.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "adina_johnson-mcu-616",
+    "name": "Adina Johnson",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Famille Johnson",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "2018",
+    "hint2": "Gloria Reuben",
+    "hint3": "Cloak & Dagger (Saison 1), Cloak & Dagger (Saison 2)",
+    "hint4": "A.J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "agatha_harkness-mcu-616",
+    "name": "Agatha Harkness",
+    "status": "En Vie",
+    "aliases": [
+      "Agnès",
+      "Agnes",
+      "Agatha Harkness"
+    ],
+    "species": "Sorcière",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Kathryn Hahn",
+    "hint3": "WandaVision (Saison 1), Agatha All Along (Saison 1)",
+    "hint4": "A.H.",
+    "abilities": [
+      "Magiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "agnes_kitsworth-mcu-616",
+    "name": "Agnes Kitsworth",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Holden Radcliffe",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint1": "2016",
+    "hint2": "Mallory Jansen",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint4": "A.K.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "ahmad_zubair-mcu-616",
+    "name": "Ahmad Zubair",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Police nationale afghane",
+    "firstAppearance": "Le Punisher (Saison 1)",
+    "hint1": "2017",
+    "hint2": "Shezi Sardar",
+    "hint3": "Le Punisher (Saison 1)",
+    "hint4": "A.Z.",
+    "abilities": [
+      "Policières"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "aj-mcu-616",
+    "name": "AJ",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Famille Wilson",
+    "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "hint1": "2021",
+    "hint2": "Aaron Haynes",
+    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "hint4": "A.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "albert_thompson-mcu-616",
+    "name": "Albert Thompson",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Famille Thompson",
+    "firstAppearance": "Jessica Jones (Saison 1)",
+    "hint1": "2015",
+    "hint2": "Michael Siberry",
+    "hint3": "Jessica Jones (Saison 1)",
+    "hint4": "A.T.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "alicia_masters-fox_fantastiques-121698",
+    "name": "Alicia Masters",
+    "status": "En Vie",
+    "aliases": [
+      "Alicia Masters",
+      "Alicia Reiss Masters"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "4 Fantastiques",
+    "hint1": "2005",
+    "hint2": "Kerry Washington",
+    "hint3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
+    "hint4": "A.M.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox Fantastiques",
+    "earth": 121698
+  },
+  {
+    "id": "alonzo_lonnie_lincoln-mcu-86445",
+    "name": "Alonzo \"Lonnie\" Lincoln",
+    "status": "En Vie",
+    "aliases": [
+      "Tombstone",
+      "Lon",
+      "Lonnie Lincoln"
+    ],
+    "species": "Humain",
+    "affiliation": "Gang de la 110e Rue",
+    "firstAppearance": "Your Friendly Neighborhood Spider-Man (Saison 1)",
+    "hint1": "2025",
+    "hint2": "Eugene Byrd",
+    "hint3": "Your Friendly Neighborhood Spider-Man (Saison 1)",
+    "hint4": "A.L.L.",
+    "abilities": [
+      "Surhumaines",
+      "Direction criminelle"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 86445
+  },
+  {
+    "id": "althea_al_sanderson-fox_x_men-10005",
+    "name": "Althea Sanderson",
+    "status": "En Vie",
+    "aliases": [
+      "Blind Al",
+      "Al",
+      "Althea"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Deadpool",
+    "hint1": "2016",
+    "hint2": "Leslie Uggams",
+    "hint3": "Deadpool",
+    "hint4": "A.S.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 10005
+  },
+  {
+    "id": "althea_al_sanderson-fox_x_men-41633",
+    "name": "Althea Sanderson",
+    "status": "En Vie",
+    "aliases": [
+      "Blind Al",
+      "Al",
+      "Althea"
+    ],
+    "species": "Humain",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "2018",
+    "hint2": "Leslie Uggams",
+    "hint3": "Deadpool 2",
+    "hint4": "A.S.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "Fox X-Men",
+    "earth": 41633
+  },
+  {
+    "id": "ana_jarvis-mcu-616",
+    "name": "Ana Jarvis",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Famille Jarvis",
+    "firstAppearance": "Agent Carter (Saison 2)",
+    "hint1": "2016",
+    "hint2": "Lotte Verbeek",
+    "hint3": "Agent Carter (Saison 2)",
+    "hint4": "A.J.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "anton_vanko-mcu-616",
+    "name": "Anton Vanko",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Stark Industries",
+    "firstAppearance": "Iron Man 2",
+    "hint1": "2010",
+    "hint2": "Evgeniy Lazarev",
+    "hint3": "Iron Man 2",
+    "hint4": "A.V.",
+    "abilities": [
+      "Sciences",
+      "Intellectuelles"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "antonia_dreykov-mcu-616",
+    "name": "Antonia Dreykov",
+    "status": "Décédé",
+    "aliases": [
+      "Taskmaster",
+      "Antonia Dreykov"
+    ],
+    "species": "Humain",
+    "affiliation": "Chambre rouge",
+    "firstAppearance": "Black Widow",
+    "hint1": "2021",
+    "hint2": "Olga Kurylenko",
+    "hint3": "Black Widow, Thunderbolts",
+    "hint4": "A.D.",
+    "abilities": [
+      "Arts Martiaux",
+      "Technologiques"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "anya-mcu-616",
+    "name": "Anya",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "affiliation": "Famille Belova",
+    "firstAppearance": "Thunderbolts",
+    "hint1": "2025",
+    "hint2": "Alexa Swinton",
+    "hint3": "Thunderbolts",
+    "hint4": "A.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  },
+  {
+    "id": "asad-independants-26320",
+    "name": "Asad",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Vampire",
+    "affiliation": "Bloodpack",
+    "firstAppearance": "Blade II",
+    "hint1": "2002",
+    "hint2": "Danny John-Jules",
+    "hint3": "Blade II",
+    "hint4": "A.",
+    "abilities": [
+      "Surhumaines",
+      "Arts Martiaux"
+    ],
+    "alignment": "neutre",
+    "universe": "Indépendants",
+    "earth": 26320
+  },
+  {
+    "id": "audrey_nathan-mcu-616",
+    "name": "Audrey Nathan",
+    "status": "En Vie",
+    "aliases": [
+      "La Violoncelliste",
+      "The Cellist",
+      "Audrey Nathan"
+    ],
+    "species": "Humain",
+    "affiliation": "Civil",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "2013",
+    "hint2": "Amy Acker",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint4": "A.N.",
+    "abilities": [
+      "Aucune"
+    ],
+    "alignment": "neutre",
+    "universe": "MCU",
+    "earth": 616
+  }
+]

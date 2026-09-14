@@ -1,0 +1,38 @@
+[
+  {
+    "id": "zach_lieberman-mcu-616",
+    "name": "Zach Lieberman",
+    "alignment": "neutre",
+    "reason": "Enfant civil de Micro, ni héros ni antagoniste."
+  },
+  {
+    "id": "zachary_fairbanks-mcu-616",
+    "name": "Zachary Fairbanks",
+    "alignment": "neutre",
+    "reason": "Civil sans rôle héroïque ni vilain clairement établi."
+  },
+  {
+    "id": "zarathos-independants-121347",
+    "name": "Zarathos",
+    "alignment": "neutre",
+    "reason": "Esprit de vengeance/justice amoral, zone grise entre camps."
+  },
+  {
+    "id": "zardu_hasselfrau-mcu-616",
+    "name": "Zardu Hasselfrau",
+    "alignment": "neutre",
+    "reason": "Cameo comique Guardians' Inferno, sans camp moral."
+  },
+  {
+    "id": "zaya_okonjo-mcu-616",
+    "name": "Zaya Okonjo",
+    "alignment": "neutre",
+    "reason": "Avocate chez Hogarth, professionnelle civile ambiguë."
+  },
+  {
+    "id": "zoe_sommerfield-independants-26320",
+    "name": "Zoe Sommerfield",
+    "alignment": "neutre",
+    "reason": "Enfant civils des Nightstalkers, pas combattante."
+  }
+]
