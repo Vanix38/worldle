@@ -260,6 +260,19 @@
       "header": "Alias",
       "fonction": "Recherche",
       "description": "Alias et noms alternatifs utilisés pour la recherche (non affichés dans la grille)."
+    },
+    "difficulty": {
+      "header": "Difficulté",
+      "fonction": "Comparaison",
+      "columnWidth": "small",
+      "order": [
+        "Très Facile",
+        "Facile",
+        "Moyen",
+        "Difficile",
+        "Impossible"
+      ],
+      "description": "Facilité à deviner le personnage (notoriété). Ordre : Très Facile → Facile → Moyen → Difficile → Impossible."
     }
   },
   "characters": [
