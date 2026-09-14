@@ -13,7 +13,7 @@
     "firstAppearance": "Daredevil (Saison 1)",
     "hint1": "Amy Rutberg",
     "hint2": "2015",
-    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Jessica Jones (Saison 1)",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), The Defenders (Saison 1)",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -27,6 +27,7 @@
     "name": "Marcus Benson",
     "status": "En Vie",
     "aliases": [
+      "Dr. Benson",
       "Marcus Benson"
     ],
     "species": "Humain",
@@ -55,18 +56,17 @@
     "species": "Vampire",
     "gender": "Homme",
     "affiliation": "House of Chthon",
-    "firstAppearance": "Blade (Saison 1)",
+    "firstAppearance": "Blade: The Series (Saison 1)",
     "hint1": "Neil Jackson",
     "hint2": "2006",
-    "hint3": "Blade (Saison 1)",
+    "hint3": "Blade: The Series (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Surhumaines",
-      "Régénération"
+      "Surhumaines"
     ],
     "earth": 26320,
     "universe": "Indépendants",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "maria_castle-independants-58732",
@@ -77,11 +77,11 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
-    "firstAppearance": "Le Punisher",
+    "affiliation": "Civil",
+    "firstAppearance": "The Punisher",
     "hint1": "Samantha Mathis",
     "hint2": "2004",
-    "hint3": "Le Punisher",
+    "hint3": "The Punisher",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -92,16 +92,16 @@
   },
   {
     "id": "maria_elizabeth_castle_nee_falconio-mcu-616",
-    "name": "Maria Castle",
+    "name": "Maria Elizabeth Castle",
     "status": "Décédé",
     "aliases": [
+      "Maria Castle",
       "Maria Falconio",
-      "Maria Elizabeth Castle",
-      "Maria Castle"
+      "Maria Elizabeth Castle"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Daredevil (Saison 2)",
     "hint1": "Kelli Barrett",
     "hint2": "2016",
@@ -130,11 +130,12 @@
     "hint3": "What If...? (Saison 1)",
     "role": "Allié",
     "abilities": [
-      "Militaires"
+      "Militaires",
+      "Espionnage"
     ],
     "earth": 72124,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "maria_rambeau-mcu-10005",
@@ -159,27 +160,25 @@
     ],
     "earth": 10005,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "maria_vasquez-mcu-86445",
     "name": "Maria Vasquez",
     "status": "En Vie",
     "aliases": [
-      "La Tarentule",
-      "Tarantula",
       "Maria Vasquez"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Speed Demon",
     "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
-    "hint1": "Anairis Quiñones",
+    "hint1": "",
     "hint2": "2025",
     "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
-    "role": "Vilain",
+    "role": "Civil",
     "abilities": [
-      "Technologiques"
+      "Aucune"
     ],
     "earth": 86445,
     "universe": "MCU",
@@ -192,6 +191,7 @@
     "aliases": [
       "Black Mariah",
       "Mariah Stokes",
+      "Mariah Stokes Dillard",
       "Mariah Dillard"
     ],
     "species": "Humain",
@@ -240,12 +240,12 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Homeland Security",
     "firstAppearance": "Le Punisher (Saison 2)",
     "hint1": "Teri Reeves",
     "hint2": "2019",
     "hint3": "Le Punisher (Saison 2)",
-    "role": "Vilain",
+    "role": "Antagoniste",
     "abilities": [
       "Militaires"
     ],
@@ -262,7 +262,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Venom : The Last Dance",
     "hint1": "Rhys Ifans",
     "hint2": "2024",
@@ -280,7 +280,7 @@
     "name": "Martin Soap",
     "status": "En Vie",
     "aliases": [
-      "Soap",
+      "Detective Soap",
       "Martin Soap"
     ],
     "species": "Humain",
@@ -310,13 +310,12 @@
     "gender": "Homme",
     "affiliation": "Ravageurs",
     "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
-    "hint1": "",
+    "hint1": "Michael Rosenbaum",
     "hint2": "2017",
-    "hint3": "Les Gardiens de la Galaxie Vol. 2",
+    "hint3": "Les Gardiens de la Galaxie Vol. 2, Les Gardiens de la Galaxie Vol. 3",
     "role": "Allié",
     "abilities": [
-      "Surhumaines",
-      "Cryokinésiques"
+      "Aliennnes"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -333,10 +332,10 @@
     "species": "Humain",
     "gender": "Femme",
     "affiliation": "Indépendant(e)",
-    "firstAppearance": "She-Hulk (Saison 1)",
+    "firstAppearance": "She-Hulk : Avocate (Saison 1)",
     "hint1": "Jameela Jamil",
     "hint2": "2022",
-    "hint3": "She-Hulk (Saison 1)",
+    "hint3": "She-Hulk : Avocate (Saison 1)",
     "role": "Vilain",
     "abilities": [
       "Surhumaines"
@@ -350,7 +349,6 @@
     "name": "Mary Walker",
     "status": "En Vie",
     "aliases": [
-      "Mary Typhus",
       "Typhoid Mary",
       "Mary Alice Walker",
       "Mary Walker"
@@ -376,12 +374,13 @@
     "name": "Mme Maximoff",
     "status": "En Vie",
     "aliases": [
+      "Mme Maximoff",
       "Ms. Maximoff",
-      "Mme Maximoff"
+      "Maximoff"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "X-Men : Days of Future Past",
     "hint1": "Zehra Leverman",
     "hint2": "2014",
@@ -392,14 +391,13 @@
     ],
     "earth": 10005,
     "universe": "Fox X-Men",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "maximus_gargan-spider_verse-8311",
     "name": "Maximus Gargan",
     "status": "En Vie",
     "aliases": [
-      "Le Scorpion",
       "Scorpion",
       "Maximus Gargan"
     ],
@@ -407,7 +405,7 @@
     "gender": "Homme",
     "affiliation": "Indépendant(e)",
     "firstAppearance": "Spider-Man : New Generation",
-    "hint1": "Joaquín Cosio",
+    "hint1": "",
     "hint2": "2018",
     "hint3": "Spider-Man : New Generation",
     "role": "Vilain",
@@ -417,7 +415,7 @@
     ],
     "earth": 8311,
     "universe": "Spider-Verse",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "mccabe-independants-701306",
@@ -446,7 +444,9 @@
     "name": "McGraw",
     "status": "En Vie",
     "aliases": [
+      "Scie osseuse McGraw",
       "Bone Saw McGraw",
+      "Le Tronçonneur",
       "McGraw"
     ],
     "species": "Humain",
@@ -458,7 +458,7 @@
     "hint3": "Spider-Man",
     "role": "Civil",
     "abilities": [
-      "Surhumaines"
+      "Aucune"
     ],
     "earth": 96283,
     "universe": "Raimi-Verse",

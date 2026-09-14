@@ -8,7 +8,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
     "hint1": "Jordan Rivera",
     "hint2": "2017",
@@ -35,14 +35,14 @@
     "hint1": "Dominic Cooper",
     "hint2": "2021",
     "hint3": "What If...? (Saison 1)",
-    "role": "Allié",
+    "role": "Mentor",
     "abilities": [
-      "Intellectuelles",
-      "Technologiques"
+      "Technologiques",
+      "Intellectuelles"
     ],
     "earth": 82111,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "howard_the_duck-mcu-616",
@@ -58,8 +58,8 @@
     "firstAppearance": "Les Gardiens de la Galaxie",
     "hint1": "Seth Green",
     "hint2": "2014",
-    "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2, Avengers : Endgame, Les Gardiens de la Galaxie Vol. 3",
-    "role": "Civil",
+    "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2, Avengers : Endgame",
+    "role": "Allié",
     "abilities": [
       "Aliennnes"
     ],
@@ -94,12 +94,11 @@
     "name": "Ian Boothby",
     "status": "En Vie",
     "aliases": [
-      "Selvig",
       "Ian Boothby"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Thor : Le Monde des Ténèbres",
     "hint1": "Jonathan Howard",
     "hint2": "2013",
@@ -139,7 +138,7 @@
     "name": "Inez Green",
     "status": "En Vie",
     "aliases": [
-      "Nurse Inez",
+      "Infirmière Inez",
       "Inez Green"
     ],
     "species": "Humain",
@@ -162,11 +161,11 @@
     "name": "Ingrid Mackintosh",
     "status": "En Vie",
     "aliases": [
-      "Ingrid Mackintosh"
+      "Ingrid"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Luke Cage (Saison 2)",
     "hint1": "Heather Alicia Simms",
     "hint2": "2018",
@@ -205,11 +204,11 @@
   },
   {
     "id": "isabelle_izzy_hartley-mcu-616",
-    "name": "Isabelle Hartley",
+    "name": "Izzy Hartley",
     "status": "Décédé",
     "aliases": [
       "Izzy",
-      "Izzy Hartley"
+      "Isabelle Hartley"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -218,10 +217,9 @@
     "hint1": "Lucy Lawless",
     "hint2": "2014",
     "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-    "role": "Anti-héros",
+    "role": "Vilain",
     "abilities": [
-      "Militaires",
-      "Arts Martiaux"
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -266,7 +264,7 @@
     "hint3": "Cloak & Dagger (Saison 1)",
     "role": "Civil",
     "abilities": [
-      "Intellectuelles"
+      "Aucune"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -278,16 +276,16 @@
     "status": "Décédé",
     "aliases": [
       "Le Russe",
-      "The Russian",
-      "Russian"
+      "Russian",
+      "The Russian"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Howard Saint",
-    "firstAppearance": "Le Punisher",
+    "firstAppearance": "The Punisher",
     "hint1": "Kevin Nash",
     "hint2": "2004",
-    "hint3": "Le Punisher",
+    "hint3": "The Punisher",
     "role": "Vilain",
     "abilities": [
       "Surhumaines"
@@ -301,8 +299,8 @@
     "name": "J. Streiten",
     "status": "En Vie",
     "aliases": [
-      "Dr. Streiten",
-      "J. Streiten"
+      "Docteur Streiten",
+      "Dr. Streiten"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -324,10 +322,9 @@
     "name": "Jack Duquesne",
     "status": "En Vie",
     "aliases": [
-      "Le Spadassin",
+      "L'Épéiste",
       "Swordsman",
-      "Jacques Duquesne",
-      "Jack"
+      "Jacques Duquesne"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -371,11 +368,11 @@
     "name": "Jack Stoss",
     "status": "En Vie",
     "aliases": [
-      "Jack Stoss"
+      "Jack"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Eternals",
     "hint1": "Esai Daniel Cross",
     "hint2": "2021",
@@ -397,7 +394,7 @@
     ],
     "species": "Alien",
     "gender": "Homme",
-    "affiliation": "Équipe de Sarge",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 6)",
     "hint1": "Winston James Francis",
     "hint2": "2019",
@@ -420,7 +417,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "X-Men : Le Commencement",
     "hint1": "Georg Nikoloff",
     "hint2": "2011",
@@ -444,13 +441,14 @@
     ],
     "species": "Mutant",
     "gender": "Homme",
-    "affiliation": "X-Men",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Deadpool 2",
-    "hint1": "",
+    "hint1": "Hugh Jackman",
     "hint2": "2018",
     "hint3": "Deadpool 2",
     "role": "Héros",
     "abilities": [
+      "Animales",
       "Surhumaines",
       "Régénération"
     ],

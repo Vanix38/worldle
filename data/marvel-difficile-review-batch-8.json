@@ -4,9 +4,9 @@
     "name": "Curt Connors",
     "status": "En Vie",
     "aliases": [
-      "Dr. Connors",
       "Dr. Curt Connors",
-      "Curtis Connors"
+      "Curtis Connors",
+      "Professeur Connors"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -17,8 +17,7 @@
     "hint3": "Spider-Man 2, Spider-Man 3",
     "role": "Mentor",
     "abilities": [
-      "Intellectuelles",
-      "Sciences"
+      "Intellectuelles"
     ],
     "earth": 96283,
     "universe": "Raimi-Verse",
@@ -31,7 +30,7 @@
     "aliases": [
       "Curtis Webb"
     ],
-    "species": "Humain",
+    "species": "Vampire",
     "gender": "Homme",
     "affiliation": "Civil",
     "firstAppearance": "Blade",
@@ -56,14 +55,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Harlem",
+    "affiliation": "Conseil de New York",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Clark Jackson",
     "hint2": "2016",
     "hint3": "Luke Cage (Saison 1)",
-    "role": "Vilain",
+    "role": "Antagoniste",
     "abilities": [
-      "Aucune"
+      "Politiques"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -120,7 +119,7 @@
     "name": "Daniel Gooobler",
     "status": "En Vie",
     "aliases": [
-      "Capitaine Gooobler",
+      "Captain Gooobler",
       "Daniel Gooobler"
     ],
     "species": "Humain",
@@ -136,7 +135,7 @@
     ],
     "earth": 616,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "danielle_dani_cage_jones-mcu-616",
@@ -144,6 +143,7 @@
     "status": "En Vie",
     "aliases": [
       "Dani",
+      "Dani Cage-Jones",
       "Danielle Cage-Jones"
     ],
     "species": "Humain",
@@ -170,14 +170,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Crips",
     "firstAppearance": "Runaways (Saison 1)",
     "hint1": "DeVaughn Nixon",
     "hint2": "2017",
-    "hint3": "Runaways (Saison 1)",
+    "hint3": "Runaways (Saison 1), Runaways (Saison 2)",
     "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Direction criminelle"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -193,14 +193,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Harlem",
+    "affiliation": "Famille Stokes",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Thomas Q. Jones",
     "hint2": "2016",
-    "hint3": "Luke Cage (Saison 1)",
+    "hint3": "Luke Cage (Saison 1), Luke Cage (Saison 2)",
     "role": "Vilain",
     "abilities": [
-      "Militaires"
+      "Arts Martiaux"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -211,7 +211,6 @@
     "name": "Darryl Jacobson",
     "status": "En Vie",
     "aliases": [
-      "Darryl",
       "Darryl Jacobson"
     ],
     "species": "Humain",
@@ -245,7 +244,7 @@
     "hint1": "John Pinette",
     "hint2": "2004",
     "hint3": "The Punisher",
-    "role": "Allié",
+    "role": "Civil",
     "abilities": [
       "Aucune"
     ],
@@ -258,13 +257,13 @@
     "name": "David Lieberman",
     "status": "En Vie",
     "aliases": [
-      "Microchip",
       "Micro",
-      "David Lieberman"
+      "Microchip",
+      "David Linus Lieberman"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Le Punisher (Saison 1)",
     "hint1": "Ebon Moss-Bachrach",
     "hint2": "2017",
@@ -315,7 +314,7 @@
     "gender": "Femme",
     "affiliation": "Civil",
     "firstAppearance": "Les Quatre Fantastiques",
-    "hint1": "Kerry Washington",
+    "hint1": "Laurie Holden",
     "hint2": "2005",
     "hint3": "Les Quatre Fantastiques",
     "role": "Civil",
@@ -331,12 +330,12 @@
     "name": "Delmar",
     "status": "En Vie",
     "aliases": [
-      "M. Delmar",
+      "Mr. Delmar",
       "Delmar"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Delmar's Deli & Grill",
     "firstAppearance": "Spider-Man : Homecoming",
     "hint1": "Hemky Madera",
     "hint2": "2017",
@@ -354,13 +353,12 @@
     "name": "Dennis Carradine",
     "status": "Décédé",
     "aliases": [
-      "Voleur de voitures",
       "Carjacker",
       "Dennis Carradine"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Spider-Man",
     "hint1": "Michael Papajohn",
     "hint2": "2002",
@@ -405,7 +403,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "DHS",
+    "affiliation": "Homeland Security",
     "firstAppearance": "Le Punisher (Saison 1)",
     "hint1": "Amber Rose Revah",
     "hint2": "2017",
@@ -424,21 +422,20 @@
     "name": "Dirk Garthwaite",
     "status": "En Vie",
     "aliases": [
-      "Le Démolisseur",
+      "Démolisseur",
       "Wrecker",
       "Dirk Garthwaite"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Wrecking Crew",
-    "firstAppearance": "She-Hulk (Saison 1)",
+    "affiliation": "Les Démolisseurs",
+    "firstAppearance": "She-Hulk : Avocate (Saison 1)",
     "hint1": "Nick Gomez",
     "hint2": "2022",
-    "hint3": "She-Hulk (Saison 1)",
+    "hint3": "She-Hulk : Avocate (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Surhumaines",
-      "Mystiques"
+      "Surhumaines"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -457,7 +454,7 @@
     "firstAppearance": "The Defenders (Saison 1)",
     "hint1": "Debbi Morgan",
     "hint2": "2017",
-    "hint3": "The Defenders (Saison 1)",
+    "hint3": "The Defenders (Saison 1), Luke Cage (Saison 2)",
     "role": "Civil",
     "abilities": [
       "Aucune"

@@ -14,7 +14,7 @@
     "firstAppearance": "Daredevil (Saison 1)",
     "hint1": "Peter McRobbie",
     "hint2": "2015",
-    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3), The Defenders (Saison 1)",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3)",
     "role": "Mentor",
     "abilities": [
       "Aucune"
@@ -33,12 +33,12 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Bushmaster",
     "firstAppearance": "Luke Cage (Saison 2)",
     "hint1": "Sahr Ngaujah",
     "hint2": "2018",
     "hint3": "Luke Cage (Saison 2)",
-    "role": "Mentor",
+    "role": "Vilain",
     "abilities": [
       "Aucune"
     ],
@@ -60,7 +60,7 @@
     "hint1": "Lee Tergesen",
     "hint2": "2018",
     "hint3": "Daredevil (Saison 3)",
-    "role": "Civil",
+    "role": "Antagoniste",
     "abilities": [
       "Aucune"
     ],
@@ -73,7 +73,7 @@
     "name": "Pearl Pangan",
     "status": "En Vie",
     "aliases": [
-      "Pearl"
+      "Pearl Pangan"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -95,7 +95,7 @@
     "name": "Penny Marko",
     "status": "En Vie",
     "aliases": [
-      "Penny"
+      "Penny Marko"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -126,7 +126,7 @@
     "hint1": "John Benjamin Hickey",
     "hint2": "2019",
     "hint3": "Jessica Jones (Saison 3)",
-    "role": "Antagoniste",
+    "role": "Civil",
     "abilities": [
       "Aucune"
     ],
@@ -145,14 +145,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Cottonmouth",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Curtiss Cook",
     "hint2": "2016",
     "hint3": "Luke Cage (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -163,8 +163,7 @@
     "name": "Peter Quill",
     "status": "En Vie",
     "aliases": [
-      "Peter Quill",
-      "Quill"
+      "Peter Quill"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -179,7 +178,7 @@
     ],
     "earth": 21818,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "petra_larsen-mcu-616",
@@ -197,7 +196,7 @@
     "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -220,8 +219,7 @@
     "role": "Héros",
     "abilities": [
       "Cosmiques",
-      "Technologiques",
-      "Intellectuelles"
+      "Technologiques"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -257,8 +255,8 @@
     "name": "Philip Stacy",
     "status": "En Vie",
     "aliases": [
-      "Phil Stacy",
-      "Philip Stacy"
+      "Philip Stacy",
+      "Phillip Stacy"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -280,27 +278,26 @@
     "name": "Philip Watson",
     "status": "En Vie",
     "aliases": [
-      "Phil Watson",
       "Philip Watson"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Indépendant(e)",
     "firstAppearance": "Spider-Man",
-    "hint1": "",
+    "hint1": "Tim DeZarn",
     "hint2": "2002",
     "hint3": "Spider-Man",
-    "role": "Civil",
+    "role": "Antagoniste",
     "abilities": [
       "Aucune"
     ],
     "earth": 96283,
     "universe": "Raimi-Verse",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "phillip_phil_coulson-mcu-72124",
-    "name": "Phil Coulson",
+    "name": "Phillip \"Phil\" Coulson",
     "status": "En Vie",
     "aliases": [
       "Agent Coulson",
@@ -316,19 +313,18 @@
     "hint3": "What If...? (Saison 1)",
     "role": "Allié",
     "abilities": [
-      "Militaires",
       "Espionnage"
     ],
     "earth": 72124,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "phineas_mason-mcu-616",
     "name": "Phineas Mason",
     "status": "En Vie",
     "aliases": [
-      "Le Tisseur",
+      "Le Bricoleur",
       "Tinkerer",
       "Phineas Mason"
     ],
@@ -379,8 +375,8 @@
     "status": "En Vie",
     "aliases": [
       "Pip le Troll",
-      "Pip the Troll",
-      "Pip"
+      "Pip",
+      "Pip Gofern"
     ],
     "species": "Laxidazian",
     "gender": "Homme",
@@ -391,8 +387,7 @@
     "hint3": "Eternals",
     "role": "Allié",
     "abilities": [
-      "Aliennnes",
-      "Téléportation"
+      "Aliennnes"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -403,7 +398,6 @@
     "name": "Piper",
     "status": "En Vie",
     "aliases": [
-      "Agent Piper",
       "Piper"
     ],
     "species": "Humain",
@@ -411,11 +405,12 @@
     "affiliation": "S.H.I.E.L.D.",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
     "hint1": "Briana Venskus",
-    "hint2": "2016",
-    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 4), Agents of S.H.I.E.L.D. (Saison 5), Agents of S.H.I.E.L.D. (Saison 6), Agents of S.H.I.E.L.D. (Saison 7)",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 4), Agents of S.H.I.E.L.D. (Saison 5)",
     "role": "Allié",
     "abilities": [
-      "Militaires"
+      "Militaires",
+      "Espionnage"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -441,7 +436,7 @@
     ],
     "earth": 838,
     "universe": "MCU",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "polly_hinton-mcu-616",
@@ -455,8 +450,8 @@
     "affiliation": "Indépendant(e)",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
     "hint1": "Lola Glaudini",
-    "hint2": "2016",
-    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 5)",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 4)",
     "role": "Civil",
     "abilities": [
       "Aucune"

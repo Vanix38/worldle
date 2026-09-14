@@ -4,12 +4,11 @@
     "name": "Lonnie Wilson",
     "status": "En Vie",
     "aliases": [
-      "Lonnie",
       "Lonnie Wilson"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Darius Kaleb",
     "hint2": "2016",
@@ -29,16 +28,16 @@
     "aliases": [
       "Lorna Wu"
     ],
-    "species": "Sorcière",
+    "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Agatha All Along (Saison 1)",
     "hint1": "Elizabeth Anweis",
     "hint2": "2024",
     "hint3": "Agatha All Along (Saison 1)",
-    "role": "Allié",
+    "role": "Civil",
     "abilities": [
-      "Magiques"
+      "Aucune"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -49,6 +48,7 @@
     "name": "Lorraine",
     "status": "En Vie",
     "aliases": [
+      "Private Lorraine",
       "Lorraine"
     ],
     "species": "Humain",
@@ -60,7 +60,7 @@
     "hint3": "Captain America : First Avenger",
     "role": "Civil",
     "abilities": [
-      "Aucune"
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -80,13 +80,13 @@
     "hint1": "Ellen Woglom",
     "hint2": "2017",
     "hint3": "Inhumans (Saison 1)",
-    "role": "Civil",
+    "role": "Allié",
     "abilities": [
-      "Aucune"
+      "Intellectuelles"
     ],
     "earth": 616,
     "universe": "MCU",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "lucio-mcu-616",
@@ -106,7 +106,7 @@
     "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
     "role": "Vilain",
     "abilities": [
-      "Psioniques"
+      "Surhumaines"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -121,7 +121,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
     "hint1": "Lilli Birdsell",
     "hint2": "2016",
@@ -144,12 +144,12 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "She-Hulk : Avocate (Saison 1)",
     "hint1": "Griffin Matthews",
     "hint2": "2022",
     "hint3": "She-Hulk : Avocate (Saison 1)",
-    "role": "Civil",
+    "role": "Allié",
     "abilities": [
       "Aucune"
     ],
@@ -162,6 +162,7 @@
     "name": "Luther Banks",
     "status": "Décédé",
     "aliases": [
+      "Agent Banks",
       "Luther Banks"
     ],
     "species": "Humain",
@@ -188,11 +189,11 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Future Foundation",
-    "firstAppearance": "Les 4 Fantastiques : Premiers Pas",
+    "affiliation": "Fondation du Futur",
+    "firstAppearance": "Les Quatre Fantastiques : Premiers Pas",
     "hint1": "Sarah Niles",
     "hint2": "2025",
-    "hint3": "Les 4 Fantastiques : Premiers Pas",
+    "hint3": "Les Quatre Fantastiques : Premiers Pas",
     "role": "Allié",
     "abilities": [
       "Aucune"
@@ -210,14 +211,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Jabari",
+    "affiliation": "Tribu Jabari",
     "firstAppearance": "Black Panther",
     "hint1": "Danny Sapani",
     "hint2": "2018",
     "hint3": "Black Panther",
-    "role": "Civil",
+    "role": "Allié",
     "abilities": [
-      "Militaires"
+      "Aucune"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -225,29 +226,27 @@
   },
   {
     "id": "macdonald_mac_gargan-mcu-86445",
-    "name": "Mac Gargan",
+    "name": "MacDonald \"Mac\" Gargan",
     "status": "En Vie",
     "aliases": [
-      "Le Scorpion",
       "Scorpion",
-      "MacDonald Gargan",
-      "Mac Gargan"
+      "Mac Gargan",
+      "MacDonald Gargan"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Scorpions",
     "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
-    "hint1": "Jonathan Medina",
+    "hint1": "",
     "hint2": "2025",
     "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Technologiques",
-      "Surhumaines"
+      "Technologiques"
     ],
     "earth": 86445,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "mack-independants-121347",
@@ -281,7 +280,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "X-Men : Apocalypse",
     "hint1": "Carolina Bartczak",
     "hint2": "2016",
@@ -299,12 +298,11 @@
     "name": "Maggie Lang",
     "status": "En Vie",
     "aliases": [
-      "Maggie",
       "Maggie Lang"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Ant-Man",
     "hint1": "Judy Greer",
     "hint2": "2015",
@@ -326,11 +324,11 @@
     ],
     "species": "Artificiel",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Ravageurs",
     "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
     "hint1": "Miley Cyrus",
     "hint2": "2017",
-    "hint3": "Les Gardiens de la Galaxie Vol. 2",
+    "hint3": "Les Gardiens de la Galaxie Vol. 2, Les Gardiens de la Galaxie Vol. 3",
     "role": "Allié",
     "abilities": [
       "Technologiques"
@@ -367,7 +365,7 @@
     "name": "Malcolm Ducasse",
     "status": "En Vie",
     "aliases": [
-      "Malcolm",
+      "Malcolm Ducasse",
       "Malcolm Joseph Ducasse"
     ],
     "species": "Humain",
@@ -390,23 +388,24 @@
     "name": "Malekith",
     "status": "Décédé",
     "aliases": [
+      "Malekith le Maudit",
       "Malekith"
     ],
     "species": "Dark Elf",
     "gender": "Homme",
-    "affiliation": "Elfes Noirs",
+    "affiliation": "Elfes noirs",
     "firstAppearance": "What If...? (Saison 3)",
-    "hint1": "Christopher Eccleston",
+    "hint1": "",
     "hint2": "2024",
     "hint3": "What If...? (Saison 3)",
     "role": "Vilain",
     "abilities": [
-      "Magiques",
-      "Surhumaines"
+      "Aliennnes",
+      "Magiques"
     ],
     "earth": 72124,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "mallory_book-mcu-616",
@@ -418,7 +417,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Goodman, Lieber, Kurtzberg & Holliway",
+    "affiliation": "GLK&H",
     "firstAppearance": "She-Hulk : Avocate (Saison 1)",
     "hint1": "Renée Elise Goldsberry",
     "hint2": "2022",
@@ -436,17 +435,17 @@
     "name": "Man in Black",
     "status": "Décédé",
     "aliases": [
-      "L'Homme en Noir",
-      "Man in Black",
-      "The Man in Black"
+      "Homme en noir",
+      "The Man in Black",
+      "Man in Black"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "CIA",
-    "firstAppearance": "X-Men : Le Commencement",
+    "firstAppearance": "X-Men : First Class",
     "hint1": "Oliver Platt",
     "hint2": "2011",
-    "hint3": "X-Men : Le Commencement",
+    "hint3": "X-Men : First Class",
     "role": "Allié",
     "abilities": [
       "Aucune"

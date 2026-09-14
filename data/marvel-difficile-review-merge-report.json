@@ -565,215 +565,113 @@
     "yuriko_oyama-fox_x_men-10005"
   ],
   "missing_ids": [],
-  "demoted_to_Impossible_count": 32,
+  "demoted_to_Impossible_count": 15,
   "demoted_to_Impossible": [
     {
-      "id": "alexandra-mcu-616",
-      "name": "Alexandra",
+      "id": "daniel_gooobler-mcu-616",
+      "name": "Daniel Gooobler",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "alonzo_lonnie_lincoln-independants-58732",
-      "name": "Alonzo \"Lonnie\" Lincoln",
+      "id": "harold_happy_hogan-mcu-82111",
+      "name": "Happy Hogan",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "charles_xavier-fox_x_men-41633",
-      "name": "Charles Xavier",
+      "id": "heimdall-mcu-72124",
+      "name": "Heimdall",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "christine_palmer-mcu-91233",
-      "name": "Christine Palmer",
+      "id": "heinz_kruger-mcu-82111",
+      "name": "Heinz Kruger",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "clinton_barton-mcu-82111",
-      "name": "Clinton Barton",
+      "id": "howard_stark-mcu-82111",
+      "name": "Howard Stark",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "dormammu-mcu-91233",
-      "name": "Dormammu",
+      "id": "johann_schmidt-mcu-82111",
+      "name": "Johann Schmidt",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "doug-mcu-616",
-      "name": "Doug",
+      "id": "loki_laufeyson-mcu-72124",
+      "name": "Loki Laufeyson",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "en_dwi_gast-mcu-72124",
-      "name": "En Dwi Gast",
+      "id": "loki_laufeyson-mcu-82111",
+      "name": "Loki Laufeyson",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "frigga-mcu-72124",
-      "name": "Frigga",
+      "id": "macdonald_mac_gargan-mcu-86445",
+      "name": "MacDonald \"Mac\" Gargan",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "galaga_guy-mcu-616",
-      "name": "Galaga Guy",
+      "id": "malekith-mcu-72124",
+      "name": "Malekith",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "georges_batroc-mcu-82111",
-      "name": "Georges Batroc",
+      "id": "maria_hill-mcu-72124",
+      "name": "Maria Hill",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "german_old_man-mcu-616",
-      "name": "German Old Man",
+      "id": "maria_rambeau-mcu-10005",
+      "name": "Maria Rambeau",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "gilbert-mcu-616",
-      "name": "Gilbert O'Conner",
+      "id": "maximus_gargan-spider_verse-8311",
+      "name": "Maximus Gargan",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "harry_osborn-mcu-86445",
-      "name": "Harry Osborn",
+      "id": "peter_quill-mcu-21818",
+      "name": "Peter Quill",
       "from": "Difficile",
       "to": "Impossible"
     },
     {
-      "id": "henry_hank_mccoy-fox_x_men-41633",
-      "name": "Hank McCoy",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "james_howlett-fox_x_men-41633",
-      "name": "James Howlett",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "john_mackenzie-mcu-616",
-      "name": "John Mackenzie",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "karen-mcu-616",
-      "name": "Karen Page",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "klev-mcu-86445",
-      "name": "Klev",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "korath-mcu-21818",
-      "name": "Korath",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "korg-mcu-72124",
-      "name": "Korg",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "kraglin_obfonteri-mcu-21818",
-      "name": "Kraglin Obfonteri",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "kurt_wagner-fox_x_men-41633",
-      "name": "Kurt Wagner",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "lilla_mackenzie-mcu-616",
-      "name": "Lilla Mackenzie",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "louise_fisher-mcu-616",
-      "name": "Louise Fisher",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "marcus_van_sciver-independants-26320",
-      "name": "Marcus Van Sciver",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "maximoff-fox_x_men-10005",
-      "name": "Mme Maximoff",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "nobu-mcu-616",
-      "name": "Nobu",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "ororo_munroe-fox_x_men-41633",
-      "name": "Ororo Munroe",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "other-mcu-616",
-      "name": "Other",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "philip_watson-raimi_verse-96283",
-      "name": "Philip Watson",
-      "from": "Difficile",
-      "to": "Impossible"
-    },
-    {
-      "id": "pizza_poppa-mcu-838",
-      "name": "Pizza Poppa",
+      "id": "phillip_phil_coulson-mcu-72124",
+      "name": "Phillip \"Phil\" Coulson",
       "from": "Difficile",
       "to": "Impossible"
     }
   ],
   "unexpected_difficulty": [],
-  "difficile_before": 531,
-  "difficile_after": 499,
+  "difficile_before": 499,
+  "difficile_after": 492,
   "difficulty_distribution_before": {
-    "Difficile": 531,
+    "Difficile": 499,
     "Facile": 153,
-    "Impossible": 1422,
+    "Impossible": 1454,
     "Moyen": 251,
     "Très Facile": 22
   },
   "difficulty_distribution_after": {
-    "Difficile": 499,
+    "Difficile": 492,
     "Facile": 153,
-    "Impossible": 1454,
+    "Impossible": 1461,
     "Moyen": 251,
     "Très Facile": 22
   },
@@ -781,8 +679,8 @@
     "Très Facile": 22,
     "Facile": 153,
     "Moyen": 251,
-    "Difficile": 499,
-    "Impossible": 1454
+    "Difficile": 492,
+    "Impossible": 1461
   },
   "formerly_remaining": [],
   "formerly_remaining_count": 0,
@@ -970,6 +868,12 @@
   ],
   "spot_check_wrong_aliases": [
     {
+      "id": "clinton_barton-mcu-82111",
+      "name": "Clinton Barton",
+      "aliases0": "Hawkeye",
+      "note": "aliases[0] looks like another hero"
+    },
+    {
       "id": "james_howlett-fox_x_men-41633",
       "name": "James Howlett",
       "aliases0": "Wolverine",
@@ -1077,138 +981,6 @@
       {
         "id": "auran-mcu-616",
         "name": "Auran"
-      },
-      {
-        "id": "azazel-fox_x_men-10005",
-        "name": "Azazel"
-      },
-      {
-        "id": "barton_blaze-independants-121347",
-        "name": "Barton Blaze"
-      },
-      {
-        "id": "basha-mcu-616",
-        "name": "Basha"
-      },
-      {
-        "id": "benjamin_hochberg-mcu-616",
-        "name": "Benjamin Hochberg"
-      },
-      {
-        "id": "bereet-mcu-616",
-        "name": "Bereet"
-      },
-      {
-        "id": "beto-mcu-616",
-        "name": "Beto"
-      },
-      {
-        "id": "betsy_beatty-mcu-616",
-        "name": "Betsy Beatty"
-      },
-      {
-        "id": "billy_fitzgerald-mcu-616",
-        "name": "Billy Fitzgerald"
-      },
-      {
-        "id": "blurp-mcu-616",
-        "name": "Blurp"
-      },
-      {
-        "id": "bob_fairbanks-mcu-616",
-        "name": "Bob Fairbanks"
-      },
-      {
-        "id": "bobbi_kennedy-mcu-616",
-        "name": "Bobbi Kennedy"
-      },
-      {
-        "id": "bonebreaker-fox_x_men-17315",
-        "name": "Bonebreaker"
-      },
-      {
-        "id": "brad_davis-mcu-616",
-        "name": "Brad Davis"
-      },
-      {
-        "id": "brock_rumlow-mcu-72124",
-        "name": "Brock Rumlow"
-      },
-      {
-        "id": "brock_rumlow-mcu-82111",
-        "name": "Brock Rumlow"
-      },
-      {
-        "id": "brogan-mcu-616",
-        "name": "Brogan"
-      },
-      {
-        "id": "broker-mcu-616",
-        "name": "Broker"
-      },
-      {
-        "id": "bron_char-mcu-616",
-        "name": "Bron-Char"
-      },
-      {
-        "id": "bruno_carrelli-mcu-616",
-        "name": "Bruno Carrelli"
-      },
-      {
-        "id": "butane-mcu-86445",
-        "name": "Butane"
-      },
-      {
-        "id": "caliban-fox_x_men-10005",
-        "name": "Caliban"
-      },
-      {
-        "id": "callisto-fox_x_men-10005",
-        "name": "Callisto"
-      },
-      {
-        "id": "cameron_klein-mcu-616",
-        "name": "Cameron Klein"
-      },
-      {
-        "id": "camilla_reyes-mcu-616",
-        "name": "Camilla Reyes"
-      },
-      {
-        "id": "carina-mcu-21818",
-        "name": "Carina"
-      },
-      {
-        "id": "carina-mcu-616",
-        "name": "Carina"
-      },
-      {
-        "id": "carl_hoffman-mcu-616",
-        "name": "Carl Hoffman"
-      },
-      {
-        "id": "carla_talbot-mcu-616",
-        "name": "Carla Talbot"
-      },
-      {
-        "id": "carmilla_black-mcu-86445",
-        "name": "Carmilla Black"
-      },
-      {
-        "id": "carson_wolf-mcu-616",
-        "name": "Carson Wolf"
-      },
-      {
-        "id": "carter_kounen-independants-26320",
-        "name": "Carter Kounen"
-      },
-      {
-        "id": "cass-mcu-616",
-        "name": "Cass"
-      },
-      {
-        "id": "chantelle_fusilier-mcu-616",
-        "name": "Chantelle Fusilier"
       }
     ],
     "empty_role": [],

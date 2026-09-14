@@ -3,7 +3,9 @@
     "id": "bob_fairbanks-mcu-616",
     "name": "Bob Fairbanks",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Bob Fairbanks"
+    ],
     "species": "Skrull",
     "gender": "Homme",
     "affiliation": "Résistance Skrull",
@@ -24,17 +26,19 @@
     "id": "bobbi_kennedy-mcu-616",
     "name": "Bobbi Kennedy",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Bobbi Kennedy"
+    ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Disciples d'Ammit",
+    "affiliation": "Culte d'Ammit",
     "firstAppearance": "Moon Knight (Saison 1)",
     "hint1": "Ann Akinjirin",
     "hint2": "2022",
     "hint3": "Moon Knight (Saison 1)",
-    "role": "Antagoniste",
+    "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Policières"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -44,8 +48,10 @@
     "id": "bonebreaker-fox_x_men-17315",
     "name": "Bonebreaker",
     "status": "Décédé",
-    "aliases": [],
-    "species": "Humain",
+    "aliases": [
+      "Bonebreaker"
+    ],
+    "species": "Cyborg",
     "gender": "Homme",
     "affiliation": "Reavers",
     "firstAppearance": "Logan",
@@ -55,6 +61,7 @@
     "role": "Vilain",
     "abilities": [
       "Technologiques",
+      "Surhumaines",
       "Militaires"
     ],
     "earth": 17315,
@@ -75,7 +82,7 @@
     "hint1": "Tony Curran",
     "hint2": "2013",
     "hint3": "Thor : Le Monde des Ténèbres",
-    "role": "Allié",
+    "role": "Mentor",
     "abilities": [
       "Divinnes",
       "Surhumaines"
@@ -88,10 +95,12 @@
     "id": "brad_davis-mcu-616",
     "name": "Brad Davis",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Brad"
+    ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "",
+    "affiliation": "Civil",
     "firstAppearance": "Spider-Man : Far From Home",
     "hint1": "Remy Hii",
     "hint2": "2019",
@@ -114,7 +123,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "",
+    "affiliation": "Civil",
     "firstAppearance": "Wonder Man (Saison 1)",
     "hint1": "Dane Larsen",
     "hint2": "2026",
@@ -132,12 +141,13 @@
     "name": "Brian Calusky",
     "status": "En Vie",
     "aliases": [
+      "Marteau-pilon",
       "Piledriver",
       "Brian Calusky"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Wrecking Crew",
+    "affiliation": "Les Destructeurs",
     "firstAppearance": "She-Hulk : Avocate (Saison 1)",
     "hint1": "Kyle Murillo",
     "hint2": "2022",
@@ -161,7 +171,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "",
+    "affiliation": "Civil",
     "firstAppearance": "Jessica Jones (Saison 1)",
     "hint1": "James Colby",
     "hint2": "2015",
@@ -185,12 +195,12 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Jessica Jones (Saison 3)",
     "hint1": "Jamie Neumann",
     "hint2": "2019",
     "hint3": "Jessica Jones (Saison 3)",
-    "role": "Civil",
+    "role": "Amoral",
     "abilities": [
       "Aucune"
     ],
@@ -202,7 +212,11 @@
     "id": "brock_rumlow-mcu-72124",
     "name": "Brock Rumlow",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Ossements Croisés",
+      "Crossbones",
+      "Brock Rumlow"
+    ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "S.H.I.E.L.D.",
@@ -210,10 +224,10 @@
     "hint1": "Frank Grillo",
     "hint2": "2021",
     "hint3": "What If...? (Saison 1)",
-    "role": "Allié",
+    "role": "Antagoniste",
     "abilities": [
-      "Arts Martiaux",
-      "Militaires"
+      "Militaires",
+      "Arts Martiaux"
     ],
     "earth": 72124,
     "universe": "MCU",
@@ -223,7 +237,11 @@
     "id": "brock_rumlow-mcu-82111",
     "name": "Brock Rumlow",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Ossements Croisés",
+      "Crossbones",
+      "Brock Rumlow"
+    ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "S.H.I.E.L.D.",
@@ -233,8 +251,8 @@
     "hint3": "What If...? (Saison 1)",
     "role": "Allié",
     "abilities": [
-      "Arts Martiaux",
-      "Militaires"
+      "Militaires",
+      "Arts Martiaux"
     ],
     "earth": 82111,
     "universe": "MCU",
@@ -244,7 +262,9 @@
     "id": "brogan-mcu-616",
     "name": "Brogan",
     "status": "Décédé",
-    "aliases": [],
+    "aliases": [
+      "Brogan"
+    ],
     "species": "Skrull",
     "gender": "Homme",
     "affiliation": "Résistance Skrull",
@@ -265,7 +285,9 @@
     "id": "broker-mcu-616",
     "name": "Broker",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Broker"
+    ],
     "species": "Alien",
     "gender": "Homme",
     "affiliation": "Indépendant(e)",
@@ -285,7 +307,9 @@
     "id": "bron_char-mcu-616",
     "name": "Bron-Char",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Bron-Char"
+    ],
     "species": "Kree",
     "gender": "Homme",
     "affiliation": "Starforce",
@@ -296,7 +320,8 @@
     "role": "Antagoniste",
     "abilities": [
       "Surhumaines",
-      "Militaires"
+      "Militaires",
+      "Aliennnes"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -308,8 +333,7 @@
     "status": "En Vie",
     "aliases": [
       "Hulk",
-      "Bruce Banner",
-      "David Bruce Banner"
+      "Bruce Banner"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -332,10 +356,12 @@
     "id": "bruno_carrelli-mcu-616",
     "name": "Bruno Carrelli",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Bruno"
+    ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "",
+    "affiliation": "Civil",
     "firstAppearance": "Ms. Marvel (Saison 1)",
     "hint1": "Matt Lintz",
     "hint2": "2022",
@@ -352,7 +378,9 @@
     "id": "butane-mcu-86445",
     "name": "Butane",
     "status": "En Vie",
-    "aliases": [],
+    "aliases": [
+      "Butane"
+    ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Indépendant(e)",
@@ -379,14 +407,15 @@
     ],
     "species": "Duckworldian",
     "gender": "Femme",
-    "affiliation": "",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "What If...? (Saison 3)",
     "hint1": "Natasha Lyonne",
     "hint2": "2024",
     "hint3": "What If...? (Saison 3)",
     "role": "Héros",
     "abilities": [
-      "Aliennnes"
+      "Aliennnes",
+      "Surhumaines"
     ],
     "earth": 72124,
     "universe": "MCU",
@@ -402,15 +431,15 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Bibliothèque perdue de Cagliostro",
+    "affiliation": "Kamar-Taj",
     "firstAppearance": "What If...? (Saison 1)",
     "hint1": "Ike Amadi",
     "hint2": "2021",
     "hint3": "What If...? (Saison 1)",
     "role": "Mentor",
     "abilities": [
-      "Magiques",
-      "Mystiques"
+      "Mystiques",
+      "Magiques"
     ],
     "earth": 91233,
     "universe": "MCU",
@@ -428,10 +457,10 @@
     "species": "Mutant",
     "gender": "Homme",
     "affiliation": "Vortex (TVA)",
-    "firstAppearance": "Deadpool et Wolverine",
+    "firstAppearance": "Deadpool & Wolverine",
     "hint1": "Aaron W. Reed",
     "hint2": "2024",
-    "hint3": "Deadpool et Wolverine",
+    "hint3": "Deadpool & Wolverine",
     "role": "Vilain",
     "abilities": [
       "Surhumaines",

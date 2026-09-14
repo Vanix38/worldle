@@ -4,7 +4,7 @@
     "name": "Charles Xavier",
     "status": "En Vie",
     "aliases": [
-      "Professeur Xavier",
+      "Professeur X",
       "Professor X",
       "Charles Xavier"
     ],
@@ -32,14 +32,13 @@
     ],
     "species": "Jovian",
     "gender": "Homme",
-    "affiliation": "Ravagers",
+    "affiliation": "Ravageurs",
     "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
     "hint1": "Ving Rhames",
     "hint2": "2017",
     "hint3": "Les Gardiens de la Galaxie Vol. 2",
     "role": "Allié",
     "abilities": [
-      "Surhumaines",
       "Militaires"
     ],
     "earth": 616,
@@ -51,7 +50,7 @@
     "name": "Christian Blake",
     "status": "Décédé",
     "aliases": [
-      "Inspecteur Blake",
+      "Detective Blake",
       "Christian Blake"
     ],
     "species": "Humain",
@@ -79,11 +78,11 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "États-Unis",
+    "affiliation": "Sénat des États-Unis",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
     "hint1": "Tim DeKay",
     "hint2": "2013",
-    "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1), Agents of S.H.I.E.L.D. (Saison 2)",
     "role": "Antagoniste",
     "abilities": [
       "Politiques"
@@ -105,7 +104,7 @@
     "firstAppearance": "Iron Man",
     "hint1": "Leslie Bibb",
     "hint2": "2008",
-    "hint3": "Iron Man, Iron Man 2, The Consultant",
+    "hint3": "Iron Man, Iron Man 2",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -119,8 +118,8 @@
     "name": "Christine Palmer",
     "status": "Décédé",
     "aliases": [
-      "Christine",
-      "Dr. Christine Palmer"
+      "Dr. Christine Palmer",
+      "Christine Palmer"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -151,7 +150,7 @@
     "hint1": "Yorgos Karamihos",
     "hint2": "2025",
     "hint3": "Daredevil : Born Again (Saison 2)",
-    "role": "Vilain",
+    "role": "Civil",
     "abilities": [
       "Aucune"
     ],
@@ -176,7 +175,7 @@
     "role": "Vilain",
     "abilities": [
       "Surhumaines",
-      "Animales"
+      "Régénération"
     ],
     "earth": 26320,
     "universe": "Indépendants",
@@ -191,7 +190,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Midtown High",
+    "affiliation": "Midtown School of Science and Technology",
     "firstAppearance": "Spider-Man : Homecoming",
     "hint1": "Tiffany Espensen",
     "hint2": "2017",
@@ -218,7 +217,7 @@
     "hint1": "Lizzy Caplan",
     "hint2": "2012",
     "hint3": "Marvel One-Shot : Item 47",
-    "role": "Allié",
+    "role": "Réformé",
     "abilities": [
       "Aucune"
     ],
@@ -237,7 +236,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "NYPD",
+    "affiliation": "Murdock & McDuffie",
     "firstAppearance": "Daredevil : Born Again (Saison 1)",
     "hint1": "Clark Johnson",
     "hint2": "2025",
@@ -255,9 +254,9 @@
     "name": "Clinton Barton",
     "status": "En Vie",
     "aliases": [
-      "Œil-de-Faucon",
       "Hawkeye",
-      "Clint Barton"
+      "Clint Barton",
+      "Clinton Barton"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -268,8 +267,7 @@
     "hint3": "What If...? (Saison 1)",
     "role": "Héros",
     "abilities": [
-      "Militaires",
-      "Arts Martiaux"
+      "Militaires"
     ],
     "earth": 82111,
     "universe": "MCU",
@@ -284,14 +282,14 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Hood",
+    "affiliation": "Gang du Capuchon",
     "firstAppearance": "Ironheart (Saison 1)",
     "hint1": "Sonia Denis",
     "hint2": "2025",
     "hint3": "Ironheart (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Technologiques"
+      "Pyrokinésiques"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -324,7 +322,7 @@
     "name": "Cole North",
     "status": "En Vie",
     "aliases": [
-      "Sergent North",
+      "Sergeant North",
       "Cole North"
     ],
     "species": "Humain",
@@ -333,7 +331,7 @@
     "firstAppearance": "Daredevil : Born Again (Saison 1)",
     "hint1": "Jeremy Isaiah Earl",
     "hint2": "2025",
-    "hint3": "Daredevil : Born Again (Saison 1)",
+    "hint3": "Daredevil : Born Again (Saison 1), Daredevil : Born Again (Saison 2)",
     "role": "Antagoniste",
     "abilities": [
       "Policières"
@@ -351,7 +349,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
+    "affiliation": "Genghis Connie's",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Jade Wu",
     "hint2": "2016",
@@ -375,7 +373,7 @@
     "gender": "Femme",
     "affiliation": "Civil",
     "firstAppearance": "Madame Web",
-    "hint1": "Kerry Bishé",
+    "hint1": "",
     "hint2": "2024",
     "hint3": "Madame Web",
     "role": "Civil",
@@ -397,7 +395,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Harlem",
+    "affiliation": "Famille Stokes",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Mahershala Ali",
     "hint2": "2016",
@@ -415,16 +413,17 @@
     "name": "Craig Sinclair",
     "status": "Décédé",
     "aliases": [
+      "Reverend Craig",
       "Craig Sinclair"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Civil",
-    "firstAppearance": "Les Nouveaux Mutants",
-    "hint1": "",
+    "firstAppearance": "The New Mutants",
+    "hint1": "Happy Anderson",
     "hint2": "2020",
-    "hint3": "Les Nouveaux Mutants",
-    "role": "Civil",
+    "hint3": "The New Mutants",
+    "role": "Antagoniste",
     "abilities": [
       "Aucune"
     ],
@@ -441,15 +440,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
-    "firstAppearance": "Punisher : Zone de guerre",
-    "hint1": "David Vadim",
+    "affiliation": "Famille Bulat",
+    "firstAppearance": "Punisher: War Zone",
+    "hint1": "",
     "hint2": "2008",
-    "hint3": "Punisher : Zone de guerre",
+    "hint3": "Punisher: War Zone",
     "role": "Vilain",
     "abilities": [
-      "Militaires",
-      "Direction criminelle"
+      "Aucune"
     ],
     "earth": 47281,
     "universe": "Indépendants",

@@ -14,7 +14,7 @@
     "hint1": "Andrew Pang",
     "hint2": "2016",
     "hint3": "Luke Cage (Saison 1)",
-    "role": "Allié",
+    "role": "Civil",
     "abilities": [
       "Policières"
     ],
@@ -95,7 +95,7 @@
   {
     "id": "doug-mcu-616",
     "name": "Doug",
-    "status": "Décédé",
+    "status": "En Vie",
     "aliases": [
       "Doug"
     ],
@@ -131,8 +131,7 @@
     "hint3": "Venom",
     "role": "Allié",
     "abilities": [
-      "Intellectuelles",
-      "Sciences"
+      "Intellectuelles"
     ],
     "earth": 688,
     "universe": "SSU",
@@ -166,8 +165,8 @@
     "name": "Mendel Stromm",
     "status": "Décédé",
     "aliases": [
-      "Dr. Stromm",
-      "Dr. Mendel Stromm"
+      "Dr. Mendel Stromm",
+      "Mendel Stromm"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -176,10 +175,9 @@
     "hint1": "Ron Perkins",
     "hint2": "2002",
     "hint3": "Spider-Man",
-    "role": "Allié",
+    "role": "Civil",
     "abilities": [
-      "Intellectuelles",
-      "Sciences"
+      "Intellectuelles"
     ],
     "earth": 96283,
     "universe": "Raimi-Verse",
@@ -222,7 +220,7 @@
     "hint1": "Chad Lindberg",
     "hint2": "2015",
     "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
-    "role": "Allié",
+    "role": "Antagoniste",
     "abilities": [
       "Aucune"
     ],
@@ -258,16 +256,15 @@
     "name": "Edie Lehnsherr",
     "status": "Décédé",
     "aliases": [
-      "Edie Lensherr",
       "Edie Lehnsherr"
     ],
     "species": "Humain",
     "gender": "Femme",
     "affiliation": "Civil",
-    "firstAppearance": "X-Men : Le Commencement",
-    "hint1": "Eva Magyar",
+    "firstAppearance": "X-Men : First Class",
+    "hint1": "",
     "hint2": "2011",
-    "hint3": "X-Men : Le Commencement",
+    "hint3": "X-Men : First Class",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -309,7 +306,7 @@
     "gender": "Femme",
     "affiliation": "Civil",
     "firstAppearance": "Hulk",
-    "hint1": "Cara Buono",
+    "hint1": "",
     "hint2": "2003",
     "hint3": "Hulk",
     "role": "Civil",
@@ -331,14 +328,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Daredevil",
-    "hint1": "Joe Pantoliano",
+    "hint1": "",
     "hint2": "2003",
     "hint3": "Daredevil",
     "role": "Vilain",
     "abilities": [
-      "Direction criminelle"
+      "Aucune"
     ],
     "earth": 701306,
     "universe": "Indépendants",
@@ -350,6 +347,7 @@
     "status": "En Vie",
     "aliases": [
       "Eddy Costa",
+      "Detective Costa",
       "Edward Costa"
     ],
     "species": "Humain",
@@ -358,8 +356,8 @@
     "firstAppearance": "Jessica Jones (Saison 2)",
     "hint1": "John Ventimiglia",
     "hint2": "2018",
-    "hint3": "Jessica Jones (Saison 2), Jessica Jones (Saison 3)",
-    "role": "Allié",
+    "hint3": "Jessica Jones (Saison 2)",
+    "role": "Civil",
     "abilities": [
       "Policières"
     ],
@@ -372,11 +370,12 @@
     "name": "Edward Nelson",
     "status": "En Vie",
     "aliases": [
+      "Ed Nelson",
       "Edward Nelson"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Nelson's Meats",
     "firstAppearance": "Daredevil (Saison 3)",
     "hint1": "",
     "hint2": "2018",
@@ -427,7 +426,7 @@
     "hint3": "Thor : Le Monde des Ténèbres",
     "role": "Allié",
     "abilities": [
-      "Intellectuelles"
+      "Divinnes"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -444,7 +443,7 @@
     "gender": "Femme",
     "affiliation": "Civil",
     "firstAppearance": "X-Men : Dark Phoenix",
-    "hint1": "Hannah Emily Anderson",
+    "hint1": "",
     "hint2": "2019",
     "hint3": "X-Men : Dark Phoenix",
     "role": "Civil",

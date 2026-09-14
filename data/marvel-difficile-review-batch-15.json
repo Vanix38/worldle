@@ -9,7 +9,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Iron Man",
     "hint1": "Jim Cramer",
     "hint2": "2008",
@@ -27,17 +27,17 @@
     "name": "Jimmy Weeks",
     "status": "Décédé",
     "aliases": [
-      "Jimmy Weeks",
+      "Jimmy",
       "James Weeks"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "FBI",
-    "firstAppearance": "Le Punisher",
-    "hint1": "Russell Andrews",
+    "firstAppearance": "The Punisher",
+    "hint1": "A. Russell Andrews",
     "hint2": "2004",
-    "hint3": "Le Punisher",
-    "role": "Traître",
+    "hint3": "The Punisher",
+    "role": "Allié",
     "abilities": [
       "Policières"
     ],
@@ -50,7 +50,7 @@
     "name": "James Madrox",
     "status": "En Vie",
     "aliases": [
-      "L'Homme Multiple",
+      "Homme-Multiple",
       "Multiple Man",
       "Jamie Madrox"
     ],
@@ -81,10 +81,10 @@
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Organisation criminelle",
-    "firstAppearance": "Punisher : Zone de guerre",
+    "firstAppearance": "Punisher: War Zone",
     "hint1": "Doug Hutchison",
     "hint2": "2008",
-    "hint3": "Punisher : Zone de guerre",
+    "hint3": "Punisher: War Zone",
     "role": "Vilain",
     "abilities": [
       "Aucune"
@@ -98,18 +98,19 @@
     "name": "James Sanders",
     "status": "En Vie",
     "aliases": [
-      "Speed Demon",
-      "James Sanders"
+      "Démon de la Vitesse",
+      "Speed Demon"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Tarantula",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
-    "hint1": "",
+    "hint1": "Roger Craig Smith",
     "hint2": "2025",
     "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
     "role": "Vilain",
     "abilities": [
+      "Technologiques",
       "Vitesse"
     ],
     "earth": 86445,
@@ -122,16 +123,15 @@
     "status": "En Vie",
     "aliases": [
       "Hellfire",
-      "James Taylor James",
-      "J.T."
+      "James Taylor James"
     ],
-    "species": "Inhumain",
+    "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Watchdogs",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
     "hint1": "Axle Whitehead",
     "hint2": "2015",
-    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3), Agents of S.H.I.E.L.D. (Saison 4)",
     "role": "Vilain",
     "abilities": [
       "Pyrokinésiques"
@@ -190,9 +190,13 @@
     "name": "Jared Nomak",
     "status": "Décédé",
     "aliases": [
-      "Nomak"
+      "Nomak",
+      "Jared Nomak"
     ],
-    "species": "Vampire",
+    "species": [
+      "Mutant",
+      "Vampire"
+    ],
     "gender": "Homme",
     "affiliation": "Indépendant(e)",
     "firstAppearance": "Blade II",
@@ -217,11 +221,11 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Midtown School of Science and Technology",
+    "affiliation": "Midtown High",
     "firstAppearance": "Spider-Man : Homecoming",
     "hint1": "Jorge Lendeborg Jr.",
     "hint2": "2017",
-    "hint3": "Spider-Man : Homecoming, Spider-Man : Far From Home",
+    "hint3": "Spider-Man : Homecoming, Spider-Man : Far From Home, Spider-Man : No Way Home",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -236,8 +240,7 @@
     "status": "Décédé",
     "aliases": [
       "Mutant 143",
-      "Jason 143",
-      "Jason Stryker"
+      "Jason 143"
     ],
     "species": "Mutant",
     "gender": "Homme",
@@ -263,9 +266,9 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Daredevil (Saison 3)",
-    "hint1": "Matt DeAngelis",
+    "hint1": "Matt DeAngelus",
     "hint2": "2018",
     "hint3": "Daredevil (Saison 3)",
     "role": "Civil",
@@ -293,8 +296,7 @@
     "hint3": "Thor, Avengers, Agents of S.H.I.E.L.D. (Saison 1), Captain America : Le Soldat de l'Hiver, Avengers : Endgame",
     "role": "Vilain",
     "abilities": [
-      "Militaires",
-      "Espionnage"
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -305,6 +307,7 @@
     "name": "Jean DeWolff",
     "status": "En Vie",
     "aliases": [
+      "Capitaine DeWolff",
       "Jean DeWolff"
     ],
     "species": "Humain",
@@ -329,7 +332,7 @@
     "aliases": [
       "Jennifer Kale"
     ],
-    "species": "Humain",
+    "species": "Sorcière",
     "gender": "Femme",
     "affiliation": "Sabbat d'Agatha Harkness",
     "firstAppearance": "Agatha All Along (Saison 1)",
@@ -350,16 +353,16 @@
     "status": "En Vie",
     "aliases": [
       "Jer",
-      "Jeremy Garrett"
+      "Jeremy"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Deadpool",
     "hint1": "Style Dayne",
     "hint2": "2016",
     "hint3": "Deadpool",
-    "role": "Civil",
+    "role": "Antagoniste",
     "abilities": [
       "Aucune"
     ],
@@ -372,8 +375,8 @@
     "name": "Jim Paxton",
     "status": "En Vie",
     "aliases": [
-      "Jim Paxton",
-      "Paxton"
+      "Officier Paxton",
+      "Jim Paxton"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -399,12 +402,12 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Yangsi Gonshi",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Clem Cheung",
     "hint2": "2016",
     "hint3": "Luke Cage (Saison 1)",
-    "role": "Civil",
+    "role": "Vilain",
     "abilities": [
       "Aucune"
     ],
@@ -421,11 +424,11 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
-    "firstAppearance": "Le Punisher",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "The Punisher",
     "hint1": "Rebecca Romijn",
     "hint2": "2004",
-    "hint3": "Le Punisher",
+    "hint3": "The Punisher",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -440,8 +443,7 @@
     "status": "Décédé",
     "aliases": [
       "Crâne Rouge",
-      "Red Skull",
-      "Johann Schmidt"
+      "Red Skull"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -458,6 +460,6 @@
     ],
     "earth": 82111,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   }
 ]

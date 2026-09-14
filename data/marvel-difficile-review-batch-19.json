@@ -13,7 +13,7 @@
     "hint1": "Clifton Davis",
     "hint2": "2017",
     "hint3": "Iron Fist (Saison 1)",
-    "role": "Civil",
+    "role": "Antagoniste",
     "abilities": [
       "Aucune"
     ],
@@ -26,6 +26,7 @@
     "name": "Leech",
     "status": "En Vie",
     "aliases": [
+      "Sangsue",
       "Jimmy",
       "Leech"
     ],
@@ -53,14 +54,14 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Leviathan",
+    "affiliation": "Léviathan",
     "firstAppearance": "Agent Carter (Saison 1)",
     "hint1": "James Frain",
     "hint2": "2015",
     "hint3": "Agent Carter (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Militaires"
+      "Aucune"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -107,7 +108,7 @@
     "hint3": "Daredevil (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Direction criminelle"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -118,12 +119,11 @@
     "name": "Leo Lieberman",
     "status": "En Vie",
     "aliases": [
-      "Leo",
       "Leo Lieberman"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Le Punisher (Saison 1)",
     "hint1": "Ripley Sobo",
     "hint2": "2017",
@@ -146,10 +146,10 @@
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Von Doom Industries",
-    "firstAppearance": "Les 4 Fantastiques",
+    "firstAppearance": "4 Fantastiques",
     "hint1": "Hamish Linklater",
     "hint2": "2005",
-    "hint3": "Les 4 Fantastiques",
+    "hint3": "4 Fantastiques",
     "role": "Allié",
     "abilities": [
       "Aucune"
@@ -163,6 +163,7 @@
     "name": "Li Ching-Lin",
     "status": "Décédé",
     "aliases": [
+      "Marchand de Mort",
       "Death Dealer",
       "Li Ching-Lin"
     ],
@@ -191,7 +192,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Cloak & Dagger (Saison 1)",
     "hint1": "Carl Lundstedt",
     "hint2": "2018",
@@ -218,10 +219,10 @@
     "hint1": "Daz Crawford",
     "hint2": "2002",
     "hint3": "Blade II",
-    "role": "Vilain",
+    "role": "Anti-héros",
     "abilities": [
       "Surhumaines",
-      "Régénération"
+      "Arts Martiaux"
     ],
     "earth": 26320,
     "universe": "Indépendants",
@@ -232,7 +233,6 @@
     "name": "Lilia Calderu",
     "status": "Décédé",
     "aliases": [
-      "Lilia",
       "Lilia Calderu"
     ],
     "species": "Sorcière",
@@ -260,7 +260,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 7)",
     "hint1": "Paulina Bugembe",
     "hint2": "2020",
@@ -271,7 +271,7 @@
     ],
     "earth": 616,
     "universe": "MCU",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "linus_lieberman-independants-47281",
@@ -300,15 +300,15 @@
   },
   {
     "id": "lisa_barbara_castle-mcu-616",
-    "name": "Lisa Castle",
+    "name": "Lisa Barbara Castle",
     "status": "Décédé",
     "aliases": [
-      "Lisa Barbara Castle",
-      "Lisa Castle"
+      "Lisa Castle",
+      "Lisa Barbara Castle"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Civil",
     "firstAppearance": "Daredevil (Saison 2)",
     "hint1": "",
     "hint2": "2016",
@@ -330,12 +330,12 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Indépendant(e)",
-    "firstAppearance": "Le Punisher",
+    "affiliation": "Famille Saint",
+    "firstAppearance": "The Punisher",
     "hint1": "Laura Harring",
     "hint2": "2004",
-    "hint3": "Le Punisher",
-    "role": "Civil",
+    "hint3": "The Punisher",
+    "role": "Vilain",
     "abilities": [
       "Aucune"
     ],
@@ -350,14 +350,14 @@
     "aliases": [
       "Lockheed"
     ],
-    "species": "Alien",
+    "species": "Dragon",
     "gender": "Homme",
     "affiliation": "Illyana Rasputin",
-    "firstAppearance": "The New Mutants",
+    "firstAppearance": "Les Nouveaux Mutants",
     "hint1": "",
     "hint2": "2020",
-    "hint3": "The New Mutants",
-    "role": "Animal",
+    "hint3": "Les Nouveaux Mutants",
+    "role": "Allié",
     "abilities": [
       "Aliennnes",
       "Pyrokinésiques"
@@ -380,7 +380,7 @@
     "hint1": "",
     "hint2": "2017",
     "hint3": "Inhumans (Saison 1)",
-    "role": "Animal",
+    "role": "Allié",
     "abilities": [
       "Téléportation",
       "Surhumaines"
@@ -399,19 +399,19 @@
     ],
     "species": "Frost Giant",
     "gender": "Homme",
-    "affiliation": "Géants des Glaces",
+    "affiliation": "Géants des glaces",
     "firstAppearance": "What If...? (Saison 1)",
-    "hint1": "Tom Hiddleston",
+    "hint1": "",
     "hint2": "2021",
     "hint3": "What If...? (Saison 1)",
-    "role": "Allié",
+    "role": "Vilain",
     "abilities": [
       "Magiques",
-      "Surhumaines"
+      "Aliennnes"
     ],
     "earth": 72124,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "loki_laufeyson-mcu-82111",
@@ -425,17 +425,17 @@
     "gender": "Homme",
     "affiliation": "Asgard",
     "firstAppearance": "What If...? (Saison 2)",
-    "hint1": "Tom Hiddleston",
+    "hint1": "",
     "hint2": "2023",
     "hint3": "What If...? (Saison 2)",
-    "role": "Vilain",
+    "role": "Anti-héros",
     "abilities": [
       "Magiques",
-      "Surhumaines"
+      "Divinnes"
     ],
     "earth": 82111,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "loki_pretentieux-mcu-0",

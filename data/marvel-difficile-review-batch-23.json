@@ -15,7 +15,7 @@
     "hint3": "Captain America : Le Soldat de l'Hiver",
     "role": "Allié",
     "abilities": [
-      "Militaires"
+      "Aucune"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -30,14 +30,15 @@
     ],
     "species": "Inhumain",
     "gender": "Homme",
-    "affiliation": "Attilan",
+    "affiliation": "Famille royale inhumaine",
     "firstAppearance": "Inhumans (Saison 1)",
     "hint1": "Bridger Zadina",
     "hint2": "2017",
     "hint3": "Inhumans (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Energétiques"
+      "Energétiques",
+      "Surhumaines"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -52,10 +53,10 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Ordre monastique",
+    "affiliation": "Ordre des moines",
     "firstAppearance": "Ghost Rider : L'Esprit de vengeance",
     "hint1": "Idris Elba",
-    "hint2": "2011",
+    "hint2": "2012",
     "hint3": "Ghost Rider : L'Esprit de vengeance",
     "role": "Allié",
     "abilities": [
@@ -92,7 +93,7 @@
     "name": "Mortimer Toynbee",
     "status": "En Vie",
     "aliases": [
-      "Crapaud",
+      "Le Crapaud",
       "Toad",
       "Mortimer Toynbee"
     ],
@@ -105,8 +106,8 @@
     "hint3": "X-Men : Days of Future Past",
     "role": "Vilain",
     "abilities": [
-      "Animales",
-      "Surhumaines"
+      "Surhumaines",
+      "Animales"
     ],
     "earth": 10005,
     "universe": "Fox X-Men",
@@ -117,16 +118,17 @@
     "name": "Nadya Ketch",
     "status": "En Vie",
     "aliases": [
-      "Nadya Ketch"
+      "Nadya Ketch",
+      "Nadya"
     ],
     "species": "Humain",
     "gender": "Femme",
     "affiliation": "Civil",
     "firstAppearance": "Ghost Rider : L'Esprit de vengeance",
     "hint1": "Violante Placido",
-    "hint2": "2011",
+    "hint2": "2012",
     "hint3": "Ghost Rider : L'Esprit de vengeance",
-    "role": "Allié",
+    "role": "Civil",
     "abilities": [
       "Aucune"
     ],
@@ -149,7 +151,7 @@
     "hint1": "Yasmeen Fletcher",
     "hint2": "2022",
     "hint3": "Ms. Marvel (Saison 1)",
-    "role": "Civil",
+    "role": "Allié",
     "abilities": [
       "Aucune"
     ],
@@ -185,8 +187,8 @@
     "name": "Natalie Washington",
     "status": "Décédé",
     "aliases": [
-      "Natalie",
-      "Natalie Washington"
+      "Natalie Washington",
+      "Natalie"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -208,13 +210,14 @@
     "name": "Nate Munson",
     "status": "Décédé",
     "aliases": [
-      "Nate Munson"
+      "Nate Munson",
+      "Nate"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Civil",
     "firstAppearance": "Logan",
-    "hint1": "",
+    "hint1": "Quincy Fouse",
     "hint2": "2017",
     "hint3": "Logan",
     "role": "Civil",
@@ -257,10 +260,10 @@
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Civil",
-    "firstAppearance": "Les Quatre Fantastiques",
-    "hint1": "",
+    "firstAppearance": "Les 4 Fantastiques",
+    "hint1": "Michael Kopsa",
     "hint2": "2005",
-    "hint3": "Les Quatre Fantastiques",
+    "hint3": "Les 4 Fantastiques",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -271,7 +274,7 @@
   },
   {
     "id": "nicholas_nick_fury-mcu-72124",
-    "name": "Nick Fury",
+    "name": "Nicholas \"Nick\" Fury",
     "status": "En Vie",
     "aliases": [
       "Nick Fury",
@@ -295,7 +298,7 @@
   },
   {
     "id": "nicholas_nick_fury-mcu-82111",
-    "name": "Nick Fury",
+    "name": "Nicholas \"Nick\" Fury",
     "status": "En Vie",
     "aliases": [
       "Nick Fury",
@@ -323,7 +326,7 @@
     "status": "Décédé",
     "aliases": [
       "Nicholas Scratch",
-      "Nick Scratch"
+      "Nicky"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -345,15 +348,16 @@
     "name": "Nicky Donatelli",
     "status": "Décédé",
     "aliases": [
-      "Nicky Donatelli"
+      "Nicky Donatelli",
+      "Nicky"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "FBI",
-    "firstAppearance": "Punisher: War Zone",
-    "hint1": "",
+    "firstAppearance": "Punisher : Zone de guerre",
+    "hint1": "Romano Orzari",
     "hint2": "2008",
-    "hint3": "Punisher: War Zone",
+    "hint3": "Punisher : Zone de guerre",
     "role": "Allié",
     "abilities": [
       "Policières"
@@ -365,7 +369,7 @@
   {
     "id": "nicodemus_west-mcu-616",
     "name": "Nicodemus West",
-    "status": "En Vie",
+    "status": "Décédé",
     "aliases": [
       "Docteur West",
       "Dr. West",
@@ -391,7 +395,8 @@
     "name": "Nigel Garrison",
     "status": "Décédé",
     "aliases": [
-      "Nigel Garrison"
+      "Nigel Garrison",
+      "Nigel"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -419,7 +424,7 @@
     "gender": "Homme",
     "affiliation": "Civil",
     "firstAppearance": "Daredevil",
-    "hint1": "",
+    "hint1": "Erick Avari",
     "hint2": "2003",
     "hint3": "Daredevil",
     "role": "Civil",
@@ -435,7 +440,8 @@
     "name": "Nina Gurzsky",
     "status": "Décédé",
     "aliases": [
-      "Nina Gurzsky"
+      "Nina Gurzsky",
+      "Nina"
     ],
     "species": "Mutant",
     "gender": "Femme",
@@ -446,7 +452,8 @@
     "hint3": "X-Men : Apocalypse",
     "role": "Civil",
     "abilities": [
-      "Animales"
+      "Animales",
+      "Psioniques"
     ],
     "earth": 10005,
     "universe": "Fox X-Men",

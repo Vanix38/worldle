@@ -4,7 +4,8 @@
     "name": "Harley Keener",
     "status": "En Vie",
     "aliases": [
-      "Harley"
+      "Harley",
+      "Harley Keener"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -27,24 +28,22 @@
     "status": "En Vie",
     "aliases": [
       "Happy",
-      "Sir Harold The Happy Hogan",
-      "The Freak",
       "Harold Joseph Hogan"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Stark Industries",
     "firstAppearance": "What If...? (Saison 2)",
     "hint1": "Jon Favreau",
     "hint2": "2023",
     "hint3": "What If...? (Saison 2)",
     "role": "Allié",
     "abilities": [
-      "Surhumaines"
+      "Aucune"
     ],
     "earth": 82111,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "harold_meachum-mcu-616",
@@ -55,7 +54,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Rand Entreprises",
+    "affiliation": "Rand Enterprises",
     "firstAppearance": "Iron Fist (Saison 1)",
     "hint1": "David Wenham",
     "hint2": "2017",
@@ -70,19 +69,19 @@
   },
   {
     "id": "harry_heck_thornton-independants-58732",
-    "name": "Harry Heck Thornton",
+    "name": "Harry Thornton",
     "status": "Décédé",
     "aliases": [
-      "Harry Heck",
-      "Heck"
+      "Heck",
+      "Harry Heck"
     ],
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Howard Saint",
-    "firstAppearance": "Le Punisher",
+    "firstAppearance": "The Punisher",
     "hint1": "Mark Collie",
     "hint2": "2004",
-    "hint3": "Le Punisher",
+    "hint3": "The Punisher",
     "role": "Vilain",
     "abilities": [
       "Aucune"
@@ -119,16 +118,16 @@
     "name": "Hart",
     "status": "En Vie",
     "aliases": [
-      "Agent Hart"
+      "Hart"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "S.H.I.E.L.D.",
+    "affiliation": "Hydra",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
     "hint1": "Terrell Tilford",
-    "hint2": "2015",
+    "hint2": "2014",
     "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
-    "role": "Allié",
+    "role": "Vilain",
     "abilities": [
       "Militaires"
     ],
@@ -141,16 +140,16 @@
     "name": "Hawley",
     "status": "En Vie",
     "aliases": [
-      "Conseillère Hawley"
+      "Hawley"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Conseil de Sécurité Mondial",
+    "affiliation": "Conseil de sécurité mondiale",
     "firstAppearance": "Avengers",
     "hint1": "Jenny Agutter",
     "hint2": "2012",
-    "hint3": "Avengers, Avengers : L'ère d'Ultron",
-    "role": "Antagoniste",
+    "hint3": "Avengers",
+    "role": "Civil",
     "abilities": [
       "Politiques"
     ],
@@ -163,11 +162,11 @@
     "name": "Headmaster",
     "status": "Décédé",
     "aliases": [
-      "The Headmaster"
+      "Headmaster"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Essex House for Mutant Rehabilitation",
+    "affiliation": "Essex House",
     "firstAppearance": "Deadpool 2",
     "hint1": "Eddie Marsan",
     "hint2": "2018",
@@ -189,7 +188,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Iron Fist (Saison 1)",
     "hint1": "Victoria Haynes",
     "hint2": "2017",
@@ -207,7 +206,8 @@
     "name": "Heimdall",
     "status": "En Vie",
     "aliases": [
-      "Gardien du Bifrost"
+      "Gardien du Bifrost",
+      "Heimdall"
     ],
     "species": "Asgardian",
     "gender": "Homme",
@@ -223,7 +223,7 @@
     ],
     "earth": 72124,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "heinrich_schafer-mcu-616",
@@ -234,7 +234,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Avengers",
     "hint1": "Dieter Riesle",
     "hint2": "2012",
@@ -264,8 +264,8 @@
     "hint3": "Captain America : First Avenger",
     "role": "Vilain",
     "abilities": [
-      "Espionnage",
-      "Militaires"
+      "Militaires",
+      "Espionnage"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -280,30 +280,31 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Allemagne nazie",
+    "affiliation": "Hydra",
     "firstAppearance": "What If...? (Saison 1)",
-    "hint1": "Richard Armitage",
+    "hint1": "",
     "hint2": "2021",
     "hint3": "What If...? (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Espionnage",
-      "Militaires"
+      "Militaires",
+      "Espionnage"
     ],
     "earth": 82111,
     "universe": "MCU",
-    "difficulty": "Difficile"
+    "difficulty": "Impossible"
   },
   {
     "id": "helen_cho-mcu-616",
     "name": "Helen Cho",
     "status": "En Vie",
     "aliases": [
+      "Docteure Cho",
       "Dr. Helen Cho"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Les Avengers",
+    "affiliation": "Avengers",
     "firstAppearance": "Avengers : L'ère d'Ultron",
     "hint1": "Claudia Kim",
     "hint2": "2015",
@@ -326,7 +327,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "The Amazing Spider-Man",
     "hint1": "Kari Coleman",
     "hint2": "2012",
@@ -346,8 +347,7 @@
     "aliases": [
       "Le Fauve",
       "Beast",
-      "Henry Philip McCoy",
-      "Hank"
+      "Henry Philip McCoy"
     ],
     "species": "Mutant",
     "gender": "Homme",
@@ -372,15 +372,15 @@
     "status": "Décédé",
     "aliases": [
       "Pop",
-      "Pop Hunter"
+      "Henry Hunter"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Frankie Faison",
     "hint2": "2016",
-    "hint3": "Luke Cage (Saison 1), Luke Cage (Saison 2)",
+    "hint3": "Luke Cage (Saison 1)",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -395,11 +395,11 @@
     "status": "Décédé",
     "aliases": [
       "Yinsen",
-      "Dr. Ho Yinsen"
+      "Ho Yinsen"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Civil",
+    "affiliation": "Indépendant(e)",
     "firstAppearance": "Iron Man",
     "hint1": "Shaun Toub",
     "hint2": "2008",
@@ -417,8 +417,8 @@
     "name": "Hogun",
     "status": "Décédé",
     "aliases": [
-      "Hogun le Grim",
-      "Hogun the Grim"
+      "Hogun le Farouche",
+      "Hogun"
     ],
     "species": "Vanir",
     "gender": "Homme",
@@ -452,7 +452,7 @@
     "hint3": "She-Hulk : Avocate (Saison 1)",
     "role": "Civil",
     "abilities": [
-      "Intellectuelles"
+      "Aucune"
     ],
     "earth": 616,
     "universe": "MCU",

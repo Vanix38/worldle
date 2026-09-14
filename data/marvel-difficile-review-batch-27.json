@@ -4,6 +4,7 @@
     "name": "Taserface",
     "status": "Décédé",
     "aliases": [
+      "Tête-de-Taser",
       "Taserface"
     ],
     "species": "Sakaaran",
@@ -33,7 +34,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "États-Unis",
+    "affiliation": "Armée des États-Unis",
     "firstAppearance": "Hulk",
     "hint1": "Sam Elliott",
     "hint2": "2003",
@@ -75,7 +76,8 @@
     "aliases": [
       "Arme XI",
       "Weapon XI",
-      "Wade Winston Wilson"
+      "Wade Winston Wilson",
+      "Wade Wilson"
     ],
     "species": "Mutant",
     "gender": "Homme",
@@ -146,10 +148,10 @@
     "status": "En Vie",
     "aliases": [
       "Vision Blanche",
-      "White Vision",
-      "Vision"
+      "Vision",
+      "Vision reconstruite"
     ],
-    "species": "Robot",
+    "species": "Artificiel",
     "gender": "Homme",
     "affiliation": "S.W.O.R.D.",
     "firstAppearance": "WandaVision (Saison 1)",
@@ -171,6 +173,7 @@
     "name": "Willis Stryker",
     "status": "En Vie",
     "aliases": [
+      "Diamantin",
       "Diamondback",
       "Willis Harold Stryker",
       "Willis Stryker"
@@ -184,7 +187,8 @@
     "hint3": "Luke Cage (Saison 1)",
     "role": "Vilain",
     "abilities": [
-      "Technologiques"
+      "Technologiques",
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -200,7 +204,7 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Les Dix Anneaux",
+    "affiliation": "Dix Anneaux",
     "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
     "hint1": "Meng'er Zhang",
     "hint2": "2021",
@@ -248,7 +252,7 @@
     "species": "Mutant",
     "gender": "Femme",
     "affiliation": "Programme Weapon X",
-    "firstAppearance": "X-Men 2",
+    "firstAppearance": "X-men 2",
     "hint1": "Kelly Hu",
     "hint2": "2003",
     "hint3": "X-Men 2, Deadpool & Wolverine",

@@ -5,7 +5,8 @@
     "status": "En Vie",
     "aliases": [
       "Juge Price",
-      "Judge Price"
+      "Judge Price",
+      "Price"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -39,7 +40,7 @@
     "role": "Vilain",
     "abilities": [
       "Surhumaines",
-      "Régénération"
+      "Arts Martiaux"
     ],
     "earth": 26320,
     "universe": "Indépendants",
@@ -55,15 +56,15 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Wakanda",
+    "affiliation": "Famille royale wakandaise",
     "firstAppearance": "Eyes of Wakanda (Saison 1)",
     "hint1": "Zeke Alton",
     "hint2": "2025",
     "hint3": "Eyes of Wakanda (Saison 1)",
     "role": "Allié",
     "abilities": [
-      "Militaires",
-      "Arts Martiaux"
+      "Arts Martiaux",
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -74,8 +75,8 @@
     "name": "Prince Yan",
     "status": "En Vie",
     "aliases": [
-      "Yan",
-      "Prince Yan"
+      "Prince Yan",
+      "Yan"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -97,7 +98,6 @@
     "name": "Prince",
     "status": "Décédé",
     "aliases": [
-      "Agent Prince",
       "Prince"
     ],
     "species": "Humain",
@@ -105,7 +105,7 @@
     "affiliation": "S.H.I.E.L.D.",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
     "hint1": "Ricardo Walker",
-    "hint2": "2017",
+    "hint2": "2016",
     "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
     "role": "Allié",
     "abilities": [
@@ -121,7 +121,6 @@
     "status": "En Vie",
     "aliases": [
       "Capitaine Ridley",
-      "Captain Ridley",
       "Priscilla Ridley"
     ],
     "species": "Humain",
@@ -130,7 +129,7 @@
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Karen Pittman",
     "hint2": "2016",
-    "hint3": "Luke Cage (Saison 1), Luke Cage (Saison 2), Jessica Jones (Saison 3)",
+    "hint3": "Luke Cage (Saison 1), Luke Cage (Saison 2)",
     "role": "Allié",
     "abilities": [
       "Policières"
@@ -148,14 +147,14 @@
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "K'un-Lun",
+    "affiliation": "Ordre de la Mère Grue",
     "firstAppearance": "Iron Fist (Saison 2)",
     "hint1": "Gita Reddy",
     "hint2": "2018",
     "hint3": "Iron Fist (Saison 2)",
     "role": "Antagoniste",
     "abilities": [
-      "Aucune"
+      "Arts Martiaux"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -170,7 +169,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Cheng Consulting Management",
     "firstAppearance": "Jessica Jones (Saison 2)",
     "hint1": "Terry Chen",
     "hint2": "2018",
@@ -195,7 +194,7 @@
     "affiliation": "Confédération",
     "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 5)",
     "hint1": "Peter Mensah",
-    "hint2": "2018",
+    "hint2": "2017",
     "hint3": "Agents of S.H.I.E.L.D. (Saison 5)",
     "role": "Vilain",
     "abilities": [
@@ -222,7 +221,7 @@
     "hint3": "Le Punisher",
     "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Direction criminelle"
     ],
     "earth": 58732,
     "universe": "Indépendants",
@@ -233,9 +232,8 @@
     "name": "Ray Nadeem",
     "status": "Décédé",
     "aliases": [
-      "Agent Nadeem",
-      "Rahul Nadeem",
-      "Ray Nadeem"
+      "Ray Nadeem",
+      "Rahul Nadeem"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -258,19 +256,19 @@
     "status": "Décédé",
     "aliases": [
       "Commandant Raza",
-      "Raza Hamidmi Al-Wazar",
       "Raza"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Les Dix Anneaux",
+    "affiliation": "Dix Anneaux",
     "firstAppearance": "Iron Man",
     "hint1": "Faran Tahir",
     "hint2": "2008",
     "hint3": "Iron Man",
     "role": "Vilain",
     "abilities": [
-      "Militaires"
+      "Militaires",
+      "Direction criminelle"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -286,7 +284,7 @@
     ],
     "species": "Mutant",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Programme Weapon X",
     "firstAppearance": "X-Men Origins : Wolverine",
     "hint1": "Taylor Kitsch",
     "hint2": "2009",
@@ -306,11 +304,12 @@
     "aliases": [
       "Docteur Parker",
       "Dr. Parker",
-      "Richard Laurence Parker"
+      "Richard Laurence Parker",
+      "Richard Parker"
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Indépendant(e)",
+    "affiliation": "Oscorp",
     "firstAppearance": "The Amazing Spider-Man",
     "hint1": "Campbell Scott",
     "hint2": "2012",
@@ -330,7 +329,8 @@
     "aliases": [
       "Sœur Maggie",
       "Sister Maggie",
-      "Margaret Grace"
+      "Margaret Grace",
+      "Maggie"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -353,7 +353,7 @@
     "status": "Décédé",
     "aliases": [
       "Cyclope",
-      "Cyclops",
+      "Scott Summers (jeune)",
       "Scott Summers"
     ],
     "species": "Mutant",
@@ -411,7 +411,7 @@
     "hint3": "Ant-Man et la Guêpe",
     "role": "Vilain",
     "abilities": [
-      "Aucune"
+      "Direction criminelle"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -447,7 +447,8 @@
     "aliases": [
       "Docteur Strange",
       "Doctor Strange",
-      "Sorcier Suprême",
+      "Docteur Strange (Terre-838)",
+      "Sorcier Suprême (Terre-838)",
       "Strange (Illuminati)"
     ],
     "species": "Humain",

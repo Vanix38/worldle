@@ -10,15 +10,15 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Hatut Zeraze",
+    "affiliation": "Wakanda",
     "firstAppearance": "Eyes of Wakanda (Saison 1)",
-    "hint1": "Cress Williams",
+    "hint1": "",
     "hint2": "2025",
     "hint3": "Eyes of Wakanda (Saison 1)",
-    "role": "Vilain",
+    "role": "Antagoniste",
     "abilities": [
       "Arts Martiaux",
-      "Technologiques"
+      "Militaires"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -35,7 +35,7 @@
     ],
     "species": "Humain",
     "gender": "Homme",
-    "affiliation": "Prison de Seagate",
+    "affiliation": "Seagate",
     "firstAppearance": "Luke Cage (Saison 1)",
     "hint1": "Michael Kostroff",
     "hint2": "2016",
@@ -71,7 +71,7 @@
     ],
     "earth": 616,
     "universe": "MCU",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "norex-mcu-616",
@@ -82,14 +82,15 @@
     ],
     "species": "Skrull",
     "gender": "Homme",
-    "affiliation": "Résistance skrull",
+    "affiliation": "Skrulls",
     "firstAppearance": "Captain Marvel",
     "hint1": "Matthew Maher",
     "hint2": "2019",
     "hint3": "Captain Marvel",
     "role": "Allié",
     "abilities": [
-      "Aliennnes"
+      "Aliennnes",
+      "Métamorphose"
     ],
     "earth": 616,
     "universe": "MCU",
@@ -105,11 +106,11 @@
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "Oscorp",
-    "firstAppearance": "The Amazing Spider-Man 2",
+    "firstAppearance": "The Amazing Spider-Man : Le Destin d'un héros",
     "hint1": "Chris Cooper",
     "hint2": "2014",
-    "hint3": "The Amazing Spider-Man 2",
-    "role": "Civil",
+    "hint3": "The Amazing Spider-Man : Le Destin d'un héros",
+    "role": "Antagoniste",
     "abilities": [
       "Intellectuelles"
     ],
@@ -189,7 +190,8 @@
     "name": "Olivia Walker",
     "status": "En Vie",
     "aliases": [
-      "Olivia Walker"
+      "Olivia Walker",
+      "Liv"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -197,7 +199,7 @@
     "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
     "hint1": "Gabrielle Byndloss",
     "hint2": "2021",
-    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1), Thunderbolts",
+    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1)",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -211,7 +213,7 @@
     "name": "Ororo Munroe",
     "status": "En Vie",
     "aliases": [
-      "Tempête",
+      "Tornade",
       "Storm",
       "Ororo Munroe"
     ],
@@ -219,12 +221,13 @@
     "gender": "Femme",
     "affiliation": "X-Men",
     "firstAppearance": "Deadpool 2",
-    "hint1": "",
+    "hint1": "Alexandra Shipp",
     "hint2": "2018",
     "hint3": "Deadpool 2",
     "role": "Héros",
     "abilities": [
-      "Métérologiques"
+      "Météorologiques",
+      "Surhumaines"
     ],
     "earth": 41633,
     "universe": "Fox X-Men",
@@ -235,7 +238,8 @@
     "name": "Oscar Arocho",
     "status": "En Vie",
     "aliases": [
-      "Oscar Arocho"
+      "Oscar Arocho",
+      "Oscar"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -257,8 +261,8 @@
     "name": "Oscar Clemons",
     "status": "Décédé",
     "aliases": [
-      "Inspecteur Clemons",
-      "Oscar Clemons"
+      "Oscar Clemons",
+      "Detective Clemons"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -277,7 +281,7 @@
   },
   {
     "id": "other-mcu-616",
-    "name": "Other",
+    "name": "Other (Chitauri)",
     "status": "Décédé",
     "aliases": [
       "L'Autre",
@@ -286,11 +290,11 @@
     ],
     "species": "Chitauri",
     "gender": "Homme",
-    "affiliation": "Thanos",
+    "affiliation": "Chitauri",
     "firstAppearance": "Avengers",
     "hint1": "Alexis Denisof",
     "hint2": "2012",
-    "hint3": "Avengers, Les Gardiens de la Galaxie",
+    "hint3": "Avengers",
     "role": "Vilain",
     "abilities": [
       "Aliennnes",
@@ -298,14 +302,15 @@
     ],
     "earth": 616,
     "universe": "MCU",
-    "difficulty": "Impossible"
+    "difficulty": "Difficile"
   },
   {
     "id": "otis_johnson-mcu-616",
     "name": "Otis Johnson",
     "status": "En Vie",
     "aliases": [
-      "Otis Johnson"
+      "Otis Johnson",
+      "Otis"
     ],
     "species": "Humain",
     "gender": "Homme",
@@ -313,7 +318,7 @@
     "firstAppearance": "Cloak & Dagger (Saison 1)",
     "hint1": "Miles Mussenden",
     "hint2": "2018",
-    "hint3": "Cloak & Dagger (Saison 1)",
+    "hint3": "Cloak & Dagger (Saison 1), Cloak & Dagger (Saison 2)",
     "role": "Civil",
     "abilities": [
       "Aucune"
@@ -352,7 +357,8 @@
     "name": "Pamela Lawton",
     "status": "Décédé",
     "aliases": [
-      "Pamela Lawton"
+      "Pamela Lawton",
+      "Pam"
     ],
     "species": "Humain",
     "gender": "Femme",
@@ -374,16 +380,17 @@
     "name": "Pamela",
     "status": "En Vie",
     "aliases": [
+      "Pam",
       "Pamela"
     ],
     "species": "Humain",
     "gender": "Femme",
-    "affiliation": "Civil",
+    "affiliation": "Cabinet Hogarth",
     "firstAppearance": "Jessica Jones (Saison 1)",
-    "hint1": "",
+    "hint1": "Susie Abromeit",
     "hint2": "2015",
     "hint3": "Jessica Jones (Saison 1)",
-    "role": "Civil",
+    "role": "Allié",
     "abilities": [
       "Aucune"
     ],
@@ -449,10 +456,10 @@
     "species": "Humain",
     "gender": "Homme",
     "affiliation": "FBI",
-    "firstAppearance": "Punisher: War Zone",
+    "firstAppearance": "Punisher : Zone de guerre",
     "hint1": "Colin Salmon",
     "hint2": "2008",
-    "hint3": "Punisher: War Zone",
+    "hint3": "Punisher : Zone de guerre",
     "role": "Allié",
     "abilities": [
       "Policières"
