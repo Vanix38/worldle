@@ -1,0 +1,466 @@
+[
+  {
+    "id": "meghan_orlovsky-fox_x_men-10005",
+    "name": "Meghan Orlovsky",
+    "status": "En Vie",
+    "aliases": [
+      "Meghan Orlovsky",
+      "Meghan"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Deadpool",
+    "hint1": "Taylor Hickson",
+    "hint2": "2016",
+    "hint3": "Deadpool",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "melina_vostokoff-mcu-616",
+    "name": "Melina Vostokoff",
+    "status": "En Vie",
+    "aliases": [
+      "Iron Maiden",
+      "Melina Vostokoff",
+      "Melina"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Chambre rouge",
+    "firstAppearance": "Black Widow",
+    "hint1": "Rachel Weisz",
+    "hint2": "2021",
+    "hint3": "Black Widow",
+    "role": "Réformé",
+    "abilities": [
+      "Arts Martiaux",
+      "Espionnage",
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "melina_vostokoff-mcu-82111",
+    "name": "Melina Vostokoff",
+    "status": "Décédé",
+    "aliases": [
+      "Iron Maiden",
+      "Melina Vostokoff"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Chambre rouge",
+    "firstAppearance": "What If...? (Saison 2)",
+    "hint1": "",
+    "hint2": "2023",
+    "hint3": "What If...? (Saison 2)",
+    "role": "Allié",
+    "abilities": [
+      "Arts Martiaux",
+      "Espionnage"
+    ],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "melvin_potter-mcu-616",
+    "name": "Melvin Potter",
+    "status": "En Vie",
+    "aliases": [
+      "Melvin Potter",
+      "Melvin"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Matt Gerald",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mephistopheles-independants-121347",
+    "name": "Méphistophélès",
+    "status": "En Vie",
+    "aliases": [
+      "Méphisto",
+      "Mephistopheles",
+      "Le Diable",
+      "Roarke"
+    ],
+    "species": "Démon",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ghost Rider",
+    "hint1": "Peter Fonda",
+    "hint2": "2007",
+    "hint3": "Ghost Rider, Ghost Rider : L'Esprit de vengeance",
+    "role": "Vilain",
+    "abilities": [
+      "Démoniaques",
+      "Magiques"
+    ],
+    "earth": 121347,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mercury-independants-26320",
+    "name": "Mercury",
+    "status": "Décédé",
+    "aliases": [
+      "Mercury"
+    ],
+    "species": "Vampire",
+    "gender": "Femme",
+    "affiliation": "Deacon Frost",
+    "firstAppearance": "Blade",
+    "hint1": "Arly Jover",
+    "hint2": "1998",
+    "hint3": "Blade",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Monstrueuses"
+    ],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "meredith_quill-mcu-616",
+    "name": "Meredith Quill",
+    "status": "Décédé",
+    "aliases": [
+      "Meredith Quill"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "Laura Haddock",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie, Les Gardiens de la Galaxie Vol. 2",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "methodius-independants-121347",
+    "name": "Methodius",
+    "status": "Décédé",
+    "aliases": [
+      "Methodius"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Ordre des moines",
+    "firstAppearance": "Ghost Rider : L'Esprit de vengeance",
+    "hint1": "Christopher Lambert",
+    "hint2": "2012",
+    "hint3": "Ghost Rider : L'Esprit de vengeance",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 121347,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "michael_carter-mcu-616",
+    "name": "Michael Carter",
+    "status": "En Vie",
+    "aliases": [
+      "Michael Carter",
+      "Mikey"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Agent Carter (Saison 2)",
+    "hint1": "Max Brown",
+    "hint2": "2016",
+    "hint3": "Agent Carter (Saison 2)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "micky_duka-independants-58732",
+    "name": "Micky Duka",
+    "status": "En Vie",
+    "aliases": [
+      "Micky Duka",
+      "Micky"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Howard Saint",
+    "firstAppearance": "Le Punisher",
+    "hint1": "Will Patton",
+    "hint2": "2004",
+    "hint3": "Le Punisher",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 58732,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mikayla_bell-mcu-616",
+    "name": "Mikayla Bell",
+    "status": "En Vie",
+    "aliases": [
+      "Mikayla Bell",
+      "Mikayla"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Cloak & Dagger (Saison 2)",
+    "hint1": "Cecilia Leal",
+    "hint2": "2019",
+    "hint3": "Cloak & Dagger (Saison 2)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mikhail_sytsevich-mcu-86445",
+    "name": "Mikhail Sytsevich",
+    "status": "En Vie",
+    "aliases": [
+      "Le Rhino",
+      "Rhino",
+      "Mikhail Sytsevich"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "hint1": "Travis Willingham",
+    "hint2": "2025",
+    "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Technologiques"
+    ],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mikhail_ursus-mcu-616",
+    "name": "Mikhail Ursus",
+    "status": "En Vie",
+    "aliases": [
+      "Ursa Major",
+      "Ursa",
+      "Mikhail Ursus"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Prison du Septième Cercle",
+    "firstAppearance": "Black Widow",
+    "hint1": "Olivier Richters",
+    "hint2": "2021",
+    "hint3": "Black Widow",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "miles_van_ert-mcu-616",
+    "name": "Miles Van Ert",
+    "status": "En Vie",
+    "aliases": [
+      "Miles Van Ert"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Leet Brannis",
+    "firstAppearance": "Agent Carter (Saison 1)",
+    "hint1": "James Urbaniak",
+    "hint2": "2015",
+    "hint3": "Agent Carter (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "milo-ssu-688",
+    "name": "Milo",
+    "status": "Décédé",
+    "aliases": [
+      "Lucien",
+      "Milo"
+    ],
+    "species": "Vampire",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Morbius",
+    "hint1": "Matt Smith",
+    "hint2": "2022",
+    "hint3": "Morbius",
+    "role": "Vilain",
+    "abilities": [
+      "Monstrueuses",
+      "Surhumaines"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mina_hess-mcu-616",
+    "name": "Mina Hess",
+    "status": "En Vie",
+    "aliases": [
+      "Mina Hess",
+      "Mina"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Roxxon",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Ally Maki",
+    "hint2": "2018",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "miriam_sharpe-mcu-616",
+    "name": "Miriam Sharpe",
+    "status": "En Vie",
+    "aliases": [
+      "Miriam Sharpe"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Captain America : Civil War",
+    "hint1": "Alfre Woodard",
+    "hint2": "2016",
+    "hint3": "Captain America : Civil War",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mitchell_carson-mcu-616",
+    "name": "Mitchell Carson",
+    "status": "En Vie",
+    "aliases": [
+      "Mitchell Carson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Ant-Man",
+    "hint1": "Martin Donovan",
+    "hint2": "2015",
+    "hint3": "Ant-Man",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "moloka_dar-mcu-616",
+    "name": "Moloka Dar",
+    "status": "Décédé",
+    "aliases": [
+      "Moloka Dar"
+    ],
+    "species": "Alien",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "Alexis Rodney",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "monti-mcu-616",
+    "name": "Monti",
+    "status": "En Vie",
+    "aliases": [
+      "Monti"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.W.O.R.D.",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "Alan Heckner",
+    "hint2": "2021",
+    "hint3": "WandaVision (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]

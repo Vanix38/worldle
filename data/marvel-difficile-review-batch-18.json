@@ -1,0 +1,463 @@
+[
+  {
+    "id": "kenneth_fuchs-mcu-616",
+    "name": "Kenneth Fuchs",
+    "status": "Décédé",
+    "aliases": [
+      "Ken Fuchs",
+      "Kenneth Fuchs"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "New Orleans P.D.",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Lane Miller",
+    "hint2": "2018",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Policières"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kenneth_turgeon-mcu-616",
+    "name": "Kenneth Turgeon",
+    "status": "En Vie",
+    "aliases": [
+      "Kenneth Turgeon"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "hint1": "Adam Kulbersh",
+    "hint2": "2014",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kevin_page-mcu-616",
+    "name": "Kevin Page",
+    "status": "Décédé",
+    "aliases": [
+      "Kevin Page"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "Jack DiFalco",
+    "hint2": "2018",
+    "hint3": "Daredevil (Saison 3)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kevin_singleton-mcu-616",
+    "name": "Kevin Singleton",
+    "status": "Décédé",
+    "aliases": [
+      "Kevin Singleton"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Harold Meachum",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Ramon Fernandez",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kingo-mcu-616",
+    "name": "Kingo",
+    "status": "En Vie",
+    "aliases": [
+      "Kingo"
+    ],
+    "species": "Eternal",
+    "gender": "Homme",
+    "affiliation": "Éternels",
+    "firstAppearance": "Eternals",
+    "hint1": "Kumail Nanjiani",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Héros",
+    "abilities": [
+      "Cosmiques",
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kirk_vogel-mcu-616",
+    "name": "Kirk Vogel",
+    "status": "Décédé",
+    "aliases": [
+      "Kirk Vogel"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Afterlife",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "Mark Atteberry",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kitang-mcu-616",
+    "name": "Kitang",
+    "status": "Décédé",
+    "aliases": [
+      "Kitang"
+    ],
+    "species": "Inhumain",
+    "gender": "Homme",
+    "affiliation": "Famille royale d'Attilan",
+    "firstAppearance": "Inhumans (Saison 1)",
+    "hint1": "Marco Rodríguez",
+    "hint2": "2017",
+    "hint3": "Inhumans (Saison 1)",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kith_lyonne-mcu-616",
+    "name": "Kith Lyonne",
+    "status": "En Vie",
+    "aliases": [
+      "Kith Lyonne"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Jessica Jones (Saison 3)",
+    "hint1": "Sarita Choudhury",
+    "hint2": "2019",
+    "hint3": "Jessica Jones (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "klev-mcu-616",
+    "name": "Klev",
+    "status": "En Vie",
+    "aliases": [
+      "Klev"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "Zach Cherry",
+    "hint2": "2017",
+    "hint3": "Spider-Man : Homecoming",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "klev-mcu-86445",
+    "name": "Klev",
+    "status": "En Vie",
+    "aliases": [
+      "Klev"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "hint1": "",
+    "hint2": "2025",
+    "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "knull-ssu-688",
+    "name": "Knull",
+    "status": "En Vie",
+    "aliases": [
+      "Roi en Noir",
+      "King in Black",
+      "God of the Void",
+      "Knull"
+    ],
+    "species": "God",
+    "gender": "Homme",
+    "affiliation": "Xénophages",
+    "firstAppearance": "Venom : The Last Dance",
+    "hint1": "",
+    "hint2": "2024",
+    "hint3": "Venom : The Last Dance",
+    "role": "Vilain",
+    "abilities": [
+      "Divinnes",
+      "Aliennnes",
+      "Monstrueuses"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "korath-mcu-21818",
+    "name": "Korath",
+    "status": "En Vie",
+    "aliases": [
+      "Korath le Poursuiveur",
+      "Korath"
+    ],
+    "species": "Kree",
+    "gender": "Homme",
+    "affiliation": "Ronan",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Djimon Hounsou",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Militaires"
+    ],
+    "earth": 21818,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "korath-mcu-616",
+    "name": "Korath",
+    "status": "Décédé",
+    "aliases": [
+      "Korath le Poursuiveur",
+      "Korath"
+    ],
+    "species": "Kree",
+    "gender": "Homme",
+    "affiliation": "Starforce",
+    "firstAppearance": "Les Gardiens de la Galaxie",
+    "hint1": "Djimon Hounsou",
+    "hint2": "2014",
+    "hint3": "Les Gardiens de la Galaxie, Captain Marvel, What If...? (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "korg-mcu-72124",
+    "name": "Korg",
+    "status": "En Vie",
+    "aliases": [
+      "Korg"
+    ],
+    "species": "Kronan",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Taika Waititi",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Aliennnes",
+      "Surhumaines"
+    ],
+    "earth": 72124,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "kraglin_obfonteri-mcu-21818",
+    "name": "Kraglin Obfonteri",
+    "status": "En Vie",
+    "aliases": [
+      "Kraglin",
+      "Kraglin Obfonteri"
+    ],
+    "species": "Xandarian",
+    "gender": "Homme",
+    "affiliation": "Ravageurs",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Sean Gunn",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Technologiques",
+      "Aliennnes"
+    ],
+    "earth": 21818,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "kro-mcu-616",
+    "name": "Kro",
+    "status": "Décédé",
+    "aliases": [
+      "Kro"
+    ],
+    "species": "Deviant",
+    "gender": "Homme",
+    "affiliation": "Déviants",
+    "firstAppearance": "Eternals",
+    "hint1": "Bill Skarsgård",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Vilain",
+    "abilities": [
+      "Monstrueuses",
+      "Régénération"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kuda-mcu-616",
+    "name": "Kuda",
+    "status": "En Vie",
+    "aliases": [
+      "Kuda"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hatut Zaraze",
+    "firstAppearance": "Eyes of Wakanda (Saison 1)",
+    "hint1": "Steve Toussaint",
+    "hint2": "2025",
+    "hint3": "Eyes of Wakanda (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kurt_wagner-fox_x_men-41633",
+    "name": "Kurt Wagner",
+    "status": "En Vie",
+    "aliases": [
+      "Diablo",
+      "Nightcrawler",
+      "Kurt Wagner"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "X-Men",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Kodi Smit-McPhee",
+    "hint2": "2018",
+    "hint3": "Deadpool 2",
+    "role": "Héros",
+    "abilities": [
+      "Téléportation",
+      "Surhumaines",
+      "Animales"
+    ],
+    "earth": 41633,
+    "universe": "Fox X-Men",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "kyle-mcu-616",
+    "name": "Kyle",
+    "status": "En Vie",
+    "aliases": [
+      "Kyle"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Alex Wyse",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "laufey-mcu-616",
+    "name": "Laufey",
+    "status": "Décédé",
+    "aliases": [
+      "Roi Laufey",
+      "Laufey"
+    ],
+    "species": "Frost Giant",
+    "gender": "Homme",
+    "affiliation": "Jotunheim",
+    "firstAppearance": "Thor",
+    "hint1": "Colm Feore",
+    "hint2": "2011",
+    "hint3": "Thor",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Cryokinésiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]

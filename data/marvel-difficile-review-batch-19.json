@@ -1,0 +1,464 @@
+[
+  {
+    "id": "lawrence_wilkins-mcu-616",
+    "name": "Lawrence Wilkins",
+    "status": "Décédé",
+    "aliases": [
+      "Lawrence Wilkins"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Rand Enterprises",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Clifton Davis",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "leech-fox_x_men-10005",
+    "name": "Leech",
+    "status": "En Vie",
+    "aliases": [
+      "Jimmy",
+      "Leech"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "X-Men",
+    "firstAppearance": "X-Men : L'Affrontement final",
+    "hint1": "Cameron Bright",
+    "hint2": "2006",
+    "hint3": "X-Men : L'Affrontement final",
+    "role": "Allié",
+    "abilities": [
+      "Anti-Pouvoir"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "leet_brannis-mcu-616",
+    "name": "Leet Brannis",
+    "status": "Décédé",
+    "aliases": [
+      "Leet Brannis"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Leviathan",
+    "firstAppearance": "Agent Carter (Saison 1)",
+    "hint1": "James Frain",
+    "hint2": "2015",
+    "hint3": "Agent Carter (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "leila_taylor-mcu-616",
+    "name": "Leila Taylor",
+    "status": "En Vie",
+    "aliases": [
+      "Agent Taylor",
+      "Leila Taylor"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Secret Service",
+    "firstAppearance": "Captain America : Brave New World",
+    "hint1": "Xosha Roquemore",
+    "hint2": "2025",
+    "hint3": "Captain America : Brave New World",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "leland_owlsley-mcu-616",
+    "name": "Leland Owlsley",
+    "status": "Décédé",
+    "aliases": [
+      "Le Hibou",
+      "Owl",
+      "Leland Owlsley"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Wilson Fisk",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Bob Gunton",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "leo_lieberman-mcu-616",
+    "name": "Leo Lieberman",
+    "status": "En Vie",
+    "aliases": [
+      "Leo",
+      "Leo Lieberman"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Le Punisher (Saison 1)",
+    "hint1": "Ripley Sobo",
+    "hint2": "2017",
+    "hint3": "Le Punisher (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "leonard_kirk-fox_fantastiques-121698",
+    "name": "Leonard Kirk",
+    "status": "En Vie",
+    "aliases": [
+      "Leonard Kirk"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Von Doom Industries",
+    "firstAppearance": "Les 4 Fantastiques",
+    "hint1": "Hamish Linklater",
+    "hint2": "2005",
+    "hint3": "Les 4 Fantastiques",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 121698,
+    "universe": "Fox Fantastiques",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "li_ching_lin-mcu-616",
+    "name": "Li Ching-Lin",
+    "status": "Décédé",
+    "aliases": [
+      "Death Dealer",
+      "Li Ching-Lin"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Les Dix Anneaux",
+    "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
+    "hint1": "Andy Le",
+    "hint2": "2021",
+    "hint3": "Shang-Chi et la Légende des Dix Anneaux",
+    "role": "Vilain",
+    "abilities": [
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "liam_walsh-mcu-616",
+    "name": "Liam Walsh",
+    "status": "En Vie",
+    "aliases": [
+      "Harrison Westen",
+      "Liam Walsh"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Carl Lundstedt",
+    "hint2": "2018",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lighthammer-independants-26320",
+    "name": "Lighthammer",
+    "status": "Décédé",
+    "aliases": [
+      "Lighthammer"
+    ],
+    "species": "Vampire",
+    "gender": "Homme",
+    "affiliation": "Bloodpack",
+    "firstAppearance": "Blade II",
+    "hint1": "Daz Crawford",
+    "hint2": "2002",
+    "hint3": "Blade II",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Régénération"
+    ],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lilia_calderu-mcu-616",
+    "name": "Lilia Calderu",
+    "status": "Décédé",
+    "aliases": [
+      "Lilia",
+      "Lilia Calderu"
+    ],
+    "species": "Sorcière",
+    "gender": "Femme",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "Patti LuPone",
+    "hint2": "2024",
+    "hint3": "Agatha All Along (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Magiques",
+      "Précognition"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lilla_mackenzie-mcu-616",
+    "name": "Lilla Mackenzie",
+    "status": "En Vie",
+    "aliases": [
+      "Lilla Mackenzie"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 7)",
+    "hint1": "Paulina Bugembe",
+    "hint2": "2020",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 7)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "linus_lieberman-independants-47281",
+    "name": "Linus Lieberman",
+    "status": "Décédé",
+    "aliases": [
+      "Microchip",
+      "Micro",
+      "Linus Lieberman"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Le Punisher",
+    "firstAppearance": "Punisher: War Zone",
+    "hint1": "Wayne Knight",
+    "hint2": "2008",
+    "hint3": "Punisher: War Zone",
+    "role": "Allié",
+    "abilities": [
+      "Technologiques",
+      "Intellectuelles"
+    ],
+    "earth": 47281,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lisa_barbara_castle-mcu-616",
+    "name": "Lisa Castle",
+    "status": "Décédé",
+    "aliases": [
+      "Lisa Barbara Castle",
+      "Lisa Castle"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil (Saison 2)",
+    "hint1": "",
+    "hint2": "2016",
+    "hint3": "Daredevil (Saison 2), Le Punisher (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "livia_saint-independants-58732",
+    "name": "Livia Saint",
+    "status": "Décédé",
+    "aliases": [
+      "Livia Saint"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Le Punisher",
+    "hint1": "Laura Harring",
+    "hint2": "2004",
+    "hint3": "Le Punisher",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 58732,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lockheed-fox_x_men-10005",
+    "name": "Lockheed",
+    "status": "En Vie",
+    "aliases": [
+      "Lockheed"
+    ],
+    "species": "Alien",
+    "gender": "Homme",
+    "affiliation": "Illyana Rasputin",
+    "firstAppearance": "The New Mutants",
+    "hint1": "",
+    "hint2": "2020",
+    "hint3": "The New Mutants",
+    "role": "Animal",
+    "abilities": [
+      "Aliennnes",
+      "Pyrokinésiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lockjaw-mcu-616",
+    "name": "Lockjaw",
+    "status": "En Vie",
+    "aliases": [
+      "Lockjaw"
+    ],
+    "species": "Inhumain",
+    "gender": "Homme",
+    "affiliation": "Famille royale inhumaine",
+    "firstAppearance": "Inhumans (Saison 1)",
+    "hint1": "",
+    "hint2": "2017",
+    "hint3": "Inhumans (Saison 1)",
+    "role": "Animal",
+    "abilities": [
+      "Téléportation",
+      "Surhumaines"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "loki_laufeyson-mcu-72124",
+    "name": "Loki Laufeyson",
+    "status": "En Vie",
+    "aliases": [
+      "Loki",
+      "Loki Laufeyson"
+    ],
+    "species": "Frost Giant",
+    "gender": "Homme",
+    "affiliation": "Géants des Glaces",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Tom Hiddleston",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Magiques",
+      "Surhumaines"
+    ],
+    "earth": 72124,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "loki_laufeyson-mcu-82111",
+    "name": "Loki Laufeyson",
+    "status": "En Vie",
+    "aliases": [
+      "Loki",
+      "Loki Laufeyson"
+    ],
+    "species": "Asgardian",
+    "gender": "Homme",
+    "affiliation": "Asgard",
+    "firstAppearance": "What If...? (Saison 2)",
+    "hint1": "Tom Hiddleston",
+    "hint2": "2023",
+    "hint3": "What If...? (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Surhumaines"
+    ],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "loki_pretentieux-mcu-0",
+    "name": "Loki Prétentieux",
+    "status": "En Vie",
+    "aliases": [
+      "Loki Prétentieux",
+      "Boastful Loki"
+    ],
+    "species": "Frost Giant",
+    "gender": "Homme",
+    "affiliation": "Vortex (TVA)",
+    "firstAppearance": "Loki (Saison 1)",
+    "hint1": "DeObia Oparei",
+    "hint2": "2021",
+    "hint3": "Loki (Saison 1)",
+    "role": "Traître",
+    "abilities": [
+      "Magiques",
+      "Aliennnes"
+    ],
+    "earth": 0,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]

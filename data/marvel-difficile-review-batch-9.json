@@ -1,0 +1,458 @@
+[
+  {
+    "id": "donald_donnie_chang-mcu-616",
+    "name": "Donald Chang",
+    "status": "En Vie",
+    "aliases": [
+      "Donnie Chang",
+      "Donald Chang"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "NYPD",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Andrew Pang",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Policières"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "donald_donnie_gill-mcu-616",
+    "name": "Donald Gill",
+    "status": "Décédé",
+    "aliases": [
+      "Blizzard",
+      "Donnie Gill",
+      "Donald Gill"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "Dylan Minnette",
+    "hint2": "2013",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1), Agents of S.H.I.E.L.D. (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Cryokinésiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "donna_kraft-mcu-616",
+    "name": "Donna Kraft",
+    "status": "En Vie",
+    "aliases": [
+      "Donna Kraft"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Moon Knight (Saison 1)",
+    "hint1": "Lucy Thackeray",
+    "hint2": "2022",
+    "hint3": "Moon Knight (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "dormammu-mcu-91233",
+    "name": "Dormammu",
+    "status": "En Vie",
+    "aliases": [
+      "Dormammu",
+      "Seigneur de la Dimension noire"
+    ],
+    "species": "Faltine",
+    "gender": "Homme",
+    "affiliation": "Dimension noire",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Benedict Cumberbatch",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Amoral",
+    "abilities": [
+      "Cosmiques",
+      "Mystiques"
+    ],
+    "earth": 91233,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "doug-mcu-616",
+    "name": "Doug",
+    "status": "Décédé",
+    "aliases": [
+      "Doug"
+    ],
+    "species": "Alien",
+    "gender": "Homme",
+    "affiliation": "Sakaar",
+    "firstAppearance": "Thor : Ragnarok",
+    "hint1": "",
+    "hint2": "2017",
+    "hint3": "Thor : Ragnarok",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "dr_dora_skirth-ssu-688",
+    "name": "Dora Skirth",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Dora Skirth",
+      "Dora Skirth"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Life Foundation",
+    "firstAppearance": "Venom",
+    "hint1": "Jenny Slate",
+    "hint2": "2018",
+    "hint3": "Venom",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles",
+      "Sciences"
+    ],
+    "earth": 688,
+    "universe": "SSU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "dr_maximilian_max_fargas-raimi_verse-96283",
+    "name": "Maximilian Fargas",
+    "status": "Décédé",
+    "aliases": [
+      "Max Fargas",
+      "Dr. Maximilian Fargas"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Spider-Man",
+    "hint1": "Gerry Becker",
+    "hint2": "2002",
+    "hint3": "Spider-Man",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "dr_mendel_stromm-raimi_verse-96283",
+    "name": "Mendel Stromm",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Stromm",
+      "Dr. Mendel Stromm"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Oscorp",
+    "firstAppearance": "Spider-Man",
+    "hint1": "Ron Perkins",
+    "hint2": "2002",
+    "hint3": "Spider-Man",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles",
+      "Sciences"
+    ],
+    "earth": 96283,
+    "universe": "Raimi-Verse",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "druig-mcu-616",
+    "name": "Druig",
+    "status": "En Vie",
+    "aliases": [
+      "Druig"
+    ],
+    "species": "Eternal",
+    "gender": "Homme",
+    "affiliation": "Éternels",
+    "firstAppearance": "Eternals",
+    "hint1": "Barry Keoghan",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Héros",
+    "abilities": [
+      "Cosmiques",
+      "Psioniques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "dwight_frye-mcu-616",
+    "name": "Dwight Frye",
+    "status": "Décédé",
+    "aliases": [
+      "Dwight Frye"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Lash",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "Chad Lindberg",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "eddie-mcu-616",
+    "name": "Eddie",
+    "status": "En Vie",
+    "aliases": [
+      "Boyf",
+      "Eddie"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "Miles Gutierrez-Riley",
+    "hint2": "2024",
+    "hint3": "Agatha All Along (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "edie_lehnsherr-fox_x_men-10005",
+    "name": "Edie Lehnsherr",
+    "status": "Décédé",
+    "aliases": [
+      "Edie Lensherr",
+      "Edie Lehnsherr"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "X-Men : Le Commencement",
+    "hint1": "Eva Magyar",
+    "hint2": "2011",
+    "hint3": "X-Men : Le Commencement",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "edison_po-mcu-616",
+    "name": "Edison Po",
+    "status": "Décédé",
+    "aliases": [
+      "Edison Po"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Centipede",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "Cullen Douglas",
+    "hint2": "2013",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "edith_banner-independants-400083",
+    "name": "Edith Banner",
+    "status": "Décédé",
+    "aliases": [
+      "Edith Banner"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Hulk",
+    "hint1": "Cara Buono",
+    "hint2": "2003",
+    "hint3": "Hulk",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 400083,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "edward_eddie_fallon-independants-701306",
+    "name": "Edward Fallon",
+    "status": "En Vie",
+    "aliases": [
+      "Fixer",
+      "Eddie Fallon",
+      "Edward Fallon"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Daredevil",
+    "hint1": "Joe Pantoliano",
+    "hint2": "2003",
+    "hint3": "Daredevil",
+    "role": "Vilain",
+    "abilities": [
+      "Direction criminelle"
+    ],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "edward_eddy_costa-mcu-616",
+    "name": "Edward Costa",
+    "status": "En Vie",
+    "aliases": [
+      "Eddy Costa",
+      "Edward Costa"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "NYPD",
+    "firstAppearance": "Jessica Jones (Saison 2)",
+    "hint1": "John Ventimiglia",
+    "hint2": "2018",
+    "hint3": "Jessica Jones (Saison 2), Jessica Jones (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Policières"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "edward_nelson-mcu-616",
+    "name": "Edward Nelson",
+    "status": "En Vie",
+    "aliases": [
+      "Edward Nelson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "",
+    "hint2": "2018",
+    "hint3": "Daredevil (Saison 3)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "eileen_mercer-mcu-616",
+    "name": "Eileen Mercer",
+    "status": "En Vie",
+    "aliases": [
+      "Eileen Mercer"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "",
+    "hint2": "2018",
+    "hint3": "Daredevil (Saison 3)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "eir-mcu-616",
+    "name": "Eir",
+    "status": "En Vie",
+    "aliases": [
+      "Eir"
+    ],
+    "species": "Asgardian",
+    "gender": "Femme",
+    "affiliation": "Asgard",
+    "firstAppearance": "Thor : Le Monde des Ténèbres",
+    "hint1": "Alice Krige",
+    "hint2": "2013",
+    "hint3": "Thor : Le Monde des Ténèbres",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "elaine_grey-fox_x_men-10005",
+    "name": "Elaine Grey",
+    "status": "Décédé",
+    "aliases": [
+      "Elaine Grey"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "X-Men : Dark Phoenix",
+    "hint1": "Hannah Emily Anderson",
+    "hint2": "2019",
+    "hint3": "X-Men : Dark Phoenix",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  }
+]

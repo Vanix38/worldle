@@ -1,0 +1,264 @@
+[
+  {
+    "id": "taserface-mcu-616",
+    "name": "Taserface",
+    "status": "Décédé",
+    "aliases": [
+      "Taserface"
+    ],
+    "species": "Sakaaran",
+    "gender": "Homme",
+    "affiliation": "Ravageurs",
+    "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
+    "hint1": "Chris Sullivan",
+    "hint2": "2017",
+    "hint3": "Les Gardiens de la Galaxie Vol. 2",
+    "role": "Vilain",
+    "abilities": [
+      "Aliennnes",
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "thaddeus_ross-independants-400083",
+    "name": "Thaddeus Ross (Terre-400083)",
+    "status": "En Vie",
+    "aliases": [
+      "Général Ross",
+      "Thunderbolt Ross",
+      "Thaddeus E. Ross"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "États-Unis",
+    "firstAppearance": "Hulk",
+    "hint1": "Sam Elliott",
+    "hint2": "2003",
+    "hint3": "Hulk",
+    "role": "Antagoniste",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 400083,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "volstagg-mcu-616",
+    "name": "Volstagg",
+    "status": "Décédé",
+    "aliases": [
+      "Volstagg"
+    ],
+    "species": "Asgardian",
+    "gender": "Homme",
+    "affiliation": "Asgard",
+    "firstAppearance": "Thor",
+    "hint1": "Ray Stevenson",
+    "hint2": "2011",
+    "hint3": "Thor, Thor : Le Monde des Ténèbres, Thor : Ragnarok",
+    "role": "Allié",
+    "abilities": [
+      "Divinnes"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "wade_wilson-young-fox_x_men-10005",
+    "name": "Wade Wilson (Origines)",
+    "status": "Décédé",
+    "aliases": [
+      "Arme XI",
+      "Weapon XI",
+      "Wade Winston Wilson"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Programme Weapon X",
+    "firstAppearance": "X-Men Origins : Wolverine",
+    "hint1": "Ryan Reynolds",
+    "hint2": "2009",
+    "hint3": "X-Men Origins : Wolverine",
+    "role": "Vilain",
+    "abilities": [
+      "Régénération",
+      "Téléportation",
+      "Energétiques",
+      "Technologiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ward_meachum-mcu-616",
+    "name": "Ward Meachum",
+    "status": "En Vie",
+    "aliases": [
+      "Ward Meachum"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Rand Entreprises",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Tom Pelphrey",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1), Iron Fist (Saison 2)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "wesley-mcu-616",
+    "name": "Wesley",
+    "status": "Décédé",
+    "aliases": [
+      "James Wesley",
+      "Wesley"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Wilson Fisk",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Toby Leonard Moore",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil : Born Again (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "white_vision-mcu-616",
+    "name": "White Vision",
+    "status": "En Vie",
+    "aliases": [
+      "Vision Blanche",
+      "White Vision",
+      "Vision"
+    ],
+    "species": "Robot",
+    "gender": "Homme",
+    "affiliation": "S.W.O.R.D.",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "Paul Bettany",
+    "hint2": "2021",
+    "hint3": "WandaVision (Saison 1)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Technologiques",
+      "Energétiques",
+      "Intangibilité"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "willis_stryker-mcu-616",
+    "name": "Willis Stryker",
+    "status": "En Vie",
+    "aliases": [
+      "Diamondback",
+      "Willis Harold Stryker",
+      "Willis Stryker"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Erik LaRay Harvey",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "xialing-mcu-616",
+    "name": "Xialing",
+    "status": "En Vie",
+    "aliases": [
+      "Xu Xialing",
+      "Xialing"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Les Dix Anneaux",
+    "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
+    "hint1": "Meng'er Zhang",
+    "hint2": "2021",
+    "hint3": "Shang-Chi et la Légende des Dix Anneaux",
+    "role": "Anti-héros",
+    "abilities": [
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "yukio-fox_x_men-10005",
+    "name": "Yukio",
+    "status": "En Vie",
+    "aliases": [
+      "Yukio"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "X-Force",
+    "firstAppearance": "Deadpool 2",
+    "hint1": "Shioli Kutsuna",
+    "hint2": "2018",
+    "hint3": "Deadpool 2, Deadpool & Wolverine",
+    "role": "Héros",
+    "abilities": [
+      "Précognition",
+      "Arts Martiaux"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "yuriko_oyama-fox_x_men-10005",
+    "name": "Yuriko Oyama",
+    "status": "Décédé",
+    "aliases": [
+      "Lady Deathstrike",
+      "Deathstrike",
+      "Yuriko Oyama"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "Programme Weapon X",
+    "firstAppearance": "X-Men 2",
+    "hint1": "Kelly Hu",
+    "hint2": "2003",
+    "hint3": "X-Men 2, Deadpool & Wolverine",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Régénération"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  }
+]

@@ -1,0 +1,1222 @@
+{
+  "updated_count": 531,
+  "batch_counts": {
+    "1": 20,
+    "2": 20,
+    "3": 20,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 20,
+    "8": 20,
+    "9": 20,
+    "10": 20,
+    "11": 20,
+    "12": 20,
+    "13": 20,
+    "14": 20,
+    "15": 20,
+    "16": 20,
+    "17": 20,
+    "18": 20,
+    "19": 20,
+    "20": 20,
+    "21": 20,
+    "22": 20,
+    "23": 20,
+    "24": 20,
+    "25": 20,
+    "26": 20,
+    "27": 11
+  },
+  "batch_total": 531,
+  "unique_ids_count": 531,
+  "unique_ids": [
+    "aamir_khan-mcu-616",
+    "aaron_davis-mcu-616",
+    "abby_miller-independants-701306",
+    "abilash_tandon-mcu-616",
+    "abraham_erskine-mcu-82111",
+    "abu_bakaar-mcu-616",
+    "adina_johnson-mcu-616",
+    "agnes_kitsworth-mcu-616",
+    "agon-mcu-616",
+    "ahmad_zubair-mcu-616",
+    "aj-mcu-616",
+    "ajak-mcu-616",
+    "akela_amador-mcu-616",
+    "akeya-mcu-616",
+    "akihiko-mcu-616",
+    "albert_rackham-mcu-616",
+    "albert_thompson-mcu-616",
+    "aleksei_sytsevich-webb_verse-120703",
+    "alessa_geomi-mcu-616",
+    "aleta_ogord-mcu-616",
+    "alex_wesley-mcu-616",
+    "alexandra-mcu-616",
+    "alexei_shostakov-mcu-82111",
+    "algrim-mcu-616",
+    "alice_wu_gulliver-mcu-616",
+    "alicia_masters-fox_fantastiques-121698",
+    "alisa_campbell-mcu-616",
+    "alonzo_lonnie_lincoln-independants-58732",
+    "alonzo_lonnie_lincoln-mcu-616",
+    "alonzo_lonnie_lincoln-mcu-86445",
+    "alonzo_lonnie_lincoln-spider_verse-8311",
+    "alveus-mcu-616",
+    "amy_bendix-mcu-616",
+    "ana_jarvis-mcu-616",
+    "ancient_one-mcu-91233",
+    "anderson_schultz-mcu-616",
+    "andre_deschaine-mcu-616",
+    "aneka-mcu-616",
+    "angel_salvadore-fox_x_men-10005",
+    "angela_angie_martinelli-mcu-616",
+    "angela_del_toro-mcu-616",
+    "anne_weaver-mcu-616",
+    "anton_ivanov-mcu-616",
+    "anton_mogart-mcu-616",
+    "anton_vanko-mcu-616",
+    "anya-mcu-616",
+    "anya_corazon-ssu-688",
+    "armando_munoz-fox_x_men-10005",
+    "arnim_zola-mcu-82111",
+    "asad-independants-26320",
+    "asher_talos-independants-26320",
+    "ashley_kafka-webb_verse-120703",
+    "att_lass-mcu-616",
+    "attuma-mcu-616",
+    "audrey_nathan-mcu-616",
+    "augustus_pug_pugliese-mcu-616",
+    "auran-mcu-616",
+    "axel_cluney-fox_x_men-41633",
+    "axl_heimdallson-mcu-616",
+    "ayesha-mcu-616",
+    "azazel-fox_x_men-10005",
+    "b_kai-mcu-616",
+    "baron_wolfgang_von_strucker-mcu-616",
+    "barton_blaze-independants-121347",
+    "basha-mcu-616",
+    "bb_urich-mcu-616",
+    "ben_urich-mcu-616",
+    "benjamin_ben_urich-independants-701306",
+    "benjamin_bennie_pollack-mcu-616",
+    "benjamin_donovan-mcu-616",
+    "benjamin_donovan-mcu-86445",
+    "benjamin_hochberg-mcu-616",
+    "bereet-mcu-616",
+    "beto-mcu-616",
+    "betsy_beatty-mcu-616",
+    "betty_ross-mcu-616",
+    "billy_fitzgerald-mcu-616",
+    "blackheart-independants-121347",
+    "blurp-mcu-616",
+    "bob_dobalina-fox_x_men-10005",
+    "bob_fairbanks-mcu-616",
+    "bobbi_kennedy-mcu-616",
+    "bonebreaker-fox_x_men-17315",
+    "bor_burison-mcu-616",
+    "brad_davis-mcu-616",
+    "brent_willard-mcu-616",
+    "brian_calusky-mcu-616",
+    "brian_jones-mcu-616",
+    "brianna_gelden-mcu-616",
+    "brock_rumlow-mcu-72124",
+    "brock_rumlow-mcu-82111",
+    "brogan-mcu-616",
+    "broker-mcu-616",
+    "bron_char-mcu-616",
+    "bruce_banner-independants-400083",
+    "bruno_carrelli-mcu-616",
+    "butane-mcu-86445",
+    "byrdie_the_duck-mcu-72124",
+    "cagliostro-mcu-91233",
+    "cain_marko-mcu-616",
+    "caliban-fox_x_men-10005",
+    "callisto-fox_x_men-10005",
+    "calvin_chadwick-mcu-616",
+    "cameleon-ssu-688",
+    "cameron_klein-mcu-616",
+    "camilla_reyes-mcu-616",
+    "camille_pazzo-ssu-688",
+    "candace_miller-mcu-616",
+    "carina-mcu-21818",
+    "carina-mcu-616",
+    "carl_hoffman-mcu-616",
+    "carla_connors-mcu-86445",
+    "carla_talbot-mcu-616",
+    "carmilla_black-mcu-86445",
+    "carson_wolf-mcu-616",
+    "carter_kounen-independants-26320",
+    "cass-mcu-616",
+    "chan_ho_yin-mcu-616",
+    "chantelle_fusilier-mcu-616",
+    "charles_hinton-mcu-616",
+    "charles_xavier-fox_x_men-41633",
+    "charlie_27-mcu-616",
+    "christian_blake-mcu-616",
+    "christian_ward-mcu-616",
+    "christine_everhart-mcu-616",
+    "christine_palmer-mcu-91233",
+    "christofi_savva-mcu-616",
+    "chupa-independants-26320",
+    "cindy_moon-mcu-616",
+    "claire_weiss-mcu-616",
+    "clark_pitts-mcu-616",
+    "clinton_barton-mcu-82111",
+    "clown-mcu-616",
+    "cole_miller-mcu-616",
+    "cole_north-mcu-616",
+    "connie_lin-mcu-616",
+    "constance_webb-ssu-688",
+    "cornell_stokes-mcu-616",
+    "craig_sinclair-fox_x_men-10005",
+    "cristu_bulat-independants-47281",
+    "curt_connors-raimi_verse-96283",
+    "curtis_webb-independants-26320",
+    "damon_boone-mcu-616",
+    "damon_keller-mcu-616",
+    "dane_whitman-mcu-616",
+    "daniel_gooobler-mcu-616",
+    "danielle_dani_cage_jones-mcu-616",
+    "darius_davis-mcu-616",
+    "darius_jones-mcu-616",
+    "darryl_jacobson-mcu-616",
+    "david_dave_daniels-independants-58732",
+    "david_lieberman-mcu-616",
+    "davos-mcu-616",
+    "debbie_mcilvane-fox_fantastiques-121698",
+    "delmar-mcu-616",
+    "dennis_carradine-raimi_verse-96283",
+    "diego-mcu-616",
+    "dinah_madani-mcu-616",
+    "dirk_garthwaite-mcu-616",
+    "dolores_miller-mcu-616",
+    "donald_donnie_chang-mcu-616",
+    "donald_donnie_gill-mcu-616",
+    "donna_kraft-mcu-616",
+    "dormammu-mcu-91233",
+    "doug-mcu-616",
+    "dr_dora_skirth-ssu-688",
+    "dr_maximilian_max_fargas-raimi_verse-96283",
+    "dr_mendel_stromm-raimi_verse-96283",
+    "druig-mcu-616",
+    "dwight_frye-mcu-616",
+    "eddie-mcu-616",
+    "edie_lehnsherr-fox_x_men-10005",
+    "edison_po-mcu-616",
+    "edith_banner-independants-400083",
+    "edward_eddie_fallon-independants-701306",
+    "edward_eddy_costa-mcu-616",
+    "edward_nelson-mcu-616",
+    "eileen_mercer-mcu-616",
+    "eir-mcu-616",
+    "elaine_grey-fox_x_men-10005",
+    "elaine_walters-mcu-616",
+    "eldrac-mcu-616",
+    "elena_cardenas-mcu-616",
+    "elena_rodriguez-mcu-616",
+    "elihas_starr-mcu-616",
+    "eliot_franklin-mcu-616",
+    "eliza_schultz-mcu-616",
+    "ellen_brandt-mcu-616",
+    "elliot_randolph-mcu-616",
+    "en_dwi_gast-mcu-72124",
+    "eric_brooks-mcu-616",
+    "eric_gitter-fox_x_men-10005",
+    "estevido_vido_arocho-mcu-616",
+    "esther_etta_lucas-mcu-616",
+    "evanora_harkness-mcu-616",
+    "fandral-mcu-616",
+    "farah_madani-mcu-616",
+    "felicia_hardy-webb_verse-120703",
+    "felix_blake-mcu-616",
+    "felix_manning-mcu-616",
+    "flint-mcu-616",
+    "foggy_nelson-independants-701306",
+    "francis_xavier_delgado-mcu-616",
+    "frank_castle-independants-47281",
+    "frank_castle-independants-58732",
+    "frank_dean-mcu-616",
+    "frankie_raye-fox_fantastiques-121698",
+    "frigga-mcu-72124",
+    "gabriela_lopez-fox_x_men-17315",
+    "galaga_guy-mcu-616",
+    "gary-mcu-616",
+    "gary_williams-mcu-616",
+    "gene_hernandez-mcu-616",
+    "george_stacy-raimi_verse-96283",
+    "georges_batroc-mcu-616",
+    "georges_batroc-mcu-82111",
+    "georgi_luchkov-mcu-616",
+    "german_old_man-mcu-616",
+    "gilbert-mcu-616",
+    "gilgamesh-mcu-616",
+    "gillian-mcu-616",
+    "gilmore_hodge-mcu-616",
+    "glenn_talbot-independants-400083",
+    "goodman-mcu-616",
+    "gordon-mcu-616",
+    "gorgon_petragon-mcu-616",
+    "grace_bennett-mcu-616",
+    "graciela_aguirre-mcu-616",
+    "grant_ward-mcu-616",
+    "greg_pressfield-mcu-616",
+    "gressil-independants-121347",
+    "guang_bo-mcu-616",
+    "gunner_henderson-mcu-616",
+    "guterman-mcu-616",
+    "gwen_mciver-mcu-616",
+    "gwen_stacy-raimi_verse-96283",
+    "hamid_madani-mcu-616",
+    "hamir-mcu-616",
+    "hammerhead-spider_verse-8311",
+    "hannah_hutchins-mcu-616",
+    "harley_keener-mcu-616",
+    "harold_happy_hogan-mcu-82111",
+    "harold_meachum-mcu-616",
+    "harry_heck_thornton-independants-58732",
+    "harry_osborn-mcu-86445",
+    "hart-mcu-616",
+    "hawley-mcu-616",
+    "headmaster-fox_x_men-41633",
+    "heather_rand-mcu-616",
+    "heimdall-mcu-72124",
+    "heinrich_schafer-mcu-616",
+    "heinz_kruger-mcu-616",
+    "heinz_kruger-mcu-82111",
+    "helen_cho-mcu-616",
+    "helen_stacy-webb_verse-120703",
+    "henry_hank_mccoy-fox_x_men-41633",
+    "henry_hunter-mcu-616",
+    "ho_yinsen-mcu-616",
+    "hogun-mcu-616",
+    "holden_holliway-mcu-616",
+    "hope_mackenzie-mcu-616",
+    "howard_stark-mcu-82111",
+    "howard_the_duck-mcu-616",
+    "hugh_jones-mcu-616",
+    "ian_boothby-mcu-616",
+    "ian_quinn-mcu-616",
+    "inez_green-mcu-616",
+    "ingrid_mackintosh-mcu-616",
+    "irani_rael-mcu-616",
+    "isabelle_izzy_hartley-mcu-616",
+    "ivan_banionis-mcu-616",
+    "ivan_hess-mcu-616",
+    "ivan_vassilovitch_dragovsky-independants-58732",
+    "j_streiten-mcu-616",
+    "jack_duquesne-mcu-616",
+    "jack_rollins-mcu-616",
+    "jack_stoss-mcu-616",
+    "jaco-mcu-616",
+    "jakob_lehnsherr-fox_x_men-10005",
+    "james_howlett-fox_x_men-41633",
+    "james_j_jim_cramer-mcu-616",
+    "james_jimmy_weeks-independants-58732",
+    "james_madrox-fox_x_men-10005",
+    "james_russotti-independants-47281",
+    "james_sanders-mcu-86445",
+    "james_taylor_j_t_james-mcu-616",
+    "janice-mcu-616",
+    "janos_quested-fox_x_men-10005",
+    "jared_nomak-independants-26320",
+    "jason_ionello-mcu-616",
+    "jason_stryker-fox_x_men-10005",
+    "jasper_evans-mcu-616",
+    "jasper_sitwell-mcu-616",
+    "jean_dewolff-mcu-616",
+    "jennifer_kale-mcu-616",
+    "jeremy_garrett-fox_x_men-10005",
+    "jim_paxton-mcu-616",
+    "jin_lin-mcu-616",
+    "joan-independants-58732",
+    "johann_schmidt-mcu-82111",
+    "john_a_mccone-fox_x_men-10005",
+    "john_collins-mcu-616",
+    "john_flynn-mcu-82111",
+    "john_grey-fox_x_men-10005",
+    "john_healy-mcu-616",
+    "john_jonah_jameson_iii-ssu-688",
+    "john_jonah_jameson_jr-spider_verse-8311",
+    "john_king-mcu-616",
+    "john_mackenzie-mcu-616",
+    "john_mciver-mcu-616",
+    "john_raymond-mcu-616",
+    "john_saint-independants-58732",
+    "jonathan_jack_murdock-independants-701306",
+    "jonathan_pangborn-mcu-616",
+    "jones-fox_x_men-10005",
+    "jose_joey_gutierrez-mcu-616",
+    "jose_quesada-independants-701306",
+    "joseph_bauer-mcu-616",
+    "joseph_danvers-mcu-616",
+    "joseph_manfredi-mcu-616",
+    "joseph_samuel_sam_greller-mcu-616",
+    "joshua_jovan-mcu-616",
+    "josie-independants-701306",
+    "josie-mcu-616",
+    "joy_meachum-mcu-616",
+    "jubilation_lee-fox_x_men-10005",
+    "julie_barnes-mcu-616",
+    "julio_richter-fox_x_men-17315",
+    "kahhori-mcu-616",
+    "kamran-mcu-616",
+    "kara_lynn_palamas-mcu-616",
+    "karen-mcu-616",
+    "karja-mcu-616",
+    "karl_malus-mcu-616",
+    "karun_patel-mcu-616",
+    "kathleen_sparr-mcu-616",
+    "katya_belyakov-mcu-616",
+    "kayla_silverfox-fox_x_men-10005",
+    "kazi-mcu-616",
+    "ken_ogden-mcu-616",
+    "kenneth_fuchs-mcu-616",
+    "kenneth_turgeon-mcu-616",
+    "kevin_page-mcu-616",
+    "kevin_singleton-mcu-616",
+    "kingo-mcu-616",
+    "kirk_vogel-mcu-616",
+    "kitang-mcu-616",
+    "kith_lyonne-mcu-616",
+    "klev-mcu-616",
+    "klev-mcu-86445",
+    "knull-ssu-688",
+    "korath-mcu-21818",
+    "korath-mcu-616",
+    "korg-mcu-72124",
+    "kraglin_obfonteri-mcu-21818",
+    "kro-mcu-616",
+    "kuda-mcu-616",
+    "kurt_wagner-fox_x_men-41633",
+    "kyle-mcu-616",
+    "laufey-mcu-616",
+    "lawrence_wilkins-mcu-616",
+    "leech-fox_x_men-10005",
+    "leet_brannis-mcu-616",
+    "leila_taylor-mcu-616",
+    "leland_owlsley-mcu-616",
+    "leo_lieberman-mcu-616",
+    "leonard_kirk-fox_fantastiques-121698",
+    "li_ching_lin-mcu-616",
+    "liam_walsh-mcu-616",
+    "lighthammer-independants-26320",
+    "lilia_calderu-mcu-616",
+    "lilla_mackenzie-mcu-616",
+    "linus_lieberman-independants-47281",
+    "lisa_barbara_castle-mcu-616",
+    "livia_saint-independants-58732",
+    "lockheed-fox_x_men-10005",
+    "lockjaw-mcu-616",
+    "loki_laufeyson-mcu-72124",
+    "loki_laufeyson-mcu-82111",
+    "loki_pretentieux-mcu-0",
+    "lonnie_wilson-mcu-616",
+    "lorna_wu-mcu-616",
+    "lorraine-mcu-616",
+    "louise_fisher-mcu-616",
+    "lucio-mcu-616",
+    "lucy_bauer-mcu-616",
+    "luke_jacobson-mcu-616",
+    "luther_banks-mcu-616",
+    "lynne_nichols-mcu-828",
+    "m_kathu-mcu-616",
+    "macdonald_mac_gargan-mcu-86445",
+    "mack-independants-121347",
+    "magda_gurzsky-fox_x_men-10005",
+    "maggie_lang-mcu-616",
+    "mainframe-mcu-616",
+    "makkari-mcu-616",
+    "malcolm_ducasse-mcu-616",
+    "malekith-mcu-72124",
+    "mallory_book-mcu-616",
+    "man_in_black-fox_x_men-10005",
+    "marci_stahl-mcu-616",
+    "marcus_benson-mcu-616",
+    "marcus_van_sciver-independants-26320",
+    "maria_castle-independants-58732",
+    "maria_elizabeth_castle_nee_falconio-mcu-616",
+    "maria_hill-mcu-72124",
+    "maria_rambeau-mcu-10005",
+    "maria_vasquez-mcu-86445",
+    "mariah_dillard-mcu-616",
+    "marion_james-mcu-616",
+    "marlena_olin-mcu-616",
+    "martin_moon-ssu-688",
+    "martin_soap-independants-47281",
+    "martinex_t_naga-mcu-616",
+    "mary_macpherran-mcu-616",
+    "mary_walker-mcu-616",
+    "maximoff-fox_x_men-10005",
+    "maximus_gargan-spider_verse-8311",
+    "mccabe-independants-701306",
+    "mcgraw-raimi_verse-96283",
+    "meghan_orlovsky-fox_x_men-10005",
+    "melina_vostokoff-mcu-616",
+    "melina_vostokoff-mcu-82111",
+    "melvin_potter-mcu-616",
+    "mephistopheles-independants-121347",
+    "mercury-independants-26320",
+    "meredith_quill-mcu-616",
+    "methodius-independants-121347",
+    "michael_carter-mcu-616",
+    "micky_duka-independants-58732",
+    "mikayla_bell-mcu-616",
+    "mikhail_sytsevich-mcu-86445",
+    "mikhail_ursus-mcu-616",
+    "miles_van_ert-mcu-616",
+    "milo-ssu-688",
+    "mina_hess-mcu-616",
+    "miriam_sharpe-mcu-616",
+    "mitchell_carson-mcu-616",
+    "moloka_dar-mcu-616",
+    "monti-mcu-616",
+    "moore-mcu-616",
+    "mordis-mcu-616",
+    "moreau-independants-121347",
+    "morris-mcu-616",
+    "mortimer_toynbee-fox_x_men-10005",
+    "nadya_ketch-independants-121347",
+    "nakia_bahadir-mcu-616",
+    "namora-mcu-616",
+    "natalie_washington-mcu-616",
+    "nate_munson-fox_x_men-17315",
+    "nathan_bowen-mcu-616",
+    "ned_cecil-fox_fantastiques-121698",
+    "nicholas_nick_fury-mcu-72124",
+    "nicholas_nick_fury-mcu-82111",
+    "nicholas_scratch-mcu-616",
+    "nicky_donatelli-independants-47281",
+    "nicodemus_west-mcu-616",
+    "nigel_garrison-mcu-616",
+    "nikolas_natchios-independants-701306",
+    "nina_gurzsky-fox_x_men-10005",
+    "nkati-mcu-616",
+    "noah_burstein-mcu-616",
+    "nobu-mcu-616",
+    "norex-mcu-616",
+    "norman_osborn-webb_verse-120703",
+    "oeznik-mcu-616",
+    "okoye-mcu-21818",
+    "olek_maximoff-mcu-616",
+    "olivia_walker-mcu-616",
+    "ororo_munroe-fox_x_men-41633",
+    "oscar_arocho-mcu-616",
+    "oscar_clemons-mcu-616",
+    "other-mcu-616",
+    "otis_johnson-mcu-616",
+    "ouroboros-mcu-616",
+    "pamela-mcu-616",
+    "pamela_lawton-mcu-616",
+    "paradox-mcu-616",
+    "patrick_mulligan-ssu-688",
+    "paul_budiansky-independants-47281",
+    "paul_lantom-mcu-616",
+    "paul_mackintosh-mcu-616",
+    "paxton_page-mcu-616",
+    "pearl_pangan-mcu-86445",
+    "penny_marko-raimi_verse-96283",
+    "peter_lyonne-mcu-616",
+    "peter_pete_stokes-mcu-616",
+    "peter_quill-mcu-21818",
+    "petra_larsen-mcu-616",
+    "phastos-mcu-616",
+    "phil_gallo-mcu-616",
+    "philip_stacy-webb_verse-120703",
+    "philip_watson-raimi_verse-96283",
+    "phillip_phil_coulson-mcu-72124",
+    "phineas_mason-mcu-616",
+    "phyla_vell-mcu-616",
+    "pip_gofern-mcu-616",
+    "piper-mcu-616",
+    "pizza_poppa-mcu-838",
+    "polly_hinton-mcu-616",
+    "price-mcu-616",
+    "priest-independants-26320",
+    "prince-mcu-616",
+    "prince_tafari-mcu-616",
+    "prince_yan-mcu-616",
+    "priscilla_ridley-mcu-616",
+    "priya-mcu-616",
+    "pryce_cheng-mcu-616",
+    "qovas-mcu-616",
+    "quentin_glass-independants-58732",
+    "ray_nadeem-mcu-616",
+    "raza-mcu-616",
+    "remy_lebeau-fox_x_men-10005",
+    "richard_parker-webb_verse-120703",
+    "sa_ur_maggie-mcu-616",
+    "scott_summers-young-fox_x_men-10005",
+    "sean_cassidy-fox_x_men-10005",
+    "sonny_burch-mcu-616",
+    "sprite-mcu-616",
+    "stephen_strange-mcu-838",
+    "taserface-mcu-616",
+    "thaddeus_ross-independants-400083",
+    "volstagg-mcu-616",
+    "wade_wilson-young-fox_x_men-10005",
+    "ward_meachum-mcu-616",
+    "wesley-mcu-616",
+    "white_vision-mcu-616",
+    "willis_stryker-mcu-616",
+    "xialing-mcu-616",
+    "yukio-fox_x_men-10005",
+    "yuriko_oyama-fox_x_men-10005"
+  ],
+  "missing_ids": [],
+  "demoted_to_Impossible_count": 32,
+  "demoted_to_Impossible": [
+    {
+      "id": "alexandra-mcu-616",
+      "name": "Alexandra",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "alonzo_lonnie_lincoln-independants-58732",
+      "name": "Alonzo \"Lonnie\" Lincoln",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "charles_xavier-fox_x_men-41633",
+      "name": "Charles Xavier",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "christine_palmer-mcu-91233",
+      "name": "Christine Palmer",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "clinton_barton-mcu-82111",
+      "name": "Clinton Barton",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "dormammu-mcu-91233",
+      "name": "Dormammu",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "doug-mcu-616",
+      "name": "Doug",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "en_dwi_gast-mcu-72124",
+      "name": "En Dwi Gast",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "frigga-mcu-72124",
+      "name": "Frigga",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "galaga_guy-mcu-616",
+      "name": "Galaga Guy",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "georges_batroc-mcu-82111",
+      "name": "Georges Batroc",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "german_old_man-mcu-616",
+      "name": "German Old Man",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "gilbert-mcu-616",
+      "name": "Gilbert O'Conner",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "harry_osborn-mcu-86445",
+      "name": "Harry Osborn",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "henry_hank_mccoy-fox_x_men-41633",
+      "name": "Hank McCoy",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "james_howlett-fox_x_men-41633",
+      "name": "James Howlett",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "john_mackenzie-mcu-616",
+      "name": "John Mackenzie",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "karen-mcu-616",
+      "name": "Karen Page",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "klev-mcu-86445",
+      "name": "Klev",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "korath-mcu-21818",
+      "name": "Korath",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "korg-mcu-72124",
+      "name": "Korg",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "kraglin_obfonteri-mcu-21818",
+      "name": "Kraglin Obfonteri",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "kurt_wagner-fox_x_men-41633",
+      "name": "Kurt Wagner",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "lilla_mackenzie-mcu-616",
+      "name": "Lilla Mackenzie",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "louise_fisher-mcu-616",
+      "name": "Louise Fisher",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "marcus_van_sciver-independants-26320",
+      "name": "Marcus Van Sciver",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "maximoff-fox_x_men-10005",
+      "name": "Mme Maximoff",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "nobu-mcu-616",
+      "name": "Nobu",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "ororo_munroe-fox_x_men-41633",
+      "name": "Ororo Munroe",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "other-mcu-616",
+      "name": "Other",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "philip_watson-raimi_verse-96283",
+      "name": "Philip Watson",
+      "from": "Difficile",
+      "to": "Impossible"
+    },
+    {
+      "id": "pizza_poppa-mcu-838",
+      "name": "Pizza Poppa",
+      "from": "Difficile",
+      "to": "Impossible"
+    }
+  ],
+  "unexpected_difficulty": [],
+  "difficile_before": 531,
+  "difficile_after": 499,
+  "difficulty_distribution_before": {
+    "Difficile": 531,
+    "Facile": 153,
+    "Impossible": 1422,
+    "Moyen": 251,
+    "Très Facile": 22
+  },
+  "difficulty_distribution_after": {
+    "Difficile": 499,
+    "Facile": 153,
+    "Impossible": 1454,
+    "Moyen": 251,
+    "Très Facile": 22
+  },
+  "difficulty_snapshot": {
+    "Très Facile": 22,
+    "Facile": 153,
+    "Moyen": 251,
+    "Difficile": 499,
+    "Impossible": 1454
+  },
+  "formerly_remaining": [],
+  "formerly_remaining_count": 0,
+  "sample_fr_nicknames": [
+    {
+      "id": "aamir_khan-mcu-616",
+      "name": "Aamir Khan",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "aaron_davis-mcu-616",
+      "name": "Aaron Davis",
+      "aliases0": "Le Rôdeur",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "abby_miller-independants-701306",
+      "name": "Abby Miller",
+      "aliases0": "Le Trésor",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "abilash_tandon-mcu-616",
+      "name": "Abilash Tandon",
+      "aliases0": "Norm",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "abraham_erskine-mcu-82111",
+      "name": "Abraham Erskine",
+      "aliases0": "Docteur Erskine",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "abu_bakaar-mcu-616",
+      "name": "Abu Bakaar",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "adina_johnson-mcu-616",
+      "name": "Adina Johnson",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "agnes_kitsworth-mcu-616",
+      "name": "Agnes Kitsworth",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "agon-mcu-616",
+      "name": "Agon",
+      "aliases0": "Roi Agon",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "ahmad_zubair-mcu-616",
+      "name": "Ahmad Zubair",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "aj-mcu-616",
+      "name": "AJ",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "ajak-mcu-616",
+      "name": "Ajak",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "akela_amador-mcu-616",
+      "name": "Akela Amador",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "akeya-mcu-616",
+      "name": "Akeya",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "akihiko-mcu-616",
+      "name": "Akihiko",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "albert_rackham-mcu-616",
+      "name": "Albert Rackham",
+      "aliases0": "Rackham",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "albert_thompson-mcu-616",
+      "name": "Albert Thompson",
+      "aliases0": null,
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "aleksei_sytsevich-webb_verse-120703",
+      "name": "Aleksei Sytsevich",
+      "aliases0": "Le Rhino",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alessa_geomi-mcu-616",
+      "name": "Alessa Geomi",
+      "aliases0": "Épouse des Neuf Araignées",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "aleta_ogord-mcu-616",
+      "name": "Aleta Ogord",
+      "aliases0": "Aleta",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alex_wesley-mcu-616",
+      "name": "Alex Wesley",
+      "aliases0": "Wesley",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alexandra-mcu-616",
+      "name": "Alexandra",
+      "aliases0": "Alexandra Reid",
+      "difficulty": "Impossible"
+    },
+    {
+      "id": "alexei_shostakov-mcu-82111",
+      "name": "Alexei Shostakov",
+      "aliases0": "Gardien Rouge",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "algrim-mcu-616",
+      "name": "Algrim",
+      "aliases0": "Kurse",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alice_wu_gulliver-mcu-616",
+      "name": "Alice Wu-Gulliver",
+      "aliases0": "Chevalier de Bâtons",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alicia_masters-fox_fantastiques-121698",
+      "name": "Alicia Masters",
+      "aliases0": "Alicia Masters",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alisa_campbell-mcu-616",
+      "name": "Alisa Jones",
+      "aliases0": "Barracuda",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alonzo_lonnie_lincoln-independants-58732",
+      "name": "Alonzo \"Lonnie\" Lincoln",
+      "aliases0": "Tombstone",
+      "difficulty": "Impossible"
+    },
+    {
+      "id": "alonzo_lonnie_lincoln-mcu-616",
+      "name": "Alonzo \"Lonnie\" Lincoln",
+      "aliases0": "Tombstone",
+      "difficulty": "Difficile"
+    },
+    {
+      "id": "alonzo_lonnie_lincoln-mcu-86445",
+      "name": "Alonzo \"Lonnie\" Lincoln",
+      "aliases0": "Tombstone",
+      "difficulty": "Difficile"
+    }
+  ],
+  "spot_check_wrong_aliases": [
+    {
+      "id": "james_howlett-fox_x_men-41633",
+      "name": "James Howlett",
+      "aliases0": "Wolverine",
+      "note": "aliases[0] looks like another hero"
+    }
+  ],
+  "qa_notes": {
+    "empty_aliases": [
+      {
+        "id": "aamir_khan-mcu-616",
+        "name": "Aamir Khan"
+      },
+      {
+        "id": "abu_bakaar-mcu-616",
+        "name": "Abu Bakaar"
+      },
+      {
+        "id": "adina_johnson-mcu-616",
+        "name": "Adina Johnson"
+      },
+      {
+        "id": "agnes_kitsworth-mcu-616",
+        "name": "Agnes Kitsworth"
+      },
+      {
+        "id": "ahmad_zubair-mcu-616",
+        "name": "Ahmad Zubair"
+      },
+      {
+        "id": "aj-mcu-616",
+        "name": "AJ"
+      },
+      {
+        "id": "ajak-mcu-616",
+        "name": "Ajak"
+      },
+      {
+        "id": "akela_amador-mcu-616",
+        "name": "Akela Amador"
+      },
+      {
+        "id": "akeya-mcu-616",
+        "name": "Akeya"
+      },
+      {
+        "id": "akihiko-mcu-616",
+        "name": "Akihiko"
+      },
+      {
+        "id": "albert_thompson-mcu-616",
+        "name": "Albert Thompson"
+      },
+      {
+        "id": "amy_bendix-mcu-616",
+        "name": "Amy Bendix"
+      },
+      {
+        "id": "ana_jarvis-mcu-616",
+        "name": "Ana Jarvis"
+      },
+      {
+        "id": "anderson_schultz-mcu-616",
+        "name": "Anderson Schultz"
+      },
+      {
+        "id": "aneka-mcu-616",
+        "name": "Aneka"
+      },
+      {
+        "id": "angela_del_toro-mcu-616",
+        "name": "Angela Del Toro"
+      },
+      {
+        "id": "anne_weaver-mcu-616",
+        "name": "Anne Weaver"
+      },
+      {
+        "id": "anton_mogart-mcu-616",
+        "name": "Anton Mogart"
+      },
+      {
+        "id": "anton_vanko-mcu-616",
+        "name": "Anton Vanko"
+      },
+      {
+        "id": "anya-mcu-616",
+        "name": "Anya"
+      },
+      {
+        "id": "asad-independants-26320",
+        "name": "Asad"
+      },
+      {
+        "id": "asher_talos-independants-26320",
+        "name": "Asher Talos"
+      },
+      {
+        "id": "att_lass-mcu-616",
+        "name": "Att-Lass"
+      },
+      {
+        "id": "attuma-mcu-616",
+        "name": "Attuma"
+      },
+      {
+        "id": "auran-mcu-616",
+        "name": "Auran"
+      },
+      {
+        "id": "azazel-fox_x_men-10005",
+        "name": "Azazel"
+      },
+      {
+        "id": "barton_blaze-independants-121347",
+        "name": "Barton Blaze"
+      },
+      {
+        "id": "basha-mcu-616",
+        "name": "Basha"
+      },
+      {
+        "id": "benjamin_hochberg-mcu-616",
+        "name": "Benjamin Hochberg"
+      },
+      {
+        "id": "bereet-mcu-616",
+        "name": "Bereet"
+      },
+      {
+        "id": "beto-mcu-616",
+        "name": "Beto"
+      },
+      {
+        "id": "betsy_beatty-mcu-616",
+        "name": "Betsy Beatty"
+      },
+      {
+        "id": "billy_fitzgerald-mcu-616",
+        "name": "Billy Fitzgerald"
+      },
+      {
+        "id": "blurp-mcu-616",
+        "name": "Blurp"
+      },
+      {
+        "id": "bob_fairbanks-mcu-616",
+        "name": "Bob Fairbanks"
+      },
+      {
+        "id": "bobbi_kennedy-mcu-616",
+        "name": "Bobbi Kennedy"
+      },
+      {
+        "id": "bonebreaker-fox_x_men-17315",
+        "name": "Bonebreaker"
+      },
+      {
+        "id": "brad_davis-mcu-616",
+        "name": "Brad Davis"
+      },
+      {
+        "id": "brock_rumlow-mcu-72124",
+        "name": "Brock Rumlow"
+      },
+      {
+        "id": "brock_rumlow-mcu-82111",
+        "name": "Brock Rumlow"
+      },
+      {
+        "id": "brogan-mcu-616",
+        "name": "Brogan"
+      },
+      {
+        "id": "broker-mcu-616",
+        "name": "Broker"
+      },
+      {
+        "id": "bron_char-mcu-616",
+        "name": "Bron-Char"
+      },
+      {
+        "id": "bruno_carrelli-mcu-616",
+        "name": "Bruno Carrelli"
+      },
+      {
+        "id": "butane-mcu-86445",
+        "name": "Butane"
+      },
+      {
+        "id": "caliban-fox_x_men-10005",
+        "name": "Caliban"
+      },
+      {
+        "id": "callisto-fox_x_men-10005",
+        "name": "Callisto"
+      },
+      {
+        "id": "cameron_klein-mcu-616",
+        "name": "Cameron Klein"
+      },
+      {
+        "id": "camilla_reyes-mcu-616",
+        "name": "Camilla Reyes"
+      },
+      {
+        "id": "carina-mcu-21818",
+        "name": "Carina"
+      },
+      {
+        "id": "carina-mcu-616",
+        "name": "Carina"
+      },
+      {
+        "id": "carl_hoffman-mcu-616",
+        "name": "Carl Hoffman"
+      },
+      {
+        "id": "carla_talbot-mcu-616",
+        "name": "Carla Talbot"
+      },
+      {
+        "id": "carmilla_black-mcu-86445",
+        "name": "Carmilla Black"
+      },
+      {
+        "id": "carson_wolf-mcu-616",
+        "name": "Carson Wolf"
+      },
+      {
+        "id": "carter_kounen-independants-26320",
+        "name": "Carter Kounen"
+      },
+      {
+        "id": "cass-mcu-616",
+        "name": "Cass"
+      },
+      {
+        "id": "chantelle_fusilier-mcu-616",
+        "name": "Chantelle Fusilier"
+      }
+    ],
+    "empty_role": [],
+    "empty_abilities": []
+  },
+  "verify": {
+    "all_batch_ids_in_cineverse": true,
+    "aliases0_and_difficulty_match": true,
+    "verify_fail": []
+  }
+}

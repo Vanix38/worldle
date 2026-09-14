@@ -1,0 +1,471 @@
+[
+  {
+    "id": "alex_wesley-mcu-616",
+    "name": "Alex Wesley",
+    "status": "Décédé",
+    "aliases": [
+      "Wesley",
+      "Alex Wesley"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Mariah Dillard",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "John Clarence Stewart",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1), Luke Cage (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alexandra-mcu-616",
+    "name": "Alexandra",
+    "status": "Décédé",
+    "aliases": [
+      "Alexandra Reid",
+      "Alexandra"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "La Main",
+    "firstAppearance": "The Defenders (Saison 1)",
+    "hint1": "Sigourney Weaver",
+    "hint2": "2017",
+    "hint3": "The Defenders (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Arts Martiaux",
+      "Mystiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "alexei_shostakov-mcu-82111",
+    "name": "Alexei Shostakov",
+    "status": "En Vie",
+    "aliases": [
+      "Gardien Rouge",
+      "Red Guardian",
+      "Alexei Shostakov"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Gardiens du Multivers",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "David Harbour",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Héros",
+    "abilities": [
+      "Militaires",
+      "Surhumaines"
+    ],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "algrim-mcu-616",
+    "name": "Algrim",
+    "status": "Décédé",
+    "aliases": [
+      "Kurse",
+      "Algrim"
+    ],
+    "species": "Dark Elf",
+    "gender": "Homme",
+    "affiliation": "Elfes noirs",
+    "firstAppearance": "Thor : Le Monde des Ténèbres",
+    "hint1": "Adewale Akinnuoye-Agbaje",
+    "hint2": "2013",
+    "hint3": "Thor : Le Monde des Ténèbres",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Monstrueuses"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alice_wu_gulliver-mcu-616",
+    "name": "Alice Wu-Gulliver",
+    "status": "Décédé",
+    "aliases": [
+      "Chevalier de Bâtons",
+      "Knight of Wands",
+      "Alice Wu-Gulliver"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Sabbat d'Agatha Harkness",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "Ali Ahn",
+    "hint2": "2024",
+    "hint3": "Agatha All Along (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Magiques",
+      "Policières"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alicia_masters-fox_fantastiques-121698",
+    "name": "Alicia Masters",
+    "status": "En Vie",
+    "aliases": [
+      "Alicia Masters",
+      "Alicia Reiss Masters"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "4 Fantastiques",
+    "hint1": "Kerry Washington",
+    "hint2": "2005",
+    "hint3": "4 Fantastiques, Les 4 Fantastiques et le Surfer d'Argent",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 121698,
+    "universe": "Fox Fantastiques",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alisa_campbell-mcu-616",
+    "name": "Alisa Jones",
+    "status": "Décédé",
+    "aliases": [
+      "Barracuda",
+      "Alisa Campbell",
+      "Laura Patterson",
+      "Alisa Jones"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Jessica Jones (Saison 1)",
+    "hint1": "Janet McTeer",
+    "hint2": "2015",
+    "hint3": "Jessica Jones (Saison 1), Jessica Jones (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alonzo_lonnie_lincoln-independants-58732",
+    "name": "Alonzo \"Lonnie\" Lincoln",
+    "status": "Décédé",
+    "aliases": [
+      "Tombstone",
+      "Lonnie Lincoln"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "The Punisher",
+    "hint1": "Tom Nowicki",
+    "hint2": "2004",
+    "hint3": "The Punisher",
+    "role": "Vilain",
+    "abilities": [
+      "Direction criminelle"
+    ],
+    "earth": 58732,
+    "universe": "Indépendants",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "alonzo_lonnie_lincoln-mcu-616",
+    "name": "Alonzo \"Lonnie\" Lincoln",
+    "status": "En Vie",
+    "aliases": [
+      "Tombstone",
+      "Lonnie Lincoln"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Spider-Man : Brand New Day",
+    "hint1": "Marvin Jones III",
+    "hint2": "2026",
+    "hint3": "Spider-Man : Brand New Day",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Direction criminelle"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alonzo_lonnie_lincoln-mcu-86445",
+    "name": "Alonzo \"Lonnie\" Lincoln",
+    "status": "En Vie",
+    "aliases": [
+      "Tombstone",
+      "Lon",
+      "Lonnie Lincoln"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Gang de la 110e Rue",
+    "firstAppearance": "Your Friendly Neighborhood Spider-Man (Saison 1)",
+    "hint1": "Eugene Byrd",
+    "hint2": "2025",
+    "hint3": "Your Friendly Neighborhood Spider-Man (Saison 1)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Surhumaines",
+      "Direction criminelle"
+    ],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alonzo_lonnie_lincoln-spider_verse-8311",
+    "name": "Alonzo \"Lonnie\" Lincoln",
+    "status": "En Vie",
+    "aliases": [
+      "Tombstone",
+      "Lonnie Lincoln"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Alchemax",
+    "firstAppearance": "Spider-Man : New Generation",
+    "hint1": "Marvin Jones III",
+    "hint2": "2018",
+    "hint3": "Spider-Man : New Generation",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines"
+    ],
+    "earth": 8311,
+    "universe": "Spider-Verse",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alveus-mcu-616",
+    "name": "Alveus",
+    "status": "Décédé",
+    "aliases": [
+      "La Ruche",
+      "Hive",
+      "Alveus"
+    ],
+    "species": "Inhumain",
+    "gender": "Homme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "Brett Dalton",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "role": "Vilain",
+    "abilities": [
+      "Psioniques",
+      "Surhumaines",
+      "Régénération"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "amy_bendix-mcu-616",
+    "name": "Amy Bendix",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Le Punisher (Saison 2)",
+    "hint1": "Giorgia Whigham",
+    "hint2": "2019",
+    "hint3": "Le Punisher (Saison 2)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ana_jarvis-mcu-616",
+    "name": "Ana Jarvis",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Famille Jarvis",
+    "firstAppearance": "Agent Carter (Saison 2)",
+    "hint1": "Lotte Verbeek",
+    "hint2": "2016",
+    "hint3": "Agent Carter (Saison 2)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ancient_one-mcu-91233",
+    "name": "Ancient One",
+    "status": "Décédé",
+    "aliases": [
+      "L'Ancien",
+      "Ancient One",
+      "Sorcerer Supreme"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Kamar-Taj",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Tilda Swinton",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Mentor",
+    "abilities": [
+      "Mystiques",
+      "Magiques"
+    ],
+    "earth": 91233,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "anderson_schultz-mcu-616",
+    "name": "Anderson Schultz",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Famille Schultz",
+    "firstAppearance": "Le Punisher (Saison 2)",
+    "hint1": "Corbin Bernsen",
+    "hint2": "2019",
+    "hint3": "Le Punisher (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Direction criminelle",
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "andre_deschaine-mcu-616",
+    "name": "Andre Deschaine",
+    "status": "Décédé",
+    "aliases": [
+      "D'Spayre",
+      "Dre",
+      "Andre Deschaine"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Cloak & Dagger (Saison 2)",
+    "hint1": "Brooklyn McLinn",
+    "hint2": "2019",
+    "hint3": "Cloak & Dagger (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Psioniques",
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "aneka-mcu-616",
+    "name": "Aneka",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Dora Milaje",
+    "firstAppearance": "Black Panther : Wakanda Forever",
+    "hint1": "Michaela Coel",
+    "hint2": "2022",
+    "hint3": "Black Panther : Wakanda Forever",
+    "role": "Héros",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux",
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "angel_salvadore-fox_x_men-10005",
+    "name": "Angel Salvadore",
+    "status": "Décédé",
+    "aliases": [
+      "Tempest",
+      "Angel Salvadore"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men : Le Commencement",
+    "hint1": "Zoë Kravitz",
+    "hint2": "2011",
+    "hint3": "X-Men : Le Commencement",
+    "role": "Vilain",
+    "abilities": [
+      "Animales"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "angela_angie_martinelli-mcu-616",
+    "name": "Angela \"Angie\" Martinelli",
+    "status": "En Vie",
+    "aliases": [
+      "Angie",
+      "Angela Martinelli"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Agent Carter (Saison 1)",
+    "hint1": "Lyndsy Fonseca",
+    "hint2": "2015",
+    "hint3": "Agent Carter (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]

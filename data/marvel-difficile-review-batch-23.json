@@ -1,0 +1,455 @@
+[
+  {
+    "id": "moore-mcu-616",
+    "name": "Moore",
+    "status": "En Vie",
+    "aliases": [
+      "Moore"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "Captain America : Le Soldat de l'Hiver",
+    "hint1": "Danny Pudi",
+    "hint2": "2014",
+    "hint3": "Captain America : Le Soldat de l'Hiver",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mordis-mcu-616",
+    "name": "Mordis",
+    "status": "Décédé",
+    "aliases": [
+      "Mordis"
+    ],
+    "species": "Inhumain",
+    "gender": "Homme",
+    "affiliation": "Attilan",
+    "firstAppearance": "Inhumans (Saison 1)",
+    "hint1": "Bridger Zadina",
+    "hint2": "2017",
+    "hint3": "Inhumans (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "moreau-independants-121347",
+    "name": "Moreau",
+    "status": "Décédé",
+    "aliases": [
+      "Moreau"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Ordre monastique",
+    "firstAppearance": "Ghost Rider : L'Esprit de vengeance",
+    "hint1": "Idris Elba",
+    "hint2": "2011",
+    "hint3": "Ghost Rider : L'Esprit de vengeance",
+    "role": "Allié",
+    "abilities": [
+      "Mystiques"
+    ],
+    "earth": 121347,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "morris-mcu-616",
+    "name": "Morris",
+    "status": "En Vie",
+    "aliases": [
+      "Morris"
+    ],
+    "species": "Dijiang",
+    "gender": "Homme",
+    "affiliation": "Ta Lo",
+    "firstAppearance": "Shang-Chi et la Légende des Dix Anneaux",
+    "hint1": "",
+    "hint2": "2021",
+    "hint3": "Shang-Chi et la Légende des Dix Anneaux",
+    "role": "Allié",
+    "abilities": [
+      "Animales"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mortimer_toynbee-fox_x_men-10005",
+    "name": "Mortimer Toynbee",
+    "status": "En Vie",
+    "aliases": [
+      "Crapaud",
+      "Toad",
+      "Mortimer Toynbee"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Confrérie des mutants",
+    "firstAppearance": "X-Men : Days of Future Past",
+    "hint1": "Evan Jonigkeit",
+    "hint2": "2014",
+    "hint3": "X-Men : Days of Future Past",
+    "role": "Vilain",
+    "abilities": [
+      "Animales",
+      "Surhumaines"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nadya_ketch-independants-121347",
+    "name": "Nadya Ketch",
+    "status": "En Vie",
+    "aliases": [
+      "Nadya Ketch"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Ghost Rider : L'Esprit de vengeance",
+    "hint1": "Violante Placido",
+    "hint2": "2011",
+    "hint3": "Ghost Rider : L'Esprit de vengeance",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 121347,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nakia_bahadir-mcu-616",
+    "name": "Nakia Bahadir",
+    "status": "En Vie",
+    "aliases": [
+      "Naks",
+      "Nakia Bahadir"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "Yasmeen Fletcher",
+    "hint2": "2022",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "namora-mcu-616",
+    "name": "Namora",
+    "status": "En Vie",
+    "aliases": [
+      "Namora"
+    ],
+    "species": "Talokanil",
+    "gender": "Femme",
+    "affiliation": "Talokan",
+    "firstAppearance": "Black Panther : Wakanda Forever",
+    "hint1": "Mabel Cadena",
+    "hint2": "2022",
+    "hint3": "Black Panther : Wakanda Forever",
+    "role": "Vilain",
+    "abilities": [
+      "Surhumaines",
+      "Régénération"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "natalie_washington-mcu-616",
+    "name": "Natalie Washington",
+    "status": "Décédé",
+    "aliases": [
+      "Natalie",
+      "Natalie Washington"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Ironheart (Saison 1)",
+    "hint1": "Lyric Ross",
+    "hint2": "2025",
+    "hint3": "Ironheart (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nate_munson-fox_x_men-17315",
+    "name": "Nate Munson",
+    "status": "Décédé",
+    "aliases": [
+      "Nate Munson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Logan",
+    "hint1": "",
+    "hint2": "2017",
+    "hint3": "Logan",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 17315,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nathan_bowen-mcu-616",
+    "name": "Nathan Bowen",
+    "status": "Décédé",
+    "aliases": [
+      "Nathan Bowen"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Roxxon",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Andy Dylan",
+    "hint2": "2018",
+    "hint3": "Cloak & Dagger (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ned_cecil-fox_fantastiques-121698",
+    "name": "Ned Cecil",
+    "status": "Décédé",
+    "aliases": [
+      "Ned Cecil"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Les Quatre Fantastiques",
+    "hint1": "",
+    "hint2": "2005",
+    "hint3": "Les Quatre Fantastiques",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 121698,
+    "universe": "Fox Fantastiques",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nicholas_nick_fury-mcu-72124",
+    "name": "Nick Fury",
+    "status": "En Vie",
+    "aliases": [
+      "Nick Fury",
+      "Nicholas Fury"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Samuel L. Jackson",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Militaires",
+      "Espionnage"
+    ],
+    "earth": 72124,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nicholas_nick_fury-mcu-82111",
+    "name": "Nick Fury",
+    "status": "En Vie",
+    "aliases": [
+      "Nick Fury",
+      "Nicholas Fury"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Samuel L. Jackson",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Militaires",
+      "Espionnage"
+    ],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nicholas_scratch-mcu-616",
+    "name": "Nicholas Scratch",
+    "status": "Décédé",
+    "aliases": [
+      "Nicholas Scratch",
+      "Nick Scratch"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Agatha Harkness",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "Abel Lysenko",
+    "hint2": "2024",
+    "hint3": "Agatha All Along (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Magiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nicky_donatelli-independants-47281",
+    "name": "Nicky Donatelli",
+    "status": "Décédé",
+    "aliases": [
+      "Nicky Donatelli"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "FBI",
+    "firstAppearance": "Punisher: War Zone",
+    "hint1": "",
+    "hint2": "2008",
+    "hint3": "Punisher: War Zone",
+    "role": "Allié",
+    "abilities": [
+      "Policières"
+    ],
+    "earth": 47281,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nicodemus_west-mcu-616",
+    "name": "Nicodemus West",
+    "status": "En Vie",
+    "aliases": [
+      "Docteur West",
+      "Dr. West",
+      "Nicodemus West"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Hôpital Metro-General",
+    "firstAppearance": "Doctor Strange",
+    "hint1": "Michael Stuhlbarg",
+    "hint2": "2016",
+    "hint3": "Doctor Strange, Doctor Strange in the Multiverse of Madness",
+    "role": "Civil",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nigel_garrison-mcu-616",
+    "name": "Nigel Garrison",
+    "status": "Décédé",
+    "aliases": [
+      "Nigel Garrison"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Yardies",
+    "firstAppearance": "Luke Cage (Saison 2)",
+    "hint1": "Macc H. Plaise",
+    "hint2": "2018",
+    "hint3": "Luke Cage (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Direction criminelle"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nikolas_natchios-independants-701306",
+    "name": "Nikolas Natchios",
+    "status": "Décédé",
+    "aliases": [
+      "Nikolas Natchios"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil",
+    "hint1": "",
+    "hint2": "2003",
+    "hint3": "Daredevil",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "nina_gurzsky-fox_x_men-10005",
+    "name": "Nina Gurzsky",
+    "status": "Décédé",
+    "aliases": [
+      "Nina Gurzsky"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "X-Men : Apocalypse",
+    "hint1": "T.J. McGibbon",
+    "hint2": "2016",
+    "hint3": "X-Men : Apocalypse",
+    "role": "Civil",
+    "abilities": [
+      "Animales"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  }
+]

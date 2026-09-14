@@ -1,0 +1,442 @@
+[
+  {
+    "id": "aamir_khan-mcu-616",
+    "name": "Aamir Khan",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Famille Khan",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "Saagar Shaikh",
+    "hint2": "2022",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "aaron_davis-mcu-616",
+    "name": "Aaron Davis",
+    "status": "En Vie",
+    "aliases": [
+      "Le Rôdeur",
+      "Prowler",
+      "Aaron Davis"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Spider-Man : Homecoming",
+    "hint1": "Donald Glover",
+    "hint2": "2017",
+    "hint3": "Spider-Man : Homecoming",
+    "role": "Anti-héros",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "abby_miller-independants-701306",
+    "name": "Abby Miller",
+    "status": "En Vie",
+    "aliases": [
+      "Le Trésor",
+      "The Treasure",
+      "Abby Miller"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Les Chastes",
+    "firstAppearance": "Elektra",
+    "hint1": "Kirsten Prout",
+    "hint2": "2005",
+    "hint3": "Elektra",
+    "role": "Allié",
+    "abilities": [
+      "Arts Martiaux"
+    ],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "abilash_tandon-mcu-616",
+    "name": "Abilash Tandon",
+    "status": "En Vie",
+    "aliases": [
+      "Norm",
+      "Abilash Tandon"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Westview",
+    "firstAppearance": "WandaVision (Saison 1)",
+    "hint1": "Asif Ali",
+    "hint2": "2021",
+    "hint3": "WandaVision (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "abraham_erskine-mcu-82111",
+    "name": "Abraham Erskine",
+    "status": "Décédé",
+    "aliases": [
+      "Docteur Erskine",
+      "Dr. Erskine",
+      "Abraham Erskine"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "SSR",
+    "firstAppearance": "What If...? (Saison 1)",
+    "hint1": "Stanley Tucci",
+    "hint2": "2021",
+    "hint3": "What If...? (Saison 1)",
+    "role": "Mentor",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 82111,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "abu_bakaar-mcu-616",
+    "name": "Abu Bakaar",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Les Dix Anneaux",
+    "firstAppearance": "Iron Man",
+    "hint1": "Sayed Badreya",
+    "hint2": "2008",
+    "hint3": "Iron Man",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires",
+      "Direction criminelle"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "adina_johnson-mcu-616",
+    "name": "Adina Johnson",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Famille Johnson",
+    "firstAppearance": "Cloak & Dagger (Saison 1)",
+    "hint1": "Gloria Reuben",
+    "hint2": "2018",
+    "hint3": "Cloak & Dagger (Saison 1), Cloak & Dagger (Saison 2)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "agnes_kitsworth-mcu-616",
+    "name": "Agnes Kitsworth",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Holden Radcliffe",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint1": "Mallory Jansen",
+    "hint2": "2016",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "agon-mcu-616",
+    "name": "Agon",
+    "status": "Décédé",
+    "aliases": [
+      "Roi Agon",
+      "Agon"
+    ],
+    "species": "Inhumain",
+    "gender": "Homme",
+    "affiliation": "Famille royale inhumaine",
+    "firstAppearance": "Inhumans (Saison 1)",
+    "hint1": "Michael Buie",
+    "hint2": "2017",
+    "hint3": "Inhumans (Saison 1)",
+    "role": "Mentor",
+    "abilities": [
+      "Politiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ahmad_zubair-mcu-616",
+    "name": "Ahmad Zubair",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Police nationale afghane",
+    "firstAppearance": "Le Punisher (Saison 1)",
+    "hint1": "Shezi Sardar",
+    "hint2": "2017",
+    "hint3": "Le Punisher (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Policières"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "aj-mcu-616",
+    "name": "AJ",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Famille Wilson",
+    "firstAppearance": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "hint1": "Aaron Haynes",
+    "hint2": "2021",
+    "hint3": "Falcon et le Soldat de l'Hiver (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ajak-mcu-616",
+    "name": "Ajak",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Eternal",
+    "gender": "Femme",
+    "affiliation": "Éternels",
+    "firstAppearance": "Eternals",
+    "hint1": "Salma Hayek",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Mentor",
+    "abilities": [
+      "Cosmiques",
+      "Régénération"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "akela_amador-mcu-616",
+    "name": "Akela Amador",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "hint1": "Pascale Armand",
+    "hint2": "2013",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 1)",
+    "role": "Réformé",
+    "abilities": [
+      "Technologiques",
+      "Espionnage"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "akeya-mcu-616",
+    "name": "Akeya",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Dora Milaje",
+    "firstAppearance": "Eyes of Wakanda (Saison 1)",
+    "hint1": "Patricia Belcher",
+    "hint2": "2025",
+    "hint3": "Eyes of Wakanda (Saison 1)",
+    "role": "Mentor",
+    "abilities": [
+      "Militaires",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "akihiko-mcu-616",
+    "name": "Akihiko",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Yakuza",
+    "firstAppearance": "Avengers : Endgame",
+    "hint1": "Hiroyuki Sanada",
+    "hint2": "2019",
+    "hint3": "Avengers : Endgame",
+    "role": "Vilain",
+    "abilities": [
+      "Arts Martiaux",
+      "Epéiste"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "albert_rackham-mcu-616",
+    "name": "Albert Rackham",
+    "status": "Décédé",
+    "aliases": [
+      "Rackham",
+      "Albert Rackham"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Prison de Seagate",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Chance Kelly",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Direction criminelle"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "albert_thompson-mcu-616",
+    "name": "Albert Thompson",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Famille Thompson",
+    "firstAppearance": "Jessica Jones (Saison 1)",
+    "hint1": "Michael Siberry",
+    "hint2": "2015",
+    "hint3": "Jessica Jones (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "aleksei_sytsevich-webb_verse-120703",
+    "name": "Aleksei Sytsevich",
+    "status": "En Vie",
+    "aliases": [
+      "Le Rhino",
+      "Rhino",
+      "Aleksei Sytsevich"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "The Amazing Spider-Man 2",
+    "hint1": "Paul Giamatti",
+    "hint2": "2014",
+    "hint3": "The Amazing Spider-Man 2",
+    "role": "Vilain",
+    "abilities": [
+      "Technologiques",
+      "Surhumaines"
+    ],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "alessa_geomi-mcu-616",
+    "name": "Alessa Geomi",
+    "status": "En Vie",
+    "aliases": [
+      "Épouse des Neuf Araignées",
+      "Bride of Nine Spiders",
+      "Alessa Geomi"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "La Main",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Jane Kim",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Arts Martiaux",
+      "Biochimiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "aleta_ogord-mcu-616",
+    "name": "Aleta Ogord",
+    "status": "En Vie",
+    "aliases": [
+      "Aleta",
+      "Aleta Ogord"
+    ],
+    "species": "Arcturan",
+    "gender": "Femme",
+    "affiliation": "Ravageurs",
+    "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
+    "hint1": "Michelle Yeoh",
+    "hint2": "2017",
+    "hint3": "Les Gardiens de la Galaxie Vol. 2",
+    "role": "Héros",
+    "abilities": [
+      "Aliennnes",
+      "Surhumaines"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]

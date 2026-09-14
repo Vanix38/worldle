@@ -1,0 +1,458 @@
+[
+  {
+    "id": "lonnie_wilson-mcu-616",
+    "name": "Lonnie Wilson",
+    "status": "En Vie",
+    "aliases": [
+      "Lonnie",
+      "Lonnie Wilson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Darius Kaleb",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lorna_wu-mcu-616",
+    "name": "Lorna Wu",
+    "status": "Décédé",
+    "aliases": [
+      "Lorna Wu"
+    ],
+    "species": "Sorcière",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agatha All Along (Saison 1)",
+    "hint1": "Elizabeth Anweis",
+    "hint2": "2024",
+    "hint3": "Agatha All Along (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Magiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lorraine-mcu-616",
+    "name": "Lorraine",
+    "status": "En Vie",
+    "aliases": [
+      "Lorraine"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Armée américaine",
+    "firstAppearance": "Captain America : First Avenger",
+    "hint1": "Natalie Dormer",
+    "hint2": "2011",
+    "hint3": "Captain America : First Avenger",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "louise_fisher-mcu-616",
+    "name": "Louise Fisher",
+    "status": "En Vie",
+    "aliases": [
+      "Louise Fisher"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Callisto Aerospace",
+    "firstAppearance": "Inhumans (Saison 1)",
+    "hint1": "Ellen Woglom",
+    "hint2": "2017",
+    "hint3": "Inhumans (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "lucio-mcu-616",
+    "name": "Lucio",
+    "status": "Décédé",
+    "aliases": [
+      "Yeux de Méduse",
+      "Medusa-Eyes",
+      "Lucio"
+    ],
+    "species": "Inhumain",
+    "gender": "Homme",
+    "affiliation": "Hive",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "Gabriel Salvador",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "role": "Vilain",
+    "abilities": [
+      "Psioniques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lucy_bauer-mcu-616",
+    "name": "Lucy Bauer",
+    "status": "Décédé",
+    "aliases": [
+      "Lucy Bauer"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint1": "Lilli Birdsell",
+    "hint2": "2016",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Intangibilité"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "luke_jacobson-mcu-616",
+    "name": "Luke Jacobson",
+    "status": "En Vie",
+    "aliases": [
+      "Luke Jacobson"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "She-Hulk : Avocate (Saison 1)",
+    "hint1": "Griffin Matthews",
+    "hint2": "2022",
+    "hint3": "She-Hulk : Avocate (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "luther_banks-mcu-616",
+    "name": "Luther Banks",
+    "status": "Décédé",
+    "aliases": [
+      "Luther Banks"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "ATCU",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "hint1": "Andrew Howard",
+    "hint2": "2015",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 3)",
+    "role": "Antagoniste",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "lynne_nichols-mcu-828",
+    "name": "Lynne Nichols",
+    "status": "En Vie",
+    "aliases": [
+      "Lynne Nichols"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Future Foundation",
+    "firstAppearance": "Les 4 Fantastiques : Premiers Pas",
+    "hint1": "Sarah Niles",
+    "hint2": "2025",
+    "hint3": "Les 4 Fantastiques : Premiers Pas",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 828,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "m_kathu-mcu-616",
+    "name": "M'Kathu",
+    "status": "En Vie",
+    "aliases": [
+      "M'Kathu"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Jabari",
+    "firstAppearance": "Black Panther",
+    "hint1": "Danny Sapani",
+    "hint2": "2018",
+    "hint3": "Black Panther",
+    "role": "Civil",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "macdonald_mac_gargan-mcu-86445",
+    "name": "Mac Gargan",
+    "status": "En Vie",
+    "aliases": [
+      "Le Scorpion",
+      "Scorpion",
+      "MacDonald Gargan",
+      "Mac Gargan"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Scorpions",
+    "firstAppearance": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "hint1": "Jonathan Medina",
+    "hint2": "2025",
+    "hint3": "Ton Ami du Quartier Spider-Man (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Technologiques",
+      "Surhumaines"
+    ],
+    "earth": 86445,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mack-independants-121347",
+    "name": "Mack",
+    "status": "En Vie",
+    "aliases": [
+      "Mack"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ghost Rider",
+    "hint1": "Donal Logue",
+    "hint2": "2007",
+    "hint3": "Ghost Rider",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 121347,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "magda_gurzsky-fox_x_men-10005",
+    "name": "Magda Gurzsky",
+    "status": "Décédé",
+    "aliases": [
+      "Magda",
+      "Magda Gurzsky"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "X-Men : Apocalypse",
+    "hint1": "Carolina Bartczak",
+    "hint2": "2016",
+    "hint3": "X-Men : Apocalypse",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "maggie_lang-mcu-616",
+    "name": "Maggie Lang",
+    "status": "En Vie",
+    "aliases": [
+      "Maggie",
+      "Maggie Lang"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Ant-Man",
+    "hint1": "Judy Greer",
+    "hint2": "2015",
+    "hint3": "Ant-Man, Ant-Man et la Guêpe",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mainframe-mcu-616",
+    "name": "Mainframe",
+    "status": "En Vie",
+    "aliases": [
+      "Mainframe"
+    ],
+    "species": "Artificiel",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Gardiens de la Galaxie Vol. 2",
+    "hint1": "Miley Cyrus",
+    "hint2": "2017",
+    "hint3": "Les Gardiens de la Galaxie Vol. 2",
+    "role": "Allié",
+    "abilities": [
+      "Technologiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "makkari-mcu-616",
+    "name": "Makkari",
+    "status": "En Vie",
+    "aliases": [
+      "Makkari"
+    ],
+    "species": "Eternal",
+    "gender": "Femme",
+    "affiliation": "Éternels",
+    "firstAppearance": "Eternals",
+    "hint1": "Lauren Ridloff",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Héros",
+    "abilities": [
+      "Cosmiques",
+      "Vitesse"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "malcolm_ducasse-mcu-616",
+    "name": "Malcolm Ducasse",
+    "status": "En Vie",
+    "aliases": [
+      "Malcolm",
+      "Malcolm Joseph Ducasse"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Alias Investigations",
+    "firstAppearance": "Jessica Jones (Saison 1)",
+    "hint1": "Eka Darville",
+    "hint2": "2015",
+    "hint3": "Jessica Jones (Saison 1), Jessica Jones (Saison 2), The Defenders (Saison 1), Jessica Jones (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "malekith-mcu-72124",
+    "name": "Malekith",
+    "status": "Décédé",
+    "aliases": [
+      "Malekith"
+    ],
+    "species": "Dark Elf",
+    "gender": "Homme",
+    "affiliation": "Elfes Noirs",
+    "firstAppearance": "What If...? (Saison 3)",
+    "hint1": "Christopher Eccleston",
+    "hint2": "2024",
+    "hint3": "What If...? (Saison 3)",
+    "role": "Vilain",
+    "abilities": [
+      "Magiques",
+      "Surhumaines"
+    ],
+    "earth": 72124,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "mallory_book-mcu-616",
+    "name": "Mallory Book",
+    "status": "En Vie",
+    "aliases": [
+      "Mal",
+      "Mallory Book"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Goodman, Lieber, Kurtzberg & Holliway",
+    "firstAppearance": "She-Hulk : Avocate (Saison 1)",
+    "hint1": "Renée Elise Goldsberry",
+    "hint2": "2022",
+    "hint3": "She-Hulk : Avocate (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "man_in_black-fox_x_men-10005",
+    "name": "Man in Black",
+    "status": "Décédé",
+    "aliases": [
+      "L'Homme en Noir",
+      "Man in Black",
+      "The Man in Black"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "CIA",
+    "firstAppearance": "X-Men : Le Commencement",
+    "hint1": "Oliver Platt",
+    "hint2": "2011",
+    "hint3": "X-Men : Le Commencement",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  }
+]

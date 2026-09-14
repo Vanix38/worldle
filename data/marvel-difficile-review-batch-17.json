@@ -1,0 +1,464 @@
+[
+  {
+    "id": "joseph_samuel_sam_greller-mcu-616",
+    "name": "Sam Greller",
+    "status": "En Vie",
+    "aliases": [
+      "Sam Greller",
+      "Joseph Samuel Greller"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Armée américaine",
+    "firstAppearance": "L'Incroyable Hulk",
+    "hint1": "Peter Mensah",
+    "hint2": "2008",
+    "hint3": "L'Incroyable Hulk",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "joshua_jovan-mcu-616",
+    "name": "Joshua Jovan",
+    "status": "Décédé",
+    "aliases": [
+      "Joshua Jovan"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Chasseurs de monstres",
+    "firstAppearance": "Werewolf by Night",
+    "hint1": "Kirk Thatcher",
+    "hint2": "2022",
+    "hint3": "Werewolf by Night",
+    "role": "Antagoniste",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "josie-independants-701306",
+    "name": "Josie",
+    "status": "En Vie",
+    "aliases": [
+      "Josie"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil",
+    "hint1": "",
+    "hint2": "2003",
+    "hint3": "Daredevil",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 701306,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "josie-mcu-616",
+    "name": "Josie",
+    "status": "En Vie",
+    "aliases": [
+      "Josie"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Susan Varon",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3), Daredevil : Born Again (Saison 1)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "joy_meachum-mcu-616",
+    "name": "Joy Meachum",
+    "status": "En Vie",
+    "aliases": [
+      "Joy Meachum"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Rand Entreprises",
+    "firstAppearance": "Iron Fist (Saison 1)",
+    "hint1": "Jessica Stroup",
+    "hint2": "2017",
+    "hint3": "Iron Fist (Saison 1), Iron Fist (Saison 2)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "jubilation_lee-fox_x_men-10005",
+    "name": "Jubilation Lee",
+    "status": "En Vie",
+    "aliases": [
+      "Jubilee",
+      "Jubilation Lee"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "X-Men",
+    "firstAppearance": "X-Men : Apocalypse",
+    "hint1": "Lana Condor",
+    "hint2": "2016",
+    "hint3": "X-Men : Apocalypse",
+    "role": "Héros",
+    "abilities": [
+      "Energétiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "julie_barnes-mcu-616",
+    "name": "Julie Barnes",
+    "status": "Décédé",
+    "aliases": [
+      "Julie Barnes"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "Holly Cinnamon",
+    "hint2": "2018",
+    "hint3": "Daredevil (Saison 3)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "julio_richter-fox_x_men-17315",
+    "name": "Julio Richter",
+    "status": "En Vie",
+    "aliases": [
+      "Rictor",
+      "X23-11",
+      "Julio Richter"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "X-23",
+    "firstAppearance": "Logan",
+    "hint1": "Jason Genao",
+    "hint2": "2017",
+    "hint3": "Logan",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines"
+    ],
+    "earth": 17315,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kahhori-mcu-616",
+    "name": "Kahhori",
+    "status": "En Vie",
+    "aliases": [
+      "Kahhori"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Mohawk",
+    "firstAppearance": "What If...? (Saison 2)",
+    "hint1": "Devery Jacobs",
+    "hint2": "2023",
+    "hint3": "What If...? (Saison 2)",
+    "role": "Héros",
+    "abilities": [
+      "Surhumaines",
+      "Cosmiques",
+      "Energétiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kamran-mcu-616",
+    "name": "Kamran",
+    "status": "En Vie",
+    "aliases": [
+      "Kamran"
+    ],
+    "species": [
+      "Humain",
+      "Noor"
+    ],
+    "gender": "Homme",
+    "affiliation": "Clandestins (Ms. Marvel)",
+    "firstAppearance": "Ms. Marvel (Saison 1)",
+    "hint1": "Rish Shah",
+    "hint2": "2022",
+    "hint3": "Ms. Marvel (Saison 1)",
+    "role": "Anti-héros",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kara_lynn_palamas-mcu-616",
+    "name": "Kara Lynn Palamas",
+    "status": "Décédé",
+    "aliases": [
+      "Agent 33",
+      "Kara Lynn Palamas"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Hydra",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "hint1": "Ming-Na Wen",
+    "hint2": "2014",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "role": "Vilain",
+    "abilities": [
+      "Espionnage",
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "karen-mcu-616",
+    "name": "Karen Page",
+    "status": "En Vie",
+    "aliases": [
+      "Karen Page",
+      "Isabel Schaffer"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Nelson & Murdock",
+    "firstAppearance": "Daredevil (Saison 1)",
+    "hint1": "Deborah Ann Woll",
+    "hint2": "2015",
+    "hint3": "Daredevil (Saison 1), Daredevil (Saison 2), Daredevil (Saison 3), The Defenders (Saison 1), Daredevil : Born Again (Saison 1)",
+    "role": "Allié",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Impossible"
+  },
+  {
+    "id": "karja-mcu-616",
+    "name": "Karja",
+    "status": "En Vie",
+    "aliases": [
+      "Maître Karja",
+      "Master Karja",
+      "Karja"
+    ],
+    "species": "Alien",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Les Gardiens de la Galaxie Vol. 3",
+    "hint1": "Nathan Fillion",
+    "hint2": "2023",
+    "hint3": "Les Gardiens de la Galaxie Vol. 3",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "karl_malus-mcu-616",
+    "name": "Karl Malus",
+    "status": "Décédé",
+    "aliases": [
+      "Tomas Millar",
+      "Karl Malus"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "IGH",
+    "firstAppearance": "Jessica Jones (Saison 2)",
+    "hint1": "Callum Keith Rennie",
+    "hint2": "2018",
+    "hint3": "Jessica Jones (Saison 2)",
+    "role": "Antagoniste",
+    "abilities": [
+      "Intellectuelles",
+      "Biochimiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "karun_patel-mcu-616",
+    "name": "Karun Patel",
+    "status": "En Vie",
+    "aliases": [
+      "Karun",
+      "Karun Patel"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Kingo",
+    "firstAppearance": "Eternals",
+    "hint1": "Harish Patel",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kathleen_sparr-mcu-616",
+    "name": "Kathleen Sparr",
+    "status": "En Vie",
+    "aliases": [
+      "Major Sparr",
+      "Kathleen Sparr"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Armée américaine",
+    "firstAppearance": "L'Incroyable Hulk",
+    "hint1": "Christina Cabot",
+    "hint2": "2008",
+    "hint3": "L'Incroyable Hulk",
+    "role": "Allié",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "katya_belyakov-mcu-616",
+    "name": "Katya Belyakov",
+    "status": "Décédé",
+    "aliases": [
+      "Katya Belyakov"
+    ],
+    "species": "Inhumain",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "hint1": "Ava Acres",
+    "hint2": "2014",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 2)",
+    "role": "Antagoniste",
+    "abilities": [
+      "Psioniques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kayla_silverfox-fox_x_men-10005",
+    "name": "Kayla Silverfox",
+    "status": "Décédé",
+    "aliases": [
+      "Renard Argenté",
+      "Silver Fox",
+      "Kayla",
+      "Kayla Silverfox"
+    ],
+    "species": "Mutant",
+    "gender": "Femme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "X-Men Origins : Wolverine",
+    "hint1": "Lynn Collins",
+    "hint2": "2009",
+    "hint3": "X-Men Origins : Wolverine",
+    "role": "Allié",
+    "abilities": [
+      "Psioniques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "kazi-mcu-616",
+    "name": "Kazi",
+    "status": "Décédé",
+    "aliases": [
+      "Kazi Kazimierczak",
+      "Kazi"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Wilson Fisk",
+    "firstAppearance": "Hawkeye (Saison 1)",
+    "hint1": "Fra Fee",
+    "hint2": "2021",
+    "hint3": "Hawkeye (Saison 1)",
+    "role": "Vilain",
+    "abilities": [
+      "Arts Martiaux"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ken_ogden-mcu-616",
+    "name": "Ken Ogden",
+    "status": "En Vie",
+    "aliases": [
+      "Ken Ogden"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Civil",
+    "firstAppearance": "Le Punisher (Saison 2)",
+    "hint1": "Brandon Gill",
+    "hint2": "2019",
+    "hint3": "Le Punisher (Saison 2)",
+    "role": "Civil",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]

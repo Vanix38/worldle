@@ -1,0 +1,412 @@
+[
+  {
+    "id": "price-mcu-616",
+    "name": "Price",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "She-Hulk: Attorney at Law (Saison 1)",
+    "hint1": "George Bryant",
+    "hint2": "",
+    "hint3": "She-Hulk: Attorney at Law (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "priest-independants-26320",
+    "name": "Priest",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Vampire",
+    "gender": "Homme",
+    "affiliation": "Bloodpack",
+    "firstAppearance": "Blade II",
+    "hint1": "",
+    "hint2": "2002",
+    "hint3": "Blade II",
+    "role": "",
+    "abilities": [],
+    "earth": 26320,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "prince_tafari-mcu-616",
+    "name": "Prince Tafari",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": ", Wakandan Royal Family",
+    "firstAppearance": "Eyes of Wakanda (Saison 1)",
+    "hint1": "",
+    "hint2": "",
+    "hint3": "Eyes of Wakanda (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "prince_yan-mcu-616",
+    "name": "Prince Yan",
+    "aliases": [],
+    "status": "En Vie",
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Aladna",
+    "firstAppearance": "The Marvels",
+    "hint1": "Park Seo-joon",
+    "hint2": "2023",
+    "hint3": "The Marvels",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "prince-mcu-616",
+    "name": "Prince",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "S.H.I.E.L.D.",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "hint1": "Ricardo Walker",
+    "hint2": "2016",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 4)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "priscilla_ridley-mcu-616",
+    "name": "Priscilla Ridley",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "N.Y.P.D.",
+    "firstAppearance": "Luke Cage (Saison 1)",
+    "hint1": "Karen Pittman",
+    "hint2": "2016",
+    "hint3": "Luke Cage (Saison 1)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "priya-mcu-616",
+    "name": "Priya",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "",
+    "firstAppearance": "Iron Fist (Saison 2)",
+    "hint1": "",
+    "hint2": "2018",
+    "hint3": "Iron Fist (Saison 2)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "pryce_cheng-mcu-616",
+    "name": "Pryce Cheng",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Formerly:",
+    "firstAppearance": "Jessica Jones (Saison 2)",
+    "hint1": "Terry Chen",
+    "hint2": "2018",
+    "hint3": "Jessica Jones (Saison 2)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "qovas-mcu-616",
+    "name": "Qovas",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Remorath",
+    "gender": "Homme",
+    "affiliation": "",
+    "firstAppearance": "Agents of S.H.I.E.L.D. (Saison 5)",
+    "hint1": "Peter Mensah",
+    "hint2": "",
+    "hint3": "Agents of S.H.I.E.L.D. (Saison 5)",
+    "role": "",
+    "abilities": [],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "quentin_glass-independants-58732",
+    "name": "Quentin Glass",
+    "status": "Décédé",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Organisation criminelle Saint",
+    "firstAppearance": "Le Punisher",
+    "hint1": "Will Patton",
+    "hint2": "2004",
+    "hint3": "Le Punisher",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 58732,
+    "universe": "Indépendants",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "ray_nadeem-mcu-616",
+    "name": "Ray Nadeem",
+    "status": "Décédé",
+    "aliases": [
+      "Rahul Nadeem"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "États-Unis",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "Jay Ali",
+    "hint2": "2018",
+    "hint3": "Daredevil (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "raza-mcu-616",
+    "name": "Raza",
+    "status": "Décédé",
+    "aliases": [
+      "Raza",
+      "Commandant Raza"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Les Dix Anneaux",
+    "firstAppearance": "Iron Man",
+    "hint1": "Faran Tahir",
+    "hint2": "2008",
+    "hint3": "Iron Man",
+    "role": "Vilain",
+    "abilities": [
+      "Militaires"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "remy_lebeau-fox_x_men-10005",
+    "name": "Remy LeBeau",
+    "status": "En Vie",
+    "aliases": [
+      "Gambit",
+      "Le Diacre"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "X-Men Origins : Wolverine",
+    "hint1": "Taylor Kitsch",
+    "hint2": "2009",
+    "hint3": "X-Men Origins : Wolverine",
+    "role": "Allié",
+    "abilities": [
+      "Energétiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "richard_parker-webb_verse-120703",
+    "name": "Richard Parker",
+    "status": "Décédé",
+    "aliases": [
+      "Dr. Parker",
+      "Richard Laurence Parker"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "firstAppearance": "The Amazing Spider-Man",
+    "affiliation": "Civil",
+    "hint1": "Campbell Scott",
+    "hint2": "2012",
+    "hint3": "The Amazing Spider-Man, The Amazing Spider-Man 2",
+    "role": "Civil",
+    "abilities": [
+      "Intellectuelles"
+    ],
+    "earth": 120703,
+    "universe": "Webb-Verse",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "sa_ur_maggie-mcu-616",
+    "name": "Sœur Maggie",
+    "status": "En Vie",
+    "aliases": [
+      "Sister Maggie",
+      "Margaret Grace"
+    ],
+    "species": "Humain",
+    "gender": "Femme",
+    "affiliation": "Civil",
+    "firstAppearance": "Daredevil (Saison 3)",
+    "hint1": "Joanne Whalley",
+    "hint2": "2018",
+    "hint3": "Daredevil (Saison 3)",
+    "role": "Allié",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "scott_summers-young-fox_x_men-10005",
+    "name": "Scott Summers (Fox, Origines)",
+    "status": "Décédé",
+    "aliases": [
+      "Cyclope",
+      "Scott Summers (jeune)"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "Indépendant(e)",
+    "firstAppearance": "X-Men Origins : Wolverine",
+    "hint1": "Tim Pocock",
+    "hint2": "2009",
+    "hint3": "X-Men Origins : Wolverine",
+    "role": "Héros",
+    "abilities": [
+      "Energétiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "sean_cassidy-fox_x_men-10005",
+    "name": "Sean Cassidy",
+    "status": "Décédé",
+    "aliases": [
+      "Banshee",
+      "Le Hurleur"
+    ],
+    "species": "Mutant",
+    "gender": "Homme",
+    "affiliation": "X-Men",
+    "firstAppearance": "X-Men : Le Commencement",
+    "hint1": "Caleb Landry Jones",
+    "hint2": "2011",
+    "hint3": "X-Men : Le Commencement",
+    "role": "Héros",
+    "abilities": [
+      "Energétiques"
+    ],
+    "earth": 10005,
+    "universe": "Fox X-Men",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "sonny_burch-mcu-616",
+    "name": "Sonny Burch",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Humain",
+    "gender": "Homme",
+    "firstAppearance": "Ant-Man et la Guêpe",
+    "affiliation": "Indépendant(e)",
+    "hint1": "Walton Goggins",
+    "hint2": "2018",
+    "hint3": "Ant-Man et la Guêpe",
+    "role": "Vilain",
+    "abilities": [
+      "Aucune"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "sprite-mcu-616",
+    "name": "Sprite",
+    "status": "En Vie",
+    "aliases": [],
+    "species": "Eternal",
+    "gender": "Femme",
+    "firstAppearance": "Eternals",
+    "affiliation": "Éternels",
+    "hint1": "Lia McHugh",
+    "hint2": "2021",
+    "hint3": "Eternals",
+    "role": "Traître",
+    "abilities": [
+      "Cosmiques"
+    ],
+    "earth": 616,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  },
+  {
+    "id": "stephen_strange-mcu-838",
+    "name": "Stephen Strange (Terre-838)",
+    "status": "Décédé",
+    "aliases": [
+      "Doctor Strange",
+      "Docteur Strange (Terre-838)",
+      "Sorcier Supreme (Terre-838)",
+      "Strange (Illuminati)"
+    ],
+    "species": "Humain",
+    "gender": "Homme",
+    "affiliation": "Illuminati",
+    "firstAppearance": "Doctor Strange in the Multiverse of Madness",
+    "hint1": "Benedict Cumberbatch",
+    "hint2": "2022",
+    "hint3": "Doctor Strange in the Multiverse of Madness",
+    "role": "Anti-héros",
+    "abilities": [
+      "Mystiques",
+      "Magiques"
+    ],
+    "earth": 838,
+    "universe": "MCU",
+    "difficulty": "Difficile"
+  }
+]
