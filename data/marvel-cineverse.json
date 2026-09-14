@@ -12938,7 +12938,7 @@
       "universe": "MCU",
       "difficulty": "Impossible",
       "hint4": "H.T.D.",
-      "alignment": "neutre"
+      "alignment": "gentil"
     },
     {
       "id": "korath-mcu-21818",
@@ -13746,7 +13746,7 @@
       "universe": "MCU",
       "difficulty": "Impossible",
       "hint4": "H.T.D.",
-      "alignment": "neutre"
+      "alignment": "gentil"
     },
     {
       "id": "jane_foster-mcu-72124",
@@ -17457,7 +17457,7 @@
       "universe": "Fox X-Men",
       "difficulty": "Impossible",
       "hint4": "I.R.",
-      "alignment": "neutre"
+      "alignment": "gentil"
     },
     {
       "id": "j_boothe-fox_x_men-10005",
@@ -22491,7 +22491,7 @@
       "universe": "Webb-Verse",
       "difficulty": "Impossible",
       "hint4": "H.S.",
-      "alignment": "gentil"
+      "alignment": "neutre"
     },
     {
       "id": "ian_c-webb_verse-120703",
@@ -26872,7 +26872,7 @@
       "universe": "Indépendants",
       "difficulty": "Impossible",
       "hint4": "I.",
-      "alignment": "neutre"
+      "alignment": "méchant"
     },
     {
       "id": "linus_lieberman-independants-47281",
@@ -38526,7 +38526,7 @@
       "universe": "MCU",
       "difficulty": "Impossible",
       "hint4": "H.",
-      "alignment": "neutre"
+      "alignment": "méchant"
     },
     {
       "id": "howard_the_duck-mcu-616",
@@ -38592,7 +38592,7 @@
       "universe": "MCU",
       "difficulty": "Impossible",
       "hint4": "H.",
-      "alignment": "neutre"
+      "alignment": "méchant"
     },
     {
       "id": "ian_boothby-mcu-616",
@@ -38723,7 +38723,7 @@
       "universe": "MCU",
       "difficulty": "Impossible",
       "hint4": "I.",
-      "alignment": "neutre"
+      "alignment": "gentil"
     },
     {
       "id": "iryna_maximoff-mcu-616",

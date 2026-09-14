@@ -1,9 +1,9 @@
 {
   "totalFilled": 1166,
   "counts": {
-    "gentil": 228,
-    "méchant": 305,
-    "neutre": 633
+    "gentil": 231,
+    "méchant": 308,
+    "neutre": 627
   },
   "sampleIds": [
     "89a95-mcu-616",
@@ -17,5 +17,47 @@
     "abner_croit-mcu-616",
     "abner_jenkins-spider_verse-8311"
   ],
-  "emptyAfter": 0
+  "emptyAfter": 0,
+  "batch27Resync": [
+    {
+      "id": "houston-mcu-616",
+      "from": "neutre",
+      "to": "méchant"
+    },
+    {
+      "id": "howard_stacy-webb_verse-120703",
+      "from": "gentil",
+      "to": "neutre"
+    },
+    {
+      "id": "howard_the_duck-mcu-21818",
+      "from": "neutre",
+      "to": "gentil"
+    },
+    {
+      "id": "howard_the_duck-mcu-72124",
+      "from": "neutre",
+      "to": "gentil"
+    },
+    {
+      "id": "huhtar-mcu-616",
+      "from": "neutre",
+      "to": "méchant"
+    },
+    {
+      "id": "illyana_rasputin-fox_x_men-10005",
+      "from": "neutre",
+      "to": "gentil"
+    },
+    {
+      "id": "ink-independants-47281",
+      "from": "neutre",
+      "to": "méchant"
+    },
+    {
+      "id": "iridia-mcu-616",
+      "from": "neutre",
+      "to": "gentil"
+    }
+  ]
 }

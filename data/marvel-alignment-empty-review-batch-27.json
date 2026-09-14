@@ -3,120 +3,120 @@
     "id": "hope_shlottman-mcu-616",
     "name": "Hope Shlottman",
     "alignment": "neutre",
-    "reason": "Patiente civile de Jessica Jones, victime sans rôle héroïque."
+    "reason": "Sœur de Robyn, victime civile manipulée par Kilgrave dans Jessica Jones."
   },
   {
     "id": "hope_van_dyne-mcu-82111",
     "name": "Hope Van Dyne",
     "alignment": "gentil",
-    "reason": "Variante héroïque de la Guêpe alliée dans What If…?"
+    "reason": "Guêpe héroïque sauvant le monde dans What If…? saison 2."
   },
   {
     "id": "horseman_of_death-fox_x_men-10005",
     "name": "Horseman of Death",
     "alignment": "méchant",
-    "reason": "Serviteur d'Apocalypse, antagoniste des X-Men."
+    "reason": "Cavalier d'Apocalypse servant le mutant dans X-Men: Apocalypse."
   },
   {
     "id": "horseman_of_famine-fox_x_men-10005",
     "name": "Horseman of Famine",
     "alignment": "méchant",
-    "reason": "Cavalier d'Apocalypse en guerre contre les mutants libres."
+    "reason": "Cavalier d'Apocalypse combattant les X-Men à ses côtés."
   },
   {
     "id": "horseman_of_pestilence-fox_x_men-10005",
     "name": "Horseman of Pestilence",
     "alignment": "méchant",
-    "reason": "Cavalier d'Apocalypse, force antagoniste à l'écran."
+    "reason": "Cavalier d'Apocalypse, bras armé du plan de destruction."
   },
   {
     "id": "horseman_of_war-fox_x_men-10005",
     "name": "Horseman of War",
     "alignment": "méchant",
-    "reason": "Cavalier d'Apocalypse combattant les héros."
+    "reason": "Cavalier d'Apocalypse menant l'assaut contre les héros."
   },
   {
     "id": "horuz-mcu-616",
     "name": "Horuz",
     "alignment": "méchant",
-    "reason": "Guerrier Kree sous Yon-Rogg, camp impérial antagoniste."
+    "reason": "Ravager mercenaire défiant Yondu et exigeant la mort de Quill."
   },
   {
     "id": "houston-mcu-616",
     "name": "Houston",
-    "alignment": "neutre",
-    "reason": "Personnage mineur au rôle peu clair à l'écran."
+    "alignment": "méchant",
+    "reason": "Docteur O.X.E. travaillant sur le Projet Sentry pour Valentina."
   },
   {
     "id": "howard_stacy-webb_verse-120703",
     "name": "Howard Stacy",
-    "alignment": "gentil",
-    "reason": "Capitaine de police allié, père protecteur de Gwen."
+    "alignment": "neutre",
+    "reason": "Frère cadet de Gwen Stacy, enfant civil dans The Amazing Spider-Man."
   },
   {
     "id": "howard_the_duck-mcu-21818",
     "name": "Howard the Duck",
-    "alignment": "neutre",
-    "reason": "Caméo comique sans camp héroïque clair."
+    "alignment": "gentil",
+    "reason": "Allié comique des Gardiens dans What If…? saison 1."
   },
   {
     "id": "howard_the_duck-mcu-72124",
     "name": "Howard the Duck",
-    "alignment": "neutre",
-    "reason": "Caméo comique, figure grise hors conflit principal."
+    "alignment": "gentil",
+    "reason": "Figure amicale des Gardiens dans l'épisode Party Thor de What If…?"
   },
   {
     "id": "huhtar-mcu-616",
     "name": "Huhtar",
-    "alignment": "neutre",
-    "reason": "Figurant mineur au camp ambigu ou non précisé."
+    "alignment": "méchant",
+    "reason": "Ravager mutin rejoignant Taserface contre Yondu dans Vol. 2."
   },
   {
     "id": "humanoid_experimental_robot_b_type_integrated_electronics-fox_fantastiques-121698",
     "name": "Humanoid Experimental Robot B-Type Integrated Electronics",
     "alignment": "gentil",
-    "reason": "H.E.R.B.I.E., robot allié aidant les Fantastiques."
+    "reason": "H.E.R.B.I.E., robot domestique aidant les Quatre Fantastiques en 2005."
   },
   {
     "id": "ian_c-webb_verse-120703",
     "name": "Ian C.",
     "alignment": "neutre",
-    "reason": "Civil mineur du Webb-verse, rôle secondaire."
+    "reason": "Figurant civil du Daily Bugle dans le marketing Webb-Verse."
   },
   {
     "id": "idaho-mcu-616",
     "name": "Idaho",
     "alignment": "neutre",
-    "reason": "Personnage secondaire au positionnement flou."
+    "reason": "Mercenaire de l'équipe Hartley, anti-héros payé par S.H.I.E.L.D."
   },
   {
     "id": "igor-mcu-828",
     "name": "Igor",
     "alignment": "neutre",
-    "reason": "Figurant mineur, affiliation peu claire à l'écran."
+    "reason": "Babouin Super-Singe de Red Ghost, animal sans camp moral propre."
   },
   {
     "id": "illyana_rasputin-fox_x_men-10005",
     "name": "Illyana Rasputin",
-    "alignment": "neutre",
-    "reason": "Enfant capturée par Apocalypse, pas encore héroïne à l'écran."
+    "alignment": "gentil",
+    "reason": "Magik des New Mutants combattant le Demon Bear aux côtés des héros."
   },
   {
     "id": "ink-independants-47281",
     "name": "Ink",
-    "alignment": "neutre",
-    "reason": "Mutant anti-héros gris, camp ambigu."
+    "alignment": "méchant",
+    "reason": "Sbire criminel du gang de Jigsaw dans Punisher: War Zone."
   },
   {
     "id": "irene_merryweather-fox_x_men-41633",
     "name": "Irene Merryweather",
     "alignment": "neutre",
-    "reason": "Journaliste civile hors combat mutant."
+    "reason": "Journaliste civile couvrant l'incident d'Essex House dans Deadpool 2."
   },
   {
     "id": "iridia-mcu-616",
     "name": "Iridia",
-    "alignment": "neutre",
-    "reason": "Personnage mineur au camp non tranché."
+    "alignment": "gentil",
+    "reason": "Jeune Inhumaine fidèle à Black Bolt contre le coup de Maximus."
   }
 ]
