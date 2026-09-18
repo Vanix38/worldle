@@ -21,12 +21,14 @@ export async function GET(
 
   const columns: ColumnDocRow[] = [];
   for (const [key, entry] of Object.entries(data.fieldMapping)) {
+    // Pas de colonnes de jeu : setup (difficulty), recherche, indices.
+    if (key === "difficulty") continue;
+    if (entry.fonction === "Recherche" || entry.fonction === "Indice") continue;
     columns.push({
       key,
       header: entry.header,
       description: entry.description?.trim() || null,
       fonction: entry.fonction,
-      ...(entry.hint?.prompt ? { hintPrompt: entry.hint.prompt } : {}),
       ...(entry.columnWidth ? { columnWidth: entry.columnWidth } : {}),
     });
   }

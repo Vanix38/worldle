@@ -23,10 +23,14 @@ function formatLabel(key: string): string {
     .trim();
 }
 
+/** Setup-only field: used for max-difficulty picker, never a game column. */
+const SETUP_ONLY_KEYS = new Set(["difficulty"]);
+
 function schemaEntryFromFieldMapping(
   key: string,
   entry: FieldMappingEntry
 ): AttributeSchemaEntry | null {
+  if (SETUP_ONLY_KEYS.has(key)) return null;
   if (entry.fonction === "Recherche" || entry.fonction === "Indice") return null;
   let type: AttributeType = "categorical";
   let ordered = false;
@@ -131,9 +135,11 @@ export function getHintTiers(universeData: UniverseData): HintTierDef[] {
     };
     out.push({
       tier,
-      order: typeof entry.hint?.order === "number" ? entry.hint.order : Number.POSITIVE_INFINITY,
-      index: index++,
+      // Prefer explicit hint.order; otherwise keep fieldMapping insertion order (not Infinity).
+      order: typeof entry.hint?.order === "number" ? entry.hint.order : index,
+      index,
     });
+    index++;
   }
   out.sort((a, b) => a.order - b.order || a.index - b.index);
   return out.map((x) => x.tier);
