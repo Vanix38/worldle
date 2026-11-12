@@ -1,0 +1,72 @@
+{
+  "id": "naruto-clans",
+  "name": "Naruto",
+  "description": "Devine les clans et villages a partir de leur symbole",
+  "kind": "universe",
+  "relatedUniverseId": "naruto",
+  "decoyLetterCount": 8,
+  "sections": [
+    {
+      "id": "clans",
+      "name": "Clans",
+      "logos": [
+        { "id": "aburame", "name": "Aburame", "difficulty": "Facile" },
+        { "id": "akimichi", "name": "Akimichi", "difficulty": "Facile" },
+        { "id": "fuma", "name": "Fuma", "aliases": ["Fûma"], "difficulty": "Difficile" },
+        { "id": "funato", "name": "Funato", "difficulty": "Difficile" },
+        { "id": "getsu", "name": "Getsu", "difficulty": "Impossible" },
+        { "id": "hagoromo", "name": "Hagoromo", "difficulty": "Moyen" },
+        { "id": "hatake", "name": "Hatake", "difficulty": "Facile" },
+        { "id": "hozuki", "name": "Hozuki", "aliases": ["Hôzuki"], "difficulty": "Moyen" },
+        { "id": "hyuga", "name": "Hyuga", "aliases": ["Hyûga"], "difficulty": "Très facile" },
+        { "id": "inuzuka", "name": "Inuzuka", "difficulty": "Facile" },
+        { "id": "izuno", "name": "Izuno", "difficulty": "Impossible" },
+        { "id": "kagetsu", "name": "Kagetsu", "difficulty": "Impossible" },
+        { "id": "kaminarimon", "name": "Kaminarimon", "difficulty": "Impossible" },
+        { "id": "kamizuru", "name": "Kamizuru", "difficulty": "Difficile" },
+        { "id": "kedoin", "name": "Kedoin", "aliases": ["Kedôin"], "difficulty": "Impossible" },
+        { "id": "kohaku", "name": "Kohaku", "difficulty": "Impossible" },
+        { "id": "kurama", "name": "Kurama", "difficulty": "Moyen" },
+        { "id": "monzaemon", "name": "Monzaemon", "difficulty": "Impossible" },
+        { "id": "nara", "name": "Nara", "aliases": ["Clan Nara"], "difficulty": "Facile" },
+        { "id": "otsutsuki", "name": "Otsutsuki", "aliases": ["Ôtsutsuki"], "difficulty": "Facile" },
+        { "id": "sarutobi", "name": "Sarutobi", "difficulty": "Facile" },
+        { "id": "senju", "name": "Senju", "difficulty": "Facile" },
+        { "id": "shiin", "name": "Shiin", "difficulty": "Impossible" },
+        { "id": "shimura", "name": "Shimura", "difficulty": "Moyen" },
+        { "id": "shirogane", "name": "Shirogane", "difficulty": "Impossible" },
+        { "id": "tsuchigumo", "name": "Tsuchigumo", "difficulty": "Difficile" },
+        { "id": "uchiwa", "name": "Uchiwa", "aliases": ["Uchiha"], "difficulty": "Très facile" },
+        { "id": "uzumaki", "name": "Uzumaki", "difficulty": "Très facile" },
+        { "id": "wagarashi", "name": "Wagarashi", "difficulty": "Impossible" },
+        { "id": "wasabi", "name": "Wasabi", "difficulty": "Impossible" },
+        { "id": "yamanaka", "name": "Yamanaka", "difficulty": "Facile" },
+        { "id": "yotsuki", "name": "Yotsuki", "difficulty": "Difficile" }
+      ]
+    },
+    {
+      "id": "villages",
+      "name": "Villages",
+      "logos": [
+        { "id": "konoha", "name": "Konoha", "aliases": ["Konohagakure"], "difficulty": "Très facile" },
+        { "id": "suna", "name": "Suna", "aliases": ["Sunagakure"], "difficulty": "Très facile" },
+        { "id": "kiri", "name": "Kiri", "aliases": ["Kirigakure"], "difficulty": "Facile" },
+        { "id": "kumo", "name": "Kumo", "aliases": ["Kumogakure"], "difficulty": "Facile" },
+        { "id": "iwa", "name": "Iwa", "aliases": ["Iwagakure"], "difficulty": "Facile" },
+        { "id": "oto", "name": "Oto", "aliases": ["Otogakure"], "difficulty": "Moyen" },
+        { "id": "ame", "name": "Ame", "aliases": ["Amegakure"], "difficulty": "Moyen" },
+        { "id": "taki", "name": "Taki", "aliases": ["Takigakure"], "difficulty": "Difficile" },
+        { "id": "kusa", "name": "Kusa", "aliases": ["Kusagakure"], "difficulty": "Difficile" },
+        { "id": "tani", "name": "Tani", "aliases": ["Tanigakure"], "difficulty": "Impossible" },
+        { "id": "yu", "name": "Yu", "aliases": ["Yugakure"], "difficulty": "Impossible" },
+        { "id": "uzushio", "name": "Uzushio", "aliases": ["Uzushiogakure"], "difficulty": "Moyen" },
+        { "id": "hoshi", "name": "Hoshi", "aliases": ["Hoshigakure"], "difficulty": "Difficile" },
+        { "id": "nadeshiko", "name": "Nadeshiko", "difficulty": "Impossible" },
+        { "id": "yume", "name": "Yume", "aliases": ["Yumegakure"], "difficulty": "Impossible" },
+        { "id": "takumi", "name": "Takumi", "difficulty": "Impossible" },
+        { "id": "shimo", "name": "Shimo", "aliases": ["Shimogakure"], "difficulty": "Impossible" },
+        { "id": "yuki-village", "name": "Yuki", "aliases": ["Yukigakure"], "difficulty": "Difficile" }
+      ]
+    }
+  ]
+}

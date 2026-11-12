@@ -3,9 +3,9 @@ import "./globals.css";
 import { stripAccents } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: stripAccents("Worlddle – Devine le personnage"),
+  title: stripAccents("Worlddle – Devine le personnage ou le logo"),
   description: stripAccents(
-    "Jeu de devinette de personnages par univers (One Piece, Naruto, LoL, DBD, YouTubeurs FR). Joue à l'infini."
+    "Jeu de devinette de personnages par univers et quiz logos. Joue à l'infini."
   ),
 };
 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Wasabi_Symbol.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   version="1.1"
+   id="svg3004"
+   height="100"
+   width="100">
+  <defs
+     id="defs3006" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1057"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="svg3004"
+     inkscape:document-units="px"
+     inkscape:cy="-15.210504"
+     inkscape:cx="238.36668"
+     inkscape:zoom="2.2681106"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="namedview3014" />
+  <metadata
+     id="metadata3009">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="Símbolo">
+    <g
+       id="base">
+      <circle
+         style="fill:#a8ffa5;stroke:black;stroke-width:1px"
+         sodipodi:ry="49.5"
+         sodipodi:rx="49.5"
+         sodipodi:cy="50"
+         sodipodi:cx="50"
+         r="49.5"
+         cy="50"
+         cx="50"
+         id="base1" />
+      <circle
+         style="fill:#a5d5c2;fill-opacity:1;stroke:black;stroke-width:1px"
+         sodipodi:ry="47"
+         sodipodi:rx="47"
+         sodipodi:cy="50"
+         sodipodi:cx="50"
+         r="47"
+         cy="50"
+         cx="50"
+         id="base2" />
+    </g>
+    <circle
+       style="fill:#a8ffa5;stroke:black;stroke-width:1px"
+       sodipodi:ry="4"
+       sodipodi:rx="4"
+       sodipodi:cy="50"
+       sodipodi:cx="50"
+       r="4"
+       cy="50"
+       cx="50"
+       id="centro" />
+    <g
+       id="Wasabi">
+      <path
+         inkscape:connector-curvature="0"
+         id="Wasabi 1"
+         d="m 50,35 c 0.631997,5.144005 2.730136,7.722263 5,10 C 64.856744,40.713322 74.400273,34.986752 80,30 87.28524,23.034354 69.03074,0.70869251 50,15 40.464085,-1.5513563 10.344876,20.619953 20,30 c 2.985618,3.659272 13.731848,10.086042 25,15 2.947381,-3.333333 4.103273,-6.666667 5,-10 z"
+         style="fill:#a8ffa5;stroke:black;stroke-width:1px;stroke-linejoin:round" />
+      <use
+         height="100"
+         width="100"
+         transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,118.30127,31.69873)"
+         id="Wasabi 2"
+         xlink:href="#Wasabi 1"
+         y="0"
+         x="0" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#Wasabi 1"
+         id="Wasabi 3"
+         transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,31.69873,118.30127)"
+         width="100"
+         height="100" />
+    </g>
+  </g>
+</svg>

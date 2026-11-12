@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-label="Marques de voitures">
+  <rect width="240" height="64" rx="10" fill="#0f172a"/>
+  <circle cx="36" cy="32" r="18" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="36" cy="32" r="7" fill="#38bdf8"/>
+  <path d="M62 40h18l6-10h28l8 10h20" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="78" cy="42" r="5" fill="#94a3b8"/>
+  <circle cx="122" cy="42" r="5" fill="#94a3b8"/>
+  <text x="148" y="38" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">AUTO & MOTO</text>
+</svg>

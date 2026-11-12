@@ -146,9 +146,9 @@ export function GameLayout({ children }: GameLayoutProps) {
         <PageTransition>{children}</PageTransition>
       </main>
 
-      <footer className="border-t border-gray-700 bg-gray-900/80 py-4">
+          <footer className="border-t border-gray-700 bg-gray-900/80 py-4">
         <div className="mx-auto max-w-5xl px-4 text-center text-sm text-gray-500 sm:px-6">
-          {stripAccents("Worlddle – Devine le personnage")}
+          {stripAccents("Worlddle – Devine le personnage ou le logo")}
         </div>
       </footer>
 

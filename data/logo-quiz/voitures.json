@@ -1,0 +1,93 @@
+{
+  "id": "voitures",
+  "name": "Voitures & motos",
+  "description": "Devine la marque a partir de son logo",
+  "kind": "brands",
+  "decoyLetterCount": 8,
+  "sections": [
+    {
+      "id": "europe",
+      "name": "Europe",
+      "logos": [
+        { "id": "bmw", "name": "BMW", "difficulty": "Très facile" },
+        { "id": "mercedes", "name": "Mercedes", "aliases": ["Mercedes-Benz", "Mercedes Benz"], "difficulty": "Très facile" },
+        { "id": "audi", "name": "Audi", "difficulty": "Très facile" },
+        { "id": "volkswagen", "name": "Volkswagen", "aliases": ["VW"], "difficulty": "Facile" },
+        { "id": "porsche", "name": "Porsche", "difficulty": "Facile" },
+        { "id": "ferrari", "name": "Ferrari", "difficulty": "Très facile" },
+        { "id": "lamborghini", "name": "Lamborghini", "difficulty": "Facile" },
+        { "id": "peugeot", "name": "Peugeot", "difficulty": "Facile" },
+        { "id": "renault", "name": "Renault", "difficulty": "Facile" },
+        { "id": "citroen", "name": "Citroen", "aliases": ["Citroën"], "difficulty": "Facile" },
+        { "id": "dsautomobiles", "name": "DS", "aliases": ["DS Automobiles"], "difficulty": "Moyen" },
+        { "id": "fiat", "name": "Fiat", "difficulty": "Moyen" },
+        { "id": "alfaromeo", "name": "Alfa Romeo", "difficulty": "Moyen" },
+        { "id": "volvo", "name": "Volvo", "difficulty": "Facile" },
+        { "id": "opel", "name": "Opel", "difficulty": "Moyen" },
+        { "id": "vauxhall", "name": "Vauxhall", "difficulty": "Difficile" },
+        { "id": "seat", "name": "Seat", "aliases": ["SEAT"], "difficulty": "Moyen" },
+        { "id": "skoda", "name": "Skoda", "aliases": ["Škoda"], "difficulty": "Moyen" },
+        { "id": "mini", "name": "Mini", "aliases": ["MINI"], "difficulty": "Facile" },
+        { "id": "jaguar", "name": "Jaguar", "difficulty": "Facile" },
+        { "id": "landrover", "name": "Land Rover", "difficulty": "Moyen" },
+        { "id": "maserati", "name": "Maserati", "difficulty": "Moyen" },
+        { "id": "bentley", "name": "Bentley", "difficulty": "Difficile" },
+        { "id": "rollsroyce", "name": "Rolls-Royce", "aliases": ["Rolls Royce", "RollsRoyce"], "difficulty": "Moyen" },
+        { "id": "astonmartin", "name": "Aston Martin", "difficulty": "Moyen" },
+        { "id": "bugatti", "name": "Bugatti", "difficulty": "Facile" },
+        { "id": "dacia", "name": "Dacia", "difficulty": "Facile" },
+        { "id": "smart", "name": "Smart", "aliases": ["smart"], "difficulty": "Moyen" },
+        { "id": "mg", "name": "MG", "difficulty": "Moyen" },
+        { "id": "lada", "name": "Lada", "difficulty": "Difficile" },
+        { "id": "mclaren", "name": "McLaren", "difficulty": "Facile" },
+        { "id": "koenigsegg", "name": "Koenigsegg", "difficulty": "Difficile" },
+        { "id": "polestar", "name": "Polestar", "difficulty": "Moyen" },
+        { "id": "scania", "name": "Scania", "difficulty": "Moyen" },
+        { "id": "man", "name": "MAN", "difficulty": "Difficile" },
+        { "id": "iveco", "name": "Iveco", "aliases": ["IVECO"], "difficulty": "Difficile" },
+        { "id": "ducati", "name": "Ducati", "difficulty": "Facile" },
+        { "id": "ktm", "name": "KTM", "difficulty": "Facile" },
+        { "id": "vespa", "name": "Vespa", "difficulty": "Facile" },
+        { "id": "piaggio", "name": "Piaggio", "difficulty": "Moyen" },
+        { "id": "husqvarna", "name": "Husqvarna", "difficulty": "Moyen" },
+        { "id": "norton", "name": "Norton", "difficulty": "Difficile" }
+      ]
+    },
+    {
+      "id": "asie",
+      "name": "Asie",
+      "logos": [
+        { "id": "toyota", "name": "Toyota", "difficulty": "Très facile" },
+        { "id": "honda", "name": "Honda", "difficulty": "Facile" },
+        { "id": "nissan", "name": "Nissan", "difficulty": "Facile" },
+        { "id": "mazda", "name": "Mazda", "difficulty": "Facile" },
+        { "id": "subaru", "name": "Subaru", "difficulty": "Moyen" },
+        { "id": "mitsubishi", "name": "Mitsubishi", "difficulty": "Moyen" },
+        { "id": "suzuki", "name": "Suzuki", "difficulty": "Moyen" },
+        { "id": "infiniti", "name": "Infiniti", "aliases": ["INFINITI"], "difficulty": "Moyen" },
+        { "id": "hyundai", "name": "Hyundai", "difficulty": "Facile" },
+        { "id": "kia", "name": "Kia", "aliases": ["KIA"], "difficulty": "Facile" },
+        { "id": "tata", "name": "Tata", "difficulty": "Difficile" },
+        { "id": "mahindra", "name": "Mahindra", "difficulty": "Difficile" },
+        { "id": "yamaha", "name": "Yamaha", "difficulty": "Facile" },
+        { "id": "proton", "name": "Proton", "difficulty": "Difficile" }
+      ]
+    },
+    {
+      "id": "amerique",
+      "name": "Amerique",
+      "logos": [
+        { "id": "ford", "name": "Ford", "difficulty": "Très facile" },
+        { "id": "chevrolet", "name": "Chevrolet", "aliases": ["Chevy"], "difficulty": "Facile" },
+        { "id": "tesla", "name": "Tesla", "difficulty": "Très facile" },
+        { "id": "jeep", "name": "Jeep", "difficulty": "Facile" },
+        { "id": "cadillac", "name": "Cadillac", "difficulty": "Moyen" },
+        { "id": "acura", "name": "Acura", "difficulty": "Moyen" },
+        { "id": "chrysler", "name": "Chrysler", "difficulty": "Moyen" },
+        { "id": "ram", "name": "Ram", "aliases": ["RAM"], "difficulty": "Moyen" },
+        { "id": "lucid", "name": "Lucid", "difficulty": "Difficile" },
+        { "id": "generalmotors", "name": "General Motors", "aliases": ["GM"], "difficulty": "Moyen" }
+      ]
+    }
+  ]
+}
