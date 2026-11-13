@@ -61,6 +61,16 @@ function detectLogoImage(packId: string, logoId: string): string | undefined {
   }
 }
 
+function detectLogoFullImage(packId: string, logoId: string): string | undefined {
+  try {
+    const dir = path.join(PUBLIC_DIR, packId, "logos");
+    if (!fs.existsSync(dir)) return undefined;
+    return detectImageInDir(dir, `${logoId}-full`, packId, "logos");
+  } catch {
+    return undefined;
+  }
+}
+
 function isLogoQuizKind(value: unknown): value is LogoQuizKind {
   return value === "brands" || value === "universe";
 }
@@ -101,6 +111,8 @@ function parseLogoEntry(
   if (enrichImages) {
     const imageUrl = detectLogoImage(packId, entry.id);
     if (imageUrl) entry.imageUrl = imageUrl;
+    const fullImageUrl = detectLogoFullImage(packId, entry.id);
+    if (fullImageUrl) entry.fullImageUrl = fullImageUrl;
   }
   return entry;
 }

@@ -46,11 +46,8 @@
         { "id": "man", "name": "MAN", "difficulty": "Difficile" },
         { "id": "iveco", "name": "Iveco", "aliases": ["IVECO"], "difficulty": "Difficile" },
         { "id": "ducati", "name": "Ducati", "difficulty": "Facile" },
-        { "id": "ktm", "name": "KTM", "difficulty": "Facile" },
-        { "id": "vespa", "name": "Vespa", "difficulty": "Facile" },
         { "id": "piaggio", "name": "Piaggio", "difficulty": "Moyen" },
-        { "id": "husqvarna", "name": "Husqvarna", "difficulty": "Moyen" },
-        { "id": "norton", "name": "Norton", "difficulty": "Difficile" }
+        { "id": "husqvarna", "name": "Husqvarna", "difficulty": "Moyen" }
       ]
     },
     {

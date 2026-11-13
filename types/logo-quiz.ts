@@ -18,6 +18,11 @@ export interface LogoEntry {
   difficulty?: LogoQuizDifficulty;
   /** Resolved at load time from public/logo-quiz/{packId}/logos/{id}.* */
   imageUrl?: string;
+  /**
+   * Optional full/branded asset shown once the logo is found.
+   * Resolved from public/logo-quiz/{packId}/logos/{id}-full.*
+   */
+  fullImageUrl?: string;
 }
 
 /** Named group of logos inside a pack (e.g. Clans, Villages). */

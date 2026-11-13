@@ -8,6 +8,7 @@ import {
   difficultyShortLabel,
   LOGO_QUIZ_DIFFICULTY_ORDER,
 } from "@/lib/logo-quiz-difficulty";
+import { resolveLogoDisplayUrl } from "@/lib/logo-quiz-display";
 import type {
   LogoEntry,
   LogoQuizDifficulty,
@@ -62,6 +63,8 @@ function LogoTile({
   displayIndex: number;
   done: boolean;
 }) {
+  const displayUrl = resolveLogoDisplayUrl(logo, done);
+
   return (
     <li>
       <Link
@@ -102,13 +105,13 @@ function LogoTile({
         </div>
 
         <div className="flex min-h-0 flex-1 items-center justify-center px-3 pb-2">
-          {logo.imageUrl ? (
+          {displayUrl ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={logo.imageUrl}
+              src={displayUrl}
               alt=""
               className={`max-h-full max-w-full object-contain transition duration-200 ${
-                done ? "opacity-80" : "group-hover:scale-[1.04]"
+                done ? "opacity-90" : "group-hover:scale-[1.04]"
               }`}
             />
           ) : (

@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { stripAccents } from "@/lib/utils";
+import { resolveLogoDisplayUrl } from "@/lib/logo-quiz-display";
 import { buildAnswerPattern, resolveSlotLetters } from "@/lib/logo-quiz-letters";
+import { useLogoQuizProgress } from "@/hooks/useLogoQuizProgress";
 import { getNextLogoId, useLogoQuizState } from "@/hooks/useLogoQuizState";
 import type { LogoQuizPack } from "@/types/logo-quiz";
 import { Button } from "@/components/ui/Button";
@@ -31,15 +33,30 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
     resetGame,
     isMissingLogo,
   } = useLogoQuizState(pack, logoId);
+  const { isCompleted } = useLogoQuizProgress(pack.id);
 
   const [victoryDismissed, setVictoryDismissed] = useState(false);
+  const [isReplaying, setIsReplaying] = useState(false);
   const won = state?.won ?? false;
   const nextLogoId = getNextLogoId(pack, logoId);
   const listHref = `/logo/${pack.id}`;
 
   useEffect(() => {
-    if (won) setVictoryDismissed(false);
+    setIsReplaying(false);
+  }, [logoId]);
+
+  useEffect(() => {
+    if (won) {
+      setVictoryDismissed(false);
+      setIsReplaying(false);
+    }
   }, [won]);
+
+  const handleReset = () => {
+    setIsReplaying(true);
+    setVictoryDismissed(true);
+    resetGame();
+  };
 
   const handleNext = () => {
     if (nextLogoId) router.push(`/logo/${pack.id}/${nextLogoId}`);
@@ -71,6 +88,8 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
   const pattern = buildAnswerPattern(target.name);
   const slotLetters = resolveSlotLetters(state.slots, state.bank);
   const victoryOpen = won && !victoryDismissed;
+  const showFullLogo = won || (isCompleted(logoId) && !isReplaying);
+  const displayUrl = resolveLogoDisplayUrl(target, showFullLogo);
 
   return (
     <div className="mx-auto flex w-full max-w-lg flex-col items-center gap-6">
@@ -86,7 +105,7 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
             type="button"
             variant="ghost"
             size="sm"
-            onClick={resetGame}
+            onClick={handleReset}
             aria-label={stripAccents("Recommencer ce logo")}
           >
             {stripAccents("Recommencer")}
@@ -117,12 +136,16 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
 
       <div
         className="flex aspect-square w-full max-w-[16rem] items-center justify-center overflow-hidden rounded-xl border border-gray-700 bg-white/95 p-4 sm:max-w-[18rem]"
-        aria-label={stripAccents("Logo à deviner")}
+        aria-label={
+          showFullLogo
+            ? stripAccents(`Logo ${target.name}`)
+            : stripAccents("Logo à deviner")
+        }
       >
-        {target.imageUrl ? (
+        {displayUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={target.imageUrl}
+            src={displayUrl}
             alt=""
             className="max-h-full max-w-full object-contain"
           />
