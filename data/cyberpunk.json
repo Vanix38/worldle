@@ -40,12 +40,6 @@
       "columnWidth": "medium",
       "description": "Cyberpunk 2077, Edgerunners, ou les deux (d’après appears_games / appears_other)."
     },
-    "age": {
-      "header": "Âge",
-      "fonction": "ComparaisonChiffre",
-      "columnWidth": "small",
-      "description": "Premier âge numérique déduit de l’infobox (années)."
-    },
     "aliases": {
       "header": "Alias",
       "fonction": "Recherche",
@@ -60,16 +54,6 @@
         "unlockAfter": 5
       },
       "description": "Doubleur / acteur (voiced_by)."
-    },
-    "hint2": {
-      "header": "Indice 2",
-      "fonction": "Indice",
-      "hint": {
-        "prompt": "Lieu de naissance",
-        "icon": "FaMapLocationDot",
-        "unlockAfter": 10
-      },
-      "description": "Lieu de naissance (place_of_birth)."
     }
   },
   "fieldPrevalence": {
@@ -80,10 +64,8 @@
     "affiliation": 0.665,
     "home": 0.636,
     "source": 1,
-    "age": 0.096,
     "aliases": 0.232,
-    "hint1": 0.413,
-    "hint2": 0.107
+    "hint1": 0.413
   },
   "hintInterval": 5,
   "characters": [
@@ -98,8 +80,7 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "aaron-mccarlson",
@@ -112,8 +93,7 @@
       "affiliation": "NCPD, Regina Jones",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick",
-      "hint2": ""
+      "hint1": "Graham Vick"
     },
     {
       "id": "aaron-waines",
@@ -126,8 +106,7 @@
       "affiliation": "Animals",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "adam-smasher",
@@ -143,8 +122,7 @@
       "affiliation": "United States Armed Forces, Arasaka",
       "home": "The Bronx, NYC, Night City",
       "source": "Les deux",
-      "hint1": "Alec Newman",
-      "hint2": "New York City, USA"
+      "hint1": "Alec Newman"
     },
     {
       "id": "aera",
@@ -157,8 +135,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Hiromi Dames",
-      "hint2": "Rancho Coronado"
+      "hint1": "Hiromi Dames"
     },
     {
       "id": "aguilar-nubiola",
@@ -171,8 +148,7 @@
       "affiliation": "Cuban cartels",
       "home": "Havana, Cuba",
       "source": "Cyberpunk 2077",
-      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)",
-      "hint2": ""
+      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)"
     },
     {
       "id": "ainara-alvarez",
@@ -185,8 +161,7 @@
       "affiliation": "",
       "home": "Seattle, Night City, Laguna Bend",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "akari-yamakage",
@@ -199,8 +174,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "akira",
@@ -213,8 +187,7 @@
       "affiliation": "Arasaka",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Japan"
+      "hint1": ""
     },
     {
       "id": "alamini-davis",
@@ -227,8 +200,7 @@
       "affiliation": "OA",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "alan-crank",
@@ -241,8 +213,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "alan-noel",
@@ -255,8 +226,7 @@
       "affiliation": "NetWatch",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "albert-murphy",
@@ -269,8 +239,7 @@
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "aldo",
@@ -283,8 +252,7 @@
       "affiliation": "",
       "home": "Santo Domingo, Night City",
       "source": "Edgerunners",
-      "hint1": "Tomomichi Nishimura (Japanese)",
-      "hint2": ""
+      "hint1": "Tomomichi Nishimura (Japanese)"
     },
     {
       "id": "aleksander-pushkin",
@@ -299,8 +267,7 @@
       "affiliation": "Biotechnica",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "alena-xenakis",
@@ -318,8 +285,7 @@
       "affiliation": "FIA, NUSA",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Yvonne Senat Jones",
-      "hint2": "Los Angeles Metroplex"
+      "hint1": "Yvonne Senat Jones"
     },
     {
       "id": "alois-daquin",
@@ -332,8 +298,7 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "altiera-cunningham",
@@ -348,8 +313,7 @@
       "affiliation": "ITS",
       "home": "Night City, DataKrash, Cyberspace",
       "source": "Cyberpunk 2077",
-      "hint1": "Alix Wilton Regan",
-      "hint2": ""
+      "hint1": "Alix Wilton Regan"
     },
     {
       "id": "ana-friedman",
@@ -362,8 +326,7 @@
       "affiliation": "Brazilian Intelligence Agency",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "anders-hellman",
@@ -376,8 +339,7 @@
       "affiliation": "Arasaka, Kang Tao",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman",
-      "hint2": ""
+      "hint1": "Alec Newman"
     },
     {
       "id": "andrew-jones",
@@ -390,8 +352,7 @@
       "affiliation": "Southern California",
       "home": "Yucca, Los Padres County",
       "source": "Cyberpunk 2077",
-      "hint1": "Nigel Whitmey",
-      "hint2": ""
+      "hint1": "Nigel Whitmey"
     },
     {
       "id": "andrew-newman",
@@ -404,8 +365,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "anel-duffault",
@@ -418,8 +378,7 @@
       "affiliation": "",
       "home": "Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "angel",
@@ -432,8 +391,7 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi",
-      "hint2": ""
+      "hint1": "Keisuke Hoashi"
     },
     {
       "id": "angelica-whelan",
@@ -448,8 +406,7 @@
       "affiliation": "Animals",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "angie-mielech",
@@ -464,8 +421,7 @@
       "affiliation": "",
       "home": "Heywood",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "anna-hamill",
@@ -478,8 +434,7 @@
       "affiliation": "NCPD, Aldecaldos",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alison Halstead",
-      "hint2": ""
+      "hint1": "Alison Halstead"
     },
     {
       "id": "anna-nox",
@@ -494,8 +449,7 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Anna Rust",
-      "hint2": ""
+      "hint1": "Anna Rust"
     },
     {
       "id": "annie-capolino",
@@ -510,9 +464,7 @@
       "affiliation": "Forlorn Hope",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 25,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "anthony-anderson",
@@ -525,8 +477,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "anthony-gilchrist",
@@ -539,8 +490,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe",
-      "hint2": ""
+      "hint1": "Akie Kotabe"
     },
     {
       "id": "anthony-harris",
@@ -557,8 +507,7 @@
       "affiliation": "",
       "home": "Edgewood Farm, Rocky Ridge Plains",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Laguna Bend"
+      "hint1": ""
     },
     {
       "id": "anton-kolev",
@@ -571,8 +520,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "arabelle-luvasha",
@@ -585,8 +533,7 @@
       "affiliation": "",
       "home": "Heywood",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "archibald-crane",
@@ -599,8 +546,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "James Goode",
-      "hint2": ""
+      "hint1": "James Goode"
     },
     {
       "id": "arif-iqbal",
@@ -613,8 +559,7 @@
       "affiliation": "World News Service",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Esh Alladi",
-      "hint2": ""
+      "hint1": "Esh Alladi"
     },
     {
       "id": "arif-koneczko",
@@ -627,8 +572,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "arnold-haponik",
@@ -641,8 +585,7 @@
       "affiliation": "Wraiths",
       "home": "Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "arthur-cormac",
@@ -655,9 +598,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Les deux",
-      "age": 41,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "arthur-jenkins",
@@ -670,9 +611,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 43,
-      "hint1": "Alec Newman",
-      "hint2": ""
+      "hint1": "Alec Newman"
     },
     {
       "id": "ash",
@@ -685,8 +624,7 @@
       "affiliation": "The Mox",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Sasha Grey",
-      "hint2": ""
+      "hint1": "Sasha Grey"
     },
     {
       "id": "asher-peterson",
@@ -699,8 +637,7 @@
       "affiliation": "MaxTac",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ashlay",
@@ -713,8 +650,7 @@
       "affiliation": "Charon Exotics",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "aurore-cassel",
@@ -727,8 +663,7 @@
       "affiliation": "The Collective, Militech, EuroBank",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Leonie Schliesing",
-      "hint2": "France, EEC"
+      "hint1": "Leonie Schliesing"
     },
     {
       "id": "avida-yang",
@@ -741,8 +676,7 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)",
-      "hint2": ""
+      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)"
     },
     {
       "id": "axel-mankievicz",
@@ -757,9 +691,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 40,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ayden-daniels",
@@ -772,8 +704,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "aymeric-cassel",
@@ -786,8 +717,7 @@
       "affiliation": "The Collective, Militech, Petrochem",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "André Refig",
-      "hint2": "France, EEC"
+      "hint1": "André Refig"
     },
     {
       "id": "ayo-zarin",
@@ -800,8 +730,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "b-d",
@@ -814,8 +743,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "baird",
@@ -828,8 +756,7 @@
       "affiliation": "Arasaka, Mr. Hands",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bara-nova",
@@ -842,8 +769,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Nina Kraviz (vocalist, dj, music producer)",
-      "hint2": ""
+      "hint1": "Nina Kraviz (vocalist, dj, music producer)"
     },
     {
       "id": "barbara-okoye",
@@ -858,8 +784,7 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "barry-alken",
@@ -872,8 +797,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "barry-lewis",
@@ -886,8 +810,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bartolomeo-mordellini",
@@ -900,8 +823,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "beatrice-ellen-trieste",
@@ -916,9 +838,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 24,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ben-debaillon",
@@ -933,8 +853,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bes-isis",
@@ -950,8 +869,7 @@
       "affiliation": "Network News 54, Samurai",
       "home": "Night City, USA",
       "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler",
-      "hint2": ""
+      "hint1": "Kosha Engler"
     },
     {
       "id": "big-joe",
@@ -964,8 +882,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "big-pete",
@@ -978,8 +895,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bill-jablonsky",
@@ -992,8 +908,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "James Goode",
-      "hint2": ""
+      "hint1": "James Goode"
     },
     {
       "id": "bill-mitchel",
@@ -1006,8 +921,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "blake-croyle",
@@ -1020,8 +934,7 @@
       "affiliation": "Animals",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "blue-moon",
@@ -1036,8 +949,7 @@
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "hint1": "Hiromi Dames",
-      "hint2": "NUSA"
+      "hint1": "Hiromi Dames"
     },
     {
       "id": "bob-sagan",
@@ -1052,8 +964,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Ako Mitchell",
-      "hint2": ""
+      "hint1": "Ako Mitchell"
     },
     {
       "id": "boris-ribakov",
@@ -1066,8 +977,7 @@
       "affiliation": "SovOil, Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "boz",
@@ -1080,8 +990,7 @@
       "affiliation": "6th Street",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "James Goode",
-      "hint2": ""
+      "hint1": "James Goode"
     },
     {
       "id": "brad-stacy",
@@ -1094,8 +1003,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "brandon-frost",
@@ -1108,8 +1016,7 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bree-whitney",
@@ -1122,8 +1029,7 @@
       "affiliation": "Militech",
       "home": "Heywood, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "brendan",
@@ -1136,8 +1042,7 @@
       "affiliation": "SoftSys",
       "home": "Megabuilding H8, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Bryan Dechart",
-      "hint2": ""
+      "hint1": "Bryan Dechart"
     },
     {
       "id": "briana-dolson",
@@ -1150,8 +1055,7 @@
       "affiliation": "",
       "home": "Longshore Stacks, Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "brittany-hayes",
@@ -1164,8 +1068,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery",
-      "hint2": ""
+      "hint1": "Lucy Montgomery"
     },
     {
       "id": "bruce-ward",
@@ -1178,8 +1081,7 @@
       "affiliation": "Wraiths",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bruce-welby",
@@ -1192,8 +1094,7 @@
       "affiliation": "Aldecaldos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "bryce-mosley",
@@ -1206,8 +1107,7 @@
       "affiliation": "NetWatch",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Shane Taylor",
-      "hint2": ""
+      "hint1": "Shane Taylor"
     },
     {
       "id": "bryce-stone",
@@ -1220,8 +1120,7 @@
       "affiliation": "Network 54",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "buck-arnold",
@@ -1234,8 +1133,7 @@
       "affiliation": "United States Armed Forces, 6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "campo-orta",
@@ -1248,8 +1146,7 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "capricorn",
@@ -1265,8 +1162,7 @@
       "affiliation": "Arasaka, Kyoko, Talia Yang, D",
       "home": "",
       "source": "Edgerunners",
-      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)",
-      "hint2": ""
+      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)"
     },
     {
       "id": "carl-robinson",
@@ -1281,8 +1177,7 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "carlos-rubio",
@@ -1295,8 +1190,7 @@
       "affiliation": "Valentinos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "carol-emeka",
@@ -1309,8 +1203,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Fryda Wolff",
-      "hint2": ""
+      "hint1": "Fryda Wolff"
     },
     {
       "id": "carter-smith",
@@ -1323,8 +1216,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Joseph May",
-      "hint2": ""
+      "hint1": "Joseph May"
     },
     {
       "id": "cassidy-righter",
@@ -1340,8 +1232,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Mikey O'Connor",
-      "hint2": ""
+      "hint1": "Mikey O'Connor"
     },
     {
       "id": "cassius-ryder",
@@ -1354,8 +1245,7 @@
       "affiliation": "Doc Ryder",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Stefan Ashton Frank",
-      "hint2": ""
+      "hint1": "Stefan Ashton Frank"
     },
     {
       "id": "cedric-muller",
@@ -1368,8 +1258,7 @@
       "affiliation": "Red Ocher",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "cesar-diego-ruiz",
@@ -1382,8 +1271,7 @@
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Nicolas Roye",
-      "hint2": ""
+      "hint1": "Nicolas Roye"
     },
     {
       "id": "chang-hoon-nam",
@@ -1396,9 +1284,7 @@
       "affiliation": "Wakako Okada",
       "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
-      "age": 67,
-      "hint1": "Josh Han",
-      "hint2": ""
+      "hint1": "Josh Han"
     },
     {
       "id": "charlene-fox",
@@ -1411,8 +1297,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "charles-bucks",
@@ -1425,8 +1310,7 @@
       "affiliation": "",
       "home": "Kabuki, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe",
-      "hint2": ""
+      "hint1": "Akie Kotabe"
     },
     {
       "id": "charles-graham",
@@ -1441,8 +1325,7 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Vienna, Austria"
+      "hint1": ""
     },
     {
       "id": "charles-wilson",
@@ -1455,8 +1338,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "chase-coley",
@@ -1469,8 +1351,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "cheri-nowlin",
@@ -1483,8 +1364,7 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "chester-bennett",
@@ -1497,9 +1377,7 @@
       "affiliation": "BARGHEST, Militech, New United States Armed Forces, Arasaka",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "age": 38,
-      "hint1": "Joseph Capp",
-      "hint2": ""
+      "hint1": "Joseph Capp"
     },
     {
       "id": "chester-hamilton",
@@ -1512,8 +1390,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "christine-markov",
@@ -1526,9 +1403,7 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
-      "age": 42,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "claire-russell",
@@ -1541,8 +1416,7 @@
       "affiliation": "Militech, Afterlife",
       "home": "Santo Domingo, Night City",
       "source": "Les deux",
-      "hint1": "Maddie Taylor",
-      "hint2": ""
+      "hint1": "Maddie Taylor"
     },
     {
       "id": "claudia-feldman",
@@ -1555,8 +1429,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "claudio-moreno",
@@ -1569,8 +1442,7 @@
       "affiliation": "Valentinos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "coach-fred",
@@ -1583,8 +1455,7 @@
       "affiliation": "",
       "home": "Little China, Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Ako Mitchell",
-      "hint2": ""
+      "hint1": "Ako Mitchell"
     },
     {
       "id": "colver",
@@ -1597,8 +1468,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Michael Gregory",
-      "hint2": ""
+      "hint1": "Michael Gregory"
     },
     {
       "id": "costin-lahovary",
@@ -1611,8 +1481,7 @@
       "affiliation": "",
       "home": "Dogtown, Pacifica, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "crispin-weyland",
@@ -1627,8 +1496,7 @@
       "affiliation": "Afterlife Mercs",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Mark Ebulué",
-      "hint2": ""
+      "hint1": "Mark Ebulué"
     },
     {
       "id": "cynthia-najarro",
@@ -1641,8 +1509,7 @@
       "affiliation": "Orbital Air",
       "home": "Heywood, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery",
-      "hint2": ""
+      "hint1": "Lucy Montgomery"
     },
     {
       "id": "dakota-smith",
@@ -1657,8 +1524,7 @@
       "affiliation": "Pomo, Aldecaldos",
       "home": "DaKota, Badlands",
       "source": "Les deux",
-      "hint1": "Sabra May",
-      "hint2": ""
+      "hint1": "Sabra May"
     },
     {
       "id": "dallas-foster",
@@ -1671,8 +1537,7 @@
       "affiliation": "MaxTac",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "damir-kovac",
@@ -1685,8 +1550,7 @@
       "affiliation": "Scavengers",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dan",
@@ -1699,8 +1563,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dante-caruso",
@@ -1713,8 +1576,7 @@
       "affiliation": "Militech",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)",
-      "hint2": ""
+      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)"
     },
     {
       "id": "dao-hyunh",
@@ -1727,8 +1589,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "darius-clarke",
@@ -1741,8 +1602,7 @@
       "affiliation": "Doc Ryder",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "darius-miles",
@@ -1755,8 +1615,7 @@
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "darline-boucicault",
@@ -1769,8 +1628,7 @@
       "affiliation": "",
       "home": "Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "darrell-zhou",
@@ -1783,8 +1641,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Josh Han",
-      "hint2": ""
+      "hint1": "Josh Han"
     },
     {
       "id": "david",
@@ -1799,8 +1656,7 @@
       "affiliation": "nomad, Snake Nation",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)",
-      "hint2": "Badlands"
+      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)"
     },
     {
       "id": "david-martinez",
@@ -1817,9 +1673,7 @@
       "affiliation": "Arasaka, Maine",
       "home": "Santo Domingo, Night City",
       "source": "Les deux",
-      "age": 17,
-      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)",
-      "hint2": "Night City"
+      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)"
     },
     {
       "id": "david-walker",
@@ -1832,8 +1686,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dean-russell",
@@ -1846,8 +1699,7 @@
       "affiliation": "Militech",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "deathwish",
@@ -1863,8 +1715,7 @@
       "affiliation": "Rache Bartmoss",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "declan-griffin",
@@ -1879,8 +1730,7 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "John Schwab",
-      "hint2": ""
+      "hint1": "John Schwab"
     },
     {
       "id": "delamain",
@@ -1897,8 +1747,7 @@
       "affiliation": "Delamain Corp",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)",
-      "hint2": "Mönchengladbach, Germany"
+      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)"
     },
     {
       "id": "dennis-cranmer",
@@ -1911,8 +1760,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Michael-Leon Wooley",
-      "hint2": ""
+      "hint1": "Michael-Leon Wooley"
     },
     {
       "id": "denny",
@@ -1925,8 +1773,7 @@
       "affiliation": "Samurai",
       "home": "Denny's Mansion, North Oak",
       "source": "Cyberpunk 2077",
-      "hint1": "Victoire Charles",
-      "hint2": ""
+      "hint1": "Victoire Charles"
     },
     {
       "id": "dexter-deshawn",
@@ -1942,8 +1789,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Michael-Leon Wooley",
-      "hint2": ""
+      "hint1": "Michael-Leon Wooley"
     },
     {
       "id": "diana-cuno",
@@ -1956,8 +1802,7 @@
       "affiliation": "Biotechnica",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "diego-ramirez",
@@ -1970,8 +1815,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dietlinde",
@@ -1984,8 +1828,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dino-dinovic",
@@ -1998,8 +1841,7 @@
       "affiliation": "Gloryhole Bandits",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman",
-      "hint2": ""
+      "hint1": "Alec Newman"
     },
     {
       "id": "doc",
@@ -2012,8 +1854,7 @@
       "affiliation": "",
       "home": "Santo Domingo, Night City",
       "source": "Les deux",
-      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)",
-      "hint2": ""
+      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)"
     },
     {
       "id": "donald-lundee-jr",
@@ -2026,8 +1867,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dorio-gunnarsdottir",
@@ -2040,8 +1880,7 @@
       "affiliation": "Maine's crew",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)",
-      "hint2": "Iceland"
+      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)"
     },
     {
       "id": "dove-vondell",
@@ -2054,8 +1893,7 @@
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dr-paradox",
@@ -2068,8 +1906,7 @@
       "affiliation": "Dr. Paradox's Mysteries",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Mark Holden (2077)",
-      "hint2": ""
+      "hint1": "Mark Holden (2077)"
     },
     {
       "id": "driss-meriana",
@@ -2084,8 +1921,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Noshir Dalal",
-      "hint2": ""
+      "hint1": "Noshir Dalal"
     },
     {
       "id": "dum-dum",
@@ -2098,8 +1934,7 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "dusty-lowe",
@@ -2112,8 +1947,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi",
-      "hint2": ""
+      "hint1": "Keisuke Hoashi"
     },
     {
       "id": "earl-conway",
@@ -2126,8 +1960,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "edgar-tool",
@@ -2142,8 +1975,7 @@
       "affiliation": "Fourth Wall Studios",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "elizabeth-borden",
@@ -2158,8 +1990,7 @@
       "affiliation": "Delphi X, Strip club",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "elizabeth-kress",
@@ -2174,8 +2005,7 @@
       "affiliation": "United States Armed Forces, Militech, Federalist Party, NUSA",
       "home": "Washington, D.C., NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Okinawa, Japan"
+      "hint1": ""
     },
     {
       "id": "elizabeth-peralez",
@@ -2190,9 +2020,7 @@
       "affiliation": "Federalist Party",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 45,
-      "hint1": "Kosha Engler",
-      "hint2": ""
+      "hint1": "Kosha Engler"
     },
     {
       "id": "ellis-carter",
@@ -2207,8 +2035,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "emilia-morton",
@@ -2221,8 +2048,7 @@
       "affiliation": "Biotechnica",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "emilie-massenat",
@@ -2235,8 +2061,7 @@
       "affiliation": "",
       "home": "Pacifica, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "emilio-gutierrez",
@@ -2249,8 +2074,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "emily",
@@ -2263,8 +2087,7 @@
       "affiliation": "Team King",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)",
-      "hint2": ""
+      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)"
     },
     {
       "id": "emily-scooter",
@@ -2277,8 +2100,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "emmerick-bronson",
@@ -2293,8 +2115,7 @@
       "affiliation": "Afterlife Mercs, Animals",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "John Schwab",
-      "hint2": ""
+      "hint1": "John Schwab"
     },
     {
       "id": "ernesto-munoz",
@@ -2307,8 +2128,7 @@
       "affiliation": "Valentinos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "eron-acedo",
@@ -2321,8 +2141,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "esquerdo-certo",
@@ -2335,8 +2154,7 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "euralio-alma",
@@ -2349,8 +2167,7 @@
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "eva-cole",
@@ -2363,8 +2180,7 @@
       "affiliation": "Night City Council",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "evan-mcray",
@@ -2377,8 +2193,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "evelyn-parker",
@@ -2395,8 +2210,7 @@
       "affiliation": "Clouds, The Mox",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Kari Wahlgren",
-      "hint2": ""
+      "hint1": "Kari Wahlgren"
     },
     {
       "id": "fae-nesheim",
@@ -2409,8 +2223,7 @@
       "affiliation": "BARGHEST",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "falco",
@@ -2423,8 +2236,7 @@
       "affiliation": "Maine, David",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)",
-      "hint2": "Texas"
+      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)"
     },
     {
       "id": "faraday",
@@ -2437,8 +2249,7 @@
       "affiliation": "Militech, Arasaka",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)",
-      "hint2": ""
+      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)"
     },
     {
       "id": "farah-bleus",
@@ -2451,8 +2262,7 @@
       "affiliation": "",
       "home": "Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "Victoire Charles",
-      "hint2": ""
+      "hint1": "Victoire Charles"
     },
     {
       "id": "farida-nazeri",
@@ -2465,8 +2275,7 @@
       "affiliation": "Militech",
       "home": "Golden Pacific, Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "Shala Nyx",
-      "hint2": ""
+      "hint1": "Shala Nyx"
     },
     {
       "id": "faye-russo",
@@ -2479,8 +2288,7 @@
       "affiliation": "MaxTac",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "finn-gerstatt",
@@ -2496,8 +2304,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alex Ivanovici",
-      "hint2": ""
+      "hint1": "Alex Ivanovici"
     },
     {
       "id": "fiona-vargas",
@@ -2510,8 +2317,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "flavio-dos-santos",
@@ -2524,9 +2330,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 45,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "food-vendor-biotechnica-flats",
@@ -2539,8 +2343,7 @@
       "affiliation": "",
       "home": "Biotechnica Flats, Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "food-vendor-cherry-blossom-market",
@@ -2553,8 +2356,7 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "food-vendor-kabuki-market-central",
@@ -2567,8 +2369,7 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "food-vendor-kabuki-market-plaza",
@@ -2581,8 +2382,7 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "food-vendor-northside",
@@ -2595,8 +2395,7 @@
       "affiliation": "",
       "home": "Northside, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "frank",
@@ -2612,8 +2411,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "frank-nostra",
@@ -2626,8 +2424,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Sean Power",
-      "hint2": ""
+      "hint1": "Sean Power"
     },
     {
       "id": "fredrik-persson",
@@ -2640,8 +2437,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe",
-      "hint2": ""
+      "hint1": "Akie Kotabe"
     },
     {
       "id": "futoshi-yamada",
@@ -2654,8 +2450,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "gaston-phillips",
@@ -2668,8 +2463,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "gaston-slayton",
@@ -2682,8 +2476,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "gauge-harris",
@@ -2696,8 +2489,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "georgina-zembinsky",
@@ -2710,8 +2502,7 @@
       "affiliation": "Night City",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Christy Meyer",
-      "hint2": ""
+      "hint1": "Christy Meyer"
     },
     {
       "id": "gerald-winkler",
@@ -2726,8 +2517,7 @@
       "affiliation": "",
       "home": "Urmland Street, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Ben \"CohhCarnage\" Cassell",
-      "hint2": ""
+      "hint1": "Ben \"CohhCarnage\" Cassell"
     },
     {
       "id": "gillean-jordan",
@@ -2740,8 +2530,7 @@
       "affiliation": "N54 News",
       "home": "",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "gloria-martinez",
@@ -2754,8 +2543,7 @@
       "affiliation": "REO Meatwagon",
       "home": "Santo Domingo, Night City",
       "source": "Les deux",
-      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)",
-      "hint2": ""
+      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)"
     },
     {
       "id": "goldhand",
@@ -2768,8 +2556,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "goro-takemura",
@@ -2782,8 +2569,7 @@
       "affiliation": "Arasaka",
       "home": "Kanto",
       "source": "Cyberpunk 2077",
-      "hint1": "Rome Kanda",
-      "hint2": "Chiba-11, Tokyo, Japan"
+      "hint1": "Rome Kanda"
     },
     {
       "id": "gottfrid-persson",
@@ -2796,8 +2582,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "grann-ertha",
@@ -2810,8 +2595,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "griselda-martinez",
@@ -2827,8 +2611,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "guadalupe-alejandra-welles",
@@ -2844,8 +2627,7 @@
       "affiliation": "",
       "home": "Heywood, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Krizia Bajos",
-      "hint2": "Heywood, Night City"
+      "hint1": "Krizia Bajos"
     },
     {
       "id": "gustavo-orta",
@@ -2858,8 +2640,7 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Christian Lanz",
-      "hint2": "Heywood, Night City"
+      "hint1": "Christian Lanz"
     },
     {
       "id": "hajime-taki",
@@ -2872,8 +2653,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando",
-      "hint2": ""
+      "hint1": "Yoshi Ando"
     },
     {
       "id": "hal-cantos",
@@ -2886,8 +2666,7 @@
       "affiliation": "WNS",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Nicolas Roye",
-      "hint2": ""
+      "hint1": "Nicolas Roye"
     },
     {
       "id": "hallie-coggins",
@@ -2900,8 +2679,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Rosa Walton (vocalist)",
-      "hint2": ""
+      "hint1": "Rosa Walton (vocalist)"
     },
     {
       "id": "hanako-arasaka",
@@ -2914,9 +2692,7 @@
       "affiliation": "Hatashi Shipping Company, Arasaka, Kiji",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "age": 78,
-      "hint1": "Alpha Takahashi (English)",
-      "hint2": "Tokyo, Japan"
+      "hint1": "Alpha Takahashi (English)"
     },
     {
       "id": "hank",
@@ -2929,8 +2705,7 @@
       "affiliation": "King's Crew",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)",
-      "hint2": ""
+      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)"
     },
     {
       "id": "hark",
@@ -2943,8 +2718,7 @@
       "affiliation": "Kang Tao",
       "home": "",
       "source": "Edgerunners",
-      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)",
-      "hint2": ""
+      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)"
     },
     {
       "id": "harold-han",
@@ -2957,8 +2731,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Matthew Yang King",
-      "hint2": ""
+      "hint1": "Matthew Yang King"
     },
     {
       "id": "harry",
@@ -2971,8 +2744,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Michael-Leon Wooley",
-      "hint2": ""
+      "hint1": "Michael-Leon Wooley"
     },
     {
       "id": "haruyoshi-nishikata",
@@ -2987,8 +2759,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Japan|place_of_death=Kabuki, Watson, Night City |voiced_by=Yoshi Ando"
+      "hint1": ""
     },
     {
       "id": "hasan-demir",
@@ -3001,8 +2772,7 @@
       "affiliation": "Zetatech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Atilla Akinci",
-      "hint2": ""
+      "hint1": "Atilla Akinci"
     },
     {
       "id": "helio",
@@ -3015,8 +2785,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Edgerunners",
-      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)",
-      "hint2": ""
+      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)"
     },
     {
       "id": "henry",
@@ -3029,8 +2798,7 @@
       "affiliation": "Samurai, Blazetech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick",
-      "hint2": ""
+      "hint1": "Graham Vick"
     },
     {
       "id": "henry-stints",
@@ -3043,8 +2811,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Heywood, Night City"
+      "hint1": ""
     },
     {
       "id": "herold-lowe",
@@ -3057,8 +2824,7 @@
       "affiliation": "",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "hideshi-hino",
@@ -3071,8 +2837,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "hideyoshi-oshima",
@@ -3085,8 +2850,7 @@
       "affiliation": "",
       "home": "Tokyo, Japan",
       "source": "Les deux",
-      "hint1": "Hideo Kojima",
-      "hint2": ""
+      "hint1": "Hideo Kojima"
     },
     {
       "id": "hilary-mckenna",
@@ -3099,8 +2863,7 @@
       "affiliation": "6th Street",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "hiroto-saiki",
@@ -3113,8 +2876,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "hunter-hyland",
@@ -3127,8 +2889,7 @@
       "affiliation": "Kendachi",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "hwangbo-dong-gun",
@@ -3143,8 +2904,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Um Sang-hyun",
-      "hint2": ""
+      "hint1": "Um Sang-hyun"
     },
     {
       "id": "imogen",
@@ -3157,8 +2917,7 @@
       "affiliation": "Herold Lowe",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "iris-tanner",
@@ -3171,8 +2930,7 @@
       "affiliation": "Dakota Smith, Wraiths",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ishin-obata",
@@ -3185,8 +2943,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "issam-zahir",
@@ -3199,8 +2956,7 @@
       "affiliation": "",
       "home": "Kabuki",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jack-mausser",
@@ -3213,8 +2969,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jackie-welles",
@@ -3232,9 +2987,7 @@
       "affiliation": "Valentinos, Afterlife Mercs",
       "home": "Heywood",
       "source": "Les deux",
-      "age": 30,
-      "hint1": "Jason Hightower",
-      "hint2": "Night City"
+      "hint1": "Jason Hightower"
     },
     {
       "id": "jacob-bernard",
@@ -3247,9 +3000,7 @@
       "affiliation": "Toronto Falcons ()",
       "home": "",
       "source": "Cyberpunk 2077",
-      "age": 24,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jacob-lamb",
@@ -3262,8 +3013,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jacob-long",
@@ -3276,8 +3026,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jae-hyun-lee",
@@ -3290,8 +3039,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jago-szabo",
@@ -3304,9 +3052,7 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "age": 35,
-      "hint1": "",
-      "hint2": "Budapest, Hungary"
+      "hint1": ""
     },
     {
       "id": "jaida-archer",
@@ -3319,8 +3065,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jake-estevez",
@@ -3333,8 +3078,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jake-scooter",
@@ -3347,8 +3091,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "james-ito",
@@ -3361,8 +3104,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "james-norris",
@@ -3375,8 +3117,7 @@
       "affiliation": "NUSA Armed Forces",
       "home": "",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jasmine-dixon",
@@ -3389,8 +3130,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jason-wildriver",
@@ -3403,8 +3143,7 @@
       "affiliation": "Aldecaldos, Militech",
       "home": "Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "Dar Dash",
-      "hint2": ""
+      "hint1": "Dar Dash"
     },
     {
       "id": "jasper-collins",
@@ -3417,8 +3156,7 @@
       "affiliation": "MaxTac",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "javier-alvarado",
@@ -3431,8 +3169,7 @@
       "affiliation": "Devolutionist Party",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jean-rochelin",
@@ -3445,8 +3182,7 @@
       "affiliation": "",
       "home": "Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jeff",
@@ -3459,8 +3195,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jefferson-peralez",
@@ -3473,9 +3208,7 @@
       "affiliation": "Asukaga & Finch, Cyberpunk 2077 Netsites, Night City Council, Federalist Party, Mayor's Office",
       "home": "Westbrook, Night City",
       "source": "Cyberpunk 2077",
-      "age": 46,
-      "hint1": "Joseph May",
-      "hint2": "Heywood, Night City"
+      "hint1": "Joseph May"
     },
     {
       "id": "jeremiah-grayson",
@@ -3488,8 +3221,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Stephen Oyoung",
-      "hint2": ""
+      "hint1": "Stephen Oyoung"
     },
     {
       "id": "jerry-fawlter",
@@ -3502,8 +3234,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jesse-johnson",
@@ -3518,8 +3249,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Jesse Louis Cox",
-      "hint2": ""
+      "hint1": "Jesse Louis Cox"
     },
     {
       "id": "jessie",
@@ -3532,8 +3262,7 @@
       "affiliation": "Sal Bigelow's Braindance Paradise",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)",
-      "hint2": ""
+      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)"
     },
     {
       "id": "jim-jarry",
@@ -3546,8 +3275,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jimmy-kurosaki",
@@ -3562,8 +3290,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)",
-      "hint2": ""
+      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)"
     },
     {
       "id": "joanne-koch",
@@ -3576,8 +3303,7 @@
       "affiliation": "Biotechnica",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "john-lipczynsky",
@@ -3590,8 +3316,7 @@
       "affiliation": "Animals",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "john-mclean",
@@ -3604,8 +3329,7 @@
       "affiliation": "Night City Council",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "john-quaid",
@@ -3618,8 +3342,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "johnnie-peterson",
@@ -3634,9 +3357,7 @@
       "affiliation": "LRT-601 Unit, Forlorn Hope",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 35,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "johnny-silverhand",
@@ -3649,9 +3370,7 @@
       "affiliation": "U.S. Army, Samurai, Silverhand Studios",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 34,
-      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)",
-      "hint2": "College Station, Texas"
+      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)"
     },
     {
       "id": "jose-luis",
@@ -3664,8 +3383,7 @@
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Bernardo De Paula",
-      "hint2": ""
+      "hint1": "Bernardo De Paula"
     },
     {
       "id": "josh-kavorkin",
@@ -3678,8 +3396,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "joshua-stephenson",
@@ -3692,9 +3409,7 @@
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 36,
-      "hint1": "Ronan Summers",
-      "hint2": ""
+      "hint1": "Ronan Summers"
     },
     {
       "id": "josie-alcazar",
@@ -3707,8 +3422,7 @@
       "affiliation": "Aldecaldos",
       "home": "Josie Alcazar's House, Rancho Coronado, Santo Domingo",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "joss-kutcher",
@@ -3721,8 +3435,7 @@
       "affiliation": "",
       "home": "Kutcher's home, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Tonantzin Carmelo",
-      "hint2": ""
+      "hint1": "Tonantzin Carmelo"
     },
     {
       "id": "jotaro-shobo",
@@ -3737,9 +3450,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 44,
-      "hint1": "Yoshi Ando",
-      "hint2": ""
+      "hint1": "Yoshi Ando"
     },
     {
       "id": "journey-ruiz",
@@ -3752,8 +3463,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Carla Tassara",
-      "hint2": ""
+      "hint1": "Carla Tassara"
     },
     {
       "id": "juan-mendez",
@@ -3766,8 +3476,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "juan-troy",
@@ -3782,8 +3491,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Al Rodrigo",
-      "hint2": ""
+      "hint1": "Al Rodrigo"
     },
     {
       "id": "juanita-tseng",
@@ -3796,8 +3504,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "jude-night",
@@ -3810,8 +3517,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "judy-alvarez",
@@ -3827,9 +3533,7 @@
       "affiliation": "Clouds, Moxes, Epilogues",
       "home": "Watson, Night City, Pittsburgh, Pennsylvania, Arizona",
       "source": "Cyberpunk 2077",
-      "age": 24,
-      "hint1": "Carla Tassara",
-      "hint2": "Laguna Bend, Badlands"
+      "hint1": "Carla Tassara"
     },
     {
       "id": "julia-bonet",
@@ -3842,8 +3546,7 @@
       "affiliation": "6th Street",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "juliet-horrigan",
@@ -3858,8 +3561,7 @@
       "affiliation": "",
       "home": "Horrigan Family Home",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "julio",
@@ -3872,8 +3574,7 @@
       "affiliation": "David",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)",
-      "hint2": ""
+      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)"
     },
     {
       "id": "jun-azegami",
@@ -3886,8 +3587,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "junk-vendor-north-oak",
@@ -3900,8 +3600,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Kotaro Watanabe",
-      "hint2": ""
+      "hint1": "Kotaro Watanabe"
     },
     {
       "id": "junk-vendor-red-peaks",
@@ -3914,8 +3613,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Matthew Yang King",
-      "hint2": ""
+      "hint1": "Matthew Yang King"
     },
     {
       "id": "kajetan-zilevski",
@@ -3928,8 +3626,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "kaoru-fujioka",
@@ -3942,8 +3639,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Kotaro Watanabe",
-      "hint2": "Japan"
+      "hint1": "Kotaro Watanabe"
     },
     {
       "id": "karim-noel",
@@ -3956,9 +3652,7 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
-      "age": 75,
-      "hint1": "Nigel Whitmey",
-      "hint2": ""
+      "hint1": "Nigel Whitmey"
     },
     {
       "id": "karina-lee",
@@ -3971,8 +3665,7 @@
       "affiliation": "N54 News",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria",
-      "hint2": ""
+      "hint1": "Alana Maria"
     },
     {
       "id": "karubo-bairei",
@@ -3985,8 +3678,7 @@
       "affiliation": "Valentinos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "kate-miller",
@@ -3999,8 +3691,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)",
-      "hint2": ""
+      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)"
     },
     {
       "id": "katsuo-tanaka",
@@ -4013,8 +3704,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)",
-      "hint2": ""
+      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)"
     },
     {
       "id": "katya-karelina",
@@ -4027,9 +3717,7 @@
       "affiliation": "SovOil",
       "home": "",
       "source": "Cyberpunk 2077",
-      "age": 43,
-      "hint1": "Avital Lvova",
-      "hint2": "Leningrad, Russia"
+      "hint1": "Avital Lvova"
     },
     {
       "id": "keisuke-kagawa",
@@ -4042,8 +3730,7 @@
       "affiliation": "Tyger Claws",
       "home": "Little China, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando",
-      "hint2": ""
+      "hint1": "Yoshi Ando"
     },
     {
       "id": "kenji-sakura",
@@ -4056,8 +3743,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "kerry-eurodyne",
@@ -4072,9 +3758,7 @@
       "affiliation": "Samurai, MSM Records",
       "home": "Westbrook, Night City",
       "source": "Cyberpunk 2077",
-      "age": 89,
-      "hint1": "Matthew Yang King Damian Ukeje (vocalist)",
-      "hint2": "Masbate, Philippines"
+      "hint1": "Matthew Yang King Damian Ukeje (vocalist)"
     },
     {
       "id": "kimiko-sanchez",
@@ -4089,9 +3773,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 18,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "kiril-yang",
@@ -4104,8 +3786,7 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)",
-      "hint2": ""
+      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)"
     },
     {
       "id": "kirk-sawyer",
@@ -4118,8 +3799,7 @@
       "affiliation": "",
       "home": "Pacifica, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Derek Hagen",
-      "hint2": ""
+      "hint1": "Derek Hagen"
     },
     {
       "id": "kitano",
@@ -4132,8 +3812,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)",
-      "hint2": ""
+      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)"
     },
     {
       "id": "kiwi",
@@ -4146,8 +3825,7 @@
       "affiliation": "Maine, David, Faraday",
       "home": "Watson, Night City",
       "source": "Les deux",
-      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)",
-      "hint2": ""
+      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)"
     },
     {
       "id": "kuniko-aso",
@@ -4160,8 +3838,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "kurt-hansen",
@@ -4174,9 +3851,7 @@
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "age": 45,
-      "hint1": "Eliah Mountjoy",
-      "hint2": ""
+      "hint1": "Eliah Mountjoy"
     },
     {
       "id": "kyle-araujo",
@@ -4189,8 +3864,7 @@
       "affiliation": "BARGHEST",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "kyoko-tanaami",
@@ -4203,8 +3877,7 @@
       "affiliation": "Arasaka, Kang Tao",
       "home": "",
       "source": "Edgerunners",
-      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)",
-      "hint2": ""
+      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)"
     },
     {
       "id": "l33thax",
@@ -4219,8 +3892,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lana-prince",
@@ -4233,8 +3905,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alanah Pearce",
-      "hint2": ""
+      "hint1": "Alanah Pearce"
     },
     {
       "id": "lance-hardy",
@@ -4247,8 +3918,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "larissa-almeida",
@@ -4263,8 +3933,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "laura-may",
@@ -4277,8 +3946,7 @@
       "affiliation": "N54 News",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lauren-costigan",
@@ -4291,8 +3959,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "leah-gladen",
@@ -4305,8 +3972,7 @@
       "affiliation": "",
       "home": "Leah Gladen's Apartment",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lely-hein",
@@ -4319,8 +3985,7 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lenny-nero",
@@ -4335,8 +4000,7 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "leon-rinder",
@@ -4349,8 +4013,7 @@
       "affiliation": "BARGHEST, New United States Armed Forces, Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "leon-watson",
@@ -4363,8 +4026,7 @@
       "affiliation": "NCPD",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lilayah",
@@ -4377,8 +4039,7 @@
       "affiliation": "Cyber6",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Seattle, USA"
+      "hint1": ""
     },
     {
       "id": "lilith",
@@ -4393,8 +4054,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lina-malina",
@@ -4409,8 +4069,7 @@
       "affiliation": "Fourth Wall Studios",
       "home": "Longshore Stacks, Dogtown, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Aliona Baranova",
-      "hint2": ""
+      "hint1": "Aliona Baranova"
     },
     {
       "id": "lisa-smith",
@@ -4423,8 +4082,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lizzy-wizzy",
@@ -4439,8 +4097,7 @@
       "affiliation": "",
       "home": "North Oak, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Grimes",
-      "hint2": ""
+      "hint1": "Grimes"
     },
     {
       "id": "logan-garcia",
@@ -4453,8 +4110,7 @@
       "affiliation": "Animals",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "logan-scott",
@@ -4467,8 +4123,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Joseph May",
-      "hint2": ""
+      "hint1": "Joseph May"
     },
     {
       "id": "louise-nordin-eurodyne",
@@ -4481,8 +4136,7 @@
       "affiliation": "",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lucas-harford",
@@ -4495,8 +4149,7 @@
       "affiliation": "Militech",
       "home": "NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lucius-rhyne",
@@ -4509,9 +4162,7 @@
       "affiliation": "Night City Council, Devolutionist Party, Mayor's Office",
       "home": "Night City",
       "source": "Les deux",
-      "age": 59,
-      "hint1": "Paul Jerome",
-      "hint2": "Night City"
+      "hint1": "Paul Jerome"
     },
     {
       "id": "lucius-thoran",
@@ -4524,8 +4175,7 @@
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lucy-thackery",
@@ -4540,8 +4190,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria",
-      "hint2": ""
+      "hint1": "Alana Maria"
     },
     {
       "id": "lucyna-kushinada",
@@ -4557,9 +4206,7 @@
       "affiliation": "Arasaka, Maine",
       "home": "Westbrook, NC",
       "source": "Edgerunners",
-      "age": 20,
-      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)",
-      "hint2": "Warsaw, Poland"
+      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)"
     },
     {
       "id": "lyle-mcclellan",
@@ -4572,8 +4219,7 @@
       "affiliation": "Network 54",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "lyle-thompson",
@@ -4586,8 +4232,7 @@
       "affiliation": "World News Service",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Joseph May",
-      "hint2": ""
+      "hint1": "Joseph May"
     },
     {
       "id": "maggie-isley",
@@ -4600,8 +4245,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "maiko-maeda",
@@ -4614,8 +4258,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Arina Ii",
-      "hint2": ""
+      "hint1": "Arina Ii"
     },
     {
       "id": "maine",
@@ -4628,8 +4271,7 @@
       "affiliation": "NUSA SpecOps",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)",
-      "hint2": "Portland, Maine"
+      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)"
     },
     {
       "id": "maman-brigitte",
@@ -4644,9 +4286,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 41,
-      "hint1": "Victoire Charles",
-      "hint2": ""
+      "hint1": "Victoire Charles"
     },
     {
       "id": "manuel-mendoza",
@@ -4659,8 +4299,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "marcin-iwinski",
@@ -4673,8 +4312,7 @@
       "affiliation": "Good Old Dogtown",
       "home": "Dogtown, Pacifica (2077)",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "marcus-ichida",
@@ -4687,8 +4325,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi",
-      "hint2": ""
+      "hint1": "Keisuke Hoashi"
     },
     {
       "id": "margarita",
@@ -4701,8 +4338,7 @@
       "affiliation": "Alena Xenakis",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "marlon-fuscino",
@@ -4715,8 +4351,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "martha-frakes",
@@ -4731,8 +4366,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "martha-ling",
@@ -4747,8 +4381,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "marty-jenklow",
@@ -4761,8 +4394,7 @@
       "affiliation": "Civilian",
       "home": "Fuel Station, Biotechnica Flats, Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "mateo-thiago",
@@ -4775,8 +4407,7 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Antonio Alvarez",
-      "hint2": ""
+      "hint1": "Antonio Alvarez"
     },
     {
       "id": "matilda-k-rose",
@@ -4791,8 +4422,7 @@
       "affiliation": "Animals",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Krizia Bajos",
-      "hint2": ""
+      "hint1": "Krizia Bajos"
     },
     {
       "id": "matt-liaw",
@@ -4805,8 +4435,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "max-jones",
@@ -4819,8 +4448,7 @@
       "affiliation": "WNS, NC Inquirer, Regina Jones",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman",
-      "hint2": ""
+      "hint1": "Alec Newman"
     },
     {
       "id": "maxim-kuznetsov",
@@ -4833,8 +4461,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Takanori Hoshino (Japanese)",
-      "hint2": "Watson, Night City"
+      "hint1": "Takanori Hoshino (Japanese)"
     },
     {
       "id": "maximum-mike",
@@ -4849,8 +4476,7 @@
       "affiliation": "Morro Rock Radio",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Mike Pondsmith",
-      "hint2": ""
+      "hint1": "Mike Pondsmith"
     },
     {
       "id": "mbole-ebunike",
@@ -4865,8 +4491,7 @@
       "affiliation": "Mayor's Office",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-arroyo",
@@ -4879,8 +4504,7 @@
       "affiliation": "",
       "home": "Arroyo, Santo Domingo",
       "source": "Cyberpunk 2077",
-      "hint1": "James Goode",
-      "hint2": ""
+      "hint1": "James Goode"
     },
     {
       "id": "meds-vendor-coastview",
@@ -4893,8 +4517,7 @@
       "affiliation": "",
       "home": "Coastview, Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-corpo-plaza",
@@ -4907,8 +4530,7 @@
       "affiliation": "",
       "home": "Corpo Plaza, City Center",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-docks",
@@ -4921,8 +4543,7 @@
       "affiliation": "",
       "home": "Northside, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick",
-      "hint2": ""
+      "hint1": "Graham Vick"
     },
     {
       "id": "meds-vendor-downtown",
@@ -4935,8 +4556,7 @@
       "affiliation": "",
       "home": "Downtown, City Center",
       "source": "Cyberpunk 2077",
-      "hint1": "Maria Louis",
-      "hint2": ""
+      "hint1": "Maria Louis"
     },
     {
       "id": "meds-vendor-japantown",
@@ -4949,8 +4569,7 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-little-china",
@@ -4963,8 +4582,7 @@
       "affiliation": "",
       "home": "Little China, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-northside",
@@ -4977,8 +4595,7 @@
       "affiliation": "",
       "home": "Northside, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-rancho-coronado",
@@ -4991,8 +4608,7 @@
       "affiliation": "",
       "home": "Rancho Coronado, Santo Domingo",
       "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria",
-      "hint2": ""
+      "hint1": "Alana Maria"
     },
     {
       "id": "meds-vendor-rocky-ridge",
@@ -5005,8 +4621,7 @@
       "affiliation": "",
       "home": "Rocky Ridge, Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "meds-vendor-wellsprings",
@@ -5019,8 +4634,7 @@
       "affiliation": "",
       "home": "Wellsprings, Heywood",
       "source": "Cyberpunk 2077",
-      "hint1": "Mark Holden",
-      "hint2": ""
+      "hint1": "Mark Holden"
     },
     {
       "id": "melissa-rory",
@@ -5033,8 +4647,7 @@
       "affiliation": "NCPD, MaxTac",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler",
-      "hint2": ""
+      "hint1": "Kosha Engler"
     },
     {
       "id": "melissa-wellingham",
@@ -5049,9 +4662,7 @@
       "affiliation": "22nd SAS Regt., Forlorn Hope",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 33,
-      "hint1": "",
-      "hint2": "United Kingdom"
+      "hint1": ""
     },
     {
       "id": "meredith-stout",
@@ -5064,8 +4675,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Erica Lindbeck",
-      "hint2": ""
+      "hint1": "Erica Lindbeck"
     },
     {
       "id": "meshuga",
@@ -5078,8 +4688,7 @@
       "affiliation": "Team King",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)",
-      "hint2": ""
+      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)"
     },
     {
       "id": "michael-galleck",
@@ -5094,8 +4703,7 @@
       "affiliation": "",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "michael-maldonado",
@@ -5108,8 +4716,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "michael-marcinkowsky",
@@ -5122,8 +4729,7 @@
       "affiliation": "Wraiths",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "micha-kicinski",
@@ -5136,8 +4742,7 @@
       "affiliation": "",
       "home": "Dogtown, Pacifica (2077)",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "michiko-sanderson-nee-arasaka",
@@ -5150,8 +4755,7 @@
       "affiliation": "Danger Gal, Arasaka, Hato",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler",
-      "hint2": "Night City, USA"
+      "hint1": "Kosha Engler"
     },
     {
       "id": "mickey",
@@ -5166,8 +4770,7 @@
       "affiliation": "Muamar Reyes, AUTOFIXER",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "miguel-rodriguez",
@@ -5182,8 +4785,7 @@
       "affiliation": "Valentinos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "miguel-serrano",
@@ -5199,9 +4801,7 @@
       "affiliation": "Team King",
       "home": "Night City",
       "source": "Les deux",
-      "age": 22,
-      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)",
-      "hint2": "Spain"
+      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)"
     },
     {
       "id": "mike",
@@ -5214,8 +4814,7 @@
       "affiliation": "",
       "home": "Yucca, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "mike-kowalski",
@@ -5230,9 +4829,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "age": 35,
-      "hint1": "Keisuke Hoashi",
-      "hint2": ""
+      "hint1": "Keisuke Hoashi"
     },
     {
       "id": "mike-kowalsky",
@@ -5245,8 +4842,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "mikhail-akulov",
@@ -5261,8 +4857,7 @@
       "affiliation": "Soviet Union",
       "home": "Soviet Union",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "milko-alexis",
@@ -5275,8 +4870,7 @@
       "affiliation": "Voodoo Boys",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "milt-nauman",
@@ -5289,8 +4883,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Mark Holden",
-      "hint2": ""
+      "hint1": "Mark Holden"
     },
     {
       "id": "miriam-night",
@@ -5303,8 +4896,7 @@
       "affiliation": "Night Corp",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "misty-olszewski",
@@ -5317,9 +4909,7 @@
       "affiliation": "",
       "home": "Watson",
       "source": "Cyberpunk 2077",
-      "age": 26,
-      "hint1": "Erica Lindbeck",
-      "hint2": "Heywood, Night City"
+      "hint1": "Erica Lindbeck"
     },
     {
       "id": "mitch-anderson",
@@ -5332,8 +4922,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Martin McDougall",
-      "hint2": ""
+      "hint1": "Martin McDougall"
     },
     {
       "id": "mokomichi-yamada",
@@ -5348,8 +4937,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "mower",
@@ -5362,8 +4950,7 @@
       "affiliation": "Militech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "mr-blue-eyes",
@@ -5378,8 +4965,7 @@
       "affiliation": "Undisclosed",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Martin McDougall",
-      "hint2": ""
+      "hint1": "Martin McDougall"
     },
     {
       "id": "mr-brightman",
@@ -5392,8 +4978,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "mr-kipper",
@@ -5406,8 +4991,7 @@
       "affiliation": "",
       "home": "Crystal Palace, Mr. Kipper: A Universal Message",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "muamar-reyes",
@@ -5424,8 +5008,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman",
-      "hint2": "Santo Domingo, NC"
+      "hint1": "Alec Newman"
     },
     {
       "id": "nadezhda-tiurina",
@@ -5438,8 +5021,7 @@
       "affiliation": "Mikhail Akulov, KGB",
       "home": "Soviet Union",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nadia-petrova",
@@ -5452,8 +5034,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nash",
@@ -5466,8 +5047,7 @@
       "affiliation": "Wraiths",
       "home": "Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "neil-white",
@@ -5480,8 +5060,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nele-springer",
@@ -5494,8 +5073,7 @@
       "affiliation": "Crimson Harvest",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nibbles",
@@ -5508,8 +5086,7 @@
       "affiliation": "V, Rogue Amendiares",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nika-yankovich",
@@ -5522,8 +5099,7 @@
       "affiliation": "Scavengers",
       "home": "Dogtown, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Devora Wilde",
-      "hint2": ""
+      "hint1": "Devora Wilde"
     },
     {
       "id": "nina-gutierrez",
@@ -5536,8 +5112,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nina-kraviz",
@@ -5550,9 +5125,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 30,
-      "hint1": "Nina Kraviz",
-      "hint2": "Soviet Union"
+      "hint1": "Nina Kraviz"
     },
     {
       "id": "nix",
@@ -5565,8 +5138,7 @@
       "affiliation": "Afterlife Mercs, Arasaka",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Ako Mitchell",
-      "hint2": ""
+      "hint1": "Ako Mitchell"
     },
     {
       "id": "noah",
@@ -5579,8 +5151,7 @@
       "affiliation": "",
       "home": "",
       "source": "Les deux",
-      "hint1": "Marc Pickering",
-      "hint2": ""
+      "hint1": "Marc Pickering"
     },
     {
       "id": "nolan-frakes",
@@ -5593,8 +5164,7 @@
       "affiliation": "6th Street",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "norio-akuhara",
@@ -5609,8 +5179,7 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "nuka-shank-ohlone",
@@ -5623,8 +5192,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "odell-blanco",
@@ -5637,8 +5205,7 @@
       "affiliation": "Haven Clinic",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ofelia-sirawian",
@@ -5654,8 +5221,7 @@
       "affiliation": "Maelstrom",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "oleg-darkevich",
@@ -5668,8 +5234,7 @@
       "affiliation": "Dexter DeShawn",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "olek-carax",
@@ -5682,8 +5247,7 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "source": "Edgerunners",
-      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)",
-      "hint2": ""
+      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)"
     },
     {
       "id": "olga-elisabeth-longmead",
@@ -5696,8 +5260,7 @@
       "affiliation": "6th Street",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "olivia-garland",
@@ -5712,8 +5275,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "omi",
@@ -5726,8 +5288,7 @@
       "affiliation": "Snake Nation",
       "home": "",
       "source": "Edgerunners",
-      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)",
-      "hint2": ""
+      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)"
     },
     {
       "id": "ora-dominguez",
@@ -5742,8 +5303,7 @@
       "affiliation": "Valentinos",
       "home": "Night City, USA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "oswald-forrest",
@@ -5758,8 +5318,7 @@
       "affiliation": "Clouds, Tyger Claws",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Joe Corrigall",
-      "hint2": ""
+      "hint1": "Joe Corrigall"
     },
     {
       "id": "othmar-brasi",
@@ -5772,8 +5331,7 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ozob-bozo",
@@ -5786,8 +5344,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)",
-      "hint2": "Brazil"
+      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)"
     },
     {
       "id": "pablo-silva",
@@ -5800,8 +5357,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "paco-torres",
@@ -5814,8 +5370,7 @@
       "affiliation": "BARGHEST, Scavengers",
       "home": "Dogtown, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Adan Rocha",
-      "hint2": ""
+      "hint1": "Adan Rocha"
     },
     {
       "id": "panam-palmer",
@@ -5830,9 +5385,7 @@
       "affiliation": "Aldecaldos, Bright Family, Afterlife Mercs",
       "home": "Badlands, NUSA, Arizona",
       "source": "Cyberpunk 2077",
-      "age": 33,
-      "hint1": "Emily Woo Zeller",
-      "hint2": ""
+      "hint1": "Emily Woo Zeller"
     },
     {
       "id": "papa-sunrise",
@@ -5847,8 +5400,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "paul-craven",
@@ -5861,8 +5413,7 @@
       "affiliation": "Wraiths",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "pedro-aimar",
@@ -5875,8 +5426,7 @@
       "affiliation": "Zetatech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Bernardo De Paula",
-      "hint2": ""
+      "hint1": "Bernardo De Paula"
     },
     {
       "id": "pepe-najarro",
@@ -5889,8 +5439,7 @@
       "affiliation": "",
       "home": "Heywood, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers",
-      "hint2": ""
+      "hint1": "Ronan Summers"
     },
     {
       "id": "peter-feldheimer",
@@ -5903,8 +5452,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "peter-horvath",
@@ -5917,8 +5465,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "peter-sampson",
@@ -5933,8 +5480,7 @@
       "affiliation": "Militech",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "peter-upmann",
@@ -5947,8 +5493,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "phil-nacho-hernandez",
@@ -5961,8 +5506,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "philippe-oreste",
@@ -5977,8 +5521,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Haiti"
+      "hint1": ""
     },
     {
       "id": "pilar",
@@ -5993,8 +5536,7 @@
       "affiliation": "Maine",
       "home": "Watson, Night City",
       "source": "Les deux",
-      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)",
-      "hint2": "Night City"
+      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)"
     },
     {
       "id": "placide",
@@ -6007,9 +5549,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "source": "Les deux",
-      "age": 35,
-      "hint1": "Lovensky Jean-Baptiste",
-      "hint2": ""
+      "hint1": "Lovensky Jean-Baptiste"
     },
     {
       "id": "principal",
@@ -6022,8 +5562,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)",
-      "hint2": ""
+      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)"
     },
     {
       "id": "punchin-bag",
@@ -6036,8 +5575,7 @@
       "affiliation": "",
       "home": "Little China, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "purple-force",
@@ -6050,8 +5588,7 @@
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "hint1": "Stephanie Sheh",
-      "hint2": "NUSA"
+      "hint1": "Stephanie Sheh"
     },
     {
       "id": "r3n0",
@@ -6064,8 +5601,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rache-bartmoss",
@@ -6078,8 +5614,7 @@
       "affiliation": "Militech, CCI Development",
       "home": "The Net",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rachel-casich",
@@ -6092,8 +5627,7 @@
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Rebecca Yeo",
-      "hint2": ""
+      "hint1": "Rebecca Yeo"
     },
     {
       "id": "ramos",
@@ -6106,8 +5640,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "randy-kutcher",
@@ -6122,8 +5655,7 @@
       "affiliation": "",
       "home": "Kutcher's home, Trailer Park, Red Peaks",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "raul-franco",
@@ -6136,8 +5668,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "raul-welles",
@@ -6150,8 +5681,7 @@
       "affiliation": "Valentinos",
       "home": "Welles' house",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Heywood, Night City"
+      "hint1": ""
     },
     {
       "id": "razor-hugh",
@@ -6164,8 +5694,7 @@
       "affiliation": "Animals",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rearview",
@@ -6178,8 +5707,7 @@
       "affiliation": "Joe's Garage",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rebeca-price",
@@ -6192,8 +5720,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rebecca",
@@ -6211,9 +5738,7 @@
       "affiliation": "Maine, David",
       "home": "Watson, Night City",
       "source": "Les deux",
-      "age": 20,
-      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)",
-      "hint2": "Night City"
+      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)"
     },
     {
       "id": "red-menace",
@@ -6228,8 +5753,7 @@
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "NUSA"
+      "hint1": ""
     },
     {
       "id": "regina-jones",
@@ -6244,8 +5768,7 @@
       "affiliation": "WNS, FTF Radio",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Alana Maria",
-      "hint2": ""
+      "hint1": "Alana Maria"
     },
     {
       "id": "rhino",
@@ -6258,8 +5781,7 @@
       "affiliation": "Animals",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery",
-      "hint2": ""
+      "hint1": "Lucy Montgomery"
     },
     {
       "id": "richard",
@@ -6272,8 +5794,7 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)",
-      "hint2": ""
+      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)"
     },
     {
       "id": "richard-night",
@@ -6286,9 +5807,7 @@
       "affiliation": "HFN, Night International",
       "home": "Coronado City",
       "source": "Cyberpunk 2077",
-      "age": 44,
-      "hint1": "Ronan Summers",
-      "hint2": "Pasadena, USA"
+      "hint1": "Ronan Summers"
     },
     {
       "id": "rick-morton",
@@ -6303,8 +5822,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rita-wheeler",
@@ -6317,8 +5835,7 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery",
-      "hint2": ""
+      "hint1": "Lucy Montgomery"
     },
     {
       "id": "river-ward",
@@ -6333,9 +5850,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 40,
-      "hint1": "Robbie Daymond",
-      "hint2": ""
+      "hint1": "Robbie Daymond"
     },
     {
       "id": "robert-wilson",
@@ -6348,8 +5863,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Dave B. Mitchell",
-      "hint2": ""
+      "hint1": "Dave B. Mitchell"
     },
     {
       "id": "roger-wang",
@@ -6362,8 +5876,7 @@
       "affiliation": "",
       "home": "Kabuki",
       "source": "Cyberpunk 2077",
-      "hint1": "Noshir Dalal",
-      "hint2": ""
+      "hint1": "Noshir Dalal"
     },
     {
       "id": "rogue-amendiares",
@@ -6380,8 +5893,7 @@
       "affiliation": "Afterlife",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Jane Perry",
-      "hint2": ""
+      "hint1": "Jane Perry"
     },
     {
       "id": "roh-chi-won",
@@ -6394,8 +5906,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "roman",
@@ -6408,8 +5919,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "roman-carax",
@@ -6422,9 +5932,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Edgerunners",
-      "age": 12,
-      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)",
-      "hint2": ""
+      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)"
     },
     {
       "id": "ronald-malone",
@@ -6441,8 +5949,7 @@
       "affiliation": "",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rosalind-myers",
@@ -6457,8 +5964,7 @@
       "affiliation": "USMC, Militech, Federalist Party",
       "home": "Washington, D.C., NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Kay Bess",
-      "hint2": ""
+      "hint1": "Kay Bess"
     },
     {
       "id": "rose-horrigan",
@@ -6473,8 +5979,7 @@
       "affiliation": "",
       "home": "Horrigan Family Home",
       "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery",
-      "hint2": ""
+      "hint1": "Lucy Montgomery"
     },
     {
       "id": "ross-ulmer",
@@ -6487,9 +5992,7 @@
       "affiliation": "BARGHEST",
       "home": "",
       "source": "Cyberpunk 2077",
-      "age": 31,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "roxanne-colton",
@@ -6504,9 +6007,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 23,
-      "hint1": "Alison Halstead",
-      "hint2": ""
+      "hint1": "Alison Halstead"
     },
     {
       "id": "roxanne-sumner",
@@ -6519,8 +6020,7 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria",
-      "hint2": ""
+      "hint1": "Alana Maria"
     },
     {
       "id": "ruby-collins",
@@ -6535,8 +6035,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "rufus-mcbride",
@@ -6549,8 +6048,7 @@
       "affiliation": "Wraiths",
       "home": "Tango Tors Motel, Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "russel-greene",
@@ -6563,8 +6061,7 @@
       "affiliation": "",
       "home": "Greene Homestead, Rocky Ridge, northern Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ruth-dzeng",
@@ -6577,8 +6074,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Erika Ishii",
-      "hint2": ""
+      "hint1": "Erika Ishii"
     },
     {
       "id": "saburo-arasaka",
@@ -6593,9 +6089,7 @@
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "age": 104,
-      "hint1": "Masane Tsukayama",
-      "hint2": "Tokyo, Japan"
+      "hint1": "Masane Tsukayama"
     },
     {
       "id": "sachiko-kusama",
@@ -6608,8 +6102,7 @@
       "affiliation": "",
       "home": "Arasaka Orbital Station",
       "source": "Cyberpunk 2077",
-      "hint1": "Cristina Valenzuela",
-      "hint2": "Japan"
+      "hint1": "Cristina Valenzuela"
     },
     {
       "id": "saki-seo",
@@ -6622,8 +6115,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sal-bigelow",
@@ -6636,8 +6128,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)",
-      "hint2": "Italy"
+      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)"
     },
     {
       "id": "sam-carter",
@@ -6650,8 +6141,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick",
-      "hint2": ""
+      "hint1": "Graham Vick"
     },
     {
       "id": "samantha-samu",
@@ -6666,8 +6156,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sammy-taylor",
@@ -6680,8 +6169,7 @@
       "affiliation": "",
       "home": "Dogtown, Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sandayu-oda",
@@ -6694,8 +6182,7 @@
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "hint1": "Noshir Dalal",
-      "hint2": ""
+      "hint1": "Noshir Dalal"
     },
     {
       "id": "sandley-lebreton",
@@ -6708,8 +6195,7 @@
       "affiliation": "",
       "home": "Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sandra-dorsett",
@@ -6722,9 +6208,7 @@
       "affiliation": "Night Corp",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "age": 29,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sandra-faucet",
@@ -6737,8 +6221,7 @@
       "affiliation": "Zetatech",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "santiago",
@@ -6755,8 +6238,7 @@
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Germany"
+      "hint1": ""
     },
     {
       "id": "santiago-molina",
@@ -6769,8 +6251,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Dar Dash",
-      "hint2": ""
+      "hint1": "Dar Dash"
     },
     {
       "id": "sasha-yakovleva",
@@ -6783,8 +6264,7 @@
       "affiliation": "Maine",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "satoshi-ueno",
@@ -6797,8 +6277,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "saul-bright",
@@ -6811,8 +6290,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Diarmaid Murtagh",
-      "hint2": ""
+      "hint1": "Diarmaid Murtagh"
     },
     {
       "id": "sebastian-ibarra",
@@ -6828,8 +6306,7 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Al Rodrigo",
-      "hint2": ""
+      "hint1": "Al Rodrigo"
     },
     {
       "id": "serena-zhao",
@@ -6844,8 +6321,7 @@
       "affiliation": "",
       "home": "Downtown, City Center",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sergei-karasinsky",
@@ -6858,8 +6334,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Gunnar Cauthery",
-      "hint2": ""
+      "hint1": "Gunnar Cauthery"
     },
     {
       "id": "shaitan",
@@ -6872,8 +6347,7 @@
       "affiliation": "",
       "home": "Pacific Rim, 2045",
       "source": "Cyberpunk 2077",
-      "hint1": "Shai Matheson",
-      "hint2": ""
+      "hint1": "Shai Matheson"
     },
     {
       "id": "shinobu-imai",
@@ -6886,8 +6360,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sho-gun-rose",
@@ -6900,8 +6373,7 @@
       "affiliation": "Mox",
       "home": "Charter Hill, Westbrook",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "simon-randall",
@@ -6916,9 +6388,7 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 47,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "skye",
@@ -6931,8 +6401,7 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Emma Ballantine",
-      "hint2": ""
+      "hint1": "Emma Ballantine"
     },
     {
       "id": "slavoj-mcallister",
@@ -6945,8 +6414,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "solomon-reed",
@@ -6961,8 +6429,7 @@
       "affiliation": "NUSA SpecOps, FIA, NUSA, Dino Dinovic",
       "home": "Washington, D.C., Night City",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "song-so-mi",
@@ -6978,9 +6445,7 @@
       "affiliation": "FIA, NUSA",
       "home": "Brooklyn, NYC, Washington, D.C.",
       "source": "Cyberpunk 2077",
-      "age": 31,
-      "hint1": "Minji Chang",
-      "hint2": ""
+      "hint1": "Minji Chang"
     },
     {
       "id": "sophia-dupont",
@@ -6993,8 +6458,7 @@
       "affiliation": "",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "spector-cheng",
@@ -7007,8 +6471,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "spider-murphy",
@@ -7024,9 +6487,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 28,
-      "hint1": "Erica Lindbeck",
-      "hint2": "USA"
+      "hint1": "Erica Lindbeck"
     },
     {
       "id": "spite-vondell",
@@ -7039,8 +6500,7 @@
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "stanley-media",
@@ -7055,8 +6515,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Roger Rose",
-      "hint2": ""
+      "hint1": "Roger Rose"
     },
     {
       "id": "starkey",
@@ -7069,8 +6528,7 @@
       "affiliation": "Aldecaldos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "stefan",
@@ -7083,8 +6541,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "stella-ramos",
@@ -7097,8 +6554,7 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Suzi Hunter",
-      "hint2": ""
+      "hint1": "Suzi Hunter"
     },
     {
       "id": "steve-kowalski",
@@ -7113,8 +6569,7 @@
       "affiliation": "Wraiths",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "steve-sanchez",
@@ -7127,8 +6582,7 @@
       "affiliation": "",
       "home": "West Wind Estate, Pacifica, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Sebastián Capitán Viveros",
-      "hint2": ""
+      "hint1": "Sebastián Capitán Viveros"
     },
     {
       "id": "steven-santos",
@@ -7141,8 +6595,7 @@
       "affiliation": "Brazilian Intelligence Agency, Barghest",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "sue-glover",
@@ -7155,8 +6608,7 @@
       "affiliation": "",
       "home": "Urmland Street, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "susan-abernathy",
@@ -7169,9 +6621,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 42,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "susanna-mack",
@@ -7184,8 +6634,7 @@
       "affiliation": "Trauma Team",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "susanna-quinn",
@@ -7202,8 +6651,7 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria",
-      "hint2": ""
+      "hint1": "Alana Maria"
     },
     {
       "id": "t-bug",
@@ -7218,8 +6666,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Cynthia Kaye McWilliams",
-      "hint2": ""
+      "hint1": "Cynthia Kaye McWilliams"
     },
     {
       "id": "taco",
@@ -7232,8 +6679,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "takeshi-kazou",
@@ -7246,8 +6692,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "taki-kazo",
@@ -7260,8 +6705,7 @@
       "affiliation": "Tyger Claws",
       "home": "Westbrook, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "taki-kenmochi",
@@ -7274,8 +6718,7 @@
       "affiliation": "Tyger Claws",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "talia-yang",
@@ -7288,8 +6731,7 @@
       "affiliation": "Maelstrom, Kang Tao",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)",
-      "hint2": ""
+      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)"
     },
     {
       "id": "tamara-cosby",
@@ -7302,8 +6744,7 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "tanaka",
@@ -7316,8 +6757,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "source": "Edgerunners",
-      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)",
-      "hint2": ""
+      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)"
     },
     {
       "id": "tatsuya-takei",
@@ -7330,8 +6770,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "taylor-gibbs",
@@ -7344,8 +6783,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ted-fox",
@@ -7358,8 +6796,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers",
-      "hint2": ""
+      "hint1": "Ronan Summers"
     },
     {
       "id": "theo-price",
@@ -7372,8 +6809,7 @@
       "affiliation": "",
       "home": "Megabuilding H8, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Amelia Rose Blaire",
-      "hint2": ""
+      "hint1": "Amelia Rose Blaire"
     },
     {
       "id": "theodore-h-collins",
@@ -7388,8 +6824,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "theodore-simos",
@@ -7404,8 +6839,7 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "source": "Cyberpunk 2077",
-      "hint1": "Shai Matheson",
-      "hint2": ""
+      "hint1": "Shai Matheson"
     },
     {
       "id": "thomas-hays",
@@ -7418,8 +6852,7 @@
       "affiliation": "Valentino",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ti-neptune",
@@ -7432,8 +6865,7 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "timmy-g",
@@ -7448,8 +6880,7 @@
       "affiliation": "",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "timothee-lebeau",
@@ -7462,8 +6893,7 @@
       "affiliation": "Tyger Claws",
       "home": "Watson (2077), Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "tom",
@@ -7476,8 +6906,7 @@
       "affiliation": "",
       "home": "",
       "source": "Les deux",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "tom-ayer",
@@ -7492,8 +6921,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "tom-caldera",
@@ -7506,8 +6934,7 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Shai Matheson",
-      "hint2": ""
+      "hint1": "Shai Matheson"
     },
     {
       "id": "tommie-walker",
@@ -7520,9 +6947,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "age": 13,
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "toshiro-harada",
@@ -7535,8 +6960,7 @@
       "affiliation": "Arasaka",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando",
-      "hint2": "Tokyo, Japan"
+      "hint1": "Yoshi Ando"
     },
     {
       "id": "tracy-phillips",
@@ -7549,8 +6973,7 @@
       "affiliation": "Afterlife",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "trevor-brass",
@@ -7563,8 +6986,7 @@
       "affiliation": "Aldecaldos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "tucker-albach",
@@ -7577,8 +6999,7 @@
       "affiliation": "Kiroshi Optics",
       "home": "Tucker Albach's Apartment, The Glen, Heywood",
       "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery",
-      "hint2": ""
+      "hint1": "Lucy Montgomery"
     },
     {
       "id": "tyler-brown",
@@ -7591,8 +7012,7 @@
       "affiliation": "None",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "v",
@@ -7611,9 +7031,7 @@
       "affiliation": "Bakkers, Nomad, Arasaka, Corpo, Afterlife Mercs, Samurai, Aldecaldos, FIA, NUSA",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "age": 23,
-      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)",
-      "hint2": "American wilderness (Nomad) Heywood, NC (Streetkid) Charter Hill, NC (Corpo)"
+      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)"
     },
     {
       "id": "vance-noren",
@@ -7626,8 +7044,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "vasquez",
@@ -7640,8 +7057,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "vic-vega",
@@ -7654,8 +7070,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "viktor-vektor",
@@ -7673,8 +7088,7 @@
       "affiliation": "Night City Devils, Zetatech",
       "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Michael Gregory",
-      "hint2": ""
+      "hint1": "Michael Gregory"
     },
     {
       "id": "vortex",
@@ -7687,8 +7101,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "wade-bleecker",
@@ -7704,8 +7117,7 @@
       "affiliation": "Petrochem",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)",
-      "hint2": ""
+      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)"
     },
     {
       "id": "wakako-okada",
@@ -7720,8 +7132,7 @@
       "affiliation": "Kiroshi, Tyger Claws",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Ren Hanami",
-      "hint2": "Kansai, Japan"
+      "hint1": "Ren Hanami"
     },
     {
       "id": "wayne-johnson",
@@ -7734,8 +7145,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "weak-kingsley",
@@ -7750,8 +7160,7 @@
       "affiliation": "Team King ()",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)",
-      "hint2": ""
+      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)"
     },
     {
       "id": "weldon-holt",
@@ -7766,8 +7175,7 @@
       "affiliation": "Devolutionist Party, Mayor's Office",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Dave B. Mitchell",
-      "hint2": ""
+      "hint1": "Dave B. Mitchell"
     },
     {
       "id": "wesley-hunt",
@@ -7780,8 +7188,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "wilky-laguerre",
@@ -7797,9 +7204,7 @@
       "affiliation": "Voodoo Boys",
       "home": "",
       "source": "Cyberpunk 2077",
-      "age": 39,
-      "hint1": "Borge Etienne",
-      "hint2": ""
+      "hint1": "Borge Etienne"
     },
     {
       "id": "will-gunner",
@@ -7812,8 +7217,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "william-hare",
@@ -7828,8 +7232,7 @@
       "affiliation": "Militech",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "willie-mccoy",
@@ -7842,8 +7245,7 @@
       "affiliation": "",
       "home": "SoCal",
       "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe",
-      "hint2": ""
+      "hint1": "Akie Kotabe"
     },
     {
       "id": "wyatt-alken",
@@ -7856,8 +7258,7 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "xiaohan-ling",
@@ -7870,8 +7271,7 @@
       "affiliation": "Kang Tao",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "xochi-peralez",
@@ -7884,8 +7284,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "yawen-packard",
@@ -7898,8 +7297,7 @@
       "affiliation": "NCPD",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Emily Woo Zeller",
-      "hint2": ""
+      "hint1": "Emily Woo Zeller"
     },
     {
       "id": "yelena-sidorova",
@@ -7912,8 +7310,7 @@
       "affiliation": "Scavengers",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "yishen-rhee",
@@ -7926,8 +7323,7 @@
       "affiliation": "Afterlife Mercs, Red Willow",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "yoko-tsuru",
@@ -7940,8 +7336,7 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "source": "Cyberpunk 2077",
-      "hint1": "Ren Hanami",
-      "hint2": ""
+      "hint1": "Ren Hanami"
     },
     {
       "id": "yorinobu-arasaka",
@@ -7956,9 +7351,7 @@
       "affiliation": "Steel Dragons, Arasaka, Taka, Nomads",
       "home": "Tokyo, Japan",
       "source": "Cyberpunk 2077",
-      "age": 25,
-      "hint1": "Hideo Kimura",
-      "hint2": "Tokyo, Japan"
+      "hint1": "Hideo Kimura"
     },
     {
       "id": "yupi",
@@ -7971,8 +7364,7 @@
       "affiliation": "D",
       "home": "",
       "source": "Edgerunners",
-      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)",
-      "hint2": ""
+      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)"
     },
     {
       "id": "yuri-bychkov",
@@ -7985,8 +7377,7 @@
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "yuri-shaku",
@@ -7999,8 +7390,7 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zane-jagger",
@@ -8013,8 +7403,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zaria-hughes",
@@ -8027,8 +7416,7 @@
       "affiliation": "Maelstrom",
       "home": "Watson (2077), Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zeke-daniels",
@@ -8043,9 +7431,7 @@
       "affiliation": "Forlorn Hope",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "age": 24,
-      "hint1": "",
-      "hint2": "New York City, USA"
+      "hint1": ""
     },
     {
       "id": "zen-master",
@@ -8060,8 +7446,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "Vic Chao",
-      "hint2": ""
+      "hint1": "Vic Chao"
     },
     {
       "id": "zena-delice",
@@ -8074,8 +7459,7 @@
       "affiliation": "Voodoo Boys",
       "home": "West Wind Estate, Pacifica",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": "Haiti"
+      "hint1": ""
     },
     {
       "id": "zhan-qiu",
@@ -8088,8 +7472,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "ziggy-q",
@@ -8102,8 +7485,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Ben Cura",
-      "hint2": ""
+      "hint1": "Ben Cura"
     },
     {
       "id": "zion-wylde",
@@ -8116,8 +7498,7 @@
       "affiliation": "",
       "home": "Badlands",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zoe-alonzo",
@@ -8130,8 +7511,7 @@
       "affiliation": "Valentinos",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zoli-barnes",
@@ -8144,8 +7524,7 @@
       "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zor",
@@ -8161,8 +7540,7 @@
       "affiliation": "Militech, Trauma Team, NUSA",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "",
-      "hint2": ""
+      "hint1": ""
     },
     {
       "id": "zuleikha-el-ahmar",
@@ -8175,8 +7553,7 @@
       "affiliation": "",
       "home": "Night City",
       "source": "Cyberpunk 2077",
-      "hint1": "Lara Sawalha",
-      "hint2": ""
+      "hint1": "Lara Sawalha"
     }
   ]
 }

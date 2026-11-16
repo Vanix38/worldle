@@ -4,8 +4,8 @@
  *
  * Analyse des champs (Infobox Character) sur V, Johnny Silverhand,
  * David Martinez, Lucyna Kushinada, Judy Álvarez, Panam Palmer, Jackie Welles :
- *   title, aka, age, status, gender, home, residence, affiliation,
- *   occupation, role, place_of_birth, voiced_by, appears_games / appears_other, …
+ *   title, aka, status, gender, home, residence, affiliation,
+ *   occupation, role, voiced_by, appears_games / appears_other, …
  *
  * Usage:
  *   node scripts/scrape-cyberpunk-fandom.mjs --discover
@@ -43,7 +43,7 @@ const DISCOVER_PAGES = [
 const INFOBOX_MARKER = "{{Infobox Character";
 
 /** Toujours garder ces clés sur les persos / fieldMapping. */
-const ALWAYS_FIELD_KEYS = new Set(["aliases", "hint1", "hint2", "source"]);
+const ALWAYS_FIELD_KEYS = new Set(["aliases", "hint1", "source"]);
 
 const FIELD_MAPPING = {
   gender: {
@@ -86,12 +86,6 @@ const FIELD_MAPPING = {
     columnWidth: "medium",
     description: "Cyberpunk 2077, Edgerunners, ou les deux (d’après appears_games / appears_other).",
   },
-  age: {
-    header: "Âge",
-    fonction: "ComparaisonChiffre",
-    columnWidth: "small",
-    description: "Premier âge numérique déduit de l’infobox (années).",
-  },
   aliases: {
     header: "Alias",
     fonction: "Recherche",
@@ -102,12 +96,6 @@ const FIELD_MAPPING = {
     fonction: "Indice",
     hint: { prompt: "Voix / acteur", icon: "FaMicrophoneLines", unlockAfter: 5 },
     description: "Doubleur / acteur (voiced_by).",
-  },
-  hint2: {
-    header: "Indice 2",
-    fonction: "Indice",
-    hint: { prompt: "Lieu de naissance", icon: "FaMapLocationDot", unlockAfter: 10 },
-    description: "Lieu de naissance (place_of_birth).",
   },
 };
 
@@ -360,16 +348,6 @@ function normalizeStatus(raw) {
   return first;
 }
 
-function parseAge(raw) {
-  if (!raw) return undefined;
-  const t = stripRefs(raw);
-  const m = t.match(/(\d{1,3})\s*(?:\(|$|,|<|as of|years|ans)/i) || t.match(/\b(\d{1,3})\b/);
-  if (!m) return undefined;
-  const n = parseInt(m[1], 10);
-  if (!Number.isFinite(n) || n < 1 || n > 200) return undefined;
-  return n;
-}
-
 function detectSources(params, categoriesForPage) {
   const blob = [
     params.appears_games || "",
@@ -472,7 +450,6 @@ function ensureDefaults(char) {
       if (!Array.isArray(char.aliases)) char.aliases = [];
       continue;
     }
-    if (k === "age") continue;
     if (char[k] === undefined) char[k] = "";
   }
 }
@@ -486,10 +463,8 @@ function buildCharacter(pageTitle, params, categoryTags) {
   const affiliation = joinMulti(splitMulti(params.affiliation || ""));
   const home = joinMulti(splitMulti(params.home || ""));
   const source = detectSources(params, categoryTags);
-  const age = parseAge(params.age || "");
   const aliases = extractAliases(params, name);
   const hint1 = cleanWikiText(params.voiced_by || "");
-  const hint2 = cleanWikiText(params.place_of_birth || "");
 
   // Skip pages that are not really characters (empty core fields)
   const useful =
@@ -501,11 +476,6 @@ function buildCharacter(pageTitle, params, categoryTags) {
     home ||
     aliases.length > 0;
   if (!useful) return null;
-
-  // Skip heavily "Dependent" protagonists without usable gender/status if no role
-  if (!gender && !status && !role && /dependent/i.test(params.gender || "") && /dependent/i.test(params.status || "")) {
-    // still keep V if we want — include with name V and source game
-  }
 
   const idBase = slugify(name);
   const char = {
@@ -520,9 +490,7 @@ function buildCharacter(pageTitle, params, categoryTags) {
     home,
     source,
     hint1: hint1 || "",
-    hint2: hint2 || "",
   };
-  if (age !== undefined) char.age = age;
 
   const imgFile = firstImageFilename(params);
   if (imgFile) char._wikiImage = imgFile;
@@ -576,7 +544,7 @@ function pruneFields(characters, fieldMapping, prevalence, minRate, noPrune) {
     for (const k of Object.keys(nextMapping)) {
       if (k === "aliases") continue;
       if (c[k] !== undefined) o[k] = c[k];
-      else if (k !== "age") o[k] = "";
+      else o[k] = "";
     }
     return o;
   });
