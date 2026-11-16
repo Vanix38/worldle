@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Valentinos</title>
+  
+  <circle cx="100" cy="100" r="90" fill="#2a0505"/>
+  <!-- sacred heart -->
+  <path fill="#c41e3a" d="M100 160 C100 160 35 115 35 70 C35 42 58 32 78 42 C88 47 95 58 100 68 C105 58 112 47 122 42 C142 32 165 42 165 70 C165 115 100 160 100 160 Z"/>
+  <!-- flame -->
+  <path fill="#ffcc33" d="M100 28 C90 48 95 58 88 72 C100 62 105 48 112 62 C108 48 110 38 100 28 Z"/>
+  <path fill="#ff6600" d="M100 40 C94 52 96 58 92 68 C100 62 104 52 108 62 C104 52 106 46 100 40 Z"/>
+  <!-- cross -->
+  <rect x="94" y="78" width="12" height="40" fill="#f5e6c8"/>
+  <rect x="82" y="88" width="36" height="10" fill="#f5e6c8"/>
+  <!-- roses left/right -->
+  <circle cx="55" cy="130" r="14" fill="#8b0000"/>
+  <circle cx="55" cy="130" r="7" fill="#c41e3a"/>
+  <circle cx="145" cy="130" r="14" fill="#8b0000"/>
+  <circle cx="145" cy="130" r="7" fill="#c41e3a"/>
+  <path fill="#2d5a2d" d="M55 145 Q60 155 70 150 Q62 148 55 145 M145 145 Q140 155 130 150 Q138 148 145 145"/>
+  
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Arasaka</title>
+  
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <!-- stylized Arasaka tower mark -->
+  <g fill="#c41e3a">
+    <rect x="88" y="30" width="24" height="140"/>
+    <rect x="70" y="50" width="60" height="16"/>
+    <rect x="55" y="80" width="90" height="14"/>
+    <polygon points="100,20 115,50 85,50"/>
+    <rect x="60" y="145" width="80" height="18"/>
+    <rect x="45" y="165" width="110" height="12"/>
+  </g>
+  <g fill="none" stroke="#c41e3a" stroke-width="3">
+    <rect x="40" y="40" width="120" height="120"/>
+  </g>
+  
+</svg>

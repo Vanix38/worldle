@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Tyger Claws</title>
+  
+  <circle cx="100" cy="100" r="90" fill="#1a0a00"/>
+  <!-- tiger face -->
+  <ellipse cx="100" cy="105" rx="62" ry="58" fill="#f09020"/>
+  <ellipse cx="100" cy="118" rx="38" ry="32" fill="#ffe0b0"/>
+  <!-- ears -->
+  <path fill="#f09020" d="M40 70 L55 35 L75 70 Z"/>
+  <path fill="#f09020" d="M160 70 L145 35 L125 70 Z"/>
+  <path fill="#ffe0b0" d="M50 68 L58 48 L70 68 Z"/>
+  <path fill="#ffe0b0" d="M150 68 L142 48 L130 68 Z"/>
+  <!-- stripes -->
+  <path fill="#1a0a00" d="M70 55 Q80 75 75 95 L85 95 Q88 70 78 52 Z"/>
+  <path fill="#1a0a00" d="M130 55 Q120 75 125 95 L115 95 Q112 70 122 52 Z"/>
+  <path fill="#1a0a00" d="M95 48 L100 72 L105 48 Z"/>
+  <!-- eyes -->
+  <ellipse cx="75" cy="95" rx="12" ry="8" fill="#1a0a00"/>
+  <ellipse cx="125" cy="95" rx="12" ry="8" fill="#1a0a00"/>
+  <ellipse cx="78" cy="93" rx="4" ry="3" fill="#ffee00"/>
+  <ellipse cx="128" cy="93" rx="4" ry="3" fill="#ffee00"/>
+  <!-- nose/mouth -->
+  <ellipse cx="100" cy="115" rx="10" ry="7" fill="#1a0a00"/>
+  <path fill="none" stroke="#1a0a00" stroke-width="3" d="M100 122 L100 135 M85 140 Q100 150 115 140"/>
+  <path fill="none" stroke="#1a0a00" stroke-width="2" d="M70 125 L55 120 M70 132 L52 132 M130 125 L145 120 M130 132 L148 132"/>
+  
+</svg>

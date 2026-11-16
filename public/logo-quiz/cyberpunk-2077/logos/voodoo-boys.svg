@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Voodoo Boys</title>
+  
+  <circle cx="100" cy="100" r="90" fill="#0d1f0d"/>
+  <!-- veve-like cross base -->
+  <path fill="none" stroke="#39ff14" stroke-width="4" d="M100 25 L100 175 M40 100 L160 100"/>
+  <path fill="none" stroke="#39ff14" stroke-width="3" d="M60 40 L100 70 L140 40 M60 160 L100 130 L140 160"/>
+  <!-- skull -->
+  <ellipse cx="100" cy="95" rx="40" ry="38" fill="#e8e8e8"/>
+  <path fill="#e8e8e8" d="M70 110 L70 140 Q70 150 82 150 L90 138 L100 146 L110 138 L118 150 Q130 150 130 140 L130 110 Z"/>
+  <ellipse cx="82" cy="92" rx="10" ry="12" fill="#0d1f0d"/>
+  <ellipse cx="118" cy="92" rx="10" ry="12" fill="#0d1f0d"/>
+  <ellipse cx="100" cy="108" rx="8" ry="6" fill="#0d1f0d"/>
+  <rect x="84" y="138" width="7" height="8" fill="#ccc" stroke="#333"/>
+  <rect x="96" y="140" width="7" height="8" fill="#ccc" stroke="#333"/>
+  <rect x="108" y="138" width="7" height="8" fill="#ccc" stroke="#333"/>
+  <!-- tribal marks -->
+  <path fill="none" stroke="#9b59b6" stroke-width="2.5" d="M55 70 Q45 100 55 130 M145 70 Q155 100 145 130"/>
+  
+</svg>

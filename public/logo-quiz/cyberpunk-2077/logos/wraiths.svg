@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Wraiths</title>
+  
+  <circle cx="100" cy="100" r="90" fill="#2a2010"/>
+  <!-- skull -->
+  <ellipse cx="100" cy="95" rx="42" ry="40" fill="#e8dcc8"/>
+  <path fill="#e8dcc8" d="M68 112 L68 145 Q68 158 82 158 L90 145 L100 154 L110 145 L118 158 Q132 158 132 145 L132 112 Z"/>
+  <ellipse cx="80" cy="92" rx="11" ry="13" fill="#1a1008"/>
+  <ellipse cx="120" cy="92" rx="11" ry="13" fill="#1a1008"/>
+  <ellipse cx="100" cy="110" rx="9" ry="7" fill="#1a1008"/>
+  <!-- war paint -->
+  <path fill="#8b0000" d="M68 85 L80 85 L85 100 L68 100 Z"/>
+  <path fill="#8b0000" d="M132 85 L120 85 L115 100 L132 100 Z"/>
+  <!-- feathers -->
+  <path fill="#c4a574" stroke="#5a4030" stroke-width="1" d="M55 55 Q40 30 48 20 Q55 35 62 50 Z"/>
+  <path fill="#a08060" stroke="#5a4030" stroke-width="1" d="M48 60 Q30 40 35 28 Q48 45 55 58 Z"/>
+  <path fill="#c4a574" stroke="#5a4030" stroke-width="1" d="M145 55 Q160 30 152 20 Q145 35 138 50 Z"/>
+  <rect x="85" y="145" width="8" height="10" fill="#ddd" stroke="#333"/>
+  <rect x="96" y="148" width="8" height="10" fill="#ddd" stroke="#333"/>
+  <rect x="107" y="145" width="8" height="10" fill="#ddd" stroke="#333"/>
+  
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>NetWatch</title>
+  
+  <rect width="200" height="200" fill="#0a1020"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#00b4d8" stroke-width="3"/>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#0077b6" stroke-width="2" stroke-dasharray="4 4"/>
+  <!-- eye -->
+  <ellipse cx="100" cy="100" rx="45" ry="28" fill="#caf0f8" stroke="#00b4d8" stroke-width="3"/>
+  <circle cx="100" cy="100" r="18" fill="#03045e"/>
+  <circle cx="100" cy="100" r="10" fill="#00b4d8"/>
+  <circle cx="105" cy="95" r="4" fill="#fff"/>
+  <!-- network nodes -->
+  <circle cx="40" cy="50" r="5" fill="#00b4d8"/>
+  <circle cx="160" cy="50" r="5" fill="#00b4d8"/>
+  <circle cx="40" cy="150" r="5" fill="#00b4d8"/>
+  <circle cx="160" cy="150" r="5" fill="#00b4d8"/>
+  <line x1="45" y1="55" x2="70" y2="85" stroke="#0077b6" stroke-width="1.5"/>
+  <line x1="155" y1="55" x2="130" y2="85" stroke="#0077b6" stroke-width="1.5"/>
+  <line x1="45" y1="145" x2="70" y2="115" stroke="#0077b6" stroke-width="1.5"/>
+  <line x1="155" y1="145" x2="130" y2="115" stroke="#0077b6" stroke-width="1.5"/>
+  
+</svg>

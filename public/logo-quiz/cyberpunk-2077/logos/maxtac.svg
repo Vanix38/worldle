@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>MaxTac</title>
+  
+  <circle cx="100" cy="100" r="90" fill="#0a0a0a"/>
+  <path fill="#2a2a2a" stroke="#c41e3a" stroke-width="4" d="M100 22 L128 42 L158 42 L158 90 Q158 135 100 175 Q42 135 42 90 L42 42 L72 42 Z"/>
+  <path fill="#1a1a1a" d="M100 38 L120 52 L142 52 L142 90 Q142 122 100 155 Q58 122 58 90 L58 52 L80 52 Z"/>
+  <!-- skull tactique -->
+  <ellipse cx="100" cy="85" rx="28" ry="26" fill="#c8c8c8"/>
+  <path fill="#c8c8c8" d="M80 95 L80 115 Q80 125 90 125 L94 115 L100 122 L106 115 L110 125 Q120 125 120 115 L120 95 Z"/>
+  <ellipse cx="88" cy="85" rx="7" ry="8" fill="#c41e3a"/>
+  <ellipse cx="112" cy="85" rx="7" ry="8" fill="#c41e3a"/>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="11" font-weight="700" fill="#c41e3a">MAXTAC</text>
+  
+</svg>

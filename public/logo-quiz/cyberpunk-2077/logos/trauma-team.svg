@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Trauma Team</title>
+  
+  <circle cx="100" cy="100" r="90" fill="#f5f5f5" stroke="#c41e3a" stroke-width="6"/>
+  <!-- wings -->
+  <path fill="#1e4d8c" d="M55 100 Q20 70 15 50 Q40 60 55 80 Z"/>
+  <path fill="#1e4d8c" d="M55 100 Q25 100 10 110 Q35 115 55 110 Z"/>
+  <path fill="#1e4d8c" d="M55 100 Q20 130 15 150 Q40 140 55 120 Z"/>
+  <path fill="#1e4d8c" d="M145 100 Q180 70 185 50 Q160 60 145 80 Z"/>
+  <path fill="#1e4d8c" d="M145 100 Q175 100 190 110 Q165 115 145 110 Z"/>
+  <path fill="#1e4d8c" d="M145 100 Q180 130 185 150 Q160 140 145 120 Z"/>
+  <!-- medical cross -->
+  <rect x="85" y="55" width="30" height="90" rx="4" fill="#c41e3a"/>
+  <rect x="55" y="85" width="90" height="30" rx="4" fill="#c41e3a"/>
+  
+</svg>

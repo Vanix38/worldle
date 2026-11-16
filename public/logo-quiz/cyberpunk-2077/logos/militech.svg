@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <title>Militech</title>
+  
+  <rect width="200" height="200" fill="#0a1628"/>
+  <!-- shield -->
+  <path fill="#1e4d8c" stroke="#c0c0c0" stroke-width="4" d="M100 25 L165 50 L165 110 Q165 155 100 180 Q35 155 35 110 L35 50 Z"/>
+  <!-- eagle chevron -->
+  <path fill="#c0c0c0" d="M100 55 L130 90 L115 90 L115 125 L85 125 L85 90 L70 90 Z"/>
+  <path fill="#ffcc00" d="M100 70 L108 88 H90 Z"/>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="18" font-weight="700" fill="#c0c0c0">M</text>
+  
+</svg>
