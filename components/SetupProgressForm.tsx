@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { stripAccents } from "@/lib/utils";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
@@ -10,6 +11,7 @@ import {
   clearGameStorageForUniverse,
   filterPlayableCharacters,
   getDifficultyConfig,
+  isProgressConfigured,
   persistedFromSelection,
   resolveMaxDifficulty,
   saveSpoilerProgress,
@@ -286,11 +288,14 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
   );
 
   const playableCount = useMemo(() => {
-    if (!progressField || !currentSelection) return 0;
+    const selectionForFilter: SpoilerProgressSelection | null = progressField
+      ? currentSelection
+      : { mode: "all" };
+    if (progressField && !selectionForFilter) return 0;
     return filterPlayableCharacters(
       characters,
       progressField,
-      currentSelection,
+      selectionForFilter ?? { mode: "all" },
       difficultyConfig,
       difficultyConfig ? difficultyChoice || null : null,
     ).length;
@@ -302,7 +307,9 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
     difficultyChoice,
   ]);
 
-  if (!progressField) return null;
+  if (!progressField && !difficultyConfig) return null;
+
+  const alreadyConfigured = isProgressConfigured(progressField, selection);
 
   const toggleLabel = (label: string) => {
     setAllSeen(false);
@@ -329,6 +336,7 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
   };
 
   const selectAll = () => {
+    if (!progressField) return;
     setAllSeen(false);
     setSeenSet(new Set(allLabelsForField(progressField)));
   };
@@ -339,94 +347,126 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
   };
 
   const canSubmit =
-    Boolean(currentSelection) &&
+    (progressField ? Boolean(currentSelection) : true) &&
     playableCount > 0 &&
     (!difficultyConfig || Boolean(difficultyChoice));
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!currentSelection) return;
+    const selectionToSave: SpoilerProgressSelection | null = progressField
+      ? currentSelection
+      : { mode: "all" };
+    if (!selectionToSave) return;
     if (difficultyConfig && !difficultyChoice) return;
     const maxDiff = difficultyConfig ? difficultyChoice : null;
-    saveSpoilerProgress(persistedFromSelection(universeId, currentSelection, maxDiff));
+    saveSpoilerProgress(persistedFromSelection(universeId, selectionToSave, maxDiff));
     clearGameStorageForUniverse(universeId);
-    setSelection(currentSelection);
+    setSelection(selectionToSave);
     if (maxDiff) setMaxDifficulty(maxDiff);
     router.push(`/game/${universeId}`);
   };
 
   return (
     <form onSubmit={handleSubmit} className="mx-auto max-w-lg space-y-5">
-      <div className="space-y-2 text-center">
-        <h2 className="text-xl font-semibold text-white">
-          {stripAccents("Qu'as-tu déjà vu ?")}
-        </h2>
-        <p className="text-sm text-gray-400">
-          {stripAccents(
-            progressField.groups?.length
-              ? "Coche ce que tu as vu. Seuls les personnages correspondants pourront être à deviner."
-              : `Coche les ${progressField.label.toLowerCase()} que tu as vus. Seuls les personnages correspondants pourront être à deviner.`,
-          )}
-        </p>
-      </div>
-
-      <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-gray-600 bg-gray-800/80 px-4 py-3">
-        <input
-          type="checkbox"
-          checked={allSeen}
-          onChange={(e) => {
-            setAllSeen(e.target.checked);
-            if (e.target.checked) setSeenSet(new Set());
-          }}
-          className="size-4 shrink-0 rounded border-gray-500 bg-gray-900 text-ocean-500 focus:ring-ocean-500"
-        />
-        <span className="text-sm font-medium text-white">
-          {stripAccents("J'ai tout vu (sans limite)")}
-        </span>
-      </label>
-
-      {!allSeen ? (
-        <div className="space-y-2">
-          <div className="flex items-center justify-between gap-2">
-            <span className="text-sm font-medium text-gray-300">{progressField.label}</span>
-            <div className="flex gap-2 text-xs">
-              <button
-                type="button"
-                onClick={selectAll}
-                className="text-ocean-400 hover:text-ocean-300 focus:outline-none focus-visible:underline"
-              >
-                {stripAccents("Tout cocher")}
-              </button>
-              <span className="text-gray-600" aria-hidden>
-                ·
-              </span>
-              <button
-                type="button"
-                onClick={clearAll}
-                className="text-gray-400 hover:text-gray-300 focus:outline-none focus-visible:underline"
-              >
-                {stripAccents("Tout décocher")}
-              </button>
-            </div>
-          </div>
-          <div className="max-h-[min(28rem,55vh)] overflow-y-auto rounded-lg border border-gray-600 bg-gray-800/60 p-2 [scrollbar-width:thin]">
-            {progressField.groups?.length ? (
-              <GroupedOrderList
-                groups={progressField.groups}
-                seenSet={seenSet}
-                onToggleItem={toggleLabel}
-                onToggleGroup={toggleGroup}
-              />
-            ) : (
-              <FlatOrderList
-                labels={progressField.order}
-                seenSet={seenSet}
-                onToggleItem={toggleLabel}
-              />
-            )}
-          </div>
+      {alreadyConfigured ? (
+        <div className="text-center">
+          <Link
+            href={`/game/${universeId}`}
+            className="text-sm font-medium text-gray-400 transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500"
+          >
+            {stripAccents("← Retour à la partie")}
+          </Link>
+          <p className="mt-2 text-xs text-amber-400/90">
+            {stripAccents("Enregistrer relance une nouvelle partie.")}
+          </p>
         </div>
       ) : null}
+
+      {progressField ? (
+        <>
+          <div className="space-y-2 text-center">
+            <h2 className="text-xl font-semibold text-white">
+              {stripAccents("Qu'as-tu déjà vu ?")}
+            </h2>
+            <p className="text-sm text-gray-400">
+              {stripAccents(
+                progressField.groups?.length
+                  ? "Coche ce que tu as vu. Seuls les personnages correspondants pourront être à deviner."
+                  : `Coche les ${progressField.label.toLowerCase()} que tu as vus. Seuls les personnages correspondants pourront être à deviner.`,
+              )}
+            </p>
+          </div>
+
+          <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-gray-600 bg-gray-800/80 px-4 py-3">
+            <input
+              type="checkbox"
+              checked={allSeen}
+              onChange={(e) => {
+                setAllSeen(e.target.checked);
+                if (e.target.checked) setSeenSet(new Set());
+              }}
+              className="size-4 shrink-0 rounded border-gray-500 bg-gray-900 text-ocean-500 focus:ring-ocean-500"
+            />
+            <span className="text-sm font-medium text-white">
+              {stripAccents("J'ai tout vu (sans limite)")}
+            </span>
+          </label>
+
+          {!allSeen ? (
+            <div className="space-y-2">
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-sm font-medium text-gray-300">
+                  {progressField.label}
+                </span>
+                <div className="flex gap-2 text-xs">
+                  <button
+                    type="button"
+                    onClick={selectAll}
+                    className="text-ocean-400 hover:text-ocean-300 focus:outline-none focus-visible:underline"
+                  >
+                    {stripAccents("Tout cocher")}
+                  </button>
+                  <span className="text-gray-600" aria-hidden>
+                    ·
+                  </span>
+                  <button
+                    type="button"
+                    onClick={clearAll}
+                    className="text-gray-400 hover:text-gray-300 focus:outline-none focus-visible:underline"
+                  >
+                    {stripAccents("Tout décocher")}
+                  </button>
+                </div>
+              </div>
+              <div className="max-h-[min(28rem,55vh)] overflow-y-auto rounded-lg border border-gray-600 bg-gray-800/60 p-2 [scrollbar-width:thin]">
+                {progressField.groups?.length ? (
+                  <GroupedOrderList
+                    groups={progressField.groups}
+                    seenSet={seenSet}
+                    onToggleItem={toggleLabel}
+                    onToggleGroup={toggleGroup}
+                  />
+                ) : (
+                  <FlatOrderList
+                    labels={progressField.order}
+                    seenSet={seenSet}
+                    onToggleItem={toggleLabel}
+                  />
+                )}
+              </div>
+            </div>
+          ) : null}
+        </>
+      ) : (
+        <div className="space-y-2 text-center">
+          <h2 className="text-xl font-semibold text-white">
+            {stripAccents("Réglages de partie")}
+          </h2>
+          <p className="text-sm text-gray-400">
+            {stripAccents("Choisis la difficulté maximale des personnages à deviner.")}
+          </p>
+        </div>
+      )}
 
       {difficultyConfig ? (
         <fieldset className="space-y-2">
@@ -458,17 +498,17 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
         </fieldset>
       ) : null}
 
-      {currentSelection ? (
+      {progressField && !currentSelection ? (
+        <p className="text-center text-sm text-gray-500">
+          {stripAccents("Coche au moins un élément ou choisis « tout vu ».")}
+        </p>
+      ) : (
         <p className="text-center text-sm text-gray-400">
           {playableCount > 0
             ? stripAccents(
                 `${playableCount} personnage${playableCount > 1 ? "s" : ""} disponible${playableCount > 1 ? "s" : ""}`,
               )
             : stripAccents("Aucun personnage disponible avec cette sélection.")}
-        </p>
-      ) : (
-        <p className="text-center text-sm text-gray-500">
-          {stripAccents("Coche au moins un élément ou choisis « tout vu ».")}
         </p>
       )}
 
@@ -479,7 +519,7 @@ export function SetupProgressForm({ universeId }: SetupProgressFormProps) {
         className="w-full"
         disabled={!canSubmit}
       >
-        {stripAccents("Jouer")}
+        {stripAccents(alreadyConfigured ? "Enregistrer et rejouer" : "Jouer")}
       </Button>
     </form>
   );

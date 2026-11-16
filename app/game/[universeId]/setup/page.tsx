@@ -1,6 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 import { getUniverses, getUniverseData } from "@/lib/universes-data";
-import { universeHasSpoilerProgress } from "@/lib/spoiler-progress";
+import { universeNeedsSetup } from "@/lib/spoiler-progress";
 import { SetupPageClient } from "./SetupPageClient";
 
 export function generateStaticParams() {
@@ -15,7 +15,7 @@ export default async function SetupPage({
   const { universeId } = await params;
   const universeData = getUniverseData(universeId);
   if (!universeData) notFound();
-  if (!universeHasSpoilerProgress(universeData)) {
+  if (!universeNeedsSetup(universeData)) {
     redirect(`/game/${universeId}`);
   }
   return <SetupPageClient universeId={universeId} universeData={universeData} />;
