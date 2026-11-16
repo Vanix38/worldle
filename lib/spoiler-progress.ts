@@ -88,6 +88,13 @@ export function universeHasSpoilerProgress(universeData: UniverseData): boolean 
   return getProgressFieldConfig(universeData) !== null;
 }
 
+/** True when the universe has a setup screen (progress and/or difficulty). */
+export function universeNeedsSetup(universeData: UniverseData): boolean {
+  return (
+    getProgressFieldConfig(universeData) !== null || getDifficultyConfig(universeData) !== null
+  );
+}
+
 /** Difficulty field (Comparaison + order), independent from spoiler progress. */
 export function getDifficultyConfig(universeData: UniverseData): DifficultyConfig | null {
   const entry = universeData.fieldMapping?.[DIFFICULTY_FIELD_KEY];

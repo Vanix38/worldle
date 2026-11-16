@@ -247,10 +247,16 @@ async function main() {
 
   data.fieldMapping.firstAppearance = {
     header: "1ʳᵉ apparition",
-    fonction: "Classique",
+    fonction: "Comparaison",
     columnWidth: "medium",
+    order: [
+      "Edgerunners Saison 1",
+      "Jeu vidéo",
+      "Phantom Liberty",
+      "Edgerunners Saison 2",
+    ],
     description:
-      "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première.",
+      "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première. Sert aussi au filtre « déjà vu ».",
   };
   delete data.fieldMapping.source;
   data.fieldPrevalence.firstAppearance = 1;
