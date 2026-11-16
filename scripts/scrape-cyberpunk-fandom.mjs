@@ -323,9 +323,13 @@ function joinMulti(values) {
   return [...new Set(values.map((v) => v.trim()).filter(Boolean))].join(", ");
 }
 
+function isVariableGender(raw) {
+  return /\bdepend(?:ent|ant)\b/i.test(String(raw || ""));
+}
+
 function normalizeGender(raw) {
   const t = cleanWikiText(raw).toLowerCase();
-  if (!t || t.includes("dependent")) return "";
+  if (!t || t.includes("dependent") || t.includes("dependant")) return "";
   if (/\bfemale\b|\bfemme\b|\bféminin/.test(t)) return "Femme";
   if (/\bmale\b|\bhomme\b|\bmasculin/.test(t)) return "Homme";
   return "";
@@ -495,7 +499,11 @@ function buildCharacter(pageTitle, params, categoryTags) {
   if (!hasPlayableAppearance(params)) return null;
 
   const name = extractDisplayName(params, pageTitle);
-  const gender = normalizeGender(params.gender || "");
+  const genderRaw = params.gender || "";
+  const gender = normalizeGender(genderRaw);
+  // Keep only Homme/Femme, or Dependent (V, etc.). Drop missing/unknown gender.
+  if (!gender && !isVariableGender(genderRaw)) return null;
+
   const status = normalizeStatus(params.status || "");
   const role = joinMulti(splitMulti(params.role || ""));
   const occupation = joinMulti(splitMulti(params.occupation || ""));

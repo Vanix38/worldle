@@ -57,31 +57,18 @@
     }
   },
   "fieldPrevalence": {
-    "gender": 0.981,
-    "status": 0.562,
-    "role": 0.573,
-    "occupation": 0.434,
-    "affiliation": 0.681,
-    "home": 0.629,
+    "gender": 0.996,
+    "status": 0.563,
+    "role": 0.575,
+    "occupation": 0.435,
+    "affiliation": 0.682,
+    "home": 0.633,
     "source": 1.0,
-    "aliases": 0.23,
-    "hint1": 0.431
+    "aliases": 0.233,
+    "hint1": 0.433
   },
   "hintInterval": 5,
   "characters": [
-    {
-      "id": "1r-0nc-lad",
-      "name": "1R-0NC-LAD",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "BARGHEST",
-      "home": "Dogtown, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
     {
       "id": "aaron-mccarlson",
       "name": "Aaron McCarlson",
@@ -575,19 +562,6 @@
       "hint1": ""
     },
     {
-      "id": "arnold-haponik",
-      "name": "Arnold Haponik",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "Raffen Shiv",
-      "occupation": "",
-      "affiliation": "Wraiths",
-      "home": "Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "arthur-cormac",
       "name": "Arthur Cormac",
       "aliases": [],
@@ -612,19 +586,6 @@
       "home": "Night City",
       "source": "Cyberpunk 2077",
       "hint1": "Alec Newman"
-    },
-    {
-      "id": "ash",
-      "name": "Ash",
-      "aliases": [],
-      "gender": "",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Radio DJ",
-      "affiliation": "The Mox",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Sasha Grey"
     },
     {
       "id": "asher-peterson",
@@ -729,19 +690,6 @@
       "occupation": "Gang lieutenant",
       "affiliation": "Voodoo Boys",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "b-d",
-      "name": "b@d",
-      "aliases": [],
-      "gender": "",
-      "status": "Vivant",
-      "role": "Netrunner",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -1302,19 +1250,6 @@
       "hint1": ""
     },
     {
-      "id": "chase-coley",
-      "name": "Chase Coley",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "Cyberpsycho",
-      "occupation": "Construction Worker",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "cheri-nowlin",
       "name": "Cheri Nowlin",
       "aliases": [],
@@ -1855,19 +1790,6 @@
       "home": "Coronado Dam, Rancho Coronado",
       "source": "Cyberpunk 2077",
       "hint1": ""
-    },
-    {
-      "id": "dr-paradox",
-      "name": "Dr. Paradox",
-      "aliases": [],
-      "gender": "",
-      "status": "Vivant",
-      "role": "Media",
-      "occupation": "Writer, editor, publisher",
-      "affiliation": "Dr. Paradox's Mysteries",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Mark Holden (2077)"
     },
     {
       "id": "driss-meriana",
@@ -5096,19 +5018,6 @@
       "hint1": ""
     },
     {
-      "id": "paul-craven",
-      "name": "Paul Craven",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "Wraiths",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "pedro-aimar",
       "name": "Pedro Aimar",
       "aliases": [],
@@ -5217,19 +5126,6 @@
       "home": "Night City",
       "source": "Edgerunners",
       "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)"
-    },
-    {
-      "id": "punchin-bag",
-      "name": "Punchin' Bag",
-      "aliases": [],
-      "gender": "",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Little China, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "purple-force",
