@@ -34,11 +34,11 @@
       "fonction": "Multivalue",
       "description": "Quartier / ville de rattachement (champ Home de l’infobox)."
     },
-    "source": {
-      "header": "Apparition",
+    "firstAppearance": {
+      "header": "1ʳᵉ apparition",
       "fonction": "Classique",
       "columnWidth": "medium",
-      "description": "Cyberpunk 2077, Edgerunners, ou les deux (d’après appears_games / appears_other)."
+      "description": "Chronologie : Edgerunners Saison 1 (avant le jeu) → Jeu vidéo → Edgerunners Saison 2 (après le jeu). Une seule valeur : la première."
     },
     "aliases": {
       "header": "Alias",
@@ -63,7 +63,7 @@
     "occupation": 0.435,
     "affiliation": 0.682,
     "home": 0.633,
-    "source": 1,
+    "firstAppearance": 1,
     "aliases": 0.233,
     "hint1": 0.433
   },
@@ -79,7 +79,7 @@
       "occupation": "",
       "affiliation": "NCPD, Regina Jones",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick"
     },
     {
@@ -92,7 +92,7 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -108,7 +108,7 @@
       "occupation": "Gangster, Mercenary",
       "affiliation": "United States Armed Forces, Arasaka",
       "home": "The Bronx, NYC, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Alec Newman"
     },
     {
@@ -121,7 +121,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Hiromi Dames"
     },
     {
@@ -134,7 +134,7 @@
       "occupation": "Mercenary",
       "affiliation": "Cuban cartels",
       "home": "Havana, Cuba",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)"
     },
     {
@@ -147,7 +147,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -160,7 +160,7 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -173,7 +173,7 @@
       "occupation": "",
       "affiliation": "NetWatch",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -186,7 +186,7 @@
       "occupation": "BARGHEST soldier",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -199,7 +199,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Santo Domingo, Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Tomomichi Nishimura (Japanese)"
     },
     {
@@ -214,7 +214,7 @@
       "occupation": "",
       "affiliation": "Biotechnica",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -232,7 +232,7 @@
       "occupation": "Braindance",
       "affiliation": "FIA, NUSA",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Yvonne Senat Jones"
     },
     {
@@ -247,7 +247,7 @@
       "occupation": "",
       "affiliation": "ITS",
       "home": "Night City, DataKrash, Cyberspace",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alix Wilton Regan"
     },
     {
@@ -260,7 +260,7 @@
       "occupation": "BIA Agent",
       "affiliation": "Brazilian Intelligence Agency",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -273,7 +273,7 @@
       "occupation": "Ghost Town",
       "affiliation": "Arasaka, Kang Tao",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman"
     },
     {
@@ -286,7 +286,7 @@
       "occupation": "Soldier () Sheriff",
       "affiliation": "Southern California",
       "home": "Yucca, Los Padres County",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Nigel Whitmey"
     },
     {
@@ -299,7 +299,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -312,7 +312,7 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi"
     },
     {
@@ -327,7 +327,7 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -342,7 +342,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -355,7 +355,7 @@
       "occupation": "Patrol Officer ()",
       "affiliation": "NCPD, Aldecaldos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alison Halstead"
     },
     {
@@ -370,7 +370,7 @@
       "occupation": "",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Anna Rust"
     },
     {
@@ -383,7 +383,7 @@
       "occupation": "Chief Surgeon",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -396,7 +396,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe"
     },
     {
@@ -413,7 +413,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Edgewood Farm, Rocky Ridge Plains",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -426,7 +426,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -439,7 +439,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "James Goode"
     },
     {
@@ -452,7 +452,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -465,7 +465,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -478,7 +478,7 @@
       "occupation": "Senior member of Arasaka Counterintelligence Division",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman"
     },
     {
@@ -491,7 +491,7 @@
       "occupation": "Melee specialist",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -504,7 +504,7 @@
       "occupation": "Security Contractor",
       "affiliation": "Charon Exotics",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -517,7 +517,7 @@
       "occupation": "",
       "affiliation": "The Collective, Militech, EuroBank",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Leonie Schliesing"
     },
     {
@@ -530,7 +530,7 @@
       "occupation": "Corporate insider () Jazz singer, saxophonist ()",
       "affiliation": "Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)"
     },
     {
@@ -545,7 +545,7 @@
       "occupation": "Private investigator",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -558,7 +558,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -571,7 +571,7 @@
       "occupation": "",
       "affiliation": "The Collective, Militech, Petrochem",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "André Refig"
     },
     {
@@ -584,7 +584,7 @@
       "occupation": "Gang lieutenant",
       "affiliation": "Voodoo Boys",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -597,7 +597,7 @@
       "occupation": "Cyber Security ()",
       "affiliation": "Arasaka, Mr. Hands",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -612,7 +612,7 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -625,7 +625,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -638,7 +638,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -651,7 +651,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -666,7 +666,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -681,7 +681,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -697,7 +697,7 @@
       "occupation": "",
       "affiliation": "Network News 54, Samurai",
       "home": "Night City, USA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler"
     },
     {
@@ -710,7 +710,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -723,7 +723,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "James Goode"
     },
     {
@@ -736,7 +736,7 @@
       "occupation": "Scopdog Vendor NCPD Officer",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -749,7 +749,7 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -764,7 +764,7 @@
       "occupation": "Japanese idol",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Hiromi Dames"
     },
     {
@@ -779,7 +779,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ako Mitchell"
     },
     {
@@ -792,7 +792,7 @@
       "occupation": "Sniper",
       "affiliation": "SovOil, Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -805,7 +805,7 @@
       "occupation": "Lieutenant",
       "affiliation": "6th Street",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "James Goode"
     },
     {
@@ -818,7 +818,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -831,7 +831,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -844,7 +844,7 @@
       "occupation": "Independent media Militech media ()",
       "affiliation": "Militech",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -857,7 +857,7 @@
       "occupation": "",
       "affiliation": "SoftSys",
       "home": "Megabuilding H8, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Bryan Dechart"
     },
     {
@@ -870,7 +870,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Longshore Stacks, Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -883,7 +883,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery"
     },
     {
@@ -896,7 +896,7 @@
       "occupation": "",
       "affiliation": "Wraiths",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -909,7 +909,7 @@
       "occupation": "Smuggler ()",
       "affiliation": "Aldecaldos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -922,7 +922,7 @@
       "occupation": "",
       "affiliation": "NetWatch",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Shane Taylor"
     },
     {
@@ -935,7 +935,7 @@
       "occupation": "Televangelist for N54",
       "affiliation": "Network 54",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -948,7 +948,7 @@
       "occupation": "",
       "affiliation": "United States Armed Forces, 6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -964,7 +964,7 @@
       "occupation": "",
       "affiliation": "Arasaka, Kyoko, Talia Yang, D",
       "home": "",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)"
     },
     {
@@ -979,7 +979,7 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -992,7 +992,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1005,7 +1005,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Fryda Wolff"
     },
     {
@@ -1018,7 +1018,7 @@
       "occupation": "Jenkins, Corpo, V",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May"
     },
     {
@@ -1034,7 +1034,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Mikey O'Connor"
     },
     {
@@ -1047,7 +1047,7 @@
       "occupation": "Ripperdoc",
       "affiliation": "Doc Ryder",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Stefan Ashton Frank"
     },
     {
@@ -1060,7 +1060,7 @@
       "occupation": "",
       "affiliation": "Red Ocher",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1073,7 +1073,7 @@
       "occupation": "",
       "affiliation": "Wakako Okada",
       "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Josh Han"
     },
     {
@@ -1086,7 +1086,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1099,7 +1099,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kabuki, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe"
     },
     {
@@ -1114,7 +1114,7 @@
       "occupation": "Jago's bodyguard",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1127,7 +1127,7 @@
       "occupation": "Receptionist",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1140,7 +1140,7 @@
       "occupation": "Run This Town",
       "affiliation": "BARGHEST, Militech, New United States Armed Forces, Arasaka",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph Capp"
     },
     {
@@ -1153,7 +1153,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1166,7 +1166,7 @@
       "occupation": "Engineer Mechanic Bartender",
       "affiliation": "Militech, Afterlife",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Maddie Taylor"
     },
     {
@@ -1179,7 +1179,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1192,7 +1192,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Little China, Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ako Mitchell"
     },
     {
@@ -1205,7 +1205,7 @@
       "occupation": "Reverend Televangelist President of the Church of Eliyahu the Last Emancipator",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Michael Gregory"
     },
     {
@@ -1220,7 +1220,7 @@
       "occupation": "",
       "affiliation": "Afterlife Mercs",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Mark Ebulué"
     },
     {
@@ -1233,7 +1233,7 @@
       "occupation": "",
       "affiliation": "Orbital Air",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery"
     },
     {
@@ -1246,7 +1246,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Nicolas Roye"
     },
     {
@@ -1261,7 +1261,7 @@
       "occupation": "",
       "affiliation": "Pomo, Aldecaldos",
       "home": "DaKota, Badlands",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Sabra May"
     },
     {
@@ -1274,7 +1274,7 @@
       "occupation": "Heavy Weapons Specialist",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1287,7 +1287,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1300,7 +1300,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1313,7 +1313,7 @@
       "occupation": "Special Agent",
       "affiliation": "Militech",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)"
     },
     {
@@ -1326,7 +1326,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1339,7 +1339,7 @@
       "occupation": "Ripperdoc",
       "affiliation": "Doc Ryder",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1352,7 +1352,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1365,7 +1365,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Josh Han"
     },
     {
@@ -1380,7 +1380,7 @@
       "occupation": "",
       "affiliation": "nomad, Snake Nation",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)"
     },
     {
@@ -1397,7 +1397,7 @@
       "occupation": "Arasaka Academy, Mercenary",
       "affiliation": "Arasaka, Maine",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)"
     },
     {
@@ -1410,7 +1410,7 @@
       "occupation": "Clothing Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1425,7 +1425,7 @@
       "occupation": "Gang Boss",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "John Schwab"
     },
     {
@@ -1442,7 +1442,7 @@
       "occupation": "CEO, taxi driver",
       "affiliation": "Delamain Corp",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)"
     },
     {
@@ -1455,7 +1455,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Michael-Leon Wooley"
     },
     {
@@ -1468,7 +1468,7 @@
       "occupation": "Drummer",
       "affiliation": "Samurai",
       "home": "Denny's Mansion, North Oak",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Victoire Charles"
     },
     {
@@ -1484,7 +1484,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Michael-Leon Wooley"
     },
     {
@@ -1497,7 +1497,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1510,7 +1510,7 @@
       "occupation": "Bartender",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1523,7 +1523,7 @@
       "occupation": "Bassist Bar Owner",
       "affiliation": "Gloryhole Bandits",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman"
     },
     {
@@ -1536,7 +1536,7 @@
       "occupation": "Ripperdoc",
       "affiliation": "",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)"
     },
     {
@@ -1549,7 +1549,7 @@
       "occupation": "Mercenary",
       "affiliation": "Maine's crew",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)"
     },
     {
@@ -1562,7 +1562,7 @@
       "occupation": "Glamdoc",
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1577,7 +1577,7 @@
       "occupation": "Panzerboy",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Noshir Dalal"
     },
     {
@@ -1590,7 +1590,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1603,7 +1603,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi"
     },
     {
@@ -1616,7 +1616,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1631,7 +1631,7 @@
       "occupation": "",
       "affiliation": "Fourth Wall Studios",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1646,7 +1646,7 @@
       "occupation": "Stripper () Brothel owner",
       "affiliation": "Delphi X, Strip club",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -1661,7 +1661,7 @@
       "occupation": "",
       "affiliation": "Federalist Party",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler"
     },
     {
@@ -1676,7 +1676,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1689,7 +1689,7 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)"
     },
     {
@@ -1704,7 +1704,7 @@
       "occupation": "Bouncer",
       "affiliation": "Afterlife Mercs, Animals",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "John Schwab"
     },
     {
@@ -1717,7 +1717,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1730,7 +1730,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1743,7 +1743,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1756,7 +1756,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1769,7 +1769,7 @@
       "occupation": "Councilmember",
       "affiliation": "Night City Council",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1786,7 +1786,7 @@
       "occupation": "Doll",
       "affiliation": "Clouds, The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kari Wahlgren"
     },
     {
@@ -1799,7 +1799,7 @@
       "occupation": "Mercenary",
       "affiliation": "Maine, David",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)"
     },
     {
@@ -1812,7 +1812,7 @@
       "occupation": "Broker",
       "affiliation": "Militech, Arasaka",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)"
     },
     {
@@ -1825,7 +1825,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Golden Pacific, Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Shala Nyx"
     },
     {
@@ -1841,7 +1841,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alex Ivanovici"
     },
     {
@@ -1854,7 +1854,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1867,7 +1867,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1880,7 +1880,7 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Biotechnica Flats, Badlands",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1893,7 +1893,7 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1906,7 +1906,7 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1919,7 +1919,7 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Northside, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1935,7 +1935,7 @@
       "occupation": "Junk Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1948,7 +1948,7 @@
       "occupation": "Special Operations agent",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Sean Power"
     },
     {
@@ -1961,7 +1961,7 @@
       "occupation": "Braindance",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe"
     },
     {
@@ -1974,7 +1974,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -1987,7 +1987,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2000,7 +2000,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2013,7 +2013,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2026,7 +2026,7 @@
       "occupation": "District Attorney",
       "affiliation": "Night City",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Christy Meyer"
     },
     {
@@ -2041,7 +2041,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Urmland Street, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ben \"CohhCarnage\" Cassell"
     },
     {
@@ -2054,7 +2054,7 @@
       "occupation": "News reporter, presenter",
       "affiliation": "N54 News",
       "home": "",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2067,7 +2067,7 @@
       "occupation": "EMT Black market cyberware vendor",
       "affiliation": "REO Meatwagon",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)"
     },
     {
@@ -2080,7 +2080,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2093,7 +2093,7 @@
       "occupation": "Bodyguard ()",
       "affiliation": "Arasaka",
       "home": "Kanto",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Rome Kanda"
     },
     {
@@ -2106,7 +2106,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2119,7 +2119,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2135,7 +2135,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2151,7 +2151,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Krizia Bajos"
     },
     {
@@ -2164,7 +2164,7 @@
       "occupation": "gangster",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Christian Lanz"
     },
     {
@@ -2177,7 +2177,7 @@
       "occupation": "Defense Solutions Representative",
       "affiliation": "Arasaka Corporation",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando"
     },
     {
@@ -2190,7 +2190,7 @@
       "occupation": "",
       "affiliation": "WNS",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Nicolas Roye"
     },
     {
@@ -2203,7 +2203,7 @@
       "occupation": "",
       "affiliation": "Hatashi Shipping Company, Arasaka, Kiji",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alpha Takahashi (English)"
     },
     {
@@ -2216,7 +2216,7 @@
       "occupation": "",
       "affiliation": "King's Crew",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)"
     },
     {
@@ -2229,7 +2229,7 @@
       "occupation": "",
       "affiliation": "Kang Tao",
       "home": "",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)"
     },
     {
@@ -2242,7 +2242,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Matthew Yang King"
     },
     {
@@ -2255,7 +2255,7 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Michael-Leon Wooley"
     },
     {
@@ -2270,7 +2270,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2283,7 +2283,7 @@
       "occupation": "",
       "affiliation": "Zetatech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Atilla Akinci"
     },
     {
@@ -2296,7 +2296,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)"
     },
     {
@@ -2309,7 +2309,7 @@
       "occupation": "Bassist",
       "affiliation": "Samurai, Blazetech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick"
     },
     {
@@ -2322,7 +2322,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2335,7 +2335,7 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2348,7 +2348,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2361,7 +2361,7 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "Tokyo, Japan",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Hideo Kojima"
     },
     {
@@ -2374,7 +2374,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2389,7 +2389,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Um Sang-hyun"
     },
     {
@@ -2402,7 +2402,7 @@
       "occupation": "",
       "affiliation": "Herold Lowe",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2415,7 +2415,7 @@
       "occupation": "",
       "affiliation": "Dakota Smith, Wraiths",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2428,7 +2428,7 @@
       "occupation": "Glamdoc",
       "affiliation": "",
       "home": "Kabuki",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2441,7 +2441,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2459,7 +2459,7 @@
       "occupation": "Mercenary",
       "affiliation": "Valentinos, Afterlife Mercs",
       "home": "Heywood",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Jason Hightower"
     },
     {
@@ -2472,7 +2472,7 @@
       "occupation": "Human Trafficker",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2485,7 +2485,7 @@
       "occupation": "BARGHEST's Chief Accountant Dogtown leader",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2498,7 +2498,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2511,7 +2511,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2524,7 +2524,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2537,7 +2537,7 @@
       "occupation": "NUSA Lieutenant Colonel",
       "affiliation": "NUSA Armed Forces",
       "home": "",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -2550,7 +2550,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2563,7 +2563,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Militech",
       "home": "Badlands",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Dar Dash"
     },
     {
@@ -2576,7 +2576,7 @@
       "occupation": "Netrunner",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2589,7 +2589,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Pacifica",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2602,7 +2602,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2615,7 +2615,7 @@
       "occupation": "Mayor of Night City",
       "affiliation": "Asukaga & Finch, Cyberpunk 2077 Netsites, Night City Council, Federalist Party, Mayor's Office",
       "home": "Westbrook, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May"
     },
     {
@@ -2628,7 +2628,7 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Stephen Oyoung"
     },
     {
@@ -2641,7 +2641,7 @@
       "occupation": "Dataterm",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2656,7 +2656,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Jesse Louis Cox"
     },
     {
@@ -2669,7 +2669,7 @@
       "occupation": "Braindance",
       "affiliation": "Sal Bigelow's Braindance Paradise",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)"
     },
     {
@@ -2682,7 +2682,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2697,7 +2697,7 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)"
     },
     {
@@ -2710,7 +2710,7 @@
       "occupation": "Regional Director Genetics engineer",
       "affiliation": "Biotechnica",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2723,7 +2723,7 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2736,7 +2736,7 @@
       "occupation": "Ex-soldier Musician",
       "affiliation": "U.S. Army, Samurai, Silverhand Studios",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)"
     },
     {
@@ -2749,7 +2749,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2762,7 +2762,7 @@
       "occupation": "Braindancer",
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers"
     },
     {
@@ -2775,7 +2775,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos",
       "home": "Josie Alcazar's House, Rancho Coronado, Santo Domingo",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2788,7 +2788,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kutcher's home, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Tonantzin Carmelo"
     },
     {
@@ -2801,7 +2801,7 @@
       "occupation": "Ganger",
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Bernardo De Paula"
     },
     {
@@ -2816,7 +2816,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando"
     },
     {
@@ -2829,7 +2829,7 @@
       "occupation": "Vendor",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Carla Tassara"
     },
     {
@@ -2842,7 +2842,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2857,7 +2857,7 @@
       "occupation": "Mechanic",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Al Rodrigo"
     },
     {
@@ -2870,7 +2870,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2886,7 +2886,7 @@
       "occupation": "Braindance",
       "affiliation": "Clouds, Moxes, Epilogues",
       "home": "Watson, Night City, Pittsburgh, Pennsylvania, Arizona",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Carla Tassara"
     },
     {
@@ -2901,7 +2901,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Horrigan Family Home",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2914,7 +2914,7 @@
       "occupation": "Mercenary",
       "affiliation": "David",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)"
     },
     {
@@ -2927,7 +2927,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2940,7 +2940,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -2953,7 +2953,7 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kotaro Watanabe"
     },
     {
@@ -2966,7 +2966,7 @@
       "occupation": "Clothing Vendor",
       "affiliation": "",
       "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Nigel Whitmey"
     },
     {
@@ -2979,7 +2979,7 @@
       "occupation": "TV Show Host",
       "affiliation": "N54 News",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria"
     },
     {
@@ -2992,7 +2992,7 @@
       "occupation": "Jacked and Coke",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3005,7 +3005,7 @@
       "occupation": "Associate Physical Security Specialist",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)"
     },
     {
@@ -3018,7 +3018,7 @@
       "occupation": "Arasaka Academy",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)"
     },
     {
@@ -3031,7 +3031,7 @@
       "occupation": "Spy",
       "affiliation": "SovOil",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Avital Lvova"
     },
     {
@@ -3044,7 +3044,7 @@
       "occupation": "Food Vendor",
       "affiliation": "Tyger Claws",
       "home": "Little China, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando"
     },
     {
@@ -3057,7 +3057,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3072,7 +3072,7 @@
       "occupation": "Musician",
       "affiliation": "Samurai, MSM Records",
       "home": "Westbrook, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Matthew Yang King Damian Ukeje (vocalist)"
     },
     {
@@ -3087,7 +3087,7 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3100,7 +3100,7 @@
       "occupation": "",
       "affiliation": "Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)"
     },
     {
@@ -3113,7 +3113,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Pacifica, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Derek Hagen"
     },
     {
@@ -3126,7 +3126,7 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)"
     },
     {
@@ -3139,7 +3139,7 @@
       "occupation": "Joytoy, Mercenary",
       "affiliation": "Maine, David, Faraday",
       "home": "Watson, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)"
     },
     {
@@ -3152,7 +3152,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3165,7 +3165,7 @@
       "occupation": "BARGHEST leader Militech Colonel ()",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Eliah Mountjoy"
     },
     {
@@ -3178,7 +3178,7 @@
       "occupation": "Courier",
       "affiliation": "BARGHEST",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3191,7 +3191,7 @@
       "occupation": "",
       "affiliation": "Arasaka, Kang Tao",
       "home": "",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)"
     },
     {
@@ -3204,7 +3204,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3217,7 +3217,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3230,7 +3230,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Leah Gladen's Apartment",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3243,7 +3243,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3256,7 +3256,7 @@
       "occupation": "",
       "affiliation": "BARGHEST, New United States Armed Forces, Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3269,7 +3269,7 @@
       "occupation": "Mercenary",
       "affiliation": "Cyber6",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3284,7 +3284,7 @@
       "occupation": "Braindance",
       "affiliation": "Fourth Wall Studios",
       "home": "Longshore Stacks, Dogtown, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Aliona Baranova"
     },
     {
@@ -3297,7 +3297,7 @@
       "occupation": "Research specialist",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3312,7 +3312,7 @@
       "occupation": "BD",
       "affiliation": "",
       "home": "North Oak, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Grimes"
     },
     {
@@ -3325,7 +3325,7 @@
       "occupation": "Heavyweight Boxer",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3338,7 +3338,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May"
     },
     {
@@ -3351,7 +3351,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3364,7 +3364,7 @@
       "occupation": "City Manager, Mayor of Night City",
       "affiliation": "Night City Council, Devolutionist Party, Mayor's Office",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Paul Jerome"
     },
     {
@@ -3377,7 +3377,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3392,7 +3392,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria"
     },
     {
@@ -3408,7 +3408,7 @@
       "occupation": "Mercenary",
       "affiliation": "Arasaka, Maine",
       "home": "Westbrook, NC",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)"
     },
     {
@@ -3421,7 +3421,7 @@
       "occupation": "War correspondent () Investigative reporter",
       "affiliation": "World News Service",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May"
     },
     {
@@ -3434,7 +3434,7 @@
       "occupation": "Biological engineer ()",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3447,7 +3447,7 @@
       "occupation": "Clouds' official manager Clouds' unofficial manager (former)",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Arina Ii"
     },
     {
@@ -3460,7 +3460,7 @@
       "occupation": "Mercenary",
       "affiliation": "NUSA SpecOps",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)"
     },
     {
@@ -3475,7 +3475,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Victoire Charles"
     },
     {
@@ -3488,7 +3488,7 @@
       "occupation": "Junk Vendor",
       "affiliation": "Good Old Dogtown",
       "home": "Dogtown, Pacifica (2077)",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3501,7 +3501,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi"
     },
     {
@@ -3514,7 +3514,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3529,7 +3529,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3542,7 +3542,7 @@
       "occupation": "",
       "affiliation": "Civilian",
       "home": "Fuel Station, Biotechnica Flats, Badlands",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3555,7 +3555,7 @@
       "occupation": "Bartender",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Antonio Alvarez"
     },
     {
@@ -3570,7 +3570,7 @@
       "occupation": "Pack leader",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Krizia Bajos"
     },
     {
@@ -3583,7 +3583,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3596,7 +3596,7 @@
       "occupation": "",
       "affiliation": "WNS, NC Inquirer, Regina Jones",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman"
     },
     {
@@ -3609,7 +3609,7 @@
       "occupation": "Driver, bodyguard",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Takanori Hoshino (Japanese)"
     },
     {
@@ -3624,7 +3624,7 @@
       "occupation": "Radio host DJ",
       "affiliation": "Morro Rock Radio",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Mike Pondsmith"
     },
     {
@@ -3639,7 +3639,7 @@
       "occupation": "Mayor of Night City ()",
       "affiliation": "Mayor's Office",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3652,7 +3652,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "Northside, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick"
     },
     {
@@ -3665,7 +3665,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "Little China, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3678,7 +3678,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "Northside, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3691,7 +3691,7 @@
       "occupation": "MaxTac lieutenant",
       "affiliation": "NCPD, MaxTac",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler"
     },
     {
@@ -3706,7 +3706,7 @@
       "occupation": "Ex-soldier Bartender",
       "affiliation": "22nd SAS Regt., Forlorn Hope",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3719,7 +3719,7 @@
       "occupation": "Senior Operations Manager Government Relations Executive",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Erica Lindbeck"
     },
     {
@@ -3732,7 +3732,7 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)"
     },
     {
@@ -3745,7 +3745,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3758,7 +3758,7 @@
       "occupation": "",
       "affiliation": "Wraiths",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3771,7 +3771,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Dogtown, Pacifica (2077)",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3784,7 +3784,7 @@
       "occupation": "Corporate CEO Arasaka board member",
       "affiliation": "Danger Gal, Arasaka, Hato",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler"
     },
     {
@@ -3799,7 +3799,7 @@
       "occupation": "Driver Mechanic",
       "affiliation": "Muamar Reyes, AUTOFIXER",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3814,7 +3814,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3830,7 +3830,7 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)"
     },
     {
@@ -3843,7 +3843,7 @@
       "occupation": "Mechanic",
       "affiliation": "",
       "home": "Yucca, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -3858,7 +3858,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi"
     },
     {
@@ -3871,7 +3871,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3886,7 +3886,7 @@
       "occupation": "",
       "affiliation": "Soviet Union",
       "home": "Soviet Union",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3899,7 +3899,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3912,7 +3912,7 @@
       "occupation": "Ripperdoc",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Mark Holden"
     },
     {
@@ -3925,7 +3925,7 @@
       "occupation": "",
       "affiliation": "Night Corp",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3938,7 +3938,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Erica Lindbeck"
     },
     {
@@ -3951,7 +3951,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Martin McDougall"
     },
     {
@@ -3966,7 +3966,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3979,7 +3979,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -3994,7 +3994,7 @@
       "occupation": "",
       "affiliation": "Undisclosed",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Martin McDougall"
     },
     {
@@ -4007,7 +4007,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4020,7 +4020,7 @@
       "occupation": "Musician",
       "affiliation": "",
       "home": "Crystal Palace, Mr. Kipper: A Universal Message",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4037,7 +4037,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman"
     },
     {
@@ -4050,7 +4050,7 @@
       "occupation": "Bodyguard",
       "affiliation": "Mikhail Akulov, KGB",
       "home": "Soviet Union",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4063,7 +4063,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4076,7 +4076,7 @@
       "occupation": "",
       "affiliation": "Wraiths",
       "home": "Badlands",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4089,7 +4089,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4102,7 +4102,7 @@
       "occupation": "",
       "affiliation": "Crimson Harvest",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4115,7 +4115,7 @@
       "occupation": "Pet",
       "affiliation": "V, Rogue Amendiares",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4128,7 +4128,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "Dogtown, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Devora Wilde"
     },
     {
@@ -4141,7 +4141,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Nina Kraviz"
     },
     {
@@ -4154,7 +4154,7 @@
       "occupation": "",
       "affiliation": "Afterlife Mercs, Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ako Mitchell"
     },
     {
@@ -4167,7 +4167,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Marc Pickering"
     },
     {
@@ -4180,7 +4180,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4195,7 +4195,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4208,7 +4208,7 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4221,7 +4221,7 @@
       "occupation": "Priest",
       "affiliation": "Haven Clinic",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4237,7 +4237,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4250,7 +4250,7 @@
       "occupation": "",
       "affiliation": "Dexter DeShawn",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4263,7 +4263,7 @@
       "occupation": "Barber",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)"
     },
     {
@@ -4276,7 +4276,7 @@
       "occupation": "",
       "affiliation": "Snake Nation",
       "home": "",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)"
     },
     {
@@ -4291,7 +4291,7 @@
       "occupation": "",
       "affiliation": "Clouds, Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Joe Corrigall"
     },
     {
@@ -4304,7 +4304,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4317,7 +4317,7 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)"
     },
     {
@@ -4330,7 +4330,7 @@
       "occupation": "Recruit",
       "affiliation": "BARGHEST, Scavengers",
       "home": "Dogtown, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Adan Rocha"
     },
     {
@@ -4345,7 +4345,7 @@
       "occupation": "Mercenary",
       "affiliation": "Aldecaldos, Bright Family, Afterlife Mercs",
       "home": "Badlands, NUSA, Arizona",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Emily Woo Zeller"
     },
     {
@@ -4360,7 +4360,7 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -4373,7 +4373,7 @@
       "occupation": "Coder",
       "affiliation": "Zetatech",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Bernardo De Paula"
     },
     {
@@ -4386,7 +4386,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers"
     },
     {
@@ -4401,7 +4401,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4414,7 +4414,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4429,7 +4429,7 @@
       "occupation": "Ship captain () Gang leader",
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4444,7 +4444,7 @@
       "occupation": "Mercenary",
       "affiliation": "Maine",
       "home": "Watson, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)"
     },
     {
@@ -4457,7 +4457,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Lovensky Jean-Baptiste"
     },
     {
@@ -4470,7 +4470,7 @@
       "occupation": "Academy principal",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)"
     },
     {
@@ -4483,7 +4483,7 @@
       "occupation": "",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Stephanie Sheh"
     },
     {
@@ -4496,7 +4496,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4509,7 +4509,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4522,7 +4522,7 @@
       "occupation": "",
       "affiliation": "Militech, CCI Development",
       "home": "The Net",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4535,7 +4535,7 @@
       "occupation": "Braindance",
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Rebecca Yeo"
     },
     {
@@ -4550,7 +4550,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kutcher's home, Trailer Park, Red Peaks",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4563,7 +4563,7 @@
       "occupation": "Boxer",
       "affiliation": "Animals",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4576,7 +4576,7 @@
       "occupation": "Mechanic Street Racer",
       "affiliation": "Joe's Garage",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -4589,7 +4589,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4607,7 +4607,7 @@
       "occupation": "Mercenary",
       "affiliation": "Maine, David",
       "home": "Watson, Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)"
     },
     {
@@ -4622,7 +4622,7 @@
       "occupation": "",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4637,7 +4637,7 @@
       "occupation": "",
       "affiliation": "WNS, FTF Radio",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Alana Maria"
     },
     {
@@ -4650,7 +4650,7 @@
       "occupation": "Boxer",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery"
     },
     {
@@ -4663,7 +4663,7 @@
       "occupation": "",
       "affiliation": "Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)"
     },
     {
@@ -4676,7 +4676,7 @@
       "occupation": "Night City",
       "affiliation": "HFN, Night International",
       "home": "Coronado City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers"
     },
     {
@@ -4689,7 +4689,7 @@
       "occupation": "",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery"
     },
     {
@@ -4704,7 +4704,7 @@
       "occupation": "Detective Private Investigator",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Robbie Daymond"
     },
     {
@@ -4717,7 +4717,7 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Dave B. Mitchell"
     },
     {
@@ -4730,7 +4730,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kabuki",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Noshir Dalal"
     },
     {
@@ -4747,7 +4747,7 @@
       "occupation": "Mercenary",
       "affiliation": "Afterlife",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Jane Perry"
     },
     {
@@ -4760,7 +4760,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4773,7 +4773,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": ""
     },
     {
@@ -4786,7 +4786,7 @@
       "occupation": "Freelance Filmmaker",
       "affiliation": "",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)"
     },
     {
@@ -4803,7 +4803,7 @@
       "occupation": "Junk Vendor",
       "affiliation": "",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4818,7 +4818,7 @@
       "occupation": "Marine (former) Militech CEO (former) NUSA President",
       "affiliation": "USMC, Militech, Federalist Party",
       "home": "Washington, D.C., NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Kay Bess"
     },
     {
@@ -4833,7 +4833,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Horrigan Family Home",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery"
     },
     {
@@ -4846,7 +4846,7 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4861,7 +4861,7 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alison Halstead"
     },
     {
@@ -4874,7 +4874,7 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria"
     },
     {
@@ -4889,7 +4889,7 @@
       "occupation": "Joytoy",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4902,7 +4902,7 @@
       "occupation": "Military ()",
       "affiliation": "",
       "home": "Greene Homestead, Rocky Ridge, northern Badlands",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4915,7 +4915,7 @@
       "occupation": "Info Flash",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Erika Ishii"
     },
     {
@@ -4930,7 +4930,7 @@
       "occupation": "Ex-soldier Arasaka CEO",
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Masane Tsukayama"
     },
     {
@@ -4943,7 +4943,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Arasaka Orbital Station",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Cristina Valenzuela"
     },
     {
@@ -4956,7 +4956,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -4969,7 +4969,7 @@
       "occupation": "Braindance parlor",
       "affiliation": "",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)"
     },
     {
@@ -4982,7 +4982,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick"
     },
     {
@@ -4997,7 +4997,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5010,7 +5010,7 @@
       "occupation": "Netrunner Vendor",
       "affiliation": "",
       "home": "Dogtown, Pacifica",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5023,7 +5023,7 @@
       "occupation": "Bodyguard",
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Noshir Dalal"
     },
     {
@@ -5036,7 +5036,7 @@
       "occupation": "",
       "affiliation": "Night Corp",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5053,7 +5053,7 @@
       "occupation": "Mercenary",
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5066,7 +5066,7 @@
       "occupation": "Ripperdoc",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Dar Dash"
     },
     {
@@ -5079,7 +5079,7 @@
       "occupation": "Mercenary",
       "affiliation": "Maine",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -5092,7 +5092,7 @@
       "occupation": "Aldecaldos family leader",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Diarmaid Murtagh"
     },
     {
@@ -5108,7 +5108,7 @@
       "occupation": "Priest () Heywood fixer",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Al Rodrigo"
     },
     {
@@ -5123,7 +5123,7 @@
       "occupation": "Glamdoc",
       "affiliation": "",
       "home": "Downtown, City Center",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5136,7 +5136,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Gunnar Cauthery"
     },
     {
@@ -5149,7 +5149,7 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Pacific Rim, 2045",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Shai Matheson"
     },
     {
@@ -5162,7 +5162,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5175,7 +5175,7 @@
       "occupation": "Glamdoc, Joytoy",
       "affiliation": "Mox",
       "home": "Charter Hill, Westbrook",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5190,7 +5190,7 @@
       "occupation": "Gang Boss",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5203,7 +5203,7 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Emma Ballantine"
     },
     {
@@ -5216,7 +5216,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5231,7 +5231,7 @@
       "occupation": "Soldier () FIA Agent Bouncer (temporarily)",
       "affiliation": "NUSA SpecOps, FIA, NUSA, Dino Dinovic",
       "home": "Washington, D.C., Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5247,7 +5247,7 @@
       "occupation": "President Myers",
       "affiliation": "FIA, NUSA",
       "home": "Brooklyn, NYC, Washington, D.C.",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Minji Chang"
     },
     {
@@ -5260,7 +5260,7 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5273,7 +5273,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5289,7 +5289,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Erica Lindbeck"
     },
     {
@@ -5302,7 +5302,7 @@
       "occupation": "Glamdoc",
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5317,7 +5317,7 @@
       "occupation": "Radio Host",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Roger Rose"
     },
     {
@@ -5330,7 +5330,7 @@
       "occupation": "Driver",
       "affiliation": "Aldecaldos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5343,7 +5343,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5356,7 +5356,7 @@
       "occupation": "Officer",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Suzi Hunter"
     },
     {
@@ -5369,7 +5369,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "West Wind Estate, Pacifica, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Sebastián Capitán Viveros"
     },
     {
@@ -5382,7 +5382,7 @@
       "occupation": "BIA Agent",
       "affiliation": "Brazilian Intelligence Agency, Barghest",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5395,7 +5395,7 @@
       "occupation": "Director of Special Operations",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5408,7 +5408,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "Trauma Team",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5425,7 +5425,7 @@
       "occupation": "",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria"
     },
     {
@@ -5440,7 +5440,7 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Cynthia Kaye McWilliams"
     },
     {
@@ -5453,7 +5453,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5466,7 +5466,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5479,7 +5479,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5492,7 +5492,7 @@
       "occupation": "Executive () Gang member",
       "affiliation": "Maelstrom, Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)"
     },
     {
@@ -5505,7 +5505,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5518,7 +5518,7 @@
       "occupation": "Arasaka Academy",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)"
     },
     {
@@ -5531,7 +5531,7 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5544,7 +5544,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers"
     },
     {
@@ -5557,7 +5557,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Megabuilding H8, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Amelia Rose Blaire"
     },
     {
@@ -5572,7 +5572,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Shai Matheson"
     },
     {
@@ -5585,7 +5585,7 @@
       "occupation": "",
       "affiliation": "Valentino",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5598,7 +5598,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5611,7 +5611,7 @@
       "occupation": "Tom's Diner",
       "affiliation": "",
       "home": "",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": ""
     },
     {
@@ -5626,7 +5626,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5639,7 +5639,7 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Shai Matheson"
     },
     {
@@ -5652,7 +5652,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5665,7 +5665,7 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando"
     },
     {
@@ -5678,7 +5678,7 @@
       "occupation": "",
       "affiliation": "Afterlife",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5691,7 +5691,7 @@
       "occupation": "",
       "affiliation": "Aldecaldos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5704,7 +5704,7 @@
       "occupation": "",
       "affiliation": "Kiroshi Optics",
       "home": "Tucker Albach's Apartment, The Glen, Heywood",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery"
     },
     {
@@ -5717,7 +5717,7 @@
       "occupation": "",
       "affiliation": "None",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5736,7 +5736,7 @@
       "occupation": "Mercenary",
       "affiliation": "Bakkers, Nomad, Arasaka, Corpo, Afterlife Mercs, Samurai, Aldecaldos, FIA, NUSA",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)"
     },
     {
@@ -5749,7 +5749,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5762,7 +5762,7 @@
       "occupation": "Lieutenant",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5775,7 +5775,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5793,7 +5793,7 @@
       "occupation": "Ripperdoc",
       "affiliation": "Night City Devils, Zetatech",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Michael Gregory"
     },
     {
@@ -5806,7 +5806,7 @@
       "occupation": "Dealer, Operator",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5822,7 +5822,7 @@
       "occupation": "",
       "affiliation": "Petrochem",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)"
     },
     {
@@ -5837,7 +5837,7 @@
       "occupation": "Lab medtech () Broker",
       "affiliation": "Kiroshi, Tyger Claws",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Ren Hanami"
     },
     {
@@ -5850,7 +5850,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5865,7 +5865,7 @@
       "occupation": "Mercenary",
       "affiliation": "Team King ()",
       "home": "Night City",
-      "source": "Les deux",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)"
     },
     {
@@ -5880,7 +5880,7 @@
       "occupation": "Acting Mayor",
       "affiliation": "Devolutionist Party, Mayor's Office",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Dave B. Mitchell"
     },
     {
@@ -5896,7 +5896,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Borge Etienne"
     },
     {
@@ -5909,7 +5909,7 @@
       "occupation": "General of the 6th Street",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5924,7 +5924,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5937,7 +5937,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "SoCal",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe"
     },
     {
@@ -5950,7 +5950,7 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5963,7 +5963,7 @@
       "occupation": "Student",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -5976,7 +5976,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Emily Woo Zeller"
     },
     {
@@ -5989,7 +5989,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6002,7 +6002,7 @@
       "occupation": "Mercenary",
       "affiliation": "Afterlife Mercs, Red Willow",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6015,7 +6015,7 @@
       "occupation": "Netrunning Vendor",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ren Hanami"
     },
     {
@@ -6030,7 +6030,7 @@
       "occupation": "Gangster",
       "affiliation": "Steel Dragons, Arasaka, Taka, Nomads",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Hideo Kimura"
     },
     {
@@ -6043,7 +6043,7 @@
       "occupation": "",
       "affiliation": "D",
       "home": "",
-      "source": "Edgerunners",
+      "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)"
     },
     {
@@ -6056,7 +6056,7 @@
       "occupation": "BARGHEST Lieutenant",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6069,7 +6069,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6082,7 +6082,7 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Watson (2077), Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6097,7 +6097,7 @@
       "occupation": "Musician (Guitarist & Singer) Waiter",
       "affiliation": "Forlorn Hope",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6112,7 +6112,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Vic Chao"
     },
     {
@@ -6125,7 +6125,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6138,7 +6138,7 @@
       "occupation": "Talk Show Host",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ben Cura"
     },
     {
@@ -6151,7 +6151,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Badlands",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6164,7 +6164,7 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6177,7 +6177,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     },
     {
@@ -6190,7 +6190,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lara Sawalha"
     },
     {
@@ -6203,7 +6203,7 @@
       "occupation": "Glamdoc",
       "affiliation": "Voodoo Boys",
       "home": "West Wind Estate, Pacifica",
-      "source": "Cyberpunk 2077",
+      "firstAppearance": "Jeu vidéo",
       "hint1": ""
     }
   ]

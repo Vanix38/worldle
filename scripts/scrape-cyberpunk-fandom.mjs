@@ -46,7 +46,7 @@ const DISCOVER_PAGES = [
 const INFOBOX_MARKER = "{{Infobox Character";
 
 /** Toujours garder ces clés sur les persos / fieldMapping. */
-const ALWAYS_FIELD_KEYS = new Set(["aliases", "hint1", "source"]);
+const ALWAYS_FIELD_KEYS = new Set(["aliases", "hint1", "firstAppearance"]);
 
 const FIELD_MAPPING = {
   gender: {
@@ -84,11 +84,12 @@ const FIELD_MAPPING = {
     fonction: "Multivalue",
     description: "Quartier / ville de rattachement (champ Home de l’infobox).",
   },
-  source: {
-    header: "Apparition",
+  firstAppearance: {
+    header: "1ʳᵉ apparition",
     fonction: "Classique",
     columnWidth: "medium",
-    description: "Cyberpunk 2077, Edgerunners, ou les deux (d’après appears_games / appears_other).",
+    description:
+      "Chronologie : Edgerunners Saison 1 (avant le jeu) → Jeu vidéo → Edgerunners Saison 2 (après le jeu). Une seule valeur : la première.",
   },
   aliases: {
     header: "Alias",
@@ -388,28 +389,61 @@ function hasPlayableAppearance(params) {
   return false;
 }
 
-function detectSources(params, categoriesForPage) {
-  const blob = appearanceBlob(params);
-  const tokens = [...blob.matchAll(/\{\{\s*CP\s*\|\s*([^}|]+?)\s*\}\}(\s*\([^)]*\))?/gi)];
+/** S1 anime / manga tags (before the game). EDGEII* = Saison 2 (after the game). */
+function isEdgerunnersSeason1Tag(tag) {
+  const t = String(tag || "").toUpperCase();
+  if (!t) return false;
+  if (t.startsWith("EDGEII")) return false;
+  return t === "EDGE" || t === "EDGE10" || t === "CEMK" || t === "EDGEMAD" || t.startsWith("EDGE");
+}
+
+function isEdgerunnersSeason2Tag(tag) {
+  return String(tag || "")
+    .toUpperCase()
+    .startsWith("EDGEII");
+}
+
+function isGameTag(tag) {
+  const t = String(tag || "").toUpperCase();
+  return t === "2077" || t.startsWith("2077");
+}
+
+/** Collect non-mentioned CP appearance flags from a wiki blob. */
+function collectAppearanceFlags(blob) {
+  const tokens = [...String(blob || "").matchAll(/\{\{\s*CP\s*\|\s*([^}|]+?)\s*\}\}(\s*\([^)]*\))?/gi)];
+  let hasS1 = false;
   let hasGame = false;
-  let hasEdge = false;
+  let hasS2 = false;
   for (const m of tokens) {
     const tag = (m[1] || "").trim().toUpperCase();
     const note = m[2] || "";
     if (/\bmention/i.test(note)) continue;
-    if (tag === "2077" || tag === "2077PL") hasGame = true;
-    if (tag.startsWith("EDGE") || tag === "CEMK" || tag === "EDGEMAD") hasEdge = true;
+    if (isGameTag(tag)) hasGame = true;
+    else if (isEdgerunnersSeason2Tag(tag)) hasS2 = true;
+    else if (isEdgerunnersSeason1Tag(tag)) hasS1 = true;
   }
-  // Category fallback only when templates already confirmed a real appearance
-  if (!hasGame && !hasEdge) {
-    if (categoriesForPage.has("edgerunners") && categoriesForPage.has("2077")) return "Les deux";
-    if (categoriesForPage.has("edgerunners")) return "Edgerunners";
-    if (categoriesForPage.has("2077")) return "Cyberpunk 2077";
-    return "Cyberpunk 2077";
+  return { hasS1, hasGame, hasS2 };
+}
+
+/**
+ * Première apparition chronologique uniquement :
+ * Edgerunners Saison 1 → Jeu vidéo → Edgerunners Saison 2.
+ * Infobox + corps de page (cameos EDGE souvent hors appears_*).
+ */
+function detectFirstAppearance(params, categoriesForPage, wikitext = "") {
+  const fromInfobox = collectAppearanceFlags(appearanceBlob(params));
+  const fromPage = collectAppearanceFlags(wikitext);
+  const hasS1 = fromInfobox.hasS1 || fromPage.hasS1;
+  const hasGame = fromInfobox.hasGame || fromPage.hasGame;
+  const hasS2 = fromInfobox.hasS2 || fromPage.hasS2;
+
+  if (!hasS1 && !hasGame && !hasS2) {
+    if (categoriesForPage.has("edgerunners")) return "Edgerunners Saison 1";
+    return "Jeu vidéo";
   }
-  if (hasGame && hasEdge) return "Les deux";
-  if (hasEdge) return "Edgerunners";
-  return "Cyberpunk 2077";
+  if (hasS1) return "Edgerunners Saison 1";
+  if (hasGame) return "Jeu vidéo";
+  return "Edgerunners Saison 2";
 }
 
 function slugify(name) {
@@ -495,7 +529,7 @@ function ensureDefaults(char) {
   }
 }
 
-function buildCharacter(pageTitle, params, categoryTags) {
+function buildCharacter(pageTitle, params, categoryTags, wikitext = "") {
   // Skip mentioned-only lore entries and NPCs/enemies with empty appears_*
   if (!hasPlayableAppearance(params)) return null;
 
@@ -511,7 +545,7 @@ function buildCharacter(pageTitle, params, categoryTags) {
   const occupation = joinMulti(splitMulti(params.occupation || ""));
   const affiliation = joinMulti(splitMulti(params.affiliation || ""));
   const home = joinMulti(splitMulti(params.home || ""));
-  const source = detectSources(params, categoryTags);
+  const firstAppearance = detectFirstAppearance(params, categoryTags, wikitext);
   const aliases = extractAliases(params, name);
   const hint1 = cleanWikiText(params.voiced_by || "");
 
@@ -537,7 +571,7 @@ function buildCharacter(pageTitle, params, categoryTags) {
     occupation,
     affiliation,
     home,
-    source,
+    firstAppearance,
     hint1: hint1 || "",
   };
 
@@ -576,7 +610,15 @@ function pruneFields(characters, fieldMapping, prevalence, minRate, noPrune) {
     if (rate >= minRate) keep.add(k);
   }
   // Always keep core gameplay fields if present in mapping
-  for (const k of ["gender", "status", "role", "occupation", "affiliation", "home", "source"]) {
+  for (const k of [
+    "gender",
+    "status",
+    "role",
+    "occupation",
+    "affiliation",
+    "home",
+    "firstAppearance",
+  ]) {
     if (fieldMapping[k]) keep.add(k);
   }
   const nextMapping = {};
@@ -700,7 +742,7 @@ async function main() {
         continue;
       }
       const params = parseInfoboxParams(inner);
-      const char = buildCharacter(title, params, pageTags.get(title) || new Set());
+      const char = buildCharacter(title, params, pageTags.get(title) || new Set(), wt);
       if (!char) {
         skipped++;
         await sleep(args.delay);
