@@ -601,19 +601,6 @@
       "hint1": ""
     },
     {
-      "id": "bara-nova",
-      "name": "Bara Nova",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "DJ Music producer",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nina Kraviz (vocalist, dj, music producer)"
-    },
-    {
       "id": "barbara-okoye",
       "name": "Barbara Okoye",
       "aliases": [
@@ -1222,19 +1209,6 @@
       "hint1": "Michael Gregory"
     },
     {
-      "id": "costin-lahovary",
-      "name": "Costin Lahovary",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "Medtech",
-      "occupation": "Ripperdoc",
-      "affiliation": "",
-      "home": "Dogtown, Pacifica, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "crispin-weyland",
       "name": "Crispin Weyland",
       "aliases": [
@@ -1440,22 +1414,6 @@
       "hint1": ""
     },
     {
-      "id": "deathwish",
-      "name": "Deathwish",
-      "aliases": [
-        "Death Wish",
-        "The Cyberkitty"
-      ],
-      "gender": "Homme",
-      "status": "",
-      "role": "Cyberpet",
-      "occupation": "",
-      "affiliation": "Rache Bartmoss",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "declan-griffin",
       "name": "Declan Griffin",
       "aliases": [
@@ -1528,19 +1486,6 @@
       "home": "Night City",
       "source": "Cyberpunk 2077",
       "hint1": "Michael-Leon Wooley"
-    },
-    {
-      "id": "diana-cuno",
-      "name": "Diana Cuno",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Mort",
-      "role": "Corporate",
-      "occupation": "Genetics engineer",
-      "affiliation": "Biotechnica",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "diego-ramirez",
@@ -1828,19 +1773,6 @@
       "hint1": ""
     },
     {
-      "id": "evan-mcray",
-      "name": "Evan McRay",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Inconnu",
-      "role": "",
-      "occupation": "Senior research specialist",
-      "affiliation": "Militech",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "evelyn-parker",
       "name": "Evelyn Parker",
       "aliases": [
@@ -1895,19 +1827,6 @@
       "home": "Golden Pacific, Dogtown",
       "source": "Cyberpunk 2077",
       "hint1": "Shala Nyx"
-    },
-    {
-      "id": "faye-russo",
-      "name": "Faye Russo",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "",
-      "role": "Lawman",
-      "occupation": "Assault Specialist",
-      "affiliation": "MaxTac",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "finn-gerstatt",
@@ -2544,19 +2463,6 @@
       "hint1": "Jason Hightower"
     },
     {
-      "id": "jacob-bernard",
-      "name": "Jacob Bernard",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "",
-      "role": "Cyberjunkie",
-      "occupation": "Basketball player ()",
-      "affiliation": "Toronto Falcons ()",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "jae-hyun-lee",
       "name": "Jae-Hyun Lee",
       "aliases": [],
@@ -2821,19 +2727,6 @@
       "hint1": ""
     },
     {
-      "id": "john-mclean",
-      "name": "John McLean",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "",
-      "occupation": "Councilmember",
-      "affiliation": "Night City Council",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "johnny-silverhand",
       "name": "Johnny Silverhand",
       "aliases": [],
@@ -2968,19 +2861,6 @@
       "hint1": "Al Rodrigo"
     },
     {
-      "id": "juanita-tseng",
-      "name": "Juanita Tseng",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "Media",
-      "occupation": "Presenter",
-      "affiliation": "",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "jude-night",
       "name": "Jude Night",
       "aliases": [],
@@ -3008,19 +2888,6 @@
       "home": "Watson, Night City, Pittsburgh, Pennsylvania, Arizona",
       "source": "Cyberpunk 2077",
       "hint1": "Carla Tassara"
-    },
-    {
-      "id": "julia-bonet",
-      "name": "Julia Bonet",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "6th Street",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "juliet-horrigan",
@@ -3341,19 +3208,6 @@
       "hint1": ""
     },
     {
-      "id": "laura-may",
-      "name": "Laura May",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "Media",
-      "occupation": "Junk Vendor",
-      "affiliation": "N54 News",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "lauren-costigan",
       "name": "Lauren Costigan",
       "aliases": [],
@@ -3415,21 +3269,6 @@
       "occupation": "Mercenary",
       "affiliation": "Cyber6",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "lilith",
-      "name": "Lilith",
-      "aliases": [
-        "Queen Lilith"
-      ],
-      "gender": "Femme",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "Maelstrom",
-      "home": "",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -4441,21 +4280,6 @@
       "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)"
     },
     {
-      "id": "ora-dominguez",
-      "name": "Ora Dominguez",
-      "aliases": [
-        "Ora Di"
-      ],
-      "gender": "Femme",
-      "status": "Mort",
-      "role": "",
-      "occupation": "Braindance Star",
-      "affiliation": "Valentinos",
-      "home": "Night City, USA",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "oswald-forrest",
       "name": "Oswald Forrest",
       "aliases": [
@@ -5069,19 +4893,6 @@
       "hint1": ""
     },
     {
-      "id": "rufus-mcbride",
-      "name": "Rufus McBride",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "",
-      "role": "Ripperdoc",
-      "occupation": "",
-      "affiliation": "Wraiths",
-      "home": "Tango Tors Motel, Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "russel-greene",
       "name": "Russel Greene",
       "aliases": [],
@@ -5575,19 +5386,6 @@
       "hint1": ""
     },
     {
-      "id": "sue-glover",
-      "name": "Sue Glover",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Urmland Street, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "susan-abernathy",
       "name": "Susan Abernathy",
       "aliases": [],
@@ -5800,19 +5598,6 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "timothee-lebeau",
-      "name": "Timothee LeBeau",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "Tyger Claws",
-      "home": "Watson (2077), Night City",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
