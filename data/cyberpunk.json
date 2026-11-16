@@ -4,9 +4,9 @@
   "fieldMapping": {
     "gender": {
       "header": "Genre",
-      "fonction": "Classique",
+      "fonction": "Multivalue",
       "columnWidth": "small",
-      "description": "Homme ou Femme (Male/Female wiki normalisés). Vide si Dependent / inconnu."
+      "description": "Homme et/ou Femme (Male/Female wiki normalisés). Orange si au moins une valeur est commune. « Homme, Femme » pour les personnages au genre Dependent (ex. V)."
     },
     "status": {
       "header": "Statut",
@@ -57,7 +57,7 @@
     }
   },
   "fieldPrevalence": {
-    "gender": 0.996,
+    "gender": 1.0,
     "status": 0.563,
     "role": 0.575,
     "occupation": 0.435,
@@ -128,7 +128,7 @@
       "id": "aguilar-nubiola",
       "name": "Aguilar Nubiola",
       "aliases": [],
-      "gender": "",
+      "gender": "Homme, Femme",
       "status": "Vivant",
       "role": "",
       "occupation": "Mercenary",
@@ -6475,7 +6475,7 @@
         "Victor Wilson",
         "Aguilar Nubiola"
       ],
-      "gender": "",
+      "gender": "Homme, Femme",
       "status": "",
       "role": "Merc, Corpo, Nomad, Streetkid",
       "occupation": "Mercenary",

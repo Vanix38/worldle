@@ -51,9 +51,10 @@ const ALWAYS_FIELD_KEYS = new Set(["aliases", "hint1", "source"]);
 const FIELD_MAPPING = {
   gender: {
     header: "Genre",
-    fonction: "Classique",
+    fonction: "Multivalue",
     columnWidth: "small",
-    description: "Homme ou Femme (Male/Female wiki normalisés). Vide si Dependent / inconnu.",
+    description:
+      "Homme et/ou Femme (Male/Female wiki normalisés). Orange si au moins une valeur est commune. « Homme, Femme » pour les personnages au genre Dependent (ex. V).",
   },
   status: {
     header: "Statut",
@@ -500,9 +501,10 @@ function buildCharacter(pageTitle, params, categoryTags) {
 
   const name = extractDisplayName(params, pageTitle);
   const genderRaw = params.gender || "";
-  const gender = normalizeGender(genderRaw);
-  // Keep only Homme/Femme, or Dependent (V, etc.). Drop missing/unknown gender.
-  if (!gender && !isVariableGender(genderRaw)) return null;
+  let gender = normalizeGender(genderRaw);
+  // Dependent (V, etc.) → both genders as multivalue. Drop missing/unknown gender.
+  if (!gender && isVariableGender(genderRaw)) gender = "Homme, Femme";
+  if (!gender) return null;
 
   const status = normalizeStatus(params.status || "");
   const role = joinMulti(splitMulti(params.role || ""));
