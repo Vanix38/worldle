@@ -1,7 +1,7 @@
 {
   "id": "cyberpunk-2077",
   "name": "Cyberpunk 2077",
-  "description": "Devine les gangs et organisations a partir de leur logo",
+  "description": "Devine les gangs, organisations et marques de vehicules a partir de leur logo",
   "kind": "brands",
   "decoyLetterCount": 8,
   "sections": [
@@ -41,6 +41,30 @@
       "logos": [
         { "id": "ncpd", "name": "NCPD", "aliases": ["N.C.P.D."], "difficulty": "Facile" },
         { "id": "maxtac", "name": "MaxTac", "aliases": ["Max Tac", "MAXTAC"], "difficulty": "Moyen" }
+      ]
+    },
+    {
+      "id": "voitures",
+      "name": "Voitures & motos",
+      "logos": [
+        { "id": "quadra", "name": "Quadra", "difficulty": "Très facile" },
+        { "id": "rayfield", "name": "Rayfield", "difficulty": "Facile" },
+        { "id": "mizutani", "name": "Mizutani", "difficulty": "Facile" },
+        { "id": "thorton", "name": "Thorton", "difficulty": "Facile" },
+        { "id": "archer", "name": "Archer", "difficulty": "Moyen" },
+        { "id": "villefort", "name": "Villefort", "difficulty": "Moyen" },
+        { "id": "herrera", "name": "Herrera", "difficulty": "Moyen" },
+        { "id": "chevillon", "name": "Chevillon", "difficulty": "Moyen" },
+        { "id": "makigai", "name": "Makigai", "difficulty": "Difficile" },
+        { "id": "mahir", "name": "Mahir", "aliases": ["Mahir Motors"], "difficulty": "Difficile" },
+        { "id": "yaiba", "name": "Yaiba", "difficulty": "Facile" },
+        { "id": "arch", "name": "ARCH", "aliases": ["Arch", "Arch Motorcycle"], "difficulty": "Moyen" },
+        { "id": "brennan", "name": "Brennan", "difficulty": "Difficile" },
+        { "id": "kaukaz", "name": "Kaukaz", "difficulty": "Difficile" },
+        { "id": "porsche", "name": "Porsche", "difficulty": "Très facile" },
+        { "id": "delamain", "name": "Delamain", "difficulty": "Facile" },
+        { "id": "zetatech", "name": "Zetatech", "difficulty": "Moyen" },
+        { "id": "ural-kombinat", "name": "Ural Kombinat", "aliases": ["Ural"], "difficulty": "Impossible" }
       ]
     }
   ]
