@@ -34,11 +34,24 @@
       "fonction": "Multivalue",
       "description": "Quartier / ville de rattachement (champ Home de l’infobox)."
     },
-    "source": {
-      "header": "Apparition",
+    "firstAppearance": {
+      "header": "1ʳᵉ apparition",
       "fonction": "Classique",
       "columnWidth": "medium",
-      "description": "Cyberpunk 2077, Edgerunners, ou les deux (d’après appears_games / appears_other)."
+      "description": "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première."
+    },
+    "difficulty": {
+      "header": "Difficulté",
+      "fonction": "Comparaison",
+      "columnWidth": "small",
+      "order": [
+        "Très facile",
+        "Facile",
+        "Moyen",
+        "Difficile",
+        "Impossible"
+      ],
+      "description": "Facilité à deviner le personnage (notoriété). Ordre : Très facile → Facile → Moyen → Difficile → Impossible."
     },
     "aliases": {
       "header": "Alias",
@@ -63,9 +76,10 @@
     "occupation": 0.435,
     "affiliation": 0.682,
     "home": 0.633,
-    "source": 1,
+    "firstAppearance": 1,
     "aliases": 0.233,
-    "hint1": 0.433
+    "hint1": 0.433,
+    "difficulty": 1
   },
   "hintInterval": 5,
   "characters": [
@@ -79,8 +93,9 @@
       "occupation": "",
       "affiliation": "NCPD, Regina Jones",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Graham Vick",
+      "difficulty": "Difficile"
     },
     {
       "id": "aaron-waines",
@@ -92,8 +107,9 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "adam-smasher",
@@ -108,8 +124,9 @@
       "occupation": "Gangster, Mercenary",
       "affiliation": "United States Armed Forces, Arasaka",
       "home": "The Bronx, NYC, Night City",
-      "source": "Les deux",
-      "hint1": "Alec Newman"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Alec Newman",
+      "difficulty": "Très facile"
     },
     {
       "id": "aera",
@@ -121,8 +138,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Hiromi Dames"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Hiromi Dames",
+      "difficulty": "Difficile"
     },
     {
       "id": "aguilar-nubiola",
@@ -134,8 +152,9 @@
       "occupation": "Mercenary",
       "affiliation": "Cuban cartels",
       "home": "Havana, Cuba",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)",
+      "difficulty": "Moyen"
     },
     {
       "id": "akari-yamakage",
@@ -147,8 +166,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "akira",
@@ -160,8 +180,9 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "alan-noel",
@@ -173,8 +194,9 @@
       "occupation": "",
       "affiliation": "NetWatch",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "albert-murphy",
@@ -186,8 +208,9 @@
       "occupation": "BARGHEST soldier",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "aldo",
@@ -199,8 +222,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Santo Domingo, Night City",
-      "source": "Edgerunners",
-      "hint1": "Tomomichi Nishimura (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Tomomichi Nishimura (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "aleksander-pushkin",
@@ -214,8 +238,9 @@
       "occupation": "",
       "affiliation": "Biotechnica",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "alena-xenakis",
@@ -232,8 +257,9 @@
       "occupation": "Braindance",
       "affiliation": "FIA, NUSA",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Yvonne Senat Jones"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Yvonne Senat Jones",
+      "difficulty": "Facile"
     },
     {
       "id": "altiera-cunningham",
@@ -247,8 +273,9 @@
       "occupation": "",
       "affiliation": "ITS",
       "home": "Night City, DataKrash, Cyberspace",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alix Wilton Regan"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alix Wilton Regan",
+      "difficulty": "Très facile"
     },
     {
       "id": "ana-friedman",
@@ -260,8 +287,9 @@
       "occupation": "BIA Agent",
       "affiliation": "Brazilian Intelligence Agency",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "anders-hellman",
@@ -273,8 +301,9 @@
       "occupation": "Ghost Town",
       "affiliation": "Arasaka, Kang Tao",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alec Newman",
+      "difficulty": "Facile"
     },
     {
       "id": "andrew-jones",
@@ -286,8 +315,9 @@
       "occupation": "Soldier () Sheriff",
       "affiliation": "Southern California",
       "home": "Yucca, Los Padres County",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nigel Whitmey"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Nigel Whitmey",
+      "difficulty": "Difficile"
     },
     {
       "id": "andrew-newman",
@@ -299,8 +329,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "angel",
@@ -312,8 +343,9 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Difficile"
     },
     {
       "id": "angelica-whelan",
@@ -327,8 +359,9 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "angie-mielech",
@@ -342,8 +375,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "anna-hamill",
@@ -355,8 +389,9 @@
       "occupation": "Patrol Officer ()",
       "affiliation": "NCPD, Aldecaldos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alison Halstead"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alison Halstead",
+      "difficulty": "Moyen"
     },
     {
       "id": "anna-nox",
@@ -370,8 +405,9 @@
       "occupation": "",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Anna Rust"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Anna Rust",
+      "difficulty": "Moyen"
     },
     {
       "id": "anthony-anderson",
@@ -383,8 +419,9 @@
       "occupation": "Chief Surgeon",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "anthony-gilchrist",
@@ -396,8 +433,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Akie Kotabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "anthony-harris",
@@ -413,8 +451,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Edgewood Farm, Rocky Ridge Plains",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "arabelle-luvasha",
@@ -426,8 +465,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "archibald-crane",
@@ -439,8 +479,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "James Goode"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "James Goode",
+      "difficulty": "Moyen"
     },
     {
       "id": "arif-koneczko",
@@ -452,8 +493,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "arthur-cormac",
@@ -465,8 +507,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "arthur-jenkins",
@@ -478,8 +521,9 @@
       "occupation": "Senior member of Arasaka Counterintelligence Division",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alec Newman",
+      "difficulty": "Moyen"
     },
     {
       "id": "asher-peterson",
@@ -491,8 +535,9 @@
       "occupation": "Melee specialist",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "ashlay",
@@ -504,8 +549,9 @@
       "occupation": "Security Contractor",
       "affiliation": "Charon Exotics",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "aurore-cassel",
@@ -517,8 +563,9 @@
       "occupation": "",
       "affiliation": "The Collective, Militech, EuroBank",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Leonie Schliesing"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Leonie Schliesing",
+      "difficulty": "Moyen"
     },
     {
       "id": "avida-yang",
@@ -530,8 +577,9 @@
       "occupation": "Corporate insider () Jazz singer, saxophonist ()",
       "affiliation": "Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "axel-mankievicz",
@@ -545,8 +593,9 @@
       "occupation": "Private investigator",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ayden-daniels",
@@ -558,8 +607,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "aymeric-cassel",
@@ -571,8 +621,9 @@
       "occupation": "",
       "affiliation": "The Collective, Militech, Petrochem",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "André Refig"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "André Refig",
+      "difficulty": "Moyen"
     },
     {
       "id": "ayo-zarin",
@@ -584,8 +635,9 @@
       "occupation": "Gang lieutenant",
       "affiliation": "Voodoo Boys",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "baird",
@@ -597,8 +649,9 @@
       "occupation": "Cyber Security ()",
       "affiliation": "Arasaka, Mr. Hands",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "barbara-okoye",
@@ -612,8 +665,9 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "barry-alken",
@@ -625,8 +679,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "barry-lewis",
@@ -638,8 +693,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "bartolomeo-mordellini",
@@ -651,8 +707,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "beatrice-ellen-trieste",
@@ -666,8 +723,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ben-debaillon",
@@ -681,8 +739,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "bes-isis",
@@ -697,8 +756,9 @@
       "occupation": "",
       "affiliation": "Network News 54, Samurai",
       "home": "Night City, USA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kosha Engler",
+      "difficulty": "Facile"
     },
     {
       "id": "big-joe",
@@ -710,8 +770,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "bill-jablonsky",
@@ -723,8 +784,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "James Goode"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "James Goode",
+      "difficulty": "Difficile"
     },
     {
       "id": "bill-mitchel",
@@ -736,8 +798,9 @@
       "occupation": "Scopdog Vendor NCPD Officer",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "blake-croyle",
@@ -749,8 +812,9 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "blue-moon",
@@ -764,8 +828,9 @@
       "occupation": "Japanese idol",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": "Hiromi Dames"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Hiromi Dames",
+      "difficulty": "Facile"
     },
     {
       "id": "bob-sagan",
@@ -779,8 +844,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ako Mitchell"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ako Mitchell",
+      "difficulty": "Facile"
     },
     {
       "id": "boris-ribakov",
@@ -792,8 +858,9 @@
       "occupation": "Sniper",
       "affiliation": "SovOil, Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "boz",
@@ -805,8 +872,9 @@
       "occupation": "Lieutenant",
       "affiliation": "6th Street",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "James Goode"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "James Goode",
+      "difficulty": "Moyen"
     },
     {
       "id": "brad-stacy",
@@ -818,8 +886,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "brandon-frost",
@@ -831,8 +900,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "bree-whitney",
@@ -844,8 +914,9 @@
       "occupation": "Independent media Militech media ()",
       "affiliation": "Militech",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "brendan",
@@ -857,8 +928,9 @@
       "occupation": "",
       "affiliation": "SoftSys",
       "home": "Megabuilding H8, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Bryan Dechart"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Bryan Dechart",
+      "difficulty": "Facile"
     },
     {
       "id": "briana-dolson",
@@ -870,8 +942,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Longshore Stacks, Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "brittany-hayes",
@@ -883,8 +956,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "bruce-ward",
@@ -896,8 +970,9 @@
       "occupation": "",
       "affiliation": "Wraiths",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "bruce-welby",
@@ -909,8 +984,9 @@
       "occupation": "Smuggler ()",
       "affiliation": "Aldecaldos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "bryce-mosley",
@@ -922,8 +998,9 @@
       "occupation": "",
       "affiliation": "NetWatch",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Shane Taylor"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Shane Taylor",
+      "difficulty": "Facile"
     },
     {
       "id": "bryce-stone",
@@ -935,8 +1012,9 @@
       "occupation": "Televangelist for N54",
       "affiliation": "Network 54",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "buck-arnold",
@@ -948,8 +1026,9 @@
       "occupation": "",
       "affiliation": "United States Armed Forces, 6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "capricorn",
@@ -964,8 +1043,9 @@
       "occupation": "",
       "affiliation": "Arasaka, Kyoko, Talia Yang, D",
       "home": "",
-      "source": "Edgerunners",
-      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "carl-robinson",
@@ -979,8 +1059,9 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "carlos-rubio",
@@ -992,8 +1073,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "carol-emeka",
@@ -1005,8 +1087,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Fryda Wolff"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Fryda Wolff",
+      "difficulty": "Facile"
     },
     {
       "id": "carter-smith",
@@ -1018,8 +1101,9 @@
       "occupation": "Jenkins, Corpo, V",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Joseph May"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Joseph May",
+      "difficulty": "Moyen"
     },
     {
       "id": "cassidy-righter",
@@ -1034,8 +1118,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Mikey O'Connor"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Mikey O'Connor",
+      "difficulty": "Facile"
     },
     {
       "id": "cassius-ryder",
@@ -1047,8 +1132,9 @@
       "occupation": "Ripperdoc",
       "affiliation": "Doc Ryder",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Stefan Ashton Frank"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Stefan Ashton Frank",
+      "difficulty": "Difficile"
     },
     {
       "id": "cedric-muller",
@@ -1060,8 +1146,9 @@
       "occupation": "",
       "affiliation": "Red Ocher",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "chang-hoon-nam",
@@ -1073,8 +1160,9 @@
       "occupation": "",
       "affiliation": "Wakako Okada",
       "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
-      "hint1": "Josh Han"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Josh Han",
+      "difficulty": "Moyen"
     },
     {
       "id": "charlene-fox",
@@ -1086,8 +1174,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "charles-bucks",
@@ -1099,8 +1188,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kabuki, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Akie Kotabe",
+      "difficulty": "Difficile"
     },
     {
       "id": "charles-graham",
@@ -1114,8 +1204,9 @@
       "occupation": "Jago's bodyguard",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "cheri-nowlin",
@@ -1127,8 +1218,9 @@
       "occupation": "Receptionist",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "chester-bennett",
@@ -1140,8 +1232,9 @@
       "occupation": "Run This Town",
       "affiliation": "BARGHEST, Militech, New United States Armed Forces, Arasaka",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": "Joseph Capp"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Joseph Capp",
+      "difficulty": "Moyen"
     },
     {
       "id": "christine-markov",
@@ -1153,8 +1246,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "claire-russell",
@@ -1166,8 +1260,9 @@
       "occupation": "Engineer Mechanic Bartender",
       "affiliation": "Militech, Afterlife",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
-      "hint1": "Maddie Taylor"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Maddie Taylor",
+      "difficulty": "Facile"
     },
     {
       "id": "claudio-moreno",
@@ -1179,8 +1274,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "coach-fred",
@@ -1192,8 +1288,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Little China, Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ako Mitchell"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ako Mitchell",
+      "difficulty": "Facile"
     },
     {
       "id": "colver",
@@ -1205,8 +1302,9 @@
       "occupation": "Reverend Televangelist President of the Church of Eliyahu the Last Emancipator",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Michael Gregory"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Michael Gregory",
+      "difficulty": "Moyen"
     },
     {
       "id": "crispin-weyland",
@@ -1220,8 +1318,9 @@
       "occupation": "",
       "affiliation": "Afterlife Mercs",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Mark Ebulué"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Mark Ebulué",
+      "difficulty": "Moyen"
     },
     {
       "id": "cynthia-najarro",
@@ -1233,8 +1332,9 @@
       "occupation": "",
       "affiliation": "Orbital Air",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "cesar-diego-ruiz",
@@ -1246,8 +1346,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nicolas Roye"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Nicolas Roye",
+      "difficulty": "Moyen"
     },
     {
       "id": "dakota-smith",
@@ -1261,8 +1362,9 @@
       "occupation": "",
       "affiliation": "Pomo, Aldecaldos",
       "home": "DaKota, Badlands",
-      "source": "Les deux",
-      "hint1": "Sabra May"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Sabra May",
+      "difficulty": "Facile"
     },
     {
       "id": "dallas-foster",
@@ -1274,8 +1376,9 @@
       "occupation": "Heavy Weapons Specialist",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "damir-kovac",
@@ -1287,8 +1390,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "dan",
@@ -1300,8 +1404,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "dante-caruso",
@@ -1313,8 +1418,9 @@
       "occupation": "Special Agent",
       "affiliation": "Militech",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)",
+      "difficulty": "Facile"
     },
     {
       "id": "dao-hyunh",
@@ -1326,8 +1432,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "darius-clarke",
@@ -1339,8 +1446,9 @@
       "occupation": "Ripperdoc",
       "affiliation": "Doc Ryder",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "darius-miles",
@@ -1352,8 +1460,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "darrell-zhou",
@@ -1365,8 +1474,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Josh Han"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Josh Han",
+      "difficulty": "Difficile"
     },
     {
       "id": "david",
@@ -1380,8 +1490,9 @@
       "occupation": "",
       "affiliation": "nomad, Snake Nation",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "david-martinez",
@@ -1397,8 +1508,9 @@
       "occupation": "Arasaka Academy, Mercenary",
       "affiliation": "Arasaka, Maine",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
-      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "david-walker",
@@ -1410,8 +1522,9 @@
       "occupation": "Clothing Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "declan-griffin",
@@ -1425,8 +1538,9 @@
       "occupation": "Gang Boss",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "John Schwab"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "John Schwab",
+      "difficulty": "Facile"
     },
     {
       "id": "delamain",
@@ -1442,8 +1556,9 @@
       "occupation": "CEO, taxi driver",
       "affiliation": "Delamain Corp",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)",
+      "difficulty": "Facile"
     },
     {
       "id": "dennis-cranmer",
@@ -1455,8 +1570,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Michael-Leon Wooley"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Michael-Leon Wooley",
+      "difficulty": "Difficile"
     },
     {
       "id": "denny",
@@ -1468,8 +1584,9 @@
       "occupation": "Drummer",
       "affiliation": "Samurai",
       "home": "Denny's Mansion, North Oak",
-      "source": "Cyberpunk 2077",
-      "hint1": "Victoire Charles"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Victoire Charles",
+      "difficulty": "Facile"
     },
     {
       "id": "dexter-deshawn",
@@ -1484,8 +1601,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Michael-Leon Wooley"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Michael-Leon Wooley",
+      "difficulty": "Très facile"
     },
     {
       "id": "diego-ramirez",
@@ -1497,8 +1615,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "dietlinde",
@@ -1510,8 +1629,9 @@
       "occupation": "Bartender",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "dino-dinovic",
@@ -1523,8 +1643,9 @@
       "occupation": "Bassist Bar Owner",
       "affiliation": "Gloryhole Bandits",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alec Newman",
+      "difficulty": "Moyen"
     },
     {
       "id": "doc",
@@ -1536,8 +1657,9 @@
       "occupation": "Ripperdoc",
       "affiliation": "",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
-      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "dorio-gunnarsdottir",
@@ -1549,8 +1671,9 @@
       "occupation": "Mercenary",
       "affiliation": "Maine's crew",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)",
+      "difficulty": "Facile"
     },
     {
       "id": "dove-vondell",
@@ -1562,8 +1685,9 @@
       "occupation": "Glamdoc",
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "driss-meriana",
@@ -1577,8 +1701,9 @@
       "occupation": "Panzerboy",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Noshir Dalal"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Noshir Dalal",
+      "difficulty": "Facile"
     },
     {
       "id": "dum-dum",
@@ -1590,8 +1715,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "dusty-lowe",
@@ -1603,8 +1729,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Difficile"
     },
     {
       "id": "earl-conway",
@@ -1616,8 +1743,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "edgar-tool",
@@ -1631,8 +1759,9 @@
       "occupation": "",
       "affiliation": "Fourth Wall Studios",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "elizabeth-borden",
@@ -1646,8 +1775,9 @@
       "occupation": "Stripper () Brothel owner",
       "affiliation": "Delphi X, Strip club",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "elizabeth-peralez",
@@ -1661,8 +1791,9 @@
       "occupation": "",
       "affiliation": "Federalist Party",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kosha Engler",
+      "difficulty": "Facile"
     },
     {
       "id": "ellis-carter",
@@ -1676,8 +1807,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "emily",
@@ -1689,8 +1821,9 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "emmerick-bronson",
@@ -1704,8 +1837,9 @@
       "occupation": "Bouncer",
       "affiliation": "Afterlife Mercs, Animals",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "John Schwab"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "John Schwab",
+      "difficulty": "Facile"
     },
     {
       "id": "ernesto-munoz",
@@ -1717,8 +1851,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "eron-acedo",
@@ -1730,8 +1865,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "esquerdo-certo",
@@ -1743,8 +1879,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "euralio-alma",
@@ -1756,8 +1893,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "eva-cole",
@@ -1769,8 +1907,9 @@
       "occupation": "Councilmember",
       "affiliation": "Night City Council",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "evelyn-parker",
@@ -1786,8 +1925,9 @@
       "occupation": "Doll",
       "affiliation": "Clouds, The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kari Wahlgren"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kari Wahlgren",
+      "difficulty": "Très facile"
     },
     {
       "id": "falco",
@@ -1799,8 +1939,9 @@
       "occupation": "Mercenary",
       "affiliation": "Maine, David",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "faraday",
@@ -1812,8 +1953,9 @@
       "occupation": "Broker",
       "affiliation": "Militech, Arasaka",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)",
+      "difficulty": "Très facile"
     },
     {
       "id": "farida-nazeri",
@@ -1825,8 +1967,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Golden Pacific, Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": "Shala Nyx"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Shala Nyx",
+      "difficulty": "Facile"
     },
     {
       "id": "finn-gerstatt",
@@ -1841,8 +1984,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alex Ivanovici"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alex Ivanovici",
+      "difficulty": "Difficile"
     },
     {
       "id": "fiona-vargas",
@@ -1854,8 +1998,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "flavio-dos-santos",
@@ -1867,8 +2012,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-biotechnica-flats",
@@ -1880,8 +2026,9 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Biotechnica Flats, Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-kabuki-market-central",
@@ -1893,8 +2040,9 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-kabuki-market-plaza",
@@ -1906,8 +2054,9 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-northside",
@@ -1919,8 +2068,9 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Northside, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "frank",
@@ -1935,8 +2085,9 @@
       "occupation": "Junk Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "frank-nostra",
@@ -1948,8 +2099,9 @@
       "occupation": "Special Operations agent",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Sean Power"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Sean Power",
+      "difficulty": "Moyen"
     },
     {
       "id": "fredrik-persson",
@@ -1961,8 +2113,9 @@
       "occupation": "Braindance",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Akie Kotabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "futoshi-yamada",
@@ -1974,8 +2127,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "gaston-phillips",
@@ -1987,8 +2141,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "gaston-slayton",
@@ -2000,8 +2155,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "gauge-harris",
@@ -2013,8 +2169,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "georgina-zembinsky",
@@ -2026,8 +2183,9 @@
       "occupation": "District Attorney",
       "affiliation": "Night City",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Christy Meyer"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Christy Meyer",
+      "difficulty": "Moyen"
     },
     {
       "id": "gerald-winkler",
@@ -2041,8 +2199,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Urmland Street, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ben \"CohhCarnage\" Cassell"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ben \"CohhCarnage\" Cassell",
+      "difficulty": "Difficile"
     },
     {
       "id": "gillean-jordan",
@@ -2054,8 +2213,9 @@
       "occupation": "News reporter, presenter",
       "affiliation": "N54 News",
       "home": "",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "gloria-martinez",
@@ -2067,8 +2227,9 @@
       "occupation": "EMT Black market cyberware vendor",
       "affiliation": "REO Meatwagon",
       "home": "Santo Domingo, Night City",
-      "source": "Les deux",
-      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)",
+      "difficulty": "Très facile"
     },
     {
       "id": "goldhand",
@@ -2080,8 +2241,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "goro-takemura",
@@ -2093,8 +2255,9 @@
       "occupation": "Bodyguard ()",
       "affiliation": "Arasaka",
       "home": "Kanto",
-      "source": "Cyberpunk 2077",
-      "hint1": "Rome Kanda"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Rome Kanda",
+      "difficulty": "Très facile"
     },
     {
       "id": "gottfrid-persson",
@@ -2106,8 +2269,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "grann-ertha",
@@ -2119,8 +2283,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "griselda-martinez",
@@ -2135,8 +2300,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "guadalupe-alejandra-welles",
@@ -2151,8 +2317,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Krizia Bajos"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Krizia Bajos",
+      "difficulty": "Difficile"
     },
     {
       "id": "gustavo-orta",
@@ -2164,8 +2331,9 @@
       "occupation": "gangster",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Christian Lanz"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Christian Lanz",
+      "difficulty": "Moyen"
     },
     {
       "id": "hajime-taki",
@@ -2177,8 +2345,9 @@
       "occupation": "Defense Solutions Representative",
       "affiliation": "Arasaka Corporation",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "hal-cantos",
@@ -2190,8 +2359,9 @@
       "occupation": "",
       "affiliation": "WNS",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nicolas Roye"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Nicolas Roye",
+      "difficulty": "Moyen"
     },
     {
       "id": "hanako-arasaka",
@@ -2203,8 +2373,9 @@
       "occupation": "",
       "affiliation": "Hatashi Shipping Company, Arasaka, Kiji",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alpha Takahashi (English)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alpha Takahashi (English)",
+      "difficulty": "Très facile"
     },
     {
       "id": "hank",
@@ -2216,8 +2387,9 @@
       "occupation": "",
       "affiliation": "King's Crew",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "hark",
@@ -2229,8 +2401,9 @@
       "occupation": "",
       "affiliation": "Kang Tao",
       "home": "",
-      "source": "Edgerunners",
-      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "harold-han",
@@ -2242,8 +2415,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Matthew Yang King"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Matthew Yang King",
+      "difficulty": "Difficile"
     },
     {
       "id": "harry",
@@ -2255,8 +2429,9 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Michael-Leon Wooley"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Michael-Leon Wooley",
+      "difficulty": "Moyen"
     },
     {
       "id": "haruyoshi-nishikata",
@@ -2270,8 +2445,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "hasan-demir",
@@ -2283,8 +2459,9 @@
       "occupation": "",
       "affiliation": "Zetatech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Atilla Akinci"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Atilla Akinci",
+      "difficulty": "Moyen"
     },
     {
       "id": "helio",
@@ -2296,8 +2473,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Edgerunners",
-      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "henry",
@@ -2309,8 +2487,9 @@
       "occupation": "Bassist",
       "affiliation": "Samurai, Blazetech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Graham Vick",
+      "difficulty": "Facile"
     },
     {
       "id": "henry-stints",
@@ -2322,8 +2501,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "herold-lowe",
@@ -2335,8 +2515,9 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "hideshi-hino",
@@ -2348,8 +2529,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "hideyoshi-oshima",
@@ -2361,8 +2543,9 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "Tokyo, Japan",
-      "source": "Les deux",
-      "hint1": "Hideo Kojima"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Hideo Kojima",
+      "difficulty": "Difficile"
     },
     {
       "id": "hiroto-saiki",
@@ -2374,8 +2557,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "hwangbo-dong-gun",
@@ -2389,8 +2573,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Um Sang-hyun"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Um Sang-hyun",
+      "difficulty": "Moyen"
     },
     {
       "id": "imogen",
@@ -2402,8 +2587,9 @@
       "occupation": "",
       "affiliation": "Herold Lowe",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "iris-tanner",
@@ -2415,8 +2601,9 @@
       "occupation": "",
       "affiliation": "Dakota Smith, Wraiths",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "issam-zahir",
@@ -2428,8 +2615,9 @@
       "occupation": "Glamdoc",
       "affiliation": "",
       "home": "Kabuki",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jack-mausser",
@@ -2441,8 +2629,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jackie-welles",
@@ -2459,8 +2648,9 @@
       "occupation": "Mercenary",
       "affiliation": "Valentinos, Afterlife Mercs",
       "home": "Heywood",
-      "source": "Les deux",
-      "hint1": "Jason Hightower"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Jason Hightower",
+      "difficulty": "Très facile"
     },
     {
       "id": "jae-hyun-lee",
@@ -2472,8 +2662,9 @@
       "occupation": "Human Trafficker",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jago-szabo",
@@ -2485,8 +2676,9 @@
       "occupation": "BARGHEST's Chief Accountant Dogtown leader",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jake-estevez",
@@ -2498,8 +2690,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jake-scooter",
@@ -2511,8 +2704,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "james-ito",
@@ -2524,8 +2718,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "james-norris",
@@ -2537,8 +2732,9 @@
       "occupation": "NUSA Lieutenant Colonel",
       "affiliation": "NUSA Armed Forces",
       "home": "",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "jasmine-dixon",
@@ -2550,8 +2746,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jason-wildriver",
@@ -2563,8 +2760,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Militech",
       "home": "Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": "Dar Dash"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Dar Dash",
+      "difficulty": "Facile"
     },
     {
       "id": "jasper-collins",
@@ -2576,8 +2774,9 @@
       "occupation": "Netrunner",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jean-rochelin",
@@ -2589,8 +2788,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Pacifica",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jeff",
@@ -2602,8 +2802,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "jefferson-peralez",
@@ -2615,8 +2816,9 @@
       "occupation": "Mayor of Night City",
       "affiliation": "Asukaga & Finch, Cyberpunk 2077 Netsites, Night City Council, Federalist Party, Mayor's Office",
       "home": "Westbrook, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Joseph May"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Joseph May",
+      "difficulty": "Facile"
     },
     {
       "id": "jeremiah-grayson",
@@ -2628,8 +2830,9 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Stephen Oyoung"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Stephen Oyoung",
+      "difficulty": "Moyen"
     },
     {
       "id": "jerry-fawlter",
@@ -2641,8 +2844,9 @@
       "occupation": "Dataterm",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jesse-johnson",
@@ -2656,8 +2860,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Jesse Louis Cox"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Jesse Louis Cox",
+      "difficulty": "Difficile"
     },
     {
       "id": "jessie",
@@ -2669,8 +2874,9 @@
       "occupation": "Braindance",
       "affiliation": "Sal Bigelow's Braindance Paradise",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "jim-jarry",
@@ -2682,8 +2888,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jimmy-kurosaki",
@@ -2697,8 +2904,9 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "joanne-koch",
@@ -2710,8 +2918,9 @@
       "occupation": "Regional Director Genetics engineer",
       "affiliation": "Biotechnica",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "john-lipczynsky",
@@ -2723,8 +2932,9 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "johnny-silverhand",
@@ -2736,8 +2946,9 @@
       "occupation": "Ex-soldier Musician",
       "affiliation": "U.S. Army, Samurai, Silverhand Studios",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)",
+      "difficulty": "Très facile"
     },
     {
       "id": "josh-kavorkin",
@@ -2749,8 +2960,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "joshua-stephenson",
@@ -2762,8 +2974,9 @@
       "occupation": "Braindancer",
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ronan Summers",
+      "difficulty": "Difficile"
     },
     {
       "id": "josie-alcazar",
@@ -2775,8 +2988,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos",
       "home": "Josie Alcazar's House, Rancho Coronado, Santo Domingo",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "joss-kutcher",
@@ -2788,8 +3002,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kutcher's home, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Tonantzin Carmelo"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Tonantzin Carmelo",
+      "difficulty": "Difficile"
     },
     {
       "id": "jose-luis",
@@ -2801,8 +3016,9 @@
       "occupation": "Ganger",
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Bernardo De Paula"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Bernardo De Paula",
+      "difficulty": "Moyen"
     },
     {
       "id": "jotaro-shobo",
@@ -2816,8 +3032,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "journey-ruiz",
@@ -2829,8 +3046,9 @@
       "occupation": "Vendor",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Carla Tassara"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Carla Tassara",
+      "difficulty": "Difficile"
     },
     {
       "id": "juan-mendez",
@@ -2842,8 +3060,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "juan-troy",
@@ -2857,8 +3076,9 @@
       "occupation": "Mechanic",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Al Rodrigo"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Al Rodrigo",
+      "difficulty": "Moyen"
     },
     {
       "id": "jude-night",
@@ -2870,8 +3090,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "judy-alvarez",
@@ -2886,8 +3107,9 @@
       "occupation": "Braindance",
       "affiliation": "Clouds, Moxes, Epilogues",
       "home": "Watson, Night City, Pittsburgh, Pennsylvania, Arizona",
-      "source": "Cyberpunk 2077",
-      "hint1": "Carla Tassara"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Carla Tassara",
+      "difficulty": "Très facile"
     },
     {
       "id": "juliet-horrigan",
@@ -2901,8 +3123,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Horrigan Family Home",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "julio",
@@ -2914,8 +3137,9 @@
       "occupation": "Mercenary",
       "affiliation": "David",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "jun-azegami",
@@ -2927,8 +3151,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kajetan-zilevski",
@@ -2940,8 +3165,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "kaoru-fujioka",
@@ -2953,8 +3179,9 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kotaro Watanabe"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kotaro Watanabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "karim-noel",
@@ -2966,8 +3193,9 @@
       "occupation": "Clothing Vendor",
       "affiliation": "",
       "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nigel Whitmey"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Nigel Whitmey",
+      "difficulty": "Difficile"
     },
     {
       "id": "karina-lee",
@@ -2979,8 +3207,9 @@
       "occupation": "TV Show Host",
       "affiliation": "N54 News",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alana Maria",
+      "difficulty": "Moyen"
     },
     {
       "id": "karubo-bairei",
@@ -2992,8 +3221,9 @@
       "occupation": "Jacked and Coke",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kate-miller",
@@ -3005,8 +3235,9 @@
       "occupation": "Associate Physical Security Specialist",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "katsuo-tanaka",
@@ -3018,8 +3249,9 @@
       "occupation": "Arasaka Academy",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "katya-karelina",
@@ -3031,8 +3263,9 @@
       "occupation": "Spy",
       "affiliation": "SovOil",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Avital Lvova"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Avital Lvova",
+      "difficulty": "Moyen"
     },
     {
       "id": "keisuke-kagawa",
@@ -3044,8 +3277,9 @@
       "occupation": "Food Vendor",
       "affiliation": "Tyger Claws",
       "home": "Little China, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "kenji-sakura",
@@ -3057,8 +3291,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kerry-eurodyne",
@@ -3072,8 +3307,9 @@
       "occupation": "Musician",
       "affiliation": "Samurai, MSM Records",
       "home": "Westbrook, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Matthew Yang King Damian Ukeje (vocalist)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Matthew Yang King Damian Ukeje (vocalist)",
+      "difficulty": "Très facile"
     },
     {
       "id": "kimiko-sanchez",
@@ -3087,8 +3323,9 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "kiril-yang",
@@ -3100,8 +3337,9 @@
       "occupation": "",
       "affiliation": "Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "kirk-sawyer",
@@ -3113,8 +3351,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Pacifica, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Derek Hagen"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Derek Hagen",
+      "difficulty": "Moyen"
     },
     {
       "id": "kitano",
@@ -3126,8 +3365,9 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "kiwi",
@@ -3139,8 +3379,9 @@
       "occupation": "Joytoy, Mercenary",
       "affiliation": "Maine, David, Faraday",
       "home": "Watson, Night City",
-      "source": "Les deux",
-      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "kuniko-aso",
@@ -3152,8 +3393,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kurt-hansen",
@@ -3165,8 +3407,9 @@
       "occupation": "BARGHEST leader Militech Colonel ()",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": "Eliah Mountjoy"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Eliah Mountjoy",
+      "difficulty": "Facile"
     },
     {
       "id": "kyle-araujo",
@@ -3178,8 +3421,9 @@
       "occupation": "Courier",
       "affiliation": "BARGHEST",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "kyoko-tanaami",
@@ -3191,8 +3435,9 @@
       "occupation": "",
       "affiliation": "Arasaka, Kang Tao",
       "home": "",
-      "source": "Edgerunners",
-      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "lance-hardy",
@@ -3204,8 +3449,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lauren-costigan",
@@ -3217,8 +3463,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "leah-gladen",
@@ -3230,8 +3477,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Leah Gladen's Apartment",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "lely-hein",
@@ -3243,8 +3491,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "leon-rinder",
@@ -3256,8 +3505,9 @@
       "occupation": "",
       "affiliation": "BARGHEST, New United States Armed Forces, Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "lilayah",
@@ -3269,8 +3519,9 @@
       "occupation": "Mercenary",
       "affiliation": "Cyber6",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lina-malina",
@@ -3284,8 +3535,9 @@
       "occupation": "Braindance",
       "affiliation": "Fourth Wall Studios",
       "home": "Longshore Stacks, Dogtown, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Aliona Baranova"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Aliona Baranova",
+      "difficulty": "Moyen"
     },
     {
       "id": "lisa-smith",
@@ -3297,8 +3549,9 @@
       "occupation": "Research specialist",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "lizzy-wizzy",
@@ -3312,8 +3565,9 @@
       "occupation": "BD",
       "affiliation": "",
       "home": "North Oak, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Grimes"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Grimes",
+      "difficulty": "Facile"
     },
     {
       "id": "logan-garcia",
@@ -3325,8 +3579,9 @@
       "occupation": "Heavyweight Boxer",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "logan-scott",
@@ -3338,8 +3593,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Joseph May"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Joseph May",
+      "difficulty": "Difficile"
     },
     {
       "id": "louise-nordin-eurodyne",
@@ -3351,8 +3607,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lucius-rhyne",
@@ -3364,8 +3621,9 @@
       "occupation": "City Manager, Mayor of Night City",
       "affiliation": "Night City Council, Devolutionist Party, Mayor's Office",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Paul Jerome"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Paul Jerome",
+      "difficulty": "Moyen"
     },
     {
       "id": "lucius-thoran",
@@ -3377,8 +3635,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lucy-thackery",
@@ -3392,8 +3651,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alana Maria",
+      "difficulty": "Difficile"
     },
     {
       "id": "lucyna-kushinada",
@@ -3408,8 +3668,9 @@
       "occupation": "Mercenary",
       "affiliation": "Arasaka, Maine",
       "home": "Westbrook, NC",
-      "source": "Edgerunners",
-      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "lyle-thompson",
@@ -3421,8 +3682,9 @@
       "occupation": "War correspondent () Investigative reporter",
       "affiliation": "World News Service",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Joseph May"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Joseph May",
+      "difficulty": "Moyen"
     },
     {
       "id": "maggie-isley",
@@ -3434,8 +3696,9 @@
       "occupation": "Biological engineer ()",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "maiko-maeda",
@@ -3447,8 +3710,9 @@
       "occupation": "Clouds' official manager Clouds' unofficial manager (former)",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Arina Ii"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Arina Ii",
+      "difficulty": "Moyen"
     },
     {
       "id": "maine",
@@ -3460,8 +3724,9 @@
       "occupation": "Mercenary",
       "affiliation": "NUSA SpecOps",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "maman-brigitte",
@@ -3475,8 +3740,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Victoire Charles"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Victoire Charles",
+      "difficulty": "Facile"
     },
     {
       "id": "marcin-iwinski",
@@ -3488,8 +3754,9 @@
       "occupation": "Junk Vendor",
       "affiliation": "Good Old Dogtown",
       "home": "Dogtown, Pacifica (2077)",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "marcus-ichida",
@@ -3501,8 +3768,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Moyen"
     },
     {
       "id": "marlon-fuscino",
@@ -3514,8 +3782,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "martha-frakes",
@@ -3529,8 +3798,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "marty-jenklow",
@@ -3542,8 +3812,9 @@
       "occupation": "",
       "affiliation": "Civilian",
       "home": "Fuel Station, Biotechnica Flats, Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "mateo-thiago",
@@ -3555,8 +3826,9 @@
       "occupation": "Bartender",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Antonio Alvarez"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Antonio Alvarez",
+      "difficulty": "Moyen"
     },
     {
       "id": "matilda-k-rose",
@@ -3570,8 +3842,9 @@
       "occupation": "Pack leader",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Krizia Bajos"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Krizia Bajos",
+      "difficulty": "Moyen"
     },
     {
       "id": "matt-liaw",
@@ -3583,8 +3856,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "max-jones",
@@ -3596,8 +3870,9 @@
       "occupation": "",
       "affiliation": "WNS, NC Inquirer, Regina Jones",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alec Newman",
+      "difficulty": "Moyen"
     },
     {
       "id": "maxim-kuznetsov",
@@ -3609,8 +3884,9 @@
       "occupation": "Driver, bodyguard",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Takanori Hoshino (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Takanori Hoshino (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "maximum-mike",
@@ -3624,8 +3900,9 @@
       "occupation": "Radio host DJ",
       "affiliation": "Morro Rock Radio",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Mike Pondsmith"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Mike Pondsmith",
+      "difficulty": "Moyen"
     },
     {
       "id": "mbole-ebunike",
@@ -3639,8 +3916,9 @@
       "occupation": "Mayor of Night City ()",
       "affiliation": "Mayor's Office",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "meds-vendor-docks",
@@ -3652,8 +3930,9 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "Northside, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Graham Vick",
+      "difficulty": "Difficile"
     },
     {
       "id": "meds-vendor-little-china",
@@ -3665,8 +3944,9 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "Little China, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "meds-vendor-northside",
@@ -3678,8 +3958,9 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "Northside, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "melissa-rory",
@@ -3691,8 +3972,9 @@
       "occupation": "MaxTac lieutenant",
       "affiliation": "NCPD, MaxTac",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kosha Engler",
+      "difficulty": "Moyen"
     },
     {
       "id": "melissa-wellingham",
@@ -3706,8 +3988,9 @@
       "occupation": "Ex-soldier Bartender",
       "affiliation": "22nd SAS Regt., Forlorn Hope",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "meredith-stout",
@@ -3719,8 +4002,9 @@
       "occupation": "Senior Operations Manager Government Relations Executive",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Erica Lindbeck"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Erica Lindbeck",
+      "difficulty": "Facile"
     },
     {
       "id": "meshuga",
@@ -3732,8 +4016,9 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "michael-maldonado",
@@ -3745,8 +4030,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "michael-marcinkowsky",
@@ -3758,8 +4044,9 @@
       "occupation": "",
       "affiliation": "Wraiths",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "micha-kicinski",
@@ -3771,8 +4058,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Dogtown, Pacifica (2077)",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "michiko-sanderson-nee-arasaka",
@@ -3784,8 +4072,9 @@
       "occupation": "Corporate CEO Arasaka board member",
       "affiliation": "Danger Gal, Arasaka, Hato",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kosha Engler"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kosha Engler",
+      "difficulty": "Facile"
     },
     {
       "id": "mickey",
@@ -3799,8 +4088,9 @@
       "occupation": "Driver Mechanic",
       "affiliation": "Muamar Reyes, AUTOFIXER",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "miguel-rodriguez",
@@ -3814,8 +4104,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "miguel-serrano",
@@ -3830,8 +4121,9 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "mike",
@@ -3843,8 +4135,9 @@
       "occupation": "Mechanic",
       "affiliation": "",
       "home": "Yucca, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mike-kowalski",
@@ -3858,8 +4151,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Keisuke Hoashi"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Moyen"
     },
     {
       "id": "mike-kowalsky",
@@ -3871,8 +4165,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mikhail-akulov",
@@ -3886,8 +4181,9 @@
       "occupation": "",
       "affiliation": "Soviet Union",
       "home": "Soviet Union",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "milko-alexis",
@@ -3899,8 +4195,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "milt-nauman",
@@ -3912,8 +4209,9 @@
       "occupation": "Ripperdoc",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Mark Holden"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Mark Holden",
+      "difficulty": "Difficile"
     },
     {
       "id": "miriam-night",
@@ -3925,8 +4223,9 @@
       "occupation": "",
       "affiliation": "Night Corp",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "misty-olszewski",
@@ -3938,8 +4237,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": "Erica Lindbeck"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Erica Lindbeck",
+      "difficulty": "Très facile"
     },
     {
       "id": "mitch-anderson",
@@ -3951,8 +4251,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Martin McDougall"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Martin McDougall",
+      "difficulty": "Facile"
     },
     {
       "id": "mokomichi-yamada",
@@ -3966,8 +4267,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mower",
@@ -3979,8 +4281,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mr-blue-eyes",
@@ -3994,8 +4297,9 @@
       "occupation": "",
       "affiliation": "Undisclosed",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Martin McDougall"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Martin McDougall",
+      "difficulty": "Facile"
     },
     {
       "id": "mr-brightman",
@@ -4007,8 +4311,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "mr-kipper",
@@ -4020,8 +4325,9 @@
       "occupation": "Musician",
       "affiliation": "",
       "home": "Crystal Palace, Mr. Kipper: A Universal Message",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "muamar-reyes",
@@ -4037,8 +4343,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alec Newman"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alec Newman",
+      "difficulty": "Facile"
     },
     {
       "id": "nadezhda-tiurina",
@@ -4050,8 +4357,9 @@
       "occupation": "Bodyguard",
       "affiliation": "Mikhail Akulov, KGB",
       "home": "Soviet Union",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nadia-petrova",
@@ -4063,8 +4371,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nash",
@@ -4076,8 +4385,9 @@
       "occupation": "",
       "affiliation": "Wraiths",
       "home": "Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "neil-white",
@@ -4089,8 +4399,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nele-springer",
@@ -4102,8 +4413,9 @@
       "occupation": "",
       "affiliation": "Crimson Harvest",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "nibbles",
@@ -4115,8 +4427,9 @@
       "occupation": "Pet",
       "affiliation": "V, Rogue Amendiares",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nika-yankovich",
@@ -4128,8 +4441,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "Dogtown, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Devora Wilde"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Devora Wilde",
+      "difficulty": "Moyen"
     },
     {
       "id": "nina-kraviz",
@@ -4141,8 +4455,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nina Kraviz"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Nina Kraviz",
+      "difficulty": "Difficile"
     },
     {
       "id": "nix",
@@ -4154,8 +4469,9 @@
       "occupation": "",
       "affiliation": "Afterlife Mercs, Arasaka",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ako Mitchell"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ako Mitchell",
+      "difficulty": "Facile"
     },
     {
       "id": "noah",
@@ -4167,8 +4483,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Les deux",
-      "hint1": "Marc Pickering"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Marc Pickering",
+      "difficulty": "Moyen"
     },
     {
       "id": "nolan-frakes",
@@ -4180,8 +4497,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "norio-akuhara",
@@ -4195,8 +4513,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "nuka-shank-ohlone",
@@ -4208,8 +4527,9 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "odell-blanco",
@@ -4221,8 +4541,9 @@
       "occupation": "Priest",
       "affiliation": "Haven Clinic",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "ofelia-sirawian",
@@ -4237,8 +4558,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "oleg-darkevich",
@@ -4250,8 +4572,9 @@
       "occupation": "",
       "affiliation": "Dexter DeShawn",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "olek-carax",
@@ -4263,8 +4586,9 @@
       "occupation": "Barber",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Edgerunners",
-      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "omi",
@@ -4276,8 +4600,9 @@
       "occupation": "",
       "affiliation": "Snake Nation",
       "home": "",
-      "source": "Edgerunners",
-      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "oswald-forrest",
@@ -4291,8 +4616,9 @@
       "occupation": "",
       "affiliation": "Clouds, Tyger Claws",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Joe Corrigall"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Joe Corrigall",
+      "difficulty": "Moyen"
     },
     {
       "id": "othmar-brasi",
@@ -4304,8 +4630,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "ozob-bozo",
@@ -4317,8 +4644,9 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)",
+      "difficulty": "Facile"
     },
     {
       "id": "paco-torres",
@@ -4330,8 +4658,9 @@
       "occupation": "Recruit",
       "affiliation": "BARGHEST, Scavengers",
       "home": "Dogtown, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Adan Rocha"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Adan Rocha",
+      "difficulty": "Moyen"
     },
     {
       "id": "panam-palmer",
@@ -4345,8 +4674,9 @@
       "occupation": "Mercenary",
       "affiliation": "Aldecaldos, Bright Family, Afterlife Mercs",
       "home": "Badlands, NUSA, Arizona",
-      "source": "Cyberpunk 2077",
-      "hint1": "Emily Woo Zeller"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Emily Woo Zeller",
+      "difficulty": "Très facile"
     },
     {
       "id": "papa-sunrise",
@@ -4360,8 +4690,9 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "pedro-aimar",
@@ -4373,8 +4704,9 @@
       "occupation": "Coder",
       "affiliation": "Zetatech",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Bernardo De Paula"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Bernardo De Paula",
+      "difficulty": "Moyen"
     },
     {
       "id": "pepe-najarro",
@@ -4386,8 +4718,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ronan Summers",
+      "difficulty": "Difficile"
     },
     {
       "id": "peter-sampson",
@@ -4401,8 +4734,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "peter-upmann",
@@ -4414,8 +4748,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "philippe-oreste",
@@ -4429,8 +4764,9 @@
       "occupation": "Ship captain () Gang leader",
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "pilar",
@@ -4444,8 +4780,9 @@
       "occupation": "Mercenary",
       "affiliation": "Maine",
       "home": "Watson, Night City",
-      "source": "Les deux",
-      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)",
+      "difficulty": "Facile"
     },
     {
       "id": "placide",
@@ -4457,8 +4794,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Lovensky Jean-Baptiste"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Lovensky Jean-Baptiste",
+      "difficulty": "Facile"
     },
     {
       "id": "principal",
@@ -4470,8 +4808,9 @@
       "occupation": "Academy principal",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "purple-force",
@@ -4483,8 +4822,9 @@
       "occupation": "",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": "Stephanie Sheh"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Stephanie Sheh",
+      "difficulty": "Facile"
     },
     {
       "id": "peter-horvath",
@@ -4496,8 +4836,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "r3n0",
@@ -4509,8 +4850,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "rache-bartmoss",
@@ -4522,8 +4864,9 @@
       "occupation": "",
       "affiliation": "Militech, CCI Development",
       "home": "The Net",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "rachel-casich",
@@ -4535,8 +4878,9 @@
       "occupation": "Braindance",
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Rebecca Yeo"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Rebecca Yeo",
+      "difficulty": "Difficile"
     },
     {
       "id": "randy-kutcher",
@@ -4550,8 +4894,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kutcher's home, Trailer Park, Red Peaks",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "razor-hugh",
@@ -4563,8 +4908,9 @@
       "occupation": "Boxer",
       "affiliation": "Animals",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "rearview",
@@ -4576,8 +4922,9 @@
       "occupation": "Mechanic Street Racer",
       "affiliation": "Joe's Garage",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "rebeca-price",
@@ -4589,8 +4936,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "rebecca",
@@ -4607,8 +4955,9 @@
       "occupation": "Mercenary",
       "affiliation": "Maine, David",
       "home": "Watson, Night City",
-      "source": "Les deux",
-      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "red-menace",
@@ -4622,8 +4971,9 @@
       "occupation": "",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "regina-jones",
@@ -4637,8 +4987,9 @@
       "occupation": "",
       "affiliation": "WNS, FTF Radio",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Alana Maria"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Alana Maria",
+      "difficulty": "Facile"
     },
     {
       "id": "rhino",
@@ -4650,8 +5001,9 @@
       "occupation": "Boxer",
       "affiliation": "Animals",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Moyen"
     },
     {
       "id": "richard",
@@ -4663,8 +5015,9 @@
       "occupation": "",
       "affiliation": "Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "richard-night",
@@ -4676,8 +5029,9 @@
       "occupation": "Night City",
       "affiliation": "HFN, Night International",
       "home": "Coronado City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ronan Summers",
+      "difficulty": "Difficile"
     },
     {
       "id": "rita-wheeler",
@@ -4689,8 +5043,9 @@
       "occupation": "",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Facile"
     },
     {
       "id": "river-ward",
@@ -4704,8 +5059,9 @@
       "occupation": "Detective Private Investigator",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Robbie Daymond"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Robbie Daymond",
+      "difficulty": "Très facile"
     },
     {
       "id": "robert-wilson",
@@ -4717,8 +5073,9 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Dave B. Mitchell"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Dave B. Mitchell",
+      "difficulty": "Difficile"
     },
     {
       "id": "roger-wang",
@@ -4730,8 +5087,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Kabuki",
-      "source": "Cyberpunk 2077",
-      "hint1": "Noshir Dalal"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Noshir Dalal",
+      "difficulty": "Difficile"
     },
     {
       "id": "rogue-amendiares",
@@ -4747,8 +5105,9 @@
       "occupation": "Mercenary",
       "affiliation": "Afterlife",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Jane Perry"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Jane Perry",
+      "difficulty": "Très facile"
     },
     {
       "id": "roh-chi-won",
@@ -4760,8 +5119,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "roman",
@@ -4773,8 +5133,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "roman-carax",
@@ -4786,8 +5147,9 @@
       "occupation": "Freelance Filmmaker",
       "affiliation": "",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "ronald-malone",
@@ -4803,8 +5165,9 @@
       "occupation": "Junk Vendor",
       "affiliation": "",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "rosalind-myers",
@@ -4818,8 +5181,9 @@
       "occupation": "Marine (former) Militech CEO (former) NUSA President",
       "affiliation": "USMC, Militech, Federalist Party",
       "home": "Washington, D.C., NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Kay Bess"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Kay Bess",
+      "difficulty": "Facile"
     },
     {
       "id": "rose-horrigan",
@@ -4833,8 +5197,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Horrigan Family Home",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "ross-ulmer",
@@ -4846,8 +5211,9 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "roxanne-colton",
@@ -4861,8 +5227,9 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alison Halstead"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alison Halstead",
+      "difficulty": "Moyen"
     },
     {
       "id": "roxanne-sumner",
@@ -4874,8 +5241,9 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alana Maria",
+      "difficulty": "Difficile"
     },
     {
       "id": "ruby-collins",
@@ -4889,8 +5257,9 @@
       "occupation": "Joytoy",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "russel-greene",
@@ -4902,8 +5271,9 @@
       "occupation": "Military ()",
       "affiliation": "",
       "home": "Greene Homestead, Rocky Ridge, northern Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ruth-dzeng",
@@ -4915,8 +5285,9 @@
       "occupation": "Info Flash",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Erika Ishii"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Erika Ishii",
+      "difficulty": "Moyen"
     },
     {
       "id": "saburo-arasaka",
@@ -4930,8 +5301,9 @@
       "occupation": "Ex-soldier Arasaka CEO",
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": "Masane Tsukayama"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Masane Tsukayama",
+      "difficulty": "Très facile"
     },
     {
       "id": "sachiko-kusama",
@@ -4943,8 +5315,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Arasaka Orbital Station",
-      "source": "Cyberpunk 2077",
-      "hint1": "Cristina Valenzuela"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Cristina Valenzuela",
+      "difficulty": "Difficile"
     },
     {
       "id": "saki-seo",
@@ -4956,8 +5329,9 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sal-bigelow",
@@ -4969,8 +5343,9 @@
       "occupation": "Braindance parlor",
       "affiliation": "",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "sam-carter",
@@ -4982,8 +5357,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Graham Vick"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Graham Vick",
+      "difficulty": "Difficile"
     },
     {
       "id": "samantha-samu",
@@ -4997,8 +5373,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sammy-taylor",
@@ -5010,8 +5387,9 @@
       "occupation": "Netrunner Vendor",
       "affiliation": "",
       "home": "Dogtown, Pacifica",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sandayu-oda",
@@ -5023,8 +5401,9 @@
       "occupation": "Bodyguard",
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": "Noshir Dalal"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Noshir Dalal",
+      "difficulty": "Facile"
     },
     {
       "id": "sandra-dorsett",
@@ -5036,8 +5415,9 @@
       "occupation": "",
       "affiliation": "Night Corp",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "santiago",
@@ -5053,8 +5433,9 @@
       "occupation": "Mercenary",
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "santiago-molina",
@@ -5066,8 +5447,9 @@
       "occupation": "Ripperdoc",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Dar Dash"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Dar Dash",
+      "difficulty": "Difficile"
     },
     {
       "id": "sasha-yakovleva",
@@ -5079,8 +5461,9 @@
       "occupation": "Mercenary",
       "affiliation": "Maine",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "saul-bright",
@@ -5092,8 +5475,9 @@
       "occupation": "Aldecaldos family leader",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Diarmaid Murtagh"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Diarmaid Murtagh",
+      "difficulty": "Facile"
     },
     {
       "id": "sebastian-ibarra",
@@ -5108,8 +5492,9 @@
       "occupation": "Priest () Heywood fixer",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Al Rodrigo"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Al Rodrigo",
+      "difficulty": "Facile"
     },
     {
       "id": "serena-zhao",
@@ -5123,8 +5508,9 @@
       "occupation": "Glamdoc",
       "affiliation": "",
       "home": "Downtown, City Center",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "sergei-karasinsky",
@@ -5136,8 +5522,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Gunnar Cauthery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Gunnar Cauthery",
+      "difficulty": "Difficile"
     },
     {
       "id": "shaitan",
@@ -5149,8 +5536,9 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Pacific Rim, 2045",
-      "source": "Cyberpunk 2077",
-      "hint1": "Shai Matheson"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Shai Matheson",
+      "difficulty": "Moyen"
     },
     {
       "id": "shinobu-imai",
@@ -5162,8 +5550,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sho-gun-rose",
@@ -5175,8 +5564,9 @@
       "occupation": "Glamdoc, Joytoy",
       "affiliation": "Mox",
       "home": "Charter Hill, Westbrook",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "simon-randall",
@@ -5190,8 +5580,9 @@
       "occupation": "Gang Boss",
       "affiliation": "Maelstrom",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "skye",
@@ -5203,8 +5594,9 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Emma Ballantine"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Emma Ballantine",
+      "difficulty": "Difficile"
     },
     {
       "id": "slavoj-mcallister",
@@ -5216,8 +5608,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "solomon-reed",
@@ -5231,8 +5624,9 @@
       "occupation": "Soldier () FIA Agent Bouncer (temporarily)",
       "affiliation": "NUSA SpecOps, FIA, NUSA, Dino Dinovic",
       "home": "Washington, D.C., Night City",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "song-so-mi",
@@ -5247,8 +5641,9 @@
       "occupation": "President Myers",
       "affiliation": "FIA, NUSA",
       "home": "Brooklyn, NYC, Washington, D.C.",
-      "source": "Cyberpunk 2077",
-      "hint1": "Minji Chang"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Minji Chang",
+      "difficulty": "Facile"
     },
     {
       "id": "sophia-dupont",
@@ -5260,8 +5655,9 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "spector-cheng",
@@ -5273,8 +5669,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "spider-murphy",
@@ -5289,8 +5686,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Erica Lindbeck"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Erica Lindbeck",
+      "difficulty": "Facile"
     },
     {
       "id": "spite-vondell",
@@ -5302,8 +5700,9 @@
       "occupation": "Glamdoc",
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "stanley-media",
@@ -5317,8 +5716,9 @@
       "occupation": "Radio Host",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Roger Rose"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Roger Rose",
+      "difficulty": "Moyen"
     },
     {
       "id": "starkey",
@@ -5330,8 +5730,9 @@
       "occupation": "Driver",
       "affiliation": "Aldecaldos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "stefan",
@@ -5343,8 +5744,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "stella-ramos",
@@ -5356,8 +5758,9 @@
       "occupation": "Officer",
       "affiliation": "NCPD",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Suzi Hunter"
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "Suzi Hunter",
+      "difficulty": "Moyen"
     },
     {
       "id": "steve-sanchez",
@@ -5369,8 +5772,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "West Wind Estate, Pacifica, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Sebastián Capitán Viveros"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Sebastián Capitán Viveros",
+      "difficulty": "Moyen"
     },
     {
       "id": "steven-santos",
@@ -5382,8 +5786,9 @@
       "occupation": "BIA Agent",
       "affiliation": "Brazilian Intelligence Agency, Barghest",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "susan-abernathy",
@@ -5395,8 +5800,9 @@
       "occupation": "Director of Special Operations",
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "susanna-mack",
@@ -5408,8 +5814,9 @@
       "occupation": "Meds Vendor",
       "affiliation": "Trauma Team",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "susanna-quinn",
@@ -5425,8 +5832,9 @@
       "occupation": "",
       "affiliation": "The Mox",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alana Maria",
+      "difficulty": "Moyen"
     },
     {
       "id": "t-bug",
@@ -5440,8 +5848,9 @@
       "occupation": "Mercenary",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Cynthia Kaye McWilliams"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Cynthia Kaye McWilliams",
+      "difficulty": "Très facile"
     },
     {
       "id": "taco",
@@ -5453,8 +5862,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "takeshi-kazou",
@@ -5466,8 +5876,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "taki-kenmochi",
@@ -5479,8 +5890,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "talia-yang",
@@ -5492,8 +5904,9 @@
       "occupation": "Executive () Gang member",
       "affiliation": "Maelstrom, Kang Tao",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "tamara-cosby",
@@ -5505,8 +5918,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tanaka",
@@ -5518,8 +5932,9 @@
       "occupation": "Arasaka Academy",
       "affiliation": "Arasaka",
       "home": "Night City",
-      "source": "Edgerunners",
-      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "tatsuya-takei",
@@ -5531,8 +5946,9 @@
       "occupation": "",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "ted-fox",
@@ -5544,8 +5960,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ronan Summers"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ronan Summers",
+      "difficulty": "Moyen"
     },
     {
       "id": "theo-price",
@@ -5557,8 +5974,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Megabuilding H8, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Amelia Rose Blaire"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Amelia Rose Blaire",
+      "difficulty": "Difficile"
     },
     {
       "id": "theodore-simos",
@@ -5572,8 +5990,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": "Shai Matheson"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Shai Matheson",
+      "difficulty": "Facile"
     },
     {
       "id": "thomas-hays",
@@ -5585,8 +6004,9 @@
       "occupation": "",
       "affiliation": "Valentino",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ti-neptune",
@@ -5598,8 +6018,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tom",
@@ -5611,8 +6032,9 @@
       "occupation": "Tom's Diner",
       "affiliation": "",
       "home": "",
-      "source": "Les deux",
-      "hint1": ""
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tom-ayer",
@@ -5626,8 +6048,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tom-caldera",
@@ -5639,8 +6062,9 @@
       "occupation": "",
       "affiliation": "Clouds",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Shai Matheson"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Shai Matheson",
+      "difficulty": "Difficile"
     },
     {
       "id": "tommie-walker",
@@ -5652,8 +6076,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "toshiro-harada",
@@ -5665,8 +6090,9 @@
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Yoshi Ando"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "tracy-phillips",
@@ -5678,8 +6104,9 @@
       "occupation": "",
       "affiliation": "Afterlife",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "trevor-brass",
@@ -5691,8 +6118,9 @@
       "occupation": "",
       "affiliation": "Aldecaldos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "tucker-albach",
@@ -5704,8 +6132,9 @@
       "occupation": "",
       "affiliation": "Kiroshi Optics",
       "home": "Tucker Albach's Apartment, The Glen, Heywood",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lucy Montgomery"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "tyler-brown",
@@ -5717,8 +6146,9 @@
       "occupation": "",
       "affiliation": "None",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "v",
@@ -5736,8 +6166,9 @@
       "occupation": "Mercenary",
       "affiliation": "Bakkers, Nomad, Arasaka, Corpo, Afterlife Mercs, Samurai, Aldecaldos, FIA, NUSA",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)",
+      "difficulty": "Très facile"
     },
     {
       "id": "vance-noren",
@@ -5749,8 +6180,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "vasquez",
@@ -5762,8 +6194,9 @@
       "occupation": "Lieutenant",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "vic-vega",
@@ -5775,8 +6208,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "viktor-vektor",
@@ -5793,8 +6227,9 @@
       "occupation": "Ripperdoc",
       "affiliation": "Night City Devils, Zetatech",
       "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Michael Gregory"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Michael Gregory",
+      "difficulty": "Très facile"
     },
     {
       "id": "vortex",
@@ -5806,8 +6241,9 @@
       "occupation": "Dealer, Operator",
       "affiliation": "Tyger Claws",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "wade-bleecker",
@@ -5822,8 +6258,9 @@
       "occupation": "",
       "affiliation": "Petrochem",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)",
+      "difficulty": "Moyen"
     },
     {
       "id": "wakako-okada",
@@ -5837,8 +6274,9 @@
       "occupation": "Lab medtech () Broker",
       "affiliation": "Kiroshi, Tyger Claws",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Ren Hanami"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Ren Hanami",
+      "difficulty": "Facile"
     },
     {
       "id": "wayne-johnson",
@@ -5850,8 +6288,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "weak-kingsley",
@@ -5865,8 +6304,9 @@
       "occupation": "Mercenary",
       "affiliation": "Team King ()",
       "home": "Night City",
-      "source": "Les deux",
-      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "weldon-holt",
@@ -5880,8 +6320,9 @@
       "occupation": "Acting Mayor",
       "affiliation": "Devolutionist Party, Mayor's Office",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Dave B. Mitchell"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Dave B. Mitchell",
+      "difficulty": "Difficile"
     },
     {
       "id": "wilky-laguerre",
@@ -5896,8 +6337,9 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Borge Etienne"
+      "firstAppearance": "Edgerunners Saison 1",
+      "hint1": "Borge Etienne",
+      "difficulty": "Moyen"
     },
     {
       "id": "will-gunner",
@@ -5909,8 +6351,9 @@
       "occupation": "General of the 6th Street",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "william-hare",
@@ -5924,8 +6367,9 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "willie-mccoy",
@@ -5937,8 +6381,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "SoCal",
-      "source": "Cyberpunk 2077",
-      "hint1": "Akie Kotabe"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Akie Kotabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "wyatt-alken",
@@ -5950,8 +6395,9 @@
       "occupation": "",
       "affiliation": "6th Street",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "xochi-peralez",
@@ -5963,8 +6409,9 @@
       "occupation": "Student",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "yawen-packard",
@@ -5976,8 +6423,9 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Emily Woo Zeller"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Emily Woo Zeller",
+      "difficulty": "Difficile"
     },
     {
       "id": "yelena-sidorova",
@@ -5989,8 +6437,9 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "yishen-rhee",
@@ -6002,8 +6451,9 @@
       "occupation": "Mercenary",
       "affiliation": "Afterlife Mercs, Red Willow",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "yoko-tsuru",
@@ -6015,8 +6465,9 @@
       "occupation": "Netrunning Vendor",
       "affiliation": "",
       "home": "Kabuki, Watson",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ren Hanami"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ren Hanami",
+      "difficulty": "Moyen"
     },
     {
       "id": "yorinobu-arasaka",
@@ -6030,8 +6481,9 @@
       "occupation": "Gangster",
       "affiliation": "Steel Dragons, Arasaka, Taka, Nomads",
       "home": "Tokyo, Japan",
-      "source": "Cyberpunk 2077",
-      "hint1": "Hideo Kimura"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Hideo Kimura",
+      "difficulty": "Très facile"
     },
     {
       "id": "yupi",
@@ -6043,8 +6495,9 @@
       "occupation": "",
       "affiliation": "D",
       "home": "",
-      "source": "Edgerunners",
-      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)"
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "yuri-bychkov",
@@ -6056,8 +6509,9 @@
       "occupation": "BARGHEST Lieutenant",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Phantom Liberty",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "zane-jagger",
@@ -6069,8 +6523,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "zaria-hughes",
@@ -6082,8 +6537,9 @@
       "occupation": "",
       "affiliation": "Maelstrom",
       "home": "Watson (2077), Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "zeke-daniels",
@@ -6097,8 +6553,9 @@
       "occupation": "Musician (Guitarist & Singer) Waiter",
       "affiliation": "Forlorn Hope",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "zen-master",
@@ -6112,8 +6569,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": "Vic Chao"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Vic Chao",
+      "difficulty": "Difficile"
     },
     {
       "id": "zhan-qiu",
@@ -6125,8 +6583,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ziggy-q",
@@ -6138,8 +6597,9 @@
       "occupation": "Talk Show Host",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Ben Cura"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Ben Cura",
+      "difficulty": "Moyen"
     },
     {
       "id": "zion-wylde",
@@ -6151,8 +6611,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "zoe-alonzo",
@@ -6164,8 +6625,9 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "zoli-barnes",
@@ -6177,8 +6639,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "zuleikha-el-ahmar",
@@ -6190,8 +6653,9 @@
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Lara Sawalha"
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Lara Sawalha",
+      "difficulty": "Difficile"
     },
     {
       "id": "zena-delice",
@@ -6203,8 +6667,9 @@
       "occupation": "Glamdoc",
       "affiliation": "Voodoo Boys",
       "home": "West Wind Estate, Pacifica",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "",
+      "difficulty": "Difficile"
     }
   ]
 }
