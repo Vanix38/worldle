@@ -57,15 +57,15 @@
     }
   },
   "fieldPrevalence": {
-    "gender": 0.975,
-    "status": 0.574,
-    "role": 0.562,
-    "occupation": 0.437,
-    "affiliation": 0.665,
-    "home": 0.636,
-    "source": 1,
-    "aliases": 0.232,
-    "hint1": 0.413
+    "gender": 0.981,
+    "status": 0.562,
+    "role": 0.573,
+    "occupation": 0.434,
+    "affiliation": 0.681,
+    "home": 0.629,
+    "source": 1.0,
+    "aliases": 0.23,
+    "hint1": 0.431
   },
   "hintInterval": 5,
   "characters": [
@@ -885,19 +885,6 @@
       "hint1": ""
     },
     {
-      "id": "big-pete",
-      "name": "Big Pete",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "Techie",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "bill-jablonsky",
       "name": "Bill Jablonsky",
       "aliases": [],
@@ -1136,19 +1123,6 @@
       "hint1": ""
     },
     {
-      "id": "campo-orta",
-      "name": "Campo Orta",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Gangster",
-      "affiliation": "Valentinos",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "capricorn",
       "name": "Capricorn",
       "aliases": [
@@ -1259,19 +1233,6 @@
       "home": "",
       "source": "Cyberpunk 2077",
       "hint1": ""
-    },
-    {
-      "id": "cesar-diego-ruiz",
-      "name": "César Diego Ruiz",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "",
-      "affiliation": "Valentinos",
-      "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Nicolas Roye"
     },
     {
       "id": "chang-hoon-nam",
@@ -1512,6 +1473,19 @@
       "hint1": "Lucy Montgomery"
     },
     {
+      "id": "cesar-diego-ruiz",
+      "name": "César Diego Ruiz",
+      "aliases": [],
+      "gender": "Homme",
+      "status": "Vivant",
+      "role": "",
+      "occupation": "",
+      "affiliation": "Valentinos",
+      "home": "Heywood, Night City",
+      "source": "Cyberpunk 2077",
+      "hint1": "Nicolas Roye"
+    },
+    {
       "id": "dakota-smith",
       "name": "Dakota Smith",
       "aliases": [
@@ -1685,19 +1659,6 @@
       "occupation": "Clothing Vendor",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "dean-russell",
-      "name": "Dean Russell",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "Techie",
-      "occupation": "",
-      "affiliation": "Militech",
-      "home": "Night City",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -1990,21 +1951,6 @@
       "affiliation": "Delphi X, Strip club",
       "home": "Night City",
       "source": "Les deux",
-      "hint1": ""
-    },
-    {
-      "id": "elizabeth-kress",
-      "name": "Elizabeth Kress",
-      "aliases": [
-        "Bullheaded Betty"
-      ],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "Corpo, Lawman",
-      "occupation": "",
-      "affiliation": "United States Armed Forces, Militech, Federalist Party, NUSA",
-      "home": "Washington, D.C., NUSA",
-      "source": "Cyberpunk 2077",
       "hint1": ""
     },
     {
@@ -2342,19 +2288,6 @@
       "occupation": "Food Vendor",
       "affiliation": "",
       "home": "Biotechnica Flats, Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "food-vendor-cherry-blossom-market",
-      "name": "Food Vendor (Cherry Blossom Market)",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Food Vendor",
-      "affiliation": "",
-      "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -3003,32 +2936,6 @@
       "hint1": ""
     },
     {
-      "id": "jacob-lamb",
-      "name": "Jacob Lamb",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "Media",
-      "occupation": "Movie Director ()",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "jacob-long",
-      "name": "Jacob Long",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "jae-hyun-lee",
       "name": "Jae-Hyun Lee",
       "aliases": [],
@@ -3155,19 +3062,6 @@
       "occupation": "Netrunner",
       "affiliation": "MaxTac",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "javier-alvarado",
-      "name": "Javier Alvarado",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "Lawman",
-      "occupation": "Political Advisor",
-      "affiliation": "Devolutionist Party",
-      "home": "Night City",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -3373,19 +3267,6 @@
       "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)"
     },
     {
-      "id": "jose-luis",
-      "name": "José Luis",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "",
-      "role": "",
-      "occupation": "Ganger",
-      "affiliation": "Valentinos",
-      "home": "Heywood, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Bernardo De Paula"
-    },
-    {
       "id": "josh-kavorkin",
       "name": "Josh Kavorkin",
       "aliases": [],
@@ -3436,6 +3317,19 @@
       "home": "Kutcher's home, Night City",
       "source": "Cyberpunk 2077",
       "hint1": "Tonantzin Carmelo"
+    },
+    {
+      "id": "jose-luis",
+      "name": "José Luis",
+      "aliases": [],
+      "gender": "Homme",
+      "status": "",
+      "role": "",
+      "occupation": "Ganger",
+      "affiliation": "Valentinos",
+      "home": "Heywood, Night City",
+      "source": "Cyberpunk 2077",
+      "hint1": "Bernardo De Paula"
     },
     {
       "id": "jotaro-shobo",
@@ -3895,19 +3789,6 @@
       "hint1": ""
     },
     {
-      "id": "lana-prince",
-      "name": "Lana Prince",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "",
-      "role": "Techie",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alanah Pearce"
-    },
-    {
       "id": "lance-hardy",
       "name": "Lance Hardy",
       "aliases": [],
@@ -3984,21 +3865,6 @@
       "occupation": "",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "lenny-nero",
-      "name": "Lenny Nero",
-      "aliases": [
-        "Dealer"
-      ],
-      "gender": "Homme",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Japantown, Westbrook",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -4139,19 +4005,6 @@
       "hint1": ""
     },
     {
-      "id": "lucas-harford",
-      "name": "Lucas Harford",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "Corpo",
-      "occupation": "",
-      "affiliation": "Militech",
-      "home": "NUSA",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "lucius-rhyne",
       "name": "Lucius Rhyne",
       "aliases": [],
@@ -4207,19 +4060,6 @@
       "home": "Westbrook, NC",
       "source": "Edgerunners",
       "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)"
-    },
-    {
-      "id": "lyle-mcclellan",
-      "name": "Lyle McClellan",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "Media",
-      "occupation": "",
-      "affiliation": "Network 54",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "lyle-thompson",
@@ -4494,45 +4334,6 @@
       "hint1": ""
     },
     {
-      "id": "meds-vendor-arroyo",
-      "name": "Meds Vendor (Arroyo)",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Arroyo, Santo Domingo",
-      "source": "Cyberpunk 2077",
-      "hint1": "James Goode"
-    },
-    {
-      "id": "meds-vendor-coastview",
-      "name": "Meds Vendor (Coastview)",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Coastview, Pacifica",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "meds-vendor-corpo-plaza",
-      "name": "Meds Vendor (Corpo Plaza)",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Corpo Plaza, City Center",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "meds-vendor-docks",
       "name": "Meds Vendor (Docks)",
       "aliases": [],
@@ -4544,32 +4345,6 @@
       "home": "Northside, Watson",
       "source": "Cyberpunk 2077",
       "hint1": "Graham Vick"
-    },
-    {
-      "id": "meds-vendor-downtown",
-      "name": "Meds Vendor (Downtown)",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Downtown, City Center",
-      "source": "Cyberpunk 2077",
-      "hint1": "Maria Louis"
-    },
-    {
-      "id": "meds-vendor-japantown",
-      "name": "Meds Vendor (Japantown)",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Japantown, Westbrook",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "meds-vendor-little-china",
@@ -4596,45 +4371,6 @@
       "home": "Northside, Watson",
       "source": "Cyberpunk 2077",
       "hint1": ""
-    },
-    {
-      "id": "meds-vendor-rancho-coronado",
-      "name": "Meds Vendor (Rancho Coronado)",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Rancho Coronado, Santo Domingo",
-      "source": "Cyberpunk 2077",
-      "hint1": "Alana Maria"
-    },
-    {
-      "id": "meds-vendor-rocky-ridge",
-      "name": "Meds Vendor (Rocky Ridge)",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Rocky Ridge, Badlands",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "meds-vendor-wellsprings",
-      "name": "Meds Vendor (Wellsprings)",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Meds Vendor",
-      "affiliation": "",
-      "home": "Wellsprings, Heywood",
-      "source": "Cyberpunk 2077",
-      "hint1": "Mark Holden"
     },
     {
       "id": "melissa-rory",
@@ -4689,21 +4425,6 @@
       "home": "Night City",
       "source": "Les deux",
       "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)"
-    },
-    {
-      "id": "michael-galleck",
-      "name": "Michael Galleck",
-      "aliases": [
-        "Mike"
-      ],
-      "gender": "Homme",
-      "status": "Inconnu",
-      "role": "Netrunner",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Watson, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "michael-maldonado",
@@ -5250,34 +4971,6 @@
       "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)"
     },
     {
-      "id": "olga-elisabeth-longmead",
-      "name": "Olga Elisabeth Longmead",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "",
-      "role": "",
-      "occupation": "",
-      "affiliation": "6th Street",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "olivia-garland",
-      "name": "Olivia Garland",
-      "aliases": [
-        "Liv"
-      ],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Police officer",
-      "affiliation": "NCPD",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "omi",
       "name": "Omi",
       "aliases": [],
@@ -5442,32 +5135,6 @@
       "hint1": "Ronan Summers"
     },
     {
-      "id": "peter-feldheimer",
-      "name": "Peter Feldheimer",
-      "aliases": [],
-      "gender": "",
-      "status": "Mort",
-      "role": "",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "peter-horvath",
-      "name": "Péter Horváth",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "Cyberpsycho",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "peter-sampson",
       "name": "Peter Sampson",
       "aliases": [
@@ -5491,19 +5158,6 @@
       "role": "",
       "occupation": "",
       "affiliation": "Scavengers",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "phil-nacho-hernandez",
-      "name": "Phil \"Nacho\" Hernandez",
-      "aliases": [],
-      "gender": "",
-      "status": "",
-      "role": "Fixer",
-      "occupation": "",
-      "affiliation": "",
       "home": "",
       "source": "Cyberpunk 2077",
       "hint1": ""
@@ -5591,6 +5245,19 @@
       "hint1": "Stephanie Sheh"
     },
     {
+      "id": "peter-horvath",
+      "name": "Péter Horváth",
+      "aliases": [],
+      "gender": "Homme",
+      "status": "Mort",
+      "role": "Cyberpsycho",
+      "occupation": "",
+      "affiliation": "",
+      "home": "",
+      "source": "Cyberpunk 2077",
+      "hint1": ""
+    },
+    {
       "id": "r3n0",
       "name": "R3n0",
       "aliases": [],
@@ -5630,19 +5297,6 @@
       "hint1": "Rebecca Yeo"
     },
     {
-      "id": "ramos",
-      "name": "Ramos",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "Police commissioner",
-      "affiliation": "NCPD",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "randy-kutcher",
       "name": "Randy Kutcher",
       "aliases": [
@@ -5667,19 +5321,6 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "raul-welles",
-      "name": "Raúl Welles",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "Gangster",
-      "occupation": "",
-      "affiliation": "Valentinos",
-      "home": "Welles' house",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -5808,21 +5449,6 @@
       "home": "Coronado City",
       "source": "Cyberpunk 2077",
       "hint1": "Ronan Summers"
-    },
-    {
-      "id": "rick-morton",
-      "name": "Rick Morton",
-      "aliases": [
-        "Ricky"
-      ],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "",
-      "occupation": "General of the 6th Street",
-      "affiliation": "6th Street",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "rita-wheeler",
@@ -6557,21 +6183,6 @@
       "hint1": "Suzi Hunter"
     },
     {
-      "id": "steve-kowalski",
-      "name": "Steve Kowalski",
-      "aliases": [
-        "Razor"
-      ],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "",
-      "occupation": "",
-      "affiliation": "Wraiths",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "steve-sanchez",
       "name": "Steve Sanchez",
       "aliases": [],
@@ -6695,19 +6306,6 @@
       "hint1": ""
     },
     {
-      "id": "taki-kazo",
-      "name": "Taki Kazo",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "",
-      "occupation": "",
-      "affiliation": "Tyger Claws",
-      "home": "Westbrook, Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "taki-kenmochi",
       "name": "Taki Kenmochi",
       "aliases": [],
@@ -6773,19 +6371,6 @@
       "hint1": ""
     },
     {
-      "id": "taylor-gibbs",
-      "name": "Taylor Gibbs",
-      "aliases": [],
-      "gender": "Homme",
-      "status": "",
-      "role": "Nomad",
-      "occupation": "",
-      "affiliation": "",
-      "home": "",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "ted-fox",
       "name": "Ted Fox",
       "aliases": [],
@@ -6810,21 +6395,6 @@
       "home": "Megabuilding H8, Night City",
       "source": "Cyberpunk 2077",
       "hint1": "Amelia Rose Blaire"
-    },
-    {
-      "id": "theodore-h-collins",
-      "name": "Theodore H. Collins",
-      "aliases": [
-        "Ted"
-      ],
-      "gender": "Homme",
-      "status": "Vivant",
-      "role": "",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
     },
     {
       "id": "theodore-simos",
@@ -6864,21 +6434,6 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
-      "id": "timmy-g",
-      "name": "Timmy G",
-      "aliases": [
-        "TG"
-      ],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "Netrunner, Fixer",
-      "occupation": "",
-      "affiliation": "",
-      "home": "Watson, Night City",
       "source": "Cyberpunk 2077",
       "hint1": ""
     },
@@ -7449,19 +7004,6 @@
       "hint1": "Vic Chao"
     },
     {
-      "id": "zena-delice",
-      "name": "Zéna Delicé",
-      "aliases": [],
-      "gender": "Femme",
-      "status": "Vivant",
-      "role": "Netrunner",
-      "occupation": "Glamdoc",
-      "affiliation": "Voodoo Boys",
-      "home": "West Wind Estate, Pacifica",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "zhan-qiu",
       "name": "Zhan Qiu",
       "aliases": [],
@@ -7527,22 +7069,6 @@
       "hint1": ""
     },
     {
-      "id": "zor",
-      "name": "Zor",
-      "aliases": [
-        "Jay",
-        "ArS-03"
-      ],
-      "gender": "Homme",
-      "status": "Mort",
-      "role": "",
-      "occupation": "Pest control employee () AV pilot () Soldier (, fabricated memories)",
-      "affiliation": "Militech, Trauma Team, NUSA",
-      "home": "Night City",
-      "source": "Cyberpunk 2077",
-      "hint1": ""
-    },
-    {
       "id": "zuleikha-el-ahmar",
       "name": "Zuleikha El-Ahmar",
       "aliases": [],
@@ -7554,6 +7080,19 @@
       "home": "Night City",
       "source": "Cyberpunk 2077",
       "hint1": "Lara Sawalha"
+    },
+    {
+      "id": "zena-delice",
+      "name": "Zéna Delicé",
+      "aliases": [],
+      "gender": "Femme",
+      "status": "Vivant",
+      "role": "Netrunner",
+      "occupation": "Glamdoc",
+      "affiliation": "Voodoo Boys",
+      "home": "West Wind Estate, Pacifica",
+      "source": "Cyberpunk 2077",
+      "hint1": ""
     }
   ]
 }

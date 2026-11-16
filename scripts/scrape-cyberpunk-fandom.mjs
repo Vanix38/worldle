@@ -2,6 +2,9 @@
  * Scrape cyberpunk.fandom.com — personnages Cyberpunk 2077 + Edgerunners
  * → data/cyberpunk.json
  *
+ * Filtre : ignore les fiches sans appears_* et celles seulement "(mentioned)"
+ * dans 2077 / Edgerunners (garde les apparitions réelles jeu ou anime).
+ *
  * Analyse des champs (Infobox Character) sur V, Johnny Silverhand,
  * David Martinez, Lucyna Kushinada, Judy Álvarez, Panam Palmer, Jackie Welles :
  *   title, aka, status, gender, home, residence, affiliation,
@@ -348,26 +351,59 @@ function normalizeStatus(raw) {
   return first;
 }
 
-function detectSources(params, categoriesForPage) {
-  const blob = [
+/** Normalize wiki appearance blob (templates + rare plain links). */
+function appearanceBlob(params) {
+  let blob = [
     params.appears_games || "",
     params.appears_other || "",
     params.appears_books || "",
+    params.appearances || "",
   ].join("\n");
-  const hasGame =
-    /\{\{\s*CP\s*\|\s*2077/i.test(blob) ||
-    categoriesForPage.has("2077");
-  const hasEdge =
-    /\{\{\s*CP\s*\|\s*EDGE/i.test(blob) ||
-    /\{\{\s*CP\s*\|\s*CEMK/i.test(blob) ||
-    categoriesForPage.has("edgerunners");
+  blob = blob
+    .replace(/\[\[Cyberpunk 2077(?:\|[^\]]+)?\]\]/gi, "{{CP|2077}}")
+    .replace(/\[\[Cyberpunk: Edgerunners(?:\|[^\]]+)?\]\]/gi, "{{CP|EDGE}}");
+  return blob;
+}
+
+/**
+ * True only if the character actually appears in CP2077 / PL or Edgerunners
+ * (not merely "(mentioned)", and not empty appears_*).
+ */
+function hasPlayableAppearance(params) {
+  const blob = appearanceBlob(params);
+  if (!blob.trim()) return false;
+  const tokens = [...blob.matchAll(/\{\{\s*CP\s*\|\s*([^}|]+?)\s*\}\}(\s*\([^)]*\))?/gi)];
+  for (const m of tokens) {
+    const tag = (m[1] || "").trim().toUpperCase();
+    const note = m[2] || "";
+    if (/\bmention/i.test(note)) continue;
+    if (tag === "2077" || tag === "2077PL") return true;
+    if (tag.startsWith("EDGE") || tag === "CEMK" || tag === "EDGEMAD") return true;
+  }
+  return false;
+}
+
+function detectSources(params, categoriesForPage) {
+  const blob = appearanceBlob(params);
+  const tokens = [...blob.matchAll(/\{\{\s*CP\s*\|\s*([^}|]+?)\s*\}\}(\s*\([^)]*\))?/gi)];
+  let hasGame = false;
+  let hasEdge = false;
+  for (const m of tokens) {
+    const tag = (m[1] || "").trim().toUpperCase();
+    const note = m[2] || "";
+    if (/\bmention/i.test(note)) continue;
+    if (tag === "2077" || tag === "2077PL") hasGame = true;
+    if (tag.startsWith("EDGE") || tag === "CEMK" || tag === "EDGEMAD") hasEdge = true;
+  }
+  // Category fallback only when templates already confirmed a real appearance
+  if (!hasGame && !hasEdge) {
+    if (categoriesForPage.has("edgerunners") && categoriesForPage.has("2077")) return "Les deux";
+    if (categoriesForPage.has("edgerunners")) return "Edgerunners";
+    if (categoriesForPage.has("2077")) return "Cyberpunk 2077";
+    return "Cyberpunk 2077";
+  }
   if (hasGame && hasEdge) return "Les deux";
   if (hasEdge) return "Edgerunners";
-  if (hasGame) return "Cyberpunk 2077";
-  // Fallback: category membership
-  if (categoriesForPage.has("edgerunners") && categoriesForPage.has("2077")) return "Les deux";
-  if (categoriesForPage.has("edgerunners")) return "Edgerunners";
-  if (categoriesForPage.has("2077")) return "Cyberpunk 2077";
   return "Cyberpunk 2077";
 }
 
@@ -455,6 +491,9 @@ function ensureDefaults(char) {
 }
 
 function buildCharacter(pageTitle, params, categoryTags) {
+  // Skip mentioned-only lore entries and NPCs/enemies with empty appears_*
+  if (!hasPlayableAppearance(params)) return null;
+
   const name = extractDisplayName(params, pageTitle);
   const gender = normalizeGender(params.gender || "");
   const status = normalizeStatus(params.status || "");
