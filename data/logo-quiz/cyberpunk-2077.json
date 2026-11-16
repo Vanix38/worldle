@@ -18,8 +18,7 @@
         { "id": "voodoo-boys", "name": "Voodoo Boys", "aliases": ["VoodooBoys"], "difficulty": "Facile" },
         { "id": "wraiths", "name": "Wraiths", "difficulty": "Moyen" },
         { "id": "aldecaldos", "name": "Aldecaldos", "difficulty": "Moyen" },
-        { "id": "barghest", "name": "Barghest", "difficulty": "Difficile" },
-        { "id": "scavengers", "name": "Scavengers", "aliases": ["Scavs", "Scav"], "difficulty": "Moyen" }
+        { "id": "barghest", "name": "Barghest", "difficulty": "Difficile" }
       ]
     },
     {
