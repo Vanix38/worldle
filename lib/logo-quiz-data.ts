@@ -5,7 +5,10 @@ import type {
   LogoQuizPackListItem,
   LogoQuizSection,
 } from "@/types/logo-quiz";
-import { normalizeLogoDifficulty } from "@/lib/logo-quiz-difficulty";
+import {
+  difficultyRank,
+  normalizeLogoDifficulty,
+} from "@/lib/logo-quiz-difficulty";
 import fs from "fs";
 import path from "path";
 
@@ -117,6 +120,13 @@ function parseLogoEntry(
   return entry;
 }
 
+function compareLogosByDifficulty(a: LogoEntry, b: LogoEntry): number {
+  const rankA = a.difficulty != null ? difficultyRank(a.difficulty) : Number.POSITIVE_INFINITY;
+  const rankB = b.difficulty != null ? difficultyRank(b.difficulty) : Number.POSITIVE_INFINITY;
+  if (rankA !== rankB) return rankA - rankB;
+  return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
+}
+
 function parseLogoList(
   items: unknown[],
   packId: string,
@@ -128,6 +138,7 @@ function parseLogoList(
     const entry = parseLogoEntry(item, packId, enrichImages, seenIds);
     if (entry) logos.push(entry);
   }
+  logos.sort(compareLogosByDifficulty);
   return logos;
 }
 

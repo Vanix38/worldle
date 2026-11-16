@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import {
   getCompletedLogoIds,
   markLogoCompleted,
+  unmarkLogoCompleted,
 } from "@/lib/logo-quiz-progress";
 
 export function useLogoQuizProgress(packId: string) {
@@ -24,6 +25,15 @@ export function useLogoQuizProgress(packId: string) {
     [packId]
   );
 
+  const unmarkCompleted = useCallback(
+    (logoId: string) => {
+      const next = unmarkLogoCompleted(packId, logoId);
+      setCompletedIds(next);
+      return next;
+    },
+    [packId]
+  );
+
   const isCompleted = useCallback(
     (logoId: string) => completedIds.includes(logoId),
     [completedIds]
@@ -34,6 +44,7 @@ export function useLogoQuizProgress(packId: string) {
     completedCount: completedIds.length,
     hydrated,
     markCompleted,
+    unmarkCompleted,
     isCompleted,
   };
 }

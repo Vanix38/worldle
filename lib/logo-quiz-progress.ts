@@ -37,3 +37,16 @@ export function markLogoCompleted(packId: string, logoId: string): string[] {
   }
   return next;
 }
+
+export function unmarkLogoCompleted(packId: string, logoId: string): string[] {
+  const all = loadLogoQuizProgress();
+  const next = (all[packId] ?? []).filter((id) => id !== logoId);
+  if (next.length > 0) all[packId] = next;
+  else delete all[packId];
+  try {
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
+  } catch {
+    // ignore
+  }
+  return next;
+}

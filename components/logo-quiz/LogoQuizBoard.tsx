@@ -33,28 +33,20 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
     resetGame,
     isMissingLogo,
   } = useLogoQuizState(pack, logoId);
-  const { isCompleted } = useLogoQuizProgress(pack.id);
+  const { isCompleted, unmarkCompleted } = useLogoQuizProgress(pack.id);
 
   const [victoryDismissed, setVictoryDismissed] = useState(false);
-  const [isReplaying, setIsReplaying] = useState(false);
   const won = state?.won ?? false;
   const nextLogoId = getNextLogoId(pack, logoId);
   const listHref = `/logo/${pack.id}`;
 
   useEffect(() => {
-    setIsReplaying(false);
-  }, [logoId]);
-
-  useEffect(() => {
-    if (won) {
-      setVictoryDismissed(false);
-      setIsReplaying(false);
-    }
+    if (won) setVictoryDismissed(false);
   }, [won]);
 
   const handleReset = () => {
-    setIsReplaying(true);
     setVictoryDismissed(true);
+    unmarkCompleted(logoId);
     resetGame();
   };
 
@@ -88,7 +80,7 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
   const pattern = buildAnswerPattern(target.name);
   const slotLetters = resolveSlotLetters(state.slots, state.bank);
   const victoryOpen = won && !victoryDismissed;
-  const showFullLogo = won || (isCompleted(logoId) && !isReplaying);
+  const showFullLogo = won || isCompleted(logoId);
   const displayUrl = resolveLogoDisplayUrl(target, showFullLogo);
 
   return (
@@ -135,7 +127,7 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
       ) : null}
 
       <div
-        className="flex aspect-square w-full max-w-[16rem] items-center justify-center overflow-hidden rounded-xl border border-gray-700 bg-white/95 p-4 sm:max-w-[18rem]"
+        className="flex aspect-square w-full max-w-[16rem] items-center justify-center overflow-hidden rounded-xl border border-gray-700 bg-white p-4 sm:max-w-[18rem]"
         aria-label={
           showFullLogo
             ? stripAccents(`Logo ${target.name}`)
