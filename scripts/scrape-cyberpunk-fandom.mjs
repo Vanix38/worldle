@@ -89,7 +89,7 @@ const FIELD_MAPPING = {
     fonction: "Classique",
     columnWidth: "medium",
     description:
-      "Chronologie : Edgerunners Saison 1 (avant le jeu) → Jeu vidéo → Edgerunners Saison 2 (après le jeu). Une seule valeur : la première.",
+      "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première.",
   },
   aliases: {
     header: "Alias",
@@ -403,46 +403,67 @@ function isEdgerunnersSeason2Tag(tag) {
     .startsWith("EDGEII");
 }
 
-function isGameTag(tag) {
+/** Base Cyberpunk 2077 (not Phantom Liberty). */
+function isBaseGameTag(tag) {
   const t = String(tag || "").toUpperCase();
-  return t === "2077" || t.startsWith("2077");
+  return t === "2077" || t === "2077VG" || t === "CP2077" || t === "CP2077VG";
+}
+
+function isPhantomLibertyTag(tag) {
+  const t = String(tag || "").toUpperCase();
+  return t === "2077PL" || t === "CP2077PL" || t === "PL" || t === "PHANTOMLIBERTY";
+}
+
+/** Other 2077-era media (comics, etc.) — counts as jeu before S2, after PL only if no PL/base. */
+function isOther2077MediaTag(tag) {
+  const t = String(tag || "").toUpperCase();
+  if (!t.startsWith("2077") && !t.startsWith("CP2077")) return false;
+  return !isBaseGameTag(t) && !isPhantomLibertyTag(t);
 }
 
 /** Collect non-mentioned CP appearance flags from a wiki blob. */
 function collectAppearanceFlags(blob) {
   const tokens = [...String(blob || "").matchAll(/\{\{\s*CP\s*\|\s*([^}|]+?)\s*\}\}(\s*\([^)]*\))?/gi)];
   let hasS1 = false;
-  let hasGame = false;
+  let hasBase = false;
+  let hasPL = false;
+  let hasOther2077 = false;
   let hasS2 = false;
   for (const m of tokens) {
     const tag = (m[1] || "").trim().toUpperCase();
     const note = m[2] || "";
     if (/\bmention/i.test(note)) continue;
-    if (isGameTag(tag)) hasGame = true;
+    if (isBaseGameTag(tag)) hasBase = true;
+    else if (isPhantomLibertyTag(tag)) hasPL = true;
+    else if (isOther2077MediaTag(tag)) hasOther2077 = true;
     else if (isEdgerunnersSeason2Tag(tag)) hasS2 = true;
     else if (isEdgerunnersSeason1Tag(tag)) hasS1 = true;
   }
-  return { hasS1, hasGame, hasS2 };
+  return { hasS1, hasBase, hasPL, hasOther2077, hasS2 };
 }
 
 /**
  * Première apparition chronologique uniquement :
- * Edgerunners Saison 1 → Jeu vidéo → Edgerunners Saison 2.
+ * Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2.
  * Infobox + corps de page (cameos EDGE souvent hors appears_*).
  */
 function detectFirstAppearance(params, categoriesForPage, wikitext = "") {
   const fromInfobox = collectAppearanceFlags(appearanceBlob(params));
   const fromPage = collectAppearanceFlags(wikitext);
   const hasS1 = fromInfobox.hasS1 || fromPage.hasS1;
-  const hasGame = fromInfobox.hasGame || fromPage.hasGame;
+  const hasBase = fromInfobox.hasBase || fromPage.hasBase;
+  const hasPL = fromInfobox.hasPL || fromPage.hasPL;
+  const hasOther2077 = fromInfobox.hasOther2077 || fromPage.hasOther2077;
   const hasS2 = fromInfobox.hasS2 || fromPage.hasS2;
 
-  if (!hasS1 && !hasGame && !hasS2) {
+  if (!hasS1 && !hasBase && !hasPL && !hasOther2077 && !hasS2) {
     if (categoriesForPage.has("edgerunners")) return "Edgerunners Saison 1";
     return "Jeu vidéo";
   }
   if (hasS1) return "Edgerunners Saison 1";
-  if (hasGame) return "Jeu vidéo";
+  if (hasBase || (hasOther2077 && !hasPL)) return "Jeu vidéo";
+  if (hasPL) return "Phantom Liberty";
+  if (hasOther2077) return "Jeu vidéo";
   return "Edgerunners Saison 2";
 }
 

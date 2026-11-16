@@ -38,7 +38,7 @@
       "header": "1ʳᵉ apparition",
       "fonction": "Classique",
       "columnWidth": "medium",
-      "description": "Chronologie : Edgerunners Saison 1 (avant le jeu) → Jeu vidéo → Edgerunners Saison 2 (après le jeu). Une seule valeur : la première."
+      "description": "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première."
     },
     "aliases": {
       "header": "Alias",
@@ -92,7 +92,7 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -134,7 +134,7 @@
       "occupation": "Mercenary",
       "affiliation": "Cuban cartels",
       "home": "Havana, Cuba",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)"
     },
     {
@@ -173,7 +173,7 @@
       "occupation": "",
       "affiliation": "NetWatch",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -186,7 +186,7 @@
       "occupation": "BARGHEST soldier",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -232,7 +232,7 @@
       "occupation": "Braindance",
       "affiliation": "FIA, NUSA",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Yvonne Senat Jones"
     },
     {
@@ -260,7 +260,7 @@
       "occupation": "BIA Agent",
       "affiliation": "Brazilian Intelligence Agency",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -299,7 +299,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -327,7 +327,7 @@
       "occupation": "",
       "affiliation": "Animals",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -383,7 +383,7 @@
       "occupation": "Chief Surgeon",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -491,7 +491,7 @@
       "occupation": "Melee specialist",
       "affiliation": "MaxTac",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -504,7 +504,7 @@
       "occupation": "Security Contractor",
       "affiliation": "Charon Exotics",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -517,7 +517,7 @@
       "occupation": "",
       "affiliation": "The Collective, Militech, EuroBank",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Leonie Schliesing"
     },
     {
@@ -558,7 +558,7 @@
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -571,7 +571,7 @@
       "occupation": "",
       "affiliation": "The Collective, Militech, Petrochem",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "André Refig"
     },
     {
@@ -584,7 +584,7 @@
       "occupation": "Gang lieutenant",
       "affiliation": "Voodoo Boys",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -597,7 +597,7 @@
       "occupation": "Cyber Security ()",
       "affiliation": "Arasaka, Mr. Hands",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -612,7 +612,7 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -736,7 +736,7 @@
       "occupation": "Scopdog Vendor NCPD Officer",
       "affiliation": "NCPD",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -792,7 +792,7 @@
       "occupation": "Sniper",
       "affiliation": "SovOil, Scavengers",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -844,7 +844,7 @@
       "occupation": "Independent media Militech media ()",
       "affiliation": "Militech",
       "home": "Heywood, Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -870,7 +870,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Longshore Stacks, Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -979,7 +979,7 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1114,7 +1114,7 @@
       "occupation": "Jago's bodyguard",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1140,7 +1140,7 @@
       "occupation": "Run This Town",
       "affiliation": "BARGHEST, Militech, New United States Armed Forces, Arasaka",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Joseph Capp"
     },
     {
@@ -1274,7 +1274,7 @@
       "occupation": "Heavy Weapons Specialist",
       "affiliation": "MaxTac",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1287,7 +1287,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1313,7 +1313,7 @@
       "occupation": "Special Agent",
       "affiliation": "Militech",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)"
     },
     {
@@ -1410,7 +1410,7 @@
       "occupation": "Clothing Vendor",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1631,7 +1631,7 @@
       "occupation": "",
       "affiliation": "Fourth Wall Studios",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1730,7 +1730,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -1825,7 +1825,7 @@
       "occupation": "",
       "affiliation": "Militech",
       "home": "Golden Pacific, Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Shala Nyx"
     },
     {
@@ -1854,7 +1854,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -2026,7 +2026,7 @@
       "occupation": "District Attorney",
       "affiliation": "Night City",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Christy Meyer"
     },
     {
@@ -2283,7 +2283,7 @@
       "occupation": "",
       "affiliation": "Zetatech",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Atilla Akinci"
     },
     {
@@ -2335,7 +2335,7 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -2402,7 +2402,7 @@
       "occupation": "",
       "affiliation": "Herold Lowe",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -2485,7 +2485,7 @@
       "occupation": "BARGHEST's Chief Accountant Dogtown leader",
       "affiliation": "BARGHEST",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -2576,7 +2576,7 @@
       "occupation": "Netrunner",
       "affiliation": "MaxTac",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3031,7 +3031,7 @@
       "occupation": "Spy",
       "affiliation": "SovOil",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Avital Lvova"
     },
     {
@@ -3178,7 +3178,7 @@
       "occupation": "Courier",
       "affiliation": "BARGHEST",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3256,7 +3256,7 @@
       "occupation": "",
       "affiliation": "BARGHEST, New United States Armed Forces, Militech",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3284,7 +3284,7 @@
       "occupation": "Braindance",
       "affiliation": "Fourth Wall Studios",
       "home": "Longshore Stacks, Dogtown, Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Aliona Baranova"
     },
     {
@@ -3297,7 +3297,7 @@
       "occupation": "Research specialist",
       "affiliation": "Militech",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3434,7 +3434,7 @@
       "occupation": "Biological engineer ()",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3488,7 +3488,7 @@
       "occupation": "Junk Vendor",
       "affiliation": "Good Old Dogtown",
       "home": "Dogtown, Pacifica (2077)",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3745,7 +3745,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3771,7 +3771,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "Dogtown, Pacifica (2077)",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -3899,7 +3899,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4020,7 +4020,7 @@
       "occupation": "Musician",
       "affiliation": "",
       "home": "Crystal Palace, Mr. Kipper: A Universal Message",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4102,7 +4102,7 @@
       "occupation": "",
       "affiliation": "Crimson Harvest",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4128,7 +4128,7 @@
       "occupation": "",
       "affiliation": "Scavengers",
       "home": "Dogtown, Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Devora Wilde"
     },
     {
@@ -4208,7 +4208,7 @@
       "occupation": "Braindance",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4221,7 +4221,7 @@
       "occupation": "Priest",
       "affiliation": "Haven Clinic",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4330,7 +4330,7 @@
       "occupation": "Recruit",
       "affiliation": "BARGHEST, Scavengers",
       "home": "Dogtown, Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Adan Rocha"
     },
     {
@@ -4803,7 +4803,7 @@
       "occupation": "Junk Vendor",
       "affiliation": "",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4846,7 +4846,7 @@
       "occupation": "",
       "affiliation": "BARGHEST",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -4956,7 +4956,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5010,7 +5010,7 @@
       "occupation": "Netrunner Vendor",
       "affiliation": "",
       "home": "Dogtown, Pacifica",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5231,7 +5231,7 @@
       "occupation": "Soldier () FIA Agent Bouncer (temporarily)",
       "affiliation": "NUSA SpecOps, FIA, NUSA, Dino Dinovic",
       "home": "Washington, D.C., Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5247,7 +5247,7 @@
       "occupation": "President Myers",
       "affiliation": "FIA, NUSA",
       "home": "Brooklyn, NYC, Washington, D.C.",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Minji Chang"
     },
     {
@@ -5260,7 +5260,7 @@
       "occupation": "Weapon Vendor",
       "affiliation": "",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5356,7 +5356,7 @@
       "occupation": "Officer",
       "affiliation": "NCPD",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Suzi Hunter"
     },
     {
@@ -5382,7 +5382,7 @@
       "occupation": "BIA Agent",
       "affiliation": "Brazilian Intelligence Agency, Barghest",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5408,7 +5408,7 @@
       "occupation": "Meds Vendor",
       "affiliation": "Trauma Team",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5652,7 +5652,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -5909,7 +5909,7 @@
       "occupation": "General of the 6th Street",
       "affiliation": "6th Street",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {
@@ -6056,7 +6056,7 @@
       "occupation": "BARGHEST Lieutenant",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": ""
     },
     {

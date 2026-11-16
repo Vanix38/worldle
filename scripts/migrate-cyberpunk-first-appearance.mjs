@@ -1,6 +1,6 @@
 /**
- * Migre data/cyberpunk.json : source → firstAppearance
- * (Edgerunners Saison 1 | Jeu vidéo | Edgerunners Saison 2), premier chrono seulement.
+ * Migre / recalcule data/cyberpunk.json firstAppearance :
+ * Edgerunners Saison 1 | Jeu vidéo | Phantom Liberty | Edgerunners Saison 2
  *
  *   node scripts/migrate-cyberpunk-first-appearance.mjs [--delay MS]
  */
@@ -13,7 +13,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const DATA_JSON = path.join(ROOT, "data", "cyberpunk.json");
 const API = "https://cyberpunk.fandom.com/api.php";
-const UA = "worldle-cyberpunk-fa-migrate/1.0 (educational; fan quiz)";
+const UA = "worldle-cyberpunk-fa-migrate/1.1 (educational; fan quiz)";
 
 const TITLE_OVERRIDES = {
   V: "V (character)",
@@ -24,6 +24,7 @@ const TITLE_OVERRIDES = {
 
 const FA_S1 = "Edgerunners Saison 1";
 const FA_GAME = "Jeu vidéo";
+const FA_PL = "Phantom Liberty";
 const FA_S2 = "Edgerunners Saison 2";
 
 function sleep(ms) {
@@ -31,9 +32,9 @@ function sleep(ms) {
 }
 
 function parseArgs(argv) {
-  let delay = 120;
+  let delay = 100;
   for (let i = 2; i < argv.length; i++) {
-    if (argv[i] === "--delay") delay = Math.max(0, parseInt(argv[++i], 10) || 120);
+    if (argv[i] === "--delay") delay = Math.max(0, parseInt(argv[++i], 10) || 100);
   }
   return { delay };
 }
@@ -146,47 +147,68 @@ function isEdgerunnersSeason2Tag(tag) {
     .startsWith("EDGEII");
 }
 
-function isGameTag(tag) {
+function isBaseGameTag(tag) {
   const t = String(tag || "").toUpperCase();
-  return t === "2077" || t.startsWith("2077");
+  return t === "2077" || t === "2077VG" || t === "CP2077" || t === "CP2077VG";
+}
+
+function isPhantomLibertyTag(tag) {
+  const t = String(tag || "").toUpperCase();
+  return t === "2077PL" || t === "CP2077PL" || t === "PL" || t === "PHANTOMLIBERTY";
+}
+
+function isOther2077MediaTag(tag) {
+  const t = String(tag || "").toUpperCase();
+  if (!t.startsWith("2077") && !t.startsWith("CP2077")) return false;
+  return !isBaseGameTag(t) && !isPhantomLibertyTag(t);
 }
 
 function collectAppearanceFlags(blob) {
   const tokens = [...String(blob || "").matchAll(/\{\{\s*CP\s*\|\s*([^}|]+?)\s*\}\}(\s*\([^)]*\))?/gi)];
   let hasS1 = false;
-  let hasGame = false;
+  let hasBase = false;
+  let hasPL = false;
+  let hasOther2077 = false;
   let hasS2 = false;
   for (const m of tokens) {
     const tag = (m[1] || "").trim().toUpperCase();
     const note = m[2] || "";
     if (/\bmention/i.test(note)) continue;
-    if (isGameTag(tag)) hasGame = true;
+    if (isBaseGameTag(tag)) hasBase = true;
+    else if (isPhantomLibertyTag(tag)) hasPL = true;
+    else if (isOther2077MediaTag(tag)) hasOther2077 = true;
     else if (isEdgerunnersSeason2Tag(tag)) hasS2 = true;
     else if (isEdgerunnersSeason1Tag(tag)) hasS1 = true;
   }
-  return { hasS1, hasGame, hasS2 };
+  return { hasS1, hasBase, hasPL, hasOther2077, hasS2 };
 }
 
 function detectFirstAppearance(params, wikitext) {
   const fromInfobox = collectAppearanceFlags(appearanceBlob(params));
   const fromPage = collectAppearanceFlags(wikitext);
   const hasS1 = fromInfobox.hasS1 || fromPage.hasS1;
-  const hasGame = fromInfobox.hasGame || fromPage.hasGame;
+  const hasBase = fromInfobox.hasBase || fromPage.hasBase;
+  const hasPL = fromInfobox.hasPL || fromPage.hasPL;
+  const hasOther2077 = fromInfobox.hasOther2077 || fromPage.hasOther2077;
   const hasS2 = fromInfobox.hasS2 || fromPage.hasS2;
+
   if (hasS1) return FA_S1;
-  if (hasGame) return FA_GAME;
+  if (hasBase || (hasOther2077 && !hasPL)) return FA_GAME;
+  if (hasPL) return FA_PL;
+  if (hasOther2077) return FA_GAME;
   if (hasS2) return FA_S2;
   return null;
 }
 
 function fallbackFromOld(value) {
-  if (value === "Edgerunners" || value === "Les deux" || value === FA_S1) return FA_S1;
+  if (value === FA_S1 || value === "Edgerunners" || value === "Les deux") return FA_S1;
   if (value === FA_S2) return FA_S2;
+  if (value === FA_PL) return FA_PL;
   return FA_GAME;
 }
 
 async function resolveFirstAppearance(character, delay) {
-  const old = character.source || character.firstAppearance || "";
+  const old = character.firstAppearance || character.source || "";
   const preferred = TITLE_OVERRIDES[character.name] || character.name;
   try {
     let wt = await fetchWikitext(preferred);
@@ -228,17 +250,13 @@ async function main() {
     fonction: "Classique",
     columnWidth: "medium",
     description:
-      "Chronologie : Edgerunners Saison 1 (avant le jeu) → Jeu vidéo → Edgerunners Saison 2 (après le jeu). Une seule valeur : la première.",
+      "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première.",
   };
   delete data.fieldMapping.source;
-
-  if (data.fieldPrevalence?.source !== undefined) {
-    data.fieldPrevalence.firstAppearance = data.fieldPrevalence.source;
-    delete data.fieldPrevalence.source;
-  }
   data.fieldPrevalence.firstAppearance = 1;
+  delete data.fieldPrevalence.source;
 
-  const counts = { [FA_S1]: 0, [FA_GAME]: 0, [FA_S2]: 0 };
+  const counts = { [FA_S1]: 0, [FA_GAME]: 0, [FA_PL]: 0, [FA_S2]: 0 };
   const chars = data.characters;
   for (let i = 0; i < chars.length; i++) {
     const ch = chars[i];
