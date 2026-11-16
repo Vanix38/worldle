@@ -40,6 +40,19 @@
       "columnWidth": "medium",
       "description": "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première."
     },
+    "difficulty": {
+      "header": "Difficulté",
+      "fonction": "Comparaison",
+      "columnWidth": "small",
+      "order": [
+        "Très facile",
+        "Facile",
+        "Moyen",
+        "Difficile",
+        "Impossible"
+      ],
+      "description": "Facilité à deviner le personnage (notoriété). Ordre : Très facile → Facile → Moyen → Difficile → Impossible."
+    },
     "aliases": {
       "header": "Alias",
       "fonction": "Recherche",
@@ -65,7 +78,8 @@
     "home": 0.633,
     "firstAppearance": 1,
     "aliases": 0.233,
-    "hint1": 0.433
+    "hint1": 0.433,
+    "difficulty": 1
   },
   "hintInterval": 5,
   "characters": [
@@ -80,7 +94,8 @@
       "affiliation": "NCPD, Regina Jones",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Graham Vick"
+      "hint1": "Graham Vick",
+      "difficulty": "Difficile"
     },
     {
       "id": "aaron-waines",
@@ -93,7 +108,8 @@
       "affiliation": "Animals",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "adam-smasher",
@@ -109,7 +125,8 @@
       "affiliation": "United States Armed Forces, Arasaka",
       "home": "The Bronx, NYC, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Alec Newman"
+      "hint1": "Alec Newman",
+      "difficulty": "Très facile"
     },
     {
       "id": "aera",
@@ -122,7 +139,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Hiromi Dames"
+      "hint1": "Hiromi Dames",
+      "difficulty": "Difficile"
     },
     {
       "id": "aguilar-nubiola",
@@ -135,7 +153,8 @@
       "affiliation": "Cuban cartels",
       "home": "Havana, Cuba",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)"
+      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)",
+      "difficulty": "Moyen"
     },
     {
       "id": "akari-yamakage",
@@ -148,7 +167,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "akira",
@@ -161,7 +181,8 @@
       "affiliation": "Arasaka",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "alan-noel",
@@ -174,7 +195,8 @@
       "affiliation": "NetWatch",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "albert-murphy",
@@ -187,7 +209,8 @@
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "aldo",
@@ -200,7 +223,8 @@
       "affiliation": "",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Tomomichi Nishimura (Japanese)"
+      "hint1": "Tomomichi Nishimura (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "aleksander-pushkin",
@@ -215,7 +239,8 @@
       "affiliation": "Biotechnica",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "alena-xenakis",
@@ -233,7 +258,8 @@
       "affiliation": "FIA, NUSA",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Yvonne Senat Jones"
+      "hint1": "Yvonne Senat Jones",
+      "difficulty": "Facile"
     },
     {
       "id": "altiera-cunningham",
@@ -248,7 +274,8 @@
       "affiliation": "ITS",
       "home": "Night City, DataKrash, Cyberspace",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alix Wilton Regan"
+      "hint1": "Alix Wilton Regan",
+      "difficulty": "Très facile"
     },
     {
       "id": "ana-friedman",
@@ -261,7 +288,8 @@
       "affiliation": "Brazilian Intelligence Agency",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "anders-hellman",
@@ -274,7 +302,8 @@
       "affiliation": "Arasaka, Kang Tao",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alec Newman"
+      "hint1": "Alec Newman",
+      "difficulty": "Facile"
     },
     {
       "id": "andrew-jones",
@@ -287,7 +316,8 @@
       "affiliation": "Southern California",
       "home": "Yucca, Los Padres County",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Nigel Whitmey"
+      "hint1": "Nigel Whitmey",
+      "difficulty": "Difficile"
     },
     {
       "id": "andrew-newman",
@@ -300,7 +330,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "angel",
@@ -313,7 +344,8 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Keisuke Hoashi"
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Difficile"
     },
     {
       "id": "angelica-whelan",
@@ -328,7 +360,8 @@
       "affiliation": "Animals",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "angie-mielech",
@@ -343,7 +376,8 @@
       "affiliation": "",
       "home": "Heywood",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "anna-hamill",
@@ -356,7 +390,8 @@
       "affiliation": "NCPD, Aldecaldos",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alison Halstead"
+      "hint1": "Alison Halstead",
+      "difficulty": "Moyen"
     },
     {
       "id": "anna-nox",
@@ -371,7 +406,8 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Anna Rust"
+      "hint1": "Anna Rust",
+      "difficulty": "Moyen"
     },
     {
       "id": "anthony-anderson",
@@ -384,7 +420,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "anthony-gilchrist",
@@ -397,7 +434,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Akie Kotabe"
+      "hint1": "Akie Kotabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "anthony-harris",
@@ -414,7 +452,8 @@
       "affiliation": "",
       "home": "Edgewood Farm, Rocky Ridge Plains",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "arabelle-luvasha",
@@ -427,7 +466,8 @@
       "affiliation": "",
       "home": "Heywood",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "archibald-crane",
@@ -440,7 +480,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "James Goode"
+      "hint1": "James Goode",
+      "difficulty": "Moyen"
     },
     {
       "id": "arif-koneczko",
@@ -453,7 +494,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "arthur-cormac",
@@ -466,7 +508,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "arthur-jenkins",
@@ -479,7 +522,8 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alec Newman"
+      "hint1": "Alec Newman",
+      "difficulty": "Moyen"
     },
     {
       "id": "asher-peterson",
@@ -492,7 +536,8 @@
       "affiliation": "MaxTac",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "ashlay",
@@ -505,7 +550,8 @@
       "affiliation": "Charon Exotics",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "aurore-cassel",
@@ -518,7 +564,8 @@
       "affiliation": "The Collective, Militech, EuroBank",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Leonie Schliesing"
+      "hint1": "Leonie Schliesing",
+      "difficulty": "Moyen"
     },
     {
       "id": "avida-yang",
@@ -531,7 +578,8 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)"
+      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "axel-mankievicz",
@@ -546,7 +594,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ayden-daniels",
@@ -559,7 +608,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "aymeric-cassel",
@@ -572,7 +622,8 @@
       "affiliation": "The Collective, Militech, Petrochem",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "André Refig"
+      "hint1": "André Refig",
+      "difficulty": "Moyen"
     },
     {
       "id": "ayo-zarin",
@@ -585,7 +636,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "baird",
@@ -598,7 +650,8 @@
       "affiliation": "Arasaka, Mr. Hands",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "barbara-okoye",
@@ -613,7 +666,8 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "barry-alken",
@@ -626,7 +680,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "barry-lewis",
@@ -639,7 +694,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "bartolomeo-mordellini",
@@ -652,7 +708,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "beatrice-ellen-trieste",
@@ -667,7 +724,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ben-debaillon",
@@ -682,7 +740,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "bes-isis",
@@ -698,7 +757,8 @@
       "affiliation": "Network News 54, Samurai",
       "home": "Night City, USA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kosha Engler"
+      "hint1": "Kosha Engler",
+      "difficulty": "Facile"
     },
     {
       "id": "big-joe",
@@ -711,7 +771,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "bill-jablonsky",
@@ -724,7 +785,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "James Goode"
+      "hint1": "James Goode",
+      "difficulty": "Difficile"
     },
     {
       "id": "bill-mitchel",
@@ -737,7 +799,8 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "blake-croyle",
@@ -750,7 +813,8 @@
       "affiliation": "Animals",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "blue-moon",
@@ -765,7 +829,8 @@
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Hiromi Dames"
+      "hint1": "Hiromi Dames",
+      "difficulty": "Facile"
     },
     {
       "id": "bob-sagan",
@@ -780,7 +845,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ako Mitchell"
+      "hint1": "Ako Mitchell",
+      "difficulty": "Facile"
     },
     {
       "id": "boris-ribakov",
@@ -793,7 +859,8 @@
       "affiliation": "SovOil, Scavengers",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "boz",
@@ -806,7 +873,8 @@
       "affiliation": "6th Street",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "James Goode"
+      "hint1": "James Goode",
+      "difficulty": "Moyen"
     },
     {
       "id": "brad-stacy",
@@ -819,7 +887,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "brandon-frost",
@@ -832,7 +901,8 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "bree-whitney",
@@ -845,7 +915,8 @@
       "affiliation": "Militech",
       "home": "Heywood, Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "brendan",
@@ -858,7 +929,8 @@
       "affiliation": "SoftSys",
       "home": "Megabuilding H8, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Bryan Dechart"
+      "hint1": "Bryan Dechart",
+      "difficulty": "Facile"
     },
     {
       "id": "briana-dolson",
@@ -871,7 +943,8 @@
       "affiliation": "",
       "home": "Longshore Stacks, Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "brittany-hayes",
@@ -884,7 +957,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lucy Montgomery"
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "bruce-ward",
@@ -897,7 +971,8 @@
       "affiliation": "Wraiths",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "bruce-welby",
@@ -910,7 +985,8 @@
       "affiliation": "Aldecaldos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "bryce-mosley",
@@ -923,7 +999,8 @@
       "affiliation": "NetWatch",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Shane Taylor"
+      "hint1": "Shane Taylor",
+      "difficulty": "Facile"
     },
     {
       "id": "bryce-stone",
@@ -936,7 +1013,8 @@
       "affiliation": "Network 54",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "buck-arnold",
@@ -949,7 +1027,8 @@
       "affiliation": "United States Armed Forces, 6th Street",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "capricorn",
@@ -965,7 +1044,8 @@
       "affiliation": "Arasaka, Kyoko, Talia Yang, D",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)"
+      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "carl-robinson",
@@ -980,7 +1060,8 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "carlos-rubio",
@@ -993,7 +1074,8 @@
       "affiliation": "Valentinos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "carol-emeka",
@@ -1006,7 +1088,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Fryda Wolff"
+      "hint1": "Fryda Wolff",
+      "difficulty": "Facile"
     },
     {
       "id": "carter-smith",
@@ -1019,7 +1102,8 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Joseph May"
+      "hint1": "Joseph May",
+      "difficulty": "Moyen"
     },
     {
       "id": "cassidy-righter",
@@ -1035,7 +1119,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Mikey O'Connor"
+      "hint1": "Mikey O'Connor",
+      "difficulty": "Facile"
     },
     {
       "id": "cassius-ryder",
@@ -1048,7 +1133,8 @@
       "affiliation": "Doc Ryder",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Stefan Ashton Frank"
+      "hint1": "Stefan Ashton Frank",
+      "difficulty": "Difficile"
     },
     {
       "id": "cedric-muller",
@@ -1061,7 +1147,8 @@
       "affiliation": "Red Ocher",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "chang-hoon-nam",
@@ -1074,7 +1161,8 @@
       "affiliation": "Wakako Okada",
       "home": "Japantown, Westbrook",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Josh Han"
+      "hint1": "Josh Han",
+      "difficulty": "Moyen"
     },
     {
       "id": "charlene-fox",
@@ -1087,7 +1175,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "charles-bucks",
@@ -1100,7 +1189,8 @@
       "affiliation": "",
       "home": "Kabuki, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Akie Kotabe"
+      "hint1": "Akie Kotabe",
+      "difficulty": "Difficile"
     },
     {
       "id": "charles-graham",
@@ -1115,7 +1205,8 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "cheri-nowlin",
@@ -1128,7 +1219,8 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "chester-bennett",
@@ -1141,7 +1233,8 @@
       "affiliation": "BARGHEST, Militech, New United States Armed Forces, Arasaka",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Joseph Capp"
+      "hint1": "Joseph Capp",
+      "difficulty": "Moyen"
     },
     {
       "id": "christine-markov",
@@ -1154,7 +1247,8 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "claire-russell",
@@ -1167,7 +1261,8 @@
       "affiliation": "Militech, Afterlife",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Maddie Taylor"
+      "hint1": "Maddie Taylor",
+      "difficulty": "Facile"
     },
     {
       "id": "claudio-moreno",
@@ -1180,7 +1275,8 @@
       "affiliation": "Valentinos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "coach-fred",
@@ -1193,7 +1289,8 @@
       "affiliation": "",
       "home": "Little China, Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ako Mitchell"
+      "hint1": "Ako Mitchell",
+      "difficulty": "Facile"
     },
     {
       "id": "colver",
@@ -1206,7 +1303,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Michael Gregory"
+      "hint1": "Michael Gregory",
+      "difficulty": "Moyen"
     },
     {
       "id": "crispin-weyland",
@@ -1221,7 +1319,8 @@
       "affiliation": "Afterlife Mercs",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Mark Ebulué"
+      "hint1": "Mark Ebulué",
+      "difficulty": "Moyen"
     },
     {
       "id": "cynthia-najarro",
@@ -1234,7 +1333,8 @@
       "affiliation": "Orbital Air",
       "home": "Heywood, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lucy Montgomery"
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "cesar-diego-ruiz",
@@ -1247,7 +1347,8 @@
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Nicolas Roye"
+      "hint1": "Nicolas Roye",
+      "difficulty": "Moyen"
     },
     {
       "id": "dakota-smith",
@@ -1262,7 +1363,8 @@
       "affiliation": "Pomo, Aldecaldos",
       "home": "DaKota, Badlands",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Sabra May"
+      "hint1": "Sabra May",
+      "difficulty": "Facile"
     },
     {
       "id": "dallas-foster",
@@ -1275,7 +1377,8 @@
       "affiliation": "MaxTac",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "damir-kovac",
@@ -1288,7 +1391,8 @@
       "affiliation": "Scavengers",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "dan",
@@ -1301,7 +1405,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "dante-caruso",
@@ -1314,7 +1419,8 @@
       "affiliation": "Militech",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)"
+      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)",
+      "difficulty": "Facile"
     },
     {
       "id": "dao-hyunh",
@@ -1327,7 +1433,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "darius-clarke",
@@ -1340,7 +1447,8 @@
       "affiliation": "Doc Ryder",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "darius-miles",
@@ -1353,7 +1461,8 @@
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "darrell-zhou",
@@ -1366,7 +1475,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Josh Han"
+      "hint1": "Josh Han",
+      "difficulty": "Difficile"
     },
     {
       "id": "david",
@@ -1381,7 +1491,8 @@
       "affiliation": "nomad, Snake Nation",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)"
+      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "david-martinez",
@@ -1398,7 +1509,8 @@
       "affiliation": "Arasaka, Maine",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)"
+      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "david-walker",
@@ -1411,7 +1523,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "declan-griffin",
@@ -1426,7 +1539,8 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "John Schwab"
+      "hint1": "John Schwab",
+      "difficulty": "Facile"
     },
     {
       "id": "delamain",
@@ -1443,7 +1557,8 @@
       "affiliation": "Delamain Corp",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)"
+      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)",
+      "difficulty": "Facile"
     },
     {
       "id": "dennis-cranmer",
@@ -1456,7 +1571,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Michael-Leon Wooley"
+      "hint1": "Michael-Leon Wooley",
+      "difficulty": "Difficile"
     },
     {
       "id": "denny",
@@ -1469,7 +1585,8 @@
       "affiliation": "Samurai",
       "home": "Denny's Mansion, North Oak",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Victoire Charles"
+      "hint1": "Victoire Charles",
+      "difficulty": "Facile"
     },
     {
       "id": "dexter-deshawn",
@@ -1485,7 +1602,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Michael-Leon Wooley"
+      "hint1": "Michael-Leon Wooley",
+      "difficulty": "Très facile"
     },
     {
       "id": "diego-ramirez",
@@ -1498,7 +1616,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "dietlinde",
@@ -1511,7 +1630,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "dino-dinovic",
@@ -1524,7 +1644,8 @@
       "affiliation": "Gloryhole Bandits",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alec Newman"
+      "hint1": "Alec Newman",
+      "difficulty": "Moyen"
     },
     {
       "id": "doc",
@@ -1537,7 +1658,8 @@
       "affiliation": "",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)"
+      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "dorio-gunnarsdottir",
@@ -1550,7 +1672,8 @@
       "affiliation": "Maine's crew",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)"
+      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)",
+      "difficulty": "Facile"
     },
     {
       "id": "dove-vondell",
@@ -1563,7 +1686,8 @@
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "driss-meriana",
@@ -1578,7 +1702,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Noshir Dalal"
+      "hint1": "Noshir Dalal",
+      "difficulty": "Facile"
     },
     {
       "id": "dum-dum",
@@ -1591,7 +1716,8 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "dusty-lowe",
@@ -1604,7 +1730,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Keisuke Hoashi"
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Difficile"
     },
     {
       "id": "earl-conway",
@@ -1617,7 +1744,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "edgar-tool",
@@ -1632,7 +1760,8 @@
       "affiliation": "Fourth Wall Studios",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "elizabeth-borden",
@@ -1647,7 +1776,8 @@
       "affiliation": "Delphi X, Strip club",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "elizabeth-peralez",
@@ -1662,7 +1792,8 @@
       "affiliation": "Federalist Party",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kosha Engler"
+      "hint1": "Kosha Engler",
+      "difficulty": "Facile"
     },
     {
       "id": "ellis-carter",
@@ -1677,7 +1808,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "emily",
@@ -1690,7 +1822,8 @@
       "affiliation": "Team King",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)"
+      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "emmerick-bronson",
@@ -1705,7 +1838,8 @@
       "affiliation": "Afterlife Mercs, Animals",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "John Schwab"
+      "hint1": "John Schwab",
+      "difficulty": "Facile"
     },
     {
       "id": "ernesto-munoz",
@@ -1718,7 +1852,8 @@
       "affiliation": "Valentinos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "eron-acedo",
@@ -1731,7 +1866,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "esquerdo-certo",
@@ -1744,7 +1880,8 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "euralio-alma",
@@ -1757,7 +1894,8 @@
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "eva-cole",
@@ -1770,7 +1908,8 @@
       "affiliation": "Night City Council",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "evelyn-parker",
@@ -1787,7 +1926,8 @@
       "affiliation": "Clouds, The Mox",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kari Wahlgren"
+      "hint1": "Kari Wahlgren",
+      "difficulty": "Très facile"
     },
     {
       "id": "falco",
@@ -1800,7 +1940,8 @@
       "affiliation": "Maine, David",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)"
+      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "faraday",
@@ -1813,7 +1954,8 @@
       "affiliation": "Militech, Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)"
+      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)",
+      "difficulty": "Très facile"
     },
     {
       "id": "farida-nazeri",
@@ -1826,7 +1968,8 @@
       "affiliation": "Militech",
       "home": "Golden Pacific, Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Shala Nyx"
+      "hint1": "Shala Nyx",
+      "difficulty": "Facile"
     },
     {
       "id": "finn-gerstatt",
@@ -1842,7 +1985,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alex Ivanovici"
+      "hint1": "Alex Ivanovici",
+      "difficulty": "Difficile"
     },
     {
       "id": "fiona-vargas",
@@ -1855,7 +1999,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "flavio-dos-santos",
@@ -1868,7 +2013,8 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-biotechnica-flats",
@@ -1881,7 +2027,8 @@
       "affiliation": "",
       "home": "Biotechnica Flats, Badlands",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-kabuki-market-central",
@@ -1894,7 +2041,8 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-kabuki-market-plaza",
@@ -1907,7 +2055,8 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "food-vendor-northside",
@@ -1920,7 +2069,8 @@
       "affiliation": "",
       "home": "Northside, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "frank",
@@ -1936,7 +2086,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "frank-nostra",
@@ -1949,7 +2100,8 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Sean Power"
+      "hint1": "Sean Power",
+      "difficulty": "Moyen"
     },
     {
       "id": "fredrik-persson",
@@ -1962,7 +2114,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Akie Kotabe"
+      "hint1": "Akie Kotabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "futoshi-yamada",
@@ -1975,7 +2128,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "gaston-phillips",
@@ -1988,7 +2142,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "gaston-slayton",
@@ -2001,7 +2156,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "gauge-harris",
@@ -2014,7 +2170,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "georgina-zembinsky",
@@ -2027,7 +2184,8 @@
       "affiliation": "Night City",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Christy Meyer"
+      "hint1": "Christy Meyer",
+      "difficulty": "Moyen"
     },
     {
       "id": "gerald-winkler",
@@ -2042,7 +2200,8 @@
       "affiliation": "",
       "home": "Urmland Street, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ben \"CohhCarnage\" Cassell"
+      "hint1": "Ben \"CohhCarnage\" Cassell",
+      "difficulty": "Difficile"
     },
     {
       "id": "gillean-jordan",
@@ -2055,7 +2214,8 @@
       "affiliation": "N54 News",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "gloria-martinez",
@@ -2068,7 +2228,8 @@
       "affiliation": "REO Meatwagon",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)"
+      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)",
+      "difficulty": "Très facile"
     },
     {
       "id": "goldhand",
@@ -2081,7 +2242,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "goro-takemura",
@@ -2094,7 +2256,8 @@
       "affiliation": "Arasaka",
       "home": "Kanto",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Rome Kanda"
+      "hint1": "Rome Kanda",
+      "difficulty": "Très facile"
     },
     {
       "id": "gottfrid-persson",
@@ -2107,7 +2270,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "grann-ertha",
@@ -2120,7 +2284,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "griselda-martinez",
@@ -2136,7 +2301,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "guadalupe-alejandra-welles",
@@ -2152,7 +2318,8 @@
       "affiliation": "",
       "home": "Heywood, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Krizia Bajos"
+      "hint1": "Krizia Bajos",
+      "difficulty": "Difficile"
     },
     {
       "id": "gustavo-orta",
@@ -2165,7 +2332,8 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Christian Lanz"
+      "hint1": "Christian Lanz",
+      "difficulty": "Moyen"
     },
     {
       "id": "hajime-taki",
@@ -2178,7 +2346,8 @@
       "affiliation": "Arasaka Corporation",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Yoshi Ando"
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "hal-cantos",
@@ -2191,7 +2360,8 @@
       "affiliation": "WNS",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Nicolas Roye"
+      "hint1": "Nicolas Roye",
+      "difficulty": "Moyen"
     },
     {
       "id": "hanako-arasaka",
@@ -2204,7 +2374,8 @@
       "affiliation": "Hatashi Shipping Company, Arasaka, Kiji",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alpha Takahashi (English)"
+      "hint1": "Alpha Takahashi (English)",
+      "difficulty": "Très facile"
     },
     {
       "id": "hank",
@@ -2217,7 +2388,8 @@
       "affiliation": "King's Crew",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)"
+      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "hark",
@@ -2230,7 +2402,8 @@
       "affiliation": "Kang Tao",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)"
+      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "harold-han",
@@ -2243,7 +2416,8 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Matthew Yang King"
+      "hint1": "Matthew Yang King",
+      "difficulty": "Difficile"
     },
     {
       "id": "harry",
@@ -2256,7 +2430,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Michael-Leon Wooley"
+      "hint1": "Michael-Leon Wooley",
+      "difficulty": "Moyen"
     },
     {
       "id": "haruyoshi-nishikata",
@@ -2271,7 +2446,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "hasan-demir",
@@ -2284,7 +2460,8 @@
       "affiliation": "Zetatech",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Atilla Akinci"
+      "hint1": "Atilla Akinci",
+      "difficulty": "Moyen"
     },
     {
       "id": "helio",
@@ -2297,7 +2474,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)"
+      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "henry",
@@ -2310,7 +2488,8 @@
       "affiliation": "Samurai, Blazetech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Graham Vick"
+      "hint1": "Graham Vick",
+      "difficulty": "Facile"
     },
     {
       "id": "henry-stints",
@@ -2323,7 +2502,8 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "herold-lowe",
@@ -2336,7 +2516,8 @@
       "affiliation": "",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "hideshi-hino",
@@ -2349,7 +2530,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "hideyoshi-oshima",
@@ -2362,7 +2544,8 @@
       "affiliation": "",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Hideo Kojima"
+      "hint1": "Hideo Kojima",
+      "difficulty": "Difficile"
     },
     {
       "id": "hiroto-saiki",
@@ -2375,7 +2558,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "hwangbo-dong-gun",
@@ -2390,7 +2574,8 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Um Sang-hyun"
+      "hint1": "Um Sang-hyun",
+      "difficulty": "Moyen"
     },
     {
       "id": "imogen",
@@ -2403,7 +2588,8 @@
       "affiliation": "Herold Lowe",
       "home": "EBM Petrochem Stadium, Dogtown, Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "iris-tanner",
@@ -2416,7 +2602,8 @@
       "affiliation": "Dakota Smith, Wraiths",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "issam-zahir",
@@ -2429,7 +2616,8 @@
       "affiliation": "",
       "home": "Kabuki",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jack-mausser",
@@ -2442,7 +2630,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jackie-welles",
@@ -2460,7 +2649,8 @@
       "affiliation": "Valentinos, Afterlife Mercs",
       "home": "Heywood",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Jason Hightower"
+      "hint1": "Jason Hightower",
+      "difficulty": "Très facile"
     },
     {
       "id": "jae-hyun-lee",
@@ -2473,7 +2663,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jago-szabo",
@@ -2486,7 +2677,8 @@
       "affiliation": "BARGHEST",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jake-estevez",
@@ -2499,7 +2691,8 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jake-scooter",
@@ -2512,7 +2705,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "james-ito",
@@ -2525,7 +2719,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "james-norris",
@@ -2538,7 +2733,8 @@
       "affiliation": "NUSA Armed Forces",
       "home": "",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "jasmine-dixon",
@@ -2551,7 +2747,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jason-wildriver",
@@ -2564,7 +2761,8 @@
       "affiliation": "Aldecaldos, Militech",
       "home": "Badlands",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Dar Dash"
+      "hint1": "Dar Dash",
+      "difficulty": "Facile"
     },
     {
       "id": "jasper-collins",
@@ -2577,7 +2775,8 @@
       "affiliation": "MaxTac",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jean-rochelin",
@@ -2590,7 +2789,8 @@
       "affiliation": "",
       "home": "Pacifica",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jeff",
@@ -2603,7 +2803,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "jefferson-peralez",
@@ -2616,7 +2817,8 @@
       "affiliation": "Asukaga & Finch, Cyberpunk 2077 Netsites, Night City Council, Federalist Party, Mayor's Office",
       "home": "Westbrook, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Joseph May"
+      "hint1": "Joseph May",
+      "difficulty": "Facile"
     },
     {
       "id": "jeremiah-grayson",
@@ -2629,7 +2831,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Stephen Oyoung"
+      "hint1": "Stephen Oyoung",
+      "difficulty": "Moyen"
     },
     {
       "id": "jerry-fawlter",
@@ -2642,7 +2845,8 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "jesse-johnson",
@@ -2657,7 +2861,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Jesse Louis Cox"
+      "hint1": "Jesse Louis Cox",
+      "difficulty": "Difficile"
     },
     {
       "id": "jessie",
@@ -2670,7 +2875,8 @@
       "affiliation": "Sal Bigelow's Braindance Paradise",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)"
+      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "jim-jarry",
@@ -2683,7 +2889,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "jimmy-kurosaki",
@@ -2698,7 +2905,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)"
+      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "joanne-koch",
@@ -2711,7 +2919,8 @@
       "affiliation": "Biotechnica",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "john-lipczynsky",
@@ -2724,7 +2933,8 @@
       "affiliation": "Animals",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "johnny-silverhand",
@@ -2737,7 +2947,8 @@
       "affiliation": "U.S. Army, Samurai, Silverhand Studios",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)"
+      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)",
+      "difficulty": "Très facile"
     },
     {
       "id": "josh-kavorkin",
@@ -2750,7 +2961,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "joshua-stephenson",
@@ -2763,7 +2975,8 @@
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ronan Summers"
+      "hint1": "Ronan Summers",
+      "difficulty": "Difficile"
     },
     {
       "id": "josie-alcazar",
@@ -2776,7 +2989,8 @@
       "affiliation": "Aldecaldos",
       "home": "Josie Alcazar's House, Rancho Coronado, Santo Domingo",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "joss-kutcher",
@@ -2789,7 +3003,8 @@
       "affiliation": "",
       "home": "Kutcher's home, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Tonantzin Carmelo"
+      "hint1": "Tonantzin Carmelo",
+      "difficulty": "Difficile"
     },
     {
       "id": "jose-luis",
@@ -2802,7 +3017,8 @@
       "affiliation": "Valentinos",
       "home": "Heywood, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Bernardo De Paula"
+      "hint1": "Bernardo De Paula",
+      "difficulty": "Moyen"
     },
     {
       "id": "jotaro-shobo",
@@ -2817,7 +3033,8 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Yoshi Ando"
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "journey-ruiz",
@@ -2830,7 +3047,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Carla Tassara"
+      "hint1": "Carla Tassara",
+      "difficulty": "Difficile"
     },
     {
       "id": "juan-mendez",
@@ -2843,7 +3061,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "juan-troy",
@@ -2858,7 +3077,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Al Rodrigo"
+      "hint1": "Al Rodrigo",
+      "difficulty": "Moyen"
     },
     {
       "id": "jude-night",
@@ -2871,7 +3091,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "judy-alvarez",
@@ -2887,7 +3108,8 @@
       "affiliation": "Clouds, Moxes, Epilogues",
       "home": "Watson, Night City, Pittsburgh, Pennsylvania, Arizona",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Carla Tassara"
+      "hint1": "Carla Tassara",
+      "difficulty": "Très facile"
     },
     {
       "id": "juliet-horrigan",
@@ -2902,7 +3124,8 @@
       "affiliation": "",
       "home": "Horrigan Family Home",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "julio",
@@ -2915,7 +3138,8 @@
       "affiliation": "David",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)"
+      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "jun-azegami",
@@ -2928,7 +3152,8 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kajetan-zilevski",
@@ -2941,7 +3166,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "kaoru-fujioka",
@@ -2954,7 +3180,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kotaro Watanabe"
+      "hint1": "Kotaro Watanabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "karim-noel",
@@ -2967,7 +3194,8 @@
       "affiliation": "",
       "home": "Japantown, Westbrook",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Nigel Whitmey"
+      "hint1": "Nigel Whitmey",
+      "difficulty": "Difficile"
     },
     {
       "id": "karina-lee",
@@ -2980,7 +3208,8 @@
       "affiliation": "N54 News",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alana Maria"
+      "hint1": "Alana Maria",
+      "difficulty": "Moyen"
     },
     {
       "id": "karubo-bairei",
@@ -2993,7 +3222,8 @@
       "affiliation": "Valentinos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kate-miller",
@@ -3006,7 +3236,8 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)"
+      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "katsuo-tanaka",
@@ -3019,7 +3250,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)"
+      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "katya-karelina",
@@ -3032,7 +3264,8 @@
       "affiliation": "SovOil",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Avital Lvova"
+      "hint1": "Avital Lvova",
+      "difficulty": "Moyen"
     },
     {
       "id": "keisuke-kagawa",
@@ -3045,7 +3278,8 @@
       "affiliation": "Tyger Claws",
       "home": "Little China, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Yoshi Ando"
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "kenji-sakura",
@@ -3058,7 +3292,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kerry-eurodyne",
@@ -3073,7 +3308,8 @@
       "affiliation": "Samurai, MSM Records",
       "home": "Westbrook, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Matthew Yang King Damian Ukeje (vocalist)"
+      "hint1": "Matthew Yang King Damian Ukeje (vocalist)",
+      "difficulty": "Très facile"
     },
     {
       "id": "kimiko-sanchez",
@@ -3088,7 +3324,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "kiril-yang",
@@ -3101,7 +3338,8 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)"
+      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "kirk-sawyer",
@@ -3114,7 +3352,8 @@
       "affiliation": "",
       "home": "Pacifica, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Derek Hagen"
+      "hint1": "Derek Hagen",
+      "difficulty": "Moyen"
     },
     {
       "id": "kitano",
@@ -3127,7 +3366,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)"
+      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "kiwi",
@@ -3140,7 +3380,8 @@
       "affiliation": "Maine, David, Faraday",
       "home": "Watson, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)"
+      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "kuniko-aso",
@@ -3153,7 +3394,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "kurt-hansen",
@@ -3166,7 +3408,8 @@
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Eliah Mountjoy"
+      "hint1": "Eliah Mountjoy",
+      "difficulty": "Facile"
     },
     {
       "id": "kyle-araujo",
@@ -3179,7 +3422,8 @@
       "affiliation": "BARGHEST",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "kyoko-tanaami",
@@ -3192,7 +3436,8 @@
       "affiliation": "Arasaka, Kang Tao",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)"
+      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "lance-hardy",
@@ -3205,7 +3450,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lauren-costigan",
@@ -3218,7 +3464,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "leah-gladen",
@@ -3231,7 +3478,8 @@
       "affiliation": "",
       "home": "Leah Gladen's Apartment",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "lely-hein",
@@ -3244,7 +3492,8 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "leon-rinder",
@@ -3257,7 +3506,8 @@
       "affiliation": "BARGHEST, New United States Armed Forces, Militech",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "lilayah",
@@ -3270,7 +3520,8 @@
       "affiliation": "Cyber6",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lina-malina",
@@ -3285,7 +3536,8 @@
       "affiliation": "Fourth Wall Studios",
       "home": "Longshore Stacks, Dogtown, Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Aliona Baranova"
+      "hint1": "Aliona Baranova",
+      "difficulty": "Moyen"
     },
     {
       "id": "lisa-smith",
@@ -3298,7 +3550,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "lizzy-wizzy",
@@ -3313,7 +3566,8 @@
       "affiliation": "",
       "home": "North Oak, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Grimes"
+      "hint1": "Grimes",
+      "difficulty": "Facile"
     },
     {
       "id": "logan-garcia",
@@ -3326,7 +3580,8 @@
       "affiliation": "Animals",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "logan-scott",
@@ -3339,7 +3594,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Joseph May"
+      "hint1": "Joseph May",
+      "difficulty": "Difficile"
     },
     {
       "id": "louise-nordin-eurodyne",
@@ -3352,7 +3608,8 @@
       "affiliation": "",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lucius-rhyne",
@@ -3365,7 +3622,8 @@
       "affiliation": "Night City Council, Devolutionist Party, Mayor's Office",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Paul Jerome"
+      "hint1": "Paul Jerome",
+      "difficulty": "Moyen"
     },
     {
       "id": "lucius-thoran",
@@ -3378,7 +3636,8 @@
       "affiliation": "6th Street",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "lucy-thackery",
@@ -3393,7 +3652,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alana Maria"
+      "hint1": "Alana Maria",
+      "difficulty": "Difficile"
     },
     {
       "id": "lucyna-kushinada",
@@ -3409,7 +3669,8 @@
       "affiliation": "Arasaka, Maine",
       "home": "Westbrook, NC",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)"
+      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "lyle-thompson",
@@ -3422,7 +3683,8 @@
       "affiliation": "World News Service",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Joseph May"
+      "hint1": "Joseph May",
+      "difficulty": "Moyen"
     },
     {
       "id": "maggie-isley",
@@ -3435,7 +3697,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "maiko-maeda",
@@ -3448,7 +3711,8 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Arina Ii"
+      "hint1": "Arina Ii",
+      "difficulty": "Moyen"
     },
     {
       "id": "maine",
@@ -3461,7 +3725,8 @@
       "affiliation": "NUSA SpecOps",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)"
+      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "maman-brigitte",
@@ -3476,7 +3741,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Victoire Charles"
+      "hint1": "Victoire Charles",
+      "difficulty": "Facile"
     },
     {
       "id": "marcin-iwinski",
@@ -3489,7 +3755,8 @@
       "affiliation": "Good Old Dogtown",
       "home": "Dogtown, Pacifica (2077)",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "marcus-ichida",
@@ -3502,7 +3769,8 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Keisuke Hoashi"
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Moyen"
     },
     {
       "id": "marlon-fuscino",
@@ -3515,7 +3783,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "martha-frakes",
@@ -3530,7 +3799,8 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "marty-jenklow",
@@ -3543,7 +3813,8 @@
       "affiliation": "Civilian",
       "home": "Fuel Station, Biotechnica Flats, Badlands",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "mateo-thiago",
@@ -3556,7 +3827,8 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Antonio Alvarez"
+      "hint1": "Antonio Alvarez",
+      "difficulty": "Moyen"
     },
     {
       "id": "matilda-k-rose",
@@ -3571,7 +3843,8 @@
       "affiliation": "Animals",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Krizia Bajos"
+      "hint1": "Krizia Bajos",
+      "difficulty": "Moyen"
     },
     {
       "id": "matt-liaw",
@@ -3584,7 +3857,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "max-jones",
@@ -3597,7 +3871,8 @@
       "affiliation": "WNS, NC Inquirer, Regina Jones",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alec Newman"
+      "hint1": "Alec Newman",
+      "difficulty": "Moyen"
     },
     {
       "id": "maxim-kuznetsov",
@@ -3610,7 +3885,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Takanori Hoshino (Japanese)"
+      "hint1": "Takanori Hoshino (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "maximum-mike",
@@ -3625,7 +3901,8 @@
       "affiliation": "Morro Rock Radio",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Mike Pondsmith"
+      "hint1": "Mike Pondsmith",
+      "difficulty": "Moyen"
     },
     {
       "id": "mbole-ebunike",
@@ -3640,7 +3917,8 @@
       "affiliation": "Mayor's Office",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "meds-vendor-docks",
@@ -3653,7 +3931,8 @@
       "affiliation": "",
       "home": "Northside, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Graham Vick"
+      "hint1": "Graham Vick",
+      "difficulty": "Difficile"
     },
     {
       "id": "meds-vendor-little-china",
@@ -3666,7 +3945,8 @@
       "affiliation": "",
       "home": "Little China, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "meds-vendor-northside",
@@ -3679,7 +3959,8 @@
       "affiliation": "",
       "home": "Northside, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "melissa-rory",
@@ -3692,7 +3973,8 @@
       "affiliation": "NCPD, MaxTac",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kosha Engler"
+      "hint1": "Kosha Engler",
+      "difficulty": "Moyen"
     },
     {
       "id": "melissa-wellingham",
@@ -3707,7 +3989,8 @@
       "affiliation": "22nd SAS Regt., Forlorn Hope",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "meredith-stout",
@@ -3720,7 +4003,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Erica Lindbeck"
+      "hint1": "Erica Lindbeck",
+      "difficulty": "Facile"
     },
     {
       "id": "meshuga",
@@ -3733,7 +4017,8 @@
       "affiliation": "Team King",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)"
+      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "michael-maldonado",
@@ -3746,7 +4031,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "michael-marcinkowsky",
@@ -3759,7 +4045,8 @@
       "affiliation": "Wraiths",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "micha-kicinski",
@@ -3772,7 +4059,8 @@
       "affiliation": "",
       "home": "Dogtown, Pacifica (2077)",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "michiko-sanderson-nee-arasaka",
@@ -3785,7 +4073,8 @@
       "affiliation": "Danger Gal, Arasaka, Hato",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kosha Engler"
+      "hint1": "Kosha Engler",
+      "difficulty": "Facile"
     },
     {
       "id": "mickey",
@@ -3800,7 +4089,8 @@
       "affiliation": "Muamar Reyes, AUTOFIXER",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "miguel-rodriguez",
@@ -3815,7 +4105,8 @@
       "affiliation": "Valentinos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "miguel-serrano",
@@ -3831,7 +4122,8 @@
       "affiliation": "Team King",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)"
+      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "mike",
@@ -3844,7 +4136,8 @@
       "affiliation": "",
       "home": "Yucca, NUSA",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mike-kowalski",
@@ -3859,7 +4152,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Keisuke Hoashi"
+      "hint1": "Keisuke Hoashi",
+      "difficulty": "Moyen"
     },
     {
       "id": "mike-kowalsky",
@@ -3872,7 +4166,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mikhail-akulov",
@@ -3887,7 +4182,8 @@
       "affiliation": "Soviet Union",
       "home": "Soviet Union",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "milko-alexis",
@@ -3900,7 +4196,8 @@
       "affiliation": "Voodoo Boys",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "milt-nauman",
@@ -3913,7 +4210,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Mark Holden"
+      "hint1": "Mark Holden",
+      "difficulty": "Difficile"
     },
     {
       "id": "miriam-night",
@@ -3926,7 +4224,8 @@
       "affiliation": "Night Corp",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "misty-olszewski",
@@ -3939,7 +4238,8 @@
       "affiliation": "",
       "home": "Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Erica Lindbeck"
+      "hint1": "Erica Lindbeck",
+      "difficulty": "Très facile"
     },
     {
       "id": "mitch-anderson",
@@ -3952,7 +4252,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Martin McDougall"
+      "hint1": "Martin McDougall",
+      "difficulty": "Facile"
     },
     {
       "id": "mokomichi-yamada",
@@ -3967,7 +4268,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mower",
@@ -3980,7 +4282,8 @@
       "affiliation": "Militech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "mr-blue-eyes",
@@ -3995,7 +4298,8 @@
       "affiliation": "Undisclosed",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Martin McDougall"
+      "hint1": "Martin McDougall",
+      "difficulty": "Facile"
     },
     {
       "id": "mr-brightman",
@@ -4008,7 +4312,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "mr-kipper",
@@ -4021,7 +4326,8 @@
       "affiliation": "",
       "home": "Crystal Palace, Mr. Kipper: A Universal Message",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "muamar-reyes",
@@ -4038,7 +4344,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alec Newman"
+      "hint1": "Alec Newman",
+      "difficulty": "Facile"
     },
     {
       "id": "nadezhda-tiurina",
@@ -4051,7 +4358,8 @@
       "affiliation": "Mikhail Akulov, KGB",
       "home": "Soviet Union",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nadia-petrova",
@@ -4064,7 +4372,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nash",
@@ -4077,7 +4386,8 @@
       "affiliation": "Wraiths",
       "home": "Badlands",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "neil-white",
@@ -4090,7 +4400,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nele-springer",
@@ -4103,7 +4414,8 @@
       "affiliation": "Crimson Harvest",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "nibbles",
@@ -4116,7 +4428,8 @@
       "affiliation": "V, Rogue Amendiares",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "nika-yankovich",
@@ -4129,7 +4442,8 @@
       "affiliation": "Scavengers",
       "home": "Dogtown, Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Devora Wilde"
+      "hint1": "Devora Wilde",
+      "difficulty": "Moyen"
     },
     {
       "id": "nina-kraviz",
@@ -4142,7 +4456,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Nina Kraviz"
+      "hint1": "Nina Kraviz",
+      "difficulty": "Difficile"
     },
     {
       "id": "nix",
@@ -4155,7 +4470,8 @@
       "affiliation": "Afterlife Mercs, Arasaka",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ako Mitchell"
+      "hint1": "Ako Mitchell",
+      "difficulty": "Facile"
     },
     {
       "id": "noah",
@@ -4168,7 +4484,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Marc Pickering"
+      "hint1": "Marc Pickering",
+      "difficulty": "Moyen"
     },
     {
       "id": "nolan-frakes",
@@ -4181,7 +4498,8 @@
       "affiliation": "6th Street",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "norio-akuhara",
@@ -4196,7 +4514,8 @@
       "affiliation": "Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "nuka-shank-ohlone",
@@ -4209,7 +4528,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "odell-blanco",
@@ -4222,7 +4542,8 @@
       "affiliation": "Haven Clinic",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "ofelia-sirawian",
@@ -4238,7 +4559,8 @@
       "affiliation": "Maelstrom",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "oleg-darkevich",
@@ -4251,7 +4573,8 @@
       "affiliation": "Dexter DeShawn",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "olek-carax",
@@ -4264,7 +4587,8 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)"
+      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "omi",
@@ -4277,7 +4601,8 @@
       "affiliation": "Snake Nation",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)"
+      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "oswald-forrest",
@@ -4292,7 +4617,8 @@
       "affiliation": "Clouds, Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Joe Corrigall"
+      "hint1": "Joe Corrigall",
+      "difficulty": "Moyen"
     },
     {
       "id": "othmar-brasi",
@@ -4305,7 +4631,8 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "ozob-bozo",
@@ -4318,7 +4645,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)"
+      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)",
+      "difficulty": "Facile"
     },
     {
       "id": "paco-torres",
@@ -4331,7 +4659,8 @@
       "affiliation": "BARGHEST, Scavengers",
       "home": "Dogtown, Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Adan Rocha"
+      "hint1": "Adan Rocha",
+      "difficulty": "Moyen"
     },
     {
       "id": "panam-palmer",
@@ -4346,7 +4675,8 @@
       "affiliation": "Aldecaldos, Bright Family, Afterlife Mercs",
       "home": "Badlands, NUSA, Arizona",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Emily Woo Zeller"
+      "hint1": "Emily Woo Zeller",
+      "difficulty": "Très facile"
     },
     {
       "id": "papa-sunrise",
@@ -4361,7 +4691,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "pedro-aimar",
@@ -4374,7 +4705,8 @@
       "affiliation": "Zetatech",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Bernardo De Paula"
+      "hint1": "Bernardo De Paula",
+      "difficulty": "Moyen"
     },
     {
       "id": "pepe-najarro",
@@ -4387,7 +4719,8 @@
       "affiliation": "",
       "home": "Heywood, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ronan Summers"
+      "hint1": "Ronan Summers",
+      "difficulty": "Difficile"
     },
     {
       "id": "peter-sampson",
@@ -4402,7 +4735,8 @@
       "affiliation": "Militech",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "peter-upmann",
@@ -4415,7 +4749,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "philippe-oreste",
@@ -4430,7 +4765,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "pilar",
@@ -4445,7 +4781,8 @@
       "affiliation": "Maine",
       "home": "Watson, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)"
+      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)",
+      "difficulty": "Facile"
     },
     {
       "id": "placide",
@@ -4458,7 +4795,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Lovensky Jean-Baptiste"
+      "hint1": "Lovensky Jean-Baptiste",
+      "difficulty": "Facile"
     },
     {
       "id": "principal",
@@ -4471,7 +4809,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)"
+      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "purple-force",
@@ -4484,7 +4823,8 @@
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Stephanie Sheh"
+      "hint1": "Stephanie Sheh",
+      "difficulty": "Facile"
     },
     {
       "id": "peter-horvath",
@@ -4497,7 +4837,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "r3n0",
@@ -4510,7 +4851,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "rache-bartmoss",
@@ -4523,7 +4865,8 @@
       "affiliation": "Militech, CCI Development",
       "home": "The Net",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "rachel-casich",
@@ -4536,7 +4879,8 @@
       "affiliation": "Fourth Wall Studios",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Rebecca Yeo"
+      "hint1": "Rebecca Yeo",
+      "difficulty": "Difficile"
     },
     {
       "id": "randy-kutcher",
@@ -4551,7 +4895,8 @@
       "affiliation": "",
       "home": "Kutcher's home, Trailer Park, Red Peaks",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "razor-hugh",
@@ -4564,7 +4909,8 @@
       "affiliation": "Animals",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "rearview",
@@ -4577,7 +4923,8 @@
       "affiliation": "Joe's Garage",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "rebeca-price",
@@ -4590,7 +4937,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "rebecca",
@@ -4608,7 +4956,8 @@
       "affiliation": "Maine, David",
       "home": "Watson, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)"
+      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)",
+      "difficulty": "Très facile"
     },
     {
       "id": "red-menace",
@@ -4623,7 +4972,8 @@
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "regina-jones",
@@ -4638,7 +4988,8 @@
       "affiliation": "WNS, FTF Radio",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Alana Maria"
+      "hint1": "Alana Maria",
+      "difficulty": "Facile"
     },
     {
       "id": "rhino",
@@ -4651,7 +5002,8 @@
       "affiliation": "Animals",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lucy Montgomery"
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Moyen"
     },
     {
       "id": "richard",
@@ -4664,7 +5016,8 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)"
+      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "richard-night",
@@ -4677,7 +5030,8 @@
       "affiliation": "HFN, Night International",
       "home": "Coronado City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ronan Summers"
+      "hint1": "Ronan Summers",
+      "difficulty": "Difficile"
     },
     {
       "id": "rita-wheeler",
@@ -4690,7 +5044,8 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lucy Montgomery"
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Facile"
     },
     {
       "id": "river-ward",
@@ -4705,7 +5060,8 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Robbie Daymond"
+      "hint1": "Robbie Daymond",
+      "difficulty": "Très facile"
     },
     {
       "id": "robert-wilson",
@@ -4718,7 +5074,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Dave B. Mitchell"
+      "hint1": "Dave B. Mitchell",
+      "difficulty": "Difficile"
     },
     {
       "id": "roger-wang",
@@ -4731,7 +5088,8 @@
       "affiliation": "",
       "home": "Kabuki",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Noshir Dalal"
+      "hint1": "Noshir Dalal",
+      "difficulty": "Difficile"
     },
     {
       "id": "rogue-amendiares",
@@ -4748,7 +5106,8 @@
       "affiliation": "Afterlife",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Jane Perry"
+      "hint1": "Jane Perry",
+      "difficulty": "Très facile"
     },
     {
       "id": "roh-chi-won",
@@ -4761,7 +5120,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "roman",
@@ -4774,7 +5134,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "roman-carax",
@@ -4787,7 +5148,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)"
+      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "ronald-malone",
@@ -4804,7 +5166,8 @@
       "affiliation": "",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "rosalind-myers",
@@ -4819,7 +5182,8 @@
       "affiliation": "USMC, Militech, Federalist Party",
       "home": "Washington, D.C., NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Kay Bess"
+      "hint1": "Kay Bess",
+      "difficulty": "Facile"
     },
     {
       "id": "rose-horrigan",
@@ -4834,7 +5198,8 @@
       "affiliation": "",
       "home": "Horrigan Family Home",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lucy Montgomery"
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "ross-ulmer",
@@ -4847,7 +5212,8 @@
       "affiliation": "BARGHEST",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "roxanne-colton",
@@ -4862,7 +5228,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alison Halstead"
+      "hint1": "Alison Halstead",
+      "difficulty": "Moyen"
     },
     {
       "id": "roxanne-sumner",
@@ -4875,7 +5242,8 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alana Maria"
+      "hint1": "Alana Maria",
+      "difficulty": "Difficile"
     },
     {
       "id": "ruby-collins",
@@ -4890,7 +5258,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "russel-greene",
@@ -4903,7 +5272,8 @@
       "affiliation": "",
       "home": "Greene Homestead, Rocky Ridge, northern Badlands",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ruth-dzeng",
@@ -4916,7 +5286,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Erika Ishii"
+      "hint1": "Erika Ishii",
+      "difficulty": "Moyen"
     },
     {
       "id": "saburo-arasaka",
@@ -4931,7 +5302,8 @@
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Masane Tsukayama"
+      "hint1": "Masane Tsukayama",
+      "difficulty": "Très facile"
     },
     {
       "id": "sachiko-kusama",
@@ -4944,7 +5316,8 @@
       "affiliation": "",
       "home": "Arasaka Orbital Station",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Cristina Valenzuela"
+      "hint1": "Cristina Valenzuela",
+      "difficulty": "Difficile"
     },
     {
       "id": "saki-seo",
@@ -4957,7 +5330,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sal-bigelow",
@@ -4970,7 +5344,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)"
+      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "sam-carter",
@@ -4983,7 +5358,8 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Graham Vick"
+      "hint1": "Graham Vick",
+      "difficulty": "Difficile"
     },
     {
       "id": "samantha-samu",
@@ -4998,7 +5374,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sammy-taylor",
@@ -5011,7 +5388,8 @@
       "affiliation": "",
       "home": "Dogtown, Pacifica",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sandayu-oda",
@@ -5024,7 +5402,8 @@
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Noshir Dalal"
+      "hint1": "Noshir Dalal",
+      "difficulty": "Facile"
     },
     {
       "id": "sandra-dorsett",
@@ -5037,7 +5416,8 @@
       "affiliation": "Night Corp",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "santiago",
@@ -5054,7 +5434,8 @@
       "affiliation": "Aldecaldos",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "santiago-molina",
@@ -5067,7 +5448,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Dar Dash"
+      "hint1": "Dar Dash",
+      "difficulty": "Difficile"
     },
     {
       "id": "sasha-yakovleva",
@@ -5080,7 +5462,8 @@
       "affiliation": "Maine",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "saul-bright",
@@ -5093,7 +5476,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Diarmaid Murtagh"
+      "hint1": "Diarmaid Murtagh",
+      "difficulty": "Facile"
     },
     {
       "id": "sebastian-ibarra",
@@ -5109,7 +5493,8 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Al Rodrigo"
+      "hint1": "Al Rodrigo",
+      "difficulty": "Facile"
     },
     {
       "id": "serena-zhao",
@@ -5124,7 +5509,8 @@
       "affiliation": "",
       "home": "Downtown, City Center",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "sergei-karasinsky",
@@ -5137,7 +5523,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Gunnar Cauthery"
+      "hint1": "Gunnar Cauthery",
+      "difficulty": "Difficile"
     },
     {
       "id": "shaitan",
@@ -5150,7 +5537,8 @@
       "affiliation": "",
       "home": "Pacific Rim, 2045",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Shai Matheson"
+      "hint1": "Shai Matheson",
+      "difficulty": "Moyen"
     },
     {
       "id": "shinobu-imai",
@@ -5163,7 +5551,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "sho-gun-rose",
@@ -5176,7 +5565,8 @@
       "affiliation": "Mox",
       "home": "Charter Hill, Westbrook",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "simon-randall",
@@ -5191,7 +5581,8 @@
       "affiliation": "Maelstrom",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "skye",
@@ -5204,7 +5595,8 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Emma Ballantine"
+      "hint1": "Emma Ballantine",
+      "difficulty": "Difficile"
     },
     {
       "id": "slavoj-mcallister",
@@ -5217,7 +5609,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "solomon-reed",
@@ -5232,7 +5625,8 @@
       "affiliation": "NUSA SpecOps, FIA, NUSA, Dino Dinovic",
       "home": "Washington, D.C., Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Facile"
     },
     {
       "id": "song-so-mi",
@@ -5248,7 +5642,8 @@
       "affiliation": "FIA, NUSA",
       "home": "Brooklyn, NYC, Washington, D.C.",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Minji Chang"
+      "hint1": "Minji Chang",
+      "difficulty": "Facile"
     },
     {
       "id": "sophia-dupont",
@@ -5261,7 +5656,8 @@
       "affiliation": "",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "spector-cheng",
@@ -5274,7 +5670,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "spider-murphy",
@@ -5290,7 +5687,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Erica Lindbeck"
+      "hint1": "Erica Lindbeck",
+      "difficulty": "Facile"
     },
     {
       "id": "spite-vondell",
@@ -5303,7 +5701,8 @@
       "affiliation": "Wraiths",
       "home": "Coronado Dam, Rancho Coronado",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "stanley-media",
@@ -5318,7 +5717,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Roger Rose"
+      "hint1": "Roger Rose",
+      "difficulty": "Moyen"
     },
     {
       "id": "starkey",
@@ -5331,7 +5731,8 @@
       "affiliation": "Aldecaldos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "stefan",
@@ -5344,7 +5745,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "stella-ramos",
@@ -5357,7 +5759,8 @@
       "affiliation": "NCPD",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Suzi Hunter"
+      "hint1": "Suzi Hunter",
+      "difficulty": "Moyen"
     },
     {
       "id": "steve-sanchez",
@@ -5370,7 +5773,8 @@
       "affiliation": "",
       "home": "West Wind Estate, Pacifica, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Sebastián Capitán Viveros"
+      "hint1": "Sebastián Capitán Viveros",
+      "difficulty": "Moyen"
     },
     {
       "id": "steven-santos",
@@ -5383,7 +5787,8 @@
       "affiliation": "Brazilian Intelligence Agency, Barghest",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "susan-abernathy",
@@ -5396,7 +5801,8 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "susanna-mack",
@@ -5409,7 +5815,8 @@
       "affiliation": "Trauma Team",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "susanna-quinn",
@@ -5426,7 +5833,8 @@
       "affiliation": "The Mox",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alana Maria"
+      "hint1": "Alana Maria",
+      "difficulty": "Moyen"
     },
     {
       "id": "t-bug",
@@ -5441,7 +5849,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Cynthia Kaye McWilliams"
+      "hint1": "Cynthia Kaye McWilliams",
+      "difficulty": "Très facile"
     },
     {
       "id": "taco",
@@ -5454,7 +5863,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "takeshi-kazou",
@@ -5467,7 +5877,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "taki-kenmochi",
@@ -5480,7 +5891,8 @@
       "affiliation": "Tyger Claws",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "talia-yang",
@@ -5493,7 +5905,8 @@
       "affiliation": "Maelstrom, Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)"
+      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "tamara-cosby",
@@ -5506,7 +5919,8 @@
       "affiliation": "Valentinos",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tanaka",
@@ -5519,7 +5933,8 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)"
+      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)",
+      "difficulty": "Facile"
     },
     {
       "id": "tatsuya-takei",
@@ -5532,7 +5947,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "ted-fox",
@@ -5545,7 +5961,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ronan Summers"
+      "hint1": "Ronan Summers",
+      "difficulty": "Moyen"
     },
     {
       "id": "theo-price",
@@ -5558,7 +5975,8 @@
       "affiliation": "",
       "home": "Megabuilding H8, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Amelia Rose Blaire"
+      "hint1": "Amelia Rose Blaire",
+      "difficulty": "Difficile"
     },
     {
       "id": "theodore-simos",
@@ -5573,7 +5991,8 @@
       "affiliation": "Aldecaldos, Bright Family",
       "home": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Shai Matheson"
+      "hint1": "Shai Matheson",
+      "difficulty": "Facile"
     },
     {
       "id": "thomas-hays",
@@ -5586,7 +6005,8 @@
       "affiliation": "Valentino",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ti-neptune",
@@ -5599,7 +6019,8 @@
       "affiliation": "Voodoo Boys",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tom",
@@ -5612,7 +6033,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tom-ayer",
@@ -5627,7 +6049,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "tom-caldera",
@@ -5640,7 +6063,8 @@
       "affiliation": "Clouds",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Shai Matheson"
+      "hint1": "Shai Matheson",
+      "difficulty": "Difficile"
     },
     {
       "id": "tommie-walker",
@@ -5653,7 +6077,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "toshiro-harada",
@@ -5666,7 +6091,8 @@
       "affiliation": "Arasaka",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Yoshi Ando"
+      "hint1": "Yoshi Ando",
+      "difficulty": "Moyen"
     },
     {
       "id": "tracy-phillips",
@@ -5679,7 +6105,8 @@
       "affiliation": "Afterlife",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "trevor-brass",
@@ -5692,7 +6119,8 @@
       "affiliation": "Aldecaldos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "tucker-albach",
@@ -5705,7 +6133,8 @@
       "affiliation": "Kiroshi Optics",
       "home": "Tucker Albach's Apartment, The Glen, Heywood",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lucy Montgomery"
+      "hint1": "Lucy Montgomery",
+      "difficulty": "Difficile"
     },
     {
       "id": "tyler-brown",
@@ -5718,7 +6147,8 @@
       "affiliation": "None",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "v",
@@ -5737,7 +6167,8 @@
       "affiliation": "Bakkers, Nomad, Arasaka, Corpo, Afterlife Mercs, Samurai, Aldecaldos, FIA, NUSA",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)"
+      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)",
+      "difficulty": "Très facile"
     },
     {
       "id": "vance-noren",
@@ -5750,7 +6181,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "vasquez",
@@ -5763,7 +6195,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "vic-vega",
@@ -5776,7 +6209,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "viktor-vektor",
@@ -5794,7 +6228,8 @@
       "affiliation": "Night City Devils, Zetatech",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Michael Gregory"
+      "hint1": "Michael Gregory",
+      "difficulty": "Très facile"
     },
     {
       "id": "vortex",
@@ -5807,7 +6242,8 @@
       "affiliation": "Tyger Claws",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "wade-bleecker",
@@ -5823,7 +6259,8 @@
       "affiliation": "Petrochem",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)"
+      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)",
+      "difficulty": "Moyen"
     },
     {
       "id": "wakako-okada",
@@ -5838,7 +6275,8 @@
       "affiliation": "Kiroshi, Tyger Claws",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Ren Hanami"
+      "hint1": "Ren Hanami",
+      "difficulty": "Facile"
     },
     {
       "id": "wayne-johnson",
@@ -5851,7 +6289,8 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "weak-kingsley",
@@ -5866,7 +6305,8 @@
       "affiliation": "Team King ()",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)"
+      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)",
+      "difficulty": "Moyen"
     },
     {
       "id": "weldon-holt",
@@ -5881,7 +6321,8 @@
       "affiliation": "Devolutionist Party, Mayor's Office",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Dave B. Mitchell"
+      "hint1": "Dave B. Mitchell",
+      "difficulty": "Difficile"
     },
     {
       "id": "wilky-laguerre",
@@ -5897,7 +6338,8 @@
       "affiliation": "Voodoo Boys",
       "home": "",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Borge Etienne"
+      "hint1": "Borge Etienne",
+      "difficulty": "Moyen"
     },
     {
       "id": "will-gunner",
@@ -5910,7 +6352,8 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "william-hare",
@@ -5925,7 +6368,8 @@
       "affiliation": "Militech",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "willie-mccoy",
@@ -5938,7 +6382,8 @@
       "affiliation": "",
       "home": "SoCal",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Akie Kotabe"
+      "hint1": "Akie Kotabe",
+      "difficulty": "Moyen"
     },
     {
       "id": "wyatt-alken",
@@ -5951,7 +6396,8 @@
       "affiliation": "6th Street",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "xochi-peralez",
@@ -5964,7 +6410,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "yawen-packard",
@@ -5977,7 +6424,8 @@
       "affiliation": "NCPD",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Emily Woo Zeller"
+      "hint1": "Emily Woo Zeller",
+      "difficulty": "Difficile"
     },
     {
       "id": "yelena-sidorova",
@@ -5990,7 +6438,8 @@
       "affiliation": "Scavengers",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "yishen-rhee",
@@ -6003,7 +6452,8 @@
       "affiliation": "Afterlife Mercs, Red Willow",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "yoko-tsuru",
@@ -6016,7 +6466,8 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ren Hanami"
+      "hint1": "Ren Hanami",
+      "difficulty": "Moyen"
     },
     {
       "id": "yorinobu-arasaka",
@@ -6031,7 +6482,8 @@
       "affiliation": "Steel Dragons, Arasaka, Taka, Nomads",
       "home": "Tokyo, Japan",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Hideo Kimura"
+      "hint1": "Hideo Kimura",
+      "difficulty": "Très facile"
     },
     {
       "id": "yupi",
@@ -6044,7 +6496,8 @@
       "affiliation": "D",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)"
+      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)",
+      "difficulty": "Difficile"
     },
     {
       "id": "yuri-bychkov",
@@ -6057,7 +6510,8 @@
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
       "firstAppearance": "Phantom Liberty",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "zane-jagger",
@@ -6070,7 +6524,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "zaria-hughes",
@@ -6083,7 +6538,8 @@
       "affiliation": "Maelstrom",
       "home": "Watson (2077), Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "zeke-daniels",
@@ -6098,7 +6554,8 @@
       "affiliation": "Forlorn Hope",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "zen-master",
@@ -6113,7 +6570,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Vic Chao"
+      "hint1": "Vic Chao",
+      "difficulty": "Difficile"
     },
     {
       "id": "zhan-qiu",
@@ -6126,7 +6584,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "ziggy-q",
@@ -6139,7 +6598,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ben Cura"
+      "hint1": "Ben Cura",
+      "difficulty": "Moyen"
     },
     {
       "id": "zion-wylde",
@@ -6152,7 +6612,8 @@
       "affiliation": "",
       "home": "Badlands",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Impossible"
     },
     {
       "id": "zoe-alonzo",
@@ -6165,7 +6626,8 @@
       "affiliation": "Valentinos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     },
     {
       "id": "zoli-barnes",
@@ -6178,7 +6640,8 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Moyen"
     },
     {
       "id": "zuleikha-el-ahmar",
@@ -6191,7 +6654,8 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Lara Sawalha"
+      "hint1": "Lara Sawalha",
+      "difficulty": "Difficile"
     },
     {
       "id": "zena-delice",
@@ -6204,7 +6668,8 @@
       "affiliation": "Voodoo Boys",
       "home": "West Wind Estate, Pacifica",
       "firstAppearance": "Jeu vidéo",
-      "hint1": ""
+      "hint1": "",
+      "difficulty": "Difficile"
     }
   ]
 }
