@@ -1,0 +1,71 @@
+{
+  "id": "cyberpunk-2077",
+  "name": "Cyberpunk 2077",
+  "description": "Devine les gangs, organisations et marques de vehicules a partir de leur logo",
+  "kind": "brands",
+  "decoyLetterCount": 8,
+  "sections": [
+    {
+      "id": "gangs",
+      "name": "Gangs",
+      "logos": [
+        { "id": "sixth-street", "name": "6th Street", "aliases": ["Sixth Street", "6thStreet"], "difficulty": "Facile" },
+        { "id": "animals", "name": "Animals", "difficulty": "Facile" },
+        { "id": "maelstrom", "name": "Maelstrom", "difficulty": "Facile" },
+        { "id": "mox", "name": "The Mox", "aliases": ["Mox", "Moxes", "The Moxes"], "difficulty": "Facile" },
+        { "id": "tyger-claws", "name": "Tyger Claws", "aliases": ["Tiger Claws", "TygerClaws"], "difficulty": "Facile" },
+        { "id": "valentinos", "name": "Valentinos", "difficulty": "Très facile" },
+        { "id": "voodoo-boys", "name": "Voodoo Boys", "aliases": ["VoodooBoys"], "difficulty": "Facile" },
+        { "id": "wraiths", "name": "Wraiths", "difficulty": "Moyen" },
+        { "id": "aldecaldos", "name": "Aldecaldos", "difficulty": "Moyen" },
+        { "id": "barghest", "name": "Barghest", "difficulty": "Difficile" }
+      ]
+    },
+    {
+      "id": "corporations",
+      "name": "Corporations",
+      "logos": [
+        { "id": "arasaka", "name": "Arasaka", "difficulty": "Très facile" },
+        { "id": "militech", "name": "Militech", "difficulty": "Facile" },
+        { "id": "kang-tao", "name": "Kang Tao", "aliases": ["KangTao"], "difficulty": "Moyen" },
+        { "id": "trauma-team", "name": "Trauma Team", "aliases": ["TraumaTeam", "TT"], "difficulty": "Facile" },
+        { "id": "netwatch", "name": "NetWatch", "aliases": ["Net Watch"], "difficulty": "Moyen" },
+        { "id": "biotechnica", "name": "Biotechnica", "difficulty": "Moyen" },
+        { "id": "night-corp", "name": "Night Corp", "aliases": ["NightCorp", "Nightcorp"], "difficulty": "Difficile" },
+        { "id": "orbital-air", "name": "Orbital Air", "aliases": ["OrbitalAir"], "difficulty": "Difficile" }
+      ]
+    },
+    {
+      "id": "forces",
+      "name": "Forces & services",
+      "logos": [
+        { "id": "ncpd", "name": "NCPD", "aliases": ["N.C.P.D."], "difficulty": "Facile" },
+        { "id": "maxtac", "name": "MaxTac", "aliases": ["Max Tac", "MAXTAC"], "difficulty": "Moyen" }
+      ]
+    },
+    {
+      "id": "voitures",
+      "name": "Voitures & motos",
+      "logos": [
+        { "id": "quadra", "name": "Quadra", "difficulty": "Très facile" },
+        { "id": "rayfield", "name": "Rayfield", "difficulty": "Facile" },
+        { "id": "mizutani", "name": "Mizutani", "difficulty": "Facile" },
+        { "id": "thorton", "name": "Thorton", "difficulty": "Facile" },
+        { "id": "archer", "name": "Archer", "difficulty": "Moyen" },
+        { "id": "villefort", "name": "Villefort", "difficulty": "Moyen" },
+        { "id": "herrera", "name": "Herrera", "difficulty": "Moyen" },
+        { "id": "chevillon", "name": "Chevillon", "difficulty": "Moyen" },
+        { "id": "makigai", "name": "Makigai", "difficulty": "Difficile" },
+        { "id": "mahir", "name": "Mahir", "aliases": ["Mahir Motors"], "difficulty": "Difficile" },
+        { "id": "yaiba", "name": "Yaiba", "difficulty": "Facile" },
+        { "id": "arch", "name": "ARCH", "aliases": ["Arch", "Arch Motorcycle"], "difficulty": "Moyen" },
+        { "id": "brennan", "name": "Brennan", "difficulty": "Difficile" },
+        { "id": "kaukaz", "name": "Kaukaz", "difficulty": "Difficile" },
+        { "id": "porsche", "name": "Porsche", "difficulty": "Très facile" },
+        { "id": "delamain", "name": "Delamain", "difficulty": "Facile" },
+        { "id": "zetatech", "name": "Zetatech", "difficulty": "Moyen" },
+        { "id": "ural-kombinat", "name": "Ural Kombinat", "aliases": ["Ural"], "difficulty": "Impossible" }
+      ]
+    }
+  ]
+}

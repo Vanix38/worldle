@@ -19,7 +19,8 @@
     "add-hxh-missing": "node scripts/add-hxh-missing-from-wiki.mjs",
     "extract-marvel-film-realities": "node scripts/extract-marvel-film-realities.mjs",
     "extract-marvel-wiki-characters-by-earth": "node scripts/extract-marvel-wiki-characters-by-earth.mjs",
-    "download-naruto-images": "node scripts/download-naruto-character-images.mjs"
+    "download-naruto-images": "node scripts/download-naruto-character-images.mjs",
+    "scrape-cyberpunk": "node scripts/scrape-cyberpunk-fandom.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",
