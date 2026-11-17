@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Nissan 1978-2001 Logo.svg"
+   id="svg12"
+   version="1.1"
+   viewBox="0 0 192.756 192.756"
+   height="2500"
+   width="2500">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg12"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-11"
+     inkscape:window-x="-11"
+     inkscape:cy="1329.4049"
+     inkscape:cx="2297.5376"
+     inkscape:zoom="0.31392458"
+     showgrid="false"
+     id="namedview14"
+     inkscape:window-height="986"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     transform="scale(0.0771024)"
+     d="M 112.20117 926.5332 C 91.527367 926.5332 74.990892 933.77083 62.591797 946.16992 C 45.030735 963.73098 36.755859 981.30588 36.755859 1000.9551 L 36.755859 1503.1953 C 36.755859 1522.8315 45.030592 1540.3809 57.429688 1552.793 C 74.990749 1570.354 91.527367 1577.5898 112.20117 1577.5898 L 2392.9473 1577.5898 C 2410.5213 1577.5898 2424.9963 1570.3411 2442.5703 1552.793 C 2454.9564 1545.5429 2463.2441 1527.9935 2463.2441 1503.1953 L 2463.2441 1000.9551 C 2463.2441 978.21908 2454.9564 958.58199 2442.5703 946.16992 C 2430.1582 933.77083 2412.5965 926.5332 2392.9473 926.5332 L 112.20117 926.5332 z "
+     style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:12.9698;fill:#111111;fill-opacity:1"
+     id="path4" />
+  <path
+     d="M 62.594,41.957 C 52.077,48.65 44.427,57.335 39.248,67.614 H 153.827 C 148.329,56.698 140.6,47.853 130.481,41.559 120.124,35.184 108.809,31.997 96.777,31.997 84.666,31.998 73.191,35.185 62.594,41.957 Z m -23.346,83.504 c 5.179,10.359 12.829,18.963 23.346,25.656 10.199,6.375 21.514,9.641 34.183,9.641 12.669,0 23.903,-3.266 34.103,-9.641 10.518,-6.852 18.166,-15.457 22.947,-25.656 z"
+     fill="#111111"
+     id="path8"
+     style="clip-rule:evenodd;fill-rule:evenodd" />
+  <g
+     style="fill:#ffffff"
+     id="g98">
+    <path
+       id="path66-5"
+       d="m 97.972013,82.194978 c -2.55,0 -4.3779,0.647629 -5.81686,1.912047 -1.19756,1.052293 -1.83314,3.028967 -1.83314,6.135963 0,3.267004 0.69712,5.756214 2.231,7.251094 1.57439,1.53437 4.06405,2.31096 7.33105,2.31096 h 8.764977 v 4.621018 H 90.642013 v 6.45298 h 18.405037 c 1.912,0 3.97686,-0.55078 5.73705,-2.31097 1.76019,-1.76019 2.31097,-3.98212 2.31097,-6.45312 0,-5.975998 -3.42593,-8.844938 -10.35793,-8.844938 h -8.366057 v -4.621024 h 16.094067 v -6.45401 z"
+       style="fill:#ffffff;stroke-width:0.718327;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:131.528;paint-order:stroke fill markers" />
+    <path
+       id="path70"
+       style="fill:#ffffff;stroke-width:0.718327;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:131.528;paint-order:stroke fill markers"
+       d="m 126.25805,82.194977 -9.95901,28.684053 h 8.44497 l 1.51404,-5.33799 h 12.27088 l 1.51404,5.33799 h 8.44497 L 138.12896,82.194977 Z m 6.13491,6.454011 3.8241,10.756988 h -7.6491 z" />
+    <path
+       style="fill:#ffffff;stroke-width:0.718327;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:131.528;paint-order:stroke fill markers"
+       d="m 150.00108,82.194977 v 28.684053 h 8.04696 V 88.331095 l 9.64292,22.547935 h 12.58997 V 82.194977 H 171.834 V 104.027 l -8.36501,-21.832023 h -13.46701 z"
+       id="path72" />
+    <path
+       style="fill:#ffffff;stroke-width:0.718327;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:131.528;paint-order:stroke fill markers"
+       d="m 68.808933,82.194977 c -2.55,0 -4.377905,0.64763 -5.816868,1.912047 -1.197554,1.052294 -1.83314,3.028968 -1.833132,6.135964 -8e-6,3.267006 0.697121,5.75621 2.230996,7.251095 1.574393,1.534368 4.064052,2.310959 7.331051,2.310959 h 8.764977 v 4.621028 H 61.478931 v 6.45296 h 18.405037 c 1.912,0 3.976857,-0.55077 5.737051,-2.31097 1.760193,-1.76019 2.310967,-3.98211 2.310967,-6.45311 0,-5.975996 -3.425922,-8.844938 -10.357929,-8.844938 h -8.366058 v -4.621024 h 16.09407 v -6.454011 z"
+       id="path66" />
+    <path
+       style="fill:#ffffff;stroke-width:0.718327;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:131.528;paint-order:stroke fill markers"
+       d="m 48.490947,82.194977 v 28.684053 h 8.047108 V 82.194977 Z"
+       id="path64" />
+    <path
+       style="fill:#ffffff;stroke-width:0.718327;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:131.528;paint-order:stroke fill markers"
+       d="m 13.192952,82.194977 v 28.684053 h 8.048017 V 88.331095 l 9.162988,22.547935 H 43.072992 V 82.194977 h -8.04801 V 104.027 L 26.260004,82.194977 Z"
+       id="rect57" />
+  </g>
+</svg>

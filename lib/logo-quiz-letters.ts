@@ -41,6 +41,25 @@ export function getPlayableLetterCount(name: string): number {
   return buildAnswerPattern(name).filter((s) => s.kind === "letter").length;
 }
 
+/**
+ * Groups answer slots by word (split on spaces only).
+ * Hyphens stay inside a word group so "Land-Rover"-style stays one line.
+ */
+export function groupAnswerPatternByWord(pattern: AnswerSlotDef[]): AnswerSlotDef[][] {
+  const groups: AnswerSlotDef[][] = [];
+  let current: AnswerSlotDef[] = [];
+  for (const slot of pattern) {
+    if (slot.kind === "separator" && slot.char === " ") {
+      if (current.length) groups.push(current);
+      current = [];
+      continue;
+    }
+    current.push(slot);
+  }
+  if (current.length) groups.push(current);
+  return groups;
+}
+
 function normalizeLetter(char: string): string {
   return stripAccents(char).toUpperCase();
 }

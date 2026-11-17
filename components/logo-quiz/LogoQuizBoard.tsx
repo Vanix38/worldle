@@ -5,7 +5,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { stripAccents } from "@/lib/utils";
 import { resolveLogoDisplayUrl } from "@/lib/logo-quiz-display";
-import { buildAnswerPattern, resolveSlotLetters } from "@/lib/logo-quiz-letters";
+import {
+  buildAnswerPattern,
+  groupAnswerPatternByWord,
+  resolveSlotLetters,
+} from "@/lib/logo-quiz-letters";
 import { useLogoQuizProgress } from "@/hooks/useLogoQuizProgress";
 import { getNextLogoId, useLogoQuizState } from "@/hooks/useLogoQuizState";
 import type { LogoQuizPack } from "@/types/logo-quiz";
@@ -29,7 +33,9 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
     wrongFlash,
     availableBank,
     selectFromBank,
+    selectLetter,
     removeFromSlot,
+    removeLastFromSlot,
     resetGame,
     isMissingLogo,
   } = useLogoQuizState(pack, logoId);
@@ -43,6 +49,43 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
   useEffect(() => {
     if (won) setVictoryDismissed(false);
   }, [won]);
+
+  useEffect(() => {
+    if (!hydrated || won) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+      const eventTarget = event.target as HTMLElement | null;
+      if (eventTarget) {
+        const tag = eventTarget.tagName;
+        if (
+          tag === "INPUT" ||
+          tag === "TEXTAREA" ||
+          tag === "SELECT" ||
+          eventTarget.isContentEditable
+        ) {
+          return;
+        }
+      }
+
+      if (event.key === "Backspace") {
+        event.preventDefault();
+        removeLastFromSlot();
+        return;
+      }
+
+      if (event.key.length !== 1) return;
+      const letter = stripAccents(event.key).toUpperCase();
+      if (!/^[A-Z0-9]$/.test(letter)) return;
+
+      event.preventDefault();
+      selectLetter(letter);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [hydrated, won, selectLetter, removeLastFromSlot]);
 
   const handleReset = () => {
     setVictoryDismissed(true);
@@ -78,6 +121,7 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
   }
 
   const pattern = buildAnswerPattern(target.name);
+  const wordGroups = groupAnswerPatternByWord(pattern);
   const slotLetters = resolveSlotLetters(state.slots, state.bank);
   const victoryOpen = won && !victoryDismissed;
   const showFullLogo = won || isCompleted(logoId);
@@ -149,32 +193,50 @@ export function LogoQuizBoard({ pack, logoId }: LogoQuizBoardProps) {
       </div>
 
       <div
-        className={`flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 ${
+        className={`flex w-full max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-2 ${
           wrongFlash ? "animate-logo-shake" : ""
         }`}
         role="group"
         aria-label={stripAccents("Réponse")}
       >
-        {pattern.map((slot, index) => {
-          if (slot.kind === "separator") {
-            return (
-              <LogoLetterSlot
-                key={`sep-${index}`}
-                letter={null}
-                separator={slot.char}
-              />
-            );
-          }
-          const playableIndex = slot.playableIndex ?? 0;
-          const isLocked = state.lockedSlots[playableIndex] ?? false;
+        {wordGroups.map((group, groupIndex) => {
+          const letterCount = group.filter((slot) => slot.kind === "letter").length;
+          const separatorCount = group.filter((slot) => slot.kind === "separator").length;
+          const gapCount = Math.max(0, group.length - 1);
+          const slotSizeCss = `min(2.75rem, calc((100% - ${separatorCount} * 0.5rem - ${gapCount} * 0.375rem) / ${Math.max(letterCount, 1)}))`;
+          const groupWidth = `min(100%, calc(${letterCount} * 2.75rem + ${separatorCount} * 0.5rem + ${gapCount} * 0.375rem))`;
+
           return (
-            <LogoLetterSlot
-              key={`slot-${playableIndex}`}
-              letter={slotLetters[playableIndex] || null}
-              onClear={() => removeFromSlot(playableIndex)}
-              disabled={won}
-              locked={isLocked}
-            />
+            <div
+              key={`word-${groupIndex}`}
+              className="flex shrink-0 flex-nowrap items-center justify-center gap-1 sm:gap-1.5"
+              style={{ width: groupWidth, maxWidth: "100%" }}
+            >
+              {group.map((slot, index) => {
+                if (slot.kind === "separator") {
+                  return (
+                    <LogoLetterSlot
+                      key={`sep-${groupIndex}-${index}`}
+                      letter={null}
+                      separator={slot.char}
+                      sizeCss={slotSizeCss}
+                    />
+                  );
+                }
+                const playableIndex = slot.playableIndex ?? 0;
+                const isLocked = state.lockedSlots[playableIndex] ?? false;
+                return (
+                  <LogoLetterSlot
+                    key={`slot-${playableIndex}`}
+                    letter={slotLetters[playableIndex] || null}
+                    onClear={() => removeFromSlot(playableIndex)}
+                    disabled={won}
+                    locked={isLocked}
+                    sizeCss={slotSizeCss}
+                  />
+                );
+              })}
+            </div>
           );
         })}
       </div>

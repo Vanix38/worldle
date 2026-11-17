@@ -120,11 +120,56 @@ function parseLogoEntry(
   return entry;
 }
 
-function compareLogosByDifficulty(a: LogoEntry, b: LogoEntry): number {
-  const rankA = a.difficulty != null ? difficultyRank(a.difficulty) : Number.POSITIVE_INFINITY;
-  const rankB = b.difficulty != null ? difficultyRank(b.difficulty) : Number.POSITIVE_INFINITY;
-  if (rankA !== rankB) return rankA - rankB;
-  return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
+function logoDifficultyRank(logo: LogoEntry): number {
+  return logo.difficulty != null ? difficultyRank(logo.difficulty) : Number.POSITIVE_INFINITY;
+}
+
+function hashSeed(value: string): number {
+  let hash = 2166136261;
+  for (let i = 0; i < value.length; i += 1) {
+    hash ^= value.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function createSeededRandom(seed: number): () => number {
+  let state = seed;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let t = state;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffleInPlace<T>(items: T[], random: () => number): void {
+  for (let i = items.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    const tmp = items[i]!;
+    items[i] = items[j]!;
+    items[j] = tmp;
+  }
+}
+
+/** Sort by difficulty, then shuffle logos within each difficulty (stable seed). */
+function sortLogosByDifficultyWithRandomOrder(logos: LogoEntry[]): LogoEntry[] {
+  const sorted = [...logos].sort((a, b) => logoDifficultyRank(a) - logoDifficultyRank(b));
+  const result: LogoEntry[] = [];
+  let index = 0;
+  while (index < sorted.length) {
+    const rank = logoDifficultyRank(sorted[index]!);
+    const start = index;
+    while (index < sorted.length && logoDifficultyRank(sorted[index]!) === rank) {
+      index += 1;
+    }
+    const group = sorted.slice(start, index);
+    const seed = hashSeed(group.map((logo) => logo.id).sort().join("|"));
+    shuffleInPlace(group, createSeededRandom(seed));
+    result.push(...group);
+  }
+  return result;
 }
 
 function parseLogoList(
@@ -138,8 +183,7 @@ function parseLogoList(
     const entry = parseLogoEntry(item, packId, enrichImages, seenIds);
     if (entry) logos.push(entry);
   }
-  logos.sort(compareLogosByDifficulty);
-  return logos;
+  return sortLogosByDifficultyWithRandomOrder(logos);
 }
 
 function isValidPackEnvelope(obj: unknown): obj is {

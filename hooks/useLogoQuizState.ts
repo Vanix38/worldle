@@ -9,6 +9,7 @@ import {
   resolveSlotLetters,
 } from "@/lib/logo-quiz-letters";
 import { markLogoCompleted } from "@/lib/logo-quiz-progress";
+import { stripAccents } from "@/lib/utils";
 import type {
   LogoEntry,
   LogoLetterTile,
@@ -160,35 +161,83 @@ export function useLogoQuizState(pack: LogoQuizPack, logoId: string) {
 
   const selectFromBank = useCallback(
     (tileId: string) => {
-      if (!state || state.won || !logo) return;
-      const tile = state.bank.find((t) => t.id === tileId);
-      if (!tile || tile.used || tile.hint === "absent") return;
-      const emptyIndex = state.slots.findIndex((s) => s === null);
-      if (emptyIndex === -1) return;
+      if (!logo) return;
+      setState((prev) => {
+        if (!prev || prev.won) return prev;
+        const tile = prev.bank.find((t) => t.id === tileId);
+        if (!tile || tile.used || tile.hint === "absent") return prev;
+        const emptyIndex = prev.slots.findIndex((s) => s === null);
+        if (emptyIndex === -1) return prev;
 
-      const slots = [...state.slots];
-      slots[emptyIndex] = tileId;
-      const bank = state.bank.map((t) => (t.id === tileId ? { ...t, used: true } : t));
-      let next: LogoQuizGameState = { ...state, slots, bank };
-      next = checkAnswer(next, logo);
-      setState(next);
+        const slots = [...prev.slots];
+        slots[emptyIndex] = tileId;
+        const bank = prev.bank.map((t) =>
+          t.id === tileId ? { ...t, used: true } : t
+        );
+        return checkAnswer({ ...prev, slots, bank }, logo);
+      });
     },
-    [state, logo, checkAnswer]
+    [logo, checkAnswer]
   );
 
-  const removeFromSlot = useCallback(
-    (playableIndex: number) => {
-      if (!state || state.won) return;
-      if (state.lockedSlots[playableIndex]) return;
-      const tileId = state.slots[playableIndex];
-      if (!tileId) return;
-      const slots = [...state.slots];
+  /** Places the first available bank tile matching this letter (keyboard input). */
+  const selectLetter = useCallback(
+    (rawLetter: string) => {
+      if (!logo) return;
+      const letter = stripAccents(rawLetter).toUpperCase();
+      if (!/^[A-Z0-9]$/.test(letter)) return;
+
+      setState((prev) => {
+        if (!prev || prev.won) return prev;
+        const tile = prev.bank.find(
+          (t) => !t.used && t.hint !== "absent" && t.letter === letter
+        );
+        if (!tile) return prev;
+        const emptyIndex = prev.slots.findIndex((s) => s === null);
+        if (emptyIndex === -1) return prev;
+
+        const slots = [...prev.slots];
+        slots[emptyIndex] = tile.id;
+        const bank = prev.bank.map((t) =>
+          t.id === tile.id ? { ...t, used: true } : t
+        );
+        return checkAnswer({ ...prev, slots, bank }, logo);
+      });
+    },
+    [logo, checkAnswer]
+  );
+
+  const removeFromSlot = useCallback((playableIndex: number) => {
+    setState((prev) => {
+      if (!prev || prev.won) return prev;
+      if (prev.lockedSlots[playableIndex]) return prev;
+      const tileId = prev.slots[playableIndex];
+      if (!tileId) return prev;
+      const slots = [...prev.slots];
       slots[playableIndex] = null;
-      const bank = state.bank.map((t) => (t.id === tileId ? { ...t, used: false } : t));
-      setState({ ...state, slots, bank });
-    },
-    [state]
-  );
+      const bank = prev.bank.map((t) =>
+        t.id === tileId ? { ...t, used: false } : t
+      );
+      return { ...prev, slots, bank };
+    });
+  }, []);
+
+  const removeLastFromSlot = useCallback(() => {
+    setState((prev) => {
+      if (!prev || prev.won) return prev;
+      for (let i = prev.slots.length - 1; i >= 0; i -= 1) {
+        if (!prev.slots[i] || prev.lockedSlots[i]) continue;
+        const tileId = prev.slots[i]!;
+        const slots = [...prev.slots];
+        slots[i] = null;
+        const bank = prev.bank.map((t) =>
+          t.id === tileId ? { ...t, used: false } : t
+        );
+        return { ...prev, slots, bank };
+      }
+      return prev;
+    });
+  }, []);
 
   const resetGame = useCallback(() => {
     if (!logo) return;
@@ -208,7 +257,9 @@ export function useLogoQuizState(pack: LogoQuizPack, logoId: string) {
     wrongFlash,
     availableBank,
     selectFromBank,
+    selectLetter,
     removeFromSlot,
+    removeLastFromSlot,
     resetGame,
     isMissingLogo: !logo,
   };

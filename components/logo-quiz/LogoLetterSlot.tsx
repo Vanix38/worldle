@@ -8,6 +8,8 @@ interface LogoLetterSlotProps {
   onClear?: () => void;
   disabled?: boolean;
   locked?: boolean;
+  /** Width formula (may use %). Height follows via aspect-ratio so cells stay square. */
+  sizeCss?: string;
 }
 
 export function LogoLetterSlot({
@@ -16,11 +18,12 @@ export function LogoLetterSlot({
   onClear,
   disabled,
   locked,
+  sizeCss = "2.75rem",
 }: LogoLetterSlotProps) {
   if (separator !== undefined) {
     return (
       <span
-        className="flex h-10 w-3 items-center justify-center text-lg font-semibold text-gray-500 sm:h-11"
+        className="flex w-[0.5rem] shrink-0 items-center justify-center self-stretch text-base font-semibold text-gray-500 sm:text-lg"
         aria-hidden={separator === " "}
       >
         {separator === " " ? "" : separator}
@@ -45,13 +48,18 @@ export function LogoLetterSlot({
             ? stripAccents(`Retirer la lettre ${letter}`)
             : stripAccents("Emplacement vide")
       }
-      className={`flex size-10 items-center justify-center rounded-lg border-2 text-base font-bold uppercase transition focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 sm:size-11 sm:text-lg ${
+      className={`box-border flex shrink-0 grow-0 items-center justify-center self-center rounded-lg border-2 text-[length:clamp(0.625rem,2.5vw,1.125rem)] font-bold uppercase transition focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 ${
         locked && isFilled
           ? "border-green-500 bg-green-600 text-white"
           : isFilled
             ? "border-ocean-500 bg-gray-800 text-white hover:border-ocean-400"
             : "border-gray-600 bg-gray-900/80 text-transparent"
       } disabled:cursor-default`}
+      style={{
+        width: sizeCss,
+        aspectRatio: "1 / 1",
+        height: "auto",
+      }}
     >
       {letter || "·"}
     </button>
