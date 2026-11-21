@@ -16,6 +16,8 @@ PRINCIPAL = {
     # Edgerunners S1
     'david-martinez', 'lucyna-kushinada', 'rebecca', 'maine', 'kiwi', 'dorio-gunnarsdottir',
     'pilar', 'falco', 'faraday', 'gloria-martinez',
+    # Edgerunners S2
+    'roman-carax', 'talia-yang', 'david', 'weak-kingsley',
 }
 raw = open(p, encoding='utf-8').read()
 d = json.loads(raw)

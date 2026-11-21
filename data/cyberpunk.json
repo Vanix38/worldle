@@ -1818,7 +1818,7 @@
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Nazeeh Tarsha (English), Kôki Uchiyama (Japanese)",
       "difficulty": "Facile",
-      "importance": "Secondaire"
+      "importance": "Principal"
     },
     {
       "id": "david-martinez",
@@ -6228,7 +6228,7 @@
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Valeria Rodriguez (English), Momoka Terasawa (Japanese)",
       "difficulty": "Difficile",
-      "importance": "Figurant"
+      "importance": "Principal"
     },
     {
       "id": "ronald-malone",
@@ -7138,7 +7138,7 @@
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Kimoy Lee (English), Akari Kitô (Japanese)",
       "difficulty": "Difficile",
-      "importance": "Figurant"
+      "importance": "Principal"
     },
     {
       "id": "tamara-cosby",
@@ -7619,7 +7619,7 @@
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Clancy Brown (English), Kentarô Tone (Japanese)",
       "difficulty": "Moyen",
-      "importance": "Secondaire"
+      "importance": "Principal"
     },
     {
       "id": "weldon-holt",
