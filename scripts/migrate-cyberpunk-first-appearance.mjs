@@ -183,14 +183,10 @@ function collectAppearanceFlags(blob) {
   return { hasS1, hasBase, hasPL, hasOther2077, hasS2 };
 }
 
-function detectFirstAppearance(params, wikitext) {
-  const fromInfobox = collectAppearanceFlags(appearanceBlob(params));
-  const fromPage = collectAppearanceFlags(wikitext);
-  const hasS1 = fromInfobox.hasS1 || fromPage.hasS1;
-  const hasBase = fromInfobox.hasBase || fromPage.hasBase;
-  const hasPL = fromInfobox.hasPL || fromPage.hasPL;
-  const hasOther2077 = fromInfobox.hasOther2077 || fromPage.hasOther2077;
-  const hasS2 = fromInfobox.hasS2 || fromPage.hasS2;
+/** Infobox uniquement : le corps de page cite {{CP|EDGE}} dans des notes/références (faux positifs). */
+// eslint-disable-next-line no-unused-vars
+function detectFirstAppearance(params, _wikitext) {
+  const { hasS1, hasBase, hasPL, hasOther2077, hasS2 } = collectAppearanceFlags(appearanceBlob(params));
 
   if (hasS1) return FA_S1;
   if (hasBase || (hasOther2077 && !hasPL)) return FA_GAME;
