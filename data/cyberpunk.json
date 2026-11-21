@@ -95,7 +95,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "",
       "affiliation": "NCPD, Regina Jones",
       "home": "",
@@ -159,7 +159,7 @@
       "affiliation": "Cuban cartels",
       "home": "Havana, Cuba",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Alejandro Saab (Male) Carolina Ravassa (Female)",
+      "hint1": "Alejandro Saab (Male), Carolina Ravassa (Female)",
       "difficulty": "Moyen"
     },
     {
@@ -303,7 +303,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "Vivant",
-      "role": "Corporate",
+      "role": "Corpo",
       "occupation": "Ghost Town",
       "affiliation": "Arasaka, Kang Tao",
       "home": "Night City",
@@ -317,8 +317,8 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Cop",
-      "occupation": "Soldier () Sheriff",
+      "role": "Lawman",
+      "occupation": "Soldier, Sheriff",
       "affiliation": "Southern California",
       "home": "Yucca, Los Padres County",
       "firstAppearance": "Jeu vidéo",
@@ -391,8 +391,8 @@
       "aliases": [],
       "gender": "Femme",
       "status": "",
-      "role": "Cop",
-      "occupation": "Patrol Officer ()",
+      "role": "Lawman",
+      "occupation": "Patrol Officer",
       "affiliation": "NCPD, Aldecaldos",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
@@ -579,12 +579,12 @@
       "aliases": [],
       "gender": "Femme",
       "status": "Mort",
-      "role": "Corporate, Rocker",
-      "occupation": "Corporate insider () Jazz singer, saxophonist ()",
+      "role": "Corpo, Rockerboy",
+      "occupation": "Corporate insider, Jazz singer, saxophonist",
       "affiliation": "Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Cesili Williams (English) Akemi Okamura (Japanese)",
+      "hint1": "Cesili Williams (English), Akemi Okamura (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -652,7 +652,7 @@
       "gender": "Homme",
       "status": "Vivant",
       "role": "Netrunner",
-      "occupation": "Cyber Security ()",
+      "occupation": "Cyber Security",
       "affiliation": "Arasaka, Mr. Hands",
       "home": "",
       "firstAppearance": "Phantom Liberty",
@@ -695,7 +695,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
@@ -917,7 +917,7 @@
       "gender": "Femme",
       "status": "",
       "role": "Media",
-      "occupation": "Independent media Militech media ()",
+      "occupation": "Independent media Militech media",
       "affiliation": "Militech",
       "home": "Heywood, Night City",
       "firstAppearance": "Phantom Liberty",
@@ -987,7 +987,7 @@
       "gender": "Homme",
       "status": "",
       "role": "Nomad",
-      "occupation": "Smuggler ()",
+      "occupation": "Smuggler",
       "affiliation": "Aldecaldos",
       "home": "",
       "firstAppearance": "Jeu vidéo",
@@ -1050,7 +1050,7 @@
       "affiliation": "Arasaka, Kyoko, Talia Yang, D",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Brittany Lauda (English) Aoi Koga (Japanese)",
+      "hint1": "Brittany Lauda (English), Aoi Koga (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -1266,7 +1266,7 @@
       "occupation": "Engineer Mechanic Bartender",
       "affiliation": "Militech, Afterlife",
       "home": "Santo Domingo, Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Maddie Taylor",
       "difficulty": "Facile"
     },
@@ -1368,7 +1368,7 @@
       "occupation": "",
       "affiliation": "Pomo, Aldecaldos",
       "home": "DaKota, Badlands",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Sabra May",
       "difficulty": "Facile"
     },
@@ -1425,7 +1425,7 @@
       "affiliation": "Militech",
       "home": "Night City",
       "firstAppearance": "Phantom Liberty",
-      "hint1": "Steven Cree (English) Dawid Podsiadło (Polish)",
+      "hint1": "Steven Cree (English), Dawid Podsiadło (Polish)",
       "difficulty": "Facile"
     },
     {
@@ -1496,8 +1496,8 @@
       "occupation": "",
       "affiliation": "nomad, Snake Nation",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Nazeeh Tarsha (English) Kôki Uchiyama (Japanese)",
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Nazeeh Tarsha (English), Kôki Uchiyama (Japanese)",
       "difficulty": "Facile"
     },
     {
@@ -1515,7 +1515,7 @@
       "affiliation": "Arasaka, Maine",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Zach Aguilar (English) Kenichiro Ohashi (Japanese) Maciej Dybowski (Polish)",
+      "hint1": "Zach Aguilar (English), Kenichiro Ohashi (Japanese), Maciej Dybowski (Polish)",
       "difficulty": "Très facile"
     },
     {
@@ -1562,8 +1562,8 @@
       "occupation": "CEO, taxi driver",
       "affiliation": "Delamain Corp",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview) Zach Villa (divergent Delamain in The Glen)",
+      "firstAppearance": "Jeu vidéo",
+      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview), Zach Villa (divergent Delamain in The Glen)",
       "difficulty": "Facile"
     },
     {
@@ -1664,7 +1664,7 @@
       "affiliation": "",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Borge Etienne (English) Kenjirô Tsuda (Japanese)",
+      "hint1": "Borge Etienne (English), Kenjirô Tsuda (Japanese)",
       "difficulty": "Moyen"
     },
     {
@@ -1678,7 +1678,7 @@
       "affiliation": "Maine's crew",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Marie Westbrook (English) Michiko Kaiden (Japanese) Aleksandra Nowicka (Polish)",
+      "hint1": "Marie Westbrook (English), Michiko Kaiden (Japanese), Aleksandra Nowicka (Polish)",
       "difficulty": "Facile"
     },
     {
@@ -1778,7 +1778,7 @@
       "gender": "Femme",
       "status": "Mort",
       "role": "Rockerboy",
-      "occupation": "Stripper () Brothel owner",
+      "occupation": "Stripper, Brothel owner",
       "affiliation": "Delphi X, Strip club",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
@@ -1827,8 +1827,8 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
-      "hint1": "Wendee Lee (English) Mirei Takebe (Japanese)",
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Wendee Lee (English), Mirei Takebe (Japanese)",
       "difficulty": "Moyen"
     },
     {
@@ -1843,7 +1843,7 @@
       "occupation": "Bouncer",
       "affiliation": "Afterlife Mercs, Animals",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "John Schwab",
       "difficulty": "Facile"
     },
@@ -1946,7 +1946,7 @@
       "affiliation": "Maine, David",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Matthew Mercer (English) Yasuyuki Kase (Japanese)",
+      "hint1": "Matthew Mercer (English), Yasuyuki Kase (Japanese)",
       "difficulty": "Facile"
     },
     {
@@ -1960,7 +1960,7 @@
       "affiliation": "Militech, Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Kazuhiko Inoue (Japanese) Giancarlo Esposito (English)",
+      "hint1": "Kazuhiko Inoue (Japanese), Giancarlo Esposito (English)",
       "difficulty": "Très facile"
     },
     {
@@ -2234,7 +2234,7 @@
       "affiliation": "REO Meatwagon",
       "home": "Santo Domingo, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Gloria Garayua (English) Yurika Hino (Japanese)",
+      "hint1": "Gloria Garayua (English), Yurika Hino (Japanese)",
       "difficulty": "Très facile"
     },
     {
@@ -2258,7 +2258,7 @@
       "gender": "Homme",
       "status": "",
       "role": "Solo",
-      "occupation": "Bodyguard ()",
+      "occupation": "Bodyguard",
       "affiliation": "Arasaka",
       "home": "Kanto",
       "firstAppearance": "Jeu vidéo",
@@ -2394,7 +2394,7 @@
       "affiliation": "King's Crew",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Paul Richards (English) Ryūho Nagaoka (Japanese)",
+      "hint1": "Paul Richards (English), Ryūho Nagaoka (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -2408,7 +2408,7 @@
       "affiliation": "Kang Tao",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Josh Keaton (English) Genta Nakamura (Japanese)",
+      "hint1": "Josh Keaton (English), Genta Nakamura (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -2417,7 +2417,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "",
       "affiliation": "NCPD",
       "home": "Night City",
@@ -2480,7 +2480,7 @@
       "affiliation": "Maelstrom",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Skip Stellrecht (English) Kōsuke Takaguchi (Japanese)",
+      "hint1": "Skip Stellrecht (English), Kōsuke Takaguchi (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -2631,7 +2631,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Solo, Merc",
+      "role": "Solo, Mercenary",
       "occupation": "",
       "affiliation": "",
       "home": "Night City",
@@ -2654,7 +2654,7 @@
       "occupation": "Mercenary",
       "affiliation": "Valentinos, Afterlife Mercs",
       "home": "Heywood",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Jason Hightower",
       "difficulty": "Très facile"
     },
@@ -2748,7 +2748,7 @@
       "aliases": [],
       "gender": "Femme",
       "status": "Vivant",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
@@ -2881,7 +2881,7 @@
       "affiliation": "Sal Bigelow's Braindance Paradise",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Giselle Fernandez (English) Miho Okasaki (Japanese)",
+      "hint1": "Giselle Fernandez (English), Miho Okasaki (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -2911,7 +2911,7 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Kirk Thornton (English) Yoshito Yasuhara (Japanese)",
+      "hint1": "Kirk Thornton (English), Yoshito Yasuhara (Japanese)",
       "difficulty": "Moyen"
     },
     {
@@ -2920,7 +2920,7 @@
       "aliases": [],
       "gender": "Femme",
       "status": "Mort",
-      "role": "Corporate, Medtech",
+      "role": "Corpo, Medtech",
       "occupation": "Regional Director Genetics engineer",
       "affiliation": "Biotechnica",
       "home": "",
@@ -3062,7 +3062,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
@@ -3144,7 +3144,7 @@
       "affiliation": "David",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Bryce Papenbrook (English) Soma Saito (Japanese)",
+      "hint1": "Bryce Papenbrook (English), Soma Saito (Japanese)",
       "difficulty": "Facile"
     },
     {
@@ -3181,7 +3181,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "Vivant",
-      "role": "corporate",
+      "role": "Corpo",
       "occupation": "",
       "affiliation": "Arasaka",
       "home": "Night City",
@@ -3242,7 +3242,7 @@
       "affiliation": "Arasaka Corporation",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Rachel Robinson (English) Tomoko Shiota (Japanese)",
+      "hint1": "Rachel Robinson (English), Tomoko Shiota (Japanese)",
       "difficulty": "Facile"
     },
     {
@@ -3256,7 +3256,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Aleks Le (English) Kaito Ishikawa (Japanese)",
+      "hint1": "Aleks Le (English), Kaito Ishikawa (Japanese)",
       "difficulty": "Moyen"
     },
     {
@@ -3344,7 +3344,7 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Daniel Wu (English) Yasunori Matsumoto (Japanese)",
+      "hint1": "Daniel Wu (English), Yasunori Matsumoto (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -3372,7 +3372,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Tohoru Masamune (English) Nobuo Tobita (Japanese)",
+      "hint1": "Tohoru Masamune (English), Nobuo Tobita (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -3386,7 +3386,7 @@
       "affiliation": "Maine, David, Faraday",
       "home": "Watson, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Stephanie Wong (English) Takako Honda (Japanese) Paulina Raczyło (Polish)",
+      "hint1": "Stephanie Wong (English), Takako Honda (Japanese), Paulina Raczyło (Polish)",
       "difficulty": "Très facile"
     },
     {
@@ -3410,10 +3410,10 @@
       "gender": "Homme",
       "status": "",
       "role": "Corpo, Lawman",
-      "occupation": "BARGHEST leader Militech Colonel ()",
+      "occupation": "BARGHEST leader Militech Colonel",
       "affiliation": "BARGHEST, Militech",
       "home": "Dogtown",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Eliah Mountjoy",
       "difficulty": "Facile"
     },
@@ -3442,7 +3442,7 @@
       "affiliation": "Arasaka, Kang Tao",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Elizabeth Daily (English) Wasabi Mizuta (Japanese)",
+      "hint1": "Elizabeth Daily (English), Wasabi Mizuta (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -3567,7 +3567,7 @@
       ],
       "gender": "Femme",
       "status": "Vivant",
-      "role": "Rockergirl",
+      "role": "Rockerboy",
       "occupation": "BD",
       "affiliation": "",
       "home": "North Oak, Night City",
@@ -3627,7 +3627,7 @@
       "occupation": "City Manager, Mayor of Night City",
       "affiliation": "Night City Council, Devolutionist Party, Mayor's Office",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Paul Jerome",
       "difficulty": "Moyen"
     },
@@ -3675,7 +3675,7 @@
       "affiliation": "Arasaka, Maine",
       "home": "Westbrook, NC",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Emi Lo (English) Aoi Yûki (Japanese) Julia Łukowiak (Polish)",
+      "hint1": "Emi Lo (English), Aoi Yûki (Japanese), Julia Łukowiak (Polish)",
       "difficulty": "Très facile"
     },
     {
@@ -3685,7 +3685,7 @@
       "gender": "Homme",
       "status": "Vivant",
       "role": "Media",
-      "occupation": "War correspondent () Investigative reporter",
+      "occupation": "War correspondent, Investigative reporter",
       "affiliation": "World News Service",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
@@ -3699,7 +3699,7 @@
       "gender": "Femme",
       "status": "",
       "role": "Cyberjunkie",
-      "occupation": "Biological engineer ()",
+      "occupation": "Biological engineer",
       "affiliation": "",
       "home": "",
       "firstAppearance": "Phantom Liberty",
@@ -3731,7 +3731,7 @@
       "affiliation": "NUSA SpecOps",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "William Christopher Stephens (English) Hiroki Touchi (Japanese) Szymon Kuśmider (Polish)",
+      "hint1": "William Christopher Stephens (English), Hiroki Touchi (Japanese), Szymon Kuśmider (Polish)",
       "difficulty": "Très facile"
     },
     {
@@ -3906,7 +3906,7 @@
       "occupation": "Radio host DJ",
       "affiliation": "Morro Rock Radio",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Mike Pondsmith",
       "difficulty": "Moyen"
     },
@@ -3919,7 +3919,7 @@
       "gender": "Homme",
       "status": "Vivant",
       "role": "",
-      "occupation": "Mayor of Night City ()",
+      "occupation": "Mayor of Night City",
       "affiliation": "Mayor's Office",
       "home": "Night City",
       "firstAppearance": "Jeu vidéo",
@@ -4022,8 +4022,8 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
-      "hint1": "Daniel Bonjour (English) Shūhei Sakaguchi (Japanese)",
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Daniel Bonjour (English), Shūhei Sakaguchi (Japanese)",
       "difficulty": "Moyen"
     },
     {
@@ -4127,8 +4127,8 @@
       "occupation": "Mercenary",
       "affiliation": "Team King",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
-      "hint1": "Kevin Andrew Rivera (English) Kazuma Miki (Japanese)",
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Kevin Andrew Rivera (English), Kazuma Miki (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -4141,7 +4141,7 @@
       "occupation": "Mechanic",
       "affiliation": "",
       "home": "Yucca, NUSA",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "",
       "difficulty": "Difficile"
     },
@@ -4225,7 +4225,7 @@
       "aliases": [],
       "gender": "Femme",
       "status": "Inconnu",
-      "role": "Corporate",
+      "role": "Corpo",
       "occupation": "",
       "affiliation": "Night Corp",
       "home": "",
@@ -4373,7 +4373,7 @@
       "aliases": [],
       "gender": "Femme",
       "status": "",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "",
       "affiliation": "NCPD",
       "home": "",
@@ -4489,7 +4489,7 @@
       "occupation": "",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Marc Pickering",
       "difficulty": "Moyen"
     },
@@ -4593,7 +4593,7 @@
       "affiliation": "",
       "home": "Kabuki, Watson",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Eddie Frierson (English) Nobuaki Kanemitsu (Japanese)",
+      "hint1": "Eddie Frierson (English), Nobuaki Kanemitsu (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -4607,7 +4607,7 @@
       "affiliation": "Snake Nation",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Analesa Fisher (English) Ami Maeshima (Japanese)",
+      "hint1": "Analesa Fisher (English), Ami Maeshima (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -4651,7 +4651,7 @@
       "affiliation": "",
       "home": "",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Ronan Summers (English) Deive \"Azaghal\" Pazos (Brazilian Portuguese)",
+      "hint1": "Ronan Summers (English), Deive \"Azaghal\" Pazos (Brazilian Portuguese)",
       "difficulty": "Facile"
     },
     {
@@ -4767,7 +4767,7 @@
       "gender": "Homme",
       "status": "Inconnu",
       "role": "",
-      "occupation": "Ship captain () Gang leader",
+      "occupation": "Ship captain, Gang leader",
       "affiliation": "Voodoo Boys",
       "home": "Pacifica, Night City",
       "firstAppearance": "Jeu vidéo",
@@ -4787,7 +4787,7 @@
       "affiliation": "Maine",
       "home": "Watson, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Ian James Corlett (English) Wataru Takagi (Japanese) Bartosz Wesołowski (Polish)",
+      "hint1": "Ian James Corlett (English), Wataru Takagi (Japanese), Bartosz Wesołowski (Polish)",
       "difficulty": "Facile"
     },
     {
@@ -4800,7 +4800,7 @@
       "occupation": "",
       "affiliation": "Voodoo Boys",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Lovensky Jean-Baptiste",
       "difficulty": "Facile"
     },
@@ -4810,12 +4810,12 @@
       "aliases": [],
       "gender": "Homme",
       "status": "Vivant",
-      "role": "Corporate",
+      "role": "Corpo",
       "occupation": "Academy principal",
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Paul St. Peter (English) Hidenari Ugaki (Japanese)",
+      "hint1": "Paul St. Peter (English), Hidenari Ugaki (Japanese)",
       "difficulty": "Facile"
     },
     {
@@ -4962,7 +4962,7 @@
       "affiliation": "Maine, David",
       "home": "Watson, Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Alex Cazares (English) Tomoyo Kurosawa (Japanese) Zuzanna Galia (Polish)",
+      "hint1": "Alex Cazares (English), Tomoyo Kurosawa (Japanese), Zuzanna Galia (Polish)",
       "difficulty": "Très facile"
     },
     {
@@ -4973,7 +4973,7 @@
       ],
       "gender": "Femme",
       "status": "",
-      "role": "Rocker",
+      "role": "Rockerboy",
       "occupation": "",
       "affiliation": "Us Cracks",
       "home": "Tokyo, Japan",
@@ -4993,7 +4993,7 @@
       "occupation": "",
       "affiliation": "WNS, FTF Radio",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria",
       "difficulty": "Facile"
     },
@@ -5022,7 +5022,7 @@
       "affiliation": "Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Frank Todaro (English) Naoya Uchida (Japanese)",
+      "hint1": "Frank Todaro (English), Naoya Uchida (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -5111,7 +5111,7 @@
       "occupation": "Mercenary",
       "affiliation": "Afterlife",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Jane Perry",
       "difficulty": "Très facile"
     },
@@ -5154,7 +5154,7 @@
       "affiliation": "",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Valeria Rodriguez (English) Momoka Terasawa (Japanese)",
+      "hint1": "Valeria Rodriguez (English), Momoka Terasawa (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -5183,11 +5183,11 @@
       ],
       "gender": "Femme",
       "status": "",
-      "role": "Corporate, Lawman",
+      "role": "Corpo, Lawman",
       "occupation": "Marine (former) Militech CEO (former) NUSA President",
       "affiliation": "USMC, Militech, Federalist Party",
       "home": "Washington, D.C., NUSA",
-      "firstAppearance": "Jeu vidéo",
+      "firstAppearance": "Phantom Liberty",
       "hint1": "Kay Bess",
       "difficulty": "Facile"
     },
@@ -5274,7 +5274,7 @@
       "gender": "Homme",
       "status": "",
       "role": "Cyberpsycho",
-      "occupation": "Military ()",
+      "occupation": "Military",
       "affiliation": "",
       "home": "Greene Homestead, Rocky Ridge, northern Badlands",
       "firstAppearance": "Jeu vidéo",
@@ -5303,7 +5303,7 @@
       ],
       "gender": "Homme",
       "status": "Engramme",
-      "role": "Corporate",
+      "role": "Corpo",
       "occupation": "Ex-soldier Arasaka CEO",
       "affiliation": "Arasaka",
       "home": "Tokyo, Japan",
@@ -5349,8 +5349,8 @@
       "occupation": "Braindance parlor",
       "affiliation": "",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
-      "hint1": "Bernardo De Paula (English) Takashi Matsuyama (Japanese)",
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Bernardo De Paula (English), Takashi Matsuyama (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -5495,10 +5495,10 @@
       "gender": "Homme",
       "status": "Vivant",
       "role": "Rockerboy, Fixer",
-      "occupation": "Priest () Heywood fixer",
+      "occupation": "Priest, Heywood fixer",
       "affiliation": "Valentinos",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Al Rodrigo",
       "difficulty": "Facile"
     },
@@ -5627,7 +5627,7 @@
       "gender": "Homme",
       "status": "",
       "role": "Solo, Lawman",
-      "occupation": "Soldier () FIA Agent Bouncer (temporarily)",
+      "occupation": "Soldier, FIA Agent Bouncer (temporarily)",
       "affiliation": "NUSA SpecOps, FIA, NUSA, Dino Dinovic",
       "home": "Washington, D.C., Night City",
       "firstAppearance": "Phantom Liberty",
@@ -5907,11 +5907,11 @@
       "gender": "Femme",
       "status": "Vivant",
       "role": "",
-      "occupation": "Executive () Gang member",
+      "occupation": "Executive, Gang member",
       "affiliation": "Maelstrom, Kang Tao",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Kimoy Lee (English) Akari Kitô (Japanese)",
+      "hint1": "Kimoy Lee (English), Akari Kitô (Japanese)",
       "difficulty": "Difficile"
     },
     {
@@ -5939,7 +5939,7 @@
       "affiliation": "Arasaka",
       "home": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
-      "hint1": "Paul Nakauchi (English) Tetsuo Komura (Japanese)",
+      "hint1": "Paul Nakauchi (English), Tetsuo Komura (Japanese)",
       "difficulty": "Facile"
     },
     {
@@ -6038,7 +6038,7 @@
       "occupation": "Tom's Diner",
       "affiliation": "",
       "home": "",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "",
       "difficulty": "Difficile"
     },
@@ -6106,7 +6106,7 @@
       "aliases": [],
       "gender": "Femme",
       "status": "",
-      "role": "Merc",
+      "role": "Mercenary",
       "occupation": "",
       "affiliation": "Afterlife",
       "home": "",
@@ -6134,7 +6134,7 @@
       "aliases": [],
       "gender": "Femme",
       "status": "",
-      "role": "Corporate, Kiroshi Optics",
+      "role": "Corpo, Kiroshi Optics",
       "occupation": "",
       "affiliation": "Kiroshi Optics",
       "home": "Tucker Albach's Apartment, The Glen, Heywood",
@@ -6168,12 +6168,12 @@
       ],
       "gender": "Homme, Femme",
       "status": "",
-      "role": "Merc, Corpo, Nomad, Streetkid",
+      "role": "Mercenary, Corpo, Nomad, Streetkid",
       "occupation": "Mercenary",
       "affiliation": "Bakkers, Nomad, Arasaka, Corpo, Afterlife Mercs, Samurai, Aldecaldos, FIA, NUSA",
       "home": "Watson, Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Cherami Leigh (feminine) Gavin Drea (masculine)",
+      "hint1": "Cherami Leigh (feminine), Gavin Drea (masculine)",
       "difficulty": "Très facile"
     },
     {
@@ -6196,7 +6196,7 @@
       "aliases": [],
       "gender": "Homme",
       "status": "",
-      "role": "Cop",
+      "role": "Lawman",
       "occupation": "Lieutenant",
       "affiliation": "NCPD",
       "home": "",
@@ -6260,7 +6260,7 @@
       ],
       "gender": "Homme",
       "status": "Vivant",
-      "role": "Fixer, Corporate",
+      "role": "Fixer, Corpo",
       "occupation": "",
       "affiliation": "Petrochem",
       "home": "Night City",
@@ -6277,10 +6277,10 @@
       "gender": "Femme",
       "status": "Vivant",
       "role": "Medtech, Fixer",
-      "occupation": "Lab medtech () Broker",
+      "occupation": "Lab medtech, Broker",
       "affiliation": "Kiroshi, Tyger Claws",
       "home": "Night City",
-      "firstAppearance": "Edgerunners Saison 1",
+      "firstAppearance": "Jeu vidéo",
       "hint1": "Ren Hanami",
       "difficulty": "Facile"
     },
@@ -6308,10 +6308,10 @@
       "status": "Vivant",
       "role": "Solo",
       "occupation": "Mercenary",
-      "affiliation": "Team King ()",
+      "affiliation": "Team King",
       "home": "Night City",
-      "firstAppearance": "Jeu vidéo",
-      "hint1": "Clancy Brown (English) Kentarô Tone (Japanese)",
+      "firstAppearance": "Edgerunners Saison 2",
+      "hint1": "Clancy Brown (English), Kentarô Tone (Japanese)",
       "difficulty": "Moyen"
     },
     {
@@ -6483,7 +6483,7 @@
       ],
       "gender": "Homme",
       "status": "",
-      "role": "Rockerboy, Corporate",
+      "role": "Rockerboy, Corpo",
       "occupation": "Gangster",
       "affiliation": "Steel Dragons, Arasaka, Taka, Nomads",
       "home": "Tokyo, Japan",
@@ -6502,7 +6502,7 @@
       "affiliation": "D",
       "home": "",
       "firstAppearance": "Edgerunners Saison 2",
-      "hint1": "Cat Protano (English) Yuki Natsuyoshi (Japanese)",
+      "hint1": "Cat Protano (English), Yuki Natsuyoshi (Japanese)",
       "difficulty": "Difficile"
     },
     {

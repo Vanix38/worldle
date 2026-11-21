@@ -451,16 +451,12 @@ function collectAppearanceFlags(blob) {
 /**
  * Première apparition chronologique uniquement :
  * Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2.
- * Infobox + corps de page (cameos EDGE souvent hors appears_*).
+ * Infobox uniquement : le corps de page cite {{CP|EDGE}} dans des notes,
+ * anecdotes et références (ex. Padre), ce qui donnait de fausses apparitions.
  */
-function detectFirstAppearance(params, categoriesForPage, wikitext = "") {
-  const fromInfobox = collectAppearanceFlags(appearanceBlob(params));
-  const fromPage = collectAppearanceFlags(wikitext);
-  const hasS1 = fromInfobox.hasS1 || fromPage.hasS1;
-  const hasBase = fromInfobox.hasBase || fromPage.hasBase;
-  const hasPL = fromInfobox.hasPL || fromPage.hasPL;
-  const hasOther2077 = fromInfobox.hasOther2077 || fromPage.hasOther2077;
-  const hasS2 = fromInfobox.hasS2 || fromPage.hasS2;
+// eslint-disable-next-line no-unused-vars
+function detectFirstAppearance(params, categoriesForPage, _wikitext = "") {
+  const { hasS1, hasBase, hasPL, hasOther2077, hasS2 } = collectAppearanceFlags(appearanceBlob(params));
 
   if (!hasS1 && !hasBase && !hasPL && !hasOther2077 && !hasS2) {
     if (categoriesForPage.has("edgerunners")) return "Edgerunners Saison 1";
