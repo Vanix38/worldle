@@ -70,8 +70,9 @@ const FIELD_MAPPING = {
   },
   occupation: {
     header: "Occupation",
-    fonction: "Multivalue",
-    description: "Occupation(s) listées dans l’infobox. Orange si au moins une entrée est commune.",
+    fonction: "Indice",
+    hint: { prompt: "Occupation", icon: "FaBriefcase", unlockAfter: 5 },
+    description: "Occupation(s) listées dans l’infobox (indice débloqué après 5 tentatives).",
   },
   affiliation: {
     header: "Affiliation",
@@ -105,7 +106,7 @@ const FIELD_MAPPING = {
   hint1: {
     header: "Indice 1",
     fonction: "Indice",
-    hint: { prompt: "Voix / acteur", icon: "FaMicrophoneLines", unlockAfter: 5 },
+    hint: { prompt: "Voix / acteur", icon: "FaMicrophoneLines", unlockAfter: 10 },
     description: "Doubleur / acteur (voiced_by).",
   },
 };
