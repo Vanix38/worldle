@@ -5,6 +5,7 @@ import json
 p = 'data/cyberpunk.json'
 TYPE = {
     'delamain': 'IA', 'altiera-cunningham': 'IA', 'brendan': 'IA', 'capricorn': 'IA',
+    'mr-blue-eyes': 'IA',
     'johnny-silverhand': 'Engramme',
     'nibbles': 'Animal',
 }
