@@ -61,6 +61,17 @@
       ],
       "description": "Chronologie : Edgerunners Saison 1 → Jeu vidéo → Phantom Liberty → Edgerunners Saison 2. Une seule valeur : la première. Sert aussi au filtre « déjà vu »."
     },
+    "importance": {
+      "header": "Importance",
+      "fonction": "Comparaison",
+      "columnWidth": "small",
+      "order": [
+        "Principal",
+        "Secondaire",
+        "Figurant"
+      ],
+      "description": "Place du personnage dans l’histoire : Principal (intrigue principale du jeu, de Phantom Liberty ou d’Edgerunners), Secondaire (quêtes annexes, rôle récurrent) ou Figurant."
+    },
     "difficulty": {
       "header": "Difficulté",
       "fonction": "Comparaison",
@@ -102,6 +113,7 @@
     "firstAppearance": 1,
     "aliases": 0.233,
     "hint1": 0.433,
+    "importance": 1,
     "difficulty": 1
   },
   "hintInterval": 5,
@@ -120,7 +132,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "aaron-waines",
@@ -136,7 +149,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "adam-smasher",
@@ -155,7 +169,8 @@
       "region": "NUSA, Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Alec Newman",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "aera",
@@ -171,7 +186,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Hiromi Dames",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "aguilar-nubiola",
@@ -187,7 +203,8 @@
       "region": "Étranger",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Alejandro Saab (Male), Carolina Ravassa (Female)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "akari-yamakage",
@@ -203,7 +220,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "akira",
@@ -219,7 +237,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "alan-noel",
@@ -235,7 +254,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "albert-murphy",
@@ -251,7 +271,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "aldo",
@@ -267,7 +288,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Tomomichi Nishimura (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "aleksander-pushkin",
@@ -285,7 +307,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "alena-xenakis",
@@ -306,7 +329,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Yvonne Senat Jones",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "altiera-cunningham",
@@ -324,7 +348,8 @@
       "region": "Night City, Net",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alix Wilton Regan",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "ana-friedman",
@@ -340,7 +365,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "anders-hellman",
@@ -356,7 +382,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "andrew-jones",
@@ -372,7 +399,8 @@
       "region": "NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Nigel Whitmey",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "andrew-newman",
@@ -388,7 +416,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "angel",
@@ -404,7 +433,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "angelica-whelan",
@@ -422,7 +452,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "angie-mielech",
@@ -440,7 +471,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "anna-hamill",
@@ -456,7 +488,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alison Halstead",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "anna-nox",
@@ -474,7 +507,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Anna Rust",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "anthony-anderson",
@@ -490,7 +524,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "anthony-gilchrist",
@@ -506,7 +541,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "anthony-harris",
@@ -526,7 +562,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "arabelle-luvasha",
@@ -542,7 +579,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "archibald-crane",
@@ -558,7 +596,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "James Goode",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "arif-koneczko",
@@ -574,7 +613,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "arthur-cormac",
@@ -590,7 +630,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "arthur-jenkins",
@@ -606,7 +647,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "asher-peterson",
@@ -622,7 +664,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "ashlay",
@@ -638,7 +681,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "aurore-cassel",
@@ -654,7 +698,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Leonie Schliesing",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "avida-yang",
@@ -670,7 +715,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Cesili Williams (English), Akemi Okamura (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "axel-mankievicz",
@@ -688,7 +734,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "ayden-daniels",
@@ -704,7 +751,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "aymeric-cassel",
@@ -720,7 +768,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "André Refig",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "ayo-zarin",
@@ -736,7 +785,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "baird",
@@ -752,7 +802,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "barbara-okoye",
@@ -770,7 +821,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "barry-alken",
@@ -786,7 +838,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "barry-lewis",
@@ -802,7 +855,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "bartolomeo-mordellini",
@@ -818,7 +872,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "beatrice-ellen-trieste",
@@ -836,7 +891,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "ben-debaillon",
@@ -854,7 +910,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "bes-isis",
@@ -873,7 +930,8 @@
       "region": "Night City, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "big-joe",
@@ -889,7 +947,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "bill-jablonsky",
@@ -905,7 +964,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "James Goode",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "bill-mitchel",
@@ -921,7 +981,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "blake-croyle",
@@ -937,7 +998,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "blue-moon",
@@ -955,7 +1017,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Hiromi Dames",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "bob-sagan",
@@ -973,7 +1036,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ako Mitchell",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "boris-ribakov",
@@ -989,7 +1053,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "boz",
@@ -1005,7 +1070,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "James Goode",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "brad-stacy",
@@ -1021,7 +1087,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "brandon-frost",
@@ -1037,7 +1104,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "bree-whitney",
@@ -1053,7 +1121,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "brendan",
@@ -1069,7 +1138,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Bryan Dechart",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "briana-dolson",
@@ -1085,7 +1155,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "brittany-hayes",
@@ -1101,7 +1172,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "bruce-ward",
@@ -1117,7 +1189,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "bruce-welby",
@@ -1133,7 +1206,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "bryce-mosley",
@@ -1149,7 +1223,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Shane Taylor",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "bryce-stone",
@@ -1165,7 +1240,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "buck-arnold",
@@ -1181,7 +1257,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "capricorn",
@@ -1200,7 +1277,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Brittany Lauda (English), Aoi Koga (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "carl-robinson",
@@ -1218,7 +1296,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "carlos-rubio",
@@ -1234,7 +1313,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "carol-emeka",
@@ -1250,7 +1330,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Fryda Wolff",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "carter-smith",
@@ -1266,7 +1347,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "cassidy-righter",
@@ -1285,7 +1367,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Mikey O'Connor",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "cassius-ryder",
@@ -1301,7 +1384,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Stefan Ashton Frank",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "cedric-muller",
@@ -1317,7 +1401,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "chang-hoon-nam",
@@ -1333,7 +1418,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Josh Han",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "charlene-fox",
@@ -1349,7 +1435,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "charles-bucks",
@@ -1365,7 +1452,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "charles-graham",
@@ -1383,7 +1471,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "cheri-nowlin",
@@ -1399,7 +1488,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "chester-bennett",
@@ -1415,7 +1505,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Joseph Capp",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "christine-markov",
@@ -1431,7 +1522,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "claire-russell",
@@ -1447,7 +1539,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Maddie Taylor",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "claudio-moreno",
@@ -1463,7 +1556,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "coach-fred",
@@ -1479,7 +1573,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ako Mitchell",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "colver",
@@ -1495,7 +1590,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Michael Gregory",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "crispin-weyland",
@@ -1513,7 +1609,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Mark Ebulué",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "cynthia-najarro",
@@ -1529,7 +1626,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "cesar-diego-ruiz",
@@ -1545,7 +1643,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Nicolas Roye",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "dakota-smith",
@@ -1563,7 +1662,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Sabra May",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "dallas-foster",
@@ -1579,7 +1679,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "damir-kovac",
@@ -1595,7 +1696,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "dan",
@@ -1611,7 +1713,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "dante-caruso",
@@ -1627,7 +1730,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Steven Cree (English), Dawid Podsiadło (Polish)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "dao-hyunh",
@@ -1643,7 +1747,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "darius-clarke",
@@ -1659,7 +1764,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "darius-miles",
@@ -1675,7 +1781,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "darrell-zhou",
@@ -1691,7 +1798,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Josh Han",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "david",
@@ -1709,7 +1817,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Nazeeh Tarsha (English), Kôki Uchiyama (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "david-martinez",
@@ -1729,7 +1838,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Zach Aguilar (English), Kenichiro Ohashi (Japanese), Maciej Dybowski (Polish)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "david-walker",
@@ -1745,7 +1855,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "declan-griffin",
@@ -1763,7 +1874,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "John Schwab",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "delamain",
@@ -1783,7 +1895,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview), Zach Villa (divergent Delamain in The Glen)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "dennis-cranmer",
@@ -1799,7 +1912,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Michael-Leon Wooley",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "denny",
@@ -1815,7 +1929,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Victoire Charles",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "dexter-deshawn",
@@ -1834,7 +1949,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Michael-Leon Wooley",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "diego-ramirez",
@@ -1850,7 +1966,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "dietlinde",
@@ -1866,7 +1983,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "dino-dinovic",
@@ -1882,7 +2000,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "doc",
@@ -1898,7 +2017,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Borge Etienne (English), Kenjirô Tsuda (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "dorio-gunnarsdottir",
@@ -1914,7 +2034,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Marie Westbrook (English), Michiko Kaiden (Japanese), Aleksandra Nowicka (Polish)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "dove-vondell",
@@ -1930,7 +2051,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "driss-meriana",
@@ -1948,7 +2070,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Noshir Dalal",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "dum-dum",
@@ -1964,7 +2087,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "dusty-lowe",
@@ -1980,7 +2104,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "earl-conway",
@@ -1996,7 +2121,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "edgar-tool",
@@ -2014,7 +2140,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "elizabeth-borden",
@@ -2032,7 +2159,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "elizabeth-peralez",
@@ -2050,7 +2178,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "ellis-carter",
@@ -2068,7 +2197,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "emily",
@@ -2084,7 +2214,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Wendee Lee (English), Mirei Takebe (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "emmerick-bronson",
@@ -2102,7 +2233,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "John Schwab",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "ernesto-munoz",
@@ -2118,7 +2250,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "eron-acedo",
@@ -2134,7 +2267,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "esquerdo-certo",
@@ -2150,7 +2284,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "euralio-alma",
@@ -2166,7 +2301,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "eva-cole",
@@ -2182,7 +2318,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "evelyn-parker",
@@ -2202,7 +2339,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Kari Wahlgren",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "falco",
@@ -2218,7 +2356,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Matthew Mercer (English), Yasuyuki Kase (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "faraday",
@@ -2234,7 +2373,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Kazuhiko Inoue (Japanese), Giancarlo Esposito (English)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "farida-nazeri",
@@ -2250,7 +2390,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Shala Nyx",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "finn-gerstatt",
@@ -2269,7 +2410,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alex Ivanovici",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "fiona-vargas",
@@ -2285,7 +2427,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "flavio-dos-santos",
@@ -2301,7 +2444,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "food-vendor-biotechnica-flats",
@@ -2317,7 +2461,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "food-vendor-kabuki-market-central",
@@ -2333,7 +2478,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "food-vendor-kabuki-market-plaza",
@@ -2349,7 +2495,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "food-vendor-northside",
@@ -2365,7 +2512,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "frank",
@@ -2384,7 +2532,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "frank-nostra",
@@ -2400,7 +2549,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Sean Power",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "fredrik-persson",
@@ -2416,7 +2566,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "futoshi-yamada",
@@ -2432,7 +2583,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "gaston-phillips",
@@ -2448,7 +2600,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "gaston-slayton",
@@ -2464,7 +2617,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "gauge-harris",
@@ -2480,7 +2634,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "georgina-zembinsky",
@@ -2496,7 +2651,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Christy Meyer",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "gerald-winkler",
@@ -2514,7 +2670,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ben \"CohhCarnage\" Cassell",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "gillean-jordan",
@@ -2530,7 +2687,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "gloria-martinez",
@@ -2546,7 +2704,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Gloria Garayua (English), Yurika Hino (Japanese)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "goldhand",
@@ -2562,7 +2721,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "goro-takemura",
@@ -2578,7 +2738,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Rome Kanda",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "gottfrid-persson",
@@ -2594,7 +2755,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "grann-ertha",
@@ -2610,7 +2772,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "griselda-martinez",
@@ -2629,7 +2792,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "guadalupe-alejandra-welles",
@@ -2648,7 +2812,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Krizia Bajos",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "gustavo-orta",
@@ -2664,7 +2829,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Christian Lanz",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "hajime-taki",
@@ -2680,7 +2846,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "hal-cantos",
@@ -2696,7 +2863,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Nicolas Roye",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "hanako-arasaka",
@@ -2712,7 +2880,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alpha Takahashi (English)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "hank",
@@ -2728,7 +2897,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Paul Richards (English), Ryūho Nagaoka (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "hark",
@@ -2744,7 +2914,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Josh Keaton (English), Genta Nakamura (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "harold-han",
@@ -2760,7 +2931,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Matthew Yang King",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "harry",
@@ -2776,7 +2948,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Michael-Leon Wooley",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "haruyoshi-nishikata",
@@ -2794,7 +2967,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "hasan-demir",
@@ -2810,7 +2984,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Atilla Akinci",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "helio",
@@ -2826,7 +3001,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Skip Stellrecht (English), Kōsuke Takaguchi (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "henry",
@@ -2842,7 +3018,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "henry-stints",
@@ -2858,7 +3035,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "herold-lowe",
@@ -2874,7 +3052,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "hideshi-hino",
@@ -2890,7 +3069,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "hideyoshi-oshima",
@@ -2906,7 +3086,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Hideo Kojima",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "hiroto-saiki",
@@ -2922,7 +3103,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "hwangbo-dong-gun",
@@ -2940,7 +3122,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Um Sang-hyun",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "imogen",
@@ -2956,7 +3139,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "iris-tanner",
@@ -2972,7 +3156,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "issam-zahir",
@@ -2988,7 +3173,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "jack-mausser",
@@ -3004,7 +3190,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jackie-welles",
@@ -3025,7 +3212,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Jason Hightower",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "jae-hyun-lee",
@@ -3041,7 +3229,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "jago-szabo",
@@ -3057,7 +3246,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jake-estevez",
@@ -3073,7 +3263,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jake-scooter",
@@ -3089,7 +3280,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "james-ito",
@@ -3105,7 +3297,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "james-norris",
@@ -3121,7 +3314,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "jasmine-dixon",
@@ -3137,7 +3331,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "jason-wildriver",
@@ -3153,7 +3348,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Dar Dash",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "jasper-collins",
@@ -3169,7 +3365,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jean-rochelin",
@@ -3185,7 +3382,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "jeff",
@@ -3201,7 +3399,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "jefferson-peralez",
@@ -3217,7 +3416,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "jeremiah-grayson",
@@ -3233,7 +3433,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Stephen Oyoung",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jerry-fawlter",
@@ -3249,7 +3450,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "jesse-johnson",
@@ -3267,7 +3469,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Jesse Louis Cox",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "jessie",
@@ -3283,7 +3486,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Giselle Fernandez (English), Miho Okasaki (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "jim-jarry",
@@ -3299,7 +3503,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jimmy-kurosaki",
@@ -3317,7 +3522,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Kirk Thornton (English), Yoshito Yasuhara (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "joanne-koch",
@@ -3333,7 +3539,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "john-lipczynsky",
@@ -3349,7 +3556,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "johnny-silverhand",
@@ -3365,7 +3573,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "josh-kavorkin",
@@ -3381,7 +3590,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "joshua-stephenson",
@@ -3397,7 +3607,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "josie-alcazar",
@@ -3413,7 +3624,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "joss-kutcher",
@@ -3429,7 +3641,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Tonantzin Carmelo",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "jose-luis",
@@ -3445,7 +3658,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Bernardo De Paula",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jotaro-shobo",
@@ -3463,7 +3677,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "journey-ruiz",
@@ -3479,7 +3694,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Carla Tassara",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "juan-mendez",
@@ -3495,7 +3711,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "juan-troy",
@@ -3513,7 +3730,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Al Rodrigo",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "jude-night",
@@ -3529,7 +3747,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "judy-alvarez",
@@ -3548,7 +3767,8 @@
       "region": "Night City, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Carla Tassara",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "juliet-horrigan",
@@ -3566,7 +3786,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "julio",
@@ -3582,7 +3803,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Bryce Papenbrook (English), Soma Saito (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "jun-azegami",
@@ -3598,7 +3820,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "kajetan-zilevski",
@@ -3614,7 +3837,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "kaoru-fujioka",
@@ -3630,7 +3854,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Kotaro Watanabe",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "karim-noel",
@@ -3646,7 +3871,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Nigel Whitmey",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "karina-lee",
@@ -3662,7 +3888,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "karubo-bairei",
@@ -3678,7 +3905,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "kate-miller",
@@ -3694,7 +3922,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Rachel Robinson (English), Tomoko Shiota (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "katsuo-tanaka",
@@ -3710,7 +3939,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Aleks Le (English), Kaito Ishikawa (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "katya-karelina",
@@ -3726,7 +3956,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Avital Lvova",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "keisuke-kagawa",
@@ -3742,7 +3973,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "kenji-sakura",
@@ -3758,7 +3990,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "kerry-eurodyne",
@@ -3776,7 +4009,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Matthew Yang King Damian Ukeje (vocalist)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "kimiko-sanchez",
@@ -3794,7 +4028,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "kiril-yang",
@@ -3810,7 +4045,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Daniel Wu (English), Yasunori Matsumoto (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "kirk-sawyer",
@@ -3826,7 +4062,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Derek Hagen",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "kitano",
@@ -3842,7 +4079,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Tohoru Masamune (English), Nobuo Tobita (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "kiwi",
@@ -3858,7 +4096,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Stephanie Wong (English), Takako Honda (Japanese), Paulina Raczyło (Polish)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "kuniko-aso",
@@ -3874,7 +4113,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "kurt-hansen",
@@ -3890,7 +4130,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Eliah Mountjoy",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "kyle-araujo",
@@ -3906,7 +4147,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "kyoko-tanaami",
@@ -3922,7 +4164,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Elizabeth Daily (English), Wasabi Mizuta (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "lance-hardy",
@@ -3938,7 +4181,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "lauren-costigan",
@@ -3954,7 +4198,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "leah-gladen",
@@ -3970,7 +4215,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "lely-hein",
@@ -3986,7 +4232,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "leon-rinder",
@@ -4002,7 +4249,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "lilayah",
@@ -4018,7 +4266,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "lina-malina",
@@ -4036,7 +4285,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Aliona Baranova",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "lisa-smith",
@@ -4052,7 +4302,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "lizzy-wizzy",
@@ -4070,7 +4321,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Grimes",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "logan-garcia",
@@ -4086,7 +4338,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "logan-scott",
@@ -4102,7 +4355,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "louise-nordin-eurodyne",
@@ -4118,7 +4372,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "lucius-rhyne",
@@ -4134,7 +4389,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Paul Jerome",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "lucius-thoran",
@@ -4150,7 +4406,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "lucy-thackery",
@@ -4168,7 +4425,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "lucyna-kushinada",
@@ -4187,7 +4445,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Emi Lo (English), Aoi Yûki (Japanese), Julia Łukowiak (Polish)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "lyle-thompson",
@@ -4203,7 +4462,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Joseph May",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "maggie-isley",
@@ -4219,7 +4479,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "maiko-maeda",
@@ -4235,7 +4496,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Arina Ii",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "maine",
@@ -4251,7 +4513,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "William Christopher Stephens (English), Hiroki Touchi (Japanese), Szymon Kuśmider (Polish)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "maman-brigitte",
@@ -4269,7 +4532,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Victoire Charles",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "marcin-iwinski",
@@ -4285,7 +4549,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "marcus-ichida",
@@ -4301,7 +4566,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "marlon-fuscino",
@@ -4317,7 +4583,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "martha-frakes",
@@ -4335,7 +4602,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "marty-jenklow",
@@ -4351,7 +4619,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "mateo-thiago",
@@ -4367,7 +4636,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Antonio Alvarez",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "matilda-k-rose",
@@ -4385,7 +4655,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Krizia Bajos",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "matt-liaw",
@@ -4401,7 +4672,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "max-jones",
@@ -4417,7 +4689,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "maxim-kuznetsov",
@@ -4433,7 +4706,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Takanori Hoshino (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "maximum-mike",
@@ -4451,7 +4725,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Mike Pondsmith",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "mbole-ebunike",
@@ -4469,7 +4744,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "meds-vendor-docks",
@@ -4485,7 +4761,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "meds-vendor-little-china",
@@ -4501,7 +4778,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "meds-vendor-northside",
@@ -4517,7 +4795,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "melissa-rory",
@@ -4533,7 +4812,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "melissa-wellingham",
@@ -4551,7 +4831,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "meredith-stout",
@@ -4567,7 +4848,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Erica Lindbeck",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "meshuga",
@@ -4583,7 +4865,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Daniel Bonjour (English), Shūhei Sakaguchi (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "michael-maldonado",
@@ -4599,7 +4882,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "michael-marcinkowsky",
@@ -4615,7 +4899,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "micha-kicinski",
@@ -4631,7 +4916,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "michiko-sanderson-nee-arasaka",
@@ -4647,7 +4933,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Kosha Engler",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "mickey",
@@ -4665,7 +4952,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "miguel-rodriguez",
@@ -4683,7 +4971,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "miguel-serrano",
@@ -4702,7 +4991,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Kevin Andrew Rivera (English), Kazuma Miki (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "mike",
@@ -4718,7 +5008,8 @@
       "region": "NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "mike-kowalski",
@@ -4736,7 +5027,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Keisuke Hoashi",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "mike-kowalsky",
@@ -4752,7 +5044,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "mikhail-akulov",
@@ -4770,7 +5063,8 @@
       "region": "Étranger",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "milko-alexis",
@@ -4786,7 +5080,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "milt-nauman",
@@ -4802,7 +5097,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Mark Holden",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "miriam-night",
@@ -4818,7 +5114,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "misty-olszewski",
@@ -4834,7 +5131,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Erica Lindbeck",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "mitch-anderson",
@@ -4850,7 +5148,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Martin McDougall",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "mokomichi-yamada",
@@ -4868,7 +5167,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "mower",
@@ -4884,7 +5184,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "mr-blue-eyes",
@@ -4902,7 +5203,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Martin McDougall",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "mr-brightman",
@@ -4918,7 +5220,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "mr-kipper",
@@ -4934,7 +5237,8 @@
       "region": "Orbite",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "muamar-reyes",
@@ -4954,7 +5258,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alec Newman",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "nadezhda-tiurina",
@@ -4970,7 +5275,8 @@
       "region": "Étranger",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "nadia-petrova",
@@ -4986,7 +5292,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "nash",
@@ -5002,7 +5309,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "neil-white",
@@ -5018,7 +5326,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "nele-springer",
@@ -5034,7 +5343,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "nibbles",
@@ -5050,7 +5360,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "nika-yankovich",
@@ -5066,7 +5377,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Devora Wilde",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "nina-kraviz",
@@ -5082,7 +5394,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Nina Kraviz",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "nix",
@@ -5098,7 +5411,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ako Mitchell",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "noah",
@@ -5114,7 +5428,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Marc Pickering",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "nolan-frakes",
@@ -5130,7 +5445,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "norio-akuhara",
@@ -5148,7 +5464,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "nuka-shank-ohlone",
@@ -5164,7 +5481,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "odell-blanco",
@@ -5180,7 +5498,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "ofelia-sirawian",
@@ -5199,7 +5518,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "oleg-darkevich",
@@ -5215,7 +5535,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "olek-carax",
@@ -5231,7 +5552,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Eddie Frierson (English), Nobuaki Kanemitsu (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "omi",
@@ -5247,7 +5569,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Analesa Fisher (English), Ami Maeshima (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "oswald-forrest",
@@ -5265,7 +5588,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Joe Corrigall",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "othmar-brasi",
@@ -5281,7 +5605,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "ozob-bozo",
@@ -5297,7 +5622,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers (English), Deive \"Azaghal\" Pazos (Brazilian Portuguese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "paco-torres",
@@ -5313,7 +5639,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Adan Rocha",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "panam-palmer",
@@ -5331,7 +5658,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Emily Woo Zeller",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "papa-sunrise",
@@ -5349,7 +5677,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "pedro-aimar",
@@ -5365,7 +5694,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Bernardo De Paula",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "pepe-najarro",
@@ -5381,7 +5711,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "peter-sampson",
@@ -5399,7 +5730,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "peter-upmann",
@@ -5415,7 +5747,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "philippe-oreste",
@@ -5433,7 +5766,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "pilar",
@@ -5451,7 +5785,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Ian James Corlett (English), Wataru Takagi (Japanese), Bartosz Wesołowski (Polish)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "placide",
@@ -5467,7 +5802,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lovensky Jean-Baptiste",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "principal",
@@ -5483,7 +5819,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Paul St. Peter (English), Hidenari Ugaki (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "purple-force",
@@ -5499,7 +5836,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Stephanie Sheh",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "peter-horvath",
@@ -5515,7 +5853,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "r3n0",
@@ -5531,7 +5870,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "rache-bartmoss",
@@ -5547,7 +5887,8 @@
       "region": "Net",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "rachel-casich",
@@ -5563,7 +5904,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Rebecca Yeo",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "randy-kutcher",
@@ -5581,7 +5923,8 @@
       "region": "Night City, Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "razor-hugh",
@@ -5597,7 +5940,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "rearview",
@@ -5613,7 +5957,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "rebeca-price",
@@ -5629,7 +5974,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "rebecca",
@@ -5650,7 +5996,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Alex Cazares (English), Tomoyo Kurosawa (Japanese), Zuzanna Galia (Polish)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "red-menace",
@@ -5668,7 +6015,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "regina-jones",
@@ -5686,7 +6034,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "rhino",
@@ -5702,7 +6051,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "richard",
@@ -5718,7 +6068,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Frank Todaro (English), Naoya Uchida (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "richard-night",
@@ -5734,7 +6085,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "rita-wheeler",
@@ -5750,7 +6102,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "river-ward",
@@ -5768,7 +6121,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Robbie Daymond",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "robert-wilson",
@@ -5784,7 +6138,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Dave B. Mitchell",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "roger-wang",
@@ -5800,7 +6155,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Noshir Dalal",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "rogue-amendiares",
@@ -5820,7 +6176,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Jane Perry",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "roh-chi-won",
@@ -5836,7 +6193,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "roman",
@@ -5852,7 +6210,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "roman-carax",
@@ -5868,7 +6227,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Valeria Rodriguez (English), Momoka Terasawa (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "ronald-malone",
@@ -5888,7 +6248,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "rosalind-myers",
@@ -5906,7 +6267,8 @@
       "region": "NUSA",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Kay Bess",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "rose-horrigan",
@@ -5924,7 +6286,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "ross-ulmer",
@@ -5940,7 +6303,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "roxanne-colton",
@@ -5958,7 +6322,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alison Halstead",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "roxanne-sumner",
@@ -5974,7 +6339,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "ruby-collins",
@@ -5992,7 +6358,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "russel-greene",
@@ -6008,7 +6375,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "ruth-dzeng",
@@ -6024,7 +6392,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Erika Ishii",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "saburo-arasaka",
@@ -6042,7 +6411,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Masane Tsukayama",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "sachiko-kusama",
@@ -6058,7 +6428,8 @@
       "region": "Orbite",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Cristina Valenzuela",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "saki-seo",
@@ -6074,7 +6445,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "sal-bigelow",
@@ -6090,7 +6462,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Bernardo De Paula (English), Takashi Matsuyama (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "sam-carter",
@@ -6106,7 +6479,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Graham Vick",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "samantha-samu",
@@ -6124,7 +6498,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "sammy-taylor",
@@ -6140,7 +6515,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "sandayu-oda",
@@ -6156,7 +6532,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Noshir Dalal",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "sandra-dorsett",
@@ -6172,7 +6549,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "santiago",
@@ -6192,7 +6570,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "santiago-molina",
@@ -6208,7 +6587,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Dar Dash",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "sasha-yakovleva",
@@ -6224,7 +6604,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "saul-bright",
@@ -6240,7 +6621,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Diarmaid Murtagh",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "sebastian-ibarra",
@@ -6259,7 +6641,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Al Rodrigo",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "serena-zhao",
@@ -6277,7 +6660,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "sergei-karasinsky",
@@ -6293,7 +6677,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Gunnar Cauthery",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "shaitan",
@@ -6309,7 +6694,8 @@
       "region": "Étranger",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Shai Matheson",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "shinobu-imai",
@@ -6325,7 +6711,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "sho-gun-rose",
@@ -6341,7 +6728,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "simon-randall",
@@ -6359,7 +6747,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "skye",
@@ -6375,7 +6764,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Emma Ballantine",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "slavoj-mcallister",
@@ -6391,7 +6781,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "solomon-reed",
@@ -6409,7 +6800,8 @@
       "region": "NUSA, Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "song-so-mi",
@@ -6428,7 +6820,8 @@
       "region": "NUSA",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Minji Chang",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Principal"
     },
     {
       "id": "sophia-dupont",
@@ -6444,7 +6837,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "spector-cheng",
@@ -6460,7 +6854,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "spider-murphy",
@@ -6479,7 +6874,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Erica Lindbeck",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "spite-vondell",
@@ -6495,7 +6891,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "stanley-media",
@@ -6513,7 +6910,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Roger Rose",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "starkey",
@@ -6529,7 +6927,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "stefan",
@@ -6545,7 +6944,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "stella-ramos",
@@ -6561,7 +6961,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "Suzi Hunter",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "steve-sanchez",
@@ -6577,7 +6978,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Sebastián Capitán Viveros",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "steven-santos",
@@ -6593,7 +6995,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "susan-abernathy",
@@ -6609,7 +7012,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "susanna-mack",
@@ -6625,7 +7029,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "susanna-quinn",
@@ -6645,7 +7050,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alana Maria",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "t-bug",
@@ -6663,7 +7069,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Cynthia Kaye McWilliams",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "taco",
@@ -6679,7 +7086,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "takeshi-kazou",
@@ -6695,7 +7103,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "taki-kenmochi",
@@ -6711,7 +7120,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "talia-yang",
@@ -6727,7 +7137,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Kimoy Lee (English), Akari Kitô (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tamara-cosby",
@@ -6743,7 +7154,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tanaka",
@@ -6759,7 +7171,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Paul Nakauchi (English), Tetsuo Komura (Japanese)",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "tatsuya-takei",
@@ -6775,7 +7188,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "ted-fox",
@@ -6791,7 +7205,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ronan Summers",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "theo-price",
@@ -6807,7 +7222,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Amelia Rose Blaire",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "theodore-simos",
@@ -6825,7 +7241,8 @@
       "region": "Badlands, NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Shai Matheson",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "thomas-hays",
@@ -6841,7 +7258,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "ti-neptune",
@@ -6857,7 +7275,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tom",
@@ -6873,7 +7292,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tom-ayer",
@@ -6891,7 +7311,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tom-caldera",
@@ -6907,7 +7328,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Shai Matheson",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tommie-walker",
@@ -6923,7 +7345,8 @@
       "region": "",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "toshiro-harada",
@@ -6939,7 +7362,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Yoshi Ando",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "tracy-phillips",
@@ -6955,7 +7379,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "trevor-brass",
@@ -6971,7 +7396,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "tucker-albach",
@@ -6987,7 +7413,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lucy Montgomery",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "tyler-brown",
@@ -7003,7 +7430,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "v",
@@ -7025,7 +7453,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Cherami Leigh (feminine), Gavin Drea (masculine)",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "vance-noren",
@@ -7041,7 +7470,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "vasquez",
@@ -7057,7 +7487,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "vic-vega",
@@ -7073,7 +7504,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "viktor-vektor",
@@ -7094,7 +7526,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Michael Gregory",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "vortex",
@@ -7110,7 +7543,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "wade-bleecker",
@@ -7129,7 +7563,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "wakako-okada",
@@ -7147,7 +7582,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ren Hanami",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "importance": "Secondaire"
     },
     {
       "id": "wayne-johnson",
@@ -7163,7 +7599,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "weak-kingsley",
@@ -7181,7 +7618,8 @@
       "region": "Night City",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Clancy Brown (English), Kentarô Tone (Japanese)",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "weldon-holt",
@@ -7199,7 +7637,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Dave B. Mitchell",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "wilky-laguerre",
@@ -7218,7 +7657,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 1",
       "hint1": "Borge Etienne",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "will-gunner",
@@ -7234,7 +7674,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "william-hare",
@@ -7252,7 +7693,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "willie-mccoy",
@@ -7268,7 +7710,8 @@
       "region": "NUSA",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Akie Kotabe",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "wyatt-alken",
@@ -7284,7 +7727,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "xochi-peralez",
@@ -7300,7 +7744,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "yawen-packard",
@@ -7316,7 +7761,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Emily Woo Zeller",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "yelena-sidorova",
@@ -7332,7 +7778,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "yishen-rhee",
@@ -7348,7 +7795,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "yoko-tsuru",
@@ -7364,7 +7812,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ren Hanami",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "yorinobu-arasaka",
@@ -7382,7 +7831,8 @@
       "region": "Japon",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Hideo Kimura",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "importance": "Principal"
     },
     {
       "id": "yupi",
@@ -7398,7 +7848,8 @@
       "region": "",
       "firstAppearance": "Edgerunners Saison 2",
       "hint1": "Cat Protano (English), Yuki Natsuyoshi (Japanese)",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "yuri-bychkov",
@@ -7414,7 +7865,8 @@
       "region": "Night City",
       "firstAppearance": "Phantom Liberty",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "zane-jagger",
@@ -7430,7 +7882,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "zaria-hughes",
@@ -7446,7 +7899,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "zeke-daniels",
@@ -7464,7 +7918,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "zen-master",
@@ -7482,7 +7937,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Vic Chao",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "zhan-qiu",
@@ -7498,7 +7954,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "ziggy-q",
@@ -7514,7 +7971,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Ben Cura",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "zion-wylde",
@@ -7530,7 +7988,8 @@
       "region": "Badlands",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "importance": "Figurant"
     },
     {
       "id": "zoe-alonzo",
@@ -7546,7 +8005,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "zoli-barnes",
@@ -7562,7 +8022,8 @@
       "region": "",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "importance": "Secondaire"
     },
     {
       "id": "zuleikha-el-ahmar",
@@ -7578,7 +8039,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "Lara Sawalha",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     },
     {
       "id": "zena-delice",
@@ -7594,7 +8056,8 @@
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
       "hint1": "",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "importance": "Figurant"
     }
   ]
 }
