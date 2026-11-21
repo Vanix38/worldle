@@ -1844,10 +1844,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 186,
       "race": "Humain",
       "firstAppearance": "Épisode 32",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "hint1": "Ancienne Marine",
+      "hint2": "Humain",
+      "hint3": "East Blue"
     },
     {
       "id": "belo-betty",
@@ -1889,10 +1892,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "North Blue",
-      "size": "",
+      "size": 206,
       "race": "Humain",
       "firstAppearance": "Épisode 4",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "hint1": "Second",
+      "hint2": "Humain",
+      "hint3": "North Blue"
     },
     {
       "id": "bentham",
@@ -2245,7 +2251,7 @@
       "haki": [],
       "origin": "Grand Line (Arabasta Kingdom)",
       "size": 133,
-      "race": "",
+      "race": "Animal",
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "バーボンJr",
       "hint3": "Grand Line (Arabasta Kingdom)",
@@ -2268,7 +2274,7 @@
       "haki": [],
       "origin": "Sky Islands (Skypiea)",
       "size": 179,
-      "race": "",
+      "race": "Humain",
       "hint1": "Shandia",
       "hint2": "ブラハム",
       "hint3": "Sky Islands (Skypiea)",
@@ -3135,10 +3141,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Whole Cake Island",
-      "size": "1m66",
+      "size": 166,
       "race": "Humain",
       "firstAppearance": "Épisode 571",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "hint1": "Fille de Big Mom",
+      "hint2": "Memo Memo no Mi",
+      "hint3": "Whole Cake Island"
     },
     {
       "id": "charlotte-smoothie",
@@ -3180,12 +3189,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Grand Line",
       "size": 0,
       "race": "Humain",
       "hint1": "Charlotte Family",
       "hint2": "シャーロット・スナック",
-      "hint3": "Inconnu",
+      "hint3": "Grand Line",
       "firstAppearance": "Épisode 798",
       "difficulty": "Impossible"
     },
@@ -3500,7 +3509,7 @@
       "haki": [],
       "origin": "Grand Line (Arabasta Kingdom)",
       "size": 155,
-      "race": "",
+      "race": "Animal",
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "カウボーイ",
       "hint3": "Grand Line (Arabasta Kingdom)",
@@ -3681,7 +3690,7 @@
       "haki": [],
       "origin": "North Blue",
       "size": 145,
-      "race": "",
+      "race": "Homme-Poisson",
       "hint1": "Donquixote Pirates",
       "hint2": "デリンジャー",
       "hint3": "North Blue",
@@ -3906,12 +3915,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Red Line (Marie-Joie)",
       "size": 211,
       "race": "Humain",
       "hint1": "World Government (Donquixote Family)",
       "hint2": "ドンキホーテ・ミョスガルド聖",
-      "hint3": "Inconnu",
+      "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": "Épisode 545",
       "difficulty": "Impossible"
     },
@@ -3982,10 +3991,13 @@
       ],
       "imageUrl": "",
       "origin": "Grand Line",
-      "size": "1m98",
+      "size": 198,
       "race": "Humain",
       "firstAppearance": "Épisode 23",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "hint1": "Ancien Grand Corsaire",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation"
     },
     {
       "id": "drip",
@@ -4051,7 +4063,10 @@
       "size": "",
       "race": "Animal",
       "firstAppearance": "Épisode 96",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "hint1": "Maître de kung-fu",
+      "hint2": "Animal",
+      "hint3": "Grand Line"
     },
     {
       "id": "duval",
@@ -4581,7 +4596,10 @@
       "size": "",
       "race": "Humain",
       "firstAppearance": "Épisode 18",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "hint1": "Gardien du coffre",
+      "hint2": "Humain",
+      "hint3": "East Blue"
     },
     {
       "id": "galdino",
@@ -4744,7 +4762,10 @@
       "size": "",
       "race": "Humain",
       "firstAppearance": "Épisode 21",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "hint1": "Commandant en chef",
+      "hint2": "Humain",
+      "hint3": "East Blue"
     },
     {
       "id": "ginny",
@@ -5110,12 +5131,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Île des Hommes-Poissons",
       "size": 220,
       "race": "Homme-Poisson",
       "hint1": "Takoyaki 8",
       "hint2": "はっちゃん",
-      "hint3": "Inconnu",
+      "hint3": "Île des Hommes-Poissons",
       "firstAppearance": "Épisode 31",
       "difficulty": "Impossible"
     },
@@ -5133,12 +5154,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "East Blue",
       "size": 179,
       "race": "Humain",
       "hint1": "Marines (Headquarters",
       "hint2": "ヘルメッポ",
-      "hint3": "Inconnu",
+      "hint3": "East Blue",
       "firstAppearance": "Épisode 2",
       "difficulty": "Impossible"
     },
@@ -5148,7 +5169,7 @@
       "aliases": [
         "Herakuresu"
       ],
-      "affiliation": "",
+      "affiliation": "Aucune",
       "sub_affiliation": [],
       "age": 49,
       "arc": "Inconnu",
@@ -5384,10 +5405,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Water Seven",
-      "size": "1m99",
+      "size": 199,
       "race": "Humain",
       "firstAppearance": "Épisode 230",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "hint1": "Maire de Water Seven",
+      "hint2": "Humain",
+      "hint3": "Water Seven"
     },
     {
       "id": "ideo",
@@ -5570,7 +5594,7 @@
       "haki": [],
       "origin": "Grand Line (Arabasta Kingdom)",
       "size": 228,
-      "race": "",
+      "race": "Animal",
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "イワンX",
       "hint3": "Grand Line (Arabasta Kingdom)",
@@ -6115,7 +6139,10 @@
       "size": "",
       "race": "Homme-Poisson",
       "firstAppearance": "Épisode 910",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "hint1": "Fourreau Rouge",
+      "hint2": "Homme-Poisson",
+      "hint3": "Île des Hommes-Poissons"
     },
     {
       "id": "kazekage",
@@ -6177,7 +6204,7 @@
       "haki": [],
       "origin": "Grand Line (Arabasta Kingdom)",
       "size": 157,
-      "race": "",
+      "race": "Animal",
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "ケンタロウス",
       "hint3": "Grand Line (Arabasta Kingdom)",
@@ -6228,7 +6255,10 @@
       "size": "",
       "race": "Humain",
       "firstAppearance": "Épisode 899",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "hint1": "Fourreau Rouge",
+      "hint2": "Humain",
+      "hint3": "Pays des Wa"
     },
     {
       "id": "killer",
@@ -6297,11 +6327,14 @@
       "gender": "Féminin",
       "haki": [],
       "imageUrl": "",
-      "origin": "Inconnu",
-      "size": "1m60",
+      "origin": "East Blue (Île de Foolshout)",
+      "size": 160,
       "race": "Humain",
       "firstAppearance": "Épisode 541",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "hint1": "Instructrice de karaté",
+      "hint2": "Humain",
+      "hint3": "East Blue (Île de Foolshout)"
     },
     {
       "id": "koby",
@@ -6694,7 +6727,10 @@
       "size": "",
       "race": "Humain",
       "firstAppearance": "Épisode 893",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "hint1": "Kunoichi",
+      "hint2": "Kibi Kibi no Mi",
+      "hint3": "Pays des Wa"
     },
     {
       "id": "kuzan",
@@ -6867,12 +6903,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Zou (Principauté de Mokomo)",
       "size": 149,
       "race": "Minks",
       "hint1": "Revolutionary Army (South Army)",
       "hint2": "リンドバーグ",
-      "hint3": "Inconnu",
+      "hint3": "Zou (Principauté de Mokomo)",
       "firstAppearance": "Épisode 880",
       "difficulty": "Impossible"
     },
@@ -7068,10 +7104,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Green Bit",
-      "size": "20cm",
+      "size": 20,
       "race": "Nain",
       "firstAppearance": "Épisode 647",
-      "difficulty": "Moyen"
+      "difficulty": "Moyen",
+      "hint1": "Princesse",
+      "hint2": "Chiyu Chiyu no Mi",
+      "hint3": "Green Bit"
     },
     {
       "id": "marco",
@@ -7526,12 +7565,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "East Blue",
       "size": 285,
       "race": "Humain",
       "hint1": "Marines (153rd Branch)",
       "hint2": "モーガン",
-      "hint3": "Inconnu",
+      "hint3": "East Blue",
       "firstAppearance": "Épisode 2",
       "difficulty": "Impossible"
     },
@@ -7662,10 +7701,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Grand Line (Bas-fonds de Water Seven)",
-      "size": "1m87",
+      "size": 187,
       "race": "Humain",
       "firstAppearance": "Épisode 233",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "hint1": "Sœurs Square",
+      "hint2": "Humain",
+      "hint3": "Grand Line (Bas-fonds de Water Seven)"
     },
     {
       "id": "nami",
@@ -8132,7 +8174,9 @@
       "size": "",
       "race": "Humain",
       "firstAppearance": "Épisode 16",
-      "difficulty": "Impossible"
+      "difficulty": "Impossible",
+      "hint1": "Figurant",
+      "hint2": "Humain"
     },
     {
       "id": "pappag",
@@ -8150,7 +8194,7 @@
       "haki": [],
       "origin": "Grand Line (Ryugu Kingdom)",
       "size": 50,
-      "race": "",
+      "race": "Animal",
       "hint1": "Criminal brand",
       "hint2": "パッパグ",
       "hint3": "Grand Line (Ryugu Kingdom)",
@@ -8197,7 +8241,10 @@
       "size": "",
       "race": "Humain",
       "firstAppearance": "Épisode 230",
-      "difficulty": "Difficile"
+      "difficulty": "Difficile",
+      "hint1": "Contremaître",
+      "hint2": "Humain",
+      "hint3": "Water Seven"
     },
     {
       "id": "pearl",
@@ -8283,12 +8330,12 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Zou (Principauté de Mokomo)",
       "size": 232,
       "race": "Minks",
       "hint1": "Big Mom Pirates",
       "hint2": "ペコムズ",
-      "hint3": "Inconnu",
+      "hint3": "Zou (Principauté de Mokomo)",
       "firstAppearance": "Épisode 570",
       "difficulty": "Impossible"
     },
@@ -8310,10 +8357,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Arabasta",
-      "size": "1m89",
+      "size": 189,
       "race": "Humain",
       "firstAppearance": "Épisode 91",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "hint1": "Garde royal",
+      "hint2": "Tori Tori no Mi modèle Faucon",
+      "hint3": "Arabasta"
     },
     {
       "id": "perona",
@@ -8496,7 +8546,7 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 239,
-      "race": "",
+      "race": "Arme vivante",
       "hint1": "Big Mom Pirates",
       "hint2": "プロメテウス",
       "hint3": "Grand Line",
@@ -9137,10 +9187,13 @@
       ],
       "imageUrl": "",
       "origin": "North Blue",
-      "size": "1m80",
+      "size": 180,
       "race": "Humain",
       "firstAppearance": "Épisode 20",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "hint1": "Cuisinier",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation"
     },
     {
       "id": "sanjuan-wolf",
@@ -9436,7 +9489,7 @@
       "haki": [],
       "origin": "Sky Islands (Skypiea)",
       "size": 179,
-      "race": "",
+      "race": "Humain",
       "hint1": "Shandia",
       "hint2": "シャンディア酋長",
       "hint3": "Sky Islands (Skypiea)",
@@ -9627,10 +9680,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons (Royaume Ryugu)",
-      "size": "11m87",
+      "size": 1187,
       "race": "Sirène",
       "firstAppearance": "Épisode 531",
-      "difficulty": "Facile"
+      "difficulty": "Facile",
+      "hint1": "Princesse",
+      "hint2": "Sirène",
+      "hint3": "Île des Hommes-Poissons (Royaume Ryugu)"
     },
     {
       "id": "shiryu",
@@ -9768,10 +9824,13 @@
       ],
       "imageUrl": "",
       "origin": "Grand Line",
-      "size": "1m88",
+      "size": 188,
       "race": "Humain",
       "firstAppearance": "Épisode 8",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "hint1": "Second",
+      "hint2": "Humain",
+      "hint3": "Armement, Observation, Conquérant"
     },
     {
       "id": "smack",
@@ -9986,7 +10045,7 @@
       "aliases": [
         "Suterī"
       ],
-      "affiliation": "",
+      "affiliation": "Royaume de Goa",
       "sub_affiliation": [],
       "age": 8,
       "arc": "Inconnu",
@@ -10019,7 +10078,7 @@
       "haki": [],
       "origin": "Grand Line (Arabasta Kingdom)",
       "size": 202,
-      "race": "",
+      "race": "Animal",
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "ストンプ",
       "hint3": "Grand Line (Arabasta Kingdom)",
@@ -10284,7 +10343,7 @@
       "aliases": [
         "Tonjitto"
       ],
-      "affiliation": "",
+      "affiliation": "Aucune",
       "sub_affiliation": [],
       "age": 61,
       "arc": "Inconnu",
@@ -10315,10 +10374,13 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Île de Drum",
-      "size": "90cm",
+      "size": 90,
       "race": "Renne",
       "firstAppearance": "Épisode 81",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "hint1": "Médecin",
+      "hint2": "Hito Hito no Mi",
+      "hint3": "Île de Drum"
     },
     {
       "id": "topman-warcury",
@@ -10517,10 +10579,13 @@
       ],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "1m76",
+      "size": 176,
       "race": "Humain",
       "firstAppearance": "Épisode 8",
-      "difficulty": "Très facile"
+      "difficulty": "Très facile",
+      "hint1": "Tireur d'élite",
+      "hint2": "Humain",
+      "hint3": "Observation"
     },
     {
       "id": "van-augur",
@@ -11256,7 +11321,7 @@
       "gender": "Masculin",
       "haki": [],
       "origin": "Fishman Island",
-      "size": "3m25",
+      "size": 325,
       "race": "Homme-Poisson",
       "hint1": "Nouvel Équipage des Hommes-Poissons",
       "hint2": "Homme-Poisson",
@@ -11280,7 +11345,7 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 232,
-      "race": "",
+      "race": "Arme vivante",
       "hint1": "Straw Hat Pirates",
       "hint2": "ゼウス",
       "hint3": "Grand Line",
