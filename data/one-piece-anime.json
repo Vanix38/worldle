@@ -1890,6 +1890,9 @@
       "origin": "East Blue",
       "size": 186,
       "race": "Humain",
+      "hint1": "Ancienne Marine",
+      "hint2": "Humain",
+      "hint3": "Village de Cocoyasi",
       "firstAppearance": "Épisode 32",
       "difficulty": "Moyen"
     },
@@ -1928,11 +1931,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Observation"
+      ],
       "imageUrl": "",
       "origin": "North Blue",
       "size": 206,
       "race": "Humain",
+      "hint1": "Second",
+      "hint2": "Humain",
+      "hint3": "Observation",
       "firstAppearance": "Épisode 4",
       "difficulty": "Facile"
     },
@@ -4210,6 +4218,9 @@
       "origin": "Grand Line",
       "size": "",
       "race": "Animal",
+      "hint1": "Kung-Fu Dugong",
+      "hint2": "Animal",
+      "hint3": "Alabasta",
       "firstAppearance": "Épisode 96",
       "difficulty": "Impossible"
     },
@@ -4762,6 +4773,9 @@
       "origin": "East Blue",
       "size": 130,
       "race": "Humain",
+      "hint1": "Ermite",
+      "hint2": "Coffre au trésor",
+      "hint3": "Île des animaux rares",
       "firstAppearance": "Épisode 18",
       "difficulty": "Difficile"
     },
@@ -4947,6 +4961,9 @@
       "origin": "East Blue",
       "size": 179,
       "race": "Humain",
+      "hint1": "Bras droit de Don Krieg",
+      "hint2": "Humain",
+      "hint3": "Équipage de Don Krieg",
       "firstAppearance": "Épisode 21",
       "difficulty": "Difficile"
     },
@@ -6427,11 +6444,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons",
       "size": 271,
       "race": "Homme-Poisson",
+      "hint1": "Fourreau Rouge",
+      "hint2": "Homme-Poisson",
+      "hint3": "Armement",
       "firstAppearance": "Épisode 910",
       "difficulty": "Difficile"
     },
@@ -6540,11 +6562,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "imageUrl": "",
       "origin": "Pays des Wa",
       "size": 287,
       "race": "Humain",
+      "hint1": "Fourreau Rouge",
+      "hint2": "Kiku des Neiges Persistantes",
+      "hint3": "Armement",
       "firstAppearance": "Épisode 899",
       "difficulty": "Moyen"
     },
@@ -7099,6 +7126,9 @@
       "origin": "Pays des Wa",
       "size": 108,
       "race": "Humain",
+      "hint1": "Kunoichi",
+      "hint2": "Kibi Kibi no Mi",
+      "hint3": "Kuri",
       "firstAppearance": "Épisode 893",
       "difficulty": "Moyen"
     },
@@ -8565,6 +8595,9 @@
       "origin": "Inconnu",
       "size": 200,
       "race": "Humain",
+      "hint1": "Caméo récurrent",
+      "hint2": "Humain",
+      "hint3": "Inconnu",
       "firstAppearance": "Épisode 16",
       "difficulty": "Impossible"
     },
@@ -8630,6 +8663,9 @@
       "origin": "Water Seven",
       "size": 195,
       "race": "Humain",
+      "hint1": "Charpentier",
+      "hint2": "Humain",
+      "hint3": "Galley-La Company",
       "firstAppearance": "Épisode 230",
       "difficulty": "Difficile"
     },
@@ -11970,12 +12006,12 @@
     "firstAppearance": 1,
     "arc": 1,
     "difficulty": 1,
+    "hint1": 1,
+    "hint2": 1,
+    "hint3": 1,
     "size": 0.9977728285077951,
-    "hint1": 0.977728285077951,
-    "hint2": 0.977728285077951,
-    "hint3": 0.977728285077951,
     "devilFruitType": 0.27616926503340755,
-    "haki": 0.26948775055679286,
+    "haki": 0.27616926503340755,
     "sub_affiliation": 0.18262806236080179,
     "imageUrl": 0
   }
