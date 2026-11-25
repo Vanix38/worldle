@@ -2116,9 +2116,7 @@
       "bounty": 32000000,
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
-      "haki": [
-        "Conquérant"
-      ],
+      "haki": [],
       "origin": "East Blue",
       "size": 238,
       "race": "Humain",
@@ -3797,15 +3795,13 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [
-        "Observation"
-      ],
+      "haki": [],
       "origin": "Grand Line",
       "size": 203,
       "race": "Humain",
       "hint1": "Équipage de Roger",
       "hint2": "Humain",
-      "hint3": "Observation",
+      "hint3": "Cap des Jumeaux",
       "firstAppearance": "Chapitre 102",
       "difficulty": "Facile"
     },
@@ -5287,7 +5283,7 @@
       "race": "Humain",
       "hint1": "Capitaine",
       "hint2": "Humain",
-      "hint3": "Armement, Observation, des rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 1",
       "difficulty": "Très facile"
     },
@@ -5761,15 +5757,13 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [
-        "Conquérant"
-      ],
+      "haki": [],
       "origin": "Fishman Island",
       "size": 331,
       "race": "Homme-Poisson",
       "hint1": "Nouvel Équipage des Hommes-Poissons",
       "hint2": "Homme-Poisson",
-      "hint3": "des Rois",
+      "hint3": "Île des Hommes-Poissons",
       "firstAppearance": "Chapitre 608",
       "difficulty": "Facile"
     },
@@ -6546,7 +6540,7 @@
       "race": "Minks",
       "hint1": "Équipage de Rocks",
       "hint2": "Uo Uo no Mi modèle Seiryu",
-      "hint3": "Armement, Observation, des Rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 795",
       "difficulty": "Très facile"
     },
@@ -7098,7 +7092,7 @@
       "race": "Humain",
       "hint1": "Famille Kozuki",
       "hint2": "Humain",
-      "hint3": "Armement, des Rois",
+      "hint3": "Armement, Conquérant",
       "firstAppearance": "Chapitre 920",
       "difficulty": "Facile"
     },
@@ -8253,7 +8247,7 @@
       "race": "Humain",
       "hint1": "Vice-Amiral",
       "hint2": "Humain",
-      "hint3": "Armement, Observation, des rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 92",
       "difficulty": "Très facile"
     },
@@ -8288,7 +8282,7 @@
       "race": "Humain",
       "hint1": "Capitaine",
       "hint2": "Gomu Gomu no Mi",
-      "hint3": "Armement, Observation, des rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 1",
       "difficulty": "Très facile"
     },
@@ -8372,15 +8366,13 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
-      "haki": [
-        "Conquérant"
-      ],
+      "haki": [],
       "origin": "Grand Line",
       "size": 305,
       "race": "Humain",
       "hint1": "Pègre",
       "hint2": "Tori Tori no Mi modèle Albatros",
-      "hint3": "des Rois",
+      "hint3": "Journal économique mondial",
       "firstAppearance": "Chapitre 860",
       "difficulty": "Moyen"
     },
@@ -9382,7 +9374,7 @@
       "race": "Humain",
       "hint1": "Équipage de Barbe Blanche",
       "hint2": "Mera Mera no Mi",
-      "hint3": "Armement, Observation, des rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 154",
       "difficulty": "Très facile"
     },
@@ -9884,7 +9876,7 @@
       "race": "Humain",
       "hint1": "Second",
       "hint2": "Humain",
-      "hint3": "Armement, Observation, des Rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 3",
       "difficulty": "Très facile"
     },
@@ -10444,7 +10436,7 @@
       "race": "Humain",
       "hint1": "Amiral en chef",
       "hint2": "Hito Hito no Mi modèle Daibutsu",
-      "hint3": "Armement, Observation, des Rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 234",
       "difficulty": "Facile"
     },
@@ -10608,7 +10600,7 @@
       "race": "Humain",
       "hint1": "Capitaine",
       "hint2": "Humain",
-      "hint3": "Armement, Observation, des Rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 1",
       "difficulty": "Très facile"
     },
@@ -11335,15 +11327,13 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
-      "haki": [
-        "Observation"
-      ],
+      "haki": [],
       "origin": "North Blue",
       "size": 110,
       "race": "Humain",
-      "hint1": "Don Quichotte Family",
+      "hint1": "Famille Don Quichotte",
       "hint2": "Hobi Hobi no Mi",
-      "hint3": "Observation",
+      "hint3": "Dressrosa",
       "firstAppearance": "Chapitre 682",
       "difficulty": "Facile"
     },
@@ -12289,7 +12279,7 @@
       "race": "Homme-Poisson",
       "hint1": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
       "hint2": "Zoan Mythique",
-      "hint3": "Armement, Observation, des Rois",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 971",
       "difficulty": "Facile"
     },
@@ -12628,7 +12618,7 @@
     "hint3": 1,
     "size": 0.9978632478632479,
     "devilFruitType": 0.2905982905982906,
-    "haki": 0.2905982905982906,
+    "haki": 0.2799145299145299,
     "sub_affiliation": 0.21367521367521367,
     "imageUrl": 0
   }
