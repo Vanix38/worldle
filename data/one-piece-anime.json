@@ -1352,7 +1352,7 @@
       "id": "aisa",
       "name": "Aisa",
       "aliases": [],
-      "affiliation": "Shandias",
+      "affiliation": "Shandia",
       "sub_affiliation": [],
       "age": 9,
       "arc": "Skypiea",
@@ -1475,7 +1475,7 @@
       "id": "aramaki",
       "name": "Aramaki",
       "aliases": [],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 41,
       "arc": "Whole Cake",
@@ -1549,7 +1549,7 @@
       "aliases": [
         "Atorasu"
       ],
-      "affiliation": "Marines (SSG)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 2,
       "arc": "Egghead",
@@ -1624,7 +1624,7 @@
       "id": "baby-5",
       "name": "Baby 5",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Flotte de Happou",
         "Marine des huit trésors"
@@ -1827,7 +1827,7 @@
       "aliases": [
         "Berumēru"
       ],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Arlong Park",
@@ -1852,7 +1852,7 @@
         "Hyène",
         "Le Plus Grand Rookie de Tous les Temps"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Équipage de Bellamy"
       ],
@@ -1942,7 +1942,7 @@
       "aliases": [
         "Ben Bekkuman"
       ],
-      "affiliation": "Red Hair Pirates",
+      "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
       "age": 38,
       "arc": "Romance Dawn",
@@ -2042,7 +2042,7 @@
       "id": "bishamon",
       "name": "Bishamon",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 28,
       "arc": "Wano Kuni",
@@ -2166,7 +2166,7 @@
         "L'Impératrice pirate",
         "Seigneur de guerre"
       ],
-      "affiliation": "Pirates Kujas",
+      "affiliation": "Pirates Kuja",
       "sub_affiliation": [
         "Amazon Lily",
         "Sept Grands Corsaires"
@@ -2194,7 +2194,7 @@
       "id": "boa-marigold",
       "name": "Boa Marigold",
       "aliases": [],
-      "affiliation": "Pirates Kujas",
+      "affiliation": "Pirates Kuja",
       "sub_affiliation": [
         "Amazon Lily"
       ],
@@ -2220,7 +2220,7 @@
       "id": "boa-sandersonia",
       "name": "Boa Sandersonia",
       "aliases": [],
-      "affiliation": "Pirates Kujas",
+      "affiliation": "Pirates Kuja",
       "sub_affiliation": [
         "Amazon Lily"
       ],
@@ -2248,7 +2248,7 @@
       "aliases": [
         "Bobī Fanku"
       ],
-      "affiliation": "Mogaro Kingdom",
+      "affiliation": "Royaume de Mogaro",
       "sub_affiliation": [],
       "age": 33,
       "arc": "Dressrosa",
@@ -2300,7 +2300,7 @@
       "aliases": [
         "Bābon Junia"
       ],
-      "affiliation": "Super Spot-Billed Duck Troops",
+      "affiliation": "Super Canards",
       "sub_affiliation": [],
       "age": 14,
       "arc": "Alabasta",
@@ -2444,7 +2444,7 @@
       "aliases": [
         "Misu Bakkingamu Sutyūshī"
       ],
-      "affiliation": "Rocks Pirates",
+      "affiliation": "Équipage de Rocks",
       "sub_affiliation": [],
       "age": 76,
       "arc": "Zou",
@@ -2465,7 +2465,7 @@
       "id": "buffalo",
       "name": "Buffalo",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Punk Hazard",
@@ -2638,7 +2638,7 @@
       "aliases": [
         "Karumeru"
       ],
-      "affiliation": "Underworld",
+      "affiliation": "Pègre",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Whole Cake",
@@ -2766,7 +2766,7 @@
         "Master",
         "Gangster Gastino"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Mads"
       ],
@@ -2812,7 +2812,7 @@
       "id": "chaka",
       "name": "Chaka",
       "aliases": [],
-      "affiliation": "Arabasta Kingdom",
+      "affiliation": "Royaume d'Alabasta",
       "sub_affiliation": [],
       "age": 39,
       "arc": "Drum Island",
@@ -2835,7 +2835,7 @@
       "aliases": [
         "Shārotto Enzeru"
       ],
-      "affiliation": "Charlotte Family",
+      "affiliation": "Famille Charlotte",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Whole Cake",
@@ -2858,7 +2858,7 @@
       "aliases": [
         "Shārotto Burowaie"
       ],
-      "affiliation": "Charlotte Family",
+      "affiliation": "Famille Charlotte",
       "sub_affiliation": [],
       "age": 43,
       "arc": "Whole Cake",
@@ -2957,7 +2957,7 @@
       "aliases": [
         "Shārotto Kasutādo"
       ],
-      "affiliation": "Charlotte Family",
+      "affiliation": "Famille Charlotte",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Whole Cake",
@@ -3054,7 +3054,7 @@
       "id": "charlotte-laura",
       "name": "Charlotte Laura",
       "aliases": [],
-      "affiliation": "Équipage du Rolling Association des Victimes de Thriller Bark",
+      "affiliation": "Équipage du Rolling",
       "sub_affiliation": [
         "Famille Charlotte"
       ],
@@ -3110,7 +3110,7 @@
       "aliases": [
         "Shārotto Rōra"
       ],
-      "affiliation": "Rolling Pirates",
+      "affiliation": "Équipage du Rolling",
       "sub_affiliation": [],
       "age": 24,
       "arc": "Thriller Bark",
@@ -3283,7 +3283,7 @@
       "aliases": [
         "Shārotto Sunakku"
       ],
-      "affiliation": "Charlotte Family",
+      "affiliation": "Famille Charlotte",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Whole Cake",
@@ -3329,7 +3329,7 @@
       "aliases": [
         "Chū"
       ],
-      "affiliation": "Arlong Pirates",
+      "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [],
       "age": 33,
       "arc": "Arlong Park",
@@ -3404,7 +3404,7 @@
       "aliases": [
         "Shokora"
       ],
-      "affiliation": "Fake Straw Hat Crew",
+      "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 26,
       "arc": "Fishman Island",
@@ -3425,7 +3425,7 @@
       "id": "chome",
       "name": "Chome",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 14,
       "arc": "Wano Kuni",
@@ -3469,7 +3469,7 @@
       "aliases": [
         "Kurau Dī Kurōbā"
       ],
-      "affiliation": "Ohara Archaeologists",
+      "affiliation": "Archéologues d'Ohara",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Enies Lobby",
@@ -3492,7 +3492,7 @@
       "aliases": [
         "Kokoa"
       ],
-      "affiliation": "Fake Straw Hat Crew",
+      "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 27,
       "arc": "Fishman Island",
@@ -3536,7 +3536,7 @@
       "aliases": [
         "Konsurotto"
       ],
-      "affiliation": "Mokomo Dukedom",
+      "affiliation": "Principauté de Mokomo",
       "sub_affiliation": [],
       "age": 29,
       "arc": "Zou",
@@ -3603,7 +3603,7 @@
       "aliases": [
         "Kaubōi"
       ],
-      "affiliation": "Super Spot-Billed Duck Troops",
+      "affiliation": "Super Canards",
       "sub_affiliation": [],
       "age": 16,
       "arc": "Alabasta",
@@ -3694,7 +3694,7 @@
       "id": "daikoku",
       "name": "Daikoku",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 42,
       "arc": "Wano Kuni",
@@ -3715,7 +3715,7 @@
       "id": "dalton",
       "name": "Dalton",
       "aliases": [],
-      "affiliation": "Drum Island",
+      "affiliation": "Royaume de Drum",
       "sub_affiliation": [
         "Royaume des Cerisiers"
       ],
@@ -3738,7 +3738,7 @@
       "id": "daruma",
       "name": "Daruma",
       "aliases": [],
-      "affiliation": "New Fish-Man Pirates",
+      "affiliation": "Nouvel Équipage des Hommes-Poissons",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Fishman Island",
@@ -3784,7 +3784,7 @@
       "aliases": [
         "Derinjā"
       ],
-      "affiliation": "Donquixote Pirates",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 16,
       "arc": "Dressrosa",
@@ -3880,7 +3880,7 @@
       "aliases": [
         "Le Héros du Colisée"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Dressrosa",
@@ -3954,7 +3954,7 @@
       "aliases": [
         "Joker"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Équipage des Cent Bêtes"
       ],
@@ -3983,7 +3983,7 @@
         "Corazon",
         "Cora"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Marine",
         "Marines"
@@ -4009,7 +4009,7 @@
       "aliases": [
         "Donkihōte Dofuramingo"
       ],
-      "affiliation": "Donquixote Pirates",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 39,
       "arc": "Jaya",
@@ -4032,7 +4032,7 @@
       "aliases": [
         "Donkihōte Myosugarudo Sei"
       ],
-      "affiliation": "World Government (Donquixote Family)",
+      "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 25,
       "arc": "Fishman Island",
@@ -4055,7 +4055,7 @@
       "aliases": [
         "Donkihōte Roshinante"
       ],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Dressrosa",
@@ -4100,7 +4100,7 @@
       "id": "dosun",
       "name": "Dosun",
       "aliases": [],
-      "affiliation": "New Fish-Man Pirates",
+      "affiliation": "Nouvel Équipage des Hommes-Poissons",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Fishman Island",
@@ -4153,7 +4153,7 @@
       "aliases": [
         "Dorippu"
       ],
-      "affiliation": "Fake Straw Hat Crew",
+      "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 24,
       "arc": "Fishman Island",
@@ -4324,7 +4324,7 @@
       "aliases": [
         "Erizaberō Nisei"
       ],
-      "affiliation": "Prodence Kingdom",
+      "affiliation": "Royaume de Prodence",
       "sub_affiliation": [],
       "age": 57,
       "arc": "Dressrosa",
@@ -4636,7 +4636,7 @@
       "id": "fukaboshi",
       "name": "Fukaboshi",
       "aliases": [],
-      "affiliation": "Famille royale de l'île des hommes-poissons",
+      "affiliation": "Famille royale Ryugu",
       "sub_affiliation": [],
       "age": 24,
       "arc": "Fishman Island",
@@ -4889,7 +4889,7 @@
       "id": "genzo",
       "name": "Genzo",
       "aliases": [],
-      "affiliation": "Cocoyasi Village",
+      "affiliation": "Village de Cocoyasi",
       "sub_affiliation": [],
       "age": 46,
       "arc": "Arlong Park",
@@ -4979,7 +4979,7 @@
       "aliases": [
         "Jōra"
       ],
-      "affiliation": "Donquixote Pirates",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 61,
       "arc": "Punk Hazard",
@@ -5002,7 +5002,7 @@
       "aliases": [
         "Joban'ni"
       ],
-      "affiliation": "Mokomo Dukedom",
+      "affiliation": "Principauté de Mokomo",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Zou",
@@ -5023,7 +5023,7 @@
       "id": "gladius",
       "name": "Gladius",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 33,
       "arc": "Punk Hazard",
@@ -5259,7 +5259,7 @@
       "id": "hanzo",
       "name": "Hanzo",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 42,
       "arc": "Wano Kuni",
@@ -5352,7 +5352,7 @@
       "aliases": [
         "Herumeppo"
       ],
-      "affiliation": "Marines (Headquarters",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 20,
       "arc": "Romance Dawn",
@@ -5398,7 +5398,7 @@
       "id": "hibari",
       "name": "Hibari",
       "aliases": [],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 17,
       "arc": "Egghead",
@@ -5419,7 +5419,7 @@
       "id": "higuma",
       "name": "Higuma",
       "aliases": [],
-      "affiliation": "Higuma Bandits",
+      "affiliation": "Bandits de Higuma",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Romance Dawn",
@@ -5466,7 +5466,7 @@
         "Hina la Cage Noire",
         "Hina la Dame de Fer"
       ],
-      "affiliation": "Marine ; L’Escadre des Harpons Noirs",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 32,
       "arc": "Alabasta",
@@ -5556,7 +5556,7 @@
       "aliases": [
         "Hōrudemu"
       ],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Wano Kuni",
@@ -5579,7 +5579,7 @@
       "aliases": [
         "Hyōgorō"
       ],
-      "affiliation": "Hyougoro Family",
+      "affiliation": "Famille Hyougoro",
       "sub_affiliation": [],
       "age": 70,
       "arc": "Wano Kuni",
@@ -5602,7 +5602,7 @@
       "aliases": [
         "Hyōzō"
       ],
-      "affiliation": "New Fish-Man Pirates",
+      "affiliation": "Nouvel Équipage des Hommes-Poissons",
       "sub_affiliation": [],
       "age": 39,
       "arc": "Fishman Island",
@@ -5672,7 +5672,7 @@
       "aliases": [
         "Ikarosu Muhhi"
       ],
-      "affiliation": "New Fish-Man Pirates",
+      "affiliation": "Nouvel Équipage des Hommes-Poissons",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Fishman Island",
@@ -5743,7 +5743,7 @@
       "id": "ipponmatsu",
       "name": "Ipponmatsu",
       "aliases": [],
-      "affiliation": "Loguetown Arms Shop",
+      "affiliation": "Armurerie de Logue Town",
       "sub_affiliation": [],
       "age": 38,
       "arc": "Logue Town",
@@ -5814,7 +5814,7 @@
       "aliases": [
         "Iwan X"
       ],
-      "affiliation": "Super Spot-Billed Duck Troops",
+      "affiliation": "Super Canards",
       "sub_affiliation": [],
       "age": 16,
       "arc": "Alabasta",
@@ -5909,7 +5909,7 @@
       "id": "jango",
       "name": "Jango",
       "aliases": [],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 27,
       "arc": "Syrup Village",
@@ -6059,7 +6059,7 @@
       "id": "jigoku-benten",
       "name": "Jigoku Benten",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 21,
       "arc": "Wano Kuni",
@@ -6108,7 +6108,7 @@
       "aliases": [
         "Jon Jaianto"
       ],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Logue Town",
@@ -6150,7 +6150,7 @@
       "id": "jora",
       "name": "Jora",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 61,
       "arc": "Punk Hazard",
@@ -6173,7 +6173,7 @@
       "aliases": [
         "Yoruru"
       ],
-      "affiliation": "Giant Warrior Pirates",
+      "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Whole Cake",
@@ -6220,7 +6220,7 @@
       "id": "jozu",
       "name": "Jozu",
       "aliases": [],
-      "affiliation": "Whitebeard Pirates",
+      "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [],
       "age": 40,
       "arc": "Jaya",
@@ -6299,7 +6299,7 @@
       "aliases": [
         "Le Démon de Shandora"
       ],
-      "affiliation": "Shandias",
+      "affiliation": "Shandia",
       "sub_affiliation": [],
       "age": 39,
       "arc": "Skypiea",
@@ -6439,7 +6439,7 @@
       "id": "kazekage",
       "name": "Kazekage",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 43,
       "arc": "Wano Kuni",
@@ -6462,7 +6462,7 @@
       "aliases": [
         "Kerī Fanku"
       ],
-      "affiliation": "Mogaro Kingdom",
+      "affiliation": "Royaume de Mogaro",
       "sub_affiliation": [],
       "age": 36,
       "arc": "Dressrosa",
@@ -6485,7 +6485,7 @@
       "aliases": [
         "Kentarousu"
       ],
-      "affiliation": "Super Spot-Billed Duck Troops",
+      "affiliation": "Super Canards",
       "sub_affiliation": [],
       "age": 15,
       "arc": "Alabasta",
@@ -6580,7 +6580,7 @@
       "id": "kin-emon",
       "name": "Kin'emon",
       "aliases": [],
-      "affiliation": "Kouzuki Family",
+      "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 36,
       "arc": "Punk Hazard",
@@ -6698,7 +6698,7 @@
       "aliases": [
         "Kōzuki Hiyori"
       ],
-      "affiliation": "Kouzuki Family",
+      "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 26,
       "arc": "Wano Kuni",
@@ -6721,7 +6721,7 @@
       "aliases": [
         "Kōzuki Momonosuke"
       ],
-      "affiliation": "Kouzuki Family",
+      "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 8,
       "arc": "Punk Hazard",
@@ -6744,7 +6744,7 @@
       "aliases": [
         "Kōzuki Oden"
       ],
-      "affiliation": "Kouzuki Family",
+      "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Wano Kuni",
@@ -6767,7 +6767,7 @@
       "aliases": [
         "Kōzuki Sukiyaki"
       ],
-      "affiliation": "Kouzuki Family",
+      "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 81,
       "arc": "Wano Kuni",
@@ -6788,7 +6788,7 @@
       "id": "koza",
       "name": "Koza",
       "aliases": [],
-      "affiliation": "Alabasta",
+      "affiliation": "Royaume d'Alabasta",
       "sub_affiliation": [],
       "age": 20,
       "arc": "Alabasta",
@@ -6879,7 +6879,7 @@
       "aliases": [
         "Kurīku"
       ],
-      "affiliation": "Krieg Pirates",
+      "affiliation": "Équipage de Don Krieg",
       "sub_affiliation": [],
       "age": 42,
       "arc": "Baratie",
@@ -6900,7 +6900,7 @@
       "id": "kujaku",
       "name": "Kujaku",
       "aliases": [],
-      "affiliation": "Marines (G-14)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 26,
       "arc": "Egghead",
@@ -6972,7 +6972,7 @@
       "id": "kuro",
       "name": "Kuro",
       "aliases": [],
-      "affiliation": "Black Cat Pirates",
+      "affiliation": "Équipage du Chat Noir",
       "sub_affiliation": [],
       "age": 33,
       "arc": "Syrup Village",
@@ -6993,7 +6993,7 @@
       "id": "kuromarimo",
       "name": "Kuromarimo",
       "aliases": [],
-      "affiliation": "L’Équipage de Wapol",
+      "affiliation": "Équipage de Wapol",
       "sub_affiliation": [],
       "age": 28,
       "arc": "Drum Island",
@@ -7198,7 +7198,7 @@
       "id": "lao-g",
       "name": "Lao G",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 70,
       "arc": "Punk Hazard",
@@ -7219,7 +7219,7 @@
       "id": "leo",
       "name": "Léo",
       "aliases": [],
-      "affiliation": "Allié de Équipage du Chapeau de Paille",
+      "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 25,
       "arc": "Dressrosa",
@@ -7265,7 +7265,7 @@
       "aliases": [
         "Ririsu"
       ],
-      "affiliation": "Marines (SSG)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 2,
       "arc": "Egghead",
@@ -7288,7 +7288,7 @@
       "aliases": [
         "Rindobāgu"
       ],
-      "affiliation": "Revolutionary Army (South Army)",
+      "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [],
       "age": 37,
       "arc": "Whole Cake",
@@ -7382,7 +7382,7 @@
       "id": "machvise",
       "name": "Machvise",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 52,
       "arc": "Punk Hazard",
@@ -7466,7 +7466,7 @@
       "id": "manjaro",
       "name": "Manjaro",
       "aliases": [],
-      "affiliation": "Fake Straw Hat Crew",
+      "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 25,
       "arc": "Fishman Island",
@@ -7564,7 +7564,7 @@
       "id": "marguerite",
       "name": "Marguerite",
       "aliases": [],
-      "affiliation": "Kujas",
+      "affiliation": "Pirates Kuja",
       "sub_affiliation": [],
       "age": 16,
       "arc": "Amazon Lily",
@@ -7704,7 +7704,7 @@
       "aliases": [
         "Sadaijin"
       ],
-      "affiliation": "Ryugu Kingdom",
+      "affiliation": "Royaume Ryugu",
       "sub_affiliation": [],
       "age": 62,
       "arc": "Fishman Island",
@@ -7727,7 +7727,7 @@
       "aliases": [
         "Udaijin"
       ],
-      "affiliation": "Ryugu Kingdom",
+      "affiliation": "Royaume Ryugu",
       "sub_affiliation": [],
       "age": 55,
       "arc": "Fishman Island",
@@ -7795,7 +7795,7 @@
       "id": "monet",
       "name": "Monet",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Punk Hazard",
@@ -7903,7 +7903,7 @@
       "aliases": [
         "Monburan Kuriketto"
       ],
-      "affiliation": "Saruyama Alliance",
+      "affiliation": "Ligue des Primates",
       "sub_affiliation": [],
       "age": 41,
       "arc": "Jaya",
@@ -7926,7 +7926,7 @@
       "aliases": [
         "Monburan Nōrando"
       ],
-      "affiliation": "Lvneel Kingdom",
+      "affiliation": "Royaume de Lvneel",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Skypiea",
@@ -7949,7 +7949,7 @@
       "aliases": [
         "Mōgan"
       ],
-      "affiliation": "Marines (153rd Branch)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 42,
       "arc": "Romance Dawn",
@@ -8016,7 +8016,7 @@
       "aliases": [
         "Mōrī"
       ],
-      "affiliation": "Revolutionary Army (West Army)",
+      "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [],
       "age": 160,
       "arc": "Whole Cake",
@@ -8062,7 +8062,7 @@
       "aliases": [
         "Maunburuten"
       ],
-      "affiliation": "Fake Straw Hat Crew",
+      "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 30,
       "arc": "Fishman Island",
@@ -8083,7 +8083,7 @@
       "id": "mozu-et-kiwi",
       "name": "Mozu et Kiwi",
       "aliases": [],
-      "affiliation": "Franky Family",
+      "affiliation": "Famille Franky",
       "sub_affiliation": [],
       "age": 22,
       "arc": "Water Seven",
@@ -8131,7 +8131,7 @@
       "aliases": [
         "Naporeon"
       ],
-      "affiliation": "Big Mom Pirates",
+      "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [],
       "age": 38,
       "arc": "Fishman Island",
@@ -8220,7 +8220,7 @@
       "id": "neptune",
       "name": "Neptune",
       "aliases": [],
-      "affiliation": "Famille royale du royaume Ryugu",
+      "affiliation": "Famille royale Ryugu",
       "sub_affiliation": [],
       "age": 70,
       "arc": "Fishman Island",
@@ -8286,7 +8286,7 @@
       "id": "nico-olvia",
       "name": "Nico Olvia",
       "aliases": [],
-      "affiliation": "Ohara",
+      "affiliation": "Archéologues d'Ohara",
       "sub_affiliation": [],
       "age": 33,
       "arc": "Enies Lobby",
@@ -8332,7 +8332,7 @@
       "id": "ninjin",
       "name": "Ninjin",
       "aliases": [],
-      "affiliation": "Usopp Pirates (disbanded)",
+      "affiliation": "Équipage d'Usopp",
       "sub_affiliation": [],
       "age": 9,
       "arc": "Syrup Village",
@@ -8353,7 +8353,7 @@
       "id": "nojiko",
       "name": "Nojiko",
       "aliases": [],
-      "affiliation": "Bell-mère's mikan",
+      "affiliation": "Village de Cocoyasi",
       "sub_affiliation": [],
       "age": 20,
       "arc": "Arlong Park",
@@ -8574,7 +8574,7 @@
       "aliases": [
         "Pappagu"
       ],
-      "affiliation": "Criminal brand",
+      "affiliation": "Marque Criminal",
       "sub_affiliation": [],
       "age": 31,
       "arc": "Archipel Sabaody",
@@ -8639,7 +8639,7 @@
       "aliases": [
         "Pāru"
       ],
-      "affiliation": "Krieg Pirates",
+      "affiliation": "Équipage de Don Krieg",
       "sub_affiliation": [],
       "age": 23,
       "arc": "Baratie",
@@ -8730,7 +8730,7 @@
       "aliases": [
         "Pekomuzu"
       ],
-      "affiliation": "Big Mom Pirates",
+      "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [],
       "age": 27,
       "arc": "Fishman Island",
@@ -8803,7 +8803,7 @@
       "id": "pica",
       "name": "Pica",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 40,
       "arc": "Dressrosa",
@@ -8829,7 +8829,7 @@
       "aliases": [
         "Pīman"
       ],
-      "affiliation": "Usopp Pirates (disbanded)",
+      "affiliation": "Équipage d'Usopp",
       "sub_affiliation": [],
       "age": 9,
       "arc": "Syrup Village",
@@ -8852,7 +8852,7 @@
       "aliases": [
         "Pōro Maruko"
       ],
-      "affiliation": "Whitebeard Pirates",
+      "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [],
       "age": 43,
       "arc": "Jaya",
@@ -8923,7 +8923,7 @@
       "aliases": [
         "Paundo"
       ],
-      "affiliation": "Charlotte Family ‡",
+      "affiliation": "Famille Charlotte",
       "sub_affiliation": [],
       "age": 48,
       "arc": "Whole Cake",
@@ -8946,7 +8946,7 @@
       "aliases": [
         "Purinsu Gurusu"
       ],
-      "affiliation": "Marines (G-14)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 29,
       "arc": "Egghead",
@@ -8969,7 +8969,7 @@
       "aliases": [
         "Purometeusu"
       ],
-      "affiliation": "Big Mom Pirates",
+      "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [],
       "age": 44,
       "arc": "Whole Cake",
@@ -9017,7 +9017,7 @@
       "aliases": [
         "Kuīn"
       ],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 56,
       "arc": "Wano Kuni",
@@ -9038,7 +9038,7 @@
       "id": "raijin",
       "name": "Raijin",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Wano Kuni",
@@ -9131,7 +9131,7 @@
       "aliases": [
         "Violette"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 29,
       "arc": "Dressrosa",
@@ -9175,7 +9175,7 @@
       "aliases": [
         "Rippā"
       ],
-      "affiliation": "Marines (153rd Branch)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Romance Dawn",
@@ -9247,7 +9247,7 @@
       "aliases": [
         "Rokkusu Dī Jībekku"
       ],
-      "affiliation": "Rocks Pirates",
+      "affiliation": "Équipage de Rocks",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Wano Kuni",
@@ -9299,7 +9299,7 @@
       "aliases": [
         "Rosuwādo Charurosu Sei"
       ],
-      "affiliation": "World Government (Rosward Family)",
+      "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 22,
       "arc": "Archipel Sabaody",
@@ -9322,7 +9322,7 @@
       "aliases": [
         "Rozuwādo Rozuwādo Sei"
       ],
-      "affiliation": "World Government (Rosward Family)",
+      "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 53,
       "arc": "Archipel Sabaody",
@@ -9345,7 +9345,7 @@
       "aliases": [
         "Rosuwādo Sharuria Gū"
       ],
-      "affiliation": "World Government (Rosward Family)",
+      "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 15,
       "arc": "Archipel Sabaody",
@@ -9366,7 +9366,7 @@
       "id": "ryuboshi",
       "name": "Ryuboshi",
       "aliases": [],
-      "affiliation": "Famille royale du royaume Ryugu",
+      "affiliation": "Famille royale Ryugu",
       "sub_affiliation": [],
       "age": 23,
       "arc": "Fishman Island",
@@ -9696,7 +9696,7 @@
       "aliases": [
         "Sākīsu"
       ],
-      "affiliation": "Bellamy Pirates",
+      "affiliation": "Équipage de Bellamy",
       "sub_affiliation": [],
       "age": 25,
       "arc": "Jaya",
@@ -9717,7 +9717,7 @@
       "id": "sarutobi",
       "name": "Sarutobi",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Wano Kuni",
@@ -9839,7 +9839,7 @@
       "id": "senor-pink",
       "name": "Señor Pink",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 46,
       "arc": "Dressrosa",
@@ -9911,7 +9911,7 @@
       "aliases": [
         "Shaka"
       ],
-      "affiliation": "Marines (SSG)",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 2,
       "arc": "Egghead",
@@ -9932,7 +9932,7 @@
       "id": "shakuyaku",
       "name": "Shakuyaku",
       "aliases": [],
-      "affiliation": "Équipage des Pirates Kuja",
+      "affiliation": "Pirates Kuja",
       "sub_affiliation": [],
       "age": 62,
       "arc": "Archipel Sabaody",
@@ -10048,7 +10048,7 @@
       "aliases": [
         "Shīpusuheddo"
       ],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 24,
       "arc": "Dressrosa",
@@ -10121,7 +10121,7 @@
       "aliases": [
         "Shimotsuki Kōshirō"
       ],
-      "affiliation": "Shimotsuki Family",
+      "affiliation": "Famille Shimotsuki",
       "sub_affiliation": [],
       "age": 40,
       "arc": "Baratie",
@@ -10144,7 +10144,7 @@
       "aliases": [
         "Shimotsuki Kōzaburō"
       ],
-      "affiliation": "Shimotsuki Family",
+      "affiliation": "Famille Shimotsuki",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Wano Kuni",
@@ -10209,7 +10209,7 @@
       "id": "shirahoshi",
       "name": "Shirahoshi",
       "aliases": [],
-      "affiliation": "Famille de Neptune",
+      "affiliation": "Famille royale Ryugu",
       "sub_affiliation": [
         "Royaume Ryugu"
       ],
@@ -10233,7 +10233,7 @@
       "id": "shiryu",
       "name": "Shiryu",
       "aliases": [],
-      "affiliation": "Blackbeard Pirates",
+      "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [],
       "age": 42,
       "arc": "Impel Down",
@@ -10256,7 +10256,7 @@
       "aliases": [
         "Shishirian"
       ],
-      "affiliation": "Mokomo Dukedom",
+      "affiliation": "Principauté de Mokomo",
       "sub_affiliation": [],
       "age": 34,
       "arc": "Zou",
@@ -10279,7 +10279,7 @@
       "aliases": [
         "Shōjō"
       ],
-      "affiliation": "Saruyama Alliance (Shoujou Pirates)",
+      "affiliation": "Ligue des Primates",
       "sub_affiliation": [],
       "age": 25,
       "arc": "Jaya",
@@ -10351,7 +10351,7 @@
         "Roi des Ténèbres",
         "Bras droit du Roi des Pirates"
       ],
-      "affiliation": "Ancien Équipage de Roger",
+      "affiliation": "Équipage de Roger",
       "sub_affiliation": [],
       "age": 78,
       "arc": "Orange Town",
@@ -10516,7 +10516,7 @@
       "aliases": [
         "Sutōkā"
       ],
-      "affiliation": "Marines G-1 Branch",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Amazon Lily",
@@ -10609,7 +10609,7 @@
       "aliases": [
         "Sutonpu"
       ],
-      "affiliation": "Super Spot-Billed Duck Troops",
+      "affiliation": "Super Canards",
       "sub_affiliation": [],
       "age": 15,
       "arc": "Alabasta",
@@ -10679,7 +10679,7 @@
       "id": "sugar",
       "name": "Sugar",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 22,
       "arc": "Punk Hazard",
@@ -10727,7 +10727,7 @@
       "aliases": [
         "Tī Bōn"
       ],
-      "affiliation": "Marines",
+      "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 51,
       "arc": "Water Seven",
@@ -10774,7 +10774,7 @@
       "id": "tamanegi",
       "name": "Tamanegi",
       "aliases": [],
-      "affiliation": "Usopp Pirates (disbanded)",
+      "affiliation": "Équipage d'Usopp",
       "sub_affiliation": [],
       "age": 9,
       "arc": "Syrup Village",
@@ -10840,7 +10840,7 @@
       "id": "toko",
       "name": "Toko",
       "aliases": [],
-      "affiliation": "Kouzuki Hiyori",
+      "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 6,
       "arc": "Wano Kuni",
@@ -10982,7 +10982,7 @@
       "id": "trebol",
       "name": "Trébol",
       "aliases": [],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 49,
       "arc": "Dressrosa",
@@ -11034,7 +11034,7 @@
       "aliases": [
         "Toruko"
       ],
-      "affiliation": "Fake Straw Hat Crew",
+      "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 45,
       "arc": "Fishman Island",
@@ -11201,7 +11201,7 @@
       "aliases": [
         "Le Démon au Bambou"
       ],
-      "affiliation": "Don Quichotte Family",
+      "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 41,
       "arc": "Punk Hazard",
@@ -11226,7 +11226,7 @@
       "aliases": [
         "Bikutoria Shindorī"
       ],
-      "affiliation": "Thriller Bark Pirates",
+      "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [],
       "age": 0,
       "arc": "Thriller Bark",
@@ -11272,7 +11272,7 @@
       "aliases": [
         "Vinsumōku Jajji"
       ],
-      "affiliation": "Vinsmoke Family",
+      "affiliation": "Famille Vinsmoke",
       "sub_affiliation": [],
       "age": 56,
       "arc": "Whole Cake",
@@ -11364,7 +11364,7 @@
       "aliases": [
         "Viora"
       ],
-      "affiliation": "Riku Family",
+      "affiliation": "Famille Riku",
       "sub_affiliation": [],
       "age": 29,
       "arc": "Dressrosa",
@@ -11548,7 +11548,7 @@
       "aliases": [
         "Le Démon Furieux"
       ],
-      "affiliation": "Shandias",
+      "affiliation": "Shandia",
       "sub_affiliation": [],
       "age": 22,
       "arc": "Skypiea",
@@ -11696,7 +11696,7 @@
       "id": "yazaemon",
       "name": "Yazaemon",
       "aliases": [],
-      "affiliation": "Beasts Pirates",
+      "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 24,
       "arc": "Wano Kuni",
@@ -11784,7 +11784,7 @@
       "aliases": [
         "Yōku"
       ],
-      "affiliation": "World Government",
+      "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 2,
       "arc": "Egghead",
@@ -11828,7 +11828,7 @@
       "id": "yosaku",
       "name": "Yosaku",
       "aliases": [],
-      "affiliation": "Johnny",
+      "affiliation": "Chasseurs de Primes",
       "sub_affiliation": [],
       "age": 24,
       "arc": "Baratie",
@@ -11942,7 +11942,7 @@
       "aliases": [
         "Zeusu"
       ],
-      "affiliation": "Straw Hat Pirates",
+      "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [],
       "age": 44,
       "arc": "Whole Cake",
