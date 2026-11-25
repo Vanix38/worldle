@@ -12,7 +12,7 @@
  * - fieldPrevalence n'est pas stockée : elle est recalculée à la génération.
  *
  * Usage :
- *   node scripts/one-piece-source.mjs build   # source → data/*.json
+ *   node scripts/one-piece-source.mjs build   # valide la source puis génère data/*.json
  *   node scripts/one-piece-source.mjs check   # échoue si data/*.json n'est pas à jour
  *   node scripts/one-piece-source.mjs merge   # data/*.json → source (après un script
  *                                             # qui a modifié les fichiers générés)
@@ -20,6 +20,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { validate } from "./validate-one-piece.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.join(ROOT, "sources", "one-piece.json");
@@ -127,6 +128,16 @@ function generate(version) {
 const cmd = process.argv[2];
 const run = cmd === "merge" ? (merge(), "build") : cmd;
 if (run === "build" || run === "check") {
+  const { errors, warnings } = validate(
+    JSON.parse(fs.readFileSync(SOURCE, "utf8")),
+    JSON.parse(fs.readFileSync(path.join(ROOT, "sources", "one-piece-vocabulary.json"), "utf8")),
+  );
+  for (const e of errors) console.error(`✗ ${e}`);
+  if (warnings.length) console.log(`One Piece : ${warnings.length} avertissement(s) (npm run one-piece:validate pour le détail).`);
+  if (errors.length) {
+    console.error(`One Piece : ${errors.length} erreur(s) de validation dans sources/one-piece.json.`);
+    process.exit(1);
+  }
   let stale = [];
   for (const v of VERSIONS) {
     const text = generate(v);

@@ -28,7 +28,8 @@
     "fill-one-piece-age-size": "node scripts/fill-one-piece-age-size-from-wiki.mjs",
     "one-piece:build": "node scripts/one-piece-source.mjs build",
     "one-piece:check": "node scripts/one-piece-source.mjs check",
-    "one-piece:merge": "node scripts/one-piece-source.mjs merge"
+    "one-piece:merge": "node scripts/one-piece-source.mjs merge",
+    "one-piece:validate": "node scripts/validate-one-piece.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",
