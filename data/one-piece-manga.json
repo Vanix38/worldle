@@ -15,7 +15,7 @@
     "age": {
       "header": "Âge",
       "fonction": "ComparaisonChiffre",
-      "description": "Âge en années ; la grille indique si l'âge est plus haut ou plus bas."
+      "description": "Âge en années ; la grille indique si l'âge est plus haut ou plus bas. Âge approximatif : chaîne préfixée par « ~ » (ex. \"~73\")."
     },
     "size": {
       "header": "Taille",
@@ -2053,7 +2053,7 @@
       "aliases": [],
       "affiliation": "Marine",
       "sub_affiliation": [],
-      "age": 0,
+      "age": 34,
       "arc": "Arlong Park",
       "bounty": 100000,
       "devilFruitType": "",
@@ -2096,7 +2096,7 @@
       "aliases": [],
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
-      "age": 0,
+      "age": 50,
       "arc": "Romance Dawn",
       "bounty": 0,
       "devilFruitType": "",
@@ -2117,7 +2117,7 @@
       ],
       "affiliation": "Red Hair Pirates",
       "sub_affiliation": [],
-      "age": 38,
+      "age": 50,
       "arc": "Inconnu",
       "bounty": 0,
       "devilFruitType": "",
@@ -7109,7 +7109,7 @@
       "sub_affiliation": [
         "Neuf Écarlates"
       ],
-      "age": 0,
+      "age": 22,
       "arc": "Pays des Wa",
       "bounty": 0,
       "devilFruitType": "",
@@ -11173,7 +11173,7 @@
       "sub_affiliation": [
         "Équipage du Lion d'Or"
       ],
-      "age": 0,
+      "age": "~73",
       "arc": "Elbaph",
       "bounty": 0,
       "devilFruitType": "Paramecia",
