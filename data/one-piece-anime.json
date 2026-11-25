@@ -3008,7 +3008,7 @@
       ],
       "age": 43,
       "arc": "Whole Cake",
-      "bounty": 400000000,
+      "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
@@ -3392,7 +3392,7 @@
       ],
       "age": 16,
       "arc": "Fishman Island",
-      "bounty": 400000000,
+      "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [],
@@ -6626,7 +6626,10 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
       "race": [
@@ -10134,7 +10137,7 @@
       ],
       "age": 28,
       "arc": "Water Seven",
-      "bounty": 3000000000,
+      "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
       "haki": [
@@ -11797,7 +11800,10 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line",
       "size": 200,
       "race": [
@@ -13206,7 +13212,7 @@
     "hint2": 1,
     "hint3": 1,
     "sub_affiliation": 0.6196172248803827,
-    "haki": 0.3229665071770335,
+    "haki": 0.3277511961722488,
     "devilFruitType": 0.3038277511961722
   }
 }
