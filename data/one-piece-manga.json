@@ -45,7 +45,7 @@
     "haki": {
       "header": "Haki(s) maîtrisé(s)",
       "fonction": "Classique",
-      "description": "Types de haki maîtrisés (tableau : un personnage peut en avoir plusieurs). Valeurs possibles : Observation, Armement, Conquérant, des Rois (orthographe « des rois » selon les fiches)."
+      "description": "Types de haki maîtrisés (tableau : un personnage peut en avoir plusieurs). Valeurs possibles : Observation, Armement, Conquérant."
     },
     "firstAppearance": {
       "header": "Chapitre",
@@ -2130,7 +2130,9 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Observation"
+      ],
       "origin": "North Blue",
       "size": 206,
       "race": "Humain",
@@ -2182,7 +2184,7 @@
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
       "haki": [
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "East Blue",
       "size": 238,
@@ -2402,7 +2404,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 191,
@@ -3287,7 +3289,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Grand Line ",
       "size": 509,
@@ -3341,7 +3343,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Grand Line",
       "size": 880,
@@ -3635,7 +3637,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Pays des Fleurs",
       "size": 520,
@@ -4213,7 +4215,8 @@
       "gender": "Masculin",
       "haki": [
         "Armement",
-        "des Rois"
+        "Observation",
+        "Conquérant"
       ],
       "origin": "Mary Geoise",
       "size": 305,
@@ -4264,7 +4267,11 @@
       "bounty": 340000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation",
+        "Conquérant"
+      ],
       "origin": "Red Line (Mary Geoise)",
       "size": 305,
       "race": "Humain",
@@ -4553,7 +4560,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Sphinx",
       "size": 666,
@@ -4701,7 +4708,9 @@
       "bounty": 0,
       "devilFruitType": "Logia",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Observation"
+      ],
       "origin": "Îles Célestes (Bilca)",
       "size": 266,
       "race": "Skypieien",
@@ -4827,7 +4836,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "South Blue",
       "size": 205,
@@ -5496,7 +5505,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des rois"
+        "Conquérant"
       ],
       "origin": "Logue Town",
       "size": 274,
@@ -5978,7 +5987,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Fishman Island",
       "size": 331,
@@ -6069,7 +6078,9 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "origin": "Grand Line (Wano Country)",
       "size": 100,
       "race": "Humain",
@@ -6839,7 +6850,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Grand Line",
       "size": 710,
@@ -7201,7 +7212,9 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "origin": "Grand Line (Wano Country)",
       "size": 295,
       "race": "Humain",
@@ -7365,7 +7378,10 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Conquérant"
+      ],
       "origin": "Grand Line (Wano Country)",
       "size": 382,
       "race": "Humain",
@@ -7476,7 +7492,7 @@
       "gender": "Masculin",
       "haki": [
         "Armement",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Wano Kuni",
       "size": 382,
@@ -8653,7 +8669,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des rois"
+        "Conquérant"
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 287,
@@ -8688,7 +8704,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des rois"
+        "Conquérant"
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 174,
@@ -8780,7 +8796,7 @@
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
       "haki": [
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Grand Line",
       "size": 305,
@@ -9779,7 +9795,10 @@
       "bounty": 1374000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line",
       "size": 203,
       "race": "Humain",
@@ -9826,7 +9845,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des rois"
+        "Conquérant"
       ],
       "origin": "South Blue (Baterilla)",
       "size": 185,
@@ -10327,7 +10346,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "East Blue",
       "size": 181,
@@ -10929,7 +10948,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "South Blue",
       "size": 278,
@@ -11116,7 +11135,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "West Blue",
       "size": 199,
@@ -12886,7 +12905,7 @@
       "haki": [
         "Armement",
         "Observation",
-        "des Rois"
+        "Conquérant"
       ],
       "origin": "Origine inconnue",
       "size": 263,
@@ -13252,8 +13271,8 @@
     "hint2": 1,
     "hint3": 1,
     "size": 0.9979879275653923,
+    "haki": 0.2837022132796781,
     "devilFruitType": 0.27364185110663986,
-    "haki": 0.26961770623742454,
     "sub_affiliation": 0.2012072434607646,
     "imageUrl": 0
   }
