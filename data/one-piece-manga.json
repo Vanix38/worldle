@@ -3409,7 +3409,7 @@
       "age": 48,
       "arc": "Whole Cake",
       "bounty": 300000000,
-      "devilFruitType": "",
+      "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [
         "Armement",
@@ -7865,7 +7865,7 @@
       "age": 25,
       "arc": "Dressrosa",
       "bounty": 0,
-      "devilFruitType": "",
+      "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
       "origin": "Green Bit",
@@ -12735,7 +12735,7 @@
       "age": 27,
       "arc": "Drum Island",
       "bounty": 4,
-      "devilFruitType": "",
+      "devilFruitType": "Paramecia",
       "gender": "Masculin",
       "haki": [],
       "origin": "Drum Island",
@@ -13252,8 +13252,8 @@
     "hint2": 1,
     "hint3": 1,
     "size": 0.9979879275653923,
+    "devilFruitType": 0.27364185110663986,
     "haki": 0.26961770623742454,
-    "devilFruitType": 0.2676056338028169,
     "sub_affiliation": 0.2012072434607646,
     "imageUrl": 0
   }
