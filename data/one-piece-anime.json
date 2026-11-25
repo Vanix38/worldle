@@ -12,6 +12,11 @@
       "fonction": "Classique",
       "description": "Genre du personnage. Valeurs possibles : Féminin, Indéterminé, Masculin."
     },
+    "status": {
+      "header": "Statut",
+      "fonction": "Classique",
+      "description": "Vivant, Décédé ou Inconnu (sort laissé en suspens), d'après le wiki. Sans spoiler : le statut affiché est celui connu au dernier chapitre / épisode sélectionné dans ta progression (ex. Ace reste « Vivant » tant que Marineford n'est pas coché)."
+    },
     "age": {
       "header": "Âge",
       "fonction": "ComparaisonChiffre",
@@ -1337,6 +1342,16 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 917"
+        }
+      ],
       "haki": [],
       "origin": "West Blue",
       "size": 195,
@@ -1360,6 +1375,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -1390,6 +1406,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 627,
@@ -1420,6 +1437,7 @@
       "bounty": 1390000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -1454,6 +1472,7 @@
       "bounty": 5000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 198,
@@ -1479,6 +1498,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
@@ -1502,6 +1522,7 @@
       "bounty": 3000000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -1535,6 +1556,7 @@
       "bounty": 20000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 263,
@@ -1564,6 +1586,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 729,
@@ -1593,6 +1616,7 @@
       "bounty": 100000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 505,
@@ -1622,6 +1646,7 @@
       "bounty": 3200000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 218,
@@ -1652,6 +1677,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 181,
@@ -1692,6 +1718,7 @@
       "bounty": 3189000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 192,
@@ -1725,6 +1752,7 @@
       "bounty": 296000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -1757,6 +1785,16 @@
       "bounty": 200000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1156"
+        }
+      ],
       "haki": [],
       "origin": "East Blue",
       "size": 220,
@@ -1788,6 +1826,16 @@
       "bounty": 320000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1079"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -1820,6 +1868,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Inconnu",
       "haki": [],
       "origin": "Grand Line",
       "size": 512,
@@ -1846,6 +1895,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -1879,6 +1929,7 @@
       "bounty": 195000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -1909,6 +1960,7 @@
       "bounty": 100000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
       "haki": [],
       "origin": "East Blue",
       "size": 186,
@@ -1936,6 +1988,7 @@
       "bounty": 457000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -1966,6 +2019,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -1998,6 +2052,7 @@
       "bounty": 32000000,
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 238,
@@ -2023,6 +2078,7 @@
       "bounty": 1500,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 240,
@@ -2048,6 +2104,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 120,
@@ -2074,6 +2131,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 182,
@@ -2101,6 +2159,7 @@
       "bounty": 480000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -2131,6 +2190,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 314,
@@ -2156,6 +2216,16 @@
       "bounty": 14300000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 503"
+        }
+      ],
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 261,
@@ -2184,6 +2254,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -2218,6 +2289,7 @@
       "bounty": 1659000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -2249,6 +2321,7 @@
       "bounty": 40000000,
       "devilFruitType": "Zoan Classique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -2279,6 +2352,7 @@
       "bounty": 40000000,
       "devilFruitType": "Zoan Classique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -2307,6 +2381,7 @@
       "bounty": 36000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Mogaro)",
       "size": 320,
@@ -2334,6 +2409,7 @@
       "bounty": 3000000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -2362,6 +2438,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 133,
@@ -2389,6 +2466,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 179,
@@ -2415,6 +2493,7 @@
       "bounty": 300000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 190,
@@ -2443,6 +2522,7 @@
       "bounty": 1800000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2130,
@@ -2476,6 +2556,7 @@
       "bounty": 383000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 277,
@@ -2503,6 +2584,7 @@
       "bounty": 7000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 216,
@@ -2530,6 +2612,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 68,
@@ -2555,6 +2638,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 696,
@@ -2580,6 +2664,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 192,
@@ -2610,6 +2695,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 208,
@@ -2638,6 +2724,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 197,
@@ -2670,6 +2757,7 @@
       "bounty": 350000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 166,
@@ -2701,6 +2789,7 @@
       "bounty": 210000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 228,
@@ -2726,6 +2815,16 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 838"
+        }
+      ],
       "haki": [],
       "origin": "West Blue",
       "size": 185,
@@ -2752,6 +2851,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 171,
@@ -2783,6 +2883,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 161,
@@ -2812,6 +2913,7 @@
       "bounty": 100000000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 361,
@@ -2843,6 +2945,7 @@
       "bounty": 330000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -2878,6 +2981,7 @@
       "bounty": 300000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 309,
@@ -2907,6 +3011,7 @@
       "bounty": 80060000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 691,
@@ -2930,6 +3035,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 213,
@@ -2957,6 +3063,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Sur un bateau)",
       "size": "?",
@@ -2984,6 +3091,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Port inconnu)",
       "size": "?",
@@ -3011,6 +3119,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 350,
@@ -3039,6 +3148,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 215,
@@ -3068,6 +3178,7 @@
       "bounty": 860000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -3098,6 +3209,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Sur un bateau)",
       "size": "?",
@@ -3125,6 +3237,7 @@
       "bounty": 300000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -3155,6 +3268,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 170,
@@ -3182,6 +3296,7 @@
       "bounty": 1057000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -3215,6 +3330,7 @@
       "bounty": 24000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 215,
@@ -3245,6 +3361,16 @@
       "bounty": 4388000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1067"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation",
@@ -3277,6 +3403,7 @@
       "bounty": 120000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 260,
@@ -3304,6 +3431,7 @@
       "bounty": 300000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -3335,6 +3463,7 @@
       "bounty": 700000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -3366,6 +3495,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Whole Cake Island)",
       "size": 800,
@@ -3395,6 +3525,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Whole Cake Island)",
       "size": 166,
@@ -3423,6 +3554,7 @@
       "bounty": 932000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -3454,6 +3586,7 @@
       "bounty": 600000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -3484,6 +3617,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 194,
@@ -3512,6 +3646,7 @@
       "bounty": 5500000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 257,
@@ -3537,6 +3672,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 115,
@@ -3570,6 +3706,7 @@
       "bounty": 542000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -3599,6 +3736,16 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 523"
+        }
+      ],
       "haki": [],
       "origin": "East Blue",
       "size": 181,
@@ -3625,6 +3772,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 150,
@@ -3651,6 +3799,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Orange Town)",
       "size": 40,
@@ -3678,6 +3827,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 278"
+        }
+      ],
       "haki": [],
       "origin": "West Blue (Ohara)",
       "size": 172,
@@ -3703,6 +3862,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 138,
@@ -3729,6 +3889,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 350,
@@ -3758,6 +3919,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 204,
@@ -3785,6 +3947,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 176,
@@ -3813,6 +3976,7 @@
       "bounty": 190000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 250,
@@ -3838,6 +4002,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 155,
@@ -3869,6 +4034,7 @@
       "bounty": 1965000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -3897,6 +4063,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -3926,6 +4093,7 @@
       "bounty": 7800000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 221,
@@ -3952,6 +4120,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 436,
@@ -3980,6 +4149,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 218,
@@ -4003,6 +4173,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 122,
@@ -4030,6 +4201,7 @@
       "bounty": 75000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 212,
@@ -4055,6 +4227,7 @@
       "bounty": 15000000,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 145,
@@ -4084,6 +4257,7 @@
       "bounty": 26000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 245,
@@ -4107,6 +4281,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 435,
@@ -4139,6 +4314,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -4167,6 +4343,7 @@
       "bounty": 99000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -4196,6 +4373,7 @@
       "bounty": 72000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 342,
@@ -4223,6 +4401,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -4260,6 +4439,7 @@
       "bounty": 340000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -4297,6 +4477,16 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 706"
+        }
+      ],
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 293,
@@ -4327,6 +4517,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1120"
+        }
+      ],
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 211,
@@ -4354,6 +4554,7 @@
       "bounty": 1800000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2260,
@@ -4377,6 +4578,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 418,
@@ -4407,6 +4609,7 @@
       "bounty": 3590000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -4436,6 +4639,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 208,
@@ -4465,6 +4669,7 @@
       "bounty": 14000000,
       "devilFruitType": "Zoan Classique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 156,
@@ -4488,6 +4693,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": "?",
@@ -4513,6 +4719,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 470,
@@ -4542,6 +4749,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 100,
@@ -4573,6 +4781,16 @@
       "bounty": 5046000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 485"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation",
@@ -4604,6 +4822,7 @@
       "bounty": 480000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -4633,6 +4852,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Prodence)",
       "size": 436,
@@ -4659,6 +4879,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Inconnu",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 1050,
@@ -4690,6 +4911,7 @@
       "bounty": 100000000,
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 449,
@@ -4719,6 +4941,7 @@
       "bounty": 0,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -4751,6 +4974,7 @@
       "bounty": 320000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 692,
@@ -4780,6 +5004,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -4814,6 +5039,16 @@
       "bounty": 3000000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1112"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation",
@@ -4849,6 +5084,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 310,
@@ -4878,6 +5114,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue (God Valley)",
       "size": 185,
@@ -4907,6 +5144,16 @@
       "bounty": 230000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 528"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 520,
@@ -4934,6 +5181,7 @@
       "bounty": 24000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 180,
@@ -4968,6 +5216,7 @@
       "bounty": 394000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 240,
@@ -4994,6 +5243,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 604,
@@ -5023,6 +5273,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -5053,6 +5304,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 221,
@@ -5080,6 +5332,7 @@
       "bounty": 1000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 184,
@@ -5103,6 +5356,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 130,
@@ -5136,6 +5390,7 @@
       "bounty": 24000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 179,
@@ -5165,6 +5420,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 180,
@@ -5191,6 +5447,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -5222,6 +5479,7 @@
       "bounty": 10000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 197,
@@ -5245,6 +5503,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Îles Conomi)",
       "size": 173,
@@ -5274,6 +5533,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
@@ -5299,6 +5559,7 @@
       "bounty": 12000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 179,
@@ -5327,6 +5588,16 @@
       "bounty": 190000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1132"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Royaume de Porco)",
       "size": 174,
@@ -5355,6 +5626,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 226,
@@ -5380,6 +5652,7 @@
       "bounty": 31000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 260,
@@ -5409,6 +5682,7 @@
       "bounty": 5564800000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [
         "Armement",
         "Observation",
@@ -5441,6 +5715,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2100,
@@ -5464,6 +5739,7 @@
       "bounty": 90000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 375,
@@ -5490,6 +5766,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1070"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -5523,6 +5809,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -5550,6 +5837,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 280,
@@ -5579,6 +5867,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -5612,6 +5901,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2200,
@@ -5639,6 +5929,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 309,
@@ -5664,6 +5955,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 544,
@@ -5692,6 +5984,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [
         "Conquérant"
       ],
@@ -5719,6 +6012,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Bilca)",
       "size": 253,
@@ -5747,6 +6041,7 @@
       "bounty": 8000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 220,
@@ -5774,6 +6069,7 @@
       "bounty": 100000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -5801,6 +6097,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 214,
@@ -5826,6 +6123,7 @@
       "bounty": 200000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -5852,6 +6150,7 @@
       "bounty": 8000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [],
       "origin": "East Blue",
       "size": 190,
@@ -5880,6 +6179,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 86"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 213,
@@ -5908,6 +6217,7 @@
       "bounty": 300000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 181,
@@ -5936,6 +6246,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 331,
@@ -5963,6 +6274,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 233,
@@ -5990,6 +6302,7 @@
       "bounty": "?",
       "devilFruitType": "SMILE",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 312,
@@ -6017,6 +6330,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6045,6 +6359,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 327,
@@ -6075,6 +6390,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 199,
@@ -6102,6 +6418,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 225,
@@ -6127,6 +6444,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 499,
@@ -6156,6 +6474,7 @@
       "bounty": 100000000,
       "devilFruitType": "Paramecia",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 228,
@@ -6191,6 +6510,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6219,6 +6539,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Logue Town)",
       "size": 157,
@@ -6244,6 +6565,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 900,
@@ -6270,6 +6592,7 @@
       "bounty": 3000000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6298,6 +6621,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 228,
@@ -6326,6 +6650,16 @@
       "bounty": 510000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1068"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -6357,6 +6691,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6388,6 +6723,7 @@
       "bounty": 1000000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6418,6 +6754,7 @@
       "bounty": 1000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 207,
@@ -6447,6 +6784,16 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1155"
+        }
+      ],
       "haki": [
         "Observation",
         "Conquérant"
@@ -6475,6 +6822,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue (Île Karaté)",
       "size": 676,
@@ -6503,6 +6851,7 @@
       "bounty": 20000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6537,6 +6886,7 @@
       "bounty": 320000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -6565,6 +6915,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 225,
@@ -6598,6 +6949,7 @@
       "bounty": 1100000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6626,6 +6978,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6654,6 +7007,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 186,
@@ -6679,6 +7033,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 221,
@@ -6705,6 +7060,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6739,6 +7095,16 @@
       "bounty": 4611100000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1076"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation",
@@ -6772,6 +7138,7 @@
       "bounty": "?",
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6803,6 +7170,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [
         "Observation"
       ],
@@ -6834,6 +7202,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6864,6 +7233,7 @@
       "bounty": 400000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6898,6 +7268,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 150,
@@ -6925,6 +7296,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
@@ -6953,6 +7325,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -6981,6 +7354,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 192,
@@ -7006,6 +7380,7 @@
       "bounty": 57000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Mogaro)",
       "size": 168,
@@ -7032,6 +7407,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 157,
@@ -7059,6 +7435,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2000,
@@ -7087,6 +7464,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7123,6 +7501,16 @@
       "bounty": 200000000,
       "devilFruitType": "SMILE",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1112"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -7155,6 +7543,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7185,6 +7574,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 160,
@@ -7215,6 +7605,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7241,6 +7632,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 168,
@@ -7268,6 +7660,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 214,
@@ -7294,6 +7687,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 177,
@@ -7322,6 +7716,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Moby Dick)",
       "size": 170,
@@ -7349,6 +7744,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -7379,6 +7775,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [
         "Armement",
         "Observation",
@@ -7408,6 +7805,7 @@
       "bounty": 17000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 243,
@@ -7436,6 +7834,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7467,6 +7866,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7499,6 +7899,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 188,
@@ -7522,6 +7923,7 @@
       "bounty": 16000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 207,
@@ -7550,6 +7952,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 186,
@@ -7578,6 +7981,7 @@
       "bounty": 9000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 252,
@@ -7606,6 +8010,16 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1055"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -7637,6 +8051,24 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 994"
+        },
+        {
+          "value": "Vivant",
+          "from": "Épisode 1051"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1085"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 350,
@@ -7665,6 +8097,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 108,
@@ -7693,6 +8126,7 @@
       "bounty": "?",
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7723,6 +8157,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Dressrosa)",
       "size": 298,
@@ -7749,6 +8184,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 40000,
@@ -7776,6 +8212,7 @@
       "bounty": 42200000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 340,
@@ -7801,6 +8238,7 @@
       "bounty": 61000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 157,
@@ -7828,6 +8266,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Green Bit)",
       "size": 23,
@@ -7855,6 +8294,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 204,
@@ -7882,6 +8322,7 @@
       "bounty": 316000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -7912,6 +8353,16 @@
       "bounty": 550000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 489"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line",
       "size": 6000,
@@ -7941,6 +8392,7 @@
       "bounty": 2600000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation",
         "Conquérant"
@@ -7970,6 +8422,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -7998,6 +8451,7 @@
       "bounty": 11000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 440,
@@ -8025,6 +8479,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 491,
@@ -8048,6 +8503,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 166,
@@ -8075,6 +8531,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 473,
@@ -8098,6 +8555,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 202,
@@ -8125,6 +8583,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Green Bit)",
       "size": 20,
@@ -8154,6 +8613,7 @@
       "bounty": 1374000000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -8186,6 +8646,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation",
         "Conquérant"
@@ -8215,6 +8676,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -8244,6 +8706,7 @@
       "bounty": 29000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 145,
@@ -8279,6 +8742,7 @@
       "bounty": 3996000000,
       "devilFruitType": "Logia, Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -8307,6 +8771,7 @@
       "bounty": 23000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 345,
@@ -8336,6 +8801,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 3600,
@@ -8364,6 +8830,7 @@
       "bounty": 7500000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 177,
@@ -8389,6 +8856,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 435,
@@ -8414,6 +8882,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 313,
@@ -8445,6 +8914,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 197,
@@ -8468,6 +8938,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -8496,6 +8967,16 @@
       "bounty": "?",
       "devilFruitType": "Logia",
       "gender": "Féminin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 620"
+        }
+      ],
       "haki": [],
       "origin": "North Blue",
       "size": 227,
@@ -8526,6 +9007,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 256,
@@ -8554,6 +9036,7 @@
       "bounty": 3000000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -8602,6 +9085,7 @@
       "bounty": 3000000000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -8636,6 +9120,7 @@
       "bounty": 25000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 242,
@@ -8666,6 +9151,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [],
       "origin": "North Blue (Royaume de Lvneel)",
       "size": 220,
@@ -8691,6 +9177,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Inconnu",
       "size": 285,
@@ -8718,6 +9205,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 305,
@@ -8745,6 +9233,7 @@
       "bounty": 293000000,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -8774,6 +9263,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Indéterminé",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 180,
@@ -8800,6 +9290,16 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 523"
+        }
+      ],
       "haki": [],
       "origin": "East Blue",
       "size": 294,
@@ -8826,6 +9326,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 187,
@@ -8856,6 +9357,7 @@
       "bounty": 366000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 170,
@@ -8883,6 +9385,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1067"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line",
       "size": 848,
@@ -8913,6 +9425,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1081"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 182,
@@ -8946,6 +9468,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 169,
@@ -8979,6 +9502,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -9010,6 +9534,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 1220,
@@ -9033,6 +9558,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
       "haki": [],
       "origin": "West Blue",
       "size": 202,
@@ -9059,6 +9585,7 @@
       "bounty": 100000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 182,
@@ -9084,6 +9611,16 @@
       "bounty": 79000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 278"
+        }
+      ],
       "haki": [],
       "origin": "West Blue (Ohara)",
       "size": 186,
@@ -9118,6 +9655,7 @@
       "bounty": 930000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 188,
@@ -9141,6 +9679,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 127,
@@ -9164,6 +9703,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 170,
@@ -9191,6 +9731,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [],
       "origin": "North Blue",
       "size": 6700,
@@ -9216,6 +9757,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 193"
+        }
+      ],
       "haki": [
         "Observation"
       ],
@@ -9245,6 +9796,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1600,
@@ -9274,6 +9826,7 @@
       "bounty": 148000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Standing)",
       "size": 480,
@@ -9299,6 +9852,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
       "haki": [
         "Observation"
       ],
@@ -9324,6 +9878,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 179,
@@ -9352,6 +9907,7 @@
       "bounty": 290000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -9380,6 +9936,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Inconnu",
       "size": 200,
@@ -9407,6 +9964,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 50,
@@ -9432,6 +9990,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 204,
@@ -9458,6 +10017,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 195,
@@ -9483,6 +10043,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 239,
@@ -9512,6 +10073,16 @@
       "bounty": 382000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 850"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -9541,6 +10112,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 206,
@@ -9568,6 +10140,16 @@
       "bounty": 330000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 872"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -9600,6 +10182,20 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 125"
+        },
+        {
+          "value": "Vivant",
+          "from": "Épisode 130"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 189,
@@ -9629,6 +10225,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 160,
@@ -9654,6 +10251,7 @@
       "bounty": 99000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -9684,6 +10282,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 120,
@@ -9709,6 +10308,16 @@
       "bounty": 3400000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 495"
+        }
+      ],
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 320,
@@ -9741,6 +10350,16 @@
       "bounty": 550000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 483"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation",
@@ -9770,6 +10389,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Nouveau Monde)",
       "size": 731,
@@ -9798,6 +10418,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -9828,6 +10449,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1067"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line",
       "size": 239,
@@ -9857,6 +10488,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 341,
@@ -9885,6 +10517,7 @@
       "bounty": 1320000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -9915,6 +10548,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 200,
@@ -9943,6 +10577,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -9974,6 +10609,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -10003,6 +10639,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Dressrosa)",
       "size": 261,
@@ -10032,6 +10669,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Dressrosa)",
       "size": 178,
@@ -10057,6 +10695,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
@@ -10082,6 +10721,7 @@
       "bounty": 1000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": "?",
@@ -10112,6 +10752,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2600,
@@ -10140,6 +10781,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10171,6 +10813,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [
         "Armement",
         "Conquérant"
@@ -10208,6 +10851,7 @@
       "bounty": 1111000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -10240,6 +10884,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 215,
@@ -10265,6 +10910,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 544,
@@ -10290,6 +10936,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10319,6 +10966,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10348,6 +10996,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10377,6 +11026,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10411,6 +11061,20 @@
       "bounty": 602000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 503"
+        },
+        {
+          "value": "Vivant",
+          "from": "Épisode 663"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -10440,6 +11104,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 183,
@@ -10466,6 +11131,7 @@
       "bounty": 210000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10499,6 +11165,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 230,
@@ -10528,6 +11195,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 178,
@@ -10554,6 +11222,7 @@
       "bounty": 5000000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10582,6 +11251,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 218,
@@ -10614,6 +11284,7 @@
       "bounty": 1032000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -10646,6 +11317,7 @@
       "bounty": 100000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 18000,
@@ -10671,6 +11343,7 @@
       "bounty": 38000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
       "haki": [],
       "origin": "North Blue (Notice)",
       "size": 228,
@@ -10696,6 +11369,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 378,
@@ -10725,6 +11399,7 @@
       "bounty": 472000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10751,6 +11426,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 193"
+        }
+      ],
       "haki": [
         "Observation"
       ],
@@ -10783,6 +11468,7 @@
       "bounty": 350000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10809,6 +11495,7 @@
       "bounty": 5000000000,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -10838,6 +11525,7 @@
       "bounty": 58000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 244,
@@ -10861,6 +11549,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -10892,6 +11581,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 220,
@@ -10917,6 +11607,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 186,
@@ -10943,6 +11634,7 @@
       "bounty": 7000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 201,
@@ -10968,6 +11660,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 179,
@@ -11001,6 +11694,7 @@
       "bounty": 4048900000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -11031,6 +11725,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
       "haki": [],
       "origin": "Grand Line",
       "size": 293,
@@ -11061,6 +11756,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -11088,6 +11784,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 184,
@@ -11113,6 +11810,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 221,
@@ -11136,6 +11834,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
       "haki": [],
       "origin": "East Blue (Village de Shimotsuki)",
       "size": 150,
@@ -11163,6 +11862,7 @@
       "bounty": 0,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 180,
@@ -11188,6 +11888,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -11217,6 +11918,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -11247,6 +11949,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 196,
@@ -11273,6 +11976,7 @@
       "bounty": 36000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 351,
@@ -11298,6 +12002,16 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 193"
+        }
+      ],
       "haki": [
         "Observation"
       ],
@@ -11328,6 +12042,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 520,
@@ -11355,6 +12070,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -11382,6 +12098,7 @@
       "bounty": 5500000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 257,
@@ -11411,6 +12128,7 @@
       "bounty": 500000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -11443,6 +12161,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 192,
@@ -11468,6 +12187,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 275,
@@ -11495,6 +12215,7 @@
       "bounty": "?",
       "devilFruitType": "SMILE",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement"
       ],
@@ -11525,6 +12246,7 @@
       "bounty": 210000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 228,
@@ -11550,6 +12272,7 @@
       "bounty": 1000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": "?",
@@ -11578,6 +12301,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 1950,
@@ -11609,6 +12333,16 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1148"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line (Baldimore)",
       "size": 314,
@@ -11635,6 +12369,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 180,
@@ -11660,6 +12395,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 202,
@@ -11688,6 +12424,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 140,
@@ -11718,6 +12455,16 @@
       "bounty": 0,
       "devilFruitType": "Zoan Classique",
       "gender": "Féminin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 1146"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -11746,6 +12493,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue",
       "size": 110,
@@ -11775,6 +12523,7 @@
       "bounty": 67000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 240,
@@ -11800,6 +12549,16 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 1116"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -11828,6 +12587,7 @@
       "bounty": 429000000,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -11856,6 +12616,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 124,
@@ -11881,6 +12642,7 @@
       "bounty": 100000000,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -11909,6 +12671,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 255,
@@ -11934,6 +12697,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 89,
@@ -11959,6 +12723,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 296,
@@ -11984,6 +12749,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Long Ring Long Land)",
       "size": 118,
@@ -12013,6 +12779,7 @@
       "bounty": 1000,
       "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 90,
@@ -12042,6 +12809,7 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation",
         "Conquérant"
@@ -12078,6 +12846,7 @@
       "bounty": 3000000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12106,6 +12875,7 @@
       "bounty": 99000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12134,6 +12904,7 @@
       "bounty": 500000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12163,6 +12934,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 258,
@@ -12191,6 +12963,7 @@
       "bounty": 400000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12223,6 +12996,7 @@
       "bounty": 108000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 388,
@@ -12255,6 +13029,7 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -12285,6 +13060,7 @@
       "bounty": 64000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 340,
@@ -12310,6 +13086,7 @@
       "bounty": "?",
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 352,
@@ -12338,6 +13115,7 @@
       "bounty": 100000000,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "South Blue",
       "size": 573,
@@ -12367,6 +13145,16 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Décédé",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": "Épisode 624"
+        }
+      ],
       "haki": [
         "Armement",
         "Observation"
@@ -12395,6 +13183,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Décédé",
       "haki": [],
       "origin": "West Blue",
       "size": 188,
@@ -12424,6 +13213,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 186,
@@ -12454,6 +13244,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 272,
@@ -12483,6 +13274,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 185,
@@ -12512,6 +13304,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 173,
@@ -12541,6 +13334,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 194,
@@ -12567,6 +13361,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12595,6 +13390,7 @@
       "bounty": 95000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 242,
@@ -12622,6 +13418,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 8000,
@@ -12648,6 +13445,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 181,
@@ -12671,6 +13469,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "West Blue",
       "size": 173,
@@ -12701,6 +13500,7 @@
       "bounty": 4,
       "devilFruitType": "Paramecia",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 207,
@@ -12731,6 +13531,7 @@
       "bounty": 546000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12764,6 +13565,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 183,
@@ -12800,6 +13602,7 @@
       "bounty": 222000000,
       "devilFruitType": "Zoan Antique",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation"
@@ -12831,6 +13634,7 @@
       "bounty": "?",
       "devilFruitType": "Zoan Mythique",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [
         "Armement",
         "Observation",
@@ -12862,6 +13666,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2050,
@@ -12888,6 +13693,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [
         "Observation"
       ],
@@ -12915,6 +13721,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 180,
@@ -12940,6 +13747,16 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Inconnu",
+      "statusTimeline": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": "Épisode 593"
+        }
+      ],
       "haki": [],
       "origin": "Grand Line",
       "size": 4250,
@@ -12965,6 +13782,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
@@ -12994,6 +13812,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 482,
@@ -13023,6 +13842,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2150,
@@ -13046,6 +13866,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 185,
@@ -13075,6 +13896,7 @@
       "bounty": 35000000,
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 187,
@@ -13102,6 +13924,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 237,
@@ -13131,6 +13954,7 @@
       "bounty": 60000000,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "East Blue",
       "size": 189,
@@ -13156,6 +13980,7 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 325,
@@ -13184,6 +14009,7 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
+      "status": "Vivant",
       "haki": [],
       "origin": "Grand Line",
       "size": 232,
@@ -13200,6 +14026,7 @@
   "fieldPrevalence": {
     "race": 1,
     "gender": 1,
+    "status": 1,
     "age": 1,
     "size": 1,
     "origin": 1,

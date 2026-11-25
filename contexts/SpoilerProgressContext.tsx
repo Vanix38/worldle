@@ -22,6 +22,7 @@ import {
   type SpoilerProgressSelection,
 } from "@/lib/spoiler-progress";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
+import { applyValueTimelinesToAll } from "@/lib/value-timeline";
 
 export interface SpoilerProgressContextValue {
   progressField: ProgressFieldConfig | null;
@@ -31,6 +32,11 @@ export interface SpoilerProgressContextValue {
   /** Max difficulty label (inclusive); null if universe has no difficulty field. */
   maxDifficulty: string | null;
   playableCharacters: Character[];
+  /**
+   * Tous les persos, avec les valeurs à chronologie (ex. statut) ramenées à ce que
+   * le joueur sait à sa progression. À utiliser pour la comparaison et l'affichage.
+   */
+  spoilerSafeCharacters: Character[];
   hydrated: boolean;
   setSelection: (selection: SpoilerProgressSelection) => void;
   setMaxDifficulty: (label: string) => void;
@@ -79,18 +85,23 @@ export function SpoilerProgressProvider({ children }: { children: ReactNode }) {
     setMaxDifficultyState(label);
   }, []);
 
+  const spoilerSafeCharacters = useMemo(
+    () => applyValueTimelinesToAll(characters, progressField, hydrated ? selection : null),
+    [characters, progressField, selection, hydrated],
+  );
+
   const playableCharacters = useMemo(() => {
-    if (!hydrated) return characters;
-    if (progressField && selection === null) return characters;
+    if (!hydrated) return spoilerSafeCharacters;
+    if (progressField && selection === null) return spoilerSafeCharacters;
     return filterPlayableCharacters(
-      characters,
+      spoilerSafeCharacters,
       progressField,
       selection ?? { mode: "all" },
       difficultyConfig,
       maxDifficulty,
     );
   }, [
-    characters,
+    spoilerSafeCharacters,
     progressField,
     selection,
     difficultyConfig,
@@ -105,6 +116,7 @@ export function SpoilerProgressProvider({ children }: { children: ReactNode }) {
       selection,
       maxDifficulty,
       playableCharacters,
+      spoilerSafeCharacters,
       hydrated,
       setSelection,
       setMaxDifficulty,
@@ -115,6 +127,7 @@ export function SpoilerProgressProvider({ children }: { children: ReactNode }) {
       selection,
       maxDifficulty,
       playableCharacters,
+      spoilerSafeCharacters,
       hydrated,
       setSelection,
       setMaxDifficulty,

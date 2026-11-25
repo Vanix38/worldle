@@ -9,6 +9,11 @@
  *   { "$manga": …, "$anime": … } (clé absente = champ absent dans ce mode).
  *   C'est le cas de firstAppearance (Chapitre N / Épisode N), de quelques arcs,
  *   alias et indices, et de fieldMapping.firstAppearance.
+ * - `status` est soit une valeur (« Vivant »), soit une chronologie sans spoiler :
+ *   [{ "value": "Vivant" }, { "value": "Décédé", "from": { "$manga": "Chapitre 574", "$anime": "Épisode 483" } }].
+ *   À la génération : `status` = dernière valeur de la version, `statusTimeline` =
+ *   la chronologie résolue (seulement s'il y a un changement). Une étape sans
+ *   `from` pour une version n'existe pas (encore) dans cette version.
  * - fieldPrevalence n'est pas stockée : elle est recalculée à la génération.
  *
  * Usage :
@@ -59,6 +64,32 @@ function pick(obj, version) {
   return out;
 }
 
+/** Chronologie de statut de la source → `status` + `statusTimeline` pour une version. */
+function expandStatus(c, version) {
+  if (!Array.isArray(c.status)) return c;
+  const steps = c.status
+    .map((s) => (s.from === undefined ? { value: s.value } : { value: s.value, from: isSplit(s.from) ? s.from[`$${version}`] : s.from }))
+    .filter((s, i) => i === 0 || s.from !== undefined);
+  const out = {};
+  for (const [k, v] of Object.entries(c)) {
+    if (k !== "status") { out[k] = v; continue; }
+    out.status = steps[steps.length - 1].value;
+    if (steps.length > 1) out.statusTimeline = steps;
+  }
+  return out;
+}
+
+/** Inverse d'expandStatus (pour merge) : status + statusTimeline → chronologie. */
+function collapseStatus(c) {
+  if (!c.statusTimeline) return c;
+  const out = {};
+  for (const [k, v] of Object.entries(c)) {
+    if (k === "statusTimeline") continue;
+    out[k] = k === "status" ? c.statusTimeline : v;
+  }
+  return out;
+}
+
 function mergeKeys(lists) {
   const keys = [];
   for (const list of lists) {
@@ -77,7 +108,7 @@ function merge() {
   const src = {};
   for (const k of topKeys) {
     if (k === "characters") {
-      const byId = Object.fromEntries(VERSIONS.map((v) => [v, new Map(files[v].characters.map((c) => [c.id, c]))]));
+      const byId = Object.fromEntries(VERSIONS.map((v) => [v, new Map(files[v].characters.map((c) => [c.id, collapseStatus(c)]))]));
       const ids = mergeKeys(VERSIONS.map((v) => files[v].characters.map((c) => c.id)));
       src.characters = ids.map((id) => {
         const objs = Object.fromEntries(VERSIONS.map((v) => [v, byId[v].get(id)]));
@@ -105,7 +136,7 @@ function generate(version) {
     if (k === "characters") {
       out.characters = val
         .filter((c) => c.versions.includes(version))
-        .map(({ versions, ...c }) => pick(c, version));
+        .map(({ versions, ...c }) => expandStatus(pick(c, version), version));
     } else if (k === "fieldMapping") {
       out.fieldMapping = pick(val, version);
     } else {
@@ -115,7 +146,7 @@ function generate(version) {
   }
   const fieldOrder = Object.keys(out.fieldMapping);
   const keys = new Set([...fieldOrder, ...out.characters.flatMap((c) => Object.keys(c).filter((k) => !k.startsWith("_")))]);
-  ["id", "name", "aliases"].forEach((k) => keys.delete(k));
+  ["id", "name", "aliases", "statusTimeline"].forEach((k) => keys.delete(k));
   const rank = (k) => (fieldOrder.includes(k) ? fieldOrder.indexOf(k) : fieldOrder.length);
   out.fieldPrevalence = Object.fromEntries(
     [...keys]

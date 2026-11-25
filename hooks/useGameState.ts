@@ -50,8 +50,13 @@ export interface GuessRowData {
 }
 
 export function useGameState(universeId: UniverseId) {
-  const { characters, schema } = useUniverseData();
-  const { playableCharacters, hydrated: spoilerHydrated } = useSpoilerProgress();
+  const { schema } = useUniverseData();
+  // Valeurs ramenées à la progression du joueur (ex. Ace « Vivant » avant Marineford).
+  const {
+    playableCharacters,
+    spoilerSafeCharacters: characters,
+    hydrated: spoilerHydrated,
+  } = useSpoilerProgress();
   const [state, setState] = useState<GameState | null>(null);
 
   useEffect(() => {

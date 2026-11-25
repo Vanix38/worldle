@@ -8,6 +8,8 @@
  *   du fieldMapping pour arc, difficulty et firstAppearance) ;
  * - 0 en âge ou en taille (utiliser « ? » si inconnu) ; nombre invalide ;
  * - arc incohérent avec le chapitre / l'épisode de première apparition ;
+ * - chronologie de statut invalide (from inconnu, hors ordre, avant la
+ *   première apparition, deux étapes identiques à la suite) ;
  * - id ou nom en double, nom d'un perso utilisé comme alias d'un autre.
  * Avertissements : alias partagé par plusieurs persos (sauf les titres
  *   volontairement partagés listés dans _sharedAliases du vocabulaire).
@@ -19,13 +21,14 @@ import { fileURLToPath } from "url";
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const VERSIONS = ["manga", "anime"];
 const REQUIRED = ["name", "race", "gender", "age", "size", "origin", "affiliation", "bounty",
-  "firstAppearance", "arc", "difficulty", "hint1", "hint2", "hint3"];
+  "firstAppearance", "arc", "difficulty", "hint1", "hint2", "hint3", "status"];
 const NUMERIC = ["age", "size", "bounty"];
 
 const isSplit = (v) => v !== null && typeof v === "object" && !Array.isArray(v) &&
   Object.keys(v).length > 0 && Object.keys(v).every((k) => k === "$manga" || k === "$anime");
 const valueFor = (v, version) => (isSplit(v) ? v[`$${version}`] : v);
 const norm = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").trim();
+const flattenOrder = (o) => (o == null ? [] : Array.isArray(o) ? o : Object.values(o).flatMap(flattenOrder));
 const empty = (v) => v == null || (typeof v === "string" && v.trim() === "") || (Array.isArray(v) && v.length === 0);
 
 export function validate(src, vocab) {
@@ -61,9 +64,39 @@ export function validate(src, vocab) {
         else if (v === 0 && k !== "bounty") err(c.id, `${k} = 0 (mettre « ? » si inconnu)`);
       }
 
+      // Statut : valeur simple ou chronologie [{ value }, { value, from }, …].
+      const status = get("status");
+      const faOrder = flattenOrder(fm("firstAppearance")?.order);
+      if (Array.isArray(status)) {
+        let prevRank = -1;
+        status.forEach((step, i) => {
+          if (!step || typeof step !== "object" || empty(step.value))
+            return err(c.id, `status : étape ${i + 1} sans value`);
+          if (i === 0) {
+            if (step.from !== undefined) err(c.id, "status : la première étape ne doit pas avoir de from");
+            return;
+          }
+          if (step.from === undefined) return err(c.id, `status : étape ${i + 1} sans from`);
+          if (step.value === status[i - 1].value) err(c.id, `status : étape ${i + 1} identique à la précédente`);
+          const from = valueFor(step.from, version);
+          if (from === undefined) {
+            if (version === "manga") err(c.id, `status : étape ${i + 1} sans chapitre`);
+            return; // changement pas encore adapté dans l'anime
+          }
+          const rank = faOrder.indexOf(from);
+          if (rank === -1) return err(c.id, `status : from inconnu « ${from} »${tag}`);
+          if (rank <= prevRank) err(c.id, `status : from « ${from} » pas dans l'ordre chronologique${tag}`);
+          if (rank <= faOrder.indexOf(get("firstAppearance")))
+            err(c.id, `status : changement « ${from} » avant ou à la première apparition (mettre un statut simple)${tag}`);
+          prevRank = rank;
+        });
+        if (status.length < 2) err(c.id, "status : chronologie d'une seule étape (mettre la valeur simple)");
+      }
+
       for (const [k, allowed] of Object.entries(vocab)) {
         if (k.startsWith("_")) continue;
-        for (const v of [].concat(get(k) ?? [])) {
+        const raw = k === "status" && Array.isArray(get(k)) ? get(k).map((s) => s?.value) : get(k);
+        for (const v of [].concat(raw ?? [])) {
           if (v === "" && k === "devilFruitType") continue;
           if (!allowed.includes(v)) err(c.id, `${k} hors vocabulaire : « ${v} »${tag}`);
         }

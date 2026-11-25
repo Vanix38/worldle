@@ -14,7 +14,7 @@ export interface Character {
   name: string;
   imageUrl?: string;
   aliases?: string[];
-  [key: string]: string | number | string[] | undefined;
+  [key: string]: string | number | string[] | ValueTimelineStep[] | undefined;
 }
 
 /** Schema entry for one attribute: type and label. */
@@ -147,4 +147,15 @@ export interface GameState {
   targetId: string;
   guesses: string[];
   won: boolean;
+}
+
+/**
+ * Étape d'une valeur qui change au fil de l'histoire (ex. statut Vivant → Décédé).
+ * `from` = libellé du champ de progression (ex. « Chapitre 574 ») à partir duquel
+ * la valeur s'applique ; absent sur la première étape.
+ * Stocké sur le personnage sous `<champ>Timeline` (ex. `statusTimeline`).
+ */
+export interface ValueTimelineStep {
+  value: string;
+  from?: string;
 }

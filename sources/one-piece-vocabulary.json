@@ -23,6 +23,11 @@
     "Indéterminé",
     "Masculin"
   ],
+  "status": [
+    "Vivant",
+    "Décédé",
+    "Inconnu"
+  ],
   "haki": [
     "Armement",
     "Conquérant",
