@@ -1482,7 +1482,10 @@
       "bounty": 3000000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "South Blue (Taya Kingdom)",
       "size": 308,
       "race": "Humain",
@@ -1890,7 +1893,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Observation"
+        "Armement"
       ],
       "imageUrl": "",
       "origin": "North Blue",
@@ -1898,7 +1901,7 @@
       "race": "Humain",
       "hint1": "Second",
       "hint2": "Humain",
-      "hint3": "Observation",
+      "hint3": "Armement",
       "firstAppearance": "Épisode 4",
       "difficulty": "Facile"
     },
@@ -2538,15 +2541,13 @@
       "bounty": 210000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
-      "haki": [
-        "Armement"
-      ],
+      "haki": [],
       "origin": "North Blue",
       "size": 228,
       "race": "Humain",
       "hint1": "Capitaine",
       "hint2": "Numa Numa no Mi",
-      "hint3": "Armement",
+      "hint3": "North Blue",
       "firstAppearance": "Épisode 519",
       "difficulty": "Moyen"
     },
@@ -3534,7 +3535,10 @@
       "bounty": 1965000000,
       "devilFruitType": "Logia",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line",
       "size": 253,
       "race": "Humain",
@@ -3555,7 +3559,9 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Observation"
+      ],
       "origin": "Grand Line",
       "size": 203,
       "race": "Humain",
@@ -3831,16 +3837,14 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [
-        "Armement",
-        "Observation",
-        "Conquérant"
+        "Armement"
       ],
       "origin": "Grand Line",
       "size": 220,
       "race": "Humain",
       "hint1": "Marine",
       "hint2": "Vice-amiral",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Armement",
       "firstAppearance": "Épisode 1090",
       "difficulty": "Difficile"
     },
@@ -4374,17 +4378,13 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [
-        "Armement",
-        "Observation",
-        "Conquérant"
-      ],
+      "haki": [],
       "origin": "Grand Line (Mary Geoise)",
       "size": 310,
       "race": "Humain",
       "hint1": "Gouvernement Mondial",
       "hint2": "Chevaliers de Dieu",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Grand Line (Mary Geoise)",
       "firstAppearance": "Épisode 1120",
       "difficulty": "Facile"
     },
@@ -4403,17 +4403,13 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
-      "haki": [
-        "Armement",
-        "Observation",
-        "Conquérant"
-      ],
+      "haki": [],
       "origin": "West Blue (God Valley)",
       "size": 185,
       "race": "Humain",
       "hint1": "Chevaliers de Dieu",
       "hint2": "Cerberus",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "West Blue (God Valley)",
       "firstAppearance": "Épisode 887",
       "difficulty": "Facile"
     },
@@ -4922,7 +4918,10 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "West Blue",
       "size": 243,
       "race": "Humain",
@@ -4948,16 +4947,14 @@
       "devilFruitType": "Paramecia",
       "gender": "Féminin",
       "haki": [
-        "Armement",
-        "Observation",
-        "Conquérant"
+        "Observation"
       ],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 170,
       "race": "Humain",
       "hint1": "Chevaliers de Dieu",
       "hint2": "Aro Aro no Mi",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Observation",
       "firstAppearance": "Épisode 1164",
       "difficulty": "Facile"
     },
@@ -5088,8 +5085,6 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement",
-        "Observation",
         "Conquérant"
       ],
       "origin": "Grand Line (Erbaf)",
@@ -5097,7 +5092,7 @@
       "race": "Géant",
       "hint1": "Erbaf",
       "hint2": "Ancien roi",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Conquérant",
       "firstAppearance": "Épisode 1166",
       "difficulty": "Facile"
     },
@@ -5202,7 +5197,10 @@
       "bounty": 200000000,
       "devilFruitType": "",
       "gender": "Féminin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "North Blue",
       "size": 165,
       "race": "Humain",
@@ -5360,7 +5358,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement"
+        "Armement",
+        "Observation"
       ],
       "origin": "Grand Line (Wano Country)",
       "size": 100,
@@ -5717,7 +5716,6 @@
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [
-        "Armement",
         "Observation",
         "Conquérant"
       ],
@@ -5726,7 +5724,7 @@
       "race": "Humain",
       "hint1": "Gouvernement Mondial",
       "hint2": "Ushi Ushi no Mi modèle Gyuki",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Observation, Conquérant",
       "firstAppearance": "Épisode 151",
       "difficulty": "Facile"
     },
@@ -6139,7 +6137,8 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement"
+        "Armement",
+        "Observation"
       ],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons",
@@ -6147,7 +6146,7 @@
       "race": "Homme-Poisson",
       "hint1": "Fourreau Rouge",
       "hint2": "Homme-Poisson",
-      "hint3": "Armement",
+      "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 910",
       "difficulty": "Difficile"
     },
@@ -6257,7 +6256,8 @@
       "devilFruitType": "",
       "gender": "Féminin",
       "haki": [
-        "Armement"
+        "Armement",
+        "Observation"
       ],
       "imageUrl": "",
       "origin": "Pays des Wa",
@@ -6265,7 +6265,7 @@
       "race": "Humain",
       "hint1": "Fourreau Rouge",
       "hint2": "Kiku des Neiges Persistantes",
-      "hint3": "Armement",
+      "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 899",
       "difficulty": "Moyen"
     },
@@ -6473,7 +6473,9 @@
       "bounty": 0,
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Observation"
+      ],
       "origin": "Grand Line (sur le Moby Dick)",
       "size": 110,
       "race": "Humain",
@@ -6498,6 +6500,7 @@
       "gender": "Masculin",
       "haki": [
         "Armement",
+        "Observation",
         "Conquérant"
       ],
       "origin": "Wano Kuni",
@@ -6505,7 +6508,7 @@
       "race": "Humain",
       "hint1": "Famille Kozuki",
       "hint2": "Humain",
-      "hint3": "Armement, Conquérant",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Épisode 910",
       "difficulty": "Facile"
     },
@@ -6543,7 +6546,10 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Féminin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "North Blue",
       "size": 180,
       "race": "Humain",
@@ -6779,15 +6785,13 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [
-        "Observation"
-      ],
+      "haki": [],
       "origin": "Dressrosa",
       "size": 298,
       "race": "Humain",
       "hint1": "Colisée Corrida",
       "hint2": "Humain",
-      "hint3": "Observation",
+      "hint3": "Dressrosa",
       "firstAppearance": "Épisode 631",
       "difficulty": "Facile"
     },
@@ -6911,7 +6915,10 @@
       "bounty": 316000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 149,
       "race": "Minks",
@@ -6959,6 +6966,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
+        "Observation",
         "Conquérant"
       ],
       "origin": "Grand Line (Erbaf)",
@@ -6982,15 +6990,14 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement",
-        "Observation"
+        "Armement"
       ],
       "origin": "South Blue",
       "size": 241,
       "race": "Humain",
       "hint1": "Équipage du Roux",
       "hint2": "Humain",
-      "hint3": "Armement, Observation",
+      "hint3": "Armement",
       "firstAppearance": "Épisode 4",
       "difficulty": "Facile"
     },
@@ -7164,7 +7171,6 @@
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [
-        "Armement",
         "Observation",
         "Conquérant"
       ],
@@ -7173,7 +7179,7 @@
       "race": "Humain",
       "hint1": "Gouvernement Mondial",
       "hint2": "Tori Tori no Mi modèle Itsumade",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Observation, Conquérant",
       "firstAppearance": "Épisode 151",
       "difficulty": "Moyen"
     },
@@ -7638,7 +7644,10 @@
       "bounty": 293000000,
       "devilFruitType": "",
       "gender": "Indéterminé",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "West Blue",
       "size": 1253,
       "race": "Géant",
@@ -8338,14 +8347,15 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement"
+        "Armement",
+        "Observation"
       ],
       "origin": "Zou (Principauté de Mokomo)",
       "size": 232,
       "race": "Minks",
       "hint1": "Pirates de Big Mom",
       "hint2": "Sulong",
-      "hint3": "Armement",
+      "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 570",
       "difficulty": "Impossible"
     },
@@ -8530,7 +8540,10 @@
       "bounty": 500000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "West Blue",
       "size": 205,
       "race": "Humain",
@@ -8601,7 +8614,10 @@
       "bounty": 1320000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line",
       "size": 612,
       "race": "Cyborg",
@@ -8832,7 +8848,10 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Conquérant"
+      ],
       "origin": "West Blue (God Valley)",
       "size": 435,
       "race": "Humain",
@@ -8928,7 +8947,10 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line (Egghead)",
       "size": 660,
       "race": "Lunarien",
@@ -8951,7 +8973,10 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line (Egghead)",
       "size": 212,
       "race": "Lunarien",
@@ -8974,7 +8999,10 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line (Egghead)",
       "size": 320,
       "race": "Lunarien",
@@ -8997,7 +9025,10 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
-      "haki": [],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
       "origin": "Grand Line (Egghead)",
       "size": 208,
       "race": "Lunarien",
@@ -9193,7 +9224,8 @@
       "gender": "Masculin",
       "haki": [
         "Armement",
-        "Observation"
+        "Observation",
+        "Conquérant"
       ],
       "imageUrl": "",
       "origin": "North Blue",
@@ -9201,7 +9233,7 @@
       "race": "Humain",
       "hint1": "Cuisinier",
       "hint2": "Germa 66",
-      "hint3": "Armement, Observation",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Épisode 20",
       "difficulty": "Très facile"
     },
@@ -9571,16 +9603,14 @@
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [
-        "Armement",
-        "Observation",
-        "Conquérant"
+        "Observation"
       ],
       "origin": "Grand Line (Mary Geoise)",
       "size": 350,
       "race": "Humain",
       "hint1": "Gouvernement Mondial",
       "hint2": "Hito Hito no Mi modèle Morphon",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Observation",
       "firstAppearance": "Épisode 151",
       "difficulty": "Moyen"
     },
@@ -9687,7 +9717,9 @@
       "bounty": 0,
       "devilFruitType": "",
       "gender": "Féminin",
-      "haki": [],
+      "haki": [
+        "Observation"
+      ],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons (Royaume Ryugu)",
       "size": 1187,
@@ -9709,7 +9741,9 @@
       "bounty": "?",
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "origin": "Grand Line",
       "size": 340,
       "race": "Humain",
@@ -10406,7 +10440,6 @@
       "devilFruitType": "Zoan Mythique",
       "gender": "Masculin",
       "haki": [
-        "Armement",
         "Observation",
         "Conquérant"
       ],
@@ -10415,7 +10448,7 @@
       "race": "Humain",
       "hint1": "Gouvernement Mondial",
       "hint2": "Hito Hito no Mi modèle Fengxi",
-      "hint3": "Armement, Observation, Conquérant",
+      "hint3": "Observation, Conquérant",
       "firstAppearance": "Épisode 151",
       "difficulty": "Moyen"
     },
@@ -10676,14 +10709,15 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement"
+        "Armement",
+        "Observation"
       ],
       "origin": "North Blue",
       "size": 247,
       "race": "Humain",
       "hint1": "Vice-Amiral",
       "hint2": "Humain",
-      "hint3": "Armement",
+      "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 597",
       "difficulty": "Moyen"
     },
@@ -11103,7 +11137,6 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [
-        "Armement",
         "Observation"
       ],
       "origin": "East Blue (Archipel des Gekko)",
@@ -11111,7 +11144,7 @@
       "race": "Humain",
       "hint1": "Équipage du Roux",
       "hint2": "Humain",
-      "hint3": "Armement, Observation",
+      "hint3": "Observation",
       "firstAppearance": "Épisode 4",
       "difficulty": "Facile"
     },
@@ -11375,8 +11408,8 @@
     "hint2": 1,
     "hint3": 1,
     "size": 0.9976190476190476,
+    "haki": 0.32142857142857145,
     "devilFruitType": 0.30238095238095236,
-    "haki": 0.28809523809523807,
     "sub_affiliation": 0.19523809523809524,
     "imageUrl": 0
   }
