@@ -1325,7 +1325,8 @@
       "id": "absalom",
       "name": "Absalom",
       "aliases": [
-        "Absalom du Tombeau"
+        "Absalom du Tombeau",
+        "Abusaromu"
       ],
       "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [
@@ -1376,7 +1377,10 @@
     {
       "id": "aladdin",
       "name": "Aladdin",
-      "aliases": [],
+      "aliases": [
+        "Aladine",
+        "Aradin"
+      ],
       "affiliation": "Équipage des Pirates du Soleil",
       "sub_affiliation": [
         "Royaume Ryugu"
@@ -1403,7 +1407,8 @@
       "name": "Alber",
       "aliases": [
         "King",
-        "King l'Incendie"
+        "King l'Incendie",
+        "Kingu"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -1434,7 +1439,8 @@
       "id": "alvida",
       "name": "Alvida",
       "aliases": [
-        "Alvida à la Massue"
+        "Alvida à la Massue",
+        "Arubida"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -1463,7 +1469,9 @@
     {
       "id": "ange",
       "name": "Ange",
-      "aliases": [],
+      "aliases": [
+        "Anje"
+      ],
       "affiliation": "École du Morse",
       "sub_affiliation": [],
       "age": "?",
@@ -1514,7 +1522,8 @@
       "name": "Arlong",
       "aliases": [
         "Arlong la Scie",
-        "Dent de scie"
+        "Dent de scie",
+        "Āron"
       ],
       "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [
@@ -1542,7 +1551,9 @@
       "id": "atlas",
       "name": "Atlas",
       "aliases": [
-        "Atlas la Violente"
+        "Atlas la Violente",
+        "Atlas the Violent",
+        "Atorasu"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -1570,7 +1581,8 @@
       "name": "Avalo Pizarro",
       "aliases": [
         "Le Roi Dépravé",
-        "Le Tyran"
+        "Le Tyran",
+        "Abaro Pisaro"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
@@ -1598,7 +1610,8 @@
       "name": "Babe",
       "aliases": [
         "Mr. 4",
-        "Babe l'Attrapeur Tueur"
+        "Babe l'Attrapeur Tueur",
+        "Bēbu"
       ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
@@ -1624,7 +1637,10 @@
     {
       "id": "baby-5",
       "name": "Baby 5",
-      "aliases": [],
+      "aliases": [
+        "Baby Five",
+        "Bebī Faibu"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Flotte de Happou",
@@ -1657,7 +1673,9 @@
         "L'imortel",
         "Le Clown Pirate",
         "Le Clown Star",
-        "Le clown aux mille pièces"
+        "Le clown aux mille pièces",
+        "Buggy",
+        "Bagī"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -1692,7 +1710,8 @@
       "aliases": [
         "PX-0",
         "Cyborg",
-        "Tyran"
+        "Tyran",
+        "Bāsoromyū Kuma"
       ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
@@ -1726,7 +1745,8 @@
       "name": "Bartolomeo",
       "aliases": [
         "Le Rookie Fou",
-        "Le Cannibale"
+        "Le Cannibale",
+        "Barutoromeo"
       ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [
@@ -1754,7 +1774,8 @@
       "name": "Basil Hawkins",
       "aliases": [
         "Le Magicien",
-        "Le Sorcier"
+        "Le Sorcier",
+        "Bajiru Hōkinsu"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -1787,7 +1808,8 @@
       "name": "Baskerville",
       "aliases": [
         "Baskerville le Tricéphale",
-        "Juge"
+        "Juge",
+        "Basukabiru"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -1814,7 +1836,8 @@
       "id": "bastille",
       "name": "Bastille",
       "aliases": [
-        "Le Trancheur de Requins"
+        "Le Trancheur de Requins",
+        "Basutīyu"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [],
@@ -1844,7 +1867,8 @@
       "aliases": [
         "Bellamy la Hyène",
         "Hyène",
-        "Le Plus Grand Rookie de Tous les Temps"
+        "Le Plus Grand Rookie de Tous les Temps",
+        "Beramī"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -1874,7 +1898,9 @@
       "id": "bellemere",
       "name": "Bellemère",
       "aliases": [
-        "Bell-mère"
+        "Bell-mère",
+        "Belle-Mère",
+        "Berumēru"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [],
@@ -1899,7 +1925,9 @@
     {
       "id": "belo-betty",
       "name": "Belo Betty",
-      "aliases": [],
+      "aliases": [
+        "Bero Beti"
+      ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
         "Armée de l'Est"
@@ -1928,7 +1956,9 @@
       "id": "ben-beckmann",
       "name": "Ben Beckmann",
       "aliases": [
-        "Benn Beckman"
+        "Benn Beckman",
+        "Ben Beckman",
+        "Ben Bekkuman"
       ],
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
@@ -1958,7 +1988,8 @@
       "aliases": [
         "Mr 2",
         "Bon Clay",
-        "Bentham le Sauvage"
+        "Bentham le Sauvage",
+        "Bensamu"
       ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
@@ -2009,7 +2040,9 @@
     {
       "id": "biblo",
       "name": "Biblo",
-      "aliases": [],
+      "aliases": [
+        "Biburo"
+      ],
       "affiliation": "Bibliothèque du Hibou",
       "sub_affiliation": [],
       "age": 300,
@@ -2058,7 +2091,9 @@
     {
       "id": "black-maria",
       "name": "Black Maria",
-      "aliases": [],
+      "aliases": [
+        "Burakkumaria"
+      ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
         "Tobiroppo"
@@ -2086,7 +2121,9 @@
     {
       "id": "blue-gilly",
       "name": "Blue Gilly",
-      "aliases": [],
+      "aliases": [
+        "Burū Girī"
+      ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [
         "Équipage d'Ideo"
@@ -2111,7 +2148,9 @@
     {
       "id": "bluejam",
       "name": "Bluejam",
-      "aliases": [],
+      "aliases": [
+        "Burūjamu"
+      ],
       "affiliation": "Équipage de Bluejam",
       "sub_affiliation": [],
       "age": 42,
@@ -2134,7 +2173,9 @@
     {
       "id": "blueno",
       "name": "Blueno",
-      "aliases": [],
+      "aliases": [
+        "Burūno"
+      ],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [
         "CP0",
@@ -2166,7 +2207,8 @@
       "aliases": [
         "La Princesse serpent",
         "L'Impératrice pirate",
-        "Seigneur de guerre"
+        "Seigneur de guerre",
+        "Boa Hankokku"
       ],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
@@ -2197,7 +2239,9 @@
     {
       "id": "boa-marigold",
       "name": "Boa Marigold",
-      "aliases": [],
+      "aliases": [
+        "Boa Marīgōrudo"
+      ],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
         "Sœurs Gorgones"
@@ -2225,7 +2269,9 @@
     {
       "id": "boa-sandersonia",
       "name": "Boa Sandersonia",
-      "aliases": [],
+      "aliases": [
+        "Boa Sandāsonia"
+      ],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
         "Sœurs Gorgones"
@@ -2280,7 +2326,8 @@
       "name": "Borsalino",
       "aliases": [
         "Kizaru",
-        "Kizaru le Singe Jaune"
+        "Kizaru le Singe Jaune",
+        "Borusarīno"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [],
@@ -2359,7 +2406,10 @@
     {
       "id": "brannew",
       "name": "Brannew",
-      "aliases": [],
+      "aliases": [
+        "Brandnew",
+        "Buran'nyū"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 54,
@@ -2384,7 +2434,9 @@
       "name": "Brogy",
       "aliases": [
         "Démon Rouge",
-        "Ogre rouge"
+        "Ogre rouge",
+        "Broggy",
+        "Burogī"
       ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
@@ -2411,7 +2463,8 @@
       "aliases": [
         "Brook le fredonneur",
         "Roi des âmes",
-        "Musicien"
+        "Musicien",
+        "Burukku"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -2442,7 +2495,8 @@
       "name": "Buchi",
       "aliases": [
         "Tigré",
-        "Nyaban Brothers"
+        "Nyaban Brothers",
+        "Butchie"
       ],
       "affiliation": "Équipage du Chat Noir",
       "sub_affiliation": [],
@@ -2493,7 +2547,9 @@
     {
       "id": "buffalo",
       "name": "Buffalo",
-      "aliases": [],
+      "aliases": [
+        "Baffarō"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 30,
@@ -2542,7 +2598,8 @@
       "id": "cabaji",
       "name": "Cabaji",
       "aliases": [
-        "Cabaji l'Acrobate"
+        "Cabaji l'Acrobate",
+        "Kabaji"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -2601,7 +2658,8 @@
       "aliases": [
         "Gang",
         "Gang Bege",
-        "Fire Tank"
+        "Fire Tank",
+        "Kapone Bejji"
       ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
@@ -2632,7 +2690,8 @@
       "aliases": [
         "Caribou la Mèche Molle",
         "Caribou à la tignasse humide",
-        "Cheveux mouillés"
+        "Cheveux mouillés",
+        "Karibū"
       ],
       "affiliation": "Équipage de Caribou",
       "sub_affiliation": [
@@ -2685,7 +2744,8 @@
       "id": "carne",
       "name": "Carne",
       "aliases": [
-        "Karune"
+        "Karune",
+        "Carny"
       ],
       "affiliation": "Baratie",
       "sub_affiliation": [],
@@ -2711,7 +2771,8 @@
       "name": "Carrot",
       "aliases": [
         "Mink lapin",
-        "Oiseau Royal"
+        "Oiseau Royal",
+        "Kyarotto"
       ],
       "affiliation": "Tribu des Minks",
       "sub_affiliation": [
@@ -2740,7 +2801,9 @@
       "id": "catarina-devon",
       "name": "Catarina Devon",
       "aliases": [
-        "La Chasseresse de Nouvelle Lune"
+        "La Chasseresse de Nouvelle Lune",
+        "Catalina Devon",
+        "Katarīna Debon"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
@@ -2769,7 +2832,8 @@
       "aliases": [
         "Cavendish au Cheval Blanc",
         "Prince des pirates",
-        "Hakuba"
+        "Hakuba",
+        "Kyabendisshu"
       ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [
@@ -2802,7 +2866,8 @@
       "aliases": [
         "Master",
         "Gangster Gastino",
-        "Caesar Clown"
+        "Caesar Clown",
+        "Shīzā Kuraun"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -2831,7 +2896,9 @@
       "id": "chadros-higelyges",
       "name": "Chadros Higelyges",
       "aliases": [
-        "Barbe Brune"
+        "Barbe Brune",
+        "Browndros Beardriguez",
+        "Chadorosu Higerigesu"
       ],
       "affiliation": "Équipage de Barbe Brune",
       "sub_affiliation": [
@@ -2934,7 +3001,9 @@
     {
       "id": "charlotte-brulee",
       "name": "Charlotte Brûlée",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Buryure"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -2959,7 +3028,9 @@
     {
       "id": "charlotte-chiffon",
       "name": "Charlotte Chiffon",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Shifon"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Équipage du Fire Tank",
@@ -2987,7 +3058,8 @@
       "name": "Charlotte Cracker",
       "aliases": [
         "Cracker aux Mille Bras",
-        "Le Chevalier Biscuit"
+        "Le Chevalier Biscuit",
+        "Shārotto Kurakkā"
       ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
@@ -3043,7 +3115,9 @@
     {
       "id": "charlotte-daifuku",
       "name": "Charlotte Daifuku",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Daifuku"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3071,7 +3145,9 @@
     {
       "id": "charlotte-flampe",
       "name": "Charlotte Flampe",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Furanpe"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3096,7 +3172,9 @@
     {
       "id": "charlotte-katakuri",
       "name": "Charlotte Katakuri",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Katakuri"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3126,7 +3204,8 @@
       "id": "charlotte-laura",
       "name": "Charlotte Laura",
       "aliases": [
-        "Charlotte Lola"
+        "Charlotte Lola",
+        "Shārotto Rōra"
       ],
       "affiliation": "Équipage du Rolling",
       "sub_affiliation": [
@@ -3154,7 +3233,8 @@
       "id": "charlotte-linlin",
       "name": "Charlotte Linlin",
       "aliases": [
-        "Big Mom"
+        "Big Mom",
+        "Shārotto Rinrin"
       ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
@@ -3186,7 +3266,10 @@
     {
       "id": "charlotte-mont-d-or",
       "name": "Charlotte Mont d'Or",
-      "aliases": [],
+      "aliases": [
+        "Charlotte Montd'Or",
+        "Shārotto Mondōru"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3211,7 +3294,9 @@
     {
       "id": "charlotte-oven",
       "name": "Charlotte Oven",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Ōbun"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3239,7 +3324,10 @@
     {
       "id": "charlotte-perospero",
       "name": "Charlotte Perospero",
-      "aliases": [],
+      "aliases": [
+        "Charlotte Perosperaw",
+        "Shārotto Perosuperō"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3267,7 +3355,9 @@
     {
       "id": "charlotte-praline",
       "name": "Charlotte Praline",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Purarine"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Équipage des Pirates du Soleil",
@@ -3295,7 +3385,8 @@
       "id": "charlotte-pudding",
       "name": "Charlotte Pudding",
       "aliases": [
-        "Pudding"
+        "Pudding",
+        "Shārotto Purin"
       ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
@@ -3323,7 +3414,9 @@
     {
       "id": "charlotte-smoothie",
       "name": "Charlotte Smoothie",
-      "aliases": [],
+      "aliases": [
+        "Shārotto Sumūjī"
+      ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3381,7 +3474,9 @@
     {
       "id": "chess",
       "name": "Chess",
-      "aliases": [],
+      "aliases": [
+        "Chesu"
+      ],
       "affiliation": "Équipage de Wapol",
       "sub_affiliation": [
         "Équipage du Bliking",
@@ -3408,7 +3503,8 @@
       "id": "chew",
       "name": "Chew",
       "aliases": [
-        "Chū"
+        "Chū",
+        "Choo"
       ],
       "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [
@@ -3434,7 +3530,9 @@
     {
       "id": "chimney",
       "name": "Chimney",
-      "aliases": [],
+      "aliases": [
+        "Chimunī"
+      ],
       "affiliation": "Gare de Shift",
       "sub_affiliation": [],
       "age": 10,
@@ -3460,7 +3558,9 @@
       "name": "Chinjao",
       "aliases": [
         "Le Trépan",
-        "Don Chinjao"
+        "Don Chinjao",
+        "Qing Jiao",
+        "Chin Jao"
       ],
       "affiliation": "Gang du Pays des Fleurs (Famille Chinjao)",
       "sub_affiliation": [
@@ -3543,7 +3643,10 @@
     {
       "id": "chouchou",
       "name": "Chouchou",
-      "aliases": [],
+      "aliases": [
+        "Shushu",
+        "Chou-Chou"
+      ],
       "affiliation": "Orange Town",
       "sub_affiliation": [],
       "age": 12,
@@ -3618,7 +3721,10 @@
     {
       "id": "colon",
       "name": "Colon",
-      "aliases": [],
+      "aliases": [
+        "Collun",
+        "Koron"
+      ],
       "affiliation": "Erbaf",
       "sub_affiliation": [],
       "age": 20,
@@ -3670,7 +3776,9 @@
     {
       "id": "conis",
       "name": "Conis",
-      "aliases": [],
+      "aliases": [
+        "Konisu"
+      ],
       "affiliation": "Skypiea",
       "sub_affiliation": [
         "Pumpkin Café"
@@ -3696,7 +3804,8 @@
       "id": "coribou",
       "name": "Coribou",
       "aliases": [
-        "Coribou L'Arroseur Sanguinaire"
+        "Coribou L'Arroseur Sanguinaire",
+        "Koribū"
       ],
       "affiliation": "Équipage de Caribou",
       "sub_affiliation": [
@@ -3749,7 +3858,8 @@
       "name": "Crocodile",
       "aliases": [
         "Mr. 0",
-        "Sir Crocodile"
+        "Sir Crocodile",
+        "Kurokodairu"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -3780,7 +3890,9 @@
     {
       "id": "crocus",
       "name": "Crocus",
-      "aliases": [],
+      "aliases": [
+        "Kurokkasu"
+      ],
       "affiliation": "Équipage de Roger",
       "sub_affiliation": [],
       "age": 71,
@@ -3805,7 +3917,9 @@
     {
       "id": "curly-dadan",
       "name": "Curly Dadan",
-      "aliases": [],
+      "aliases": [
+        "Kārī Dadan"
+      ],
       "affiliation": "Bandits",
       "sub_affiliation": [
         "Famille Dadan"
@@ -3856,7 +3970,10 @@
     {
       "id": "dalton",
       "name": "Dalton",
-      "aliases": [],
+      "aliases": [
+        "Dolton",
+        "Doruton"
+      ],
       "affiliation": "Royaume de Drum",
       "sub_affiliation": [
         "Royaume des Cerisiers"
@@ -3959,7 +4076,9 @@
       "name": "Demalo Black",
       "aliases": [
         "Demalo Black Aux Trois Langues",
-        "Trois langues"
+        "Trois langues",
+        "Demaro Black",
+        "Demaro Burakku"
       ],
       "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
@@ -4070,7 +4189,8 @@
       "id": "doc-q",
       "name": "Doc Q",
       "aliases": [
-        "La Faucheuse"
+        "La Faucheuse",
+        "Doku Kyū"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [],
@@ -4094,7 +4214,9 @@
     {
       "id": "doll",
       "name": "Doll",
-      "aliases": [],
+      "aliases": [
+        "Dōru"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [
         "G-14"
@@ -4123,7 +4245,9 @@
       "name": "Don Quichotte Doflamingo",
       "aliases": [
         "Joker",
-        "Donquixote Doflamingo"
+        "Donquixote Doflamingo",
+        "Don Quixote Doflamingo",
+        "Donkihōte Dofuramingo"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -4161,7 +4285,10 @@
       "aliases": [
         "Corazon",
         "Cora",
-        "Donquixote Rosinante"
+        "Donquixote Rosinante",
+        "Don Quixote Rocinante",
+        "Don Quixote Rosinante",
+        "Donkihōte Roshinante"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -4189,7 +4316,10 @@
       "id": "donquixote-mjosgard",
       "name": "Donquixote Mjosgard",
       "aliases": [
-        "Donkihōte Myosugarudo Sei"
+        "Donkihōte Myosugarudo Sei",
+        "Don Quixote Myosgard",
+        "Don Quixote Mjosgard",
+        "Donquixote Myosgard"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -4217,7 +4347,8 @@
       "name": "Dorry",
       "aliases": [
         "Démon Bleu",
-        "Ogre bleu"
+        "Ogre bleu",
+        "Dorī"
       ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
@@ -4266,7 +4397,9 @@
       "name": "Dracule Mihawk",
       "aliases": [
         "Œil de Faucon",
-        "Plus grand escrimeur du monde"
+        "Plus grand escrimeur du monde",
+        "Diego Mihawk",
+        "Jurakyūru Mihōku"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -4297,7 +4430,8 @@
       "id": "drip",
       "name": "Drip",
       "aliases": [
-        "Dorippu"
+        "Dorippu",
+        "Gack"
       ],
       "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
@@ -4323,7 +4457,8 @@
       "name": "Drophy",
       "aliases": [
         "Miss Merrychristmas",
-        "Drophy la Tombeuse de Villes"
+        "Drophy la Tombeuse de Villes",
+        "Dorofī"
       ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
@@ -4399,7 +4534,9 @@
       "id": "edison",
       "name": "Edison",
       "aliases": [
-        "Edison le Penseur"
+        "Edison le Penseur",
+        "Edison the Thinker",
+        "Ejison"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -4427,7 +4564,9 @@
       "name": "Edward Newgate",
       "aliases": [
         "Barbe blanche",
-        "Empereur"
+        "Empereur",
+        "Ward Newgate",
+        "Edowādo Nyūgēto"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
@@ -4460,7 +4599,8 @@
       "name": "Edward Weevil",
       "aliases": [
         "Barbe Blanche Jr.",
-        "Weeble"
+        "Weeble",
+        "Edowādo Wīburu"
       ],
       "affiliation": "Sept Grands Corsaires",
       "sub_affiliation": [],
@@ -4488,7 +4628,8 @@
       "id": "elizabello-ii",
       "name": "Elizabello II",
       "aliases": [
-        "Erizaberō Nisei"
+        "Erizaberō Nisei",
+        "Elizabero II"
       ],
       "affiliation": "Royaume de Prodence",
       "sub_affiliation": [],
@@ -4513,7 +4654,8 @@
       "id": "emet",
       "name": "Emet",
       "aliases": [
-        "Géant de fer"
+        "Géant de fer",
+        "Emeto"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
@@ -4539,7 +4681,8 @@
       "name": "Emporio Ivankov",
       "aliases": [
         "Le Faiseur de Miracles",
-        "Iva"
+        "Iva",
+        "Enporio Iwankofu"
       ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
@@ -4569,7 +4712,8 @@
       "name": "Enel",
       "aliases": [
         "Dieu",
-        "Dieu du ciel"
+        "Dieu du ciel",
+        "Eneru"
       ],
       "affiliation": "Skypiea",
       "sub_affiliation": [
@@ -4599,7 +4743,8 @@
       "name": "Gecko Moria",
       "aliases": [
         "Lion paresseux",
-        "Seigneur de guerre"
+        "Seigneur de guerre",
+        "Gekkō Moria"
       ],
       "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [
@@ -4627,7 +4772,8 @@
       "id": "ethanbaron-v-nusjuro",
       "name": "Ethanbaron V. Nusjuro",
       "aliases": [
-        "Saint Ethanbaron V. Nusjuro"
+        "Saint Ethanbaron V. Nusjuro",
+        "Īzanbaron Bui Nasujurō Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -4659,7 +4805,8 @@
       "id": "eustass-kid",
       "name": "Eustass Kid",
       "aliases": [
-        "Captain Kid"
+        "Captain Kid",
+        "Yūsutasu Kiddo"
       ],
       "affiliation": "Équipage de Kid",
       "sub_affiliation": [
@@ -4692,7 +4839,8 @@
       "id": "figarland-garling",
       "name": "Figarland Garling",
       "aliases": [
-        "Saint Figarland Garling"
+        "Saint Figarland Garling",
+        "Figārando Gāringu Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -4722,7 +4870,8 @@
       "id": "figarland-shamrock",
       "name": "Figarland Shamrock",
       "aliases": [
-        "Saint Figarland Shamrock"
+        "Saint Figarland Shamrock",
+        "Figārando Shamurokku Sei"
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
@@ -4751,7 +4900,8 @@
       "name": "Fisher Tiger",
       "aliases": [
         "L'Aventurier",
-        "Le Héros des Esclaves"
+        "Le Héros des Esclaves",
+        "Fisshā Taigā"
       ],
       "affiliation": "Équipage des Pirates du Soleil",
       "sub_affiliation": [
@@ -4779,7 +4929,8 @@
       "name": "Foxy",
       "aliases": [
         "Le Renard Argenté",
-        "Renard argenté"
+        "Renard argenté",
+        "Fokushī"
       ],
       "affiliation": "Équipage de Foxy",
       "sub_affiliation": [],
@@ -4806,7 +4957,9 @@
       "aliases": [
         "Cyborg",
         "Cutty Flam",
-        "Charpentier"
+        "Charpentier",
+        "Frankie",
+        "Furankī"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -4921,7 +5074,9 @@
       "id": "fullbody",
       "name": "Fullbody",
       "aliases": [
-        "Fullbody aux Poings d'Aciers"
+        "Fullbody aux Poings d'Aciers",
+        "Full Body",
+        "Furubodi"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [],
@@ -4972,7 +5127,8 @@
       "aliases": [
         "Mr. 3",
         "L'Usurier",
-        "Homme bougie"
+        "Homme bougie",
+        "Gyarudīno"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -5003,7 +5159,10 @@
       "name": "Gan Forr",
       "aliases": [
         "Le Chevalier des Cieux",
-        "Gan Fall"
+        "Gan Fall",
+        "Ganfor",
+        "Gunfall",
+        "Gan Fōru"
       ],
       "affiliation": "Skypiea",
       "sub_affiliation": [],
@@ -5028,7 +5187,8 @@
       "id": "gedatsu",
       "name": "Gedatsu",
       "aliases": [
-        "Défenseur Céleste"
+        "Défenseur Céleste",
+        "Gedatz"
       ],
       "affiliation": "Clan d'Ener",
       "sub_affiliation": [],
@@ -5056,7 +5216,8 @@
       "name": "Gem",
       "aliases": [
         "Mr. 5",
-        "Gem de la Frontière"
+        "Gem de la Frontière",
+        "Jemu"
       ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
@@ -5106,7 +5267,8 @@
       "id": "gerd",
       "name": "Gerd",
       "aliases": [
-        "Géant"
+        "Géant",
+        "Geruzu"
       ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
@@ -5133,7 +5295,9 @@
     {
       "id": "gin",
       "name": "Gin",
-      "aliases": [],
+      "aliases": [
+        "Ghin"
+      ],
       "affiliation": "Équipage de Don Krieg",
       "sub_affiliation": [],
       "age": 27,
@@ -5157,7 +5321,9 @@
     {
       "id": "ginny",
       "name": "Ginny",
-      "aliases": [],
+      "aliases": [
+        "Jinī"
+      ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
         "Armée de l'Est",
@@ -5211,7 +5377,9 @@
     {
       "id": "gladius",
       "name": "Gladius",
-      "aliases": [],
+      "aliases": [
+        "Guradiusu"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 33,
@@ -5236,7 +5404,8 @@
       "name": "Gol D. Roger",
       "aliases": [
         "Gold Roger",
-        "Le Roi des Pirates"
+        "Le Roi des Pirates",
+        "Gōru Dī Rojā"
       ],
       "affiliation": "Équipage de Roger",
       "sub_affiliation": [
@@ -5266,7 +5435,9 @@
     {
       "id": "goldberg",
       "name": "Goldberg",
-      "aliases": [],
+      "aliases": [
+        "Gōrudobāgu"
+      ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
         "Nouvel Équipage des Géants",
@@ -5316,7 +5487,8 @@
       "id": "guernika",
       "name": "Guernika",
       "aliases": [
-        "Gerunika"
+        "Gerunika",
+        "Guernica"
       ],
       "affiliation": "CP0",
       "sub_affiliation": [],
@@ -5344,7 +5516,9 @@
       "id": "gunko",
       "name": "Gunko",
       "aliases": [
-        "Manmayer Gunko"
+        "Manmayer Gunko",
+        "Saint Manmayer Gunko",
+        "Manmaiyā Gunko Gū"
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
@@ -5373,7 +5547,9 @@
     {
       "id": "hack",
       "name": "Hack",
-      "aliases": [],
+      "aliases": [
+        "Hakku"
+      ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [],
       "age": 38,
@@ -5397,7 +5573,8 @@
       "id": "haguar-d-sauro",
       "name": "Haguar D. Sauro",
       "aliases": [
-        "Jaguar D. Saul"
+        "Jaguar D. Saul",
+        "Haguwāru Dī Sauro"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -5428,7 +5605,8 @@
       "name": "Hajrudin",
       "aliases": [
         "Géant de la nouvelle ère",
-        "Le Pirate Mercenaire"
+        "Le Pirate Mercenaire",
+        "Hairudin"
       ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
@@ -5456,7 +5634,9 @@
     {
       "id": "hannyabal",
       "name": "Hannyabal",
-      "aliases": [],
+      "aliases": [
+        "Hannyabaru"
+      ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
         "Impel Down"
@@ -5506,7 +5686,9 @@
     {
       "id": "harald",
       "name": "Harald",
-      "aliases": [],
+      "aliases": [
+        "Hararudo"
+      ],
       "affiliation": "Erbaf",
       "sub_affiliation": [
         "Famille royale d'Erbaf",
@@ -5534,7 +5716,9 @@
     {
       "id": "haredas",
       "name": "Haredas",
-      "aliases": [],
+      "aliases": [
+        "Haredasu"
+      ],
       "affiliation": "Weatheria",
       "sub_affiliation": [],
       "age": 95,
@@ -5557,7 +5741,9 @@
     {
       "id": "hatchan",
       "name": "Hatchan",
-      "aliases": [],
+      "aliases": [
+        "Octo"
+      ],
       "affiliation": "Takoyaki 8",
       "sub_affiliation": [
         "Équipage d'Arlong",
@@ -5689,7 +5875,10 @@
       "id": "hiluluk",
       "name": "Hiluluk",
       "aliases": [
-        "Dr. Hiriluk"
+        "Dr. Hiriluk",
+        "Hiriluk",
+        "Dr. Hiruruku",
+        "Dokutā Hiruruku"
       ],
       "affiliation": "Royaume des Cerisiers",
       "sub_affiliation": [],
@@ -5741,7 +5930,10 @@
     {
       "id": "hody-jones",
       "name": "Hody Jones",
-      "aliases": [],
+      "aliases": [
+        "Hordy Jones",
+        "Hōdi Jōnzu"
+      ],
       "affiliation": "Nouvel Équipage des Hommes-Poissons",
       "sub_affiliation": [
         "Royaume Ryugu"
@@ -5766,7 +5958,9 @@
     {
       "id": "hogback",
       "name": "Hogback",
-      "aliases": [],
+      "aliases": [
+        "Hogubakku"
+      ],
       "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [
         "Quatre Mystérieux"
@@ -5793,7 +5987,8 @@
       "name": "Holdem",
       "aliases": [
         "Gifter",
-        "Holed'em"
+        "Holed'em",
+        "Hōrudemu"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
@@ -5873,7 +6068,9 @@
       "id": "iceburg",
       "name": "Iceburg",
       "aliases": [
-        "Icebarg"
+        "Icebarg",
+        "Iceberg",
+        "Aisubāgu"
       ],
       "affiliation": "Galley-La Company",
       "sub_affiliation": [
@@ -5984,7 +6181,9 @@
       "name": "Inuarashi",
       "aliases": [
         "Tempête canine",
-        "Le Roi de l'Aurore"
+        "Le Roi de l'Aurore",
+        "Dogstorm",
+        "Dogupine"
       ],
       "affiliation": "Principauté de Mokomo",
       "sub_affiliation": [
@@ -6018,7 +6217,9 @@
     {
       "id": "ipponmatsu",
       "name": "Ipponmatsu",
-      "aliases": [],
+      "aliases": [
+        "Matsu"
+      ],
       "affiliation": "Armurerie de Logue Town",
       "sub_affiliation": [],
       "age": 38,
@@ -6041,7 +6242,9 @@
     {
       "id": "iscat",
       "name": "Iscat",
-      "aliases": [],
+      "aliases": [
+        "Isukatto"
+      ],
       "affiliation": "Royaume des Blocs",
       "sub_affiliation": [],
       "age": "?",
@@ -6118,7 +6321,9 @@
     {
       "id": "izou",
       "name": "Izou",
-      "aliases": [],
+      "aliases": [
+        "Izo"
+      ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
         "Famille Kozuki",
@@ -6147,7 +6352,9 @@
     {
       "id": "jabra",
       "name": "Jabra",
-      "aliases": [],
+      "aliases": [
+        "Jabura"
+      ],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [
         "CP0",
@@ -6177,7 +6384,8 @@
       "id": "jack",
       "name": "Jack",
       "aliases": [
-        "Jack la Sécheresse"
+        "Jack la Sécheresse",
+        "Jakku"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -6206,7 +6414,9 @@
     {
       "id": "jango",
       "name": "Jango",
-      "aliases": [],
+      "aliases": [
+        "Django"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [
         "Équipage du Chat Noir"
@@ -6232,7 +6442,8 @@
       "id": "jaygarcia-saturn",
       "name": "Jaygarcia Saturn",
       "aliases": [
-        "Saint Jaygarcia Saturn"
+        "Saint Jaygarcia Saturn",
+        "Jeigarushia Satān Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -6289,7 +6500,9 @@
       "name": "Jesus Burgess",
       "aliases": [
         "Champion",
-        "Mr. Store"
+        "Mr. Store",
+        "G. Zass Burgess",
+        "Jīzasu Bājesu"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [],
@@ -6319,7 +6532,8 @@
       "aliases": [
         "La Gloutonne",
         "Onze Supernovae",
-        "Conney"
+        "Conney",
+        "Juerī Bonī"
       ],
       "affiliation": "Équipage de Bonney",
       "sub_affiliation": [
@@ -6375,7 +6589,8 @@
       "id": "jinbe",
       "name": "Jinbe",
       "aliases": [
-        "Chevalier des mers"
+        "Chevalier des mers",
+        "Jimbei"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -6434,7 +6649,9 @@
     {
       "id": "johnny",
       "name": "Johnny",
-      "aliases": [],
+      "aliases": [
+        "Jonī"
+      ],
       "affiliation": "Chasseurs de Primes",
       "sub_affiliation": [],
       "age": 23,
@@ -6579,7 +6796,10 @@
       "id": "kalgara",
       "name": "Kalgara",
       "aliases": [
-        "Le Démon de Shandora"
+        "Le Démon de Shandora",
+        "Calgara",
+        "Kalgala",
+        "Karugara"
       ],
       "affiliation": "Shandia",
       "sub_affiliation": [],
@@ -6605,7 +6825,9 @@
     {
       "id": "kalifa",
       "name": "Kalifa",
-      "aliases": [],
+      "aliases": [
+        "Karifa"
+      ],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [
         "CP0",
@@ -6666,7 +6888,9 @@
       "id": "karoo",
       "name": "Karoo",
       "aliases": [
-        "Kaloo"
+        "Kaloo",
+        "Kalu",
+        "Karū"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -6694,7 +6918,9 @@
     {
       "id": "kashii",
       "name": "Kashii",
-      "aliases": [],
+      "aliases": [
+        "Kāshī"
+      ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [
         "Gouvernement Mondial"
@@ -6802,7 +7028,8 @@
       "id": "kentauros",
       "name": "Kentauros",
       "aliases": [
-        "Kentarousu"
+        "Kentarousu",
+        "Centaur"
       ],
       "affiliation": "Super Canards",
       "sub_affiliation": [],
@@ -6826,7 +7053,9 @@
     {
       "id": "kiba",
       "name": "Kiba",
-      "aliases": [],
+      "aliases": [
+        "Tusk"
+      ],
       "affiliation": "École du Morse",
       "sub_affiliation": [
         "Équipage des Géants"
@@ -6886,7 +7115,8 @@
       "aliases": [
         "Le Massacreur",
         "Kamazo l'Assassin",
-        "Onze Supernovae"
+        "Onze Supernovae",
+        "Kirā"
       ],
       "affiliation": "Équipage de Kid",
       "sub_affiliation": [
@@ -6919,7 +7149,8 @@
       "id": "kinemon",
       "name": "Kinemon",
       "aliases": [
-        "Kinemon le Renard à la Flamme"
+        "Kinemon le Renard à la Flamme",
+        "Kin'emon"
       ],
       "affiliation": "Famille Kozuki",
       "sub_affiliation": [
@@ -6949,7 +7180,9 @@
     {
       "id": "koala",
       "name": "Koala",
-      "aliases": [],
+      "aliases": [
+        "Koara"
+      ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
         "Équipage des Pirates du Soleil"
@@ -6976,7 +7209,9 @@
       "id": "koby",
       "name": "Koby",
       "aliases": [
-        "Kobby"
+        "Kobby",
+        "Coby",
+        "Kobī"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -7196,7 +7431,9 @@
     {
       "id": "kujaku",
       "name": "Kujaku",
-      "aliases": [],
+      "aliases": [
+        "Kujyaku"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [
         "G-14",
@@ -7308,7 +7545,9 @@
     {
       "id": "kuromarimo",
       "name": "Kuromarimo",
-      "aliases": [],
+      "aliases": [
+        "K.M."
+      ],
       "affiliation": "Équipage de Wapol",
       "sub_affiliation": [
         "Équipage du Bliking",
@@ -7335,7 +7574,8 @@
       "id": "kuroobi",
       "name": "Kuroobi",
       "aliases": [
-        "Nageoire"
+        "Nageoire",
+        "Kuro'obi"
       ],
       "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [
@@ -7480,7 +7720,9 @@
     {
       "id": "kyros",
       "name": "Kyros",
-      "aliases": [],
+      "aliases": [
+        "Kyurosu"
+      ],
       "affiliation": "Colisée Corrida",
       "sub_affiliation": [
         "Famille Riku"
@@ -7505,7 +7747,10 @@
     {
       "id": "laboon",
       "name": "Laboon",
-      "aliases": [],
+      "aliases": [
+        "Raboon",
+        "Rabūn"
+      ],
       "affiliation": "Équipage du Rumbar",
       "sub_affiliation": [],
       "age": 51,
@@ -7528,7 +7773,11 @@
     {
       "id": "laffitte",
       "name": "Laffitte",
-      "aliases": [],
+      "aliases": [
+        "Lafitte",
+        "Raffit",
+        "Rafitto"
+      ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [],
       "age": 39,
@@ -7551,7 +7800,9 @@
     {
       "id": "lao-g",
       "name": "Lao G",
-      "aliases": [],
+      "aliases": [
+        "Rao Jī"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 70,
@@ -7574,7 +7825,9 @@
     {
       "id": "leo",
       "name": "Léo",
-      "aliases": [],
+      "aliases": [
+        "Reo"
+      ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [
         "Royaume de Tontatta"
@@ -7599,7 +7852,9 @@
     {
       "id": "lilith",
       "name": "Lilith",
-      "aliases": [],
+      "aliases": [
+        "Ririsu"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [
         "SSG"
@@ -7654,7 +7909,9 @@
     {
       "id": "little-oars-jr",
       "name": "Little Oars Jr.",
-      "aliases": [],
+      "aliases": [
+        "Ritoru Ōzu Junia"
+      ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
         "Équipage de Little Oars Jr."
@@ -7681,7 +7938,8 @@
       "name": "Loki",
       "aliases": [
         "Prince maudit",
-        "Sun God"
+        "Sun God",
+        "Roki"
       ],
       "affiliation": "Erbaf",
       "sub_affiliation": [
@@ -7710,7 +7968,10 @@
     {
       "id": "lucky-roux",
       "name": "Lucky Roux",
-      "aliases": [],
+      "aliases": [
+        "Lucky Roo",
+        "Rakkī Rū"
+      ],
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
       "age": 33,
@@ -7735,7 +7996,10 @@
     {
       "id": "machvise",
       "name": "Machvise",
-      "aliases": [],
+      "aliases": [
+        "Mach Vise",
+        "Mahhabaisu"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 52,
@@ -7758,7 +8022,9 @@
     {
       "id": "magellan",
       "name": "Magellan",
-      "aliases": [],
+      "aliases": [
+        "Mazeran"
+      ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
         "Impel Down"
@@ -7806,7 +8072,9 @@
     {
       "id": "manboshi",
       "name": "Manboshi",
-      "aliases": [],
+      "aliases": [
+        "Mamboshi"
+      ],
       "affiliation": "Famille royale Ryugu",
       "sub_affiliation": [
         "Royaume Ryugu"
@@ -7854,7 +8122,11 @@
     {
       "id": "mansherry",
       "name": "Mansherry",
-      "aliases": [],
+      "aliases": [
+        "Mancherie",
+        "Manshelly",
+        "Mansherī"
+      ],
       "affiliation": "Royaume de Tontatta",
       "sub_affiliation": [],
       "age": 25,
@@ -7880,7 +8152,8 @@
       "name": "Marco",
       "aliases": [
         "Marco le phénix",
-        "Polo Marco"
+        "Polo Marco",
+        "Pōro Maruko"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
@@ -7910,7 +8183,8 @@
       "id": "marcus-mars",
       "name": "Marcus Mars",
       "aliases": [
-        "Saint Marcus Mars"
+        "Saint Marcus Mars",
+        "Mākasu Māzu Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -7940,7 +8214,10 @@
     {
       "id": "marguerite",
       "name": "Marguerite",
-      "aliases": [],
+      "aliases": [
+        "Margaret",
+        "Māgaretto"
+      ],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [],
       "age": 16,
@@ -7965,7 +8242,9 @@
     {
       "id": "marianne",
       "name": "Marianne",
-      "aliases": [],
+      "aliases": [
+        "Mariannu"
+      ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
         "Spiders Café"
@@ -7993,7 +8272,9 @@
       "aliases": [
         "Barbe noire",
         "Empereur",
-        "Teach"
+        "Teach",
+        "Marshall D. Teech",
+        "Māsharu Dī Tīchi"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
@@ -8026,7 +8307,9 @@
     {
       "id": "masira",
       "name": "Masira",
-      "aliases": [],
+      "aliases": [
+        "Mashira"
+      ],
       "affiliation": "Ligue des Primates",
       "sub_affiliation": [],
       "age": 23,
@@ -8049,7 +8332,11 @@
     {
       "id": "meuh-meuh",
       "name": "Meuh-Meuh",
-      "aliases": [],
+      "aliases": [
+        "Momoo",
+        "Morm",
+        "Mōmu"
+      ],
       "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [
         "Équipage de Caribou"
@@ -8154,7 +8441,8 @@
       "name": "Mohji",
       "aliases": [
         "Mōji",
-        "Morge"
+        "Morge",
+        "Morji"
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
@@ -8208,7 +8496,9 @@
     {
       "id": "monet",
       "name": "Monet",
-      "aliases": [],
+      "aliases": [
+        "Mone"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 30,
@@ -8232,7 +8522,8 @@
       "id": "monkey-d-dragon",
       "name": "Monkey D. Dragon",
       "aliases": [
-        "Chef révolutionnaire"
+        "Chef révolutionnaire",
+        "Monkī Dī Doragon"
       ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
@@ -8261,7 +8552,8 @@
       "id": "monkey-d-garp",
       "name": "Monkey D. Garp",
       "aliases": [
-        "Le Poing"
+        "Le Poing",
+        "Monkī Dī Gāpu"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -8300,7 +8592,8 @@
         "Fils de Dragon",
         "Supernova",
         "Empereur",
-        "5e Empereur"
+        "5e Empereur",
+        "Monkī Dī Rufi"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -8339,7 +8632,10 @@
       "id": "mont-blanc-cricket",
       "name": "Mont Blanc Cricket",
       "aliases": [
-        "Monburan Kuriketto"
+        "Monburan Kuriketto",
+        "Montblanc Cricket",
+        "Monbran Cricket",
+        "Mombran Cricket"
       ],
       "affiliation": "Ligue des Primates",
       "sub_affiliation": [
@@ -8366,7 +8662,10 @@
       "id": "mont-blanc-noland",
       "name": "Mont Blanc Noland",
       "aliases": [
-        "Monburan Nōrando"
+        "Monburan Nōrando",
+        "Montblanc Noland",
+        "Monbran Noland",
+        "Mombran Noland"
       ],
       "affiliation": "Royaume de Lvneel",
       "sub_affiliation": [
@@ -8417,7 +8716,9 @@
     {
       "id": "morgans",
       "name": "Morgans",
-      "aliases": [],
+      "aliases": [
+        "Moruganzu"
+      ],
       "affiliation": "Pègre",
       "sub_affiliation": [
         "World Economy Journal"
@@ -8472,7 +8773,10 @@
     {
       "id": "mosa",
       "name": "Mosa",
-      "aliases": [],
+      "aliases": [
+        "Shaggy",
+        "Mosa-kō"
+      ],
       "affiliation": "Erbaf",
       "sub_affiliation": [],
       "age": "?",
@@ -8496,7 +8800,8 @@
       "id": "mounblutain",
       "name": "Mounblutain",
       "aliases": [
-        "Maunburuten"
+        "Maunburuten",
+        "Mounbleten"
       ],
       "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
@@ -8520,7 +8825,10 @@
     {
       "id": "mozu-et-kiwi",
       "name": "Mozu et Kiwi",
-      "aliases": [],
+      "aliases": [
+        "Mozu and Kiwi",
+        "Mozu & Kiui"
+      ],
       "affiliation": "Famille Franky",
       "sub_affiliation": [],
       "age": 22,
@@ -8601,7 +8909,11 @@
     {
       "id": "nefertari-cobra",
       "name": "Nefertari Cobra",
-      "aliases": [],
+      "aliases": [
+        "Nefeltari Cobra",
+        "Nefeltari Nebra",
+        "Neferutari Kobura"
+      ],
       "affiliation": "Famille Nefertari",
       "sub_affiliation": [
         "Royaume d'Alabasta",
@@ -8627,7 +8939,11 @@
     {
       "id": "nefertari-vivi",
       "name": "Nefertari Vivi",
-      "aliases": [],
+      "aliases": [
+        "Nefeltari Vivi",
+        "Vivi Nefertari",
+        "Neferutari Bibi"
+      ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
         "Royaume d'Alabasta",
@@ -8657,7 +8973,8 @@
       "id": "nekomamushi",
       "name": "Nekomamushi",
       "aliases": [
-        "Vipère chat"
+        "Vipère chat",
+        "Cat Viper"
       ],
       "affiliation": "Principauté de Mokomo",
       "sub_affiliation": [
@@ -8692,7 +9009,9 @@
     {
       "id": "neptune",
       "name": "Neptune",
-      "aliases": [],
+      "aliases": [
+        "Nepuchūn"
+      ],
       "affiliation": "Famille royale Ryugu",
       "sub_affiliation": [
         "Royaume Ryugu"
@@ -8766,7 +9085,9 @@
     {
       "id": "nico-olvia",
       "name": "Nico Olvia",
-      "aliases": [],
+      "aliases": [
+        "Niko Orubia"
+      ],
       "affiliation": "Archéologues d'Ohara",
       "sub_affiliation": [],
       "age": 33,
@@ -8792,7 +9113,8 @@
       "aliases": [
         "Enfant démoniaque",
         "Historienne",
-        "Enfant du démon"
+        "Enfant du démon",
+        "Niko Robin"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -8868,7 +9190,9 @@
     {
       "id": "oars",
       "name": "Oars",
-      "aliases": [],
+      "aliases": [
+        "Ōzu"
+      ],
       "affiliation": "Thriller Bark",
       "sub_affiliation": [
         "Équipage de Gecko Moria"
@@ -8891,35 +9215,11 @@
       "difficulty": "Moyen"
     },
     {
-      "id": "octo",
-      "name": "Octo",
-      "aliases": [],
-      "affiliation": "Équipage d'Arlong",
-      "sub_affiliation": [
-        "Takoyaki 8",
-        "Équipage des Pirates du Soleil"
-      ],
-      "age": 36,
-      "arc": "Arlong Park",
-      "bounty": 8000000,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Île des Hommes-Poissons)",
-      "size": 220,
-      "race": [
-        "Homme-Poisson"
-      ],
-      "hint1": "Équipage d'Arlong",
-      "hint2": "Homme-Poisson",
-      "hint3": "Grand Line (Île des Hommes-Poissons)",
-      "firstAppearance": "Épisode 31",
-      "difficulty": "Difficile"
-    },
-    {
       "id": "ohm",
       "name": "Ohm",
-      "aliases": [],
+      "aliases": [
+        "Ōmu"
+      ],
       "affiliation": "Clan d'Ener",
       "sub_affiliation": [],
       "age": 27,
@@ -8971,7 +9271,10 @@
     {
       "id": "orlumbus",
       "name": "Orlumbus",
-      "aliases": [],
+      "aliases": [
+        "Olombus",
+        "Ōronbusu"
+      ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [
         "Grande Flotte Yonta Maria",
@@ -9048,7 +9351,8 @@
       "id": "page-one",
       "name": "Page One",
       "aliases": [
-        "Tobi Roppo"
+        "Tobi Roppo",
+        "Pējiwan"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -9077,7 +9381,9 @@
     {
       "id": "pandaman",
       "name": "Pandaman",
-      "aliases": [],
+      "aliases": [
+        "Panda Man"
+      ],
       "affiliation": "Aucune",
       "sub_affiliation": [],
       "age": "?",
@@ -9153,7 +9459,10 @@
     {
       "id": "paulie",
       "name": "Paulie",
-      "aliases": [],
+      "aliases": [
+        "Pauly",
+        "Paurī"
+      ],
       "affiliation": "Galley-La Company",
       "sub_affiliation": [],
       "age": 26,
@@ -9202,7 +9511,9 @@
     {
       "id": "pedro",
       "name": "Pedro",
-      "aliases": [],
+      "aliases": [
+        "Pedoro"
+      ],
       "affiliation": "Pirates de Nox",
       "sub_affiliation": [
         "Principauté de Mokomo",
@@ -9233,7 +9544,8 @@
       "id": "peeply-lulu",
       "name": "Peeply Lulu",
       "aliases": [
-        "Peepley Lulu"
+        "Peepley Lulu",
+        "Pīpurī Ruru"
       ],
       "affiliation": "Galley-La Company",
       "sub_affiliation": [],
@@ -9288,7 +9600,9 @@
       "id": "pell",
       "name": "Pell",
       "aliases": [
-        "Pell le Faucon"
+        "Pell le Faucon",
+        "Pelu",
+        "Peru"
       ],
       "affiliation": "Royaume d'Alabasta",
       "sub_affiliation": [
@@ -9344,7 +9658,9 @@
     {
       "id": "pica",
       "name": "Pica",
-      "aliases": [],
+      "aliases": [
+        "Pīka"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 40,
@@ -9371,7 +9687,9 @@
       "id": "piiman",
       "name": "Piiman",
       "aliases": [
-        "Pīman"
+        "Pīman",
+        "Pepper",
+        "Pieman"
       ],
       "affiliation": "Équipage d'Usopp",
       "sub_affiliation": [],
@@ -9395,7 +9713,9 @@
     {
       "id": "porchemy",
       "name": "Porchemy",
-      "aliases": [],
+      "aliases": [
+        "Porushēmi"
+      ],
       "affiliation": "Équipage de Bluejam",
       "sub_affiliation": [],
       "age": 25,
@@ -9419,7 +9739,9 @@
       "id": "portgas-d-ace",
       "name": "Portgas D. Ace",
       "aliases": [
-        "Poing de feu"
+        "Poing de feu",
+        "Portgaz D. Ace",
+        "Pōtogasu Dī Ēsu"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
@@ -9536,7 +9858,9 @@
       "id": "pythagoras",
       "name": "Pythagoras",
       "aliases": [
-        "Pythagoras le Sage"
+        "Pythagoras le Sage",
+        "Pythagoras the Wise",
+        "Pitagorasu"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -9651,7 +9975,9 @@
     {
       "id": "rebecca",
       "name": "Rebecca",
-      "aliases": [],
+      "aliases": [
+        "Rebekka"
+      ],
       "affiliation": "Famille Riku",
       "sub_affiliation": [
         "Royaume de Dressrosa",
@@ -9679,7 +10005,9 @@
     {
       "id": "riku-doldo-iii",
       "name": "Riku Doldo III",
-      "aliases": [],
+      "aliases": [
+        "Riku Dorudo Sansei"
+      ],
       "affiliation": "Colisée Corrida",
       "sub_affiliation": [
         "Famille Riku"
@@ -9706,7 +10034,8 @@
       "name": "Riku Viola",
       "aliases": [
         "Violette",
-        "Viola"
+        "Viola",
+        "Viora"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -9732,7 +10061,9 @@
     {
       "id": "ripley",
       "name": "Ripley",
-      "aliases": [],
+      "aliases": [
+        "Ripurī"
+      ],
       "affiliation": "École du Morse",
       "sub_affiliation": [],
       "age": 80,
@@ -9781,7 +10112,8 @@
       "id": "road",
       "name": "Road",
       "aliases": [
-        "Sun God"
+        "Sun God",
+        "Rodo"
       ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
@@ -9809,7 +10141,9 @@
     {
       "id": "rob-lucci",
       "name": "Rob Lucci",
-      "aliases": [],
+      "aliases": [
+        "Robu Rutchi"
+      ],
       "affiliation": "CP0",
       "sub_affiliation": [
         "CP9",
@@ -9872,7 +10206,8 @@
       "aliases": [
         "Chasseur de pirates",
         "Escrimeur",
-        "Roronoa Zoro"
+        "Roronoa Zoro",
+        "Roronoa Zolo"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -9907,7 +10242,8 @@
       "id": "rosward-rosward",
       "name": "Rosward Rosward",
       "aliases": [
-        "Rozuwādo Rozuwādo Sei"
+        "Rozuwādo Rozuwādo Sei",
+        "Roswald Roswald"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -10108,7 +10444,8 @@
       "id": "sadi",
       "name": "Sadi",
       "aliases": [
-        "Sadi-chan"
+        "Sadi-chan",
+        "Sadie"
       ],
       "affiliation": "Impel Down",
       "sub_affiliation": [],
@@ -10162,7 +10499,10 @@
       "id": "saint-rosward-charlos",
       "name": "Saint Rosward Charlos",
       "aliases": [
-        "Rosward Charlos"
+        "Rosward Charlos",
+        "Saint Charlos",
+        "Saint Charloss",
+        "Rosuwādo Charurosu Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -10189,7 +10529,9 @@
       "id": "sainte-rosward-sharlia",
       "name": "Sainte Rosward Sharlia",
       "aliases": [
-        "Rosward Shalria"
+        "Rosward Shalria",
+        "Saint Rosward Shalria",
+        "Rosuwādo Sharuria Gū"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -10306,7 +10648,10 @@
     {
       "id": "sanjuan-wolf",
       "name": "Sanjuan Wolf",
-      "aliases": [],
+      "aliases": [
+        "San Juan Wolf",
+        "Sanfan Urufu"
+      ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
         "Impel Down"
@@ -10439,7 +10784,8 @@
       "id": "scratchmen-apoo",
       "name": "Scratchmen Apoo",
       "aliases": [
-        "Supernova"
+        "Supernova",
+        "Sukuratchimen Apū"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -10497,7 +10843,9 @@
     {
       "id": "senor-pink",
       "name": "Señor Pink",
-      "aliases": [],
+      "aliases": [
+        "Senyōru Pinku"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 46,
@@ -10547,7 +10895,8 @@
       "id": "shaka",
       "name": "Shaka",
       "aliases": [
-        "Shaka le Bon"
+        "Shaka le Bon",
+        "Shaka the Good"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -10598,7 +10947,10 @@
     {
       "id": "sham",
       "name": "Sham",
-      "aliases": [],
+      "aliases": [
+        "Siam",
+        "Shamu"
+      ],
       "affiliation": "Équipage du Chat Noir",
       "sub_affiliation": [],
       "age": 21,
@@ -10648,7 +11000,8 @@
       "name": "Shanks",
       "aliases": [
         "Roux",
-        "Empereur"
+        "Empereur",
+        "Shankusu"
       ],
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [
@@ -10682,7 +11035,10 @@
     {
       "id": "sheep-s-head",
       "name": "Sheep's Head",
-      "aliases": [],
+      "aliases": [
+        "Sheepshead",
+        "Shīpusuheddo"
+      ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
       "age": 24,
@@ -10706,7 +11062,8 @@
       "id": "shepherd-ju-peter",
       "name": "Shepherd Ju Peter",
       "aliases": [
-        "Saint Shepherd Ju Peter"
+        "Saint Shepherd Ju Peter",
+        "Shepādo Jū Pītā Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -10864,7 +11221,9 @@
     {
       "id": "shiryu",
       "name": "Shiryu",
-      "aliases": [],
+      "aliases": [
+        "Shiliew"
+      ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
         "Impel Down"
@@ -10920,7 +11279,8 @@
       "id": "shoujou",
       "name": "Shoujou",
       "aliases": [
-        "Shōjō"
+        "Shōjō",
+        "Shojoe"
       ],
       "affiliation": "Ligue des Primates",
       "sub_affiliation": [],
@@ -10972,7 +11332,10 @@
       "id": "shyarly",
       "name": "Shyarly",
       "aliases": [
-        "Madame Shyarly"
+        "Madame Shyarly",
+        "Sharley",
+        "Shirley",
+        "Shārī"
       ],
       "affiliation": "Mermaid Café",
       "sub_affiliation": [],
@@ -10998,7 +11361,8 @@
       "name": "Silvers Rayleigh",
       "aliases": [
         "Roi des Ténèbres",
-        "Bras droit du Roi des Pirates"
+        "Bras droit du Roi des Pirates",
+        "Shirubāzu Reirī"
       ],
       "affiliation": "Équipage de Roger",
       "sub_affiliation": [],
@@ -11051,7 +11415,9 @@
       "id": "smoker",
       "name": "Smoker",
       "aliases": [
-        "Chasseur blanc"
+        "Chasseur blanc",
+        "Chaser",
+        "Sumōkā"
       ],
       "affiliation": "Marine",
       "sub_affiliation": [
@@ -11080,7 +11446,9 @@
     {
       "id": "spandam",
       "name": "Spandam",
-      "aliases": [],
+      "aliases": [
+        "Supandamu"
+      ],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [
         "CP0",
@@ -11132,7 +11500,9 @@
     {
       "id": "speed",
       "name": "Speed",
-      "aliases": [],
+      "aliases": [
+        "Supīdo"
+      ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
         "Alliance des Ninjas-Pirates-Minks-Samouraïs"
@@ -11160,7 +11530,8 @@
       "id": "squard",
       "name": "Squard",
       "aliases": [
-        "L'Araignée des Maelstrom"
+        "L'Araignée des Maelstrom",
+        "Sukuādo"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
@@ -11211,7 +11582,9 @@
     {
       "id": "stansen",
       "name": "Stansen",
-      "aliases": [],
+      "aliases": [
+        "Sutansen"
+      ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
         "Nouvel Équipage des Géants",
@@ -11239,7 +11612,8 @@
       "name": "Stella",
       "aliases": [
         "Vegapunk",
-        "Dr. Vegapunk"
+        "Dr. Vegapunk",
+        "Dokutā Begapanku"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -11268,7 +11642,8 @@
       "id": "sterry",
       "name": "Sterry",
       "aliases": [
-        "Suterī"
+        "Suterī",
+        "Stelly"
       ],
       "affiliation": "Royaume de Goa",
       "sub_affiliation": [],
@@ -11318,7 +11693,8 @@
       "id": "streusen",
       "name": "Streusen",
       "aliases": [
-        "Chevalier Gourmet"
+        "Chevalier Gourmet",
+        "Shutoroizen"
       ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
@@ -11345,7 +11721,8 @@
       "id": "stussy",
       "name": "Stussy",
       "aliases": [
-        "Reine des Quartiers de Plaisir"
+        "Reine des Quartiers de Plaisir",
+        "Sutyūshī"
       ],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [
@@ -11376,7 +11753,9 @@
     {
       "id": "sugar",
       "name": "Sugar",
-      "aliases": [],
+      "aliases": [
+        "Shugā"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 22,
@@ -11400,7 +11779,8 @@
       "id": "suleiman",
       "name": "Suleiman",
       "aliases": [
-        "Le Briseur de Nuques"
+        "Le Briseur de Nuques",
+        "Sureiman"
       ],
       "affiliation": "Équipage de Cavendish",
       "sub_affiliation": [
@@ -11480,7 +11860,9 @@
     {
       "id": "tamanegi",
       "name": "Tamanegi",
-      "aliases": [],
+      "aliases": [
+        "Onion"
+      ],
       "affiliation": "Équipage d'Usopp",
       "sub_affiliation": [],
       "age": 9,
@@ -11531,7 +11913,9 @@
     {
       "id": "tilestone",
       "name": "Tilestone",
-      "aliases": [],
+      "aliases": [
+        "Tairusuton"
+      ],
       "affiliation": "Galley-La Company",
       "sub_affiliation": [],
       "age": 33,
@@ -11579,7 +11963,9 @@
     {
       "id": "tom",
       "name": "Tom",
-      "aliases": [],
+      "aliases": [
+        "Tomu"
+      ],
       "affiliation": "Tom's Workers",
       "sub_affiliation": [],
       "age": 67,
@@ -11627,7 +12013,9 @@
     {
       "id": "tony-tony-chopper",
       "name": "Tony Tony Chopper",
-      "aliases": [],
+      "aliases": [
+        "Tonī Tonī Choppā"
+      ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
         "Grande Flotte du Chapeau de Paille",
@@ -11656,7 +12044,8 @@
       "id": "topman-warcury",
       "name": "Topman Warcury",
       "aliases": [
-        "Saint Topman Warcury"
+        "Saint Topman Warcury",
+        "Toppuman Wōkyurī Sei"
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
@@ -11687,7 +12076,8 @@
       "id": "trafalgar-d-water-law",
       "name": "Trafalgar D. Water Law",
       "aliases": [
-        "Chirurgien de la mort"
+        "Chirurgien de la mort",
+        "Torafarugā Dī Wāteru Rō"
       ],
       "affiliation": "Équipage du Heart",
       "sub_affiliation": [
@@ -11721,7 +12111,9 @@
     {
       "id": "trebol",
       "name": "Trébol",
-      "aliases": [],
+      "aliases": [
+        "Torēboru"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 49,
@@ -11776,7 +12168,8 @@
       "id": "turco",
       "name": "Turco",
       "aliases": [
-        "Toruko"
+        "Toruko",
+        "Turk"
       ],
       "affiliation": "Faux Équipage du Chapeau de Paille",
       "sub_affiliation": [],
@@ -11801,7 +12194,8 @@
       "id": "ulti",
       "name": "Ulti",
       "aliases": [
-        "Tobi Roppo"
+        "Tobi Roppo",
+        "Uruti"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -11831,7 +12225,8 @@
       "id": "urouge",
       "name": "Urouge",
       "aliases": [
-        "Moine fou"
+        "Moine fou",
+        "Urūji"
       ],
       "affiliation": "Équipage des Moines Dépravés",
       "sub_affiliation": [
@@ -11861,7 +12256,8 @@
       "aliases": [
         "Sogeking",
         "God Usopp",
-        "Capitaine Usopp"
+        "Capitaine Usopp",
+        "Usoppu"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
@@ -11893,7 +12289,10 @@
       "id": "van-augur",
       "name": "Van Augur",
       "aliases": [
-        "Le Supersonique"
+        "Le Supersonique",
+        "Van Ogre",
+        "Van Auger",
+        "Van Ōgā"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [],
@@ -11917,7 +12316,9 @@
     {
       "id": "vander-decken-ix",
       "name": "Vander Decken IX",
-      "aliases": [],
+      "aliases": [
+        "Bandā Dekken Kyūsei"
+      ],
       "affiliation": "Équipage des Pirates Volants",
       "sub_affiliation": [],
       "age": 35,
@@ -11941,7 +12342,8 @@
       "id": "vasco-shot",
       "name": "Vasco Shot",
       "aliases": [
-        "Le Roi de la Bibine"
+        "Le Roi de la Bibine",
+        "Basuko Shotto"
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
@@ -11968,7 +12370,8 @@
       "id": "vergo",
       "name": "Vergo",
       "aliases": [
-        "Le Démon au Bambou"
+        "Le Démon au Bambou",
+        "Verugo"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -12024,7 +12427,8 @@
       "id": "vinsmoke-ichiji",
       "name": "Vinsmoke Ichiji",
       "aliases": [
-        "Sparking Red"
+        "Sparking Red",
+        "Vinsumōku Ichiji"
       ],
       "affiliation": "Germa 66",
       "sub_affiliation": [
@@ -12082,7 +12486,8 @@
       "id": "vinsmoke-niji",
       "name": "Vinsmoke Niji",
       "aliases": [
-        "Electric Blue"
+        "Electric Blue",
+        "Vinsumōku Niji"
       ],
       "affiliation": "Germa 66",
       "sub_affiliation": [
@@ -12110,7 +12515,8 @@
       "id": "vinsmoke-reiju",
       "name": "Vinsmoke Reiju",
       "aliases": [
-        "Poison Pink"
+        "Poison Pink",
+        "Vinsumōku Reiju"
       ],
       "affiliation": "Germa 66",
       "sub_affiliation": [
@@ -12138,7 +12544,8 @@
       "id": "vinsmoke-yonji",
       "name": "Vinsmoke Yonji",
       "aliases": [
-        "Winch Green"
+        "Winch Green",
+        "Vinsumōku Yonji"
       ],
       "affiliation": "Germa 66",
       "sub_affiliation": [
@@ -12166,7 +12573,8 @@
       "id": "vista",
       "name": "Vista",
       "aliases": [
-        "L'épée fleurie"
+        "L'épée fleurie",
+        "Bisuta"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [],
@@ -12294,7 +12702,9 @@
     {
       "id": "wapol",
       "name": "Wapol",
-      "aliases": [],
+      "aliases": [
+        "Waporu"
+      ],
       "affiliation": "Équipage de Wapol",
       "sub_affiliation": [
         "Royaume de Black Drum",
@@ -12323,7 +12733,8 @@
       "id": "who-s-who",
       "name": "Who's-Who",
       "aliases": [
-        "Who la Goutelette"
+        "Who la Goutelette",
+        "Fūzu Fū"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
@@ -12356,7 +12767,9 @@
       "name": "Wiper",
       "aliases": [
         "Le Démon Furieux",
-        "Wyper"
+        "Wyper",
+        "Wyler",
+        "Waipā"
       ],
       "affiliation": "Shandia",
       "sub_affiliation": [
@@ -12384,7 +12797,8 @@
       "name": "X Drake",
       "aliases": [
         "Drapeau rouge",
-        "Supernova"
+        "Supernova",
+        "Diesu Dorēku"
       ],
       "affiliation": "Équipage de X. Barrels",
       "sub_affiliation": [
@@ -12454,7 +12868,8 @@
       "name": "Yarle",
       "aliases": [
         "Jarl à la Barbe en cime",
-        "Jarul"
+        "Jarul",
+        "Yaruru"
       ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
@@ -12479,7 +12894,8 @@
       "id": "yasopp",
       "name": "Yasopp",
       "aliases": [
-        "Le Chasseur"
+        "Le Chasseur",
+        "Yasoppu"
       ],
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
@@ -12530,7 +12946,9 @@
     {
       "id": "yeti-cool-brothers",
       "name": "Yeti Cool Brothers",
-      "aliases": [],
+      "aliases": [
+        "Ieti Kūru Burazāzu"
+      ],
       "affiliation": "César Clown",
       "sub_affiliation": [],
       "age": 25,
@@ -12553,7 +12971,9 @@
     {
       "id": "ylva",
       "name": "Ylva",
-      "aliases": [],
+      "aliases": [
+        "Iruva"
+      ],
       "affiliation": "École du Morse",
       "sub_affiliation": [],
       "age": 12,
@@ -12576,7 +12996,9 @@
     {
       "id": "york",
       "name": "York",
-      "aliases": [],
+      "aliases": [
+        "Yōku"
+      ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
         "Marine",
@@ -12605,7 +13027,8 @@
       "name": "Yorle",
       "aliases": [
         "Barbecade",
-        "Jorul"
+        "Jorul",
+        "Yoruru"
       ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [
@@ -12656,7 +13079,8 @@
       "name": "Zala",
       "aliases": [
         "Miss Doublefinger",
-        "L'Araignée Empoisonnée"
+        "L'Araignée Empoisonnée",
+        "Zara"
       ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
@@ -12682,7 +13106,9 @@
     {
       "id": "zambai",
       "name": "Zambai",
-      "aliases": [],
+      "aliases": [
+        "Zanbai"
+      ],
       "affiliation": "Galley-La Company",
       "sub_affiliation": [
         "Famille Franky"
@@ -12708,7 +13134,9 @@
       "id": "zeff",
       "name": "Zeff",
       "aliases": [
-        "Zeff aux Pieds Rouges"
+        "Zeff aux Pieds Rouges",
+        "Zef",
+        "Zefu"
       ],
       "affiliation": "Baratie",
       "sub_affiliation": [
@@ -12799,9 +13227,9 @@
     "hint1": 1,
     "hint2": 1,
     "hint3": 1,
-    "sub_affiliation": 0.6205250596658711,
-    "haki": 0.3221957040572792,
-    "devilFruitType": 0.3031026252983294,
+    "sub_affiliation": 0.6196172248803827,
+    "haki": 0.3229665071770335,
+    "devilFruitType": 0.3038277511961722,
     "imageUrl": 0
   }
 }
