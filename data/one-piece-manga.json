@@ -4281,9 +4281,9 @@
       "origin": "",
       "size": 211,
       "race": "Humain",
-      "hint1": "World Government (Donquixote Family)",
-      "hint2": "ドンキホーテ・ミョスガルド聖",
-      "hint3": "Inconnu",
+      "hint1": "Dragon Céleste",
+      "hint2": "Humain",
+      "hint3": "Marie-Joie",
       "firstAppearance": "Chapitre 625",
       "difficulty": "Impossible"
     },
@@ -5784,8 +5784,8 @@
       "size": 220,
       "race": "Homme-Poisson",
       "hint1": "Takoyaki 8",
-      "hint2": "はっちゃん",
-      "hint3": "Inconnu",
+      "hint2": "Homme-Poisson poulpe",
+      "hint3": "Île des Hommes-Poissons",
       "firstAppearance": "Chapitre 69",
       "difficulty": "Impossible"
     },
@@ -5802,13 +5802,15 @@
       "bounty": 100000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "origin": "",
       "size": 179,
       "race": "Humain",
-      "hint1": "Marines (Headquarters",
-      "hint2": "ヘルメッポ",
-      "hint3": "Inconnu",
+      "hint1": "Lieutenant-Commandant",
+      "hint2": "SWORD",
+      "hint3": "Armement",
       "firstAppearance": "Chapitre 3",
       "difficulty": "Impossible"
     },
@@ -7908,9 +7910,9 @@
       "origin": "",
       "size": 149,
       "race": "Minks",
-      "hint1": "Revolutionary Army (South Army)",
-      "hint2": "リンドバーグ",
-      "hint3": "Inconnu",
+      "hint1": "Commandant révolutionnaire",
+      "hint2": "Minks",
+      "hint3": "Zou",
       "firstAppearance": "Chapitre 904",
       "difficulty": "Impossible"
     },
@@ -8728,9 +8730,9 @@
       "origin": "",
       "size": 285,
       "race": "Humain",
-      "hint1": "Marines (153rd Branch)",
-      "hint2": "モーガン",
-      "hint3": "Inconnu",
+      "hint1": "Ancien capitaine de la Marine",
+      "hint2": "Morgan à la Hache",
+      "hint3": "Shells Town",
       "firstAppearance": "Chapitre 4",
       "difficulty": "Impossible"
     },
@@ -9594,13 +9596,15 @@
       "bounty": 330000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "origin": "",
       "size": 232,
       "race": "Minks",
-      "hint1": "Big Mom Pirates",
-      "hint2": "ペコムズ",
-      "hint3": "Inconnu",
+      "hint1": "Pirates de Big Mom",
+      "hint2": "Sulong",
+      "hint3": "Armement",
       "firstAppearance": "Chapitre 651",
       "difficulty": "Impossible"
     },
@@ -13211,7 +13215,7 @@
     "hint2": 0.9798792756539235,
     "hint3": 0.9798792756539235,
     "devilFruitType": 0.2676056338028169,
-    "haki": 0.2575452716297787,
+    "haki": 0.26156941649899396,
     "sub_affiliation": 0.2012072434607646,
     "imageUrl": 0
   }
