@@ -116,6 +116,17 @@ export function validate(src, vocab) {
       else if (faArc && arcs.includes(faArc) && get("arc") !== faArc)
         err(c.id, `arc « ${get("arc")} » incohérent avec ${fa} (${faArc})${tag}`);
 
+      // Saga = groupe de l'arc dans fieldMapping.arc.order.
+      let arcSaga = null;
+      for (const [saga, list] of Object.entries(arcOrder)) if (list.includes(get("arc"))) arcSaga = saga.replace(/^Saga /, "");
+      if (arcSaga && get("saga") !== arcSaga) err(c.id, `saga « ${get("saga")} » incohérente avec l'arc ${get("arc")} (${arcSaga})${tag}`);
+
+      // Fruit : liste vide si pas de fruit, au moins un nom sinon.
+      const fruit = get("devilFruit");
+      if (!Array.isArray(fruit)) err(c.id, `devilFruit doit être une liste${tag}`);
+      else if (empty(get("devilFruitType")) !== (fruit.length === 0))
+        err(c.id, `devilFruit ${JSON.stringify(fruit)} incohérent avec devilFruitType « ${get("devilFruitType")} »${tag}`);
+
       const sub = [].concat(get("sub_affiliation") ?? []);
       if (sub.includes(get("affiliation"))) err(c.id, "sub_affiliation répète l'affiliation principale");
     }
