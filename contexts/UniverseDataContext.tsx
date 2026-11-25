@@ -18,6 +18,8 @@ export interface UniverseDataContextValue {
   hintTiers: HintTierDef[];
   /** Guesses between successive auto-scheduled hints (universe JSON `hintInterval`, default 5). */
   hintInterval: number;
+  /** Indice visuel final (image floutée) activé pour cet univers. */
+  silhouetteHint: boolean;
   /** Remplacements pictos (public/universes/{id}/specific-symbols/). */
   specificSymbols: SpecificSymbolEntry[];
   fieldMapping: FieldMapping;
@@ -45,6 +47,7 @@ export function UniverseDataProvider({
       searchFieldKeys,
       hintTiers,
       hintInterval,
+      silhouetteHint: universeData.silhouetteHint === true,
       specificSymbols: universeData.specificSymbols ?? [],
       fieldMapping: universeData.fieldMapping ?? {},
     };

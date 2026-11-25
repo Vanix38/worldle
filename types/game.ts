@@ -135,6 +135,11 @@ export interface UniverseData {
    * Default: 5 (1st at 5, 2nd at 10, …). Applies to any number of Indice fields.
    */
   hintInterval?: number;
+  /**
+   * Ajoute un dernier indice visuel : l'image du perso, floutée, débloquée un palier
+   * après le dernier indice texte. Affiché seulement si le perso a une image.
+   */
+  silhouetteHint?: boolean;
   /** Set by server when public/universes/[id]/background.webp|.png|.jpg exists */
   backgroundImage?: string;
   schema?: AttributeSchemaEntry[];
