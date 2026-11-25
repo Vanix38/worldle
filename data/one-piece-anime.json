@@ -4825,7 +4825,7 @@
       "size": 240,
       "race": [
         "Humain",
-        "Cyborg"
+        "Robot"
       ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Humain",
@@ -8681,7 +8681,7 @@
       "size": 522,
       "race": [
         "Minks",
-        "Cyborg"
+        "Robot"
       ],
       "hint1": "Principauté de Mokomo",
       "hint2": "Cyborg",
@@ -9583,7 +9583,7 @@
       "size": 612,
       "race": [
         "Humain",
-        "Cyborg"
+        "Robot"
       ],
       "hint1": "Beasts Pirates",
       "hint2": "クイーン",
