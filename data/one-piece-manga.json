@@ -1438,9 +1438,7 @@
       ],
       "affiliation": "Équipage de Gecko Moria",
       "sub_affiliation": [
-        "Thriller Bark",
-        "Quatre Mystérieux",
-        "Zombies"
+        "Quatre Mystérieux"
       ],
       "age": 34,
       "arc": "Thriller Bark",
@@ -1507,7 +1505,7 @@
       "aliases": [],
       "affiliation": "Équipage des Pirates du Soleil",
       "sub_affiliation": [
-        "Équipage de Big Mom"
+        "Royaume Ryugu"
       ],
       "age": 46,
       "arc": "Fishman Island",
@@ -1562,6 +1560,8 @@
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
+        "Équipage du Clown",
+        "Les Pirates d'Expédition",
         "Alliance Baggy et Alvida",
         "Équipage d'Alvida"
       ],
@@ -1634,7 +1634,8 @@
       ],
       "affiliation": "Équipage d'Arlong",
       "sub_affiliation": [
-        "Équipage des Pirates du Soleil"
+        "Équipage des Pirates du Soleil",
+        "Impel Down"
       ],
       "age": 39,
       "arc": "Arlong Park",
@@ -1686,9 +1687,7 @@
       ],
       "affiliation": "Équipage de Barbe Noire",
       "sub_affiliation": [
-        "Impel Down",
-        "La ruche",
-        "L'île des pirates"
+        "Impel Down"
       ],
       "age": 40,
       "arc": "Marineford",
@@ -1759,7 +1758,8 @@
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Flotte de Happou",
-        "Marine des huit trésors"
+        "Famille Chinjao",
+        "Grande Flotte du Chapeau de Paille"
       ],
       "age": 24,
       "arc": "Punk Hazard",
@@ -1790,11 +1790,12 @@
       "affiliation": "Cross Guild",
       "sub_affiliation": [
         "Quatre Empereurs",
-        "Alliance Baggy et Alvida",
         "Équipage du Clown",
-        "Sept Grands Corsaires",
         "Les Pirates d'Expédition",
-        "Équipage de Roger"
+        "Alliance Baggy et Alvida",
+        "Sept Grands Corsaires",
+        "Équipage de Roger",
+        "Impel Down"
       ],
       "age": 37,
       "arc": "Orange Town",
@@ -1842,9 +1843,10 @@
       ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
+        "Combattants de la Liberté",
+        "Pacifista",
         "Sept Grands Corsaires",
-        "Père de Bonney",
-        "Armée Révolutionnaire"
+        "Royaume de Sorbet"
       ],
       "age": 45,
       "arc": "Jaya",
@@ -1899,6 +1901,7 @@
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
+        "Équipage de Hawkins",
         "Supernova",
         "Génération Terrible"
       ],
@@ -1953,9 +1956,7 @@
         "Le Trancheur de Requins"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [
-        "Vice-Amiral"
-      ],
+      "sub_affiliation": [],
       "age": 36,
       "arc": "Marineford",
       "bounty": 500000000,
@@ -2033,7 +2034,9 @@
       "name": "Belo Betty",
       "aliases": [],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Armée de l'Est"
+      ],
       "age": 32,
       "arc": "Whole Cake",
       "bounty": 457000000,
@@ -2109,9 +2112,6 @@
       ],
       "affiliation": "Baroque Works",
       "sub_affiliation": [
-        "Impel Down",
-        "Kedétrav",
-        "New comer Land",
         "Newkama Land"
       ],
       "age": 30,
@@ -2135,9 +2135,6 @@
       "aliases": [],
       "affiliation": "Équipage du Heart",
       "sub_affiliation": [
-        "Tribu des Minks",
-        "Zou",
-        "Zo",
         "Alliance des Ninjas-Pirates-Minks-Samouraïs"
       ],
       "age": 20,
@@ -2181,7 +2178,10 @@
       "name": "Bishamon",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi",
+        "Famille Kurozumi"
+      ],
       "age": 28,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -2203,8 +2203,7 @@
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [
-        "Tobiroppo",
-        "Tobi Roppo"
+        "Tobiroppo"
       ],
       "age": 29,
       "arc": "Wano Kuni",
@@ -2295,9 +2294,8 @@
       "aliases": [],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [
-        "CP-AIGIS9",
-        "CP9",
-        "Cipher Pol"
+        "CP0",
+        "CP9"
       ],
       "age": 30,
       "arc": "Water Seven",
@@ -2327,7 +2325,7 @@
       ],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
-        "Amazon Lily",
+        "Sœurs Gorgones",
         "Sept Grands Corsaires"
       ],
       "age": 29,
@@ -2355,7 +2353,7 @@
       "aliases": [],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
-        "Amazon Lily"
+        "Sœurs Gorgones"
       ],
       "age": 26,
       "arc": "Amazon Lily",
@@ -2381,7 +2379,7 @@
       "aliases": [],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
-        "Amazon Lily"
+        "Sœurs Gorgones"
       ],
       "age": 28,
       "arc": "Amazon Lily",
@@ -2432,9 +2430,7 @@
         "Kizaru le Singe Jaune"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [
-        "Amiral"
-      ],
+      "sub_affiliation": [],
       "age": 56,
       "arc": "Archipel Sabaody",
       "bounty": 3000000000,
@@ -2483,7 +2479,9 @@
         "Burahamu"
       ],
       "affiliation": "Shandia",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Gardes de Dieu"
+      ],
       "age": 22,
       "arc": "Skypiea",
       "bounty": 0,
@@ -2504,9 +2502,7 @@
       "name": "Brannew",
       "aliases": [],
       "affiliation": "Marine",
-      "sub_affiliation": [
-        "Contre-Amiral"
-      ],
+      "sub_affiliation": [],
       "age": 54,
       "arc": "Logue Town",
       "bounty": 300000000,
@@ -2556,7 +2552,10 @@
       ],
       "affiliation": "Équipage du Chapeau de Paille",
       "sub_affiliation": [
-        "Équipage de Rumbar"
+        "Grande Flotte du Chapeau de Paille",
+        "Équipage du Rumbar",
+        "Battle Convoy",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
       ],
       "age": 38,
       "arc": "Thriller Bark",
@@ -2674,6 +2673,8 @@
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
+        "Les Pirates d'Expédition",
+        "Alliance Baggy et Alvida",
         "Équipage du Clown"
       ],
       "age": 32,
@@ -2698,7 +2699,10 @@
         "Keimī"
       ],
       "affiliation": "Takoyaki 8",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Mermaid Café",
+        "Marque Criminal"
+      ],
       "age": 16,
       "arc": "Archipel Sabaody",
       "bounty": 0,
@@ -2775,7 +2779,10 @@
         "Cheveux mouillés"
       ],
       "affiliation": "Équipage de Caribou",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Faux Équipage du Chapeau de Paille",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 32,
       "arc": "Fishman Island",
       "bounty": 210000000,
@@ -2846,7 +2853,9 @@
       ],
       "affiliation": "Tribu des Minks",
       "sub_affiliation": [
-        "Unité des mousquetaires"
+        "Principauté de Mokomo",
+        "Mousquetaires d'Inuarashi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
       ],
       "age": 15,
       "arc": "Zou",
@@ -2898,7 +2907,8 @@
       ],
       "affiliation": "Grande Flotte du Chapeau de Paille",
       "sub_affiliation": [
-        "Équipage de Cavendish"
+        "Équipage de Cavendish",
+        "Royaume Bourgeois"
       ],
       "age": 26,
       "arc": "Dressrosa",
@@ -2928,7 +2938,9 @@
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
-        "Mads"
+        "NEO MADS",
+        "Marine",
+        "MADS"
       ],
       "age": 55,
       "arc": "Punk Hazard",
@@ -2952,7 +2964,9 @@
         "Barbe Brune"
       ],
       "affiliation": "Équipage de Barbe Brune",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Patrouille des Centaures"
+      ],
       "age": 43,
       "arc": "Marineford",
       "bounty": 80060000,
@@ -2996,7 +3010,9 @@
         "Shārotto Enzeru"
       ],
       "affiliation": "Famille Charlotte",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Big Mom"
+      ],
       "age": 45,
       "arc": "Whole Cake",
       "bounty": "?",
@@ -3019,7 +3035,9 @@
         "Shārotto Burowaie"
       ],
       "affiliation": "Famille Charlotte",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Big Mom"
+      ],
       "age": 43,
       "arc": "Whole Cake",
       "bounty": "?",
@@ -3064,8 +3082,8 @@
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
-        "Famille Charlotte",
-        "Équipage du Fire Tank"
+        "Équipage du Fire Tank",
+        "Famille Charlotte"
       ],
       "age": 26,
       "arc": "Whole Cake",
@@ -3118,7 +3136,9 @@
         "Shārotto Kasutādo"
       ],
       "affiliation": "Famille Charlotte",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Big Mom"
+      ],
       "age": 45,
       "arc": "Whole Cake",
       "bounty": "?",
@@ -3218,7 +3238,8 @@
       ],
       "affiliation": "Équipage du Rolling",
       "sub_affiliation": [
-        "Famille Charlotte"
+        "Famille Charlotte",
+        "Association des Victimes de Thriller Bark"
       ],
       "age": 24,
       "arc": "Thriller Bark",
@@ -3243,9 +3264,9 @@
       ],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
-        "Famille Charlotte",
+        "Équipage de Rocks",
         "Quatre Empereurs",
-        "Équipage des Rocks"
+        "Famille Charlotte"
       ],
       "age": 68,
       "arc": "Fishman Island",
@@ -3347,6 +3368,7 @@
       "aliases": [],
       "affiliation": "Équipage de Big Mom",
       "sub_affiliation": [
+        "Équipage des Pirates du Soleil",
         "Famille Charlotte"
       ],
       "age": 29,
@@ -3423,7 +3445,9 @@
         "Shārotto Sunakku"
       ],
       "affiliation": "Famille Charlotte",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Big Mom"
+      ],
       "age": 30,
       "arc": "Whole Cake",
       "bounty": 600000000,
@@ -3446,7 +3470,10 @@
       "name": "Chess",
       "aliases": [],
       "affiliation": "Équipage de Wapol",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage du Bliking",
+        "Royaume de Drum"
+      ],
       "age": 30,
       "arc": "Drum Island",
       "bounty": "?",
@@ -3469,7 +3496,9 @@
         "Chū"
       ],
       "affiliation": "Équipage d'Arlong",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage des Pirates du Soleil"
+      ],
       "age": 33,
       "arc": "Arlong Park",
       "bounty": 5500000,
@@ -3515,8 +3544,9 @@
       ],
       "affiliation": "Gang du Pays des Fleurs (Famille Chinjao)",
       "sub_affiliation": [
+        "Famille Chinjao",
         "Flotte de Happou",
-        "Marine des huit trésors"
+        "Grande Flotte du Chapeau de Paille"
       ],
       "age": 78,
       "arc": "Dressrosa",
@@ -3565,7 +3595,10 @@
       "name": "Chome",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi",
+        "Famille Kurozumi"
+      ],
       "age": 14,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -3609,7 +3642,9 @@
         "Kurau Dī Kurōbā"
       ],
       "affiliation": "Archéologues d'Ohara",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan des D."
+      ],
       "age": 0,
       "arc": "Enies Lobby",
       "bounty": 0,
@@ -3676,7 +3711,10 @@
         "Konsurotto"
       ],
       "affiliation": "Principauté de Mokomo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Mousquetaires d'Inuarashi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 29,
       "arc": "Zou",
       "bounty": 0,
@@ -3697,7 +3735,9 @@
       "name": "Conis",
       "aliases": [],
       "affiliation": "Skypiea",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Pumpkin Café"
+      ],
       "age": 19,
       "arc": "Skypiea",
       "bounty": 0,
@@ -3720,7 +3760,9 @@
         "Coribou L'Arroseur Sanguinaire"
       ],
       "affiliation": "Équipage de Caribou",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Faux Équipage du Chapeau de Paille"
+      ],
       "age": 29,
       "arc": "Fishman Island",
       "bounty": 190000000,
@@ -3768,7 +3810,9 @@
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
-        "Sept Grands Corsaires"
+        "Sept Grands Corsaires",
+        "Baroque Works",
+        "Impel Down"
       ],
       "age": 44,
       "arc": "Little Garden",
@@ -3816,7 +3860,9 @@
       "name": "Curly Dadan",
       "aliases": [],
       "affiliation": "Bandits",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Dadan"
+      ],
       "age": 53,
       "arc": "Marineford",
       "bounty": 7800000,
@@ -3837,7 +3883,10 @@
       "name": "Daikoku",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi",
+        "Famille Kurozumi"
+      ],
       "age": 42,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -3904,7 +3953,9 @@
         "Dazu Bōnesu"
       ],
       "affiliation": "Cross Guild",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Baroque Works"
+      ],
       "age": 29,
       "arc": "Alabasta",
       "bounty": 75000000,
@@ -3997,7 +4048,12 @@
         "Kyoshiro"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Neuf Fourreaux Rouges",
+        "Famille Kyoshiro",
+        "Famille Kurozumi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 47,
       "arc": "Wano Kuni",
       "bounty": "?",
@@ -4070,7 +4126,9 @@
       "name": "Doll",
       "aliases": [],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "G-14"
+      ],
       "age": 28,
       "arc": "Egghead",
       "bounty": 500000000,
@@ -4097,7 +4155,11 @@
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
-        "Équipage des Cent Bêtes"
+        "Impel Down",
+        "Pègre",
+        "Gouvernement Mondial",
+        "Sept Grands Corsaires",
+        "Royaume de Dressrosa"
       ],
       "age": 39,
       "arc": "Jaya",
@@ -4129,7 +4191,7 @@
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
         "Marine",
-        "Marines"
+        "Gouvernement Mondial"
       ],
       "age": 26,
       "arc": "Dressrosa",
@@ -4153,7 +4215,9 @@
         "Donkihōte Myosugarudo Sei"
       ],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Don Quichotte"
+      ],
       "age": 25,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -4244,7 +4308,7 @@
       ],
       "affiliation": "Cross Guild",
       "sub_affiliation": [
-        "Shichibukai"
+        "Sept Grands Corsaires"
       ],
       "age": 41,
       "arc": "Baratie",
@@ -4296,7 +4360,9 @@
         "Drophy la Tombeuse de Villes"
       ],
       "affiliation": "Baroque Works",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Spiders Café"
+      ],
       "age": 49,
       "arc": "Alabasta",
       "bounty": 14000000,
@@ -4392,6 +4458,7 @@
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [
+        "Équipage de Rocks",
         "Quatre Empereurs"
       ],
       "age": 72,
@@ -4421,7 +4488,9 @@
         "Weeble"
       ],
       "affiliation": "Grand corsaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Sept Grands Corsaires"
+      ],
       "age": 35,
       "arc": "Zou",
       "bounty": 480000000,
@@ -4516,9 +4585,8 @@
       ],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
+        "Combattants de la Liberté",
         "Kedétrav",
-        "Impel Down",
-        "New comer Land",
         "Newkama Land"
       ],
       "age": 51,
@@ -4544,7 +4612,9 @@
         "Dieu du ciel"
       ],
       "affiliation": "Skypiea",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan d'Ener"
+      ],
       "age": 37,
       "arc": "Skypiea",
       "bounty": 0,
@@ -4570,7 +4640,10 @@
         "Seigneur de guerre"
       ],
       "affiliation": "Équipage de Gecko Moria",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Quatre Mystérieux",
+        "Sept Grands Corsaires"
+      ],
       "age": 48,
       "arc": "Thriller Bark",
       "bounty": 320000000,
@@ -4638,7 +4711,8 @@
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Cinq Sages"
+        "Cinq Sages",
+        "Nobles Mondiaux"
       ],
       "age": 200,
       "arc": "Jaya",
@@ -4667,6 +4741,7 @@
       ],
       "affiliation": "Équipage de Kid",
       "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
         "Supernova",
         "Génération Terrible"
       ],
@@ -4698,7 +4773,9 @@
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
         "Cinq Sages",
-        "Chevaliers de Dieu"
+        "Chevaliers de Dieu",
+        "Nobles Mondiaux",
+        "Famille Figarland"
       ],
       "age": 58,
       "arc": "Egghead",
@@ -4723,7 +4800,8 @@
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
-        "Nobles Mondiaux"
+        "Nobles Mondiaux",
+        "Famille Figarland"
       ],
       "age": 39,
       "arc": "Whole Cake",
@@ -4748,7 +4826,9 @@
         "Le Héros des Esclaves"
       ],
       "affiliation": "Équipage des Pirates du Soleil",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Île des Hommes-Poissons"
+      ],
       "age": 48,
       "arc": "Amazon Lily",
       "bounty": 230000000,
@@ -4797,7 +4877,12 @@
         "Charpentier"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Famille Franky",
+        "Tom's Workers",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 34,
       "arc": "Water Seven",
       "bounty": 394000000,
@@ -4818,7 +4903,9 @@
       "name": "Fukaboshi",
       "aliases": [],
       "affiliation": "Famille royale Ryugu",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume Ryugu"
+      ],
       "age": 24,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -4842,7 +4929,10 @@
         "Fukurou"
       ],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "CP9"
+      ],
       "age": 29,
       "arc": "Enies Lobby",
       "bounty": 0,
@@ -4866,7 +4956,11 @@
       "name": "Fukurokuju",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Kurozumi",
+        "Oniwabanshu d'Orochi",
+        "Famille Kozuki"
+      ],
       "age": 61,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -4936,7 +5030,12 @@
         "Homme bougie"
       ],
       "affiliation": "Cross Guild",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage du Clown",
+        "Les Pirates d'Expédition",
+        "Alliance Baggy et Alvida",
+        "Baroque Works"
+      ],
       "age": 35,
       "arc": "Little Garden",
       "bounty": 24000000,
@@ -5003,7 +5102,7 @@
       "aliases": [],
       "affiliation": "Équipage de Rocks",
       "sub_affiliation": [
-        "Équipage de Thriller Bark"
+        "Équipage de Gecko Moria"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -5053,7 +5152,9 @@
         "Gem de la Frontière"
       ],
       "affiliation": "Baroque Works",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Spiders Café"
+      ],
       "age": 24,
       "arc": "Whisky Peak",
       "bounty": 10000000,
@@ -5098,7 +5199,8 @@
       ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
-        "Grand Fleet du Chapeau de Paille"
+        "Nouvel Équipage des Géants",
+        "Grande Flotte du Chapeau de Paille"
       ],
       "age": 75,
       "arc": "Whole Cake",
@@ -5121,7 +5223,7 @@
       "aliases": [],
       "affiliation": "Équipage de Rocks",
       "sub_affiliation": [
-        "Équipage de Thriller Bark"
+        "Équipage de Gecko Moria"
       ],
       "age": 0,
       "arc": "Thriller Bark",
@@ -5166,7 +5268,8 @@
       "aliases": [],
       "affiliation": "Armée Révolutionnaire",
       "sub_affiliation": [
-        "Armée de l'Est"
+        "Armée de l'Est",
+        "Combattants de la Liberté"
       ],
       "age": 39,
       "arc": "Egghead",
@@ -5190,7 +5293,10 @@
         "Joban'ni"
       ],
       "affiliation": "Principauté de Mokomo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Mousquetaires d'Inuarashi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 30,
       "arc": "Zou",
       "bounty": 0,
@@ -5235,7 +5341,6 @@
       ],
       "affiliation": "Pirates Kuja",
       "sub_affiliation": [
-        "Équipage des Pirates Kuja",
         "Équipage de Rocks"
       ],
       "age": 0,
@@ -5261,7 +5366,9 @@
         "Le Roi des Pirates"
       ],
       "affiliation": "Équipage de Roger",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan des D."
+      ],
       "age": 53,
       "arc": "Romance Dawn",
       "bounty": 5564800000,
@@ -5287,7 +5394,8 @@
       "aliases": [],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
-        "Grand Fleet du Chapeau de Paille"
+        "Nouvel Équipage des Géants",
+        "Grande Flotte du Chapeau de Paille"
       ],
       "age": 63,
       "arc": "Whole Cake",
@@ -5361,7 +5469,8 @@
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
-        "Nobles Mondiaux"
+        "Nobles Mondiaux",
+        "Famille Manmayer"
       ],
       "age": 77,
       "arc": "Elbaph",
@@ -5429,7 +5538,10 @@
         "Jaguar D. Saul"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "École du Morse",
+        "Clan des D."
+      ],
       "age": 105,
       "arc": "Enies Lobby",
       "bounty": 500000000,
@@ -5455,7 +5567,11 @@
         "Le Pirate Mercenaire"
       ],
       "affiliation": "Les Pirates d'Expédition",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Nouvel Équipage des Géants",
+        "Grande Flotte du Chapeau de Paille",
+        "Famille royale d'Erbaf"
+      ],
       "age": 81,
       "arc": "Dressrosa",
       "bounty": "?",
@@ -5476,7 +5592,9 @@
       "name": "Hannyabal",
       "aliases": [],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Impel Down"
+      ],
       "age": 33,
       "arc": "Impel Down",
       "bounty": 0,
@@ -5497,7 +5615,9 @@
       "name": "Hanzo",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi"
+      ],
       "age": 42,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -5565,7 +5685,10 @@
       "name": "Hatchan",
       "aliases": [],
       "affiliation": "Takoyaki 8",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage d'Arlong",
+        "Équipage des Pirates du Soleil"
+      ],
       "age": 36,
       "arc": "Arlong Park",
       "bounty": 8000000,
@@ -5588,7 +5711,9 @@
         "Herumeppo"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "SWORD"
+      ],
       "age": 20,
       "arc": "Romance Dawn",
       "bounty": 100000000,
@@ -5634,7 +5759,9 @@
       "name": "Hibari",
       "aliases": [],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "SWORD"
+      ],
       "age": 17,
       "arc": "Egghead",
       "bounty": 200000000,
@@ -5726,7 +5853,9 @@
         "Hina la Dame de Fer"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Escadron de la Cage Noire"
+      ],
       "age": 32,
       "arc": "Alabasta",
       "bounty": 300000000,
@@ -5747,7 +5876,9 @@
       "name": "Hody Jones",
       "aliases": [],
       "affiliation": "Nouvel Équipage des Hommes-Poissons",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume Ryugu"
+      ],
       "age": 30,
       "arc": "Fishman Island",
       "bounty": "?",
@@ -5768,7 +5899,9 @@
       "name": "Hogback",
       "aliases": [],
       "affiliation": "Équipage de Gecko Moria",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Quatre Mystérieux"
+      ],
       "age": 45,
       "arc": "Thriller Bark",
       "bounty": "?",
@@ -5815,7 +5948,9 @@
         "Hyōgorō"
       ],
       "affiliation": "Famille Hyougoro",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 70,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -5864,7 +5999,10 @@
         "Icebarg"
       ],
       "affiliation": "Galley-La Company",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Water 7",
+        "Tom's Workers"
+      ],
       "age": 40,
       "arc": "Water Seven",
       "bounty": 0,
@@ -5886,9 +6024,7 @@
       "name": "Ida",
       "aliases": [],
       "affiliation": "Erbaf",
-      "sub_affiliation": [
-        "Village des Pêcheurs"
-      ],
+      "sub_affiliation": [],
       "age": 0,
       "arc": "Elbaph",
       "bounty": 0,
@@ -5911,7 +6047,9 @@
         "Le Canon Destructeur"
       ],
       "affiliation": "Équipage d'Ideo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille"
+      ],
       "age": 22,
       "arc": "Dressrosa",
       "bounty": "?",
@@ -5959,8 +6097,8 @@
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Premiers Vingt",
-        "Famille Nerona"
+        "Famille Nerona",
+        "Premiers Vingt"
       ],
       "age": 800,
       "arc": "Whole Cake",
@@ -5987,7 +6125,11 @@
         "Crabe-chan"
       ],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Kedétrav",
+        "Newkama Land",
+        "Impel Down"
+      ],
       "age": 27,
       "arc": "Impel Down",
       "bounty": 100000000,
@@ -6011,7 +6153,14 @@
         "Le Roi de l'Aurore"
       ],
       "affiliation": "Principauté de Mokomo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Mousquetaires d'Inuarashi",
+        "Famille Kozuki",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Neuf Fourreaux Rouges",
+        "Équipage de Roger",
+        "Équipage de Barbe Blanche"
+      ],
       "age": 40,
       "arc": "Zou",
       "bounty": 0,
@@ -6127,7 +6276,10 @@
       "name": "Izou",
       "aliases": [],
       "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Kozuki",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 43,
       "arc": "Marineford",
       "bounty": 510000000,
@@ -6151,7 +6303,10 @@
       "name": "Jabra",
       "aliases": [],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "CP9"
+      ],
       "age": 35,
       "arc": "Enies Lobby",
       "bounty": 0,
@@ -6177,7 +6332,9 @@
         "Jack la Sécheresse"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Calamités"
+      ],
       "age": 28,
       "arc": "Dressrosa",
       "bounty": 1000000000,
@@ -6201,7 +6358,9 @@
       "name": "Jango",
       "aliases": [],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage du Chat Noir"
+      ],
       "age": 27,
       "arc": "Syrup Village",
       "bounty": 1000000,
@@ -6225,7 +6384,8 @@
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Cinq Sages"
+        "Cinq Sages",
+        "Nobles Mondiaux"
       ],
       "age": 200,
       "arc": "Jaya",
@@ -6304,7 +6464,10 @@
         "Conney"
       ],
       "affiliation": "Équipage de Bonney",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 10,
       "arc": "Archipel Sabaody",
       "bounty": 320000000,
@@ -6327,7 +6490,10 @@
       "name": "Jigoku Benten",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi",
+        "Famille Kurozumi"
+      ],
       "age": 21,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -6350,7 +6516,14 @@
         "Chevalier des mers"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Équipage des Pirates du Soleil",
+        "Sept Grands Corsaires",
+        "Royaume Ryugu",
+        "Impel Down",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 44,
       "arc": "Impel Down",
       "bounty": 1100000000,
@@ -6398,7 +6571,7 @@
       ],
       "affiliation": "Équipage de Rocks",
       "sub_affiliation": [
-        "Équipage de Thriller Bark"
+        "Équipage de Gecko Moria"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -6519,7 +6692,10 @@
         "Ogre des cent bêtes"
       ],
       "affiliation": "Équipage de Rocks",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage aux Cent Bêtes",
+        "Quatre Empereurs"
+      ],
       "age": 59,
       "arc": "Dressrosa",
       "bounty": 4611100000,
@@ -6546,7 +6722,11 @@
         "Le Vent de la Montagne"
       ],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "CP9",
+        "Galley-La Company"
+      ],
       "age": 23,
       "arc": "Water Seven",
       "bounty": "?",
@@ -6595,7 +6775,11 @@
       "name": "Kalifa",
       "aliases": [],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "CP9",
+        "Galley-La Company"
+      ],
       "age": 25,
       "arc": "Water Seven",
       "bounty": 0,
@@ -6621,7 +6805,9 @@
         "Corbeau"
       ],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Armée du Nord"
+      ],
       "age": 45,
       "arc": "Marineford",
       "bounty": 400000000,
@@ -6668,7 +6854,11 @@
         "Kaloo"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume d'Alabasta",
+        "Super Canards",
+        "Baroque Works"
+      ],
       "age": 14,
       "arc": "Whisky Peak",
       "bounty": 0,
@@ -6689,7 +6879,9 @@
       "name": "Kashii",
       "aliases": [],
       "affiliation": "Équipage des Géants",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Gouvernement Mondial"
+      ],
       "age": 156,
       "arc": "Enies Lobby",
       "bounty": "?",
@@ -6713,7 +6905,8 @@
       ],
       "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
       "sub_affiliation": [
-        "Neuf Écarlates"
+        "Famille Kozuki",
+        "Neuf Fourreaux Rouges"
       ],
       "age": 41,
       "arc": "Wano Kuni",
@@ -6739,7 +6932,9 @@
       "name": "Kazekage",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi"
+      ],
       "age": 43,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -6832,7 +7027,8 @@
       ],
       "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
       "sub_affiliation": [
-        "Neuf Écarlates"
+        "Famille Kozuki",
+        "Neuf Fourreaux Rouges"
       ],
       "age": 22,
       "arc": "Wano Kuni",
@@ -6862,7 +7058,12 @@
         "Onze Supernovae"
       ],
       "affiliation": "Équipage de Kid",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Kurozumi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 25,
       "arc": "Archipel Sabaody",
       "bounty": 200000000,
@@ -6888,7 +7089,10 @@
         "Kinemon le Renard à la Flamme"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Neuf Fourreaux Rouges"
+      ],
       "age": 36,
       "arc": "Punk Hazard",
       "bounty": "?",
@@ -6912,7 +7116,9 @@
       "name": "Koala",
       "aliases": [],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage des Pirates du Soleil"
+      ],
       "age": 23,
       "arc": "Fishman Island",
       "bounty": "?",
@@ -6936,7 +7142,10 @@
         "Kobby"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "SWORD",
+        "Équipage d'Alvida"
+      ],
       "age": 16,
       "arc": "Romance Dawn",
       "bounty": 500000000,
@@ -6983,7 +7192,9 @@
         "Kōzuki Sukiyaki"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 81,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -7004,7 +7215,10 @@
       "name": "Koza",
       "aliases": [],
       "affiliation": "Royaume d'Alabasta",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan Suna Suna",
+        "Armée Rebelle"
+      ],
       "age": 20,
       "arc": "Alabasta",
       "bounty": 0,
@@ -7028,7 +7242,9 @@
         "Kouzuki Hiyori"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 26,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -7051,7 +7267,9 @@
         "Kouzuki Momonosuke"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 8,
       "arc": "Punk Hazard",
       "bounty": 0,
@@ -7076,7 +7294,10 @@
         "Kouzuki Oden"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Roger",
+        "Équipage de Barbe Blanche"
+      ],
       "age": 39,
       "arc": "Wano Kuni",
       "bounty": "?",
@@ -7124,7 +7345,10 @@
       "name": "Kujaku",
       "aliases": [],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "G-14",
+        "SWORD"
+      ],
       "age": 26,
       "arc": "Wano Kuni",
       "bounty": 500000000,
@@ -7150,7 +7374,10 @@
         "Kumadori le Lion"
       ],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "CP9"
+      ],
       "age": 34,
       "arc": "Enies Lobby",
       "bounty": 0,
@@ -7178,7 +7405,9 @@
         "Doctorine"
       ],
       "affiliation": "Royaume des Cerisiers",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Isshi-100"
+      ],
       "age": 139,
       "arc": "Drum Island",
       "bounty": 0,
@@ -7220,7 +7449,10 @@
       "name": "Kuromarimo",
       "aliases": [],
       "affiliation": "Équipage de Wapol",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage du Bliking",
+        "Royaume de Drum"
+      ],
       "age": 28,
       "arc": "Drum Island",
       "bounty": "?",
@@ -7243,7 +7475,9 @@
         "Nageoire"
       ],
       "affiliation": "Équipage d'Arlong",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage des Pirates du Soleil"
+      ],
       "age": 36,
       "arc": "Arlong Park",
       "bounty": 9000000,
@@ -7264,7 +7498,12 @@
       "name": "Kurozumi Kanjuro",
       "aliases": [],
       "affiliation": "Famille Kurozumi",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Kozuki",
+        "Neuf Fourreaux Rouges",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Équipage aux Cent Bêtes"
+      ],
       "age": 34,
       "arc": "Dressrosa",
       "bounty": "?",
@@ -7290,7 +7529,10 @@
         "Shogun"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Pays des Wa",
+        "Famille Kurozumi"
+      ],
       "age": 54,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -7314,7 +7556,9 @@
         "Tama"
       ],
       "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Kurozumi"
+      ],
       "age": 8,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -7339,7 +7583,9 @@
         "Amiral"
       ],
       "affiliation": "Équipage de Barbe Noire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Marine"
+      ],
       "age": 47,
       "arc": "Long Ring Long Land",
       "bounty": "?",
@@ -7387,7 +7633,9 @@
       "name": "Kyros",
       "aliases": [],
       "affiliation": "Colisée Corrida",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Riku"
+      ],
       "age": 34,
       "arc": "Dressrosa",
       "bounty": "?",
@@ -7471,7 +7719,9 @@
       "name": "Léo",
       "aliases": [],
       "affiliation": "Grande Flotte du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume de Tontatta"
+      ],
       "age": 25,
       "arc": "Dressrosa",
       "bounty": "?",
@@ -7519,7 +7769,9 @@
         "Rindobāgu"
       ],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Armée du Sud"
+      ],
       "age": 37,
       "arc": "Whole Cake",
       "bounty": 316000000,
@@ -7543,7 +7795,9 @@
       "name": "Little Oars Jr.",
       "aliases": [],
       "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Little Oars Jr."
+      ],
       "age": 70,
       "arc": "Marineford",
       "bounty": 550000000,
@@ -7700,7 +7954,9 @@
       "name": "Magellan",
       "aliases": [],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Impel Down"
+      ],
       "age": 45,
       "arc": "Impel Down",
       "bounty": 0,
@@ -7763,7 +8019,10 @@
       "name": "Manboshi",
       "aliases": [],
       "affiliation": "Île des Hommes-Poissons",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille royale Ryugu",
+        "Royaume Ryugu"
+      ],
       "age": 20,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -7809,7 +8068,8 @@
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
-        "Nobles Mondiaux"
+        "Nobles Mondiaux",
+        "Famille Manmayer"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -7856,7 +8116,9 @@
         "Polo Marco"
       ],
       "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 43,
       "arc": "Jaya",
       "bounty": 1374000000,
@@ -7883,7 +8145,8 @@
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Cinq Sages"
+        "Cinq Sages",
+        "Nobles Mondiaux"
       ],
       "age": 200,
       "arc": "Jaya",
@@ -7931,7 +8194,9 @@
       "name": "Marianne",
       "aliases": [],
       "affiliation": "Baroque Works",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Spiders Café"
+      ],
       "age": 16,
       "arc": "Little Garden",
       "bounty": 29000000,
@@ -7977,7 +8242,13 @@
         "Teach"
       ],
       "affiliation": "Équipage de Barbe Noire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Quatre Empereurs",
+        "Clan des D.",
+        "Famille Davy",
+        "Sept Grands Corsaires",
+        "Équipage de Barbe Blanche"
+      ],
       "age": 38,
       "arc": "Jaya",
       "bounty": 3996000000,
@@ -8022,7 +8293,9 @@
       "name": "Meuh-Meuh",
       "aliases": [],
       "affiliation": "Équipage d'Arlong",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Caribou"
+      ],
       "age": 14,
       "arc": "Arlong Park",
       "bounty": 0,
@@ -8046,7 +8319,9 @@
         "La Transporteuse"
       ],
       "affiliation": "Baroque Works",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Spiders Café"
+      ],
       "age": 22,
       "arc": "Whisky Peak",
       "bounty": 7500000,
@@ -8139,7 +8414,11 @@
         "Mōji"
       ],
       "affiliation": "Cross Guild",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Les Pirates d'Expédition",
+        "Alliance Baggy et Alvida",
+        "Équipage du Clown"
+      ],
       "age": 27,
       "arc": "Orange Town",
       "bounty": "?",
@@ -8207,7 +8486,11 @@
         "Chef révolutionnaire"
       ],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan des D.",
+        "Combattants de la Liberté",
+        "Marine"
+      ],
       "age": 53,
       "arc": "Logue Town",
       "bounty": "?",
@@ -8230,7 +8513,9 @@
         "Le Poing"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan des D."
+      ],
       "age": 76,
       "arc": "Arlong Park",
       "bounty": 3000000000,
@@ -8265,7 +8550,17 @@
         "5e Empereur"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Quatre Empereurs",
+        "Clan des D.",
+        "Famille Dadan",
+        "Baratie",
+        "Impel Down",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 19,
       "arc": "Romance Dawn",
       "bounty": 3000000000,
@@ -8292,7 +8587,9 @@
         "Monburan Kuriketto"
       ],
       "affiliation": "Ligue des Primates",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Mont Blanc"
+      ],
       "age": 41,
       "arc": "Jaya",
       "bounty": 25000000,
@@ -8315,7 +8612,9 @@
         "Monburan Nōrando"
       ],
       "affiliation": "Royaume de Lvneel",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Mont Blanc"
+      ],
       "age": 0,
       "arc": "Skypiea",
       "bounty": 0,
@@ -8359,7 +8658,9 @@
       "name": "Morgans",
       "aliases": [],
       "affiliation": "Pègre",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "World Economy Journal"
+      ],
       "age": 53,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -8380,7 +8681,11 @@
       "name": "Morge",
       "aliases": [],
       "affiliation": "Équipage du Clown",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Cross Guild",
+        "Les Pirates d'Expédition",
+        "Alliance Baggy et Alvida"
+      ],
       "age": 27,
       "arc": "Orange Town",
       "bounty": "?",
@@ -8403,7 +8708,9 @@
         "Mōrī"
       ],
       "affiliation": "Armée Révolutionnaire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Armée de l'Ouest"
+      ],
       "age": 160,
       "arc": "Whole Cake",
       "bounty": 293000000,
@@ -8427,9 +8734,7 @@
       "name": "Mosa",
       "aliases": [],
       "affiliation": "Erbaf",
-      "sub_affiliation": [
-        "Underworld"
-      ],
+      "sub_affiliation": [],
       "age": 0,
       "arc": "Elbaph",
       "bounty": 0,
@@ -8542,7 +8847,11 @@
         "Navigatrice"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Équipage d'Arlong",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 18,
       "arc": "Orange Town",
       "bounty": 366000000,
@@ -8565,7 +8874,9 @@
         "Naporeon"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Rocks"
+      ],
       "age": 38,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -8586,7 +8897,10 @@
       "name": "Nefertari Cobra",
       "aliases": [],
       "affiliation": "Famille Nefertari",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume d'Alabasta",
+        "Clan des D."
+      ],
       "age": 48,
       "arc": "Drum Island",
       "bounty": 0,
@@ -8607,7 +8921,13 @@
       "name": "Nefertari Vivi",
       "aliases": [],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume d'Alabasta",
+        "Famille Nefertari",
+        "Baroque Works",
+        "Clan des D.",
+        "Clan Suna Suna"
+      ],
       "age": 16,
       "arc": "Reverse Mountain",
       "bounty": 0,
@@ -8630,7 +8950,14 @@
         "Vipère chat"
       ],
       "affiliation": "Principauté de Mokomo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Gardiens",
+        "Famille Kozuki",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Neuf Fourreaux Rouges",
+        "Équipage de Roger",
+        "Équipage de Barbe Blanche"
+      ],
       "age": 40,
       "arc": "Zou",
       "bounty": 0,
@@ -8654,7 +8981,9 @@
       "name": "Neptune",
       "aliases": [],
       "affiliation": "Famille royale Ryugu",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume Ryugu"
+      ],
       "age": 70,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -8745,7 +9074,13 @@
         "Enfant du démon"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Baroque Works",
+        "Archéologues d'Ohara",
+        "Armée Révolutionnaire",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 28,
       "arc": "Whisky Peak",
       "bounty": 930000000,
@@ -8808,7 +9143,9 @@
       "name": "Oars",
       "aliases": [],
       "affiliation": "Thriller Bark",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Gecko Moria"
+      ],
       "age": 159,
       "arc": "Thriller Bark",
       "bounty": 0,
@@ -8853,7 +9190,10 @@
       "name": "Octo",
       "aliases": [],
       "affiliation": "Équipage d'Arlong",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Takoyaki 8",
+        "Équipage des Pirates du Soleil"
+      ],
       "age": 36,
       "arc": "Arlong Park",
       "bounty": 8000000,
@@ -8899,7 +9239,9 @@
         "Guerrier géant"
       ],
       "affiliation": "Équipage des Géants",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Gouvernement Mondial"
+      ],
       "age": 151,
       "arc": "Enies Lobby",
       "bounty": "?",
@@ -8941,7 +9283,10 @@
       "name": "Orlumbus",
       "aliases": [],
       "affiliation": "Grande Flotte du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte Yonta Maria",
+        "Royaume de Standing"
+      ],
       "age": 42,
       "arc": "Dressrosa",
       "bounty": 148000000,
@@ -8962,7 +9307,10 @@
       "name": "Otohime",
       "aliases": [],
       "affiliation": "Famille Royale",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille royale Ryugu",
+        "Royaume Ryugu"
+      ],
       "age": 36,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -9008,7 +9356,9 @@
         "Tobi Roppo"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Tobiroppo"
+      ],
       "age": 20,
       "arc": "Wano Kuni",
       "bounty": 290000000,
@@ -9056,7 +9406,9 @@
         "Pappagu"
       ],
       "affiliation": "Marque Criminal",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Takoyaki 8"
+      ],
       "age": 31,
       "arc": "Archipel Sabaody",
       "bounty": 0,
@@ -9145,7 +9497,11 @@
       "name": "Pedro",
       "aliases": [],
       "affiliation": "Pirates de Nox",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Principauté de Mokomo",
+        "Gardiens",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 32,
       "arc": "Zou",
       "bounty": 382000000,
@@ -9194,7 +9550,9 @@
         "Pekomuzu"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Pirates de Nox"
+      ],
       "age": 27,
       "arc": "Fishman Island",
       "bounty": 330000000,
@@ -9247,7 +9605,10 @@
         "Fille fantôme"
       ],
       "affiliation": "Thriller Bark",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Gecko Moria",
+        "Quatre Mystérieux"
+      ],
       "age": 23,
       "arc": "Thriller Bark",
       "bounty": "?",
@@ -9316,7 +9677,7 @@
       "aliases": [],
       "affiliation": "Équipage de Polo",
       "sub_affiliation": [
-        "Équipage de Rocks"
+        "Équipage de Barbe Blanche"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -9361,7 +9722,12 @@
         "Poing de feu"
       ],
       "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage du Spade",
+        "Clan des D.",
+        "Famille Dadan",
+        "Impel Down"
+      ],
       "age": 20,
       "arc": "Drum Island",
       "bounty": 550000000,
@@ -9411,7 +9777,10 @@
         "Purinsu Gurusu"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "G-14",
+        "SWORD"
+      ],
       "age": 29,
       "arc": "Wano Kuni",
       "bounty": 500000000,
@@ -9437,7 +9806,9 @@
         "Purometeusu"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Rocks"
+      ],
       "age": 44,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -9486,7 +9857,10 @@
         "Kuīn"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "MADS",
+        "Calamités"
+      ],
       "age": 56,
       "arc": "Wano Kuni",
       "bounty": 1320000000,
@@ -9510,9 +9884,7 @@
       "name": "Ragnir",
       "aliases": [],
       "affiliation": "Famille royale d'Erbaf",
-      "sub_affiliation": [
-        "Loki"
-      ],
+      "sub_affiliation": [],
       "age": 0,
       "arc": "Elbaph",
       "bounty": 0,
@@ -9554,7 +9926,10 @@
       "name": "Raijin",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi",
+        "Famille Kurozumi"
+      ],
       "age": 45,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -9577,7 +9952,10 @@
         "du Brouillard"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Neuf Fourreaux Rouges",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 35,
       "arc": "Zou",
       "bounty": "?",
@@ -9601,7 +9979,10 @@
       "name": "Rebecca",
       "aliases": [],
       "affiliation": "Famille Riku",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume de Dressrosa",
+        "Colisée Corrida"
+      ],
       "age": 16,
       "arc": "Dressrosa",
       "bounty": 0,
@@ -9647,7 +10028,9 @@
       "name": "Riku Doldo III",
       "aliases": [],
       "affiliation": "Colisée Corrida",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Riku"
+      ],
       "age": 60,
       "arc": "Dressrosa",
       "bounty": 0,
@@ -9671,7 +10054,9 @@
         "Viola"
       ],
       "affiliation": "Famille Don Quichotte",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Riku"
+      ],
       "age": 29,
       "arc": "Dressrosa",
       "bounty": "?",
@@ -9695,7 +10080,8 @@
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
-        "Nobles Mondiaux"
+        "Nobles Mondiaux",
+        "Famille Rimoshifu"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -9764,7 +10150,9 @@
       ],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
-        "Royaume des Blocs"
+        "Grande Flotte du Chapeau de Paille",
+        "Nouvel Équipage des Géants",
+        "Pays des Dieux"
       ],
       "age": 63,
       "arc": "Whole Cake",
@@ -9786,7 +10174,10 @@
       "name": "Rob Lucci",
       "aliases": [],
       "affiliation": "CP0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP9",
+        "Galley-La Company"
+      ],
       "age": 28,
       "arc": "Water Seven",
       "bounty": 3000000000,
@@ -9814,6 +10205,7 @@
       ],
       "affiliation": "Équipage de Rocks",
       "sub_affiliation": [
+        "Clan des D.",
         "Famille Davy"
       ],
       "age": 0,
@@ -9864,7 +10256,13 @@
         "Roronoa Zoro"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Famille Shimotsuki",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 21,
       "arc": "Romance Dawn",
       "bounty": 1111000000,
@@ -9891,7 +10289,9 @@
         "Rozuwādo Rozuwādo Sei"
       ],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Rosward"
+      ],
       "age": 53,
       "arc": "Archipel Sabaody",
       "bounty": 0,
@@ -9912,7 +10312,9 @@
       "name": "Ryuboshi",
       "aliases": [],
       "affiliation": "Famille royale Ryugu",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume Ryugu"
+      ],
       "age": 23,
       "arc": "Fishman Island",
       "bounty": 0,
@@ -10040,7 +10442,11 @@
         "Révolutionnaire"
       ],
       "affiliation": "Équipage ASL",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Armée Révolutionnaire",
+        "Famille Dadan",
+        "Royaume de Goa"
+      ],
       "age": 22,
       "arc": "Marineford",
       "bounty": 602000000,
@@ -10087,7 +10493,10 @@
       "name": "Sai",
       "aliases": [],
       "affiliation": "Flotte de Happou",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Chinjao",
+        "Grande Flotte du Chapeau de Paille"
+      ],
       "age": 28,
       "arc": "Dressrosa",
       "bounty": 210000000,
@@ -10113,7 +10522,9 @@
         "Rosward Charlos"
       ],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Rosward"
+      ],
       "age": 22,
       "arc": "Archipel Sabaody",
       "bounty": 0,
@@ -10136,7 +10547,9 @@
         "Rosward Shalria"
       ],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Rosward"
+      ],
       "age": 15,
       "arc": "Archipel Sabaody",
       "bounty": 0,
@@ -10210,7 +10623,13 @@
         "Vinsmoke Sanji"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Famille Vinsmoke",
+        "Baratie",
+        "Royaume de Germa",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 21,
       "arc": "Baratie",
       "bounty": 1032000000,
@@ -10236,7 +10655,9 @@
       "name": "Sanjuan Wolf",
       "aliases": [],
       "affiliation": "Équipage de Barbe Noire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Impel Down"
+      ],
       "age": 97,
       "arc": "Marineford",
       "bounty": 100000000,
@@ -10280,7 +10701,9 @@
       "name": "Sarutobi",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi"
+      ],
       "age": 45,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -10304,7 +10727,10 @@
         "Tobi Roppo"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Tobiroppo",
+        "Équipage de Sasaki"
+      ],
       "age": 34,
       "arc": "Wano Kuni",
       "bounty": 472000000,
@@ -10331,7 +10757,8 @@
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
-        "Nobles Mondiaux"
+        "Nobles Mondiaux",
+        "Famille Satchels"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -10409,7 +10836,11 @@
         "Supernova"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage On Air",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 29,
       "arc": "Archipel Sabaody",
       "bounty": 350000000,
@@ -10529,7 +10960,9 @@
       "name": "Shakuyaku",
       "aliases": [],
       "affiliation": "Pirates Kuja",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Shakky's Rip-off Bar"
+      ],
       "age": 62,
       "arc": "Archipel Sabaody",
       "bounty": "?",
@@ -10597,7 +11030,13 @@
         "Empereur"
       ],
       "affiliation": "Équipage du Roux",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Quatre Empereurs",
+        "Équipage de Roger",
+        "Chevaliers de Dieu",
+        "Nobles Mondiaux",
+        "Famille Figarland"
+      ],
       "age": 39,
       "arc": "Romance Dawn",
       "bounty": 4048900000,
@@ -10646,7 +11085,9 @@
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Cinq Sages"
+        "Cinq Sages",
+        "Nobles Mondiaux",
+        "Famille Shepherd"
       ],
       "age": 200,
       "arc": "Jaya",
@@ -10673,7 +11114,8 @@
       ],
       "affiliation": "Chevaliers de Dieu",
       "sub_affiliation": [
-        "Nobles Mondiaux"
+        "Nobles Mondiaux",
+        "Famille Shepherd"
       ],
       "age": 0,
       "arc": "Elbaph",
@@ -10698,7 +11140,8 @@
       ],
       "affiliation": "Équipage de Rocks",
       "sub_affiliation": [
-        "Équipage du Lion d'Or"
+        "Équipage du Lion d'Or",
+        "Impel Down"
       ],
       "age": "~73",
       "arc": "Elbaph",
@@ -10789,7 +11232,9 @@
         "La Tueuse d'Hommes"
       ],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 49,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -10836,7 +11281,9 @@
       "name": "Shiryu",
       "aliases": [],
       "affiliation": "Équipage de Barbe Noire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Impel Down"
+      ],
       "age": 42,
       "arc": "Impel Down",
       "bounty": "?",
@@ -10861,7 +11308,10 @@
         "Shishirian"
       ],
       "affiliation": "Principauté de Mokomo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Mousquetaires d'Inuarashi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 34,
       "arc": "Zou",
       "bounty": 0,
@@ -11049,7 +11499,9 @@
         "Chasseur blanc"
       ],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "G-5"
+      ],
       "age": 34,
       "arc": "Logue Town",
       "bounty": 500000000,
@@ -11073,7 +11525,11 @@
       "name": "Spandam",
       "aliases": [],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "CP9",
+        "CP5"
+      ],
       "age": 39,
       "arc": "Water Seven",
       "bounty": 0,
@@ -11117,7 +11573,9 @@
       "name": "Speed",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 24,
       "arc": "Wano Kuni",
       "bounty": "?",
@@ -11140,7 +11598,9 @@
         "L'Araignée des Maelstrom"
       ],
       "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Squard"
+      ],
       "age": 50,
       "arc": "Marineford",
       "bounty": 210000000,
@@ -11185,7 +11645,8 @@
       "aliases": [],
       "affiliation": "Les Pirates d'Expédition",
       "sub_affiliation": [
-        "Grand Fleet du Chapeau de Paille"
+        "Nouvel Équipage des Géants",
+        "Grande Flotte du Chapeau de Paille"
       ],
       "age": 81,
       "arc": "Archipel Sabaody",
@@ -11210,7 +11671,11 @@
         "Dr. Vegapunk"
       ],
       "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Marine",
+        "SSG",
+        "MADS"
+      ],
       "age": 65,
       "arc": "Punk Hazard",
       "bounty": "?",
@@ -11279,7 +11744,9 @@
         "Chevalier Gourmet"
       ],
       "affiliation": "Équipage de Big Mom",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Rocks"
+      ],
       "age": 92,
       "arc": "Whole Cake",
       "bounty": "?",
@@ -11302,7 +11769,11 @@
         "Reine des Quartiers de Plaisir"
       ],
       "affiliation": "CP-AIGIS0",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "CP0",
+        "Pègre",
+        "MADS"
+      ],
       "age": 36,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -11349,7 +11820,11 @@
         "Le Briseur de Nuques"
       ],
       "affiliation": "Équipage des Magnifiques Pirates",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Cavendish",
+        "Pègre",
+        "Grande Flotte du Chapeau de Paille"
+      ],
       "age": 40,
       "arc": "Dressrosa",
       "bounty": 67000000,
@@ -11440,7 +11915,9 @@
       "name": "Tashigi",
       "aliases": [],
       "affiliation": "Marine",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "G-5"
+      ],
       "age": 21,
       "arc": "Logue Town",
       "bounty": 100000000,
@@ -11485,7 +11962,9 @@
       "name": "Toko",
       "aliases": [],
       "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Shimotsuki"
+      ],
       "age": 6,
       "arc": "Wano Kuni",
       "bounty": 0,
@@ -11550,7 +12029,11 @@
       "name": "Tony Tony Chopper",
       "aliases": [],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Équipage de Foxy",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 17,
       "arc": "Drum Island",
       "bounty": 1000,
@@ -11575,7 +12058,8 @@
       ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Cinq Sages"
+        "Cinq Sages",
+        "Nobles Mondiaux"
       ],
       "age": 200,
       "arc": "Jaya",
@@ -11602,7 +12086,14 @@
         "Chirurgien de la mort"
       ],
       "affiliation": "Équipage du Heart",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Clan des D.",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Sept Grands Corsaires",
+        "Famille Don Quichotte",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 24,
       "arc": "Archipel Sabaody",
       "bounty": 3000000000,
@@ -11722,7 +12213,9 @@
         "Tobi Roppo"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Tobiroppo"
+      ],
       "age": 22,
       "arc": "Wano Kuni",
       "bounty": 400000000,
@@ -11748,7 +12241,10 @@
         "Moine fou"
       ],
       "affiliation": "Équipage des Moines Dépravés",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 45,
       "arc": "Archipel Sabaody",
       "bounty": 108000000,
@@ -11773,7 +12269,11 @@
         "Capitaine Usopp"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Grande Flotte du Chapeau de Paille",
+        "Équipage d'Usopp",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 19,
       "arc": "Syrup Village",
       "bounty": 500000000,
@@ -11843,7 +12343,9 @@
         "Le Roi de la Bibine"
       ],
       "affiliation": "Équipage de Barbe Noire",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Impel Down"
+      ],
       "age": 36,
       "arc": "Marineford",
       "bounty": 100000000,
@@ -11866,7 +12368,10 @@
         "Le Démon au Bambou"
       ],
       "affiliation": "Famille Don Quichotte",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Marine",
+        "G-5"
+      ],
       "age": 41,
       "arc": "Punk Hazard",
       "bounty": 500000000,
@@ -11915,7 +12420,10 @@
         "Sparking Red"
       ],
       "affiliation": "Germa 66",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Vinsmoke",
+        "Royaume de Germa"
+      ],
       "age": 21,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -11938,7 +12446,12 @@
         "Vinsumōku Jajji"
       ],
       "affiliation": "Famille Vinsmoke",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume de Germa",
+        "Germa 66",
+        "NEO MADS",
+        "MADS"
+      ],
       "age": 56,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -11961,7 +12474,10 @@
         "Electric Blue"
       ],
       "affiliation": "Germa 66",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Vinsmoke",
+        "Royaume de Germa"
+      ],
       "age": 21,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -11984,7 +12500,10 @@
         "Poison Pink"
       ],
       "affiliation": "Germa 66",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Vinsmoke",
+        "Royaume de Germa"
+      ],
       "age": 24,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -12007,7 +12526,10 @@
         "Winch Green"
       ],
       "affiliation": "Germa 66",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Vinsmoke",
+        "Royaume de Germa"
+      ],
       "age": 21,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -12079,7 +12601,9 @@
         "Moine Géant"
       ],
       "affiliation": "Équipage des Pirates du Soleil",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage des Pirates Volants"
+      ],
       "age": 25,
       "arc": "Fishman Island",
       "bounty": "?",
@@ -12100,7 +12624,10 @@
       "name": "Wanda",
       "aliases": [],
       "affiliation": "Principauté de Mokomo",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Mousquetaires d'Inuarashi",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
       "age": 28,
       "arc": "Zou",
       "bounty": 0,
@@ -12142,7 +12669,12 @@
       "name": "Wapol",
       "aliases": [],
       "affiliation": "Équipage de Wapol",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Royaume de Black Drum",
+        "Wapol Konzern",
+        "Royaume de Drum",
+        "Équipage du Bliking"
+      ],
       "age": 27,
       "arc": "Drum Island",
       "bounty": 4,
@@ -12165,7 +12697,11 @@
         "Who la Goutelette"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Tobiroppo",
+        "Équipage de Who's-Who",
+        "CP9"
+      ],
       "age": 38,
       "arc": "Wano Kuni",
       "bounty": 546000000,
@@ -12192,7 +12728,9 @@
         "Wyper"
       ],
       "affiliation": "Shandia",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Gardes de Dieu"
+      ],
       "age": 22,
       "arc": "Skypiea",
       "bounty": 0,
@@ -12215,7 +12753,10 @@
         "Wolf"
       ],
       "affiliation": "École du Morse",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Barbe Noire",
+        "Impel Down"
+      ],
       "age": 0,
       "arc": "Elbaph",
       "bounty": 0,
@@ -12239,7 +12780,16 @@
         "Supernova"
       ],
       "affiliation": "Équipage de X. Barrels",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Marine",
+        "SWORD",
+        "Équipage de Drake",
+        "Équipage aux Cent Bêtes",
+        "Tobiroppo",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Supernova",
+        "Génération Terrible"
+      ],
       "age": 31,
       "arc": "Archipel Sabaody",
       "bounty": 222000000,
@@ -12266,7 +12816,9 @@
         "Oden Kozuki"
       ],
       "affiliation": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage aux Cent Bêtes"
+      ],
       "age": 28,
       "arc": "Wano Kuni",
       "bounty": "?",
@@ -12340,7 +12892,9 @@
       "name": "Yazaemon",
       "aliases": [],
       "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Oniwabanshu d'Orochi"
+      ],
       "age": 24,
       "arc": "Wano Kuni",
       "bounty": "?",
@@ -12404,7 +12958,8 @@
       "aliases": [],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [
-        "Vegapunk",
+        "Marine",
+        "SSG",
         "Nobles Mondiaux"
       ],
       "age": 16,
@@ -12430,7 +12985,9 @@
         "Jorul"
       ],
       "affiliation": "Équipage des Géants",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Erbaf"
+      ],
       "age": 344,
       "arc": "Whole Cake",
       "bounty": "?",
@@ -12475,7 +13032,9 @@
         "L'Araignée Empoisonnée"
       ],
       "affiliation": "Baroque Works",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Spiders Café"
+      ],
       "age": 26,
       "arc": "Alabasta",
       "bounty": 35000000,
@@ -12496,7 +13055,9 @@
       "name": "Zambai",
       "aliases": [],
       "affiliation": "Galley-La Company",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Famille Franky"
+      ],
       "age": 35,
       "arc": "Water Seven",
       "bounty": 0,
@@ -12542,7 +13103,9 @@
         "Zeff aux Pieds Rouges"
       ],
       "affiliation": "Baratie",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage des Cuisiniers"
+      ],
       "age": 65,
       "arc": "Baratie",
       "bounty": 60000000,
@@ -12588,7 +13151,10 @@
         "Zeusu"
       ],
       "affiliation": "Équipage du Chapeau de Paille",
-      "sub_affiliation": [],
+      "sub_affiliation": [
+        "Équipage de Big Mom",
+        "Équipage de Rocks"
+      ],
       "age": 44,
       "arc": "Whole Cake",
       "bounty": 0,
@@ -12619,9 +13185,9 @@
     "hint2": 1,
     "hint3": 1,
     "size": 0.9978632478632479,
+    "sub_affiliation": 0.5918803418803419,
     "devilFruitType": 0.2905982905982906,
     "haki": 0.2905982905982906,
-    "sub_affiliation": 0.21367521367521367,
     "imageUrl": 0
   }
 }
