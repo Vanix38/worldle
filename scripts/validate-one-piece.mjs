@@ -9,7 +9,8 @@
  * - 0 en âge ou en taille (utiliser « ? » si inconnu) ; nombre invalide ;
  * - arc incohérent avec le chapitre / l'épisode de première apparition ;
  * - id ou nom en double, nom d'un perso utilisé comme alias d'un autre.
- * Avertissements : alias partagé par plusieurs persos.
+ * Avertissements : alias partagé par plusieurs persos (sauf les titres
+ *   volontairement partagés listés dans _sharedAliases du vocabulaire).
  */
 import fs from "fs";
 import path from "path";
@@ -35,6 +36,7 @@ export function validate(src, vocab) {
   const ids = new Set();
   const names = new Map();
   const aliases = new Map();
+  const sharedOk = new Set((vocab._sharedAliases ?? []).map(norm));
 
   for (const c of src.characters) {
     if (ids.has(c.id)) err(c.id, "id en double");
@@ -97,7 +99,7 @@ export function validate(src, vocab) {
   }
   for (const [a, owners] of aliases) {
     if (names.has(a) && !owners.includes(names.get(a))) err(owners.join(", "), `alias « ${a} » = nom de ${names.get(a)}`);
-    else if (owners.length > 1) warnings.push(`alias « ${a} » partagé : ${owners.join(", ")}`);
+    else if (owners.length > 1 && !sharedOk.has(a)) warnings.push(`alias « ${a} » partagé : ${owners.join(", ")}`);
   }
   return { errors: [...new Set(errors)], warnings };
 }
