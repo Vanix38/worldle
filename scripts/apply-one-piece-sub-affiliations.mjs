@@ -41,6 +41,8 @@ const SUPERNOVAS = ["monkey-d-luffy", "roronoa-zoro", "trafalgar-d-water-law", "
   "basil-hawkins", "scratchmen-apoo", "x-drake", "jewelry-bonney", "urouge", "capone-bege"];
 const EXTRA = Object.fromEntries(SUPERNOVAS.map((id) => [id, ["Supernova", "Génération Terrible"]]));
 for (const id of ["alber", "queen", "jack"]) EXTRA[id] = ["Calamités"];
+// Alliance commerciale avec Kaido (SMILE), demandée par Vanix.
+EXTRA["don-quichotte-doflamingo"] = ["Équipage aux Cent Bêtes"];
 
 const has = (v) => v == null ? false : typeof v === "string" ? v.trim() !== "" : Array.isArray(v) ? v.length > 0 : true;
 
