@@ -2061,7 +2061,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 186,
       "race": "Humain",
       "firstAppearance": "Chapitre 77",
       "difficulty": "Moyen"
@@ -2104,7 +2104,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "North Blue",
-      "size": "",
+      "size": 206,
       "race": "Humain",
       "firstAppearance": "Chapitre 1",
       "difficulty": "Facile"
@@ -5079,7 +5079,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 130,
       "race": "Humain",
       "firstAppearance": "Chapitre 22",
       "difficulty": "Difficile"
@@ -5331,7 +5331,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 179,
       "race": "Humain",
       "firstAppearance": "Chapitre 44",
       "difficulty": "Difficile"
@@ -7004,7 +7004,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons",
-      "size": "",
+      "size": 271,
       "race": "Homme-Poisson",
       "firstAppearance": "Chapitre 920",
       "difficulty": "Difficile"
@@ -7117,7 +7117,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Pays des Wa",
-      "size": "",
+      "size": 287,
       "race": "Humain",
       "firstAppearance": "Chapitre 913",
       "difficulty": "Moyen"
@@ -7668,7 +7668,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Pays des Wa",
-      "size": "",
+      "size": 108,
       "race": "Humain",
       "firstAppearance": "Chapitre 911",
       "difficulty": "Moyen"
@@ -9402,7 +9402,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Inconnu",
-      "size": "",
+      "size": 200,
       "race": "Humain",
       "firstAppearance": "Chapitre 44",
       "difficulty": "Impossible"
@@ -9467,7 +9467,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Water Seven",
-      "size": "",
+      "size": 195,
       "race": "Humain",
       "firstAppearance": "Chapitre 323",
       "difficulty": "Difficile"
@@ -13161,16 +13161,16 @@
     }
   ],
   "fieldPrevalence": {
+    "race": 1,
     "age": 1,
     "bounty": 1,
     "firstAppearance": 1,
     "arc": 1,
     "difficulty": 1,
     "gender": 0.9979879275653923,
+    "size": 0.9979879275653923,
     "affiliation": 0.9919517102615694,
     "origin": 0.9859154929577465,
-    "size": 0.9798792756539235,
-    "race": 0.96579476861167,
     "hint1": 0.9557344064386318,
     "hint2": 0.9557344064386318,
     "hint3": 0.9557344064386318,

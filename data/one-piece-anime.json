@@ -1888,7 +1888,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 186,
       "race": "Humain",
       "firstAppearance": "Épisode 32",
       "difficulty": "Moyen"
@@ -1931,7 +1931,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "North Blue",
-      "size": "",
+      "size": 206,
       "race": "Humain",
       "firstAppearance": "Épisode 4",
       "difficulty": "Facile"
@@ -4752,7 +4752,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 130,
       "race": "Humain",
       "firstAppearance": "Épisode 18",
       "difficulty": "Difficile"
@@ -4937,7 +4937,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "",
+      "size": 179,
       "race": "Humain",
       "firstAppearance": "Épisode 21",
       "difficulty": "Difficile"
@@ -6417,7 +6417,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons",
-      "size": "",
+      "size": 271,
       "race": "Homme-Poisson",
       "firstAppearance": "Épisode 910",
       "difficulty": "Difficile"
@@ -6530,7 +6530,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Pays des Wa",
-      "size": "",
+      "size": 287,
       "race": "Humain",
       "firstAppearance": "Épisode 899",
       "difficulty": "Moyen"
@@ -7081,7 +7081,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Pays des Wa",
-      "size": "",
+      "size": 108,
       "race": "Humain",
       "firstAppearance": "Épisode 893",
       "difficulty": "Moyen"
@@ -8541,7 +8541,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Inconnu",
-      "size": "",
+      "size": 200,
       "race": "Humain",
       "firstAppearance": "Épisode 16",
       "difficulty": "Impossible"
@@ -8606,7 +8606,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Water Seven",
-      "size": "",
+      "size": 195,
       "race": "Humain",
       "firstAppearance": "Épisode 230",
       "difficulty": "Difficile"
@@ -11919,16 +11919,16 @@
     }
   ],
   "fieldPrevalence": {
+    "race": 1,
     "age": 1,
     "bounty": 1,
     "firstAppearance": 1,
     "arc": 1,
     "difficulty": 1,
     "gender": 0.9977728285077951,
+    "size": 0.9977728285077951,
     "affiliation": 0.9910913140311804,
     "origin": 0.9844097995545658,
-    "size": 0.977728285077951,
-    "race": 0.9621380846325167,
     "hint1": 0.9510022271714922,
     "hint2": 0.9510022271714922,
     "hint3": 0.9510022271714922,
