@@ -4,7 +4,9 @@
  *
  * - Âge : dernière valeur indiquée (après l'ellipse si le wiki en donne plusieurs).
  * - Taille : dernière valeur en cm (ou en m, convertie), entier en centimètres.
- * Ne touche jamais une valeur déjà remplie. Écrit dans one-piece-manga.json et one-piece-anime.json.
+ * Ne touche jamais une valeur déjà remplie (« ? » = inconnu, donc à compléter).
+ * Écrit dans data/one-piece-*.json puis reporte les changements dans la source unique
+ * sources/one-piece.json (npm run one-piece:merge).
  *
  * Usage :
  *   node scripts/fill-one-piece-age-size-from-wiki.mjs [--dry-run] [--delay MS] [--ids a,b]
@@ -14,6 +16,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { execFileSync } from "child_process";
 import * as cheerio from "cheerio";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -47,7 +50,7 @@ function parseArgs(argv) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const isEmpty = (v) => v === undefined || v === null || v === "" || v === 0 || v === "Inconnu";
+const isEmpty = (v) => v === undefined || v === null || v === "" || v === 0 || v === "?" || v === "Inconnu";
 
 async function fetchInfobox(title) {
   const u = new URL(API);
@@ -141,6 +144,9 @@ async function main() {
       if (isEmpty(c.size) && v.size) c.size = v.size;
     }
     if (!args.dryRun) fs.writeFileSync(d.f, JSON.stringify(d.json, null, 2) + (d.raw.endsWith("\n") ? "\n" : ""));
+  }
+  if (!args.dryRun && report.filled.length) {
+    execFileSync(process.execPath, [path.join(__dirname, "one-piece-source.mjs"), "merge"], { stdio: "inherit" });
   }
   fs.writeFileSync(REPORT, JSON.stringify(report, null, 2) + "\n");
   console.log(`\n${report.filled.length} complétés, ${report.noValue.length} sans valeur sur le wiki, ${report.notFound.length} introuvables`);
