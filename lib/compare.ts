@@ -63,7 +63,14 @@ function parseApproxNumber(val: unknown): number {
   return Number(s);
 }
 
+/** Valeur inconnue (ex. prime jamais révélée) : « ? » dans les données. */
+function isUnknownValue(val: unknown): boolean {
+  return typeof val === "string" && val.trim() === "?";
+}
+
 function compareNumeric(guessVal: unknown, targetVal: unknown): FeedbackStatus {
+  // Inconnu d'un côté ou de l'autre : pas de flèche plus haut / plus bas.
+  if (isUnknownValue(guessVal) || isUnknownValue(targetVal)) return "none";
   const g = parseApproxNumber(guessVal);
   const t = parseApproxNumber(targetVal);
   if (Number.isNaN(g) || Number.isNaN(t)) return "none";
