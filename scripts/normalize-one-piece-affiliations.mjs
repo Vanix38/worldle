@@ -2,6 +2,9 @@
  * Uniformise les affiliations One Piece en français (manga + anime) et
  * recalcule fieldPrevalence.
  * Usage: node scripts/normalize-one-piece-affiliations.mjs
+ *
+ * Modifie les fichiers générés : lancer ensuite `npm run one-piece:merge`
+ * pour reporter le changement dans sources/one-piece.json.
  */
 import fs from "fs";
 import path from "path";

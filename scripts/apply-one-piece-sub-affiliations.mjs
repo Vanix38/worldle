@@ -7,6 +7,9 @@
  *
  * Source : scripts/one-piece-sub-affiliations-wiki.json (infobox Fandom, 2026-11-25).
  * Usage: node scripts/apply-one-piece-sub-affiliations.mjs [wiki-sub.json]
+ *
+ * Modifie les fichiers générés : lancer ensuite `npm run one-piece:merge`
+ * pour reporter le changement dans sources/one-piece.json.
  */
 import fs from "fs";
 import path from "path";

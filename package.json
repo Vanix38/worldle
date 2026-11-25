@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/one-piece-source.mjs check",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -24,7 +25,10 @@
     "download-cyberpunk-images": "node scripts/download-cyberpunk-character-images.mjs --skip-existing",
     "apply-cyberpunk-difficulty": "node scripts/apply-cyberpunk-difficulty.mjs",
     "download-one-piece-images": "node scripts/download-one-piece-character-images.mjs",
-    "fill-one-piece-age-size": "node scripts/fill-one-piece-age-size-from-wiki.mjs"
+    "fill-one-piece-age-size": "node scripts/fill-one-piece-age-size-from-wiki.mjs",
+    "one-piece:build": "node scripts/one-piece-source.mjs build",
+    "one-piece:check": "node scripts/one-piece-source.mjs check",
+    "one-piece:merge": "node scripts/one-piece-source.mjs merge"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",

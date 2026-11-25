@@ -9,6 +9,9 @@
  * l'épisode de première apparition.
  *
  * Usage: node scripts/apply-one-piece-arc-from-first-appearance.mjs [--dry-run]
+ *
+ * Modifie les fichiers générés : lancer ensuite `npm run one-piece:merge`
+ * pour reporter le changement dans sources/one-piece.json.
  */
 
 import fs from "fs";
