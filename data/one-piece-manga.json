@@ -3530,13 +3530,15 @@
       "bounty": 600000000,
       "devilFruitType": "",
       "gender": "Masculin",
-      "haki": [],
+      "haki": [
+        "Armement"
+      ],
       "origin": "",
-      "size": 0,
+      "size": 342,
       "race": "Humain",
-      "hint1": "Charlotte Family",
-      "hint2": "シャーロット・スナック",
-      "hint3": "Inconnu",
+      "hint1": "Ancien Général Sucré",
+      "hint2": "Ministre des Frites",
+      "hint3": "Armement",
       "firstAppearance": "Chapitre 894",
       "difficulty": "Impossible"
     },
@@ -13215,7 +13217,7 @@
     "hint2": 0.9798792756539235,
     "hint3": 0.9798792756539235,
     "devilFruitType": 0.2676056338028169,
-    "haki": 0.26156941649899396,
+    "haki": 0.2635814889336016,
     "sub_affiliation": 0.2012072434607646,
     "imageUrl": 0
   }
