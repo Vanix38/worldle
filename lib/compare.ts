@@ -52,9 +52,27 @@ function compareWithOrder(
   return gi < ti ? "higher" : "lower";
 }
 
+/**
+ * Valeur numérique, éventuellement approximative : « ~73 » (chaîne) vaut 73.
+ * Le « ~ » reste affiché tel quel dans la grille.
+ */
+function parseApproxNumber(val: unknown): number {
+  if (typeof val === "number") return val;
+  const s = String(val ?? "").trim().replace(/^~\s*/, "");
+  if (!s) return NaN;
+  return Number(s);
+}
+
+/** Valeur inconnue (ex. prime jamais révélée) : « ? » dans les données. */
+function isUnknownValue(val: unknown): boolean {
+  return typeof val === "string" && val.trim() === "?";
+}
+
 function compareNumeric(guessVal: unknown, targetVal: unknown): FeedbackStatus {
-  const g = Number(guessVal);
-  const t = Number(targetVal);
+  // Inconnu d'un côté ou de l'autre : pas de flèche plus haut / plus bas.
+  if (isUnknownValue(guessVal) || isUnknownValue(targetVal)) return "none";
+  const g = parseApproxNumber(guessVal);
+  const t = parseApproxNumber(targetVal);
   if (Number.isNaN(g) || Number.isNaN(t)) return "none";
   if (g === t) return "exact";
   return g < t ? "higher" : "lower";
