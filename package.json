@@ -22,7 +22,9 @@
     "download-naruto-images": "node scripts/download-naruto-character-images.mjs",
     "scrape-cyberpunk": "node scripts/scrape-cyberpunk-fandom.mjs",
     "download-cyberpunk-images": "node scripts/download-cyberpunk-character-images.mjs --skip-existing",
-    "apply-cyberpunk-difficulty": "node scripts/apply-cyberpunk-difficulty.mjs"
+    "apply-cyberpunk-difficulty": "node scripts/apply-cyberpunk-difficulty.mjs",
+    "download-one-piece-images": "node scripts/download-one-piece-character-images.mjs",
+    "fill-one-piece-age-size": "node scripts/fill-one-piece-age-size-from-wiki.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",

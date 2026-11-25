@@ -1667,35 +1667,12 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 729,
-      "race": "Humain",
+      "race": "Satellite de Vegapunk",
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": "Chapitre 1062",
       "difficulty": "Moyen"
-    },
-    {
-      "id": "vegapunk-atlas",
-      "name": "Atlas",
-      "aliases": [
-        "Atorasu"
-      ],
-      "affiliation": "Marine",
-      "sub_affiliation": [],
-      "age": 2,
-      "arc": "Egghead",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line (Egghead)",
-      "size": 729,
-      "race": "Satellite de Vegapunk",
-      "hint1": "Marines (SSG)",
-      "hint2": "暴（アトラス）",
-      "hint3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1062",
-      "difficulty": "Impossible"
     },
     {
       "id": "avalo-pizarro",
@@ -1995,29 +1972,6 @@
       "difficulty": "Difficile"
     },
     {
-      "id": "bell-mere",
-      "name": "Bell-mère",
-      "aliases": [
-        "Berumēru"
-      ],
-      "affiliation": "Marine",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Arlong Park",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "East Blue (Conomi Islands)",
-      "size": 186,
-      "race": "Humain",
-      "hint1": "Marines",
-      "hint2": "ベルメール",
-      "hint3": "East Blue (Conomi Islands)",
-      "firstAppearance": "Chapitre 77",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "bellamy",
       "name": "Bellamy",
       "aliases": [
@@ -2050,7 +2004,9 @@
     {
       "id": "bellemere",
       "name": "Bellemère",
-      "aliases": [],
+      "aliases": [
+        "Bell-mère"
+      ],
       "affiliation": "Marine",
       "sub_affiliation": [],
       "age": 0,
@@ -2096,7 +2052,9 @@
     {
       "id": "ben-beckmann",
       "name": "Ben Beckmann",
-      "aliases": [],
+      "aliases": [
+        "Benn Beckman"
+      ],
       "affiliation": "Équipage du Roux",
       "sub_affiliation": [],
       "age": 0,
@@ -2116,31 +2074,6 @@
       "hint3": "Observation",
       "firstAppearance": "Chapitre 1",
       "difficulty": "Facile"
-    },
-    {
-      "id": "benn-beckman",
-      "name": "Benn Beckman",
-      "aliases": [
-        "Ben Bekkuman"
-      ],
-      "affiliation": "Équipage du Roux",
-      "sub_affiliation": [],
-      "age": 38,
-      "arc": "Romance Dawn",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "Observation"
-      ],
-      "origin": "North Blue",
-      "size": 206,
-      "race": "Humain",
-      "hint1": "Red Hair Pirates",
-      "hint2": "ベン・ベックマン",
-      "hint3": "North Blue",
-      "firstAppearance": "Chapitre 1",
-      "difficulty": "Impossible"
     },
     {
       "id": "bent",
@@ -2758,29 +2691,6 @@
       "difficulty": "Difficile"
     },
     {
-      "id": "caesar-clown",
-      "name": "Caesar Clown",
-      "aliases": [
-        "Shīzā Kuraun"
-      ],
-      "affiliation": "NEO MADS",
-      "sub_affiliation": [],
-      "age": 55,
-      "arc": "Punk Hazard",
-      "bounty": 300000000,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": 309,
-      "race": "Humain",
-      "hint1": "NEO MADS",
-      "hint2": "シーザー・クラウン",
-      "hint3": "Grand Line",
-      "firstAppearance": "Chapitre 658",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "camie",
       "name": "Camie",
       "aliases": [
@@ -3014,7 +2924,8 @@
       "name": "César Clown",
       "aliases": [
         "Master",
-        "Gangster Gastino"
+        "Gangster Gastino",
+        "Caesar Clown"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -3303,7 +3214,9 @@
     {
       "id": "charlotte-laura",
       "name": "Charlotte Laura",
-      "aliases": [],
+      "aliases": [
+        "Charlotte Lola"
+      ],
       "affiliation": "Équipage du Rolling",
       "sub_affiliation": [
         "Famille Charlotte"
@@ -3353,29 +3266,6 @@
       "hint3": "Famille Charlotte",
       "firstAppearance": "Chapitre 651",
       "difficulty": "Très facile"
-    },
-    {
-      "id": "charlotte-lola",
-      "name": "Charlotte Lola",
-      "aliases": [
-        "Shārotto Rōra"
-      ],
-      "affiliation": "Équipage du Rolling",
-      "sub_affiliation": [],
-      "age": 24,
-      "arc": "Thriller Bark",
-      "bounty": 24000000,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line (Totto Land)",
-      "size": 215,
-      "race": "Humain",
-      "hint1": "Rolling Pirates",
-      "hint2": "シャーロット・ローラ",
-      "hint3": "Grand Line (Totto Land)",
-      "firstAppearance": "Chapitre 476",
-      "difficulty": "Impossible"
     },
     {
       "id": "charlotte-mont-d-or",
@@ -3493,7 +3383,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Whole Cake Island",
-      "size": "1m66",
+      "size": 166,
       "race": "Humain",
       "hint1": "Officière",
       "hint2": "Memo Memo no Mi",
@@ -4202,7 +4092,8 @@
       "id": "don-quichotte-doflamingo",
       "name": "Don Quichotte Doflamingo",
       "aliases": [
-        "Joker"
+        "Joker",
+        "Donquixote Doflamingo"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -4232,7 +4123,8 @@
       "name": "Don Quichotte Rossinante",
       "aliases": [
         "Corazon",
-        "Cora"
+        "Cora",
+        "Donquixote Rosinante"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [
@@ -4255,33 +4147,6 @@
       "difficulty": "Facile"
     },
     {
-      "id": "donquixote-doflamingo",
-      "name": "Donquixote Doflamingo",
-      "aliases": [
-        "Donkihōte Dofuramingo"
-      ],
-      "affiliation": "Famille Don Quichotte",
-      "sub_affiliation": [],
-      "age": 39,
-      "arc": "Jaya",
-      "bounty": 340000000,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "Armement",
-        "Observation",
-        "Conquérant"
-      ],
-      "origin": "Red Line (Mary Geoise)",
-      "size": 305,
-      "race": "Humain",
-      "hint1": "Donquixote Pirates",
-      "hint2": "ドンキホーテ・ドフラミンゴ",
-      "hint3": "Red Line (Mary Geoise)",
-      "firstAppearance": "Chapitre 233",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "donquixote-mjosgard",
       "name": "Donquixote Mjosgard",
       "aliases": [
@@ -4302,29 +4167,6 @@
       "hint2": "Humain",
       "hint3": "Marie-Joie",
       "firstAppearance": "Chapitre 625",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "donquixote-rosinante",
-      "name": "Donquixote Rosinante",
-      "aliases": [
-        "Donkihōte Roshinante"
-      ],
-      "affiliation": "Marine",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Dressrosa",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Red Line (Mary Geoise)",
-      "size": 293,
-      "race": "Humain",
-      "hint1": "Marines",
-      "hint2": "ドンキホーテ・ロシナンテ",
-      "hint3": "Red Line (Mary Geoise)",
-      "firstAppearance": "Chapitre 761",
       "difficulty": "Impossible"
     },
     {
@@ -4415,7 +4257,7 @@
       ],
       "imageUrl": "",
       "origin": "Grand Line",
-      "size": "1m98",
+      "size": 198,
       "race": "Humain",
       "hint1": "Fondateur de Cross Guild",
       "hint2": "Épéiste",
@@ -5004,7 +4846,8 @@
       "id": "fukuro",
       "name": "Fukuro",
       "aliases": [
-        "Fukuro le Silencieux"
+        "Fukuro le Silencieux",
+        "Fukurou"
       ],
       "affiliation": "CP-AIGIS0",
       "sub_affiliation": [],
@@ -5045,29 +4888,6 @@
       "hint2": "Humain",
       "hint3": "Wano Kuni",
       "firstAppearance": "Chapitre 931",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "fukurou",
-      "name": "Fukurou",
-      "aliases": [
-        "Fukurō"
-      ],
-      "affiliation": "CP0",
-      "sub_affiliation": [],
-      "age": 29,
-      "arc": "Enies Lobby",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": 331,
-      "race": "Humain",
-      "hint1": "CP0",
-      "hint2": "フクロウ",
-      "hint3": "Grand Line",
-      "firstAppearance": "Chapitre 375",
       "difficulty": "Impossible"
     },
     {
@@ -5141,33 +4961,11 @@
       "difficulty": "Facile"
     },
     {
-      "id": "gan-fall",
-      "name": "Gan Fall",
-      "aliases": [
-        "Gan Fōru"
-      ],
-      "affiliation": "Skypiea",
-      "sub_affiliation": [],
-      "age": 66,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Skypiea)",
-      "size": 180,
-      "race": "Skypieien",
-      "hint1": "Skypiea",
-      "hint2": "ガン・フォール",
-      "hint3": "Grand Line (Skypiea)",
-      "firstAppearance": "Chapitre 237",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "gan-forr",
       "name": "Gan Forr",
       "aliases": [
-        "Le Chevalier des Cieux"
+        "Le Chevalier des Cieux",
+        "Gan Fall"
       ],
       "affiliation": "Skypiea",
       "sub_affiliation": [],
@@ -5179,7 +4977,7 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 180,
-      "race": "Dieu",
+      "race": "Skypieien",
       "hint1": "Skypiea",
       "hint2": "Dieu",
       "hint3": "Skypiea",
@@ -5392,29 +5190,6 @@
       "hint3": "Grand Line (Royaume de Porco)",
       "firstAppearance": "Chapitre 1095",
       "difficulty": "Moyen"
-    },
-    {
-      "id": "giolla",
-      "name": "Giolla",
-      "aliases": [
-        "Jōra"
-      ],
-      "affiliation": "Famille Don Quichotte",
-      "sub_affiliation": [],
-      "age": 61,
-      "arc": "Punk Hazard",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "North Blue",
-      "size": 221,
-      "race": "Humain",
-      "hint1": "Donquixote Pirates",
-      "hint2": "ジョーラ",
-      "hint3": "North Blue",
-      "firstAppearance": "Chapitre 682",
-      "difficulty": "Impossible"
     },
     {
       "id": "giovanni",
@@ -6023,7 +5798,8 @@
       "id": "holdem",
       "name": "Holdem",
       "aliases": [
-        "Gifter"
+        "Gifter",
+        "Holed'em"
       ],
       "affiliation": "Équipage aux Cent Bêtes",
       "sub_affiliation": [],
@@ -6041,29 +5817,6 @@
       "hint3": "Wano Kuni",
       "firstAppearance": "Chapitre 915",
       "difficulty": "Difficile"
-    },
-    {
-      "id": "holed-em",
-      "name": "Holed'em",
-      "aliases": [
-        "Hōrudemu"
-      ],
-      "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
-      "age": 30,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Wano Country)",
-      "size": 312,
-      "race": "Humain",
-      "hint1": "Beasts Pirates",
-      "hint2": "ホールデム",
-      "hint3": "Grand Line (Wano Country)",
-      "firstAppearance": "Chapitre 915",
-      "difficulty": "Impossible"
     },
     {
       "id": "hyougoro",
@@ -6129,7 +5882,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Water Seven",
-      "size": "1m99",
+      "size": 199,
       "race": "Humain",
       "hint1": "Maire",
       "hint2": "Humain",
@@ -6475,29 +6228,6 @@
       "difficulty": "Impossible"
     },
     {
-      "id": "jarul",
-      "name": "Jarul",
-      "aliases": [
-        "Jarul à la barbe de montagne"
-      ],
-      "affiliation": "Équipage des Géants",
-      "sub_affiliation": [],
-      "age": 408,
-      "arc": "Whole Cake",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Erbaf",
-      "size": 2050,
-      "race": "Géant",
-      "hint1": "Équipage des Géants",
-      "hint2": "Ancien du village",
-      "hint3": "Erbaf",
-      "firstAppearance": "Chapitre 866",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "jaygarcia-saturn",
       "name": "Jaygarcia Saturn",
       "aliases": [
@@ -6743,7 +6473,9 @@
     {
       "id": "jora",
       "name": "Jora",
-      "aliases": [],
+      "aliases": [
+        "Giolla"
+      ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
       "age": 61,
@@ -6762,33 +6494,11 @@
       "difficulty": "Difficile"
     },
     {
-      "id": "jorul",
-      "name": "Jorul",
-      "aliases": [
-        "Yoruru"
-      ],
-      "affiliation": "Équipage des Géants",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Whole Cake",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Elbaph)",
-      "size": 2150,
-      "race": "Géant",
-      "hint1": "Giant Warrior Pirates",
-      "hint2": "ヨルル",
-      "hint3": "Grand Line (Elbaph)",
-      "firstAppearance": "Chapitre 866",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "joz",
       "name": "Joz",
       "aliases": [
-        "Diamant Joz"
+        "Diamant Joz",
+        "Jozu"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [],
@@ -6809,27 +6519,6 @@
       "hint3": "Armement, Observation",
       "firstAppearance": "Chapitre 234",
       "difficulty": "Difficile"
-    },
-    {
-      "id": "jozu",
-      "name": "Jozu",
-      "aliases": [],
-      "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
-      "age": 40,
-      "arc": "Jaya",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "West Blue",
-      "size": 503,
-      "race": "Humain",
-      "hint1": "Whitebeard Pirates",
-      "hint2": "ジョズ",
-      "hint3": "West Blue",
-      "firstAppearance": "Chapitre 234",
-      "difficulty": "Impossible"
     },
     {
       "id": "kaidou",
@@ -7202,29 +6891,6 @@
       "difficulty": "Facile"
     },
     {
-      "id": "kin-emon",
-      "name": "Kin'emon",
-      "aliases": [],
-      "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
-      "age": 36,
-      "arc": "Punk Hazard",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "Armement"
-      ],
-      "origin": "Grand Line (Wano Country)",
-      "size": 295,
-      "race": "Humain",
-      "hint1": "Kouzuki Family",
-      "hint2": "錦えもん",
-      "hint3": "Grand Line (Wano Country)",
-      "firstAppearance": "Chapitre 656",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "kinemon",
       "name": "Kinemon",
       "aliases": [
@@ -7264,7 +6930,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "East Blue (Royaume de Goa)",
-      "size": "1m60",
+      "size": 160,
       "race": "Humain",
       "hint1": "Révolutionnaire",
       "hint2": "Karaté Homme-Poisson",
@@ -7320,78 +6986,6 @@
       "difficulty": "Difficile"
     },
     {
-      "id": "kouzuki-hiyori",
-      "name": "Kouzuki Hiyori",
-      "aliases": [
-        "Kōzuki Hiyori"
-      ],
-      "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
-      "age": 26,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line (Moby Dick)",
-      "size": 170,
-      "race": "Humain",
-      "hint1": "Kouzuki Family",
-      "hint2": "光月日和",
-      "hint3": "Grand Line (Moby Dick)",
-      "firstAppearance": "Chapitre 909",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "kouzuki-momonosuke",
-      "name": "Kouzuki Momonosuke",
-      "aliases": [
-        "Kōzuki Momonosuke"
-      ],
-      "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
-      "age": 8,
-      "arc": "Punk Hazard",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Moby Dick)",
-      "size": 110,
-      "race": "Humain",
-      "hint1": "Kouzuki Family",
-      "hint2": "光月モモの助",
-      "hint3": "Grand Line (Moby Dick)",
-      "firstAppearance": "Chapitre 684",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "kouzuki-oden",
-      "name": "Kouzuki Oden",
-      "aliases": [
-        "Kōzuki Oden"
-      ],
-      "affiliation": "Famille Kozuki",
-      "sub_affiliation": [],
-      "age": 0,
-      "arc": "Wano Kuni",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "Armement",
-        "Conquérant"
-      ],
-      "origin": "Grand Line (Wano Country)",
-      "size": 382,
-      "race": "Humain",
-      "hint1": "Kouzuki Family",
-      "hint2": "光月おでん",
-      "hint3": "Grand Line (Wano Country)",
-      "firstAppearance": "Chapitre 920",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "kouzuki-sukiyaki",
       "name": "Kouzuki Sukiyaki",
       "aliases": [
@@ -7439,7 +7033,8 @@
       "id": "kozuki-hiyori",
       "name": "Kozuki Hiyori",
       "aliases": [
-        "Komurasaki"
+        "Komurasaki",
+        "Kouzuki Hiyori"
       ],
       "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
@@ -7461,7 +7056,9 @@
     {
       "id": "kozuki-momonosuke",
       "name": "Kozuki Momonosuke",
-      "aliases": [],
+      "aliases": [
+        "Kouzuki Momonosuke"
+      ],
       "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 8,
@@ -7482,7 +7079,9 @@
     {
       "id": "kozuki-oden",
       "name": "Kozuki Oden",
-      "aliases": [],
+      "aliases": [
+        "Kouzuki Oden"
+      ],
       "affiliation": "Famille Kozuki",
       "sub_affiliation": [],
       "age": 39,
@@ -7919,29 +7518,6 @@
       "difficulty": "Facile"
     },
     {
-      "id": "vegapunk-lilith",
-      "name": "Lilith",
-      "aliases": [
-        "Ririsu"
-      ],
-      "affiliation": "Marine",
-      "sub_affiliation": [],
-      "age": 2,
-      "arc": "Egghead",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line (Egghead)",
-      "size": 204,
-      "race": "Satellite de Vegapunk",
-      "hint1": "Marines (SSG)",
-      "hint2": "悪（リリス）",
-      "hint3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1061",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "lindbergh",
       "name": "Lindbergh",
       "aliases": [
@@ -8270,7 +7846,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Green Bit",
-      "size": "20cm",
+      "size": 20,
       "race": "Nain",
       "hint1": "Princesse",
       "hint2": "Chiyu Chiyu no Mi",
@@ -8282,7 +7858,8 @@
       "id": "marco",
       "name": "Marco",
       "aliases": [
-        "Marco le phénix"
+        "Marco le phénix",
+        "Polo Marco"
       ],
       "affiliation": "Équipage de Barbe Blanche",
       "sub_affiliation": [],
@@ -8934,7 +8511,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Grand Line (Bas-fonds de Water Seven)",
-      "size": "1m87",
+      "size": 187,
       "race": "Humain",
       "hint1": "Famille Franky",
       "hint2": "Humain",
@@ -9594,32 +9171,11 @@
       "difficulty": "Facile"
     },
     {
-      "id": "peepley-lulu",
-      "name": "Peepley Lulu",
-      "aliases": [
-        "Pīpurī Ruru"
-      ],
-      "affiliation": "Galley-La Company",
-      "sub_affiliation": [],
-      "age": 31,
-      "arc": "Water Seven",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Water 7)",
-      "size": 206,
-      "race": "Humain",
-      "hint1": "Galley-La Company",
-      "hint2": "ピープリー・ルル",
-      "hint3": "Grand Line (Water 7)",
-      "firstAppearance": "Chapitre 323",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "peeply-lulu",
       "name": "Peeply Lulu",
-      "aliases": [],
+      "aliases": [
+        "Peepley Lulu"
+      ],
       "affiliation": "Galley-La Company",
       "sub_affiliation": [],
       "age": 31,
@@ -9680,7 +9236,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Arabasta",
-      "size": "1m89",
+      "size": 189,
       "race": "Humain",
       "hint1": "Garde royal",
       "hint2": "Tori Tori no Mi modèle Faucon",
@@ -9780,32 +9336,6 @@
       "hint2": "Capitaine",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1162",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "polo-marco",
-      "name": "Polo Marco",
-      "aliases": [
-        "Pōro Maruko"
-      ],
-      "affiliation": "Équipage de Barbe Blanche",
-      "sub_affiliation": [],
-      "age": 43,
-      "arc": "Jaya",
-      "bounty": 1374000000,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [
-        "Armement",
-        "Observation"
-      ],
-      "origin": "Grand Line",
-      "size": 203,
-      "race": "Humain",
-      "hint1": "Whitebeard Pirates",
-      "hint2": "ポーロ・マルコ",
-      "hint3": "Grand Line",
-      "firstAppearance": "Chapitre 234",
       "difficulty": "Impossible"
     },
     {
@@ -10136,7 +9666,8 @@
       "id": "riku-viola",
       "name": "Riku Viola",
       "aliases": [
-        "Violette"
+        "Violette",
+        "Viola"
       ],
       "affiliation": "Famille Don Quichotte",
       "sub_affiliation": [],
@@ -10358,29 +9889,6 @@
       "difficulty": "Très facile"
     },
     {
-      "id": "rosward-charlos",
-      "name": "Rosward Charlos",
-      "aliases": [
-        "Rosuwādo Charurosu Sei"
-      ],
-      "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
-      "age": 22,
-      "arc": "Archipel Sabaody",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Red Line (Mary Geoise)",
-      "size": 230,
-      "race": "Humain",
-      "hint1": "World Government (Rosward Family)",
-      "hint2": "ロズワード・チャルロス聖",
-      "hint3": "Red Line (Mary Geoise)",
-      "firstAppearance": "Chapitre 499",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "rosward-rosward",
       "name": "Rosward Rosward",
       "aliases": [
@@ -10399,29 +9907,6 @@
       "race": "Humain",
       "hint1": "World Government (Rosward Family)",
       "hint2": "ロズワード・ロズワード聖",
-      "hint3": "Red Line (Mary Geoise)",
-      "firstAppearance": "Chapitre 497",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "rosward-shalria",
-      "name": "Rosward Shalria",
-      "aliases": [
-        "Rosuwādo Sharuria Gū"
-      ],
-      "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
-      "age": 15,
-      "arc": "Archipel Sabaody",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Red Line (Mary Geoise)",
-      "size": 178,
-      "race": "Humain",
-      "hint1": "World Government (Rosward Family)",
-      "hint2": "ロズワード・シャルリア宮",
       "hint3": "Red Line (Mary Geoise)",
       "firstAppearance": "Chapitre 497",
       "difficulty": "Impossible"
@@ -10616,7 +10101,9 @@
     {
       "id": "saint-rosward-charlos",
       "name": "Saint Rosward Charlos",
-      "aliases": [],
+      "aliases": [
+        "Rosward Charlos"
+      ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 22,
@@ -10637,7 +10124,9 @@
     {
       "id": "sainte-rosward-sharlia",
       "name": "Sainte Rosward Sharlia",
-      "aliases": [],
+      "aliases": [
+        "Rosward Shalria"
+      ],
       "affiliation": "Gouvernement Mondial",
       "sub_affiliation": [],
       "age": 15,
@@ -10725,7 +10214,7 @@
       ],
       "imageUrl": "",
       "origin": "North Blue",
-      "size": "1m80",
+      "size": 180,
       "race": "Humain",
       "hint1": "Cuisinier",
       "hint2": "Germa 66",
@@ -11023,35 +10512,12 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 220,
-      "race": "Humain",
+      "race": "Satellite de Vegapunk",
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": "Chapitre 1062",
       "difficulty": "Moyen"
-    },
-    {
-      "id": "vegapunk-shaka",
-      "name": "Shaka",
-      "aliases": [
-        "Shaka"
-      ],
-      "affiliation": "Marine",
-      "sub_affiliation": [],
-      "age": 2,
-      "arc": "Egghead",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line (Egghead)",
-      "size": 220,
-      "race": "Satellite de Vegapunk",
-      "hint1": "Marines (SSG)",
-      "hint2": "正（シャカ）",
-      "hint3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1062",
-      "difficulty": "Impossible"
     },
     {
       "id": "shakuyaku",
@@ -11168,29 +10634,6 @@
       "difficulty": "Impossible"
     },
     {
-      "id": "sheepshead",
-      "name": "Sheepshead",
-      "aliases": [
-        "Shīpusuheddo"
-      ],
-      "affiliation": "Équipage aux Cent Bêtes",
-      "sub_affiliation": [],
-      "age": 24,
-      "arc": "Dressrosa",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": 293,
-      "race": "Humain",
-      "hint1": "Beasts Pirates",
-      "hint2": "シープスヘッド",
-      "hint3": "Grand Line",
-      "firstAppearance": "Chapitre 795",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "shepherd-ju-peter",
       "name": "Shepherd Ju Peter",
       "aliases": [
@@ -11280,7 +10723,9 @@
     {
       "id": "shimotsuki-koshiro",
       "name": "Shimotsuki Kôshirô",
-      "aliases": [],
+      "aliases": [
+        "Shimotsuki Koushirou"
+      ],
       "affiliation": "Famille Shimotsuki",
       "sub_affiliation": [],
       "age": 49,
@@ -11294,29 +10739,6 @@
       "race": "Humain",
       "hint1": "Famille Shimotsuki",
       "hint2": "Humain",
-      "hint3": "East Blue",
-      "firstAppearance": "Chapitre 5",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "shimotsuki-koushirou",
-      "name": "Shimotsuki Koushirou",
-      "aliases": [
-        "Shimotsuki Kōshirō"
-      ],
-      "affiliation": "Famille Shimotsuki",
-      "sub_affiliation": [],
-      "age": 40,
-      "arc": "Romance Dawn",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "East Blue",
-      "size": 184,
-      "race": "Humain",
-      "hint1": "Shimotsuki Family",
-      "hint2": "霜月コウシロウ",
       "hint3": "East Blue",
       "firstAppearance": "Chapitre 5",
       "difficulty": "Impossible"
@@ -11404,7 +10826,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Île des Hommes-Poissons (Royaume Ryugu)",
-      "size": "11m87",
+      "size": 1187,
       "race": "Sirène",
       "hint1": "Princesse",
       "hint2": "Poséidon",
@@ -11571,7 +10993,7 @@
       ],
       "imageUrl": "",
       "origin": "Grand Line",
-      "size": "1m88",
+      "size": 188,
       "race": "Humain",
       "hint1": "Second",
       "hint2": "Humain",
@@ -12142,7 +11564,7 @@
       "haki": [],
       "imageUrl": "",
       "origin": "Île de Drum",
-      "size": "90cm",
+      "size": 90,
       "race": "Renne",
       "hint1": "Médecin",
       "hint2": "Hito Hito no Mi",
@@ -12370,7 +11792,7 @@
       ],
       "imageUrl": "",
       "origin": "East Blue",
-      "size": "1m76",
+      "size": 176,
       "race": "Humain",
       "hint1": "Tireur d'élite",
       "hint2": "Dieu Usopp",
@@ -12609,29 +12031,6 @@
       "difficulty": "Moyen"
     },
     {
-      "id": "viola",
-      "name": "Viola",
-      "aliases": [
-        "Viora"
-      ],
-      "affiliation": "Famille Riku",
-      "sub_affiliation": [],
-      "age": 29,
-      "arc": "Dressrosa",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line (Dressrosa)",
-      "size": 178,
-      "race": "Humain",
-      "hint1": "Riku Family",
-      "hint2": "ヴィオラ",
-      "hint3": "Grand Line (Dressrosa)",
-      "firstAppearance": "Chapitre 703",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "vista",
       "name": "Vista",
       "aliases": [
@@ -12796,7 +12195,8 @@
       "id": "wiper",
       "name": "Wiper",
       "aliases": [
-        "Le Démon Furieux"
+        "Le Démon Furieux",
+        "Wyper"
       ],
       "affiliation": "Shandia",
       "sub_affiliation": [],
@@ -12808,7 +12208,7 @@
       "haki": [],
       "origin": "Skypiea",
       "size": 183,
-      "race": "Humain",
+      "race": "Shandia",
       "hint1": "Shandias",
       "hint2": "Humain",
       "hint3": "Skypiea",
@@ -12836,29 +12236,6 @@
       "hint2": "Professeur de sport",
       "hint3": "Erbaf",
       "firstAppearance": "Chapitre 1142",
-      "difficulty": "Impossible"
-    },
-    {
-      "id": "wyper",
-      "name": "Wyper",
-      "aliases": [
-        "Waipā"
-      ],
-      "affiliation": "Shandia",
-      "sub_affiliation": [],
-      "age": 22,
-      "arc": "Skypiea",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Masculin",
-      "haki": [],
-      "origin": "Sky Islands (Skypiea)",
-      "size": 183,
-      "race": "Shandia",
-      "hint1": "Shandia",
-      "hint2": "ワイパー",
-      "hint3": "Sky Islands (Skypiea)",
-      "firstAppearance": "Chapitre 237",
       "difficulty": "Impossible"
     },
     {
@@ -12920,7 +12297,8 @@
       "id": "yarle",
       "name": "Yarle",
       "aliases": [
-        "Jarl à la Barbe en cime"
+        "Jarl à la Barbe en cime",
+        "Jarul"
       ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
@@ -13053,33 +12431,11 @@
       "difficulty": "Facile"
     },
     {
-      "id": "vegapunk-york",
-      "name": "York",
-      "aliases": [
-        "Yōku"
-      ],
-      "affiliation": "Gouvernement Mondial",
-      "sub_affiliation": [],
-      "age": 2,
-      "arc": "Egghead",
-      "bounty": 0,
-      "devilFruitType": "",
-      "gender": "Féminin",
-      "haki": [],
-      "origin": "Grand Line (Egghead)",
-      "size": 482,
-      "race": "Satellite de Vegapunk",
-      "hint1": "World Government",
-      "hint2": "欲（ヨーク）",
-      "hint3": "Grand Line (Egghead)",
-      "firstAppearance": "Chapitre 1065",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "yorle",
       "name": "Yorle",
       "aliases": [
-        "Barbecade"
+        "Barbecade",
+        "Jorul"
       ],
       "affiliation": "Équipage des Géants",
       "sub_affiliation": [],
@@ -13225,7 +12581,7 @@
       "gender": "Masculin",
       "haki": [],
       "origin": "Fishman Island",
-      "size": "3m25",
+      "size": 325,
       "race": "Homme-Poisson",
       "hint1": "Nouvel Équipage des Hommes-Poissons",
       "hint2": "Homme-Poisson",
@@ -13270,10 +12626,10 @@
     "hint1": 1,
     "hint2": 1,
     "hint3": 1,
-    "size": 0.9979879275653923,
-    "haki": 0.2837022132796781,
-    "devilFruitType": 0.27364185110663986,
-    "sub_affiliation": 0.2012072434607646,
+    "size": 0.9978632478632479,
+    "devilFruitType": 0.2905982905982906,
+    "haki": 0.2905982905982906,
+    "sub_affiliation": 0.21367521367521367,
     "imageUrl": 0
   }
 }
