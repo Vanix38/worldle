@@ -10,8 +10,8 @@
   "fieldMapping": {
     "race": {
       "header": "Race",
-      "fonction": "Classique",
-      "description": "Race ou peuple (humain, homme-poisson, géant, etc.)."
+      "fonction": "Multivalue",
+      "description": "Race ou peuple (humain, homme-poisson, géant, etc.). Liste : un hybride a ses deux races (ex. Dellinger : Humain + Homme-Poisson) ; une race en commun = orange, toutes = vert."
     },
     "gender": {
       "header": "Genre",
@@ -46,7 +46,7 @@
     "devilFruitType": {
       "header": "Type de fruit du démon",
       "fonction": "Classique",
-      "description": "Type de fruit du démon. Valeurs possibles dans les données : Logia, Paramecia, SMILE, Zoan, Zoan Antique, Zoan Classique, Zoan Mythique ; cas rarissime « Logia, Paramecia » ; champ vide si pas de fruit."
+      "description": "Type de fruit du démon. Valeurs possibles dans les données : Logia, Paramecia, SMILE, Zoan Antique, Zoan Classique, Zoan Mythique ; cas rarissime « Logia, Paramecia » ; champ vide si pas de fruit."
     },
     "haki": {
       "header": "Haki(s) maîtrisé(s)",
@@ -2624,7 +2624,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 195,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Troisième",
       "hint2": "Suke Suke no Mi",
       "hint3": "Thriller Bark",
@@ -2651,7 +2653,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -2678,7 +2682,9 @@
       ],
       "origin": "Îles Célestes (Skypiea)",
       "size": 140,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Shandias",
       "hint2": "Humain",
       "hint3": "Observation",
@@ -2708,7 +2714,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 627,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Équipage de Big Mom",
       "hint2": "Sirène",
       "hint3": "Équipage de Big Mom",
@@ -2745,7 +2753,9 @@
       ],
       "origin": "Grand Line",
       "size": 613,
-      "race": "Lunarien",
+      "race": [
+        "Lunarien"
+      ],
       "hint1": "Second",
       "hint2": "Ryu Ryu no Mi modèle Ptéranodon",
       "hint3": "Calamités",
@@ -2780,7 +2790,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 198,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Alliance Baggy et Alvida",
       "hint2": "Sube Sube no Mi",
       "hint3": "Alliance Baggy et Alvida",
@@ -2808,7 +2820,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "École du Morse",
       "hint3": "Grand Line (Erbaf)",
@@ -2839,7 +2853,9 @@
       ],
       "origin": "South Blue (Royaume de Taya)",
       "size": 308,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines",
       "hint2": "アラマキ",
       "hint3": "South Blue (Royaume de Taya)",
@@ -2873,7 +2889,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 263,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Capitaine",
       "hint2": "Homme-Poisson",
       "hint3": "Équipage des Pirates du soleil",
@@ -2911,7 +2929,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 729,
-      "race": "Satellite de Vegapunk",
+      "race": [
+        "Satellite de Vegapunk"
+      ],
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
@@ -2944,7 +2964,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 505,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Impel Down",
       "hint2": "Shima Shima no Mi",
       "hint3": "Impel Down",
@@ -2971,7 +2993,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -3001,7 +3025,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 218,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Spiders Café",
       "hint2": "Humain",
       "hint3": "Spiders Café",
@@ -3033,7 +3059,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 181,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Flotte de Happou",
       "hint2": "Buki Buki no Mi",
       "hint3": "Flotte de Happou",
@@ -3079,7 +3107,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 192,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Quatre Empereurs",
       "hint2": "Bara Bara no Mi",
       "hint3": "Quatre Empereurs",
@@ -3106,7 +3136,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 250,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line",
@@ -3143,7 +3175,9 @@
       ],
       "origin": "South Blue (Royaume de Sorbet)",
       "size": 689,
-      "race": "Buccaneer",
+      "race": [
+        "Buccaneer"
+      ],
       "hint1": "Sept Grands Corsaires",
       "hint2": "Nikyu Nikyu no Mi",
       "hint3": "Sept Grands Corsaires",
@@ -3176,7 +3210,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 220,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Bartolomeo",
       "hint2": "Bari Bari no Mi",
       "hint3": "Équipage de Bartolomeo",
@@ -3214,7 +3250,9 @@
       ],
       "origin": "North Blue",
       "size": 210,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Supernova",
       "hint2": "Wara Wara no Mi",
       "hint3": "Supernova",
@@ -3247,7 +3285,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 512,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Enies Lobby",
       "hint2": "Humain",
       "hint3": "Enies Lobby",
@@ -3280,7 +3320,9 @@
       ],
       "origin": "Grand Line",
       "size": 291,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vice-Amiral",
       "hint2": "Humain",
       "hint3": "Vice-Amiral",
@@ -3317,7 +3359,9 @@
       ],
       "origin": "North Blue",
       "size": 240,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Bellamy",
       "hint2": "Bane Bane no Mi",
       "hint3": "Équipage de Bellamy",
@@ -3348,7 +3392,9 @@
       "imageUrl": "",
       "origin": "East Blue",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ancienne Marine",
       "hint2": "Humain",
       "hint3": "Village de Cocoyasi",
@@ -3381,7 +3427,9 @@
       ],
       "origin": "East Blue",
       "size": 196,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Révolutionnaires",
       "hint2": "Kobu Kobu no Mi",
       "hint3": "Armement, Observation",
@@ -3414,7 +3462,9 @@
       "imageUrl": "",
       "origin": "North Blue",
       "size": 206,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "Humain",
       "hint3": "Armement",
@@ -3441,7 +3491,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -3475,7 +3527,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 238,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Impel Down",
       "hint2": "Mane Mane no Mi",
       "hint3": "Impel Down",
@@ -3505,7 +3559,9 @@
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 240,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Second",
       "hint2": "Minks",
       "hint3": "Tribu des Minks",
@@ -3533,7 +3589,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 120,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Bibliothèque du Hibou",
       "hint2": "Iku Iku no Mi",
       "hint3": "Grand Line (Erbaf)",
@@ -3564,7 +3622,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 182,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "ビシャ門",
       "hint3": "Grand Line (Pays des Wa)",
@@ -3597,7 +3657,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 820,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Tobiroppo",
       "hint2": "Kumo Kumo no Mi modèle Rosamygale grauvogeli",
       "hint3": "Tobiroppo",
@@ -3624,7 +3686,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1800,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Professeur de mathématiques",
       "hint3": "Grand Line (Erbaf)",
@@ -3651,7 +3715,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 314,
-      "race": "Longues-Jambes",
+      "race": [
+        "Longues-Jambes"
+      ],
       "hint1": "Équipage d'Ideo",
       "hint2": "Longues-Jambes",
       "hint3": "Équipage d'Ideo",
@@ -3679,7 +3745,9 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 261,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
@@ -3713,7 +3781,9 @@
       ],
       "origin": "North Blue",
       "size": 258,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS9",
       "hint2": "Doa Doa no Mi",
       "hint3": "CP-AIGIS9",
@@ -3755,7 +3825,9 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 191,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Amazon Lily",
       "hint2": "Mero Mero no Mi",
       "hint3": "Amazon Lily",
@@ -3788,7 +3860,9 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 432,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amazon Lily",
       "hint2": "Hebi Hebi no Mi modèle Cobra Royal",
       "hint3": "Amazon Lily",
@@ -3821,7 +3895,9 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 453,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amazon Lily",
       "hint2": "Hebi Hebi no Mi modèle Anaconda",
       "hint3": "Amazon Lily",
@@ -3851,7 +3927,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Mogaro)",
       "size": 320,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Mogaro Kingdom",
       "hint2": "ボビー・ファンク",
       "hint3": "Grand Line (Royaume de Mogaro)",
@@ -3885,7 +3963,9 @@
       ],
       "origin": "North Blue",
       "size": 302,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amiral",
       "hint2": "Pika Pika no Mi",
       "hint3": "Amiral",
@@ -3915,7 +3995,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 133,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "バーボンJr",
       "hint3": "Grand Line (Alabasta)",
@@ -3947,7 +4029,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 179,
-      "race": "Shandia",
+      "race": [
+        "Shandia"
+      ],
       "hint1": "Shandia",
       "hint2": "ブラハム",
       "hint3": "Îles Célestes (Skypiea)",
@@ -3975,7 +4059,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 190,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Contre-Amiral",
       "hint2": "Humain",
       "hint3": "Contre-Amiral",
@@ -4006,7 +4092,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2130,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Capitaine",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -4043,7 +4131,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 277,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rumbar",
       "hint2": "Yomi Yomi no Mi",
       "hint3": "Équipage de Rumbar",
@@ -4074,7 +4164,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 216,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chat Noir",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -4114,7 +4206,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 68,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": {
         "$manga": "Équipage de Rocks",
         "$anime": "Rocks Pirates"
@@ -4148,7 +4242,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 696,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Guru Guru no Mi",
       "hint3": "North Blue",
@@ -4178,7 +4274,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 192,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Byron",
       "hint2": "バイロン",
       "hint3": "West Blue",
@@ -4212,7 +4310,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 208,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Clown",
       "hint2": "Humain",
       "hint3": "Équipage du Clown",
@@ -4245,7 +4345,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 197,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Takoyaki 8",
       "hint2": "ケイミー",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -4274,7 +4376,9 @@
       "haki": [],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume d'Esperia",
       "hint2": "Capitaine du Battle Convoy",
       "hint3": "West Blue (Royaume d'Esperia)",
@@ -4307,7 +4411,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 166,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Fire Tank",
       "hint2": "Shiro Shiro no Mi",
       "hint3": "Équipage du Fire Tank",
@@ -4342,7 +4448,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 228,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Numa Numa no Mi",
       "hint3": "North Blue",
@@ -4372,7 +4480,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 185,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Underworld",
       "hint2": "カルメル",
       "hint3": "West Blue",
@@ -4402,7 +4512,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 171,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baratie",
       "hint2": "カルネ",
       "hint3": "East Blue",
@@ -4437,7 +4549,9 @@
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 161,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Unité des mousquetaires",
       "hint2": "Minks",
       "hint3": "Unité des mousquetaires",
@@ -4469,7 +4583,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 361,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Impel Down",
       "hint2": "Inu Inu no Mi modèle Kyubi no Kitsune",
       "hint3": "Impel Down",
@@ -4507,7 +4623,9 @@
       ],
       "origin": "Grand Line",
       "size": 208,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Cavendish",
       "hint2": "Humain",
       "hint3": "Équipage de Cavendish",
@@ -4543,7 +4661,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 309,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Mads",
       "hint2": "Gasu Gasu no Mi",
       "hint3": "Mads",
@@ -4575,7 +4695,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 691,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Brune",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -4606,7 +4728,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 213,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Arabasta Kingdom",
       "hint2": "チャカ",
       "hint3": "Grand Line (Alabasta)",
@@ -4638,7 +4762,9 @@
       "haki": [],
       "origin": "Grand Line (Sur un bateau)",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Charlotte Family",
       "hint2": "シャーロット・エンゼル",
       "hint3": "Grand Line (Sur un bateau)",
@@ -4670,7 +4796,9 @@
       "haki": [],
       "origin": "Grand Line (Port inconnu)",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Charlotte Family",
       "hint2": "シャーロット・ブロワイエ",
       "hint3": "Grand Line (Port inconnu)",
@@ -4700,7 +4828,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 350,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Mira Mira no Mi",
       "hint3": "Famille Charlotte",
@@ -4731,7 +4861,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 215,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Humain",
       "hint3": "Famille Charlotte",
@@ -4767,7 +4899,9 @@
       ],
       "origin": "Grand Line",
       "size": 307,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Troisième",
       "hint2": "Bisu Bisu no Mi",
       "hint3": "Famille Charlotte",
@@ -4799,7 +4933,9 @@
       "haki": [],
       "origin": "Grand Line (Sur un bateau)",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Charlotte Family",
       "hint2": "シャーロット・カスタード",
       "hint3": "Grand Line (Sur un bateau)",
@@ -4832,7 +4968,9 @@
       ],
       "origin": "Grand Line",
       "size": 489,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Hoya Hoya no Mi",
       "hint3": "Famille Charlotte",
@@ -4862,7 +5000,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Humain",
       "hint3": "Famille Charlotte",
@@ -4896,7 +5036,9 @@
       ],
       "origin": "Grand Line",
       "size": 509,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "Mochi Mochi no Mi",
       "hint3": "Famille Charlotte",
@@ -4929,7 +5071,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 215,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Humain",
       "hint3": "Famille Charlotte",
@@ -4967,7 +5111,9 @@
       ],
       "origin": "Grand Line",
       "size": 880,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Soru Soru no Mi",
       "hint3": "Famille Charlotte",
@@ -4997,7 +5143,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 260,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Buku Buku no Mi",
       "hint3": "Famille Charlotte",
@@ -5030,7 +5178,9 @@
       ],
       "origin": "Grand Line",
       "size": 492,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Netsu Netsu no Mi",
       "hint3": "Famille Charlotte",
@@ -5063,7 +5213,9 @@
       ],
       "origin": "Grand Line",
       "size": 333,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Pero Pero no Mi",
       "hint3": "Famille Charlotte",
@@ -5094,7 +5246,10 @@
       "haki": [],
       "origin": "Grand Line (Whole Cake Island)",
       "size": 800,
-      "race": "Sirène",
+      "race": [
+        "Humain",
+        "Sirène"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Sirène",
       "hint3": "Famille Charlotte",
@@ -5127,7 +5282,10 @@
       "imageUrl": "",
       "origin": "Grand Line (Whole Cake Island)",
       "size": 166,
-      "race": "Humain",
+      "race": [
+        "Humain",
+        "Tribu des Trois Yeux"
+      ],
       "hint1": "Officière",
       "hint2": "Memo Memo no Mi",
       "hint3": "Totto Land",
@@ -5160,7 +5318,10 @@
       ],
       "origin": "Grand Line",
       "size": 464,
-      "race": "Longues-Jambes",
+      "race": [
+        "Humain",
+        "Longues-Jambes"
+      ],
       "hint1": "Famille Charlotte",
       "hint2": "Shibo Shibo no Mi",
       "hint3": "Famille Charlotte",
@@ -5194,7 +5355,9 @@
       ],
       "origin": "Grand Line (Whole Cake Island)",
       "size": 342,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ancien Général Sucré",
       "hint2": "Ministre des Frites",
       "hint3": "Armement",
@@ -5225,7 +5388,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 194,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Wapol",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
@@ -5257,7 +5422,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 257,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Arlong Pirates",
       "hint2": "チュウ",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -5285,7 +5452,10 @@
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 115,
-      "race": "Humain",
+      "race": [
+        "Humain",
+        "Sirène"
+      ],
       "hint1": "Gare de Shift",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
@@ -5324,7 +5494,9 @@
       ],
       "origin": "West Blue (Pays des Fleurs)",
       "size": 520,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Flotte de Happou",
       "hint2": "Humain",
       "hint3": "Flotte de Happou",
@@ -5354,7 +5526,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 181,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fake Straw Hat Crew",
       "hint2": "ショコラ",
       "hint3": "East Blue",
@@ -5385,7 +5559,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 150,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "ちょめ",
       "hint3": "Grand Line (Pays des Wa)",
@@ -5413,7 +5589,9 @@
       "haki": [],
       "origin": "East Blue (Orange Town)",
       "size": 40,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "East Blue (Orange Town)",
       "hint2": "Animal",
       "hint3": "East Blue (Orange Town)",
@@ -5445,7 +5623,9 @@
       "haki": [],
       "origin": "West Blue (Ohara)",
       "size": 172,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ohara Archaeologists",
       "hint2": "クラウ・D（ディー）・クローバー",
       "hint3": "West Blue (Ohara)",
@@ -5475,7 +5655,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 138,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fake Straw Hat Crew",
       "hint2": "ココア",
       "hint3": "East Blue",
@@ -5503,7 +5685,10 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 350,
-      "race": "Géant",
+      "race": [
+        "Humain",
+        "Géant"
+      ],
       "hint1": "Grand Line (Erbaf)",
       "hint2": "Demi-géant",
       "hint3": "Grand Line (Erbaf)",
@@ -5536,7 +5721,9 @@
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 204,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Mokomo Dukedom",
       "hint2": "コンスロット",
       "hint3": "Grand Line (Zou)",
@@ -5566,7 +5753,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 176,
-      "race": "Skypieien",
+      "race": [
+        "Skypieien"
+      ],
       "hint1": "Îles Célestes (Skypiea)",
       "hint2": "Skypieien",
       "hint3": "Îles Célestes (Skypiea)",
@@ -5598,7 +5787,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 250,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Caribou",
       "hint2": "Humain",
       "hint3": "North Blue",
@@ -5628,7 +5819,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 155,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "カウボーイ",
       "hint3": "Grand Line (Alabasta)",
@@ -5666,7 +5859,9 @@
       ],
       "origin": "Grand Line",
       "size": 253,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Sept Grands Corsaires",
       "hint2": "Suna Suna no Mi",
       "hint3": "Sept Grands Corsaires",
@@ -5696,7 +5891,9 @@
       ],
       "origin": "Grand Line",
       "size": 203,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Roger",
       "hint2": "Humain",
       "hint3": "Cap des Jumeaux",
@@ -5726,7 +5923,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 221,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Bandits",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -5757,7 +5956,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 436,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "大黒",
       "hint3": "Grand Line (Pays des Wa)",
@@ -5787,7 +5988,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 218,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume des Cerisiers",
       "hint2": "Ushi Ushi no Mi modèle Bison",
       "hint3": "Royaume des Cerisiers",
@@ -5815,7 +6018,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 122,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "New Fish-Man Pirates",
       "hint2": "ダルマ",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -5847,7 +6052,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 212,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Cross Guild",
       "hint2": "ダズ・ボーネス",
       "hint3": "West Blue",
@@ -5877,7 +6084,10 @@
       "haki": [],
       "origin": "North Blue",
       "size": 145,
-      "race": "Homme-Poisson",
+      "race": [
+        "Humain",
+        "Homme-Poisson"
+      ],
       "hint1": "Donquixote Pirates",
       "hint2": "デリンジャー",
       "hint3": "North Blue",
@@ -5908,7 +6118,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 245,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -5936,7 +6148,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 435,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Civil",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -5976,7 +6190,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 306,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -6009,7 +6225,9 @@
       ],
       "origin": "North Blue",
       "size": 525,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Hira Hira no Mi",
       "hint3": "Armement, Observation",
@@ -6039,7 +6257,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 342,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Noire",
       "hint2": "Shiku Shiku no Mi",
       "hint3": "North Blue",
@@ -6071,7 +6291,9 @@
       ],
       "origin": "Grand Line",
       "size": 220,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marine",
       "hint2": "Vice-amiral",
       "hint3": "Armement",
@@ -6113,7 +6335,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": 305,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage des Cent Bêtes",
       "hint2": "Ito Ito no Mi",
       "hint3": "Équipage des Cent Bêtes",
@@ -6148,7 +6372,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 293,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Lieutenant Colonel",
       "hint2": "Nagi Nagi no Mi",
       "hint3": "Marines",
@@ -6180,7 +6406,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 211,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Dragon Céleste",
       "hint2": "Humain",
       "hint3": "Marie-Joie",
@@ -6211,7 +6439,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2260,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Capitaine",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -6239,7 +6469,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 418,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "New Fish-Man Pirates",
       "hint2": "ドスン",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -6266,7 +6498,9 @@
       "haki": [],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume d'Esperia",
       "hint2": "Mentionné",
       "hint3": "West Blue (Royaume d'Esperia)",
@@ -6300,7 +6534,9 @@
       "imageUrl": "",
       "origin": "Grand Line",
       "size": 198,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fondateur de Cross Guild",
       "hint2": "Épéiste",
       "hint3": "Armement, Observation",
@@ -6330,7 +6566,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 208,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fake Straw Hat Crew",
       "hint2": "ドリップ",
       "hint3": "East Blue",
@@ -6363,7 +6601,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 156,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baroque Works",
       "hint2": "Mogu Mogu no Mi",
       "hint3": "Grand Line",
@@ -6392,7 +6632,9 @@
       "imageUrl": "",
       "origin": "Grand Line",
       "size": "?",
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Kung-Fu Dugong",
       "hint2": "Animal",
       "hint3": "Alabasta",
@@ -6422,7 +6664,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 470,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Rosy Life Riders",
       "hint2": "デュバル",
       "hint3": "Grand Line",
@@ -6460,7 +6704,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 100,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
@@ -6498,7 +6744,9 @@
       ],
       "origin": "Grand Line (Sphinx)",
       "size": 666,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Gura Gura no Mi",
       "hint3": "Quatre Empereurs",
@@ -6532,7 +6780,9 @@
       ],
       "origin": "Grand Line",
       "size": 680,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Sept Grands Corsaires",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -6562,7 +6812,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Prodence)",
       "size": 436,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Prodence Kingdom",
       "hint2": "エリザベローII世",
       "hint3": "Grand Line (Royaume de Prodence)",
@@ -6592,7 +6844,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 1050,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Géant de fer",
       "hint3": "Grand Line (Egghead)",
@@ -6619,7 +6873,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -6651,7 +6907,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 449,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Kedétrav",
       "hint2": "Horu Horu no Mi",
       "hint3": "Kedétrav",
@@ -6686,7 +6944,9 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 266,
-      "race": "Skypieien",
+      "race": [
+        "Skypieien"
+      ],
       "hint1": "Skypiea",
       "hint2": "Goro Goro no Mi",
       "hint3": "Îles Célestes (Bilca)",
@@ -6720,7 +6980,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 692,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage des Pirates Gecko",
       "hint2": "Paramecia",
       "hint3": "West Blue",
@@ -6747,7 +7009,9 @@
       "haki": [],
       "origin": "West Blue (God Valley)",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Davy",
       "hint2": "Épouse de Rocks D. Xebec",
       "hint3": "West Blue (God Valley)",
@@ -6773,7 +7037,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Erbaf",
       "hint2": "Reine",
       "hint3": "Grand Line (Erbaf)",
@@ -6807,7 +7073,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": 350,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Inu Inu no Mi modèle Bakotsu",
       "hint3": "Armement, Observation, Conquérant",
@@ -6845,7 +7113,9 @@
       ],
       "origin": "South Blue",
       "size": 205,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Jiki Jiki no Mi",
       "hint3": "Supernova",
@@ -6880,7 +7150,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 310,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Chevaliers de Dieu",
       "hint3": "Red Line (Marie-Joie)",
@@ -6913,7 +7185,9 @@
       "haki": [],
       "origin": "West Blue (God Valley)",
       "size": 185,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chevaliers de Dieu",
       "hint2": "Cerberus",
       "hint3": "West Blue (God Valley)",
@@ -6946,7 +7220,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 520,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Capitaine",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -6977,7 +7253,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Noro Noro no Mi",
       "hint3": "South Blue",
@@ -7014,7 +7292,10 @@
       "haki": [],
       "origin": "South Blue",
       "size": 240,
-      "race": "Humain",
+      "race": [
+        "Humain",
+        "Cyborg"
+      ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Humain",
       "hint3": "South Blue",
@@ -7044,7 +7325,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 604,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Famille royale de l'île des hommes-poissons",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -7081,7 +7364,9 @@
       ],
       "origin": "Grand Line",
       "size": 331,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -7113,7 +7398,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 221,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
@@ -7143,7 +7430,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 184,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Lieutenant Commandant",
       "hint2": "Humain",
       "hint3": "North Blue",
@@ -7172,7 +7461,9 @@
       "imageUrl": "",
       "origin": "East Blue",
       "size": 130,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ermite",
       "hint2": "Coffre au trésor",
       "hint3": "Île des animaux rares",
@@ -7209,7 +7500,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 179,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Cross Guild",
       "hint2": "Doru Doru no Mi",
       "hint3": "South Blue",
@@ -7240,7 +7533,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 180,
-      "race": "Skypieien",
+      "race": [
+        "Skypieien"
+      ],
       "hint1": "Îles Célestes (Skypiea)",
       "hint2": "Dieu",
       "hint3": "Îles Célestes (Skypiea)",
@@ -7267,7 +7562,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2000,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Pirates Guerriers Géants",
       "hint2": "Pirate",
       "hint3": "Grand Line (Erbaf)",
@@ -7293,7 +7590,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Bomu Bomu no Mi",
       "hint3": "Grand Line",
@@ -7322,7 +7621,9 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 220,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Clan d'Ener",
       "hint2": "Humain",
       "hint3": "Observation",
@@ -7355,7 +7656,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 197,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baroque Works",
       "hint2": "Bomu Bomu no Mi",
       "hint3": "South Blue",
@@ -7383,7 +7686,9 @@
       "haki": [],
       "origin": "East Blue (Îles Conomi)",
       "size": 173,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Cocoyasi Village",
       "hint2": "ゲンゾウ",
       "hint3": "East Blue (Îles Conomi)",
@@ -7416,7 +7721,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Les Pirates d'Expédition",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -7445,7 +7752,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Horo Horo no Mi",
       "hint3": "Grand Line",
@@ -7471,7 +7780,9 @@
       "imageUrl": "",
       "origin": "East Blue",
       "size": 179,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Bras droit de Don Krieg",
       "hint2": "Humain",
       "hint3": "Équipage de Don Krieg",
@@ -7502,7 +7813,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Porco)",
       "size": 174,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Armée Révolutionnaire",
       "hint2": "Capitaine de l'Armée de l'Est",
       "hint3": "Grand Line (Royaume de Porco)",
@@ -7535,7 +7848,9 @@
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 226,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Mokomo Dukedom",
       "hint2": "ジョバンニ",
       "hint3": "Grand Line (Zou)",
@@ -7563,7 +7878,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 260,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Pamu Pamu no Mi",
       "hint3": "North Blue",
@@ -7594,7 +7911,9 @@
       "haki": [],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Kuja",
       "hint2": "Impératrice Kuja",
       "hint3": "Calm Belt (Amazon Lily)",
@@ -7628,7 +7947,9 @@
       ],
       "origin": "East Blue (Logue Town)",
       "size": 274,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
@@ -7659,7 +7980,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2100,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Les Pirates d'Expédition",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -7687,7 +8010,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 375,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Fire Tank",
       "hint2": "Humain",
       "hint3": "West Blue",
@@ -7720,7 +8045,9 @@
       ],
       "origin": "West Blue",
       "size": 243,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP0",
       "hint2": "ゲルニカ",
       "hint3": "West Blue",
@@ -7762,7 +8089,9 @@
       ],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chevaliers de Dieu",
       "hint2": "Aro Aro no Mi",
       "hint3": "Observation",
@@ -7789,7 +8118,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -7814,7 +8145,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 280,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Armée Révolutionnaire",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -7849,7 +8182,9 @@
       ],
       "origin": "South Blue",
       "size": 1950,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marine",
       "hint2": "Humain",
       "hint3": "Armement",
@@ -7884,7 +8219,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2200,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Les Pirates d'Expédition",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -7914,7 +8251,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 309,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Humain",
       "hint3": "South Blue",
@@ -7944,7 +8283,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 544,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "半ぞう",
       "hint3": "Grand Line (Pays des Wa)",
@@ -7977,7 +8318,9 @@
       ],
       "origin": "Grand Line (Erbaf)",
       "size": 2200,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Erbaf",
       "hint2": "Ancien roi",
       "hint3": "Conquérant",
@@ -8005,7 +8348,9 @@
       "haki": [],
       "origin": "Îles Célestes (Bilca)",
       "size": 253,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Weatheria",
       "hint2": "Homme-Poisson",
       "hint3": "Îles Célestes (Bilca)",
@@ -8036,7 +8381,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 220,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Takoyaki 8",
       "hint2": "Homme-Poisson poulpe",
       "hint3": "Île des Hommes-Poissons",
@@ -8070,7 +8417,9 @@
       ],
       "origin": "East Blue (Shells Town)",
       "size": 179,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Lieutenant-Commandant",
       "hint2": "SWORD",
       "hint3": "Armement",
@@ -8100,7 +8449,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 214,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Heracles",
       "hint2": "ヘラクレス",
       "hint3": "South Blue",
@@ -8133,7 +8484,9 @@
       ],
       "origin": "North Blue",
       "size": 165,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines",
       "hint2": "ひばり",
       "hint3": "North Blue",
@@ -8161,7 +8514,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 190,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Higuma Bandits",
       "hint2": "ヒグマ",
       "hint3": "East Blue",
@@ -8188,7 +8543,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Pays des Dieux",
       "hint2": "Serpent",
       "hint3": "Grand Line (Erbaf)",
@@ -8215,7 +8572,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 213,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume des Cerisiers",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
@@ -8248,7 +8607,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 181,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Sous-Amiral",
       "hint2": "Ori Ori no Mi",
       "hint3": "West Blue",
@@ -8278,7 +8639,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 331,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Nouvel Équipage des Hommes-Poissons",
       "hint2": "Homme-Poisson",
       "hint3": "Île des Hommes-Poissons",
@@ -8308,7 +8671,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 233,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Equipage de Gecko Moria",
       "hint2": "Humain",
       "hint3": "West Blue",
@@ -8339,7 +8704,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 312,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "SMILE",
       "hint3": "Grand Line (Pays des Wa)",
@@ -8374,7 +8741,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 100,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Hyougoro Family",
       "hint2": "ヒョウ五郎",
       "hint3": "Grand Line (Pays des Wa)",
@@ -8404,7 +8773,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 327,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "New Fish-Man Pirates",
       "hint2": "ヒョウゾウ",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -8438,7 +8809,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Water Seven)",
       "size": 199,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Maire",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
@@ -8465,7 +8838,9 @@
       "haki": [],
       "origin": "South Blue (Île de Samuwanai)",
       "size": 1700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Erbaf",
       "hint2": "Barmaid",
       "hint3": "South Blue (Île de Samuwanai)",
@@ -8494,7 +8869,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 225,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -8524,7 +8901,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 499,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "New Fish-Man Pirates",
       "hint2": "イカロス・ムッヒ",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -8560,7 +8939,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Akuma no Mi",
       "hint3": "Observation, Conquérant",
@@ -8591,7 +8972,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 228,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Armée Révolutionnaire",
       "hint2": "Choki Choki no Mi",
       "hint3": "South Blue",
@@ -8632,7 +9015,9 @@
       ],
       "origin": "Grand Line (Zou)",
       "size": 511,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Principauté de Mokomo",
       "hint2": "Homme-Poisson",
       "hint3": "Armement, Observation",
@@ -8660,7 +9045,9 @@
       "haki": [],
       "origin": "East Blue (Logue Town)",
       "size": 157,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Loguetown Arms Shop",
       "hint2": "いっぽんマツ",
       "hint3": "East Blue (Logue Town)",
@@ -8688,7 +9075,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 900,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume des Blocs",
       "hint2": "Félin géant",
       "hint3": "Grand Line (Erbaf)",
@@ -8722,7 +9111,9 @@
       ],
       "origin": "Grand Line",
       "size": 270,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amiral",
       "hint2": "Zushi Zushi no Mi",
       "hint3": "Armement, Observation",
@@ -8752,7 +9143,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 228,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "イワンX",
       "hint3": "Grand Line (Alabasta)",
@@ -8786,7 +9179,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 192,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Blanche",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -8820,7 +9215,9 @@
       ],
       "origin": "North Blue",
       "size": 212,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Inu Inu no Mi modèle Loup",
       "hint3": "Armement, Observation",
@@ -8855,7 +9252,9 @@
       ],
       "origin": "Grand Line",
       "size": 830,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Zo Zo no Mi modèle Mammouth",
       "hint3": "Armement, Observation",
@@ -8885,7 +9284,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 207,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines",
       "hint2": "ジャンゴ",
       "hint3": "East Blue",
@@ -8921,7 +9322,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": 350,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Ushi Ushi no Mi modèle Gyuki",
       "hint3": "Observation, Conquérant",
@@ -8951,7 +9354,9 @@
       "haki": [],
       "origin": "South Blue (Île Karaté)",
       "size": 676,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP6",
       "hint2": "ジェリー",
       "hint3": "South Blue (Île Karaté)",
@@ -8985,7 +9390,9 @@
       ],
       "origin": "Grand Line",
       "size": 355,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Noire",
       "hint2": "Riki Riki no Mi",
       "hint3": "Armement, Observation",
@@ -9022,7 +9429,9 @@
       ],
       "origin": "South Blue",
       "size": 174,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Toshi Toshi no Mi",
       "hint3": "Armement",
@@ -9053,7 +9462,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 225,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "地獄弁天",
       "hint3": "Grand Line (Pays des Wa)",
@@ -9093,7 +9504,9 @@
       ],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 301,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -9120,7 +9533,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -9148,7 +9563,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Jiki Jiki no Mi",
       "hint3": "Grand Line",
@@ -9175,7 +9592,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Marines",
       "hint2": "ジョン・ジャイアント",
       "hint3": "Grand Line (Erbaf)",
@@ -9203,7 +9622,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chasseurs de Primes (avec Yosaku)",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -9233,7 +9654,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 221,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Ato Ato no Mi",
       "hint3": "North Blue",
@@ -9267,7 +9690,9 @@
       ],
       "origin": "West Blue",
       "size": 503,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Troisième",
       "hint2": "Kira Kira no Mi",
       "hint3": "Armement, Observation",
@@ -9307,7 +9732,9 @@
       ],
       "origin": "Grand Line",
       "size": 710,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Uo Uo no Mi modèle Seiryu",
       "hint3": "Armement, Observation, Conquérant",
@@ -9344,7 +9771,9 @@
       ],
       "origin": "East Blue",
       "size": 193,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Ushi Ushi no Mi modèle Girafe",
       "hint3": "Armement, Observation",
@@ -9376,7 +9805,9 @@
       ],
       "origin": "Grand Line",
       "size": 222,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Shandiass",
       "hint2": "Humain",
       "hint3": "Observation",
@@ -9411,7 +9842,9 @@
       ],
       "origin": "Grand Line",
       "size": 185,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Awa Awa no Mi",
       "hint3": "Armement, Observation",
@@ -9446,7 +9879,9 @@
       ],
       "origin": "North Blue",
       "size": 265,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Armée Révolutionnaire",
       "hint2": "Susu Susu no Mi",
       "hint3": "Armement, Observation",
@@ -9473,7 +9908,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -9504,7 +9941,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 150,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
@@ -9534,7 +9973,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Équipage des Géants",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -9571,7 +10012,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 271,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Fourreau Rouge",
       "hint2": "Homme-Poisson",
       "hint3": "Armement, Observation",
@@ -9601,7 +10044,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 192,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "風影",
       "hint3": "Grand Line (Pays des Wa)",
@@ -9631,7 +10076,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Mogaro)",
       "size": 168,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Mogaro Kingdom",
       "hint2": "ケリー・ファンク",
       "hint3": "Grand Line (Royaume de Mogaro)",
@@ -9661,7 +10108,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 157,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "ケンタロウス",
       "hint3": "Grand Line (Alabasta)",
@@ -9691,7 +10140,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2000,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Directeur",
       "hint3": "Grand Line (Erbaf)",
@@ -9728,7 +10179,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Pays des Wa)",
       "size": 287,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fourreau Rouge",
       "hint2": "Kiku des Neiges Persistantes",
       "hint3": "Armement, Observation",
@@ -9768,7 +10221,9 @@
       ],
       "origin": "South Blue",
       "size": 195,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "SMILE",
       "hint3": "Armement, Observation",
@@ -9804,7 +10259,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 295,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Fuku Fuku no Mi",
       "hint3": "Armement, Observation",
@@ -9835,7 +10292,9 @@
       "imageUrl": "",
       "origin": "East Blue (Royaume de Goa)",
       "size": 160,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Révolutionnaire",
       "hint2": "Karaté Homme-Poisson",
       "hint3": "Village de Foosha",
@@ -9871,7 +10330,9 @@
       ],
       "origin": "East Blue (Royaume de Satsuruzo)",
       "size": 167,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Colonel",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -9899,7 +10360,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 168,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Tom's Workers",
       "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -9931,7 +10394,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 214,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Kouzuki Family",
       "hint2": "光月スキヤキ",
       "hint3": "Grand Line (Pays des Wa)",
@@ -9962,7 +10427,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 177,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Alabasta (Les Sablonneux",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
@@ -9995,7 +10462,9 @@
       "haki": [],
       "origin": "Grand Line (Moby Dick)",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Humain",
       "hint3": "Grand Line (Moby Dick)",
@@ -10029,7 +10498,9 @@
       ],
       "origin": "Grand Line (Moby Dick)",
       "size": 110,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Smile du Uo Uo no Mi",
       "hint3": "Grand Line (Moby Dick)",
@@ -10066,7 +10537,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 382,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
@@ -10096,7 +10569,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 243,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Krieg Pirates",
       "hint2": "クリーク",
       "hint3": "East Blue",
@@ -10133,7 +10608,9 @@
       ],
       "origin": "North Blue",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines (G-14)",
       "hint2": "孔雀",
       "hint3": "North Blue",
@@ -10169,7 +10646,9 @@
       ],
       "origin": "South Blue",
       "size": 318,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -10203,7 +10682,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 188,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume des Cerisiers",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
@@ -10231,7 +10712,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 207,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Black Cat Pirates",
       "hint2": "クロ",
       "hint3": "East Blue",
@@ -10262,7 +10745,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "L’Équipage de Wapol (dissous)",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
@@ -10294,7 +10779,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 252,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage d'Arlong",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -10330,7 +10817,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 347,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kurozumi",
       "hint2": "Fude Fude no Mi",
       "hint3": "Armement, Observation",
@@ -10363,7 +10852,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 350,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Zoan Mythique",
       "hint3": "Grand Line (Pays des Wa)",
@@ -10397,7 +10888,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Pays des Wa)",
       "size": 108,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Kunoichi",
       "hint2": "Kibi Kibi no Mi",
       "hint3": "Kuri",
@@ -10436,7 +10929,9 @@
       ],
       "origin": "South Blue (Royaume Vespa)",
       "size": 298,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amiral",
       "hint2": "Hie Hie no Mi",
       "hint3": "Armement, Observation",
@@ -10466,7 +10961,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 220,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Yakuza",
       "hint3": "Grand Line (Pays des Wa)",
@@ -10493,7 +10990,9 @@
       "haki": [],
       "origin": "Grand Line (Dressrosa)",
       "size": 298,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Colisée Corrida",
       "hint2": "Humain",
       "hint3": "Grand Line (Dressrosa)",
@@ -10521,7 +11020,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 40000,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage du Rumbar",
       "hint2": "Homme-Poisson",
       "hint3": "West Blue",
@@ -10549,7 +11050,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 340,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Noire",
       "hint2": "Humain",
       "hint3": "West Blue",
@@ -10577,7 +11080,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 157,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Humain",
       "hint3": "North Blue",
@@ -10607,7 +11112,9 @@
       "haki": [],
       "origin": "Grand Line (Green Bit)",
       "size": 23,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Allié de Équipage du Chapeau de Paille",
       "hint2": "Nui Nui no Mi",
       "hint3": "Grand Line (Green Bit)",
@@ -10642,7 +11149,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 204,
-      "race": "Satellite de Vegapunk",
+      "race": [
+        "Satellite de Vegapunk"
+      ],
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
@@ -10677,7 +11186,9 @@
       ],
       "origin": "Grand Line (Zou)",
       "size": 149,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Commandant révolutionnaire",
       "hint2": "Minks",
       "hint3": "Zou",
@@ -10707,7 +11218,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 6000,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Blanche",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -10746,7 +11259,9 @@
       ],
       "origin": "Grand Line (Erbaf)",
       "size": 2800,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Erbaf",
       "hint2": {
         "$manga": "Ryu Ryu no Mi modèle Nidhöggr",
@@ -10776,7 +11291,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Brag Men",
       "hint2": "Explorateur",
       "hint3": "Grand Line",
@@ -10803,7 +11320,9 @@
       ],
       "origin": "South Blue",
       "size": 241,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Roux",
       "hint2": "Humain",
       "hint3": "Armement",
@@ -10830,7 +11349,9 @@
       "haki": [],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume d'Esperia",
       "hint2": "Prince",
       "hint3": "West Blue (Royaume d'Esperia)",
@@ -10855,7 +11376,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 440,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Ton Ton no Mi",
       "hint3": "North Blue",
@@ -10882,7 +11405,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -10909,7 +11434,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 491,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Doku Doku no Mi",
       "hint3": "Grand Line",
@@ -10936,7 +11463,9 @@
       "haki": [],
       "origin": "West Blue (God Valley)",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "God Valley",
       "hint2": "Mère de Shanks et Shamrock",
       "hint3": "West Blue (God Valley)",
@@ -10961,7 +11490,9 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 166,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Partys Bar",
       "hint2": "マキノ",
       "hint3": "East Blue (Royaume de Goa)",
@@ -10991,7 +11522,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 473,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Famille royale Ryugu",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -11019,7 +11552,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 202,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fake Straw Hat Crew",
       "hint2": "マンジャロウ",
       "hint3": "East Blue",
@@ -11052,7 +11587,9 @@
       "haki": [],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 175,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chevaliers de Dieu",
       "hint2": "Chevaliers de Dieu",
       "hint3": "West Blue (Royaume d'Esperia)",
@@ -11078,7 +11615,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Green Bit)",
       "size": 20,
-      "race": "Nain",
+      "race": [
+        "Nain"
+      ],
       "hint1": "Princesse",
       "hint2": "Chiyu Chiyu no Mi",
       "hint3": "Royaume Tontatta",
@@ -11114,7 +11653,9 @@
       ],
       "origin": "Grand Line",
       "size": 203,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "Tori Tori no Mi modèle Phoenix",
       "hint3": "Armement, Observation",
@@ -11150,7 +11691,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": 350,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Tori Tori no Mi modèle Itsumade",
       "hint3": "Observation, Conquérant",
@@ -11180,7 +11723,9 @@
       ],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 178,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Kujas",
       "hint2": "Humain",
       "hint3": "Armement",
@@ -11210,7 +11755,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 145,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baroque Works",
       "hint2": "Humain",
       "hint3": "North Blue",
@@ -11237,7 +11784,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Équipage de Rocks",
       "hint3": "Grand Line",
@@ -11275,7 +11824,9 @@
       ],
       "origin": "Grand Line",
       "size": 344,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Gura Gura no Mi / Yami Yami no Mi",
       "hint3": "Armement, Observation",
@@ -11303,7 +11854,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 345,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ligue des Primates",
       "hint2": "Humain",
       "hint3": "North Blue",
@@ -11333,7 +11886,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 3600,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage d'Arlong",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -11366,7 +11921,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 177,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baroque Works",
       "hint2": "Kilo Kilo no Mi",
       "hint3": "West Blue",
@@ -11396,7 +11953,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 435,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Ryugu Kingdom",
       "hint2": "左大臣",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -11426,7 +11985,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 313,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Ryugu Kingdom",
       "hint2": "右大臣",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -11456,7 +12017,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "École du Morse",
       "hint2": "Créature",
       "hint3": "Grand Line (Erbaf)",
@@ -11488,7 +12051,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 197,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Cross Guild",
       "hint2": "モージ",
       "hint3": "East Blue",
@@ -11519,7 +12084,9 @@
       ],
       "origin": "Grand Line",
       "size": 251,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vice-Amiral",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -11547,7 +12114,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 227,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Yuki Yuki no Mi",
       "hint3": "North Blue",
@@ -11581,7 +12150,9 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 256,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Armée Révolutionnaire",
       "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
@@ -11620,7 +12191,9 @@
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 287,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vice-Amiral",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
@@ -11672,7 +12245,9 @@
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 174,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Gomu Gomu no Mi",
       "hint3": "Armement, Observation, Conquérant",
@@ -11704,7 +12279,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 242,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Saruyama Alliance",
       "hint2": "モンブラン・クリケット",
       "hint3": "North Blue",
@@ -11736,7 +12313,9 @@
       "haki": [],
       "origin": "North Blue (Royaume de Lvneel)",
       "size": 220,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Lvneel Kingdom",
       "hint2": "モンブラン・ノーランド",
       "hint3": "North Blue (Royaume de Lvneel)",
@@ -11766,7 +12345,9 @@
       "haki": [],
       "origin": "Inconnu",
       "size": 285,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ancien capitaine de la Marine",
       "hint2": "Morgan à la Hache",
       "hint3": "Shells Town",
@@ -11796,7 +12377,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 305,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Pègre",
       "hint2": "Tori Tori no Mi modèle Albatros",
       "hint3": "Journal économique mondial",
@@ -11831,7 +12414,9 @@
       ],
       "origin": "West Blue",
       "size": 1253,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Revolutionary Army (West Army)",
       "hint2": "モーリー",
       "hint3": "West Blue",
@@ -11859,7 +12444,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Erbaf",
       "hint2": "Prisonnier",
       "hint3": "Grand Line (Erbaf)",
@@ -11888,7 +12475,9 @@
       "haki": [],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Moulon",
       "hint2": "Chef de famille",
       "hint3": "West Blue (Royaume d'Esperia)",
@@ -11915,7 +12504,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 294,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fake Straw Hat Crew",
       "hint2": "マウンブルテン",
       "hint3": "East Blue",
@@ -11944,7 +12535,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Water Seven)",
       "size": 187,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Franky",
       "hint2": "Humain",
       "hint3": "Water Seven",
@@ -11971,7 +12564,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Pays des Dieux",
       "hint2": "Corbeau",
       "hint3": "Grand Line (Erbaf)",
@@ -12006,7 +12601,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -12038,7 +12635,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 848,
-      "race": "Homie",
+      "race": [
+        "Homie"
+      ],
       "hint1": "Big Mom Pirates",
       "hint2": "ナポレオン",
       "hint3": "Grand Line",
@@ -12069,7 +12668,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 182,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Nefertari",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
@@ -12103,7 +12704,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 169,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
@@ -12143,7 +12746,10 @@
       ],
       "origin": "Grand Line (Zou)",
       "size": 522,
-      "race": "Minks",
+      "race": [
+        "Minks",
+        "Cyborg"
+      ],
       "hint1": "Principauté de Mokomo",
       "hint2": "Cyborg",
       "hint3": "Armement, Observation",
@@ -12173,7 +12779,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 1220,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Famille royale du royaume Ryugu",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -12201,7 +12809,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 202,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP9",
       "hint2": "Humain",
       "hint3": "West Blue",
@@ -12232,7 +12842,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 182,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Colonel",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -12260,7 +12872,9 @@
       "haki": [],
       "origin": "West Blue (Ohara)",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Ohara",
       "hint2": "Humain",
       "hint3": "West Blue (Ohara)",
@@ -12298,7 +12912,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 188,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chapeau de Paille",
       "hint2": "Hana Hana no Mi",
       "hint3": "West Blue",
@@ -12326,7 +12942,9 @@
       "haki": [],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 127,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Usopp Pirates (disbanded)",
       "hint2": "にんじん",
       "hint3": "East Blue (Archipel des Gekko)",
@@ -12354,7 +12972,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Bell-mère's mikan",
       "hint2": "ノジコ",
       "hint3": "East Blue",
@@ -12384,7 +13004,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 6700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Thriller Bark",
       "hint2": "Géant",
       "hint3": "North Blue",
@@ -12414,7 +13036,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Équipage de Rocks",
       "hint3": "Grand Line",
@@ -12442,7 +13066,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 220,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage d'Arlong",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -12472,7 +13098,9 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 189,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Clan d'Ener",
       "hint2": "Géant",
       "hint3": "Observation",
@@ -12504,7 +13132,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1600,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Équipage des Géants",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -12531,7 +13161,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -12559,7 +13191,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Standing)",
       "size": 480,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Grande Flotte du Chapeau de Paille",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Standing)",
@@ -12591,7 +13225,9 @@
       ],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 224,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Famille royale Ryugu",
       "hint2": "Sirène",
       "hint3": "Observation",
@@ -12619,7 +13255,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 179,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Îles Célestes (Skypiea)",
       "hint2": "Humain",
       "hint3": "Îles Célestes (Skypiea)",
@@ -12654,7 +13292,9 @@
       ],
       "origin": "Grand Line",
       "size": 171,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Ryu Ryu no Mi modèle Spinosaure",
       "hint3": "Armement, Observation",
@@ -12686,7 +13326,9 @@
       "imageUrl": "",
       "origin": "Inconnu",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Caméo récurrent",
       "hint2": "Humain",
       "hint3": "Inconnu",
@@ -12718,7 +13360,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 50,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Criminal brand",
       "hint2": "パッパグ",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -12748,7 +13392,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 204,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baratie",
       "hint2": "パティ",
       "hint3": "East Blue",
@@ -12777,7 +13423,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Water Seven)",
       "size": 195,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Charpentier",
       "hint2": "Humain",
       "hint3": "Galley-La Company",
@@ -12807,7 +13455,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 239,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Krieg Pirates",
       "hint2": "パール",
       "hint3": "East Blue",
@@ -12842,7 +13492,9 @@
       ],
       "origin": "Grand Line (Zou)",
       "size": 233,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Pirates de Nox",
       "hint2": "Homme-Poisson",
       "hint3": "Armement, Observation",
@@ -12872,7 +13524,9 @@
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 206,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Galley-La Company",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
@@ -12907,7 +13561,9 @@
       ],
       "origin": "Grand Line (Zou)",
       "size": 232,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Pirates de Big Mom",
       "hint2": "Sulong",
       "hint3": "Armement, Observation",
@@ -12937,13 +13593,15 @@
         "$anime": "Drum Island"
       },
       "bounty": 0,
-      "devilFruitType": "Zoan",
+      "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
       "haki": [],
       "imageUrl": "",
       "origin": "Grand Line (Alabasta)",
       "size": 189,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Garde royal",
       "hint2": "Tori Tori no Mi modèle Faucon",
       "hint3": "Alabarna",
@@ -12977,7 +13635,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 160,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "Horo Horo no Mi",
       "hint3": "West Blue",
@@ -13008,7 +13668,9 @@
       ],
       "origin": "North Blue",
       "size": 470,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Ishi Ishi no Mi",
       "hint3": "Armement, Observation",
@@ -13038,7 +13700,9 @@
       "haki": [],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 120,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Usopp Pirates (disbanded)",
       "hint2": "ピーマン",
       "hint3": "East Blue (Archipel des Gekko)",
@@ -13067,7 +13731,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Polo",
       "hint2": "Capitaine",
       "hint3": "Grand Line",
@@ -13092,7 +13758,9 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 320,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Bluejam",
       "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
@@ -13131,7 +13799,9 @@
       ],
       "origin": "South Blue (Baterilla)",
       "size": 185,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Blanche",
       "hint2": "Mera Mera no Mi",
       "hint3": "Armement, Observation, Conquérant",
@@ -13161,7 +13831,9 @@
       "haki": [],
       "origin": "Grand Line (Nouveau Monde)",
       "size": 731,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Charlotte Family ‡",
       "hint2": "パウンド",
       "hint3": "Grand Line (Nouveau Monde)",
@@ -13200,7 +13872,9 @@
       ],
       "origin": "West Blue",
       "size": 205,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines (G-14)",
       "hint2": "プリンス・グルス",
       "hint3": "West Blue",
@@ -13232,7 +13906,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 239,
-      "race": "Homie",
+      "race": [
+        "Homie"
+      ],
       "hint1": "Big Mom Pirates",
       "hint2": "プロメテウス",
       "hint3": "Grand Line",
@@ -13270,7 +13946,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 341,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
@@ -13306,7 +13984,10 @@
       ],
       "origin": "Grand Line",
       "size": 612,
-      "race": "Cyborg",
+      "race": [
+        "Humain",
+        "Cyborg"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "クイーン",
       "hint3": "Grand Line",
@@ -13333,7 +14014,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Famille royale d'Erbaf",
       "hint2": "Risu Risu no Mi modèle Ratatoskr",
       "hint3": "Grand Line (Erbaf)",
@@ -13357,7 +14040,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2000,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Pirates Guerriers Géants",
       "hint2": "Pirate",
       "hint3": "Grand Line (Erbaf)",
@@ -13385,7 +14070,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "雷刃",
       "hint3": "Grand Line (Pays des Wa)",
@@ -13421,7 +14108,9 @@
       ],
       "origin": "Grand Line (Pays des Wa)",
       "size": 311,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Maki Maki no Mi",
       "hint3": "Armement, Observation",
@@ -13454,7 +14143,9 @@
       ],
       "origin": "Grand Line (Dressrosa)",
       "size": 171,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Riku",
       "hint2": "Humain",
       "hint3": "Observation",
@@ -13483,7 +14174,9 @@
       "haki": [],
       "origin": "West Blue (Royaume d'Esperia)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Royaume d'Esperia",
       "hint2": "Roi",
       "hint3": "West Blue (Royaume d'Esperia)",
@@ -13510,7 +14203,9 @@
       "haki": [],
       "origin": "Grand Line (Dressrosa)",
       "size": 261,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Colisée Corrida",
       "hint2": "Humain",
       "hint3": "Grand Line (Dressrosa)",
@@ -13543,7 +14238,9 @@
       "haki": [],
       "origin": "Grand Line (Dressrosa)",
       "size": 178,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Giro Giro no Mi",
       "hint3": "Grand Line (Dressrosa)",
@@ -13575,7 +14272,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 175,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chevaliers de Dieu",
       "hint2": "Ryu Ryu no Mi modèle Kirin",
       "hint3": "Red Line (Marie-Joie)",
@@ -13600,7 +14299,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1700,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Professeure de biologie",
       "hint3": "Grand Line (Erbaf)",
@@ -13630,7 +14331,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines (153rd Branch)",
       "hint2": "リッパー",
       "hint3": "East Blue",
@@ -13664,7 +14367,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2600,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Les Pirates d'Expédition",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -13698,7 +14403,9 @@
       ],
       "origin": "Grand Line",
       "size": 212,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP0",
       "hint2": "Neko Neko no Mi modèle Léopard",
       "hint3": "Armement, Observation",
@@ -13746,7 +14453,9 @@
         "$manga": 250,
         "$anime": 435
       },
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": {
         "$manga": "Équipage de Rocks",
         "$anime": "Rocks Pirates"
@@ -13785,7 +14494,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -13824,7 +14535,9 @@
       ],
       "origin": "East Blue",
       "size": 181,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
@@ -13856,7 +14569,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 215,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "World Government (Rosward Family)",
       "hint2": "ロズワード・ロズワード聖",
       "hint3": "Red Line (Marie-Joie)",
@@ -13886,7 +14601,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 544,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Famille royale du royaume Ryugu",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -13919,7 +14636,10 @@
       ],
       "origin": "Grand Line (Egghead)",
       "size": 660,
-      "race": "Lunarien",
+      "race": [
+        "Lunarien",
+        "Buccaneer"
+      ],
       "hint1": "Seraphim (Pacifista)",
       "hint2": "S（エス）-ベア",
       "hint3": "Grand Line (Egghead)",
@@ -13952,7 +14672,10 @@
       ],
       "origin": "Grand Line (Egghead)",
       "size": 212,
-      "race": "Lunarien",
+      "race": [
+        "Lunarien",
+        "Humain"
+      ],
       "hint1": "Seraphim (Pacifista)",
       "hint2": "S（エス）-ホーク",
       "hint3": "Grand Line (Egghead)",
@@ -13985,7 +14708,10 @@
       ],
       "origin": "Grand Line (Egghead)",
       "size": 320,
-      "race": "Lunarien",
+      "race": [
+        "Lunarien",
+        "Homme-Poisson"
+      ],
       "hint1": "Seraphim (Pacifista)",
       "hint2": "S（エス）-シャーク",
       "hint3": "Grand Line (Egghead)",
@@ -14018,7 +14744,10 @@
       ],
       "origin": "Grand Line (Egghead)",
       "size": 208,
-      "race": "Lunarien",
+      "race": [
+        "Lunarien",
+        "Humain"
+      ],
       "hint1": "Seraphim (Pacifista)",
       "hint2": "S（エス）-スネーク",
       "hint3": "Grand Line (Egghead)",
@@ -14056,7 +14785,9 @@
       ],
       "origin": "East Blue (Royaume de Goa)",
       "size": 187,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage ASL",
       "hint2": "Mera Mera no Mi",
       "hint3": "Armement, Observation",
@@ -14086,7 +14817,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 183,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Impel Down",
       "hint2": "サディちゃん",
       "hint3": "Grand Line",
@@ -14120,7 +14853,9 @@
       ],
       "origin": "West Blue (Pays des Fleurs)",
       "size": 242,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Flotte de Happou",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -14152,7 +14887,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 230,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Humain",
       "hint3": "Red Line (Marie-Joie)",
@@ -14184,7 +14921,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 178,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Humain",
       "hint3": "Red Line (Marie-Joie)",
@@ -14218,7 +14957,9 @@
       ],
       "origin": "North Blue",
       "size": 306,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amiral en chef",
       "hint2": "Magu Magu no Mi",
       "hint3": "Armement, Observation",
@@ -14248,7 +14989,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 218,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Impel Down",
       "hint2": "サルデス",
       "hint3": "Grand Line",
@@ -14290,7 +15033,9 @@
       "imageUrl": "",
       "origin": "North Blue",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Cuisinier",
       "hint2": "Germa 66",
       "hint3": "Armement, Observation, Conquérant",
@@ -14320,7 +15065,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 18000,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Équipage de Barbe Noire",
       "hint2": "Deka Deka no Mi",
       "hint3": "West Blue",
@@ -14350,7 +15097,9 @@
       "haki": [],
       "origin": "North Blue (Notice)",
       "size": 228,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Bellamy Pirates",
       "hint2": "サーキース",
       "hint3": "North Blue (Notice)",
@@ -14380,7 +15129,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 378,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "猿飛",
       "hint3": "Grand Line (Pays des Wa)",
@@ -14417,7 +15168,9 @@
       ],
       "origin": "Grand Line",
       "size": 318,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Ryu Ryu no Mi modèle Tricératops",
       "hint3": "Armement, Observation",
@@ -14449,7 +15202,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 450,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chevaliers de Dieu",
       "hint2": "Chevalière de Dieu",
       "hint3": "Red Line (Marie-Joie)",
@@ -14476,7 +15231,9 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 179,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Clan d'Ener",
       "hint2": "Géant",
       "hint3": "Observation",
@@ -14513,7 +15270,9 @@
       ],
       "origin": "Grand Line",
       "size": 195,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Erbaf",
       "hint2": "Navigateur",
       "hint3": "Armement, Observation, Conquérant",
@@ -14547,7 +15306,9 @@
       ],
       "origin": "Grand Line",
       "size": 256,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Oto Oto no Mi",
       "hint3": "Armement, Observation",
@@ -14579,7 +15340,9 @@
       ],
       "origin": "South Blue",
       "size": 278,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Amiral en chef",
       "hint2": "Hito Hito no Mi modèle Daibutsu",
       "hint3": "Armement, Observation, Conquérant",
@@ -14607,7 +15370,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 244,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Sui Sui no Mi",
       "hint3": "North Blue",
@@ -14638,7 +15403,9 @@
       ],
       "origin": "Grand Line (Mont Kintoki)",
       "size": 279,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marine",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -14676,7 +15443,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 220,
-      "race": "Satellite de Vegapunk",
+      "race": [
+        "Satellite de Vegapunk"
+      ],
       "hint1": "Marine",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
@@ -14706,7 +15475,9 @@
       "haki": [],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage des Pirates Kuja",
       "hint2": "Humain",
       "hint3": "Calm Belt (Amazon Lily)",
@@ -14734,7 +15505,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 201,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Chat Noir",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -14764,7 +15537,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 179,
-      "race": "Shandia",
+      "race": [
+        "Shandia"
+      ],
       "hint1": "Shandia",
       "hint2": "シャンディア酋長",
       "hint3": "Îles Célestes (Skypiea)",
@@ -14805,7 +15580,9 @@
       ],
       "origin": "West Blue",
       "size": 199,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
@@ -14833,7 +15610,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 293,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -14869,7 +15648,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": 350,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Hito Hito no Mi modèle Morphon",
       "hint3": "Observation",
@@ -14901,7 +15682,9 @@
       "haki": [],
       "origin": "Red Line (Marie-Joie)",
       "size": 175,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Chevaliers de Dieu",
       "hint2": "Iba Iba no Mi",
       "hint3": "Red Line (Marie-Joie)",
@@ -14930,7 +15713,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 250,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Rocks",
       "hint2": "Fuwa Fuwa no Mi",
       "hint3": "Grand Line",
@@ -14960,7 +15745,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 184,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Shimotsuki",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -14990,7 +15777,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 221,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Shimotsuki Family",
       "hint2": "霜月コウ三郎",
       "hint3": "Grand Line (Pays des Wa)",
@@ -15018,7 +15807,9 @@
       "haki": [],
       "origin": "East Blue (Village de Shimotsuki)",
       "size": 150,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Shimotsuki",
       "hint2": "Humain",
       "hint3": "East Blue (Village de Shimotsuki)",
@@ -15050,7 +15841,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Kozuki",
       "hint2": "Juku Juku no Mi",
       "hint3": "Grand Line (Pays des Wa)",
@@ -15083,7 +15876,9 @@
       "imageUrl": "",
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 1187,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Princesse",
       "hint2": "Poséidon",
       "hint3": "Île des Hommes-Poissons",
@@ -15115,7 +15910,9 @@
       ],
       "origin": "Grand Line",
       "size": 340,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Blackbeard Pirates",
       "hint2": "シリュウ",
       "hint3": "Grand Line",
@@ -15148,7 +15945,9 @@
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 196,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Mokomo Dukedom",
       "hint2": "シシリアン",
       "hint3": "Grand Line (Zou)",
@@ -15178,7 +15977,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 351,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Saruyama Alliance (Shoujou Pirates)",
       "hint2": "ショウジョウ",
       "hint3": "South Blue",
@@ -15210,7 +16011,9 @@
       ],
       "origin": "Îles Célestes (Bilca)",
       "size": 220,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Clan d'Ener",
       "hint2": "Humain",
       "hint3": "Observation",
@@ -15240,7 +16043,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 520,
-      "race": "Sirène",
+      "race": [
+        "Sirène"
+      ],
       "hint1": "Mermaid Café",
       "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -15269,7 +16074,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines",
       "hint2": "シシリー",
       "hint3": "South Blue",
@@ -15302,7 +16109,9 @@
       "imageUrl": "",
       "origin": "Grand Line",
       "size": 188,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Second",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
@@ -15329,7 +16138,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -15354,7 +16165,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 257,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage d'Arlong",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -15389,7 +16202,9 @@
       ],
       "origin": "Grand Line",
       "size": 209,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vice-Amiral",
       "hint2": "Moku Moku no Mi",
       "hint3": "Armement, Observation",
@@ -15421,7 +16236,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 192,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -15451,7 +16268,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 275,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP9",
       "hint2": "スパンダイン",
       "hint3": "Grand Line",
@@ -15486,7 +16305,9 @@
       },
       "origin": "Grand Line (Pays des Wa)",
       "size": 298,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "SMILE",
       "hint3": {
@@ -15521,7 +16342,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 228,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Blanche",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -15551,7 +16374,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": "?",
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines G-1 Branch",
       "hint2": "ストーカー",
       "hint3": "Grand Line",
@@ -15582,7 +16407,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 1950,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Les Pirates d'Expédition",
       "hint2": "Géant",
       "hint3": "Grand Line",
@@ -15617,7 +16444,9 @@
       "haki": [],
       "origin": "Grand Line (Baldimore)",
       "size": 314,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Nomi Nomi no Mi",
       "hint3": "Grand Line (Baldimore)",
@@ -15647,7 +16476,9 @@
       "haki": [],
       "origin": "East Blue (Royaume de Goa)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Sterry",
       "hint2": "ステリー",
       "hint3": "East Blue (Royaume de Goa)",
@@ -15677,7 +16508,9 @@
       "haki": [],
       "origin": "Grand Line (Alabasta)",
       "size": 202,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Super Spot-Billed Duck Troops",
       "hint2": "ストンプ",
       "hint3": "Grand Line (Alabasta)",
@@ -15709,7 +16542,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 140,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Big Mom",
       "hint2": "Kuku Kuku no Mi",
       "hint3": "Grand Line",
@@ -15738,7 +16573,7 @@
       "age": 36,
       "arc": "Whole Cake",
       "bounty": 0,
-      "devilFruitType": "Zoan",
+      "devilFruitType": "Zoan Classique",
       "gender": "Féminin",
       "haki": [
         "Armement",
@@ -15746,7 +16581,9 @@
       ],
       "origin": "Grand Line",
       "size": 179,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP-AIGIS0",
       "hint2": "Batto Batto no Mi",
       "hint3": "Armement, Observation",
@@ -15774,7 +16611,9 @@
       "haki": [],
       "origin": "North Blue",
       "size": 110,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Famille Don Quichotte",
       "hint2": "Hobi Hobi no Mi",
       "hint3": "Dressrosa",
@@ -15807,7 +16646,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 240,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Cavendish",
       "hint2": "Humain",
       "hint3": "South Blue",
@@ -15837,7 +16678,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 200,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Marines",
       "hint2": "Tボーン",
       "hint3": "Grand Line",
@@ -15862,7 +16705,7 @@
       "age": 46,
       "arc": "Fishman Island",
       "bounty": 429000000,
-      "devilFruitType": "Zoan",
+      "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
       "haki": [
         "Armement",
@@ -15870,7 +16713,9 @@
       ],
       "origin": "Grand Line",
       "size": 301,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage de Big Mom",
       "hint2": "Tama Tama no Mi",
       "hint3": "Armement, Observation",
@@ -15898,7 +16743,9 @@
       "haki": [],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 124,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Usopp Pirates (disbanded)",
       "hint2": "たまねぎ",
       "hint3": "East Blue (Archipel des Gekko)",
@@ -15931,7 +16778,9 @@
       ],
       "origin": "East Blue",
       "size": 170,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Colonel",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -15959,7 +16808,9 @@
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 255,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Galley-La Company",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
@@ -15989,7 +16840,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 89,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Kouzuki Hiyori",
       "hint2": "トコ",
       "hint3": "Grand Line (Pays des Wa)",
@@ -16017,7 +16870,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 296,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Tom's Workers",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -16047,7 +16902,9 @@
       "haki": [],
       "origin": "Grand Line (Long Ring Long Land)",
       "size": 118,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Tonjit",
       "hint2": "トンジット",
       "hint3": "Grand Line (Long Ring Long Land)",
@@ -16074,13 +16931,15 @@
       "age": 17,
       "arc": "Drum Island",
       "bounty": 1000,
-      "devilFruitType": "Zoan",
+      "devilFruitType": "Zoan Classique",
       "gender": "Masculin",
       "haki": [],
       "imageUrl": "",
       "origin": "Grand Line (Royaume de Drum)",
       "size": 90,
-      "race": "Animal",
+      "race": [
+        "Animal"
+      ],
       "hint1": "Médecin",
       "hint2": "Hito Hito no Mi",
       "hint3": "Grand Line (Royaume de Drum)",
@@ -16116,7 +16975,9 @@
       ],
       "origin": "Red Line (Marie-Joie)",
       "size": 350,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Hito Hito no Mi modèle Fengxi",
       "hint3": "Observation, Conquérant",
@@ -16156,7 +17017,9 @@
       ],
       "origin": "North Blue",
       "size": 191,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Ope Ope no Mi",
       "hint3": "Armement, Observation",
@@ -16187,7 +17050,9 @@
       ],
       "origin": "North Blue",
       "size": 349,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Don Quichotte Family",
       "hint2": "Beta Beta no Mi",
       "hint3": "Armement, Observation",
@@ -16214,7 +17079,9 @@
       "haki": [],
       "origin": "Calm Belt (Amazon Lily)",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage des Pirates Kuja",
       "hint2": "Impératrice Kuja",
       "hint3": "Calm Belt (Amazon Lily)",
@@ -16244,7 +17111,9 @@
       ],
       "origin": "North Blue",
       "size": 204,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vice-Amiral",
       "hint2": "Woshu Woshu no Mi",
       "hint3": "Armement, Observation",
@@ -16274,7 +17143,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 258,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Fake Straw Hat Crew",
       "hint2": "トルコ",
       "hint3": "East Blue",
@@ -16309,7 +17180,9 @@
       ],
       "origin": "Grand Line",
       "size": 173,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Ryu Ryu no Mi modèle Pachycéphalosaure",
       "hint3": "Armement, Observation",
@@ -16342,7 +17215,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 388,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage des Moines Dépravés",
       "hint2": "Fruit d'Urouge",
       "hint3": "Îles Célestes (Skypiea)",
@@ -16384,7 +17259,9 @@
       "imageUrl": "",
       "origin": "East Blue",
       "size": 176,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Tireur d'élite",
       "hint2": "Dieu Usopp",
       "hint3": "Observation",
@@ -16414,7 +17291,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 340,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Noire",
       "hint2": "Wapu Wapu no Mi",
       "hint3": "East Blue",
@@ -16442,7 +17321,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 352,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage des Pirates Volants",
       "hint2": "Mato Mato no Mi",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -16474,7 +17355,9 @@
       "haki": [],
       "origin": "South Blue",
       "size": 573,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Noire",
       "hint2": "Gabu Gabu no Mi",
       "hint3": "South Blue",
@@ -16510,7 +17393,9 @@
       ],
       "origin": "North Blue",
       "size": 247,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vice-Amiral",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -16540,7 +17425,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 188,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Thriller Bark Pirates",
       "hint2": "ビクトリア・シンドリー",
       "hint3": "West Blue",
@@ -16573,7 +17460,9 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 186,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Germa 66",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
@@ -16608,7 +17497,9 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 272,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Vinsmoke Family",
       "hint2": "ヴィンスモーク・ジャッジ",
       "hint3": "North Blue (Royaume de Germa)",
@@ -16641,7 +17532,9 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 185,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Germa 66",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
@@ -16674,7 +17567,9 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 173,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Germa 66",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
@@ -16707,7 +17602,9 @@
       "haki": [],
       "origin": "North Blue (Royaume de Germa)",
       "size": 194,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Germa 66",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
@@ -16740,7 +17637,9 @@
       ],
       "origin": "North Blue",
       "size": 328,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de Barbe Blanche",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
@@ -16770,7 +17669,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 242,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Fire Tank",
       "hint2": "Humain",
       "hint3": "West Blue",
@@ -16802,7 +17703,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 8000,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Équipage des Pirates du Soleil",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -16833,7 +17736,9 @@
       "haki": [],
       "origin": "Grand Line (Zou)",
       "size": 181,
-      "race": "Minks",
+      "race": [
+        "Minks"
+      ],
       "hint1": "Principauté de Mokomo",
       "hint2": "Minks",
       "hint3": "Grand Line (Zou)",
@@ -16861,7 +17766,9 @@
       "haki": [],
       "origin": "West Blue",
       "size": 173,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "CP7",
       "hint2": "Humain",
       "hint3": "West Blue",
@@ -16894,7 +17801,9 @@
       "haki": [],
       "origin": "Grand Line (Royaume de Drum)",
       "size": 207,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Capitaine",
       "hint2": "Baku Baku no Mi",
       "hint3": "Grand Line (Royaume de Drum)",
@@ -16931,7 +17840,9 @@
       ],
       "origin": "North Blue",
       "size": 336,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage aux Cent Bêtes",
       "hint2": "Neko Neko no Mi modèle Tigre à dents de sabre",
       "hint3": "Armement, Observation",
@@ -16964,7 +17875,9 @@
       "haki": [],
       "origin": "Îles Célestes (Skypiea)",
       "size": 183,
-      "race": "Shandia",
+      "race": [
+        "Shandia"
+      ],
       "hint1": "Shandias",
       "hint2": "Humain",
       "hint3": "Îles Célestes (Skypiea)",
@@ -16996,7 +17909,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 1900,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Professeur de sport",
       "hint3": "Grand Line (Erbaf)",
@@ -17036,7 +17951,9 @@
       ],
       "origin": "North Blue",
       "size": 233,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage de X. Barrels",
       "hint2": "Ryu Ryu no Mi modèle Allosaure",
       "hint3": "Armement, Observation",
@@ -17073,7 +17990,9 @@
       ],
       "origin": "Inconnu",
       "size": 263,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
       "hint2": "Zoan Mythique",
       "hint3": "Armement, Observation, Conquérant",
@@ -17104,7 +18023,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2050,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Équipage des Géants",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -17136,7 +18057,9 @@
       ],
       "origin": "East Blue (Archipel des Gekko)",
       "size": 183,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Équipage du Roux",
       "hint2": "Humain",
       "hint3": "Observation",
@@ -17166,7 +18089,9 @@
       "haki": [],
       "origin": "Grand Line (Pays des Wa)",
       "size": 180,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Beasts Pirates",
       "hint2": "矢ざえもん",
       "hint3": "Grand Line (Pays des Wa)",
@@ -17194,7 +18119,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 4250,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "César Clown",
       "hint2": "Humain",
       "hint3": "Grand Line",
@@ -17222,7 +18149,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 450,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "École du Morse",
       "hint2": "Élève",
       "hint3": "Grand Line (Erbaf)",
@@ -17254,7 +18183,9 @@
       "haki": [],
       "origin": "Grand Line (Egghead)",
       "size": 482,
-      "race": "Satellite de Vegapunk",
+      "race": [
+        "Satellite de Vegapunk"
+      ],
       "hint1": "Gouvernement Mondial",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
@@ -17287,7 +18218,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": 2150,
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Équipage des Géants",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
@@ -17315,7 +18248,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 185,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Johnny",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -17348,7 +18283,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 187,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baroque Works",
       "hint2": "Toge Toge no Mi",
       "hint3": "Grand Line",
@@ -17378,7 +18315,9 @@
       "haki": [],
       "origin": "Grand Line (Water Seven)",
       "size": 237,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Galley-La Company",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
@@ -17407,7 +18346,9 @@
       "haki": [],
       "origin": "Grand Line (Erbaf)",
       "size": "?",
-      "race": "Géant",
+      "race": [
+        "Géant"
+      ],
       "hint1": "Grand Line (Erbaf)",
       "hint2": "Dieu de la Pluie",
       "hint3": "Grand Line (Erbaf)",
@@ -17436,7 +18377,9 @@
       "haki": [],
       "origin": "East Blue",
       "size": 189,
-      "race": "Humain",
+      "race": [
+        "Humain"
+      ],
       "hint1": "Baratie",
       "hint2": "Humain",
       "hint3": "East Blue",
@@ -17466,7 +18409,9 @@
       "haki": [],
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 325,
-      "race": "Homme-Poisson",
+      "race": [
+        "Homme-Poisson"
+      ],
       "hint1": "Nouvel Équipage des Hommes-Poissons",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
@@ -17499,7 +18444,9 @@
       "haki": [],
       "origin": "Grand Line",
       "size": 232,
-      "race": "Homie",
+      "race": [
+        "Homie"
+      ],
       "hint1": "Straw Hat Pirates",
       "hint2": "ゼウス",
       "hint3": "Grand Line",
