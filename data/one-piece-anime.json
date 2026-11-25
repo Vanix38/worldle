@@ -2488,7 +2488,7 @@
       "aliases": [
         "Bairon"
       ],
-      "affiliation": "",
+      "affiliation": "Esclave",
       "sub_affiliation": [],
       "age": 25,
       "arc": "Archipel Sabaody",
@@ -4040,7 +4040,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Red Line (Mary Geoise)",
       "size": 211,
       "race": "Humain",
       "hint1": "Dragon Céleste",
@@ -5337,7 +5337,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Fishman Island",
       "size": 220,
       "race": "Homme-Poisson",
       "hint1": "Takoyaki 8",
@@ -5362,7 +5362,7 @@
       "haki": [
         "Armement"
       ],
-      "origin": "",
+      "origin": "East Blue (Shells Town)",
       "size": 179,
       "race": "Humain",
       "hint1": "Lieutenant-Commandant",
@@ -5377,7 +5377,7 @@
       "aliases": [
         "Herakuresu"
       ],
-      "affiliation": "",
+      "affiliation": "Archipel de Boing",
       "sub_affiliation": [],
       "age": 49,
       "arc": "Amazon Lily",
@@ -6636,7 +6636,7 @@
       "gender": "Féminin",
       "haki": [],
       "imageUrl": "",
-      "origin": "Inconnu",
+      "origin": "East Blue (Royaume de Goa)",
       "size": "1m60",
       "race": "Humain",
       "hint1": "Révolutionnaire",
@@ -7296,7 +7296,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Zou (Principauté de Mokomo)",
       "size": 149,
       "race": "Minks",
       "hint1": "Commandant révolutionnaire",
@@ -7957,7 +7957,7 @@
       "devilFruitType": "",
       "gender": "Masculin",
       "haki": [],
-      "origin": "",
+      "origin": "Inconnu",
       "size": 285,
       "race": "Humain",
       "hint1": "Ancien capitaine de la Marine",
@@ -8740,7 +8740,7 @@
       "haki": [
         "Armement"
       ],
-      "origin": "",
+      "origin": "Zou (Principauté de Mokomo)",
       "size": 232,
       "race": "Minks",
       "hint1": "Pirates de Big Mom",
@@ -10586,7 +10586,7 @@
       "aliases": [
         "Suterī"
       ],
-      "affiliation": "",
+      "affiliation": "Royaume de Goa",
       "sub_affiliation": [],
       "age": 8,
       "arc": "Marineford",
@@ -10884,7 +10884,7 @@
       "aliases": [
         "Tonjitto"
       ],
-      "affiliation": "",
+      "affiliation": "Long Ring Long Land",
       "sub_affiliation": [],
       "age": 61,
       "arc": "Long Ring Long Land",
@@ -11505,7 +11505,7 @@
       "arc": "Drum Island",
       "bounty": 4,
       "devilFruitType": "",
-      "gender": "",
+      "gender": "Masculin",
       "haki": [],
       "origin": "Drum Island",
       "size": 207,
@@ -11962,15 +11962,15 @@
   ],
   "fieldPrevalence": {
     "race": 1,
+    "gender": 1,
     "age": 1,
+    "origin": 1,
+    "affiliation": 1,
     "bounty": 1,
     "firstAppearance": 1,
     "arc": 1,
     "difficulty": 1,
-    "gender": 0.9977728285077951,
     "size": 0.9977728285077951,
-    "affiliation": 0.9910913140311804,
-    "origin": 0.9866369710467706,
     "hint1": 0.977728285077951,
     "hint2": 0.977728285077951,
     "hint3": 0.977728285077951,
