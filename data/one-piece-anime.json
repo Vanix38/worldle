@@ -1,6 +1,7 @@
 {
   "id": "one-piece-anime",
   "name": "One Piece Anime",
+  "silhouetteHint": true,
   "fieldMapping": {
     "race": {
       "header": "Race",

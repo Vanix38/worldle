@@ -210,6 +210,7 @@ export function getUniverseData(universeId: string): UniverseData | null {
       characters,
       ...(fieldMapping && Object.keys(fieldMapping).length > 0 && { fieldMapping }),
       ...(hintInterval !== undefined && { hintInterval }),
+      ...(o.silhouetteHint === true && { silhouetteHint: true }),
       ...(backgroundImage && { backgroundImage }),
       schema: Array.isArray(o.schema) ? (o.schema as UniverseData["schema"]) : undefined,
       ...(specificSymbols.length > 0 && { specificSymbols }),

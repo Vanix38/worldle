@@ -1,6 +1,7 @@
 {
   "id": "one-piece-manga",
   "name": "One Piece Manga",
+  "silhouetteHint": true,
   "fieldMapping": {
     "race": {
       "header": "Race",

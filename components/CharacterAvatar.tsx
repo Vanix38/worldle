@@ -4,8 +4,7 @@ import { useState } from "react";
 import type { Character } from "@/types/game";
 import { useUniverseData } from "@/contexts/UniverseDataContext";
 import { stripAccents } from "@/lib/utils";
-
-const EXTENSIONS = ["webp", "png", "jpg", "jpeg"] as const;
+import { CHARACTER_IMAGE_EXTENSIONS as EXTENSIONS, characterImageSrc } from "@/lib/character-image";
 
 function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/);
@@ -30,9 +29,7 @@ export function CharacterAvatar({
   const [extensionIndex, setExtensionIndex] = useState(0);
   const [failed, setFailed] = useState(false);
 
-  const ext = EXTENSIONS[extensionIndex];
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  const src = `${basePath}/universes/${universeId}/characters/${character.id}.${ext}`.replace(/^\/+/, "/");
+  const src = characterImageSrc(universeId, character.id, extensionIndex);
 
   const sizeClass =
     size === "sm"
