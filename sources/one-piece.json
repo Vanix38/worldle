@@ -2498,9 +2498,29 @@
               "Épisode 1167",
               "Épisode 1168"
             ]
-          }
+          },
+          "Films": [
+            "Film 1 : One Piece, le film",
+            "Film 2 : L'Aventure de l'île de l'horloge",
+            "Film 3 : Le Royaume de Chopper",
+            "Film 4 : L'Aventure sans issue",
+            "Film 5 : La Malédiction de l'épée sacrée",
+            "Film 6 : Le Baron Omatsuri et l'île secrète",
+            "Film 7 : Le Mecha géant du château Karakuri",
+            "Film 8 : Épisode d'Alabasta",
+            "Film 9 : Épisode de Chopper",
+            "Film 10 : Strong World",
+            "Film 11 : Straw Hat Chase",
+            "Film 12 : Z",
+            "Film 13 : Gold",
+            "Film 14 : Stampede",
+            "Film 15 : Red"
+          ]
         },
-        "description": "Premier épisode anime de première apparition. La sélection anti-spoiler se fait par saga, arc ou épisode."
+        "description": "Premier épisode anime de première apparition. La sélection anti-spoiler se fait par saga, arc ou épisode. Les films sont à part : leurs persos n'apparaissent que si tu coches le film.",
+        "nonChronologicalGroups": [
+          "Films"
+        ]
       }
     },
     "saga": {
@@ -2517,7 +2537,8 @@
         "Dressrosa",
         "Whole Cake",
         "Wano",
-        "Finale"
+        "Finale",
+        "Films"
       ],
       "description": "Saga de la première apparition (déduite de l'arc) ; la flèche indique si la saga du perso mystère est avant ou après."
     },
@@ -2575,6 +2596,23 @@
         "Saga Finale": [
           "Egghead",
           "Elbaph"
+        ],
+        "Saga Films": [
+          "Film 1 : One Piece, le film",
+          "Film 2 : L'Aventure de l'île de l'horloge",
+          "Film 3 : Le Royaume de Chopper",
+          "Film 4 : L'Aventure sans issue",
+          "Film 5 : La Malédiction de l'épée sacrée",
+          "Film 6 : Le Baron Omatsuri et l'île secrète",
+          "Film 7 : Le Mecha géant du château Karakuri",
+          "Film 8 : Épisode d'Alabasta",
+          "Film 9 : Épisode de Chopper",
+          "Film 10 : Strong World",
+          "Film 11 : Straw Hat Chase",
+          "Film 12 : Z",
+          "Film 13 : Gold",
+          "Film 14 : Stampede",
+          "Film 15 : Red"
         ]
       },
       "description": "Arc narratif de la première apparition du personnage dans le manga ou l'anime ; ordre chronologique des arcs."
@@ -21515,6 +21553,2495 @@
         "$manga": "Chapitre 827",
         "$anime": "Épisode 786"
       },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "kaya",
+      "name": "Kaya",
+      "aliases": [],
+      "affiliation": "Civil",
+      "sub_affiliation": [],
+      "age": 17,
+      "arc": "Syrup Village",
+      "saga": "East Blue",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "East Blue (Archipel des Gekko)",
+      "size": 169,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Riche héritière",
+      "hint2": "Étudiante en médecine",
+      "hint3": "Village de Sirop",
+      "firstAppearance": {
+        "$manga": "Chapitre 23",
+        "$anime": "Épisode 9"
+      },
+      "difficulty": "Facile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "merry",
+      "name": "Merry",
+      "aliases": [
+        "Merī"
+      ],
+      "affiliation": "Civil",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Syrup Village",
+      "saga": "East Blue",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "East Blue (Archipel des Gekko)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Majordome",
+      "hint2": "Humain",
+      "hint3": "Village de Sirop",
+      "firstAppearance": {
+        "$manga": "Chapitre 24",
+        "$anime": "Épisode 11"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "igaram",
+      "name": "Igaram",
+      "aliases": [
+        "Mr. 8",
+        "Igaramu",
+        "Igarappoi"
+      ],
+      "affiliation": "Royaume d'Alabasta",
+      "sub_affiliation": [
+        "Baroque Works",
+        "Garde royale"
+      ],
+      "age": 48,
+      "arc": "Whisky Peak",
+      "saga": "Alabasta",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Alabasta)",
+      "size": 218,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Capitaine de la garde royale",
+      "hint2": "Agent infiltré",
+      "hint3": "Grand Line (Alabasta)",
+      "firstAppearance": {
+        "$manga": "Chapitre 106",
+        "$anime": "Épisode 64"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "toto",
+      "name": "Toto",
+      "aliases": [
+        "Toh-Toh",
+        "Tu-tu"
+      ],
+      "affiliation": "Civil",
+      "sub_affiliation": [
+        "Royaume d'Alabasta"
+      ],
+      "age": "?",
+      "arc": "Alabasta",
+      "saga": "Alabasta",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Alabasta)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Habitant de Yuba",
+      "hint2": "Père de Koza",
+      "hint3": "Grand Line (Alabasta)",
+      "firstAppearance": {
+        "$manga": "Chapitre 163",
+        "$anime": "Épisode 100"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "thatch",
+      "name": "Thatch",
+      "aliases": [
+        "Satch",
+        "Satchi"
+      ],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Enies Lobby",
+      "saga": "Water 7",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "North Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant de la 4e division",
+      "hint2": "Cuisinier",
+      "hint3": "North Blue",
+      "firstAppearance": {
+        "$manga": "Chapitre 440",
+        "$anime": "Épisode 325"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "haruta",
+      "name": "Haruta",
+      "aliases": [],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "South Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant de la 12e division",
+      "hint2": "Épéiste",
+      "hint3": "South Blue",
+      "firstAppearance": {
+        "$manga": "Chapitre 553",
+        "$anime": "Épisode 461"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "blamenco",
+      "name": "Blamenco",
+      "aliases": [
+        "Buramenko"
+      ],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Poke Poke no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant de la 6e division",
+      "hint2": "Poches",
+      "hint3": "Grand Line",
+      "firstAppearance": {
+        "$manga": "Chapitre 553",
+        "$anime": "Épisode 461"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "rakuyo",
+      "name": "Rakuyo",
+      "aliases": [
+        "Rakuyou",
+        "Rakuyō"
+      ],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "South Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant de la 7e division",
+      "hint2": "Humain",
+      "hint3": "South Blue",
+      "firstAppearance": {
+        "$manga": "Chapitre 553",
+        "$anime": "Épisode 461"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "whitey-bay",
+      "name": "Whitey Bay",
+      "aliases": [
+        "La Sorcière des Glaces",
+        "Ice Witch",
+        "Howaiti Bei"
+      ],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Capitaine alliée",
+      "hint2": "Brise-glace",
+      "hint3": "Allié de Barbe Blanche",
+      "firstAppearance": {
+        "$manga": "Chapitre 556",
+        "$anime": "Épisode 462"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "atmos",
+      "name": "Atmos",
+      "aliases": [
+        "Le Buffle d'Eau",
+        "Water Buffalo",
+        "Atomosu"
+      ],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "West Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant de la 13e division",
+      "hint2": "Épéiste",
+      "hint3": "West Blue",
+      "firstAppearance": {
+        "$manga": "Chapitre 553",
+        "$anime": "Épisode 461"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "penguin",
+      "name": "Penguin",
+      "aliases": [
+        "Pengin"
+      ],
+      "affiliation": "Équipage du Heart",
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
+      "age": 26,
+      "arc": "Archipel Sabaody",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": {
+            "$manga": "Chapitre 1064",
+            "$anime": "Épisode 1094"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "North Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Membre d'équipage",
+      "hint2": "Casquette « Penguin »",
+      "hint3": "North Blue",
+      "firstAppearance": {
+        "$manga": "Chapitre 498",
+        "$anime": "Épisode 392"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "shachi",
+      "name": "Shachi",
+      "aliases": [],
+      "affiliation": "Équipage du Heart",
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
+      "age": 25,
+      "arc": "Archipel Sabaody",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": {
+            "$manga": "Chapitre 1064",
+            "$anime": "Épisode 1094"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "North Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Membre d'équipage",
+      "hint2": "Lunettes de soleil",
+      "hint3": "North Blue",
+      "firstAppearance": {
+        "$manga": "Chapitre 498",
+        "$anime": "Épisode 392"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "jean-bart",
+      "name": "Jean Bart",
+      "aliases": [
+        "Janbāru"
+      ],
+      "affiliation": "Équipage du Heart",
+      "sub_affiliation": [
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs"
+      ],
+      "age": "?",
+      "arc": "Archipel Sabaody",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": {
+            "$manga": "Chapitre 1064",
+            "$anime": "Épisode 1094"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien capitaine pirate",
+      "hint2": "Ancien esclave",
+      "hint3": "Équipage du Heart",
+      "firstAppearance": {
+        "$manga": "Chapitre 497",
+        "$anime": "Épisode 391"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "kong",
+      "name": "Kong",
+      "aliases": [
+        "Kongu"
+      ],
+      "affiliation": "Gouvernement Mondial",
+      "sub_affiliation": [
+        "Marine"
+      ],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": 5000000000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant en chef",
+      "hint2": "Ancien amiral en chef",
+      "hint3": "Armement, Observation",
+      "firstAppearance": {
+        "$manga": "Chapitre 594",
+        "$anime": "Épisode 511"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "gion",
+      "name": "Gion",
+      "aliases": [
+        "Momousagi",
+        "Momo-Usagi"
+      ],
+      "affiliation": "Marine",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": 500000000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Vice-Amiral",
+      "hint2": "Épéiste",
+      "hint3": "Armement, Observation",
+      "firstAppearance": {
+        "$manga": "Chapitre 907",
+        "$anime": "Épisode 887"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "doberman",
+      "name": "Doberman",
+      "aliases": [
+        "Dōberuman"
+      ],
+      "affiliation": "Marine",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Enies Lobby",
+      "saga": "Water 7",
+      "bounty": 500000000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Vice-Amiral",
+      "hint2": "Épéiste",
+      "hint3": "Armement, Observation",
+      "firstAppearance": {
+        "$manga": "Chapitre 420",
+        "$anime": "Épisode 302"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "shimotsuki-ryuma",
+      "name": "Shimotsuki Ryuma",
+      "aliases": [
+        "Ryuma",
+        "Le Samouraï Légendaire",
+        "Dieu des lames",
+        "Sword God",
+        "Legendary Samurai",
+        "Ryuma de King"
+      ],
+      "affiliation": "Famille Shimotsuki",
+      "sub_affiliation": [
+        "Pays des Wa"
+      ],
+      "age": 47,
+      "arc": "Thriller Bark",
+      "saga": "Thriller Bark",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [
+        "Armement"
+      ],
+      "origin": "Grand Line (Pays des Wa)",
+      "size": 179,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Samouraï légendaire",
+      "hint2": "Tueur de dragon",
+      "hint3": "Armement",
+      "firstAppearance": {
+        "$manga": "Chapitre 448",
+        "$anime": "Épisode 342"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "kozuki-toki",
+      "name": "Kozuki Toki",
+      "aliases": [
+        "Kouzuki Toki",
+        "Kōzuki Toki"
+      ],
+      "affiliation": "Famille Kozuki",
+      "sub_affiliation": [
+        "Équipage de Barbe Blanche",
+        "Équipage de Roger"
+      ],
+      "age": 36,
+      "arc": "Wano Kuni",
+      "saga": "Wano",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Toki Toki no Mi"
+      ],
+      "gender": "Féminin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": 190,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Épouse d'Oden",
+      "hint2": "Voyage dans le futur",
+      "hint3": "Venue d'il y a 800 ans",
+      "firstAppearance": {
+        "$manga": "Chapitre 919",
+        "$anime": "Épisode 893"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "ashura-doji",
+      "name": "Ashura Doji",
+      "aliases": [
+        "Shutenmaru",
+        "Ashura Dōji",
+        "Strongest Monster of Kuri"
+      ],
+      "affiliation": "Famille Kozuki",
+      "sub_affiliation": [
+        "Neuf Fourreaux Rouges",
+        "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+        "Pays des Wa"
+      ],
+      "age": 56,
+      "arc": "Wano Kuni",
+      "saga": "Wano",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": {
+            "$manga": "Chapitre 1008",
+            "$anime": "Épisode 1025"
+          }
+        }
+      ],
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "origin": "Grand Line (Pays des Wa)",
+      "size": 544,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Fourreau Rouge",
+      "hint2": "Chef des bandits",
+      "hint3": "Armement, Observation",
+      "firstAppearance": {
+        "$manga": "Chapitre 920",
+        "$anime": "Épisode 910"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "shimotsuki-yasuie",
+      "name": "Shimotsuki Yasuie",
+      "aliases": [
+        "Yasu le Hérisson",
+        "Yasu the Hedgehog",
+        "Tonoyasu"
+      ],
+      "affiliation": "Famille Shimotsuki",
+      "sub_affiliation": [
+        "Pays des Wa"
+      ],
+      "age": 71,
+      "arc": "Wano Kuni",
+      "saga": "Wano",
+      "bounty": 0,
+      "devilFruitType": "SMILE",
+      "devilFruit": [
+        "SMILE"
+      ],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Décédé",
+          "from": {
+            "$manga": "Chapitre 943",
+            "$anime": "Épisode 941"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "Grand Line (Pays des Wa)",
+      "size": 155,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien daimyo",
+      "hint2": "Rire (SMILE)",
+      "hint3": "Hakumai",
+      "firstAppearance": {
+        "$manga": "Chapitre 929",
+        "$anime": "Épisode 916"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "shimotsuki-ushimaru",
+      "name": "Shimotsuki Ushimaru",
+      "aliases": [
+        "Ushimaru"
+      ],
+      "affiliation": "Famille Shimotsuki",
+      "sub_affiliation": [
+        "Pays des Wa"
+      ],
+      "age": 50,
+      "arc": "Wano Kuni",
+      "saga": "Wano",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "origin": "Grand Line (Pays des Wa)",
+      "size": 298,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Daimyo de Ringo",
+      "hint2": "Samouraï",
+      "hint3": "Armement, Observation",
+      "firstAppearance": {
+        "$manga": "Chapitre 953",
+        "$anime": "Épisode 954"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "portgas-d-rouge",
+      "name": "Portgas D. Rouge",
+      "aliases": [
+        "Portgaz D. Rouge",
+        "Pōtogasu Dī Rūju",
+        "Rouge"
+      ],
+      "affiliation": "Civil",
+      "sub_affiliation": [
+        "Clan des D."
+      ],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "South Blue (Baterilla)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Mère d'Ace",
+      "hint2": "Grossesse de 20 mois",
+      "hint3": "South Blue (Baterilla)",
+      "firstAppearance": {
+        "$manga": "Chapitre 550",
+        "$anime": "Épisode 459"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "masked-deuce",
+      "name": "Masked Deuce",
+      "aliases": [
+        "Deuce",
+        "Masukudo Dyūsu"
+      ],
+      "affiliation": "Équipage de Barbe Blanche",
+      "sub_affiliation": [
+        "Équipage du Spade"
+      ],
+      "age": "?",
+      "arc": "Marineford",
+      "saga": "Guerre au Sommet",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Second d'Ace",
+      "hint2": "Masque",
+      "hint3": "Équipage du Spade",
+      "firstAppearance": {
+        "$manga": "Chapitre 552",
+        "$anime": "Épisode 461"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "donquixote-homing",
+      "name": "Donquixote Homing",
+      "aliases": [
+        "Don Quichotte Homing",
+        "Don Quixote Homing",
+        "Donkihōte Hōmingu"
+      ],
+      "affiliation": "Gouvernement Mondial",
+      "sub_affiliation": [
+        "Nobles Mondiaux",
+        "Famille Don Quichotte"
+      ],
+      "age": "?",
+      "arc": "Dressrosa",
+      "saga": "Dressrosa",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "Red Line (Marie-Joie)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien Dragon Céleste",
+      "hint2": "Père de Doflamingo",
+      "hint3": "Red Line (Marie-Joie)",
+      "firstAppearance": {
+        "$manga": "Chapitre 760",
+        "$anime": "Épisode 699"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "charlotte-amande",
+      "name": "Charlotte Amande",
+      "aliases": [
+        "Amande",
+        "Demon Lady",
+        "Shārotto Amando"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
+      "age": 47,
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Whole Cake Island)",
+      "size": "?",
+      "race": [
+        "Humain",
+        "Serpent"
+      ],
+      "hint1": "Ministre des Noix",
+      "hint2": "Femme-serpent",
+      "hint3": "Totto Land",
+      "firstAppearance": {
+        "$manga": "Chapitre 827",
+        "$anime": "Épisode 786"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "charlotte-opera",
+      "name": "Charlotte Opera",
+      "aliases": [
+        "Shārotto Opera"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
+      "age": 46,
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Kuri Kuri no Mi"
+      ],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": {
+            "$manga": "Chapitre 863",
+            "$anime": "Épisode 833"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "Grand Line (Whole Cake Island)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ministre de la Crème",
+      "hint2": "Crème",
+      "hint3": "Totto Land",
+      "firstAppearance": {
+        "$manga": "Chapitre 829",
+        "$anime": "Épisode 789"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "charlotte-galette",
+      "name": "Charlotte Galette",
+      "aliases": [
+        "Shārotto Garetto"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [
+        "Famille Charlotte"
+      ],
+      "age": 31,
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Bata Bata no Mi"
+      ],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Whole Cake Island)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ministre du Beurre",
+      "hint2": "Beurre",
+      "hint3": "Totto Land",
+      "firstAppearance": {
+        "$manga": "Chapitre 829",
+        "$anime": "Épisode 789"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "capone-pez",
+      "name": "Capone Pez",
+      "aliases": [
+        "Pez",
+        "Junior",
+        "Kapone Pettsu"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [
+        "Équipage du Fire Tank",
+        "Famille Charlotte"
+      ],
+      "age": 1,
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Whole Cake Island)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Fils de Bege",
+      "hint2": "Bébé",
+      "hint3": "Totto Land",
+      "firstAppearance": {
+        "$manga": "Chapitre 834",
+        "$anime": "Épisode 795"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "vinsmoke-sora",
+      "name": "Vinsmoke Sora",
+      "aliases": [
+        "Sora",
+        "Vinsumōku Sora"
+      ],
+      "affiliation": "Famille Vinsmoke",
+      "sub_affiliation": [
+        "Royaume de Germa",
+        "Germa 66"
+      ],
+      "age": "?",
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "North Blue (Royaume de Germa)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Reine de Germa",
+      "hint2": "Mère de Sanji",
+      "hint3": "North Blue (Royaume de Germa)",
+      "firstAppearance": {
+        "$manga": "Chapitre 841",
+        "$anime": "Épisode 804"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "mr-9",
+      "name": "Mr. 9",
+      "aliases": [
+        "Misutā Nain"
+      ],
+      "affiliation": "Baroque Works",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Reverse Mountain",
+      "saga": "Alabasta",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Agent de Baroque Works",
+      "hint2": "Batte-acrobate",
+      "hint3": "Whisky Peak",
+      "firstAppearance": {
+        "$manga": "Chapitre 103",
+        "$anime": "Épisode 62"
+      },
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "miss-monday",
+      "name": "Miss Monday",
+      "aliases": [
+        "Ms. Monday",
+        "Misu Mandē"
+      ],
+      "affiliation": "Baroque Works",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Whisky Peak",
+      "saga": "Alabasta",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Agent de Baroque Works",
+      "hint2": "Force colossale",
+      "hint3": "Whisky Peak",
+      "firstAppearance": {
+        "$manga": "Chapitre 107",
+        "$anime": "Épisode 64"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "kumashi",
+      "name": "Kumashi",
+      "aliases": [
+        "Kumacy",
+        "Kumashī"
+      ],
+      "affiliation": "Thriller Bark",
+      "sub_affiliation": [
+        "Équipage de Gecko Moria"
+      ],
+      "age": "?",
+      "arc": "Thriller Bark",
+      "saga": "Thriller Bark",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Zombie"
+      ],
+      "hint1": "Serviteur de Perona",
+      "hint2": "Ours en peluche",
+      "hint3": "Thriller Bark",
+      "firstAppearance": {
+        "$manga": "Chapitre 449",
+        "$anime": "Épisode 343"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "hera",
+      "name": "Hera",
+      "aliases": [
+        "Héra",
+        "Hera the Thundercloud",
+        "Nuage orageux"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Wano Kuni",
+      "saga": "Wano",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": {
+            "$manga": "Chapitre 1040",
+            "$anime": "Épisode 1067"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "Grand Line",
+      "size": "?",
+      "race": [
+        "Homie"
+      ],
+      "hint1": "Homie de Big Mom",
+      "hint2": "Nuage d'orage",
+      "hint3": "Grand Line",
+      "firstAppearance": {
+        "$manga": "Chapitre 1011",
+        "$anime": "Épisode 1028"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "tank-lepanto",
+      "name": "Tank Lepanto",
+      "aliases": [
+        "Tank Lepant",
+        "Tanku Repanto"
+      ],
+      "affiliation": "Famille Riku",
+      "sub_affiliation": [
+        "Royaume de Dressrosa"
+      ],
+      "age": "?",
+      "arc": "Dressrosa",
+      "saga": "Dressrosa",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Dressrosa)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Commandant de l'armée",
+      "hint2": "Gladiateur",
+      "hint3": "Grand Line (Dressrosa)",
+      "firstAppearance": {
+        "$manga": "Chapitre 706",
+        "$anime": "Épisode 636"
+      },
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "big-pan",
+      "name": "Big Pan",
+      "aliases": [
+        "Big Bun",
+        "Biggu Pan",
+        "Wotan"
+      ],
+      "affiliation": "Équipage de Foxy",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Long Ring Long Land",
+      "saga": "Water 7",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Groggy Monster",
+      "hint2": "Géant du Davy Back Fight",
+      "hint3": "Long Ring Long Land",
+      "firstAppearance": {
+        "$manga": "Chapitre 309",
+        "$anime": "Épisode 210"
+      },
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "kingbaum",
+      "name": "Kingbaum",
+      "aliases": [
+        "King Baum",
+        "Kingubāmu"
+      ],
+      "affiliation": "Équipage de Big Mom",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Whole Cake",
+      "saga": "Whole Cake",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": [
+        {
+          "value": "Vivant"
+        },
+        {
+          "value": "Inconnu",
+          "from": {
+            "$manga": "Chapitre 874",
+            "$anime": "Épisode 845"
+          }
+        }
+      ],
+      "haki": [],
+      "origin": "Grand Line",
+      "size": 2340,
+      "race": [
+        "Homie"
+      ],
+      "hint1": "Maître de la Forêt de la Séduction",
+      "hint2": "Arbre",
+      "hint3": "Whole Cake Island",
+      "firstAppearance": {
+        "$manga": "Chapitre 836",
+        "$anime": "Épisode 797"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "mocha",
+      "name": "Mocha",
+      "aliases": [],
+      "affiliation": "Civil",
+      "sub_affiliation": [],
+      "age": 9,
+      "arc": "Punk Hazard",
+      "saga": "Dressrosa",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Nouveau Monde)",
+      "size": 692,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Enfant de Punk Hazard",
+      "hint2": "Géante artificielle",
+      "hint3": "Punk Hazard",
+      "firstAppearance": {
+        "$manga": "Chapitre 657",
+        "$anime": "Épisode 582"
+      },
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "manga",
+        "anime"
+      ],
+      "id": "uta",
+      "name": "Uta",
+      "aliases": [
+        "La Plus Grande Cantatrice du Monde",
+        "Sekai no Utahime"
+      ],
+      "affiliation": "Équipage du Roux",
+      "sub_affiliation": [],
+      "age": 21,
+      "arc": "Wano Kuni",
+      "saga": "Wano",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Uta Uta no Mi"
+      ],
+      "gender": "Féminin",
+      "status": "Inconnu",
+      "haki": [],
+      "origin": "West Blue",
+      "size": 169,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Chanteuse",
+      "hint2": "Chant",
+      "hint3": "Fille de Shanks",
+      "firstAppearance": {
+        "$manga": "Chapitre 1055",
+        "$anime": "Épisode 1082"
+      },
+      "difficulty": "Facile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "eldoraggo",
+      "name": "El Drago",
+      "aliases": [
+        "Eldoraggo",
+        "Erudorago"
+      ],
+      "affiliation": "Équipage d'El Drago",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 1 : One Piece, le film",
+      "saga": "Films",
+      "bounty": 10000000,
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Goe Goe no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Capitaine",
+      "hint2": "Cri destructeur",
+      "hint3": "Trésor de Woonan",
+      "firstAppearance": "Film 1 : One Piece, le film",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "woonan",
+      "name": "Woonan",
+      "aliases": [
+        "Ūnan",
+        "Great Gold Pirate",
+        "Le Grand Pirate de l'Or"
+      ],
+      "affiliation": "Équipage de Woonan",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 1 : One Piece, le film",
+      "saga": "Films",
+      "bounty": 60000000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Pirate légendaire",
+      "hint2": "Or",
+      "hint3": "Île d'Or",
+      "firstAppearance": "Film 1 : One Piece, le film",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "bear-king",
+      "name": "Bear King",
+      "aliases": [
+        "Bea Kingu"
+      ],
+      "affiliation": "Équipage du Trump",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 2 : L'Aventure de l'île de l'horloge",
+      "saga": "Films",
+      "bounty": 11600000,
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Kachi Kachi no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Capitaine",
+      "hint2": "Corps dur et brûlant",
+      "hint3": "Île de l'horloge",
+      "firstAppearance": "Film 2 : L'Aventure de l'île de l'horloge",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "skunk-one",
+      "name": "Skunk One",
+      "aliases": [
+        "Sukanku Wan"
+      ],
+      "affiliation": "Équipage du Trump",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 2 : L'Aventure de l'île de l'horloge",
+      "saga": "Films",
+      "bounty": 6000000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Inconnu",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Membre du Trump",
+      "hint2": "Pistolets",
+      "hint3": "Île de l'horloge",
+      "firstAppearance": "Film 2 : L'Aventure de l'île de l'horloge",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "borodo",
+      "name": "Borodo",
+      "aliases": [
+        "Borod",
+        "Borōdo"
+      ],
+      "affiliation": "Aucune",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 2 : L'Aventure de l'île de l'horloge",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Voleur",
+      "hint2": "Frères voleurs",
+      "hint3": "Going Merry volé",
+      "firstAppearance": "Film 2 : L'Aventure de l'île de l'horloge",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "battler",
+      "name": "Battler",
+      "aliases": [
+        "Butler",
+        "Comte Battler",
+        "Earl Battler",
+        "Batorā"
+      ],
+      "affiliation": "Aucune",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 3 : Le Royaume de Chopper",
+      "saga": "Films",
+      "bounty": 14900000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Braconnier",
+      "hint2": "Musicien",
+      "hint3": "Île des animaux étranges",
+      "firstAppearance": "Film 3 : Le Royaume de Chopper",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "gasparde",
+      "name": "Gasparde",
+      "aliases": [
+        "Général Gasparde",
+        "General Gasparde",
+        "Gasupāde"
+      ],
+      "affiliation": "Équipage de Gasparde",
+      "sub_affiliation": [
+        "Marine"
+      ],
+      "age": "?",
+      "arc": "Film 4 : L'Aventure sans issue",
+      "saga": "Films",
+      "bounty": 95000000,
+      "devilFruitType": "Logia",
+      "devilFruit": [
+        "Ame Ame no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Inconnu",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Capitaine, ancien Marine",
+      "hint2": "Sirop",
+      "hint3": "Course de Hannabal",
+      "firstAppearance": "Film 4 : L'Aventure sans issue",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "needless",
+      "name": "Needless",
+      "aliases": [
+        "Needles",
+        "Nīdorusu"
+      ],
+      "affiliation": "Équipage de Gasparde",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 4 : L'Aventure sans issue",
+      "saga": "Films",
+      "bounty": 57000000,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Inconnu",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Bras droit",
+      "hint2": "Aiguilles",
+      "hint3": "Course de Hannabal",
+      "firstAppearance": "Film 4 : L'Aventure sans issue",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "shuraiya-bascud",
+      "name": "Shuraiya Bascùd",
+      "aliases": [
+        "Shuraiya",
+        "Shryer Bascudo",
+        "Le Bourreau des Pirates",
+        "Pirate Executioner"
+      ],
+      "affiliation": "Aucune",
+      "sub_affiliation": [
+        "Équipage de Gasparde"
+      ],
+      "age": 20,
+      "arc": "Film 4 : L'Aventure sans issue",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Chasseur de pirates",
+      "hint2": "Vengeance",
+      "hint3": "Course de Hannabal",
+      "firstAppearance": "Film 4 : L'Aventure sans issue",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "adelle-bascud",
+      "name": "Adelle Bascùd",
+      "aliases": [
+        "Adelle",
+        "Adele Bascudo"
+      ],
+      "affiliation": "Civil",
+      "sub_affiliation": [],
+      "age": 11,
+      "arc": "Film 4 : L'Aventure sans issue",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Assistante",
+      "hint2": "Sœur de Shuraiya",
+      "hint3": "Course de Hannabal",
+      "firstAppearance": "Film 4 : L'Aventure sans issue",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "saga",
+      "name": "Saga",
+      "aliases": [],
+      "affiliation": "Marine",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 5 : La Malédiction de l'épée sacrée",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "East Blue (Village de Shimotsuki)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Maître de dojo",
+      "hint2": "Épée maudite",
+      "hint3": "Ami d'enfance de Zoro",
+      "firstAppearance": "Film 5 : La Malédiction de l'épée sacrée",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "maya",
+      "name": "Maya",
+      "aliases": [],
+      "affiliation": "Civil",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 5 : La Malédiction de l'épée sacrée",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Prêtresse",
+      "hint2": "Île d'Asuka",
+      "hint3": "Épée sacrée",
+      "firstAppearance": "Film 5 : La Malédiction de l'épée sacrée",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "omatsuri",
+      "name": "Omatsuri",
+      "aliases": [
+        "Baron Omatsuri",
+        "Omatsuri Danshaku"
+      ],
+      "affiliation": "Équipage des Flèches Rouges",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 6 : Le Baron Omatsuri et l'île secrète",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Baron",
+      "hint2": "Épreuves",
+      "hint3": "Île secrète",
+      "firstAppearance": "Film 6 : Le Baron Omatsuri et l'île secrète",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "lily-carnation",
+      "name": "Lily Carnation",
+      "aliases": [
+        "Rirī Kānēshon"
+      ],
+      "affiliation": "Équipage des Flèches Rouges",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 6 : Le Baron Omatsuri et l'île secrète",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Indéterminé",
+      "status": "Décédé",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Plante"
+      ],
+      "hint1": "Fleur maléfique",
+      "hint2": "Plante",
+      "hint3": "Île secrète",
+      "firstAppearance": "Film 6 : Le Baron Omatsuri et l'île secrète",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "ratchet",
+      "name": "Ratchet",
+      "aliases": [
+        "Rachetto"
+      ],
+      "affiliation": "Aucune",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 7 : Le Mecha géant du château Karakuri",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Seigneur de Mecha Island",
+      "hint2": "Inventeur",
+      "hint3": "Château Karakuri",
+      "firstAppearance": "Film 7 : Le Mecha géant du château Karakuri",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "musshuru",
+      "name": "Musshuru",
+      "aliases": [
+        "Musshūru"
+      ],
+      "affiliation": "Équipage du Bliking",
+      "sub_affiliation": [
+        "Royaume de Drum"
+      ],
+      "age": 33,
+      "arc": "Film 9 : Épisode de Chopper",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Noko Noko no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Grand Line (Royaume de Drum)",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien prince de Drum",
+      "hint2": "Champignons",
+      "hint3": "Frère de Wapol",
+      "firstAppearance": "Film 9 : Épisode de Chopper",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "indigo",
+      "name": "Indigo",
+      "aliases": [
+        "Dr. Indigo",
+        "Indigo le Scientifique"
+      ],
+      "affiliation": "Équipage du Lion d'Or",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 10 : Strong World",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Scientifique",
+      "hint2": "Clown mime",
+      "hint3": "Merveille",
+      "firstAppearance": "Film 10 : Strong World",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "xiao",
+      "name": "Xiao",
+      "aliases": [
+        "Shao"
+      ],
+      "affiliation": "Civil",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 10 : Strong World",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Petite fille",
+      "hint2": "Village d'Alabasta",
+      "hint3": "Merveille",
+      "firstAppearance": "Film 10 : Strong World",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "z",
+      "name": "Z",
+      "aliases": [
+        "Zephyr",
+        "Zefā",
+        "Bras Noir Zephyr",
+        "Black Arm Zephyr",
+        "Zetto"
+      ],
+      "affiliation": "Néo-Marine",
+      "sub_affiliation": [
+        "Marine"
+      ],
+      "age": "?",
+      "arc": "Film 12 : Z",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Décédé",
+      "haki": [
+        "Armement"
+      ],
+      "origin": "Inconnu",
+      "size": 348,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien amiral",
+      "hint2": "Bras mécanique",
+      "hint3": "Néo-Marine",
+      "firstAppearance": "Film 12 : Z",
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "ain",
+      "name": "Ain",
+      "aliases": [],
+      "affiliation": "Néo-Marine",
+      "sub_affiliation": [
+        "Marine"
+      ],
+      "age": "?",
+      "arc": "Film 12 : Z",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Modo Modo no Mi"
+      ],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": 174,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Seconde de Z",
+      "hint2": "Rajeunissement",
+      "hint3": "Néo-Marine",
+      "firstAppearance": "Film 12 : Z",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "binz",
+      "name": "Binz",
+      "aliases": [
+        "Bins",
+        "Binzu"
+      ],
+      "affiliation": "Néo-Marine",
+      "sub_affiliation": [
+        "Marine"
+      ],
+      "age": "?",
+      "arc": "Film 12 : Z",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Mosa Mosa no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": 435,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Officier de la Néo-Marine",
+      "hint2": "Plantes",
+      "hint3": "Néo-Marine",
+      "firstAppearance": "Film 12 : Z",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "gild-tesoro",
+      "name": "Gild Tesoro",
+      "aliases": [
+        "Tesoro",
+        "L'Empereur d'Or",
+        "Golden Emperor",
+        "Girudo Tezōro"
+      ],
+      "affiliation": "Gran Tesoro",
+      "sub_affiliation": [],
+      "age": 41,
+      "arc": "Film 13 : Gold",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Goru Goru no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Propriétaire du Gran Tesoro",
+      "hint2": "Or",
+      "hint3": "Ancien esclave",
+      "firstAppearance": "Film 13 : Gold",
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "baccarat",
+      "name": "Baccarat",
+      "aliases": [
+        "Bakara"
+      ],
+      "affiliation": "Gran Tesoro",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 13 : Gold",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Raki Raki no Mi"
+      ],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Concierge",
+      "hint2": "Chance",
+      "hint3": "Gran Tesoro",
+      "firstAppearance": "Film 13 : Gold",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "tanaka",
+      "name": "Tanaka",
+      "aliases": [
+        "Tanaka-san"
+      ],
+      "affiliation": "Gran Tesoro",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 13 : Gold",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Nuke Nuke no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Chef de la sécurité",
+      "hint2": "Traverser les murs",
+      "hint3": "Gran Tesoro",
+      "firstAppearance": "Film 13 : Gold",
+      "difficulty": "Difficile"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "dice",
+      "name": "Dice",
+      "aliases": [
+        "Daisu"
+      ],
+      "affiliation": "Gran Tesoro",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 13 : Gold",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Croupier",
+      "hint2": "Masochiste",
+      "hint3": "Gran Tesoro",
+      "firstAppearance": "Film 13 : Gold",
+      "difficulty": "Impossible"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "carina",
+      "name": "Carina",
+      "aliases": [
+        "Karīna",
+        "Phantom Thief",
+        "Vixen"
+      ],
+      "affiliation": "Gran Tesoro",
+      "sub_affiliation": [],
+      "age": 19,
+      "arc": "Film 13 : Gold",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Féminin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Voleuse et chanteuse",
+      "hint2": "Amie de Nami",
+      "hint3": "Gran Tesoro",
+      "firstAppearance": "Film 13 : Gold",
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "buena-festa",
+      "name": "Buena Festa",
+      "aliases": [
+        "Festa",
+        "Master of Festivities",
+        "Le Faiseur de Fêtes"
+      ],
+      "affiliation": "Équipage du Festival",
+      "sub_affiliation": [],
+      "age": "~78",
+      "arc": "Film 14 : Stampede",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "Inconnu",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Organisateur de l'Expo des Pirates",
+      "hint2": "Ivresse des fêtes",
+      "hint3": "Ancien de l'ère de Roger",
+      "firstAppearance": "Film 14 : Stampede",
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "douglas-bullet",
+      "name": "Douglas Bullet",
+      "aliases": [
+        "Bullet",
+        "Demon Heir",
+        "L'Héritier du Démon",
+        "Dagurasu Baretto"
+      ],
+      "affiliation": "Équipage de Roger",
+      "sub_affiliation": [],
+      "age": 45,
+      "arc": "Film 14 : Stampede",
+      "saga": "Films",
+      "bounty": "?",
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Gasha Gasha no Mi"
+      ],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [
+        "Armement",
+        "Observation"
+      ],
+      "origin": "Inconnu",
+      "size": 355,
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien de l'équipage de Roger",
+      "hint2": "Assemblage",
+      "hint3": "Armement, Observation",
+      "firstAppearance": "Film 14 : Stampede",
+      "difficulty": "Moyen"
+    },
+    {
+      "versions": [
+        "anime"
+      ],
+      "id": "gordon",
+      "name": "Gordon",
+      "aliases": [
+        "Gōdon"
+      ],
+      "affiliation": "Royaume d'Elegia",
+      "sub_affiliation": [],
+      "age": "?",
+      "arc": "Film 15 : Red",
+      "saga": "Films",
+      "bounty": 0,
+      "devilFruitType": "",
+      "devilFruit": [],
+      "gender": "Masculin",
+      "status": "Vivant",
+      "haki": [],
+      "origin": "West Blue",
+      "size": "?",
+      "race": [
+        "Humain"
+      ],
+      "hint1": "Ancien roi d'Elegia",
+      "hint2": "Musique",
+      "hint3": "Tuteur d'Uta",
+      "firstAppearance": "Film 15 : Red",
       "difficulty": "Moyen"
     }
   ]

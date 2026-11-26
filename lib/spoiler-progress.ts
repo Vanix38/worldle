@@ -20,6 +20,8 @@ export interface ProgressFieldConfig {
   /** When order is grouped in JSON (e.g. seasons → episodes). */
   groups?: OrderGroup[];
   orderLabelEquivalence?: [string, string][];
+  /** Libellés hors chronologie (ex. films) : ignorés pour la progression la plus avancée. */
+  nonChronologicalLabels?: string[];
 }
 
 export interface SpoilerProgressPersisted {
@@ -53,6 +55,10 @@ function configFromFieldEntry(
   if (entry.fonction !== "Comparaison" || !fieldOrderHasItems(entry.order)) return null;
   const order = flattenFieldOrder(entry.order);
   const groups = getOrderGroups(entry.order) ?? undefined;
+  const sideGroups = new Set(entry.nonChronologicalGroups ?? []);
+  const nonChronologicalLabels = (groups ?? [])
+    .filter((g) => sideGroups.has(g.label))
+    .flatMap((g) => g.leaves);
   return {
     key,
     label: entry.header,
@@ -61,6 +67,7 @@ function configFromFieldEntry(
     ...(entry.orderLabelEquivalence?.length
       ? { orderLabelEquivalence: [...entry.orderLabelEquivalence] as [string, string][] }
       : {}),
+    ...(nonChronologicalLabels.length ? { nonChronologicalLabels } : {}),
   };
 }
 

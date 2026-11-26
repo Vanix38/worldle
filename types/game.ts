@@ -84,6 +84,12 @@ export interface FieldMappingEntry {
   /** Synonym pairs for ordered comparison / hint sorting (same chronological rank). */
   orderLabelEquivalence?: [string, string][];
   /**
+   * Groupes de premier niveau de `order` hors chronologie (ex. « Films ») :
+   * sélectionnables dans la progression, mais ignorés pour savoir jusqu'où
+   * le joueur a avancé (valeurs sans spoiler).
+   */
+  nonChronologicalGroups?: string[];
+  /**
    * Required for `fonction: "Indice"`.
    * Any number of Indice fields is supported (hint1, hint2, hintYear, …) —
    * unlock order follows `hint.order` then fieldMapping key order.

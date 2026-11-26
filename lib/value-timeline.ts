@@ -28,7 +28,9 @@ export function maxSeenProgressRank(
 ): number | null {
   if (!config || !selection || selection.mode === "all") return null;
   let max = -1;
+  const side = new Set(config.nonChronologicalLabels ?? []);
   for (const label of selection.labels) {
+    if (side.has(label)) continue;
     const rank = rankInOrderedList(label, config.order, config.orderLabelEquivalence);
     if (rank > max) max = rank;
   }
