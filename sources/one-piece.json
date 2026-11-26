@@ -7282,37 +7282,6 @@
     },
     {
       "versions": [
-        "manga"
-      ],
-      "id": "douzan",
-      "name": "Douzan",
-      "aliases": [
-        "Dōzan"
-      ],
-      "affiliation": "Royaume d'Esperia",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Masculin",
-      "status": "Décédé",
-      "haki": [],
-      "origin": "West Blue (Royaume d'Esperia)",
-      "size": "?",
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Royaume d'Esperia",
-      "hint2": "Mentionné",
-      "hint3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183",
-      "difficulty": "Impossible"
-    },
-    {
-      "versions": [
         "manga",
         "anime"
       ],
@@ -13019,38 +12988,6 @@
     },
     {
       "versions": [
-        "manga"
-      ],
-      "id": "louis-arnote",
-      "name": "Louis Arnote",
-      "aliases": [
-        "Louis Arnot",
-        "Rui Ānōto"
-      ],
-      "affiliation": "Brag Men",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Little Garden",
-      "saga": "Alabasta",
-      "bounty": "?",
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Masculin",
-      "status": "Inconnu",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": "?",
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Brag Men",
-      "hint2": "Explorateur",
-      "hint3": "Grand Line",
-      "firstAppearance": "Chapitre 115",
-      "difficulty": "Impossible"
-    },
-    {
-      "versions": [
         "manga",
         "anime"
       ],
@@ -14376,42 +14313,6 @@
         "$anime": "Épisode 880"
       },
       "difficulty": "Difficile"
-    },
-    {
-      "versions": [
-        "manga",
-        "anime"
-      ],
-      "id": "mosa",
-      "name": "Mosa",
-      "aliases": [
-        "Shaggy",
-        "Mosa-kō"
-      ],
-      "affiliation": "Erbaf",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Indéterminé",
-      "status": "Vivant",
-      "haki": [],
-      "origin": "Grand Line (Erbaf)",
-      "size": 180,
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Erbaf",
-      "hint2": "Prisonnier",
-      "hint3": "Grand Line (Erbaf)",
-      "firstAppearance": {
-        "$manga": "Chapitre 1134",
-        "$anime": "Épisode 1164"
-      },
-      "difficulty": "Impossible"
     },
     {
       "versions": [

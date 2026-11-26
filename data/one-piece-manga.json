@@ -5280,34 +5280,6 @@
       "difficulty": "Impossible"
     },
     {
-      "id": "douzan",
-      "name": "Douzan",
-      "aliases": [
-        "Dōzan"
-      ],
-      "affiliation": "Royaume d'Esperia",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Masculin",
-      "status": "Décédé",
-      "haki": [],
-      "origin": "West Blue (Royaume d'Esperia)",
-      "size": "?",
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Royaume d'Esperia",
-      "hint2": "Mentionné",
-      "hint3": "West Blue (Royaume d'Esperia)",
-      "firstAppearance": "Chapitre 1183",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "dracule-mihawk",
       "name": "Dracule Mihawk",
       "aliases": [
@@ -10021,35 +9993,6 @@
       "difficulty": "Moyen"
     },
     {
-      "id": "louis-arnote",
-      "name": "Louis Arnote",
-      "aliases": [
-        "Louis Arnot",
-        "Rui Ānōto"
-      ],
-      "affiliation": "Brag Men",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Little Garden",
-      "saga": "Alabasta",
-      "bounty": "?",
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Masculin",
-      "status": "Inconnu",
-      "haki": [],
-      "origin": "Grand Line",
-      "size": "?",
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Brag Men",
-      "hint2": "Explorateur",
-      "hint3": "Grand Line",
-      "firstAppearance": "Chapitre 115",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "lucky-roux",
       "name": "Lucky Roux",
       "aliases": [
@@ -11156,35 +11099,6 @@
       "hint3": "West Blue",
       "firstAppearance": "Chapitre 904",
       "difficulty": "Difficile"
-    },
-    {
-      "id": "mosa",
-      "name": "Mosa",
-      "aliases": [
-        "Shaggy",
-        "Mosa-kō"
-      ],
-      "affiliation": "Erbaf",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Indéterminé",
-      "status": "Vivant",
-      "haki": [],
-      "origin": "Grand Line (Erbaf)",
-      "size": 180,
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Erbaf",
-      "hint2": "Prisonnier",
-      "hint3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1134",
-      "difficulty": "Impossible"
     },
     {
       "id": "moulon",
@@ -17133,9 +17047,9 @@
     "hint1": 1,
     "hint2": 1,
     "hint3": 1,
-    "sub_affiliation": 0.5870967741935483,
-    "haki": 0.2967741935483871,
-    "devilFruitType": 0.2924731182795699,
-    "devilFruit": 0.2924731182795699
+    "sub_affiliation": 0.5909090909090909,
+    "haki": 0.2987012987012987,
+    "devilFruitType": 0.2943722943722944,
+    "devilFruit": 0.2943722943722944
   }
 }

@@ -10218,35 +10218,6 @@
       "difficulty": "Difficile"
     },
     {
-      "id": "mosa",
-      "name": "Mosa",
-      "aliases": [
-        "Shaggy",
-        "Mosa-kō"
-      ],
-      "affiliation": "Erbaf",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Indéterminé",
-      "status": "Vivant",
-      "haki": [],
-      "origin": "Grand Line (Erbaf)",
-      "size": 180,
-      "race": [
-        "Humain"
-      ],
-      "hint1": "Erbaf",
-      "hint2": "Prisonnier",
-      "hint3": "Grand Line (Erbaf)",
-      "firstAppearance": "Épisode 1164",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "mounblutain",
       "name": "Mounblutain",
       "aliases": [
@@ -15592,9 +15563,9 @@
     "hint1": 1,
     "hint2": 1,
     "hint3": 1,
-    "sub_affiliation": 0.6196172248803827,
-    "haki": 0.3277511961722488,
-    "devilFruitType": 0.3038277511961722,
-    "devilFruit": 0.3038277511961722
+    "sub_affiliation": 0.6211031175059952,
+    "haki": 0.328537170263789,
+    "devilFruitType": 0.30455635491606714,
+    "devilFruit": 0.30455635491606714
   }
 }
