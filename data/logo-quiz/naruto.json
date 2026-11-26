@@ -1,7 +1,7 @@
 {
-  "id": "naruto-clans",
+  "id": "naruto",
   "name": "Naruto",
-  "description": "Devine les clans et villages a partir de leur symbole",
+  "description": "Clans et villages",
   "kind": "universe",
   "relatedUniverseId": "naruto",
   "decoyLetterCount": 8,

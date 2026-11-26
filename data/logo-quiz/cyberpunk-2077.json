@@ -1,7 +1,7 @@
 {
   "id": "cyberpunk-2077",
   "name": "Cyberpunk 2077",
-  "description": "Devine les gangs, organisations et marques de vehicules a partir de leur logo",
+  "description": "Gangs, organisations et marques de voitures",
   "kind": "brands",
   "decoyLetterCount": 8,
   "sections": [

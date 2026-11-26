@@ -85,7 +85,7 @@ export default function Home() {
                 <Card padding="none" variant="outline" className="overflow-hidden">
                   <Link
                     href={`/logo/${pack.id}`}
-                    className="relative flex min-h-[4.5rem] flex-col items-center justify-center gap-1 overflow-hidden px-4 py-4 transition hover:border-ocean-500/50 hover:bg-gray-800/60 sm:min-h-[5rem] sm:px-5 sm:py-5"
+                    className="relative flex h-[5rem] flex-col items-center justify-center gap-0.5 overflow-hidden px-4 py-3 transition hover:border-ocean-500/50 hover:bg-gray-800/60 sm:h-[6rem] sm:px-5 sm:py-4"
                     style={{
                       ...(pack.banner && {
                         backgroundImage: `linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(${pack.banner})`,
@@ -97,12 +97,12 @@ export default function Home() {
                     aria-label={stripAccents(`Jouer au Logo Quiz ${pack.name}`)}
                   >
                     {pack.logo ? (
-                      <span className="relative z-10 flex items-center justify-center">
+                      <span className="relative z-10 flex min-h-0 max-h-10 items-center justify-center sm:max-h-12">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={pack.logo}
                           alt=""
-                          className="max-h-12 w-auto max-w-full object-contain sm:max-h-14"
+                          className="max-h-full w-auto max-w-full object-contain"
                         />
                       </span>
                     ) : (
@@ -111,7 +111,7 @@ export default function Home() {
                       </span>
                     )}
                     {pack.description ? (
-                      <span className="relative z-10 line-clamp-1 text-center text-xs text-gray-300">
+                      <span className="relative z-10 line-clamp-1 max-w-full px-1 text-center text-xs text-gray-300">
                         {stripAccents(pack.description)}
                       </span>
                     ) : null}
