@@ -1334,29 +1334,9 @@
               "Chapitre 1185",
               "Chapitre 1186"
             ]
-          },
-          "Films": [
-            "Film 1 : One Piece, le film",
-            "Film 2 : L'Aventure de l'île de l'horloge",
-            "Film 3 : Le Royaume de Chopper",
-            "Film 4 : L'Aventure sans issue",
-            "Film 5 : La Malédiction de l'épée sacrée",
-            "Film 6 : Le Baron Omatsuri et l'île secrète",
-            "Film 7 : Le Mecha géant du château Karakuri",
-            "Film 8 : Épisode d'Alabasta",
-            "Film 9 : Épisode de Chopper",
-            "Film 10 : Strong World",
-            "Film 11 : Straw Hat Chase",
-            "Film 12 : Z",
-            "Film 13 : Gold",
-            "Film 14 : Stampede",
-            "Film 15 : Red"
-          ]
+          }
         },
-        "description": "Premier chapitre manga de première apparition. La sélection anti-spoiler se fait par saga, arc ou chapitre. Les films sont à part : leurs persos n'apparaissent que si tu coches le film.",
-        "nonChronologicalGroups": [
-          "Films"
-        ]
+        "description": "Premier chapitre manga de première apparition. La sélection anti-spoiler se fait par saga, arc ou chapitre."
       },
       "$anime": {
         "header": "Épisode",
@@ -23105,7 +23085,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "eldoraggo",
@@ -23140,7 +23119,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "woonan",
@@ -23174,7 +23152,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "bear-king",
@@ -23208,7 +23185,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "skunk-one",
@@ -23240,7 +23216,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "borodo",
@@ -23273,7 +23248,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "battler",
@@ -23308,7 +23282,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "gasparde",
@@ -23346,7 +23319,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "needless",
@@ -23379,7 +23351,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "shuraiya-bascud",
@@ -23416,7 +23387,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "adelle-bascud",
@@ -23449,7 +23419,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "saga",
@@ -23479,7 +23448,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "maya",
@@ -23509,7 +23477,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "omatsuri",
@@ -23542,7 +23509,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "lily-carnation",
@@ -23574,7 +23540,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "ratchet",
@@ -23606,7 +23571,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "musshuru",
@@ -23642,7 +23606,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "indigo",
@@ -23675,7 +23638,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "xiao",
@@ -23707,7 +23669,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "z",
@@ -23747,7 +23708,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "ain",
@@ -23781,7 +23741,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "binz",
@@ -23818,7 +23777,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "gild-tesoro",
@@ -23855,7 +23813,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "baccarat",
@@ -23889,7 +23846,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "tanaka",
@@ -23923,7 +23879,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "dice",
@@ -23955,7 +23910,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "carina",
@@ -23989,7 +23943,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "buena-festa",
@@ -24023,7 +23976,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "douglas-bullet",
@@ -24063,7 +24015,6 @@
     },
     {
       "versions": [
-        "manga",
         "anime"
       ],
       "id": "gordon",

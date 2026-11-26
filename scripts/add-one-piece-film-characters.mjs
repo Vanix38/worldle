@@ -76,12 +76,9 @@ const voc = JSON.parse(fs.readFileSync(VOC, "utf8"));
 const fm = src.fieldMapping;
 
 // Progression / colonnes : groupe « Films » à la fin, hors chronologie.
-for (const v of ["$manga", "$anime"]) {
-  fm.firstAppearance[v].order.Films = [...FILMS];
-  fm.firstAppearance[v].nonChronologicalGroups = ["Films"];
-}
-fm.firstAppearance.$manga.description = fm.firstAppearance.$manga.description.replace(/\s*Les films.*$/, "") +
-  " Les films sont à part : leurs persos n'apparaissent que si tu coches le film.";
+// Films : version anime uniquement (Vanix).
+fm.firstAppearance.$anime.order.Films = [...FILMS];
+fm.firstAppearance.$anime.nonChronologicalGroups = ["Films"];
 fm.firstAppearance.$anime.description = (fm.firstAppearance.$anime.description ?? "").replace(/\s*Les films.*$/, "") +
   " Les films sont à part : leurs persos n'apparaissent que si tu coches le film.";
 const arcOrder = fm.arc.order;
@@ -102,7 +99,7 @@ for (const r of NEW) {
   addVoc("race", race);
   if (ids.has(id)) continue;
   src.characters.push({
-    versions: ["manga", "anime"], id, name, aliases, affiliation, sub_affiliation: sub, age,
+    versions: ["anime"], id, name, aliases, affiliation, sub_affiliation: sub, age,
     arc: film, saga: "Films", bounty, devilFruitType: dfType, devilFruit: df, gender, status, haki,
     origin, size, race, hint1: h1, hint2: h2, hint3: h3, firstAppearance: film, difficulty,
   });
