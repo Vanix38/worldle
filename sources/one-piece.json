@@ -13885,38 +13885,6 @@
     },
     {
       "versions": [
-        "manga"
-      ],
-      "id": "mma",
-      "name": "MMA",
-      "aliases": [
-        "Sleeptids",
-        "Mūma"
-      ],
-      "affiliation": "École du Morse",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Indéterminé",
-      "status": "Vivant",
-      "haki": [],
-      "origin": "Grand Line (Erbaf)",
-      "size": "?",
-      "race": [
-        "Animal"
-      ],
-      "hint1": "École du Morse",
-      "hint2": "Créature",
-      "hint3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1142",
-      "difficulty": "Impossible"
-    },
-    {
-      "versions": [
         "manga",
         "anime"
       ],

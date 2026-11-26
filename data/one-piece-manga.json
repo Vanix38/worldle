@@ -10749,35 +10749,6 @@
       "difficulty": "Impossible"
     },
     {
-      "id": "mma",
-      "name": "MMA",
-      "aliases": [
-        "Sleeptids",
-        "Mūma"
-      ],
-      "affiliation": "École du Morse",
-      "sub_affiliation": [],
-      "age": "?",
-      "arc": "Elbaph",
-      "saga": "Finale",
-      "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
-      "gender": "Indéterminé",
-      "status": "Vivant",
-      "haki": [],
-      "origin": "Grand Line (Erbaf)",
-      "size": "?",
-      "race": [
-        "Animal"
-      ],
-      "hint1": "École du Morse",
-      "hint2": "Créature",
-      "hint3": "Grand Line (Erbaf)",
-      "firstAppearance": "Chapitre 1142",
-      "difficulty": "Impossible"
-    },
-    {
       "id": "mohji",
       "name": "Mohji",
       "aliases": [
@@ -17162,9 +17133,9 @@
     "hint1": 1,
     "hint2": 1,
     "hint3": 1,
-    "sub_affiliation": 0.5858369098712446,
-    "haki": 0.296137339055794,
-    "devilFruitType": 0.2918454935622318,
-    "devilFruit": 0.2918454935622318
+    "sub_affiliation": 0.5870967741935483,
+    "haki": 0.2967741935483871,
+    "devilFruitType": 0.2924731182795699,
+    "devilFruit": 0.2924731182795699
   }
 }
