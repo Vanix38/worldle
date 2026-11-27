@@ -1,0 +1,1303 @@
+{
+  "_description": "Corrections des indices One Piece (2026-11-27), appliquées par scripts/apply-one-piece-hints-fixes.mjs. hint1 = rang/rôle (d'après l'occupation du wiki), hint2 = pouvoir du fruit sinon race ou détail, hint3 = haki sinon origine. \"auto\" = valeur recalculée (hint2 : race ; hint3 : haki sinon origine). _fruits = fruits manquants dans la colonne Fruit du démon.",
+  "_fruits": {
+    "aramaki": {
+      "devilFruit": [
+        "Mori Mori no Mi"
+      ],
+      "devilFruitType": "Logia",
+      "hint2": "Forêt"
+    },
+    "carmel": {
+      "devilFruit": [
+        "Soru Soru no Mi"
+      ],
+      "devilFruitType": "Paramecia",
+      "hint2": "Âmes"
+    },
+    "chaka": {
+      "devilFruit": [
+        "Inu Inu no Mi modèle Chacal"
+      ],
+      "devilFruitType": "Zoan Classique",
+      "hint2": "Chacal"
+    },
+    "daz-bonez": {
+      "devilFruit": [
+        "Supa Supa no Mi"
+      ],
+      "devilFruitType": "Paramecia",
+      "hint2": "Lames"
+    },
+    "kelly-funk": {
+      "devilFruit": [
+        "Jake Jake no Mi"
+      ],
+      "devilFruitType": "Paramecia",
+      "hint2": "Veste (possession)"
+    },
+    "kujaku": {
+      "devilFruit": [
+        "Muchi Muchi no Mi"
+      ],
+      "devilFruitType": "Paramecia",
+      "hint2": "Fouets"
+    },
+    "morley": {
+      "devilFruit": [
+        "Oshi Oshi no Mi"
+      ],
+      "devilFruitType": "Paramecia",
+      "hint2": "Malléabilité"
+    },
+    "queen": {
+      "devilFruit": [
+        "Ryu Ryu no Mi modèle Brachiosaure"
+      ],
+      "devilFruitType": "Zoan Antique",
+      "hint2": "Brachiosaure"
+    },
+    "shiryu": {
+      "devilFruit": [
+        "Suke Suke no Mi"
+      ],
+      "devilFruitType": "Paramecia",
+      "hint2": "Invisibilité"
+    }
+  },
+  "aegir": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "alvida": {
+    "hint1": "Capitaine pirate",
+    "hint3": "auto"
+  },
+  "ange": {
+    "hint1": "Professeure de langues et bibliothécaire",
+    "hint2": "auto"
+  },
+  "aramaki": {
+    "hint1": "Amiral"
+  },
+  "arlong": {
+    "hint3": "auto"
+  },
+  "atlas": {
+    "hint1": "Satellite « Violence »"
+  },
+  "axel": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "barbel": {
+    "hint1": "Pirate"
+  },
+  "bartolomeo": {
+    "hint1": "Capitaine du 2e navire de la Grande Flotte",
+    "hint3": "auto"
+  },
+  "bellamy": {
+    "hint1": "Capitaine pirate",
+    "hint3": "auto"
+  },
+  "bent": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "biblo": {
+    "hint1": "Bibliothécaire en chef"
+  },
+  "bishamon": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "blade": {
+    "hint1": "Professeur de mathématiques",
+    "hint2": "auto"
+  },
+  "bobby-funk": {
+    "hint1": "Assassin",
+    "hint2": "auto"
+  },
+  "bourbon-jr": {
+    "hint1": "Monture royale (Super Canards)",
+    "hint2": "auto"
+  },
+  "braham": {
+    "hint1": "Guerrier shandia",
+    "hint2": "auto"
+  },
+  "buchi": {
+    "hint1": "Officier pirate"
+  },
+  "buckingham-stussy": {
+    "hint1": "Scientifique autoproclamée",
+    "hint2": "auto"
+  },
+  "buffalo": {
+    "hint1": "Officier pirate"
+  },
+  "byron": {
+    "hint1": "Musicien et esclave",
+    "hint2": "auto"
+  },
+  "camie": {
+    "hint1": "Vendeuse de takoyakis",
+    "hint2": "auto"
+  },
+  "candelle": {
+    "hint1": "Reine d'Esperia",
+    "hint2": "Capitaine du Battle Convoy"
+  },
+  "carne": {
+    "hint1": "Cuisinier",
+    "hint2": "auto"
+  },
+  "cavendish": {
+    "hint1": "Capitaine du 1er navire de la Grande Flotte",
+    "hint3": "auto"
+  },
+  "chadros-higelyges": {
+    "hint1": "Chef de l'Unité de patrouille Centaure"
+  },
+  "chaka": {
+    "hint1": "Commandant de la garde royale"
+  },
+  "charlotte-angel": {
+    "hint1": "Officière pirate",
+    "hint2": "auto"
+  },
+  "charlotte-broye": {
+    "hint1": "Ministre de la Meringue",
+    "hint2": "auto"
+  },
+  "charlotte-brulee": {
+    "hint1": "Officière pirate",
+    "hint3": "auto"
+  },
+  "charlotte-chiffon": {
+    "hint1": "Cuisinière",
+    "hint3": "auto"
+  },
+  "charlotte-cracker": {
+    "hint3": "auto"
+  },
+  "charlotte-custard": {
+    "hint1": "Officière pirate",
+    "hint2": "auto"
+  },
+  "charlotte-daifuku": {
+    "hint1": "Ministre des Haricots",
+    "hint3": "auto"
+  },
+  "charlotte-flampe": {
+    "hint1": "Ministre du Miel",
+    "hint3": "auto"
+  },
+  "charlotte-katakuri": {
+    "hint3": "auto"
+  },
+  "charlotte-laura": {
+    "hint1": "Capitaine pirate",
+    "hint3": "auto"
+  },
+  "charlotte-linlin": {
+    "hint3": "auto"
+  },
+  "charlotte-mont-d-or": {
+    "hint1": "Ministre du Fromage",
+    "hint3": "auto"
+  },
+  "charlotte-oven": {
+    "hint1": "Ministre de la Cuisson",
+    "hint3": "auto"
+  },
+  "charlotte-perospero": {
+    "hint1": "Ministre des Bonbons",
+    "hint3": "auto"
+  },
+  "charlotte-praline": {
+    "hint1": "Ministre du Design",
+    "hint3": "auto"
+  },
+  "charlotte-smoothie": {
+    "hint1": "Général Sucré",
+    "hint3": "auto"
+  },
+  "chess": {
+    "hint1": "Chef d'état-major"
+  },
+  "chew": {
+    "hint1": "Officier pirate (tireur)",
+    "hint2": "auto"
+  },
+  "chimney": {
+    "hint1": "Cheffe de gare (le dimanche)"
+  },
+  "chocolat": {
+    "hint1": "Pirate",
+    "hint2": "auto"
+  },
+  "chome": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "clou-d-clover": {
+    "hint1": "Archéologue et professeur",
+    "hint2": "auto"
+  },
+  "cocoa": {
+    "hint1": "Pirate",
+    "hint2": "auto"
+  },
+  "concelot": {
+    "hint1": "Mousquetaire d'Inuarashi",
+    "hint2": "auto"
+  },
+  "coribou": {
+    "hint1": "Capitaine pirate"
+  },
+  "cowboy": {
+    "hint1": "Monture royale (Super Canards)",
+    "hint2": "auto"
+  },
+  "crocus": {
+    "hint1": "Médecin et gardien de phare"
+  },
+  "curly-dadan": {
+    "hint1": "Cheffe des bandits des montagnes"
+  },
+  "daikoku": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "daruma": {
+    "hint1": "Officier pirate",
+    "hint2": "auto"
+  },
+  "daz-bonez": {
+    "hint1": "Assassin"
+  },
+  "dellinger": {
+    "hint1": "Officier pirate",
+    "hint2": "auto"
+  },
+  "den": {
+    "hint1": "Charpentier et chercheur"
+  },
+  "denjiro": {
+    "hint1": "Daimyo et samouraï"
+  },
+  "diamante": {
+    "hint1": "Officier exécutif"
+  },
+  "doc-q": {
+    "hint1": "Capitaine du 9e navire et médecin"
+  },
+  "doll": {
+    "hint1": "Vice-Amiral",
+    "hint2": "auto"
+  },
+  "don-quichotte-rossinante": {
+    "hint3": "auto"
+  },
+  "dosun": {
+    "hint1": "Officier pirate",
+    "hint2": "auto"
+  },
+  "drip": {
+    "hint1": "Pirate",
+    "hint2": "auto"
+  },
+  "drophy": {
+    "hint1": "Serveuse de café"
+  },
+  "dugong": {
+    "hint1": "Maître de kung-fu",
+    "hint3": "auto"
+  },
+  "duval": {
+    "hint1": "Chef des Rosy Life Riders",
+    "hint2": "auto"
+  },
+  "edison": {
+    "hint1": "Satellite « Pensée »"
+  },
+  "edward-weevil": {
+    "hint1": "Capitaine pirate"
+  },
+  "elizabello-ii": {
+    "hint1": "Roi",
+    "hint2": "auto"
+  },
+  "emet": {
+    "hint1": "Ancien robot gardien"
+  },
+  "emil": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "enel": {
+    "hint1": "Dieu autoproclamé"
+  },
+  "gecko-moria": {
+    "hint1": "Capitaine pirate"
+  },
+  "eris": {
+    "hint1": "Épouse de Rocks D. Xebec",
+    "hint2": "auto"
+  },
+  "estrid": {
+    "hint1": "Reine",
+    "hint2": "auto"
+  },
+  "ethanbaron-v-nusjuro": {
+    "hint1": "Doyen (Finances)"
+  },
+  "figarland-garling": {
+    "hint1": "Doyen (Science et Défense)",
+    "hint2": "Chef des Chevaliers de Dieu"
+  },
+  "figarland-shamrock": {
+    "hint1": "Commandant des Chevaliers de Dieu"
+  },
+  "franky": {
+    "hint1": "Charpentier"
+  },
+  "fukuro": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "fukurokuju": {
+    "hint1": "Chef des ninjas d'Orochi"
+  },
+  "galdino": {
+    "hint1": "Pirate"
+  },
+  "gantonio": {
+    "hint1": "Pirate"
+  },
+  "ganzui": {
+    "hint1": "Pirate contrebandier"
+  },
+  "gedatsu": {
+    "hint1": "Prêtre"
+  },
+  "gem": {
+    "hint1": "Agent de Baroque Works"
+  },
+  "genzo": {
+    "hint1": "Shérif du village",
+    "hint2": "auto"
+  },
+  "gerd": {
+    "hint1": "Médecin pirate"
+  },
+  "gill-bastar": {
+    "hint1": "Hors-la-loi"
+  },
+  "gin": {
+    "hint1": "Commandant de combat",
+    "hint3": "auto"
+  },
+  "ginny": {
+    "hint1": "Capitaine de l'Armée de l'Est",
+    "hint2": "auto"
+  },
+  "giovanni": {
+    "hint1": "Mousquetaire d'Inuarashi",
+    "hint2": "auto"
+  },
+  "gladius": {
+    "hint1": "Officier pirate"
+  },
+  "goldberg": {
+    "hint1": "Cuisinier pirate"
+  },
+  "gotti": {
+    "hint1": "Assassin"
+  },
+  "guernika": {
+    "hint1": "Agent du Cipher Pol",
+    "hint2": "auto"
+  },
+  "gunko": {
+    "hint1": "Chevalière de Dieu"
+  },
+  "manmayer-gurou": {
+    "hint1": "Chevalier de Dieu",
+    "hint2": "auto"
+  },
+  "gustav": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "hack": {
+    "hint1": "Maître de karaté des Hommes-Poissons"
+  },
+  "haguar-d-sauro": {
+    "hint1": "Ancien Vice-Amiral"
+  },
+  "hajrudin": {
+    "hint1": "Capitaine du 6e navire de la Grande Flotte"
+  },
+  "hannyabal": {
+    "hint1": "Directeur de prison"
+  },
+  "hanzo": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "harald": {
+    "hint1": "Roi",
+    "hint2": "auto"
+  },
+  "haredas": {
+    "hint1": "Scientifique"
+  },
+  "hatchan": {
+    "hint1": "Vendeur de takoyakis"
+  },
+  "heracles": {
+    "hint1": "Explorateur et botaniste",
+    "hint2": "auto"
+  },
+  "hibari": {
+    "hint1": "Capitaine de frégate",
+    "hint2": "auto"
+  },
+  "higuma": {
+    "hint1": "Chef de bandits",
+    "hint2": "auto"
+  },
+  "hilmungardr": {
+    "hint1": "Créature du Pays des Dieux"
+  },
+  "hiluluk": {
+    "hint1": "Médecin"
+  },
+  "hody-jones": {
+    "hint1": "Capitaine pirate"
+  },
+  "hogback": {
+    "hint1": "Médecin"
+  },
+  "holdem": {
+    "hint1": "Shinuchi"
+  },
+  "hyougoro": {
+    "hint1": "Ancien chef yakuza",
+    "hint2": "auto"
+  },
+  "hyouzou": {
+    "hint1": "Mercenaire épéiste",
+    "hint2": "auto"
+  },
+  "ida": {
+    "hint1": "Barmaid",
+    "hint2": "auto"
+  },
+  "ikaros-much": {
+    "hint1": "Officier pirate",
+    "hint2": "auto"
+  },
+  "imu": {
+    "hint1": "Roi du monde (dans l'ombre)"
+  },
+  "inazuma": {
+    "hint1": "Révolutionnaire"
+  },
+  "inuarashi": {
+    "hint1": "Souverain du jour de Mokomo"
+  },
+  "ipponmatsu": {
+    "hint1": "Armurier",
+    "hint2": "auto"
+  },
+  "iscat": {
+    "hint1": "Félin géant"
+  },
+  "ivan-x": {
+    "hint1": "Monture royale (Super Canards)",
+    "hint2": "auto"
+  },
+  "izou": {
+    "hint1": "Commandant de la 16e division"
+  },
+  "jabra": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "jack": {
+    "hint1": "Calamité"
+  },
+  "jango": {
+    "hint1": "Capitaine de corvette",
+    "hint2": "auto"
+  },
+  "jaygarcia-saturn": {
+    "hint1": "Doyen (Science et Défense)"
+  },
+  "jerry": {
+    "hint1": "Agent du Cipher Pol",
+    "hint2": "auto"
+  },
+  "jesus-burgess": {
+    "hint1": "Capitaine du 1er navire et timonier"
+  },
+  "jigoku-benten": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "jinbe": {
+    "hint1": "Timonier"
+  },
+  "johanna": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "captain-john": {
+    "hint1": "Capitaine pirate"
+  },
+  "john-giant": {
+    "hint1": "Vice-Amiral",
+    "hint2": "auto"
+  },
+  "jora": {
+    "hint1": "Officière pirate"
+  },
+  "kaidou": {
+    "hint1": "Empereur"
+  },
+  "kaku": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "kalifa": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "karasu": {
+    "hint1": "Commandant de l'Armée du Nord"
+  },
+  "karin": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "karoo": {
+    "hint1": "Capitaine des Super Canards"
+  },
+  "kashii": {
+    "hint1": "Ancien gardien de la porte"
+  },
+  "kazekage": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "kelly-funk": {
+    "hint1": "Assassin"
+  },
+  "kentauros": {
+    "hint1": "Monture royale (Super Canards)",
+    "hint2": "auto"
+  },
+  "kiba": {
+    "hint1": "Directeur d'école",
+    "hint2": "auto"
+  },
+  "kinemon": {
+    "hint1": "Chef des Fourreaux Rouges"
+  },
+  "kokoro": {
+    "hint1": "Cheffe de gare"
+  },
+  "kouzuki-sukiyaki": {
+    "hint1": "Forgeron de sabres",
+    "hint2": "auto"
+  },
+  "kozuki-hiyori": {
+    "hint1": "Courtisane (oiran)"
+  },
+  "kozuki-momonosuke": {
+    "hint1": "Shogun"
+  },
+  "kozuki-oden": {
+    "hint1": "Daimyo et samouraï"
+  },
+  "krieg": {
+    "hint1": "Capitaine pirate",
+    "hint2": "auto"
+  },
+  "kujaku": {
+    "hint1": "Contre-Amiral"
+  },
+  "kumadori": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "kureha": {
+    "hint1": "Médecin en chef"
+  },
+  "kuro": {
+    "hint1": "Capitaine pirate (déguisé en majordome)",
+    "hint2": "auto"
+  },
+  "kuroobi": {
+    "hint1": "Officier pirate"
+  },
+  "kurozumi-kanjuro": {
+    "hint1": "Espion et samouraï"
+  },
+  "kurozumi-orochi": {
+    "hint1": "Shogun"
+  },
+  "kyo": {
+    "hint1": "Tueur à gages"
+  },
+  "kyros": {
+    "hint1": "Ancien gladiateur"
+  },
+  "laboon": {
+    "hint1": "Baleine"
+  },
+  "laffitte": {
+    "hint1": "Capitaine du 5e navire et navigateur"
+  },
+  "lao-g": {
+    "hint1": "Officier pirate"
+  },
+  "lilith": {
+    "hint1": "Satellite « Mal »"
+  },
+  "little-oars-jr": {
+    "hint1": "Capitaine pirate"
+  },
+  "loki": {
+    "hint1": "Prince"
+  },
+  "lucky-roux": {
+    "hint1": "Cuisinier"
+  },
+  "luven": {
+    "hint1": "Prince",
+    "hint2": "auto"
+  },
+  "machvise": {
+    "hint1": "Officier pirate"
+  },
+  "mag": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "magellan": {
+    "hint1": "Directeur de prison"
+  },
+  "magnolia": {
+    "hint1": "Mère de jumeaux",
+    "hint2": "auto"
+  },
+  "makino": {
+    "hint1": "Patronne de bar",
+    "hint2": "auto"
+  },
+  "manboshi": {
+    "hint1": "Prince"
+  },
+  "manjaro": {
+    "hint1": "Pirate",
+    "hint2": "auto"
+  },
+  "marcus-mars": {
+    "hint1": "Doyen (Environnement)"
+  },
+  "marianne": {
+    "hint1": "Agent de Baroque Works"
+  },
+  "marlon": {
+    "hint1": "Pirate gangster"
+  },
+  "masira": {
+    "hint1": "Capitaine pirate"
+  },
+  "meuh-meuh": {
+    "hint1": "Animal de compagnie",
+    "hint2": "Vache de mer"
+  },
+  "mikita": {
+    "hint1": "Agent de Baroque Works"
+  },
+  "minister-of-the-left": {
+    "hint1": "Ministre",
+    "hint2": "auto"
+  },
+  "minister-of-the-right": {
+    "hint1": "Ministre",
+    "hint2": "auto"
+  },
+  "mohji": {
+    "hint1": "Dompteur",
+    "hint2": "auto"
+  },
+  "monet": {
+    "hint1": "Espionne et secrétaire"
+  },
+  "monkey-d-dragon": {
+    "hint1": "Commandant en chef"
+  },
+  "mont-blanc-cricket": {
+    "hint1": "Chercheur d'or",
+    "hint2": "auto"
+  },
+  "mont-blanc-noland": {
+    "hint1": "Explorateur et botaniste",
+    "hint2": "auto"
+  },
+  "morgan": {
+    "hint2": "Main en forme de hache"
+  },
+  "morgans": {
+    "hint1": "Président de journal"
+  },
+  "morley": {
+    "hint1": "Commandant de l'Armée de l'Ouest"
+  },
+  "moulon": {
+    "hint1": "Chef de famille",
+    "hint2": "auto"
+  },
+  "mounblutain": {
+    "hint1": "Pirate",
+    "hint2": "auto"
+  },
+  "mozu-et-kiwi": {
+    "hint1": "Barmaids"
+  },
+  "muginn": {
+    "hint1": "Corbeau messager",
+    "hint2": "auto"
+  },
+  "nami": {
+    "hint1": "Navigatrice"
+  },
+  "napoleon": {
+    "hint1": "Arme vivante",
+    "hint2": "Bicorne"
+  },
+  "nefertari-cobra": {
+    "hint1": "Roi"
+  },
+  "nefertari-vivi": {
+    "hint1": "Princesse"
+  },
+  "nekomamushi": {
+    "hint1": "Souverain de la nuit de Mokomo"
+  },
+  "nero": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "nico-robin": {
+    "hint1": "Archéologue"
+  },
+  "ninjin": {
+    "hint1": "Pirate pour de faux",
+    "hint2": "auto"
+  },
+  "nojiko": {
+    "hint1": "Cultivatrice de mandarines",
+    "hint2": "auto"
+  },
+  "oars": {
+    "hint1": "Zombie spécial"
+  },
+  "ochoku": {
+    "hint1": "Pirate"
+  },
+  "ohm": {
+    "hint1": "Prêtre"
+  },
+  "oimo": {
+    "hint1": "Ancien gardien de la porte"
+  },
+  "olav": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "orlumbus": {
+    "hint1": "Capitaine du 7e navire de la Grande Flotte"
+  },
+  "otohime": {
+    "hint1": "Reine"
+  },
+  "page-one": {
+    "hint1": "Shinuchi"
+  },
+  "pappag": {
+    "hint1": "Styliste",
+    "hint2": "auto"
+  },
+  "patty": {
+    "hint1": "Cuisinier",
+    "hint2": "auto"
+  },
+  "paulie": {
+    "hint3": "auto"
+  },
+  "pearl": {
+    "hint1": "Commandant d'unité",
+    "hint2": "auto"
+  },
+  "pedro": {
+    "hint1": "Capitaine des Gardiens"
+  },
+  "peeply-lulu": {
+    "hint1": "Contremaître charpentier"
+  },
+  "pekoms": {
+    "hint1": "Combattant"
+  },
+  "pica": {
+    "hint1": "Officier exécutif"
+  },
+  "piiman": {
+    "hint1": "Pirate pour de faux",
+    "hint2": "auto"
+  },
+  "polo-gram": {
+    "hint1": "Capitaine pirate",
+    "hint2": "auto"
+  },
+  "porchemy": {
+    "hint1": "Pirate"
+  },
+  "portgas-d-ace": {
+    "hint1": "Commandant de la 2e division"
+  },
+  "pound": {
+    "hint1": "Ancien mari de Big Mom",
+    "hint2": "auto"
+  },
+  "prince-grus": {
+    "hint1": "Contre-Amiral",
+    "hint2": "auto"
+  },
+  "prometheus": {
+    "hint1": "Arme vivante",
+    "hint2": "Soleil"
+  },
+  "pythagoras": {
+    "hint1": "Satellite « Sagesse »"
+  },
+  "queen": {
+    "hint1": "Calamité"
+  },
+  "ragnir": {
+    "hint1": "Marteau de guerre"
+  },
+  "raideen": {
+    "hint1": "Pirate"
+  },
+  "raijin": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "raizo": {
+    "hint1": "Ninja"
+  },
+  "rebecca": {
+    "hint1": "Ancienne gladiatrice"
+  },
+  "reuven": {
+    "hint1": "Roi",
+    "hint2": "auto"
+  },
+  "riku-doldo-iii": {
+    "hint1": "Roi"
+  },
+  "riku-viola": {
+    "hint1": "Princesse"
+  },
+  "rimoshifu-killingham": {
+    "hint1": "Chevalier de Dieu"
+  },
+  "ripley": {
+    "hint1": "Professeure de biologie",
+    "hint2": "auto"
+  },
+  "ripper": {
+    "hint1": "Commandant de base",
+    "hint2": "auto"
+  },
+  "road": {
+    "hint1": "Navigateur"
+  },
+  "rob-lucci": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "rocks-d-xebec": {
+    "hint1": "Capitaine pirate",
+    "hint2": "auto",
+    "hint3": "auto"
+  },
+  "ronja": {
+    "hint1": "Déléguée de classe",
+    "hint2": "auto"
+  },
+  "rosward-rosward": {
+    "hint1": "Dragon Céleste",
+    "hint2": "auto"
+  },
+  "s-bear": {
+    "hint1": "Seraphim",
+    "hint2": "Pattes repoussantes (copie)"
+  },
+  "s-hawk": {
+    "hint1": "Seraphim",
+    "hint2": "Lames (copie)"
+  },
+  "s-shark": {
+    "hint1": "Seraphim",
+    "hint2": "Karaté des Hommes-Poissons"
+  },
+  "s-snake": {
+    "hint1": "Seraphim",
+    "hint2": "Pétrification (copie)"
+  },
+  "sabo": {
+    "hint1": "Chef d'état-major"
+  },
+  "sadi": {
+    "hint1": "Cheffe des gardes",
+    "hint2": "auto"
+  },
+  "sai": {
+    "hint1": "Capitaine du 3e navire de la Grande Flotte"
+  },
+  "saint-rosward-charlos": {
+    "hint1": "Dragon Céleste"
+  },
+  "sainte-rosward-sharlia": {
+    "hint1": "Dragon Céleste"
+  },
+  "saldeath": {
+    "hint1": "Chef des geôliers",
+    "hint2": "auto"
+  },
+  "sanjuan-wolf": {
+    "hint1": "Capitaine du 7e navire"
+  },
+  "sarquiss": {
+    "hint1": "Second",
+    "hint2": "auto"
+  },
+  "sarutobi": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "sasaki": {
+    "hint1": "Shinuchi"
+  },
+  "satchels-maffey": {
+    "hint1": "Chevalière de Dieu",
+    "hint2": "auto"
+  },
+  "satori": {
+    "hint1": "Prêtre"
+  },
+  "scopper-gaban": {
+    "hint1": "Navigateur"
+  },
+  "scratchmen-apoo": {
+    "hint1": "Capitaine pirate et musicien"
+  },
+  "senor-pink": {
+    "hint1": "Officier pirate"
+  },
+  "sentomaru": {
+    "hint1": "Garde du corps de Vegapunk"
+  },
+  "shaka": {
+    "hint1": "Satellite « Bien »"
+  },
+  "sham": {
+    "hint1": "Officier pirate"
+  },
+  "shandia-chief": {
+    "hint1": "Chef de tribu",
+    "hint2": "auto"
+  },
+  "sheep-s-head": {
+    "hint1": "Shinuchi"
+  },
+  "shepherd-ju-peter": {
+    "hint1": "Doyen (Agriculture)"
+  },
+  "shepherd-sommers": {
+    "hint1": "Chevalier de Dieu"
+  },
+  "shiki": {
+    "hint1": "Capitaine pirate"
+  },
+  "shimotsuki-koshiro": {
+    "hint1": "Maître de dojo"
+  },
+  "shimotsuki-kouzaburou": {
+    "hint1": "Forgeron de sabres",
+    "hint2": "auto"
+  },
+  "shimotsuki-kuina": {
+    "hint1": "Apprentie épéiste"
+  },
+  "shinobu": {
+    "hint1": "Kunoichi"
+  },
+  "shiryu": {
+    "hint1": "Capitaine du 2e navire"
+  },
+  "shishilian": {
+    "hint1": "Capitaine des Mousquetaires",
+    "hint2": "auto"
+  },
+  "shoujou": {
+    "hint1": "Capitaine pirate",
+    "hint2": "auto"
+  },
+  "shura": {
+    "hint1": "Prêtre"
+  },
+  "shyarly": {
+    "hint1": "Gérante de café et voyante"
+  },
+  "sicily": {
+    "hint1": "Contre-Amiral",
+    "hint2": "auto"
+  },
+  "skaldi": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "smack": {
+    "hint1": "Officier pirate"
+  },
+  "spandam": {
+    "hint1": "Chef du Cipher Pol"
+  },
+  "spandine": {
+    "hint1": "Ancien chef du CP9",
+    "hint2": "auto"
+  },
+  "speed": {
+    "hint1": "Shinuchi",
+    "hint3": "auto"
+  },
+  "squard": {
+    "hint1": "Capitaine pirate"
+  },
+  "stalker": {
+    "hint1": "Enseigne de vaisseau",
+    "hint2": "auto"
+  },
+  "stansen": {
+    "hint1": "Charpentier pirate"
+  },
+  "stella": {
+    "hint1": "Scientifique de génie"
+  },
+  "sterry": {
+    "hint1": "Roi",
+    "hint2": "auto"
+  },
+  "stomp": {
+    "hint1": "Monture royale (Super Canards)",
+    "hint2": "auto"
+  },
+  "streusen": {
+    "hint1": "Chef cuisinier"
+  },
+  "stussy": {
+    "hint1": "Espionne"
+  },
+  "sugar": {
+    "hint1": "Officière spéciale"
+  },
+  "suleiman": {
+    "hint1": "Mercenaire"
+  },
+  "t-bone": {
+    "hint1": "Vice-Amiral",
+    "hint2": "auto"
+  },
+  "tamago": {
+    "hint1": "Combattant"
+  },
+  "tamanegi": {
+    "hint1": "Pirate pour de faux",
+    "hint2": "auto"
+  },
+  "tilestone": {
+    "hint1": "Contremaître charpentier"
+  },
+  "toko": {
+    "hint1": "Kamuro (apprentie courtisane)",
+    "hint2": "auto"
+  },
+  "tom": {
+    "hint1": "Charpentier"
+  },
+  "tonjit": {
+    "hint1": "Nomade sur échasses",
+    "hint2": "auto"
+  },
+  "topman-warcury": {
+    "hint1": "Doyen (Justice)"
+  },
+  "trebol": {
+    "hint1": "Officier exécutif"
+  },
+  "turco": {
+    "hint1": "Pirate",
+    "hint2": "auto"
+  },
+  "ulti": {
+    "hint1": "Shinuchi"
+  },
+  "urouge": {
+    "hint1": "Capitaine pirate"
+  },
+  "van-augur": {
+    "hint1": "Capitaine du 3e navire et tireur"
+  },
+  "vander-decken-ix": {
+    "hint1": "Capitaine pirate"
+  },
+  "vasco-shot": {
+    "hint1": "Capitaine du 8e navire"
+  },
+  "victoria-cindry": {
+    "hint1": "Zombie soldat (ex-actrice)",
+    "hint2": "auto"
+  },
+  "vinsmoke-ichiji": {
+    "hint1": "Prince"
+  },
+  "vinsmoke-judge": {
+    "hint1": "Roi et scientifique",
+    "hint2": "auto"
+  },
+  "vinsmoke-niji": {
+    "hint1": "Prince"
+  },
+  "vinsmoke-reiju": {
+    "hint1": "Princesse"
+  },
+  "vinsmoke-yonji": {
+    "hint1": "Prince"
+  },
+  "vista": {
+    "hint1": "Commandant de la 5e division"
+  },
+  "vito": {
+    "hint1": "Conseiller"
+  },
+  "wadatsumi": {
+    "hint1": "Pirate"
+  },
+  "wanda": {
+    "hint1": "Mousquetaire"
+  },
+  "wanze": {
+    "hint1": "Agent du Cipher Pol"
+  },
+  "who-s-who": {
+    "hint1": "Shinuchi"
+  },
+  "wolf-elbaph": {
+    "hint1": "Professeur de sport",
+    "hint2": "auto"
+  },
+  "x-drake": {
+    "hint1": "Capitaine de SWORD"
+  },
+  "yamato": {
+    "hint1": "Enfant de Kaidou"
+  },
+  "yarle": {
+    "hint1": "Capitaine pirate"
+  },
+  "yasopp": {
+    "hint1": "Tireur d'élite"
+  },
+  "yazaemon": {
+    "hint1": "Ninja",
+    "hint2": "auto"
+  },
+  "yeti-cool-brothers": {
+    "hint1": "Mercenaires tireurs d'élite"
+  },
+  "ylva": {
+    "hint1": "Élève",
+    "hint2": "auto"
+  },
+  "york": {
+    "hint1": "Satellite « Avidité »"
+  },
+  "yorle": {
+    "hint1": "Capitaine pirate"
+  },
+  "zala": {
+    "hint1": "Agent de Baroque Works"
+  },
+  "zambai": {
+    "hint1": "Désosseur de bateaux"
+  },
+  "zeff": {
+    "hint1": "Chef cuisinier"
+  },
+  "zeo": {
+    "hint1": "Officier pirate"
+  },
+  "zeus": {
+    "hint1": "Arme vivante",
+    "hint2": "Nuage d'orage"
+  },
+  "penguin": {
+    "hint2": "Casquette à inscription"
+  },
+  "jean-bart": {
+    "hint3": "auto"
+  },
+  "kumashi": {
+    "hint3": "auto"
+  },
+  "kingbaum": {
+    "hint3": "auto"
+  },
+  "ratchet": {
+    "hint1": "Seigneur d'une île mécanique"
+  },
+  "z": {
+    "hint3": "auto"
+  },
+  "ain": {
+    "hint3": "auto"
+  },
+  "binz": {
+    "hint3": "auto"
+  },
+  "gild-tesoro": {
+    "hint1": "Propriétaire de casino"
+  },
+  "baccarat": {
+    "hint3": "auto"
+  },
+  "tanaka": {
+    "hint3": "auto"
+  },
+  "dice": {
+    "hint3": "auto"
+  },
+  "carina": {
+    "hint3": "auto"
+  },
+  "buena-festa": {
+    "hint1": "Organisateur d'événements"
+  },
+  "usopp": {
+    "hint2": "Lance-pierre"
+  }
+}

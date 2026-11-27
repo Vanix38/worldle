@@ -2746,8 +2746,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -2906,9 +2906,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Alliance Baggy et Alvida",
+      "hint1": "Capitaine pirate",
       "hint2": "Peau glissante",
-      "hint3": "Alliance Baggy et Alvida",
+      "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 2",
         "$anime": "Épisode 1"
@@ -2941,8 +2941,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "École du Morse",
+      "hint1": "Professeure de langues et bibliothécaire",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
         "$manga": "Chapitre 1131",
@@ -2966,8 +2966,10 @@
       "arc": "Whole Cake",
       "saga": "Whole Cake",
       "bounty": 3000000000,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Logia",
+      "devilFruit": [
+        "Mori Mori no Mi"
+      ],
       "gender": "Masculin",
       "status": "Vivant",
       "haki": [
@@ -2979,8 +2981,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines",
-      "hint2": "アラマキ",
+      "hint1": "Amiral",
+      "hint2": "Forêt",
       "hint3": "South Blue (Royaume de Taya)",
       "firstAppearance": {
         "$manga": "Chapitre 905",
@@ -3022,7 +3024,7 @@
       ],
       "hint1": "Capitaine",
       "hint2": "Homme-Poisson",
-      "hint3": "Équipage des Pirates du soleil",
+      "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 69",
         "$anime": "Épisode 31"
@@ -3069,7 +3071,7 @@
       "race": [
         "Satellite de Vegapunk"
       ],
-      "hint1": "Marine",
+      "hint1": "Satellite « Violence »",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -3145,8 +3147,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -3319,7 +3321,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Pirate",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1156",
@@ -3426,9 +3428,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Bartolomeo",
+      "hint1": "Capitaine du 2e navire de la Grande Flotte",
       "hint2": "Barrière",
-      "hint3": "Équipage de Bartolomeo",
+      "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 705",
         "$anime": "Épisode 634"
@@ -3614,9 +3616,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Bellamy",
+      "hint1": "Capitaine pirate",
       "hint2": "Ressort",
-      "hint3": "Équipage de Bellamy",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 222",
         "$anime": "Épisode 146"
@@ -3766,8 +3768,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -3883,7 +3885,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Bibliothèque du Hibou",
+      "hint1": "Bibliothécaire en chef",
       "hint2": "Élevage",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -3919,8 +3921,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "ビシャ門",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -3995,8 +3997,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Professeur de mathématiques",
+      "hint1": "Professeur de mathématiques",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1142",
       "difficulty": "Impossible"
@@ -4293,8 +4295,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Mogaro Kingdom",
-      "hint2": "ボビー・ファンク",
+      "hint1": "Assassin",
+      "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Mogaro)",
       "firstAppearance": {
         "$manga": "Chapitre 704",
@@ -4370,8 +4372,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Super Spot-Billed Duck Troops",
-      "hint2": "バーボンJr",
+      "hint1": "Monture royale (Super Canards)",
+      "hint2": "Animal",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
         "$manga": "Chapitre 180",
@@ -4407,8 +4409,8 @@
       "race": [
         "Shandia"
       ],
-      "hint1": "Shandia",
-      "hint2": "ブラハム",
+      "hint1": "Guerrier shandia",
+      "hint2": "Shandia",
       "hint3": "Îles Célestes (Skypiea)",
       "firstAppearance": {
         "$manga": "Chapitre 249",
@@ -4570,7 +4572,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chat Noir",
+      "hint1": "Officier pirate",
       "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -4623,14 +4625,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": {
-        "$manga": "Équipage de Rocks",
-        "$anime": "Rocks Pirates"
-      },
-      "hint2": {
-        "$manga": "Équipage de Rocks",
-        "$anime": "ミス・バッキンガム・ステューシー"
-      },
+      "hint1": "Scientifique autoproclamée",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 1156",
@@ -4666,7 +4662,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier pirate",
       "hint2": "Rotation",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -4701,8 +4697,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Byron",
-      "hint2": "バイロン",
+      "hint1": "Musicien et esclave",
+      "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 501",
@@ -4780,8 +4776,8 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "Takoyaki 8",
-      "hint2": "ケイミー",
+      "hint1": "Vendeuse de takoyakis",
+      "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 490",
@@ -4816,7 +4812,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Royaume d'Esperia",
+      "hint1": "Reine d'Esperia",
       "hint2": "Capitaine du Battle Convoy",
       "hint3": "West Blue (Royaume d'Esperia)",
       "firstAppearance": "Chapitre 1183",
@@ -4930,8 +4926,10 @@
       "arc": "Whole Cake",
       "saga": "Whole Cake",
       "bounty": "?",
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Soru Soru no Mi"
+      ],
       "gender": "Féminin",
       "status": [
         {
@@ -4952,7 +4950,7 @@
         "Humain"
       ],
       "hint1": "Underworld",
-      "hint2": "カルメル",
+      "hint2": "Âmes",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 861",
@@ -4987,8 +4985,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baratie",
-      "hint2": "カルネ",
+      "hint1": "Cuisinier",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 45",
@@ -5116,9 +5114,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Cavendish",
+      "hint1": "Capitaine du 1er navire de la Grande Flotte",
       "hint2": "Humain",
-      "hint3": "Équipage de Cavendish",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 704",
         "$anime": "Épisode 632"
@@ -5201,7 +5199,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Brune",
+      "hint1": "Chef de l'Unité de patrouille Centaure",
       "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -5230,8 +5228,10 @@
       },
       "saga": "Alabasta",
       "bounty": 0,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Zoan Classique",
+      "devilFruit": [
+        "Inu Inu no Mi modèle Chacal"
+      ],
       "gender": "Masculin",
       "status": "Vivant",
       "haki": [],
@@ -5240,8 +5240,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Arabasta Kingdom",
-      "hint2": "チャカ",
+      "hint1": "Commandant de la garde royale",
+      "hint2": "Chacal",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
         "$manga": "Chapitre 155",
@@ -5277,8 +5277,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Charlotte Family",
-      "hint2": "シャーロット・エンゼル",
+      "hint1": "Officière pirate",
+      "hint2": "Humain",
       "hint3": "Grand Line (Sur un bateau)",
       "firstAppearance": {
         "$manga": "Chapitre 860",
@@ -5314,8 +5314,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Charlotte Family",
-      "hint2": "シャーロット・ブロワイエ",
+      "hint1": "Ministre de la Meringue",
+      "hint2": "Humain",
       "hint3": "Grand Line (Port inconnu)",
       "firstAppearance": {
         "$manga": "Chapitre 864",
@@ -5353,9 +5353,9 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Officière pirate",
       "hint2": "Miroirs",
-      "hint3": "Famille Charlotte",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 831",
         "$anime": "Épisode 791"
@@ -5391,9 +5391,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Cuisinière",
       "hint2": "Humain",
-      "hint3": "Famille Charlotte",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 825",
         "$anime": "Épisode 783"
@@ -5439,7 +5439,7 @@
       ],
       "hint1": "Troisième",
       "hint2": "Biscuits",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 835",
         "$anime": "Épisode 796"
@@ -5474,8 +5474,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Charlotte Family",
-      "hint2": "シャーロット・カスタード",
+      "hint1": "Officière pirate",
+      "hint2": "Humain",
       "hint3": "Grand Line (Sur un bateau)",
       "firstAppearance": {
         "$manga": "Chapitre 862",
@@ -5516,9 +5516,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Ministre des Haricots",
       "hint2": "Génie de la lampe",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 861",
         "$anime": "Épisode 826"
@@ -5553,9 +5553,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Ministre du Miel",
       "hint2": "Humain",
-      "hint3": "Famille Charlotte",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 891",
         "$anime": "Épisode 865"
@@ -5598,7 +5598,7 @@
       ],
       "hint1": "Second",
       "hint2": "Mochi",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
         "$manga": "Chapitre 860",
         "$anime": "Épisode 825"
@@ -5637,9 +5637,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Capitaine pirate",
       "hint2": "Humain",
-      "hint3": "Famille Charlotte",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 476",
         "$anime": "Épisode 370"
@@ -5698,7 +5698,7 @@
       ],
       "hint1": "Capitaine",
       "hint2": "Âmes",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
         "$manga": "Chapitre 651",
         "$anime": "Épisode 571"
@@ -5738,9 +5738,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Ministre du Fromage",
       "hint2": "Livres",
-      "hint3": "Famille Charlotte",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 829",
         "$anime": "Épisode 789"
@@ -5780,9 +5780,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Ministre de la Cuisson",
       "hint2": "Chaleur",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 861",
         "$anime": "Épisode 827"
@@ -5823,9 +5823,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Ministre des Bonbons",
       "hint2": "Bonbons",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 834",
         "$anime": "Épisode 795"
@@ -5862,9 +5862,9 @@
         "Humain",
         "Sirène"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Ministre du Design",
       "hint2": "Sirène",
-      "hint3": "Famille Charlotte",
+      "hint3": "Grand Line (Whole Cake Island)",
       "firstAppearance": {
         "$manga": "Chapitre 830",
         "$anime": "Épisode 790"
@@ -5948,9 +5948,9 @@
         "Humain",
         "Longues-Jambes"
       ],
-      "hint1": "Famille Charlotte",
+      "hint1": "Général Sucré",
       "hint2": "Essorage",
-      "hint3": "Famille Charlotte",
+      "hint3": "Armement, Observation",
       "firstAppearance": {
         "$manga": "Chapitre 846",
         "$anime": "Épisode 812"
@@ -6025,7 +6025,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Wapol",
+      "hint1": "Chef d'état-major",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
       "firstAppearance": {
@@ -6063,8 +6063,8 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Arlong Pirates",
-      "hint2": "チュウ",
+      "hint1": "Officier pirate (tireur)",
+      "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 69",
@@ -6099,7 +6099,7 @@
         "Humain",
         "Sirène"
       ],
-      "hint1": "Gare de Shift",
+      "hint1": "Cheffe de gare (le dimanche)",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
       "firstAppearance": {
@@ -6192,8 +6192,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Fake Straw Hat Crew",
-      "hint2": "ショコラ",
+      "hint1": "Pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 598",
@@ -6228,8 +6228,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "ちょめ",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -6312,8 +6312,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Ohara Archaeologists",
-      "hint2": "クラウ・D（ディー）・クローバー",
+      "hint1": "Archéologue et professeur",
+      "hint2": "Humain",
       "hint3": "West Blue (Ohara)",
       "firstAppearance": {
         "$manga": "Chapitre 391",
@@ -6347,8 +6347,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Fake Straw Hat Crew",
-      "hint2": "ココア",
+      "hint1": "Pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 598",
@@ -6422,8 +6422,8 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Mokomo Dukedom",
-      "hint2": "コンスロット",
+      "hint1": "Mousquetaire d'Inuarashi",
+      "hint2": "Minks",
       "hint3": "Grand Line (Zou)",
       "firstAppearance": {
         "$manga": "Chapitre 809",
@@ -6498,7 +6498,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Caribou",
+      "hint1": "Capitaine pirate",
       "hint2": "Humain",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -6533,8 +6533,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Super Spot-Billed Duck Troops",
-      "hint2": "カウボーイ",
+      "hint1": "Monture royale (Super Canards)",
+      "hint2": "Animal",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
         "$manga": "Chapitre 180",
@@ -6619,7 +6619,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Roger",
+      "hint1": "Médecin et gardien de phare",
       "hint2": "Humain",
       "hint3": "Cap des Jumeaux",
       "firstAppearance": {
@@ -6656,7 +6656,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Bandits",
+      "hint1": "Cheffe des bandits des montagnes",
       "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -6692,8 +6692,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "大黒",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -6765,8 +6765,8 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "New Fish-Man Pirates",
-      "hint2": "ダルマ",
+      "hint1": "Officier pirate",
+      "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 611",
@@ -6795,8 +6795,10 @@
       "arc": "Alabasta",
       "saga": "Alabasta",
       "bounty": 75000000,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Supa Supa no Mi"
+      ],
       "gender": "Masculin",
       "status": "Vivant",
       "haki": [],
@@ -6805,8 +6807,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Cross Guild",
-      "hint2": "ダズ・ボーネス",
+      "hint1": "Assassin",
+      "hint2": "Lames",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 160",
@@ -6841,8 +6843,8 @@
         "Humain",
         "Homme-Poisson"
       ],
-      "hint1": "Donquixote Pirates",
-      "hint2": "デリンジャー",
+      "hint1": "Officier pirate",
+      "hint2": "Humain, Homme-Poisson",
       "hint3": "North Blue",
       "firstAppearance": {
         "$manga": "Chapitre 702",
@@ -6913,7 +6915,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Civil",
+      "hint1": "Charpentier et chercheur",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -6959,7 +6961,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Daimyo et samouraï",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -6999,7 +7001,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier exécutif",
       "hint2": "Ondulation",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -7038,7 +7040,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Noire",
+      "hint1": "Capitaine du 9e navire et médecin",
       "hint2": "Maladie",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -7077,8 +7079,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marine",
-      "hint2": "Vice-amiral",
+      "hint1": "Vice-Amiral",
+      "hint2": "Humain",
       "hint3": "Armement",
       "firstAppearance": {
         "$manga": "Chapitre 1061",
@@ -7188,7 +7190,7 @@
       ],
       "hint1": "Lieutenant Colonel",
       "hint2": "Silence",
-      "hint3": "Marines",
+      "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": {
         "$manga": "Chapitre 761",
         "$anime": "Épisode 700"
@@ -7309,8 +7311,8 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "New Fish-Man Pirates",
-      "hint2": "ドスン",
+      "hint1": "Officier pirate",
+      "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 611",
@@ -7395,8 +7397,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Fake Straw Hat Crew",
-      "hint2": "ドリップ",
+      "hint1": "Pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 598",
@@ -7437,7 +7439,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baroque Works",
+      "hint1": "Serveuse de café",
       "hint2": "Taupe",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -7470,9 +7472,9 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Kung-Fu Dugong",
+      "hint1": "Maître de kung-fu",
       "hint2": "Animal",
-      "hint3": "Alabasta",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 161",
         "$anime": "Épisode 96"
@@ -7507,8 +7509,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Rosy Life Riders",
-      "hint2": "デュバル",
+      "hint1": "Chef des Rosy Life Riders",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 491",
@@ -7556,7 +7558,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marine",
+      "hint1": "Satellite « Pensée »",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -7659,7 +7661,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Sept Grands Corsaires",
+      "hint1": "Capitaine pirate",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -7697,8 +7699,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Prodence Kingdom",
-      "hint2": "エリザベローII世",
+      "hint1": "Roi",
+      "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Prodence)",
       "firstAppearance": {
         "$manga": "Chapitre 704",
@@ -7735,7 +7737,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Ancien robot gardien",
       "hint2": "Géant de fer",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -7769,8 +7771,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -7856,7 +7858,7 @@
       "race": [
         "Skypieien"
       ],
-      "hint1": "Skypiea",
+      "hint1": "Dieu autoproclamé",
       "hint2": "Foudre",
       "hint3": "Îles Célestes (Bilca)",
       "firstAppearance": {
@@ -7898,7 +7900,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage des Pirates Gecko",
+      "hint1": "Capitaine pirate",
       "hint2": "Ombres",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -7932,8 +7934,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Davy",
-      "hint2": "Épouse de Rocks D. Xebec",
+      "hint1": "Épouse de Rocks D. Xebec",
+      "hint2": "Humain",
       "hint3": "West Blue (God Valley)",
       "firstAppearance": "Chapitre 1159",
       "difficulty": "Impossible"
@@ -7965,8 +7967,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Erbaf",
-      "hint2": "Reine",
+      "hint1": "Reine",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1153",
       "difficulty": "Impossible"
@@ -8008,7 +8010,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Doyen (Finances)",
       "hint2": "Cheval squelette",
       "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
@@ -8108,8 +8110,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
-      "hint2": "Chevaliers de Dieu",
+      "hint1": "Doyen (Science et Défense)",
+      "hint2": "Chef des Chevaliers de Dieu",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": {
         "$manga": "Chapitre 1086",
@@ -8149,7 +8151,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Chevaliers de Dieu",
+      "hint1": "Commandant des Chevaliers de Dieu",
       "hint2": "Cerbère",
       "hint3": "West Blue (God Valley)",
       "firstAppearance": {
@@ -8288,7 +8290,7 @@
         "Humain",
         "Robot"
       ],
-      "hint1": "Équipage du Chapeau de Paille",
+      "hint1": "Charpentier",
       "hint2": "Humain",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -8366,7 +8368,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -8403,7 +8405,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Chef des ninjas d'Orochi",
       "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
@@ -8522,7 +8524,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Cross Guild",
+      "hint1": "Pirate",
       "hint2": "Cire",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -8594,7 +8596,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Pirates Guerriers Géants",
+      "hint1": "Pirate",
       "hint2": "Pirate",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1177",
@@ -8627,7 +8629,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Pirate contrebandier",
       "hint2": "Explosions",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1156",
@@ -8664,7 +8666,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Clan d'Ener",
+      "hint1": "Prêtre",
       "hint2": "Humain",
       "hint3": "Observation",
       "firstAppearance": {
@@ -8707,7 +8709,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baroque Works",
+      "hint1": "Agent de Baroque Works",
       "hint2": "Explosions",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -8740,8 +8742,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Cocoyasi Village",
-      "hint2": "ゲンゾウ",
+      "hint1": "Shérif du village",
+      "hint2": "Humain",
       "hint3": "East Blue (Îles Conomi)",
       "firstAppearance": {
         "$manga": "Chapitre 71",
@@ -8779,7 +8781,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Les Pirates d'Expédition",
+      "hint1": "Médecin pirate",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -8817,7 +8819,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Hors-la-loi",
       "hint2": "Fantômes",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 450",
@@ -8851,9 +8853,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Bras droit de Don Krieg",
+      "hint1": "Commandant de combat",
       "hint2": "Humain",
-      "hint3": "Équipage de Don Krieg",
+      "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 44",
         "$anime": "Épisode 21"
@@ -8900,8 +8902,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Armée Révolutionnaire",
-      "hint2": "Capitaine de l'Armée de l'Est",
+      "hint1": "Capitaine de l'Armée de l'Est",
+      "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Porco)",
       "firstAppearance": {
         "$manga": "Chapitre 1095",
@@ -8938,8 +8940,8 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Mokomo Dukedom",
-      "hint2": "ジョバンニ",
+      "hint1": "Mousquetaire d'Inuarashi",
+      "hint2": "Minks",
       "hint3": "Grand Line (Zou)",
       "firstAppearance": {
         "$manga": "Chapitre 809",
@@ -8975,7 +8977,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier pirate",
       "hint2": "Éclatement",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -9091,7 +9093,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Les Pirates d'Expédition",
+      "hint1": "Cuisinier pirate",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -9124,7 +9126,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Fire Tank",
+      "hint1": "Assassin",
       "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -9174,8 +9176,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP0",
-      "hint2": "ゲルニカ",
+      "hint1": "Agent du Cipher Pol",
+      "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 705",
@@ -9231,7 +9233,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Chevaliers de Dieu",
+      "hint1": "Chevalière de Dieu",
       "hint2": "Flèches",
       "hint3": "Observation",
       "firstAppearance": {
@@ -9265,8 +9267,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -9298,7 +9300,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Armée Révolutionnaire",
+      "hint1": "Maître de karaté des Hommes-Poissons",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -9339,7 +9341,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marine",
+      "hint1": "Ancien Vice-Amiral",
       "hint2": "Humain",
       "hint3": "Armement",
       "firstAppearance": {
@@ -9380,7 +9382,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Les Pirates d'Expédition",
+      "hint1": "Capitaine du 6e navire de la Grande Flotte",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -9417,7 +9419,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Directeur de prison",
       "hint2": "Humain",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -9452,8 +9454,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "半ぞう",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -9492,8 +9494,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Erbaf",
-      "hint2": "Ancien roi",
+      "hint1": "Roi",
+      "hint2": "Géant",
       "hint3": "Conquérant",
       "firstAppearance": {
         "$manga": "Chapitre 1136",
@@ -9527,7 +9529,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Weatheria",
+      "hint1": "Scientifique",
       "hint2": "Homme-Poisson",
       "hint3": "Îles Célestes (Bilca)",
       "firstAppearance": {
@@ -9567,7 +9569,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Takoyaki 8",
+      "hint1": "Vendeur de takoyakis",
       "hint2": "Homme-Poisson poulpe",
       "hint3": "Île des Hommes-Poissons",
       "firstAppearance": {
@@ -9641,8 +9643,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Heracles",
-      "hint2": "ヘラクレス",
+      "hint1": "Explorateur et botaniste",
+      "hint2": "Humain",
       "hint3": "South Blue",
       "firstAppearance": {
         "$manga": "Chapitre 524",
@@ -9679,8 +9681,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines",
-      "hint2": "ひばり",
+      "hint1": "Capitaine de frégate",
+      "hint2": "Humain",
       "hint3": "North Blue",
       "firstAppearance": {
         "$manga": "Chapitre 1061",
@@ -9712,8 +9714,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Higuma Bandits",
-      "hint2": "ヒグマ",
+      "hint1": "Chef de bandits",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 1",
@@ -9746,7 +9748,7 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Pays des Dieux",
+      "hint1": "Créature du Pays des Dieux",
       "hint2": "Serpent",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1128",
@@ -9792,7 +9794,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Royaume des Cerisiers",
+      "hint1": "Médecin",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
       "firstAppearance": {
@@ -9871,7 +9873,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Nouvel Équipage des Hommes-Poissons",
+      "hint1": "Capitaine pirate",
       "hint2": "Homme-Poisson",
       "hint3": "Île des Hommes-Poissons",
       "firstAppearance": {
@@ -9910,7 +9912,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Equipage de Gecko Moria",
+      "hint1": "Médecin",
       "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -9949,7 +9951,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Lion (SMILE)",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
@@ -9992,8 +9994,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Hyougoro Family",
-      "hint2": "ヒョウ五郎",
+      "hint1": "Ancien chef yakuza",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 926",
@@ -10027,8 +10029,8 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "New Fish-Man Pirates",
-      "hint2": "ヒョウゾウ",
+      "hint1": "Mercenaire épéiste",
+      "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 607",
@@ -10099,8 +10101,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Erbaf",
-      "hint2": "Barmaid",
+      "hint1": "Barmaid",
+      "hint2": "Géant",
       "hint3": "South Blue (Île de Samuwanai)",
       "firstAppearance": "Chapitre 1153",
       "difficulty": "Impossible"
@@ -10169,8 +10171,8 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "New Fish-Man Pirates",
-      "hint2": "イカロス・ムッヒ",
+      "hint1": "Officier pirate",
+      "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 611",
@@ -10214,7 +10216,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Roi du monde (dans l'ombre)",
       "hint2": "Inconnu",
       "hint3": "Observation, Conquérant",
       "firstAppearance": "Chapitre 906",
@@ -10252,7 +10254,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Armée Révolutionnaire",
+      "hint1": "Révolutionnaire",
       "hint2": "Ciseaux",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -10303,7 +10305,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Principauté de Mokomo",
+      "hint1": "Souverain du jour de Mokomo",
       "hint2": "Homme-Poisson",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -10338,8 +10340,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Loguetown Arms Shop",
-      "hint2": "いっぽんマツ",
+      "hint1": "Armurier",
+      "hint2": "Humain",
       "hint3": "East Blue (Logue Town)",
       "firstAppearance": {
         "$manga": "Chapitre 97",
@@ -10373,7 +10375,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Royaume des Blocs",
+      "hint1": "Félin géant",
       "hint2": "Félin géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -10449,8 +10451,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Super Spot-Billed Duck Troops",
-      "hint2": "イワンX",
+      "hint1": "Monture royale (Super Canards)",
+      "hint2": "Animal",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
         "$manga": "Chapitre 180",
@@ -10501,7 +10503,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Blanche",
+      "hint1": "Commandant de la 16e division",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -10544,7 +10546,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Loup",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -10588,7 +10590,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Calamité",
       "hint2": "Mammouth",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -10628,8 +10630,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines",
-      "hint2": "ジャンゴ",
+      "hint1": "Capitaine de corvette",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 25",
@@ -10684,7 +10686,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Doyen (Science et Défense)",
       "hint2": "Gyuki",
       "hint3": "Observation, Conquérant",
       "firstAppearance": {
@@ -10719,8 +10721,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP6",
-      "hint2": "ジェリー",
+      "hint1": "Agent du Cipher Pol",
+      "hint2": "Humain",
       "hint3": "South Blue (Île Karaté)",
       "firstAppearance": {
         "$manga": "Chapitre 362",
@@ -10763,7 +10765,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Noire",
+      "hint1": "Capitaine du 1er navire et timonier",
       "hint2": "Force",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -10845,8 +10847,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "地獄弁天",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -10895,7 +10897,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chapeau de Paille",
+      "hint1": "Timonier",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -10929,8 +10931,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1135",
       "difficulty": "Impossible"
@@ -10966,7 +10968,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Capitaine pirate",
       "hint2": "Magnétisme",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1156",
@@ -11001,8 +11003,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Marines",
-      "hint2": "ジョン・ジャイアント",
+      "hint1": "Vice-Amiral",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
         "$manga": "Chapitre 96",
@@ -11073,7 +11075,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officière pirate",
       "hint2": "Art",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -11180,7 +11182,7 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Empereur",
       "hint2": "Dragon azur",
       "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
@@ -11225,7 +11227,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Girafe",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -11311,7 +11313,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Bulles",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -11353,7 +11355,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Armée Révolutionnaire",
+      "hint1": "Commandant de l'Armée du Nord",
       "hint2": "Suie",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -11385,8 +11387,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -11423,7 +11425,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chapeau de Paille",
+      "hint1": "Capitaine des Super Canards",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
@@ -11460,7 +11462,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Équipage des Géants",
+      "hint1": "Ancien gardien de la porte",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -11539,8 +11541,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "風影",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -11565,8 +11567,10 @@
       "arc": "Dressrosa",
       "saga": "Dressrosa",
       "bounty": 57000000,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Jake Jake no Mi"
+      ],
       "gender": "Masculin",
       "status": "Vivant",
       "haki": [],
@@ -11575,8 +11579,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Mogaro Kingdom",
-      "hint2": "ケリー・ファンク",
+      "hint1": "Assassin",
+      "hint2": "Veste (possession)",
       "hint3": "Grand Line (Royaume de Mogaro)",
       "firstAppearance": {
         "$manga": "Chapitre 704",
@@ -11611,8 +11615,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Super Spot-Billed Duck Troops",
-      "hint2": "ケンタロウス",
+      "hint1": "Monture royale (Super Canards)",
+      "hint2": "Animal",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
         "$manga": "Chapitre 180",
@@ -11648,8 +11652,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Directeur",
+      "hint1": "Directeur d'école",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
         "$manga": "Chapitre 1142",
@@ -11797,7 +11801,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Chef des Fourreaux Rouges",
       "hint2": "Vêtements",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -11911,7 +11915,7 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "Tom's Workers",
+      "hint1": "Cheffe de gare",
       "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -11949,8 +11953,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Kouzuki Family",
-      "hint2": "光月スキヤキ",
+      "hint1": "Forgeron de sabres",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 911",
@@ -12023,7 +12027,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Courtisane (oiran)",
       "hint2": "Humain",
       "hint3": "Grand Line (Moby Dick)",
       "firstAppearance": {
@@ -12064,7 +12068,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Shogun",
       "hint2": "Dragon (artificiel)",
       "hint3": "Grand Line (Moby Dick)",
       "firstAppearance": {
@@ -12107,7 +12111,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Daimyo et samouraï",
       "hint2": "Humain",
       "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
@@ -12147,8 +12151,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Krieg Pirates",
-      "hint2": "クリーク",
+      "hint1": "Capitaine pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 45",
@@ -12181,8 +12185,10 @@
         "$anime": "Finale"
       },
       "bounty": 500000000,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Muchi Muchi no Mi"
+      ],
       "gender": "Féminin",
       "status": "Vivant",
       "haki": [
@@ -12194,8 +12200,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines (G-14)",
-      "hint2": "孔雀",
+      "hint1": "Contre-Amiral",
+      "hint2": "Fouets",
       "hint3": "North Blue",
       "firstAppearance": {
         "$manga": "Chapitre 966",
@@ -12235,7 +12241,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -12277,7 +12283,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Royaume des Cerisiers",
+      "hint1": "Médecin en chef",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Drum)",
       "firstAppearance": {
@@ -12314,8 +12320,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Black Cat Pirates",
-      "hint2": "クロ",
+      "hint1": "Capitaine pirate (déguisé en majordome)",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 23",
@@ -12390,7 +12396,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage d'Arlong",
+      "hint1": "Officier pirate",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -12449,7 +12455,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kurozumi",
+      "hint1": "Espion et samouraï",
       "hint2": "Pinceau",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -12514,7 +12520,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shogun",
       "hint2": "Serpent à huit têtes",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
@@ -12635,7 +12641,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Tueur à gages",
       "hint2": "Yakuza",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": "Chapitre 1156",
@@ -12674,7 +12680,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Colisée Corrida",
+      "hint1": "Ancien gladiateur",
       "hint2": "Humain",
       "hint3": "Grand Line (Dressrosa)",
       "firstAppearance": {
@@ -12710,7 +12716,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage du Rumbar",
+      "hint1": "Baleine",
       "hint2": "Homme-Poisson",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -12749,7 +12755,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Noire",
+      "hint1": "Capitaine du 5e navire et navigateur",
       "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -12784,7 +12790,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier pirate",
       "hint2": "Humain",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -12869,7 +12875,7 @@
       "race": [
         "Satellite de Vegapunk"
       ],
-      "hint1": "Marine",
+      "hint1": "Satellite « Mal »",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -12957,7 +12963,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Blanche",
+      "hint1": "Capitaine pirate",
       "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -13012,7 +13018,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Erbaf",
+      "hint1": "Prince",
       "hint2": {
         "$manga": "Dragon Nidhöggr",
         "$anime": "Prince maudit"
@@ -13053,7 +13059,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Roux",
+      "hint1": "Cuisinier",
       "hint2": "Humain",
       "hint3": "Armement",
       "firstAppearance": {
@@ -13085,8 +13091,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Royaume d'Esperia",
-      "hint2": "Prince",
+      "hint1": "Prince",
+      "hint2": "Humain",
       "hint3": "West Blue (Royaume d'Esperia)",
       "firstAppearance": "Chapitre 1183",
       "difficulty": "Impossible"
@@ -13120,7 +13126,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier pirate",
       "hint2": "Tonnes",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -13154,8 +13160,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -13190,7 +13196,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Directeur de prison",
       "hint2": "Poison",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -13224,8 +13230,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "God Valley",
-      "hint2": "Mère de Shanks et Shamrock",
+      "hint1": "Mère de jumeaux",
+      "hint2": "Humain",
       "hint3": "West Blue (God Valley)",
       "firstAppearance": "Chapitre 1158",
       "difficulty": "Impossible"
@@ -13254,8 +13260,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Partys Bar",
-      "hint2": "マキノ",
+      "hint1": "Patronne de bar",
+      "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
       "firstAppearance": {
         "$manga": "Chapitre 1",
@@ -13291,7 +13297,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Famille royale Ryugu",
+      "hint1": "Prince",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -13324,8 +13330,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Fake Straw Hat Crew",
-      "hint2": "マンジャロウ",
+      "hint1": "Pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 598",
@@ -13362,8 +13368,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Chevaliers de Dieu",
-      "hint2": "Chevaliers de Dieu",
+      "hint1": "Chevalier de Dieu",
+      "hint2": "Humain",
       "hint3": "West Blue (Royaume d'Esperia)",
       "firstAppearance": "Chapitre 1185",
       "difficulty": "Impossible"
@@ -13488,7 +13494,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Doyen (Environnement)",
       "hint2": "Itsumade (oiseau)",
       "hint3": "Observation, Conquérant",
       "firstAppearance": {
@@ -13566,7 +13572,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baroque Works",
+      "hint1": "Agent de Baroque Works",
       "hint2": "Humain",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -13611,7 +13617,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Pirate gangster",
       "hint2": "Équipage de Rocks",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1155",
@@ -13698,7 +13704,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Ligue des Primates",
+      "hint1": "Capitaine pirate",
       "hint2": "Humain",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -13738,8 +13744,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage d'Arlong",
-      "hint2": "Humain",
+      "hint1": "Animal de compagnie",
+      "hint2": "Vache de mer",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 73",
@@ -13779,7 +13785,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baroque Works",
+      "hint1": "Agent de Baroque Works",
       "hint2": "Poids",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -13814,8 +13820,8 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "Ryugu Kingdom",
-      "hint2": "左大臣",
+      "hint1": "Ministre",
+      "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 612",
@@ -13849,8 +13855,8 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "Ryugu Kingdom",
-      "hint2": "右大臣",
+      "hint1": "Ministre",
+      "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 612",
@@ -13893,8 +13899,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Cross Guild",
-      "hint2": "モージ",
+      "hint1": "Dompteur",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 9",
@@ -13978,7 +13984,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Espionne et secrétaire",
       "hint2": "Neige",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -14022,7 +14028,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Armée Révolutionnaire",
+      "hint1": "Commandant en chef",
       "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
       "firstAppearance": {
@@ -14181,8 +14187,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Saruyama Alliance",
-      "hint2": "モンブラン・クリケット",
+      "hint1": "Chercheur d'or",
+      "hint2": "Humain",
       "hint3": "North Blue",
       "firstAppearance": {
         "$manga": "Chapitre 227",
@@ -14223,8 +14229,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Lvneel Kingdom",
-      "hint2": "モンブラン・ノーランド",
+      "hint1": "Explorateur et botaniste",
+      "hint2": "Humain",
       "hint3": "North Blue (Royaume de Lvneel)",
       "firstAppearance": {
         "$manga": "Chapitre 286",
@@ -14262,7 +14268,7 @@
         "Humain"
       ],
       "hint1": "Ancien capitaine de la Marine",
-      "hint2": "Morgan à la Hache",
+      "hint2": "Main en forme de hache",
       "hint3": "Shells Town",
       "firstAppearance": {
         "$manga": "Chapitre 4",
@@ -14301,7 +14307,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Pègre",
+      "hint1": "Président de journal",
       "hint2": "Albatros",
       "hint3": "Journal économique mondial",
       "firstAppearance": {
@@ -14330,8 +14336,10 @@
       "arc": "Whole Cake",
       "saga": "Whole Cake",
       "bounty": 293000000,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Oshi Oshi no Mi"
+      ],
       "gender": "Indéterminé",
       "status": "Vivant",
       "haki": [
@@ -14343,8 +14351,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Revolutionary Army (West Army)",
-      "hint2": "モーリー",
+      "hint1": "Commandant de l'Armée de l'Ouest",
+      "hint2": "Malléabilité",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 904",
@@ -14378,8 +14386,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Moulon",
-      "hint2": "Chef de famille",
+      "hint1": "Chef de famille",
+      "hint2": "Humain",
       "hint3": "West Blue (Royaume d'Esperia)",
       "firstAppearance": "Chapitre 1183",
       "difficulty": "Impossible"
@@ -14422,8 +14430,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Fake Straw Hat Crew",
-      "hint2": "マウンブルテン",
+      "hint1": "Pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 598",
@@ -14459,7 +14467,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Franky",
+      "hint1": "Barmaids",
       "hint2": "Humain",
       "hint3": "Water Seven",
       "firstAppearance": {
@@ -14493,8 +14501,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Pays des Dieux",
-      "hint2": "Corbeau",
+      "hint1": "Corbeau messager",
+      "hint2": "Animal",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1128",
       "difficulty": "Impossible"
@@ -14536,7 +14544,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chapeau de Paille",
+      "hint1": "Navigatrice",
       "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -14585,8 +14593,8 @@
       "race": [
         "Homie"
       ],
-      "hint1": "Big Mom Pirates",
-      "hint2": "ナポレオン",
+      "hint1": "Arme vivante",
+      "hint2": "Bicorne",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 651",
@@ -14636,7 +14644,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Nefertari",
+      "hint1": "Roi",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
@@ -14680,7 +14688,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chapeau de Paille",
+      "hint1": "Princesse",
       "hint2": "Humain",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
@@ -14731,7 +14739,7 @@
         "Minks",
         "Robot"
       ],
-      "hint1": "Principauté de Mokomo",
+      "hint1": "Souverain de la nuit de Mokomo",
       "hint2": "Cyborg",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -14808,7 +14816,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP9",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -14944,7 +14952,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chapeau de Paille",
+      "hint1": "Archéologue",
       "hint2": "Éclosion",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -14977,8 +14985,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Usopp Pirates (disbanded)",
-      "hint2": "にんじん",
+      "hint1": "Pirate pour de faux",
+      "hint2": "Humain",
       "hint3": "East Blue (Archipel des Gekko)",
       "firstAppearance": {
         "$manga": "Chapitre 23",
@@ -15010,8 +15018,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Bell-mère's mikan",
-      "hint2": "ノジコ",
+      "hint1": "Cultivatrice de mandarines",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 70",
@@ -15051,7 +15059,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Thriller Bark",
+      "hint1": "Zombie spécial",
       "hint2": "Géant",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -15086,7 +15094,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Pirate",
       "hint2": "Équipage de Rocks",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1155",
@@ -15133,7 +15141,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Clan d'Ener",
+      "hint1": "Prêtre",
       "hint2": "Géant",
       "hint3": "Observation",
       "firstAppearance": {
@@ -15170,7 +15178,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Équipage des Géants",
+      "hint1": "Ancien gardien de la porte",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -15204,8 +15212,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -15245,7 +15253,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Grande Flotte du Chapeau de Paille",
+      "hint1": "Capitaine du 7e navire de la Grande Flotte",
       "hint2": "Humain",
       "hint3": "Grand Line (Royaume de Standing)",
       "firstAppearance": {
@@ -15285,7 +15293,7 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "Famille royale Ryugu",
+      "hint1": "Reine",
       "hint2": "Sirène",
       "hint3": "Observation",
       "firstAppearance": {
@@ -15361,7 +15369,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Spinosaure",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -15436,8 +15444,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Criminal brand",
-      "hint2": "パッパグ",
+      "hint1": "Styliste",
+      "hint2": "Animal",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
         "$manga": "Chapitre 490",
@@ -15471,8 +15479,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baratie",
-      "hint2": "パティ",
+      "hint1": "Cuisinier",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 44",
@@ -15509,7 +15517,7 @@
       ],
       "hint1": "Charpentier",
       "hint2": "Humain",
-      "hint3": "Galley-La Company",
+      "hint3": "Grand Line (Water Seven)",
       "firstAppearance": {
         "$manga": "Chapitre 323",
         "$anime": "Épisode 230"
@@ -15544,8 +15552,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Krieg Pirates",
-      "hint2": "パール",
+      "hint1": "Commandant d'unité",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 54",
@@ -15599,7 +15607,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Pirates de Nox",
+      "hint1": "Capitaine des Gardiens",
       "hint2": "Homme-Poisson",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -15635,7 +15643,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Galley-La Company",
+      "hint1": "Contremaître charpentier",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
       "firstAppearance": {
@@ -15687,7 +15695,7 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Pirates de Big Mom",
+      "hint1": "Combattant",
       "hint2": "Sulong",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -15833,7 +15841,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier exécutif",
       "hint2": "Pierre",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -15870,8 +15878,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Usopp Pirates (disbanded)",
-      "hint2": "ピーマン",
+      "hint1": "Pirate pour de faux",
+      "hint2": "Humain",
       "hint3": "East Blue (Archipel des Gekko)",
       "firstAppearance": {
         "$manga": "Chapitre 23",
@@ -15906,8 +15914,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Polo",
-      "hint2": "Capitaine",
+      "hint1": "Capitaine pirate",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1162",
       "difficulty": "Impossible"
@@ -15949,7 +15957,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Bluejam",
+      "hint1": "Pirate",
       "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
       "firstAppearance": {
@@ -16010,7 +16018,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Blanche",
+      "hint1": "Commandant de la 2e division",
       "hint2": "Feu",
       "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
@@ -16045,8 +16053,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Charlotte Family ‡",
-      "hint2": "パウンド",
+      "hint1": "Ancien mari de Big Mom",
+      "hint2": "Humain",
       "hint3": "Grand Line (Nouveau Monde)",
       "firstAppearance": {
         "$manga": "Chapitre 831",
@@ -16092,8 +16100,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines (G-14)",
-      "hint2": "プリンス・グルス",
+      "hint1": "Contre-Amiral",
+      "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 966",
@@ -16142,8 +16150,8 @@
       "race": [
         "Homie"
       ],
-      "hint1": "Big Mom Pirates",
-      "hint2": "プロメテウス",
+      "hint1": "Arme vivante",
+      "hint2": "Soleil",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 827",
@@ -16191,7 +16199,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marine",
+      "hint1": "Satellite « Sagesse »",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -16221,8 +16229,10 @@
       "arc": "Wano Kuni",
       "saga": "Wano",
       "bounty": 1320000000,
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Zoan Antique",
+      "devilFruit": [
+        "Ryu Ryu no Mi modèle Brachiosaure"
+      ],
       "gender": "Masculin",
       "status": "Vivant",
       "haki": [
@@ -16235,8 +16245,8 @@
         "Humain",
         "Robot"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "クイーン",
+      "hint1": "Calamité",
+      "hint2": "Brachiosaure",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 920",
@@ -16271,7 +16281,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Famille royale d'Erbaf",
+      "hint1": "Marteau de guerre",
       "hint2": "Écureuil Ratatosk",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1130",
@@ -16303,7 +16313,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Pirates Guerriers Géants",
+      "hint1": "Pirate",
       "hint2": "Pirate",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 129",
@@ -16336,8 +16346,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "雷刃",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -16381,7 +16391,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Ninja",
       "hint2": "Parchemins",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -16425,7 +16435,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Riku",
+      "hint1": "Ancienne gladiatrice",
       "hint2": "Humain",
       "hint3": "Observation",
       "firstAppearance": {
@@ -16470,8 +16480,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Royaume d'Esperia",
-      "hint2": "Roi",
+      "hint1": "Roi",
+      "hint2": "Humain",
       "hint3": "West Blue (Royaume d'Esperia)",
       "firstAppearance": "Chapitre 1183",
       "difficulty": "Impossible"
@@ -16506,7 +16516,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Colisée Corrida",
+      "hint1": "Roi",
       "hint2": "Humain",
       "hint3": "Grand Line (Dressrosa)",
       "firstAppearance": {
@@ -16547,7 +16557,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Princesse",
       "hint2": "Regard (lire les pensées)",
       "hint3": "Grand Line (Dressrosa)",
       "firstAppearance": {
@@ -16587,7 +16597,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Chevaliers de Dieu",
+      "hint1": "Chevalier de Dieu",
       "hint2": "Kirin",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": "Chapitre 1140",
@@ -16619,8 +16629,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Professeure de biologie",
+      "hint1": "Professeure de biologie",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
         "$manga": "Chapitre 1134",
@@ -16654,8 +16664,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines (153rd Branch)",
-      "hint2": "リッパー",
+      "hint1": "Commandant de base",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 7",
@@ -16695,7 +16705,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Les Pirates d'Expédition",
+      "hint1": "Navigateur",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -16740,7 +16750,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP0",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Léopard",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -16799,18 +16809,9 @@
       "race": [
         "Humain"
       ],
-      "hint1": {
-        "$manga": "Équipage de Rocks",
-        "$anime": "Rocks Pirates"
-      },
-      "hint2": {
-        "$manga": "Capitaine",
-        "$anime": "ロックス・D（ディー）・ジーベック"
-      },
-      "hint3": {
-        "$manga": "Armement, Conquérant",
-        "$anime": "West Blue (God Valley)"
-      },
+      "hint1": "Capitaine pirate",
+      "hint2": "Humain",
+      "hint3": "Armement, Conquérant",
       "firstAppearance": {
         "$manga": "Chapitre 1155",
         "$anime": "Épisode 958"
@@ -16845,8 +16846,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Déléguée de classe",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -16933,8 +16934,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "World Government (Rosward Family)",
-      "hint2": "ロズワード・ロズワード聖",
+      "hint1": "Dragon Céleste",
+      "hint2": "Humain",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": {
         "$manga": "Chapitre 497",
@@ -17007,8 +17008,8 @@
         "Lunarien",
         "Buccaneer"
       ],
-      "hint1": "Seraphim (Pacifista)",
-      "hint2": "S（エス）-ベア",
+      "hint1": "Seraphim",
+      "hint2": "Pattes repoussantes (copie)",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
         "$manga": "Chapitre 1062",
@@ -17046,8 +17047,8 @@
         "Lunarien",
         "Humain"
       ],
-      "hint1": "Seraphim (Pacifista)",
-      "hint2": "S（エス）-ホーク",
+      "hint1": "Seraphim",
+      "hint2": "Lames (copie)",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
         "$manga": "Chapitre 1059",
@@ -17085,8 +17086,8 @@
         "Lunarien",
         "Homme-Poisson"
       ],
-      "hint1": "Seraphim (Pacifista)",
-      "hint2": "S（エス）-シャーク",
+      "hint1": "Seraphim",
+      "hint2": "Karaté des Hommes-Poissons",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
         "$manga": "Chapitre 1065",
@@ -17124,8 +17125,8 @@
         "Lunarien",
         "Humain"
       ],
-      "hint1": "Seraphim (Pacifista)",
-      "hint2": "S（エス）-スネーク",
+      "hint1": "Seraphim",
+      "hint2": "Pétrification (copie)",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
         "$manga": "Chapitre 1059",
@@ -17189,7 +17190,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage ASL",
+      "hint1": "Chef d'état-major",
       "hint2": "Feu",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -17225,8 +17226,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Impel Down",
-      "hint2": "サディちゃん",
+      "hint1": "Cheffe des gardes",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 531",
@@ -17266,7 +17267,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Flotte de Happou",
+      "hint1": "Capitaine du 3e navire de la Grande Flotte",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -17306,7 +17307,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Dragon Céleste",
       "hint2": "Humain",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": {
@@ -17345,7 +17346,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Dragon Céleste",
       "hint2": "Humain",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": {
@@ -17421,8 +17422,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Impel Down",
-      "hint2": "サルデス",
+      "hint1": "Chef des geôliers",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 530",
@@ -17516,7 +17517,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Équipage de Barbe Noire",
+      "hint1": "Capitaine du 7e navire",
       "hint2": "Gigantisme",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -17552,8 +17553,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Bellamy Pirates",
-      "hint2": "サーキース",
+      "hint1": "Second",
+      "hint2": "Humain",
       "hint3": "North Blue (Notice)",
       "firstAppearance": {
         "$manga": "Chapitre 222",
@@ -17587,8 +17588,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "猿飛",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -17633,7 +17634,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Tricératops",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -17671,8 +17672,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Chevaliers de Dieu",
-      "hint2": "Chevalière de Dieu",
+      "hint1": "Chevalière de Dieu",
+      "hint2": "Humain",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": "Chapitre 1160",
       "difficulty": "Impossible"
@@ -17717,7 +17718,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Clan d'Ener",
+      "hint1": "Prêtre",
       "hint2": "Géant",
       "hint3": "Observation",
       "firstAppearance": {
@@ -17765,7 +17766,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Erbaf",
+      "hint1": "Navigateur",
       "hint2": "Navigateur",
       "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": "Chapitre 1139",
@@ -17810,7 +17811,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Capitaine pirate et musicien",
       "hint2": "Son",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -17890,7 +17891,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier pirate",
       "hint2": "Nage",
       "hint3": "North Blue",
       "firstAppearance": {
@@ -17926,7 +17927,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marine",
+      "hint1": "Garde du corps de Vegapunk",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -17973,7 +17974,7 @@
       "race": [
         "Satellite de Vegapunk"
       ],
-      "hint1": "Marine",
+      "hint1": "Satellite « Bien »",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -18047,7 +18048,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Chat Noir",
+      "hint1": "Officier pirate",
       "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -18082,8 +18083,8 @@
       "race": [
         "Shandia"
       ],
-      "hint1": "Shandia",
-      "hint2": "シャンディア酋長",
+      "hint1": "Chef de tribu",
+      "hint2": "Shandia",
       "hint3": "Îles Célestes (Skypiea)",
       "firstAppearance": {
         "$manga": "Chapitre 275",
@@ -18167,7 +18168,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -18212,7 +18213,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Doyen (Agriculture)",
       "hint2": "Ver géant",
       "hint3": "Observation",
       "firstAppearance": {
@@ -18252,7 +18253,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Chevaliers de Dieu",
+      "hint1": "Chevalier de Dieu",
       "hint2": "Épines",
       "hint3": "Red Line (Marie-Joie)",
       "firstAppearance": "Chapitre 1140",
@@ -18292,7 +18293,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Rocks",
+      "hint1": "Capitaine pirate",
       "hint2": "Lévitation",
       "hint3": "Grand Line",
       "firstAppearance": "Chapitre 1156",
@@ -18327,7 +18328,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Shimotsuki",
+      "hint1": "Maître de dojo",
       "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -18362,8 +18363,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Shimotsuki Family",
-      "hint2": "霜月コウ三郎",
+      "hint1": "Forgeron de sabres",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 1033",
@@ -18395,7 +18396,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Shimotsuki",
+      "hint1": "Apprentie épéiste",
       "hint2": "Humain",
       "hint3": "East Blue (Village de Shimotsuki)",
       "firstAppearance": {
@@ -18437,7 +18438,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Kozuki",
+      "hint1": "Kunoichi",
       "hint2": "Maturation",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
@@ -18507,8 +18508,10 @@
       "arc": "Impel Down",
       "saga": "Guerre au Sommet",
       "bounty": "?",
-      "devilFruitType": "",
-      "devilFruit": [],
+      "devilFruitType": "Paramecia",
+      "devilFruit": [
+        "Suke Suke no Mi"
+      ],
       "gender": "Masculin",
       "status": "Vivant",
       "haki": [
@@ -18519,8 +18522,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Blackbeard Pirates",
-      "hint2": "シリュウ",
+      "hint1": "Capitaine du 2e navire",
+      "hint2": "Invisibilité",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 538",
@@ -18559,8 +18562,8 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Mokomo Dukedom",
-      "hint2": "シシリアン",
+      "hint1": "Capitaine des Mousquetaires",
+      "hint2": "Minks",
       "hint3": "Grand Line (Zou)",
       "firstAppearance": {
         "$manga": "Chapitre 808",
@@ -18597,8 +18600,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Saruyama Alliance (Shoujou Pirates)",
-      "hint2": "ショウジョウ",
+      "hint1": "Capitaine pirate",
+      "hint2": "Humain",
       "hint3": "South Blue",
       "firstAppearance": {
         "$manga": "Chapitre 226",
@@ -18645,7 +18648,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Clan d'Ener",
+      "hint1": "Prêtre",
       "hint2": "Humain",
       "hint3": "Observation",
       "firstAppearance": {
@@ -18684,7 +18687,7 @@
       "race": [
         "Sirène"
       ],
-      "hint1": "Mermaid Café",
+      "hint1": "Gérante de café et voyante",
       "hint2": "Sirène",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -18718,8 +18721,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines",
-      "hint2": "シシリー",
+      "hint1": "Contre-Amiral",
+      "hint2": "Humain",
       "hint3": "South Blue",
       "firstAppearance": "Chapitre 504",
       "difficulty": "Impossible"
@@ -18794,8 +18797,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1134",
       "difficulty": "Impossible"
@@ -18824,7 +18827,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage d'Arlong",
+      "hint1": "Officier pirate",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -18913,7 +18916,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Chef du Cipher Pol",
       "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -18948,8 +18951,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP9",
-      "hint2": "スパンダイン",
+      "hint1": "Ancien chef du CP9",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 392",
@@ -18992,10 +18995,10 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Cheval (SMILE)",
       "hint3": {
-        "$manga": "Wano Kuni",
+        "$manga": "Grand Line (Pays des Wa)",
         "$anime": "Armement"
       },
       "firstAppearance": {
@@ -19034,7 +19037,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Blanche",
+      "hint1": "Capitaine pirate",
       "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -19069,8 +19072,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines G-1 Branch",
-      "hint2": "ストーカー",
+      "hint1": "Enseigne de vaisseau",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 524",
@@ -19107,7 +19110,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Les Pirates d'Expédition",
+      "hint1": "Charpentier pirate",
       "hint2": "Géant",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -19162,7 +19165,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Scientifique de génie",
       "hint2": "Cerveau",
       "hint3": "Grand Line (Baldimore)",
       "firstAppearance": {
@@ -19198,8 +19201,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Sterry",
-      "hint2": "ステリー",
+      "hint1": "Roi",
+      "hint2": "Humain",
       "hint3": "East Blue (Royaume de Goa)",
       "firstAppearance": {
         "$manga": "Chapitre 586",
@@ -19233,8 +19236,8 @@
       "race": [
         "Animal"
       ],
-      "hint1": "Super Spot-Billed Duck Troops",
-      "hint2": "ストンプ",
+      "hint1": "Monture royale (Super Canards)",
+      "hint2": "Animal",
       "hint3": "Grand Line (Alabasta)",
       "firstAppearance": {
         "$manga": "Chapitre 180",
@@ -19274,7 +19277,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Big Mom",
+      "hint1": "Chef cuisinier",
       "hint2": "Cuisine",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -19331,7 +19334,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP-AIGIS0",
+      "hint1": "Espionne",
       "hint2": "Chauve-souris",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -19368,7 +19371,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Famille Don Quichotte",
+      "hint1": "Officière spéciale",
       "hint2": "Jouets",
       "hint3": "Dressrosa",
       "firstAppearance": {
@@ -19408,7 +19411,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Cavendish",
+      "hint1": "Mercenaire",
       "hint2": "Humain",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -19459,8 +19462,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Marines",
-      "hint2": "Tボーン",
+      "hint1": "Vice-Amiral",
+      "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 365",
@@ -19500,7 +19503,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage de Big Mom",
+      "hint1": "Combattant",
       "hint2": "Œuf",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -19535,8 +19538,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Usopp Pirates (disbanded)",
-      "hint2": "たまねぎ",
+      "hint1": "Pirate pour de faux",
+      "hint2": "Humain",
       "hint3": "East Blue (Archipel des Gekko)",
       "firstAppearance": {
         "$manga": "Chapitre 23",
@@ -19608,7 +19611,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Galley-La Company",
+      "hint1": "Contremaître charpentier",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
       "firstAppearance": {
@@ -19643,8 +19646,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Kouzuki Hiyori",
-      "hint2": "トコ",
+      "hint1": "Kamuro (apprentie courtisane)",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 927",
@@ -19678,7 +19681,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Tom's Workers",
+      "hint1": "Charpentier",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -19713,8 +19716,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Tonjit",
-      "hint2": "トンジット",
+      "hint1": "Nomade sur échasses",
+      "hint2": "Humain",
       "hint3": "Grand Line (Long Ring Long Land)",
       "firstAppearance": {
         "$manga": "Chapitre 304",
@@ -19801,7 +19804,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Doyen (Justice)",
       "hint2": "Sanglier",
       "hint3": "Observation, Conquérant",
       "firstAppearance": {
@@ -19892,7 +19895,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Don Quichotte Family",
+      "hint1": "Officier exécutif",
       "hint2": "Glu",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -20001,8 +20004,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Fake Straw Hat Crew",
-      "hint2": "トルコ",
+      "hint1": "Pirate",
+      "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
         "$manga": "Chapitre 598",
@@ -20044,7 +20047,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Pachycéphalosaure",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -20087,7 +20090,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage des Moines Dépravés",
+      "hint1": "Capitaine pirate",
       "hint2": "Inconnu",
       "hint3": "Îles Célestes (Skypiea)",
       "firstAppearance": {
@@ -20141,7 +20144,7 @@
         "Humain"
       ],
       "hint1": "Tireur d'élite",
-      "hint2": "Dieu Usopp",
+      "hint2": "Lance-pierre",
       "hint3": "Observation",
       "firstAppearance": {
         "$manga": "Chapitre 23",
@@ -20181,7 +20184,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Noire",
+      "hint1": "Capitaine du 3e navire et tireur",
       "hint2": "Téléportation",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -20218,7 +20221,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage des Pirates Volants",
+      "hint1": "Capitaine pirate",
       "hint2": "Cible",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -20260,7 +20263,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Noire",
+      "hint1": "Capitaine du 8e navire",
       "hint2": "Alcool",
       "hint3": "South Blue",
       "firstAppearance": {
@@ -20350,8 +20353,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Thriller Bark Pirates",
-      "hint2": "ビクトリア・シンドリー",
+      "hint1": "Zombie soldat (ex-actrice)",
+      "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
         "$manga": "Chapitre 446",
@@ -20389,7 +20392,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Germa 66",
+      "hint1": "Prince",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
       "firstAppearance": {
@@ -20430,8 +20433,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Vinsmoke Family",
-      "hint2": "ヴィンスモーク・ジャッジ",
+      "hint1": "Roi et scientifique",
+      "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
       "firstAppearance": {
         "$manga": "Chapitre 832",
@@ -20470,7 +20473,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Germa 66",
+      "hint1": "Prince",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
       "firstAppearance": {
@@ -20509,7 +20512,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Germa 66",
+      "hint1": "Princesse",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
       "firstAppearance": {
@@ -20548,7 +20551,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Germa 66",
+      "hint1": "Prince",
       "hint2": "Humain",
       "hint3": "North Blue (Royaume de Germa)",
       "firstAppearance": {
@@ -20588,7 +20591,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de Barbe Blanche",
+      "hint1": "Commandant de la 5e division",
       "hint2": "Humain",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -20623,7 +20626,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Fire Tank",
+      "hint1": "Conseiller",
       "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -20661,7 +20664,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Équipage des Pirates du Soleil",
+      "hint1": "Pirate",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -20697,7 +20700,7 @@
       "race": [
         "Minks"
       ],
-      "hint1": "Principauté de Mokomo",
+      "hint1": "Mousquetaire",
       "hint2": "Minks",
       "hint3": "Grand Line (Zou)",
       "firstAppearance": {
@@ -20732,7 +20735,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "CP7",
+      "hint1": "Agent du Cipher Pol",
       "hint2": "Humain",
       "hint3": "West Blue",
       "firstAppearance": {
@@ -20824,7 +20827,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage aux Cent Bêtes",
+      "hint1": "Shinuchi",
       "hint2": "Tigre à dents de sabre",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -20900,8 +20903,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Professeur de sport",
+      "hint1": "Professeur de sport",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": "Chapitre 1142",
       "difficulty": "Impossible"
@@ -20951,7 +20954,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage de X. Barrels",
+      "hint1": "Capitaine de SWORD",
       "hint2": "Allosaure",
       "hint3": "Armement, Observation",
       "firstAppearance": {
@@ -20997,7 +21000,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Alliance des Ninjas-Pirates-Minks-Samouraïs",
+      "hint1": "Enfant de Kaidou",
       "hint2": "Loup divin",
       "hint3": "Armement, Observation, Conquérant",
       "firstAppearance": {
@@ -21035,7 +21038,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Équipage des Géants",
+      "hint1": "Capitaine pirate",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -21074,7 +21077,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Équipage du Roux",
+      "hint1": "Tireur d'élite",
       "hint2": "Humain",
       "hint3": "Observation",
       "firstAppearance": {
@@ -21109,8 +21112,8 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Beasts Pirates",
-      "hint2": "矢ざえもん",
+      "hint1": "Ninja",
+      "hint2": "Humain",
       "hint3": "Grand Line (Pays des Wa)",
       "firstAppearance": {
         "$manga": "Chapitre 931",
@@ -21157,7 +21160,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "César Clown",
+      "hint1": "Mercenaires tireurs d'élite",
       "hint2": "Humain",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -21192,8 +21195,8 @@
       "race": [
         "Géant"
       ],
-      "hint1": "École du Morse",
-      "hint2": "Élève",
+      "hint1": "Élève",
+      "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
         "$manga": "Chapitre 1134",
@@ -21232,7 +21235,7 @@
       "race": [
         "Satellite de Vegapunk"
       ],
-      "hint1": "Gouvernement Mondial",
+      "hint1": "Satellite « Avidité »",
       "hint2": "Satellite de Vegapunk",
       "hint3": "Grand Line (Egghead)",
       "firstAppearance": {
@@ -21283,7 +21286,7 @@
       "race": [
         "Géant"
       ],
-      "hint1": "Équipage des Géants",
+      "hint1": "Capitaine pirate",
       "hint2": "Géant",
       "hint3": "Grand Line (Erbaf)",
       "firstAppearance": {
@@ -21360,7 +21363,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baroque Works",
+      "hint1": "Agent de Baroque Works",
       "hint2": "Épines",
       "hint3": "Grand Line",
       "firstAppearance": {
@@ -21397,7 +21400,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Galley-La Company",
+      "hint1": "Désosseur de bateaux",
       "hint2": "Humain",
       "hint3": "Grand Line (Water Seven)",
       "firstAppearance": {
@@ -21470,7 +21473,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Baratie",
+      "hint1": "Chef cuisinier",
       "hint2": "Humain",
       "hint3": "East Blue",
       "firstAppearance": {
@@ -21506,7 +21509,7 @@
       "race": [
         "Homme-Poisson"
       ],
-      "hint1": "Nouvel Équipage des Hommes-Poissons",
+      "hint1": "Officier pirate",
       "hint2": "Homme-Poisson",
       "hint3": "Grand Line (Île des Hommes-Poissons)",
       "firstAppearance": {
@@ -21546,8 +21549,8 @@
       "race": [
         "Homie"
       ],
-      "hint1": "Straw Hat Pirates",
-      "hint2": "ゼウス",
+      "hint1": "Arme vivante",
+      "hint2": "Nuage d'orage",
       "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 827",
@@ -21957,7 +21960,7 @@
         "Humain"
       ],
       "hint1": "Membre d'équipage",
-      "hint2": "Casquette « Penguin »",
+      "hint2": "Casquette à inscription",
       "hint3": "North Blue",
       "firstAppearance": {
         "$manga": "Chapitre 498",
@@ -22052,7 +22055,7 @@
       ],
       "hint1": "Ancien capitaine pirate",
       "hint2": "Ancien esclave",
-      "hint3": "Équipage du Heart",
+      "hint3": "Inconnu",
       "firstAppearance": {
         "$manga": "Chapitre 497",
         "$anime": "Épisode 391"
@@ -22835,7 +22838,7 @@
       ],
       "hint1": "Serviteur de Perona",
       "hint2": "Ours en peluche",
-      "hint3": "Thriller Bark",
+      "hint3": "Inconnu",
       "firstAppearance": {
         "$manga": "Chapitre 449",
         "$anime": "Épisode 343"
@@ -23005,7 +23008,7 @@
       ],
       "hint1": "Maître de la Forêt de la Séduction",
       "hint2": "Arbre",
-      "hint3": "Whole Cake Island",
+      "hint3": "Grand Line",
       "firstAppearance": {
         "$manga": "Chapitre 836",
         "$anime": "Épisode 797"
@@ -23563,7 +23566,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Seigneur de Mecha Island",
+      "hint1": "Seigneur d'une île mécanique",
       "hint2": "Inventeur",
       "hint3": "Château Karakuri",
       "firstAppearance": "Film 7 : Le Mecha géant du château Karakuri",
@@ -23702,7 +23705,7 @@
       ],
       "hint1": "Ancien amiral",
       "hint2": "Bras mécanique",
-      "hint3": "Néo-Marine",
+      "hint3": "Armement",
       "firstAppearance": "Film 12 : Z",
       "difficulty": "Moyen"
     },
@@ -23735,7 +23738,7 @@
       ],
       "hint1": "Seconde de Z",
       "hint2": "Rajeunissement",
-      "hint3": "Néo-Marine",
+      "hint3": "Inconnu",
       "firstAppearance": "Film 12 : Z",
       "difficulty": "Difficile"
     },
@@ -23771,7 +23774,7 @@
       ],
       "hint1": "Officier de la Néo-Marine",
       "hint2": "Plantes",
-      "hint3": "Néo-Marine",
+      "hint3": "Inconnu",
       "firstAppearance": "Film 12 : Z",
       "difficulty": "Difficile"
     },
@@ -23805,7 +23808,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Propriétaire du Gran Tesoro",
+      "hint1": "Propriétaire de casino",
       "hint2": "Or",
       "hint3": "Ancien esclave",
       "firstAppearance": "Film 13 : Gold",
@@ -23840,7 +23843,7 @@
       ],
       "hint1": "Concierge",
       "hint2": "Chance",
-      "hint3": "Gran Tesoro",
+      "hint3": "Inconnu",
       "firstAppearance": "Film 13 : Gold",
       "difficulty": "Difficile"
     },
@@ -23873,7 +23876,7 @@
       ],
       "hint1": "Chef de la sécurité",
       "hint2": "Traverser les murs",
-      "hint3": "Gran Tesoro",
+      "hint3": "Inconnu",
       "firstAppearance": "Film 13 : Gold",
       "difficulty": "Difficile"
     },
@@ -23904,7 +23907,7 @@
       ],
       "hint1": "Croupier",
       "hint2": "Masochiste",
-      "hint3": "Gran Tesoro",
+      "hint3": "Inconnu",
       "firstAppearance": "Film 13 : Gold",
       "difficulty": "Impossible"
     },
@@ -23937,7 +23940,7 @@
       ],
       "hint1": "Voleuse et chanteuse",
       "hint2": "Amie de Nami",
-      "hint3": "Gran Tesoro",
+      "hint3": "Inconnu",
       "firstAppearance": "Film 13 : Gold",
       "difficulty": "Moyen"
     },
@@ -23968,7 +23971,7 @@
       "race": [
         "Humain"
       ],
-      "hint1": "Organisateur de l'Expo des Pirates",
+      "hint1": "Organisateur d'événements",
       "hint2": "Ivresse des fêtes",
       "hint3": "Ancien de l'ère de Roger",
       "firstAppearance": "Film 14 : Stampede",
