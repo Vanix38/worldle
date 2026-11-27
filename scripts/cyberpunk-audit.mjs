@@ -32,7 +32,7 @@ const norm = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,
 const CLOSED = {
   gender: ["Homme", "Femme"],
   type: ["Humain", "IA", "Engramme", "Animal"],
-  status: ["Vivant", "Mort", "Inconnu"],
+  status: ["Vivant", "Mort", "Inconnu", "Selon les choix"],
   affiliationType: ["Gang", "Corpo", "Nomades", "Mercenaires", "Forces de l'ordre", "Gouvernement & armée", "Médias & musique"],
   district: ["Watson", "Westbrook", "City Center", "Heywood", "Santo Domingo", "Pacifica", "Dogtown"],
   region: ["Night City", "Badlands", "NUSA", "Japon", "Étranger", "Net", "Orbite"],
@@ -41,8 +41,10 @@ const CLOSED = {
   difficulty: fm.difficulty.order,
 };
 
-/** Les 10 rôles de Cyberpunk (jeu de rôle / 2077). Le reste est un métier. */
-const ROLES = ["Solo", "Netrunner", "Techie", "Nomad", "Lawman", "Media", "Rockerboy", "Fixer", "Medtech", "Corpo", "Exec"];
+/** Les 10 rôles de Cyberpunk (jeu de rôle / 2077) + classes maison. Le reste est un métier. */
+const ROLES = ["Solo", "Netrunner", "Techie", "Nomad", "Lawman", "Media", "Rockerboy", "Fixer", "Medtech", "Corpo", "Exec",
+  // Classes non officielles (validées par Vanix) pour ceux qui n'ont pas de rôle du jeu.
+  "Gangster", "Civil", "Marchand", "Joytoy", "IA"];
 
 /** Valeurs d'occupation qui ne sont pas un métier (lieu, employeur, quête…). */
 const BAD_OCCUPATION = ["Jenkins", "V", "Corpo", "President Myers", "Run This Town", "Ghost Town", "Night City",
@@ -82,6 +84,7 @@ export function problems(c) {
     for (const v of list(c[k])) if (!allowed.includes(v)) out.push(`! ${k} hors liste : ${v}`);
   }
   if (!c.status) out.push("statut vide (affiché « — », vert entre deux vides)");
+  else if (c.status === "Selon les choix") out.push("statut selon les choix");
   if (!c.role) out.push("rôle vide");
   for (const r of list(c.role)) if (!ROLES.includes(r)) out.push(`rôle hors des 10 rôles : ${r}`);
   if (!c.cyberware) out.push("cyberware vide (affiché « Aucun »)");
