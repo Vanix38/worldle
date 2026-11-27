@@ -5231,7 +5231,7 @@
       "origin": "Grand Line (Egghead)",
       "size": 100,
       "race": [
-        "Humain"
+        "Satellite de Vegapunk"
       ],
       "hint1": "Satellite « Pensée »",
       "hint2": "Satellite de Vegapunk",
@@ -5380,7 +5380,7 @@
       "origin": "Grand Line (Egghead)",
       "size": 1050,
       "race": [
-        "Humain"
+        "Robot"
       ],
       "hint1": "Ancien robot gardien",
       "hint2": "Géant de fer",
@@ -7190,10 +7190,10 @@
       "origin": "Grand Line (Zou)",
       "size": 511,
       "race": [
-        "Homme-Poisson"
+        "Minks"
       ],
       "hint1": "Souverain du jour de Mokomo",
-      "hint2": "Homme-Poisson",
+      "hint2": "Minks",
       "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 756",
       "difficulty": "Moyen"
@@ -7680,10 +7680,10 @@
       "origin": "Grand Line (Île des Hommes-Poissons)",
       "size": 301,
       "race": [
-        "Humain"
+        "Homme-Poisson"
       ],
       "hint1": "Timonier",
-      "hint2": "Humain",
+      "hint2": "Homme-Poisson",
       "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 430",
       "difficulty": "Très facile"
@@ -7860,7 +7860,7 @@
       "origin": "Grand Line",
       "size": 710,
       "race": [
-        "Minks"
+        "Humain"
       ],
       "hint1": "Empereur",
       "hint2": "Dragon azur",
@@ -9067,10 +9067,10 @@
       "origin": "West Blue",
       "size": 40000,
       "race": [
-        "Homme-Poisson"
+        "Animal"
       ],
       "hint1": "Baleine",
-      "hint2": "Homme-Poisson",
+      "hint2": "Animal",
       "hint3": "West Blue",
       "firstAppearance": "Épisode 62",
       "difficulty": "Facile"
@@ -9760,7 +9760,7 @@
       "origin": "Grand Line",
       "size": 3600,
       "race": [
-        "Humain"
+        "Animal"
       ],
       "hint1": "Animal de compagnie",
       "hint2": "Vache de mer",
@@ -11184,10 +11184,10 @@
       "origin": "Grand Line (Zou)",
       "size": 233,
       "race": [
-        "Homme-Poisson"
+        "Minks"
       ],
       "hint1": "Capitaine des Gardiens",
-      "hint2": "Homme-Poisson",
+      "hint2": "Minks",
       "hint3": "Armement, Observation",
       "firstAppearance": "Épisode 754",
       "difficulty": "Facile"
@@ -11628,7 +11628,7 @@
       "origin": "Grand Line (Egghead)",
       "size": 341,
       "race": [
-        "Humain"
+        "Satellite de Vegapunk"
       ],
       "hint1": "Satellite « Sagesse »",
       "hint2": "Satellite de Vegapunk",
@@ -13996,7 +13996,7 @@
       "origin": "Grand Line",
       "size": 301,
       "race": [
-        "Homme-Poisson"
+        "Longues-Jambes"
       ],
       "hint1": "Combattant",
       "hint2": "Œuf",
@@ -15181,7 +15181,7 @@
       "origin": "Inconnu",
       "size": 263,
       "race": [
-        "Homme-Poisson"
+        "Humain"
       ],
       "hint1": "Enfant de Kaidou",
       "hint2": "Loup divin",

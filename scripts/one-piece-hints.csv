@@ -117,11 +117,11 @@ drip;Pirate;Humain;East Blue;Drip;manga, anime;Faux Équipage du Chapeau de Pail
 drophy;Serveuse de café;Taupe;Grand Line;Drophy;manga, anime;Baroque Works;Humain;Mogu Mogu no Mi;;Grand Line;
 dugong;Maître de kung-fu;Animal;Grand Line;Dugong;manga, anime;Île de Kumacy;Animal;;;Grand Line;
 duval;Chef des Rosy Life Riders;Humain;Grand Line;Duval;manga, anime;Rosy Life Riders;Humain;;;Grand Line;
-edison;Satellite « Pensée »;Satellite de Vegapunk;Grand Line (Egghead);Edison;manga, anime;Marine;Humain;;;Grand Line (Egghead);
+edison;Satellite « Pensée »;Satellite de Vegapunk;Grand Line (Egghead);Edison;manga, anime;Marine;Satellite de Vegapunk;;;Grand Line (Egghead);
 edward-newgate;Capitaine;Séismes;Quatre Empereurs;Edward Newgate;manga, anime;Équipage de Barbe Blanche;Humain;Gura Gura no Mi;Armement, Observation, Conquérant;Grand Line (Sphinx);
 edward-weevil;Capitaine pirate;Humain;Armement, Observation;Edward Weevil;manga, anime;Sept Grands Corsaires;Humain;;Armement, Observation;Grand Line;
 elizabello-ii;Roi;Humain;Grand Line (Royaume de Prodence);Elizabello II;manga, anime;Royaume de Prodence;Humain;;;Grand Line (Royaume de Prodence);
-emet;Ancien robot gardien;Géant de fer;Grand Line (Egghead);Emet;manga, anime;Gouvernement Mondial;Humain;;;Grand Line (Egghead);
+emet;Ancien robot gardien;Géant de fer;Grand Line (Egghead);Emet;manga, anime;Gouvernement Mondial;Robot;;;Grand Line (Egghead);
 emil;Élève;Géant;Grand Line (Erbaf);Emil;manga;École du Morse;Géant;;;Grand Line (Erbaf);
 emporio-ivankov;Kedétrav;Hormones;Kedétrav;Emporio Ivankov;manga, anime;Armée Révolutionnaire;Humain;Horu Horu no Mi;;Grand Line;
 enel;Dieu autoproclamé;Foudre;Îles Célestes (Bilca);Enel;manga, anime;Skypiea;Skypieien;Goro Goro no Mi;Observation;Îles Célestes (Bilca);
@@ -186,7 +186,7 @@ ideo;Capitaine;Humain;Grand Line;Ideo;manga, anime;Équipage d'Ideo;Humain;;;Gra
 ikaros-much;Officier pirate;Homme-Poisson;Grand Line (Île des Hommes-Poissons);Ikaros Much;manga, anime;Nouvel Équipage des Hommes-Poissons;Homme-Poisson;;;Grand Line (Île des Hommes-Poissons);
 imu;Roi du monde (dans l'ombre);Inconnu;Observation, Conquérant;Imu;manga;Gouvernement Mondial;Humain;?;Observation, Conquérant;Red Line (Marie-Joie);
 inazuma;Révolutionnaire;Ciseaux;South Blue;Inazuma;manga, anime;Armée Révolutionnaire;Humain;Choki Choki no Mi;;South Blue;
-inuarashi;Souverain du jour de Mokomo;Homme-Poisson;Armement, Observation;Inuarashi;manga, anime;Principauté de Mokomo;Homme-Poisson;;Armement, Observation;Grand Line (Zou);
+inuarashi;Souverain du jour de Mokomo;Minks;Armement, Observation;Inuarashi;manga, anime;Principauté de Mokomo;Minks;;Armement, Observation;Grand Line (Zou);
 ipponmatsu;Armurier;Humain;East Blue (Logue Town);Ipponmatsu;manga, anime;Armurerie de Logue Town;Humain;;;East Blue (Logue Town);
 iscat;Félin géant;Félin géant;Grand Line (Erbaf);Iscat;manga, anime;Royaume des Blocs;Humain;;;Grand Line (Erbaf);
 issho;Amiral;Gravité;Armement, Observation;Issho;manga, anime;Marine;Humain;Zushi Zushi no Mi;Armement, Observation;Grand Line;
@@ -200,14 +200,14 @@ jerry;Agent du Cipher Pol;Humain;South Blue (Île Karaté);Jerry;manga, anime;CP
 jesus-burgess;Capitaine du 1er navire et timonier;Force;Armement, Observation;Jesus Burgess;manga, anime;Équipage de Barbe Noire;Humain;Riki Riki no Mi;Armement, Observation;Grand Line;
 jewelry-bonney;Capitaine;Âge;Armement;Jewelry Bonney;manga, anime;Équipage de Bonney;Humain;Toshi Toshi no Mi;Armement;South Blue;
 jigoku-benten;Ninja;Humain;Grand Line (Pays des Wa);Jigoku Benten;manga, anime;Équipage aux Cent Bêtes;Humain;;;Grand Line (Pays des Wa);
-jinbe;Timonier;Humain;Armement, Observation;Jinbe;manga, anime;Équipage du Chapeau de Paille;Humain;;Armement, Observation;Grand Line (Île des Hommes-Poissons);
+jinbe;Timonier;Homme-Poisson;Armement, Observation;Jinbe;manga, anime;Équipage du Chapeau de Paille;Homme-Poisson;;Armement, Observation;Grand Line (Île des Hommes-Poissons);
 johanna;Élève;Géant;Grand Line (Erbaf);Johanna;manga;École du Morse;Géant;;;Grand Line (Erbaf);
 captain-john;Capitaine pirate;Magnétisme;Grand Line;John;manga;Équipage de Rocks;Humain;Jiki Jiki no Mi;;Grand Line;
 john-giant;Vice-Amiral;Géant;Grand Line (Erbaf);John Giant;manga, anime;Marine;Géant;;Armement, Observation;Grand Line (Erbaf);
 johnny;Chasseurs de Primes (avec Yosaku);Humain;East Blue;Johnny;manga, anime;Chasseurs de Primes;Humain;;;East Blue;
 jora;Officière pirate;Art;North Blue;Jora;manga, anime;Famille Don Quichotte;Humain;Ato Ato no Mi;;North Blue;
 joz;Troisième;Diamant;Armement, Observation;Joz;manga, anime;Équipage de Barbe Blanche;Humain;Kira Kira no Mi;Armement, Observation;West Blue;
-kaidou;Empereur;Dragon azur;Armement, Observation, Conquérant;Kaidou;manga, anime;Équipage de Rocks;Minks;Uo Uo no Mi modèle Seiryu;Armement, Observation, Conquérant;Grand Line;
+kaidou;Empereur;Dragon azur;Armement, Observation, Conquérant;Kaidou;manga, anime;Équipage de Rocks;Humain;Uo Uo no Mi modèle Seiryu;Armement, Observation, Conquérant;Grand Line;
 kaku;Agent du Cipher Pol;Girafe;Armement, Observation;Kaku;manga, anime;CP-AIGIS0;Humain;Ushi Ushi no Mi modèle Girafe;Armement, Observation;East Blue;
 kalgara;Shandiass;Humain;Observation;Kalgara;manga, anime;Shandia;Humain;;Observation;Grand Line;
 kalifa;Agent du Cipher Pol;Bulles;Armement, Observation;Kalifa;manga, anime;CP-AIGIS0;Humain;Awa Awa no Mi;Armement, Observation;Grand Line;
@@ -244,7 +244,7 @@ kurozumi-tama;Kunoichi;Domptage (kibi dango);Kuri;Kurozumi Tama;manga, anime;All
 kuzan;Amiral;Glace;Armement, Observation;Kuzan;manga, anime;Équipage de Barbe Noire;Humain;Hie Hie no Mi;Armement, Observation;South Blue (Royaume Vespa);
 kyo;Tueur à gages;Yakuza;Grand Line (Pays des Wa);Kyo;manga;Équipage de Rocks;Humain;;;Grand Line (Pays des Wa);
 kyros;Ancien gladiateur;Humain;Grand Line (Dressrosa);Kyros;manga, anime;Colisée Corrida;Humain;;;Grand Line (Dressrosa);
-laboon;Baleine;Homme-Poisson;West Blue;Laboon;manga, anime;Équipage du Rumbar;Homme-Poisson;;;West Blue;
+laboon;Baleine;Animal;West Blue;Laboon;manga, anime;Équipage du Rumbar;Animal;;;West Blue;
 laffitte;Capitaine du 5e navire et navigateur;Humain;West Blue;Laffitte;manga, anime;Équipage de Barbe Noire;Humain;;;West Blue;
 lao-g;Officier pirate;Humain;North Blue;Lao G;manga, anime;Famille Don Quichotte;Humain;;;North Blue;
 leo;Allié de Équipage du Chapeau de Paille;Couture;Grand Line (Green Bit);Léo;manga, anime;Grande Flotte du Chapeau de Paille;Humain;Nui Nui no Mi;;Grand Line (Green Bit);
@@ -270,7 +270,7 @@ marianne;Agent de Baroque Works;Humain;North Blue;Marianne;manga, anime;Baroque 
 marlon;Pirate gangster;Équipage de Rocks;Grand Line;Marlon;manga;Équipage de Rocks;Humain;;;Grand Line;
 marshall-d-teach;Capitaine;Ténèbres et séismes;Armement, Observation;Marshall D. Teach;manga, anime;Équipage de Barbe Noire;Humain;Yami Yami no Mi, Gura Gura no Mi;Armement, Observation;Grand Line;
 masira;Capitaine pirate;Humain;North Blue;Masira;manga, anime;Ligue des Primates;Humain;;;North Blue;
-meuh-meuh;Animal de compagnie;Vache de mer;Grand Line;Meuh-Meuh;manga, anime;Équipage d'Arlong;Humain;;;Grand Line;
+meuh-meuh;Animal de compagnie;Vache de mer;Grand Line;Meuh-Meuh;manga, anime;Équipage d'Arlong;Animal;;;Grand Line;
 mikita;Agent de Baroque Works;Poids;West Blue;Mikita;manga, anime;Baroque Works;Humain;Kilo Kilo no Mi;;West Blue;
 minister-of-the-left;Ministre;Sirène;Grand Line (Île des Hommes-Poissons);Minister of the Left;manga, anime;Royaume Ryugu;Sirène;;;Grand Line (Île des Hommes-Poissons);
 minister-of-the-right;Ministre;Sirène;Grand Line (Île des Hommes-Poissons);Minister of the Right;manga, anime;Royaume Ryugu;Sirène;;;Grand Line (Île des Hommes-Poissons);
@@ -315,7 +315,7 @@ pappag;Styliste;Animal;Grand Line (Île des Hommes-Poissons);Pappag;manga, anime
 patty;Cuisinier;Humain;East Blue;Patty;manga, anime;Baratie;Humain;;;East Blue;
 paulie;Charpentier;Humain;Grand Line (Water Seven);Paulie;manga, anime;Galley-La Company;Humain;;;Grand Line (Water Seven);
 pearl;Commandant d'unité;Humain;East Blue;Pearl;manga, anime;Équipage de Don Krieg;Humain;;;East Blue;
-pedro;Capitaine des Gardiens;Homme-Poisson;Armement, Observation;Pedro;manga, anime;Pirates de Nox;Homme-Poisson;;Armement, Observation;Grand Line (Zou);
+pedro;Capitaine des Gardiens;Minks;Armement, Observation;Pedro;manga, anime;Pirates de Nox;Minks;;Armement, Observation;Grand Line (Zou);
 peeply-lulu;Contremaître charpentier;Humain;Grand Line (Water Seven);Peeply Lulu;manga, anime;Galley-La Company;Humain;;;Grand Line (Water Seven);
 pekoms;Combattant;Sulong;Armement, Observation;Pekoms;manga, anime;Équipage de Big Mom;Minks;;Armement, Observation;Grand Line (Zou);
 pell;Garde royal;Faucon;Alabarna;Pell;manga, anime;Royaume d'Alabasta;Humain;Tori Tori no Mi modèle Faucon;;Grand Line (Alabasta);
@@ -328,7 +328,7 @@ portgas-d-ace;Commandant de la 2e division;Feu;Armement, Observation, Conquéran
 pound;Ancien mari de Big Mom;Humain;Grand Line (Nouveau Monde);Pound;manga, anime;Famille Charlotte;Humain;;;Grand Line (Nouveau Monde);
 prince-grus;Contre-Amiral;Humain;West Blue;Prince Grus;manga, anime;Marine;Humain;;Armement, Observation;West Blue;
 prometheus;Arme vivante;Soleil;Grand Line;Prometheus;manga, anime;Équipage de Big Mom;Homie;;;Grand Line;
-pythagoras;Satellite « Sagesse »;Satellite de Vegapunk;Grand Line (Egghead);Pythagoras;manga, anime;Marine;Humain;;;Grand Line (Egghead);
+pythagoras;Satellite « Sagesse »;Satellite de Vegapunk;Grand Line (Egghead);Pythagoras;manga, anime;Marine;Satellite de Vegapunk;;;Grand Line (Egghead);
 queen;Calamité;Brachiosaure;Grand Line;Queen;manga, anime;Équipage aux Cent Bêtes;Humain, Robot;Ryu Ryu no Mi modèle Brachiosaure;Armement, Observation;Grand Line;
 ragnir;Marteau de guerre;Écureuil Ratatosk;Grand Line (Erbaf);Ragnir;manga;Famille royale d'Erbaf;Géant;Risu Risu no Mi modèle Ratatoskr;;Grand Line (Erbaf);
 raideen;Pirate;Pirate;Grand Line (Erbaf);Raideen;manga;Équipage des Géants;Géant;;;Grand Line (Erbaf);
@@ -409,7 +409,7 @@ stussy;Espionne;Chauve-souris;Armement, Observation;Stussy;manga, anime;CP-AIGIS
 sugar;Officière spéciale;Jouets;Dressrosa;Sugar;manga, anime;Famille Don Quichotte;Humain;Hobi Hobi no Mi;;North Blue;
 suleiman;Mercenaire;Humain;South Blue;Suleiman;manga, anime;Équipage de Cavendish;Humain;;;South Blue;
 t-bone;Vice-Amiral;Humain;Grand Line;T Bone;manga, anime;Marine;Humain;;Armement, Observation;Grand Line;
-tamago;Combattant;Œuf;Armement, Observation;Tamago;manga, anime;Équipage de Big Mom;Homme-Poisson;Tama Tama no Mi;Armement, Observation;Grand Line;
+tamago;Combattant;Œuf;Armement, Observation;Tamago;manga, anime;Équipage de Big Mom;Longues-Jambes;Tama Tama no Mi;Armement, Observation;Grand Line;
 tamanegi;Pirate pour de faux;Humain;East Blue (Archipel des Gekko);Tamanegi;manga, anime;Équipage d'Usopp;Humain;;;East Blue (Archipel des Gekko);
 tashigi;Colonel;Humain;Armement, Observation;Tashigi;manga, anime;Marine;Humain;;Armement, Observation;East Blue;
 tilestone;Contremaître charpentier;Humain;Grand Line (Water Seven);Tilestone;manga, anime;Galley-La Company;Humain;;;Grand Line (Water Seven);
@@ -446,7 +446,7 @@ who-s-who;Shinuchi;Tigre à dents de sabre;Armement, Observation;Who's-Who;manga
 wiper;Shandias;Humain;Îles Célestes (Skypiea);Wiper;manga, anime;Shandia;Shandia;;;Îles Célestes (Skypiea);
 wolf-elbaph;Professeur de sport;Géant;Grand Line (Erbaf);Wolf;manga;École du Morse;Géant;;;Grand Line (Erbaf);
 x-drake;Capitaine de SWORD;Allosaure;Armement, Observation;X Drake;manga, anime;Équipage de X. Barrels;Humain;Ryu Ryu no Mi modèle Allosaure;Armement, Observation;North Blue;
-yamato;Enfant de Kaidou;Loup divin;Armement, Observation, Conquérant;Yamato;manga, anime;Alliance des Ninjas-Pirates-Minks-Samouraïs;Homme-Poisson;Inu Inu no Mi modèle Okuchi no Makami;Armement, Observation, Conquérant;Inconnu;
+yamato;Enfant de Kaidou;Loup divin;Armement, Observation, Conquérant;Yamato;manga, anime;Alliance des Ninjas-Pirates-Minks-Samouraïs;Humain;Inu Inu no Mi modèle Okuchi no Makami;Armement, Observation, Conquérant;Inconnu;
 yarle;Capitaine pirate;Géant;Grand Line (Erbaf);Yarle;manga, anime;Équipage des Géants;Géant;;;Grand Line (Erbaf);
 yasopp;Tireur d'élite;Humain;Observation;Yasopp;manga, anime;Équipage du Roux;Humain;;Observation;East Blue (Archipel des Gekko);
 yazaemon;Ninja;Humain;Grand Line (Pays des Wa);Yazaemon;manga, anime;Équipage aux Cent Bêtes;Humain;;;Grand Line (Pays des Wa);
