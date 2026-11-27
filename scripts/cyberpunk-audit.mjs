@@ -87,6 +87,7 @@ export function problems(c) {
   if (!c.cyberware) out.push("cyberware vide (affiché « Aucun »)");
   const occ = list(c.occupation);
   if (!occ.length) out.push("indice occupation vide");
+  else if (c.occupation === "Inconnu") out.push("occupation inconnue");
   else if (occ.some((o) => ENGLISH.test(o))) out.push("occupation en anglais");
   for (const o of occ) {
     if (BAD_OCCUPATION.includes(o)) out.push(`occupation pas un métier : ${o}`);
