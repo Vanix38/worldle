@@ -351,8 +351,7 @@
       "aliases": [
         "Daphne",
         "Alex",
-        "Aurore",
-        "Aymeric Cassel"
+        "Aurore"
       ],
       "gender": "Femme",
       "type": "Humain",
@@ -2109,7 +2108,7 @@
       "district": "",
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Samuel Barnett Ellen McLain (divergent Delamain in Coastview), Zach Villa (divergent Delamain in The Glen)",
+      "hint1": "Samuel Barnett, Ellen McLain, Zach Villa",
       "difficulty": "Facile",
       "importance": "Secondaire"
     },
@@ -2155,8 +2154,7 @@
       "id": "dexter-deshawn",
       "name": "Dexter DeShawn",
       "aliases": [
-        "Dex",
-        "Afterlife"
+        "Dex"
       ],
       "gender": "Homme",
       "type": "Humain",
@@ -3979,7 +3977,7 @@
       "district": "",
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Keanu Reeves Dennis Lyxzen (vocalist)",
+      "hint1": "Keanu Reeves, Dennis Lyxzén (chant)",
       "difficulty": "Très facile",
       "importance": "Principal"
     },
@@ -4465,7 +4463,7 @@
       "district": "Westbrook",
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Matthew Yang King Damian Ukeje (vocalist)",
+      "hint1": "Matthew Yang King, Damian Ukeje (chant)",
       "difficulty": "Très facile",
       "importance": "Principal"
     },
@@ -6132,8 +6130,7 @@
       "id": "ofelia-sirawian",
       "name": "Ofelia Sirawian",
       "aliases": [
-        "Patricia",
-        "Bes Isis"
+        "Patricia"
       ],
       "gender": "Femme",
       "type": "Humain",
@@ -6944,8 +6941,7 @@
       "name": "Ronald Malone",
       "aliases": [
         "Pacifica Typhoon",
-        "The DT Prodigy",
-        "V"
+        "The DT Prodigy"
       ],
       "gender": "Homme",
       "type": "Humain",
@@ -7580,8 +7576,7 @@
       "id": "song-so-mi",
       "name": "Song So Mi",
       "aliases": [
-        "Songbird",
-        "Capricorn"
+        "Songbird"
       ],
       "gender": "Femme",
       "type": "Humain",
@@ -8285,8 +8280,7 @@
         "Hannah",
         "Harry Conwell",
         "Victoria",
-        "Victor Wilson",
-        "Aguilar Nubiola"
+        "Victor Wilson"
       ],
       "gender": "Homme, Femme",
       "type": "Humain",
@@ -8421,7 +8415,7 @@
       "district": "",
       "region": "Night City",
       "firstAppearance": "Jeu vidéo",
-      "hint1": "Alex Jordan Sean Power (pre-Patch 2.0)",
+      "hint1": "Alex Jordan, Sean Power",
       "difficulty": "Moyen",
       "importance": "Secondaire"
     },
@@ -8511,8 +8505,7 @@
       "id": "wilky-laguerre",
       "name": "Wilky LaGuerre",
       "aliases": [
-        "Slider",
-        "Cyberspace"
+        "Slider"
       ],
       "gender": "Homme",
       "type": "Humain",
