@@ -41,8 +41,10 @@ const CLOSED = {
   difficulty: fm.difficulty.order,
 };
 
-/** Les 10 rôles de Cyberpunk (jeu de rôle / 2077). Le reste est un métier. */
-const ROLES = ["Solo", "Netrunner", "Techie", "Nomad", "Lawman", "Media", "Rockerboy", "Fixer", "Medtech", "Corpo", "Exec"];
+/** Les 10 rôles de Cyberpunk (jeu de rôle / 2077) + classes maison. Le reste est un métier. */
+const ROLES = ["Solo", "Netrunner", "Techie", "Nomad", "Lawman", "Media", "Rockerboy", "Fixer", "Medtech", "Corpo", "Exec",
+  // Classes non officielles (validées par Vanix) pour ceux qui n'ont pas de rôle du jeu.
+  "Gangster", "Civil", "Marchand", "Joytoy", "IA"];
 
 /** Valeurs d'occupation qui ne sont pas un métier (lieu, employeur, quête…). */
 const BAD_OCCUPATION = ["Jenkins", "V", "Corpo", "President Myers", "Run This Town", "Ghost Town", "Night City",
