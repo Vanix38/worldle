@@ -32,13 +32,13 @@
     },
     "occupation": {
       "header": "Occupation",
-      "fonction": "Indice",
+      "fonction": "Multivalue",
       "hint": {
         "prompt": "Occupation",
         "icon": "FaBriefcase",
         "unlockAfter": 5
       },
-      "description": "Occupation(s) listées dans l’infobox (indice débloqué après 5 tentatives)."
+      "description": "Occupation(s) du perso. Orange si au moins une occupation est commune. Provisoirement en colonne : remettre « fonction »: « Indice » pour en refaire un indice (le bloc « hint » est conservé)."
     },
     "affiliation": {
       "header": "Affiliation",
@@ -102,14 +102,14 @@
       "description": "Surnoms et autres noms (recherche uniquement)."
     },
     "hint1": {
-      "header": "Indice 1",
-      "fonction": "Indice",
+      "header": "Voix / acteur",
+      "fonction": "Multivalue",
       "hint": {
         "prompt": "Voix / acteur",
         "icon": "FaMicrophoneLines",
         "unlockAfter": 10
       },
-      "description": "Doubleur / acteur (voiced_by)."
+      "description": "Doubleur / acteur (voiced_by). Provisoirement en colonne : remettre « fonction »: « Indice » et « header »: « Indice 1 » pour en refaire un indice."
     }
   },
   "fieldPrevalence": {
