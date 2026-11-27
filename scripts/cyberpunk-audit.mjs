@@ -48,8 +48,10 @@ const ROLES = ["Solo", "Netrunner", "Techie", "Nomad", "Lawman", "Media", "Rocke
 const BAD_OCCUPATION = ["Jenkins", "V", "Corpo", "President Myers", "Run This Town", "Ghost Town", "Night City",
   "Tom's Diner", "Info Flash", "Jacked and Coke", "Arasaka Academy", "Braindance", "Braindance parlor"];
 
+const ENGLISH = /\b(Vendor|Officer|Mercenary|Soldier|Driver|Owner|Manager|Leader|Musician|Bartender|Boxer|Priest|Specialist|Doctor|Mechanic|Host|Singer|Reporter|Mayor|Pet|Student|Spy)\b/;
+
 /** Métiers collés sans virgule (deux métiers ou plus dans une seule valeur). */
-const GLUED = /(Vendor|Officer|Agent|Bartender|Mechanic|Owner|Investigator|Inspector|Figure|Leader|leader|Colonel|CEO|President|Musician|Manager|Executive|engineer|Racer|DJ|media|Televangelist|Waiter|vendor|writer|Bouncer|member)\s+\S/;
+const GLUED = /(Vendor|Officer|Bartender|Mechanic|Owner|Investigator|Inspector|Figure|Leader|leader|Colonel|CEO|President|Musician|Manager|Executive|engineer|Racer|DJ|media|Televangelist|Waiter|vendor|writer|Bouncer|member)\s+[A-Z]/;
 
 const names = new Map(chars.map((c) => [norm(c.name), c.id]));
 const personAffiliations = new Set(["D", "V", "David", "Kyoko", "Faraday", "Mr. Hands", "Regina Jones", "Doc Ryder",
@@ -85,7 +87,7 @@ export function problems(c) {
   if (!c.cyberware) out.push("cyberware vide (affiché « Aucun »)");
   const occ = list(c.occupation);
   if (!occ.length) out.push("indice occupation vide");
-  else out.push("occupation en anglais");
+  else if (occ.some((o) => ENGLISH.test(o))) out.push("occupation en anglais");
   for (const o of occ) {
     if (BAD_OCCUPATION.includes(o)) out.push(`occupation pas un métier : ${o}`);
     if (GLUED.test(o)) out.push(`occupation collée : ${o}`);
